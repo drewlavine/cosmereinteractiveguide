@@ -34,6 +34,19 @@ feature ships and note the commit.
   - [ ] Hide content, and whole tabs, that only come from unread books
   - [ ] Move planet maps (1) and appearances (2) into their own tabs
 
+### 4. Universal search
+
+- [ ] Add a search bar to the header banner that searches every kind of data
+      in the guide (systems, planets, characters, locations, shards, magic
+      systems, books, etc.).
+  - [ ] Build one search index covering all data types
+  - [ ] Show results as you type, grouped by type, and link each one to its
+        page
+  - [ ] Support keyboard use (shortcut to focus, arrow keys, Enter, Escape)
+  - [ ] Leave out results, and text in result snippets, from books the reader
+        hasn't marked as read
+  - [ ] Add new data types to the index as they're added to the guide
+
 ## Completed
 
 - [x] Books Read settings: header button and a checklist of all 35 published
