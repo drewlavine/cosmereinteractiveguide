@@ -4,17 +4,15 @@ import {
   DEFAULT_PALETTE,
   GOLD,
   INK_DARK,
-  arcPath,
-  polar,
   ringHalfWidth,
   seededRandom,
 } from './chartTheme'
 import { PlanetMarker } from './SystemChart'
 
-// Same page and title ring as the centered system charts, but with no sun or
-// orbits: every world sits alone in its own pocket of space.
-const WIDTH = 1000
-const HEIGHT = 1574
+// A wide oval cartouche rather than the portrait system charts: there is no
+// sun or orbits, and every world sits alone in its own pocket of space.
+const WIDTH = 1600
+const HEIGHT = 1000
 const TITLE_RING = 58
 const PLANET_RADIUS = 36
 const LABEL_SIZE = 40
@@ -22,42 +20,45 @@ const LABEL_SIZE = 40
 const POCKET_INK = '#dce8ef'
 const cx = WIDTH / 2
 const cy = HEIGHT / 2
-const outerRadius = cy - TITLE_RING - 30
+/** Inner edge of the title ring; the painted space fills this oval. */
+const outer = { rx: cx - 40 - TITLE_RING, ry: cy - 40 - TITLE_RING }
 /** Middle of the dark title ring. */
-const ringRadius = outerRadius + TITLE_RING / 2
+const ring = { rx: outer.rx + TITLE_RING / 2, ry: outer.ry + TITLE_RING / 2 }
 
-/** Zigzag down the page; names sit to the left, so the right column gets the long ones. */
+/** A wave across the page; names sit to the left of each world. */
 const SLOTS = [
-  { x: 330, y: 330 },
-  { x: 700, y: 560 },
-  { x: 330, y: 790 },
-  { x: 700, y: 1030 },
-  { x: 330, y: 1260 },
+  { x: 330, y: 470 },
+  { x: 720, y: 330 },
+  { x: 640, y: 680 },
+  { x: 1090, y: 560 },
+  { x: 1330, y: 370 },
 ]
+
+const onOval = (rx: number, ry: number, t: number) =>
+  [cx + rx * Math.cos(t), cy + ry * Math.sin(t)] as const
+
+/** Left-to-right half of an oval: over the top, or under the bottom. */
+const ovalArc = (rx: number, ry: number, top: boolean) =>
+  `M ${cx - rx} ${cy} A ${rx} ${ry} 0 0 ${top ? 1 : 0} ${cx + rx} ${cy}`
 
 const backgroundStars = (() => {
   const random = seededRandom(1987)
-  return Array.from({ length: 260 }, () => {
-    const angle = random() * Math.PI * 2
-    const dist = Math.sqrt(random()) * (outerRadius - 10)
-    const [x, y] = polar(cx, cy, dist, angle)
+  return Array.from({ length: 360 }, () => {
+    const t = random() * Math.PI * 2
+    const d = Math.sqrt(random()) * 0.97
+    const [x, y] = onOval(outer.rx * d, outer.ry * d, t)
     return { x, y, r: 0.6 + random() * 1.5, opacity: 0.2 + random() * 0.6 }
   })
 })()
 
 export function UnchartedChart({ system }: { system: StarSystem }) {
   const palette = system.palette ?? DEFAULT_PALETTE
-  const visible = Math.asin((WIDTH / 2 - 40) / ringRadius)
-  const titleAngle = (system.name.length * 11 + 70) / ringRadius
-  const starAngles = [
-    ...[-1, 1].flatMap((side) =>
-      [0, 0.5, 1].map(
-        (t) => side * (titleAngle + t * (visible - titleAngle)) - Math.PI / 2,
-      ),
-    ),
-    ...[-1, -0.6, -0.2, 0.2, 0.6, 1].map((t) => Math.PI / 2 + t * visible),
-  ]
-  const captionR = outerRadius - 70
+  // Gold stars evenly round the ring, leaving room for the title.
+  const titleHalf = (system.name.length * 11 + 90) / ring.rx
+  const starAngles = Array.from(
+    { length: 18 },
+    (_, i) => -Math.PI / 2 + (i * Math.PI * 2) / 18,
+  ).filter((t) => Math.abs(t + Math.PI / 2) > titleHalf)
 
   const placed = system.planets.map((planet, i) => {
     const slot = SLOTS[i % SLOTS.length]
@@ -78,13 +79,7 @@ export function UnchartedChart({ system }: { system: StarSystem }) {
     >
       <ChartDefs />
       <defs>
-        <radialGradient
-          id="space-wash"
-          gradientUnits="userSpaceOnUse"
-          cx={cx}
-          cy={cy}
-          r={outerRadius}
-        >
+        <radialGradient id="space-wash">
           {palette.wash.map((color, i) => (
             <stop key={i} offset={[0, 0.35, 0.7, 1][i]} stopColor={color} />
           ))}
@@ -97,10 +92,10 @@ export function UnchartedChart({ system }: { system: StarSystem }) {
         <clipPath id="chart-clip">
           <rect x={18} y={18} width={WIDTH - 36} height={HEIGHT - 36} />
         </clipPath>
-        <path id="title-arc" d={arcPath(cx, cy, ringRadius)} />
+        <path id="title-arc" d={ovalArc(ring.rx, ring.ry, true)} />
         <path
           id="uncharted-caption"
-          d={`M ${cx - captionR} ${cy} A ${captionR} ${captionR} 0 0 0 ${cx + captionR} ${cy}`}
+          d={ovalArc(outer.rx - 50, outer.ry - 50, false)}
         />
         {placed.map(({ planet, x, y }) => (
           <path
@@ -113,7 +108,7 @@ export function UnchartedChart({ system }: { system: StarSystem }) {
 
       <g clipPath="url(#chart-clip)">
         <rect width={WIDTH} height={HEIGHT} fill={palette.sky} />
-        <circle cx={cx} cy={cy} r={outerRadius} fill="url(#space-wash)" />
+        <ellipse cx={cx} cy={cy} {...outer} fill="url(#space-wash)" />
         <g pointerEvents="none">
           {backgroundStars.map((star, i) => (
             <circle
@@ -154,27 +149,28 @@ export function UnchartedChart({ system }: { system: StarSystem }) {
           </g>
         ))}
 
-        <circle
-          cx={cx}
-          cy={cy}
-          r={ringRadius}
-          fill="none"
-          stroke={palette.ring}
-          strokeWidth={TITLE_RING}
-          pointerEvents="none"
-        />
-        <circle
-          cx={cx}
-          cy={cy}
-          r={outerRadius + TITLE_RING}
-          fill="none"
-          stroke={GOLD}
-          strokeWidth={2.5}
-          pointerEvents="none"
-        />
-        {starAngles.map((angle) => {
-          const [x, y] = polar(cx, cy, ringRadius, angle)
-          return <GoldStar key={angle} x={x} y={y} size={11} />
+        <g pointerEvents="none">
+          <ellipse
+            cx={cx}
+            cy={cy}
+            {...ring}
+            fill="none"
+            stroke={palette.ring}
+            strokeWidth={TITLE_RING}
+          />
+          <ellipse
+            cx={cx}
+            cy={cy}
+            rx={outer.rx + TITLE_RING}
+            ry={outer.ry + TITLE_RING}
+            fill="none"
+            stroke={GOLD}
+            strokeWidth={2.5}
+          />
+        </g>
+        {starAngles.map((t) => {
+          const [x, y] = onOval(ring.rx, ring.ry, t)
+          return <GoldStar key={t} x={x} y={y} size={11} />
         })}
 
         <rect
