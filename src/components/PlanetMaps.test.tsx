@@ -7,16 +7,16 @@ import { planetMaps } from '../data/maps'
 import { routes } from '../routes'
 import { BOOKS_READ_KEY } from '../state/booksRead'
 
-const renderRoshar = (read: string[]) => {
+const renderPlanet = (path: string, read: string[]) => {
   localStorage.setItem(BOOKS_READ_KEY, JSON.stringify(read))
   render(
     <RouterProvider
-      router={createMemoryRouter(routes, {
-        initialEntries: ['/systems/rosharan/planets/roshar'],
-      })}
+      router={createMemoryRouter(routes, { initialEntries: [path] })}
     />,
   )
 }
+const renderRoshar = (read: string[]) =>
+  renderPlanet('/systems/rosharan/planets/roshar', read)
 
 const strip = () => screen.getByRole('list', { name: 'Choose a map' })
 
@@ -24,7 +24,9 @@ describe('planet maps', () => {
   it('only references real books', () => {
     const ids = new Set(books.map((b) => b.id))
     for (const map of Object.values(planetMaps).flat())
-      for (const v of map.versions) expect(ids).toContain(v.bookId)
+      for (const v of map.versions)
+        for (const id of [v.bookId, ...(v.alsoIn ?? [])])
+          expect(ids).toContain(id)
   })
 
   it('shows no maps section before any revealing book is read', () => {
@@ -78,5 +80,29 @@ describe('planet maps', () => {
     expect(
       within(strip()).getByRole('button', { name: /^Kholinar/ }),
     ).toHaveAttribute('aria-pressed', 'true')
+  })
+
+  it('maps other planets too, labelling same-book editions', () => {
+    renderPlanet('/systems/scadrian/planets/scadrial', ['final-empire'])
+    const titles = within(strip())
+      .getAllByRole('button')
+      .map((b) => b.querySelector('.map-thumb-title')?.textContent)
+    expect(titles).toEqual(['The Final Empire', 'Luthadel'])
+
+    const editions = screen.queryByRole('group', { name: 'Luthadel editions' })
+    expect(editions).not.toBeInTheDocument()
+  })
+
+  it('names editions from the same book by their edition', async () => {
+    renderPlanet('/systems/selish/planets/sel', ['elantris'])
+    await userEvent.click(
+      within(strip()).getByRole('button', { name: /^Arelon/ }),
+    )
+    const editions = screen.getByRole('group', { name: 'Arelon editions' })
+    expect(
+      within(editions)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['Original', 'Tenth anniversary'])
   })
 })

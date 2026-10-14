@@ -33,18 +33,20 @@ the later book when unsure.
 
 ### 1. Planet maps
 
-- [ ] Add a map to each planet that has one available (e.g. Roshar, Scadrial,
-      Sel, Nalthis, Taldain, Threnody, Lumar).
+- [x] Add a map to each planet that has one available: Roshar, Scadrial, Sel,
+      Nalthis, Taldain and Miral. (No official maps found for Threnody, First of
+      the Sun, Lumar, Komashi, Canticle or the others; their books' endpapers
+      are illustrations.)
   - [x] Roshar proof of concept: a thumbnail strip to switch between maps,
         each labelled with its name and source book, with edition pills for
         maps that changed between books
-  - [ ] List which planets have maps and where they come from
-  - [ ] Store the maps (or links to them) alongside the planet data
-  - [ ] Show the map on the planet detail page, with pan and zoom
-  - [ ] Hide maps from unread books; default to the newest map the reader has
+  - [x] List which planets have maps and where they come from
+  - [x] Store the maps (or links to them) alongside the planet data
+  - [x] Show the map on the planet detail page, with pan and zoom
+  - [x] Hide maps from unread books; default to the newest map the reader has
         unlocked
-  - [ ] Group maps of the same place by era (e.g. Scadrial Era 1 vs Era 2)
-  - [ ] Credit the source and respect its licence
+  - [x] Group maps of the same place by era (e.g. Scadrial Era 1 vs Era 2)
+  - [x] Credit the source and respect its licence
 
 ### 1b. Clickable map regions
 

@@ -82,7 +82,7 @@ export function PlanetMaps({
                   aria-pressed={v === version}
                   onClick={() => setFile(v.file)}
                 >
-                  {bookTitle(v.bookId)}
+                  {v.edition ?? bookTitle(v.bookId)}
                 </button>
               ))}
             </div>
@@ -115,7 +115,13 @@ export function PlanetMaps({
                 onClick={() => selectMap(m)}
               >
                 <img
-                  src={mapThumbUrl(shown.file)}
+                  src={mapThumbUrl(shown)}
+                  // Coppermind sometimes lacks a thumbnail; use the full image.
+                  onError={(event) => {
+                    const full = mapImageUrl(shown.file)
+                    if (event.currentTarget.src !== full)
+                      event.currentTarget.src = full
+                  }}
                   alt=""
                   loading="lazy"
                   draggable={false}

@@ -7,6 +7,10 @@
 
 export interface MapVersion {
   bookId: string
+  /** Pill label when two versions come from the same book, e.g. "Color". */
+  edition?: string
+  /** Collections that reprint the map, e.g. Arcanum Unbounded; reading one also unlocks it. */
+  alsoIn?: string[]
   /** File name on the Coppermind, e.g. "OB_Roshar.jpg". */
   file: string
   width: number
@@ -27,8 +31,11 @@ const UPLOADS = 'https://uploads.coppermind.net'
 
 export const mapImageUrl = (file: string) => `${UPLOADS}/${encodeURI(file)}`
 
-export const mapThumbUrl = (file: string, width = 320) =>
-  `${UPLOADS}/thumb/${encodeURI(file)}/${width}px-${encodeURI(file)}`
+/** A small copy of the map; images no wider than that are used whole. */
+export const mapThumbUrl = (version: MapVersion, width = 320) =>
+  version.width <= width
+    ? mapImageUrl(version.file)
+    : `${UPLOADS}/thumb/${encodeURI(version.file)}/${width}px-${encodeURI(version.file)}`
 
 export const mapSourceUrl = (file: string) =>
   `https://coppermind.net/wiki/File:${encodeURI(file)}`
@@ -351,7 +358,284 @@ export const planetMaps: Record<string, PlanetMap[]> = {
       ],
     },
   ],
+  scadrial: [
+    {
+      id: 'scadrial',
+      title: 'Scadrial',
+      versions: [
+        {
+          bookId: 'lost-metal',
+          file: 'Scadrial_map.png',
+          width: 640,
+          height: 997,
+          caption:
+            'Scadrial after the Catacendre, with the northern and southern continents.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'final-empire',
+      title: 'The Final Empire',
+      versions: [
+        {
+          bookId: 'final-empire',
+          file: 'Final_Empire_Map.jpg',
+          width: 2048,
+          height: 1555,
+          caption: 'A color map of the Final Empire.',
+          artist: STEWART,
+        },
+        {
+          bookId: 'hero-of-ages',
+          file: 'Final_Empire.png',
+          width: 1653,
+          height: 2659,
+          caption:
+            'The dominances of the Final Empire and the historic location of the Well of Ascension.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'elendel-basin',
+      title: 'The Elendel Basin',
+      versions: [
+        {
+          bookId: 'alloy-of-law',
+          file: 'Elendel_Basin.png',
+          width: 795,
+          height: 1200,
+          caption: 'The Elendel Basin, from Elendel to the Roughs.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'luthadel',
+      title: 'Luthadel',
+      versions: [
+        {
+          bookId: 'final-empire',
+          edition: 'Original',
+          file: 'Luthadel.png',
+          width: 1568,
+          height: 1200,
+          caption: 'Luthadel, capital of the Final Empire.',
+          artist: STEWART,
+        },
+        {
+          bookId: 'final-empire',
+          edition: 'Color',
+          file: 'Luthadel-color.jpg',
+          width: 1482,
+          height: 1200,
+          caption: 'A color map of Luthadel.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'urteau',
+      title: 'Urteau',
+      versions: [
+        {
+          bookId: 'hero-of-ages',
+          file: 'Urteau.jpg',
+          width: 1200,
+          height: 800,
+          caption:
+            'Urteau and its canals after the collapse of the Final Empire.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'fadrex-city',
+      title: 'Fadrex City',
+      versions: [
+        {
+          bookId: 'hero-of-ages',
+          file: 'Fadrex_City.jpg',
+          width: 800,
+          height: 1200,
+          caption: 'Fadrex City among its rock formations.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'elendel',
+      title: 'Elendel',
+      versions: [
+        {
+          bookId: 'alloy-of-law',
+          file: 'Elendel.jpg',
+          width: 1589,
+          height: 1200,
+          caption: 'The city of Elendel and its eight octants.',
+          artist: STEWART,
+        },
+        {
+          bookId: 'lost-metal',
+          file: 'Elendel_Map_(The_Lost_Metal).jpeg',
+          width: 1949,
+          height: 1472,
+          caption: 'Elendel and its octants, with landmarks.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'new-seran',
+      title: 'New Seran',
+      versions: [
+        {
+          bookId: 'bands-of-mourning',
+          file: 'New_seran.png',
+          width: 523,
+          height: 800,
+          caption: 'The city of New Seran.',
+          artist: STEWART,
+        },
+      ],
+    },
+  ],
+  sel: [
+    {
+      id: 'opelon',
+      title: 'Opelon',
+      versions: [
+        {
+          bookId: 'elantris',
+          edition: 'Original',
+          file: 'Opelon.gif',
+          width: 749,
+          height: 486,
+          caption: 'The continent of Opelon, from Teod to Fjorden.',
+          artist: 'Jeff Creer',
+        },
+        {
+          bookId: 'elantris',
+          edition: 'Tenth anniversary',
+          file: 'Sycla-Opelon_Map.jpg',
+          width: 1640,
+          height: 2438,
+          caption:
+            'Sycla, called Opelon by the Aonic peoples, hand-painted for the tenth-anniversary edition.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'arelon',
+      title: 'Arelon',
+      versions: [
+        {
+          bookId: 'elantris',
+          edition: 'Original',
+          file: 'Arelon.jpg',
+          width: 923,
+          height: 1384,
+          caption: 'The kingdom of Arelon.',
+          artist: 'Jeff Creer',
+        },
+        {
+          bookId: 'elantris',
+          edition: 'Tenth anniversary',
+          file: 'Arelon_Map.jpg',
+          width: 1640,
+          height: 2438,
+          caption: 'Arelon, hand-painted for the tenth-anniversary edition.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'elantris-and-kae',
+      title: 'Elantris and Kae',
+      versions: [
+        {
+          bookId: 'elantris',
+          file: 'Elantris-Kae_Map.jpg',
+          width: 2323,
+          height: 1721,
+          caption:
+            'Elantris as it was before the Reod, and the neighboring city of Kae.',
+          artist: STEWART,
+        },
+      ],
+    },
+  ],
+  nalthis: [
+    {
+      id: 't-telir',
+      title: "T'Telir",
+      versions: [
+        {
+          bookId: 'warbreaker',
+          file: 'T-Telir.png',
+          width: 1024,
+          height: 634,
+          caption:
+            "T'Telir, copied from a tapestry in the palace of Lightsong the Bold.",
+          artist: 'Shawn Boyles',
+        },
+      ],
+    },
+  ],
+  taldain: [
+    {
+      id: 'dayside',
+      title: 'Dayside',
+      versions: [
+        {
+          bookId: 'white-sand-omnibus',
+          file: 'Dayside_map.jpg',
+          width: 1138,
+          height: 1750,
+          caption: 'The Dayside of Taldain.',
+          artist: 'Jian Guo',
+        },
+      ],
+    },
+    {
+      id: 'kezare',
+      title: 'Kezare',
+      versions: [
+        {
+          bookId: 'white-sand-omnibus',
+          file: 'Kezare_Map.jpg',
+          width: 484,
+          height: 346,
+          caption: 'A rough map of Kezare and its surroundings.',
+          artist: 'Ben McSweeney',
+        },
+      ],
+    },
+  ],
+  miral: [
+    {
+      id: 'kingseat',
+      title: 'Kingseat',
+      versions: [
+        {
+          bookId: 'fires-of-december',
+          file: 'Map_of_Kingseat_by_Tran_Nguyen.jpg',
+          width: 2048,
+          height: 1556,
+          caption: 'Kingseat, built around the corpse of the Megalith.',
+          artist: 'Tran Nguyen',
+        },
+      ],
+    },
+  ],
 }
+
+export const versionUnlocked = (
+  version: MapVersion,
+  hasRead: (bookId: string) => boolean,
+) => [version.bookId, ...(version.alsoIn ?? [])].some(hasRead)
 
 /** Maps with at least one version the reader has unlocked, trimmed to those versions. */
 export function unlockedMaps(
@@ -359,7 +643,7 @@ export function unlockedMaps(
   hasRead: (bookId: string) => boolean,
 ): PlanetMap[] {
   return (planetMaps[planetId] ?? []).flatMap((map) => {
-    const versions = map.versions.filter((v) => hasRead(v.bookId))
+    const versions = map.versions.filter((v) => versionUnlocked(v, hasRead))
     return versions.length ? [{ ...map, versions }] : []
   })
 }

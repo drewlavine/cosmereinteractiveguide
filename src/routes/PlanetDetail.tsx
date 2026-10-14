@@ -4,7 +4,7 @@ import { PlanetGlobe } from '../components/PlanetGlobe'
 import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { books } from '../data/books'
-import { planetMaps } from '../data/maps'
+import { planetMaps, versionUnlocked } from '../data/maps'
 import { spoilerBooks } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useShownSystem } from '../state/reveal'
@@ -62,7 +62,9 @@ export function PlanetDetail() {
 
   const showAll = viewAnyway.has(system.id)
   const unreadMaps = (planetMaps[planet.id] ?? []).flatMap((map) =>
-    map.versions.filter((v) => !hasRead(v.bookId)).map((v) => [v.bookId]),
+    map.versions
+      .filter((v) => !versionUnlocked(v, hasRead))
+      .map((v) => [v.bookId]),
   )
   const spoilers = spoilerBooks([
     ...planet.spoilers.map((id) => [id]),
