@@ -3,16 +3,52 @@
 Planned features for the Cosmere Interactive Guide. Tick a box when the
 feature ships and note the commit.
 
+## Spoiler rule
+
+Applies to every feature, current and future. Nothing is shown until the
+reader has marked as read the book that first reveals it. For example, a
+planet's Shard, magic systems, moons, summary text, maps and locations each
+stay hidden until their revealing book is ticked in Books Read. Hide content
+completely rather than blurring it or showing a placeholder that gives away
+that something exists.
+
 ## Planned
+
+### 0. Spoiler-tag existing data
+
+- [ ] Tag everything already in the guide with the book that first reveals it,
+      and hide it until that book is read.
+  - [ ] Systems and stars on the Cosmere star map
+  - [ ] Planets, including their names, summaries and chart positions
+  - [ ] Shards for each planet
+  - [ ] Magic systems for each planet
+  - [ ] Moons
+  - [ ] A shared helper (e.g. `useRevealed(item)`) used by every component
 
 ### 1. Planet maps
 
 - [ ] Add a map to each planet that has one available (e.g. Roshar, Scadrial,
       Sel, Nalthis, Taldain, Threnody, Lumar).
+  - [x] Roshar proof of concept: a thumbnail strip to switch between maps,
+        each labelled with its name and source book, with edition pills for
+        maps that changed between books
   - [ ] List which planets have maps and where they come from
   - [ ] Store the maps (or links to them) alongside the planet data
   - [ ] Show the map on the planet detail page, with pan and zoom
+  - [ ] Hide maps from unread books; default to the newest map the reader has
+        unlocked
+  - [ ] Group maps of the same place by era (e.g. Scadrial Era 1 vs Era 2)
   - [ ] Credit the source and respect its licence
+
+### 1b. Clickable map regions
+
+- [ ] Make countries and cities on each map clickable, opening a page with
+      information about that place.
+  - [ ] Draw clickable outlines for countries and cities on each map
+  - [ ] Clicking a region opens a page for that place, or opens a regional map
+        if one exists
+  - [ ] Only show regions, and information about them, from books the reader
+        has marked as read
 
 ### 2. Planet appearances
 

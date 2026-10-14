@@ -1,5 +1,6 @@
 import { Link, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
+import { PlanetMaps } from '../components/PlanetMaps'
 import { getPlanet, getSystem } from '../data/systems'
 import { NotFound } from './NotFound'
 
@@ -69,6 +70,8 @@ export function PlanetDetail() {
           </a>
         </div>
       </div>
+
+      <PlanetMaps key={planet.id} planetId={planet.id} />
     </article>
   )
 }
