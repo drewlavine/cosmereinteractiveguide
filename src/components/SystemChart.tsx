@@ -1,5 +1,6 @@
 import type { ChartPalette, OrbitNote, Planet, StarSystem } from '../data/types'
 import { ChartDefs, GoldFrame, GoldStar, InkLabel, SvgLink } from './chart'
+import { PlanetGlobe } from './PlanetGlobe'
 import {
   DEFAULT_PALETTE,
   GOLD,
@@ -8,6 +9,7 @@ import {
   INK_RED,
   arcPath,
   polar,
+  ringHalfWidth,
   seededRandom,
 } from './chartTheme'
 
@@ -133,11 +135,6 @@ export function SystemChart({ system }: { system: StarSystem }) {
           {palette.wash.map((color, i) => (
             <stop key={i} offset={[0, 0.35, 0.7, 1][i]} stopColor={color} />
           ))}
-        </radialGradient>
-        <radialGradient id="mark-shade" cx="0.35" cy="0.3" r="0.8">
-          <stop offset="0" stopColor="#fff" stopOpacity={0.5} />
-          <stop offset="0.4" stopColor="#fff" stopOpacity={0} />
-          <stop offset="1" stopColor="#0b1218" stopOpacity={0.7} />
         </radialGradient>
         <radialGradient id="mark-haze">
           <stop offset="0" stopColor="#fff" stopOpacity={0.9} />
@@ -598,16 +595,13 @@ function OrbitNoteMark({
       {note.body && (
         <g className="chart-mark">
           <title>{note.body.title}</title>
-          <circle
+          <PlanetGlobe
+            planet={{ id: `orbit-note-${note.orbit}`, color: note.body.color }}
             cx={cx}
             cy={cy - r}
-            r={radius + 4}
-            fill="#e9eef0"
-            stroke={INK_DARK}
-            strokeWidth={2}
+            r={radius}
           />
-          <circle cx={cx} cy={cy - r} r={radius} fill={note.body.color} />
-          <circle cx={cx} cy={cy - r} r={radius} fill="url(#mark-shade)" />
+          <circle cx={cx} cy={cy - r} r={radius + 4} fill="transparent" />
         </g>
       )}
     </g>
@@ -732,8 +726,6 @@ function Sun({
   )
 }
 
-const RING_TILT = 12
-
 function PlanetMarker({
   planet,
   systemId,
@@ -757,16 +749,14 @@ function PlanetMarker({
   /** Which side of a double planet this is; its label goes on that side. */
   pairSide?: -1 | 1
 }) {
-  const gradientId = `planet-shade-${planet.id}`
   const named = planet.moons.filter((m) => m.name)
   const unnamed = planet.moons.filter((m) => !m.name)
-  const ring = { rx: r * 1.75, ry: r * 0.42 }
   // Moon orbits were tuned for a 24-unit planet; scale them with the planet.
   const k = r / BASE_PLANET_RADIUS
   // How far decorations reach from the planet's centre, so labels clear them.
   const extent = Math.max(
     r + 4,
-    planet.rings ? ring.rx : 0,
+    planet.rings ? ringHalfWidth(r, planet.ringTilt) : 0,
     unnamed.length ? r + 28 : 0,
     named.length ? r + (22 + (named.length - 1) * 12) * k : 0,
   )
@@ -781,20 +771,6 @@ function PlanetMarker({
       className="chart-planet"
     >
       <title>{planet.name}: click for details</title>
-      <defs>
-        <radialGradient id={gradientId} cx="0.35" cy="0.3" r="0.8">
-          <stop offset="0" stopColor="#fff" stopOpacity={0.55} />
-          <stop offset="0.35" stopColor={planet.color} />
-          <stop offset="1" stopColor="#0b1218" stopOpacity={0.9} />
-        </radialGradient>
-        {planet.glow && (
-          <radialGradient id={`${gradientId}-glow`}>
-            <stop offset="0.45" stopColor={planet.glow} stopOpacity={0.85} />
-            <stop offset="1" stopColor={planet.glow} stopOpacity={0} />
-          </radialGradient>
-        )}
-      </defs>
-
       <InkLabel
         pathId={pathId}
         offset={pairSide === 1 ? arcPos + extent + 18 : arcPos - extent - 18}
@@ -828,6 +804,7 @@ function PlanetMarker({
               stroke={INK_DARK}
               strokeWidth={1.3}
             />
+            <MoonHalo cx={mx} cy={my} r={5 * Math.max(k, 0.6)} />
             <circle
               cx={mx}
               cy={my}
@@ -858,67 +835,31 @@ function PlanetMarker({
         const angle = ((-110 + (360 / unnamed.length) * i) * Math.PI) / 180
         const [mx, my] = polar(cx, cy, r + 14 + (i % 2) * 10, angle)
         return (
-          <circle
-            key={i}
-            cx={mx}
-            cy={my}
-            r={4.5}
-            fill={moon.color}
-            stroke={INK_DARK}
-            strokeWidth={1}
-            pointerEvents="none"
-          />
+          <g key={i} pointerEvents="none">
+            <MoonHalo cx={mx} cy={my} r={4.5} />
+            <circle
+              cx={mx}
+              cy={my}
+              r={4.5}
+              fill={moon.color}
+              stroke={INK_DARK}
+              strokeWidth={1}
+            />
+          </g>
         )
       })}
 
-      {planet.rings && (
-        <ellipse
-          cx={cx}
-          cy={cy}
-          rx={ring.rx}
-          ry={ring.ry}
-          transform={`rotate(${RING_TILT} ${cx} ${cy})`}
-          fill="none"
-          stroke={INK_DARK}
-          strokeWidth={2}
-          pointerEvents="none"
-        />
-      )}
-
-      {planet.glow && (
-        <circle
-          cx={cx}
-          cy={cy}
-          r={r * 1.9}
-          fill={`url(#${gradientId}-glow)`}
-          pointerEvents="none"
-        />
-      )}
-
       <g className="chart-planet-body">
+        <PlanetGlobe planet={planet} cx={cx} cy={cy} r={r} />
         <circle
+          className="chart-planet-hit"
           cx={cx}
           cy={cy}
           r={r + 4}
-          fill="#e9eef0"
-          stroke={INK_DARK}
-          strokeWidth={2}
+          fill="transparent"
+          strokeWidth={4}
         />
-        <circle cx={cx} cy={cy} r={r} fill={planet.color} />
-        <circle cx={cx} cy={cy} r={r} fill={`url(#${gradientId})`} />
       </g>
-
-      {/* Front half of the rings passes over the planet. */}
-      {planet.rings && (
-        <path
-          d={`M ${cx - ring.rx} ${cy} A ${ring.rx} ${ring.ry} 0 0 0 ${cx + ring.rx} ${cy}`}
-          transform={`rotate(${RING_TILT} ${cx} ${cy})`}
-          fill="none"
-          stroke={INK_DARK}
-          strokeWidth={2}
-          pointerEvents="none"
-        />
-      )}
 
       <text
         className="chart-planet-hint"
@@ -936,4 +877,9 @@ function PlanetMarker({
       </text>
     </SvgLink>
   )
+}
+
+/** The pale wash the charts paint behind every moon. */
+function MoonHalo({ cx, cy, r }: { cx: number; cy: number; r: number }) {
+  return <circle cx={cx} cy={cy} r={r + 3} fill="#fff" fillOpacity={0.6} />
 }

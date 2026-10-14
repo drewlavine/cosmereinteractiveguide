@@ -102,6 +102,18 @@ describe('routes', () => {
     expect(screen.getByText('Rings')).toBeInTheDocument()
   })
 
+  it('paints the planet page globe like the chart, rings and all', () => {
+    const { container } = renderAt('/systems/selish/planets/ralen')
+    const globe = container.querySelector('svg.planet-detail-globe')
+    expect(globe).not.toBeNull()
+    // Banded gas giant whose ring passes behind and then in front of it,
+    // each half inked over a pale edge.
+    expect(globe?.querySelector('filter[id$="-brush"]')).not.toBeNull()
+    expect(
+      globe?.querySelectorAll('g[transform^="rotate"] > path'),
+    ).toHaveLength(4)
+  })
+
   it('shows the Threnodite planets in order', () => {
     renderAt('/systems/threnodite')
     const names = screen

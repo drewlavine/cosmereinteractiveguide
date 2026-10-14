@@ -1,4 +1,5 @@
 import { Link, useParams } from 'react-router'
+import { PlanetGlobe } from '../components/PlanetGlobe'
 import { getPlanet, getSystem } from '../data/systems'
 import { NotFound } from './NotFound'
 
@@ -34,11 +35,18 @@ export function PlanetDetail() {
       </nav>
 
       <div className="planet-detail-body">
-        <span
-          className="planet-detail-sphere"
-          style={{ background: planet.color }}
+        <svg
+          className="planet-detail-globe"
+          viewBox="-200 -200 400 400"
           aria-hidden
-        />
+        >
+          <PlanetGlobe
+            planet={planet}
+            cx={0}
+            cy={0}
+            r={planet.rings ? 100 : 120}
+          />
+        </svg>
         <div>
           <h1 id="planet-title">{planet.name}</h1>
           {planet.altName && (

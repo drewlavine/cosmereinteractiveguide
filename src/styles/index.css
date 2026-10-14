@@ -202,7 +202,8 @@ h3 {
   transform: scale(1.3);
 }
 
-.chart-planet:focus-visible .chart-planet-body circle:first-child {
+.chart-planet:focus-visible .chart-planet-body circle:first-child,
+.chart-planet:focus-visible .chart-planet-hit {
   stroke: var(--gold);
   stroke-width: 4;
 }
@@ -326,17 +327,11 @@ dd {
   align-items: flex-start;
 }
 
-.planet-detail-sphere {
+.planet-detail-globe {
   flex: none;
-  width: 160px;
-  height: 160px;
-  border: 4px solid #e9eef0;
-  border-radius: 50%;
-  outline: 2px solid var(--slate-deep);
-  box-shadow:
-    inset -24px -24px 48px rgba(0, 0, 0, 0.6),
-    inset 18px 18px 30px rgba(255, 255, 255, 0.25),
-    0 0 40px rgba(212, 165, 64, 0.2);
+  width: 240px;
+  height: 240px;
+  overflow: visible;
 }
 
 .planet-detail h1 {

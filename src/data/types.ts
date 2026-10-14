@@ -4,6 +4,13 @@ export interface Moon {
   color: string
 }
 
+/**
+ * mottled: soft painted blotches (the default). banded: gas-giant brush bands.
+ * cratered: pocked rock. marbled: swirling veins. tidal: Taldain's lit and dark halves.
+ */
+export type PlanetSurface =
+  'mottled' | 'banded' | 'cratered' | 'marbled' | 'tidal'
+
 export interface Planet {
   id: string
   name: string
@@ -21,6 +28,12 @@ export interface Planet {
   /** Relative drawn size on the chart (1 = default). */
   size?: number
   rings?: boolean
+  /** Ring angle in degrees; 90 stands the rings upright. */
+  ringTilt?: number
+  /** How the globe is painted, matched to its in-world chart. */
+  surface?: PlanetSurface
+  /** Second paint color for bands, veins and the like. */
+  accent?: string
   /** Color of a soft halo drawn around the planet. */
   glow?: string
   dwarf?: boolean

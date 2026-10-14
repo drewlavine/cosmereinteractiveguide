@@ -15,6 +15,40 @@ export function seededRandom(seed: number) {
   }
 }
 
+/** Stable numeric seed from a string, e.g. a planet id. */
+export function hashString(text: string) {
+  let h = 2166136261
+  for (let i = 0; i < text.length; i++)
+    h = Math.imul(h ^ text.charCodeAt(i), 16777619)
+  return h >>> 0
+}
+
+/** Blend two #rrggbb colors; t = 0 gives a, t = 1 gives b. */
+export function mixColor(a: string, b: string, t: number) {
+  const channel = (hex: string, i: number) =>
+    parseInt(hex.slice(1 + i * 2, 3 + i * 2), 16)
+  return `#${[0, 1, 2]
+    .map((i) =>
+      Math.round(channel(a, i) + (channel(b, i) - channel(a, i)) * t)
+        .toString(16)
+        .padStart(2, '0'),
+    )
+    .join('')}`
+}
+
+/** Default ring angle and ring size relative to the planet's radius. */
+export const RING_TILT = 12
+export const RING_SCALE = { rx: 1.75, ry: 0.42 }
+
+/** Half-width of a planet's rings as drawn, for keeping labels clear of them. */
+export function ringHalfWidth(r: number, tilt = RING_TILT) {
+  const t = (tilt * Math.PI) / 180
+  return Math.hypot(
+    r * RING_SCALE.rx * Math.cos(t),
+    r * RING_SCALE.ry * Math.sin(t),
+  )
+}
+
 /** Palette of the Rosharan chart; used for systems without their own. */
 export const DEFAULT_PALETTE: ChartPalette = {
   wash: ['#f2f8fa', '#c9dde4', '#7d98a6', '#4b6676'],
