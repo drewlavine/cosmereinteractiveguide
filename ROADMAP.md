@@ -58,6 +58,29 @@ the later book when unsure.
   - [ ] Only show regions, and information about them, from books the reader
         has marked as read
 
+**Plan (chosen): shaded regions + city pins**
+
+- Draw on top of each map with an SVG overlay inside the existing pan/zoom
+  frame, so it zooms and pans with the map (no map library needed).
+- Countries and regions are outlines that highlight on hover or focus; cities
+  are pins. Each opens its location page.
+- Outlines and pins are stored separately for each map version, because every
+  version is different art. Coordinates are in image pixels.
+- Add a dev-only drawing tool: click points on the map to trace an outline or
+  drop a pin, then copy the result as data.
+- Each location carries its own `revealedIn` tag. A shape shows only when its
+  map version is unlocked and its location is revealed.
+- Add an "Interactive map" section above the existing "Maps" gallery, with a
+  keyboard-friendly list of places beside the map.
+- Location pages at `/systems/:system/planets/:planet/locations/:location`,
+  with a summary, parent place, "Stories set here" and "Mentioned in", all
+  spoiler-tagged. These pages also feed the Locations tab (item 5) and the
+  universal search (item 4).
+- Coppermind has no clickable-map data to reuse, so all shapes are traced by
+  hand. Coppermind articles are the source for location page content.
+- Proof of concept: Sel. Do the Opelon continent map (Original) with nation
+  outlines first, then the Arelon map (Original) with city pins.
+
 ### 2. Planet appearances
 
 - [ ] Show the books and other works each planet is featured or mentioned in.
