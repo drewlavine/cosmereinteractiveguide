@@ -28,6 +28,8 @@ function allTags(): Reveal[] {
         ...p.shards,
         ...p.magicSystems,
         ...p.moons,
+        ...(p.settingOf ?? []),
+        ...(p.mentionedIn ?? []),
       ])
         tags.push(item.revealedIn)
     }
@@ -41,6 +43,16 @@ describe('spoiler tags', () => {
       expect(tag.length).toBeGreaterThan(0)
       for (const id of tag) expect(bookIds).toContain(id)
     }
+  })
+
+  it('never lists a book as both setting and mention', () => {
+    for (const s of systems)
+      for (const p of s.planets) {
+        const set = new Set(p.settingOf?.map((x) => x.bookId))
+        for (const m of p.mentionedIn ?? []) expect(set).not.toContain(m.bookId)
+        for (const x of [...(p.settingOf ?? []), ...(p.mentionedIn ?? [])])
+          expect(x.revealedIn[0]).toBe(x.bookId)
+      }
   })
 
   it('shows everything to a reader who has read every book', () => {

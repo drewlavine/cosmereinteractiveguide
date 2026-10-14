@@ -59,10 +59,12 @@ the later book when unsure.
 ### 2. Planet appearances
 
 - [ ] Show the books and other works each planet is featured or mentioned in.
-  - [ ] Collect appearances for each planet, marked as featured or mentioned
-  - [ ] Show them on the planet detail page
-  - [ ] Hide appearances from books the reader hasn't marked as read
+  - [x] Collect appearances for each planet, marked as featured or mentioned
+  - [x] Show them on the planet detail page
+  - [x] Hide appearances from books the reader hasn't marked as read
         (uses the Books Read settings)
+  - [ ] Verify the medium- and low-confidence mentions (see the review table
+        from the first pass)
 
 ### 3. Planet tabs
 

@@ -23,6 +23,24 @@ function FactList({ label, items }: { label: string; items: string[] }) {
   )
 }
 
+/** A row of book titles, left out when the reader has read none of them. */
+function BookList({ label, bookIds }: { label: string; bookIds: string[] }) {
+  if (!bookIds.length) return null
+  return (
+    <>
+      <dt>{label}</dt>
+      <dd>
+        {bookIds.map((id, i) => (
+          <Fragment key={id}>
+            {i > 0 && ', '}
+            <cite>{bookTitle(id)}</cite>
+          </Fragment>
+        ))}
+      </dd>
+    </>
+  )
+}
+
 export function PlanetDetail() {
   const { systemId, planetId } = useParams()
   const { hasRead, viewAnyway } = useBooksRead()
@@ -88,19 +106,8 @@ export function PlanetDetail() {
           )}
           {planet.summary && <p>{planet.summary}</p>}
           <dl>
-            {planet.settingOf.length > 0 && (
-              <>
-                <dt>Stories set here</dt>
-                <dd>
-                  {planet.settingOf.map((id, i) => (
-                    <Fragment key={id}>
-                      {i > 0 && ', '}
-                      <cite>{bookTitle(id)}</cite>
-                    </Fragment>
-                  ))}
-                </dd>
-              </>
-            )}
+            <BookList label="Stories set here" bookIds={planet.settingOf} />
+            <BookList label="Mentioned in" bookIds={planet.mentionedIn} />
             <FactList label="Shards" items={planet.shards} />
             <FactList label="Magic systems" items={planet.magicSystems} />
             <FactList label="Moons" items={moonNames} />

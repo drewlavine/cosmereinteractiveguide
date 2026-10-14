@@ -82,6 +82,21 @@ describe('spoilers', () => {
     ).toHaveTextContent('The Well of Ascension')
   })
 
+  it('lists books that mention a planet once the reader has read them', () => {
+    renderAt('/systems/rosharan/planets/roshar', ['way-of-kings'])
+    expect(screen.queryByText('Mentioned in')).not.toBeInTheDocument()
+  })
+
+  it('lists a read book that mentions a planet without being set there', () => {
+    renderAt('/systems/rosharan/planets/roshar', ['way-of-kings', 'sunlit-man'])
+    expect(
+      screen.getByText('Mentioned in').nextElementSibling,
+    ).toHaveTextContent(/^The Sunlit Man$/)
+    expect(
+      screen.getByText('Stories set here').nextElementSibling,
+    ).toHaveTextContent(/^The Way of Kings$/)
+  })
+
   it('stands in for a planet the reader has not reached', () => {
     renderAt('/systems/rosharan/planets/braize', ['way-of-kings'])
     expect(screen.getByText('Not yet charted')).toBeInTheDocument()

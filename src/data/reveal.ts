@@ -1,5 +1,5 @@
 import { books } from './books'
-import type { Passage, Planet, Reveal, StarSystem } from './types'
+import type { Passage, Planet, Reveal, StarSystem, Story } from './types'
 
 /** Whether the reader may see something with these tags. */
 export type CanSee = (reveal: Reveal) => boolean
@@ -22,6 +22,7 @@ export type ShownPlanet = Omit<
   | 'chartLabel'
   | 'summary'
   | 'settingOf'
+  | 'mentionedIn'
   | 'shards'
   | 'magicSystems'
   | 'moons'
@@ -31,6 +32,8 @@ export type ShownPlanet = Omit<
   summary: string
   /** Ids of the books set here that the reader may see. */
   settingOf: string[]
+  /** Ids of other books mentioning it that the reader may see. */
+  mentionedIn: string[]
   shards: string[]
   magicSystems: string[]
   moons: ShownMoon[]
@@ -87,6 +90,9 @@ export function revealSystem(
       .map((p) => p.text)
       .join(' ')
 
+  const stories = (list: Story[] = []) =>
+    list.filter((s) => show(s.revealedIn)).map((s) => s.bookId)
+
   const planets: ShownPlanet[] = []
   const hiddenPlanets: Planet[] = []
   for (const planet of system.planets) {
@@ -100,9 +106,8 @@ export function revealSystem(
       altName: keep(planet.altName)?.text,
       chartLabel: keep(planet.chartLabel)?.text,
       summary: prose(planet.summary),
-      settingOf: (planet.settingOf ?? [])
-        .filter((s) => show(s.revealedIn))
-        .map((s) => s.bookId),
+      settingOf: stories(planet.settingOf),
+      mentionedIn: stories(planet.mentionedIn),
       shards: planet.shards
         .filter((f) => show(f.revealedIn))
         .map((f) => f.name),

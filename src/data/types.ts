@@ -49,6 +49,8 @@ export interface Planet {
   summary: Passage[]
   /** Books set on this planet, in publication order. */
   settingOf?: Story[]
+  /** Other books that mention or briefly visit this planet, in publication order. */
+  mentionedIn?: Story[]
   shards: Fact[]
   magicSystems: Fact[]
   moons: Moon[]
