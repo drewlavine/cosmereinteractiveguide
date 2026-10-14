@@ -47,6 +47,17 @@ feature ships and note the commit.
         hasn't marked as read
   - [ ] Add new data types to the index as they're added to the guide
 
+### 5. Main navigation tabs
+
+- [ ] Add tabs to the header banner for moving between the main sections of the
+      guide. More tabs may be added later.
+  - [ ] **Star Chart**: the current Cosmere star map, systems and planets
+  - [ ] **Characters**: browse and view characters
+  - [ ] **Locations**: browse and view locations (cities, regions, landmarks)
+  - [ ] **Maps**: a gallery of all available maps (shared with planet maps, 1)
+  - [ ] Give each tab its own URL and show which tab is active
+  - [ ] Keep every tab spoiler-free for the books the reader has marked as read
+
 ## Completed
 
 - [x] Books Read settings: header button and a checklist of all 35 published
