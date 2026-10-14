@@ -102,6 +102,118 @@ describe('routes', () => {
     expect(screen.getByText('Rings')).toBeInTheDocument()
   })
 
+  it('shows the Threnodite planets in order', () => {
+    renderAt('/systems/threnodite')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual(['Monody', 'Elegy', 'Threnody', 'Purity'])
+  })
+
+  it('lists Coronach as the moon of Elegy', () => {
+    renderAt('/systems/threnodite/planets/elegy')
+    expect(screen.getAllByText(/Coronach/)).not.toHaveLength(0)
+  })
+
+  it('shows UTol and Komashi as a double planet', () => {
+    renderAt('/systems/utol')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual(['UTol', 'Komashi'])
+    expect(screen.getByText('2')).toBeInTheDocument()
+  })
+
+  it('draws the Taldain binary system and links to the planet', async () => {
+    renderAt('/systems/taldain')
+    expect(screen.getAllByText('The Particulate Ring')).not.toHaveLength(0)
+    expect(screen.getByText('Nizh Da')).toBeInTheDocument()
+    expect(screen.getByText('Stars')).toBeInTheDocument()
+    expect(screen.getByText(/^AisDa/)).toBeInTheDocument()
+    expect(screen.getByText(/^The Eye of Ridos/)).toBeInTheDocument()
+
+    await userEvent.click(
+      screen.getByRole('link', { name: 'Taldain: view details' }),
+    )
+    expect(
+      await screen.findByRole('heading', { name: 'Taldain' }),
+    ).toBeInTheDocument()
+  })
+
+  it('charts Yolen as the only known Yolish planet', async () => {
+    renderAt('/systems/yolish')
+    expect(
+      screen.getAllByRole('link', { name: /: view details$/ }),
+    ).toHaveLength(1)
+
+    await userEvent.click(
+      screen.getByRole('link', { name: 'Yolen: view details' }),
+    )
+    expect(
+      await screen.findByText(/where Adonalsium was Shattered/),
+    ).toBeInTheDocument()
+  })
+
+  it('charts all seven Drominad planets around the asteroid belt', () => {
+    renderAt('/systems/drominad')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual(
+      ['First', 'Second', 'Third', 'Fourth', 'Fifth', 'Sixth', 'Seventh'].map(
+        (n) => `${n} of the Sun`,
+      ),
+    )
+    expect(screen.getAllByText('asteroid belt')).not.toHaveLength(0)
+    expect(screen.getByText('First of the First')).toBeInTheDocument()
+  })
+
+  it('charts the Nalthian system with its comet belt and cognitive anomaly', () => {
+    renderAt('/systems/nalthian')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual([
+      'Nalthis',
+      'Farkeeper the Bright',
+      'Nightstar the Hidden',
+    ])
+    expect(screen.getAllByText('comet belt')).not.toHaveLength(0)
+    expect(screen.getByText('Rrendos')).toBeInTheDocument()
+    expect(screen.getByText('Anomaly')).toBeInTheDocument()
+  })
+
+  it('charts both of Scadrial’s orbits', () => {
+    renderAt('/systems/scadrian')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual([
+      'Scadrial',
+      'Aagal Nod',
+      'Aagal Uch',
+      'Inner dwarf planet',
+      'Outer dwarf planet',
+    ])
+    for (const text of [
+      'Scadrial New Orbit',
+      'New Calendar',
+      'Old Orbit',
+      'Old Calendar',
+    ])
+      expect(screen.getAllByText(text)).not.toHaveLength(0)
+  })
+
   it('shows not found for unknown systems', () => {
     renderAt('/systems/nope')
     expect(screen.getByText(/Lost in the Cognitive Realm/)).toBeInTheDocument()

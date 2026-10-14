@@ -136,3 +136,44 @@ export function SvgLink({
     </a>
   )
 }
+
+/** Hand-lettered label along a path, with a soft white smudge behind it. */
+export function InkLabel({
+  pathId,
+  offset,
+  anchor,
+  color,
+  size,
+  children,
+}: {
+  pathId: string
+  offset: number | string
+  anchor: 'start' | 'middle' | 'end'
+  color: string
+  size: number
+  children: string
+}) {
+  const path = (
+    <textPath href={`#${pathId}`} startOffset={offset} textAnchor={anchor}>
+      {children}
+    </textPath>
+  )
+  return (
+    <g className="ink-label" pointerEvents="none">
+      <text
+        fontSize={size}
+        dy="0.32em"
+        stroke="#fff"
+        strokeWidth={size * 0.5}
+        strokeOpacity={0.8}
+        fill="#fff"
+        filter="url(#smudge)"
+      >
+        {path}
+      </text>
+      <text fontSize={size} dy="0.32em" fill={color}>
+        {path}
+      </text>
+    </g>
+  )
+}

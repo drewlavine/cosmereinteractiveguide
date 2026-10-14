@@ -1,54 +1,91 @@
-import type { ChartPalette, Planet, StarSystem } from '../data/types'
-import { ChartDefs, GoldFrame, GoldStar, SvgLink } from './chart'
+import type { ChartPalette, OrbitNote, Planet, StarSystem } from '../data/types'
+import { ChartDefs, GoldFrame, GoldStar, InkLabel, SvgLink } from './chart'
 import {
   DEFAULT_PALETTE,
   GOLD,
+  INK_BLUE,
   INK_DARK,
   INK_RED,
+  arcPath,
+  polar,
   seededRandom,
 } from './chartTheme'
 
-// Chart geometry, in SVG user units. The sun sits at the bottom edge and the
-// orbits arc over it, as on the in-world star charts. Systems with few orbits
-// get wider spacing so every chart keeps a similar portrait shape.
+// Chart geometry, in SVG user units. By default the sun sits at the bottom
+// edge and the orbits arc over it; "centered" systems put the sun mid-page with
+// full orbits. Systems with few orbits get wider spacing so every chart keeps a
+// similar portrait shape.
 const WIDTH = 1000
+const CENTERED_HEIGHT = 1574
 const FIRST_ORBIT = 250
 const MIN_SPACING = 82
+/** A lone orbit gets a wide band and room above it. */
+const SINGLE_ORBIT_SPACING = 170
 const TARGET_SPAN = 850
 const TITLE_SPACE = 125
 const TITLE_RING = 58
 const BASE_PLANET_RADIUS = 24
 const MAX_PLANET_RADIUS = 30
+const MAX_BAND = 64
+/** Most room left between the outermost orbit and the title ring. */
+const MAX_EDGE = 90
+/** Half the distance between the two planets of a double planet. */
+const PAIR_SPREAD = 80
 
 interface Geometry {
-  spacing: number
-  band: number
+  centered: boolean
+  height: number
+  cx: number
+  cy: number
+  /** Inner edge of the title ring; the painted space fills this circle. */
+  outerRadius: number
   planetRadius: number
   orbitRadius: (orbit: number) => number
+  /** Distance to the nearest neighbouring orbit. */
+  gap: (orbit: number) => number
+  band: (orbit: number) => number
 }
 
-function geometry(maxOrbit: number): Geometry {
+function geometry(system: StarSystem, maxOrbit: number): Geometry {
+  const layout = system.layout ?? {}
   const spacing =
     maxOrbit > 1
       ? Math.max(MIN_SPACING, TARGET_SPAN / (maxOrbit - 1))
-      : MIN_SPACING
+      : SINGLE_ORBIT_SPACING
+  const orbitRadius = (orbit: number) =>
+    layout.orbitRadii?.[orbit - 1] ?? FIRST_ORBIT + (orbit - 1) * spacing
+  const gap = (orbit: number) =>
+    Math.min(
+      ...[orbit - 1, orbit + 1]
+        .filter((n) => n >= 1 && n <= maxOrbit)
+        .map((n) => Math.abs(orbitRadius(n) - orbitRadius(orbit))),
+      maxOrbit > 1 ? Infinity : spacing,
+    )
+  const centered = layout.centered ?? false
+  const lift = centered ? 0 : (layout.sunLift ?? 0)
+  const height = centered
+    ? CENTERED_HEIGHT
+    : orbitRadius(maxOrbit) +
+      Math.min(gap(maxOrbit) / 2, MAX_EDGE) +
+      6 +
+      TITLE_SPACE +
+      lift
+  const cy = centered ? (layout.sunY ?? height / 2) : height - lift
   return {
-    spacing,
-    band: spacing * 0.42,
+    centered,
+    height,
+    cx: WIDTH / 2,
+    cy,
+    outerRadius: centered ? cy - TITLE_RING - 30 : cy - TITLE_SPACE,
     planetRadius: Math.min(
       MAX_PLANET_RADIUS,
       BASE_PLANET_RADIUS * Math.sqrt(spacing / MIN_SPACING),
     ),
-    orbitRadius: (orbit) => FIRST_ORBIT + (orbit - 1) * spacing,
+    orbitRadius,
+    gap,
+    band: (orbit) => Math.min(MAX_BAND, gap(orbit) * 0.42),
   }
 }
-
-/** Arc over the top of the sun, drawn left to right (for text paths). */
-const arcPath = (cx: number, cy: number, r: number) =>
-  `M ${cx - r} ${cy} A ${r} ${r} 0 0 1 ${cx + r} ${cy}`
-
-const polar = (cx: number, cy: number, r: number, angle: number) =>
-  [cx + r * Math.cos(angle), cy + r * Math.sin(angle)] as const
 
 export function SystemChart({ system }: { system: StarSystem }) {
   const palette = system.palette ?? DEFAULT_PALETTE
@@ -58,13 +95,25 @@ export function SystemChart({ system }: { system: StarSystem }) {
     system.asteroidBelt?.orbit ?? 0,
     system.cometBelt?.orbit ?? 0,
   )
-  const geo = geometry(maxOrbit)
-  const outerRadius = geo.orbitRadius(maxOrbit) + geo.spacing / 2 + 6
-  const height = outerRadius + TITLE_SPACE
-  const cx = WIDTH / 2
-  const cy = height
+  const geo = geometry(system, maxOrbit)
+  const { cx, cy, height, outerRadius } = geo
+  const ringRadius = outerRadius + TITLE_RING / 2
   const orbits = Array.from({ length: maxOrbit }, (_, i) => i + 1)
   const arcId = (orbit: number) => `orbit-arc-${system.id}-${orbit}`
+
+  // Gold stars: three each side of the title, across the visible ring, and a
+  // mirrored row along the bottom when the whole ring is on the page.
+  const visible = Math.asin(Math.min(1, (WIDTH / 2 - 40) / ringRadius))
+  const titleAngle = (system.name.length * 11 + 70) / ringRadius
+  const starAngles = [-1, 1].flatMap((side) =>
+    [0, 0.5, 1].map(
+      (t) => side * (titleAngle + t * (visible - titleAngle)) - Math.PI / 2,
+    ),
+  )
+  if (geo.centered && cy + ringRadius < height)
+    starAngles.push(
+      ...[-1, -0.6, -0.2, 0.2, 0.6, 1].map((t) => Math.PI / 2 + t * visible),
+    )
 
   return (
     <svg
@@ -85,13 +134,20 @@ export function SystemChart({ system }: { system: StarSystem }) {
             <stop key={i} offset={[0, 0.35, 0.7, 1][i]} stopColor={color} />
           ))}
         </radialGradient>
+        <radialGradient id="mark-shade" cx="0.35" cy="0.3" r="0.8">
+          <stop offset="0" stopColor="#fff" stopOpacity={0.5} />
+          <stop offset="0.4" stopColor="#fff" stopOpacity={0} />
+          <stop offset="1" stopColor="#0b1218" stopOpacity={0.7} />
+        </radialGradient>
+        <radialGradient id="mark-haze">
+          <stop offset="0" stopColor="#fff" stopOpacity={0.9} />
+          <stop offset="0.6" stopColor="#f2f4f2" stopOpacity={0.55} />
+          <stop offset="1" stopColor="#fff" stopOpacity={0} />
+        </radialGradient>
         <clipPath id="chart-clip">
           <rect x={18} y={18} width={WIDTH - 36} height={height - 36} />
         </clipPath>
-        <path
-          id="title-arc"
-          d={arcPath(cx, cy, outerRadius + TITLE_RING / 2)}
-        />
+        <path id="title-arc" d={arcPath(cx, cy, ringRadius)} />
         {orbits.map((orbit) => (
           <path
             key={orbit}
@@ -102,12 +158,13 @@ export function SystemChart({ system }: { system: StarSystem }) {
       </defs>
 
       <g clipPath="url(#chart-clip)">
-        {/* Pale sky above the outermost ring, painted space below it. */}
+        {/* Pale sky outside the title ring, painted space inside it. */}
         <rect width={WIDTH} height={height} fill={palette.sky} />
         <circle cx={cx} cy={cy} r={outerRadius} fill="url(#space-wash)" />
 
         {orbits.map((orbit) => {
           const r = geo.orbitRadius(orbit)
+          const band = geo.band(orbit)
           if (system.asteroidBelt?.orbit === orbit)
             return (
               <AsteroidBelt
@@ -115,13 +172,22 @@ export function SystemChart({ system }: { system: StarSystem }) {
                 cx={cx}
                 cy={cy}
                 r={r}
-                band={geo.band}
-                belt={palette.belt}
+                band={band}
+                belt={palette.belt ?? DEFAULT_PALETTE.belt!}
+                fullCircle={geo.centered}
               />
             )
           if (system.cometBelt?.orbit === orbit)
             return (
-              <CometBelt key={orbit} cx={cx} cy={cy} r={r} band={geo.band} />
+              <CometBelt
+                key={orbit}
+                cx={cx}
+                cy={cy}
+                r={r}
+                band={band}
+                comets={palette.comets}
+                fullCircle={geo.centered}
+              />
             )
           return (
             <OrbitBand
@@ -129,7 +195,8 @@ export function SystemChart({ system }: { system: StarSystem }) {
               cx={cx}
               cy={cy}
               r={r}
-              geo={geo}
+              band={band}
+              guide={r + Math.min(geo.gap(orbit) / 2, band * 1.2)}
               fill={palette.band}
             />
           )
@@ -139,9 +206,9 @@ export function SystemChart({ system }: { system: StarSystem }) {
         <circle
           cx={cx}
           cy={cy}
-          r={outerRadius + TITLE_RING / 2}
+          r={ringRadius}
           fill="none"
-          stroke="#2d4352"
+          stroke={palette.ring}
           strokeWidth={TITLE_RING}
         />
         <circle
@@ -152,19 +219,17 @@ export function SystemChart({ system }: { system: StarSystem }) {
           stroke={GOLD}
           strokeWidth={2.5}
         />
-        {[-1, 1].flatMap((side) => {
-          // Three stars each side of the title, across the visible ring.
-          const r = outerRadius + TITLE_RING / 2
-          const visible = Math.asin(Math.min(1, (WIDTH / 2 - 40) / r))
-          const title = (system.name.length * 11 + 70) / r
-          return [0, 0.5, 1].map((t) => {
-            const angle = title + t * (visible - title)
-            const [x, y] = polar(cx, cy, r, side * angle - Math.PI / 2)
-            return <GoldStar key={`${side}${t}`} x={x} y={y} size={11} />
-          })
+        {starAngles.map((angle) => {
+          const [x, y] = polar(cx, cy, ringRadius, angle)
+          return <GoldStar key={angle} x={x} y={y} size={11} />
         })}
 
-        <Sun cx={cx} cy={cy} sun={palette.sun} />
+        <Sun
+          cx={cx}
+          cy={cy}
+          sun={palette.sun}
+          scale={system.layout?.sunScale ?? 1}
+        />
 
         <rect
           width={WIDTH}
@@ -203,18 +268,71 @@ export function SystemChart({ system }: { system: StarSystem }) {
           </InkLabel>
         )}
 
-        {system.planets.map((planet) => (
-          <PlanetMarker
-            key={planet.id}
-            planet={planet}
-            systemId={system.id}
+        {system.orbitNotes?.map((note) => (
+          <OrbitNoteMark
+            key={`${note.orbit}-${note.left ?? note.right}`}
+            note={note}
             cx={cx}
-            cy={cy - geo.orbitRadius(planet.orbit)}
-            radius={geo.planetRadius * (planet.size ?? 1)}
-            pathId={arcId(planet.orbit)}
-            arcLength={(Math.PI * geo.orbitRadius(planet.orbit)) / 2}
+            cy={cy}
+            r={geo.orbitRadius(note.orbit)}
+            radius={geo.planetRadius * 0.5}
+            pathId={arcId(note.orbit)}
+            labelSize={Math.min(40, geo.gap(note.orbit) * 0.55)}
           />
         ))}
+
+        {system.markers?.map((marker) => (
+          <ChartMark
+            key={marker.label}
+            cx={cx}
+            cy={cy}
+            r={geo.orbitRadius(marker.orbit)}
+            {...marker}
+          />
+        ))}
+
+        {/* Double planets: two planets sharing an orbit circle a barycentre. */}
+        {orbits.map((orbit) => {
+          if (system.planets.filter((p) => p.orbit === orbit).length !== 2)
+            return null
+          const y = cy - geo.orbitRadius(orbit)
+          return (
+            <g key={orbit} pointerEvents="none">
+              <ellipse
+                cx={cx}
+                cy={y}
+                rx={PAIR_SPREAD}
+                ry={PAIR_SPREAD * 0.3}
+                fill="none"
+                stroke={INK_DARK}
+                strokeWidth={1.5}
+              />
+              <circle cx={cx} cy={y} r={3.5} fill={INK_DARK} />
+            </g>
+          )
+        })}
+
+        {system.planets.map((planet) => {
+          const r = geo.orbitRadius(planet.orbit)
+          const pair = system.planets.filter((p) => p.orbit === planet.orbit)
+          const pairSide =
+            pair.length === 2 ? (pair[0] === planet ? -1 : 1) : undefined
+          const dx = (pairSide ?? 0) * PAIR_SPREAD
+          return (
+            <PlanetMarker
+              key={planet.id}
+              planet={planet}
+              systemId={system.id}
+              cx={cx + dx}
+              cy={cy - r}
+              radius={geo.planetRadius * (planet.size ?? 1)}
+              labelSize={Math.min(40, geo.gap(planet.orbit) * 0.55)}
+              pathId={arcId(planet.orbit)}
+              arcPos={(Math.PI * r) / 2 + r * Math.asin(dx / r)}
+              pairSide={pairSide}
+            />
+          )
+        })}
 
         <text className="chart-title" fill={GOLD} fontSize={44} dy="0.32em">
           <textPath href="#title-arc" startOffset="50%" textAnchor="middle">
@@ -232,29 +350,31 @@ function OrbitBand({
   cx,
   cy,
   r,
-  geo,
+  band,
+  guide,
   fill,
 }: {
   cx: number
   cy: number
   r: number
-  geo: Geometry
+  band: number
+  guide: number
   fill: string
 }) {
   return (
     <g fill="none" pointerEvents="none">
-      <circle cx={cx} cy={cy} r={r} stroke={fill} strokeWidth={geo.band} />
+      <circle cx={cx} cy={cy} r={r} stroke={fill} strokeWidth={band} />
       <circle
         cx={cx}
         cy={cy}
-        r={r - geo.band / 2}
+        r={r - band / 2}
         stroke={INK_DARK}
         strokeWidth={2}
       />
       <circle
         cx={cx}
         cy={cy}
-        r={r + geo.band / 2}
+        r={r + band / 2}
         stroke={INK_DARK}
         strokeWidth={2}
       />
@@ -262,7 +382,7 @@ function OrbitBand({
       <circle
         cx={cx}
         cy={cy}
-        r={r + geo.spacing / 2}
+        r={guide}
         stroke={INK_DARK}
         strokeOpacity={0.45}
         strokeWidth={1.2}
@@ -277,31 +397,15 @@ function AsteroidBelt({
   r,
   band,
   belt,
+  fullCircle,
 }: {
   cx: number
   cy: number
   r: number
   band: number
-  belt: ChartPalette['belt']
+  belt: NonNullable<ChartPalette['belt']>
+  fullCircle: boolean
 }) {
-  const random = seededRandom(Math.round(r))
-  const rocks = Array.from({ length: Math.round((r * band) / 20) }, () => {
-    // Only the upper half is ever visible on the chart.
-    const [x, y] = polar(
-      cx,
-      cy,
-      r + (random() - 0.5) * (band + 18),
-      Math.PI + random() * Math.PI,
-    )
-    return {
-      x,
-      y,
-      rx: 3 + random() * 6,
-      ry: 2.5 + random() * 4,
-      rotate: random() * 180,
-      fill: belt.rocks[Math.floor(random() * belt.rocks.length)],
-    }
-  })
   return (
     <g pointerEvents="none">
       <circle
@@ -323,21 +427,63 @@ function AsteroidBelt({
           strokeWidth={2}
         />
       ))}
-      {rocks.map((rock, i) => (
-        <ellipse
-          key={i}
-          cx={rock.x}
-          cy={rock.y}
-          rx={rock.rx}
-          ry={rock.ry}
-          transform={`rotate(${rock.rotate} ${rock.x} ${rock.y})`}
-          fill={rock.fill}
-          stroke={belt.rockStroke}
-          strokeWidth={0.8}
-        />
-      ))}
+      <Rocks
+        cx={cx}
+        cy={cy}
+        r={r}
+        spread={band + 18}
+        count={((fullCircle ? 2 : 1) * r * band) / 20}
+        fullCircle={fullCircle}
+        colors={belt.rocks}
+        stroke={belt.rockStroke}
+      />
     </g>
   )
+}
+
+/** Scattered rocks across a belt; arc charts only show its upper half. */
+function Rocks({
+  cx,
+  cy,
+  r,
+  spread,
+  count,
+  fullCircle,
+  colors,
+  stroke,
+}: {
+  cx: number
+  cy: number
+  r: number
+  spread: number
+  count: number
+  fullCircle: boolean
+  colors: string[]
+  stroke: string
+}) {
+  const span = fullCircle ? 2 : 1
+  const random = seededRandom(Math.round(r))
+  return Array.from({ length: Math.round(count) }, (_, i) => {
+    const [x, y] = polar(
+      cx,
+      cy,
+      r + (random() - 0.5) * spread,
+      Math.PI + random() * span * Math.PI,
+    )
+    return (
+      <ellipse
+        key={i}
+        cx={x}
+        cy={y}
+        rx={3 + random() * 6}
+        ry={2.5 + random() * 4}
+        transform={`rotate(${random() * 180} ${x} ${y})`}
+        fill={colors[Math.floor(random() * colors.length)]}
+        stroke={stroke}
+        strokeWidth={0.8}
+      />
+    )
+  })
 }
 
 function CometBelt({
@@ -345,16 +491,21 @@ function CometBelt({
   cy,
   r,
   band,
+  comets,
+  fullCircle,
 }: {
   cx: number
   cy: number
   r: number
   band: number
+  comets?: ChartPalette['comets']
+  fullCircle: boolean
 }) {
   // Wavy inner edge, as drawn on the Selish chart.
+  const span = fullCircle ? 2 : 1
   const waves = Math.round(r / 22)
   const inner = r - band / 2
-  const points = Array.from({ length: 721 }, (_, i) => {
+  const points = Array.from({ length: 720 * span + 1 }, (_, i) => {
     const angle = Math.PI + (i / 720) * Math.PI
     return polar(cx, cy, inner + 7 * Math.sin(angle * waves), angle).join(',')
   })
@@ -364,9 +515,21 @@ function CometBelt({
         cx={cx}
         cy={cy}
         r={r + 4}
-        stroke="rgba(18, 34, 44, 0.45)"
+        stroke={comets?.fill ?? 'rgba(18, 34, 44, 0.45)'}
         strokeWidth={band + 8}
       />
+      {comets && (
+        <Rocks
+          cx={cx}
+          cy={cy}
+          r={r + 6}
+          spread={band}
+          count={((fullCircle ? 2 : 1) * r * band) / 45}
+          fullCircle={fullCircle}
+          colors={comets.rocks}
+          stroke={comets.rockStroke}
+        />
+      )}
       <circle
         cx={cx}
         cy={cy}
@@ -386,39 +549,157 @@ function CometBelt({
   )
 }
 
+/** Distance along an orbit's text path, right of the top, for side notes. */
+const NOTE_GAP = 190
+
+function OrbitNoteMark({
+  note,
+  cx,
+  cy,
+  r,
+  radius,
+  pathId,
+  labelSize,
+}: {
+  note: OrbitNote
+  cx: number
+  cy: number
+  r: number
+  radius: number
+  pathId: string
+  labelSize: number
+}) {
+  const top = (Math.PI * r) / 2
+  const color = note.ink === 'blue' ? INK_BLUE : INK_RED
+  return (
+    <g>
+      {note.left && (
+        <InkLabel
+          pathId={pathId}
+          offset={top - radius - 30}
+          anchor="end"
+          color={color}
+          size={labelSize}
+        >
+          {note.left}
+        </InkLabel>
+      )}
+      {note.right && (
+        <InkLabel
+          pathId={pathId}
+          offset={top + NOTE_GAP}
+          anchor="start"
+          color={color}
+          size={labelSize}
+        >
+          {note.right}
+        </InkLabel>
+      )}
+      {note.body && (
+        <g className="chart-mark">
+          <title>{note.body.title}</title>
+          <circle
+            cx={cx}
+            cy={cy - r}
+            r={radius + 4}
+            fill="#e9eef0"
+            stroke={INK_DARK}
+            strokeWidth={2}
+          />
+          <circle cx={cx} cy={cy - r} r={radius} fill={note.body.color} />
+          <circle cx={cx} cy={cy - r} r={radius} fill="url(#mark-shade)" />
+        </g>
+      )}
+    </g>
+  )
+}
+
+/** A hazy smudge with an inked note, for things that aren't planets. */
+function ChartMark({
+  cx,
+  cy,
+  r,
+  angle,
+  label,
+  description,
+}: {
+  cx: number
+  cy: number
+  r: number
+  angle: number
+  label: string
+  description: string
+}) {
+  const [x, y] = polar(cx, cy, r, ((angle - 90) * Math.PI) / 180)
+  return (
+    <g className="chart-mark">
+      <title>{`${label}: ${description}`}</title>
+      <circle cx={x} cy={y} r={22} fill="url(#mark-haze)" />
+      <text
+        className="moon-label"
+        x={x + 30}
+        y={y - 30}
+        fontSize={24}
+        fill={INK_DARK}
+        stroke="#fff"
+        strokeWidth={4}
+        strokeOpacity={0.6}
+        paintOrder="stroke"
+      >
+        {label.split(' ').map((word, i) => (
+          <tspan key={word} x={x + 30 + i * 8} dy={i ? '1.1em' : 0}>
+            {word}
+          </tspan>
+        ))}
+      </text>
+    </g>
+  )
+}
+
 function Sun({
   cx,
   cy,
   sun,
+  scale,
 }: {
   cx: number
   cy: number
   sun: ChartPalette['sun']
+  scale: number
 }) {
-  const inner = 92
-  const count = sun.style === 'flame' ? 24 : 28
+  const inner = 92 * scale
+  const stroke = Math.max(0.8, 1.5 * scale)
+  const count = { flame: 24, spiky: 28, thorn: 72 }[sun.style]
+  const random = seededRandom(count)
   const rays = Array.from({ length: count }, (_, i) => {
     const a = (i / count) * Math.PI * 2
     const long = i % 2 === 0
     const pt = (rad: number, angle: number) =>
       polar(cx, cy, rad, angle).join(',')
+    if (sun.style === 'thorn') {
+      // Thin, slightly hooked thorns of uneven length, as on the Drominad chart.
+      const len = (long ? 72 : 46) * scale * (0.75 + random() * 0.5)
+      const half = 0.03
+      const hook = (random() - 0.5) * 0.3
+      return `M ${pt(inner - 2 * scale, a - half)} Q ${pt(inner + len * 0.55, a - half * 0.2 + hook * 0.4)} ${pt(inner + len, a + hook)} Q ${pt(inner + len * 0.5, a + half * 0.6 + hook * 0.4)} ${pt(inner - 2 * scale, a + half)} Z`
+    }
     if (sun.style === 'flame') {
       // Curved, flame-like blades that curl in one direction.
-      const len = long ? 112 : 80
+      const len = (long ? 112 : 80) * scale
       const half = long ? 0.13 : 0.11
       const curl = long ? 0.42 : 0.34
       const tip = pt(inner + len, a + curl)
-      return `M ${pt(inner - 4, a - half)} C ${pt(inner + len * 0.45, a - half * 0.6)} ${pt(inner + len * 0.85, a + curl * 0.35)} ${tip} C ${pt(inner + len * 0.6, a + curl * 0.75)} ${pt(inner + len * 0.3, a + half * 1.1)} ${pt(inner - 4, a + half)} Z`
+      return `M ${pt(inner - 4 * scale, a - half)} C ${pt(inner + len * 0.45, a - half * 0.6)} ${pt(inner + len * 0.85, a + curl * 0.35)} ${tip} C ${pt(inner + len * 0.6, a + curl * 0.75)} ${pt(inner + len * 0.3, a + half * 1.1)} ${pt(inner - 4 * scale, a + half)} Z`
     }
     const half = long ? 0.07 : 0.09
-    return `M ${pt(inner, a - half)} L ${pt(inner + (long ? 105 : 55), a)} L ${pt(inner, a + half)} Z`
+    return `M ${pt(inner, a - half)} L ${pt(inner + (long ? 105 : 55) * scale, a)} L ${pt(inner, a + half)} Z`
   })
   return (
     <g pointerEvents="none">
       <circle
         cx={cx}
         cy={cy}
-        r={205}
+        r={205 * scale}
         fill={sun.halo}
         stroke={INK_DARK}
         strokeWidth={2}
@@ -433,7 +714,7 @@ function Sun({
                 d={d}
                 fill={sun.rays[parity]}
                 stroke={sun.ink}
-                strokeWidth={1.5}
+                strokeWidth={stroke}
                 strokeLinejoin="round"
               />
             ),
@@ -445,48 +726,8 @@ function Sun({
         r={inner}
         fill={sun.core}
         stroke={sun.ink}
-        strokeWidth={1.5}
+        strokeWidth={stroke}
       />
-    </g>
-  )
-}
-
-function InkLabel({
-  pathId,
-  offset,
-  anchor,
-  color,
-  size,
-  children,
-}: {
-  pathId: string
-  offset: number | string
-  anchor: 'start' | 'middle' | 'end'
-  color: string
-  size: number
-  children: string
-}) {
-  const path = (
-    <textPath href={`#${pathId}`} startOffset={offset} textAnchor={anchor}>
-      {children}
-    </textPath>
-  )
-  return (
-    <g className="ink-label" pointerEvents="none">
-      <text
-        fontSize={size}
-        dy="0.32em"
-        stroke="#fff"
-        strokeWidth={size * 0.5}
-        strokeOpacity={0.8}
-        fill="#fff"
-        filter="url(#smudge)"
-      >
-        {path}
-      </text>
-      <text fontSize={size} dy="0.32em" fill={color}>
-        {path}
-      </text>
     </g>
   )
 }
@@ -499,31 +740,39 @@ function PlanetMarker({
   cx,
   cy,
   radius: r,
+  labelSize,
   pathId,
-  arcLength,
+  arcPos,
+  pairSide,
 }: {
   planet: Planet
   systemId: string
   cx: number
   cy: number
   radius: number
+  labelSize: number
   pathId: string
-  arcLength: number
+  /** Distance along the orbit's text path to the planet. */
+  arcPos: number
+  /** Which side of a double planet this is; its label goes on that side. */
+  pairSide?: -1 | 1
 }) {
   const gradientId = `planet-shade-${planet.id}`
   const named = planet.moons.filter((m) => m.name)
   const unnamed = planet.moons.filter((m) => !m.name)
   const ring = { rx: r * 1.75, ry: r * 0.42 }
+  // Moon orbits were tuned for a 24-unit planet; scale them with the planet.
+  const k = r / BASE_PLANET_RADIUS
   // How far decorations reach from the planet's centre, so labels clear them.
   const extent = Math.max(
     r + 4,
     planet.rings ? ring.rx : 0,
     unnamed.length ? r + 28 : 0,
-    named.length ? r + 22 + (named.length - 1) * 12 : 0,
+    named.length ? r + (22 + (named.length - 1) * 12) * k : 0,
   )
-  const label = planet.altName
-    ? `${planet.name} / ${planet.altName}`
-    : planet.name
+  const label =
+    planet.chartLabel ??
+    (planet.altName ? `${planet.name} / ${planet.altName}` : planet.name)
 
   return (
     <SvgLink
@@ -538,21 +787,27 @@ function PlanetMarker({
           <stop offset="0.35" stopColor={planet.color} />
           <stop offset="1" stopColor="#0b1218" stopOpacity={0.9} />
         </radialGradient>
+        {planet.glow && (
+          <radialGradient id={`${gradientId}-glow`}>
+            <stop offset="0.45" stopColor={planet.glow} stopOpacity={0.85} />
+            <stop offset="1" stopColor={planet.glow} stopOpacity={0} />
+          </radialGradient>
+        )}
       </defs>
 
       <InkLabel
         pathId={pathId}
-        offset={arcLength - extent - 18}
-        anchor="end"
+        offset={pairSide === 1 ? arcPos + extent + 18 : arcPos - extent - 18}
+        anchor={pairSide === 1 ? 'start' : 'end'}
         color={planet.dwarf ? INK_DARK : INK_RED}
-        size={planet.dwarf ? 32 : 40}
+        size={planet.dwarf ? labelSize * 0.8 : labelSize}
       >
         {planet.dwarf ? label.toLowerCase() : label}
       </InkLabel>
 
       {named.map((moon, i) => {
-        const rx = r + 22 + i * 12
-        const ry = r + 10 + i * 6
+        const rx = r + (22 + i * 12) * k
+        const ry = r + (10 + i * 6) * k
         const tilt = -20 + i * 20
         // Keep moons on the right so their labels clear the planet name.
         const angle = ((50 - i * 50) * Math.PI) / 180
@@ -576,16 +831,16 @@ function PlanetMarker({
             <circle
               cx={mx}
               cy={my}
-              r={5}
+              r={5 * Math.max(k, 0.6)}
               fill={moon.color}
               stroke={INK_DARK}
               strokeWidth={1}
             />
             <text
               className="moon-label"
-              x={mx + 9}
-              y={my + 6}
-              fontSize={20}
+              x={mx + 9 * Math.max(k, 0.6)}
+              y={my + 6 * Math.max(k, 0.7)}
+              fontSize={20 * Math.max(k, 0.7)}
               fill={INK_DARK}
               stroke="#fff"
               strokeWidth={4}
@@ -630,6 +885,16 @@ function PlanetMarker({
         />
       )}
 
+      {planet.glow && (
+        <circle
+          cx={cx}
+          cy={cy}
+          r={r * 1.9}
+          fill={`url(#${gradientId}-glow)`}
+          pointerEvents="none"
+        />
+      )}
+
       <g className="chart-planet-body">
         <circle
           cx={cx}
@@ -657,8 +922,10 @@ function PlanetMarker({
 
       <text
         className="chart-planet-hint"
-        x={cx + extent + 16 + (named.length ? 44 : 0)}
-        y={cy + 6}
+        // Double planets keep the hint below so it never covers the partner.
+        x={pairSide ? cx : cx + extent + 16 + (named.length ? 44 * k : 0)}
+        y={pairSide ? cy + extent + 28 : cy + 6}
+        textAnchor={pairSide ? 'middle' : 'start'}
         fontSize={18}
         fill={INK_DARK}
         stroke="#fff"

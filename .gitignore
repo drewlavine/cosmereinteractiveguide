@@ -25,3 +25,9 @@ dist-ssr
 
 # Raw Coppermind API dumps (regenerate with npm run data:fetch)
 data/raw
+
+# Never commit SSH keys
+personal_sshkey*
+*.pem
+id_rsa*
+id_ed25519*
