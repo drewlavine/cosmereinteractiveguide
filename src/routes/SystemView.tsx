@@ -2,6 +2,7 @@ import { useParams } from 'react-router'
 import { PanZoom } from '../components/PanZoom'
 import { BinarySystemChart } from '../components/BinarySystemChart'
 import { SystemChart } from '../components/SystemChart'
+import { UnchartedChart } from '../components/UnchartedChart'
 import { getSystem } from '../data/systems'
 import { NotFound } from './NotFound'
 
@@ -16,7 +17,9 @@ export function SystemView() {
   return (
     <section className="system-view" aria-labelledby="system-title">
       <PanZoom label={`${system.name} map`}>
-        {system.companionStar ? (
+        {system.uncharted ? (
+          <UnchartedChart system={system} />
+        ) : system.companionStar ? (
           <BinarySystemChart system={system} />
         ) : (
           <SystemChart system={system} />
@@ -30,7 +33,9 @@ export function SystemView() {
           </summary>
           <div className="system-info-body">
             <dl>
-              <dt>{system.companionStar ? 'Stars' : 'Star'}</dt>
+              <dt>
+                {system.companionStar || system.uncharted ? 'Stars' : 'Star'}
+              </dt>
               <dd>{system.star}</dd>
               {system.companionStar && <dd>{system.companionStar}</dd>}
               <dt>Known planets</dt>

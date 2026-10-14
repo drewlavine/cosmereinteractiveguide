@@ -226,6 +226,33 @@ describe('routes', () => {
       expect(screen.getAllByText(text)).not.toHaveLength(0)
   })
 
+  it('charts the planets with no known system, with no sun or orbits', async () => {
+    const { container } = renderAt('/systems/uncharted')
+    const names = screen
+      .getAllByRole('link', { name: /: view details$/ })
+      .map((link) =>
+        link.getAttribute('aria-label')?.replace(': view details', ''),
+      )
+    expect(names).toEqual([
+      'Canticle',
+      'Grand Apparatus',
+      'Dhatri',
+      'Lumar',
+      'Miral',
+    ])
+    expect(container.querySelector('#orbit-arc-uncharted-1')).toBeNull()
+    expect(
+      screen.getAllByText('each world orbits its own unknown star'),
+    ).not.toHaveLength(0)
+
+    await userEvent.click(
+      screen.getByRole('link', { name: 'Lumar: view details' }),
+    )
+    expect(
+      await screen.findByText(/^Emerald, Sunlight, .*4 more unnamed moons$/),
+    ).toBeInTheDocument()
+  })
+
   it('shows not found for unknown systems', () => {
     renderAt('/systems/nope')
     expect(screen.getByText(/Lost in the Cognitive Realm/)).toBeInTheDocument()

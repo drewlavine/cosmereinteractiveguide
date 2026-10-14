@@ -2,6 +2,7 @@ import { ChartDefs, GoldFrame, GoldStar, SvgLink } from '../components/chart'
 import { GOLD, seededRandom } from '../components/chartTheme'
 import { PanZoom } from '../components/PanZoom'
 import { systems } from '../data/systems'
+import type { StarSystem } from '../data/types'
 
 const WIDTH = 1000
 const HEIGHT = 680
@@ -96,17 +97,21 @@ export function StarMap() {
                   fill={system.color}
                   opacity={0.2}
                 />
-                <g className="chart-system-star">
-                  <GoldStar x={x} y={y} size={13} />
-                  <circle
-                    cx={x}
-                    cy={y}
-                    r={6}
-                    fill={system.color}
-                    stroke="#f4fafc"
-                    strokeWidth={1.5}
-                  />
-                </g>
+                {system.uncharted ? (
+                  <UnchartedCluster system={system} x={x} y={y} />
+                ) : (
+                  <g className="chart-system-star">
+                    <GoldStar x={x} y={y} size={13} />
+                    <circle
+                      cx={x}
+                      cy={y}
+                      r={6}
+                      fill={system.color}
+                      stroke="#f4fafc"
+                      strokeWidth={1.5}
+                    />
+                  </g>
+                )}
                 <text
                   className="chart-system-label"
                   x={x}
@@ -128,5 +133,47 @@ export function StarMap() {
         </svg>
       </PanZoom>
     </section>
+  )
+}
+
+/** Starless worlds: a loose scatter of tiny planets inside a dotted ring. */
+function UnchartedCluster({
+  system,
+  x,
+  y,
+}: {
+  system: StarSystem
+  x: number
+  y: number
+}) {
+  return (
+    <g className="chart-system-star">
+      <circle
+        cx={x}
+        cy={y}
+        r={22}
+        fill="none"
+        stroke="#e9f3f7"
+        strokeWidth={1.2}
+        strokeDasharray="2 4"
+        strokeLinecap="round"
+        opacity={0.8}
+      />
+      {system.planets.map((planet, i) => {
+        const angle = (i / system.planets.length) * Math.PI * 2 - 1.2
+        const dist = i % 2 ? 13 : 8
+        return (
+          <circle
+            key={planet.id}
+            cx={x + Math.cos(angle) * dist}
+            cy={y + Math.sin(angle) * dist}
+            r={3.2}
+            fill={planet.color}
+            stroke="#f4fafc"
+            strokeWidth={1}
+          />
+        )
+      })}
+    </g>
   )
 }

@@ -21,6 +21,7 @@ const MOTTLE: Record<NonNullable<Planet['surface']>, number> = {
   cratered: 0.2,
   marbled: 0.1,
   tidal: 0.1,
+  plated: 0.08,
 }
 
 /**
@@ -191,6 +192,16 @@ export function PlanetGlobe({
         )}
         {surface === 'cratered' && (
           <Craters cx={cx} cy={cy} r={r} rand={rand} />
+        )}
+        {surface === 'plated' && (
+          <Plates
+            cx={cx}
+            cy={cy}
+            r={r}
+            rand={rand}
+            accent={accent}
+            light={light}
+          />
         )}
       </g>
       <circle {...disc} fill={`url(#${id}-shade)`} />
@@ -369,4 +380,76 @@ function Craters({
       </g>
     )
   })
+}
+
+/** Panelled shell of a built world, with a scatter of lit windows. */
+function Plates({
+  cx,
+  cy,
+  r,
+  rand,
+  accent,
+  light,
+}: {
+  cx: number
+  cy: number
+  r: number
+  rand: () => number
+  accent: string
+  light: string
+}) {
+  const line = Math.max(0.6, r * 0.014)
+  const panels = Array.from({ length: 22 }, () => ({
+    x: cx + (rand() * 2 - 1) * r * 0.85,
+    y: cy + (rand() * 2 - 1) * r * 0.85,
+    w: r * (0.1 + rand() * 0.14),
+    h: r * (0.06 + rand() * 0.08),
+    dark: rand() < 0.55,
+  }))
+  const windows = Array.from({ length: 26 }, () => {
+    const angle = rand() * Math.PI * 2
+    const dist = Math.sqrt(rand()) * r * 0.92
+    return [cx + Math.cos(angle) * dist, cy + Math.sin(angle) * dist] as const
+  })
+  return (
+    <g transform={`rotate(-18 ${cx} ${cy})`}>
+      {panels.map((p, i) => (
+        <rect
+          key={i}
+          x={p.x - p.w / 2}
+          y={p.y - p.h / 2}
+          width={p.w}
+          height={p.h}
+          fill={p.dark ? accent : light}
+          fillOpacity={p.dark ? 0.35 : 0.3}
+        />
+      ))}
+      <g fill="none" stroke={accent} strokeWidth={line} strokeOpacity={0.7}>
+        {[0.35, 0.72].map((f) => (
+          <ellipse key={f} cx={cx} cy={cy} rx={r * f} ry={r} />
+        ))}
+        <line x1={cx} y1={cy - r} x2={cx} y2={cy + r} />
+        {[-0.72, -0.38, 0, 0.38, 0.72].map((v) => {
+          const w = r * Math.sqrt(1 - v * v)
+          const y = cy + v * r
+          return (
+            <path
+              key={v}
+              d={`M ${cx - w} ${y} A ${w} ${w * 0.16} 0 0 0 ${cx + w} ${y}`}
+            />
+          )
+        })}
+      </g>
+      {windows.map(([x, y], i) => (
+        <circle
+          key={i}
+          cx={x}
+          cy={y}
+          r={Math.max(0.6, r * 0.02)}
+          fill="#ffe7a3"
+          fillOpacity={0.9}
+        />
+      ))}
+    </g>
+  )
 }

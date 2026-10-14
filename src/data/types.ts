@@ -7,9 +7,10 @@ export interface Moon {
 /**
  * mottled: soft painted blotches (the default). banded: gas-giant brush bands.
  * cratered: pocked rock. marbled: swirling veins. tidal: Taldain's lit and dark halves.
+ * plated: the panels and lit windows of a built world, like the Grand Apparatus.
  */
 export type PlanetSurface =
-  'mottled' | 'banded' | 'cratered' | 'marbled' | 'tidal'
+  'mottled' | 'banded' | 'cratered' | 'marbled' | 'tidal' | 'plated'
 
 export interface Planet {
   id: string
@@ -22,6 +23,8 @@ export interface Planet {
   shards: string[]
   magicSystems: string[]
   moons: Moon[]
+  /** Draw every moon evenly spaced on one ring, like Lumar's twelve. */
+  moonRing?: boolean
   /** Orbit index from the star, used for layout only (not to scale). */
   orbit: number
   color: string
@@ -120,5 +123,10 @@ export interface StarSystem {
   orbitNotes?: OrbitNote[]
   palette?: ChartPalette
   layout?: ChartLayout
+  /**
+   * Not a real system: worlds whose own systems are unknown, each charted
+   * alone with no shared sun or orbits.
+   */
+  uncharted?: boolean
   coppermindUrl: string
 }

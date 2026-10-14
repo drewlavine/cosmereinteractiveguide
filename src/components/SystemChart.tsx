@@ -726,7 +726,8 @@ function Sun({
   )
 }
 
-function PlanetMarker({
+/** A clickable planet with its moons, rings and hand-lettered name. */
+export function PlanetMarker({
   planet,
   systemId,
   cx,
@@ -749,16 +750,19 @@ function PlanetMarker({
   /** Which side of a double planet this is; its label goes on that side. */
   pairSide?: -1 | 1
 }) {
-  const named = planet.moons.filter((m) => m.name)
-  const unnamed = planet.moons.filter((m) => !m.name)
+  const ringMoons = planet.moonRing ? planet.moons : []
+  const named = planet.moonRing ? [] : planet.moons.filter((m) => m.name)
+  const unnamed = planet.moonRing ? [] : planet.moons.filter((m) => !m.name)
   // Moon orbits were tuned for a 24-unit planet; scale them with the planet.
   const k = r / BASE_PLANET_RADIUS
+  const moonRingR = r + 16 * k
   // How far decorations reach from the planet's centre, so labels clear them.
   const extent = Math.max(
     r + 4,
     planet.rings ? ringHalfWidth(r, planet.ringTilt) : 0,
     unnamed.length ? r + 28 : 0,
     named.length ? r + (22 + (named.length - 1) * 12) * k : 0,
+    ringMoons.length ? moonRingR + 8 * k : 0,
   )
   const label =
     planet.chartLabel ??
@@ -848,6 +852,36 @@ function PlanetMarker({
           </g>
         )
       })}
+
+      {ringMoons.length > 0 && (
+        <g pointerEvents="none">
+          <circle
+            cx={cx}
+            cy={cy}
+            r={moonRingR}
+            fill="none"
+            stroke={INK_DARK}
+            strokeWidth={1.3}
+          />
+          {ringMoons.map((moon, i) => {
+            const angle = (2 * Math.PI * i) / ringMoons.length - Math.PI / 2
+            const [mx, my] = polar(cx, cy, moonRingR, angle)
+            return (
+              <g key={i}>
+                <MoonHalo cx={mx} cy={my} r={4 * k} />
+                <circle
+                  cx={mx}
+                  cy={my}
+                  r={4 * k}
+                  fill={moon.color}
+                  stroke={INK_DARK}
+                  strokeWidth={1}
+                />
+              </g>
+            )
+          })}
+        </g>
+      )}
 
       <g className="chart-planet-body">
         <PlanetGlobe planet={planet} cx={cx} cy={cy} r={r} />
