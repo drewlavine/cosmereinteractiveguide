@@ -22,6 +22,18 @@ feature ships and note the commit.
   - [ ] Hide appearances from books the reader hasn't marked as read
         (uses the Books Read settings)
 
+### 3. Planet tabs
+
+- [ ] Split each planet detail page into tabs, each showing a different kind
+      of information. All of it must be spoiler-free for the books the reader
+      has marked as read.
+  - [ ] Decide on the tabs (e.g. Overview, Map, Appearances, Magic, People,
+        Places)
+  - [ ] Add a tab bar to the planet page, with each tab at its own URL
+  - [ ] Tag every piece of planet data with the book that first reveals it
+  - [ ] Hide content, and whole tabs, that only come from unread books
+  - [ ] Move planet maps (1) and appearances (2) into their own tabs
+
 ## Completed
 
 - [x] Books Read settings: header button and a checklist of all 35 published
