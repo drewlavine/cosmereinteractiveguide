@@ -1,4 +1,4 @@
-import type { StarSystem } from '../data/types'
+import type { ShownSystem } from '../data/reveal'
 import { ChartDefs, GoldFrame, GoldStar, InkLabel } from './chart'
 import {
   DEFAULT_PALETTE,
@@ -51,7 +51,7 @@ const backgroundStars = (() => {
   })
 })()
 
-export function UnchartedChart({ system }: { system: StarSystem }) {
+export function UnchartedChart({ system }: { system: ShownSystem }) {
   const palette = system.palette ?? DEFAULT_PALETTE
   // Gold stars evenly round the ring, leaving room for the title.
   const titleHalf = (system.name.length * 11 + 90) / ring.rx

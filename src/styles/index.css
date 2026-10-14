@@ -331,6 +331,10 @@ dd {
   align-items: flex-start;
 }
 
+.planet-detail-body > div {
+  flex: 1 1 20rem;
+}
+
 .planet-detail-globe {
   flex: none;
   width: 240px;
@@ -688,4 +692,81 @@ dd {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.8rem;
   font-style: italic;
+}
+
+/* Spoilers */
+.spoiler-notice {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  max-width: 34rem;
+  margin: 1rem auto;
+  padding: 0.6rem 1rem;
+  border: 1px dashed rgba(212, 165, 64, 0.7);
+  border-radius: 10px;
+  background: var(--panel);
+  text-align: left;
+}
+
+.spoiler-notice.is-showing {
+  border-color: var(--ink-red);
+}
+
+.spoiler-notice p {
+  flex: 1 1 14rem;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.spoiler-notice cite {
+  color: var(--gold-soft);
+}
+
+.spoiler-notice button,
+.star-map-empty button {
+  flex: none;
+  padding: 0.35rem 0.9rem;
+  border: 1px solid var(--gold);
+  border-radius: 999px;
+  color: var(--gold-soft);
+  background: transparent;
+  font: inherit;
+  cursor: pointer;
+}
+
+.spoiler-notice button:hover,
+.star-map-empty button:hover {
+  color: var(--slate-deep);
+  background: var(--gold);
+}
+
+/* Floats over the chart, clear of the info panel and zoom buttons. */
+.system-view > .spoiler-notice {
+  position: absolute;
+  bottom: 1rem;
+  left: 1rem;
+  z-index: 2;
+  max-width: min(30rem, calc(100% - 7rem));
+  margin: 0;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.star-map-empty {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 2;
+  width: min(26rem, calc(100% - 2rem));
+  padding: 1.25rem 1.5rem;
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  background: var(--panel);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.star-map-empty p {
+  margin: 0 0 1rem;
 }

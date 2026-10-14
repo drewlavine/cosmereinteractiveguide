@@ -1,4 +1,5 @@
-import type { ChartPalette, OrbitNote, Planet, StarSystem } from '../data/types'
+import type { ShownPlanet, ShownSystem } from '../data/reveal'
+import type { ChartPalette, OrbitNote } from '../data/types'
 import { ChartDefs, GoldFrame, GoldStar, InkLabel, SvgLink } from './chart'
 import { PlanetGlobe } from './PlanetGlobe'
 import {
@@ -48,7 +49,7 @@ interface Geometry {
   band: (orbit: number) => number
 }
 
-function geometry(system: StarSystem, maxOrbit: number): Geometry {
+function geometry(system: ShownSystem, maxOrbit: number): Geometry {
   const layout = system.layout ?? {}
   const spacing =
     maxOrbit > 1
@@ -89,14 +90,18 @@ function geometry(system: StarSystem, maxOrbit: number): Geometry {
   }
 }
 
-export function SystemChart({ system }: { system: StarSystem }) {
+export function SystemChart({ system }: { system: ShownSystem }) {
   const palette = system.palette ?? DEFAULT_PALETTE
-  const maxOrbit = Math.max(
-    1,
+  // Laid out for the whole system so nothing moves as books are read, but
+  // only orbits with something the reader may see are drawn.
+  const { maxOrbit } = system
+  const inUse = new Set([
     ...system.planets.map((p) => p.orbit),
-    system.asteroidBelt?.orbit ?? 0,
-    system.cometBelt?.orbit ?? 0,
-  )
+    ...(system.orbitNotes ?? []).map((n) => n.orbit),
+    ...(system.markers ?? []).map((m) => m.orbit),
+    system.asteroidBelt?.orbit,
+    system.cometBelt?.orbit,
+  ])
   const geo = geometry(system, maxOrbit)
   const { cx, cy, height, outerRadius } = geo
   const ringRadius = outerRadius + TITLE_RING / 2
@@ -160,6 +165,7 @@ export function SystemChart({ system }: { system: StarSystem }) {
         <circle cx={cx} cy={cy} r={outerRadius} fill="url(#space-wash)" />
 
         {orbits.map((orbit) => {
+          if (!inUse.has(orbit)) return null
           const r = geo.orbitRadius(orbit)
           const band = geo.band(orbit)
           if (system.asteroidBelt?.orbit === orbit)
@@ -738,7 +744,7 @@ export function PlanetMarker({
   arcPos,
   pairSide,
 }: {
-  planet: Planet
+  planet: ShownPlanet
   systemId: string
   cx: number
   cy: number

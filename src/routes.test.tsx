@@ -1,9 +1,11 @@
 import { render, screen } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
-import { describe, expect, it } from 'vitest'
+import { beforeEach, describe, expect, it } from 'vitest'
+import { books } from './data/books'
 import { systems } from './data/systems'
 import { routes } from './routes'
+import { BOOKS_READ_KEY } from './state/booksRead'
 
 const renderAt = (path: string) =>
   render(
@@ -13,6 +15,14 @@ const renderAt = (path: string) =>
   )
 
 describe('routes', () => {
+  // A reader who has read everything sees every system in full.
+  beforeEach(() =>
+    localStorage.setItem(
+      BOOKS_READ_KEY,
+      JSON.stringify(books.map((b) => b.id)),
+    ),
+  )
+
   it('lists every system on the star map', () => {
     renderAt('/')
     for (const system of systems) {

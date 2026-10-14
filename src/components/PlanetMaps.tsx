@@ -15,10 +15,19 @@ const bookTitle = (bookId: string) =>
 
 const newest = (map: PlanetMap) => map.versions[map.versions.length - 1]
 
-/** A planet's maps, limited to those from books the reader has read. */
-export function PlanetMaps({ planetId }: { planetId: string }) {
+/**
+ * A planet's maps, limited to those from books the reader has read unless
+ * `showAll` (the reader chose to view spoilers).
+ */
+export function PlanetMaps({
+  planetId,
+  showAll = false,
+}: {
+  planetId: string
+  showAll?: boolean
+}) {
   const { hasRead } = useBooksRead()
-  const maps = unlockedMaps(planetId, hasRead)
+  const maps = unlockedMaps(planetId, showAll ? () => true : hasRead)
   const [mapId, setMapId] = useState<string>()
   const [file, setFile] = useState<string>()
 

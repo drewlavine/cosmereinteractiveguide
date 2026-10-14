@@ -1,4 +1,4 @@
-import type { StarSystem } from '../data/types'
+import type { ShownSystem } from '../data/reveal'
 import { ChartDefs, GoldFrame, GoldStar, InkLabel, SvgLink } from './chart'
 import {
   GOLD,
@@ -67,7 +67,7 @@ function wavyRay(
   return `M ${[...side(1), ...side(-1).reverse()].join(' L ')} Z`
 }
 
-export function BinarySystemChart({ system }: { system: StarSystem }) {
+export function BinarySystemChart({ system }: { system: ShownSystem }) {
   const [planet] = system.planets
   const ringRadius = RING.r
   const inner = ringRadius - RING.width / 2

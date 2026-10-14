@@ -1,4 +1,4 @@
-import { createContext, useContext } from 'react'
+import { createContext, useContext, type RefObject } from 'react'
 
 export const BOOKS_READ_KEY = 'cosmere-guide:books-read'
 
@@ -12,6 +12,11 @@ export interface BooksRead {
   setBooks: (bookIds: string[], isRead: boolean) => void
   /** Record the current selection as the reader's choice. */
   confirm: () => void
+  /** Systems whose spoilers the reader chose to see this visit. */
+  viewAnyway: ReadonlySet<string>
+  setViewAnyway: (systemId: string, on: boolean) => void
+  /** The Books Read dialog, so other parts of the page can open it. */
+  dialogRef: RefObject<HTMLDialogElement | null>
 }
 
 export const BooksReadContext = createContext<BooksRead | null>(null)

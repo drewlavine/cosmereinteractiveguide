@@ -1,7 +1,26 @@
+/**
+ * Book ids (see books.ts) that reveal something, earliest first. It is shown
+ * once the reader has read any one of them.
+ */
+export type Reveal = readonly string[]
+
+/** A sentence or two of prose, revealed by its own books. */
+export interface Passage {
+  text: string
+  revealedIn: Reveal
+}
+
+/** A named fact, such as a Shard or magic system, revealed by its own books. */
+export interface Fact {
+  name: string
+  revealedIn: Reveal
+}
+
 export interface Moon {
   /** Omitted for moons that have no known name. */
   name?: string
   color: string
+  revealedIn: Reveal
 }
 
 /**
@@ -15,13 +34,15 @@ export type PlanetSurface =
 export interface Planet {
   id: string
   name: string
+  /** Books that reveal the planet itself: its name, globe and place on the chart. */
+  revealedIn: Reveal
   /** Second name shown on the star chart, e.g. "Seol" for Sel. */
-  altName?: string
+  altName?: Passage
   /** Replaces the chart label, e.g. "Scadrial New Orbit". */
-  chartLabel?: string
-  summary: string
-  shards: string[]
-  magicSystems: string[]
+  chartLabel?: Passage
+  summary: Passage[]
+  shards: Fact[]
+  magicSystems: Fact[]
   moons: Moon[]
   /** Draw every moon evenly spaced on one ring, like Lumar's twelve. */
   moonRing?: boolean
@@ -47,6 +68,7 @@ export interface Belt {
   /** Orbit index for layout; bodies outside the belt should use higher orbits. */
   orbit: number
   description: string
+  revealedIn: Reveal
 }
 
 /** Colors for a system's star chart, matched to its in-world chart. */
@@ -82,6 +104,7 @@ export interface OrbitNote {
   ink?: 'red' | 'blue'
   /** Unclickable body at the top of the orbit. */
   body?: { color: string; title: string }
+  revealedIn: Reveal
 }
 
 export interface ChartMarker {
@@ -90,6 +113,7 @@ export interface ChartMarker {
   orbit: number
   /** Degrees clockwise from straight above the sun. */
   angle: number
+  revealedIn: Reveal
 }
 
 export interface ChartLayout {
@@ -108,10 +132,11 @@ export interface ChartLayout {
 export interface StarSystem {
   id: string
   name: string
-  star: string
+  star: Passage[]
   /** Second star in a binary system; switches to the binary chart layout. */
-  companionStar?: string
-  summary: string
+  companionStar?: Passage
+  /** Shown once any of its planets is revealed. */
+  summary: Passage[]
   /** Stylized position on the star map, as percentages (0–100). */
   mapPosition: { x: number; y: number }
   color: string

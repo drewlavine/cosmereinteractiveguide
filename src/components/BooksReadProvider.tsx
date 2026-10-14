@@ -1,4 +1,4 @@
-import { useMemo, useState, type ReactNode } from 'react'
+import { useMemo, useRef, useState, type ReactNode } from 'react'
 import {
   BooksReadContext,
   loadBooksRead,
@@ -10,6 +10,8 @@ import {
 export function BooksReadProvider({ children }: { children: ReactNode }) {
   // null until the reader makes a choice, so first-time visitors get asked.
   const [saved, setSaved] = useState(loadBooksRead)
+  const [viewAnyway, setViewAnyway] = useState<ReadonlySet<string>>(new Set())
+  const dialogRef = useRef<HTMLDialogElement>(null)
 
   const value = useMemo<BooksRead>(() => {
     const read = new Set(saved ?? [])
@@ -30,8 +32,17 @@ export function BooksReadProvider({ children }: { children: ReactNode }) {
         commit(next)
       },
       confirm: () => commit(read),
+      viewAnyway,
+      setViewAnyway: (systemId, on) =>
+        setViewAnyway((current) => {
+          const next = new Set(current)
+          if (on) next.add(systemId)
+          else next.delete(systemId)
+          return next
+        }),
+      dialogRef,
     }
-  }, [saved])
+  }, [saved, viewAnyway])
 
   return (
     <BooksReadContext.Provider value={value}>

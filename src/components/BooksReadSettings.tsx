@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react'
+import { useEffect } from 'react'
 import { books, bookSeries, type BookSeries } from '../data/books'
 import { useBooksRead } from '../state/booksRead'
 
@@ -6,15 +6,14 @@ const allBookIds = books.map((book) => book.id)
 
 /** Header button that opens the reader's "Books Read" checklist. */
 export function BooksReadSettings() {
-  const { read, chosen, setBooks, confirm } = useBooksRead()
-  const dialogRef = useRef<HTMLDialogElement>(null)
+  const { read, chosen, setBooks, confirm, dialogRef } = useBooksRead()
   const readCount = allBookIds.filter((id) => read.has(id)).length
 
   // First-time visitors are asked straight away.
   useEffect(() => {
     const dialog = dialogRef.current
     if (dialog && !chosen && !dialog.open) dialog.showModal()
-  }, [chosen])
+  }, [chosen, dialogRef])
 
   return (
     <>

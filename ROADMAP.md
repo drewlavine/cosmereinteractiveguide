@@ -12,18 +12,24 @@ stay hidden until their revealing book is ticked in Books Read. Hide content
 completely rather than blurring it or showing a placeholder that gives away
 that something exists.
 
+The one exception: a system or planet page with hidden content shows a
+"Spoilers hidden for (books)" notice with a **View anyway** button, so readers
+can choose to see that system in full (and **Hide again**). Facts known only
+from Words of Brandon are hidden behind the book they would spoil, choosing
+the later book when unsure.
+
 ## Planned
 
 ### 0. Spoiler-tag existing data
 
-- [ ] Tag everything already in the guide with the book that first reveals it,
+- [x] Tag everything already in the guide with the book that first reveals it,
       and hide it until that book is read.
-  - [ ] Systems and stars on the Cosmere star map
-  - [ ] Planets, including their names, summaries and chart positions
-  - [ ] Shards for each planet
-  - [ ] Magic systems for each planet
-  - [ ] Moons
-  - [ ] A shared helper (e.g. `useRevealed(item)`) used by every component
+  - [x] Systems and stars on the Cosmere star map
+  - [x] Planets, including their names, summaries and chart positions
+  - [x] Shards for each planet
+  - [x] Magic systems for each planet
+  - [x] Moons
+  - [x] A shared helper (`revealSystem` / `useShownSystems`) used by every component
 
 ### 1. Planet maps
 

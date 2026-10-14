@@ -1,16 +1,20 @@
 import { useParams } from 'react-router'
 import { PanZoom } from '../components/PanZoom'
 import { BinarySystemChart } from '../components/BinarySystemChart'
+import { SpoilerNotice } from '../components/SpoilerNotice'
 import { SystemChart } from '../components/SystemChart'
 import { UnchartedChart } from '../components/UnchartedChart'
-import { getSystem } from '../data/systems'
+import { useShownSystem } from '../state/reveal'
+import { HiddenPage } from './HiddenPage'
 import { NotFound } from './NotFound'
 
 export function SystemView() {
   const { systemId } = useParams()
-  const system = getSystem(systemId)
+  const system = useShownSystem(systemId)
 
   if (!system) return <NotFound />
+  if (!system.planets.length)
+    return <HiddenPage systemId={system.id} spoilers={system.spoilers} />
 
   const dwarfs = system.planets.filter((p) => p.dwarf).length
 
@@ -19,7 +23,7 @@ export function SystemView() {
       <PanZoom label={`${system.name} map`}>
         {system.uncharted ? (
           <UnchartedChart system={system} />
-        ) : system.companionStar ? (
+        ) : system.binary ? (
           <BinarySystemChart system={system} />
         ) : (
           <SystemChart system={system} />
@@ -33,11 +37,17 @@ export function SystemView() {
           </summary>
           <div className="system-info-body">
             <dl>
-              <dt>
-                {system.companionStar || system.uncharted ? 'Stars' : 'Star'}
-              </dt>
-              <dd>{system.star}</dd>
-              {system.companionStar && <dd>{system.companionStar}</dd>}
+              {system.star && (
+                <>
+                  <dt>
+                    {system.companionStar || system.uncharted
+                      ? 'Stars'
+                      : 'Star'}
+                  </dt>
+                  <dd>{system.star}</dd>
+                  {system.companionStar && <dd>{system.companionStar}</dd>}
+                </>
+              )}
               <dt>Known planets</dt>
               <dd>
                 {system.planets.length - dwarfs}
@@ -57,13 +67,15 @@ export function SystemView() {
                 </>
               )}
             </dl>
-            <p>{system.summary}</p>
+            {system.summary && <p>{system.summary}</p>}
             <a href={system.coppermindUrl} target="_blank" rel="noreferrer">
               Read more on the Coppermind
             </a>
           </div>
         </details>
       </aside>
+
+      <SpoilerNotice systemId={system.id} spoilers={system.spoilers} />
     </section>
   )
 }

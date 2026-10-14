@@ -1,9 +1,69 @@
-import type { StarSystem } from './types'
+import type { Fact, Passage, StarSystem } from './types'
 
 const wiki = (page: string) => `https://coppermind.net/wiki/${page}`
 
 const ordinal = (n: number) =>
   `${n}${({ 1: 'st', 2: 'nd', 3: 'rd' } as Record<number, string>)[n] ?? 'th'}`
+
+// Spoiler tags: book ids from books.ts, earliest published first. Anything
+// tagged shows once the reader has read any one of its books.
+const p = (text: string, ...revealedIn: string[]): Passage => ({
+  text,
+  revealedIn,
+})
+const f = (name: string, ...revealedIn: string[]): Fact => ({
+  name,
+  revealedIn,
+})
+
+const ELA = 'elantris'
+const HOPE = 'hope-of-elantris'
+const FE = 'final-empire'
+const WOA = 'well-of-ascension'
+const HOA = 'hero-of-ages'
+const ELEVEN = 'eleventh-metal'
+const SH = 'secret-history'
+const AOL = 'alloy-of-law'
+const JAK = 'allomancer-jak'
+const SOS = 'shadows-of-self'
+const BOM = 'bands-of-mourning'
+const LM = 'lost-metal'
+const WOK = 'way-of-kings'
+const WOR = 'words-of-radiance'
+const EDGE = 'edgedancer'
+const OB = 'oathbringer'
+const DAWN = 'dawnshard'
+const ROW = 'rhythm-of-war'
+const WAT = 'wind-and-truth'
+const ELSE = 'elsecaller'
+const LOPEN = 'king-lopen'
+const WS1 = 'white-sand-1'
+const WS2 = 'white-sand-2'
+const WS3 = 'white-sand-3'
+const WSO = 'white-sand-omnibus'
+const TRESS = 'tress'
+const YUMI = 'yumi'
+const FOD = 'fires-of-december'
+const WB = 'warbreaker'
+const ES = 'emperors-soul'
+const S4S = 'shadows-for-silence'
+const S6D = 'sixth-of-the-dusk'
+const SLM = 'sunlit-man'
+const ISLES = 'isles-of-the-emberdark'
+const AU = 'arcanum-unbounded'
+
+// Every Stormlight book, and just the main novels.
+const SA = [WOK, WOR, EDGE, AU, OB, DAWN, ROW, WAT, ELSE, LOPEN]
+const SL = [WOK, WOR, OB, ROW, WAT]
+// Every Mistborn book.
+const MB = [FE, WOA, HOA, AOL, ELEVEN, JAK, SOS, BOM, SH, AU, LM]
+// Mistborn books that reveal Harmony and Hemalurgy (from The Hero of Ages on).
+const HARMONY = [HOA, AOL, SOS, BOM, SH, AU, LM]
+// Books set on Sel, and on Taldain.
+const SEL = [ELA, HOPE, ES, AU]
+const TAL = [WS1, AU, WS2, WS3, WSO]
+// Books that name Yolen.
+const YOLEN = [AU, SLM, WAT, ISLES]
 
 // Seed data so the UI has something to render. Replace or extend with
 // curated output from `npm run data:fetch`. Map positions are stylized.
@@ -11,24 +71,45 @@ export const systems: StarSystem[] = [
   {
     id: 'rosharan',
     name: 'Rosharan System',
-    star: 'Large white sun (unnamed)',
-    summary:
-      'Also called Greater Roshar: three terrestrial planets and ten gas giants, divided by an asteroid belt. Roshar is orbited by three moons.',
+    star: [p('Large white sun (unnamed)', ...SA)],
+    summary: [
+      p(
+        'Also called Greater Roshar: three terrestrial planets and ten gas giants, divided by an asteroid belt.',
+        AU,
+        WAT,
+      ),
+      p('Roshar is orbited by three moons.', ...SL),
+    ],
     mapPosition: { x: 22, y: 62 },
     color: '#e8f6ff',
     coppermindUrl: wiki('Rosharan_system'),
     asteroidBelt: {
       orbit: 4,
       description: 'Between Braize and Jes',
+      revealedIn: [AU, WAT],
     },
     planets: [
       {
         id: 'ashyn',
         name: 'Ashyn',
-        summary:
-          'The innermost planet, formerly called Alaswha. A cataclysm forced most of its humans to flee to Roshar; the rest live in floating cities. Known in Rosharan myth as the Tranquiline Halls.',
+        revealedIn: [AU, ROW, SLM, WAT],
+        summary: [
+          p('The innermost planet in the system.', AU, ROW, WAT),
+          p('Its old name was Alaswha.', WAT),
+          p(
+            'A cataclysm forced most of its humans to flee to Roshar; the rest live in floating cities.',
+            AU,
+            SLM,
+            WAT,
+          ),
+          p(
+            'Ashyn is known in Rosharan myth as the Tranquiline Halls.',
+            ROW,
+            WAT,
+          ),
+        ],
         shards: [],
-        magicSystems: ['Surge-granting diseases'],
+        magicSystems: [f('Surge-granting diseases', OB)],
         moons: [],
         orbit: 1,
         color: '#b0283c',
@@ -39,14 +120,32 @@ export const systems: StarSystem[] = [
       {
         id: 'roshar',
         name: 'Roshar',
-        summary:
-          'The second planet, with a single supercontinent swept by highstorms. Home to the Shards Honor and Cultivation, and to most of the system’s sentient life.',
-        shards: ['Honor', 'Cultivation'],
-        magicSystems: ['Surgebinding', 'Voidbinding', 'Old Magic'],
+        revealedIn: SA,
+        summary: [
+          p('Roshar is the second planet from the sun.', AU, ROW, WAT),
+          p('Its single supercontinent is swept by highstorms.', ...SA),
+          p(
+            'Home to the Shards Honor and Cultivation.',
+            WOK,
+            WOR,
+            EDGE,
+            AU,
+            OB,
+            ROW,
+            WAT,
+          ),
+          p('Most of the system’s sentient life lives here.', ...SA),
+        ],
+        shards: [f('Honor', ...SA), f('Cultivation', ...SA)],
+        magicSystems: [
+          f('Surgebinding', ...SA),
+          f('Voidbinding', WOK, OB, ROW, WAT),
+          f('Old Magic', WOK, WOR, EDGE, AU, OB, ROW, WAT),
+        ],
         moons: [
-          { name: 'Salas', color: '#9a7ad8' },
-          { name: 'Nomon', color: '#d8ecff' },
-          { name: 'Mishim', color: '#8fd07a' },
+          { name: 'Salas', color: '#9a7ad8', revealedIn: SL },
+          { name: 'Nomon', color: '#d8ecff', revealedIn: SL },
+          { name: 'Mishim', color: '#8fd07a', revealedIn: SL },
         ],
         orbit: 2,
         color: '#6a9fc0',
@@ -57,9 +156,13 @@ export const systems: StarSystem[] = [
       {
         id: 'braize',
         name: 'Braize',
-        summary:
-          'A cold, barren, wind-swept world where the Shard Odium resides. Known in Rosharan myth as Damnation.',
-        shards: ['Odium'],
+        revealedIn: [WOR, AU, OB, ROW, WAT],
+        summary: [
+          p('A cold, barren, wind-swept world.', ROW, WAT),
+          p('The Shard Odium resides here.', AU, OB),
+          p('Known in Rosharan myth as Damnation.', WOR, OB, ROW, WAT),
+        ],
+        shards: [f('Odium', AU, OB)],
         magicSystems: [],
         moons: [],
         orbit: 3,
@@ -84,7 +187,15 @@ export const systems: StarSystem[] = [
       ).map(([name, color], i) => ({
         id: name.toLowerCase(),
         name,
-        summary: `A gas giant beyond the asteroid belt, the ${ordinal(i + 4)} planet from the sun. Named for the Vorin numeral ${i + 1}. Uninhabited, with no known moons or rings.`,
+        revealedIn: [AU, WAT],
+        summary: [
+          p(
+            `A gas giant beyond the asteroid belt, the ${ordinal(i + 4)} planet from the sun. Named for the Vorin numeral ${i + 1}.`,
+            AU,
+            WAT,
+          ),
+          p('Uninhabited, with no known moons or rings.', AU),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -97,13 +208,25 @@ export const systems: StarSystem[] = [
   {
     id: 'scadrian',
     name: 'Scadrian System',
-    star: 'Unnamed',
-    summary:
-      'Scadrial, two gas giants, a comet belt and two dwarf planets. Rashek moved Scadrial nearer the sun to burn away the Deepness, and Harmony later set it on its current orbit; the chart shows both, with the old and new calendars. Roshar is the nearest system, and its Cognitive Realm is the Expanse of the Vapors.',
+    star: [p('Unnamed', ...MB)],
+    summary: [
+      p('Scadrial, two gas giants, a comet belt and two dwarf planets.', AU),
+      p(
+        'Rashek moved Scadrial nearer the sun to burn away the Deepness, and Harmony later set it on its current orbit.',
+        HOA,
+        AU,
+      ),
+      p(
+        'The chart shows both of Scadrial’s orbits, with the old and new calendars.',
+        AU,
+      ),
+      p('Roshar is the nearest system.', AU),
+      p('Its Cognitive Realm is the Expanse of the Vapors.', OB),
+    ],
     mapPosition: { x: 70, y: 30 },
     color: '#ffb36b',
     coppermindUrl: wiki('Scadrian_system'),
-    cometBelt: { orbit: 5, description: 'Beyond Aagal Uch' },
+    cometBelt: { orbit: 5, description: 'Beyond Aagal Uch', revealedIn: [AU] },
     orbitNotes: [
       {
         orbit: 1,
@@ -114,8 +237,9 @@ export const systems: StarSystem[] = [
           color: '#c4434d',
           title: 'Scadrial’s old orbit, nearer the sun',
         },
+        revealedIn: [AU],
       },
-      { orbit: 2, right: 'New Calendar' },
+      { orbit: 2, right: 'New Calendar', revealedIn: [AU] },
     ],
     layout: {
       orbitRadii: [337, 567, 958, 1058, 1134, 1218, 1331],
@@ -139,11 +263,28 @@ export const systems: StarSystem[] = [
       {
         id: 'scadrial',
         name: 'Scadrial',
-        chartLabel: 'Scadrial New Orbit',
-        summary:
-          'The first planet from the sun, created entirely by Preservation and Ruin, now held by Harmony. Rashek moved it nearer the sun, needing ashmounts to block the light; Harmony corrected its orbit when he Ascended. It has no moon. Setting of Mistborn.',
-        shards: ['Harmony'],
-        magicSystems: ['Allomancy', 'Feruchemy', 'Hemalurgy'],
+        revealedIn: MB,
+        chartLabel: p('Scadrial New Orbit', AU),
+        summary: [
+          p('The first planet from its sun.', AU),
+          p(
+            'Scadrial was created entirely by Preservation and Ruin, and is now held by Harmony.',
+            ...HARMONY,
+          ),
+          p(
+            'Rashek moved it nearer the sun, needing ashmounts to block the light; Harmony corrected its orbit when he Ascended.',
+            HOA,
+            AU,
+          ),
+          p('It has no moon.', AU, LM),
+          p('Setting of Mistborn.', ...MB),
+        ],
+        shards: [f('Harmony', ...HARMONY)],
+        magicSystems: [
+          f('Allomancy', ...MB),
+          f('Feruchemy', FE, WOA, HOA, AOL, SOS, BOM, AU, LM),
+          f('Hemalurgy', ...HARMONY),
+        ],
         moons: [],
         orbit: 2,
         color: '#dbe6ea',
@@ -153,18 +294,27 @@ export const systems: StarSystem[] = [
       {
         id: 'aagal-nod',
         name: 'Aagal Nod',
-        summary:
-          'A blue gas giant with at least six moons, the largest planet in the system. Its name means the Near Eye, given by the Nelazan of Classical Scadrial.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'A blue gas giant with at least six moons, the largest planet in the system.',
+            AU,
+          ),
+          p(
+            'Its name means the Near Eye, given by the Nelazan of Classical Scadrial.',
+            LM,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [
-          { color: '#e6eaee' },
-          { color: '#cfd6dc' },
-          { color: '#e6eaee' },
-          { color: '#b9c3cb' },
-          { color: '#e6eaee' },
-          { color: '#cfd6dc' },
-        ],
+          '#e6eaee',
+          '#cfd6dc',
+          '#e6eaee',
+          '#b9c3cb',
+          '#e6eaee',
+          '#cfd6dc',
+        ].map((color) => ({ color, revealedIn: [AU] })),
         orbit: 3,
         color: '#8fb6e2',
         surface: 'banded',
@@ -175,17 +325,22 @@ export const systems: StarSystem[] = [
       {
         id: 'aagal-uch',
         name: 'Aagal Uch',
-        summary:
-          'A red gas giant with at least five moons and a ring system; the comet belt lies beyond it. Its name means the Far Eye, given by the Nelazan of Classical Scadrial.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'A red gas giant with at least five moons and a ring system; the comet belt lies beyond it.',
+            AU,
+          ),
+          p(
+            'Its name means the Far Eye, given by the Nelazan of Classical Scadrial.',
+            LM,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#9a2f34' },
-          { color: '#b8474c' },
-          { color: '#9a2f34' },
-          { color: '#b8474c' },
-          { color: '#9a2f34' },
-        ],
+        moons: ['#9a2f34', '#b8474c', '#9a2f34', '#b8474c', '#9a2f34'].map(
+          (color) => ({ color, revealedIn: [AU] }),
+        ),
         orbit: 4,
         color: '#c23a43',
         surface: 'banded',
@@ -198,9 +353,14 @@ export const systems: StarSystem[] = [
       ...[6, 7].map((orbit, i) => ({
         id: `dwarf-planet-${i + 1}`,
         name: `${i ? 'Outer' : 'Inner'} dwarf planet`,
-        chartLabel: 'dwarf planet',
-        summary:
-          'One of two unnamed dwarf planets beyond the comet belt, at the edge of the Scadrian system.',
+        revealedIn: [AU],
+        chartLabel: p('dwarf planet', AU),
+        summary: [
+          p(
+            'One of two unnamed dwarf planets beyond the comet belt, at the edge of the Scadrian system.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -213,17 +373,33 @@ export const systems: StarSystem[] = [
     ],
   },
   {
+    // The Nalthian chart was shared online, not printed in a book, so its
+    // details are gated behind Warbreaker.
     id: 'nalthian',
     name: 'Nalthian System',
-    star: 'Yellow sun (unnamed), like those of Scadrial and Sel',
-    summary:
-      'Nalthis, a red gas giant, a small outer planet and a comet belt at the system’s edge, plus a cognitive anomaly that shows up in the Physical Realm. The two uninhabited planets are named like the Returned. Hugely popular with worldhoppers, with a customs check near the perpendicularity in Hallandren. Lies in “The Giver” constellation, closest to the Selish system.',
+    star: [p('Yellow sun (unnamed), like those of Scadrial and Sel', WB)],
+    summary: [
+      p(
+        'Nalthis, a red gas giant, a small outer planet and a comet belt at the system’s edge, plus a cognitive anomaly that shows up in the Physical Realm.',
+        WB,
+      ),
+      p('The two uninhabited planets are named like the Returned.', WB),
+      p(
+        'The system is hugely popular with worldhoppers, with a customs check near the perpendicularity in Hallandren.',
+        LM,
+      ),
+      p(
+        'It lies in “The Giver” constellation, closest to the Selish system.',
+        WB,
+      ),
+    ],
     mapPosition: { x: 48, y: 78 },
     color: '#c58cff',
     coppermindUrl: wiki('Nalthian_system'),
     cometBelt: {
       orbit: 4,
       description: 'Beyond Nightstar, at the system’s edge',
+      revealedIn: [WB],
     },
     markers: [
       {
@@ -232,6 +408,7 @@ export const systems: StarSystem[] = [
           'A Cognitive Realm anomaly manifesting in the Physical Realm, sharing Nalthis’s orbit.',
         orbit: 1,
         angle: 48,
+        revealedIn: [WB],
       },
     ],
     layout: { orbitRadii: [371, 572, 972, 1380], sunScale: 0.85 },
@@ -257,11 +434,16 @@ export const systems: StarSystem[] = [
       {
         id: 'nalthis',
         name: 'Nalthis',
-        summary:
-          'The only inhabited planet, home to a large human population and the Shard Endowment. Nalthians are born with Breath, Endowment’s Investiture, which fuels Awakening. Its one moon is Rrendos, and it shares its orbit with a cognitive anomaly. Setting of Warbreaker.',
-        shards: ['Endowment'],
-        magicSystems: ['Awakening'],
-        moons: [{ name: 'Rrendos', color: '#c7ccd6' }],
+        revealedIn: [WB],
+        summary: [
+          p(
+            'The only inhabited planet, home to a large human population and the Shard Endowment. Nalthians are born with Breath, Endowment’s Investiture, which fuels Awakening. Its one moon is Rrendos, and it shares its orbit with a cognitive anomaly. Setting of Warbreaker.',
+            WB,
+          ),
+        ],
+        shards: [f('Endowment', WB)],
+        magicSystems: [f('Awakening', WB)],
+        moons: [{ name: 'Rrendos', color: '#c7ccd6', revealedIn: [WB] }],
         orbit: 1,
         color: '#6e7cc4',
         size: 0.75,
@@ -270,18 +452,23 @@ export const systems: StarSystem[] = [
       {
         id: 'farkeeper-the-bright',
         name: 'Farkeeper the Bright',
-        summary:
-          'A red gas giant, the largest planet in the system, with at least six moons. Named in the style of the Returned.',
+        revealedIn: [WB],
+        summary: [
+          p(
+            'A red gas giant, the largest planet in the system, with at least six moons. Named in the style of the Returned.',
+            WB,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [
-          { color: '#8fb8c8' },
-          { color: '#e6e9ec' },
-          { color: '#a6c4d4' },
-          { color: '#d4d9de' },
-          { color: '#e6e9ec' },
-          { color: '#c2cad1' },
-        ],
+          '#8fb8c8',
+          '#e6e9ec',
+          '#a6c4d4',
+          '#d4d9de',
+          '#e6e9ec',
+          '#c2cad1',
+        ].map((color) => ({ color, revealedIn: [WB] })),
         orbit: 2,
         color: '#e08a35',
         surface: 'banded',
@@ -292,8 +479,13 @@ export const systems: StarSystem[] = [
       {
         id: 'nightstar-the-hidden',
         name: 'Nightstar the Hidden',
-        summary:
-          'A small violet planet far beyond Farkeeper. The comet belt lies beyond it, marking the system’s edge. Named in the style of the Returned.',
+        revealedIn: [WB],
+        summary: [
+          p(
+            'A small violet planet far beyond Farkeeper. The comet belt lies beyond it, marking the system’s edge. Named in the style of the Returned.',
+            WB,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -307,14 +499,23 @@ export const systems: StarSystem[] = [
   {
     id: 'selish',
     name: 'Selish System',
-    star: 'Mashe, whose name contains the Aon Ashe (“light”)',
-    summary:
-      'Four planets and one dwarf planet orbit Mashe, with an asteroid belt beyond Sel and a comet belt beyond Ralen. Home to Sel, the setting of Elantris and The Emperor’s Soul.',
+    star: [p('Mashe, whose name contains the Aon Ashe (“light”)', AU)],
+    summary: [
+      p(
+        'Four planets and one dwarf planet orbit Mashe, with an asteroid belt beyond Sel and a comet belt beyond Ralen.',
+        AU,
+      ),
+      p('Home to Sel, the setting of Elantris and The Emperor’s Soul.', ...SEL),
+    ],
     mapPosition: { x: 34, y: 28 },
     color: '#9fe3c0',
     coppermindUrl: wiki('Selish_system'),
-    asteroidBelt: { orbit: 3, description: 'Between Sel and Ky' },
-    cometBelt: { orbit: 6, description: 'Beyond Ralen' },
+    asteroidBelt: {
+      orbit: 3,
+      description: 'Between Sel and Ky',
+      revealedIn: [AU],
+    },
+    cometBelt: { orbit: 6, description: 'Beyond Ralen', revealedIn: [AU] },
     palette: {
       wash: ['#f6f3d8', '#e2e3cb', '#5d7280', '#2c4352'],
       sky: '#c9d0d8',
@@ -337,9 +538,14 @@ export const systems: StarSystem[] = [
       {
         id: 'donne',
         name: 'Donne',
-        altName: 'Doo',
-        summary:
-          'The planet closest to Mashe. Though within the habitable zone, it is barren, uncomfortably warm and prone to terrible dust storms.',
+        revealedIn: [AU],
+        altName: p('Doo', AU),
+        summary: [
+          p(
+            'The planet closest to Mashe. Though within the habitable zone, it is barren, uncomfortably warm and prone to terrible dust storms.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -351,12 +557,22 @@ export const systems: StarSystem[] = [
       {
         id: 'sel',
         name: 'Sel',
-        altName: 'Seol',
-        summary:
-          'The second planet, home to the Splintered Shards Devotion and Dominion and to thriving human empires. Its other name may come from the Aon Seo, “loyalty”.',
-        shards: ['Devotion', 'Dominion'],
-        magicSystems: ['AonDor', 'Forgery', 'Dakhor', 'ChayShan'],
-        moons: [{ name: 'Oem', color: '#e3d6bd' }],
+        revealedIn: SEL,
+        altName: p('Seol', AU),
+        summary: [
+          p('A world of thriving human empires.', ...SEL),
+          p('The second planet from Mashe.', AU),
+          p('Home to the Splintered Shards Devotion and Dominion.', AU),
+          p('Its other name, Seol, may come from the Aon Seo, “loyalty”.', AU),
+        ],
+        shards: [f('Devotion', AU), f('Dominion', AU)],
+        magicSystems: [
+          f('AonDor', ELA, HOPE, AU),
+          f('Forgery', ES, AU),
+          f('Dakhor', ELA),
+          f('ChayShan', ELA),
+        ],
+        moons: [{ name: 'Oem', color: '#e3d6bd', revealedIn: [AU] }],
         orbit: 2,
         color: '#b8323a',
         coppermindUrl: wiki('Sel'),
@@ -364,17 +580,20 @@ export const systems: StarSystem[] = [
       {
         id: 'ky',
         name: 'Ky',
-        altName: 'Kii',
-        summary:
-          'Beyond the asteroid belt, apparently a gas giant with four moons. Kii is the Aon for “justice”.',
+        revealedIn: [AU],
+        altName: p('Kii', AU),
+        summary: [
+          p(
+            'Beyond the asteroid belt, apparently a gas giant with four moons. Kii is the Aon for “justice”.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#a3685a' },
-          { color: '#d7dde3' },
-          { color: '#cfd6dc' },
-          { color: '#8ea2b6' },
-        ],
+        moons: ['#a3685a', '#d7dde3', '#cfd6dc', '#8ea2b6'].map((color) => ({
+          color,
+          revealedIn: [AU],
+        })),
         orbit: 4,
         color: '#8f8eab',
         surface: 'cratered',
@@ -384,18 +603,19 @@ export const systems: StarSystem[] = [
       {
         id: 'ralen',
         name: 'Ralen',
-        altName: 'Raa',
-        summary:
-          'Apparently the largest planet in the system: a ringed gas giant with five moons. A comet belt lies beyond it.',
+        revealedIn: [AU],
+        altName: p('Raa', AU),
+        summary: [
+          p(
+            'Apparently the largest planet in the system: a ringed gas giant with five moons. A comet belt lies beyond it.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#dde3e6' },
-          { color: '#d9d2b0' },
-          { color: '#cfd8de' },
-          { color: '#dde3e6' },
-          { color: '#c9c2b5' },
-        ],
+        moons: ['#dde3e6', '#d9d2b0', '#cfd8de', '#dde3e6', '#c9c2b5'].map(
+          (color) => ({ color, revealedIn: [AU] }),
+        ),
         orbit: 5,
         color: '#c77db3',
         surface: 'banded',
@@ -408,8 +628,13 @@ export const systems: StarSystem[] = [
       {
         id: 'dwarf-planet',
         name: 'Dwarf planet',
-        summary:
-          'An unnamed dwarf planet lying just outside the comet belt, at the edge of the Selish system.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'An unnamed dwarf planet lying just outside the comet belt, at the edge of the Selish system.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -424,11 +649,24 @@ export const systems: StarSystem[] = [
   {
     id: 'taldain',
     name: 'Taldain System',
-    star: 'AisDa, a blue-white supergiant',
-    companionStar:
+    star: [p('AisDa, a blue-white supergiant', AU, WSO)],
+    companionStar: p(
       'The Eye of Ridos, a faint white dwarf inside the Particulate Ring',
-    summary:
-      'A binary system that appears to have been deliberately arranged, presumably by Autonomy. Its one planet, Taldain, sits between the blue-white supergiant AisDa and the white dwarf known as the Eye of Ridos, which is wrapped in a dense cloud of particles called the Particulate Ring. Home to Taldain, the setting of White Sand.',
+      AU,
+      WSO,
+    ),
+    summary: [
+      p(
+        'A binary system: its one planet, Taldain, sits between the blue-white supergiant AisDa and the white dwarf known as the Eye of Ridos, which is wrapped in a dense cloud of particles called the Particulate Ring.',
+        AU,
+        WSO,
+      ),
+      p(
+        'The system appears to have been deliberately arranged, presumably by Autonomy.',
+        WSO,
+      ),
+      p('Home to Taldain, the setting of White Sand.', ...TAL),
+    ],
     mapPosition: { x: 86, y: 62 },
     color: '#fff3b0',
     coppermindUrl: wiki('Taldain_system'),
@@ -436,12 +674,24 @@ export const systems: StarSystem[] = [
       {
         id: 'taldain',
         name: 'Taldain',
-        summary:
-          "The system's only planet. It is tidally locked at a Lagrange point, so Dayside always faces AisDa and Darkside always faces the Eye of Ridos. It is held in an unstable orbit called Wombear's Saddle.",
-        shards: ['Autonomy'],
-        magicSystems: ['Sand mastery'],
+        revealedIn: TAL,
+        summary: [
+          p("The system's only planet.", AU),
+          p(
+            'A tidally locked world: Dayside lies under endless sun and Darkside in perpetual dusk.',
+            ...TAL,
+          ),
+          p(
+            'Taldain sits at a Lagrange point, so Dayside always faces AisDa and Darkside always faces the Eye of Ridos.',
+            AU,
+            WSO,
+          ),
+          p("It is held in an unstable orbit called Wombear's Saddle.", WSO),
+        ],
+        shards: [f('Autonomy', AU, WSO)],
+        magicSystems: [f('Sand mastery', ...TAL)],
         // Polar orbit that always passes over the twilight line.
-        moons: [{ name: 'Nizh Da', color: '#eef2f5' }],
+        moons: [{ name: 'Nizh Da', color: '#eef2f5', revealedIn: [AU, WSO] }],
         orbit: 1,
         color: '#dce8f1',
         surface: 'tidal',
@@ -452,9 +702,24 @@ export const systems: StarSystem[] = [
   {
     id: 'threnodite',
     name: 'Threnodite System',
-    star: 'Unnamed',
-    summary:
-      'Four planets, most named for songs of mourning. No Shard lives here, but Ambition, Mercy and Odium fought in its empty space; Ambition was mortally wounded, and the clash destroyed planets that once existed. Home to Threnody, the setting of Shadows for Silence in the Forests of Hell.',
+    star: [p('Unnamed', S4S, AU)],
+    summary: [
+      p('Four planets, most named for songs of mourning.', AU),
+      p(
+        'No Shard lives here, but Odium fought Ambition in its empty space, mortally wounding her.',
+        AU,
+      ),
+      p('Mercy was also present when Odium and Ambition fought here.', ROW),
+      p(
+        'The clash between Odium and Ambition destroyed planets that once existed here.',
+        WAT,
+      ),
+      p(
+        'Home to Threnody, the setting of Shadows for Silence in the Forests of Hell.',
+        S4S,
+        AU,
+      ),
+    ],
     mapPosition: { x: 62, y: 54 },
     color: '#b8c4d9',
     coppermindUrl: wiki('Threnodite_system'),
@@ -477,8 +742,13 @@ export const systems: StarSystem[] = [
       {
         id: 'monody',
         name: 'Monody',
-        summary:
-          'The planet closest to the sun. A monody is a poem lamenting a death.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'The planet closest to the sun. A monody is a poem lamenting a death.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -490,11 +760,16 @@ export const systems: StarSystem[] = [
       {
         id: 'elegy',
         name: 'Elegy',
-        summary:
-          'The second planet, orbited by the moon Coronach (a Scottish Gaelic funeral lament). An elegy is a lament for the dead.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'The second planet, orbited by the moon Coronach (a Scottish Gaelic funeral lament). An elegy is a lament for the dead.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [{ name: 'Coronach', color: '#9fd6f0' }],
+        moons: [{ name: 'Coronach', color: '#9fd6f0', revealedIn: [AU] }],
         orbit: 2,
         color: '#5b8fd6',
         size: 0.35,
@@ -503,10 +778,18 @@ export const systems: StarSystem[] = [
       {
         id: 'threnody',
         name: 'Threnody',
-        summary:
-          'The third planet, a dark and dangerous world with people on it and strong ambient Investiture, in the form of the shades that haunt the Forests on one of its two continents. It has no moon.',
+        revealedIn: [S4S, AU],
+        summary: [
+          p('The third planet from the sun.', AU),
+          p(
+            'A dark and dangerous world with people on it and strong ambient Investiture, in the form of the shades that haunt the Forests on one of its two continents.',
+            S4S,
+            AU,
+          ),
+          p('It has no moon.', AU),
+        ],
         shards: [],
-        magicSystems: ['Shades'],
+        magicSystems: [f('Shades', S4S, AU)],
         moons: [],
         orbit: 3,
         color: '#6f74b8',
@@ -516,8 +799,17 @@ export const systems: StarSystem[] = [
       {
         id: 'purity',
         name: 'Purity',
-        summary:
-          'The outermost planet, much farther out and much larger than the other three. The exclamation “Purity’s Eye” likely comes from it.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'The outermost planet, much farther out and much larger than the other three.',
+            AU,
+          ),
+          p(
+            'The exclamation “Purity’s Eye” likely comes from this planet.',
+            OB,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -532,15 +824,28 @@ export const systems: StarSystem[] = [
   {
     id: 'drominad',
     name: 'Drominad System',
-    star: 'Pale white sun (unnamed)',
-    summary:
-      '“Drominad” is only a nickname; any official name is unknown. Seven planets and an asteroid belt. All four planets in the habitable zone are water worlds, and three of them hold fully developed human societies, more than any other system. Its perpendicularity, Patji’s Eye, draws the interest of cosmere scholars. The planets on the chart follow the Eelakin number-based naming.',
+    star: [p('Pale white sun (unnamed)', AU)],
+    summary: [
+      p('“Drominad” is only a nickname; any official name is unknown.', AU),
+      p('The system has seven planets and an asteroid belt.', AU),
+      p(
+        'All four planets in the habitable zone are water worlds, and three of them hold fully developed human societies, more than any other system.',
+        AU,
+      ),
+      p(
+        'The perpendicularity on First of the Sun draws the interest of cosmere scholars.',
+        AU,
+        ISLES,
+      ),
+      p('The planets on the chart follow the Eelakin number-based naming.', AU),
+    ],
     mapPosition: { x: 12, y: 30 },
     color: '#ffd27f',
     coppermindUrl: wiki('Drominad_system'),
     asteroidBelt: {
       orbit: 5,
       description: 'Between Fourth and Fifth of the Sun',
+      revealedIn: [AU],
     },
     layout: {
       centered: true,
@@ -570,11 +875,38 @@ export const systems: StarSystem[] = [
       {
         id: 'first-of-the-sun',
         name: 'First of the Sun',
-        summary:
-          'The innermost planet and the first in the habitable zone. An ocean world with a mainland and many deadly islands, home to the Eelakin. Patji, an avatar of Autonomy, lives here, along with the perpendicularity Patji’s Eye. Aviar from the Pantheon grant their bonded companions Talents. Setting of Sixth of the Dusk and Isles of the Emberdark.',
-        shards: ['Autonomy'],
-        magicSystems: ['Aviar Talents'],
-        moons: [{ name: 'First of the First', color: '#5c646b' }],
+        revealedIn: [S6D, AU, ISLES],
+        summary: [
+          p('The innermost planet and the first in the habitable zone.', AU),
+          p(
+            'An ocean world with many deadly islands, home to the Eelakin.',
+            S6D,
+            AU,
+            ISLES,
+          ),
+          p('It also has a mainland.', ISLES),
+          p(
+            'Patji, an avatar of Autonomy, lives here, along with the perpendicularity Patji’s Eye.',
+            ISLES,
+          ),
+          p(
+            'Aviar from the Pantheon grant their bonded companions Talents.',
+            S6D,
+            AU,
+            ISLES,
+          ),
+          p(
+            'Setting of Sixth of the Dusk and Isles of the Emberdark.',
+            S6D,
+            AU,
+            ISLES,
+          ),
+        ],
+        shards: [f('Autonomy', ISLES)],
+        magicSystems: [f('Aviar Talents', S6D, AU, ISLES)],
+        moons: [
+          { name: 'First of the First', color: '#5c646b', revealedIn: [AU] },
+        ],
         orbit: 1,
         color: '#3b444b',
         size: 0.62,
@@ -583,8 +915,14 @@ export const systems: StarSystem[] = [
       {
         id: 'second-of-the-sun',
         name: 'Second of the Sun',
-        summary:
-          'A water world in the habitable zone, smaller than First of the Sun. Possibly home to one of the system’s three fully developed human societies, whose people have their own name for it.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'A water world in the habitable zone, smaller than First of the Sun. Possibly home to one of the system’s three fully developed human societies.',
+            AU,
+          ),
+          p('Its people have their own name for it.', ISLES),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -596,8 +934,13 @@ export const systems: StarSystem[] = [
       {
         id: 'third-of-the-sun',
         name: 'Third of the Sun',
-        summary:
-          'The smallest planet in the system. A water world in the habitable zone, and another possible home of a fully developed human society.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'The smallest planet in the system. A water world in the habitable zone, and another possible home of a fully developed human society.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -609,8 +952,13 @@ export const systems: StarSystem[] = [
       {
         id: 'fourth-of-the-sun',
         name: 'Fourth of the Sun',
-        summary:
-          'A ringed water world: the last planet in the habitable zone, and the last candidate for a fully developed human society. The asteroid belt lies beyond it.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'A ringed water world: the last planet in the habitable zone, and the last candidate for a fully developed human society. The asteroid belt lies beyond it.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -624,15 +972,19 @@ export const systems: StarSystem[] = [
       {
         id: 'fifth-of-the-sun',
         name: 'Fifth of the Sun',
-        summary:
-          'A ringed gas giant just beyond the asteroid belt, with three major moons.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'A ringed gas giant just beyond the asteroid belt, with three major moons.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#b0574a' },
-          { color: '#9aa4ad' },
-          { color: '#c9b98a' },
-        ],
+        moons: ['#b0574a', '#9aa4ad', '#c9b98a'].map((color) => ({
+          color,
+          revealedIn: [AU],
+        })),
         orbit: 6,
         color: '#3fa79c',
         surface: 'banded',
@@ -644,16 +996,19 @@ export const systems: StarSystem[] = [
       {
         id: 'sixth-of-the-sun',
         name: 'Sixth of the Sun',
-        summary:
-          'The largest planet in the system: a ringed gas giant with four major moons.',
+        revealedIn: [AU],
+        summary: [
+          p(
+            'The largest planet in the system: a ringed gas giant with four major moons.',
+            AU,
+          ),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#c9b46a' },
-          { color: '#6dbb7c' },
-          { color: '#9aa4ad' },
-          { color: '#7d8892' },
-        ],
+        moons: ['#c9b46a', '#6dbb7c', '#9aa4ad', '#7d8892'].map((color) => ({
+          color,
+          revealedIn: [AU],
+        })),
         orbit: 7,
         color: '#8fd1a6',
         surface: 'banded',
@@ -665,15 +1020,16 @@ export const systems: StarSystem[] = [
       {
         id: 'seventh-of-the-sun',
         name: 'Seventh of the Sun',
-        summary: 'The outermost planet: a gas giant with four major moons.',
+        revealedIn: [AU],
+        summary: [
+          p('The outermost planet: a gas giant with four major moons.', AU),
+        ],
         shards: [],
         magicSystems: [],
-        moons: [
-          { color: '#9a90b8' },
-          { color: '#9aa4ad' },
-          { color: '#7d8892' },
-          { color: '#b7c2cb' },
-        ],
+        moons: ['#9a90b8', '#9aa4ad', '#7d8892', '#b7c2cb'].map((color) => ({
+          color,
+          revealedIn: [AU],
+        })),
         orbit: 8,
         color: '#4f8fd0',
         surface: 'banded',
@@ -686,9 +1042,28 @@ export const systems: StarSystem[] = [
   {
     id: 'yolish',
     name: 'Yolish System',
-    star: 'Unknown',
-    summary:
-      'Almost nothing is known about this system. Its one known planet, Yolen, is where humans first appeared and where Adonalsium was Shattered. Its astronomy would be impossible under ordinary physics, and by the time of the Catacendre it is hidden and inaccessible. No official star chart exists, so this one is drawn in the style of the others.',
+    star: [p('Unknown', ...YOLEN)],
+    summary: [
+      p('Almost nothing is known about this system.', ...YOLEN),
+      p(
+        'Its one known planet, Yolen, is where humans first appeared and where Adonalsium was Shattered.',
+        WAT,
+        ISLES,
+      ),
+      p(
+        'The system’s astronomy would be impossible under ordinary physics.',
+        ISLES,
+      ),
+      p(
+        'By the time of the Catacendre, Yolen is hidden and inaccessible.',
+        SH,
+        AU,
+      ),
+      p(
+        'No official star chart exists, so this one is drawn in the style of the others.',
+        ...YOLEN,
+      ),
+    ],
     mapPosition: { x: 50, y: 14 },
     color: '#ffffff',
     // Coppermind has no Yolish system page yet.
@@ -711,8 +1086,30 @@ export const systems: StarSystem[] = [
       {
         id: 'yolen',
         name: 'Yolen',
-        summary:
-          'Where humans first appeared and where Adonalsium was Shattered. Home to humans, dragons and Sho Del, and the homeworld of Hoid, Frost and all the original Vessels. About half its trees are the bone-white of invasive fainlife, and its sky is dominated by the greatstar, a glowing hole in the upper atmosphere. Its gravity is the cosmere standard.',
+        revealedIn: YOLEN,
+        summary: [
+          p(
+            'Where humans first appeared and where Adonalsium was Shattered.',
+            WAT,
+            ISLES,
+          ),
+          p('Home to humans, dragons and Sho Del.', SLM, WAT, ISLES),
+          p(
+            'The homeworld of Hoid, Frost and all the original Vessels.',
+            WAT,
+            ISLES,
+          ),
+          p(
+            'Many of its trees are bone-white, overtaken by invasive fainlife.',
+            SLM,
+            WAT,
+          ),
+          p(
+            'Its sky is dominated by the greatstar, a glowing hole in the upper atmosphere.',
+            ISLES,
+          ),
+          p('Its gravity is the cosmere standard.', AU),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -727,9 +1124,17 @@ export const systems: StarSystem[] = [
   {
     id: 'utol',
     name: 'UTol System',
-    star: 'Unnamed large red-orange sun',
-    summary:
-      "UTol and Komashi form a double planet whose shared centre orbits a large red-orange sun, bigger than Roshar's and comparatively close. No Shard lives here, but Virtuosity Splintered herself nearby, filling the region with her Splinters. Home to Komashi, the setting of Yumi and the Nightmare Painter. No official star chart exists, so this one is drawn from what is known.",
+    star: [p('Unnamed large red-orange sun', YUMI)],
+    summary: [
+      p(
+        "UTol and Komashi form a double planet whose shared centre orbits a large red-orange sun, bigger than Roshar's and comparatively close. No Shard lives here, but Virtuosity Splintered herself nearby, filling the region with her Splinters. Home to Komashi, the setting of Yumi and the Nightmare Painter.",
+        YUMI,
+      ),
+      p(
+        'No official star chart exists, so this one is drawn from what is known.',
+        YUMI,
+      ),
+    ],
     mapPosition: { x: 78, y: 86 },
     color: '#ff8f8f',
     coppermindUrl: wiki('UTol_system'),
@@ -752,8 +1157,14 @@ export const systems: StarSystem[] = [
       {
         id: 'utol',
         name: 'UTol',
-        summary:
-          'An ocean world with very few land masses, inhabited by the Sho Del, who mostly live on boats. From Komashi it shines as a pale, soft blue "daystar", the only light able to pierce the shroud. Nomad likely Skipped here after leaving Canticle.',
+        revealedIn: [YUMI],
+        summary: [
+          p(
+            'An ocean world with very few land masses, inhabited by the Sho Del, who mostly live on boats. From Komashi it shines as a pale, soft blue "daystar", the only light able to pierce the shroud.',
+            YUMI,
+          ),
+          p('Nomad likely Skipped here after leaving Canticle.', SLM),
+        ],
         shards: [],
         magicSystems: [],
         moons: [],
@@ -768,10 +1179,15 @@ export const systems: StarSystem[] = [
       {
         id: 'komashi',
         name: 'Komashi',
-        summary:
-          'A world of brown stone and oceans, home of the hijo: Splinters of Virtuosity that power hion. A machine wrapped the planet in a black shroud for about seventeen hundred years until Yumi destroyed it.',
+        revealedIn: [YUMI],
+        summary: [
+          p(
+            'A world of brown stone and oceans, home of the hijo: Splinters of Virtuosity that power hion. A machine wrapped the planet in a black shroud for about seventeen hundred years until Yumi destroyed it.',
+            YUMI,
+          ),
+        ],
         shards: [],
-        magicSystems: ['Hion', 'Yoki-hijo'],
+        magicSystems: [f('Hion', YUMI), f('Yoki-hijo', YUMI)],
         moons: [],
         orbit: 1,
         color: '#9a6a45',
@@ -783,9 +1199,26 @@ export const systems: StarSystem[] = [
   {
     id: 'uncharted',
     name: 'Uncharted Worlds',
-    star: 'None shared: each world orbits its own star',
-    summary:
-      'Planets whose star systems are unknown or have no star chart. They are not neighbours: each lies in a separate system somewhere in the cosmere, so they are charted here without a sun or orbits.',
+    star: [
+      p(
+        'None shared: each world orbits its own star',
+        LM,
+        TRESS,
+        SLM,
+        ISLES,
+        FOD,
+      ),
+    ],
+    summary: [
+      p(
+        'Planets whose star systems are unknown or have no star chart. They are not neighbours: each lies in a separate system somewhere in the cosmere, so they are charted here without a sun or orbits.',
+        LM,
+        TRESS,
+        SLM,
+        ISLES,
+        FOD,
+      ),
+    ],
     mapPosition: { x: 9, y: 88 },
     color: '#c9d6e3',
     coppermindUrl: wiki('Category:Cosmere_planets'),
@@ -809,10 +1242,15 @@ export const systems: StarSystem[] = [
       {
         id: 'canticle',
         name: 'Canticle',
-        summary:
-          'A tiny world only about 100 miles in radius, held together by an enormous Invested iron core. Its heavily Invested sun scorches the day side hot enough to vaporize a person, so its people, Threnodites who fled their homeworld under the preacher Zellion, keep moving just ahead of the dawn. Blue and gold rings light its night side. No Shard lives there and it has no perpendicularity.',
+        revealedIn: [SLM],
+        summary: [
+          p(
+            'A tiny world only about 100 miles in radius, held together by an enormous Invested iron core. Its heavily Invested sun scorches the day side hot enough to vaporize a person, so its people, Threnodites who fled their homeworld under the preacher Zellion, keep moving just ahead of the dawn. Blue and gold rings light its night side. No Shard lives there and it has no perpendicularity.',
+            SLM,
+          ),
+        ],
         shards: [],
-        magicSystems: ['Charred', 'Sunhearts'],
+        magicSystems: [f('Charred', SLM), f('Sunhearts', SLM)],
         moons: [],
         orbit: 1,
         color: '#c4652f',
@@ -825,9 +1263,14 @@ export const systems: StarSystem[] = [
       {
         id: 'grand-apparatus',
         name: 'Grand Apparatus',
-        summary:
-          'A planet-sized megastructure: cities of thousands of communal rooms, forever on the move, run by a vast Invested mechanism. Its people count themselves Invention’s, though it was probably built before the Shattering. A ruling class of Sleepless keeps everyone inside, Lawnarks among them, and experiments on them. Rooms with windows are rare, and there are no birds.',
-        shards: ['Invention (status unknown)'],
+        revealedIn: [ISLES],
+        summary: [
+          p(
+            'A planet-sized megastructure: cities of thousands of communal rooms, forever on the move, run by a vast Invested mechanism. Its people count themselves Invention’s, though it was probably built before the Shattering. A ruling class of Sleepless keeps everyone inside, Lawnarks among them, and experiments on them. Rooms with windows are rare, and there are no birds.',
+            ISLES,
+          ),
+        ],
+        shards: [f('Invention (status unknown)', ISLES)],
         magicSystems: [],
         moons: [],
         orbit: 2,
@@ -837,12 +1280,30 @@ export const systems: StarSystem[] = [
         coppermindUrl: wiki('Grand_Apparatus'),
       },
       {
+        // The Lost Metal features this world unnamed; Isles of the Emberdark names it.
         id: 'dhatri',
         name: 'Dhatri',
-        summary:
-          'Homeworld of the aethers, which its people worship as gods older than Adonalsium itself. It has at least twelve kingdoms, a flowing script of its own and a love of bright clothing. Dhatri sells aethers, though they are expensive and heavily regulated. It once had a perpendicularity but lost it, and the dark aether has since struck the planet.',
+        revealedIn: [LM, ISLES],
+        summary: [
+          p(
+            'Homeworld of the aethers, which its people worship as gods older than Adonalsium itself.',
+            LM,
+            ISLES,
+          ),
+          p('It has at least twelve kingdoms.', LM),
+          p(
+            'Its people have a flowing script of their own and a love of bright clothing.',
+            ISLES,
+          ),
+          p(
+            'Dhatri sells aethers, though they are expensive and heavily regulated.',
+            ISLES,
+          ),
+          p('It once had a perpendicularity but lost it.', ISLES),
+          p('The dark aether has struck the planet.', LM),
+        ],
         shards: [],
-        magicSystems: ['Aethers'],
+        magicSystems: [f('Aethers', LM, ISLES)],
         moons: [],
         orbit: 3,
         color: '#3f8f86',
@@ -853,10 +1314,19 @@ export const systems: StarSystem[] = [
       {
         id: 'lumar',
         name: 'Lumar',
-        summary:
-          'A backwater world ringed by twelve moons hanging in equidistant, geostationary orbits close above it. Each moon hosts an aggressive strain of aether whose spores rain down in lunagrees, so the whole planet is covered in seas of spores rather than water. Each day the sun passes behind one moon, casting a moonshadow. Offworld powers now mine the moons for cheap aether spores.',
+        revealedIn: [TRESS],
+        summary: [
+          p(
+            'A backwater world ringed by twelve moons hanging in equidistant, geostationary orbits close above it. Each moon hosts an aggressive strain of aether whose spores rain down in lunagrees, so the whole planet is covered in seas of spores rather than water. Each day the sun passes behind one moon, casting a moonshadow.',
+            TRESS,
+          ),
+          p(
+            'Offworld powers now mine the moons for cheap aether spores.',
+            ISLES,
+          ),
+        ],
         shards: [],
-        magicSystems: ['Aethers'],
+        magicSystems: [f('Aethers', TRESS, ISLES)],
         // Moons named for the seas beneath them; four are not yet named.
         moons: [
           { name: 'Emerald', color: '#2e9e5e' },
@@ -871,7 +1341,7 @@ export const systems: StarSystem[] = [
           { color: '#e6e1d0' },
           { color: '#d07a3a' },
           { color: '#7a6248' },
-        ],
+        ].map((moon) => ({ ...moon, revealedIn: [TRESS] })),
         moonRing: true,
         orbit: 4,
         color: '#3e9a6a',
@@ -880,10 +1350,15 @@ export const systems: StarSystem[] = [
       {
         id: 'miral',
         name: 'Miral',
-        summary:
-          'An isolated world away from common travel routes, reached only through an unusually irregular perpendicularity attuned to no Shard. Valor once lived here, building temples and founding a religion. Home to the mountain kingdom of Mountaincrest, whose rivers run with the Megalith’s blood, and to plains peoples who bind and serve great demons.',
-        shards: ['Valor (formerly)'],
-        magicSystems: ['Witchcraft'],
+        revealedIn: [FOD],
+        summary: [
+          p(
+            'An isolated world away from common travel routes, reached only through an unusually irregular perpendicularity attuned to no Shard. Valor once lived here, building temples and founding a religion. Home to the mountain kingdom of Mountaincrest, whose rivers run with the Megalith’s blood, and to plains peoples who bind and serve great demons.',
+            FOD,
+          ),
+        ],
+        shards: [f('Valor (formerly)', FOD)],
+        magicSystems: [f('Witchcraft', FOD)],
         moons: [],
         orbit: 5,
         color: '#7d8a58',

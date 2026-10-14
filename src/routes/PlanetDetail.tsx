@@ -1,7 +1,12 @@
 import { Link, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { PlanetMaps } from '../components/PlanetMaps'
-import { getPlanet, getSystem } from '../data/systems'
+import { SpoilerNotice } from '../components/SpoilerNotice'
+import { planetMaps } from '../data/maps'
+import { spoilerBooks } from '../data/reveal'
+import { useBooksRead } from '../state/booksRead'
+import { useShownSystem } from '../state/reveal'
+import { HiddenPage } from './HiddenPage'
 import { NotFound } from './NotFound'
 
 function FactList({ label, items }: { label: string; items: string[] }) {
@@ -15,10 +20,31 @@ function FactList({ label, items }: { label: string; items: string[] }) {
 
 export function PlanetDetail() {
   const { systemId, planetId } = useParams()
-  const system = getSystem(systemId)
-  const planet = getPlanet(systemId, planetId)
+  const { hasRead, viewAnyway } = useBooksRead()
+  const system = useShownSystem(systemId)
+  const planet = system?.planets.find((p) => p.id === planetId)
 
-  if (!system || !planet) return <NotFound />
+  if (!system) return <NotFound />
+  if (!planet) {
+    const hidden = system.hiddenPlanets.find((p) => p.id === planetId)
+    return hidden ? (
+      <HiddenPage
+        systemId={system.id}
+        spoilers={spoilerBooks([hidden.revealedIn])}
+      />
+    ) : (
+      <NotFound />
+    )
+  }
+
+  const showAll = viewAnyway.has(system.id)
+  const unreadMaps = (planetMaps[planet.id] ?? []).flatMap((map) =>
+    map.versions.filter((v) => !hasRead(v.bookId)).map((v) => [v.bookId]),
+  )
+  const spoilers = spoilerBooks([
+    ...planet.spoilers.map((id) => [id]),
+    ...unreadMaps,
+  ])
 
   const moonNames = planet.moons.flatMap((m) => (m.name ? [m.name] : []))
   const unnamedMoons = planet.moons.length - moonNames.length
@@ -34,6 +60,8 @@ export function PlanetDetail() {
         <Link to={`/systems/${system.id}`}>{system.name}</Link> /{' '}
         <span aria-current="page">{planet.name}</span>
       </nav>
+
+      <SpoilerNotice systemId={system.id} spoilers={spoilers} />
 
       <div className="planet-detail-body">
         <svg
@@ -53,7 +81,7 @@ export function PlanetDetail() {
           {planet.altName && (
             <p className="planet-detail-aka">Also called {planet.altName}</p>
           )}
-          <p>{planet.summary}</p>
+          {planet.summary && <p>{planet.summary}</p>}
           <dl>
             <FactList label="Shards" items={planet.shards} />
             <FactList label="Magic systems" items={planet.magicSystems} />
@@ -71,7 +99,7 @@ export function PlanetDetail() {
         </div>
       </div>
 
-      <PlanetMaps key={planet.id} planetId={planet.id} />
+      <PlanetMaps key={planet.id} planetId={planet.id} showAll={showAll} />
     </article>
   )
 }
