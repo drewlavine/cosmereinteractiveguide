@@ -69,6 +69,10 @@ h3 {
 }
 
 .app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
   padding: 0.75rem 1.5rem;
   border-bottom: 1px solid rgba(212, 165, 64, 0.35);
 }
@@ -352,4 +356,187 @@ dd {
 .message-page {
   padding: 4rem 1.5rem;
   text-align: center;
+}
+
+/* Books Read settings */
+.books-read-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.35rem 0.8rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  background: rgba(28, 42, 53, 0.6);
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.books-read-button:hover {
+  background: rgba(212, 165, 64, 0.18);
+}
+
+.books-read-button svg {
+  color: var(--gold);
+}
+
+.books-read-count {
+  padding: 0 0.45rem;
+  border-radius: 999px;
+  background: rgba(212, 165, 64, 0.22);
+  color: var(--gold-soft);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.books-read-dialog {
+  width: min(640px, calc(100vw - 2rem));
+  max-height: calc(100dvh - 3rem);
+  padding: 0;
+  border: 2px solid var(--gold);
+  border-radius: 12px;
+  background: var(--slate-deep);
+  color: var(--text);
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6);
+}
+
+.books-read-dialog::backdrop {
+  background: rgba(8, 14, 19, 0.7);
+  backdrop-filter: blur(3px);
+}
+
+.books-read-panel {
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100dvh - 3rem);
+}
+
+.books-read-header {
+  padding: 1.25rem 1.5rem 0.75rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+}
+
+.books-read-header h2 {
+  margin: 0 0 0.35rem;
+  color: var(--gold);
+  font-size: 1.7rem;
+  font-style: italic;
+}
+
+.books-read-header p {
+  margin: 0 0 0.75rem;
+  font-size: 0.9rem;
+}
+
+.books-read-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.books-read-actions button,
+.books-read-done {
+  padding: 0.3rem 0.85rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 6px;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.books-read-actions button:hover,
+.books-read-done:hover {
+  background: rgba(212, 165, 64, 0.18);
+}
+
+.books-read-list {
+  overflow-y: auto;
+  padding: 0.5rem 1.5rem 1rem;
+}
+
+.books-read-series {
+  margin: 0.75rem 0 0;
+  padding: 0;
+  border: 0;
+}
+
+.books-read-series legend {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.25);
+  color: var(--text-strong);
+  font-family: var(--display);
+  font-size: 1.2rem;
+}
+
+.books-read-series legend label {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  cursor: pointer;
+}
+
+.books-read-series-count {
+  color: var(--gold);
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.books-read-series ul {
+  margin: 0;
+  padding: 0.25rem 0 0;
+  list-style: none;
+}
+
+.books-read-series li label {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: baseline;
+  gap: 0.6rem;
+  padding: 0.3rem 0.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.books-read-series li label:hover {
+  background: rgba(212, 165, 64, 0.1);
+}
+
+.books-read-dialog input[type='checkbox'] {
+  accent-color: var(--gold);
+  width: 1rem;
+  height: 1rem;
+}
+
+.books-read-meta {
+  color: var(--text);
+  font-size: 0.78rem;
+  opacity: 0.7;
+  white-space: nowrap;
+}
+
+.books-read-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.5rem;
+  border-top: 1px solid rgba(212, 165, 64, 0.35);
+  font-size: 0.9rem;
+}
+
+.books-read-done {
+  padding: 0.4rem 1.4rem;
+  background: var(--gold);
+  color: var(--slate-deep);
+  font-weight: 600;
+}
+
+.books-read-done:hover {
+  background: var(--gold-soft);
 }
