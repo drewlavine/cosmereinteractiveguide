@@ -68,6 +68,20 @@ describe('spoilers', () => {
     expect(planetNames()).toContain('Roshar')
   })
 
+  it('lists only the stories set on a planet that the reader has read', () => {
+    renderAt('/systems/scadrian/planets/scadrial', [
+      'final-empire',
+      'arcanum-unbounded',
+    ])
+    const stories = screen.getByText('Stories set here').nextElementSibling
+    expect(stories).toHaveTextContent(
+      /^Mistborn: The Final Empire, The Eleventh Metal, Allomancer Jak and the Pits of Eltania, Mistborn: Secret History$/,
+    )
+    expect(
+      screen.getByRole('complementary', { name: 'Spoilers' }),
+    ).toHaveTextContent('The Well of Ascension')
+  })
+
   it('stands in for a planet the reader has not reached', () => {
     renderAt('/systems/rosharan/planets/braize', ['way-of-kings'])
     expect(screen.getByText('Not yet charted')).toBeInTheDocument()

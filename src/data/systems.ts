@@ -1,4 +1,4 @@
-import type { Fact, Passage, StarSystem } from './types'
+import type { Story, Fact, Passage, StarSystem } from './types'
 
 const wiki = (page: string) => `https://coppermind.net/wiki/${page}`
 
@@ -14,6 +14,11 @@ const p = (text: string, ...revealedIn: string[]): Passage => ({
 const f = (name: string, ...revealedIn: string[]): Fact => ({
   name,
   revealedIn,
+})
+/** A book set on a planet; `alsoIn` lists collections that reprint it. */
+const story = (bookId: string, ...alsoIn: string[]): Story => ({
+  bookId,
+  revealedIn: [bookId, ...alsoIn],
 })
 
 const ELA = 'elantris'
@@ -135,6 +140,17 @@ export const systems: StarSystem[] = [
             WAT,
           ),
           p('Most of the system’s sentient life lives here.', ...SA),
+        ],
+        settingOf: [
+          story(WOK),
+          story(WOR),
+          story(EDGE, AU),
+          story(OB),
+          story(DAWN),
+          story(ROW),
+          story(WAT),
+          story(ELSE),
+          story(LOPEN),
         ],
         shards: [f('Honor', ...SA), f('Cultivation', ...SA)],
         magicSystems: [
@@ -277,7 +293,18 @@ export const systems: StarSystem[] = [
             AU,
           ),
           p('It has no moon.', AU, LM),
-          p('Setting of Mistborn.', ...MB),
+        ],
+        settingOf: [
+          story(FE),
+          story(WOA),
+          story(HOA),
+          story(AOL),
+          story(ELEVEN, AU),
+          story(JAK, AU),
+          story(SOS),
+          story(BOM),
+          story(SH, AU),
+          story(LM),
         ],
         shards: [f('Harmony', ...HARMONY)],
         magicSystems: [
@@ -437,10 +464,11 @@ export const systems: StarSystem[] = [
         revealedIn: [WB],
         summary: [
           p(
-            'The only inhabited planet, home to a large human population and the Shard Endowment. Nalthians are born with Breath, Endowment’s Investiture, which fuels Awakening. Its one moon is Rrendos, and it shares its orbit with a cognitive anomaly. Setting of Warbreaker.',
+            'The only inhabited planet, home to a large human population and the Shard Endowment. Nalthians are born with Breath, Endowment’s Investiture, which fuels Awakening. Its one moon is Rrendos, and it shares its orbit with a cognitive anomaly.',
             WB,
           ),
         ],
+        settingOf: [story(WB)],
         shards: [f('Endowment', WB)],
         magicSystems: [f('Awakening', WB)],
         moons: [{ name: 'Rrendos', color: '#c7ccd6', revealedIn: [WB] }],
@@ -565,6 +593,7 @@ export const systems: StarSystem[] = [
           p('Home to the Splintered Shards Devotion and Dominion.', AU),
           p('Its other name, Seol, may come from the Aon Seo, “loyalty”.', AU),
         ],
+        settingOf: [story(ELA), story(HOPE, AU), story(ES, AU)],
         shards: [f('Devotion', AU), f('Dominion', AU)],
         magicSystems: [
           f('AonDor', ELA, HOPE, AU),
@@ -688,6 +717,7 @@ export const systems: StarSystem[] = [
           ),
           p("It is held in an unstable orbit called Wombear's Saddle.", WSO),
         ],
+        settingOf: [story(WS1), story(WS2), story(WS3), story(WSO)],
         shards: [f('Autonomy', AU, WSO)],
         magicSystems: [f('Sand mastery', ...TAL)],
         // Polar orbit that always passes over the twilight line.
@@ -788,6 +818,7 @@ export const systems: StarSystem[] = [
           ),
           p('It has no moon.', AU),
         ],
+        settingOf: [story(S4S, AU)],
         shards: [],
         magicSystems: [f('Shades', S4S, AU)],
         moons: [],
@@ -895,13 +926,8 @@ export const systems: StarSystem[] = [
             AU,
             ISLES,
           ),
-          p(
-            'Setting of Sixth of the Dusk and Isles of the Emberdark.',
-            S6D,
-            AU,
-            ISLES,
-          ),
         ],
+        settingOf: [story(S6D, AU), story(ISLES)],
         shards: [f('Autonomy', ISLES)],
         magicSystems: [f('Aviar Talents', S6D, AU, ISLES)],
         moons: [
@@ -1186,6 +1212,7 @@ export const systems: StarSystem[] = [
             YUMI,
           ),
         ],
+        settingOf: [story(YUMI)],
         shards: [],
         magicSystems: [f('Hion', YUMI), f('Yoki-hijo', YUMI)],
         moons: [],
@@ -1249,6 +1276,7 @@ export const systems: StarSystem[] = [
             SLM,
           ),
         ],
+        settingOf: [story(SLM)],
         shards: [],
         magicSystems: [f('Charred', SLM), f('Sunhearts', SLM)],
         moons: [],
@@ -1325,6 +1353,7 @@ export const systems: StarSystem[] = [
             ISLES,
           ),
         ],
+        settingOf: [story(TRESS)],
         shards: [],
         magicSystems: [f('Aethers', TRESS, ISLES)],
         // Moons named for the seas beneath them; four are not yet named.

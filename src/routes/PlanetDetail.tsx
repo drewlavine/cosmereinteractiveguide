@@ -1,13 +1,18 @@
+import { Fragment } from 'react'
 import { Link, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
+import { books } from '../data/books'
 import { planetMaps } from '../data/maps'
 import { spoilerBooks } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
 import { NotFound } from './NotFound'
+
+const bookTitle = (bookId: string) =>
+  books.find((b) => b.id === bookId)?.title ?? bookId
 
 function FactList({ label, items }: { label: string; items: string[] }) {
   return (
@@ -83,6 +88,19 @@ export function PlanetDetail() {
           )}
           {planet.summary && <p>{planet.summary}</p>}
           <dl>
+            {planet.settingOf.length > 0 && (
+              <>
+                <dt>Stories set here</dt>
+                <dd>
+                  {planet.settingOf.map((id, i) => (
+                    <Fragment key={id}>
+                      {i > 0 && ', '}
+                      <cite>{bookTitle(id)}</cite>
+                    </Fragment>
+                  ))}
+                </dd>
+              </>
+            )}
             <FactList label="Shards" items={planet.shards} />
             <FactList label="Magic systems" items={planet.magicSystems} />
             <FactList label="Moons" items={moonNames} />

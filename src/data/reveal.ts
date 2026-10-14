@@ -21,6 +21,7 @@ export type ShownPlanet = Omit<
   | 'altName'
   | 'chartLabel'
   | 'summary'
+  | 'settingOf'
   | 'shards'
   | 'magicSystems'
   | 'moons'
@@ -28,6 +29,8 @@ export type ShownPlanet = Omit<
   altName?: string
   chartLabel?: string
   summary: string
+  /** Ids of the books set here that the reader may see. */
+  settingOf: string[]
   shards: string[]
   magicSystems: string[]
   moons: ShownMoon[]
@@ -97,6 +100,9 @@ export function revealSystem(
       altName: keep(planet.altName)?.text,
       chartLabel: keep(planet.chartLabel)?.text,
       summary: prose(planet.summary),
+      settingOf: (planet.settingOf ?? [])
+        .filter((s) => show(s.revealedIn))
+        .map((s) => s.bookId),
       shards: planet.shards
         .filter((f) => show(f.revealedIn))
         .map((f) => f.name),

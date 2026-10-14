@@ -16,6 +16,12 @@ export interface Fact {
   revealedIn: Reveal
 }
 
+/** A book set on a planet, shown once the reader has read it. */
+export interface Story {
+  bookId: string
+  revealedIn: Reveal
+}
+
 export interface Moon {
   /** Omitted for moons that have no known name. */
   name?: string
@@ -41,6 +47,8 @@ export interface Planet {
   /** Replaces the chart label, e.g. "Scadrial New Orbit". */
   chartLabel?: Passage
   summary: Passage[]
+  /** Books set on this planet, in publication order. */
+  settingOf?: Story[]
   shards: Fact[]
   magicSystems: Fact[]
   moons: Moon[]
