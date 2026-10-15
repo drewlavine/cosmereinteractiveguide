@@ -7,7 +7,7 @@ export function HiddenPage({ systemId }: { systemId: string }) {
     <section className="message-page" aria-labelledby="hidden-title">
       <h1 id="hidden-title">Not yet charted</h1>
       <p>Your Books Read don’t reach this part of the Cosmere yet.</p>
-      <SpoilerNotice systemId={systemId} spoilers />
+      <SpoilerNotice scope={systemId} spoilers />
       <Link to="/">Back to the star map</Link>
     </section>
   )

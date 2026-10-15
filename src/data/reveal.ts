@@ -1,5 +1,8 @@
 import { hasReached, type ReadingProgress } from './progress'
+import { characterDetails } from './characterDetails'
 import type {
+  CharacterDetails,
+  Fact,
   Location,
   Passage,
   Planet,
@@ -190,5 +193,71 @@ export function revealLocation(
     settingOf: stories(location.settingOf),
     mentionedIn: stories(location.mentionedIn),
     spoilers: hidden.length > 0,
+  }
+}
+
+/** Every point where the reader could first meet a character. */
+export const firstMet = (details: CharacterDetails): Reveal =>
+  details.appearsIn.flatMap((s) => s.revealedIn)
+
+/**
+ * Whether the reader has met a character. Characters without details yet
+ * can't be checked, so they count as met.
+ */
+export function hasMet(characterId: string, canSee: CanSee) {
+  const details = characterDetails[characterId]
+  return !details || canSee(firstMet(details))
+}
+
+/** A character's details trimmed to what the reader may see. */
+export interface ShownCharacter {
+  met: boolean
+  appearsIn: string[]
+  /** Planet id of their home world. */
+  world?: string
+  aliases: string[]
+  species: string[]
+  abilities: string[]
+  /** Whether unread books hide anything about this character. */
+  spoilers: boolean
+}
+
+/**
+ * Trims a character's details to what the reader may see. Nothing is shown
+ * for a character the reader hasn't met, unless `viewAnyway`.
+ */
+export function revealCharacter(
+  characterId: string,
+  canSee: CanSee,
+  viewAnyway = false,
+): ShownCharacter {
+  const details = characterDetails[characterId]
+  const empty = { appearsIn: [], aliases: [], species: [], abilities: [] }
+  if (!details) return { met: true, ...empty, spoilers: false }
+  const met = canSee(firstMet(details))
+  if (!met && !viewAnyway) return { met, ...empty, spoilers: true }
+
+  let spoilers = !met
+  const show = (reveal: Reveal) => {
+    if (canSee(reveal)) return true
+    spoilers = true
+    return viewAnyway
+  }
+  const names = (facts: Fact[]) =>
+    facts.filter((f) => show(f.revealedIn)).map((f) => f.name)
+
+  return {
+    met,
+    appearsIn: details.appearsIn
+      .filter((s) => show(s.revealedIn))
+      .map((s) => s.bookId),
+    world:
+      details.world && show(details.world.revealedIn)
+        ? details.world.planetId
+        : undefined,
+    aliases: names(details.aliases),
+    species: names(details.species),
+    abilities: names(details.abilities),
+    spoilers,
   }
 }

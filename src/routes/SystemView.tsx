@@ -74,7 +74,7 @@ export function SystemView() {
         </details>
       </aside>
 
-      <SpoilerNotice systemId={system.id} spoilers={system.spoilers} />
+      <SpoilerNotice scope={system.id} spoilers={system.spoilers} />
     </section>
   )
 }

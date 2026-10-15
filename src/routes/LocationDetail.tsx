@@ -46,7 +46,7 @@ export function LocationDetail() {
         / <span aria-current="page">{shown.name}</span>
       </nav>
 
-      <SpoilerNotice systemId={system.id} spoilers={shown.spoilers} />
+      <SpoilerNotice scope={system.id} spoilers={shown.spoilers} />
 
       <p className="location-kind">
         {kind} {parent ? 'in' : 'on'}{' '}

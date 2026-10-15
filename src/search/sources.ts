@@ -1,6 +1,8 @@
 import { bookMeta, books, seriesOf } from '../data/books'
+import { characterDetails } from '../data/characterDetails'
 import { characters } from '../data/characters'
 import { findLocation, kindLabels, locations } from '../data/locations'
+import { firstMet } from '../data/reveal'
 import { systems } from '../data/systems'
 import type { SearchSource } from './types'
 
@@ -75,18 +77,26 @@ const places: SearchSource = {
     }),
 }
 
-// Characters aren't spoiler-tagged yet (see ROADMAP item 8), so all are shown.
+// Characters are hidden until the reader meets them. Those without details
+// yet can't be checked, so they're always shown.
 const people: SearchSource = {
   id: 'characters',
   label: 'Characters',
   icon: 'character',
-  entries: () =>
-    characters.map((character) => ({
-      key: `character:${character.id}`,
-      title: character.name,
-      subtitle: 'Character',
-      href: `/characters/${character.id}`,
-    })),
+  entries: (canSee) =>
+    characters.map((character) => {
+      const details = characterDetails[character.id]
+      return {
+        key: `character:${character.id}`,
+        title: character.name,
+        aliases: details?.aliases
+          .filter((a) => canSee(a.revealedIn))
+          .map((a) => a.name),
+        subtitle: 'Character',
+        href: `/characters/${character.id}`,
+        revealedIn: details && firstMet(details),
+      }
+    }),
 }
 
 // Book titles aren't spoilers, so every book is listed.

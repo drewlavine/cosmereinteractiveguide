@@ -43,6 +43,7 @@ src/
   data/types.ts           StarSystem / Planet / Character schema
   data/systems.ts         Curated system and planet data
   data/characters.ts      Every Cosmere character's name (generated from the Coppermind)
+  data/characterDetails.ts  Spoiler-tagged facts per character (books, world, aliases, species, abilities); pilot set
   data/places/            Places on each planet, one file per planet
   data/books.ts           Every Cosmere book, grouped by series
   data/chapters.ts        Chapters of each book in reading order (ids match Coppermind footnotes)

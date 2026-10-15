@@ -195,6 +195,23 @@ export interface StarSystem {
   coppermindUrl: string
 }
 
+/**
+ * What's known about a character (see characterDetails.ts). Each fact carries
+ * its own spoiler tag.
+ */
+export interface CharacterDetails {
+  /**
+   * Books they appear in, each revealed where they first appear in it. The
+   * reader has met them once they've reached any of these.
+   */
+  appearsIn: Story[]
+  /** Their home world: a planet id from systems.ts. */
+  world?: { planetId: string; revealedIn: Reveal }
+  aliases: Fact[]
+  species: Fact[]
+  abilities: Fact[]
+}
+
 /** A Cosmere character. Names only for now; details come later. */
 export interface Character {
   /** Unique kebab-case slug, used in the character's URL. */

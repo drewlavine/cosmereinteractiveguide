@@ -46,11 +46,11 @@ export function BooksReadProvider({ children }: { children: ReactNode }) {
       },
       confirm: () => commit(read, reading),
       viewAnyway,
-      setViewAnyway: (systemId, on) =>
+      setViewAnyway: (scope, on) =>
         setViewAnyway((current) => {
           const next = new Set(current)
-          if (on) next.add(systemId)
-          else next.delete(systemId)
+          if (on) next.add(scope)
+          else next.delete(scope)
           return next
         }),
       dialogRef,

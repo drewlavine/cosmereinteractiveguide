@@ -57,7 +57,7 @@ export function PlanetDetail() {
         <span aria-current="page">{planet.name}</span>
       </nav>
 
-      <SpoilerNotice systemId={system.id} spoilers={spoilers} />
+      <SpoilerNotice scope={system.id} spoilers={spoilers} />
 
       <div className="planet-detail-body">
         <svg

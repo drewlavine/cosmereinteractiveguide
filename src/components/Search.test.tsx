@@ -18,7 +18,7 @@ const dialog = () =>
 
 describe('search box', () => {
   it('opens from the header button and finds a character', async () => {
-    const router = renderAt('/')
+    const router = renderAt('/', ['way-of-kings'])
     await userEvent.click(
       screen.getByRole('button', { name: 'Search the Cosmere' }),
     )
@@ -76,12 +76,20 @@ describe('search box', () => {
     expect(screen.queryByRole('option', { name: /Sycla/ })).toBeNull()
   })
 
+  it('hides characters the reader has not met', async () => {
+    renderAt('/')
+    await userEvent.keyboard('/')
+    await userEvent.type(screen.getByRole('combobox'), 'kaladin')
+    expect(screen.queryByRole('option', { name: /Kaladin/ })).toBeNull()
+    expect(dialog()).toHaveTextContent(/results? hidden based on books/)
+  })
+
   it('shows recent picks that the reader may still see, and clears them', async () => {
     localStorage.setItem(
       RECENT_SEARCHES_KEY,
       JSON.stringify(['place:sycla', 'character:vin']),
     )
-    renderAt('/')
+    renderAt('/', ['final-empire'])
     await userEvent.keyboard('/')
     const listbox = screen.getByRole('listbox')
     expect(within(listbox).getByRole('group', { name: /Recent/ })).toBeVisible()

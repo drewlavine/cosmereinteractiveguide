@@ -252,6 +252,16 @@ Category:Cosmere; check anything unclear by hand.
         footnotes, falling back to its chapter summaries (see Books above)
   - [x] Show the reader's place somewhere visible: the Books list shows
         e.g. "Reading · up to Chapter 34"
+  - [ ] Improve the UI/UX of reading progress (works for now, but could be
+        smoother). Ideas:
+    - A Reading button on every book row is busy; consider a single
+      Unread / Reading / Read control, or only offering Reading on hover
+      or focus
+    - Update your place without opening the Books Read dialog, e.g. from
+      the book's page or the Books list, with a quick "Next chapter" step
+    - Show books in progress in the header, not just the read count
+    - A faster way to find a chapter in long books (Wind and Truth has
+      169 entries), e.g. pick the part first
 
 ### 8. Characters page
 
@@ -268,22 +278,35 @@ Category:Cosmere; check anything unclear by hand.
         `/characters?group=book`) so it can be shared
   - [ ] Add each character's books, species and abilities to the data
         (Coppermind infoboxes are the source)
+    - [x] Pilot: 34 main characters in `data/characterDetails.ts` (books,
+          world, aliases, species, abilities), each fact tagged with the
+          chapter it's revealed in and reviewed by hand
+    - [ ] The other ~2,100 characters, in small batches with the same
+          scripts and overrides; consider lazy-loading the data if the
+          bundle grows too large
 - [ ] Spoiler filter: leave out characters the reader hasn't met yet
-  - [ ] Tag each character with where the reader first meets them (book,
-        and chapter once item 7 lands)
+  - [x] Tag each character with where the reader first meets them (book
+        and chapter; pilot characters only so far, the rest count as met)
   - [ ] Hide unmet characters from the list, the groupings, character pages,
         and search, and say how many were hidden, e.g. "12 characters hidden
         based on books you've read"
+    - [x] List, character pages ("Not met yet") and search
+    - [ ] Groupings, once they exist
   - [ ] Hide references to unmet characters elsewhere too, e.g. in other
         characters' summaries, location pages and planet pages
-  - [ ] Tag species and abilities by when they're revealed, so grouping
+  - [x] Tag species and abilities by when they're revealed, so grouping
         never spoils a twist (e.g. a character who turns out not to be human,
         or who secretly has a power)
-- [ ] Spoiler-safe notice on character pages: when information is hidden,
+  - [ ] Setting for facts that can't be dated from footnotes or chapter
+        summaries: **Strict** (hidden until the last book the character
+        appears in is read; the default) or **Lenient** (shown once the
+        reader has met the character). The data will need to mark which
+        facts fell back to strict
+- [x] Spoiler-safe notice on character pages: when information is hidden,
       say only "Some information hidden due to spoilers", without naming the
       books, since naming them can itself be a spoiler (e.g. revealing a
       character returns in a later book)
-  - [ ] A "Show anyway" button that reveals the hidden information on that
+  - [x] A "Show anyway" button that reveals the hidden information on that
         page, and a way to hide it again
   - [x] Same wording on system, planet and location pages, with a "Show
         anyway" button; no spoiler UI names an unread book

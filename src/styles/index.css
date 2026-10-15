@@ -486,6 +486,19 @@ dd {
   text-decoration: none;
 }
 
+.character-detail .spoiler-notice {
+  margin: 0 0 1rem;
+}
+
+.character-detail dl {
+  margin: 1.25rem 0;
+}
+
+.spoiler-warning {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.85rem;
+}
+
 .character-group h2 {
   margin: 1.5rem 0 0.5rem;
   padding-bottom: 0.25rem;

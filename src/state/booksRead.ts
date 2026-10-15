@@ -16,9 +16,12 @@ export interface BooksRead extends ReadingProgress {
   setReading: (bookId: string, chapter: string | null) => void
   /** Record the current selection as the reader's choice. */
   confirm: () => void
-  /** Systems whose spoilers the reader chose to see this visit. */
+  /**
+   * What the reader chose to see spoilers for this visit: system ids, or
+   * e.g. `character:kaladin`.
+   */
   viewAnyway: ReadonlySet<string>
-  setViewAnyway: (systemId: string, on: boolean) => void
+  setViewAnyway: (scope: string, on: boolean) => void
   /** The Books Read dialog, so other parts of the page can open it. */
   dialogRef: RefObject<HTMLDialogElement | null>
 }
