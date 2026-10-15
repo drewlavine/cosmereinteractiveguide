@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
-import { books, bookSeries, type BookSeries } from '../data/books'
+import { books, bookSeries, type Book, type BookSeries } from '../data/books'
+import { chapters, type Chapter } from '../data/chapters'
 import { useBooksRead } from '../state/booksRead'
 
 const allBookIds = books.map((book) => book.id)
@@ -47,8 +48,9 @@ export function BooksReadSettings() {
           <header className="books-read-header">
             <h2 id="books-read-title">Books Read</h2>
             <p>
-              Tick the Cosmere books you have finished. The guide will use this
-              to keep spoilers from the rest out of sight.
+              Tick the Cosmere books you have finished. For a book you're
+              partway through, choose Reading and the last chapter you finished.
+              The guide uses this to keep spoilers out of sight.
             </p>
             <div className="books-read-actions">
               <button type="button" onClick={() => setBooks(allBookIds, true)}>
@@ -115,24 +117,103 @@ function SeriesGroup({ series }: { series: BookSeries }) {
       </legend>
       <ul>
         {series.books.map((book) => (
-          <li key={book.id}>
-            <label>
-              <input
-                type="checkbox"
-                checked={read.has(book.id)}
-                onChange={(event) => setBooks([book.id], event.target.checked)}
-              />
-              <span className="books-read-title">{book.title}</span>
-              <span className="books-read-meta">
-                {[book.number && `#${book.number}`, book.kind, book.year]
-                  .filter(Boolean)
-                  .join(' · ')}
-              </span>
-            </label>
-          </li>
+          <BookRow key={book.id} book={book} />
         ))}
       </ul>
     </fieldset>
+  )
+}
+
+function BookRow({ book }: { book: Book }) {
+  const { read, reading, setBooks, setReading } = useBooksRead()
+  const isReading = reading.has(book.id)
+
+  return (
+    <li>
+      <label>
+        <input
+          type="checkbox"
+          checked={read.has(book.id)}
+          onChange={(event) => setBooks([book.id], event.target.checked)}
+        />
+        <span className="books-read-title">{book.title}</span>
+        <span className="books-read-meta">
+          {[book.number && `#${book.number}`, book.kind, book.year]
+            .filter(Boolean)
+            .join(' · ')}
+        </span>
+      </label>
+      {chapters[book.id] && (
+        <button
+          type="button"
+          className="books-read-reading"
+          aria-pressed={isReading}
+          aria-label={`Reading ${book.title}`}
+          onClick={() =>
+            isReading ? setBooks([book.id], false) : setReading(book.id, null)
+          }
+        >
+          Reading
+        </button>
+      )}
+      {isReading && (
+        <ChapterPicker
+          book={book}
+          chapter={reading.get(book.id) ?? null}
+          onChange={(chapter) => setReading(book.id, chapter)}
+        />
+      )}
+    </li>
+  )
+}
+
+/** Chapters grouped by part, keeping reading order. */
+function chapterGroups(list: readonly Chapter[]) {
+  const groups: { part?: string; chapters: Chapter[] }[] = []
+  for (const chapter of list) {
+    const last = groups.at(-1)
+    if (last && last.part === chapter.part) last.chapters.push(chapter)
+    else groups.push({ part: chapter.part, chapters: [chapter] })
+  }
+  return groups
+}
+
+function ChapterPicker({
+  book,
+  chapter,
+  onChange,
+}: {
+  book: Book
+  chapter: string | null
+  onChange: (chapter: string | null) => void
+}) {
+  const options = (list: Chapter[]) =>
+    list.map((c) => (
+      <option key={c.id} value={c.id}>
+        {c.label}
+      </option>
+    ))
+
+  return (
+    <label className="books-read-chapter">
+      Last chapter finished
+      <select
+        value={chapter ?? ''}
+        aria-label={`Last chapter finished in ${book.title}`}
+        onChange={(event) => onChange(event.target.value || null)}
+      >
+        <option value="">None yet</option>
+        {chapterGroups(chapters[book.id] ?? []).map((group) =>
+          group.part ? (
+            <optgroup key={group.chapters[0].id} label={group.part}>
+              {options(group.chapters)}
+            </optgroup>
+          ) : (
+            options(group.chapters)
+          ),
+        )}
+      </select>
+    </label>
   )
 }
 

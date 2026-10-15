@@ -44,6 +44,9 @@ src/
   data/systems.ts         Curated system and planet data
   data/characters.ts      Every Cosmere character's name (generated from the Coppermind)
   data/places/            Places on each planet, one file per planet
+  data/books.ts           Every Cosmere book, grouped by series
+  data/chapters.ts        Chapters of each book in reading order (ids match Coppermind footnotes)
+  data/progress.ts        Reader progress and spoiler checks: a tag is a book id or { book, chapter }
   search/sources.ts       What search covers; add a SearchSource to make new data searchable
   styles/index.css        Global styles
 scripts/

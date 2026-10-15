@@ -5,8 +5,8 @@ import { systems } from './systems'
 import type { Reveal } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
-const everyBook = readerCanSee(bookIds)
-const noBooks = readerCanSee(new Set())
+const everyBook = readerCanSee({ read: bookIds, reading: new Map() })
+const noBooks = readerCanSee({ read: new Set(), reading: new Map() })
 
 function allTags(): Reveal[] {
   const tags: Reveal[] = []

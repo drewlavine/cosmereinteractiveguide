@@ -1,3 +1,4 @@
+import { hasReached, type ReadingProgress } from './progress'
 import type {
   Location,
   Passage,
@@ -11,9 +12,9 @@ import type {
 export type CanSee = (reveal: Reveal) => boolean
 
 export const readerCanSee =
-  (read: ReadonlySet<string>): CanSee =>
+  (progress: ReadingProgress): CanSee =>
   (reveal) =>
-    reveal.some((id) => read.has(id))
+    reveal.some((point) => hasReached(progress, point))
 
 export interface ShownMoon {
   name?: string

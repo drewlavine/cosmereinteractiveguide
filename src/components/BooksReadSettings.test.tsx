@@ -13,8 +13,13 @@ const renderApp = () =>
     />,
   )
 
-const savedBooks = () =>
-  JSON.parse(localStorage.getItem(BOOKS_READ_KEY) ?? 'null') as string[] | null
+const saved = () =>
+  JSON.parse(localStorage.getItem(BOOKS_READ_KEY) ?? 'null') as {
+    version: number
+    read: string[]
+    reading: Record<string, string | null>
+  } | null
+const savedBooks = () => saved()?.read
 
 describe('Books Read', () => {
   it('asks first-time visitors and remembers that they answered', async () => {
@@ -68,5 +73,52 @@ describe('Books Read', () => {
     expect(savedBooks()).toEqual([])
     await userEvent.click(screen.getByRole('button', { name: 'Select all' }))
     expect(savedBooks()).toHaveLength(books.length)
+  })
+
+  it('tracks the last chapter finished in a book being read', async () => {
+    localStorage.setItem(BOOKS_READ_KEY, JSON.stringify(['way-of-kings']))
+    renderApp()
+    await userEvent.click(screen.getByRole('button', { name: /^Books Read/ }))
+
+    const reading = screen.getByRole('button', {
+      name: 'Reading Words of Radiance',
+    })
+    expect(reading).toHaveAttribute('aria-pressed', 'false')
+    await userEvent.click(reading)
+    expect(reading).toHaveAttribute('aria-pressed', 'true')
+    expect(saved()).toEqual({
+      version: 2,
+      read: ['way-of-kings'],
+      reading: { 'words-of-radiance': null },
+    })
+
+    await userEvent.selectOptions(
+      screen.getByRole('combobox', {
+        name: 'Last chapter finished in Words of Radiance',
+      }),
+      '12',
+    )
+    expect(saved()?.reading).toEqual({ 'words-of-radiance': '12' })
+
+    // Finishing the book replaces the place in it.
+    await userEvent.click(
+      screen.getByRole('checkbox', { name: /^Words of Radiance/ }),
+    )
+    expect(saved()).toMatchObject({
+      read: ['way-of-kings', 'words-of-radiance'],
+      reading: {},
+    })
+    expect(screen.queryByRole('combobox')).not.toBeInTheDocument()
+  })
+
+  it('offers Reading only for books with chapters', async () => {
+    renderApp()
+    await userEvent.click(screen.getByRole('button', { name: /^Books Read/ }))
+    expect(
+      screen.getByRole('button', { name: 'Reading The Way of Kings' }),
+    ).toBeInTheDocument()
+    expect(
+      screen.queryByRole('button', { name: 'Reading The Hope of Elantris' }),
+    ).not.toBeInTheDocument()
   })
 })

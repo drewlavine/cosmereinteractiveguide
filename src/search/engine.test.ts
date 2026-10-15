@@ -6,7 +6,7 @@ import { createSearch } from './engine'
 import { searchSources } from './sources'
 
 const reader = (...books: string[]) =>
-  createSearch(readerCanSee(new Set(books)))
+  createSearch(readerCanSee({ read: new Set(books), reading: new Map() }))
 const keys = (search: ReturnType<typeof reader>, query: string) =>
   search
     .search(query)
@@ -15,7 +15,7 @@ const keys = (search: ReturnType<typeof reader>, query: string) =>
 
 describe('search', () => {
   it('gives every entry a unique key and a real page', () => {
-    const everyone = readerCanSee(new Set(['*']))
+    const everyone = readerCanSee({ read: new Set(['*']), reading: new Map() })
     const all = searchSources.flatMap((s) => s.entries(everyone))
     expect(new Set(all.map((e) => e.key)).size).toBe(all.length)
     for (const entry of all) {

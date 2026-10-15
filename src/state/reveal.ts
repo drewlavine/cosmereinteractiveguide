@@ -5,13 +5,13 @@ import { useBooksRead } from './booksRead'
 
 /** Every system trimmed to the reader's books (or shown in full on request). */
 export function useShownSystems() {
-  const { read, viewAnyway } = useBooksRead()
+  const { read, reading, viewAnyway } = useBooksRead()
   return useMemo(() => {
-    const canSee = readerCanSee(read)
+    const canSee = readerCanSee({ read, reading })
     return systems.map((system) =>
       revealSystem(system, canSee, viewAnyway.has(system.id)),
     )
-  }, [read, viewAnyway])
+  }, [read, reading, viewAnyway])
 }
 
 export const useShownSystem = (systemId?: string) =>
@@ -19,6 +19,6 @@ export const useShownSystem = (systemId?: string) =>
 
 /** What the reader may see by their books alone, ignoring Show anyway. */
 export function useCanSee(): CanSee {
-  const { read } = useBooksRead()
-  return useMemo(() => readerCanSee(read), [read])
+  const { read, reading } = useBooksRead()
+  return useMemo(() => readerCanSee({ read, reading }), [read, reading])
 }

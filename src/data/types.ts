@@ -1,8 +1,14 @@
 /**
- * Book ids (see books.ts) that reveal something, earliest first. It is shown
- * once the reader has read any one of them.
+ * Where something is revealed: a book id (see books.ts), meaning by the end of
+ * that book, or a chapter in it (see chapters.ts).
  */
-export type Reveal = readonly string[]
+export type RevealPoint = string | { book: string; chapter: string }
+
+/**
+ * Places that reveal something, earliest first. It is shown once the reader
+ * has reached any one of them.
+ */
+export type Reveal = readonly RevealPoint[]
 
 /** A sentence or two of prose, revealed by its own books. */
 export interface Passage {

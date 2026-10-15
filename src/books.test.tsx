@@ -50,6 +50,27 @@ describe('books pages', () => {
     expect(within(wor.parentElement!).queryByText('Read')).toBeNull()
   })
 
+  it('shows where the reader is in books they are reading', () => {
+    localStorage.setItem(
+      BOOKS_READ_KEY,
+      JSON.stringify({
+        version: 2,
+        read: ['way-of-kings'],
+        reading: { 'words-of-radiance': '12', oathbringer: null },
+      }),
+    )
+    renderAt('/books')
+    expect(
+      screen.getByText(`${books.length} books · 1 read · 2 in progress`),
+    ).toBeInTheDocument()
+    const wor = screen.getByRole('link', { name: 'Words of Radiance' })
+    expect(
+      within(wor.parentElement!).getByText('Reading · up to Chapter 12'),
+    ).toBeInTheDocument()
+    const ob = screen.getByRole('link', { name: 'Oathbringer' })
+    expect(within(ob.parentElement!).getByText('Reading')).toBeInTheDocument()
+  })
+
   it('opens a book page from the list', async () => {
     renderAt('/books')
     await userEvent.click(screen.getByRole('link', { name: 'Warbreaker' }))

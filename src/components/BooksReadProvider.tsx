@@ -6,7 +6,7 @@ import {
   type BooksRead,
 } from '../state/booksRead'
 
-/** Holds the reader's finished books, saved in this browser. */
+/** Holds the reader's progress through the books, saved in this browser. */
 export function BooksReadProvider({ children }: { children: ReactNode }) {
   // null until the reader makes a choice, so first-time visitors get asked.
   const [saved, setSaved] = useState(loadBooksRead)
@@ -14,24 +14,37 @@ export function BooksReadProvider({ children }: { children: ReactNode }) {
   const dialogRef = useRef<HTMLDialogElement>(null)
 
   const value = useMemo<BooksRead>(() => {
-    const read = new Set(saved ?? [])
-    const commit = (next: Set<string>) => {
-      saveBooksRead(next)
-      setSaved([...next])
+    const read = new Set(saved?.read)
+    const reading = new Map(Object.entries(saved?.reading ?? {}))
+    const commit = (nextRead: Set<string>, nextReading: typeof reading) => {
+      const progress = {
+        read: [...nextRead],
+        reading: Object.fromEntries(nextReading),
+      }
+      saveBooksRead(progress)
+      setSaved(progress)
     }
     return {
       read,
+      reading,
       chosen: saved !== null,
       hasRead: (bookId) => read.has(bookId),
       setBooks: (bookIds, isRead) => {
-        const next = new Set(read)
+        const nextRead = new Set(read)
+        const nextReading = new Map(reading)
         for (const id of bookIds) {
-          if (isRead) next.add(id)
-          else next.delete(id)
+          nextReading.delete(id)
+          if (isRead) nextRead.add(id)
+          else nextRead.delete(id)
         }
-        commit(next)
+        commit(nextRead, nextReading)
       },
-      confirm: () => commit(read),
+      setReading: (bookId, chapter) => {
+        const nextRead = new Set(read)
+        nextRead.delete(bookId)
+        commit(nextRead, new Map(reading).set(bookId, chapter))
+      },
+      confirm: () => commit(read, reading),
       viewAnyway,
       setViewAnyway: (systemId, on) =>
         setViewAnyway((current) => {

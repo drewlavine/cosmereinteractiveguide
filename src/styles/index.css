@@ -1017,7 +1017,14 @@ a.search-option:focus-visible {
   list-style: none;
 }
 
-.books-read-series li label {
+.books-read-series li {
+  display: grid;
+  grid-template-columns: 1fr 4.6rem;
+  align-items: center;
+  column-gap: 0.4rem;
+}
+
+.books-read-series li > label:first-child {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: baseline;
@@ -1027,7 +1034,7 @@ a.search-option:focus-visible {
   cursor: pointer;
 }
 
-.books-read-series li label:hover {
+.books-read-series li > label:first-child:hover {
   background: rgba(212, 165, 64, 0.1);
 }
 
@@ -1042,6 +1049,49 @@ a.search-option:focus-visible {
   font-size: 0.78rem;
   opacity: 0.7;
   white-space: nowrap;
+}
+
+.books-read-reading {
+  justify-self: end;
+  padding: 0.1rem 0.6rem;
+  border: 1px solid rgba(212, 165, 64, 0.4);
+  border-radius: 999px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  font-size: 0.75rem;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.books-read-reading:hover {
+  opacity: 1;
+}
+
+.books-read-reading[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.18);
+  color: var(--gold-soft);
+  opacity: 1;
+}
+
+.books-read-chapter {
+  grid-column: 1 / -1;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0 0 0.4rem 2rem;
+  font-size: 0.8rem;
+  cursor: default;
+}
+
+.books-read-chapter select {
+  padding: 0.2rem 0.4rem;
+  border: 1px solid rgba(212, 165, 64, 0.5);
+  border-radius: 6px;
+  background: var(--slate-deep);
+  color: var(--text-strong);
+  font: inherit;
 }
 
 .books-read-footer {

@@ -210,35 +210,48 @@ Category:Cosmere; check anything unclear by hand.
 
 ### 6. Saved settings on this device
 
-- [ ] Remember the reader's settings in the browser (localStorage), so they
+- [x] Remember the reader's settings in the browser (localStorage), so they
       don't have to set them up again on each visit from the same device.
   - [x] Books Read (already saved under `cosmere-guide:books-read`)
   - [x] Recent searches (from item 4), with a way to clear them
         (`cosmere-guide:recent-searches`)
-  - [ ] Reading progress (from item 7)
-  - [ ] Keep one versioned settings format, so older saved settings still
-        load after updates
+  - [x] Reading progress (from item 7), saved with Books Read
+  - [x] Keep one versioned settings format, so older saved settings still
+        load after updates (Books Read is now `{ version: 2, read, reading }`;
+        the old plain list still loads)
 
 ### 7. Reading progress by chapter
 
-- [ ] Let the reader mark each book as **Read** or **Reading**, and for a
+- [x] Let the reader mark each book as **Read** or **Reading**, and for a
       book they're reading, choose the chapter they're on. Spoilers then
       follow their exact place in the book: e.g. a character page shows
       everything up to that chapter and nothing after.
-  - [ ] Books Read settings: each book can be Unread, Reading or Read, with
-        a chapter picker for Reading (chapter names or numbers, including
-        parts, interludes, prologue and epilogue)
-  - [ ] Add chapter lists for each book
-  - [ ] Extend spoiler tags so a fact can be revealed at a chapter, e.g.
-        `{ book: 'way-of-kings', chapter: 34 }`, not just a whole book. Plain
-        book tags keep meaning "revealed by the end of the book"
-  - [ ] Treat a book as read up to the chosen chapter, everywhere spoilers
-        are checked (planets, maps, locations, characters and search)
+  - [x] Books Read settings: each book can be Unread, Reading or Read, with
+        a "Last chapter finished" picker for Reading (numbers and labels
+        only, grouped by part; chapter titles are left out as they can spoil)
+  - [x] Add chapter lists for each book (`src/data/chapters.ts`, from the
+        Coppermind; ids match its footnotes, e.g. `34`, `prologue`, `i-3`,
+        `epilogue`, `day-12`). 25 books so far.
+    - [ ] Books without chapters on the Coppermind can only be Unread or
+          Read: Hope of Elantris, The Eleventh Metal, Allomancer Jak,
+          Elsecaller, King Lopen, Sixth of the Dusk
+    - [ ] White Sand Volumes 1-3: chapters are only listed for the
+          omnibus, as the Coppermind doesn't say which volume holds which
+          part
+    - [ ] Footnotes citing back matter (e.g. "Ars Arcanum") have no
+          chapter; treat them as "finished the book"
+  - [x] Extend spoiler tags so a fact can be revealed at a chapter, e.g.
+        `{ book: 'way-of-kings', chapter: '34' }`, not just a whole book.
+        Plain book tags keep meaning "revealed by the end of the book"
+  - [x] Treat a book as read up to the chosen chapter, everywhere spoilers
+        are checked (planets, maps, locations, characters and search). Note
+        that existing data is tagged by whole book, so a book being read
+        reveals nothing from it until data gets chapter tags
   - [ ] Tag character facts by chapter first, since that's where it matters
         most, then other data as needed. Take chapters from the Coppermind
         footnotes, falling back to its chapter summaries (see Books above)
-  - [ ] Show the reader's place somewhere visible, e.g. "Reading: The Way of
-        Kings, ch. 34"
+  - [x] Show the reader's place somewhere visible: the Books list shows
+        e.g. "Reading · up to Chapter 34"
 
 ### 8. Characters page
 
