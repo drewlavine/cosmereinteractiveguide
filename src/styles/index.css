@@ -494,6 +494,37 @@ dd {
   margin: 1.25rem 0;
 }
 
+.character-tabs {
+  margin: 1.25rem 0 0;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+}
+
+.character-tabs ul {
+  display: flex;
+  gap: 0.35rem;
+  margin: 0;
+  padding: 0 0 0.6rem;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.character-tab-panel {
+  min-height: 8rem;
+}
+
+.character-tab-panel > ul {
+  margin: 1.25rem 0;
+  padding-left: 1.25rem;
+}
+
+.character-tab-panel li {
+  padding: 0.15rem 0;
+}
+
+.character-first-chapter {
+  color: var(--text-muted, #9fb0bc);
+}
+
 .spoiler-warning {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.85rem;

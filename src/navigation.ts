@@ -72,3 +72,11 @@ export const mainTabs: MainTab[] = [
 ]
 
 export const comingSoonTabs = mainTabs.filter((tab) => tab.comingSoon)
+
+/**
+ * The page a URL belongs to, for page transitions. Tabs within one entity's
+ * page (e.g. `/characters/kaladin/abilities`) are the same page, so
+ * switching tabs is instant instead of replaying the page transition.
+ */
+export const pageKey = (pathname: string) =>
+  pathname.match(/^\/characters\/[^/]+/)?.[0] ?? pathname

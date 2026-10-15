@@ -80,6 +80,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Shardbearer',
         revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
       },
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
     ],
   },
   'shallan-davar': {

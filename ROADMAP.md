@@ -19,6 +19,17 @@ The notice never names the books, since that alone can be a spoiler. Facts known
 from Words of Brandon are hidden behind the book they would spoil, choosing
 the later book when unsure.
 
+### Dating a fact
+
+Always use the Coppermind's footnotes first to find the book and chapter
+where something happens: the footnote on the sentence stating the fact, on
+the character's (or place's) own page. Fall back to the chapter summaries
+only when there's no footnote, and to the last book the subject appears in
+when neither gives an answer. If a footnote cites a chapter where the fact is
+only clear in hindsight (e.g. Kaladin unknowingly drawing arrows in The Way of
+Kings chapter 6), use the first footnoted chapter where the book makes it
+clear instead (chapter 57).
+
 ## Cosmere-only rule
 
 Applies to all data, current and future: characters, places, books, magic,
@@ -313,6 +324,47 @@ Category:Cosmere; check anything unclear by hand.
         page, and a way to hide it again
   - [x] Same wording on system, planet and location pages, with a "Show
         anyway" button; no spoiler UI names an unread book
+- [ ] Split each character page into tabs, so the reader can pick what to
+      read. Each tab is at its own URL (e.g. `/characters/kaladin/family`),
+      and a tab with nothing left after spoiler filtering is hidden, without
+      saying why. Every fact is tagged with the chapter that reveals it.
+  - [ ] Decide on the tabs. Proposed, based on the Coppermind's character
+        pages (infobox, then History, Appearance and Personality,
+        Attributes and Abilities, Relationships, Quotes, Trivia):
+    - Above the tabs, always shown: name, other names, and a short
+      spoiler-safe summary (a few sentences)
+    - **Overview**: key facts: titles, world, nationality, species,
+      abilities (magic, bonds such as spren or Shardblades, other skills),
+      profession and groups (e.g. Bridge Four, the Ghostbloods)
+    - **Story**: what happens to them, split by book in reading order and
+      cut off at the reader's chapter
+    - **Relationships**: family (parents, siblings, spouse, children,
+      ancestors) and key relationships, linking to other characters' pages
+      (unmet characters hidden)
+    - **Appearance & Personality**
+    - **Travels**: the world-hopper timeline (below); only for world
+      hoppers
+    - **Appearances**: each book they appear in, and the first chapter
+    - **Quotes**: memorable lines, each tagged by book and chapter
+  - [x] First pass: tab bar with the data we have (Overview: world,
+        species and abilities; Appearances with each book's first chapter).
+        Other names stay above the tabs. Switching tabs is instant (no page
+        transition within one page)
+  - [ ] Leave out of tabs: Coppermind's Trivia, Development and Speculation
+        sections, and Words of Brandon (out of the books, and hard to date
+        for spoilers); keep the Coppermind link for those
+- [ ] **Travels** tab for world hoppers (e.g. Hoid, Vasher, Vivenna, Khriss,
+      Nazh, Tress, Felt): a visual timeline of the planets they've visited,
+      in the Cosmere's in-world order (not publication order), each stop
+      linked to its planet page
+  - [ ] Show each stop only once the reader reaches the chapter that
+        reveals it. Where a stop's in-world date is unknown, leave it out
+        rather than guess
+  - [ ] Decide what to do with stops known only from outside the books
+        (e.g. from Words of Brandon); epigraphs and Arcanum Unbounded essays
+        count as in the books
+  - [ ] Source the order from the Coppermind's Cosmere timeline and the
+        characters' History sections
 
 ## Completed
 

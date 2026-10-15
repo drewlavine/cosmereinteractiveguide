@@ -34,6 +34,10 @@ export const routes: RouteObject[] = [
       { path: 'books/:bookId', element: <BookDetail /> },
       { path: 'characters', element: <CharacterList /> },
       { path: 'characters/:characterId', element: <CharacterDetail /> },
+      {
+        path: 'characters/:characterId/:tab',
+        element: <CharacterDetail />,
+      },
       { path: 'search', element: <SearchPage /> },
       ...comingSoonTabs.map((tab) => ({
         path: tab.path.slice(1),

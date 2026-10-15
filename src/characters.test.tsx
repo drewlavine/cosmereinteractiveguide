@@ -72,8 +72,57 @@ describe('characters pages', () => {
     expect(screen.getByText(/Not met yet/)).toBeInTheDocument()
     expect(screen.queryByText(/Roshar|Windrunner|Kal,/)).toBeNull()
     await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
-    expect(screen.getByText(/Windrunner/)).toBeInTheDocument()
     expect(screen.queryByText(/Not met yet/)).toBeNull()
+    expect(screen.getByText(/Windrunner/)).toBeInTheDocument()
+  })
+
+  it('splits a character page into tabs, each at its own URL', async () => {
+    renderAt('/characters/kaladin', allBooks)
+    const tabs = screen.getByRole('navigation', { name: 'About Kaladin' })
+    expect(
+      within(tabs)
+        .getAllByRole('link')
+        .map((l) => [l.textContent, l.getAttribute('href')]),
+    ).toEqual([
+      ['Overview', '/characters/kaladin'],
+      ['Appearances', '/characters/kaladin/appearances'],
+    ])
+    expect(
+      within(tabs).getByRole('link', { name: 'Overview' }),
+    ).toHaveAttribute('aria-current', 'page')
+    const overview = screen.getByRole('region', { name: 'Overview' })
+    expect(within(overview).getByText(/Human/)).toBeInTheDocument()
+    expect(within(overview).getByText(/Windrunner/)).toBeInTheDocument()
+
+    await userEvent.click(
+      within(tabs).getByRole('link', { name: 'Appearances' }),
+    )
+    // Switching tabs is instant: no page transition within a character.
+    const appearances = screen.getByRole('region', { name: 'Appearances' })
+    expect(screen.queryByText(/Human/)).toBeNull()
+    const wayOfKings = within(appearances)
+      .getByRole('link', { name: 'The Way of Kings' })
+      .closest('li')
+    expect(
+      within(appearances).getByRole('link', { name: 'The Way of Kings' }),
+    ).toHaveAttribute('href', '/books/way-of-kings')
+    expect(wayOfKings).toHaveTextContent(/first appears in Chapter 1$/)
+  })
+
+  it('reveals abilities at their chapter, and sends unknown tabs to the overview', async () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '56' })
+    expect(screen.queryByText(/Abilities|Surgebinder/)).toBeNull()
+    cleanup()
+    // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '57' })
+    const overview = screen.getByRole('region', { name: 'Overview' })
+    expect(within(overview).getByText('Surgebinder')).toBeInTheDocument()
+    expect(screen.queryByText(/Windrunner/)).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin/abilities', allBooks)
+    expect(
+      await screen.findByRole('region', { name: 'Overview' }),
+    ).toBeInTheDocument()
   })
 
   it('shows only what the books read so far reveal', () => {
@@ -96,6 +145,11 @@ describe('characters pages', () => {
   it('opens a character page from the list', async () => {
     renderAt('/characters', ['final-empire'])
     await userEvent.click(screen.getByRole('link', { name: 'Vin' }))
+    // The list stays while its exit transition plays.
+    expect(
+      screen.getByRole('article', { name: 'Characters' }),
+    ).toBeInTheDocument()
+    expect(screen.queryByRole('heading', { level: 1, name: 'Vin' })).toBeNull()
     expect(
       await screen.findByRole('heading', { level: 1, name: 'Vin' }),
     ).toBeInTheDocument()

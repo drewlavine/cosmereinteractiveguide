@@ -212,7 +212,11 @@ export function hasMet(characterId: string, canSee: CanSee) {
 /** A character's details trimmed to what the reader may see. */
 export interface ShownCharacter {
   met: boolean
-  appearsIn: string[]
+  /**
+   * Books they appear in, with the chapter they first appear in when it's
+   * known from the same book.
+   */
+  appearsIn: { bookId: string; chapter?: string }[]
   /** Planet id of their home world. */
   world?: string
   aliases: string[]
@@ -250,7 +254,14 @@ export function revealCharacter(
     met,
     appearsIn: details.appearsIn
       .filter((s) => show(s.revealedIn))
-      .map((s) => s.bookId),
+      .map(({ bookId, revealedIn }) => {
+        const first = revealedIn.find(
+          (p) => typeof p !== 'string' && p.book === bookId,
+        )
+        return typeof first === 'object'
+          ? { bookId, chapter: first.chapter }
+          : { bookId }
+      }),
     world:
       details.world && show(details.world.revealedIn)
         ? details.world.planetId
