@@ -17,7 +17,7 @@ export function useShownSystems() {
 export const useShownSystem = (systemId?: string) =>
   useShownSystems().find((s) => s.id === systemId)
 
-/** What the reader may see by their books alone, ignoring View anyway. */
+/** What the reader may see by their books alone, ignoring Show anyway. */
 export function useCanSee(): CanSee {
   const { read } = useBooksRead()
   return useMemo(() => readerCanSee(read), [read])

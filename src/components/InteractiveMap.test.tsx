@@ -19,7 +19,7 @@ const mapRegion = () => screen.getByRole('region', { name: /interactive map$/ })
 
 describe('interactive map', () => {
   it('is left out for planets without clickable maps', () => {
-    renderAt('/systems/rosharan/planets/roshar', ['way-of-kings'])
+    renderAt('/systems/threnodite/planets/threnody', ['shadows-for-silence'])
     expect(
       screen.queryByRole('heading', { name: 'Interactive map' }),
     ).not.toBeInTheDocument()
@@ -72,7 +72,7 @@ describe('location page', () => {
     expect(screen.queryByText('Mentioned in')).not.toBeInTheDocument()
     expect(
       screen.getByRole('complementary', { name: 'Spoilers' }),
-    ).toHaveTextContent('The Emperor’s Soul')
+    ).toHaveTextContent('Some information hidden due to spoilers.')
   })
 
   it('adds what later books reveal once they are read', () => {
@@ -99,7 +99,7 @@ describe('location page', () => {
   it('stands in for a place the reader has not reached', async () => {
     renderAt(`${SEL}/locations/kae`, ['emperors-soul'])
     expect(screen.getByText('Not yet charted')).toBeInTheDocument()
-    await userEvent.click(screen.getByRole('button', { name: 'View anyway' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
     expect(screen.getByRole('heading', { name: 'Kae' })).toBeInTheDocument()
   })
 

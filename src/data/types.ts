@@ -188,3 +188,12 @@ export interface StarSystem {
   uncharted?: boolean
   coppermindUrl: string
 }
+
+/** A Cosmere character. Names only for now; details come later. */
+export interface Character {
+  /** Unique kebab-case slug, used in the character's URL. */
+  id: string
+  name: string
+  /** Exact Coppermind page title, e.g. "Ati (seon)". */
+  coppermindPage: string
+}

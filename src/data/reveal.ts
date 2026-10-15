@@ -1,4 +1,3 @@
-import { books } from './books'
 import type {
   Location,
   Passage,
@@ -44,8 +43,8 @@ export type ShownPlanet = Omit<
   shards: string[]
   magicSystems: string[]
   moons: ShownMoon[]
-  /** Unread books hiding parts of this planet, in publication order. */
-  spoilers: string[]
+  /** Whether unread books hide any part of this planet. */
+  spoilers: boolean
 }
 
 /** A system trimmed to what the reader may see. */
@@ -62,21 +61,13 @@ export type ShownSystem = Omit<
   /** Outermost orbit of the full system, so charts don't shift as books are read. */
   maxOrbit: number
   binary: boolean
-  /** Unread books hiding parts of this system or its planets, in publication order. */
-  spoilers: string[]
+  /** Whether unread books hide any part of this system or its planets. */
+  spoilers: boolean
 }
-
-const bookOrder = new Map(books.map((b, i) => [b.id, b.year * 1000 + i]))
-
-/** The first book of each hidden thing, deduplicated, oldest first. */
-export const spoilerBooks = (hidden: Reveal[]) =>
-  [...new Set(hidden.map((reveal) => reveal[0]))].sort(
-    (a, b) => (bookOrder.get(a) ?? 0) - (bookOrder.get(b) ?? 0),
-  )
 
 /**
  * Trims a system to what the reader may see. With `viewAnyway` everything is
- * shown, but `spoilers` still lists what would have been hidden.
+ * shown, but `spoilers` still notes that something would have been hidden.
  */
 export function revealSystem(
   system: StarSystem,
@@ -124,7 +115,7 @@ export function revealSystem(
       moons: planet.moons
         .filter((m) => show(m.revealedIn))
         .map(({ name, color }) => ({ name, color })),
-      spoilers: spoilerBooks(hidden.slice(start)),
+      spoilers: hidden.length > start,
     })
   }
 
@@ -152,7 +143,7 @@ export function revealSystem(
       system.cometBelt?.orbit ?? 0,
     ),
     binary: Boolean(system.companionStar),
-    spoilers: spoilerBooks(hidden),
+    spoilers: hidden.length > 0,
   }
 }
 
@@ -164,14 +155,14 @@ export type ShownLocation = Omit<
   summary: string
   settingOf: string[]
   mentionedIn: string[]
-  /** Unread books hiding parts of this place, in publication order. */
-  spoilers: string[]
+  /** Whether unread books hide any part of this place. */
+  spoilers: boolean
 }
 
 /**
  * Trims a place to what the reader may see, or undefined if the place itself
- * is hidden. With `viewAnyway` everything is shown, but `spoilers` still lists
- * what would have been hidden.
+ * is hidden. With `viewAnyway` everything is shown, but `spoilers` still notes
+ * that something would have been hidden.
  */
 export function revealLocation(
   location: Location,
@@ -197,6 +188,6 @@ export function revealLocation(
       .join(' '),
     settingOf: stories(location.settingOf),
     mentionedIn: stories(location.mentionedIn),
-    spoilers: spoilerBooks(hidden),
+    spoilers: hidden.length > 0,
   }
 }

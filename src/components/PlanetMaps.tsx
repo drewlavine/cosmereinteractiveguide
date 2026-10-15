@@ -5,6 +5,7 @@ import {
   mapSourceUrl,
   mapThumbUrl,
   unlockedMaps,
+  type MapVersion,
   type PlanetMap,
 } from '../data/maps'
 import { useBooksRead } from '../state/booksRead'
@@ -30,6 +31,9 @@ export function PlanetMaps({
   const maps = unlockedMaps(planetId, showAll ? () => true : hasRead)
   const [mapId, setMapId] = useState<string>()
   const [file, setFile] = useState<string>()
+  // Credit a read book, so a map unlocked by a reprint doesn't name the unread original.
+  const source = (v: MapVersion) =>
+    bookTitle([v.bookId, ...(v.alsoIn ?? [])].find(hasRead) ?? v.bookId)
 
   if (!maps.length) return null
 
@@ -82,15 +86,15 @@ export function PlanetMaps({
                   aria-pressed={v === version}
                   onClick={() => setFile(v.file)}
                 >
-                  {v.edition ?? bookTitle(v.bookId)}
+                  {v.edition ?? source(v)}
                 </button>
               ))}
             </div>
           )}
 
           <small className="map-credit">
-            Map by {version.artist}, from{' '}
-            <cite>{bookTitle(version.bookId)}</cite>. © Dragonsteel. Image via{' '}
+            Map by {version.artist}, from <cite>{source(version)}</cite>. ©
+            Dragonsteel. Image via{' '}
             <a
               href={mapSourceUrl(version.file)}
               target="_blank"
@@ -127,9 +131,7 @@ export function PlanetMaps({
                   draggable={false}
                 />
                 <span className="map-thumb-title">{m.title}</span>
-                <span className="map-thumb-book">
-                  {bookTitle(shown.bookId)}
-                </span>
+                <span className="map-thumb-book">{source(shown)}</span>
               </button>
             </li>
           )

@@ -3,6 +3,8 @@ import { useState } from 'react'
 import { Link, useLocation, useOutlet } from 'react-router'
 import { BooksReadProvider } from './BooksReadProvider'
 import { BooksReadSettings } from './BooksReadSettings'
+import { MainTabs } from './MainTabs'
+import { Search } from './Search'
 
 // Keeps the previous route rendered while its exit animation plays.
 function FrozenOutlet() {
@@ -22,6 +24,8 @@ export function Layout() {
             <Link to="/" className="app-title">
               Cosmere Interactive Guide
             </Link>
+            <MainTabs />
+            <Search />
             <BooksReadSettings />
           </header>
 

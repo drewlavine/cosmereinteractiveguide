@@ -17,6 +17,11 @@ import { PanZoom } from './PanZoom'
 
 type Spot = Hotspot & { location: Location }
 
+/** One place on the map: an outline made of one or more areas, or a pin. */
+type Shape =
+  | { shape: 'area'; location: Location; areas: string[] }
+  | { shape: 'pin'; location: Location; x: number; y: number }
+
 const bookTitle = (bookId: string) =>
   books.find((b) => b.id === bookId)?.title ?? bookId
 
@@ -28,8 +33,8 @@ const kindOrder: LocationKind[] = [
   'landmark',
 ]
 
-/** Center of an outline's bounding box, where its label goes. */
-function areaCenter(points: string) {
+/** An outline's bounding box. */
+function bounds(points: string) {
   const xs: number[] = []
   const ys: number[] = []
   for (const pair of points.trim().split(/\s+/)) {
@@ -37,10 +42,21 @@ function areaCenter(points: string) {
     xs.push(x)
     ys.push(y)
   }
-  return {
-    x: (Math.min(...xs) + Math.max(...xs)) / 2,
-    y: (Math.min(...ys) + Math.max(...ys)) / 2,
-  }
+  const [minX, maxX, minY, maxY] = [
+    Math.min(...xs),
+    Math.max(...xs),
+    Math.min(...ys),
+    Math.max(...ys),
+  ]
+  return { minX, maxX, minY, maxY, size: (maxX - minX) * (maxY - minY) }
+}
+
+/** Center of the largest outline's bounding box, where the label goes. */
+function areaCenter(areas: string[]) {
+  const box = areas
+    .map(bounds)
+    .reduce((best, b) => (b.size > best.size ? b : best))
+  return { x: (box.minX + box.maxX) / 2, y: (box.minY + box.maxY) / 2 }
 }
 
 /**
@@ -88,18 +104,32 @@ export function InteractiveMap({
   const href = (id: string) =>
     `/systems/${systemId}/planets/${planetId}/locations/${id}`
 
-  // Draw outlines under pins, and list each place once.
-  const ordered = [
-    ...spots.filter((s) => s.shape === 'area'),
-    ...spots.filter((s) => s.shape === 'pin'),
-  ]
+  // Draw outlines under pins. A place drawn as several areas (e.g. islands)
+  // is one link.
+  const outlines = new Map<string, Shape & { shape: 'area' }>()
+  const pins: Shape[] = []
+  for (const spot of spots) {
+    if (spot.shape === 'pin') {
+      pins.push({ shape: 'pin', location: spot.location, x: spot.x, y: spot.y })
+      continue
+    }
+    const outline = outlines.get(spot.location.id)
+    if (outline) outline.areas.push(spot.points)
+    else
+      outlines.set(spot.location.id, {
+        shape: 'area',
+        location: spot.location,
+        areas: [spot.points],
+      })
+  }
+  const ordered: Shape[] = [...outlines.values(), ...pins]
   const places = [...new Map(spots.map((s) => [s.location.id, s.location]))]
     .map(([, location]) => location)
     .sort((a, b) => a.name.localeCompare(b.name))
   const active = ordered.find((s) => s.location.id === activeId)
   const labelAt = active
     ? active.shape === 'area'
-      ? areaCenter(active.points)
+      ? areaCenter(active.areas)
       : { x: active.x, y: active.y - pinRadius * 1.8 }
     : undefined
 
@@ -169,7 +199,9 @@ export function InteractiveMap({
                     {...highlight(spot.location.id)}
                   >
                     {spot.shape === 'area' ? (
-                      <polygon points={spot.points} />
+                      spot.areas.map((points) => (
+                        <polygon key={points} points={points} />
+                      ))
                     ) : (
                       <circle cx={spot.x} cy={spot.y} r={pinRadius} />
                     )}
@@ -232,7 +264,13 @@ export function InteractiveMap({
 
       <small className="map-credit">
         Choose a place on the map or in the list. Map by {version.artist}, from{' '}
-        <cite>{bookTitle(version.bookId)}</cite>. © Dragonsteel. Image via{' '}
+        <cite>
+          {bookTitle(
+            [version.bookId, ...(version.alsoIn ?? [])].find(hasRead) ??
+              version.bookId,
+          )}
+        </cite>
+        . © Dragonsteel. Image via{' '}
         <a href={mapSourceUrl(version.file)} target="_blank" rel="noreferrer">
           the Coppermind
         </a>

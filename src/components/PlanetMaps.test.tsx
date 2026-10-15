@@ -19,6 +19,7 @@ const renderRoshar = (read: string[]) =>
   renderPlanet('/systems/rosharan/planets/roshar', read)
 
 const strip = () => screen.getByRole('list', { name: 'Choose a map' })
+const gallery = () => screen.getByRole('region', { name: 'Maps' })
 
 describe('planet maps', () => {
   it('only references real books', () => {
@@ -48,10 +49,9 @@ describe('planet maps', () => {
     expect(
       screen.queryByRole('group', { name: 'Roshar editions' }),
     ).not.toBeInTheDocument()
-    expect(screen.getByRole('img', { name: /^Roshar:/ })).toHaveAttribute(
-      'src',
-      'https://uploads.coppermind.net/Roshar.jpg',
-    )
+    expect(
+      within(gallery()).getByRole('img', { name: /^Roshar:/ }),
+    ).toHaveAttribute('src', 'https://uploads.coppermind.net/Roshar.jpg')
   })
 
   it('defaults to the newest unlocked edition and switches maps', async () => {
@@ -68,10 +68,9 @@ describe('planet maps', () => {
     await userEvent.click(
       within(editions).getByRole('button', { name: 'The Way of Kings' }),
     )
-    expect(screen.getByRole('img', { name: /^Roshar:/ })).toHaveAttribute(
-      'src',
-      'https://uploads.coppermind.net/Roshar.jpg',
-    )
+    expect(
+      within(gallery()).getByRole('img', { name: /^Roshar:/ }),
+    ).toHaveAttribute('src', 'https://uploads.coppermind.net/Roshar.jpg')
 
     await userEvent.click(
       within(strip()).getByRole('button', { name: /^Kholinar/ }),

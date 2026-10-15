@@ -2,7 +2,7 @@ import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { childLocations, findLocation, kindLabels } from '../data/locations'
-import { revealLocation, spoilerBooks } from '../data/reveal'
+import { revealLocation } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
@@ -20,13 +20,7 @@ export function LocationDetail() {
   if (!system || !location) return <NotFound />
   const showAll = viewAnyway.has(system.id)
   const shown = revealLocation(location, canSee, showAll)
-  if (!planet || !shown)
-    return (
-      <HiddenPage
-        systemId={system.id}
-        spoilers={spoilerBooks([location.revealedIn])}
-      />
-    )
+  if (!planet || !shown) return <HiddenPage systemId={system.id} />
 
   const visible = (id?: string) => {
     const place = findLocation(planet.id, id)

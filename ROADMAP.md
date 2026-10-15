@@ -13,10 +13,20 @@ completely rather than blurring it or showing a placeholder that gives away
 that something exists.
 
 The one exception: a system or planet page with hidden content shows a
-"Spoilers hidden for (books)" notice with a **View anyway** button, so readers
-can choose to see that system in full (and **Hide again**). Facts known only
+"Some information hidden due to spoilers." notice with a **Show anyway**
+button, so readers can choose to see that system in full (and **Hide again**).
+The notice never names the books, since that alone can be a spoiler. Facts known only
 from Words of Brandon are hidden behind the book they would spoil, choosing
 the later book when unsure.
+
+## Cosmere-only rule
+
+Applies to all data, current and future: characters, places, books, magic,
+events and anything else. Add only things from Brandon Sanderson's Cosmere.
+Leave out his non-Cosmere works (e.g. Skyward, The Reckoners, Alcatraz, The
+Rithmatist, Legion, Frugal Wizard, The Dark One) even when the Coppermind
+covers them. When pulling from the Coppermind, a page counts only if it's in
+Category:Cosmere; check anything unclear by hand.
 
 ## Planned
 
@@ -55,7 +65,18 @@ the later book when unsure.
   - [ ] Draw clickable outlines for countries and cities on each map
     - [x] Sel: nation outlines on Opelon (Original) and pins on Arelon
           (Original), with 23 spoiler-tagged places
-    - [ ] Roshar, Scadrial and the other planets' maps
+    - [x] Roshar: Roshar (31 nations and regions, 24 cities) and the Silver
+          Kingdoms (10 kingdoms)
+    - [x] Scadrial: the Final Empire (8 dominances, 31 cities), the Elendel
+          Basin (3 regions, 25 towns) and the Lost Metal map of Scadrial
+          (8 regions, 14 pins)
+    - [x] Nalthis (T'Telir), Taldain (Dayside, Kezare) and Threnody
+          (Kingseat)
+    - [ ] Later editions of each map, and the regional and city maps
+    - [ ] Places with no dot or border printed (e.g. the Reshi Isles, the
+          Horneater Peaks), seas, rivers and small islands
+    - [ ] Check the summaries and spoiler tags written without the
+          Coppermind (it blocked the tracing agents)
   - [ ] Clicking a region opens a page for that place, or opens a regional map
         if one exists
     - [x] Location pages, with parent place, places within, "Stories set
@@ -64,6 +85,13 @@ the later book when unsure.
   - [x] Only show regions, and information about them, from books the reader
         has marked as read
   - [x] Dev-only tracing tool ("Trace (dev)" under the interactive map)
+  - [ ] Polished regions from hand-painted masks (later, after the MVP)
+    - [ ] Drew paints one mask layer per region over each map in a photo
+          editor and exports them as PNGs at the map's full size
+    - [ ] Turn each mask into a smooth outline that follows the art exactly,
+          replacing the hand-traced points
+    - [ ] Optional: a soft glow or inner shadow on hover, cut from the same
+          masks
 
 **Plan (chosen): shaded regions + city pins**
 
@@ -112,27 +140,121 @@ the later book when unsure.
 
 ### 4. Universal search
 
-- [ ] Add a search bar to the header banner that searches every kind of data
-      in the guide (systems, planets, characters, locations, shards, magic
-      systems, books, etc.).
-  - [ ] Build one search index covering all data types
-  - [ ] Show results as you type, grouped by type, and link each one to its
-        page
-  - [ ] Support keyboard use (shortcut to focus, arrow keys, Enter, Escape)
-  - [ ] Leave out results, and text in result snippets, from books the reader
-        hasn't marked as read
+- [ ] Search every kind of data in the guide (systems, planets, characters,
+      locations, shards, magic systems, books, etc.) from a centered search
+      modal, like a ⌘K command palette.
+  - [x] Header button: a pill that reads "Search the Cosmere… ⌘K" on wide
+        screens, shrinking to a search icon on phones. Clicking it opens the
+        modal.
+  - [x] Modal: centered panel in the guide's gold-framed style over a dimmed,
+        blurred backdrop, with the search box focused on open
+  - [x] Build one search index covering all data types, with fuzzy matching
+        so typos still match (e.g. "Kaladn"). A small client-side library
+        such as MiniSearch is enough.
+  - [x] Show results as you type, grouped by type (Characters, Places,
+        Planets, Books…), each with an icon and a one-line snippet, linking
+        to its page
+  - [x] Keyboard use: ⌘K / Ctrl+K or "/" opens it from anywhere; arrow keys
+        move, Enter opens, Escape closes
+  - [x] When the box is empty, show recent searches and a few suggestions
+  - [x] A `/search?q=…` page with all results, so searches can be shared
+        and the modal can link to "See all results"
+  - [x] Leave out results, and text in result snippets, from books the reader
+        hasn't marked as read, and say how many were left out, e.g.
+        "3 results hidden based on books you've read"
   - [ ] Add new data types to the index as they're added to the guide
+        (one `SearchSource` each in `src/search/sources.ts`): systems,
+        planets, places and characters are in; magic systems, Shards and
+        books need their own pages first
+  - Searches page titles and other names only (e.g. "Opelon" finds Sycla),
+    not page text, to keep spoilers out. Subtitles show only the kind of
+    page and where it is.
 
 ### 5. Main navigation tabs
 
-- [ ] Add tabs to the header banner for moving between the main sections of the
+- [x] Add tabs to the header banner for moving between the main sections of the
       guide. More tabs may be added later.
-  - [ ] **Star Chart**: the current Cosmere star map, systems and planets
-  - [ ] **Characters**: browse and view characters
+  - [x] **Star Map**: the current Cosmere star map, systems and planets
+  - [x] **Characters**: browse and view characters (list and page skeleton,
+        names only for now)
+    - The character list is not yet spoiler-filtered
+  - [ ] **Books**: every Cosmere book and the reading order (placeholder
+        tab added)
   - [ ] **Locations**: browse and view locations (cities, regions, landmarks)
+        (placeholder tab added)
+  - [ ] **Magic**: the magic systems and how they work (placeholder tab
+        added)
+  - [ ] **Events**: key events across the Cosmere, in order (placeholder tab
+        added)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps, 1)
-  - [ ] Give each tab its own URL and show which tab is active
+  - [x] Give each tab its own URL and show which tab is active
   - [ ] Keep every tab spoiler-free for the books the reader has marked as read
+
+### 6. Saved settings on this device
+
+- [ ] Remember the reader's settings in the browser (localStorage), so they
+      don't have to set them up again on each visit from the same device.
+  - [x] Books Read (already saved under `cosmere-guide:books-read`)
+  - [x] Recent searches (from item 4), with a way to clear them
+        (`cosmere-guide:recent-searches`)
+  - [ ] Reading progress (from item 7)
+  - [ ] Keep one versioned settings format, so older saved settings still
+        load after updates
+
+### 7. Reading progress by chapter
+
+- [ ] Let the reader mark each book as **Read** or **Reading**, and for a
+      book they're reading, choose the chapter they're on. Spoilers then
+      follow their exact place in the book: e.g. a character page shows
+      everything up to that chapter and nothing after.
+  - [ ] Books Read settings: each book can be Unread, Reading or Read, with
+        a chapter picker for Reading (chapter names or numbers, including
+        parts, interludes, prologue and epilogue)
+  - [ ] Add chapter lists for each book
+  - [ ] Extend spoiler tags so a fact can be revealed at a chapter, e.g.
+        `{ book: 'way-of-kings', chapter: 34 }`, not just a whole book. Plain
+        book tags keep meaning "revealed by the end of the book"
+  - [ ] Treat a book as read up to the chosen chapter, everywhere spoilers
+        are checked (planets, maps, locations, characters and search)
+  - [ ] Tag character facts by chapter first, since that's where it matters
+        most, then other data as needed
+  - [ ] Show the reader's place somewhere visible, e.g. "Reading: The Way of
+        Kings, ch. 34"
+
+### 8. Characters page
+
+- [ ] Group and sort the character list in different ways. More groupings
+      can be added later.
+  - [x] A–Z (the current list)
+  - [ ] **Book**: characters under each book they appear in, in publication
+        order. A character in several books is listed under each.
+  - [ ] **Species**: e.g. human, singer, spren, kandra, koloss, Shard
+  - [ ] **Abilities**: e.g. Windrunner, Mistborn, Coinshot, Awakener,
+        Elantrian, Lightweaver. A character with several abilities is listed
+        under each.
+  - [ ] A group-by control on the list, saved in the URL (e.g.
+        `/characters?group=book`) so it can be shared
+  - [ ] Add each character's books, species and abilities to the data
+        (Coppermind infoboxes are the source)
+- [ ] Spoiler filter: leave out characters the reader hasn't met yet
+  - [ ] Tag each character with where the reader first meets them (book,
+        and chapter once item 7 lands)
+  - [ ] Hide unmet characters from the list, the groupings, character pages,
+        and search, and say how many were hidden, e.g. "12 characters hidden
+        based on books you've read"
+  - [ ] Hide references to unmet characters elsewhere too, e.g. in other
+        characters' summaries, location pages and planet pages
+  - [ ] Tag species and abilities by when they're revealed, so grouping
+        never spoils a twist (e.g. a character who turns out not to be human,
+        or who secretly has a power)
+- [ ] Spoiler-safe notice on character pages: when information is hidden,
+      say only "Some information hidden due to spoilers", without naming the
+      books, since naming them can itself be a spoiler (e.g. revealing a
+      character returns in a later book)
+  - [ ] A "Show anyway" button that reveals the hidden information on that
+        page, and a way to hide it again
+  - [x] Same wording on system, planet and location pages, with a "Show
+        anyway" button; no spoiler UI names an unread book
 
 ## Completed
 

@@ -1,9 +1,14 @@
 import type { RouteObject } from 'react-router'
 import { Layout } from './components/Layout'
+import { comingSoonTabs } from './navigation'
+import { CharacterDetail } from './routes/CharacterDetail'
+import { CharacterList } from './routes/CharacterList'
+import { ComingSoon } from './routes/ComingSoon'
 import { LocationDetail } from './routes/LocationDetail'
 import { NotFound } from './routes/NotFound'
 import { PlanetDetail } from './routes/PlanetDetail'
 import { RouteError } from './routes/RouteError'
+import { SearchPage } from './routes/SearchPage'
 import { StarMap } from './routes/StarMap'
 import { SystemView } from './routes/SystemView'
 
@@ -23,6 +28,13 @@ export const routes: RouteObject[] = [
         path: 'systems/:systemId/planets/:planetId/locations/:locationId',
         element: <LocationDetail />,
       },
+      { path: 'characters', element: <CharacterList /> },
+      { path: 'characters/:characterId', element: <CharacterDetail /> },
+      { path: 'search', element: <SearchPage /> },
+      ...comingSoonTabs.map((tab) => ({
+        path: tab.path.slice(1),
+        element: <ComingSoon tab={tab} />,
+      })),
       { path: '*', element: <NotFound /> },
     ],
   },

@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { books } from './books'
-import { readerCanSee, revealSystem, spoilerBooks } from './reveal'
+import { readerCanSee, revealSystem } from './reveal'
 import { systems } from './systems'
 import type { Reveal } from './types'
 
@@ -58,7 +58,7 @@ describe('spoiler tags', () => {
   it('shows everything to a reader who has read every book', () => {
     for (const system of systems) {
       const shown = revealSystem(system, everyBook)
-      expect(shown.spoilers).toEqual([])
+      expect(shown.spoilers).toBe(false)
       expect(shown.planets).toHaveLength(system.planets.length)
     }
   })
@@ -70,7 +70,7 @@ describe('spoiler tags', () => {
       expect(shown.summary).toBe('')
       expect(shown.star).toBe('')
       expect(shown.asteroidBelt).toBeUndefined()
-      expect(shown.spoilers.length).toBeGreaterThan(0)
+      expect(shown.spoilers).toBe(true)
       // The chart is still laid out for the whole system.
       expect(shown.maxOrbit).toBeGreaterThanOrEqual(
         Math.max(...system.planets.map((p) => p.orbit)),
@@ -78,21 +78,11 @@ describe('spoiler tags', () => {
     }
   })
 
-  it('shows everything on request, still listing the spoilers', () => {
+  it('shows everything on request, still noting the spoilers', () => {
     const [system] = systems
     const shown = revealSystem(system, noBooks, true)
     expect(shown.planets).toHaveLength(system.planets.length)
     expect(shown.hiddenPlanets).toEqual([])
-    expect(shown.spoilers.length).toBeGreaterThan(0)
-  })
-
-  it('lists spoiler books once each, in publication order', () => {
-    expect(
-      spoilerBooks([
-        ['oathbringer'],
-        ['way-of-kings', 'arcanum-unbounded'],
-        ['oathbringer'],
-      ]),
-    ).toEqual(['way-of-kings', 'oathbringer'])
+    expect(shown.spoilers).toBe(true)
   })
 })

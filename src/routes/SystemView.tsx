@@ -13,8 +13,7 @@ export function SystemView() {
   const system = useShownSystem(systemId)
 
   if (!system) return <NotFound />
-  if (!system.planets.length)
-    return <HiddenPage systemId={system.id} spoilers={system.spoilers} />
+  if (!system.planets.length) return <HiddenPage systemId={system.id} />
 
   const dwarfs = system.planets.filter((p) => p.dwarf).length
 

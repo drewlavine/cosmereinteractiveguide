@@ -6,7 +6,6 @@ import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { locations } from '../data/locations'
 import { planetMaps, versionUnlocked } from '../data/maps'
-import { spoilerBooks } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
@@ -31,30 +30,17 @@ export function PlanetDetail() {
   if (!system) return <NotFound />
   if (!planet) {
     const hidden = system.hiddenPlanets.find((p) => p.id === planetId)
-    return hidden ? (
-      <HiddenPage
-        systemId={system.id}
-        spoilers={spoilerBooks([hidden.revealedIn])}
-      />
-    ) : (
-      <NotFound />
-    )
+    return hidden ? <HiddenPage systemId={system.id} /> : <NotFound />
   }
 
   const showAll = viewAnyway.has(system.id)
-  const unreadMaps = (planetMaps[planet.id] ?? []).flatMap((map) =>
-    map.versions
-      .filter((v) => !versionUnlocked(v, hasRead))
-      .map((v) => [v.bookId]),
+  const unreadMaps = (planetMaps[planet.id] ?? []).some((map) =>
+    map.versions.some((v) => !versionUnlocked(v, hasRead)),
   )
-  const unseenPlaces = locations
-    .filter((l) => l.planetId === planet.id && !canSee(l.revealedIn))
-    .map((l) => l.revealedIn)
-  const spoilers = spoilerBooks([
-    ...planet.spoilers.map((id) => [id]),
-    ...unreadMaps,
-    ...unseenPlaces,
-  ])
+  const unseenPlaces = locations.some(
+    (l) => l.planetId === planet.id && !canSee(l.revealedIn),
+  )
+  const spoilers = planet.spoilers || unreadMaps || unseenPlaces
 
   const moonNames = planet.moons.flatMap((m) => (m.name ? [m.name] : []))
   const unnamedMoons = planet.moons.length - moonNames.length
