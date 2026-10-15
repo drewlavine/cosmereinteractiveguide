@@ -1,5 +1,6 @@
 import type { RouteObject } from 'react-router'
 import { Layout } from './components/Layout'
+import { LocationDetail } from './routes/LocationDetail'
 import { NotFound } from './routes/NotFound'
 import { PlanetDetail } from './routes/PlanetDetail'
 import { RouteError } from './routes/RouteError'
@@ -17,6 +18,10 @@ export const routes: RouteObject[] = [
       {
         path: 'systems/:systemId/planets/:planetId',
         element: <PlanetDetail />,
+      },
+      {
+        path: 'systems/:systemId/planets/:planetId/locations/:locationId',
+        element: <LocationDetail />,
       },
       { path: '*', element: <NotFound /> },
     ],

@@ -1,18 +1,16 @@
-import { Fragment } from 'react'
 import { Link, useParams } from 'react-router'
+import { BookList } from '../components/BookList'
+import { InteractiveMap } from '../components/InteractiveMap'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
-import { books } from '../data/books'
+import { locations } from '../data/locations'
 import { planetMaps, versionUnlocked } from '../data/maps'
 import { spoilerBooks } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
-import { useShownSystem } from '../state/reveal'
+import { useCanSee, useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
 import { NotFound } from './NotFound'
-
-const bookTitle = (bookId: string) =>
-  books.find((b) => b.id === bookId)?.title ?? bookId
 
 function FactList({ label, items }: { label: string; items: string[] }) {
   return (
@@ -23,27 +21,10 @@ function FactList({ label, items }: { label: string; items: string[] }) {
   )
 }
 
-/** A row of book titles, left out when the reader has read none of them. */
-function BookList({ label, bookIds }: { label: string; bookIds: string[] }) {
-  if (!bookIds.length) return null
-  return (
-    <>
-      <dt>{label}</dt>
-      <dd>
-        {bookIds.map((id, i) => (
-          <Fragment key={id}>
-            {i > 0 && ', '}
-            <cite>{bookTitle(id)}</cite>
-          </Fragment>
-        ))}
-      </dd>
-    </>
-  )
-}
-
 export function PlanetDetail() {
   const { systemId, planetId } = useParams()
   const { hasRead, viewAnyway } = useBooksRead()
+  const canSee = useCanSee()
   const system = useShownSystem(systemId)
   const planet = system?.planets.find((p) => p.id === planetId)
 
@@ -66,9 +47,13 @@ export function PlanetDetail() {
       .filter((v) => !versionUnlocked(v, hasRead))
       .map((v) => [v.bookId]),
   )
+  const unseenPlaces = locations
+    .filter((l) => l.planetId === planet.id && !canSee(l.revealedIn))
+    .map((l) => l.revealedIn)
   const spoilers = spoilerBooks([
     ...planet.spoilers.map((id) => [id]),
     ...unreadMaps,
+    ...unseenPlaces,
   ])
 
   const moonNames = planet.moons.flatMap((m) => (m.name ? [m.name] : []))
@@ -126,6 +111,12 @@ export function PlanetDetail() {
         </div>
       </div>
 
+      <InteractiveMap
+        key={`interactive-${planet.id}`}
+        systemId={system.id}
+        planetId={planet.id}
+        showAll={showAll}
+      />
       <PlanetMaps key={planet.id} planetId={planet.id} showAll={showAll} />
     </article>
   )

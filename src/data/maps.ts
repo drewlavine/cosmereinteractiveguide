@@ -17,7 +17,31 @@ export interface MapVersion {
   height: number
   caption: string
   artist: string
+  /** Clickable places, in this version's image pixels. Makes the map interactive. */
+  hotspots?: Hotspot[]
 }
+
+/**
+ * A clickable place on a map version: an outline for a nation or region, or a
+ * pin for a city or landmark.
+ */
+export type Hotspot =
+  | { locationId: string; shape: 'area'; points: string }
+  | { locationId: string; shape: 'pin'; x: number; y: number }
+
+/** An outline from "x,y x,y …" points, as copied from the map tracer. */
+const area = (locationId: string, points: string): Hotspot => ({
+  locationId,
+  shape: 'area',
+  points,
+})
+
+const pin = (locationId: string, x: number, y: number): Hotspot => ({
+  locationId,
+  shape: 'pin',
+  x,
+  y,
+})
 
 export interface PlanetMap {
   id: string
@@ -514,6 +538,59 @@ export const planetMaps: Record<string, PlanetMap[]> = {
           height: 486,
           caption: 'The continent of Opelon, from Teod to Fjorden.',
           artist: 'Jeff Creer',
+          hotspots: [
+            area(
+              'teod',
+              '0,0 145,0 150,20 152,45 145,62 130,78 115,88 100,98 85,100 60,97 50,90 48,78 40,68 25,55 10,50 0,45',
+            ),
+            area(
+              'arelon',
+              '0,273 80,273 175,268 185,275 165,300 160,330 165,360 160,389 140,395 100,410 75,418 25,432 0,442',
+            ),
+            area(
+              'duladel',
+              '0,442 25,432 75,418 100,410 140,395 160,389 165,400 160,440 160,486 0,486',
+            ),
+            area(
+              'atad-mountains',
+              '185,275 210,255 240,262 270,276 300,266 300,305 285,325 270,345 255,364 267,370 280,375 292,384 307,387 305,400 290,412 272,415 260,430 270,440 285,460 290,486 160,486 160,440 165,400 160,389 165,360 160,330 165,300',
+            ),
+            area(
+              'fjorden',
+              '300,266 350,265 450,266 530,275 555,282 571,287 570,302 560,320 552,335 541,347 527,355 517,367 510,382 495,392 492,396 480,397 470,409 450,415 441,422 425,421 408,416 395,412 380,407 379,397 362,393 340,395 325,388 307,387 292,384 280,375 267,370 255,364 270,345 285,325 300,305',
+            ),
+            area(
+              'jindo',
+              '307,387 325,388 340,395 362,393 379,397 380,407 395,412 408,416 405,420 400,435 385,440 375,445 370,462 355,466 330,466 310,472 300,480 290,486 285,460 270,440 260,430 272,415 290,412 305,400',
+            ),
+            area(
+              'jaador',
+              '408,416 408,416 425,421 441,422 450,415 470,409 480,397 492,396 492,401 505,410 520,417 540,427 557,432 559,435 559,460 559,486 290,486 300,480 310,472 330,466 355,466 370,462 375,445 385,440 400,435 405,420',
+            ),
+            area(
+              'hraggen',
+              '492,396 495,392 510,382 517,367 527,355 541,347 541,347 555,360 567,370 575,380 580,388 597,389 602,400 590,411 575,417 565,425 557,432 557,432 540,427 520,417 505,410 492,401',
+            ),
+            area(
+              'geant',
+              '560,320 580,327 592,327 615,332 637,332 655,327 655,342 650,365 645,385 644,399 639,402 620,402 602,400 602,400 597,389 580,388 575,380 567,370 555,360 541,347 552,335',
+            ),
+            area(
+              'svorden',
+              '571,287 590,285 605,280 655,271 694,268 694,268 692,287 697,302 690,310 682,325 675,333 655,327 655,327 637,332 615,332 592,327 580,327 560,320 570,302',
+            ),
+            area(
+              'hrovell',
+              '557,432 565,425 575,417 590,411 602,400 620,402 639,402 644,399 644,420 640,450 635,475 630,486 559,486 559,460 559,435',
+            ),
+            area(
+              'sycla',
+              '694,268 720,270 749,269 749,486 630,486 630,486 635,475 640,450 644,420 644,399 644,399 645,385 650,365 655,342 655,327 675,333 682,325 690,310 697,302 692,287',
+            ),
+            pin('elantris', 108, 267),
+            pin('kae', 157, 293),
+            pin('lake-alonoe', 72, 372),
+          ],
         },
         {
           bookId: 'elantris',
@@ -539,6 +616,18 @@ export const planetMaps: Record<string, PlanetMap[]> = {
           height: 1384,
           caption: 'The kingdom of Arelon.',
           artist: 'Jeff Creer',
+          hotspots: [
+            pin('elantris', 300, 400),
+            pin('kae', 530, 408),
+            pin('kondeon', 240, 662),
+            pin('kaltii', 333, 942),
+            pin('the-chasm', 300, 985),
+            pin('lake-alonoe', 38, 955),
+            pin('aredel-river', 192, 640),
+            pin('kalomo-river', 225, 1058),
+            pin('fellavoo', 437, 1240),
+            pin('haiko', 848, 1125),
+          ],
         },
         {
           bookId: 'elantris',

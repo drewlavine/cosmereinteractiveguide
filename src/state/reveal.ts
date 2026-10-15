@@ -1,5 +1,5 @@
 import { useMemo } from 'react'
-import { readerCanSee, revealSystem } from '../data/reveal'
+import { readerCanSee, revealSystem, type CanSee } from '../data/reveal'
 import { systems } from '../data/systems'
 import { useBooksRead } from './booksRead'
 
@@ -16,3 +16,9 @@ export function useShownSystems() {
 
 export const useShownSystem = (systemId?: string) =>
   useShownSystems().find((s) => s.id === systemId)
+
+/** What the reader may see by their books alone, ignoring View anyway. */
+export function useCanSee(): CanSee {
+  const { read } = useBooksRead()
+  return useMemo(() => readerCanSee(read), [read])
+}

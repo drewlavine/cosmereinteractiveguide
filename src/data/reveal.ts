@@ -1,5 +1,12 @@
 import { books } from './books'
-import type { Passage, Planet, Reveal, StarSystem, Story } from './types'
+import type {
+  Location,
+  Passage,
+  Planet,
+  Reveal,
+  StarSystem,
+  Story,
+} from './types'
 
 /** Whether the reader may see something with these tags. */
 export type CanSee = (reveal: Reveal) => boolean
@@ -145,6 +152,51 @@ export function revealSystem(
       system.cometBelt?.orbit ?? 0,
     ),
     binary: Boolean(system.companionStar),
+    spoilers: spoilerBooks(hidden),
+  }
+}
+
+/** A place trimmed to what the reader may see, with prose flattened. */
+export type ShownLocation = Omit<
+  Location,
+  'revealedIn' | 'summary' | 'settingOf' | 'mentionedIn'
+> & {
+  summary: string
+  settingOf: string[]
+  mentionedIn: string[]
+  /** Unread books hiding parts of this place, in publication order. */
+  spoilers: string[]
+}
+
+/**
+ * Trims a place to what the reader may see, or undefined if the place itself
+ * is hidden. With `viewAnyway` everything is shown, but `spoilers` still lists
+ * what would have been hidden.
+ */
+export function revealLocation(
+  location: Location,
+  canSee: CanSee,
+  viewAnyway = false,
+): ShownLocation | undefined {
+  if (!viewAnyway && !canSee(location.revealedIn)) return undefined
+  const hidden: Reveal[] = []
+  const show = (reveal: Reveal) => {
+    if (canSee(reveal)) return true
+    hidden.push(reveal)
+    return viewAnyway
+  }
+  show(location.revealedIn)
+  const stories = (list: Story[] = []) =>
+    list.filter((s) => show(s.revealedIn)).map((s) => s.bookId)
+
+  return {
+    ...location,
+    summary: location.summary
+      .filter((p) => show(p.revealedIn))
+      .map((p) => p.text)
+      .join(' '),
+    settingOf: stories(location.settingOf),
+    mentionedIn: stories(location.mentionedIn),
     spoilers: spoilerBooks(hidden),
   }
 }

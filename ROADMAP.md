@@ -53,10 +53,17 @@ the later book when unsure.
 - [ ] Make countries and cities on each map clickable, opening a page with
       information about that place.
   - [ ] Draw clickable outlines for countries and cities on each map
+    - [x] Sel: nation outlines on Opelon (Original) and pins on Arelon
+          (Original), with 23 spoiler-tagged places
+    - [ ] Roshar, Scadrial and the other planets' maps
   - [ ] Clicking a region opens a page for that place, or opens a regional map
         if one exists
-  - [ ] Only show regions, and information about them, from books the reader
+    - [x] Location pages, with parent place, places within, "Stories set
+          here" and "Mentioned in"
+    - [ ] Jump to a regional map, e.g. from Arelon's outline to the Arelon map
+  - [x] Only show regions, and information about them, from books the reader
         has marked as read
+  - [x] Dev-only tracing tool ("Trace (dev)" under the interactive map)
 
 **Plan (chosen): shaded regions + city pins**
 

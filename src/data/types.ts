@@ -74,6 +74,29 @@ export interface Planet {
   coppermindUrl: string
 }
 
+export type LocationKind =
+  'continent' | 'nation' | 'region' | 'city' | 'landmark'
+
+/** A place on a planet, with its own page and spots on interactive maps. */
+export interface Location {
+  id: string
+  name: string
+  /** Another name in the same books, e.g. Opelon for Sycla. */
+  altName?: string
+  planetId: string
+  kind: LocationKind
+  /** The place it lies within, e.g. Kae's parent is Arelon. */
+  parentId?: string
+  /** Books that reveal the place itself: its name, page and map spots. */
+  revealedIn: Reveal
+  summary: Passage[]
+  /** Books set here, in publication order. */
+  settingOf?: Story[]
+  /** Other books that mention it, in publication order. */
+  mentionedIn?: Story[]
+  coppermindUrl: string
+}
+
 export interface Belt {
   /** Orbit index for layout; bodies outside the belt should use higher orbits. */
   orbit: number
