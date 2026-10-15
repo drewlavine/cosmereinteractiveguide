@@ -77,8 +77,25 @@ const places: SearchSource = {
     }),
 }
 
-// Characters are hidden until the reader meets them. Those without details
-// yet can't be checked, so they're always shown.
+const firstWord = (name: string) => name.split(' ')[0]
+const firstWordCounts = new Map<string, number>()
+for (const { name } of characters)
+  firstWordCounts.set(
+    firstWord(name),
+    (firstWordCounts.get(firstWord(name)) ?? 0) + 1,
+  )
+
+/**
+ * Names that find a character the reader hasn't met: the full name, or the
+ * first name ("Shallan") if no other character shares it.
+ */
+const exactNames = (name: string) =>
+  name.includes(' ') && firstWordCounts.get(firstWord(name)) === 1
+    ? [name, firstWord(name)]
+    : [name]
+
+// Characters are hidden until the reader meets them, unless searched for by
+// name. Those without details yet can't be checked, so they're always shown.
 const people: SearchSource = {
   id: 'characters',
   label: 'Characters',
@@ -95,6 +112,10 @@ const people: SearchSource = {
         subtitle: 'Character',
         href: `/characters/${character.id}`,
         revealedIn: details && firstMet(details),
+        exactMatch: details && {
+          names: exactNames(character.name),
+          subtitle: 'Character · not met yet',
+        },
       }
     }),
 }

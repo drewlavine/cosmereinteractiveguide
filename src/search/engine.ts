@@ -83,13 +83,21 @@ export function createSearch(
           best.set(key, Math.max(best.get(key) ?? 0, score))
         }
 
+      const words = tokenize(query).join(' ')
+      const typedExactly = (hit: SearchHit) =>
+        words !== '' &&
+        !!hit.exactMatch?.names.some((n) => tokenize(n).join(' ') === words)
+
       let hidden = 0
       const groups = new Map<string, SearchGroup & { top: number }>()
       for (const [key, score] of [...best].sort((a, b) => b[1] - a[1])) {
-        const hit = entries.get(key)!
+        let hit = entries.get(key)!
         if (!visible(hit)) {
-          hidden++
-          continue
+          if (!typedExactly(hit)) {
+            hidden++
+            continue
+          }
+          hit = { ...hit, subtitle: hit.exactMatch!.subtitle }
         }
         const group = groups.get(hit.source.id)
         if (group) group.hits.push(hit)

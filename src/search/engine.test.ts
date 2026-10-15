@@ -56,6 +56,27 @@ describe('search', () => {
     expect(after.hidden).toBe(0)
   })
 
+  it('shows an unmet character only when searched for by exact name', () => {
+    const search = reader()
+    for (const [query, key] of [
+      ['kaladin', 'character:kaladin'],
+      ['Shallan Davar', 'character:shallan-davar'],
+      ['shallan', 'character:shallan-davar'],
+      ['SZETH', 'character:szeth'],
+    ])
+      expect(keys(search, query), query).toContain(key)
+    const [hit] = search.search('kaladin').groups[0].hits
+    expect(hit.key).toBe('character:kaladin')
+    expect(hit.subtitle).toBe('Character · not met yet')
+    expect(search.search('kaladin').hidden).toBe(0)
+    // Partial names, typos and other names stay hidden.
+    for (const query of ['kalad', 'kaladn', 'davar', 'stormblessed', 'zahel'])
+      expect(keys(search, query), query).not.toContain('character:kaladin')
+    expect(search.search('kalad').hidden).toBeGreaterThan(0)
+    // Recent searches and suggestions still leave them out.
+    expect(search.get('character:kaladin')).toBeUndefined()
+  })
+
   it('only looks up entries the reader may see', () => {
     expect(reader().get('planet:sel')).toBeUndefined()
     expect(reader('elantris').get('planet:sel')?.title).toBe('Sel')

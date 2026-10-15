@@ -76,12 +76,16 @@ describe('search box', () => {
     expect(screen.queryByRole('option', { name: /Sycla/ })).toBeNull()
   })
 
-  it('hides characters the reader has not met', async () => {
+  it('hides characters the reader has not met, unless named exactly', async () => {
     renderAt('/')
     await userEvent.keyboard('/')
-    await userEvent.type(screen.getByRole('combobox'), 'kaladin')
+    await userEvent.type(screen.getByRole('combobox'), 'kalad')
     expect(screen.queryByRole('option', { name: /Kaladin/ })).toBeNull()
     expect(dialog()).toHaveTextContent(/results? hidden based on books/)
+    await userEvent.type(screen.getByRole('combobox'), 'in')
+    expect(
+      screen.getByRole('option', { name: /Kaladin.*not met yet/ }),
+    ).toBeInTheDocument()
   })
 
   it('shows recent picks that the reader may still see, and clears them', async () => {

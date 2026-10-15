@@ -22,12 +22,13 @@ export function CharacterDetail() {
   const scope = `character:${character.id}`
   const shown = revealCharacter(character.id, canSee, viewAnyway.has(scope))
 
-  // Even the name is a spoiler for a character the reader hasn't met.
+  // Unmet characters are only reached by name (search or URL), so the name
+  // is known, but nothing else is shown.
   if (!shown.met && !viewAnyway.has(scope))
     return (
       <section className="message-page" aria-labelledby="hidden-title">
-        <h1 id="hidden-title">Not met yet</h1>
-        <p>You haven’t met this character in the books you’ve read.</p>
+        <h1 id="hidden-title">{character.name}</h1>
+        <p>Not met yet in the books you’ve read.</p>
         <SpoilerNotice scope={scope} spoilers />
         <Link to="/characters">Back to all characters</Link>
       </section>

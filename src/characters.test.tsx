@@ -64,17 +64,16 @@ describe('characters pages', () => {
     expect(screen.getByRole('link', { name: 'Kaladin' })).toBeInTheDocument()
   })
 
-  it('does not name an unmet character until shown anyway', async () => {
+  it('shows nothing but the name of an unmet character until shown anyway', async () => {
     renderAt('/characters/kaladin')
-    expect(
-      screen.getByRole('heading', { level: 1, name: 'Not met yet' }),
-    ).toBeInTheDocument()
-    expect(document.body).not.toHaveTextContent('Kaladin')
-    await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
     expect(
       screen.getByRole('heading', { level: 1, name: 'Kaladin' }),
     ).toBeInTheDocument()
+    expect(screen.getByText(/Not met yet/)).toBeInTheDocument()
+    expect(screen.queryByText(/Roshar|Windrunner|Kal,/)).toBeNull()
+    await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
     expect(screen.getByText(/Windrunner/)).toBeInTheDocument()
+    expect(screen.queryByText(/Not met yet/)).toBeNull()
   })
 
   it('shows only what the books read so far reveal', () => {

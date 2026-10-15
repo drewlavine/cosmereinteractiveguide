@@ -290,7 +290,10 @@ Category:Cosmere; check anything unclear by hand.
   - [ ] Hide unmet characters from the list, the groupings, character pages,
         and search, and say how many were hidden, e.g. "12 characters hidden
         based on books you've read"
-    - [x] List, character pages ("Not met yet") and search
+    - [x] List, character pages ("Not met yet") and search. Searching a
+          character's exact name (or unique first name) still finds them,
+          marked "not met yet", since the reader is looking for them; their
+          page shows the name only, until Show anyway
     - [ ] Groupings, once they exist
   - [ ] Hide references to unmet characters elsewhere too, e.g. in other
         characters' summaries, location pages and planet pages

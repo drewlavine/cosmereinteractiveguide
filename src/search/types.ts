@@ -13,6 +13,11 @@ export interface SearchEntry {
   href: string
   /** Books that reveal it; it's hidden until one is read. Omit if never hidden. */
   revealedIn?: Reveal
+  /**
+   * Shows the entry even while hidden when the query is exactly one of these
+   * names, since the reader already knows it, with this subtitle instead.
+   */
+  exactMatch?: { names: string[]; subtitle: string }
 }
 
 /** Icons available to search results; add an SVG in SearchIcon for new ones. */
