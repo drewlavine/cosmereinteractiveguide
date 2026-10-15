@@ -26,6 +26,12 @@ const paths: Record<SearchIconName | 'search', ReactNode> = {
       <circle cx="12" cy="10" r="2.3" />
     </>
   ),
+  book: (
+    <>
+      <path d="M4.5 5.5c2.5-1.3 5-1.3 7.5 0v14c-2.5-1.3-5-1.3-7.5 0Z" />
+      <path d="M19.5 5.5c-2.5-1.3-5-1.3-7.5 0v14c2.5-1.3 5-1.3 7.5 0Z" />
+    </>
+  ),
   character: (
     <>
       <circle cx="12" cy="8" r="3.8" />

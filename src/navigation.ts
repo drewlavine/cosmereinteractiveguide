@@ -46,7 +46,6 @@ export const mainTabs: MainTab[] = [
     label: 'Books',
     path: '/books',
     isActive: underPath('/books'),
-    comingSoon: 'Every Cosmere book and its place in the reading order.',
   },
   {
     id: 'locations',

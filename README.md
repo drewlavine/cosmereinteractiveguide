@@ -38,7 +38,7 @@ npm run dev
 src/
   components/Layout.tsx   App shell and animated route transitions
   navigation.ts           Main header tabs; add tabs here (`comingSoon` = placeholder page)
-  routes/                 StarMap, SystemView, PlanetDetail, LocationDetail, CharacterList, CharacterDetail, SearchPage, ComingSoon, NotFound, RouteError
+  routes/                 StarMap, SystemView, PlanetDetail, LocationDetail, CharacterList, CharacterDetail, Books, BookDetail, SearchPage, ComingSoon, NotFound, RouteError
   routes.tsx              Route table (shared by app and tests)
   data/types.ts           StarSystem / Planet / Character schema
   data/systems.ts         Curated system and planet data

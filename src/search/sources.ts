@@ -1,3 +1,4 @@
+import { bookMeta, books, seriesOf } from '../data/books'
 import { characters } from '../data/characters'
 import { findLocation, kindLabels, locations } from '../data/locations'
 import { systems } from '../data/systems'
@@ -88,6 +89,22 @@ const people: SearchSource = {
     })),
 }
 
+// Book titles aren't spoilers, so every book is listed.
+const bookPages: SearchSource = {
+  id: 'books',
+  label: 'Books',
+  icon: 'book',
+  entries: () =>
+    books.map((book) => ({
+      key: `book:${book.id}`,
+      title: book.title,
+      subtitle: [seriesOf(book.id)?.name, bookMeta(book)]
+        .filter(Boolean)
+        .join(' · '),
+      href: `/books/${book.id}`,
+    })),
+}
+
 /**
  * Everything search covers, in the order groups are listed when they rank
  * equally.
@@ -102,4 +119,5 @@ export const searchSources: SearchSource[] = [
   planets,
   places,
   people,
+  bookPages,
 ]

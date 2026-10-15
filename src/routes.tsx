@@ -1,6 +1,8 @@
 import type { RouteObject } from 'react-router'
 import { Layout } from './components/Layout'
 import { comingSoonTabs } from './navigation'
+import { BookDetail } from './routes/BookDetail'
+import { Books } from './routes/Books'
 import { CharacterDetail } from './routes/CharacterDetail'
 import { CharacterList } from './routes/CharacterList'
 import { ComingSoon } from './routes/ComingSoon'
@@ -28,6 +30,8 @@ export const routes: RouteObject[] = [
         path: 'systems/:systemId/planets/:planetId/locations/:locationId',
         element: <LocationDetail />,
       },
+      { path: 'books', element: <Books /> },
+      { path: 'books/:bookId', element: <BookDetail /> },
       { path: 'characters', element: <CharacterList /> },
       { path: 'characters/:characterId', element: <CharacterDetail /> },
       { path: 'search', element: <SearchPage /> },

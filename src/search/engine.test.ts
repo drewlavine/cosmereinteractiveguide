@@ -35,6 +35,13 @@ describe('search', () => {
     expect(keys(reader('final-empire'), 'vin')[0]).toBe('character:vin')
   })
 
+  it('finds books, even before the reader has read any', () => {
+    expect(keys(reader(), 'words of radiance')[0]).toBe(
+      'book:words-of-radiance',
+    )
+    expect(keys(reader(), 'emperors soul')).toContain('book:emperors-soul')
+  })
+
   it('finds places by their other names', () => {
     expect(keys(reader('elantris'), 'opelon')).toContain('place:sycla')
   })

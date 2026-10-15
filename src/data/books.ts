@@ -300,3 +300,18 @@ export const bookSeries: BookSeries[] = [
 ]
 
 export const books: Book[] = bookSeries.flatMap((series) => series.books)
+
+const seriesByBook = new Map(
+  bookSeries.flatMap((series) => series.books.map((b) => [b.id, series])),
+)
+
+export const findBook = (bookId?: string) =>
+  bookId ? books.find((b) => b.id === bookId) : undefined
+
+export const seriesOf = (bookId: string) => seriesByBook.get(bookId)
+
+/** "Book 2.5 · Novella · 2016", or without the number for standalones. */
+export const bookMeta = (book: Book) =>
+  [book.number && `Book ${book.number}`, book.kind, book.year]
+    .filter(Boolean)
+    .join(' · ')

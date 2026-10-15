@@ -81,7 +81,7 @@ describe('main tabs', () => {
     expect(isCharacters('/charactersheet')).toBe(false)
   })
 
-  it.each(['Books', 'Locations', 'Magic', 'Events'])(
+  it.each(['Locations', 'Magic', 'Events'])(
     'shows a coming-soon page for the %s tab',
     async (label) => {
       renderAt('/')

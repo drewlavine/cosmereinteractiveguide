@@ -178,8 +178,26 @@ Category:Cosmere; check anything unclear by hand.
   - [x] **Characters**: browse and view characters (list and page skeleton,
         names only for now)
     - The character list is not yet spoiler-filtered
-  - [ ] **Books**: every Cosmere book and the reading order (placeholder
-        tab added)
+  - [x] **Books**: every Cosmere book, grouped by series, with a page each
+        (names, series, kind and year only for now). Read books are marked,
+        and books are searchable.
+    - [ ] Book details (setting, worlds and places, previous/next in series)
+    - [ ] Publication order view (the Coppermind's Cosmere bibliography
+          lists every book in order, including within a year)
+    - [ ] Tabs on each book page for everything in that book: Characters,
+          Locations, Events, Magic, plus others that fit (e.g. Worlds,
+          Shards, Items, Organizations). Each entry links to its own page.
+      - Gated by the spoiler rule, down to the chapter once item 7 lands:
+        a reader partway through a book only sees what they've reached.
+        Unread books show nothing in these tabs, only the hidden-content
+        notice.
+      - Source: the Coppermind. Its footnotes cite the book and chapter
+        for almost every fact (e.g. "The Way of Kings chapter 34"), so
+        use those to tag each fact, and each appearance, with the chapter
+        it's revealed in. Where a fact has no footnote, fall back to the
+        page's infobox (books it appears in) and the chapter-by-chapter
+        summary pages (first chapter it's linked in). Anything still
+        unclear needs a manual check.
   - [ ] **Locations**: browse and view locations (cities, regions, landmarks)
         (placeholder tab added)
   - [ ] **Magic**: the magic systems and how they work (placeholder tab
@@ -217,7 +235,8 @@ Category:Cosmere; check anything unclear by hand.
   - [ ] Treat a book as read up to the chosen chapter, everywhere spoilers
         are checked (planets, maps, locations, characters and search)
   - [ ] Tag character facts by chapter first, since that's where it matters
-        most, then other data as needed
+        most, then other data as needed. Take chapters from the Coppermind
+        footnotes, falling back to its chapter summaries (see Books above)
   - [ ] Show the reader's place somewhere visible, e.g. "Reading: The Way of
         Kings, ch. 34"
 
