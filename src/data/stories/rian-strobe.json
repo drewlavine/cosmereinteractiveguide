@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A noble lord in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the Luthadel balls",
+          "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Valette Renoux's first ball, at Keep Venture, he was the first to approach her, greeting her by name soon after she finished eating and asking her to dance. She declined, saying she was nervous, and he politely accepted and left.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "At the Venture ball he wore a green vest under a long dark suit coat.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Polite and well versed in court etiquette, and confident enough to be the first to approach a newcomer at a ball.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }]
+    }
+  ]
+}

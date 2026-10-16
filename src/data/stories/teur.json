@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A villager in the Eastern Dominance who sees a man killed by the mists.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Eastern Dominance",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Saw old Jed die in the mists, described it to Sazed, and questioned the funeral rites Sazed chose. He insisted his wife could vouch that he had never gone out in the mists.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Married, and known for telling tall tales.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+    }
+  ]
+}

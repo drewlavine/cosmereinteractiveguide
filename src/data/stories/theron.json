@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "A skaa thief and crew leader in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Ministry job",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Learned that the Steel Ministry quietly moved large sums to Luthadel with acolytes heading there for final training, and spent five years and thousands of boxings setting up a theft. He faked lost contracts to make House Jedue look desperate, so a cut-price bid to run the Ministry's canal boats seemed natural.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        },
+        {
+          "text": "Needing someone to play Lord Jedue, he reluctantly partnered with Camon. Knowing Theron's money was stretched thin, Camon took the three-thousand-boxing down payment and walked away, leaving Theron to face the Ministry's anger.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Afterwards",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "16" },
+            { "book": "final-empire", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin remembered that he had a bribable obligator contact on the acolytes' canal route, so Dockson used that contact to get Marsh into the Steel Ministry as an acolyte.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "16" }]
+        },
+        {
+          "text": "The Steel Inquisitors hunting Vin traced her link to his crew and slaughtered all of them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall man in a plain grey shirt and slacks, with a thin sword tied at his waist.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Leered at Vin so openly that she nearly used her Luck on him to make him stop.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ]
+}

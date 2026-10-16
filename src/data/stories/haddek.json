@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A kandra of the First Generation.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First Generation",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taught Sazed the original Terris prophecies and helped uncover Ruin's true aims. When it became clear that Ruin had begun to influence the kandra, he declared that the Resolution had come, and most of the kandra removed their Blessings.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like the other Firsts, he wears his own original bones rather than a True Body.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ],
+  "personality": []
+}

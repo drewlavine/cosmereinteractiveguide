@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman with a plantation outside Luthadel, where Dockson and Kareien once worked as skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dockson's former lord",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dockson first called Devinshae a lenient lord, then explained: he only rarely beat skaa to death, killed the elderly only when numbers grew too high, and used the noble right to take skaa women as long as they were killed afterwards. Kareien, Dockson's girlfriend, died that way, which crushed the plantation and drove Dockson to run.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "Vin, who had grown softer towards nobles, called Devinshae a monster. Dockson told her he was a typical lord with a spotless reputation among his peers, who spent his winters in Luthadel; none of them would fault him for how he treated skaa.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

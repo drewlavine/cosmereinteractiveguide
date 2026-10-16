@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A writer on military tactics in the Final Empire, author of the book Armies in Motion.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "His writings",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Aradan Yomen boasted of his grasp of tactics and used the phrase \"distinct points\", Elend Venture recognized it from Bennitson's book and realized that Yomen knew war from study rather than from the battlefield.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

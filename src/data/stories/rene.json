@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A noble lord in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the Luthadel balls",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Escorted Lady Kliss to a ball at Keep Hasting, where he struggled to follow her theory about the death of Charrs Entrone and she talked down to him. He invited Milen Davenpleu to play shelldry with Lord Tyden the next day, even though Milen had missed their last game.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Has an \"ample brow\".",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rather oblivious to the finer points of house politics.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "One of the oldest skaa workers on the Tresting plantation.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "An old skaa from the Tresting plantation who joined the skaa rebellion.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tresting plantation and the rebellion",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "prologue" },
+            { "book": "final-empire", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Met Kelsier just before he killed Lord Tresting, and warned him not to stir up trouble, fearing he would only make things worse. The next day, when the skaa learned that all of Tresting's men were dead, Mennis led most of them to the Arguois caverns, where other skaa rebels were hiding.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "Kelsier found him again among the two thousand rebel soldiers who had refused to follow Yeden against the Holstep Garrison. Mennis had urged them to be ready to leave at short notice, and advised Kelsier to give up his dreams and be proud of having done more than the skaa had managed in decades.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald, with leathery skin. He has trouble walking and sometimes leans on younger men like Shum.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Feels responsible for the plantation's skaa, which is the only reason he hasn't given up on living.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "Joining the rebellion gave his life purpose again. He never expected it to overthrow the Final Empire; resisting the Lord Ruler mattered more to him than winning.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A skaa thief in Luthadel who leads a thieving crew, including Vin, that scams nobles and the Ministry's Cantons.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Crew leader in Luthadel",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "2" },
+            { "book": "final-empire", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Reluctantly partnered with Theron, another crew leader, who had spent years and thousands of boxings setting up a con to steal Ministry funds by having a fake Lord Jedue win the contract to ship acolytes to Luthadel by canal. Camon played Lord Jedue but, knowing Theron's resources were stretched thin, took the three-thousand-boxing down payment and abandoned the plan, leaving Theron to face the Ministry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+        },
+        {
+          "text": "Because Vin had used Allomancy on an obligator during the scam, an Inquisitor was set on his trail. Kelsier, punishing him for his cruelty to Vin, ousted him from the crew, leaving him a beggar, and the Inquisitor killed him as a warning to Kelsier.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stout, with stubby fingers and a pudgy face.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Arrogant, tyrannical with his crew, and fond of drink. He uses Vin's knack, which she doesn't understand, to make marks easier to scam.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "text": "A skilled impersonator of nobles, he has his crew pose as skaa slaves, servants and nobles to sell his scams.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ]
+}

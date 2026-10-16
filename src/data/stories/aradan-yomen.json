@@ -1,0 +1,85 @@
+{
+  "intro": [
+    {
+      "text": "An obligator who rose to become prelan of the Ministry in Fadrex City and struggled with Ashweather Cett for control of the Western Dominance.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    },
+    {
+      "text": "The obligator who rules Fadrex City as king of the Western Dominance, keeping the social order of the Lord Ruler's empire alive.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    },
+    {
+      "text": "An obligator of the Final Empire and an atium Misting, or Seer, often called the Last Obligator after the Catacendre.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rising through the ranks",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Young as he was, Yomen became prelan of the Ministry building in Fadrex within five years of arriving. When Ashweather Cett declared himself King of the Western Dominance after the Lord Ruler's death, the two fought for control. Yomen gained ground over a year, and once Breeze talked Cett into marching on Luthadel for the atium, Yomen's hold on Fadrex was secure.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of Fadrex City",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "63" },
+            { "book": "hero-of-ages", "chapter": "65" },
+            { "book": "hero-of-ages", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Cett gone, Yomen named himself the new king of the Western Dominance. He restored the social order of the Lord Ruler's day, which the people accepted easily, and wore a diadem set with an atium bead so that people took him for a Mistborn.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "Ruin managed to place a Hemalurgic spike in Yomen, but Yomen removed it before Ruin could take a firm hold of his mind. Logical and rational, he was hard for Ruin to sway, though Ruin tried hard.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "Two weeks into the New Empire's siege, Yomen struck its army with three small attacks: one from the north and one from the south as distractions, and a third on the koloss camp. Eleven thousand koloss died, killed by catapult fire or by each other in their bloodlust.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+        },
+        {
+          "text": "The siege of Fadrex ended with Yomen and Elend Venture becoming allies.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Yomen looks young, with a round face, serious eyes and a shaved head, with obligator tattoos around his eyes. He wears a diadem set with a bead of atium.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Yomen enjoys philosophical literature and believes the Lord Ruler is the one true god. He refuses to accept that the Lord Ruler is dead, holding that he will one day return to reign.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "60" }]
+    },
+    {
+      "text": "As a Seer, Yomen can burn atium to see an attacker's moves before they happen, an ability the Lord Ruler kept secret; enemies expect him to be either Mistborn or no Allomancer at all. The atium he wears is more than a symbol. Still, without battle training or pewter, he is no great fighter.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A Steel Inquisitor who hunted Vin after she Soothed a prelan for Camon, and who led the Inquisitors at Kredik Shaw.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Vin",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Vin Soothed Prelan Laird for Camon, the Inquisitor hunted her, hoping to gain evidence against Tevidian. Vin escaped the Canton of Finance headquarters because Kelsier threw him off her trail.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "He was convinced that Tevidian had fathered a half-breed child, and had hunted Vin's half-brother Reen to make him confess it. Reen died insisting that Vin had starved to death long before, but the Inquisitor remained sure the child was still alive.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kredik Shaw",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "final-empire", "chapter": "34" }
+          ]
+        },
+        {
+          "text": "Kredik Shaw and the fountain square",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He was the lead Inquisitor who stopped Kelsier and Vin when they infiltrated Kredik Shaw.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+        },
+        {
+          "text": "He fought Kelsier in the fountain square and was beheaded.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

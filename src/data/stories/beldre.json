@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "Quellion's sister, whom Spook describes as wearing a skaa dress with striking elegance.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "text": "A half-skaa, half-noble Coinshot from Urteau and the sister of Quellion.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urteau",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "16" },
+            { "book": "hero-of-ages", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beldre was at her brother Quellion's side when Spook caused a scene during one of his speeches.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "It was Beldre who used Allomancy to stop Spook from killing a guard with a sword during that scene, though Spook assumed Quellion was the Coinshot.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "When Spook tried to kill her brother, Beldre revealed herself as a Coinshot to defend him.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Catacendre, Beldre and Spook were in a relationship.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Beldre has deep auburn hair and green eyes. Spook thinks she can wear a plain skaa dress with striking elegance.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Beldre dislikes confrontation but will stand up for what she believes is right.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "text": "She is naive and trusting, and knows it. Her inexperience showed when she came alone to Spook's hideout.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    }
+  ]
+}

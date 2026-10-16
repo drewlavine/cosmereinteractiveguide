@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A skaa merchant and a member of the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Merchant and Assembly member",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "31" },
+            { "book": "well-of-ascension", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Had known Philen Frandeu since the Final Empire, when Philen went by \"Lin\", and still sometimes slips and calls him that. When Elend Venture lifted the restrictions on skaa merchants after the Collapse, Getrue grew far wealthier than he could have before.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        },
+        {
+          "text": "As one of the Assembly's eight merchant representatives, he liked some of Elend's ideas but was swayed by Philen, who led the merchants as a bloc against Elend and wanted noble titles. He joined in deposing Elend, though he seemed to have second thoughts, and with the other merchants voted not for Cett as expected but for Ferson Penrod, who, backed by Straff Venture, promised more wealth and titles.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Has put on a lot of weight since the Collapse and, like the other merchants, wears a very fine suit, finer even than nobles'.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Easily pushed around by stronger personalities.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ]
+}

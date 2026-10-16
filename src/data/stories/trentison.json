@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An author whose book Aradan Yomen quotes.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Author",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aradan Yomen quoted from his book while discussing logistics with Elend Venture after the fighting at Fadrex City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

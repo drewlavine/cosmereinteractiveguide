@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An aide to Ashweather Cett during the siege of Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aide to Cett",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Served as an aide to Ashweather Cett during the siege and battle of Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

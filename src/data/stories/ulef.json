@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A young skaa thief in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    },
+    {
+      "text": "A young skaa thief in Camon's crew in Luthadel, and the closest thing Vin has to a friend there.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A member of Camon's crew alongside Vin, he was the only one who ever showed her any kindness.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "After Camon's scam of Arriev, Vin asked him to run away with her, fearing the obligators would send Inquisitors. He agreed, but while she gathered her things he told Camon, then looked on guiltily as Camon beat her.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "Thrilled when Kelsier and Dockson turned up, he idolised Kelsier, soon got over his guilt, and passed Vin rumours of Kelsier's exploits.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "An Inquisitor tracking Camon and Vin found the safehouse and butchered everyone there. Vin saw Ulef's mangled body and partly blamed herself, though she still didn't think of him as a friend.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young and gangly.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rather naive for someone raised in the underworld. Vin thinks he is nice, but knows he would betray her to save himself.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ]
+}

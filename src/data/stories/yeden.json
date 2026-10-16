@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "A skaa who hires Kelsier's crew to raise an army, seize Luthadel and overthrow the Final Empire, though he doubts the plan can work.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Marsh's successor at the head of the skaa rebellion, who hired Kelsier's crew to overthrow the Lord Ruler.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of Yeden's origins. He took over the rebellion from Marsh, and its members spent years scraping together the thirty thousand boxings used to pay Kelsier's crew. Until he met Kelsier he had never seen a Mistborn, doubted that Mistborn existed at all, and did not believe skaa could be Allomancers. He had never been to the Arguois caverns.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hiring Kelsier's crew",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yeden hired Kelsier's crew to build an army that could capture Luthadel, topple the Final Empire and seize the Lord Ruler, agreeing to pay thirty thousand boxings, half up front and half on completion. The plan was Kelsier's, and Yeden doubted it: he did not think the skaa would ever rise up, or that a large army could be recruited from Luthadel's people.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With the army in the caverns",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Impressed by Kelsier's work, Yeden grew excited and went to rallies to recruit for the army. He asked to see the troops at the Arguois Caverns, and Kelsier took him there to watch over them so that Ham could return to Luthadel for a while. After Kelsier's display with Demoux, Yeden came to believe Kelsier could share his powers and that the army could not lose.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The attack on Holstep",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Breeze could arrive to relieve him, Yeden took command of the army to gain experience. Sure the rebellion was blessed by Kelsier, he sent it against the nearby Holstep Garrison, which fell in a night raid. Marching back, the army was caught by the Valtroux Garrison of about five thousand soldiers. Yeden died there with some five thousand of his troops, and his head was left on a spear by the road.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Yeden is short and gangly, with curly brown hair. At first he dressed like a skaa worker, in ash-stained clothes with soot on his face; over time he took to dressing more like Kelsier, in a clean suit.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Yeden looks down on the skaa underground as selfish and undisciplined, though he admits its members are effective and is willing to use them. He distrusts Kelsier's crew, fearing that letting Clubs go could bring obligators down on them, and is sure the skaa will never rise after a thousand years of failed rebellion.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "Earnest but lacking presence, Yeden dislikes skaa thieves who work for their own profit and sees skaa who serve in the Lord Ruler's armies as traitors. He is married, but keeps away from his family to protect them.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "At first Yeden considered Kelsier a selfish, dishonest thief. As the work went on he became more civil, trusted Kelsier more and began to think the rebellion could succeed, until Kelsier's display with Demoux convinced him that Kelsier was invincible.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ]
+}

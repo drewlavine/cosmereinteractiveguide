@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A philosopher.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Philosopher",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was a philosopher in the Final Empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

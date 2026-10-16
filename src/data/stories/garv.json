@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The leader of the Church of the Survivor in Luthadel.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Church of the Survivor",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was present at the Battle of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

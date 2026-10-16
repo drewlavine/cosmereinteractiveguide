@@ -1,0 +1,253 @@
+{
+  "intro": [
+    {
+      "text": "Breeze, a man Dockson invites to hear Kelsier's plan, who joins Kelsier's team and annoys Vin at their first meeting by Soothing her emotions.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "text": "Breeze, a Soother from Kelsier's old crew who advises Elend Venture and calms the crowds at his public appearances.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+    },
+    {
+      "text": "Breeze, a Soother from Kelsier's old crew who travels to Urteau with Sazed and Allrianne to help take the city from the Citizen.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "35" }]
+    },
+    {
+      "text": "Edgard Ladrian, better known as Breeze: a nobleman who hid in the skaa underground as a Soother, and who founded House Ladrian as the Counselor of Gods after the Final Ascension.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "23" },
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "46" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A full-blooded nobleman, Breeze spent some thirty years in the underground by his own account. His exact age is never given, but by the siege of Luthadel he was in his mid-forties, and Vin noticed his hair was not yet graying.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "46" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dockson invited Breeze to Kelsier's meeting in Camon's old lair. Arriving around the same time as Ham, he met Vin, who grew angry when she realized he was Soothing her. After hearing Kelsier's plan, Breeze joined the crew.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Kelsier often used Breeze to deal with nobles, among whom he kept several false identities. He led a team of Soothers and Rioters recruiting skaa for the rebel army, and at one meeting taught Vin to use zinc and brass.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elend's crew",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "32" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "5" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Elend on the throne, Breeze helped write his speeches, persuasive even without Soothing. Sent to spy on Cett, he began a relationship with Cett's daughter Allrianne, and rejoined the crew when Cett marched on Luthadel. He kept her at a distance over their age gap until she fled to him for protection. She turned out to be a Rioter who had been Rioting his emotions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During the siege, Breeze advised Elend and boosted his confidence in public, managing the mood of his crowds, until Cett pointed out the Soothers in the audience after Elend's speech opening the election for king. Breeze also attended a protest at Kandor Construction.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+        },
+        {
+          "text": "In the Battle of Luthadel, Breeze spread his Soothers among the defending squads and fought alongside them, until Clubs was killed by a koloss while saving him. Breeze broke down and was left unresponsive until Ham found him and carried him to safety.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "5" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Urteau",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "58" },
+            { "book": "hero-of-ages", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Breeze came to Urteau with Sazed and Allrianne to take the city from the Citizen, and found that Spook had accomplished a great deal and grown far more confident. He spent his time in secret taverns, Soothing the patrons and gathering information.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "35" }]
+        },
+        {
+          "text": "At an execution of nobles, Breeze felt a sudden urge to rebel and recognized Allrianne Rioting him and the crowd. He told her now was not the time, then worked with her, Soothing the crowd's fears while she Rioted them toward calm as fires got out of hand.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "While Spook recovered from his burns, Breeze effectively ruled Urteau, making proclamations and hearing disputes, though Quellion still held authority.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "6" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Catacendre, Breeze became Counselor of Gods to the Lord Mistborn, founded House Ladrian and went on with his life alongside Allrianne. He wrote most of Spook's speeches and seven volumes of political treatises.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Breeze's death, the kandra VenDell took his hands, and still had them some three centuries on.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Breeze is usually called portly, though his weight varies at times. He has black hair and a mustache, and wears extremely colorful clothes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Breeze feels guilty about his feelings for the much younger Allrianne, calling himself a dirty old man, and keeps her at arm's length since he cannot tell whether she is Rioting him into love.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "21" }]
+    },
+    {
+      "text": "Considered one of the most skilled Soothers alive, Breeze Soothes most people he meets so subtly they rarely notice, sometimes without meaning to, and can sway hundreds at once. As a result many distrust him and hesitate to do anything he asks.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "10" },
+            { "book": "well-of-ascension", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Breeze and Clubs start out on strained terms, as Clubs distrusts Soothing, but they become firm friends who drink together every night. Breeze values that his dealings with Clubs are always genuine, thanks to his coppercloud.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Breeze is often lazy and enjoys getting others to do things for him, such as fetching his drinks. Many see him as a manipulator, but at heart he is a kind, caring man, and he quietly Soothes the crew to give them confidence while keeping up his uncaring reputation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "10" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ]
+}

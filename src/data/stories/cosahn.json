@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A skaa servant on the staff of Mansion Renoux in Fellise.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mansion Renoux",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "final-empire", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Skilled at cutting hair, she met Vin and Sazed in the mansion kitchens to style Vin's hair so she could pass as a noblewoman. She praised its beauty but chided Vin for how ill-kept it was, trimmed it with care, and was flattered and embarrassed when Kelsier admired her work.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "text": "Once Vin's hair had grown more, she cut and styled it again to fall around her ears with a slight curl.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Middle-aged and fairly tall for a skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Professional, polite, methodical and modest.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    }
+  ]
+}

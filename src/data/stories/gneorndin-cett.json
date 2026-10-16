@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "The only son of Ashweather Cett.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Siege of Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "32" },
+            { "book": "well-of-ascension", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Invited King Elend Venture to meet his father in a week to discuss Allrianne, accusing Elend of kidnapping her though he knew it wasn't true. He glared at Breeze, whom he seemed to dislike.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+        },
+        {
+          "text": "Was at Keep Hasting when Vin attacked it with Zane. Though he had no Allomantic powers, he tried to protect his father, and at Cett's request Vin simply knocked him aside.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Elend's empire",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Cett joined his forces with Elend's, Gneorndin attended the crew's meeting where Elend explained that the encroaching mists would soon make ordinary crops impossible to grow.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Strongly protective of his family. He dislikes Breeze for his relationship with Allrianne, who is much younger than Breeze, and despite fearing Vin he stood up to her to protect his father.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+    }
+  ]
+}

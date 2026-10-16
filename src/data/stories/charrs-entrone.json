@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman of House Entrone, an ally of House Tekiel, infamous for twisted pleasures such as skaa bloodfights.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Luthadel",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "final-empire", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One night after a skaa fight, Kelsier killed the drunken Charrs and dumped his body in Keep Tekiel's gardens, hoping Tekiel would suspect its rival House Izenry, or House Geffenry, since Charrs had been gambling with the Mistborn Crews Geffenry. Kelsier cared less who was blamed than that the nobility should worry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "At a ball, Kliss suggested House Geffenry had killed him to make the Tekiels want more allies, though her date, Rene, doubted it. His death led House Tekiel to kill Ardous and Callins Geffenry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

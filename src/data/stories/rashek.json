@@ -1,0 +1,243 @@
+{
+  "intro": [
+    {
+      "text": "The Lord Ruler, a tall, handsome and charismatic man with pale skin and black hair, dressed in an exaggerated black-and-white version of a nobleman's suit.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
+    {
+      "text": "The Lord Ruler, who came to see himself as God after his brief Ascension and founded an imperial religion to worship him.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "text": "Rashek, a Terrisman who resented Alendi, killed him at the Well of Ascension and took its power for himself, becoming the Lord Ruler.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "27" },
+            { "book": "well-of-ascension", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Ascension",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rashek was one of a growing number of young Terris with more violent views than their people were known for, who believed Feruchemy should be used for more than simple labour. Alendi thought them dangerous. Rashek resented Alendi and refused to believe that an outsider, and one of the Terris people's oppressors, could be the Hero of Ages, thinking he had fooled the Terris philosophers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On instructions from his uncle Kwaan, Rashek led Alendi to the Well of Ascension and killed him there. Ruin had ignored him until that moment. He then took and used the power of Preservation, Ascending and becoming the Lord Ruler.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                { "book": "well-of-ascension", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Holding the power of the Well",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "15" },
+            { "book": "hero-of-ages", "chapter": "25" },
+            { "book": "hero-of-ages", "chapter": "68" },
+            { "book": "hero-of-ages", "chapter": "44" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Well's power Rashek tried to save the world from the Deepness, but many changes caused new problems. He moved Scadrial closer to its sun to burn away the mists, then raised volcanoes whose ash and smoke would cool the overheated world. To keep the world from choking on ash he altered plants to survive it and created microbes to break it down, and finally changed human bodies so people could live through the ashfalls.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "15" }]
+        },
+        {
+          "text": "To secure his rule, Rashek flattened the original Terris mountains and raised new ones in the north, naming that land Terris to hide the Well's location. He also made the nobility and the skaa physically different: nobles taller, stronger and more intelligent but less fertile, and skaa shorter, hardier and more fertile.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        },
+        {
+          "text": "Rashek offered his friends a choice on behalf of every living Feruchemist: to be turned into mistwraiths. His friends he further changed into kandra so they kept their minds and memories. He overlooked the Feruchemy dormant in the Terris bloodlines, so new Feruchemists kept being born in the generations that followed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+        },
+        {
+          "text": "Though he had already made the kandra, Rashek learned much about all three Metallic Arts while he held the Well's power. With the Hemalurgy he gained from Ruin he created koloss and Steel Inquisitors, but in a thousand years he never managed to make any Hemalurgic creation beyond those three.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        },
+        {
+          "text": "With the last of his power, Rashek made a copy of his old hut inside Kredik Shaw, directly over the Well, as a private retreat. Afterwards he trusted the knowledge of Hemalurgy only to his Inquisitors.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "11" },
+                { "book": "hero-of-ages", "chapter": "28" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "29" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "5" },
+                { "book": "hero-of-ages", "chapter": "31" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rashek founded the Final Empire, partly as revenge on those he saw as encroaching on Terris land, and conquered the whole world. Obsessed with order, he subjugated all but nine foreign kings, whom he made Mistborn and allowed to rule over the masses. Early in his reign he wiped out all knowledge of the Terris religion and destroyed technologies he thought dangerous, such as gunpowder.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "11" },
+                { "book": "hero-of-ages", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rashek kept himself alive by Compounding with both Allomancy and Feruchemy, and his people called him the Sliver of Infinity. He founded the Steel Ministry, which worshipped him as God and banned all other faiths; religions that would not dissolve were hunted down, the last destroyed about five hundred years after his Ascension.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "11" },
+                { "book": "hero-of-ages", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By Compounding gold and atium, the Lord Ruler made himself effectively immortal, healing quickly and surviving decapitation, burning, dismemberment and flaying. As he aged he needed ever more stored youth, often lying weakened in a hut inside his palace to refill his bands.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Rashek claimed his empire had lasted a thousand years, and it endured until his death in 1022 FE. Throughout, he allowed almost no technological progress, and at one point he gave up and tried to end the Final Empire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "29" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Understanding the Deepness, Ruin and Preservation from his time with the Well, Rashek built five storage caches across the empire, stocked with food and supplies and with information on Allomancy and the weaknesses of his Hemalurgic creations, inscribed on metal so Ruin could not alter it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "5" },
+                { "book": "hero-of-ages", "chapter": "31" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While the Lord Ruler fought Vin, one of his powerful Pushes tore out her earring. She then drew strength from the mists, ripped his atium bracers from his arms and killed him. His death brought the Final Empire's collapse.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Cognitive Realm",
+          "revealedIn": [{ "book": "secret-history", "chapter": "1-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having held the Well's power, Rashek did not pass on to the Beyond at once. His spirit went to the Well's location, where he found Kelsier and what remained of Leras. Annoyed to have been killed before he could take the Well's power again, he dismissed them as impotent nuisances, examined the power rising from the Well while Kelsier questioned him, and scornfully left for the Beyond.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "1-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, handsome and charismatic, with pale skin and black hair. He dresses in black and white, in an exaggerated version of a nobleman's suit, with a black vest marked in white and a coat that reaches his feet and trails behind him, and he wears several rings as a show of wealth.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
+    {
+      "text": "In Elendel's era, the Lord Ruler is often depicted with long hair and a cloak stretching behind him into eternity, wearing ornate bracers known as the Bands of Mourning.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "The Lord Ruler truly sees himself as God, believing himself immortal and unbeatable and anyone who opposes him a fool. Convinced he has given the world great gifts, he is enraged when his servants betray him, seeing it as deep ingratitude.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "text": "Over his long life Rashek tried many pastimes, and he especially loved playing and listening to music; Vin found a flute among his belongings after his death.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "text": "Before his Ascension, Rashek hated the people of Khlennium for oppressing the Terris, and loathed that a Khlenni man, Alendi, had been chosen as the hero of his own people's prophecy. Yet he envied parts of their culture and built them into the Final Empire.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rashek always wanted to save the world from the Deepness and waited for the Well to refill so he could undo his mistakes, though he came to see the world as undeserving of saving. In public he claimed never to have erred, but his messages in the storage caverns admit mistakes and doubt about holding Ruin back.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "76" },
+            { "book": "secret-history", "chapter": "1-2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

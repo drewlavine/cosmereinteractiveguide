@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An elderly dressmaker with a shop on Kenton Street in Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dressmaker",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Made the dress Vin wore to parley with Straff Venture during the siege, designed for an Allomancer with spaces for vials and daggers.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "26" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

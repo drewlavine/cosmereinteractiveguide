@@ -1,0 +1,168 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman of House Hasting in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "text": "The carefree second son of Lord Hasting, who often meets Elend Venture and Jastes Lekal after Luthadel's balls to talk politics.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "A Luthadel nobleman who left the city after his house collapsed and has settled in Fadrex City, now ruled by the obligator Aradan Yomen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "hero-of-ages", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Youth",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telden was born the second son of Lord Hasting, head of the second most powerful house in Luthadel. With few duties to his house, he spent his youth chasing women rather than playing politics.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Luthadel",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "28" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "32" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Luthadel and the Western Dominance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Telden met Elend after noble balls, and the meetings caught the attention of Sazed and of Vin, posing as Valette Renoux, who listened in on some of them; Kelsier thought them meaningless. Telden and Jastes warned Elend to be wary of Valette, suspecting she spied for another house. Despite rising tensions, Telden was sure the trouble would blow over without a house war.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "When the house war broke out, House Elariel burned Keep Hasting in the night and House Hasting collapsed. Telden stayed in Luthadel until Elend was crowned king, then left, thinking him a figurehead. He joined what remained of his family in BasMardin in the Western Dominance, which suffered koloss raids, then moved alone to Fadrex City once Cett had left and Yomen had taken over, believing it safer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Fadrex City",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "50" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Fadrex Telden became a good friend of Yomen, and at first refused to believe rumors that Elend had truly seized power. With Elend's armies besieging the city, Telden met Elend and Vin at a ball at Keep Orielle. He told Elend he was acting like the Lord Ruler; Elend argued his actions were necessary. Unconvinced, Telden changed the subject to his surprise at Elend's marriage to Vin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Yomen captured Vin in Fadrex's storage cache, he sent Telden down with some skaa servants to persuade her to drink drugged wine so she could be moved to a proper cell. Telden doubted he would succeed, but he convinced her that harming them would not make Yomen open the cache, and she drank the wine and fell unconscious.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Telden is tall and square-built, with a deep voice and enviable good looks. As a young man he is a dandy, always in expensive, fashionable suits with perfectly arranged hair. After the Collapse he puts on weight, and though still well dressed he cares less about fashion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Relaxed and charming, the young Telden is a flirt, especially with serving women, though he never gets too close to the women he pursues and avoids any who might be spies. He keeps much of his carefree, somewhat innocent nature through the upheavals that follow.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Telden cares little for practical politics but enjoys debating philosophy and political theory with his friends, and knows many of the same theories as Elend without sharing his love of reading. Unlike Elend he has little sympathy for the skaa. He is clever, can hide his nerves under a confident front, and is willing to put himself in danger to help Yomen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Telden and Elend were close friends despite their differences. Telden's dating advice never took, and he found Elend's love of books and the skaa baffling and a little dull. Elend had to work hard to win him over to his ideas, though Telden shared his hope that a united nobility could win back power from the Lord Ruler. He doubted Elend could ever truly rule.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "23" },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "By the time Elend threatens Fadrex, Telden feels his idealistic friend has betrayed everything he once stood for. The two have drifted apart, sharing little more than memories: Telden now bows to Elend, while Elend cannot bring himself to tell Telden what became of their friend Jastes.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "50" }]
+    }
+  ]
+}

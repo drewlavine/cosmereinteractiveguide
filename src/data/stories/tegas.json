@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A noble lord in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel nobility",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Straff Venture wanted House Tegas as an ally against House Hasting in case of a house war, so he wanted Elend to dine with Lord Tegas's daughter, perhaps as the start of a courtship.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

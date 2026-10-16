@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman of House Patresen, a cousin house of House Elariel, in Fadrex City.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yomen's ball",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was one of the leading women at Aradan Yomen's ball. To learn the local politics, Vin confronted her before her circle, claiming she meant to abandon the city, cited her killing of Shan Elariel, and warned that she and Elend would take the city and have little use for those who opposed them. When Vin left, Patresen's women soon deserted her for Vin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tan-skinned, with dark hair.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Arrogant, as befits an important noble, and used to being in control.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "One of the most powerful noblemen left in Luthadel after the Collapse, and an influential member of the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "10" }]
+    },
+    {
+      "text": "A conservative nobleman of the Luthadel Assembly who, after Elend Venture was deposed, won the election to become Luthadel's king.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Collapse",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Collapse, Penrod was a lesser lord of a minor house who was said to grovel before the likes of Straff Venture at the weekly balls, hoping to win favour.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Assemblyman in Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "10" },
+            { "book": "well-of-ascension", "chapter": "31" },
+            { "book": "well-of-ascension", "chapter": "39" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While many nobles fled Luthadel after the Collapse, Penrod stayed, risking danger in the hope of raising his standing, and so became one of the most powerful noblemen left in the city. As a member of the Luthadel Assembly, he had more sway with the other Assemblymen than Elend Venture did. When Straff's army arrived, Penrod thought Straff taking the city was inevitable and argued for getting as much from him as possible in return.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "10" }]
+        },
+        {
+          "text": "When the Assembly deposed Elend, Elend pointed out that the law called for a chancellor to lead the Assembly's discussions in the absence of a king and nominated Penrod, whom the Assemblymen accepted.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        },
+        {
+          "text": "When candidates for king were put forward, one of the skaa Assemblymen nominated Penrod. Penrod, repaying Elend for the chancellorship, nominated Elend, and Philen Frandeu nominated Ashweather Cett, who was hiding in the crowd.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        },
+        {
+          "text": "Before the vote, Straff persuaded Penrod to hand him the city if he won, and bribed the skaa merchants with promises of titles to vote for Penrod.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+        },
+        {
+          "text": "On election day, the last of the thirty days allowed to choose a king, assassins attacked Elend, Cett and the Assembly. The Assemblymen met at Penrod's mansion to vote anyway. Penrod took fifteen votes to Elend's seven and Cett's two, short of the two-thirds he needed, but when Cett's two voters asked to change their votes, Elend honestly confirmed the law allowed it. Both switched to Penrod, and he became king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King in Luthadel",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "42" },
+            { "book": "hero-of-ages", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marsh attacked Penrod and drove a Hemalurgic spike, made from a copper Misting, through his heart. Because Penrod lived, the surgeons assumed it had just missed his heart; it bled whenever they came near it, so they left it in place, giving Ruin a hold over Penrod's mind.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "text": "Ruin, appearing to him as the Lord Ruler, drove Penrod mad, and he plunged Luthadel into chaos, forcing the skaa to fight to the death for food while claiming only the strong deserved to survive. At TenSoon's suggestion, the people of Luthadel fled the city to shelter in the Pits of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "77" }]
+        },
+        {
+          "text": "Realizing Ruin had been influencing him, Penrod wrote a note in charcoal saying he would rather end his life than keep harming those around him, and telling where the people of Luthadel had gone. Then he killed himself with a sword. Ruin altered the message to claim the people were in the Terris Dominance, but with Vin's help Elend saw through the ruse.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "77" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Penrod has white hair and dresses in well-cut suits. He has polished manners and an upright posture.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Penrod is a traditionalist and political conservative. He never spoke badly of the skaa, but Elend sees him as a product of his society: he does not consider the skaa animals, yet could never see them as equals.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    },
+    {
+      "text": "Penrod is an honourable man; after Elend nominated him for chancellor, he felt bound to nominate Elend for king in return. He believes the Final Empire's system, though imperfect, kept people safer than Elend's, and sees himself as the city's patriarch, bringing conservative restraint to its problems.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+    }
+  ]
+}

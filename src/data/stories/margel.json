@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A skaa woman from the Eastern Dominance, Spook's mother and Clubs's sister.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Eastern Dominance",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "23" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lived in a dirty shack with young Spook and other skaa. Spook often slipped out to run with the other children and picked up eastern street slang, and her husband Jedal blamed her for the boy's lack of discipline.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+        },
+        {
+          "text": "Allomancy ran in her family, and when Spook Snapped as a tin Misting at five, she sent for her brother Clubs to take him before he could be executed. By the time Clubs arrived, Jedal and others knew and meant to kill the boy, but Margel persuaded Jedal to take Clubs's money instead. She had not been a good mother, but felt this was the most she could do for him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

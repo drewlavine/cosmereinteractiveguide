@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The author of a thick book that lay on Elend Venture's table at a ball at Keep Elariel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A book at a ball",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a ball at Keep Elariel, Elend assumed Vin had been reading Heberen's thick book, though she was really reading Deluse Couvre's Book of the False Dawn. Vin said she had only pretended to read so the men at the ball would leave her alone.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

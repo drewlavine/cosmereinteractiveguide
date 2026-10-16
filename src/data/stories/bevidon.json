@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in the Luthadel Garrison under Captain Sertes.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel Garrison",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Knew Ham, and was on guard when Ham and Vin visited the garrison shortly before they left for Holstep.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

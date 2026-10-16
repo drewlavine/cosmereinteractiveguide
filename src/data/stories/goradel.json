@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "A soldier guarding Kredik Shaw, the Lord Ruler's palace in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    },
+    {
+      "text": "A soldier in Elend Venture's army in Luthadel, who once guarded Kredik Shaw.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "well-of-ascension", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A captain in Elend Venture's army who leads the guard escorting Sazed to the city of Urteau.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Goradel grew up in Luthadel, where his family worked the fields outside the city. Unable to bear the hopelessness of that labour, he joined the Lord Ruler's army, and his family disowned him for it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Guard at Kredik Shaw",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Goradel was on guard outside Kredik Shaw when Vin broke in. Rather than kill the guards, as she easily could have, she talked them into joining the rebellion, and Goradel was the first to tear off his insignia and walk away from the palace.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "In the chaos that followed, Goradel found Dockson and told him an Inquisitor had captured Vin. Together with Elend Venture and five of Elend's soldiers, he led the way into the palace dungeons, where they found Vin and Sazed already free but surrounded by guards. They charged to draw the guards off, but Vin, finding one last vial of metals, dealt with them in moments.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the siege of Luthadel, Goradel served in a scout squad of Elend's army and volunteered to help keep the city's skaa warm. He reported to Elend and Demoux that the furniture from abandoned houses was already gone, but that their wooden roofs and inner walls could be pulled down and burned.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urteau",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "56" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Promoted to captain by Ham, Goradel led the guard that travelled with Sazed, Breeze and Allrianne to Urteau. His men protected Sazed as the New Empire's ambassador, guarded their base in the Lord Ruler's storage cavern and kept Beldre from escaping. He watched over Sazed personally whenever he could, though over time he came to look to Spook for orders instead.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Messenger",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Spook woke after the fighting in Urteau, desperate to warn Vin that Ruin could manipulate anyone with metal inside their body, Goradel offered to carry the note himself. Vin had once spared his life, and he was willing to risk it for her.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+        },
+        {
+          "text": "On the road, already worn down by the ash, Goradel was attacked by the Inquisitor Marsh. He fought back hard, trying to pull out Marsh's back spike and then to cut his sinews with a knife hidden in his boot, but Marsh kicked him in the chest and killed him with an axe.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young, fair-looking man with a square jaw and a slightly balding head.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Proud and usually good-tempered, Goradel felt guilty for having served the Lord Ruler, though he believed it was necessary to survive. His directness and courtly manners make him easy to overlook, but Spook sees him as determined and trustworthy. He dislikes the idea of sacrificing himself, yet doesn't let that weaken his dedication, and grows tense after long months in Urteau.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ]
+}

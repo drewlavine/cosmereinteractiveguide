@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A burly taskmaster on the Tresting plantation.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Tresting plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Tresting, unsettled by a defiant skaa who seemed to vanish from his fields, told Kurdon to work that section harder and beat a few skaa at random. Kurdon did so without a second thought, caring nothing for the skaa.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "That night, Kelsier killed Kurdon, Tresting and the rest of the plantation's staff while rescuing Jess's daughter, and burned the manor down.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

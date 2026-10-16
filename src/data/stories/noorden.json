@@ -1,0 +1,134 @@
+{
+  "intro": [
+    {
+      "text": "A former obligator of the Steel Ministry who stayed in Luthadel after the Collapse and now works for Elend Venture as a scribe and bureaucrat.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+    },
+    {
+      "text": "A former obligator and scholar in Emperor Elend Venture's service, who tracks the spread of the mists and the sickness they bring.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "34" },
+            { "book": "hero-of-ages", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "34" },
+                { "book": "hero-of-ages", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not born into high nobility, Noorden had only two careers open to him, merchant or the Steel Ministry, and joined the Ministry to follow his calling as a scholar. In the Canton of Orthodoxy, whose obligators handled all kinds of bureaucratic work, he never fit in and mostly worked alone, yet rose quite high. A good man, he never fully grasped how much the Ministry helped oppress the skaa.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "34" },
+                { "book": "hero-of-ages", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Working for Elend Venture",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "34" },
+            { "book": "well-of-ascension", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Collapse destroyed Noorden's whole way of life, but he was one of very few obligators to stay in Luthadel. Elend Venture hired him as a scribe and bureaucrat for his new kingdom, valuing his outlook as a former obligator rather than a skaa or high noble, and Noorden grew deeply loyal to Elend, thinking his new laws brilliant.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+        },
+        {
+          "text": "As Elend weighed the coming election for king, Noorden wondered aloud whether a victory for Ashweather Cett would really be so bad. Elend persuaded him that Cett was a tyrant who would rule however he liked, while reflecting that the Assemblymen, less guided by logic, would be harder to convince.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+        },
+        {
+          "text": "Noorden served as scribe to witness the Assembly's vote for king. When an apparent deadlock led Lord Habren to ask whether he could change his vote, only Noorden and Elend knew the law allowed it before voting formally closed. Out of loyalty Noorden kept silent, but Elend confirmed the rule himself, and Habren and Lord Hue switched their votes to Ferson Penrod, who won.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The New Empire",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Noorden kept working for Elend once he became emperor, mapping the areas touched by the mists and counting those struck by the mist sickness. At Vin's suggestion he checked what share of people fell ill and found, to his surprise, that it was always exactly sixteen percent.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "21" }]
+        },
+        {
+          "text": "At a council meeting Noorden reported that the sixteen percent held across many cases, and they concluded some intelligence was choosing who fell sick. When the council learned of Hemalurgy, he shared what little he knew from his Ministry days about how Steel Inquisitors were made, and Elend set him to mapping koloss movements, suspecting someone was directing them.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Noorden bears the eye tattoos of a fairly high-ranking obligator and hides most of them behind large spectacles, though some people still find them an unsettling reminder of his past. He often wears a simple brown robe.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "34" },
+            { "book": "hero-of-ages", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A thorough, reliable scholar, Noorden knows the Assembly's laws brilliantly and has a gift for mathematics. He thinks logically, his good cheer lifts those around him, and Elend values that he cares more for stability than for wealth or power.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Unlike most obligators, Noorden is happy and cheerful. He is chatty and sometimes has to be nudged to get to the point, and he keeps odd hours because he gets so absorbed in his research.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "34" },
+            { "book": "hero-of-ages", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ]
+}

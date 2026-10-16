@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Ire, ancient Elantrians from Sel living in the Cognitive Realm, and a figure of authority whom their guards address as \"ancient one\".",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the Ire",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was in the Ire's fortress when a guard spotted Kelsier snooping nearby. Taking him for a shade from Threnody, she had a device holding a large yellow gemstone switched on to detect Threnodites. It found nothing, since he was Scadrian, but she told the guards and the Ire to stay alert.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        },
+        {
+          "text": "Drove the Ire's plan to seize Preservation's power when its Vessel died, using an orb that could give someone the Connection to Ascend. A week on she rode out with four Ire members and fifteen guards, keeping the real orb while the others carried decoys. Kelsier, posing as Ruin, whispered to her and sowed chaos until he could isolate her in a jungle; terrified, she handed him the orb and offered to serve Ruin.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ancient and wizened, bald, with puckered lips and the faintly glowing silvery skin of an Elantrian; to Kelsier she barely looks human. She wears the Ire's hooded white robe with silver embroidery, its silver bands thicker than her colleagues'.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Imperious and overbearing, but an effective leader who keeps the Ire focused on their plan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

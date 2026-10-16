@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "An author in the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "His writings",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He wrote many books, among them Book of the False Dawn, which condemned the Lord Ruler's blunders over the centuries and which any Keeper could quote.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        },
+        {
+          "text": "Further books of his attacked the Final Empire even more harshly. Although he never spoke against Allomancy, the Steel Ministry made an exception and executed him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

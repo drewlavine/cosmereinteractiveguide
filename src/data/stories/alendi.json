@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "The man whose ancient logbook Vin found in Kredik Shaw and Sazed translated in search of the Lord Ruler's weaknesses.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "46" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "59" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A blacksmith's son, Alendi was forced to leave his home village and went to Khlennium. In his first months there he worked as an assistant to the Terris Worldbringer Kwaan, who over time became convinced he was the Hero of Ages. The other Worldbringers scoffed at first but came round as Alendi spread the idea himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "46" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alendi became king of Khlennium and, as the Deepness grew, united several nations, including Terris, by diplomacy or conquest. Facing the Deepness, he Snapped and gained Allomancy. After a decade leading armies he set out for the Well of Ascension to give up its power, ignoring Kwaan, who now believed the prophecies had been altered by some being, and listening to counselors who told him what he wanted to hear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "59" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kwaan had secretly told Rashek to keep Alendi from the Well of Ascension, killing him if he had to. With the Well's pulses drawing Alendi ever closer, Rashek could not lead him astray, and killed him shortly before they arrived.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "23" },
+                { "book": "well-of-ascension", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "According to Kwaan, Alendi was very tall, with a bearing that commanded respect. He had a birthmark on his arm, and his hair had turned grey by the time he was about twenty-five.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "29" }]
+    }
+  ],
+  "personality": []
+}

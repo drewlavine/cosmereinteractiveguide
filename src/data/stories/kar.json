@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Steel Inquisitor who guards the Lord Ruler's sanctum in Kredik Shaw.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    },
+    {
+      "text": "The most senior Steel Inquisitor in the Steel Ministry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Steel Inquisitor",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was a soldier before he became an Inquisitor.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "Was guarding the Lord Ruler's sanctum with another Inquisitor when Vin tried to get inside. She wounded them both and slipped in, but they soon caught her. The Lord Ruler ordered her killed, but they persuaded him to keep her alive, since she might help their bid for authority over the rest of the Ministry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "After Vin was made to burn aluminum, Kar brought her before the Lord Ruler and the lord prelan Tevidian, and claimed she was the daughter Tevidian had fathered on a skaa woman and failed to kill. Soothed by the Lord Ruler, Vin admitted it. Tevidian was given to the Inquisitors, who were granted their authority; Kar watched the killing, smiling.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "Back at her cell, Kar told Vin that her brother had died under the Ministry's torture, swearing she had died years before. He showed her a captive Sazed and promised to torture him until she talked about Kelsier and his crew.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "text": "At the formal transfer of authority he reflected on the Inquisitors' two centuries of quietly encouraging corruption among the obligators. Staying behind to talk to the Lord Ruler, he was interrupted by Vin's return and overpowered her, but as he was choking her, Marsh came in and pulled out one of Kar's spikes, killing him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Sees ordinary people as inferior to Inquisitors, and was pleased when the Lord Ruler gave the Canton of Inquisition authority over the rest of the Steel Ministry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ]
+}

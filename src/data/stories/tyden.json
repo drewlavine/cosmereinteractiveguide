@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman in Luthadel with a deep contempt for skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Keep Hasting",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a ball at Keep Hasting he joined Vin, Kliss, Milen Davenpleu and others discussing recent events, adding little but a badly received joke about Ardous Geffenry's death. He grew very upset when Kliss mentioned skaa thieves; his wife Carlee hinted that he had once been scammed by a thieving crew.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Despises skaa, and Vin suspects he would abuse or kill them without remorse. He isn't very clever, and his humour would have suited Camon's crew better than the nobility.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "text": "His young wife Carlee often mocks his mistakes in public. He plays shelldry regularly with Milen, Rene and another noble.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Mistborn who trained Kelsier in Allomancy after Kelsier Snapped at the Pits of Hathsin.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training Kelsier",
+          "revealedIn": [
+            "eleventh-metal",
+            { "book": "secret-history", "chapter": "6-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gemmel was a harsh teacher who focused on steel and iron and largely ignored emotional Allomancy. He made Kelsier keep all eight basic metals burning, threw him into life-or-death situations such as pushing him off a city wall, and taught him to overwhelm enemies with force rather than plans.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "Three months after Kelsier's escape, Gemmel took him to Mantiz and into Keep Shezler, killing guards and throwing Kelsier off a roof. Below a shed they found skaa held for experiments with metals. Gemmel let Kelsier face the Mistborn lord Antillius Shezler alone, then leafed through Shezler's notebook on an Eleventh Metal, which Kelsier took. Gemmel pocketed a fork.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "A few years after Keep Shezler, while in the Cognitive Realm, Kelsier met the soul of a madman who reminded him of Gemmel, and realized his old mentor had been under Ruin's influence.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A scrawny older man with a ragged grey beard and long, unkempt hair. At night he wears a mistcloak, and in the right light it makes him look oddly regal.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gemmel has no feel for humor, says little, and found Kelsier's forced smiles creepy. He wondered aloud what he was creating by training Kelsier and refused to give him a mistcloak, yet he liked him better than his three earlier apprentices.",
+      "revealedIn": [
+        {
+          "all": [{ "book": "final-empire", "chapter": "27" }, "eleventh-metal"]
+        }
+      ]
+    },
+    {
+      "text": "He seems not entirely sane: he hears and answers a voice no one else can hear, and the mists don't gather around him as they do around most Allomancers.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ]
+}

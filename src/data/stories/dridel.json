@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman on the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel Assembly",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Voted with the rest of the Assembly to depose Elend Venture as king, then began the process of nominating a chancellor, quipping that Elend would nominate himself.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A sharp face, dark hair and a permanent sneer.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "personality": []
+}

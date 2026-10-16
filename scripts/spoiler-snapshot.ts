@@ -63,9 +63,11 @@ if (!id || !person) {
 }
 const characterId = findPersona(id)?.characterId ?? id
 const page = (findPerson(characterId) ?? person).coppermindPage
-const story = JSON.parse(
-  readFileSync(join(ROOT, 'src/data/stories', `${characterId}.json`), 'utf8'),
-) as CharacterStory
+const storyFile = join(ROOT, 'src/data/stories', `${characterId}.json`)
+// Characters with Key facts but no story yet are still worth checking.
+const story: CharacterStory = existsSync(storyFile)
+  ? JSON.parse(readFileSync(storyFile, 'utf8'))
+  : { intro: [], history: [], appearance: [], personality: [] }
 
 /** The page's latest wikitext from before `date`, via headless Chrome. */
 function revisionBefore(title: string, date: string) {

@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A koloss who meets Vin and Elend outside the village of Vetitan, and who insists that he is human.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Vin and Elend",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "8" },
+            { "book": "hero-of-ages", "chapter": "15" },
+            { "book": "hero-of-ages", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Human met Vin and Elend soon after they exposed villagers near Vetitan to the mists to inoculate them. His remarks and observations challenged Vin's belief that all koloss were alike, and as they spent more time together she found he could reason fairly and notice things keenly, though she was puzzled that he kept insisting he was human.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "8" }]
+        },
+        {
+          "text": "When Vin asked whether koloss feared the mists, Human said there was nothing to fear: the mist did not kill, any more than other weather. Yet he admitted he hated the mists because he could feel them hating him, and he saw that Vin felt the same way about them.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "15" }]
+        },
+        {
+          "text": "After Aradan Yomen's raid on Elend's camp, Human surprised Vin by saying it was not right for him to show her how koloss were made, the first sign of morality seen in a koloss. When she used Allomancy to force him, he screamed, dragged a dead koloss into the human camp and tried to move its Hemalurgic spikes into a wounded soldier. Vin stopped him, finally learning how koloss were made, and Human again declared he was human.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the kandra Homeland",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the final struggle between Ruin and Preservation, Human led koloss into the tunnels of the kandra Homeland under Ruin's control. He knew Ruin was controlling him and that it was far stronger than Vin. Forced to ignore the humans there and hunt for the atium cache, he reached the Trustwarren only to find it empty.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

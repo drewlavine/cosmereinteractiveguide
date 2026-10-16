@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A skaa Misting drawn to the skaa underground and to the time before the Ascension, who married Kelsier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "text": "Kelsier's wife, a skaa Misting and thief who shared his life in the underground and died in the Pits of Hathsin.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life with Kelsier",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "20" },
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "final-empire", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her Allomancy and her love of the time before the Ascension drew her into the skaa underground, where she met Kelsier and married him, though Marsh had loved her too. She was a friend of Sazed and introduced him to her husband.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        },
+        {
+          "text": "With a Smoker named Redd, she helped Kelsier try to break into the Lord Ruler's secret room, but Inquisitors were waiting. Redd was killed at once, and the Lord Ruler thanked Mare for betraying Kelsier before they were separated. Years afterwards, Vin realised the Inquisitors could sense Allomancy through copperclouds, so Mare may never have betrayed him at all.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
+        {
+          "text": "She reached the Pits of Hathsin weeks after Kelsier, who still loved her but believed the Lord Ruler's claim despite her denials. After eighteen months there, when Kelsier failed to find an atium geode and faced death, she gave him hers, claiming she had found two. When the taskmasters found she had none, they beat her to death, and Kelsier Snapped.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She had dark hair.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stubborn, with what Kelsier called a hidden streak of unconventionality.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "A capable thief who worked with Kelsier, Dockson and others, and especially good at passing herself off as a noblewoman. She wanted children, above all a daughter she could teach to walk the line between noblewoman and thief, but Kelsier thought they would get in the way.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ]
+}

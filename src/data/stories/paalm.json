@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A kandra who served the Lord Ruler directly, sent on constant missions against rebellions and kingdoms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A kandra of the Third Generation and an agent of Harmony, once sent to guard Waxillium Ladrian in the Roughs in the guise of a woman named Lessie.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A kandra's service",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "7" },
+                { "book": "shadows-of-self", "chapter": "13" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "shadows-of-self", "chapter": "26" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under the kandra's agreement with the Lord Ruler she served him directly, almost always away on missions to crush rebellions and topple kingdoms, so she rarely visited the Homeland; other kandra suspected she had even posed as an Inquisitor, and she probably came to understand Hemalurgy. After the Final Ascension her fanatical loyalty passed to Harmony.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "7" },
+                { "book": "shadows-of-self", "chapter": "13" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Harmony sent her, at her eager request, to guard Waxillium in the Roughs. As Lessie she first met him as a dancer, then posing as a fellow hunter of Granite Joe, whom she killed to side with Wax. She became a lawwoman with Wax and Wayne and married Wax. Unwilling to see him leave the Roughs, she was apparently killed in Feltrel by his own shot when Bloody Tan used her as a shield.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "shadows-of-self", "chapter": "26" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Taking the name Bleeder, she set out to free Elendel from Harmony's influence. She allied with the Set, learned to steal powers with trellium spikes, killed Idashwy for her Feruchemy and, as a man named Johnst, blew up a dam to cause food shortages.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "As a kandra she can take the appearance of any corpse she has digested. As Lessie she was lean, with a squarish face.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "In the days of the Final Empire she was devoted to whatever role the Lord Ruler gave her, with little personality beyond her disguise and a fanatical loyalty to her master.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+    },
+    {
+      "text": "As Lessie she was rough around the edges and always criticising Wax's inexperience, but she wanted him to be happy and to stay in the Roughs.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+    },
+    {
+      "text": "As Bleeder she became obsessed with freedom. Meticulous in her plans, she sometimes regretted the pain she caused but thought it necessary, and above all she hated Harmony.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+    }
+  ]
+}

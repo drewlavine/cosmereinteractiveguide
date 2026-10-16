@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A skaa miner from the Eastern Dominance and Spook's father.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Eastern Dominance",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "23" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lived in a crowded skaa shack with his wife Margel and their son, also named Jedal, who came to be called Spook. He disliked the boy running about the streets and picking up eastern street slang.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+        },
+        {
+          "text": "When Spook Snapped as a tin Misting at five, Jedal and other skaa found out. Fearing the Steel Ministry, he meant to kill the boy himself, but Margel's brother Clubs arrived and paid him to let Spook go. Angry that Margel had sent for Clubs behind his back, he still took the deal, and seems not to have betrayed Clubs.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large man, often covered in dust and dirt from the mines.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cruel and brutal, willing to kill his own son to keep his Allomancy hidden.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }]
+    }
+  ]
+}

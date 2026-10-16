@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman and former friend of Elend Venture who brings an army of koloss to besiege Luthadel in search of the Lord Ruler's atium.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "51" },
+                { "book": "hero-of-ages", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jastes was a friend and ally of Elend Venture and Telden Hasting; the three often met at balls to talk about current, even rebellious, politics. Jastes and Elend planned to become political allies once they inherited their noble houses. His uncle was King Audil Lekal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "51" },
+                { "book": "hero-of-ages", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The koloss army",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Collapse, Jastes fled to the Southern Dominance. He tried to govern his lands with some of Elend's ideals, such as freedom and political honesty, but they were taken as weakness and he lost control. Skaa uprisings and the new rulers killed many of his family, including his sister.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        },
+        {
+          "text": "Increasingly unstable, Jastes raised an army of koloss, paying them with fake coins, and besieged Luthadel to find the Lord Ruler's atium cache. When he lost control of the koloss, he tried to flee north into the Terris mountains, but was caught and executed by Elend Venture for the destruction he had brought on Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

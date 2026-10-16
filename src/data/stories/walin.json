@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "An older prisoner in the Pits of Hathsin, sent there for stealing food.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Pits of Hathsin",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was sent to the Pits for trying to steal food from his plantation master. Barely fed, his fingers searched for geodes by habit, and he was too tired to care about the mists or beatings. He slept on the surface, wary of younger men who might rob him of a geode, and doubted this life was better than death.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
+        {
+          "text": "On the last day of the week he finally found an atium geode, just as Kelsier arrived to destroy the mines. At first he thought Kelsier wanted to steal it, but Kelsier urged him to leave and sell the atium to buy his freedom, and he did.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like most prisoners in the Pits, his arms are covered in long cuts.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    }
+  ],
+  "personality": []
+}

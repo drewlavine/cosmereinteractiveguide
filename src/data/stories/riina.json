@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Ire who joined an expedition to seize Preservation's Shard.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+    },
+    {
+      "text": "The Sorceress of Lumar, an Elantrian who rules an island in the Midnight Sea and curses anyone who comes there.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Member of the Ire",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was one of five members of the Ire who set out to capture Preservation's Shard, riding on horseback with a decoy of the Ire's orb. When Kelsier used Alonoe's robes to make it look as though she had disintegrated, the group abandoned the attempt.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sorceress",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In time she took a spaceship to Lumar, judging the planet unimportant and harmless. Known as the Sorceress, she cursed or killed anyone who visited her island in the Midnight Sea and defeated the Emerald Sea's wars against her. Hoid, hoping to become an Elantrian, bet her that he could break a curse; she cursed him, and he could break it only by re-entering her tower.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "The king of the Emerald Sea sent Charlie to her with a marriage proposal; when her ransom went unpaid she turned him into a rat until he brought her Tress. When Tress came, Hoid burst into the tower and blocked her curse. Facing both of them, Riina agreed to Tress's demand that she leave Lumar, and departed in her tower, which was also a spaceship.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In the Cognitive Realm she looked like a withered husk.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+    },
+    {
+      "text": "On Lumar she looks like a short, plump woman in her fifties, the age at which she stopped aging. Like most Elantrians she dislikes makeup, which she thinks spoils the effect of her glowing skin.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Unusually cruel, she delights in inventing curses, makes sure each victim knows every detail of theirs, and makes them unable to speak of it to anyone. She enjoys being the Sorceress, rhyming as she curses, and looks down on Lumar's people and their technology.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    },
+    {
+      "text": "Like most Elantrians she is extremely cautious and avoids any risk of dying, retreating from anyone who could truly stop her. She keeps vats of acid nearby in case a kandra moves against her. Even so, Hoid thinks her easy to manipulate.",
+      "revealedIn": [{ "book": "tress", "chapter": "64" }]
+    }
+  ]
+}

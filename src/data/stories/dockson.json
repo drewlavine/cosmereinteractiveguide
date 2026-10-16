@@ -1,0 +1,189 @@
+{
+  "intro": [
+    {
+      "text": "A thief with a dry, sarcastic sense of humour who works alongside Kelsier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "Kelsier's longtime friend and partner, a runaway plantation skaa who keeps Kelsier's crew organized and running.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "A member of Kelsier's old crew who serves as an administrator in Elend Venture's Luthadel, though he and Elend do not get along.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "22" },
+            "eleventh-metal"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dockson grew up a plantation skaa under Lord Devinshae, a hard life though he ate more regularly than street skaa did. He would sneak between the hovels to see his girlfriend Kareien, and the other skaa, inspired by the romance, hid the pair from the taskmasters. Then Devinshae took Kareien to his house, raped her and sent back her body the next morning. The following evening Dockson fled the plantation.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "Dockson met Kelsier, and together they stole from nobles until, without any powers, they were the most infamous crewleaders in Luthadel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "Before Kelsier was sent to the Pits of Hathsin, Dockson was fond of brawling.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "Kelsier married a Tineye named Mare. Dockson helped plan their attempt to steal whatever lay in the Lord Ruler's secret room but did not take part. The plan failed, and Kelsier and Mare were sent to the Pits of Hathsin. Dockson escaped capture and went into hiding, carrying on as a thief and planner on a smaller scale.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dockson saw how Camon abused Vin and responded with dry remarks, his usual way of handling difficult moments.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "Dockson kept a close eye on Vin while she still worked for Camon. At their first meeting he was kind and careful with her, and once she grew comfortable with the crew he treated her to his usual dry sarcasm. Vin at first thought his view of the nobility too harsh, until he told her about Kareien.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Governing Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "33" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Kelsier dead, Dockson lost his good humour. He felt like a man who had got what he wanted and realized he should not have wanted it so badly, yet he never faltered as an administrator.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        },
+        {
+          "text": "Dockson clashed with Elend Venture, believing Kelsier would not have wanted Elend to rule. Accepting that Elend felt guilt for the nobility's crimes would also have forced Dockson to face his own acts against the nobility.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "33" }]
+        },
+        {
+          "text": "Dockson came to resent Kelsier for leaving a group of thieves with a kingdom to run.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dockson died sword in hand in the Battle of Luthadel. Seeing the end coming, he reflected that if they had turned on the nobility as he had wanted after the Collapse, they would have been no better than beasts, and he concluded they had done the right thing after all. He cursed Kelsier before he died.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A document about Scadrial after the Catacendre, the Docksithium, is said to have been written by Dockson, but it is considered apocryphal because he died before the Catacendre. A copy is kept in the museum beneath the Field of Rebirth. Wax tried to read it once and found it dull.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dockson has a squarish face that suits his moderately stocky build, black hair and a short half-beard. Having first grown whiskers about twenty years before, he is middle-aged by the Collapse. He often wears noble clothing, and Sazed and Vin think noble suits fit him better than anyone else on the crew.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "2" },
+            { "book": "well-of-ascension", "chapter": "33" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dockson's humour is dry, sarcastic and somewhat reserved, likely his way of coping with difficult situations.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "Dockson keeps the crew running and is gifted at organization and administration. He usually tries to direct Kelsier and the others, though he jokes with them now and then. Diligent about making sure the crew has what it needs, he can be quite stern.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "Kelsier brings out Dockson's mirth, while Dockson works to keep Kelsier grounded and focused, often teasing him with a smile about how insufferable he is.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Besides being the crew's organizer and treasurer, Dockson is a fine thief and crew leader in his own right. He has some skill with a sword and is not afraid to stand and fight, even against koloss.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A scholar and political theorist of the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Political theorist",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wrote that the skaa would one day rise against the Lord Ruler and kill every noble they could find, in a short but brutal revolt costing tens of thousands of lives. Though he expected that first uprising to be crushed, he was among the authors who argued the Final Empire would someday fall.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "Elend Venture read his writings and weighed his theories when deciding where he stood with the skaa rebellion.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

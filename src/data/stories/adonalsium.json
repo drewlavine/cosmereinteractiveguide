@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A god-like being widely believed to have created the cosmere and all life in it; its leftover power is often called the power of creation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "66" },
+            { "book": "secret-history", "chapter": "3-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Shattering",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "isles-of-the-emberdark", "chapter": "47" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "oathbringer", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A group opposed to Adonalsium carried out their plan on Yolen and killed it in a single event, the Shattering, which split its power into sixteen equal Shards. Investiture throughout the cosmere became tied to particular Shards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "isles-of-the-emberdark", "chapter": "47" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The participants seem not to have planned exactly how the power would be divided: more than sixteen were present, and at least one, Hoid, turned down a Shard. Some of them, especially those who took no Shard, came to regret what they had done.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "oathbringer", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

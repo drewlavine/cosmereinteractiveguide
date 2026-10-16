@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tresting's plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flen lived and worked on Lord Tresting's plantation.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

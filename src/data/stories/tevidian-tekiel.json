@@ -1,0 +1,46 @@
+{
+  "intro": [
+    {
+      "text": "The Lord Prelan of the Steel Ministry in the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "text": "The Lord Prelan of the Steel Ministry and Vin's father, killed by the Inquisitors in the Lord Ruler's throne room.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lord Prelan",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "final-empire", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Slept with many skaa women and claimed to have killed every one. Vin's mother fooled him into thinking she was noble, so he was careless with her. He found and killed her, but not her children, and he never recognised Vin.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "The Inquisitors had long wanted control of the Ministry and searched for weaknesses among the obligators. One Inquisitor swore that Tevidian had fathered a half-skaa child, and hunted down Vin's half-brother Reen to make him admit it, but Reen died insisting Vin had starved long ago.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "text": "With the city in revolt, he urged the Lord Ruler to act, but under questioning admitted that Vin's mother had borne children. The Lord Ruler let the Inquisitors stab him to death in the throne room, and the Canton of Inquisition, led by Kar, was given authority over the Ministry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Cared deeply about the stability of the Final Empire, more than the Lord Ruler seemed to, and was badly shaken by the fall of the Great Houses. Even so, when the Lord Ruler told him not to question the matter, he obeyed and stood down.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ]
+}

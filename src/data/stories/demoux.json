@@ -1,0 +1,209 @@
+{
+  "intro": [
+    {
+      "text": "One of the first recruits of Kelsier's skaa rebellion, a loyal soldier whom Ham quickly promoted to captain.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "text": "A captain from Kelsier's rebellion, now in Luthadel, and a devout preacher of the Church of the Survivor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A general in Elend Venture's army and a devout preacher of the Church of the Survivor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "58" },
+            { "book": "hero-of-ages", "chapter": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A former general of Elend Venture's army who travelled to Roshar with Galladon and Baon in search of Hoid.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "58" },
+            { "book": "hero-of-ages", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's rebellion",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Demoux was among the first recruits of Kelsier's rebellion, and Ham promoted him to captain soon after taking charge in Kelsier's absence. When Kelsier came to inspect the caves, Demoux showed him around, and he was the first to step forward when Kelsier called for a man to defend the rebellion's honour against the dissenter Bilg.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Ham warned Kelsier that Demoux was trustworthy but no match for Bilg in a fair fight. With Kelsier Pushing and Pulling on his weapon, Demoux won, and Kelsier told the troops that Demoux had the Lord Ruler's powers, powers they all might share. Demoux resisted Kelsier's urging to kill Bilg, and Kelsier let him live.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "When Yeden chose to attack a fortified position, two thousand troops who believed the attack was against Kelsier's wishes stayed behind at the caves under Demoux's command.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Vin's hunt for a kandra impostor, she suspected Demoux and followed him through Luthadel's streets when he slipped out of Keep Venture. She found that he was a devout preacher for the Church of the Survivor.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The New Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "58" },
+                { "book": "hero-of-ages", "chapter": "8" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "47" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the New Empire, Elend promoted Demoux to general.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "58" },
+                { "book": "hero-of-ages", "chapter": "8" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The first time Demoux went out into the mists, he was struck down by them and became one of the mistfallen. Shunned by the other soldiers, the mistfallen were formed into their own company. In a brawl that followed, Bilg, the man Demoux once fought with Kelsier's help, punched the general and was executed for it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "47" }]
+        },
+        {
+          "text": "Demoux led his mistfallen soldiers to the Pits of Hathsin, where the Terris people had settled and been swamped with refugees. His troops restored order and effectively took charge, though he respected the Terris elders. He fell in love with Aslydin, an elder's daughter, who admired his honour and respectability.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "When Elend reached the Pits, he found that the mistfallen had not been struck down for nothing: the mists had Snapped them, and Demoux and his men were all Seers, atium Mistings. Burning atium, they charged the oncoming koloss alongside Elend. Many Seers fell in the battle at Hathsin, but Demoux survived the Final Ascension.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Searching for Hoid",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Demoux travelled to Roshar with Galladon and Baon, searching for Hoid in the Purelake. A local man, Ishikk, called him Thinker for his quiet, reserved manner and noted that his Selay was poorer than his companions'. When the others began to argue, Demoux noticed Ishikk listening and had them switch to another language.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By 1175 the three had given up on Hoid and left Roshar. They returned within the year, travelling to Iri shortly before the Fifth Journey, where they collected a letter from Hoid and decided to leave the planet again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        },
+        {
+          "text": "Demoux has some way of slowing his ageing, which serves him well in his work with the Seventeenth Shard.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Demoux was in his early twenties during the Final Empire's last years. A youthful man with military bearing at first, he grew grizzled and callused after leading Elend's army. He has light tan skin and a distinctive scar across a balding scalp from a wound taken fighting koloss.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "41" },
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Demoux is loyal and trustworthy, a fine leader though not a great fighter.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "text": "He is an exceptionally devout believer in the Church of the Survivor.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+    },
+    {
+      "text": "Demoux speaks honestly and formally. He is thoughtful and analytical, patient and prudent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A skaa woman on the Tresting plantation.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Tresting plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Feared that Lord Tresting would take her pretty daughter. He did send for the girl, but she was saved when Kelsier killed him and the rest of the plantation's staff.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

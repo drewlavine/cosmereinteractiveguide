@@ -1,0 +1,93 @@
+{
+  "intro": [
+    {
+      "text": "A haughty noblewoman of House Elariel who looks down on Vin, in her guise as Valette Renoux, at the Luthadel balls.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "A noblewoman of House Elariel, Elend Venture's former fiancée, and secretly a Mistborn.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elend Venture",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "final-empire", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Became engaged to Elend Venture around 1021 FE, apparently a political match, since a year passed with no move toward a wedding. The engagement was never formally ended, but she came to be called his former fiancée. Elend shrugged it off; Shan seemed personally stung that he didn't care to marry her.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "A rising player in house politics, she kept watch on Elend as heir to House Venture, one of the few houses more powerful than her own. That was why she bothered with Valette after seeing the girl talk to him, and once she sent her Terrisman steward to look through books Elend had left on a table.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At court",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "18" },
+            { "book": "final-empire", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Met Vin at her second ball as Valette, insulted her freely and tried to Soothe her, which Vin noticed thanks to Breeze's training. A disguised informant told Kelsier that Shan was indeed a Soother and kept spare brass in her glove.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+        },
+        {
+          "text": "As Valette grew bolder, Shan's insults and Soothing grew stronger, and she told Valette to dig up dirt on Elend. Once she realised Valette's loyalty lay with Elend, she dropped her, leaving Vin unable to learn what she was planning.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The plot against Elend",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "final-empire", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Plotted to have Elend killed in his rooms after a ball at Keep Venture, with Straff Venture said to be in on it. Warned by Kliss, Vin hurried to stop it and found Shan with another Mistborn and several Elariel Allomancers, located by piercing her coppercloud.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "Stunned to recognise Valette, she fought her one-on-one with Allomancy and glass daggers, and had more atium than Vin. Tricked into thinking Vin's atium had run out, she was hit by an arrow, and Vin killed her with its broken shaft.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and striking, with long dark auburn hair and dark, expressive eyes. She is always immaculate in fine gowns and jewellery. To fight as a Mistborn she ties back her hair and wears black trousers, a black shirt and a mistcloak.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and supremely confident, and used to getting her way, partly by Soothing those around her. She thinks herself above most people, even other nobles, and calmly insults and threatens those beneath her. Much of the court fears her, though Elend calls her harmless; to Vin she embodies the ideal Luthadel lady.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+    },
+    {
+      "text": "Self-centred but beautiful and charismatic, well informed about the court and skilled and aggressive in house politics. People loyal to House Elariel, including Allomancers, will spy or even kill for her.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ]
+}

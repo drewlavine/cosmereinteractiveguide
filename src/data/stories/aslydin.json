@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A woman in love with General Demoux, who won her respect by helping the Terris refugees.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    },
+    {
+      "text": "A Terris refugee who tended the wounded at the Pits of Hathsin and is in love with General Demoux.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Terris refugee",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "80" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fell in love with Demoux for his honour and the respect he earned by helping the Terris refugees. Bringing Elend tea, she was seen gazing fondly at Demoux.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        },
+        {
+          "text": "Fled her home when Inquisitors attacked it and travelled with the other Terris refugees to the Pits of Hathsin, where they set up camp. During the battle there she tended the wounded and brought refreshments.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

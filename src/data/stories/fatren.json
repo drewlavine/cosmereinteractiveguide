@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A skaa from Vetitan who has held the town together since the Collapse, and whom Emperor Elend Venture makes a lord.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leading Vetitan",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "1" },
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Vetitan's lords left after the Collapse, Fatren persuaded the skaa to keep working and bribed press gangs with crops to keep his men. He raised two thousand soldiers, few of them well trained, and on Druffel's idea had a bulwark built around the town, barely finished two years on when ten thousand koloss approached.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        },
+        {
+          "text": "Survivors of Garthwood, destroyed by the koloss, had fled to Vetitan. Before the attack Elend Venture arrived; Fatren doubted him at first, but Elend let him claim he had summoned the emperor. In return for Elend's help, Fatren swore fealty and was made a lord, told to pick a family name.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        },
+        {
+          "text": "Elend led Fatren's soldiers against the koloss, took control of them and saved most of the town. Fatren accused Elend of coming to rob Vetitan's storage cavern like a bandit, but gave up the food once Elend explained it would draw refugees and bandits.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "Vetitan's people left with Elend's army and were exposed to the mists, which saddened Fatren though he knew it was necessary. When they met General Demoux's forces, Elend had Fatren's people join the soldiers bound for Luthadel.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Thinks he isn't much to look at after months of the strain of leading his town.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Resents Elend for taking over his town, yet admires his commanding air.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ]
+}

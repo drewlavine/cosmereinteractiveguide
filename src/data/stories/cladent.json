@@ -1,0 +1,183 @@
+{
+  "intro": [
+    {
+      "text": "Clubs, a skaa Smoker in Kelsier's crew, whose carpentry shop serves as the crew's hideout under the cover of his coppercloud.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A Smoker from Kelsier's old crew who serves as general of Elend Venture's armies.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "well-of-ascension", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "14" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "6" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Clubs served in the Lord Ruler's army. In his last fight there he was wounded and Snapped, and after his discharge he found he could burn copper.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+        },
+        {
+          "text": "After leaving the army, Clubs joined the underground and became a master carpenter in Luthadel, running a well-known skaa craftsman's shop with several apprentices. When his nephew Spook Snapped, Clubs paid the boy's father a bag of coins not to kill him and took Spook back to Luthadel to raise.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "6" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "7" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "35" },
+                { "book": "well-of-ascension", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier's crew made Clubs's shop their secret base in Luthadel. Clubs kept up a coppercloud around it to hide those inside from Seekers, and gave the crew food, beds and baths. As their main Smoker he rarely left the shop, though many of his apprentice carpenters were Smokers as well.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "After Kelsier's death, with the skaa rioting in his name, Renoux revealed that Kelsier had chosen Clubs to lead the skaa assault on Kredik Shaw. After the Lord Ruler fell, Elend made Clubs general of his armies.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "35" },
+                { "book": "well-of-ascension", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "General of Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "48" },
+            { "book": "well-of-ascension", "chapter": "52" },
+            { "book": "well-of-ascension", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not a religious man, Clubs disliked Captain Demoux preaching the Church of the Survivor to his troops. He grew friendly with Breeze, and the two often spent their evenings talking and drinking at Keep Venture.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+        },
+        {
+          "text": "Before the Battle of Luthadel, Sazed told Clubs about Dadradah, a religion centered on art and craftsmanship, saying the care he put into carpentry showed his true passion was art, not war. Sazed gave him a small wooden disk carved with a brush. In the battle, Clubs fought at Zinc Gate, near Breeze.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        },
+        {
+          "text": "Clubs was killed by a koloss while saving Breeze. Sazed found the wooden disk tied to his body.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Clubs has a gnarled face often likened to knotted wood. He looks older than Breeze but is still fit, and walks with a limp from a long, twisting scar up his calf and thigh, a wound from his time as a soldier.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "well-of-ascension", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "When Clubs smiles, his face takes on a decidedly twisted look.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clubs learned to lead as an officer in the Lord Ruler's army and has a knack for commanding large groups of fighters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "well-of-ascension", "chapter": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Clubs is surly, grim and pessimistic, and can seem hostile and suspicious to newcomers, though Kelsier sees him as loyal and trustworthy. Although copper makes him immune to emotional Allomancy, he deeply distrusts Soothers and Rioters as manipulators.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "well-of-ascension", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "To those who know him well, Clubs is a man of rare understanding and humor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Wary of Breeze's manipulations at first, Clubs comes to share a drink with him every night; Breeze values the honesty Clubs's coppercloud guarantees.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ]
+}

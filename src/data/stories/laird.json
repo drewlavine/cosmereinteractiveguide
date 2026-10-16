@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A prelan of the Steel Ministry who meets with Camon over a transport deal.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dealing with Camon",
+          "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Visited Camon, posing as Lord Jedue, to arrange a transport contract that Camon meant not to honour. Laird was suspicious of an offer that seemed too good, but after Vin Soothed him repeatedly he agreed to take Camon's revised offer back to the council.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald and dressed in the dark grey robe of all obligators, with complex tattoos around his eyes that mark him as a prelan.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Carries himself like a lord, not bothering to bow back to lesser noblemen or to dismiss servants.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ]
+}

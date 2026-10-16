@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "One of TenSoon's guards in the Homeland, who wears a True Body of quartz.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "7" }]
+    },
+    {
+      "text": "A large kandra with the Blessing of Potency, one of TenSoon's guards in the Homeland, who wears a True Body of quartz.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "TenSoon's guard",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "7" },
+            { "book": "hero-of-ages", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Helped hold TenSoon prisoner before his Judgement. Handed a random set of bones, TenSoon shaped a body so fast and so accurately that VarSell was surprised. When TenSoon mocked the Second Generation for how slowly they formed bodies, VarSell nearly slapped him, though TenSoon outranked him. He and other guards then escorted TenSoon to his Judgement by back corridors to avoid a show.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "7" }]
+        },
+        {
+          "text": "On the Second Generation's orders, he brought TenSoon his wolfhound bones at the end of the month between Judgement and sentence, explaining that KanPaar and the others meant to break his bones and didn't want to waste human ones. He laughed at a kandra wearing animal bones, saying it would show everyone TenSoon wasn't a true kandra.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a True Body of quartz, keeping his skin translucent so the sparkling bones show.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "7" }]
+    },
+    {
+      "text": "Large for a kandra. His quartz True Body is worn for beauty rather than practicality.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "24" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Generally respects tradition, including the order that values seniority. He is hostile toward TenSoon and has a temper, though he can hold it in.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "7" }]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "Head pointman of Camon's thieving crew in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's crew",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Kelsier and Dockson stepped into the crew's scam against the Steel Ministry, Disten wanted to know what Kelsier had discussed with Vin. With other crew members he told her rumours about Kelsier's past, mixing fact with fiction.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is missing one hand.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Known for his very keen senses.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ]
+}

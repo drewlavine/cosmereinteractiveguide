@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A leader of the skaa underground in Urteau and a would-be musician.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urteau's underworld",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rose to prominence in Urteau's underworld. When the Harrows were new, he and his men pulled the lock system out of their mouth, and he made his home in a hollowed-out part of a canal.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+        },
+        {
+          "text": "Spook hired him to learn when Quellion's next execution would be. Durn also told him that the Citizen was keeping Allomancers out of the executions to use as soldiers, and began spreading rumours about Spook, including that he had been one of Kelsier's crew.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "Confronted by Spook, he explained that the rumours would hurt Quellion's popularity, then offered help in exchange for a title and canal trade contracts. He dammed the Harrows with their old locks so the people there would be safe when Spook flooded the canals, and helped improve Spook's reputation.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+        },
+        {
+          "text": "Before Spook's speech confronting Quellion, Durn spread word of what to expect, warned people away from the waterways and had his men create a distraction. When riots broke out he couldn't control them, and as the city began to burn he sent word to Spook, who went to flood the canals.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large man who deliberately looks sickly, to win sympathy and pass unnoticed: he fakes a limp and a stoop, pulls his hair out in patches and wears a ragged cloak. Yet he uses soap, drinks wine and speaks articulately.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A gifted musician who has never been able to play in public; while begging he beats complex rhythms on the ground with a pair of sticks.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "35" }]
+    },
+    {
+      "text": "Approves of Quellion's rule as better for skaa than the Lord Ruler's, though it hurts his smuggling trade, and resents him for keeping power for himself. He helps Spook for profit rather than altruism, and cheats at chips.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+    }
+  ]
+}

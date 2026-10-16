@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman of the Final Empire whose place, on Kelsier's orders, is taken by the kandra OreSeur.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lord Renoux",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was replaced by the kandra OreSeur on Kelsier's orders. As Renoux, OreSeur looks thin, ageing and dignified, with a sparse grey mustache, a rich suit and aristocratic spectacles, and walks without a cane.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

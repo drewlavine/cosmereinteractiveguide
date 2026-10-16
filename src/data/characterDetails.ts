@@ -1547,7 +1547,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     groups: [
       {
         name: "Camon's crew",
-        revealedIn: [{ book: 'final-empire', chapter: '37' }],
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
       },
       {
         name: "Kelsier's crew",
@@ -1574,18 +1574,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         relation: 'spouse',
         characterId: 'elend-venture',
         revealedIn: [{ book: 'well-of-ascension', chapter: '48' }],
-      },
-      {
-        name: 'Salmen Tekiel',
-        relation: 'relative',
-        characterId: 'salmen-tekiel',
-        revealedIn: ['secret-history'],
-      },
-      {
-        name: 'Kale Tekiel',
-        relation: 'relative',
-        characterId: 'kale-tekiel',
-        revealedIn: ['secret-history'],
       },
     ],
   },
@@ -1779,7 +1767,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Straff Venture',
         relation: 'parent',
         characterId: 'straff-venture',
-        revealedIn: [{ book: 'well-of-ascension', chapter: '20' }],
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
       },
       {
         name: 'Sabrienne Venture',
@@ -1790,7 +1778,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Zane Venture',
         relation: 'sibling',
         characterId: 'zane-venture',
-        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
       },
       {
         name: 'Vin',
@@ -2034,7 +2022,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Margel',
         relation: 'parent',
         characterId: 'margel',
-        revealedIn: ['secret-history'],
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
       },
       {
         name: 'Cladent',
@@ -2113,7 +2101,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Paalm',
         relation: 'spouse',
         characterId: 'paalm',
-        revealedIn: ['lost-metal'],
+        revealedIn: [{ book: 'shadows-of-self', chapter: '26' }],
       },
       {
         name: 'Steris Harms',
@@ -3956,5 +3944,5251 @@ export const characterDetails: Record<string, CharacterDetails> = {
         ],
       },
     ],
+  },
+  adonalsium: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+      },
+    ],
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aledin: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Slowswift',
+        relation: 'relative',
+        characterId: 'slowswift',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+      },
+    ],
+  },
+  alendi: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+    },
+    aliases: [
+      { name: 'Alendi the Conqueror', revealedIn: ['well-of-ascension'] },
+      {
+        name: 'Hero of Ages',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '41' }],
+      },
+      {
+        name: 'King of Khlennium',
+        revealedIn: [{ book: 'final-empire', chapter: '16' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+      },
+    ],
+    abilities: [
+      { name: 'Seeker', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    nationality: [{ name: 'Khlenni', revealedIn: ['well-of-ascension'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'allrianne-cett': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+      },
+    ],
+    abilities: [{ name: 'Rioter', revealedIn: ['hero-of-ages'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Venture army', revealedIn: ['hero-of-ages'] },
+      {
+        name: 'Originators',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '19' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ashweather',
+        relation: 'parent',
+        characterId: 'ashweather-cett',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        name: 'Gneorndin',
+        relation: 'sibling',
+        characterId: 'gneorndin-cett',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        name: 'Edgard Ladrian',
+        relation: 'spouse',
+        characterId: 'edgard-ladrian',
+        revealedIn: [
+          { all: ['hero-of-ages', { book: 'shadows-of-self', chapter: '19' }] },
+        ],
+      },
+    ],
+  },
+  alonoe: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+    ],
+    world: { planetId: 'sel', revealedIn: ['secret-history'] },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+      { name: 'Elantrian', revealedIn: ['secret-history'] },
+    ],
+    abilities: [
+      { name: 'AonDor', revealedIn: ['secret-history'] },
+      { name: 'Worldhopper', revealedIn: ['secret-history'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Ire', revealedIn: [{ book: 'secret-history', chapter: '5-2' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  amaranta: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Herbalist',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'aradan-yomen': {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '30' }],
+    },
+    aliases: [{ name: 'King of Fadrex City', revealedIn: ['hero-of-ages'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '30' }] },
+    ],
+    abilities: [
+      { name: 'Seer', revealedIn: [{ book: 'hero-of-ages', chapter: '74' }] },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Obligator',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '60' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ardous-geffenry': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Callins',
+        relation: 'sibling',
+        characterId: 'callins-geffenry',
+        revealedIn: ['final-empire'],
+      },
+      {
+        name: 'Crews',
+        relation: 'relative',
+        characterId: 'crews-geffenry',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  arriev: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'High Prelan', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ashweather-cett': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+    },
+    aliases: [
+      {
+        name: 'King of the Western Dominance',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Allrianne',
+        relation: 'child',
+        characterId: 'allrianne-cett',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        name: 'Gneorndin',
+        relation: 'child',
+        characterId: 'gneorndin-cett',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+    ],
+  },
+  aslydin: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bahmen: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '55' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '55' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bedes: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  beldre: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '14' }] },
+    ],
+    abilities: [
+      {
+        name: 'Coinshot',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '58' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Quellion',
+        relation: 'sibling',
+        characterId: 'quellion',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '53' }],
+      },
+    ],
+  },
+  bendal: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [
+          { all: [{ book: 'final-empire', chapter: '2' }, 'secret-history'] },
+        ],
+      },
+      { bookId: 'secret-history', revealedIn: ['secret-history'] },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [
+        { all: [{ book: 'final-empire', chapter: '2' }, 'secret-history'] },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { all: [{ book: 'final-empire', chapter: '2' }, 'secret-history'] },
+        ],
+      },
+      {
+        name: 'Steel Inquisitor',
+        revealedIn: [
+          { all: [{ book: 'final-empire', chapter: '2' }, 'secret-history'] },
+        ],
+      },
+    ],
+    abilities: [{ name: 'Hemalurgist', revealedIn: ['secret-history'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bennitson: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '70' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '70' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '70' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bevidon: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['final-empire'] }],
+    groups: [{ name: 'Luthadel Garrison', revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  bilg: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '21' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: "Yeden's army", revealedIn: ['hero-of-ages'] },
+      { name: 'Venture army', revealedIn: ['hero-of-ages'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  cabe: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cadon: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'callins-geffenry': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ardous',
+        relation: 'sibling',
+        characterId: 'ardous-geffenry',
+        revealedIn: ['final-empire'],
+      },
+      {
+        name: 'Crews',
+        relation: 'relative',
+        characterId: 'crews-geffenry',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  camon: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+    aliases: [
+      { name: 'Jedue', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Camon's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  carlee: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tyden',
+        relation: 'spouse',
+        characterId: 'tyden',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+  },
+  'charrs-entrone': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cobble: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '10' }] },
+    ],
+    abilities: [{ name: 'Smoker', revealedIn: ['final-empire'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  conrad: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  cosahn: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Servant', revealedIn: ['final-empire'] },
+      { name: 'Stylist', revealedIn: ['final-empire'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  crenda: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'crews-geffenry': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '19' }] },
+    ],
+    abilities: [{ name: 'Mistborn', revealedIn: ['final-empire'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ardous',
+        relation: 'relative',
+        characterId: 'ardous-geffenry',
+        revealedIn: ['final-empire'],
+      },
+      {
+        name: 'Callins',
+        relation: 'relative',
+        characterId: 'callins-geffenry',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  'dedri-vasting': {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'deluse-couvre': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  demoux: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '21' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '11' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '8' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '6-3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '21' }],
+    },
+    aliases: [
+      {
+        name: 'Thinker',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: 'i-1' },
+              { book: 'wind-and-truth', chapter: 'i-11' },
+            ],
+          },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'final-empire', chapter: '21' },
+          { book: 'wind-and-truth', chapter: 'i-11' },
+        ],
+      },
+    ],
+    abilities: [
+      { name: 'Seer', revealedIn: [{ book: 'hero-of-ages', chapter: '81' }] },
+      { name: 'Worldhopper', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Captain',
+        revealedIn: [{ book: 'final-empire', chapter: '21' }],
+      },
+      {
+        name: 'Preacher',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '36' }],
+      },
+      { name: 'General', revealedIn: [{ book: 'hero-of-ages', chapter: '8' }] },
+    ],
+    groups: [
+      {
+        name: 'Venture army',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '8' }],
+      },
+      { name: 'Seventeenth Shard', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  detor: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  devinshae: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Plantation owner', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  disten: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Camon's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  dockson: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '5' }],
+      },
+      { bookId: 'eleventh-metal', revealedIn: ['eleventh-metal'] },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '2' }],
+    },
+    aliases: [
+      { name: 'Delton', revealedIn: [{ book: 'final-empire', chapter: '22' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+      { name: 'Venture army', revealedIn: ['well-of-ascension'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dridel: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  druffel: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Fatren',
+        relation: 'sibling',
+        characterId: 'fatren',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+      },
+    ],
+  },
+  dukaler: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  durn: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Thief lord', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  durton: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  elrao: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+    ],
+    world: { planetId: 'sel', revealedIn: ['secret-history'] },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+      { name: 'Elantrian', revealedIn: ['secret-history'] },
+    ],
+    abilities: [
+      { name: 'AonDor', revealedIn: ['secret-history'] },
+      { name: 'Worldhopper', revealedIn: ['secret-history'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Ire', revealedIn: [{ book: 'secret-history', chapter: '5-2' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  fatren: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+    },
+    aliases: [
+      { name: 'Fats', revealedIn: [{ book: 'hero-of-ages', chapter: '1' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Druffel',
+        relation: 'sibling',
+        characterId: 'druffel',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+      },
+    ],
+  },
+  fedik: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fedre: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Architect', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'fedren-aime': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  feldeu: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ferson-penrod': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '42' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '6-2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+    },
+    aliases: [
+      {
+        name: 'King of the Central Dominance',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  fhorkood: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '78' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'hero-of-ages', chapter: '78' }] },
+    ],
+    abilities: [{ name: 'Blessing of Potency', revealedIn: ['hero-of-ages'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  flavine: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  flen: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  franson: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '35' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '35' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mailey',
+        relation: 'sibling',
+        characterId: 'mailey',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '41' }],
+      },
+    ],
+  },
+  galivan: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gallingskaw: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholars', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  garv: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Religious leader', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gemmel: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '5' }],
+      },
+      { bookId: 'eleventh-metal', revealedIn: ['eleventh-metal'] },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '5' }] },
+    ],
+    abilities: [{ name: 'Mistborn', revealedIn: ['eleventh-metal'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  genedere: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '36' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  getrue: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'gneorndin-cett': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ashweather',
+        relation: 'parent',
+        characterId: 'ashweather-cett',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+      {
+        name: 'Allrianne',
+        relation: 'sibling',
+        characterId: 'allrianne-cett',
+        revealedIn: ['hero-of-ages'],
+      },
+    ],
+  },
+  goradel: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '10' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '6-7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '36' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['secret-history'] }],
+    bonds: [],
+    relatives: [],
+  },
+  grent: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '49' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['well-of-ascension'] }],
+    groups: [
+      { name: "Straff Venture's army", revealedIn: ['well-of-ascension'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  haddek: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '68' }],
+    },
+    aliases: [
+      {
+        name: 'First Generation',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '75' }],
+      },
+    ],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'hero-of-ages', chapter: '79' }] },
+    ],
+    abilities: [
+      {
+        name: 'Feruchemist',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '68' }],
+      },
+    ],
+    nationality: [
+      { name: 'Terris', revealedIn: [{ book: 'hero-of-ages', chapter: '79' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hammond: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '1' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '12' }],
+      },
+      { bookId: 'allomancer-jak', revealedIn: ['allomancer-jak'] },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }, 'allomancer-jak'],
+    },
+    aliases: [
+      { name: 'Ham', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }, 'allomancer-jak'],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Pewterarm',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mardra',
+        relation: 'spouse',
+        characterId: 'mardra',
+        revealedIn: [{ book: 'final-empire', chapter: '24' }],
+      },
+    ],
+  },
+  harathdal: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Steward',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '81' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hardren: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  harmon: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Burglar', revealedIn: ['final-empire'] }],
+    groups: [{ name: "Camon's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  haws: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  heberen: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  helenntion: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Khlenni', revealedIn: ['well-of-ascension'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hettel: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  hilde: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hobart: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hoselle: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '26' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hrud: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Camon's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  human: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Koloss', revealedIn: [{ book: 'hero-of-ages', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  hunfoor: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '11' }],
+    },
+    aliases: [],
+    species: [{ name: 'Kandra', revealedIn: ['hero-of-ages'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'idren-seeris': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Guiverre Seeris',
+        relation: 'parent',
+        revealedIn: ['final-empire'],
+      },
+      {
+        name: 'Shan Elariel',
+        relation: 'relative',
+        characterId: 'shan-elariel',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  jadendwyl: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  janarle: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '53' }],
+    },
+    aliases: [
+      {
+        name: 'King of the Northern Dominance',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '12' }],
+      },
+    ],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Military officer', revealedIn: ['well-of-ascension'] },
+    ],
+    groups: [
+      {
+        name: 'Venture army',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '53' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  jarloux: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jasten: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Canal worker', revealedIn: ['well-of-ascension'] }],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Thurts',
+        relation: 'sibling',
+        characterId: 'thurts',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+  },
+  'jastes-lekal': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Audil Lekal',
+        relation: 'relative',
+        characterId: 'audil-lekal',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+  },
+  jaston: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '52' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  jed: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jedal: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Spook',
+        relation: 'child',
+        characterId: 'spook',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+  },
+  jell: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jendellah: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholars', revealedIn: ['well-of-ascension'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jess-scadrial': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kale-tekiel': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Salmen Tekiel',
+        relation: 'relative',
+        characterId: 'salmen-tekiel',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  kanpaar: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'hero-of-ages', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kar: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '36' }] },
+      {
+        name: 'Steel Inquisitor',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+    abilities: [{ name: 'Hemalurgist', revealedIn: ['final-empire'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kareien: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kevoux: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kinaler: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  kliss: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kurdon: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kwaan: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Feruchemist',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '62' }],
+      },
+    ],
+    nationality: [
+      { name: 'Terris', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Worldbringers',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '13' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rashek',
+        relation: 'relative',
+        characterId: 'rashek',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '53' }],
+      },
+    ],
+  },
+  laird: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Prelan', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lellin: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '63' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mailey: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '41' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '41' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '41' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Franson',
+        relation: 'sibling',
+        characterId: 'franson',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '41' }],
+      },
+    ],
+  },
+  maod: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+    ],
+    world: { planetId: 'sel', revealedIn: ['secret-history'] },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '5-2' }],
+      },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['secret-history'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Ire', revealedIn: [{ book: 'secret-history', chapter: '5-2' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mardra: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'hero-of-ages', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Seamstress',
+        revealedIn: [{ book: 'final-empire', chapter: '24' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Hammond',
+        relation: 'spouse',
+        characterId: 'hammond',
+        revealedIn: [{ book: 'final-empire', chapter: '24' }],
+      },
+    ],
+  },
+  mare: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [
+      { name: 'Tineye', revealedIn: [{ book: 'final-empire', chapter: '5' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Kelsier's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kelsier',
+        relation: 'spouse',
+        characterId: 'kelsier',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+  },
+  margel: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Cladent',
+        relation: 'sibling',
+        characterId: 'cladent',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        name: 'Jedal',
+        relation: 'spouse',
+        characterId: 'jedal',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+      {
+        name: 'Spook',
+        relation: 'child',
+        characterId: 'spook',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+  },
+  melaan: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '9' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '11' }],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [
+        { book: 'hero-of-ages', chapter: '9' },
+        { book: 'shadows-of-self', chapter: '11' },
+      ],
+    },
+    aliases: [{ name: 'Milan', revealedIn: ['lost-metal'] }],
+    species: [{ name: 'Kandra', revealedIn: ['hero-of-ages'] }],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['lost-metal'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'TenSoon',
+        relation: 'parent',
+        characterId: 'tensoon',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '24' }],
+      },
+    ],
+  },
+  'melend-liese': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mennis: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  midge: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '6-3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'secret-history', chapter: '6-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '6-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['secret-history'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'milen-davenpleu': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  milev: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '3' }],
+    },
+    aliases: [{ name: 'Millev', revealedIn: ['final-empire'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Camon's crew", revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  noorden: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+      {
+        name: 'Obligator',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  olid: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+    },
+    aliases: [{ name: 'Foreign Minister', revealedIn: ['hero-of-ages'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  oreseur: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '5' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '5' }],
+    },
+    aliases: [{ name: 'Renoux', revealedIn: ['well-of-ascension'] }],
+    species: [
+      {
+        name: 'Kandra',
+        revealedIn: [{ book: 'final-empire', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Blessing of Potency',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Kelsier's crew", revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  paalm: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '7' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [
+        { book: 'hero-of-ages', chapter: '7' },
+        { book: 'shadows-of-self', chapter: '7' },
+      ],
+    },
+    aliases: [
+      {
+        name: 'Bleeder',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+      {
+        name: 'Lessie',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '26' }],
+      },
+      {
+        name: 'Replar Innate',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '22' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Kandra',
+        revealedIn: [
+          { book: 'hero-of-ages', chapter: '7' },
+          { book: 'shadows-of-self', chapter: '13' },
+        ],
+      },
+    ],
+    abilities: [{ name: 'Hemalurgist', revealedIn: ['shadows-of-self'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Waxillium Ladrian',
+        relation: 'spouse',
+        characterId: 'waxillium-ladrian',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '26' }],
+      },
+    ],
+  },
+  'philen-frandeu': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+    },
+    aliases: [
+      {
+        name: 'Lin',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  quellion: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Citizen',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '26' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '14' }] },
+    ],
+    abilities: [{ name: 'Hemalurgist', revealedIn: ['hero-of-ages'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Beldre',
+        relation: 'sibling',
+        characterId: 'beldre',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '53' }],
+      },
+    ],
+  },
+  rashek: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '1-1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Sliver of Infinity',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      {
+        name: 'First Emperor',
+        revealedIn: [
+          { book: 'well-of-ascension', chapter: '37' },
+          { book: 'bands-of-mourning', chapter: '3' },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Feruchemist',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '68' }],
+      },
+      { name: 'Sliver', revealedIn: ['secret-history'] },
+      {
+        name: 'Mistborn',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '22' }],
+      },
+      { name: 'Twinborn', revealedIn: ['secret-history'] },
+      { name: 'Hemalurgist', revealedIn: ['secret-history'] },
+    ],
+    nationality: [
+      { name: 'Terris', revealedIn: [{ book: 'final-empire', chapter: '38' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kwaan',
+        relation: 'relative',
+        characterId: 'kwaan',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '53' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'lord-ruler',
+        name: 'Lord Ruler',
+        coppermindPage: 'Lord Ruler',
+        books: ['final-empire'],
+        identityRevealedIn: [{ book: 'final-empire', chapter: '38' }],
+      },
+    ],
+  },
+  redalevin: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reen: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Camon's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vin',
+        relation: 'sibling',
+        characterId: 'vin',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+    ],
+  },
+  rene: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rian-strobe': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  riina: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '5-3' }],
+      },
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '64' }] },
+    ],
+    world: { planetId: 'sel', revealedIn: ['tress'] },
+    aliases: [
+      { name: 'Sorceress', revealedIn: [{ book: 'tress', chapter: '64' }] },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'secret-history', chapter: '5-3' },
+          { book: 'tress', chapter: '64' },
+        ],
+      },
+      { name: 'Elantrian', revealedIn: [{ book: 'tress', chapter: '64' }] },
+    ],
+    abilities: [
+      { name: 'AonDor', revealedIn: [{ book: 'tress', chapter: '64' }] },
+      { name: 'Awakener', revealedIn: ['tress'] },
+      { name: 'Worldhopper', revealedIn: ['tress'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Ire', revealedIn: [{ book: 'secret-history', chapter: '5-3' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  rindel: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Terris', revealedIn: ['well-of-ascension'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rittle: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '52' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'hero-of-ages', chapter: '52' }] },
+    ],
+    groups: [
+      { name: "Yeden's army", revealedIn: ['hero-of-ages'] },
+      { name: 'Venture army', revealedIn: ['hero-of-ages'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  rudd: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ruddy: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '2' }] },
+    ],
+    abilities: [{ name: 'Smoker', revealedIn: ['final-empire'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'salmen-tekiel': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kale Tekiel',
+        relation: 'relative',
+        characterId: 'kale-tekiel',
+        revealedIn: ['final-empire'],
+      },
+    ],
+  },
+  sertes: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['final-empire'] }],
+    groups: [{ name: 'Luthadel Garrison', revealedIn: ['final-empire'] }],
+    bonds: [],
+    relatives: [],
+  },
+  sev: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'shan-elariel': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [
+      {
+        name: 'Mistborn',
+        revealedIn: [{ book: 'final-empire', chapter: '30' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Idren Seeris',
+        relation: 'relative',
+        characterId: 'idren-seeris',
+        revealedIn: ['final-empire'],
+      },
+      {
+        name: 'Anastas Elariel',
+        relation: 'relative',
+        revealedIn: [{ book: 'final-empire', chapter: '30' }],
+      },
+    ],
+  },
+  shum: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  skiff: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '52' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['hero-of-ages'] }],
+    bonds: [],
+    relatives: [],
+  },
+  slowswift: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '27' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  spanky: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '2-1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'secret-history', chapter: '2-1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'secret-history', chapter: '2-1' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'secret-history', chapter: '2-1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'stase-blanches': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  staxles: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'straff-venture': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '19' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    aliases: [
+      {
+        name: 'King of the Northern Dominance',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '19' }] },
+    ],
+    abilities: [{ name: 'Tineye', revealedIn: ['well-of-ascension'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sabrienne Venture',
+        relation: 'spouse',
+        revealedIn: ['well-of-ascension'],
+      },
+      {
+        name: 'Elend',
+        relation: 'child',
+        characterId: 'elend-venture',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+      {
+        name: 'Zane',
+        relation: 'child',
+        characterId: 'zane-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+    ],
+  },
+  tarkavv: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '75' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '75' }],
+    },
+    aliases: [],
+    species: [{ name: 'Kandra', revealedIn: ['hero-of-ages'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tase: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Apprentice craftsman', revealedIn: ['final-empire'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tawnson: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tegas: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'telden-hasting': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '18' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  temadre: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '36' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['final-empire'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tensoon: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [
+          {
+            all: [
+              { book: 'final-empire', chapter: '28' },
+              { book: 'well-of-ascension', chapter: '47' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '47' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '2' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '19' }],
+      },
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [
+        {
+          all: [
+            { book: 'final-empire', chapter: '28' },
+            { book: 'well-of-ascension', chapter: '47' },
+          ],
+        },
+        { book: 'shadows-of-self', chapter: '19' },
+      ],
+    },
+    aliases: [
+      {
+        name: 'OreSeur',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '47' }],
+      },
+      { name: 'Gorglen', revealedIn: [{ book: 'lost-metal', chapter: '38' }] },
+      { name: 'Guardian of the Ascendant Warrior', revealedIn: ['lost-metal'] },
+    ],
+    species: [
+      {
+        name: 'Kandra',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '47' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Blessing of Presence',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '39' }],
+      },
+      {
+        name: 'Blessing of Potency',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Preservers', revealedIn: ['lost-metal'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'MeLaan',
+        relation: 'child',
+        characterId: 'melaan',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '24' }],
+      },
+    ],
+  },
+  tepper: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  terion: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Metallurgist',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  teur: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'teven-renoux': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tevidian-tekiel': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Lord Prelan',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vin',
+        relation: 'child',
+        characterId: 'vin',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+  },
+  'themos-tresting': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  theron: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thurts: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jasten',
+        relation: 'sibling',
+        characterId: 'jasten',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+  },
+  tindwyl: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+    },
+    aliases: [
+      {
+        name: 'Miss Imposing',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '25' }],
+      },
+      {
+        name: 'Mother of Terris',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    abilities: [{ name: 'Feruchemist', revealedIn: ['well-of-ascension'] }],
+    nationality: [
+      {
+        name: 'Terris',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '16' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Keeper',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '30' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Synod',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '16' }],
+      },
+      {
+        name: 'Preservers',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  trap: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+      { bookId: 'eleventh-metal', revealedIn: ['eleventh-metal'] },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '2' }] },
+    ],
+    abilities: [{ name: 'Smoker', revealedIn: ['eleventh-metal'] }],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Kelsier's crew", revealedIn: ['eleventh-metal'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'tren-pedri-delouse': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  trendalan: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholars', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  trentison: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '70' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '70' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '70' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  triss: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  troalin: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Slowswift',
+        relation: 'relative',
+        characterId: 'slowswift',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+      },
+    ],
+  },
+  tyden: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Carlee',
+        relation: 'spouse',
+        characterId: 'carlee',
+        revealedIn: [{ book: 'final-empire', chapter: '23' }],
+      },
+    ],
+  },
+  ulef: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Camon's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  urdree: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['hero-of-ages'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  varsell: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'hero-of-ages', chapter: '27' }] },
+    ],
+    abilities: [
+      {
+        name: 'Blessing of Potency',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '7' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vedlew: {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Terris', revealedIn: ['hero-of-ages'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vedzan: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '23' }],
+      },
+    ],
+    abilities: [{ name: 'Feruchemist', revealedIn: ['well-of-ascension'] }],
+    nationality: [{ name: 'Terris', revealedIn: ['well-of-ascension'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Herrinew',
+        relation: 'spouse',
+        revealedIn: ['well-of-ascension'],
+      },
+    ],
+  },
+  vent: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  walin: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '32' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wednegon: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '37' }],
+    },
+    aliases: [
+      {
+        name: 'King',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '37' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '37' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wellen: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '43' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['hero-of-ages'] }],
+    groups: [
+      { name: "Ashweather Cett's army", revealedIn: ['hero-of-ages'] },
+      { name: 'Venture army', revealedIn: ['hero-of-ages'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yeden: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      {
+        name: 'Skaa rebellion',
+        revealedIn: [{ book: 'final-empire', chapter: '25' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yestal: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ytves: {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Author', revealedIn: ['well-of-ascension'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'zane-venture': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Watcher',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '17' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '2' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Mistborn',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '17' }],
+      },
+      { name: 'Hemalurgist', revealedIn: ['hero-of-ages'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Straff',
+        relation: 'parent',
+        characterId: 'straff-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+      {
+        name: 'Elend',
+        relation: 'sibling',
+        characterId: 'elend-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+      },
+    ],
+  },
+  'antillius-shezler': {
+    appearsIn: [{ bookId: 'eleventh-metal', revealedIn: ['eleventh-metal'] }],
+    world: { planetId: 'scadrial', revealedIn: ['eleventh-metal'] },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: ['eleventh-metal'] }],
+    abilities: [{ name: 'Mistborn', revealedIn: ['eleventh-metal'] }],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['eleventh-metal'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'edgard-ladrian': {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '11' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: 'Counselor of Gods',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '18' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [
+      {
+        name: 'Soother',
+        revealedIn: [{ book: 'final-empire', chapter: '10' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Venture army', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Allrianne Cett',
+        relation: 'spouse',
+        characterId: 'allrianne-cett',
+        revealedIn: [
+          { all: ['hero-of-ages', { book: 'shadows-of-self', chapter: '19' }] },
+        ],
+      },
+    ],
+    personas: [
+      {
+        id: 'breeze',
+        name: 'Breeze',
+        coppermindPage: 'Breeze',
+        books: [
+          'final-empire',
+          'well-of-ascension',
+          'hero-of-ages',
+          'secret-history',
+        ],
+        identityRevealedIn: [
+          { all: ['final-empire', { book: 'shadows-of-self', chapter: '19' }] },
+        ],
+      },
+    ],
+  },
+  cladent: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '6' }],
+      },
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    aliases: [
+      {
+        name: 'Uncle Crusty',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '6' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '4' }] },
+    ],
+    abilities: [
+      { name: 'Smoker', revealedIn: [{ book: 'final-empire', chapter: '7' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '6' }],
+      },
+      { name: 'Venture army', revealedIn: ['well-of-ascension'] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Margel',
+        relation: 'sibling',
+        characterId: 'margel',
+        revealedIn: ['hero-of-ages'],
+      },
+      {
+        name: 'Spook',
+        relation: 'relative',
+        characterId: 'spook',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'clubs',
+        name: 'Clubs',
+        coppermindPage: 'Clubs',
+        books: [
+          'final-empire',
+          'well-of-ascension',
+          'hero-of-ages',
+          'secret-history',
+        ],
+        identityRevealedIn: ['hero-of-ages'],
+      },
+    ],
+  },
+  'lord-hue': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Luthadel Assembly', revealedIn: ['well-of-ascension'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'lady-patresen': {
+    appearsIn: [
+      {
+        bookId: 'hero-of-ages',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'hero-of-ages', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'lord-habren': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '38' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'larn-scadrial': {
+    appearsIn: [
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  khrissalla: {
+    appearsIn: [
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '12' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+      },
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [{ name: 'Duchess of Elis', revealedIn: ['white-sand-omnibus'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'bands-of-mourning', chapter: '12' },
+          { book: 'secret-history', chapter: '3-2' },
+          { book: 'white-sand-omnibus', chapter: 'prologue' },
+        ],
+      },
+    ],
+    abilities: [
+      { name: 'Worldhopper', revealedIn: ['white-sand-omnibus'] },
+      { name: 'Starmarks', revealedIn: ['white-sand-omnibus'] },
+    ],
+    nationality: [
+      {
+        name: 'Elisian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nazrilof: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+      },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '22' }],
+      },
+    ],
+    world: { planetId: 'threnody', revealedIn: ['isles-of-the-emberdark'] },
+    aliases: [
+      {
+        name: 'Nazh',
+        revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+      },
+    ],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leras: {
+    appearsIn: [{ bookId: 'secret-history', revealedIn: ['secret-history'] }],
+    world: { planetId: 'yolen', revealedIn: ['secret-history'] },
+    aliases: [
+      { name: 'Mist Spirit', revealedIn: ['secret-history'] },
+      { name: 'Fuzz', revealedIn: ['secret-history'] },
+      { name: 'Terr', revealedIn: ['secret-history'] },
+      {
+        name: 'Frue',
+        revealedIn: [
+          { book: 'hero-of-ages', chapter: '75' },
+          { book: 'bands-of-mourning', chapter: '22' },
+        ],
+      },
+      { name: 'Preservation', revealedIn: ['secret-history'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: ['secret-history'] },
+      { name: 'Vessel of Preservation', revealedIn: ['secret-history'] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: "Kelsier's crew", revealedIn: ['secret-history'] }],
+    bonds: [],
+    relatives: [],
   },
 }

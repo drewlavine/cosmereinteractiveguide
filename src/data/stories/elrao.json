@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Ire, ancient Elantrians from Sel living in the Cognitive Realm.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the Ire",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "5-2" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was at the Ire's meeting in their fortress after Kelsier, a Cognitive Shadow, startled them by being spotted snooping nearby, and drank an odd glowing liquid during it. He questioned Alonoe's wish to bring forward their attempt to take Preservation's power with a special orb, but went along with her.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-2" }]
+        },
+        {
+          "text": "Joined the expedition to find Preservation, carrying a decoy orb while Alonoe kept the real one. As Kelsier sowed chaos, Elrao feared Ruin was interfering and urged turning back, but Alonoe overruled him. When Kelsier separated her from the party and tricked them into thinking she had disintegrated, Elrao led the others in a hasty retreat.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald and unnaturally old-looking, with the faintly glowing silvery skin of an Elantrian. He wears the Ire's hooded white robe with silver embroidery.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cautious, and readier than his colleagues to question Alonoe's ambition.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "5-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

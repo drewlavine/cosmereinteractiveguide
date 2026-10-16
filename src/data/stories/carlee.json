@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A young noblewoman married to Lord Tyden.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Keep Hasting",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a ball at Keep Hasting with her husband, she hinted that Tyden had foolishly fallen for a robbery or scam by skaa.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Speaks in a purring voice, and rarely, mostly to make jabs at her husband.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ]
+}

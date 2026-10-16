@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A captain in the Luthadel Garrison and an old sparring partner of Ham's.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel Garrison",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Newly promoted to captain, he welcomed Ham and Vin at the garrison and tried to recruit Ham with an officer's post and a squad of his own. He let slip that the garrison would march north within hours to help the Holstep and Valtroux garrisons against rebel skaa based in the Arguois caverns, which was how Kelsier's crew first learned the rebel army had been exposed. Ham hid his shock and pretended to accept the offer.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears the garrison uniform, with extra stripes and epaulettes marking his rank.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Trusts Ham, and doesn't notice when Ham reacts strangely to military news.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    }
+  ]
+}

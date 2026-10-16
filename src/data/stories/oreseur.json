@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A kandra of the Third Generation, more than seven hundred years old, who took a contract with Kelsier.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+    },
+    {
+      "text": "A kandra who served Kelsier's crew under contract and, since Kelsier's death, has been bound by his Contract to serve Vin.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's contract",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "11" },
+            { "book": "well-of-ascension", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "KanPaar assigned OreSeur's contract to Kelsier even though it meant working against the Lord Ruler, because Kelsier was willing to pay so much. A rather rebellious member of the Third Generation, OreSeur was one of the few kandra willing to take the job, and he left the Kandra Homeland after a long retirement to do it.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+        },
+        {
+          "text": "For Kelsier, OreSeur mostly played the part of Lord Renoux and kept watch over Vin while she posed as Valette Renoux.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Serving Vin",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Kelsier's death his contract passed to Vin. She was angry that OreSeur had known of Kelsier's plan to die and inspire the skaa to fight and had done nothing to stop it, though he had only acted as his contract required.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+        },
+        {
+          "text": "Disgusted by the thought of a kandra eating human bodies, Vin ordered OreSeur to take on the bones of a wolfhound instead.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

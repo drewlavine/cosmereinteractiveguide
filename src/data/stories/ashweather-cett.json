@@ -1,0 +1,110 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman from Fadrex City who brought his army to Luthadel during the siege and offered Elend Venture an alliance against Straff.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+    },
+    {
+      "text": "A nobleman from Fadrex City who, after the siege of Luthadel, pledged allegiance to Elend and became a general in his army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "55" },
+            { "book": "hero-of-ages", "chapter": "25" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Struggle for the Western Dominance",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler's death, Cett quickly seized the Western Dominance but could not hold Fadrex City, where he fought the obligator Aradan Yomen for power. He once lost two thousand soldiers against five hundred koloss, and within a year Yomen was clearly winning. Cett blamed his weakness on having only nine Allomancers.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "Breeze convinced Cett that the Lord Ruler's atium cache was in Luthadel and that its atium could buy him Allomancers. Cett marched on Luthadel with forty thousand soldiers to take the Central Dominance and the atium from Elend Venture.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "Ahead of his army, Cett sent a team of Allomancers, including four Pewterarms and a Mistborn with atium, to kill Vin. They failed and were killed, but forced her to burn the last of her atium.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Outnumbered by Straff Venture's fifty thousand troops, Cett slipped into Luthadel and appeared before Elend at an Assembly meeting, proposing to bring his army into the city and ally against Straff.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        },
+        {
+          "text": "When Mistings attacked Elend, Vin thought she recognized one as Cett's servant and blamed him. She and Zane stormed Keep Hasting, killing Cett's soldiers and nearly killing Cett, whom she wrongly suspected of being Mistborn. Cett then withdrew his troops from the city.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "General of the New Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "27" },
+            { "book": "hero-of-ages", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the siege, Vin made Cett swear allegiance to Elend, and he became a general in the new emperor's army, joining the campaign against Fadrex City.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While the siege of Fadrex was planned, Cett suggested brutal but effective tactics, such as raiding undefended villages to force Yomen's hand or simply assassinating him.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        },
+        {
+          "text": "At Elend's request, Cett listed noblemen and informants inside Fadrex who might help as sources or double agents, and told Vin how to find his contact Slowswift.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        },
+        {
+          "text": "During the battle against the koloss at Fadrex, Cett stayed behind the lines directing tactics while Elend went wherever his soldiers were struggling.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Cett is abrasive and enjoys being deliberately rude, using it to unsettle guests and keep control; when Elend came to dine, Cett served messy food on purpose to make him uncomfortable.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "One of Aradan Yomen's scribes, who keeps a good many maps.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yomen's scribe",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Served Aradan Yomen as a scribe and kept a large collection of maps.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

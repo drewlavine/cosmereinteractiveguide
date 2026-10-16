@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A general in House Venture's army and Straff Venture's second-in-command.",
+      "revealedIn": ["well-of-ascension"]
+    },
+    {
+      "text": "A former Venture general who swore fealty to Elend Venture and was made King of the Northern Dominance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Venture army",
+          "revealedIn": [
+            "well-of-ascension",
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A minor lord and career soldier, Janarle rose through the Venture army to become a general and Straff Venture's second-in-command.",
+          "revealedIn": ["well-of-ascension"]
+        },
+        {
+          "text": "Joined Straff in the Siege of Luthadel. While Straff was ill from poison, Janarle led the army, planned a strike, had Vin followed by scouts and reported on the koloss attack on the city. He objected when Straff chose to let the koloss raze Luthadel, but didn't defy him, and was present at the end of the battle.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "55" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of the Northern Dominance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "61" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the end of the battle, Vin killed every Venture leader but Janarle, who had broken his leg. He tried to pledge his army to her, but she made him swear to Elend instead, and he was made King of the Northern Dominance. Its capital, Urteau, had fallen to a skaa revolt led by Quellion, so he ruled in exile, quarrelled with Cett and Penrod, and struggled with the strain of kingship.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the ashmounts erupted more and more, Janarle gave up, abdicated and fled with his family and retinue towards the hills near Terris, leaving the dominance in chaos.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "61" }]
+        },
+        {
+          "text": "On the way, his party was attacked by koloss, and the survivors, Janarle among them, were turned into koloss themselves.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Handsome and fairly young.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A capable military strategist and leader, who often rides into battle on horseback.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    },
+    {
+      "text": "Outwardly loyal and deferential to Straff, though Straff thinks him ambitious enough to turn on him given the chance. Like many nobles he is self-centred and entitled, and he holds grudges against his rivals.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

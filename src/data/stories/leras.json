@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "The Vessel of Preservation, who with Ati, the Vessel of Ruin, created Scadrial, then betrayed Ati and imprisoned him in the Well of Ascension at the cost of his own life. Kelsier calls him Fuzz.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A native of Yolen, like all the original Vessels. He took part in the Shattering of Adonalsium, took up the Shard Preservation, and left Yolen with Ati, the Vessel of Ruin.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "1-2" },
+            { "book": "secret-history", "chapter": "6-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Had been watching Kelsier for some time before meeting him at his death. Disliking him, he wanted to send him on to the Beyond, but Kelsier tricked him into explaining how to become a Cognitive Shadow, nicknamed him Fuzz for his half-unravelled look, and drew him into his schemes, which Leras went along with mostly out of curiosity. He was briefly furious to learn Kelsier's actions had led to the Lord Ruler's death.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "1-2" }]
+        },
+        {
+          "text": "As the Well of Ascension filled, the two began to cooperate: Leras told Kelsier more, Kelsier respected his divinity more, and Leras came to trust him enough to point him toward the Ire. At Leras's death they parted on good terms, Kelsier comforting him and Leras giving him tacit blessing to use his power and urging him to keep surviving.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In the Cognitive Realm, a short man with black hair and a prominent nose, in a long thin wool coat over a laced tunic, with a bone-handled knife at his belt. As his death nears he unravels into mist, half his face gone to fading smoke, sometimes opening to show a skeleton beneath.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "56" },
+            { "book": "secret-history", "chapter": "2-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Has no distinct form in the Physical Realm, where he appears as the mist spirit, a silhouette in the mists that is hard to see until it moves. In this form he can't speak, but he can point and handle objects a little.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "55" },
+            { "book": "secret-history", "chapter": "3-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Values permanence so much that he supported the Lord Ruler and the Final Empire for lasting a thousand years, not because he approved of what it did.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+    },
+    {
+      "text": "When lucid, sarcastic and sardonic. He gets excited about things he loves and paces with energy while thinking, and admires people who achieve the impossible, especially to survive. He was once capable of cunning and deceit, but seems to have lost the knack.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-1" }]
+    },
+    {
+      "text": "Feels a strong duty to Scadrial and its people, still welcoming the newly dead even as he dies. He takes his divinity seriously, hates being mocked or urged to act against his Intent, and is angered when people abandon their roles or question his.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+    },
+    {
+      "text": "Dying, he is often unfocused and struggles to think, remember or follow a conversation, though talking with Kelsier helps, and by his death he speaks coherently.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+    }
+  ]
+}

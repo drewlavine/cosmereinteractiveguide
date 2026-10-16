@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A noble who runs a plantation worked by several hundred skaa in the Central Dominance, northwest of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Master of the plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hosted Straff Venture's personal obligator at his manor and was promised a good report for his coming contract with House Venture. A skaa in the fields staring and smiling at him distracted him, but by the time he called taskmaster Kurdon, the man had vanished.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "Undeterred, he picked Jess's daughter as his reward for a good day's business. That night Kelsier killed every noble in the manor, stabbing Tresting twice in the chest, burned the building down, and then led the plantation's skaa to freedom.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Efficient and productive. He keeps his skaa in line with taskmasters' whips and the threat of executing whole families, as he did when some ran away soon after he inherited the land from his father.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "Law-abiding, but chilled by the thought of the Inquisitors looking into his affairs. He periodically takes skaa women and has them killed within a few weeks to avoid any mishaps.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "Keen to present himself well, with a fine suit and vest shipped from the capital, yet thrifty enough to keep a plain pantry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ]
+}

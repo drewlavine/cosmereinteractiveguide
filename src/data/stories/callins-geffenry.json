@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A young nobleman of Luthadel, brother of Ardous Geffenry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Luthadel",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Callins and his brother Ardous were killed in reprisal for the murder of Charrs Entrone, although neither had any part in it.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

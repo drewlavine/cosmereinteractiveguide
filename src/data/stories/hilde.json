@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Granny Hilde, an old woman who runs a passwall, a secret way through Luthadel's city wall.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Keeper of a passwall",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Ham was a child already mixed up in the underground, she gave him sweets, a quiet way of advertising her passwall. He grew fond of her, and used her tunnel to bring his wife Mardra and their children in and out of the city.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        },
+        {
+          "text": "During the Siege of Luthadel, Felt told Elend that passwall keepers like her were letting people slip out of the city at night against his orders. When Elend went to meet Jastes Lekal in his koloss camp, Ham took him out through her passwall; Elend paid her extra to have someone, probably one of her grandsons, watch for his return.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small, elderly woman, nearly blind, who walks with a cane but counts coins with surprisingly nimble fingers.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Known in the underground for taking coin without asking questions, though she grumbles a little. She hints that she has many grandsons.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A lieutenant in Elend's army, sent by King Penrod from Luthadel to ask Elend for more troops.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Messenger from Luthadel",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "40" },
+            { "book": "hero-of-ages", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was left in Luthadel by Demoux to serve King Penrod while Elend set out to secure the storage caverns. As the Deepness brought hunger and riots, Penrod sent him and three others separately to ask Elend for more troops. Only Conrad got through, escaping a group of koloss by using his horse as bait.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "Ham brought him to Elend near Fadrex City, and he was startled by Elend's angry outburst over Penrod losing control of Luthadel. After resting, he and Elend talked at length.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "After Demoux's brawl with Bilg, Elend sent about three hundred men back to Luthadel with him by canal: the mistfallen, whom much of the army saw as cursed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Red-haired. He arrived exhausted, in ash-stained clothes and a scout's leathers.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Brave.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    }
+  ]
+}

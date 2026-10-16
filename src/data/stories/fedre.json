@@ -1,0 +1,21 @@
+{
+  "intro": [
+    {
+      "text": "A canal architect who lived in the eighth century of the Final Empire.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "49" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "His writings", "revealedIn": ["hero-of-ages"] }],
+      "items": [
+        {
+          "text": "An infamous scoundrel known for his love of cats and canals, Lord Fedre wrote a book on canal architecture that Sazed kept in his metalminds. Sazed thought him a genius at canals despite his reputation.",
+          "revealedIn": ["hero-of-ages"]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

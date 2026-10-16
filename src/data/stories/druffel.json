@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A skaa from the farming and mining town of Vetitan, sometimes called Druff, and Fatren's brother.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vetitan",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "1" },
+            { "book": "hero-of-ages", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born near the end of the Final Empire, he and his brother Fatren lived simple lives in Vetitan, where he stayed cheerful despite hard work in one of the Lord Ruler's mills. After the Collapse, when the nobles and the Ministry left, he advised Fatren as he led the town, and suggested building a bulwark around it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        },
+        {
+          "text": "As the koloss threat grew and defence looked hopeless, he became detached and fatalistic. When Elend Venture arrived he drew his sword on him; Elend took it with Allomancy, praised it and handed it back, leaving Druffel unimpressed and doubtful of his plan. Shocked when Fatren pretended to have summoned a noble for help, Druffel stalked off.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        },
+        {
+          "text": "Was among those evacuated from Vetitan once the koloss were beaten, riding a horse into Demoux's camp.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Once optimistic and quick to laugh, after years of hardship and fear of the koloss he grew apathetic and fatalistic. He distrusts nobles.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A young Terrisman.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Terrisman",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lived among the Terris people at the end of the Final Empire.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Tindwyl remarked on how hot-headed he was.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "Elend Venture's father, a Luthadel nobleman who abandoned the city after the Lord Ruler's death and returns at the head of an army to take it from his son.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "well-of-ascension", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Head of House Venture",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "1" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elend was Straff's only known legitimate child, and a constant disappointment to him. Straff belittled him at every turn; when Elend was just thirteen, Straff forced him to sleep with a skaa prostitute, saying it was time he became a man.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Straff kept many mistresses and fathered many illegitimate children, hoping to breed Allomancers. It worked: he had around eighteen Misting children, though Zane was his only Mistborn.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marching on Luthadel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "1" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "27" },
+            { "book": "well-of-ascension", "chapter": "49" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler's death, Straff fled Luthadel and left Elend to fend for himself. Elend survived, struck a deal with the rioting skaa and became king of the Central Dominance. Seeing his son as weak, Straff raised an army in his home dominance and marched it to Luthadel to take the city.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Straff was a regular at skaa brothels and usually discarded his mistresses long before they reached their late twenties. Meeting Elend and Vin, he paraded a mistress of perhaps fifteen who resembled Vin, a casual cruelty meant to provoke and intimidate them.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+        },
+        {
+          "text": "Straff feared what Zane might do in his madness and paid him in atium to keep him in line, not knowing Zane had his own stash. The two kept an uneasy truce while repeatedly trying to kill each other.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "Amaranta, a spurned former mistress, had been working with Zane: Straff believed Zane was poisoning him, while Amaranta's \"cure\" was the addictive drug Black Frayn. When Zane left the camp, she tried to kill Straff with poison. Realizing her betrayal, he strangled her in a rage, then barely survived by mixing his own antidote, his Tineye senses letting him copy her drug cocktail by smell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Straff's habits with his mistresses are depraved even by the standards of Luthadel's nobility. He judges women too old to be attractive by their late twenties, and uses cruelty as a tool of intimidation.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+    },
+    {
+      "text": "A highly skilled Tineye, Straff does not hide his Allomancy as most nobles do, flaunting it to show his superiority and fearlessness. He can smell even a nearly odorless poison in aromatic tea.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ]
+}

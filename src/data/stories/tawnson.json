@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A servant at Renoux Manor.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Renoux Manor",
+          "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once let Lord Renoux know that members of Kelsier's crew had arrived, discreetly announcing only that a carriage had come from Luthadel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

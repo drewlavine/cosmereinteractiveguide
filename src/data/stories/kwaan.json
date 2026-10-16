@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "A Worldbringer of ancient Terris whose research centred on nature, and who spent much of his time in the great library of Khlennium.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "well-of-ascension", "chapter": "32" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Worldbringer of ancient Terris who championed Alendi as the Hero of Ages, then came to doubt his own claim.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "16" },
+            { "book": "well-of-ascension", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Worldbringer of Terris",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "18" },
+                { "book": "well-of-ascension", "chapter": "46" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "well-of-ascension", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Met the young Alendi by chance in the library of Khlennium and hired him as an assistant. As Alendi rose to power and united nations against the Deepness, Kwaan grew convinced he was the Hero of Ages of the Terris prophecies and travelled with him to record his journeys. The other Worldbringers scorned the idea at first, but in time they came to agree.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "18" },
+                { "book": "well-of-ascension", "chapter": "46" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By then Kwaan feared Alendi fit the prophecies too perfectly, and that his own hunger for recognition had led him to stretch the signs. His exceptional memory also showed him that the prophecies the others quoted were changing. Too proud to speak at first, he finally denounced Alendi before the Conclave of Worldbringers, but they dismissed him as mad. Alendi, who saw him as a father, was hurt, and Kwaan expected to be executed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "well-of-ascension", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As a last resort he had his young nephew Rashek hired as one of Alendi's guides through the Terris Mountains, to stop Alendi reaching the Well by any means. Rashek killed Alendi and took the power himself. When Rashek ascended and offered a group of Feruchemists immortality in exchange for their Feruchemy, Kwaan alone refused; he fled into hiding, but Rashek hunted him down and executed him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Unlike other Terris scholars, he was neither a religious scholar nor an obvious sage. He had many interests that seemed silly to Alendi, nature above all, and he was tirelessly persistent in his research and prone to rambling.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "well-of-ascension", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ]
+}

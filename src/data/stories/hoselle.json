@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A young woman in Straff Venture's company during the Siege of Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "26" }]
+    },
+    {
+      "text": "One of Straff Venture's mistresses.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Straff's side",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "26" },
+            { "book": "well-of-ascension", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Attended Straff's parley with Elend during the Siege of Luthadel, where Straff used her to tell Elend he could have a woman like Vin, only younger and prettier. Straff sent her away soon after Vin told him they didn't have the atium.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "26" }]
+        },
+        {
+          "text": "After Vin and Elend left, Straff sent for her again to make himself feel in charge.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

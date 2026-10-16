@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A guard in Luthadel.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "52" }]
+    },
+    {
+      "text": "A guard in Luthadel and a believer in the Church of the Survivor.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The skaa rebellion",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Joined Kelsier's rebel army and was in the Arguois caverns on the day Demoux fought Bilg.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Guarding Luthadel",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "52" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "21" },
+                { "book": "hero-of-ages", "chapter": "80" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While on guard with Wellen one night, he was confronted by TenSoon wearing Kelsier's form. Frightened, he asked why the mists had been sent to kill them, told him nobody knew where Vin was, and was told to lead people out of the city before a coming disaster.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "52" }]
+        },
+        {
+          "text": "With Wellen and a few others who had seen \"Kelsier\", he started an evacuation that sent hundreds of thousands toward the Pits of Hathsin. Questioned by Elend, he insisted he knew Kelsier by sight, having seen him in the caverns. Elend doubted him but still counted the two guards as heroes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "21" },
+                { "book": "hero-of-ages", "chapter": "80" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Not one for small talk. He wears a silver spear pendant, marking him as a member of the Church of the Survivor, which he joined on the day Kelsier died.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "80" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A philosopher of the Final Empire.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Cited by Elend",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talking with Aradan Yomen, Elend Venture said that Hardren's philosophy had a better foundation than Urdree's.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,115 @@
+{
+  "intro": [
+    {
+      "text": "A mysterious visitor to the Alethi warcamps who sketches Bridge Four's tattoos, insignia and slave brands.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+    },
+    {
+      "text": "Nazh, a mapmaker and Khriss's fiercely loyal agent and friend, who travels widely to gather maps and information for her.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    },
+    {
+      "text": "A shade who serves as security officer aboard the Dynamic.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+    },
+    {
+      "text": "Nazh, once a mapmaker and agent for Khriss; after his death, a shade serving as security officer aboard the Dynamic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "3-2" },
+            { "book": "isles-of-the-emberdark", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Collecting maps",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "3-2" },
+            { "book": "secret-history", "chapter": "6-8" },
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Came to Scadrial with Khriss to witness Preservation's death. Dressed as a skaa, he visited the Physical Realm around the time of the siege of Luthadel and collected and annotated a map of the city, getting back to the Cognitive Realm before Kelsier destroyed the Pits of Hathsin.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        },
+        {
+          "text": "When Kelsier surprised their camp, Nazh stayed fidgety and brash, resenting him for the surprise and for briefly taking his knife, and mocked his wish to learn about the cosmere. After Khriss refused to help and they left, Nazh came back alone, gave Kelsier his knife and pointed him toward the Ire's base.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+        },
+        {
+          "text": "In the Alethi warcamps in 1173, he observed the newly freed Bridge Four to sketch their forehead glyphs, insignia and Kaladin's slave brands, and was escorted out when he tried to join their meeting dressed as an ardent. He also marked where Shallan made landfall on a map of the Frostlands.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "31" }]
+        },
+        {
+          "text": "In New Seran he took a map that Nicelle Sauvage had inherited, oddly wearing a mistcloak for the job. When she chased him onto a gondola above the city, he fired a gun that shoots shades to make her think he meant to kill her, so she would leave him alone.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Dynamic",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "26" },
+            { "book": "isles-of-the-emberdark", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having died and become a shade, he joined Starling and the crew of the Dynamic as security officer. He backed her mutiny against Captain Crow, and distracted the captain while the others saved an Iriali family from a Threnodite entity.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+        },
+        {
+          "text": "On an island in the emberdark, Malwish Scadrians threatened Leonore to lure him out and shut him in a shade prison. Freed by Ed and Aditil, he wrecked the controls of the Malwish ships so the Dynamic could escape, and helped Starling save Chrysalis.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lanky man with a narrow, pinched face, blond hair and blue eyes. He dresses to blend in with the locals, as a skaa on Scadrial or an ardent on Roshar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "secret-history", "chapter": "3-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Skittish, quick to anger and prone to swearing. He hates being surprised or one-upped, distrusts strangers, and prefers fighting for his life to quiet study, though he can be patient. He dislikes riddles and flowery talk.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "secret-history", "chapter": "3-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Complains about his tasks but always does his best at them, and is saddened at the thought of the worlds he visits being destroyed. He can be condescending and sardonic, but he has empathy and helps where he can.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    },
+    {
+      "text": "Fiercely loyal to Khriss and fond of her, calling her his friend, but not blindly obedient: they argue often, he demands she pay her debts and bets, and when he disagrees he acts on his own.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    }
+  ]
+}

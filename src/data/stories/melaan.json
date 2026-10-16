@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A young kandra raised by TenSoon, who looks up to him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "20" },
+            { "book": "hero-of-ages", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A kandra sent by Harmony to help Waxillium Ladrian.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the kandra Homeland",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "62" },
+            { "book": "hero-of-ages", "chapter": "78" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Existed as a mistwraith until, in the seventh century of the Lord Ruler's reign, she was given form and awareness by Hemalurgic spikes, becoming a kandra of the Seventh Generation. TenSoon was appointed to raise her.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        },
+        {
+          "text": "After KanPaar rose against the First Generation and imprisoned Sazed, MeLaan fetched the keys, freed the First Generation and found bones for them to wear.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Serving Harmony",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "11" },
+            { "book": "shadows-of-self", "chapter": "26" },
+            { "book": "bands-of-mourning", "chapter": "31" },
+            { "book": "lost-metal", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a party, she saved Wax from Set agents who had ambushed him, and told him she was a kandra sent by Harmony to help.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "11" }]
+        },
+        {
+          "text": "Joined Wax, Wayne and Marasi against Bleeder and saved Wax while disguised as one of Governor Innate's guards. Once Bleeder was unmasked, MeLaan posed as the governor to calm an angry crowd, but drifted from Marasi's speech and stirred them up instead, until Aradel stepped in and arrested her.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+        },
+        {
+          "text": "Went with Wax's party to New Seran to find ReLuur's spike, which she and Marasi recovered. Her near-indestructible body got her through the traps guarding the Bands of Mourning, but Telsin took her spikes and she reverted to a mistwraith until Wayne gave them back. The Bands were then left in her keeping.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        },
+        {
+          "text": "Began a relationship with Wayne, though Harmony often sent her away for months. Six years on, Harmony gave her a mission to other worlds to help against the growing threat of Trell, and she broke up with Wayne before leaving.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a willowy, exaggerated True Body made of wood, like many of her generation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "20" },
+            { "book": "hero-of-ages", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Has other True Bodies of materials such as emerald and aluminum, some with hidden weapons like swords in the arms, and can carry guns inside her body.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    },
+    {
+      "text": "In time she comes to prefer a tall, androgynous form with short blonde hair, often in stylish blue trousers and a buttoned shirt. She likes to wash her hair after taking a new body.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "10" },
+            { "book": "lost-metal", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Hero-worships TenSoon for his gruffness and adventurousness, a crush that makes him uncomfortable.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "20" },
+            { "book": "hero-of-ages", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Trades witty remarks with VenDell, who thinks of her as a sister and wishes she had more tact.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+    },
+    {
+      "text": "Doesn't hold strictly to the First Contract and has few qualms about killing.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+    }
+  ]
+}

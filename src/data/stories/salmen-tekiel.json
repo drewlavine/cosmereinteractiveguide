@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A nobleman named in one of Kelsier's rumours, a name Kelsier may simply have made up.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A rumour",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "To stir up controversy, Kelsier passed an informant the rumour that Salmen Tekiel was secretly involved with Shan Elariel.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

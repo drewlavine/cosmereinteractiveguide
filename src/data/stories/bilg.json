@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A big, bearded skaa soldier and known troublemaker in Yeden's rebel army.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "text": "A skaa soldier and troublemaker in Elend Venture's army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "47" },
+            { "book": "secret-history", "chapter": "6-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yeden's army",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kelsier visited Yeden's army in the Arguois caverns, he picked Bilg, a known dissenter, as an example, Rioting his emotions during a speech until Bilg spoke out. Kelsier challenged him to duel the young, undersized Captain Demoux, promising he could leave if he won. Kelsier secretly aided Demoux with Allomancy until Demoux broke Bilg's arm, but Demoux refused to strike the killing blow, and servants helped Bilg away.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elend's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "47" },
+                { "book": "secret-history", "chapter": "6-3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Survived the Collapse and joined Elend Venture's army. During the siege of Fadrex City he again made trouble, believing the mistfallen were cursed. When a brawl broke out between them and the other soldiers, Bilg, holding a grudge, punched General Demoux in the face just as Elend arrived. The law required Elend to sentence him to death, though Demoux asked for a lighter punishment.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "47" },
+                { "book": "secret-history", "chapter": "6-3" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Big and brawny, with a full beard and a vest.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Short-tempered and ready to fight. He questions his leaders, cleverly and fairly quietly, and other soldiers follow when he stirs up trouble. He doubts the rebellion's aims but would never sell out fellow skaa to the Final Empire; he mainly wants to stay alive.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ]
+}

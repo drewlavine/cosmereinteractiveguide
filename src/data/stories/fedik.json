@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "Known only from a logbook: one of the party that traveled with its author to the Well of Ascension.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The journey to the Well",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "29" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "well-of-ascension", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fedik distrusted the party's Terris guides, fearing they would abandon the group in the mountains.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "On the journey Fedik found some strange waters and wanted a sample, but the logbook's author refused. A mist spirit that had been following the group then stabbed him in the chest as if with an invisible knife. He survived and went on, but was so shaken that the author feared he would wander off a cliff. Only the author had seen the attack, and rumors spread that he had stabbed Fedik himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "well-of-ascension", "chapter": "16" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

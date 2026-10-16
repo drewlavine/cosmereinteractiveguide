@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "One of Straff Venture's mistresses and the most skilled of his herbalists, known for a brew that cures or identifies common poisons.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Straff's mistress",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "49" },
+            { "book": "well-of-ascension", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Became Straff's mistress around 1013 FE, in her late teens. After she had children and reached her mid-twenties he lost interest, no longer inviting her to his bed from around 1019 FE, but kept her for her skill: Straff feared poison, and her specialty was a brew that could cure or identify many common toxins.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "Feeling spurned, she began an affair with Zane, and the two played on Straff's fear of poison: each time he thought himself poisoned, her \"antidote\" dosed him with the addictive drug Black Frayn, easing what were really withdrawal symptoms. After Zane left the camp, Straff noticed her using different ingredients and found knife cuts Zane had left on her. When she claimed she could still control him, he strangled her.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In her late twenties and attractive, with the first wrinkles beginning to show on her face.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Highly skilled with herbs. Having spent nearly all her adult life as a concubine, she knows how to seem docile and submissive.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+    },
+    {
+      "text": "Spurned, she turns devious and vengeful.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    }
+  ]
+}

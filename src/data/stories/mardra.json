@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Ham's wife, a seamstress raising their two children outside Luthadel, away from his underground life.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "24" },
+            { "book": "well-of-ascension", "chapter": "42" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ham's family",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "24" },
+                { "book": "well-of-ascension", "chapter": "42" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Married Ham and had two children. She kept clear of his shadier dealings by living in a satellite city of Luthadel and never got to know his crew. She worked as a seamstress to keep up appearances and told people Ham served in the Luthadel Garrison, while he worked towards moving the family out of the Central Dominance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "24" },
+                { "book": "well-of-ascension", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She and the children survived the final catastrophe and were reunited with Ham before the survivors climbed out of the caves where they had sheltered.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

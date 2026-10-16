@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "The man left in charge of Luthadel's Steel Gate during the battle for the city.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the Steel Gate",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "51" },
+            { "book": "well-of-ascension", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Lord Penrod called away the Steel Gate's commander, Lord Culee, Bedes was left in charge. Sazed, also posted there, urged him to give orders and lead the soldiers, but Bedes didn't believe he could and asked Sazed for help.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        },
+        {
+          "text": "During the koloss attack, one of the koloss threw him.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

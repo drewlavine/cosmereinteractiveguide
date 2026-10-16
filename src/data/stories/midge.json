@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in Elend's army and one of the mistfallen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "47" },
+            { "book": "secret-history", "chapter": "6-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Elend's army",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "6-3" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "47" },
+                { "book": "secret-history", "chapter": "6-3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "From the Cognitive Realm, Kelsier tried to use Midge to reach Vin, since his touch of madness let him hear Kelsier in his sleep. Kelsier wanted him to warn her that Ruin could corrupt anything not made of metal, judging him just sane enough to be listened to.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-3" }]
+        },
+        {
+          "text": "Instead of passing on the message, Midge told other soldiers that the Survivor had called him holy and that they shouldn't be trusted. They took offence and a brawl broke out, led by Bilg, and Kelsier gave up on that approach.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "47" },
+                { "book": "secret-history", "chapter": "6-3" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Scruffy.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Somewhat unhinged, and a poor soldier who falls asleep on guard duty.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-3" }]
+    }
+  ]
+}

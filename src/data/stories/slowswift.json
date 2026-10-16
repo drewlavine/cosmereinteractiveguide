@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "An elderly noble storyteller in Fadrex City and an old friend of Ashweather Cett, named by Cett as a possible informant.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+    },
+    {
+      "text": "An elderly noble storyteller in Fadrex City and an old friend of Ashweather Cett, who helps Vin more than once.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Storyteller of Fadrex City",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "27" },
+            { "book": "hero-of-ages", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For a decade he and Ashweather Cett shared their writing, until Cett turned to politics. Slowswift preferred longtales of magical creatures to Cett's gritty poetry. He stayed in touch, though he thought power had made Cett brutal.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        },
+        {
+          "text": "Vin visited his Fadrex mansion as one of Cett's suggested informants. To her surprise he called Aradan Yomen a good man doing what was needed to keep order. Moved by her plea for change, he admitted Yomen was a mediocre leader limited by his faith in the Lord Ruler, and hinted his wealth came from an atium cache, though he still wanted paying.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        },
+        {
+          "text": "At a ball at the Canton of Resource, Vin, watched by Yomen's spies, asked for his help. He lent her his cousins Aledin and Troalin, whose mother the Steel Ministry had executed for a dalliance with a skaa, and who still held a grudge against Yomen for it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An old man with white hair and bushy eyebrows, dressed in a nobleman's suit, with a scarf and overcoat outdoors. He always has a pipe.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm, measured and observant; Vin finds him impossible to read.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+    }
+  ]
+}

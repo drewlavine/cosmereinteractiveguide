@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "A merchant who holds one of the merchant seats on the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "10" }]
+    },
+    {
+      "text": "A wealthy skaa merchant, born Lin, who holds one of the eight merchant seats on the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Merchant and broker",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Collapse, Lin worked as a go-between brokering deals for the nobility. As a skaa he could often avoid the Steel Ministry's notice and help nobles get illegal goods. Once he could trade openly, he became very rich and influential among the merchant skaa.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Luthadel Assembly",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "10" },
+            { "book": "well-of-ascension", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Collapse, held one of the merchant seats on the Assembly. He argued against Elend's proposal to give up the Assembly's power to surrender the city, but lost; his own plan to give the merchants control of the food supply was talked out by Elend and some skaa members until the lunch break.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "10" }]
+        },
+        {
+          "text": "Scornful of Elend's leadership, he engineered his removal as king while Elend was away parleying with Straff. Not wanting the throne himself, he nominated Ashweather Cett, whom he had smuggled into the city, in return for titles for the Assembly. Then, after a better offer from Straff, he voted for Penrod instead, who won and planned to hand the city to Straff.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Well dressed, usually in a fine suit, and carries a dueling cane.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Doesn't think of himself as skaa, a word he keeps for workers who make or grow things, and doesn't want them on the Assembly. He values money and power above all, flaunts his wealth, and longs for a title; he hates being called by his old name.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    },
+    {
+      "text": "A schemer who keeps up with the city's politics and bullies his fellow merchants on the Assembly. Penrod thinks him a hasty fool; Vin considers him a weasel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "48" }]
+    }
+  ]
+}

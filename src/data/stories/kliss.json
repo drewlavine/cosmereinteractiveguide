@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman of the Luthadel court whom Vin, posing as Valette Renoux, meets at the balls.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+    },
+    {
+      "text": "Lady Kliss Gardre, a Luthadel noblewoman who plays a silly court gossip as cover for her work as an informant.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At the Luthadel balls",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "23" },
+            { "book": "final-empire", "chapter": "28" },
+            { "book": "final-empire", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Became a casual acquaintance of Valette Renoux. At a ball at Keep Hasting, where Rene was her escort, she told Valette's table that House Tekiel had probably had Ardous and Callins Geffenry killed over the death of Lord Charrs Entrone, and mentioned that the Inquisitors had been raiding twice as many skaa thieving crews as usual.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
+        },
+        {
+          "text": "At a ball held by House Lekal, she asked after Valette's absence and passed on that Tren-Pedri Delouse's father was considering an alliance with House Aime. Vin told her House Hasting was preparing to pull out of its contracts and flee the city; Kliss pretended to believe the lie.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "At the final ball at Keep Venture, Kliss dropped her act. She asked Vin to offer her services as an informant to Lord Renoux, said she had seen through the Hasting lie and suspected Renoux was behind the attacks on Hasting's barges, and asked to be paid for her silence. For Vin's necklace she revealed that Elend was to be assassinated; Vin used Allomancy to learn it would happen that night. The crew paid her for her silence.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short young woman with blonde hair, usually piled in a huge wobbling bun. She wears squat, gaudy gowns that show no fashion sense, and walks with something of a waddle.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and calculating behind an eager, empty-headed act: she uses the lies people bring her to read their motives. Out of character she is cold, controlled and dismissive. She sells information, or her silence, at a steep price, and helps no one unless it benefits her.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ]
+}

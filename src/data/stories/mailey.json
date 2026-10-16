@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A young girl in Urteau, Franson's sister, who was sold to the Citizen for her noble blood.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "text": "A seven-year-old girl from Urteau whom Spook saved from a burning mansion.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Urteau",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Citizen took over Urteau, her brother Franson left her with a woman so he could join the underground. The woman sold Mailey to the Citizen because her father was noble.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "At Franson's request, Spook saved her from one of the Citizen's executions, where ten people of noble descent were locked in a burning building. Spook beat the guards at a secret exit, and the last one let her go when the exit was locked behind him. Spook carried her out of the burning building in front of the crowd and got her to safety.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

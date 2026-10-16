@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A forge worker who sits on the Luthadel Assembly.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel Assembly",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A forge worker by trade, held a seat on the Luthadel Assembly.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

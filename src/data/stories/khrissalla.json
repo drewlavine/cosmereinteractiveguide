@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "A curious woman who dances with Waxillium Ladrian at a party in New Seran and questions him about his powers.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+    },
+    {
+      "text": "A scholar who, with her companion Nazh, visits the Cognitive Realm of Scadrial, curious to see what the death of a Shard looks like.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+    },
+    {
+      "text": "A noblewoman of Elis, on Darkside, who travels to Dayside to discover what her fiancé, Prince Gevalden, was searching for.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    },
+    {
+      "text": "A noblewoman of Elis on Taldain who learned to travel between worlds and became a well-known arcanist, often working with the mapmaker Nazh.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "3-2" },
+            { "book": "white-sand-omnibus", "chapter": "prologue" },
+            { "book": "isles-of-the-emberdark", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Taldain",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "8" },
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was engaged to Prince Gevalden of Elis, who went to Dayside in search of the legendary Sand Mages; his assistant Wilheln wrote to her that Dynasty assassins had shot him. Determined to learn what he had been seeking, she sailed to Dayside with Baon, Allstren Cynder, Jon Acron and some Elisian soldiers, landing at the Kerztian port of Dosha-Har'Ken.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "Kenton guided her to Lossand's capital, Kezare. Her search for what Gevin had been doing led her to discover that Kenton was the Lord Mastrell. Once her anger at his deception faded, she helped him fight to save the Diem, reasoning that its sand masters could only help Elis if they survived, and used her diplomatic skill in his talks with the Lord Artisan.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "8" }]
+        },
+        {
+          "text": "After the Diem was restored, she went home to Darkside with barrels of white sand and a few sand masters, hoping to make sand mastery work there.",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Among the worlds",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "30" },
+            { "book": "secret-history", "chapter": "3-2" },
+            { "book": "bands-of-mourning", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Found a way to leave Taldain and travel the cosmere. At Silverlight she helped found a university and became a well-known, respected arcanist, fascinated above all by perpendicularities without a Shard.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+        },
+        {
+          "text": "With Nazh, met Kelsier in the Cognitive Realm of Scadrial in 1023 FE and told him how events there were affecting the cosmere, while staying vague about why they had come beyond wanting to see a Shard die. She refused to help him, and they left abruptly when he told them about a stranger who had stolen a bead of lerasium, at which she swore.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        },
+        {
+          "text": "In 342 PC she turned up at a party in New Seran, stole a dance with Waxillium Ladrian and asked how his powers related to physics. A broadsheet advertisement also asked anyone hearing talking tools to contact her and Nazh.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brown-skinned and brown-eyed, with her hair in braids; she can pass for Makabaki on Roshar or Terris on Scadrial. Unused to Dayside's sun, she wears heavy dark sunglasses and a wide-brimmed hat there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "secret-history", "chapter": "3-2" },
+            { "book": "white-sand-omnibus", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Often sends the mapmaker Nazh to collect maps, documents and illustrations for her, even from dangerous places. They argue often but are good friends, and he is fiercely loyal to her.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "30" }]
+    }
+  ]
+}

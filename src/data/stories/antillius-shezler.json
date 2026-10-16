@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A Mistborn noble scholar in Mantiz, in the Western Dominance, who researches the possibility of an Eleventh Metal.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "history": [
+    {
+      "title": [{ "text": "Keep Shezler", "revealedIn": ["eleventh-metal"] }],
+      "items": [
+        {
+          "text": "Researched a possible Eleventh Metal in a hidden laboratory and prison beneath his keep, reached by stairs disguised as a groundskeeping shed. There he experimented with metals and tortured skaa, hoping to find any with noble blood who could Snap, and kept on torturing them in filthy conditions even when it was clear they couldn't. He recorded his findings in a notebook.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "Kelsier and Gemmel broke into the keep and found his captives. Thinking himself safe as a Mistborn, Shezler casually Pushed a coin at Kelsier, who Pushed back. Shezler was more practised in Allomancy but had never fought a strong Allomancer and worried about his costly equipment; Kelsier drove a glass shard into his neck, and pewter couldn't save him.",
+          "revealedIn": ["eleventh-metal"]
+        },
+        {
+          "text": "Kelsier realised Gemmel had brought him there to duel a Mistborn whom Gemmel considered weak for spending his time on scholarship. Kelsier took Shezler's notebook.",
+          "revealedIn": ["eleventh-metal"]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dresses in the latest Luthadel fashion: a fine suit, a white shirt buttoned to the neck, and short hair. He wears a belt holding his Allomantic metals.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Infatuated with Luthadel society and eager for connections near the capital. Wealthy, arrogant in voice and manner, and sure that being Mistborn makes him nearly invincible. One of his captives thinks he isn't entirely sane.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ]
+}

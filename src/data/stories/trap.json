@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A thief in Luthadel's underground, killed by an Inquisitor.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the underground",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "4" },
+                "eleventh-metal"
+              ]
+            },
+            { "book": "final-empire", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was a member of Kelsier's crew, known and liked by many of the others. Kelsier envied him for knowing his feelings were never the work of emotional Allomancy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "4" },
+                "eleventh-metal"
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Was caught and beheaded by an Inquisitor shortly before Kelsier came back to Luthadel from the Pits of Hathsin. With him gone, Clubs was brought in.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A soldier on mist duty at Keep Hasting.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+    },
+    {
+      "text": "A soldier, also called Wells, who served in Ashweather Cett's army and then as a guard in Luthadel.",
+      "revealedIn": ["hero-of-ages"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Soldier",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "43" },
+            { "book": "hero-of-ages", "chapter": "80" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was on mist duty with Jarloux when Vin and Zane Venture attacked Keep Hasting, and was the only one of his forty-man squad to survive.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+        },
+        {
+          "text": "After Cett swore allegiance to Elend, he became a guard in Luthadel. With Rittle he met TenSoon in Kelsier's form, told him of King Penrod's madness, and, asked about Elend and Vin, said Breeze was in Urteau. Told to seek shelter from the mists in the Arguois caverns, he was questioned by Elend in the refugee camp afterwards.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Superstitious about the mists, but keeps quiet about it on mist duty so the other guards won't mock him.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ]
+}

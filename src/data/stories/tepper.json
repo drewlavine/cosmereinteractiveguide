@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A stern skaa elder on Lord Tresting's plantation.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Tresting plantation",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Led about thirty skaa who worked Lord Themos Tresting's plantation and lived in hovels there. He was young for an elder; Kelsier guessed that Mennis, who had seniority, let him lead, and Mennis hinted he lacked the energy to rein in Tepper's urge to be in charge.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "Watched travelling skaa closely so they wouldn't upset the masters. He recognised Kelsier as the Survivor of Hathsin, called him a troublemaker, and was shocked by his words and manner.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "After Kelsier killed everyone in the manor and burned it down, Mennis saw that he had done it to push the skaa into acting, since the Lord Ruler would want vengeance. Stunned, Tepper still helped Mennis gather the plantation's skaa to set out for the rebels in the Arguois caverns.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Scrawny, and looks to be in his early forties.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stern and humourless. Like most skaa he lives in fear of the mists, the Lord Ruler, the koloss and his master, and mostly just wants to avoid beatings.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ]
+}

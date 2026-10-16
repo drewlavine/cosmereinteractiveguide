@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Vin's half brother, a skaa orphan who raised her on the streets of the underground.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life with Vin",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "hero-of-ages", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He and Vin lived with their mother until she killed Vin's sister. Reen then left with Vin, and they drifted between thieving crews in towns across the Central Dominance. They were working for Camon in Luthadel when Reen left Vin; Camon claimed Reen owed him a large sum.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "He raised Vin to trust no one, himself included, always saying he would betray her in the end. After he left her, the Steel Inquisitors captured him, but though they tortured him day and night, he never gave her away, insisting she had starved to death years before.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "text": "For years Vin heard his voice warning her not to trust anyone. During the siege of Fadrex City she learned from Ruin himself that he had been speaking to her in Reen's voice through her earring.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Brutal and distrustful, he often beat Vin for little reason, claiming it would toughen her. Yet he cared for her: he saved her from their mother and kept her hidden from the Obligators.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+    }
+  ]
+}

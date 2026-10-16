@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A member of Camon's thieving crew in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's crew",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Was with the crew when they told Vin the story of the Survivor of Hathsin, shortly before Kelsier and his crew reached their safe house. Distrustful of Kelsier, he spread rumours that the man had unnatural powers. He then left with Milev and the others, leaving Vin behind for the meeting.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A flat-faced man.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quiet.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ]
+}

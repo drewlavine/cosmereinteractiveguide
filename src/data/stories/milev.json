@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A dark-skinned skaa, Camon's second-in-command in a Luthadel thieving crew.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Served as Camon's second-in-command, and was given leadership of the crew by Kelsier.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Was slowly tortured to death by Steel Inquisitors seeking Vin's whereabouts; they tied him to a chair and gouged out his eyes as they questioned him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    }
+  ],
+  "personality": []
+}

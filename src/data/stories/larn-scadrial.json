@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A young skaa from a Survivorist congregation in Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A lifelong Luthadel resident, he was brought to Elend by Demoux to report an Inquisitor he had seen slinking around the city centre; King Penrod's guards had turned him away. Demoux had heard other rumours of Inquisitors near Kredik Shaw, and took Larn's claim seriously because he had sharp eyes and could be trusted.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "About eighteen, a skaa with a dirty face and clothes.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Visibly nervous on meeting Elend Venture.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ]
+}

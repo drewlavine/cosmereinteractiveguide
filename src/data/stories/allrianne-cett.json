@@ -1,0 +1,188 @@
+{
+  "intro": [
+    {
+      "text": "A young noblewoman from the Western Dominance who came with Cett's army and slipped into besieged Luthadel alone, seeking asylum and Breeze.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+    },
+    {
+      "text": "A noblewoman of the Western Dominance and Breeze's companion, who went with him to Urteau as an ambassador of Elend's empire.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A noblewoman from the Western Dominance and a skilled Rioter, daughter of Ashweather Cett and wife of Breeze.",
+      "revealedIn": [
+        {
+          "all": [
+            "hero-of-ages",
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allrianne grew up in Fadrex City, kept at a distance from court, though her mother taught her its customs. She was the first Allomancer born into the Cett family in centuries.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "36" },
+            { "book": "well-of-ascension", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "49" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Breeze worked in the Western Dominance, Allrianne set out to win him. After Breeze convinced her father that the atium cache lay in Luthadel, she travelled with Cett's army and, during the siege, entered the city alone to ask for asylum and to find Breeze.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+        },
+        {
+          "text": "Because she knew current fashions, Tindwyl chose Allrianne to go dress shopping with Vin. Allrianne tried to make friends on the carriage ride but Vin mostly ignored her. She caught Spook's eye, though his attention soon moved to the crowd that gathered to watch Vin.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+        },
+        {
+          "text": "Prompted by Breeze, who wanted her safe, Allrianne left Luthadel with Elend, Vin and Spook, supposedly to search for the Well of Ascension. Once they were past Straff Venture's army, she split off to try to persuade her father to help Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "On the road she met a band of bandits led by Hobart and promised them a reward to guide her to Cett's camp. There she talked her father into turning back toward Luthadel, both to gain something from the long march and to help Breeze.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "Allrianne could not at first get Cett to commit his troops, but when koloss and Elend's forces attacked Straff's army, she persuaded him to come to Elend's aid.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urteau",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Breeze at last admitted openly to their relationship, though he would not formally marry her. Allrianne went with Breeze, Captain Goradel and Sazed to Urteau, where they found Spook, serving as ambassadors while they recovered supplies from the cache and helped put down a rebellion.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Allrianne was in Urteau's storage cavern when the world was remade, and she was carried to the new land Sazed made, along with Ham and Demoux.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Founding of Elendel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Elendel's founding years, Allrianne gave speeches on equality in the workplace and on women's place in society, shaping a culture in which women could work while remaining feminine. She was counted among the Originators.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "19" },
+                { "book": "bands-of-mourning", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Allrianne looks youthful, pretty and slightly plump, with long, bouncy golden hair. She moves with a noblewoman's grace and favours fashionable gowns, first appearing in a red dress and seldom seen out of such clothes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Urteau she had to wear plain brown skaa dresses in public, which annoyed her, though she kept to the rule and still wore fine gowns inside the safety of the storage cavern.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Allrianne has no qualms about pursuing romance on her own terms. Cett was sure she had seduced Breeze rather than the reverse, and she regarded winning his love as a fun challenge rather than a moral question.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+    },
+    {
+      "text": "She rides with easy mastery, keeping her seat on a galloping horse even in a frilly dress.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "10" }]
+    },
+    {
+      "text": "Many people take Allrianne for a naive young girl, and she uses that impression to manipulate others as skilfully as Breeze does. She is confident and demanding, expecting to be cared for in the style she is used to, yet she repeatedly leaves her comfort for the sake of those she loves.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Unlike her father, Allrianne feels for the skaa. She treated Vin as a friend despite pitying her, and knew that Breeze is half-skaa. Witnessing Quellion's executions in Urteau, she wept and her grief nearly stirred the crowd into a riot.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "25" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "She is a highly skilled Rioter who can sway hundreds of people at once.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ]
+}

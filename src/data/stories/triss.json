@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman in Luthadel, Lady Triss Urbain.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The last Venture ball",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Attended the last ball at Keep Venture with Lord Yestal, and was among the nobles who pointedly avoided Valette Renoux to concentrate on firming up their existing alliances.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

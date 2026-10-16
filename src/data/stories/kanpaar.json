@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "A kandra of the Second Generation, an administrator who spends nearly all his time in the kandra Homeland.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "text": "A kandra, foremost of the Second Generation and an administrator in the kandra Homeland.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early history",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like the rest of the Second Generation, KanPaar was made by the First Generation using Hemalurgic spikes supplied by the Lord Ruler. He spent centuries trying to prove the Third Generation untrustworthy, and personally assigned TenSoon to Straff Venture.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "TenSoon's trial",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "KanPaar led the case against TenSoon at his trial, first accusing him of killing a fellow kandra, which TenSoon said he did on his master Zane's orders, then of breaking his Contract. TenSoon answered that he had kept the First Contract by obeying Vin, whom he called the Lord Ruler's heir, and that she deserved to learn the secret of controlling kandra.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Coup of the Second Generation",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sazed came to the Homeland to compare what he had learned of the Terris religion with kandra knowledge, KanPaar turned him away, but the First Generation dismissed the others to speak with Sazed. Soon afterwards KanPaar and the Second Generation overthrew the First Generation, imprisoned them and took control.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        },
+        {
+          "text": "KanPaar found the atium cache in the Trustwarren and planned to sell part of it, which exposed its location to Ruin. Refusing the Resolution, he left the Homeland to sell the atium, but Ruin seized control of him and Marsh took the atium.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "KanPaar uses a tall True Body of red crystal and keeps the rest of his body translucent. He speaks with a thick accent, said to resemble the Lord Ruler's.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "KanPaar considers every member of the Third Generation a miscreant and thinks the Seconds were wrong to give them so much freedom. He sees TenSoon, known as the most temperate of the Thirds, as a criminal whose case can prove them untrustworthy, and insists that killing another kandra breaks the First Contract.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
+    },
+    {
+      "text": "KanPaar refuses to accept that Sazed is the Announcer, calling the claim blasphemy, because he does not believe the world is ending. Sazed sees him and the other Seconds as typical aristocrats, the kind found in any society.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "68" }]
+    },
+    {
+      "text": "He is greedy, wanting to use the wealth of the atium cache to rule mankind, and refuses to believe that Ruin is truly free.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+    }
+  ]
+}
