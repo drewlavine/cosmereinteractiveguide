@@ -31,238 +31,359 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "way-of-kings",
-      "text": "During a celebration in Kholinar, Szeth attacked King Gavilar Kholin. He was briefly fooled into chasing a decoy, then realized his mistake and returned to fight the king himself. Gavilar, in Shardplate, nearly killed him with a single punch, but fell and was impaled on a piece of broken wood where his armor had cracked.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "As he died, Gavilar asked Szeth to tell his brother to find the most important words a man could say, and to protect a strange black sphere that glowed with dark light. Szeth wrote the message in Gavilar's own blood. The Parshendi discarded his Oathstone as they fled, and the Alethi, believing he had gone with them, began a war of vengeance on the Shattered Plains. A traveling merchant named Avado picked up the stone.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Avado took Szeth to Jah Keved, and over five years his Oathstone passed through many hands. After its owner Took was robbed and killed in the Bavland, a small-time criminal named Makkek claimed it and used Szeth to kill his fellow robbers and set up a gambling den in Bornwater.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Sent by Makkek to kill a rival named Gavashaw, Szeth slipped into a lord's mansion and met a stranger who knew who he was, what he could do and that he had killed Gavilar. The man told him Makkek and Gavashaw were both dead and that his Oathstone now belonged to a new master.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "The last name on the list was King Taravangian of Kharbranth, who turned out to be Szeth's secret master. Taravangian showed him his so-called hospitals, where people were slowly killed so their dying words could be recorded, and ordered him to kill Dalinar Kholin.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "During a highstorm, Szeth cut his way into King Elhokar's palace on the Shattered Plains, killing the bridgeman Beld and crippling Hobber. He fought Adolin, Kaladin and Dalinar, pinning Adolin to the ceiling and severing Kaladin's arm, until Kaladin shoved him out through the hole. Both survived the fall. Seeing Kaladin heal himself, Szeth panicked and fled.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "33" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "His new master sent him a list of powerful targets to be killed as openly and spectacularly as Gavilar had been. Szeth cut a bloody path across the continent, killing a Selay gerontarch and two Azish Primes among others, then King Hanavanar of Jah Keved along with his Shardbearer guards, plunging that kingdom into civil war.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "i-9" },
-            { "book": "words-of-radiance", "chapter": "i-14" }
+          "text": "Childhood",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "27" },
+            { "book": "wind-and-truth", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth grew up in a Shin shepherd family. At eleven, his sheep Molli led him to a new stone in the soil where he danced. Asked by his father Neturo to decide what to do, he chose to have it moved, though uneasily. Before his mother Zeenid could carry it away, raiders attacked, and she hid it among a tree's roots.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+        },
+        {
+          "text": "Szeth's family fled with other shepherds to a mountain ravine, where a farmer's talk about choices left him troubled. Learning Molli was missing, he went home alone and found three soldiers from the Stoneward monastery who had eaten her. He attacked one, was nearly strangled, and killed the man with the hidden stone. Afterward he heard the Voice for the first time.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Joining the soldiers",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "51" },
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because Szeth had killed, he was sent to train with the soldiers, and his whole family went with him. At his assessment, the Voice told him to strike a sheep carcass once, carefully, instead of hacking at it like the other boys. Impressed, the recruiter Betheth sent him toward officer training.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        },
+        {
+          "text": "Three years on, Szeth beat Sergeant Szrand in a sparring match and vowed never to lose control again. Neturo, now working in administration, introduced him to visiting Stone Shamans, including Pozen and Sivi, and Szeth saw an Honorblade for the first time. Pozen told him rightness lay in obeying the chain of command and ordered him to work regularly in a slaughterhouse.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "At nineteen, Szeth defended a fishing village from slaving raiders by hiding his soldiers among the villagers and letting himself be captured to protect a boy. His men burned and sank two raider ships, and the monastery's General accused him of going too far. The Honorbearers instead named him a hero and took him to train as a shaman acolyte; Neturo and his sister Elid went with him, but Zeenid stayed behind.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Among the Honorbearers",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After two years, Szeth won the rank of swordmaster. Sivi spoke with him about the Voice and the nuances he disliked, warned him Pozen was using him, and invited him on pilgrimage to challenge the Honorbearer Tuko for his Blade. Neturo insisted on going with him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        },
+        {
+          "text": "After seven years training with the Honorblades, Szeth fought Tuko to the death at twenty-seven and won Jezrien's Blade; dying, Tuko begged him to stop following the Voice. Szeth learned Tuko had spoken of rebellion, and the Voice summoned him to Ayabiza.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Meeting the Voice",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "96" },
+            { "book": "wind-and-truth", "chapter": "106" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "wind-and-truth", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Voice and civil war",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "102" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth flew to Ayabiza and entered the Bondsmith monastery to meet the Voice. In a cave he found spren pinned to the walls with crystal spikes. Horrified, and believing the Unmade Sja-anat lay behind it all, he refused the Voice's command to worship and fled. He warned Neturo to hide.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "96" }]
+        },
+        {
+          "text": "Szeth declared that the Desolation had come and that the Honorbearers served one of the Unmade, and began raising followers for war. He confronted Sivi and Pozen, then fled. As his rebellion struggled, the Voice urged him to draw out and kill the Honorbearers, and he marched his army toward his home village.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "106" }]
+        },
+        {
+          "text": "Neturo appeared before Szeth as the new Bondsmith Honorbearer, having accepted the role to save his son. Overwhelmed and doubting himself, Szeth begged his father to decide for him. He surrendered, was named Truthless and swore on an Oathstone to obey its holder; ordered to keep his Blade, he was banished as Szeth-son-son-Vallano and sold to the Thaylen trader Vstim.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "wind-and-truth", "chapter": "117" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Shaken, Szeth retreated to the top of Urithiru, then went to Taravangian in Vedenar and, barely in control, demanded to know whether the Knights Radiant were returning. Taravangian calmed him by claiming that an Honorblade granting Regrowth had been stolen. Szeth vowed to kill Kaladin, but Taravangian forbade it and told him to kill only Dalinar.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "At the climax of the battle at Narak, Szeth Lashed Dalinar into the sky to fall to his death, but Kaladin, newly sworn to the Third Ideal, caught him. Szeth and Kaladin fought above the colliding highstorm and Everstorm, and Szeth realized Kaladin truly was Radiant, meaning he himself had never been Truthless. Unable to bear what he had done, he released his Honorblade and fell to his death.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "Szeth was inducted into his new master's order and taken to Yeddaw to find a potential Radiant. He repeatedly warned his master that the True Desolation was coming, without success.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "9" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "In Yeddaw's Grand Indicium, Szeth confronted the girl Lift and drew his sword to test her, but left when it judged her innocent. When she then chased him and his companions, he told her about the voices of the dead he heard, named the person they were hunting, and warned her not to try a rescue alone.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "16" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Moments after his death, Nale had healed Szeth with a fabrial and brought him back. Szeth was furious, but Nale promised him a new purpose and gave him Nightblood. After the Everstorm passed Yeddaw, Nale left him stranded there for weeks, then brought him to the other Skybreakers, where master Ki told him he had been found worthy of the First Ideal.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
+          "text": "Truthless",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "way-of-kings", "chapter": "i-6" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
             { "book": "words-of-radiance", "chapter": "88" },
-            { "book": "oathbringer", "chapter": "90" }
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a celebration in Kholinar, Szeth attacked King Gavilar Kholin. He was briefly fooled into chasing a decoy, then realized his mistake and returned to fight the king himself. Gavilar, in Shardplate, nearly killed him with a single punch, but fell and was impaled on a piece of broken wood where his armor had cracked.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "As he died, Gavilar asked Szeth to tell his brother to find the most important words a man could say, and to protect a strange black sphere that glowed with dark light. Szeth wrote the message in Gavilar's own blood. The Parshendi discarded his Oathstone as they fled, and the Alethi, believing he had gone with them, began a war of vengeance on the Shattered Plains. A traveling merchant named Avado picked up the stone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        },
+        {
+          "text": "Avado took Szeth to Jah Keved, and over five years his Oathstone passed through many hands. After its owner Took was robbed and killed in the Bavland, a small-time criminal named Makkek claimed it and used Szeth to kill his fellow robbers and set up a gambling den in Bornwater.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "Sent by Makkek to kill a rival named Gavashaw, Szeth slipped into a lord's mansion and met a stranger who knew who he was, what he could do and that he had killed Gavilar. The man told him Makkek and Gavashaw were both dead and that his Oathstone now belonged to a new master.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "His new master sent him a list of powerful targets to be killed as openly and spectacularly as Gavilar had been. Szeth cut a bloody path across the continent, killing a Selay gerontarch and two Azish Primes among others, then King Hanavanar of Jah Keved along with his Shardbearer guards, plunging that kingdom into civil war.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The last name on the list was King Taravangian of Kharbranth, who turned out to be Szeth's secret master. Taravangian showed him his so-called hospitals, where people were slowly killed so their dying words could be recorded, and ordered him to kill Dalinar Kholin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        },
+        {
+          "text": "During a highstorm, Szeth cut his way into King Elhokar's palace on the Shattered Plains, killing the bridgeman Beld and crippling Hobber. He fought Adolin, Kaladin and Dalinar, pinning Adolin to the ceiling and severing Kaladin's arm, until Kaladin shoved him out through the hole. Both survived the fall. Seeing Kaladin heal himself, Szeth panicked and fled.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "33" }]
+        },
+        {
+          "text": "Shaken, Szeth retreated to the top of Urithiru, then went to Taravangian in Vedenar and, barely in control, demanded to know whether the Knights Radiant were returning. Taravangian calmed him by claiming that an Honorblade granting Regrowth had been stolen. Szeth vowed to kill Kaladin, but Taravangian forbade it and told him to kill only Dalinar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "At the climax of the battle at Narak, Szeth Lashed Dalinar into the sky to fall to his death, but Kaladin, newly sworn to the Third Ideal, caught him. Szeth and Kaladin fought above the colliding highstorm and Everstorm, and Szeth realized Kaladin truly was Radiant, meaning he himself had never been Truthless. Unable to bear what he had done, he released his Honorblade and fell to his death.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Moments after his death, Szeth was healed with a fabrial and brought back by Nale. Szeth was furious, but Nale promised him a new purpose and gave him Nightblood.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "At the Purelake, the Skybreaker hopefuls were told to find and execute escaped convicts. Szeth instead asked questions, learning that the starving convicts came from a badly run prison fort with a single guard. When Ki confirmed the prison's administrator was also on the list of the guilty, Szeth killed him with Nightblood. This earned him the Second Ideal and Stormlight, and Ki took him as her squire.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "In a Lashing contest where hopefuls pelted each other with pouches of colored powder, the others ganged up on Szeth once he took the lead. His Stormlight ran out and he fell into the Purelake, which washed the powder away and gave him the win.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Before Szeth could swear his next Ideal, Nale took the full Skybreakers to Marat, showed them a village destroyed by the Voidbringers, and told them the truth about the world. He then announced he would side with the singers, Roshar's original inhabitants, against humanity.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Szeth first thought he had to follow Nale, but talking it through with Nightblood convinced him there was always a choice. He resolved to serve Dalinar instead and flew to join the Battle of Thaylen Field.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Arriving at Thaylen Field, Szeth dropped from the sky to kill a thunderclast. Lift told him Dalinar wanted the King's Drop, a perfect gemstone, recovered, and Szeth joined her search. When one of the Fused tore away Nightblood's sheath, the sword began devouring him.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "When Dalinar flooded the city with Stormlight, Nightblood's hunger was sated and Szeth resheathed it. After convincing the Alethi of his loyalty, he and Lift tricked the Fused holding the King's Drop into swapping it for an illusion, and Lift carried the real gem to Dalinar.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "After the battle, Nale warned Szeth against following a man rather than the law, but accepted his choice and promised to return to teach him Division. Szeth swore his Third Ideal and declared that his Fourth would be to cleanse Shinovar of the false leaders who had named him Truthless. He then became Dalinar's bodyguard, despite Alethi unease.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Szeth's unstable behavior and the doubts of those close to Dalinar, especially Navani, ended his time as bodyguard. He was kept in a makeshift cell high in Urithiru with plenty of spheres for light, and asked Nightblood to stop speaking to others. Navani questioned him about Gavilar's death, learned of the black sphere, and had him briefly released to fetch it.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Disguised with Lightweaving, Szeth guarded Dalinar on the Emuli front. Nale attacked and disarmed him, though Dalinar escaped unharmed. Breaking his usual silence, Szeth warned Dalinar not to trust Taravangian, and his highspren told him he must soon complete his Fourth Ideal.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Taravangian saw through Szeth's disguise and lured him with a stone resembling his Oathstone. On the day they met, Taravangian was in a slow, compassionate state, and Szeth ignored his pleas to give Nightblood to Dalinar for use against Odium.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-9" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Szeth flew with Dalinar's strike team against the Herald Ishar. When Ishar summoned his Honorblade, Szeth was shaken and collapsed. As Ishar moved to sever Dalinar's bond with the Stormfather, Szeth cut the Connection with Nightblood, collapsed the perpendicularity, and in his rage chipped Ishar's Honorblade.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Szeth went to Taravangian's cell to kill him and stabbed him with an ordinary knife. In that moment Taravangian, pulled into a vision by Odium, used Nightblood to kill Rayse and Ascended. Mistaking Rayse's body for Taravangian's, Szeth resheathed the sword, left, and confessed to the murder.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth waited for Kaladin in Dalinar's office and overheard talk of mental healing for himself and Ishar. The two traveled by Oathgate to Azimir and then rode the highstorm west with their spren and Nightblood.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Approaching the Misted Mountains, Szeth was overwhelmed by his first sight of soil in years and landed. His spren rebuked his emotion, and he obeyed. He mocked Kaladin as a coward for refusing to crush a plant, explained that Shinovar's plants did not move, and the two crossed into Shinovar.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "19" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth grew up in a Shin shepherd family. At eleven, his sheep Molli led him to a new stone in the soil where he danced. Asked by his father Neturo to decide what to do, he chose to have it moved, though uneasily. Before his mother Zeenid could carry it away, raiders attacked, and she hid it among a tree's roots.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth's family fled with other shepherds to a mountain ravine, where a farmer's talk about choices left him troubled. Learning Molli was missing, he went home alone and found three soldiers from the Stoneward monastery who had eaten her. He attacked one, was nearly strangled, and killed the man with the hidden stone. Afterward he heard the Voice for the first time.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "38" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Because Szeth had killed, he was sent to train with the soldiers, and his whole family went with him. At his assessment, the Voice told him to strike a sheep carcass once, carefully, instead of hacking at it like the other boys. Impressed, the recruiter Betheth sent him toward officer training.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Three years on, Szeth beat Sergeant Szrand in a sparring match and vowed never to lose control again. Neturo, now working in administration, introduced him to visiting Stone Shamans, including Pozen and Sivi, and Szeth saw an Honorblade for the first time. Pozen told him rightness lay in obeying the chain of command and ordered him to work regularly in a slaughterhouse.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "At nineteen, Szeth defended a fishing village from slaving raiders by hiding his soldiers among the villagers and letting himself be captured to protect a boy. His men burned and sank two raider ships, and the monastery's General accused him of going too far. The Honorbearers instead named him a hero and took him to train as a shaman acolyte; Neturo and his sister Elid went with him, but Zeenid stayed behind.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "After two years, Szeth won the rank of swordmaster. Sivi spoke with him about the Voice and the nuances he disliked, warned him Pozen was using him, and invited him on pilgrimage to challenge the Honorbearer Tuko for his Blade. Neturo insisted on going with him.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "After seven years training with the Honorblades, Szeth fought Tuko to the death at twenty-seven and won Jezrien's Blade; dying, Tuko begged him to stop following the Voice. Szeth learned Tuko had spoken of rebellion, and the Voice summoned him to Ayabiza.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth flew to Ayabiza and entered the Bondsmith monastery to meet the Voice. In a cave he found spren pinned to the walls with crystal spikes. Horrified, and believing the Unmade Sja-anat lay behind it all, he refused the Voice's command to worship and fled. He warned Neturo to hide.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "96" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth declared that the Desolation had come and that the Honorbearers served one of the Unmade, and began raising followers for war. He confronted Sivi and Pozen, then fled. As his rebellion struggled, the Voice urged him to draw out and kill the Honorbearers, and he marched his army toward his home village.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "106" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "When Nale arrived in Shinovar, Szeth withdrew from Kaladin and went back to strictly obeying him. Elid and Nale told Szeth he was meant to become a new Herald, but he refused to swear to accept that role without question, and when Nale had a change of heart, Szeth assured him he could be helped.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Neturo appeared before Szeth as the new Bondsmith Honorbearer, having accepted the role to save his son. Overwhelmed and doubting himself, Szeth begged his father to decide for him. He surrendered, was named Truthless and swore on an Oathstone to obey its holder; ordered to keep his Blade, he was banished as Szeth-son-son-Vallano and sold to the Thaylen trader Vstim.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "i-4" },
-            { "book": "wind-and-truth", "chapter": "117" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth attained the Fifth Ideal of the Skybreakers, astonishing his highspren, then immediately broke their bond, objecting to the methods of Nale's Skybreakers and saying the two of them were poorly matched.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Ishar had chosen Szeth to replace the missing Herald, but Kaladin took the place instead, sparing Szeth the fighting that came with it, since Szeth had confessed he wanted to stop killing.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Szeth learned that Neturo had become a human Fused. Seeing his father suffer, he used Nightblood to free him from Ishar's control, losing his right arm to the sword. Nightblood admitted it no longer wanted to kill and stopped consuming Szeth and Kaladin. Szeth chose to keep living rather than follow his father into death.",
-      "revealedIn": [
-        {
-          "all": [
+          "text": "A new master",
+          "revealedIn": [
             { "book": "edgedancer", "chapter": "9" },
+            { "book": "edgedancer", "chapter": "16" },
             { "book": "oathbringer", "chapter": "90" },
-            { "book": "wind-and-truth", "chapter": "146" }
+            { "book": "oathbringer", "chapter": "92" },
+            { "book": "oathbringer", "chapter": "98" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        },
+        {
+          "text": "Skybreaker trainee",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth was inducted into his new master's order and taken to Yeddaw to find a potential Radiant. He repeatedly warned his master that the True Desolation was coming, without success.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "9" }]
+        },
+        {
+          "text": "In Yeddaw's Grand Indicium, Szeth confronted the girl Lift and drew his sword to test her, but left when it judged her innocent. When she then chased him and his companions, he told her about the voices of the dead he heard, named the person they were hunting, and warned her not to try a rescue alone.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "16" }]
+        },
+        {
+          "text": "After the Everstorm passed Yeddaw, Nale left Szeth stranded there for weeks, then brought him to the other Skybreakers, where master Ki told him his mission had been his first test and that he had been found worthy of the First Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "At the Purelake, the Skybreaker hopefuls were told to find and execute escaped convicts. Szeth instead asked questions, learning that the starving convicts came from a badly run prison fort with a single guard. When Ki confirmed the prison's administrator was also on the list of the guilty, Szeth killed him with Nightblood. This earned him the Second Ideal and Stormlight, and Ki took him as her squire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        },
+        {
+          "text": "In a Lashing contest where hopefuls pelted each other with pouches of colored powder, the others ganged up on Szeth once he took the lead. His Stormlight ran out and he fell into the Purelake, which washed the powder away and gave him the win.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "Before Szeth could swear his next Ideal, Nale took the full Skybreakers to Marat, showed them a village destroyed by the Voidbringers, and told them the truth about the world. He then announced he would side with the singers, Roshar's original inhabitants, against humanity.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        },
+        {
+          "text": "Szeth first thought he had to follow Nale, but talking it through with Nightblood convinced him there was always a choice. He resolved to serve Dalinar instead and flew to join the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Serving Dalinar Kholin",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "i-9" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arriving at Thaylen Field, Szeth dropped from the sky to kill a thunderclast. Lift told him Dalinar wanted the King's Drop, a perfect gemstone, recovered, and Szeth joined her search. When one of the Fused tore away Nightblood's sheath, the sword began devouring him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "When Dalinar flooded the city with Stormlight, Nightblood's hunger was sated and Szeth resheathed it. After convincing the Alethi of his loyalty, he and Lift tricked the Fused holding the King's Drop into swapping it for an illusion, and Lift carried the real gem to Dalinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "After the battle, Nale warned Szeth against following a man rather than the law, but accepted his choice and promised to return to teach him Division. Szeth swore his Third Ideal and declared that his Fourth would be to cleanse Shinovar of the false leaders who had named him Truthless. He then became Dalinar's bodyguard, despite Alethi unease.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Szeth's unstable behavior and the doubts of those close to Dalinar, especially Navani, ended his time as bodyguard. He was kept in a makeshift cell high in Urithiru with plenty of spheres for light, and asked Nightblood to stop speaking to others. Navani questioned him about Gavilar's death, learned of the black sphere, and had him briefly released to fetch it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        },
+        {
+          "text": "Disguised with Lightweaving, Szeth guarded Dalinar on the Emuli front. Nale attacked and disarmed him, though Dalinar escaped unharmed. Breaking his usual silence, Szeth warned Dalinar not to trust Taravangian, and his highspren told him he must soon complete his Fourth Ideal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+        },
+        {
+          "text": "Taravangian saw through Szeth's disguise and lured him with a stone resembling his Oathstone. On the day they met, Taravangian was in a slow, compassionate state, and Szeth ignored his pleas to give Nightblood to Dalinar for use against Odium.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-9" }]
+        },
+        {
+          "text": "Szeth flew with Dalinar's strike team against the Herald Ishar. When Ishar summoned his Honorblade, Szeth was shaken and collapsed. As Ishar moved to sever Dalinar's bond with the Stormfather, Szeth cut the Connection with Nightblood, collapsed the perpendicularity, and in his rage chipped Ishar's Honorblade.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Szeth went to Taravangian's cell to kill him and stabbed him with an ordinary knife. In that moment Taravangian, pulled into a vision by Odium, used Nightblood to kill Rayse and Ascended. Mistaking Rayse's body for Taravangian's, Szeth resheathed the sword, left, and confessed to the murder.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return to Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "13" },
+            { "book": "wind-and-truth", "chapter": "19" },
+            { "book": "wind-and-truth", "chapter": "110" },
+            { "book": "wind-and-truth", "chapter": "135" },
+            { "book": "wind-and-truth", "chapter": "144" },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "wind-and-truth", "chapter": "146" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth waited for Kaladin in Dalinar's office and overheard talk of mental healing for himself and Ishar. The two traveled by Oathgate to Azimir and then rode the highstorm west with their spren and Nightblood.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        },
+        {
+          "text": "Approaching the Misted Mountains, Szeth was overwhelmed by his first sight of soil in years and landed. His spren rebuked his emotion, and he obeyed. He mocked Kaladin as a coward for refusing to crush a plant, explained that Shinovar's plants did not move, and the two crossed into Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "19" }]
+        },
+        {
+          "text": "When Nale arrived in Shinovar, Szeth withdrew from Kaladin and went back to strictly obeying him. Elid and Nale told Szeth he was meant to become a new Herald, but he refused to swear to accept that role without question, and when Nale had a change of heart, Szeth assured him he could be helped.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "Szeth attained the Fifth Ideal of the Skybreakers, astonishing his highspren, then immediately broke their bond, objecting to the methods of Nale's Skybreakers and saying the two of them were poorly matched.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "Ishar had chosen Szeth to replace the missing Herald, but Kaladin took the place instead, sparing Szeth the fighting that came with it, since Szeth had confessed he wanted to stop killing.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "Szeth learned that Neturo had become a human Fused. Seeing his father suffer, he used Nightblood to free him from Ishar's control, losing his right arm to the sword. Nightblood admitted it no longer wanted to kill and stopped consuming Szeth and Kaladin. Szeth chose to keep living rather than follow his father into death.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "wind-and-truth", "chapter": "146" }
+              ]
+            }
           ]
         }
       ]
     }
   ],
-  "personality": [
+  "appearance": [
     {
       "text": "Szeth is short and pale, with large round eyes that are normally dark green but turn pale sapphire when he summons his Honorblade, and glow light grey when he holds Stormlight. He keeps his head shaved.",
       "revealedIn": [
@@ -274,7 +395,9 @@
           ]
         }
       ]
-    },
+    }
+  ],
+  "personality": [
     {
       "text": "Szeth holds strictly to honor and to his role as Truthless, obeying his masters without question. Though a superb assassin, he never kills willingly and is tormented by each death; he hears the voices of those he has killed in darkness and shadow.",
       "revealedIn": [

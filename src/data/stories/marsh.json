@@ -17,90 +17,156 @@
       "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "final-empire",
-      "text": "When Kelsier escaped the Pits as a Mistborn with a new plan to overthrow the Lord Ruler, Marsh doubted his motives and suspected it was still a game to him. Still loving his brother, and wanting to finally make a difference, he agreed to infiltrate the Steel Ministry, hoping his Seeker abilities would help him get in.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Like Kelsier, Marsh hated injustice and led the skaa rebellion for years, while his brother ran a thieving crew. Marsh also loved Mare, who married Kelsier instead. After Kelsier and Mare were caught during a heist and sent to the Pits of Hathsin, where Mare died, Marsh gave up on the rebellion as dangerous and futile.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Marsh was the one who first noticed Vin's instinctive Allomancy and suggested, through Dockson, that she might be Mistborn, which led Kelsier to recruit her. He also taught her about bronze.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Slipping in among a group of new Ministry recruits arriving in Luthadel, Marsh was accepted and began passing secrets to the rebellion through hidden messages and drop sites, including the locations of soothing stations that kept the skaa docile and despairing.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Marsh arranged a meeting at a site he was meant to inspect, but the crew found only a headless corpse butchered by Inquisitors and believed him dead. A message hidden in a chair leg warned that his questions about the Inquisitors had drawn their attention.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "In truth, the Inquisitors had wanted him because he was a Seeker and had turned him into an Inquisitor himself, strengthening his bronze abilities. Even so, he kept helping the rebellion in secret.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "After the Lord Ruler's fall, Marsh, behaving strangely, led Sazed to the Conventical of Seran. There Sazed found Kwaan's metal inscription, but Marsh would not let him translate it on the spot, forcing him to take a rubbing instead, and then fled and vanished.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "After the siege of Luthadel, Marsh, increasingly aware his actions were not his own, appeared again to stop Sazed from warning Vin about giving up the power at the Well of Ascension.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Once Ruin was freed, it took almost complete control of Marsh's body. Trapped in his own mind, he hoped to pull out a key spike and end his life when Ruin was distracted, but never managed more than a twitch. Ruin gave him many more spikes to tighten its hold, making him the most powerful of the Inquisitors.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Under Ruin's control once more, Marsh was sent to the Battle of Hathsin, where he beheaded the exhausted Elend.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "A shadowy figure known as Ironeyes used emotional Allomancy to make Marasi curious enough to follow him, then gave her a book about Hemalurgy to deliver to Wax. He had been investigating the Southern Continent around this time.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "During Vin's battle with the Inquisitors at Kredik Shaw, Marsh's buried will resurfaced. Aided by Kelsier, he tore out Vin's earring, letting the mists and Preservation's power flow into her so she could destroy the other Inquisitors. He survived only because she Ascended just before removing his second head spike.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "hero-of-ages", "chapter": "73" },
-            { "book": "secret-history", "chapter": "6-7" }
-          ]
+          "text": "Early life",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like Kelsier, Marsh hated injustice and led the skaa rebellion for years, while his brother ran a thieving crew. Marsh also loved Mare, who married Kelsier instead. After Kelsier and Mare were caught during a heist and sent to the Pits of Hathsin, where Mare died, Marsh gave up on the rebellion as dangerous and futile.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
         }
       ]
     },
     {
-      "bookId": "lost-metal",
-      "text": "By 348 PC, Marsh's atium was running low and age was catching up with him. Desperate for more, he searched Bilming, where the Set was trying to recreate the metal, not because he wanted to live but to keep doing good as penance for his part in the world's destruction.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Two years after Autonomy's retreat, Marsh, his health improving thanks to new atium created when Harmonium was split, met Wax, Steris and Marasi in the Field of Rebirth to hand Wax a letter from Harmony, since Wax had forbidden mental contact.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "Marsh met with Khriss and explained Hemalurgy, Compounding and Inquisitors to her. Stories of him spread to other worlds; on Lumar, Death was imagined with nails in his eyes.",
-      "revealedIn": [
-        { "all": ["lost-metal", { "book": "tress", "chapter": "53" }] }
+      "title": [
+        {
+          "text": "Infiltrating the Steel Ministry",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "final-empire", "chapter": "20" },
+            { "book": "final-empire", "chapter": "27" },
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kelsier escaped the Pits as a Mistborn with a new plan to overthrow the Lord Ruler, Marsh doubted his motives and suspected it was still a game to him. Still loving his brother, and wanting to finally make a difference, he agreed to infiltrate the Steel Ministry, hoping his Seeker abilities would help him get in.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "Marsh was the one who first noticed Vin's instinctive Allomancy and suggested, through Dockson, that she might be Mistborn, which led Kelsier to recruit her. He also taught her about bronze.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        },
+        {
+          "text": "Slipping in among a group of new Ministry recruits arriving in Luthadel, Marsh was accepted and began passing secrets to the rebellion through hidden messages and drop sites, including the locations of soothing stations that kept the skaa docile and despairing.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+        },
+        {
+          "text": "Marsh arranged a meeting at a site he was meant to inspect, but the crew found only a headless corpse butchered by Inquisitors and believed him dead. A message hidden in a chair leg warned that his questions about the Inquisitors had drawn their attention.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
+        {
+          "text": "In truth, the Inquisitors had wanted him because he was a Seeker and had turned him into an Inquisitor himself, strengthening his bronze abilities. Even so, he kept helping the rebellion in secret.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's fall",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "15" },
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "72" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "73" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        },
+        {
+          "text": "Controlled by Ruin",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler's fall, Marsh, behaving strangely, led Sazed to the Conventical of Seran. There Sazed found Kwaan's metal inscription, but Marsh would not let him translate it on the spot, forcing him to take a rubbing instead, and then fled and vanished.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        },
+        {
+          "text": "After the siege of Luthadel, Marsh, increasingly aware his actions were not his own, appeared again to stop Sazed from warning Vin about giving up the power at the Well of Ascension.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+        },
+        {
+          "text": "Once Ruin was freed, it took almost complete control of Marsh's body. Trapped in his own mind, he hoped to pull out a key spike and end his life when Ruin was distracted, but never managed more than a twitch. Ruin gave him many more spikes to tighten its hold, making him the most powerful of the Inquisitors.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "During Vin's battle with the Inquisitors at Kredik Shaw, Marsh's buried will resurfaced. Aided by Kelsier, he tore out Vin's earring, letting the mists and Preservation's power flow into her so she could destroy the other Inquisitors. He survived only because she Ascended just before removing his second head spike.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "73" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Under Ruin's control once more, Marsh was sent to the Battle of Hathsin, where he beheaded the exhausted Elend.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ironeyes",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A shadowy figure known as Ironeyes used emotional Allomancy to make Marasi curious enough to follow him, then gave her a book about Hemalurgy to deliver to Wax.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "28" },
+            { "book": "lost-metal", "chapter": "epilogue-7" },
+            { "all": ["lost-metal", { "book": "tress", "chapter": "53" }] }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By 348 PC, Marsh's atium was running low and age was catching up with him. Desperate for more, he searched Bilming, where the Set was trying to recreate the metal, not because he wanted to live but to keep doing good as penance for his part in the world's destruction.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
+        },
+        {
+          "text": "Two years after Autonomy's retreat, Marsh, his health improving thanks to new atium created when Harmonium was split, met Wax, Steris and Marasi in the Field of Rebirth to hand Wax a letter from Harmony, since Wax had forbidden mental contact.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        },
+        {
+          "text": "Marsh met with Khriss and explained Hemalurgy, Compounding and Inquisitors to her. Stories of him spread to other worlds; on Lumar, Death was imagined with nails in his eyes.",
+          "revealedIn": [
+            { "all": ["lost-metal", { "book": "tress", "chapter": "53" }] }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In 348 PC he looked thin and skeletal, with ghostly skin, seeming to age and grow younger by decades with each breath. He wore black robes or a black trench coat and brimmed hat, and spoke with a very old accent.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
     }
   ],
   "personality": [
@@ -118,10 +184,6 @@
           ]
         }
       ]
-    },
-    {
-      "text": "In 348 PC he looked thin and skeletal, with ghostly skin, seeming to age and grow younger by decades with each breath. He wore black robes or a black trench coat and brimmed hat, and spoke with a very old accent.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
     },
     {
       "text": "Marsh has no wish to live for his own sake but keeps going as penance, wanting to do good to make up for deaths Ruin forced on him. He likes hearing his name, which reminds him of who he was, and sees the three surviving members of the original crew as a tripod that must stay balanced.",

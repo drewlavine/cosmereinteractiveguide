@@ -39,19 +39,19 @@ export function Layout() {
           </AnimatePresence>
 
           <footer className="app-footer">
-            Content adapted from{' '}
+            Content based on{' '}
             <a href="https://coppermind.net" target="_blank" rel="noreferrer">
               the Coppermind
-            </a>{' '}
-            under{' '}
+            </a>
+            , whose text is licensed{' '}
             <a
-              href="https://creativecommons.org/licenses/by-nc-sa/4.0/"
+              href="https://creativecommons.org/licenses/by-nc-nd/4.0/"
               target="_blank"
               rel="noreferrer"
             >
-              CC BY-NC-SA 4.0
+              CC BY-NC-ND 4.0
             </a>
-            . Unofficial fan project, not affiliated with Dragonsteel.
+            . Private, unofficial fan project, not affiliated with Dragonsteel.
           </footer>
         </div>
       </BooksReadProvider>

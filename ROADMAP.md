@@ -401,7 +401,7 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Story text lives in one small JSON file per character
         (`data/stories/`), loaded when the page opens, so it stays out of
         the main bundle as more characters are added
-  - [ ] **History** instead of Story, like the Coppermind's: their life in
+  - [x] **History** instead of Story, like the Coppermind's: their life in
         in-world order (flashbacks take their place), under era headings,
         each paragraph citing its book. Headings are written by hand, never
         the Coppermind's own (e.g. "Death", "Apparent Death" would spoil),
@@ -410,7 +410,14 @@ Category:Cosmere; check anything unclear by hand.
         make sure a heading always shows with its paragraphs
     - [x] Pilot: Kaladin and Vasher (persona headings: Zahel's readers see
           "Ardent and swordmaster", not "On Roshar")
-    - [ ] The other 32 pilot characters
+    - [x] The other 32 pilot characters (all 34 now use History)
+    - [ ] Remove the old Story format from the app and pipeline
+  - [x] Close family (parents, siblings, spouses, children) moved into the
+        Key facts infobox, linked once met; the Relationships tab is gone
+        (its old URL opens the first tab). Distant relatives and ancestors
+        are left to the Coppermind
+  - [x] Personality tab split under **Appearance** and **Personality**
+        headings (styled like History's); items that mixed both were split
   - [ ] Story/History and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)
@@ -425,24 +432,52 @@ Category:Cosmere; check anything unclear by hand.
         WoK bridgeman → WoR uniform → OB Windrunner → RoW Shardplate → WaT
         Shinovar; Vasher: Warbreaker → Zahel teaching Adolin (WoR) → Zahel
         with laundry (RoW), and the same Zahel art on his persona page)
-  - [ ] Art with permission from artists or Dragonsteel. Not from the
-        Coppermind: its images belong to their artists and are "only to be
-        used with their permission"
-- [ ] Check the footer license: the Coppermind's text is CC BY-NC-ND (no
-      derivatives), not BY-NC-SA; ask 17th Shard (contact on the Coppermind
-      Copyrights page) about our paraphrased summaries
+  - [x] Art for the other pilot characters (1–5 pieces each), and
+        persona-safe art for Wit, Azure and Ironeyes. Thaidakar has none:
+        every piece shows Kelsier's face
+  - [ ] Gaps: Hoid before Wit is named (Elantris, Warbreaker), Syl as a
+        Shardblade, Venli before stormform, Moash as a bridgeman
+  - [x] Private site for now: art is taken from the Coppermind galleries,
+        credited and linked
+  - [ ] **Before any public release:** get each artist's (or Dragonsteel's /
+        Brotherwise's) permission, or remove their art. The Coppermind's
+        images are "only to be used with their permission"
+- [x] Check the footer license: the Coppermind's text is CC BY-NC-ND (no
+      derivatives), not BY-NC-SA. The footer and README now say so, and that
+      the site is private
+  - [ ] **Before any public release:** ask 17th Shard (contact on the
+        Coppermind Copyrights page) about our paraphrased summaries
 - [ ] **Travels** tab for world hoppers (e.g. Hoid, Vasher, Vivenna, Khriss,
       Nazh, Tress, Felt): a visual timeline of the planets they've visited,
       in the Cosmere's in-world order (not publication order), each stop
       linked to its planet page
-  - [ ] Show each stop only once the reader reaches the chapter that
-        reveals it. Where a stop's in-world date is unknown, leave it out
-        rather than guess
-  - [ ] Decide what to do with stops known only from outside the books
-        (e.g. from Words of Brandon); epigraphs and Arcanum Unbounded essays
-        count as in the books
-  - [ ] Source the order from the Coppermind's Cosmere timeline and the
+  - [x] Pilot: Vasher (`data/travels.ts`, `revealTravels`,
+        `components/TravelMap.tsx`): an interactive star map of the worlds
+        visited, joined by glowing arrowed arcs in visit order, with
+        play/step controls and a slider that walk the journey one stop at a
+        time; a card under the map lists that stay's events, cited like
+        History, with a link to History. Unread stops and legs are hidden
+        entirely. Not on persona pages (it would give Zahel away)
+  - [ ] Iterate on the map after review (ideas: passport stamps per world,
+        a Shadesmar crossing for Cognitive-Realm trips, comparing two
+        travellers)
+  - [x] Show each stop only once the reader reaches the chapter that
+        reveals it (a stop shows once any of its events does)
+  - [x] A stay whose order among the stops is known but whose date isn't
+        (Vasher on Miral: before or after the Manywar?) is shown with a
+        "Timing uncertain" note. A stay whose order is unknown is left out
+  - [x] Stops known only from outside the books (e.g. Words of Brandon,
+        like Vasher's early visit to Roshar) are left out, as in History;
+        epigraphs and Arcanum Unbounded essays count as in the books
+  - [x] Source the order from the Coppermind's Cosmere timeline and the
         characters' History sections
+  - [x] Felt (added to the pilot as a showcase): Scadrial → Roshar. The
+        books never say the Roshar Felt is the Mistborn one (only Brandon
+        has), so, as with Vasher/Zahel, a stop's `needs` holds it back until
+        the reader has met him on both worlds, and the card notes it's Word
+        of Brandon
+  - [ ] Roll out to the other world hoppers in the pilot (Hoid, Vivenna,
+        Kelsier, Marsh, Tress, Nikaro, Yumi, Sazed?), then the rest
 
 ## Completed
 

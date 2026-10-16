@@ -680,12 +680,233 @@ dd {
   padding-top: 1.25rem;
 }
 
-.character-relations {
-  margin: 1.25rem 0;
+.travel-map {
+  max-width: 46rem;
+  padding-top: 1.25rem;
 }
 
-.character-relations > div + div {
-  margin-top: 0.75rem;
+.travel-map-chart {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+}
+
+.travel-leg,
+.travel-leg-ahead {
+  fill: none;
+  stroke-linecap: round;
+}
+
+.travel-leg {
+  stroke: #f2c14e;
+  stroke-width: 3;
+  filter: drop-shadow(0 0 4px rgba(242, 193, 78, 0.7));
+}
+
+.travel-leg-new {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: travel-draw 1.4s ease-in-out forwards;
+}
+
+.travel-leg-ahead {
+  stroke: rgba(241, 230, 200, 0.35);
+  stroke-width: 2;
+  stroke-dasharray: 0.012 0.018;
+}
+
+@keyframes travel-draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+.travel-world {
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.travel-world-ahead {
+  opacity: 0.55;
+}
+
+.travel-pulse {
+  fill: none;
+  stroke: #f2c14e;
+  stroke-width: 2;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: travel-pulse 1.8s ease-out infinite;
+}
+
+@keyframes travel-pulse {
+  from {
+    opacity: 0.9;
+    transform: scale(0.7);
+  }
+  to {
+    opacity: 0;
+    transform: scale(1.3);
+  }
+}
+
+.travel-badge-on {
+  fill: #f2c14e;
+}
+
+.travel-badge-off {
+  fill: #15232f;
+  stroke: rgba(242, 193, 78, 0.7);
+}
+
+.travel-world text[dy] {
+  fill: #f1e6c8;
+}
+
+.travel-badge-on + text {
+  fill: #15232f !important;
+  font-weight: bold;
+}
+
+.travel-controls {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0.75rem 0 0.25rem;
+}
+
+.travel-controls button {
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--gold);
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.travel-controls button:disabled {
+  opacity: 0.35;
+  cursor: default;
+}
+
+.travel-controls input[type='range'] {
+  flex: 1;
+  accent-color: #f2c14e;
+}
+
+.travel-steps {
+  position: relative;
+  height: 1.2rem;
+  margin: 0 3.55rem 1rem 6.65rem;
+  padding: 0;
+  list-style: none;
+  font-size: 0.75rem;
+}
+
+.travel-steps li {
+  position: absolute;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.travel-steps button {
+  border: 0;
+  background: none;
+  color: var(--text-muted, #9fb0bc);
+  cursor: pointer;
+  padding: 0;
+}
+
+.travel-steps button[aria-current] {
+  color: var(--gold);
+  font-weight: bold;
+}
+
+.travel-card {
+  padding: 1rem 1.25rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+  background: rgba(21, 35, 47, 0.6);
+  animation: travel-card-in 0.4s ease-out;
+}
+
+@keyframes travel-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+.travel-card-step {
+  margin: 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.travel-card h2 {
+  margin: 0.15rem 0 0.5rem;
+  color: var(--gold);
+  font-size: 1.4rem;
+}
+
+.travel-card h2 a {
+  text-decoration: none;
+}
+
+.travel-card ul {
+  margin: 0 0 0.75rem;
+  padding-left: 1.1rem;
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.travel-more {
+  font-size: 0.85rem;
+}
+
+.travel-place {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.95rem;
+  font-weight: normal;
+}
+
+.travel-uncertain {
+  margin: 0 0 0.4rem;
+  font-size: 0.85rem;
+  font-style: italic;
+}
+
+.travel-badge {
+  display: inline-block;
+  padding: 0 0.45rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  font-style: normal;
+  font-size: 0.72rem;
+  color: var(--gold);
+}
+
+@media (max-width: 760px) {
+  .travel-steps {
+    display: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .travel-leg-new,
+  .travel-pulse,
+  .travel-card {
+    animation: none;
+  }
+  .travel-leg-new {
+    stroke-dashoffset: 0;
+  }
 }
 
 .character-tabs {
@@ -713,23 +934,6 @@ dd {
 
 .character-tab-panel li {
   padding: 0.15rem 0;
-}
-
-.character-relatives {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0 0.4rem;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-.character-tab-panel .character-relatives li {
-  padding: 0;
-}
-
-.character-relatives li:not(:last-child)::after {
-  content: ',';
 }
 
 .character-first-chapter {

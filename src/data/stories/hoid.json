@@ -24,328 +24,613 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "elantris",
-      "text": "Disguised as a beggar wrapped in bandages, Hoid helped Sarene smuggle weapons into Elantris. After Raoden restored the city, he went to the Pool and removed his bandages, hoping to have become an Elantrian. He had not, and when a skaze mocked him he declared his joy that some secrets still eluded him, then left through the Pool.",
-      "revealedIn": ["elantris"]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Hoid appeared in Luthadel disguised as an informant who feigned poor eyesight. Kelsier, posing as a nobleman, met him on the street, and Hoid reported that House Renoux was buying weapons and armor, that Lord Renoux was considering marrying Valette to Elend Venture, and that Shan Elariel was a Soother.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "final-empire", "chapter": "19" },
-            { "book": "hero-of-ages", "chapter": "27" }
+          "text": "Ancient times",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "3-2" },
+                { "book": "rhythm-of-war", "chapter": "99" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "84" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid was only loosely involved in the plan to kill Adonalsium, but he was present at the Shattering. Offered one of the newly created Shards, he refused it, a choice he continued to consider wise because it left him freer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "3-2" },
+                { "book": "rhythm-of-war", "chapter": "99" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid was on Ashyn, then called Alaswha, during its scouring and went with its people to Roshar. Known there as Midius, he taught the beings who became the Heralds to use Investiture to enhance their memories. He was present at the founding of the Oathpact and declined to join it, so Talenel was chosen instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "84" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "way-of-kings",
-      "text": "Wit became King Elhokar Kholin's court jester, spending most of his time on the Shattered Plains. He kept an eye on Dalinar Kholin, even asking whether he had heard the word Adonalsium, suspecting him of ties to secret societies, though Wit's suspicions proved wrong.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Wit told Kaladin the story of Derethil and the Wandersail, playing a Trailman's flute as images seemed to form in the fire's smoke, to teach him to take responsibility. As he sent Kaladin off, he gave him the flute.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "In Kholinar, Wit was discussing creativity, invention and the value of novelty with some guards when a stranger arrived bearing news of a coming Desolation. Wit apologized to him as an old friend, remarking that he was already too late.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Hoid returned to Scadrial to congratulate his good friends Joshin Yomen and Lady Mi'chelle Ostlin on their wedding.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
-    },
-    {
-      "bookId": "emperors-soul",
-      "text": "Hoid betrayed the forger Wan ShaiLu without hesitation to get his hands on the Moon Scepter.",
-      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
-    },
-    {
-      "bookId": "shadows-for-silence",
-      "text": "Hoid stopped at Silence Montane's waystop on Threnody around the time she killed Chesterton Divide.",
-      "revealedIn": ["shadows-for-silence"]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Rock described an encounter with Hoid in the Horneater oceans.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Years before the war, disguised as a messenger at the Middlefest Fair in Jah Keved, Hoid comforted a distressed young Shallan and urged her to keep going. Afterward, driving Adolin's carriage to Sebarial's warcamp, he chatted with Kaladin about his flute, and Shallan, recognizing him, gratefully hugged him.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "As Wit, Hoid visited the imprisoned Kaladin and told him the story of Fleet, who raced a highstorm across Roshar, won, and died of exhaustion, his spirit racing the wind forever.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "As the Everstorm approached Shinovar, Hoid lectured a Sleepless hordling on the nature of art, then met Jasnah Kholin as she returned from the Cognitive Realm and offered to travel with her.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Hoid appeared disguised as a scruffy beggar in black at the Yomen–Ostlin wedding. Months afterward he was back, offering Nicelle Sauvage a story she declined, and became Wax's carriage driver, befriending Wayne, who knew nothing of who he was. On the drive to question Rian, he overheard Wax's conversation with Harmony.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "4" },
-            { "book": "shadows-of-self", "chapter": "7" }
+          "text": "On Taldain",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Taldain, Hoid was present while the Taishin debated disbanding the Diem, and he afterward boarded the boat Khriss took back to Darkside, singing the passengers a song about the meaning of art.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Sel",
+          "revealedIn": [
+            "elantris",
+            { "book": "emperors-soul", "chapter": "day-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Disguised as a beggar wrapped in bandages, Hoid helped Sarene smuggle weapons into Elantris. After Raoden restored the city, he went to the Pool and removed his bandages, hoping to have become an Elantrian. He had not, and when a skaze mocked him he declared his joy that some secrets still eluded him, then left through the Pool.",
+          "revealedIn": ["elantris"]
+        },
+        {
+          "text": "Hoid betrayed the forger Wan ShaiLu without hesitation to get his hands on the Moon Scepter.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "hero-of-ages", "chapter": "27" }
+              ]
+            },
+            { "book": "secret-history", "chapter": "3-2" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "56" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "27" },
+                { "book": "secret-history", "chapter": "6-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid appeared in Luthadel disguised as an informant who feigned poor eyesight. Kelsier, posing as a nobleman, met him on the street, and Hoid reported that House Renoux was buying weapons and armor, that Lord Renoux was considering marrying Valette to Elend Venture, and that Shan Elariel was a Soother.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "hero-of-ages", "chapter": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1023 FE Hoid reached the Well of Ascension through the Cognitive Realm, where Kelsier's shadow begged for help. Hoid offered an insult contest; Kelsier attacked and Hoid easily overpowered him, then passed through the Well, and stole a bead of lerasium. Khriss and Nazh were troubled by his theft.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        },
+        {
+          "text": "Hoid went to the Terris Dominance to study Feruchemy, became caught up in unexpected events, and in the guise of a Terris leader led Terris refugees to the Central Dominance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "56" },
+                { "book": "secret-history", "chapter": "2-2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Fadrex City, Hoid again worked as an informant, and Cett suggested Vin consult him. Kelsier, from the Cognitive Realm, tried to touch Hoid's soul and was rebuffed by a numbing shock, then tried to warn Vin away. Sensing something off, she chose not to speak to Hoid.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "27" },
+                { "book": "secret-history", "chapter": "6-1" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "bands-of-mourning",
-      "text": "Hoid appeared disguised as a blind beggar outside Kelesina Shores' mansion in New Seran, startling Wax, who did not recognize his coachman. Claiming the property and that he drank perfume, he begged for coins, insisted on giving Wax change by throwing a coin at his head, and fled laughing from a groundsman.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "11" }]
+      "title": [
+        {
+          "text": "On Nalthis",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Nalthis, Hoid took the role of a master storyteller. Lightsong summoned him to the Court of the Gods, where he told the story of Vo, explained the origin of the God Kings, and answered Lightsong's and Siri's questions. Vivenna also met him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid gambled heavily on Nalthis, rigging things so he could never lose and betting everything on himself, until someone else arranged that he could not win either, costing him his winnings. Vasher once met him there under the alias Dust.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+        }
+      ]
     },
     {
-      "bookId": "secret-history",
-      "text": "Hoid went to the Terris Dominance to study Feruchemy, became caught up in unexpected events, and in the guise of a Terris leader led Terris refugees to the Central Dominance.",
-      "revealedIn": [
+      "title": [
+        { "text": "On Threnody", "revealedIn": ["shadows-for-silence"] }
+      ],
+      "items": [
         {
-          "all": [
-            { "book": "well-of-ascension", "chapter": "56" },
-            { "book": "secret-history", "chapter": "2-2" }
+          "text": "Hoid stopped at Silence Montane's waystop on Threnody around the time she killed Chesterton Divide.",
+          "revealedIn": ["shadows-for-silence"]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Travels on Roshar",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cord recalled that, while her grandmother watched the Unkalaki pool, Hoid had warned them about the Gods Who Sleep Not.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "Rock described an encounter with Hoid in the Horneater oceans.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Years before the war, disguised as a messenger at the Middlefest Fair in Jah Keved, Hoid comforted a distressed young Shallan and urged her to keep going. Afterward, driving Adolin's carriage to Sebarial's warcamp, he chatted with Kaladin about his flute, and Shallan, recognizing him, gratefully hugged him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Lift was fond of Hoid when they met, and they parted when he jumped into the mouth of a greatshell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "12" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "secret-history",
-      "text": "In 1023 FE Hoid reached the Well of Ascension through the Cognitive Realm, where Kelsier's shadow begged for help. Hoid offered an insult contest; Kelsier attacked and Hoid easily overpowered him, then passed through the Well, and stole a bead of lerasium. Khriss and Nazh were troubled by his theft.",
-      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "In Fadrex City, Hoid again worked as an informant, and Cett suggested Vin consult him. Kelsier, from the Cognitive Realm, tried to touch Hoid's soul and was rebuffed by a numbing shock, then tried to warn Vin away. Sensing something off, she chose not to speak to Hoid.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "hero-of-ages", "chapter": "27" },
-            { "book": "secret-history", "chapter": "6-1" }
+          "text": "The king's Wit",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "59" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit became King Elhokar Kholin's court jester, spending most of his time on the Shattered Plains. He kept an eye on Dalinar Kholin, even asking whether he had heard the word Adonalsium, suspecting him of ties to secret societies, though Wit's suspicions proved wrong.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        },
+        {
+          "text": "Wit told Kaladin the story of Derethil and the Wandersail, playing a Trailman's flute as images seemed to form in the fire's smoke, to teach him to take responsibility. As he sent Kaladin off, he gave him the flute.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        },
+        {
+          "text": "In Kholinar, Wit was discussing creativity, invention and the value of novelty with some guards when a stranger arrived bearing news of a coming Desolation. Wit apologized to him as an old friend, remarking that he was already too late.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
+        },
+        {
+          "text": "As Wit, Hoid visited the imprisoned Kaladin and told him the story of Fleet, who raced a highstorm across Roshar, won, and died of exhaustion, his spirit racing the wind forever.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
         }
       ]
     },
     {
-      "bookId": "edgedancer",
-      "text": "Lift was fond of Hoid when they met, and they parted when he jumped into the mouth of a greatshell.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
+          "text": "The Everstorm arrives",
+          "revealedIn": [
             { "book": "words-of-radiance", "chapter": "epilogue" },
-            { "book": "edgedancer", "chapter": "12" }
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "oathbringer", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the Everstorm approached Shinovar, Hoid lectured a Sleepless hordling on the nature of art, then met Jasnah Kholin as she returned from the Cognitive Realm and offered to travel with her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
+        },
+        {
+          "text": "During the siege of Kholinar, Shalash saw sketches of Talenel and herself and wondered aloud why Midius, as she knew Hoid, was giving away drawings of them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "After the Battle of Thaylen Field, Hoid provoked a Thaylen man into knocking out his tooth and spotted an old singer acquaintance, Vatwha, among the Fused, who watched for him. He used Awakening to lead an orphaned girl to safety, then found a Cryptic in the palace and bonded her, becoming a Lightweaver.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war in Emul",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "99" },
+            { "book": "rhythm-of-war", "chapter": "80" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid and Jasnah began a romance. In Emul, Jasnah sent him to insult Highprince Ruthar, who challenged him to a duel; Jasnah fought as his champion, stabbed Ruthar through the throat, and had Renarin heal him. Hoid also noticed a Sleepless spying on them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+        },
+        {
+          "text": "When Kaladin was trapped in a vision by Odium, Hoid and Design appeared and told him the story of the Dog and the Dragon to lift his spirits and point him the right way.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The contract",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "another-epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid helped Jasnah draft the contract for the contest of champions with Odium. Afterward, Taravangian, newly Odium, confronted him; when Hoid tried to flee, Odium destroyed the Breaths holding his short-term memories and redid the meeting, convincing Hoid he was still Rayse. Losing those Breaths cost Hoid his perfect pitch.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "another-epilogue" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "During the siege of Kholinar, Shalash saw sketches of Talenel and herself and wondered aloud why Midius, as she knew Hoid, was giving away drawings of them.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "After the Battle of Thaylen Field, Hoid provoked a Thaylen man into knocking out his tooth and spotted an old singer acquaintance, Vatwha, among the Fused, who watched for him. He used Awakening to lead an orphaned girl to safety, then found a Cryptic in the palace and bonded her, becoming a Lightweaver.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "dawnshard",
-      "text": "Cord recalled that, while her grandmother watched the Unkalaki pool, Hoid had warned them about the Gods Who Sleep Not.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "When Kaladin was trapped in a vision by Odium, Hoid and Design appeared and told him the story of the Dog and the Dragon to lift his spirits and point him the right way.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "80" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Hoid gambled heavily on Nalthis, rigging things so he could never lose and betting everything on himself, until someone else arranged that he could not win either, costing him his winnings. Vasher once met him there under the alias Dust.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Hoid and Jasnah began a romance. In Emul, Jasnah sent him to insult Highprince Ruthar, who challenged him to a duel; Jasnah fought as his champion, stabbed Ruthar through the throat, and had Renarin heal him. Hoid also noticed a Sleepless spying on them.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "On Nalthis, Hoid took the role of a master storyteller. Lightsong summoned him to the Court of the Gods, where he told the story of Vo, explained the origin of the God Kings, and answered Lightsong's and Siri's questions. Vivenna also met him.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "warbreaker", "chapter": "52" },
-            { "book": "words-of-radiance", "chapter": "59" },
-            { "book": "rhythm-of-war", "chapter": "epilogue" }
+          "text": "Ten days",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "4" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "18" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "i-15" },
+            { "book": "wind-and-truth", "chapter": "146" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid encouraged Kaladin to follow the wind's guidance, but when Kaladin asked for a story, said he already had all he needed, with an ominous note in his voice before saying goodbye.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "4" }]
+        },
+        {
+          "text": "Sensing his Breaths had been tampered with, Hoid realized Odium had tricked him, something Rayse would never do. At Jasnah's urging he contacted Frost and his sister for help, then told the Coalition that a new Odium was using Alethi law to seize seats of power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Mraize's attack pulled the Bondsmiths and others into the Spiritual Realm, Hoid saved Lift but missed Gavinor. To avoid panic in Urithiru, he and Lift wore Lightweaving disguises of the absent king and queen.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "Disguised as Dalinar, Hoid met Rysn and revealed that he too held a Dawnshard; when their Dawnshards reacted violently, pulling them together, he stopped it and left, promising they would never meet again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        },
+        {
+          "text": "As Retribution was born, Hoid had his apprentice Sigzil take up his Dawnshard to keep it from her, sending him into the Cognitive Realm moments before Retribution destroyed Hoid's body on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
         }
       ]
     },
     {
-      "bookId": "lost-metal",
-      "text": "The coin Hoid threw Wax was an unsealed metalmind holding a memory of Kelsier helping the southern Scadrians survive. Hoid had also offered Nicki Savage a story in New Seran and regularly trespassed on the Shores mansion, which he somehow considered his own.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "bands-of-mourning", "chapter": "epilogue" },
+          "text": "Return to Scadrial",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "yumi", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "epilogue" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "4" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "7" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "11" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "72" }
+              ]
+            },
             { "book": "lost-metal", "chapter": "72" }
           ]
         }
+      ],
+      "items": [
+        {
+          "text": "Hoid regenerated on Scadrial from a cell culture of his flesh kept by Ulaam, a planned precaution. He could still Lightweave but not summon Design, who was left on Roshar. Ulaam persuaded him to stay given the time distortion around Roshar and Autonomy's threat, and he became the Ladrian estate's coachman.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "yumi", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid returned to Scadrial to congratulate his good friends Joshin Yomen and Lady Mi'chelle Ostlin on their wedding.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "4" }]
+        },
+        {
+          "text": "Hoid appeared disguised as a scruffy beggar in black at the Yomen–Ostlin wedding. Months afterward he was back, offering Nicelle Sauvage a story she declined, and became Wax's carriage driver, befriending Wayne, who knew nothing of who he was. On the drive to question Rian, he overheard Wax's conversation with Harmony.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid appeared disguised as a blind beggar outside Kelesina Shores' mansion in New Seran, startling Wax, who did not recognize his coachman. Claiming the property and that he drank perfume, he begged for coins, insisted on giving Wax change by throwing a coin at his head, and fled laughing from a groundsman.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "11" }]
+        },
+        {
+          "text": "The coin Hoid threw Wax was an unsealed metalmind holding a memory of Kelsier helping the southern Scadrians survive. Hoid had also offered Nicki Savage a story in New Seran and regularly trespassed on the Shores mansion, which he somehow considered his own.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "72" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid became involved in Marasi's sting in Bilming, silently watching Moonlight across trucks. He gave Wax a ride in a sleek black car, traded his harmonica to Wayne for a rat he named Sir Squeekins, and rescued Wax from the ocean in a small boat after the Pewternaut exploded.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
+        }
       ]
     },
     {
-      "bookId": "lost-metal",
-      "text": "Hoid became involved in Marasi's sting in Bilming, silently watching Moonlight across trucks. He gave Wax a ride in a sleek black car, traded his harmonica to Wayne for a rat he named Sir Squeekins, and rescued Wax from the ocean in a small boat after the Pewternaut exploded.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
-    },
-    {
-      "bookId": "white-sand-omnibus",
-      "text": "On Taldain, Hoid was present while the Taishin debated disbanding the Diem, and he afterward boarded the boat Khriss took back to Darkside, singing the passengers a song about the meaning of art.",
-      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "18" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "On Lumar, cursed and befuddled, Hoid wandered the seas for a long time with his friend Ulaam. As cabin boy of the Whistlebow he delivered a cup and Charlie's letter to Tress, then was bought for the Crow's Song by Captain Crow, where Fort kept him fed and he gave Weev midnight spores he thought were licorice.",
-      "revealedIn": [{ "book": "tress", "chapter": "42" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "Tress learned to read Hoid's silences, which let him indicate on a map where the Sorceress's island lay. Under Huck's urging, the addled Hoid dumped much of the ship's food and water overboard.",
-      "revealedIn": [{ "book": "tress", "chapter": "56" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "Under his curse, Hoid dressed absurdly, invented a losing card game called Kings, and was filled with bad jokes, only dimly aware of his plight and stuttering whenever he tried to explain it.",
-      "revealedIn": [{ "book": "tress", "chapter": "57" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "When Tress tried to learn about the Sorceress from him, Hoid managed only cryptic clues: bring him to her planet, look for six stars, and seek a person who was not a person, which led her to Weev's midnight aether and to Charlie in his rat form.",
-      "revealedIn": [{ "book": "tress", "chapter": "62" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "Hoid's curse came from a bet with Riina, the Sorceress: she could curse him, stripping his humor, style, purpose, intelligence and sense of self, and if he broke it by returning to her ship, he could become an Elantrian. She forbade him to speak of it and sent him far away.",
-      "revealedIn": [{ "book": "tress", "chapter": "64" }]
-    },
-    {
-      "bookId": "tress",
-      "text": "The crew carried Hoid into the Sorceress's ship, breaking the curse and making him an Elantrian. He shielded Tress with AonDor, and Riina fled the planet rather than fight him. Hoid adjusted Charlie's curse so Charlie could break it himself.",
-      "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "yumi",
-      "text": "Hoid helped Jasnah draft the contract for the contest of champions with Odium. Afterward, Taravangian, newly Odium, confronted him; when Hoid tried to flee, Odium destroyed the Breaths holding his short-term memories and redid the meeting, convincing Hoid he was still Rayse. Losing those Breaths cost Hoid his perfect pitch.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "rhythm-of-war", "chapter": "epilogue" },
+          "text": "Searching for Valor",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "wind-and-truth", "chapter": "epilogue" },
+                { "book": "fires-of-december", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Searching for Valor, Hoid visited Miral, accidentally giving December a vision of a possible life. Valor's temple trap in Kingseat burned him nearly to nothing, leaving him a living flame without recent memories, until he starved the flame and reformed. He helped December master Witchcraft, then learned from the temple murals that he must seek three worlds ruled by dragons.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "wind-and-truth", "chapter": "epilogue" },
+                { "book": "fires-of-december", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cursed on Lumar",
+          "revealedIn": [
+            { "book": "tress", "chapter": "64" },
+            { "book": "tress", "chapter": "57" },
+            { "book": "tress", "chapter": "42" },
+            { "book": "tress", "chapter": "62" },
+            { "book": "tress", "chapter": "56" },
+            { "book": "tress", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid's curse came from a bet with Riina, the Sorceress: she could curse him, stripping his humor, style, purpose, intelligence and sense of self, and if he broke it by returning to her ship, he could become an Elantrian. She forbade him to speak of it and sent him far away.",
+          "revealedIn": [{ "book": "tress", "chapter": "64" }]
+        },
+        {
+          "text": "Under his curse, Hoid dressed absurdly, invented a losing card game called Kings, and was filled with bad jokes, only dimly aware of his plight and stuttering whenever he tried to explain it.",
+          "revealedIn": [{ "book": "tress", "chapter": "57" }]
+        },
+        {
+          "text": "On Lumar, cursed and befuddled, Hoid wandered the seas for a long time with his friend Ulaam. As cabin boy of the Whistlebow he delivered a cup and Charlie's letter to Tress, then was bought for the Crow's Song by Captain Crow, where Fort kept him fed and he gave Weev midnight spores he thought were licorice.",
+          "revealedIn": [{ "book": "tress", "chapter": "42" }]
+        },
+        {
+          "text": "When Tress tried to learn about the Sorceress from him, Hoid managed only cryptic clues: bring him to her planet, look for six stars, and seek a person who was not a person, which led her to Weev's midnight aether and to Charlie in his rat form.",
+          "revealedIn": [{ "book": "tress", "chapter": "62" }]
+        },
+        {
+          "text": "Tress learned to read Hoid's silences, which let him indicate on a map where the Sorceress's island lay. Under Huck's urging, the addled Hoid dumped much of the ship's food and water overboard.",
+          "revealedIn": [{ "book": "tress", "chapter": "56" }]
+        },
+        {
+          "text": "The crew carried Hoid into the Sorceress's ship, breaking the curse and making him an Elantrian. He shielded Tress with AonDor, and Riina fled the planet rather than fight him. Hoid adjusted Charlie's curse so Charlie could break it himself.",
+          "revealedIn": [{ "book": "tress", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "An apology to Nomad",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Canticle, Wit appeared as an illusion before his former apprentice Nomad, who angrily confronted him for using him, knowing he was enslaved and ruining his life. Wit explained he had taken Nomad on for his hunger for answers, reminded him questions can matter more, and sincerely apologized as the connection faded.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Frozen on Komashi",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "another-epilogue" }
+              ]
+            },
             { "book": "yumi", "chapter": "another-epilogue" }
           ]
         }
-      ]
-    },
-    {
-      "bookId": "yumi",
-      "text": "On Komashi, the father machine tried to absorb Hoid's Investiture, triggering protections that froze him in place. Design robbed him, painted him copper and used him as a coatrack in her noodle shop. Connected to Painter and Yumi, he sensed their lives, and was freed when Yumi destroyed the machine, leaving with Design in a stolen ship.",
-      "revealedIn": [
+      ],
+      "items": [
         {
-          "all": [
-            { "book": "rhythm-of-war", "chapter": "epilogue" },
-            { "book": "yumi", "chapter": "another-epilogue" }
+          "text": "On Komashi, the father machine tried to absorb Hoid's Investiture, triggering protections that froze him in place. Design robbed him, painted him copper and used him as a coatrack in her noodle shop. Connected to Painter and Yumi, he sensed their lives, and was freed when Yumi destroyed the machine, leaving with Design in a stolen ship.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "another-epilogue" }
+              ]
+            }
           ]
+        },
+        {
+          "text": "Hoid kept in touch with Nikaro, Yumi and Masaka through letters, and with their permission told their story to an audience on Roshar.",
+          "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
         }
       ]
     },
     {
-      "bookId": "yumi",
-      "text": "Hoid kept in touch with Nikaro, Yumi and Masaka through letters, and with their permission told their story to an audience on Roshar.",
-      "revealedIn": [{ "book": "yumi", "chapter": "another-epilogue" }]
-    },
-    {
-      "bookId": "sunlit-man",
-      "text": "On Canticle, Wit appeared as an illusion before his former apprentice Nomad, who angrily confronted him for using him, knowing he was enslaved and ruining his life. Wit explained he had taken Nomad on for his hunger for answers, reminded him questions can matter more, and sincerely apologized as the connection faded.",
-      "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Hoid encouraged Kaladin to follow the wind's guidance, but when Kaladin asked for a story, said he already had all he needed, with an ominous note in his voice before saying goodbye.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "4" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Sensing his Breaths had been tampered with, Hoid realized Odium had tricked him, something Rayse would never do. At Jasnah's urging he contacted Frost and his sister for help, then told the Coalition that a new Odium was using Alethi law to seize seats of power.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "rhythm-of-war", "chapter": "epilogue" },
-            { "book": "wind-and-truth", "chapter": "18" }
-          ]
+          "text": "Navigator and mentor",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
         }
-      ]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "When Mraize's attack pulled the Bondsmiths and others into the Spiritual Realm, Hoid saved Lift but missed Gavinor. To avoid panic in Urithiru, he and Lift wore Lightweaving disguises of the absent king and queen.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Disguised as Dalinar, Hoid met Rysn and revealed that he too held a Dawnshard; when their Dawnshards reacted violently, pulling them together, he stopped it and left, promising they would never meet again.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "As Retribution was born, Hoid had his apprentice Sigzil take up his Dawnshard to keep it from her, sending him into the Cognitive Realm moments before Retribution destroyed Hoid's body on Roshar.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Hoid regenerated on Scadrial from a cell culture of his flesh kept by Ulaam, a planned precaution. He could still Lightweave but not summon Design, who was left on Roshar. Ulaam persuaded him to stay given the time distortion around Roshar and Autonomy's threat, and he became the Ladrian estate's coachman.",
-      "revealedIn": [
+      ],
+      "items": [
         {
-          "all": [
-            { "book": "yumi", "chapter": "21" },
-            { "book": "wind-and-truth", "chapter": "epilogue" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "isles-of-the-emberdark",
-      "text": "Hoid spent years as navigator of the small spaceship Dynamic Storyteller's Incredible Conveyance, crewed by misfits including his apprentice Starling, Frost's niece, before leaving her to captain it. Afterward, imprisoned in a vault, he met Starling on the Spirit Shores and comforted her with the story of Nohadon, saying his wife could not remember him but the twins could help.",
-      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
-    },
-    {
-      "bookId": "fires-of-december",
-      "text": "Searching for Valor, Hoid visited Miral, accidentally giving December a vision of a possible life. Valor's temple trap in Kingseat burned him nearly to nothing, leaving him a living flame without recent memories, until he starved the flame and reformed. He helped December master Witchcraft, then learned from the temple murals that he must seek three worlds ruled by dragons.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "wind-and-truth", "chapter": "epilogue" },
-            { "book": "fires-of-december", "chapter": "epilogue" }
-          ]
+          "text": "Hoid spent years as navigator of the small spaceship Dynamic Storyteller's Incredible Conveyance, crewed by misfits including his apprentice Starling, Frost's niece, before leaving her to captain it. Afterward, imprisoned in a vault, he met Starling on the Spirit Shores and comforted her with the story of Nohadon, saying his wife could not remember him but the twins could help.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
         }
       ]
     }
   ],
-  "personality": [
+  "appearance": [
     {
       "text": "As Wit, he appears as an Alethi man in his mid-thirties with deep black hair and a stiff black coat, carrying a long thin sword that marks his office, though he is no skilled swordsman.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
-    },
+    }
+  ],
+  "personality": [
     {
       "text": "Wit's sharp intelligence shows through constant jokes and mockery, but beneath the act he seems mysterious and grave, easily bored, and would not call himself a good man. He cynically argues that people value novelty and timeliness in creation, not creativity itself.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]

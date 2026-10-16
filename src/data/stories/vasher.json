@@ -274,22 +274,7 @@
       ]
     }
   ],
-  "personality": [
-    {
-      "text": "Vasher is a deep expert in Awakening who easily issues three Commands at once. With three centuries of practice and a Returned's speed and strength, he is a superb swordsman, though he admits his temper keeps him from being the best, and he readily uses cheap tricks such as transferring Breath to stun an opponent.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
-    },
-    {
-      "text": "Zahel considers Dalinar and his sons his friends. He speaks to Adolin fondly as a student despite their difference in rank, and Adolin often remembers his advice. He enjoys training Renarin for his enthusiasm and willingness to look foolish.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "44" },
-            { "book": "oathbringer", "chapter": "15" }
-          ]
-        }
-      ]
-    },
+  "appearance": [
     {
       "text": "As a Returned, Vasher can change his appearance at will. In T'Telir he usually appears as a tall man in ragged brown clothes with rope-tied trousers, shoulder-length unkempt hair and scruff. Revealing his Returned form, he becomes taller, muscular and clean-shaven, with golden hair and a color-enhancing aura.",
       "revealedIn": [
@@ -309,6 +294,23 @@
             { "book": "words-of-radiance", "chapter": "44" },
             { "book": "wind-and-truth", "chapter": "i-9" },
             { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Vasher is a deep expert in Awakening who easily issues three Commands at once. With three centuries of practice and a Returned's speed and strength, he is a superb swordsman, though he admits his temper keeps him from being the best, and he readily uses cheap tricks such as transferring Breath to stun an opponent.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    },
+    {
+      "text": "Zahel considers Dalinar and his sons his friends. He speaks to Adolin fondly as a student despite their difference in rank, and Adolin often remembers his advice. He enjoys training Renarin for his enthusiasm and willingness to look foolish.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "15" }
           ]
         }
       ]

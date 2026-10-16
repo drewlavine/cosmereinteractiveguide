@@ -17,196 +17,347 @@
       "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "way-of-kings",
-      "text": "Jasnah received a letter from Shallan Davar asking to become her ward and told her to meet in Dumadari, not expecting her to manage it. For six months she moved from town to town, leaving notes behind for Shallan to follow, until she reached Kharbranth.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "In Kharbranth, Jasnah Soulcast a fallen boulder into smoke to free King Taravangian's granddaughter, in exchange for access to the Palanaeum. She tested Shallan and turned her away, then snapped at her for intruding, before apologizing. Impressed that Shallan was self-taught, and unable to get rid of her, Jasnah accepted her as a ward.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "For two months Jasnah taught Shallan, setting her to study the events around King Gavilar's death. She corresponded with Dalinar by spanreed, asking about the expedition where the Parshendi were first found, and debated religion with Taravangian over lunch while refusing to discuss her Soulcaster.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Finding the ardent Kabsal showing Shallan cymatic patterns as proof of the Almighty, Jasnah asked him for Urithiru's pattern and insulted him and the ardentia. Afterward she warned Shallan that Kabsal was only courting her to turn her against Jasnah and steal the Soulcaster.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "To teach philosophy, Jasnah led Shallan at night down a street known for footpads, displaying her wealth. When four men attacked, she Soulcast them to death. She told the horrified Shallan to research the morality of the killing, and, though she disagreed with Shallan's conclusions, praised her reasoning.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "When Jasnah found Shallan on the floor bleeding from a cut wrist, she believed it was a suicide attempt and called for help, and Shallan was taken to one of Taravangian's hospitals.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Jasnah waited outside Shallan's room for two days, then clumsily apologized and gave her a blank book. When Kabsal brought bread and jam, Jasnah's Soulcasting failed to purify the jam; Kabsal and Shallan collapsed from poison. Shallan confessed to stealing Jasnah's Soulcaster, but Jasnah saved her anyway.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Furious and hurt, Jasnah learned that Shallan had become her ward only to steal the Soulcaster for her bankrupt family. Jasnah told her Kabsal was dead, that he had used Shallan to poison her, and that Shallan would be sent home the next day.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "The Soulcaster Jasnah wore was a fake, hiding her ability to Soulcast on her own. After a tentative reconciliation with Shallan, Jasnah began sharing her research, though she disagreed with Shallan's idea that Urithiru lay in the Shattered Plains.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "On the night of the Parshendi treaty feast, Jasnah's shadow moved strangely and became a figure of oily darkness with a sword. Panicking, she slipped into Shadesmar for the first time, nearly drowning in a sea of beads before forming a statue of the Herald Talenelat'Elin; the figure saluted her and left.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "That night Jasnah met the assassin Liss, having planned to have Elhokar's wife Aesudan killed, but instead ordered her watched. After Gavilar's murder, three Parshendi surrendered and were hanged while the rest escaped. Jasnah, who had felt connected to her father for the first time while transcribing his account of the Parshendi, turned to ancient books for answers.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah was born in 1139 to Gavilar and Navani Kholin, eight years before her brother Elhokar, and became a princess when Gavilar united the highprinces and became king. Before she was twelve she went through a period of madness, remembering a dark room and screaming her voice ragged, and learned that people she loved could still hurt her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jasnah transcribed Gavilar's account of his first meeting with the Parshendi in 1166 and felt connected to her father for the first time. She became keenly interested in the Parshendi and the Shattered Plains, suspecting that the ruins there were extremely important.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Before Jasnah became known as a heretic, Gavilar wanted her to marry Meridas Amaram and return to the church. She refused, though her father still pressed her on the night he died, and she continued to rebuff Amaram's advances for years.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The night Gavilar died",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the night of the Parshendi treaty feast, Jasnah's shadow moved strangely and became a figure of oily darkness with a sword. Panicking, she slipped into Shadesmar for the first time, nearly drowning in a sea of beads before forming a statue of the Herald Talenelat'Elin; the figure saluted her and left.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "That night Jasnah met the assassin Liss, having planned to have Elhokar's wife Aesudan killed, but instead ordered her watched. After Gavilar's murder, three Parshendi took responsibility, covering the escape of the rest, and were hanged when they refused to talk. Jasnah questioned Liss and the guards about the Assassin in White without success, and turned to ancient books for answers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Scholar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "way-of-kings", "chapter": "72" },
             { "book": "way-of-kings", "chapter": "45" },
-            { "book": "words-of-radiance", "chapter": "prologue" }
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "way-of-kings", "chapter": "50" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "74" },
+                { "book": "words-of-radiance", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A new ward in Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah received a letter from Shallan Davar asking to become her ward and told her to meet in Dumadari, not expecting her to manage it. For six months she moved from town to town, leaving notes behind for Shallan to follow, until she reached Kharbranth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        },
+        {
+          "text": "In Kharbranth, Jasnah Soulcast a fallen boulder into smoke to free King Taravangian's granddaughter, in exchange for access to the Palanaeum. She tested Shallan and turned her away, then snapped at her for intruding, before apologizing. Impressed that Shallan was self-taught, and unable to get rid of her, Jasnah accepted her as a ward.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "For two months Jasnah taught Shallan, setting her to study the events around King Gavilar's death. She corresponded with Dalinar by spanreed, asking about the expedition where the Parshendi were first found, and debated religion with Taravangian over lunch while refusing to discuss her Soulcaster.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Finding the ardent Kabsal showing Shallan cymatic patterns as proof of the Almighty, Jasnah asked him for Urithiru's pattern and insulted him and the ardentia. Afterward she warned Shallan that Kabsal was only courting her to turn her against Jasnah and steal the Soulcaster.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "To teach philosophy, Jasnah led Shallan at night down a street known for footpads, displaying her wealth. When four men attacked, she Soulcast them to death. She told the horrified Shallan to research the morality of the killing, and, though she disagreed with Shallan's conclusions, praised her reasoning.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "The Soulcaster Jasnah wore was a fake, hiding her ability to Soulcast on her own. After a tentative reconciliation with Shallan, Jasnah began sharing her research, though she disagreed with Shallan's idea that Urithiru lay in the Shattered Plains.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "When Jasnah found Shallan on the floor bleeding from a cut wrist, she believed it was a suicide attempt and called for help, and Shallan was taken to one of Taravangian's hospitals.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "Jasnah waited outside Shallan's room for two days, then clumsily apologized and gave her a blank book. When Kabsal brought bread and jam, Jasnah's Soulcasting failed to purify the jam; Kabsal and Shallan collapsed from poison. Shallan confessed to stealing Jasnah's Soulcaster, but Jasnah saved her anyway.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "Furious and hurt, Jasnah learned that Shallan had become her ward only to steal the Soulcaster for her bankrupt family. Jasnah told her Kabsal was dead, that he had used Shallan to poison her, and that Shallan would be sent home the next day.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+        },
+        {
+          "text": "When Shallan proved she too could Surgebind by entering Shadesmar, Jasnah brought her back and agreed to teach her if she promised never to lie or steal again. Jasnah explained Surgebinding, the Knights Radiant and her theory that the Parshendi were the Voidbringers, warned of the Ghostbloods, and set sail with Shallan for the Shattered Plains.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "74" },
+                { "book": "words-of-radiance", "chapter": "1" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "When Shallan proved she too could Surgebind by entering Shadesmar, Jasnah brought her back and agreed to teach her if she promised never to lie or steal again. Jasnah explained Surgebinding, the Knights Radiant and her theory that the Parshendi were the Voidbringers, warned of the Ghostbloods, and set sail with Shallan for the Shattered Plains.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "74" },
-            { "book": "words-of-radiance", "chapter": "1" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Before Jasnah became known as a heretic, Gavilar wanted her to marry Meridas Amaram and return to the church. She refused, though her father still pressed her on the night he died, and she continued to rebuff Amaram's advances for years.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Jasnah was presumed dead, and Navani took the loss very hard.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Jasnah reappeared in the Physical Realm and met Wit, then immediately set off toward the nearest town.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Attacked by mercenaries hoping to join the Ghostbloods, Jasnah had been stabbed through the heart but escaped into Shadesmar and healed herself with Stormlight. She spent time there learning about the ancient Knights Radiant, then returned after the Everstorm arrived, threatening Wit with her Shardblade when they met.",
-      "revealedIn": [
-        {
-          "all": [
+          "text": "After the attack at sea",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "67" },
             { "book": "words-of-radiance", "chapter": "epilogue" },
-            { "book": "oathbringer", "chapter": "33" }
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "oathbringer", "chapter": "33" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Shadesmar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "oathbringer", "chapter": "33" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani took the loss of Jasnah very hard.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        },
+        {
+          "text": "Jasnah reappeared in the Physical Realm and met Wit, then set off toward the nearest town.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Attacked by mercenaries hoping to join the Ghostbloods, Jasnah had been stabbed through the heart but escaped into Shadesmar and healed herself with Stormlight. She spent time there learning about the ancient Knights Radiant, and returned after the Everstorm arrived, threatening Wit with her Shardblade when they met.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "oathbringer", "chapter": "33" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "Jasnah came to Urithiru and studied Dalinar's visions for clues about ancient Roshar, identifying the Herald Jezerezeh in the vision of Aharietiam. When Dalinar was treated as an outcast for revealing Honor's death, she offered him sympathy and counsel.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "42" },
+            { "book": "oathbringer", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        },
+        {
+          "text": "Urithiru and Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah came to Urithiru and studied Dalinar's visions for clues about ancient Roshar, identifying the Herald Jezerezeh in the vision of Aharietiam. When Dalinar was treated as an outcast for revealing Honor's death, she offered him sympathy and counsel.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        },
+        {
+          "text": "Jasnah clashed with Shallan, who resented being treated as a ward again, scolding her for skipping meetings while praising what she had achieved. Jasnah refused to end the wardship and admitted she rarely took wards because she was poor at guiding them. Shallan soon left for Kholinar to escape her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        },
+        {
+          "text": "Jasnah watched Shallan's mind slowly deteriorate. Through an information center in Tashikk she consulted fellow Veristitalians, who told her of a young Edgedancer in Azir and strange parshman behavior. Seeing Renarin speak with his spren, she resolved to investigate his bond.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "In strategy meetings, Jasnah argued that the enemy must be stopped rather than negotiated with, proposed finding and killing the Heralds to restore the Oathpact, and suggested securing the Shin Oathgate, though the Shin did not respond.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field, Jasnah discovered that Renarin had bonded a corrupted spren and felt she must kill him, but could not. Together they reasoned that Dalinar might still prevail. In the battle she found Soulcasting astonishingly easy, fighting as an Elsecaller with the realms drawn close together.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Jasnah had Navani and Fen send troops to clear the Fused from Thaylen City and pulled Shallan out when her Stormlight ran out. Afterward, Shallan chose to continue her wardship.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "Jasnah clashed with Shallan, who resented being treated as a ward again, scolding her for skipping meetings while praising what she had achieved. Jasnah refused to end the wardship and admitted she rarely took wards because she was poor at guiding them. Shallan soon left for Kholinar to escape her.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+      "title": [
+        {
+          "text": "Queen of Alethkar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "endnote" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "50" },
+            { "book": "rhythm-of-war", "chapter": "64" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "105" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "20" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "89" },
+            { "book": "wind-and-truth", "chapter": "123" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Gavinor too young and Dalinar and Adolin both unwilling, Jasnah was crowned Queen of Alethkar at Shallan's suggestion. She wrote a ketek for Shallan's wedding.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "endnote" }]
+        },
+        {
+          "text": "As queen, Jasnah wrote with Dalinar to neutral nations seeking allies, including the Reshi. Kept informed of the Wandersail's voyage, she warned Rysn about old tales of creatures made of cremlings and concluded that whatever lay on Akinah must matter greatly if the enemy worked so hard to stop the expedition.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "On the campaign in Emul, Highprince Ruthar challenged a woman's right to lead. Following Jasnah's plan, Wit goaded him into a trial by combat and named Jasnah his champion; she stabbed Ruthar through the throat, had Renarin heal him, stripped his lands to his son, and outlawed trial by sword.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        },
+        {
+          "text": "At Drunmu Basin, Jasnah fought as an ordinary Shardbearer until a powerful Fused forced her to use her Surgebinding. She fought for hours and learned from Wit that a Sleepless had been spying on them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+        },
+        {
+          "text": "Jasnah and Wit drafted the terms for a Contest of Champions, and the coalition completed its conquest of Emul. At Dalinar's request, she agreed to write the undertext of his book, Oathbringer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "105" },
+                { "book": "rhythm-of-war", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lying awake beside Hoid, Jasnah saw him wake using unfamiliar magics and realize Odium had tricked him. She urged him not to ignore it. When Hoid told the coalition that Odium had a new vessel scheming to seize seats of power, Jasnah asked to lead the defense of Thaylenah.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "20" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Thaylen City, Jasnah sent Windrunners to inspect the enemy fleet and found the ships empty, a ruse to split the coalition. Odium, in Taravangian's form, then came to take the city himself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "89" }]
+        },
+        {
+          "text": "Odium challenged Jasnah to a debate before Queen Fen, claiming her philosophy matched his and arguing she could not be trusted. Fen agreed to give Thaylenah to Odium, and Jasnah was handed a copy of the contract as a reminder of her failure.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
+        }
+      ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "Jasnah watched Shallan's mind slowly deteriorate. Through an information center in Tashikk she consulted fellow Veristitalians, who told her of a young Edgedancer in Azir and strange parshman behavior. Seeing Renarin speak with his spren, she resolved to investigate his bond.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
-    },
+      "title": [
+        {
+          "text": "Back in Urithiru",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before leaving for Thaylenah, Jasnah had written to Hoid ending their relationship. Back in Urithiru after the loss, she found his reply agreeing with her reasoning, which left her more distraught, wanting comfort.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
     {
-      "bookId": "oathbringer",
-      "text": "In strategy meetings, Jasnah argued that the enemy must be stopped rather than negotiated with, proposed finding and killing the Heralds to restore the Oathpact, and suggested securing the Shin Oathgate, though the Shin did not respond.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "At the Battle of Thaylen Field, Jasnah discovered that Renarin had bonded a corrupted spren and felt she must kill him, but could not. Together they reasoned that Dalinar might still prevail. In the battle she found Soulcasting astonishingly easy, fighting as an Elsecaller with the realms drawn close together.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Jasnah had Navani and Fen send troops to clear the Fused from Thaylen City and pulled Shallan out when her Stormlight ran out. Afterward, Shallan chose to continue her wardship.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "With Gavinor too young and Dalinar and Adolin both unwilling, Jasnah was crowned Queen of Alethkar at Shallan's suggestion. She wrote a ketek for Shallan's wedding.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "endnote" }]
-    },
-    {
-      "bookId": "dawnshard",
-      "text": "As queen, Jasnah wrote with Dalinar to neutral nations seeking allies, including the Reshi. Kept informed of the Wandersail's voyage, she warned Rysn about old tales of creatures made of cremlings and concluded that whatever lay on Akinah must matter greatly if the enemy worked so hard to stop the expedition.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "On the campaign in Emul, Highprince Ruthar challenged a woman's right to lead. Following Jasnah's plan, Wit goaded him into a trial by combat and named Jasnah his champion; she stabbed Ruthar through the throat, had Renarin heal him, stripped his lands to his son, and outlawed trial by sword.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "At Drunmu Basin, Jasnah fought as an ordinary Shardbearer until a powerful Fused forced her to use her Surgebinding. She fought for hours and learned from Wit that a Sleepless had been spying on them.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Jasnah and Wit drafted the terms for a Contest of Champions, and the coalition completed its conquest of Emul. At Dalinar's request, she agreed to write the undertext of his book, Oathbringer.",
+      "text": "Jasnah is tall, slender and statuesque, famed for her beauty and always immaculately dressed. She has tan skin, pale violet eyes and long black hair usually worn in intricate braids.",
       "revealedIn": [
         {
           "all": [
-            { "book": "oathbringer", "chapter": "105" },
-            { "book": "rhythm-of-war", "chapter": "101" }
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "oathbringer", "chapter": "39" }
           ]
         }
       ]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Lying awake beside Hoid, Jasnah saw him wake using unfamiliar magics and realize Odium had tricked him. She urged him not to ignore it. When Hoid told the coalition that Odium had a new vessel scheming to seize seats of power, Jasnah asked to lead the defense of Thaylenah.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "rhythm-of-war", "chapter": "epilogue" },
-            { "book": "wind-and-truth", "chapter": "20" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "In Thaylen City, Jasnah sent Windrunners to inspect the enemy fleet and found the ships empty, a ruse to split the coalition. Odium, in Taravangian's form, then came to take the city himself.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "89" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Odium challenged Jasnah to a debate before Queen Fen, claiming her philosophy matched his and arguing she could not be trusted. Fen agreed to give Thaylenah to Odium, and Jasnah was handed a copy of the contract as a reminder of her failure.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "123" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Before leaving for Thaylenah, Jasnah had written to Hoid ending their relationship. Back in Urithiru after the loss, she found his reply agreeing with her reasoning, which left her more distraught, wanting comfort.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
     }
   ],
   "personality": [
@@ -221,17 +372,6 @@
           "all": [
             { "book": "way-of-kings", "chapter": "36" },
             { "book": "oathbringer", "chapter": "15" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Jasnah is tall, slender and statuesque, famed for her beauty and always immaculately dressed. She has tan skin, pale violet eyes and long black hair usually worn in intricate braids.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "way-of-kings", "chapter": "5" },
-            { "book": "oathbringer", "chapter": "39" }
           ]
         }
       ]

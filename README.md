@@ -21,16 +21,17 @@ npm run dev
 
 ## Scripts
 
-| Command              | Purpose                                   |
-| -------------------- | ----------------------------------------- |
-| `npm run dev`        | Start the dev server                      |
-| `npm run build`      | Typecheck and build to `dist/`            |
-| `npm run preview`    | Serve the production build                |
-| `npm run typecheck`  | TypeScript only                           |
-| `npm run lint`       | oxlint                                    |
-| `npm run format`     | Prettier (write)                          |
-| `npm test`           | Vitest in watch mode (`test:run` for CI)  |
-| `npm run data:fetch` | Pull raw wikitext from the Coppermind API |
+| Command                            | Purpose                                                                      |
+| ---------------------------------- | ---------------------------------------------------------------------------- |
+| `npm run dev`                      | Start the dev server                                                         |
+| `npm run build`                    | Typecheck and build to `dist/`                                               |
+| `npm run preview`                  | Serve the production build                                                   |
+| `npm run typecheck`                | TypeScript only                                                              |
+| `npm run lint`                     | oxlint                                                                       |
+| `npm run format`                   | Prettier (write)                                                             |
+| `npm test`                         | Vitest in watch mode (`test:run` for CI)                                     |
+| `npm run data:fetch`               | Pull raw wikitext from the Coppermind API                                    |
+| `npm run spoiler:snapshot -- <id>` | Check a character page against the Coppermind Time Machine (see `AGENTS.md`) |
 
 ## Project layout
 
@@ -66,7 +67,7 @@ To pull source material, run `npm run data:fetch` (or `npm run data:fetch -- Pag
 
 ## Licensing
 
-- Wiki content is adapted from [the Coppermind](https://coppermind.net) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/). Derived content must keep attribution, stay non-commercial and use the same license.
+- Wiki content is based on [the Coppermind](https://coppermind.net), whose text is licensed [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) (attribution, non-commercial, no derivatives). This is a private site for now; before any public release, ask 17th Shard (see the Coppermind's Copyrights page) about our paraphrased summaries.
 - Do not use official Cosmere artwork. This is an unofficial fan project, not affiliated with Dragonsteel.
 
 # cosmereinteractiveguide

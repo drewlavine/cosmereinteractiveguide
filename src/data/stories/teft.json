@@ -24,197 +24,323 @@
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "way-of-kings",
-      "text": "Teft began to suspect that Kaladin could use Stormlight. Before Kaladin was strung up to face a highstorm, Teft slipped him a dun sphere for luck; afterward it was still dun, though the storm should have infused it. While Kaladin lay feverish, Teft pressed infused spheres into his hand and watched him draw in the Light and glow. He quietly repeated this enough to save Kaladin's life without making the other bridgemen suspicious.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Curious, Teft probed whether Kaladin knew about his abilities, at one point throwing a surprise punch so Kaladin breathed in Stormlight from a pouch of spheres. Once sure, Teft, Lopen and Syl helped Kaladin learn to use his powers. Teft passed on what he knew of the Radiants from the Envisagers of his youth, including the words of the First Ideal.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Kaladin learned that Teft had been a sergeant before becoming a bridgeman. Teft became Kaladin's sergeant in practice, taking command when needed and running the crew's daily training in the chasms, though he kept the details of his past to himself.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Kaladin left Teft orders to lead an escape if his plan to draw Parshendi fire failed. During the assault on the Tower, Teft was wounded, but when Bridge Four turned back to help Dalinar's army, he pulled arrows from Kaladin's arm, helped set the bridge, and took charge of the crew while a healed Kaladin went after Dalinar. That evening, he talked with the crew about the Radiants and Kaladin's abilities.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "When Dalinar bought the bridgemen's freedom, Teft joined his guard as a lieutenant in charge of training the former bridge crews. He took the Bridge Four tattoo though he had no slave brand to cover, was first to defend Shen when the tattooist balked, and urged Kaladin to show Dalinar his abilities.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "73" },
-            { "book": "words-of-radiance", "chapter": "2" }
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "71" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a boy in Talinar, Teft's family joined the Envisagers, a cult seeking to bring back the Radiants by provoking danger. His mother died trying to manifest powers, and at eight Teft reported the group to the citylord; all were executed, including his father.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "71" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Training the former bridgemen went badly at first, until Teft, Kaladin and Rock took them into the chasms, where they began to open up. On one trip, Kaladin pressed Teft about the Radiants and noticed how grim he became when his past came up.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Teft joined Kaladin, Moash and Yake in Shardblade training under the ardent Zahel. During a break, he pointed out that the circumstances of Shallan's arrival looked suspicious, prompting Kaladin to look into her.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Teft kept training recruits and reporting to Kaladin, but began disappearing without explanation after a patrol. When Kaladin confronted him, he refused to talk about it.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "When Elhokar jailed Kaladin, Teft talked the crew out of breaking him free. He was present when Moash became a Shardbearer and led the others away so Kaladin could speak with Moash alone.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "After Kaladin and Shallan were lost in the chasms during an expedition, the crew made Teft their leader. He was sure they would return and took nearly every watch, once telling Sigzil about his past among the Envisagers over a game.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "In Urithiru, Teft took shifts exploring the tower. He was among the Bridge Four members who found Sadeas's body, and he hotly denied killing him when Sadeas's soldiers arrived.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Teft went with Bridge Four on Dalinar's expedition, leaving Moash to guard the king. In the Battle of Narak, the crew stayed near Dalinar and gave Kaladin infused gems on Teft's order. Afterward Teft told Kaladin that Rod had died and that he had seen some of the men glowing, suspecting they were becoming Kaladin's squires. At his request, Dalinar had their lost bridge recovered and put back to use.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "87" },
-            { "book": "oathbringer", "chapter": "37" }
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "way-of-kings", "chapter": "59" },
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "way-of-kings", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teft began to suspect that Kaladin could use Stormlight. Before Kaladin was strung up to face a highstorm, Teft slipped him a dun sphere for luck; afterward it was still dun, though the storm should have infused it. While Kaladin lay feverish, Teft pressed infused spheres into his hand and watched him draw in the Light and glow. He quietly repeated this enough to save Kaladin's life without making the other bridgemen suspicious.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        },
+        {
+          "text": "Curious, Teft probed whether Kaladin knew about his abilities, at one point throwing a surprise punch so Kaladin breathed in Stormlight from a pouch of spheres. Once sure, Teft, Lopen and Syl helped Kaladin learn to use his powers. Teft passed on what he knew of the Radiants, including the words of the First Ideal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        },
+        {
+          "text": "Kaladin learned that Teft had been a sergeant before becoming a bridgeman. Teft became Kaladin's sergeant in practice, taking command when needed and running the crew's daily training in the chasms, though he kept the details of his past to himself.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "Kaladin left Teft orders to lead an escape if his plan to draw Parshendi fire failed. During the assault on the Tower, Teft was wounded, but when Bridge Four turned back to help Dalinar's army, he pulled arrows from Kaladin's arm, helped set the bridge, and took charge of the crew while a healed Kaladin went after Dalinar. That evening, he talked with the crew about the Radiants and Kaladin's abilities.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dalinar's honor guard",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "66" },
+            { "book": "words-of-radiance", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar bought the bridgemen's freedom, Teft joined his guard as a lieutenant in charge of training the former bridge crews. He took the Bridge Four tattoo though he had no slave brand to cover, was first to defend Shen when the tattooist balked, and urged Kaladin to show Dalinar his abilities.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Training the former bridgemen went badly at first, until Teft, Kaladin and Rock took them into the chasms, where they began to open up. On one trip, Kaladin pressed Teft about the Radiants and noticed how grim he became when his past came up.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        },
+        {
+          "text": "Teft kept training recruits and reporting to Kaladin, but began disappearing without explanation after a patrol. When Kaladin confronted him, he refused to talk about it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Teft joined Kaladin, Moash and Yake in Shardblade training under the ardent Zahel. During a break, he pointed out that the circumstances of Shallan's arrival looked suspicious, prompting Kaladin to look into her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "When Elhokar jailed Kaladin, Teft talked the crew out of breaking him free. He was present when Moash became a Shardbearer and led the others away so Kaladin could speak with Moash alone.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        },
+        {
+          "text": "After Kaladin and Shallan were lost in the chasms during an expedition, the crew made Teft their leader. He was sure they would return and took nearly every watch, once telling Sigzil about his past among the Envisagers over a game.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Narak and Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "30" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "23" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "oathbringer", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "119" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "dawnshard", "chapter": "epilogue" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Windrunner",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teft went with Bridge Four on Dalinar's expedition, leaving Moash to guard the king. In the Battle of Narak, the crew stayed near Dalinar and gave Kaladin infused gems on Teft's order. Afterward Teft told Kaladin that Rod had died and that he had seen some of the men glowing, suspecting they were becoming Kaladin's squires. At his request, Dalinar had their lost bridge recovered and put back to use.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Urithiru, Teft took shifts exploring the tower. He was among the Bridge Four members who found Sadeas's body, and he hotly denied killing him when Sadeas's soldiers arrived.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "Teft kept disappearing to feed his firemoss addiction. He had sworn early oaths hoping they would cure it, then tried to drive his spren away out of shame. After he missed a training session from a binge, Kaladin and Rock found him in a moss den and brought him back. Teft cut back for a while and helped with recruitment and flight training.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "23" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With Kaladin away at Kholinar, Bridge Four practiced Windrunner powers using the Honorblade Dalinar gave them, passing it around so no thief would know who held it. Teft laughed at the idea that Kaladin might be dead, and the crew represented the Radiants at the first meeting of monarchs.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "Still struggling with his addiction, Teft was arrested for public intoxication and brought before Aladar's magistrates; Navani used her seal to free him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "Teft guarded Dalinar in Thaylen City, but the crew, shaken by leaked news that humans were the original Voidbringers, returned to Urithiru. There they found Rock and Bisig wounded and Eth dead; the attacker had worn a Bridge Four lieutenant's coat. Teft realized it was the coat he had sold for firemoss, and fled in shame.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+        },
+        {
+          "text": "Hiding in the tower, Teft saw singers invade through the Oathgate. His spren kept appearing to him, and at last she persuaded him to speak his Third Oath.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        },
+        {
+          "text": "After the invaders were beaten, Teft arrived at the Battle of Thaylen Field through the Oathgate with Bridge Four and Alethi troops, driving Fused away and holding the gate. Afterward he and Kaladin talked about swearing Ideals, and the crew flew wounded to safety. Bridge Thirteen became Teft's squires, and over the next year most of them became Radiants.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "dawnshard", "chapter": "epilogue" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "With Kaladin away at Kholinar, Bridge Four practiced Windrunner powers using the Honorblade Dalinar gave them, passing it around so no thief would know who held it. Teft laughed at the idea that Kaladin might be dead, and the crew represented the Radiants at the first meeting of monarchs.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Still struggling with his addiction, Teft was arrested for public intoxication and brought before Aladar's magistrates; Navani used her seal to free him.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Teft guarded Dalinar in Thaylen City, but the crew, shaken by leaked news that humans were the original Voidbringers, returned to Urithiru. There they found Rock and Bisig wounded and Eth dead; the attacker had worn a Bridge Four lieutenant's coat. Teft realized it was the coat he had sold for firemoss, and fled in shame.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Hiding in the tower, Teft saw singers invade through the Oathgate. His spren kept appearing to him, and at last she persuaded him to speak his Third Oath.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
-    },
-    {
-      "bookId": "dawnshard",
-      "text": "Navani and Kaladin considered sending Teft on Rysn's expedition to Akinah, but decided against it so the enemy could not gain a living Shardblade able to open the Oathgate.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "13" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "During the evacuation of Hearthstone, Teft checked on Kaladin, worried by how he had been looking, and relayed his orders. On the way back he pushed Kaladin to congratulate Laran on her Third Ideal, and Kaladin flew off to escape his questions.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "After the invaders were beaten, Teft arrived at the Battle of Thaylen Field through the Oathgate with Bridge Four and Alethi troops, driving Fused away and holding the gate. Afterward he and Kaladin talked about swearing Ideals, and the crew flew wounded to safety. Bridge Thirteen became Teft's squires, and over the next year most of them became Radiants.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "oathbringer", "chapter": "122" },
-            { "book": "dawnshard", "chapter": "epilogue" },
-            { "book": "rhythm-of-war", "chapter": "12" }
+          "text": "Still a sergeant",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "13" },
+            { "book": "rhythm-of-war", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "25" },
+            { "book": "rhythm-of-war", "chapter": "38" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani and Kaladin considered sending Teft on Rysn's expedition to Akinah, but decided against it so the enemy could not gain a living Shardblade able to open the Oathgate.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "13" }]
+        },
+        {
+          "text": "During the evacuation of Hearthstone, Teft checked on Kaladin, worried by how he had been looking, and relayed his orders. On the way back he pushed Kaladin to congratulate Laran on her Third Ideal, and Kaladin flew off to escape his questions.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        },
+        {
+          "text": "When Kaladin was relieved of duty, Teft refused command of the Windrunners and instead became Kaladin's assistant at his new clinic. Their first task was finding a refugee named Noril; Teft summoned his spren as a Shardspear to move an unhelpful ardent, then kept Noril company while Kaladin secured his release.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+        },
+        {
+          "text": "Searching for the missing Dabbid, Teft and Kaladin met Rlain at Jez's Duty. Teft stuck to orange wine, and the group pressed Kaladin into promising to attend his own therapy meetings.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "38" }]
         }
       ]
     },
     {
-      "bookId": "rhythm-of-war",
-      "text": "Teft kept disappearing to feed his firemoss addiction. He had sworn early oaths hoping they would cure it, then tried to drive his spren away out of shame. After he missed a training session from a binge, Kaladin and Rock found him in a moss den and brought him back. Teft cut back for a while and helped with recruitment and flight training.",
+      "title": [
+        {
+          "text": "The tower under attack",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "39" },
+            { "book": "rhythm-of-war", "chapter": "85" },
+            { "book": "rhythm-of-war", "chapter": "91" },
+            { "book": "rhythm-of-war", "chapter": "103" }
+          ]
+        },
+        {
+          "text": "Occupied Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teft suddenly collapsed when the tower's defenses were turned to suppress Radiant powers. Kaladin and Rlain carried him to Lirin's clinic, finding the Edgedancers unconscious too.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        },
+        {
+          "text": "When enemy soldiers came to move Teft to the infirmary with the other Radiants, Kaladin fought them off and hid with Teft in a secret room, caring for him with Dabbid's help. Lift healed Teft, and he woke as Kaladin recovered from his fever.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
+        },
+        {
+          "text": "Teft awoke fearing he had relapsed and was heartened to learn he was sober. Needing Lift's healing every few hours, he hid with Kaladin, Dabbid, Rlain and Lift. When Kaladin wondered whether to stop fighting, Teft told them about his childhood among the Envisagers and urged them to do their best. He found himself happy at life's small good things.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
+        },
+        {
+          "text": "Teft and Lift snuck into Lirin's clinic to heal the unconscious Radiants, but sprang a trap Moash had laid for Kaladin. Moash wounded Lift, and Teft faced him with only a dagger.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "103" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Death and remembrance",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teft tried to keep Moash distracted from Lift. Struck down, he and his spren together formed a phantom spear shaft to block a killing blow, but Moash stabbed the spren with a special dagger, killing her and tearing at Teft's soul. Knowing he was loved, Teft spoke his final words to Moash before Moash killed him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
+        },
+        {
+          "text": "Moash dropped Teft's body before Kaladin, whose grief overwhelmed him. In a vision, Tien helped Kaladin see all the times he had helped Teft, and Kaladin swore his Fourth Ideal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
+        },
+        {
+          "text": "Rlain sang the Song of the Fallen over Teft's body while Dabbid grieved, and Rlain tried to channel Teft's manner when addressing the people in the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "After the tower was freed, Bridge Four had Teft Soulcast into a statue, scowl intact, to rest among fallen Radiants. They drank to him at Jez's Duty, and Kaladin began attending his own therapy sessions as a final promise to Teft.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Teft is a man in his fifties with tan skin, drooping cheeks, brown eyes and close-cropped, grizzled hair, with a short, square beard of light brown and gray.",
       "revealedIn": [
         {
           "all": [
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "words-of-radiance", "chapter": "9" },
             { "book": "oathbringer", "chapter": "55" },
-            { "book": "rhythm-of-war", "chapter": "23" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "When Kaladin was relieved of duty, Teft refused command of the Windrunners and instead became Kaladin's assistant at his new clinic. Their first task was finding a refugee named Noril; Teft summoned his spren as a Shardspear to move an unhelpful ardent, then kept Noril company while Kaladin secured his release.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Searching for the missing Dabbid, Teft and Kaladin met Rlain at Jez's Duty. Teft stuck to orange wine, and the group pressed Kaladin into promising to attend his own therapy meetings.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "38" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Teft suddenly collapsed when the tower's defenses were turned to suppress Radiant powers. Kaladin and Rlain carried him to Lirin's clinic, finding the Edgedancers unconscious too.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "When enemy soldiers came to move Teft to the infirmary with the other Radiants, Kaladin fought them off and hid with Teft in a secret room, caring for him with Dabbid's help. Lift healed Teft, and he woke as Kaladin recovered from his fever.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Teft awoke fearing he had relapsed and was heartened to learn he was sober. Needing Lift's healing every few hours, he hid with Kaladin, Dabbid, Rlain and Lift. When Kaladin wondered whether to stop fighting, Teft told them about his childhood among the Envisagers and urged them to do their best. He found himself happy at life's small good things.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "As a boy in Talinar, Teft's family joined the Envisagers, a cult seeking to bring back the Radiants by provoking danger. His mother died trying to manifest powers, and at eight Teft reported the group to the citylord; all were executed, including his father.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "71" },
             { "book": "rhythm-of-war", "chapter": "91" }
           ]
         }
       ]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Teft and Lift snuck into Lirin's clinic to heal the unconscious Radiants, but sprang a trap Moash had laid for Kaladin. Moash wounded Lift, and Teft faced him with only a dagger.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "103" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Teft tried to keep Moash distracted from Lift. Struck down, he and his spren together formed a phantom spear shaft to block a killing blow, but Moash stabbed the spren with a special dagger, killing her and tearing at Teft's soul. Knowing he was loved, Teft spoke his final words to Moash before Moash killed him.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Moash dropped Teft's body before Kaladin, whose grief overwhelmed him. In a vision, Tien helped Kaladin see all the times he had helped Teft, and Kaladin swore his Fourth Ideal.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Rlain sang the Song of the Fallen over Teft's body while Dabbid grieved, and Rlain tried to channel Teft's manner when addressing the people in the tower.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "After the tower was freed, Bridge Four had Teft Soulcast into a statue, scowl intact, to rest among fallen Radiants. They drank to him at Jez's Duty, and Kaladin began attending his own therapy sessions as a final promise to Teft.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
     }
   ],
   "personality": [
@@ -234,7 +360,7 @@
       ]
     },
     {
-      "text": "Teft is a man in his fifties with tan skin, drooping cheeks, brown eyes and close-cropped, grizzled hair, with a short, square beard of light brown and gray. He is blunt and matter-of-fact, resents lighteyes, and is gruffly caring toward Bridge Four. A natural leader, he serves Kaladin well as sergeant, hearing what Kaladin leaves unsaid.",
+      "text": "Teft is blunt and matter-of-fact, resents lighteyes, and is gruffly caring toward Bridge Four. A natural leader, he serves Kaladin well as sergeant, hearing what Kaladin leaves unsaid.",
       "revealedIn": [
         {
           "all": [

@@ -9,106 +9,193 @@
       "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "elantris",
-      "text": "On arriving in Arelon, Hrathen took over leadership of the Derethi religion there, sending the previous leader, Fjon, back to Fjordell. Seeing both promise and danger in the zeal of Arteth Dilaf, he made Dilaf his odiv to keep him close.",
-      "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+      "title": [
+        {
+          "text": "Training as a priest",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "60" },
+            { "book": "elantris", "chapter": "36" }
+          ]
+        },
+        {
+          "text": "The Dakhor and Ghajan monasteries",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young man, Hrathen had been accepted into the elite Dakhor Monastery, whose monks gained battle powers through human sacrifice and strange rites. He completed the first stage, a reshaping of the bones in his right forearm, but was deeply scarred, and he left after Dilaf sacrificed a monk to transport himself.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        },
+        {
+          "text": "Hrathen had trained at Ghajan Monastery, which combined religious and military instruction. He excelled at both and rose quickly to gyorn, one of twenty men near the top of the Derethi hierarchy, below only the monastery leaders and Wyrn.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Hrathen preached that the Elantrians were Svrakiss, damned by Jaddeth, hoping to unite the people in hatred of them and convert them. While he preached atop the wall of Elantris, Sarene feigned ignorance and asked awkward questions that derailed his sermon. Rather than being annoyed, he was impressed and energized by finding a worthy opponent.",
-      "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+      "title": [
+        {
+          "text": "The Duladel Republic",
+          "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Arelon, Hrathen had worked to bring down the Duladel Republic, hoping to install a king friendly to Shu-Dereth, but his rebellion spiralled into a long, bloody civil war. He used it to entrench the faith, yet regretted the bloodshed deeply.",
+          "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Despite the embarrassment, several nobles came to Hrathen's private meeting, where he hinted at power from Fjordell if they converted. He met separately with Duke Telrii, the most powerful of them, and offered him the chance to become King of Arelon.",
-      "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+      "title": [
+        {
+          "text": "Gyorn of Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "8" },
+            { "book": "elantris", "chapter": "9" },
+            { "book": "elantris", "chapter": "15" },
+            { "book": "elantris", "chapter": "24" },
+            { "book": "elantris", "chapter": "27" },
+            { "book": "elantris", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On arriving in Arelon, Hrathen took over leadership of the Derethi religion there, sending the previous leader, Fjon, back to Fjordell. Seeing both promise and danger in the zeal of Arteth Dilaf, he made Dilaf his odiv to keep him close.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Hrathen preached that the Elantrians were Svrakiss, damned by Jaddeth, hoping to unite the people in hatred of them and convert them. While he preached atop the wall of Elantris, Sarene feigned ignorance and asked awkward questions that derailed his sermon. Rather than being annoyed, he was impressed and energized by finding a worthy opponent.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        },
+        {
+          "text": "Despite the embarrassment, several nobles came to Hrathen's private meeting, where he hinted at power from Fjordell if they converted. He met separately with Duke Telrii, the most powerful of them, and offered him the chance to become King of Arelon.",
+          "revealedIn": [{ "book": "elantris", "chapter": "9" }]
+        },
+        {
+          "text": "Hrathen bribed the captain of the guard on the wall to bring him an Elantrian to question, and concluded that the people must not see how ordinary Elantrians were. He ordered it returned, but Dilaf tortured it into madness and tried to burn it during a sermon. Fearing Iadon's anger, Hrathen took over, won the crowd back, and privately burned the Elantrian to end its suffering.",
+          "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+        },
+        {
+          "text": "Hrathen began to question his faith, seeing his own approach as cold logic while Dilaf's passionate sermons reached the people's hearts. Sarene's charity in Elantris showed the Elantrians as pitiable and harmless, and Hrathen accepted that people would not hate what they pitied, abandoning that plan.",
+          "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+        },
+        {
+          "text": "Hrathen turned to making Telrii king and paying him to convert. He had Fjordell attack Iadon's ships to ruin the king's income while offering Telrii profitable deals, hoping Arelon's money-minded nobles would see Iadon as unfit. Sarene foiled this by arranging a contract between Iadon and Teod to secure the king's finances.",
+          "revealedIn": [{ "book": "elantris", "chapter": "27" }]
+        },
+        {
+          "text": "Hrathen drank one of Forton's potions, which mimicked the Shaod, and was thrown into Elantris. After five days it wore off, and he returned to Kae proclaiming a miracle of Jaddeth, winning many converts.",
+          "revealedIn": [{ "book": "elantris", "chapter": "36" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Hrathen bribed the captain of the guard on the wall to bring him an Elantrian to question, and concluded that the people must not see how ordinary Elantrians were. He ordered it returned, but Dilaf tortured it into madness and tried to burn it during a sermon. Fearing Iadon's anger, Hrathen took over, won the crowd back, and privately burned the Elantrian to end its suffering.",
-      "revealedIn": [{ "book": "elantris", "chapter": "15" }]
+      "title": [
+        {
+          "text": "Backing Telrii",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "39" },
+            { "book": "elantris", "chapter": "47" },
+            { "book": "elantris", "chapter": "54" },
+            { "book": "elantris", "chapter": "57" }
+          ]
+        },
+        {
+          "text": "Telrii's fall",
+          "revealedIn": [{ "book": "elantris", "chapter": "54" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Iadon's arrest and suicide, Hrathen again pushed for Telrii as king. Learning that Sarene planned to marry Duke Roial and make him king, Hrathen had an assassin slip her one of Forton's potions. At her wedding she appeared to be an Elantrian and was thrown into Elantris, and over the following five days Telrii took the crown.",
+          "revealedIn": [{ "book": "elantris", "chapter": "39" }]
+        },
+        {
+          "text": "While Sarene was in Elantris, Hrathen told King Eventeo he could heal her if Eventeo swore to convert, and Eventeo agreed. When Sarene was released, Hrathen offered his hand out of respect, but she recoiled. Eondel put a sword to his throat; Hrathen easily disarmed him and left.",
+          "revealedIn": [{ "book": "elantris", "chapter": "47" }]
+        },
+        {
+          "text": "Telrii refused to convert without vast payments and had Duke Roial killed. Eondel stormed the palace in revenge and died killing Telrii. Hrathen blamed his defeat on caring only about bribing Telrii rather than truly converting him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "54" }]
+        },
+        {
+          "text": "At Raoden's coronation, Hrathen was disgusted to see the nobles accept a king revealed as an Elantrian, and realized this could not have happened had he kept stirring hatred of Elantrians.",
+          "revealedIn": [{ "book": "elantris", "chapter": "57" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Before Arelon, Hrathen had worked to bring down the Duladel Republic, hoping to install a king friendly to Shu-Dereth, but his rebellion spiralled into a long, bloody civil war. He used it to entrench the faith, yet regretted the bloodshed deeply.",
-      "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+      "title": [
+        {
+          "text": "The invasion of Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "58" },
+            { "book": "elantris", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen learned that Dilaf was a Dakhor monk and that several had infiltrated Kae. Dilaf told him that Wyrn had sent him only as a distraction while the monks prepared to slaughter the people of Arelon and Teod. Horrified, having wanted to save souls rather than cause a massacre, Hrathen could do nothing before the invasion began.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "Hrathen accompanied the monks in their assault on Kae, sickened throughout. He saw Sarene captured, learned that Dilaf's hatred of Elantrians came from his beloved being driven mad by a badly drawn Aon, and saw a monk burned body and soul to carry Dilaf, Sarene and others to Teoras.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Hrathen began to question his faith, seeing his own approach as cold logic while Dilaf's passionate sermons reached the people's hearts. Sarene's charity in Elantris showed the Elantrians as pitiable and harmless, and Hrathen accepted that people would not hate what they pitied, abandoning that plan.",
-      "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+      "title": [
+        {
+          "text": "In Teoras",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "61" },
+            { "book": "elantris", "chapter": "62" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Teoras, the monks planned to kill King Eventeo under the pretense of his conversion. When Hrathen saw that Dilaf meant to murder Sarene in front of her father, he realized that his respect and rivalry for her was love, and he attacked Dilaf to save her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "61" }]
+        },
+        {
+          "text": "Hrathen and Sarene escaped into an alley and disguised themselves as peasants. When she asked why he had changed sides, he said he still believed in Shu-Dereth and Jaddeth but could not accept Wyrn's interpretation. Then Fjon, sent by Wyrn to kill him, stabbed him in the chest.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Despite his wound, Hrathen rose again and used his Dakhor-altered forearm to save Raoden and Sarene from Dilaf. Sarene believed his wounds should have killed him at once and that his Dakhor bone had kept him alive.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Hrathen turned to making Telrii king and paying him to convert. He had Fjordell attack Iadon's ships to ruin the king's income while offering Telrii profitable deals, hoping Arelon's money-minded nobles would see Iadon as unfit. Sarene foiled this by arranging a contract between Iadon and Teod to secure the king's finances.",
-      "revealedIn": [{ "book": "elantris", "chapter": "27" }]
-    },
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen's body was carried back to Elantris and buried in the memorial barrows beside Eondel, Karata, Saolin and Roial, his red armor beside him and his cape over his sword. Speaking at his funeral, Sarene admitted she had never seen his inner conflict or his willingness to put others first, and asked the people to remember him as their savior.",
+          "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
     {
-      "bookId": "elantris",
-      "text": "Hrathen drank one of Forton's potions, which mimicked the Shaod, and was thrown into Elantris. After five days it wore off, and he returned to Kae proclaiming a miracle of Jaddeth, winning many converts.",
-      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen had trained at Ghajan Monastery, which combined religious and military instruction. He excelled at both and rose quickly to gyorn, one of twenty men near the top of the Derethi hierarchy, below only the monastery leaders and Wyrn.",
-      "revealedIn": [{ "book": "elantris", "chapter": "36" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "After Iadon's arrest and suicide, Hrathen again pushed for Telrii as king. Learning that Sarene planned to marry Duke Roial and make him king, Hrathen had an assassin slip her one of Forton's potions. At her wedding she appeared to be an Elantrian and was thrown into Elantris, and over the following five days Telrii took the crown.",
-      "revealedIn": [{ "book": "elantris", "chapter": "39" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "While Sarene was in Elantris, Hrathen told King Eventeo he could heal her if Eventeo swore to convert, and Eventeo agreed. When Sarene was released, Hrathen offered his hand out of respect, but she recoiled. Eondel put a sword to his throat; Hrathen easily disarmed him and left.",
-      "revealedIn": [{ "book": "elantris", "chapter": "47" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Telrii refused to convert without vast payments and had Duke Roial killed. Eondel stormed the palace in revenge and died killing Telrii. Hrathen blamed his defeat on caring only about bribing Telrii rather than truly converting him.",
-      "revealedIn": [{ "book": "elantris", "chapter": "54" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "At Raoden's coronation, Hrathen was disgusted to see the nobles accept a king revealed as an Elantrian, and realized this could not have happened had he kept stirring hatred of Elantrians.",
-      "revealedIn": [{ "book": "elantris", "chapter": "57" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen learned that Dilaf was a Dakhor monk and that several had infiltrated Kae. Dilaf told him that Wyrn had sent him only as a distraction while the monks prepared to slaughter the people of Arelon and Teod. Horrified, having wanted to save souls rather than cause a massacre, Hrathen could do nothing before the invasion began.",
-      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "As a young man, Hrathen had been accepted into the elite Dakhor Monastery, whose monks gained battle powers through human sacrifice and strange rites. He completed the first stage, a reshaping of the bones in his right forearm, but was deeply scarred, and he left after Dilaf sacrificed a monk to transport himself.",
-      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen accompanied the monks in their assault on Kae, sickened throughout. He saw Sarene captured, learned that Dilaf's hatred of Elantrians came from his beloved being driven mad by a badly drawn Aon, and saw a monk burned body and soul to carry Dilaf, Sarene and others to Teoras.",
-      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "In Teoras, the monks planned to kill King Eventeo under the pretense of his conversion. When Hrathen saw that Dilaf meant to murder Sarene in front of her father, he realized that his respect and rivalry for her was love, and he attacked Dilaf to save her.",
-      "revealedIn": [{ "book": "elantris", "chapter": "61" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen and Sarene escaped into an alley and disguised themselves as peasants. When she asked why he had changed sides, he said he still believed in Shu-Dereth and Jaddeth but could not accept Wyrn's interpretation. Then Fjon, sent by Wyrn to kill him, stabbed him in the chest.",
+      "text": "Hrathen is tall and broad-chested with dark hair. In public he always wears blood-red armor and a red cape, and in private often a red robe.",
       "revealedIn": [{ "book": "elantris", "chapter": "62" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Despite his wound, Hrathen rose again and used his Dakhor-altered forearm to save Raoden and Sarene from Dilaf. Sarene believed his wounds should have killed him at once and that his Dakhor bone had kept him alive.",
-      "revealedIn": [{ "book": "elantris", "chapter": "63" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen's body was carried back to Elantris and buried in the memorial barrows beside Eondel, Karata, Saolin and Roial, his red armor beside him and his cape over his sword. Speaking at his funeral, Sarene admitted she had never seen his inner conflict or his willingness to put others first, and asked the people to remember him as their savior.",
-      "revealedIn": [{ "book": "elantris", "chapter": "epilogue" }]
     }
   ],
   "personality": [
@@ -117,7 +204,7 @@
       "revealedIn": [{ "book": "elantris", "chapter": "61" }]
     },
     {
-      "text": "Hrathen is tall and broad-chested with dark hair. In public he always wears blood-red armor and a red cape, and in private often a red robe. He sees himself as logical, organized and detail-minded, and his devotion to Shu-Dereth comes from the religion making sense to him rather than blind zeal.",
+      "text": "Hrathen sees himself as logical, organized and detail-minded, and his devotion to Shu-Dereth comes from the religion making sense to him rather than blind zeal.",
       "revealedIn": [{ "book": "elantris", "chapter": "62" }]
     },
     {

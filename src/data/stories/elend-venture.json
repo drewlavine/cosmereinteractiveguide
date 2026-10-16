@@ -31,212 +31,343 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "final-empire",
-      "text": "Elend met \"Valette\" at a ball at Keep Venture when she took his reading spot. They became casual friends, sitting and reading together at balls. As the house war neared, he decided she should leave Luthadel for her safety, and when she ignored him he broke off their friendship to push her to go.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "At the last ball, Elariel assassins targeted Elend, Jastes and Telden, aided by Straff thinning Elend's guards. Vin stopped them, killing Shan Elariel. Elend thought the intruders were spies and fled in a carriage with Jastes, worried about his forbidden books; Straff then claimed his own guards had killed them.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Seeing the Renoux household being carted to execution, Elend assumed Valette was with them and attacked the wagons. An Inquisitor nearly struck him down, but Kelsier, knowing Vin loved him, attacked the Inquisitor and saved his life.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "When skaa riots broke out, Straff left the city, but Elend stayed to prevent a massacre. He sent his household to Keep Lekal, surrendered to Dockson with five soldiers, and urged him not to attack the noble houses. Learning Vin had been captured, he and his soldiers attacked Kredik Shaw, buying her time to find a metal vial and saving her life.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Elend was drawn to Vin's frank opinions and actions, and came to love her once he realized she had been protecting him and learned she had been captured by the Lord Ruler.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "Finding skaa rebels killing palace soldiers who tried to surrender, Elend stood and spoke against founding a nation on bloodshed, describing his hopes for a fairer Central Dominance. With help from Breeze's Soothing, the rebels stopped and listened. The speech led to Elend being crowned king.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Tindwyl found Elend slovenly and pushed him to be forceful and self-assured. She warned that love was hard for kings, but once convinced he truly loved Vin, she told him not to give her up and encouraged them to marry rather than appear to keep a mistress.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Elend rebelled against his father Straff in small ways, such as dressing sloppily and reading during balls, earning a reputation as eccentric and arrogant. His books changed him, and he came to oppose his father's wishes because they were unethical rather than just to annoy him, though Straff never noticed the difference.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "final-empire", "chapter": "28" },
-            { "book": "well-of-ascension", "chapter": "26" }
+          "text": "Heir to House Venture",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "28" },
+                { "book": "well-of-ascension", "chapter": "26" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "final-empire", "chapter": "34" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elend rebelled against his father Straff in small ways, such as dressing sloppily and reading during balls, earning a reputation as eccentric and arrogant. His books changed him, and he came to oppose his father's wishes because they were unethical rather than just to annoy him, though Straff never noticed the difference.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "28" },
+                { "book": "well-of-ascension", "chapter": "26" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elend met \"Valette\" at a ball at Keep Venture when she took his reading spot. They became casual friends, sitting and reading together at balls. As the house war neared, he decided she should leave Luthadel for her safety, and when she ignored him he broke off their friendship to push her to go.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "At the last ball, Elariel assassins targeted Elend, Jastes and Telden, aided by Straff thinning Elend's guards. Vin stopped them, killing Shan Elariel. Elend thought the intruders were spies and fled in a carriage with Jastes, worried about his forbidden books; Straff then claimed his own guards had killed them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "Seeing the Renoux household being carted to execution, Elend assumed Valette was with them and attacked the wagons. An Inquisitor nearly struck him down, but Kelsier, knowing Vin loved him, attacked the Inquisitor and saved his life.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
         }
       ]
     },
     {
-      "bookId": "well-of-ascension",
-      "text": "Elend and Vin entered Straff's camp to parley. He offered an alliance and bluffed about holding the atium; when Straff demanded surrender, Vin's overwhelming Soothing frightened Straff into letting them go. Meanwhile the Assembly had used a no-confidence clause to depose Elend as king.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "A year after the Collapse, Straff besieged Luthadel with fifty thousand men, and Elend got the Assembly to wait until he had parleyed with his father. Cett soon arrived with forty thousand more, lured by Breeze to create a three-way standoff, and Tindwyl arrived to coach Elend, harshly, in kingship. A koloss army under Jastes Lekal followed.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "final-empire", "chapter": "10" },
-            { "book": "well-of-ascension", "chapter": "32" }
+          "text": "Uprising in Luthadel",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "final-empire", "chapter": "epilogue" }
           ]
+        },
+        {
+          "text": "Uprising and kingship",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When skaa riots broke out, Straff left the city, but Elend stayed to prevent a massacre. He sent his household to Keep Lekal, surrendered to Dockson with five soldiers, and urged him not to attack the noble houses. Learning Vin had been captured, he and his soldiers attacked Kredik Shaw, buying her time to find a metal vial and saving her life.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        },
+        {
+          "text": "Elend was drawn to Vin's frank opinions and actions, and came to love her once he realized she had been protecting him and learned she had been captured by the Lord Ruler.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "text": "Finding skaa rebels killing palace soldiers who tried to surrender, Elend stood and spoke against founding a nation on bloodshed, describing his hopes for a fairer Central Dominance. With help from Breeze's Soothing, the rebels stopped and listened. The speech led to Elend being crowned king.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
         }
       ]
     },
     {
-      "bookId": "well-of-ascension",
-      "text": "As king, Elend wrote a law code establishing the Luthadel Assembly of twenty-four members: eight noblemen, eight skaa workers and eight skaa merchants. A few months on, he proposed to Vin, but she refused. His army numbered only about twenty thousand, and peace did not last.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "final-empire", "chapter": "epilogue" },
-            { "book": "well-of-ascension", "chapter": "34" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Elend made Ferson Penrod chancellor, and nominations for king named Penrod, Elend and Cett, who had slipped into the city and moved into Keep Hasting. Elend met Cett there to parley, admitting he had not found the atium.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "On election day Elend announced his conversion to the Church of the Survivor, hoping to force a deadlock. After Vin fought off Straff's Misting children, the vote stood at seven for Elend, but when he admitted votes could be changed, Cett's two supporters switched to Penrod, making Penrod king.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Elend and Dockson disliked each other but worked together for the kingdom's sake. Dockson resented nobles and had expected to lead the crew after Kelsier, while Elend respected him as a good man but struggled with his hostility.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Expecting the city to fall, Sazed and the crew sent Elend and Vin away. After Vin killed Zane, Sazed married them and pointed them to the Well of Ascension in Terris. They set out with Spook and briefly Allrianne, while Tindwyl stayed behind.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Elend executed Jastes, who had fled after leaving his koloss uncontrolled outside Luthadel. Spook revealed Sazed's trick, and Vin realized the Well was in Luthadel. Elend and Spook followed her back on horseback, meeting Terris refugees, and arrived after the battle, when Vin told Elend he was Emperor.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "Elend relied on Vin's realism and trusted her completely, defending her even after the attack on Keep Hasting. At the Well, she trusted that he would want her to give up the power for his people rather than save him.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "As Emperor, Elend and Vin went after the Lord Ruler's storage caches. They found one in Statlin City, scouted Urteau under Quellion's control, and took Vetitan, seizing ten thousand koloss and moving its people inward. That cache held the first eight metals and pointed to the last, in Fadrex City under Aradan Yomen.",
-      "revealedIn": [
-        {
-          "all": [
+          "text": "The siege of Luthadel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "34" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "32" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "27" },
+            { "book": "well-of-ascension", "chapter": "35" },
+            { "book": "well-of-ascension", "chapter": "39" },
+            { "book": "well-of-ascension", "chapter": "46" },
+            { "book": "well-of-ascension", "chapter": "49" },
             { "book": "well-of-ascension", "chapter": "57" },
-            { "book": "hero-of-ages", "chapter": "12" }
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "secret-history", "chapter": "2-3" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "58" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "59" },
+                { "book": "secret-history", "chapter": "2-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The siege and the Well of Ascension",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "59" },
+                { "book": "secret-history", "chapter": "2-3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As king, Elend wrote a law code establishing the Luthadel Assembly of twenty-four members: eight noblemen, eight skaa workers and eight skaa merchants. A few months on, he proposed to Vin, but she refused. His army numbered only about twenty thousand, and peace did not last.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "34" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A year after the Collapse, Straff besieged Luthadel with fifty thousand men, and Elend got the Assembly to wait until he had parleyed with his father. Cett soon arrived with forty thousand more, lured by Breeze to create a three-way standoff, and Tindwyl arrived to coach Elend, harshly, in kingship. A koloss army under Jastes Lekal followed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "10" },
+                { "book": "well-of-ascension", "chapter": "32" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Tindwyl found Elend slovenly and pushed him to be forceful and self-assured. She warned that love was hard for kings, but once convinced he truly loved Vin, she told him not to give her up and encouraged them to marry rather than appear to keep a mistress.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+        },
+        {
+          "text": "Elend and Vin entered Straff's camp to parley. He offered an alliance and bluffed about holding the atium; when Straff demanded surrender, Vin's overwhelming Soothing frightened Straff into letting them go. Meanwhile the Assembly had used a no-confidence clause to depose Elend as king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "27" }]
+        },
+        {
+          "text": "Elend made Ferson Penrod chancellor, and nominations for king named Penrod, Elend and Cett, who had slipped into the city and moved into Keep Hasting. Elend met Cett there to parley, admitting he had not found the atium.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
+        },
+        {
+          "text": "On election day Elend announced his conversion to the Church of the Survivor, hoping to force a deadlock. After Vin fought off Straff's Misting children, the vote stood at seven for Elend, but when he admitted votes could be changed, Cett's two supporters switched to Penrod, making Penrod king.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "39" }]
+        },
+        {
+          "text": "Elend and Dockson disliked each other but worked together for the kingdom's sake. Dockson resented nobles and had expected to lead the crew after Kelsier, while Elend respected him as a good man but struggled with his hostility.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+        },
+        {
+          "text": "Expecting the city to fall, Sazed and the crew sent Elend and Vin away. After Vin killed Zane, Sazed married them and pointed them to the Well of Ascension in Terris. They set out with Spook and briefly Allrianne, while Tindwyl stayed behind.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+        },
+        {
+          "text": "Elend executed Jastes, who had fled after leaving his koloss uncontrolled outside Luthadel. Spook revealed Sazed's trick, and Vin realized the Well was in Luthadel. Elend and Spook followed her back on horseback, meeting Terris refugees, and arrived after the battle, when Vin told Elend he was Emperor.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+        },
+        {
+          "text": "Kelsier, who had saved Elend for Vin's sake, was angry for days on learning Elend had become king, but by the Well he no longer blamed him, thinking him too oblivious to be dangerous.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "secret-history", "chapter": "2-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elend relied on Vin's realism and trusted her completely, defending her even after the attack on Keep Hasting. At the Well, she trusted that he would want her to give up the power for his people rather than save him.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+        },
+        {
+          "text": "At the Well beneath Kredik Shaw, the mist spirit tried to stop them from freeing Ruin. Kelsier moved its arm to stab Elend so Vin would use the power to save him, but she gave it up. The mist spirit then had Vin give Elend a bead of lerasium, saving him and making him Mistborn.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "59" },
+                { "book": "secret-history", "chapter": "2-3" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "hero-of-ages",
-      "text": "Elend often measured himself against Kelsier, believing Kelsier would have been a better king, until he accepted that leaders come in different molds and he need not be Kelsier.",
+      "title": [
+        {
+          "text": "The New Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "37" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "55" },
+            { "book": "hero-of-ages", "chapter": "67" },
+            { "book": "hero-of-ages", "chapter": "74" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elend often measured himself against Kelsier, believing Kelsier would have been a better king, until he accepted that leaders come in different molds and he need not be Kelsier.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "37" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As Emperor, Elend and Vin went after the Lord Ruler's storage caches. They found one in Statlin City, scouted Urteau under Quellion's control, and took Vetitan, seizing ten thousand koloss and moving its people inward. That cache held the first eight metals and pointed to the last, in Fadrex City under Aradan Yomen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elend marched on Fadrex City with forty thousand soldiers, twenty thousand koloss and Allomancers, but chose a siege and negotiation. At a ball in Keep Orielle he debated philosophy with Yomen, who called him a hypocrite for taking the throne by force, then danced with Vin, teasing her with a copy of Trials of Monument.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "On Cett's advice Elend had Fadrex's wells poisoned, warning the people first. Yomen's men goaded the koloss into killing half their number. At a ball at the Canton of Resource, Elend tried to distract Yomen while Vin searched for the cache, but Yomen outplayed him. Elend left to seize thirty thousand more koloss.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+        },
+        {
+          "text": "Returning, overwhelmed, Elend knelt in the ash and nearly gave up. The mist spirit appeared and answered his yes-or-no questions with gestures, warning him not to attack Fadrex, pointing to his metal vials and hinting that Ruin might be beaten. It died soon after.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "55" }]
+        },
+        {
+          "text": "Elend and Vin came to understand each other completely, trusting each other with their koloss armies and silently coordinating a bluff at Fadrex to divert Ruin's attention.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "67" }]
+        },
+        {
+          "text": "Elend called off a planned surprise attack on Fadrex, but Ruin turned the koloss on his army, and Vin persuaded Yomen to let them into the city. Seeing a boy fall to mistsickness, Elend realized the mists were creating Allomancers. When the massive koloss army moved toward Luthadel, Yomen gave Elend his last atium bead, and Elend followed to find Vin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+        },
+        {
+          "text": "In Luthadel Elend found Penrod's body and a note he realized Ruin had altered, then went to the Pits of Hathsin. There he recognized that those longest sick from the mists were Seers and armed them with the atium cache, fighting the koloss for hours until the atium ran low and Marsh appeared.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "Marsh had the upper hand until Elend's metals were suddenly refilled by Vin, now Ascended. Burning atium with duralumin, Elend understood that he had to die to drive Vin to kill Ruin, and told Marsh that Ruin had lost. Marsh cut him down, and Vin sacrificed herself to kill Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Cognitive Realm",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Sazed became Harmony, Elend and Vin declined Kelsier's offer to remain in the Cognitive Realm and went on together into the Beyond.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Remembered as the Last Emperor, Elend gave his name to the city of Elendel, whose laws, written by Spook, rest on his ideals. His body, restored by Harmony, lies beneath giant statues of him and Vin at the Field of Rebirth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Elend has curly brown hair. He once wore messy, oversized, plain clothes to spite his father, but as king, at Tindwyl's urging, he cut his hair and adopted a white uniform with a wooden crown, seeing the white as a symbol of purity.",
       "revealedIn": [
         {
           "all": [
-            { "book": "well-of-ascension", "chapter": "37" },
-            { "book": "hero-of-ages", "chapter": "12" }
+            { "book": "final-empire", "chapter": "12" },
+            { "book": "well-of-ascension", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "65" }
           ]
         }
       ]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Elend marched on Fadrex City with forty thousand soldiers, twenty thousand koloss and Allomancers, but chose a siege and negotiation. At a ball in Keep Orielle he debated philosophy with Yomen, who called him a hypocrite for taking the throne by force, then danced with Vin, teasing her with a copy of Trials of Monument.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "On Cett's advice Elend had Fadrex's wells poisoned, warning the people first. Yomen's men goaded the koloss into killing half their number. At a ball at the Canton of Resource, Elend tried to distract Yomen while Vin searched for the cache, but Yomen outplayed him. Elend left to seize thirty thousand more koloss.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Returning, overwhelmed, Elend knelt in the ash and nearly gave up. The mist spirit appeared and answered his yes-or-no questions with gestures, warning him not to attack Fadrex, pointing to his metal vials and hinting that Ruin might be beaten. It died soon after.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "55" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Elend and Vin came to understand each other completely, trusting each other with their koloss armies and silently coordinating a bluff at Fadrex to divert Ruin's attention.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "67" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Elend called off a planned surprise attack on Fadrex, but Ruin turned the koloss on his army, and Vin persuaded Yomen to let them into the city. Seeing a boy fall to mistsickness, Elend realized the mists were creating Allomancers. When the massive koloss army moved toward Luthadel, Yomen gave Elend his last atium bead, and Elend followed to find Vin.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "In Luthadel Elend found Penrod's body and a note he realized Ruin had altered, then went to the Pits of Hathsin. There he recognized that those longest sick from the mists were Seers and armed them with the atium cache, fighting the koloss for hours until the atium ran low and Marsh appeared.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Marsh had the upper hand until Elend's metals were suddenly refilled by Vin, now Ascended. Burning atium with duralumin, Elend understood that he had to die to drive Vin to kill Ruin, and told Marsh that Ruin had lost. Marsh cut him down, and Vin sacrificed herself to kill Ruin.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Remembered as the Last Emperor, Elend gave his name to the city of Elendel, whose laws, written by Spook, rest on his ideals. His body, restored by Harmony, lies beneath giant statues of him and Vin at the Field of Rebirth.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "10" },
-            { "book": "shadows-of-self", "chapter": "19" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "At the Well beneath Kredik Shaw, the mist spirit tried to stop them from freeing Ruin. Kelsier moved its arm to stab Elend so Vin would use the power to save him, but she gave it up. The mist spirit then had Vin give Elend a bead of lerasium, saving him and making him Mistborn.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "well-of-ascension", "chapter": "59" },
-            { "book": "secret-history", "chapter": "2-3" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "Kelsier, who had saved Elend for Vin's sake, was angry for days on learning Elend had become king, but by the Well he no longer blamed him, thinking him too oblivious to be dangerous.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "final-empire", "chapter": "34" },
-            { "book": "secret-history", "chapter": "2-3" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "After Sazed became Harmony, Elend and Vin declined Kelsier's offer to remain in the Cognitive Realm and went on together into the Beyond.",
-      "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
     }
   ],
   "personality": [
@@ -259,18 +390,6 @@
             { "book": "final-empire", "chapter": "28" },
             { "book": "well-of-ascension", "chapter": "38" },
             { "book": "hero-of-ages", "chapter": "55" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Elend has curly brown hair. He once wore messy, oversized, plain clothes to spite his father, but as king, at Tindwyl's urging, he cut his hair and adopted a white uniform with a wooden crown, seeing the white as a symbol of purity.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "final-empire", "chapter": "12" },
-            { "book": "well-of-ascension", "chapter": "36" },
-            { "book": "hero-of-ages", "chapter": "65" }
           ]
         }
       ]

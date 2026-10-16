@@ -9,68 +9,112 @@
       "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "warbreaker",
-      "text": "Lightsong had been Returned for five years, making him one of the younger gods in the Court of Gods. Like a few other gods, he held the security phrases commanding ten thousand Lifeless soldiers, a quarter of Hallandren's army.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+      "title": [
+        {
+          "text": "Before Returning",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Returning, Lightsong was Stennimar, an accountant who uncovered fraud in ledgers. Sailing with his niece Tatara on the Red Panther, he leaped into a storm-tossed sea to save her when she was swept overboard, and drowned. Endowment showed him a vision of war and offered him the chance to Return to prevent it. His Return restored the faith of his older brother Llarimar, who became his high priest.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
     },
     {
-      "bookId": "warbreaker",
-      "text": "Early in his life as a god, Lightsong grew close to the goddess Calmseer and slept with her. He remembered her and other gods of that time, such as Brighthue, with reverence, considering them far better than the gods who followed.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+      "title": [
+        {
+          "text": "In the Court of Gods",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "7" },
+            { "book": "warbreaker", "chapter": "38" },
+            { "book": "warbreaker", "chapter": "3" },
+            { "book": "warbreaker", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Early in his life as a god, Lightsong grew close to the goddess Calmseer and slept with her. He remembered her and other gods of that time, such as Brighthue, with reverence, considering them far better than the gods who followed.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+        },
+        {
+          "text": "Lightsong had once been inspired by Calmseer to drop his lazy ways and try to be the god people expected. When he failed badly, disappointing his followers and drawing mockery from other gods, he blamed them and went back to idleness with a sharper, more vengeful wit, which everyone simply came to expect of him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "38" }]
+        },
+        {
+          "text": "Lightsong had been Returned for five years, making him one of the younger gods in the Court of Gods. Like a few other gods, he held the security phrases commanding ten thousand Lifeless soldiers, a quarter of Hallandren's army.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+        },
+        {
+          "text": "Lightsong's high priest, Llarimar, stayed calm through all of Lightsong's laziness, even when Lightsong called him \"Scoot.\" A true believer, Llarimar taught Lightsong about his own religion and encouraged him when he was low.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        }
+      ]
     },
     {
-      "bookId": "warbreaker",
-      "text": "Lightsong's high priest, Llarimar, stayed calm through all of Lightsong's laziness, even when Lightsong called him \"Scoot.\" A true believer, Llarimar taught Lightsong about his own religion and encouraged him when he was low.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+      "title": [
+        {
+          "text": "Rumors of war",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "23" },
+            { "book": "warbreaker", "chapter": "27" },
+            { "book": "warbreaker", "chapter": "30" },
+            { "book": "warbreaker", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As war with Idris loomed, Lightsong found himself holding responsibility he did not want. Blushweaver was trying to gather Hallandren's Lifeless armies under her own control and kept pressing him to join her. Meanwhile, he dreamed of destruction and of T'Telir burning.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+        },
+        {
+          "text": "Once he saw that the new queen, Siri, was a naive young woman rather than an Idrian spy, Lightsong took pity on her and advised her on court politics. Siri came to see him as the best of the gods and relied on him, though he told her not to.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
+        },
+        {
+          "text": "Trying to escape his visions, Lightsong became interested in the murder of one of Mercystar's servants and found he was good at investigating. Guessing he had been a detective or constable before he Returned, he set out to learn more about himself and his past.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+        },
+        {
+          "text": "When Blushweaver won control of Hopefinder's and Mercystar's Lifeless, Lightsong gave his security phrase to Allmother, hoping she would resist the call to war. Instead she gave him hers, and he took command of her Lifeless, holding half of Hallandren's army. When the vote on war with Idris came, he left without voting.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
+        }
+      ]
     },
     {
-      "bookId": "warbreaker",
-      "text": "As war with Idris loomed, Lightsong found himself holding responsibility he did not want. Blushweaver was trying to gather Hallandren's Lifeless armies under her own control and kept pressing him to join her. Meanwhile, he dreamed of destruction and of T'Telir burning.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Once he saw that the new queen, Siri, was a naive young woman rather than an Idrian spy, Lightsong took pity on her and advised her on court politics. Siri came to see him as the best of the gods and relied on him, though he told her not to.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Trying to escape his visions, Lightsong became interested in the murder of one of Mercystar's servants and found he was good at investigating. Guessing he had been a detective or constable before he Returned, he set out to learn more about himself and his past.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Lightsong had once been inspired by Calmseer to drop his lazy ways and try to be the god people expected. When he failed badly, disappointing his followers and drawing mockery from other gods, he blamed them and went back to idleness with a sharper, more vengeful wit, which everyone simply came to expect of him.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "38" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "When Blushweaver won control of Hopefinder's and Mercystar's Lifeless, Lightsong gave his security phrase to Allmother, hoping she would resist the call to war. Instead she gave him hers, and he took command of her Lifeless, holding half of Hallandren's army. When the vote on war with Idris came, he left without voting.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "47" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "On the night of the Pahn Kahl rebellion, Lightsong and Llarimar entered the tunnels under Mercystar's palace and found Blushweaver held by Pahn Kahl scribes disguised as priests. Lightsong attacked but found he could not fight, and they were caged. Llarimar told him he had been an accountant, not a detective. When Lightsong refused his phrase, the Pahn Kahl killed Blushweaver; threatened with Llarimar's death, he gave it up.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Before Returning, Lightsong was Stennimar, an accountant who uncovered fraud in ledgers. Sailing with his niece Tatara on the Red Panther, he leaped into a storm-tossed sea to save her when she was swept overboard, and drowned. Endowment showed him a vision of war and offered him the chance to Return to prevent it. His Return restored the faith of his older brother Llarimar, who became his high priest.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "As the Pahn Kahl prepared to execute Susebron, Lightsong remembered his death and his vision, and understood why he had Returned. He gave his life to heal Susebron, restoring his tongue. Now able to Awaken, Susebron overpowered his captors and prevented the war.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+      "title": [
+        {
+          "text": "A night of rebellion",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the night of the Pahn Kahl rebellion, Lightsong and Llarimar entered the tunnels under Mercystar's palace and found Blushweaver held by Pahn Kahl scribes disguised as priests. Lightsong attacked but found he could not fight, and they were caged. Llarimar told him he had been an accountant, not a detective. When Lightsong refused his phrase, the Pahn Kahl killed Blushweaver; threatened with Llarimar's death, he gave it up.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        },
+        {
+          "text": "As the Pahn Kahl prepared to execute Susebron, Lightsong remembered his death and his vision, and understood why he had Returned. He gave his life to heal Susebron, restoring his tongue. Now able to Awaken, Susebron overpowered his captors and prevented the war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
     }
   ],
-  "personality": [
+  "appearance": [
     {
       "text": "Like all Returned, Lightsong looks like an ideal of human beauty: over seven feet tall, with black hair, chiseled features and golden tan skin. His colors are red and gold, worn by him and by his priests and servants.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]
-    },
+    }
+  ],
+  "personality": [
     {
       "text": "Lightsong doubts that he is a god and deliberately undermines his own image, mocking himself as useless and redundant. He acts lazy and indifferent and shows little interest in the priests' debates over how Hallandren is governed.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "27" }]

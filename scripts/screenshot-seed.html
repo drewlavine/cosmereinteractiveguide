@@ -1,0 +1,5 @@
+<!doctype html><html><body style="margin:0"><script>
+const q = new URLSearchParams(location.search)
+localStorage.setItem('cosmere-guide:books-read', JSON.stringify({version:2, read: JSON.parse(q.get('read')||'[]'), reading: JSON.parse(q.get('reading')||'{}')}))
+const f = document.createElement('iframe'); f.src = q.get('to'); f.style.cssText='border:0;width:100vw;height:100vh'; document.body.appendChild(f)
+</script></body></html>

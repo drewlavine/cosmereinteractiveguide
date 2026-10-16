@@ -1,6 +1,7 @@
 import { hasReached, type ReadingProgress } from './progress'
 import { characterDetails } from './characterDetails'
 import type { Portrait } from './characterPortraits'
+import type { TravelStop } from './travels'
 import type {
   CharacterDetails,
   Fact,
@@ -408,6 +409,7 @@ export interface ShownStory {
    * reader may see; each item notes the books it's from.
    */
   history?: { title?: string; items: { text: string; books: string[] }[] }[]
+  appearance: string[]
   personality: string[]
   /** Whether unread books hide any of it. */
   spoilers: boolean
@@ -426,7 +428,7 @@ export function revealStory(
   viewAnyway = false,
 ): ShownStory {
   const v = view(characterId, canSee)
-  if (!v || !prose) return { story: [], personality: [], spoilers: false }
+  if (!v || !prose) return { story: [], appearance: [], personality: [], spoilers: false }
   const { details, persona, trim } = v
 
   let spoilers = false
@@ -464,6 +466,7 @@ export function revealStory(
       .at(-1)?.text,
     story,
     history,
+    appearance: prose.appearance.filter(show).map((i) => i.text),
     personality: prose.personality.filter(show).map((i) => i.text),
     spoilers,
   }
@@ -484,4 +487,46 @@ export function revealPortrait(
     portrait: (viewAnyway ? portraits : visible).at(-1),
     spoilers,
   }
+}
+
+export interface ShownTravelStop {
+  planetId: string
+  place?: string
+  uncertain?: string
+  wob?: string
+  events: { text: string; books: string[] }[]
+}
+
+/**
+ * A character's worlds, trimmed like their History. A persona's page gets
+ * none, since travelling between worlds would give the persona away.
+ */
+export function revealTravels(
+  characterId: string,
+  stops: readonly TravelStop[] = [],
+  canSee: CanSee,
+  viewAnyway = false,
+): { stops: ShownTravelStop[]; spoilers: boolean } {
+  const v = view(characterId, canSee)
+  if (!v || v.persona) return { stops: [], spoilers: false }
+  let spoilers = false
+  const show = ({ revealedIn }: Passage) => {
+    if (canSee(v.trim(revealedIn))) return true
+    spoilers = true
+    return viewAnyway
+  }
+  const shown = stops
+    .filter(({ needs }) => !needs || show({ text: '', revealedIn: needs }))
+    .map(({ planetId, place, uncertain, wob, events }) => ({
+      planetId,
+      place,
+      uncertain: uncertain && show(uncertain) ? uncertain.text : undefined,
+      wob: wob && show(wob) ? wob.text : undefined,
+      events: events.filter(show).map(({ text, revealedIn }) => ({
+        text,
+        books: [...new Set(v.trim(revealedIn).flatMap(pointBooks))],
+      })),
+    }))
+    .filter((s) => s.events.length > 0)
+  return { stops: shown, spoilers }
 }

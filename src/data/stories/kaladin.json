@@ -484,11 +484,13 @@
       ]
     }
   ],
-  "personality": [
+  "appearance": [
     {
       "text": "Kaladin is strongly built, and his forehead bears slave brands, including the shash glyph meaning dangerous. He dislikes beards because they itch, and shaves whenever he can.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
-    },
+    }
+  ],
+  "personality": [
     {
       "text": "Since childhood Kaladin has had a fierce protective instinct. He became a surgeon's apprentice and battlefield medic, joined the army to watch over Tien, and took the youngest, least trained recruits into his squad to protect them.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]

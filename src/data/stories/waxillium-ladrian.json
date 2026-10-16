@@ -17,302 +17,458 @@
       "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "alloy-of-law",
-      "text": "After his uncle's reported death, Wax was urged to return to Elendel, but chose first to hunt the murderer Bloody Tan. Trying to free his wife Lessie from Tan's grip, Wax accidentally shot her in the forehead. With nothing left for him in the Roughs, he went home to his family mansion.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Over his butler Tillaume's disapproval, Wax began researching the Vanishers' odd targets and methods, then set the obsession aside to attend the Yomen-Ostlin wedding dinner with Steris, their first public outing as a couple.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "When the Vanishers robbed the wedding, Wax held back until they killed a man and took Steris hostage. He then attacked with Wayne and Marasi. When a robber held Marasi at gunpoint as Lessie had been held, he nearly froze, but took the shot and saved her. He learned the gang's leader was Miles Hundredlives, a former Roughs lawman.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "With Steris taken, Wax threw himself into the investigation, studying a captured aluminum gun. In the middle of it, his butler tried to assassinate him with an explosion in his study that caught Wayne and Marasi too.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Wax found the Vanishers' hideout and confirmed Miles's involvement, but the gang attacked his train. Wounded and shaken by Miles's claim that Elendel's corruption was the real evil, he fled to Ranette's, who gave him Hazekiller bullets and a prototype revolver, Vindication.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Predicting the Vanishers' next target, Wax hid in the armored Breaknaught car and let himself be taken to their lair, fighting through it with smuggled dynamite and losing Vindication. When Miles blew himself up rather than be caught, Wax fled into the mists and spoke with Harmony, realizing Harmony had arranged for his old lost weapons to be waiting for him.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Rearmed, Wax rescued Steris and brought down the hideout. When Miles's men held Marasi hostage, Wax fired through Wayne's speed bubble and hit his own first bullet to ricochet it into the gunman's head. Miles beat Wax badly, but Wax held on while Marasi slowed time and Wayne returned with the constables.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Months afterward, while chasing the bank robber known as the Marksman, Wax was shaken to glimpse Bloody Tan in the crowd. With Wayne and Marasi he caught Marks, but an assassin's crossbow killed him before he could be questioned.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Constable-General Aradel quietly asked Wax to investigate the murder of Governor Innate's brother Winsting among thirty criminals. Wax concluded the killer was someone Winsting knew, using Feruchemical speed: a Steelrunner.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "In his first months back, Wax often left parties early to patrol the misty city. During one shootout he thought he heard a woman whimper, was reminded of Lessie, and froze. Deciding he could no longer be a lawman, and seeing the constabulary didn't need a vigilante, he hung up his guns.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "1" },
-            { "book": "shadows-of-self", "chapter": "5" }
+          "text": "Early life and the Terris Village",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "8" },
+                { "book": "bands-of-mourning", "chapter": "9" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "8" },
+                { "book": "bands-of-mourning", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Raised in Elendel high society, Wax began being groomed at twelve to run the family's First Central Bank, but was soon disgusted by its unethical practices. He found parties a chore and often slipped away to quiet balconies, leading some to think him slow.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "8" },
+                { "book": "bands-of-mourning", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At fifteen Wax spent a year in the Terris Village. He caught a Twinborn arsonist, Forch, trying to dissect a kidnapped boy and killed him in self-defense during a Steelpushing fight, saving the child. Resented for bringing violence to the Village and always an outsider there, he left. In time he went to the Roughs to escape his life and, as he admitted, to become a hero.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "8" },
+                { "book": "bands-of-mourning", "chapter": "11" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Wax consulted his grandmother in the Terris Village, then found the Steelrunner Idashwy dead with a hole in her chest. Having studied the book Ironeyes gave him, he guessed she had been killed to make a Hemalurgic spike. A note in her pocket repeated Bloody Tan's last words to him.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "epilogue" },
-            { "book": "shadows-of-self", "chapter": "6" }
+          "text": "The Roughs",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After his uncle's reported death, Wax was urged to return to Elendel, but chose first to hunt the murderer Bloody Tan. Trying to free his wife Lessie from Tan's grip, Wax accidentally shot her in the forehead. With nothing left for him in the Roughs, he went home to his family mansion.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return to Elendel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "11" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "9" },
+            { "book": "alloy-of-law", "chapter": "14" },
+            { "book": "alloy-of-law", "chapter": "18" },
+            { "book": "alloy-of-law", "chapter": "19" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Return to Elendel and the Vanishers",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In his first months back, Wax often left parties early to patrol the misty city. During one shootout he thought he heard a woman whimper, was reminded of Lessie, and froze. Deciding he could no longer be a lawman, and seeing the constabulary didn't need a vigilante, he hung up his guns.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wax spent half a year repairing his late uncle's ruinous finances and agreed to marry Steris, daughter of the wealthy Lord Harms. That same day his old partner Wayne showed up with an aluminum bullet and the mystery of the Vanishers, a gang of train robbers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "2" },
+                { "book": "bands-of-mourning", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Over his butler Tillaume's disapproval, Wax began researching the Vanishers' odd targets and methods, then set the obsession aside to attend the Yomen-Ostlin wedding dinner with Steris, their first public outing as a couple.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        },
+        {
+          "text": "When the Vanishers robbed the wedding, Wax held back until they killed a man and took Steris hostage. He then attacked with Wayne and Marasi. When a robber held Marasi at gunpoint as Lessie had been held, he nearly froze, but took the shot and saved her. He learned the gang's leader was Miles Hundredlives, a former Roughs lawman.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "With Steris taken, Wax threw himself into the investigation, studying a captured aluminum gun. In the middle of it, his butler tried to assassinate him with an explosion in his study that caught Wayne and Marasi too.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        },
+        {
+          "text": "Wax found the Vanishers' hideout and confirmed Miles's involvement, but the gang attacked his train. Wounded and shaken by Miles's claim that Elendel's corruption was the real evil, he fled to Ranette's, who gave him Hazekiller bullets and a prototype revolver, Vindication.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        },
+        {
+          "text": "Predicting the Vanishers' next target, Wax hid in the armored Breaknaught car and let himself be taken to their lair, fighting through it with smuggled dynamite and losing Vindication. When Miles blew himself up rather than be caught, Wax fled into the mists and spoke with Harmony, realizing Harmony had arranged for his old lost weapons to be waiting for him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+        },
+        {
+          "text": "Rearmed, Wax rescued Steris and brought down the hideout. When Miles's men held Marasi hostage, Wax fired through Wayne's speed bubble and hit his own first bullet to ricochet it into the gunman's head. Miles beat Wax badly, but Wax held on while Marasi slowed time and Wayne returned with the constables.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        },
+        {
+          "text": "From the captured Vanishers' description of \"Mister Suit,\" Wax suspected his supposedly dead uncle Edwarn. He confronted Edwarn on a train, demanding the kidnapped women, but Edwarn mocked him and had him thrown off, though not before Wax stole his appointment book.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "25" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Steris suggested their ordeal was a good reason to speed up their engagement, and Wax agreed, pushing aside thoughts of Marasi and memories of Lessie. For his role in the case, the Senate granted him citywide deputized authority to practice Roughs-style justice in Elendel.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "20" },
-            { "book": "shadows-of-self", "chapter": "7" }
+          "text": "Lawman of Elendel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "20" },
+                { "book": "shadows-of-self", "chapter": "7" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "4" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "7" },
+            { "book": "shadows-of-self", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "16" },
+            { "book": "shadows-of-self", "chapter": "22" },
+            { "book": "shadows-of-self", "chapter": "25" },
+            { "book": "shadows-of-self", "chapter": "26" },
+            { "book": "shadows-of-self", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "Hunting Bleeder",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Steris suggested their ordeal was a good reason to speed up their engagement, and Wax agreed, pushing aside thoughts of Marasi and memories of Lessie. For his role in the case, the Senate granted him citywide deputized authority to practice Roughs-style justice in Elendel.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "20" },
+                { "book": "shadows-of-self", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Months afterward, while chasing the bank robber known as the Marksman, Wax was shaken to glimpse Bloody Tan in the crowd. With Wayne and Marasi he caught Marks, but an assassin's crossbow killed him before he could be questioned.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
+        },
+        {
+          "text": "Constable-General Aradel quietly asked Wax to investigate the murder of Governor Innate's brother Winsting among thirty criminals. Wax concluded the killer was someone Winsting knew, using Feruchemical speed: a Steelrunner.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "4" }]
+        },
+        {
+          "text": "Wax consulted his grandmother in the Terris Village, then found the Steelrunner Idashwy dead with a hole in her chest. Having studied the book Ironeyes gave him, he guessed she had been killed to make a Hemalurgic spike. A note in her pocket repeated Bloody Tan's last words to him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wondering if his Pathian earring had once been a spike, Wax put it in, and Harmony spoke to him directly. Harmony confirmed the earring was a spike and that Wax's sightings of Tan were real: the killer was a Faceless Immortal named Bleeder, wearing Tan's bones.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        },
+        {
+          "text": "At Lady ZoBell's party, Wax met MeLaan, a Faceless Immortal sent to help him. He began hearing Bleeder's mocking voice through the same connection Harmony used, located her, and chased her out a window into the mists.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
+        },
+        {
+          "text": "Ambushed by armed men, Wax concluded Bleeder was tied to the Set. When she spoke of killing his father, he hid Lord Harms and Steris, but meanwhile Bleeder murdered Father Bin, the priest meant to marry him and Steris.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "Following Bleeder's trail back to the governor's mansion, Wax was distracted by her voice taunting him about why Harmony had not saved Lessie. She attacked Innate's chambers but left the governor alive, along with another message written in blood.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "16" }]
+        },
+        {
+          "text": "Wax entered the kandra Homeland and met TenSoon, who told him Bleeder's history. Chased out by Bleeder's Hemalurgic chimeras, Wax realized she wanted to incite a citywide riot. A gumball left by Wayne in the governor's study told him Bleeder had been impersonating Innate all along; she shot her way out.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "22" }]
+        },
+        {
+          "text": "Wax caught Bleeder on the Eastbridge. Wearing Lessie's face, she begged him to forsake Harmony but did not fire. Wax shot her with a special bullet Ranette had made from his earring, meant to give her a second spike so Harmony could control her again.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "25" }]
+        },
+        {
+          "text": "Refusing to be controlled, Bleeder ended her own life. Dying in his arms, she told Wax she loved him and asked why Harmony had sent her to protect him in the Roughs, and Wax realized she truly was Lessie.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+        },
+        {
+          "text": "Grieving Lessie's second death and furious at Harmony for hiding the truth, Wax withdrew from the mists, from his duties and from the intrigues his friends had uncovered, and agreed to postpone his wedding to Steris.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "An interrupted wedding",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "bands-of-mourning", "chapter": "5" },
+            { "book": "bands-of-mourning", "chapter": "9" },
+            { "book": "bands-of-mourning", "chapter": "12" },
+            { "book": "bands-of-mourning", "chapter": "15" },
+            { "book": "bands-of-mourning", "chapter": "16" },
+            { "book": "bands-of-mourning", "chapter": "20" },
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "bands-of-mourning", "chapter": "28" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Bands of Mourning",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Six months on, Wax was back at work with Wayne and growing closer to Steris. On their wedding day he rebuffed a kandra seeking his help. At the altar, still not ready to let Lessie go, he was relieved when a water tower toppled onto the church and halted the ceremony.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "2" }]
+        },
+        {
+          "text": "The kandra VenDell, waiting in Wax's study, told him about Investiture, Identity and the legendary Bands of Mourning, sought by the kandra ReLuur, whose spike was stolen in New Seran. Shown an image of his sister Telsin being dragged off, Wax agreed to help, but refused another earring, determined to act without Harmony's voice.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        },
+        {
+          "text": "On the train to New Seran, Wax found Steris increasingly good company, and her embarrassment at being caught reading a book on human reproduction only deepened his affection.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
+        },
+        {
+          "text": "When robbers uncoupled their car, Wax increased his weight and Steelpushed it back to the train, then fought off a gang of riders, throwing a huge Metalborn brute off with Ranette's new hook device. Afterward he searched anxiously for Wayne, only to find him holed up with MeLaan.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+        },
+        {
+          "text": "On the way to Lady Kelesina Shores's ball in New Seran, a beggar gave Wax a strange coin of two metals. At the ball he heard of a secret building project to the northeast and danced with a curious foreign woman whose knowledge of his powers made him uneasy.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
+        },
+        {
+          "text": "Using Steris's ipecac distraction, Wax followed Kelesina and overheard Edwarn's voice, actually from a voice projector, detailing his plans. Bursting in, Wax was disarmed by Kelesina's steward, who murdered her with Wax's own gun to frame him.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
+        },
+        {
+          "text": "With MeLaan's help, Wax escaped and found Steris waiting outside. He carried her up through the mists to a view of the Ascendant's Field, where they shared a quiet moment and kissed above the clouds.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
+        },
+        {
+          "text": "Heading northeast, Wax helped Marasi test a device they called an Allomantic grenade. Infiltrating the construction site, the group found Edwarn building a huge warship. Wax rescued Telsin, who startled him by brutally attacking a captor, and they escaped aboard a smaller detachable ship revealed by Allik.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "20" }]
+        },
+        {
+          "text": "After picking up Steris, Wax studied Edwarn's notebook, which pointed to a temple in the southern mountains. Telsin warned that Edwarn sought a great weapon there, raising fears the Set would get the Bands of Mourning. Arriving first, Wax and Allik used MeLaan to trigger the temple's traps safely.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
+        },
+        {
+          "text": "Edwarn arrived claiming to know how to open the final door, and Wax let him join. The chamber was empty, and Telsin, whom Wax had suspected, shot him. Falling into a pit, he was buried by a trap Edwarn triggered. Wax told the grieving Wayne to keep fighting, and died.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        },
+        {
+          "text": "Before Harmony, Wax berated him for his inaction and for Lessie. Harmony showed him a glimpse of a greater conflict and offered another adventure, which Wax accepted. He woke healed, holding the true Bands of Mourning, which Marasi had placed in his hand.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+        },
+        {
+          "text": "Drawing on the Bands, Wax burst from the temple with near-limitless power. Mastering himself, he confronted Edwarn one final time without using the spearhead's dangerous power.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        },
+        {
+          "text": "Back in Elendel, Wax gave the spearhead to the kandra and married Steris in a quiet ceremony. On their honeymoon, he tapped the beggar's coin like a metalmind and experienced a stored memory seemingly belonging to the Sovereign.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Wondering if his Pathian earring had once been a spike, Wax put it in, and Harmony spoke to him directly. Harmony confirmed the earring was a spike and that Wax's sightings of Tan were real: the killer was a Faceless Immortal named Bleeder, wearing Tan's bones.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "At Lady ZoBell's party, Wax met MeLaan, a Faceless Immortal sent to help him. He began hearing Bleeder's mocking voice through the same connection Harmony used, located her, and chased her out a window into the mists.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "10" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Ambushed by armed men, Wax concluded Bleeder was tied to the Set. When she spoke of killing his father, he hid Lord Harms and Steris, but meanwhile Bleeder murdered Father Bin, the priest meant to marry him and Steris.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Following Bleeder's trail back to the governor's mansion, Wax was distracted by her voice taunting him about why Harmony had not saved Lessie. She attacked Innate's chambers but left the governor alive, along with another message written in blood.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "16" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Wax entered the kandra Homeland and met TenSoon, who told him Bleeder's history. Chased out by Bleeder's Hemalurgic chimeras, Wax realized she wanted to incite a citywide riot. A gumball left by Wayne in the governor's study told him Bleeder had been impersonating Innate all along; she shot her way out.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "22" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "From the captured Vanishers' description of \"Mister Suit,\" Wax suspected his supposedly dead uncle Edwarn. He confronted Edwarn on a train, demanding the kidnapped women, but Edwarn mocked him and had him thrown off, though not before Wax stole his appointment book.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "epilogue" },
-            { "book": "shadows-of-self", "chapter": "25" }
+          "text": "Senator",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "2" },
+            { "book": "lost-metal", "chapter": "19" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax retired as a lawman to become a senator, settled down with Steris and had two children, Maxillium and Tindwyl. He traveled the Outer Cities and the Roughs to rally opposition to the Elendel Supremacy Bill and hunted for sold votes, but the bill passed.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        },
+        {
+          "text": "Bitter over the vote, Wax took Maxillium flying and became the first Elendel senator to board a Malwish airship. Experimenting with a trellium spike Marasi obtained, Wax, Steris and their allies discovered its explosive potential and found evidence the Set already knew. Wax raced to Bilming.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
         }
       ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Wax caught Bleeder on the Eastbridge. Wearing Lessie's face, she begged him to forsake Harmony but did not fire. Wax shot her with a special bullet Ranette had made from his earring, meant to give her a second spike so Harmony could control her again.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "25" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Refusing to be controlled, Bleeder ended her own life. Dying in his arms, she told Wax she loved him and asked why Harmony had sent her to protect him in the Roughs, and Wax realized she truly was Lessie.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Grieving Lessie's second death and furious at Harmony for hiding the truth, Wax withdrew from the mists, from his duties and from the intrigues his friends had uncovered, and agreed to postpone his wedding to Steris.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Six months on, Wax was back at work with Wayne and growing closer to Steris. On their wedding day he rebuffed a kandra seeking his help. At the altar, still not ready to let Lessie go, he was relieved when a water tower toppled onto the church and halted the ceremony.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "2" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "The kandra VenDell, waiting in Wax's study, told him about Investiture, Identity and the legendary Bands of Mourning, sought by the kandra ReLuur, whose spike was stolen in New Seran. Shown an image of his sister Telsin being dragged off, Wax agreed to help, but refused another earring, determined to act without Harmony's voice.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "On the train to New Seran, Wax found Steris increasingly good company, and her embarrassment at being caught reading a book on human reproduction only deepened his affection.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "5" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Raised in Elendel high society, Wax began being groomed at twelve to run the family's First Central Bank, but was soon disgusted by its unethical practices. He found parties a chore and often slipped away to quiet balconies, leading some to think him slow.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "shadows-of-self", "chapter": "8" },
-            { "book": "bands-of-mourning", "chapter": "9" }
+          "text": "The Set in Bilming",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "29" },
+            { "book": "lost-metal", "chapter": "34" },
+            { "book": "lost-metal", "chapter": "46" },
+            { "book": "lost-metal", "chapter": "49" },
+            { "book": "lost-metal", "chapter": "58" },
+            { "book": "lost-metal", "chapter": "63" },
+            { "book": "lost-metal", "chapter": "72" }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax arrived to find Marasi's sting a chaotic battle and turned it, then lost the Set's Coinshot Dumad in a chase. Detained with Marasi and Wayne by Bilming's police and insulted by Mayor Entrone, they were freed by Marsh, who pointed them to a \"Mister Copper,\" and joined by a Bilming constable.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+        },
+        {
+          "text": "At Tobal Copper's apartment they found the Set had beaten them there. Following Wayne's hunch, they reached a broadsheet office whose proprietor, Maraga, shared what she and Tobal had learned of the Set's plans. When Telsin appeared, Wax and Wayne went with her.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "34" }]
+        },
+        {
+          "text": "On a rooftop, Telsin tried to talk Wax out of opposing the Set, but he saw she feared he would ruin her plans and didn't realize how much he had changed. Slipping away, he searched Mayor Entrone's mansion while Wayne caused a distraction, and found a hidden tunnel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
+        },
+        {
+          "text": "In the tunnel, Dumad and Getruda ambushed them. Wayne took a bullet for Wax and kept the pair talking until Wax hit each with an explosive Hemalurgist-killer round, and they fled. Afterward Wax asked how Wayne was really doing, but Wayne shrugged it off.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "Finding the Set's lab, Wax chased its fleeing trucks, saw through the decoys, and wrecked the real one. Autonomy spoke to him through a dying passenger. Sharing Roughs beer with Wayne, Wax talked with him about whether he was a good person, then realized where the bomb was.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+        },
+        {
+          "text": "Assaulting the Shaw, Wax flanked the Set's soldiers while Wayne posed as him. Briefly using a trellium earring, he warned Telsin, then fought his way up through hundreds of soldiers with the Big Gun. At the top, Wayne persuaded the remaining guards to flee.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
+        },
+        {
+          "text": "On the roof, Wax fought Getruda, found and blew off her arm metalmind, and killed her while Wayne killed Dumad. Telsin's confidence told Wax the bomb there was a fake; the real one was on a departing Pewternaut. He spiked himself with Dumad's duralumin spike to reach it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
+        },
+        {
+          "text": "On the ship, Wax and Wayne found a dead man's switch on the three harmonium bombs and a locked course. Wayne devised a plan and Pushed Wax off the ship, then destroyed it with his Allomancy, saving Elendel. Harmony shielded Wax from the waves and he was brought back to shore.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
         }
       ]
     },
     {
-      "bookId": "bands-of-mourning",
-      "text": "When robbers uncoupled their car, Wax increased his weight and Steelpushed it back to the train, then fought off a gang of riders, throwing a huge Metalborn brute off with Ranette's new hook device. Afterward he searched anxiously for Wayne, only to find him holed up with MeLaan.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
-    },
+      "title": [
+        {
+          "text": "Building a National Assembly",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With a leg broken by Wayne's Push, Wax was allowed home from the hospital after two days. Over two years he worked to stave off civil war and helped create a National Assembly for the whole Basin, planning a tour of the Roughs to bring them into it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
     {
-      "bookId": "bands-of-mourning",
-      "text": "At fifteen Wax spent a year in the Terris Village. He caught a Twinborn arsonist, Forch, trying to dissect a kidnapped boy and killed him in self-defense during a Steelpushing fight, saving the child. Resented for bringing violence to the Village and always an outsider there, he left. In time he went to the Roughs to escape his life and, as he admitted, to become a hero.",
+      "text": "Wax dresses impeccably in fine suits, often with a duster or mistcoat and an aluminum-lined Roughs hat. He wears iron bracers as metalminds under his sleeves, keeps steel shavings and a steel button handy, and carries twin pistols and a shotgun on patrol.",
       "revealedIn": [
         {
           "all": [
-            { "book": "shadows-of-self", "chapter": "8" },
-            { "book": "bands-of-mourning", "chapter": "11" }
+            { "book": "alloy-of-law", "chapter": "4" },
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "lost-metal", "chapter": "62" }
           ]
         }
       ]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Wax spent half a year repairing his late uncle's ruinous finances and agreed to marry Steris, daughter of the wealthy Lord Harms. That same day his old partner Wayne showed up with an aluminum bullet and the mystery of the Vanishers, a gang of train robbers.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "2" },
-            { "book": "bands-of-mourning", "chapter": "11" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "On the way to Lady Kelesina Shores's ball in New Seran, a beggar gave Wax a strange coin of two metals. At the ball he heard of a secret building project to the northeast and danced with a curious foreign woman whose knowledge of his powers made him uneasy.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "12" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Using Steris's ipecac distraction, Wax followed Kelesina and overheard Edwarn's voice, actually from a voice projector, detailing his plans. Bursting in, Wax was disarmed by Kelesina's steward, who murdered her with Wax's own gun to frame him.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "15" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "With MeLaan's help, Wax escaped and found Steris waiting outside. He carried her up through the mists to a view of the Ascendant's Field, where they shared a quiet moment and kissed above the clouds.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "16" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Heading northeast, Wax helped Marasi test a device they called an Allomantic grenade. Infiltrating the construction site, the group found Edwarn building a huge warship. Wax rescued Telsin, who startled him by brutally attacking a captor, and they escaped aboard a smaller detachable ship revealed by Allik.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "20" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "After picking up Steris, Wax studied Edwarn's notebook, which pointed to a temple in the southern mountains. Telsin warned that Edwarn sought a great weapon there, raising fears the Set would get the Bands of Mourning. Arriving first, Wax and Allik used MeLaan to trigger the temple's traps safely.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "23" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Edwarn arrived claiming to know how to open the final door, and Wax let him join. The chamber was empty, and Telsin, whom Wax had suspected, shot him. Falling into a pit, he was buried by a trap Edwarn triggered. Wax told the grieving Wayne to keep fighting, and died.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Before Harmony, Wax berated him for his inaction and for Lessie. Harmony showed him a glimpse of a greater conflict and offered another adventure, which Wax accepted. He woke healed, holding the true Bands of Mourning, which Marasi had placed in his hand.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Drawing on the Bands, Wax burst from the temple with near-limitless power. Mastering himself, he confronted Edwarn one final time without using the spearhead's dangerous power.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wax retired as a lawman to become a senator, settled down with Steris and had two children, Maxillium and Tindwyl. He traveled the Outer Cities and the Roughs to rally opposition to the Elendel Supremacy Bill and hunted for sold votes, but the bill passed.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Bitter over the vote, Wax took Maxillium flying and became the first Elendel senator to board a Malwish airship. Experimenting with a trellium spike Marasi obtained, Wax, Steris and their allies discovered its explosive potential and found evidence the Set already knew. Wax raced to Bilming.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "19" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Back in Elendel, Wax gave the spearhead to the kandra and married Steris in a quiet ceremony. On their honeymoon, he tapped the beggar's coin like a metalmind and experienced a stored memory seemingly belonging to the Sovereign.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "bands-of-mourning", "chapter": "epilogue" },
-            { "book": "lost-metal", "chapter": "25" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wax arrived to find Marasi's sting a chaotic battle and turned it, then lost the Set's Coinshot Dumad in a chase. Detained with Marasi and Wayne by Bilming's police and insulted by Mayor Entrone, they were freed by Marsh, who pointed them to a \"Mister Copper,\" and joined by a Bilming constable.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "At Tobal Copper's apartment they found the Set had beaten them there. Following Wayne's hunch, they reached a broadsheet office whose proprietor, Maraga, shared what she and Tobal had learned of the Set's plans. When Telsin appeared, Wax and Wayne went with her.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "34" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "On a rooftop, Telsin tried to talk Wax out of opposing the Set, but he saw she feared he would ruin her plans and didn't realize how much he had changed. Slipping away, he searched Mayor Entrone's mansion while Wayne caused a distraction, and found a hidden tunnel.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "46" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "In the tunnel, Dumad and Getruda ambushed them. Wayne took a bullet for Wax and kept the pair talking until Wax hit each with an explosive Hemalurgist-killer round, and they fled. Afterward Wax asked how Wayne was really doing, but Wayne shrugged it off.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Finding the Set's lab, Wax chased its fleeing trucks, saw through the decoys, and wrecked the real one. Autonomy spoke to him through a dying passenger. Sharing Roughs beer with Wayne, Wax talked with him about whether he was a good person, then realized where the bomb was.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Assaulting the Shaw, Wax flanked the Set's soldiers while Wayne posed as him. Briefly using a trellium earring, he warned Telsin, then fought his way up through hundreds of soldiers with the Big Gun. At the top, Wayne persuaded the remaining guards to flee.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "63" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "On the roof, Wax fought Getruda, found and blew off her arm metalmind, and killed her while Wayne killed Dumad. Telsin's confidence told Wax the bomb there was a fake; the real one was on a departing Pewternaut. He spiked himself with Dumad's duralumin spike to reach it.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "On the ship, Wax and Wayne found a dead man's switch on the three harmonium bombs and a locked course. Wayne devised a plan and Pushed Wax off the ship, then destroyed it with his Allomancy, saving Elendel. Harmony shielded Wax from the waves and he was brought back to shore.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "With a leg broken by Wayne's Push, Wax was allowed home from the hospital after two days. Over two years he worked to stave off civil war and helped create a National Assembly for the whole Basin, planning a tour of the Roughs to bring them into it.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-7" }]
     }
   ],
   "personality": [
@@ -339,18 +495,6 @@
             { "book": "alloy-of-law", "chapter": "10" },
             { "book": "shadows-of-self", "chapter": "epilogue" },
             { "book": "bands-of-mourning", "chapter": "21" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Wax dresses impeccably in fine suits, often with a duster or mistcoat and an aluminum-lined Roughs hat. He wears iron bracers as metalminds under his sleeves, keeps steel shavings and a steel button handy, and carries twin pistols and a shotgun on patrol.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "4" },
-            { "book": "shadows-of-self", "chapter": "5" },
-            { "book": "lost-metal", "chapter": "62" }
           ]
         }
       ]

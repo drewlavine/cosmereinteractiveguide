@@ -15,53 +15,122 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "elantris",
-      "text": "Hoping to restore diplomatic ties with Arelon, Sarene arranged a political marriage with Prince Raoden, getting to know him through letters and then by Seon. When she arrived, she learned he had supposedly died of disease. Under a clause of the marriage contract, his death counted as a marriage, so she was now a widow and legally King Iadon's daughter.",
-      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "In Kae, Sarene was reunited with her uncle Kiin, whom she had called \"Hunkey Kay\" as a child. He had married Daora after moving to Arelon, but when Sarene asked why he had left Teod, he never fully answered.",
-      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Sarene soon met Raoden's circle of friends. She regarded Duke Roial as a wise, stern, grandfatherly figure whose respect she badly wanted, and saw Count Eondel as dignified and strong in body and mind despite his age.",
-      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Over her first months in Arelon, Sarene fought the gyorn Hrathen's efforts to convert the people to Shu-Dereth, and worked with Raoden's friends to change Iadon's system of government. She brought food into Elantris, where she met an Elantrian called Spirit, and taught fencing to Arelene noblewomen such as Eshen and Daora to give them more influence at court. She valued Shuden's honesty, though she thought he secretly enjoyed the court ladies' attention.",
-      "revealedIn": [{ "book": "elantris", "chapter": "17" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Sarene's father, King Eventeo, had always tried to make her happy, but did not understand how she was mocked and shunned until she explained it to him by Seon. He promised Hrathen he would convert to Shu-Dereth if her curse was lifted, and did so.",
-      "revealedIn": [{ "book": "elantris", "chapter": "45" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Hrathen won over the wealthy noble Telrii by promising him the throne. After Iadon killed himself, Sarene planned to marry Roial to keep Telrii from the crown, but on the wedding day Hrathen poisoned her so she seemed taken by the Shaod, and she was thrown into Elantris. There she studied AonDor with Raoden and found it tied to Arelon's geography. After five days the poison wore off and she returned to Kae.",
-      "revealedIn": [{ "book": "elantris", "chapter": "49" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Sarene met Raoden again, this time disguised by AonDor as a Dula noble named Kaloo. When King Telrii attacked, Raoden revealed who he was, Eondel killed Telrii, and Raoden claimed the throne.",
-      "revealedIn": [{ "book": "elantris", "chapter": "54" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Sarene persuaded the people to accept Raoden as king despite his being an Elantrian. The Derethi priests then attacked, capturing her and her family and allies in Kae. Dilaf carried her to Teoras to force King Eventeo's surrender, but with help from Hrathen, Raoden, Galladon and other Elantrians she fought back, and Kae and Teod were saved. Since Hrathen had rescued her, Sarene insisted he be honored as a hero.",
-      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
-    },
-    {
-      "bookId": "hope-of-elantris",
-      "text": "Afterward Sarene married Raoden in a grand ceremony and became Queen of Arelon, and in time she became pregnant with his child.",
-      "revealedIn": [
-        { "all": [{ "book": "elantris", "chapter": "63" }, "hope-of-elantris"] }
+      "title": [
+        {
+          "text": "Arrival in Arelon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "2" },
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoping to restore diplomatic ties with Arelon, Sarene arranged a political marriage with Prince Raoden, getting to know him through letters and then by Seon. When she arrived, she learned he had supposedly died of disease. Under a clause of the marriage contract, his death counted as a marriage, so she was now a widow and legally King Iadon's daughter.",
+          "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+        },
+        {
+          "text": "In Kae, Sarene was reunited with her uncle Kiin, whom she had called \"Hunkey Kay\" as a child. He had married Daora after moving to Arelon, but when Sarene asked why he had left Teod, he never fully answered.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "Sarene soon met Raoden's circle of friends. She regarded Duke Roial as a wise, stern, grandfatherly figure whose respect she badly wanted, and saw Count Eondel as dignified and strong in body and mind despite his age.",
+          "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+        }
       ]
+    },
+    {
+      "title": [
+        {
+          "text": "Politics in Kae",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over her first months in Arelon, Sarene fought the gyorn Hrathen's efforts to convert the people to Shu-Dereth, and worked with Raoden's friends to change Iadon's system of government. She brought food into Elantris, where she met an Elantrian called Spirit, and taught fencing to Arelene noblewomen such as Eshen and Daora to give them more influence at court. She valued Shuden's honesty, though she thought he secretly enjoyed the court ladies' attention.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "Sarene's father, King Eventeo, had always tried to make her happy, but did not understand how she was mocked and shunned until she explained it to him by Seon. He promised Hrathen he would convert to Shu-Dereth if her curse was lifted, and did so.",
+          "revealedIn": [{ "book": "elantris", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The struggle for the throne",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "49" },
+            { "book": "elantris", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hrathen won over the wealthy noble Telrii by promising him the throne. After Iadon killed himself, Sarene planned to marry Roial to keep Telrii from the crown, but on the wedding day Hrathen poisoned her so she seemed taken by the Shaod, and she was thrown into Elantris. There she studied the Aons with Raoden and found it tied to Arelon's geography. After five days the poison wore off and she returned to Kae.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        },
+        {
+          "text": "Sarene met Raoden again, this time disguised by an Aon illusion as a Dula noble named Kaloo. When King Telrii attacked, Raoden revealed who he was, Eondel killed Telrii, and Raoden claimed the throne.",
+          "revealedIn": [{ "book": "elantris", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Derethi attack",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sarene persuaded the people to accept Raoden as king despite his being an Elantrian. The Derethi priests then attacked, capturing her and her family and allies in Kae. Dilaf carried her to Teoras to force King Eventeo's surrender, but with help from Hrathen, Raoden, Galladon and other Elantrians she fought back, and Kae and Teod were saved. Since Hrathen had rescued her, Sarene insisted he be honored as a hero.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Queen of Arelon",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "63" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Afterward Sarene married Raoden in a grand ceremony and became Queen of Arelon, and in time she became pregnant with his child.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "63" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Sarene is tall and thin, with fair hair and silver-grey eyes.",
+      "revealedIn": [{ "book": "elantris", "chapter": "55" }]
     }
   ],
   "personality": [
@@ -70,7 +139,7 @@
       "revealedIn": [{ "book": "elantris", "chapter": "5" }]
     },
     {
-      "text": "Sarene is tall and thin, with fair hair and silver-grey eyes. Bold, strategic and political, she is a natural leader who quickly took charge of Raoden's group despite strong personalities like Roial and Ahan. She cannot leave a mystery unsolved and is good at spotting lies.",
+      "text": "Bold, strategic and political, Sarene is a natural leader who quickly took charge of Raoden's group despite strong personalities like Roial and Ahan. She cannot leave a mystery unsolved and is good at spotting lies.",
       "revealedIn": [{ "book": "elantris", "chapter": "55" }]
     },
     {

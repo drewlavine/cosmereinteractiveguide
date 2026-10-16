@@ -32,151 +32,291 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "way-of-kings",
-      "text": "At Elhokar's chasmfiend hunt, Renarin tried to calm Adolin's anger at Sadeas and endured Wit's teasing. When the beast attacked, he rode out to help, but Dalinar angrily sent him back. At the feast that night he held Adolin back from attacking Sadeas, who mocked Renarin's conduct during the hunt.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "52" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "94" },
+                { "book": "rhythm-of-war", "chapter": "34" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Renarin was born while Dalinar was away campaigning against the Vedens. When Dalinar did not answer her request for a name, Evi named him herself, meaning \"Re, born unto Dalinar\"; Dalinar disliked the name. Renarin grew up in Kholinar as the highprince's second son.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "52" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As a child Renarin developed a blood weakness that made him unfit for combat, unlike Adolin, who began sword training at six. His mother told him the myth of Parasaphi and Nadris.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Evi's death, Renarin often burned incense in his rooms, a smell that reminded Dalinar of her. During the worst of Dalinar's drinking, Renarin used spheres Gavilar had given him to buy his father wine. He was bullied as a child, which often angered Adolin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "94" },
+                { "book": "rhythm-of-war", "chapter": "34" }
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
-      "bookId": "way-of-kings",
-      "text": "Dalinar forced Sadeas to back down from calling Renarin useless. Renarin surprised Wit with a clever retort. When Dalinar scolded him for endangering himself, Renarin tried to explain that his blood weakness kept him from fighting, but Dalinar misunderstood and promised him the next Shardplate and Shardblade he won.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "way-of-kings", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Gavilar's assassination, Renarin went to the Shattered Plains with Dalinar and Adolin to fulfill the Vengeance Pact.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        },
+        {
+          "text": "At Elhokar's chasmfiend hunt, Renarin tried to calm Adolin's anger at Sadeas and endured Wit's teasing. When the beast attacked, he rode out to help, but Dalinar angrily sent him back. At the feast that night he held Adolin back from attacking Sadeas, who mocked Renarin's conduct during the hunt.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "Dalinar forced Sadeas to back down from calling Renarin useless. Renarin surprised Wit with a clever retort. When Dalinar scolded him for endangering himself, Renarin tried to explain that his blood weakness kept him from fighting, but Dalinar misunderstood and promised him the next Shardplate and Shardblade he won.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "Renarin was often with Dalinar during his highstorm visions. When Dalinar hesitated to share them, fearing they were too close to forbidden foretelling, Renarin pointed out that they showed the past, not the future.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        },
+        {
+          "text": "After Sadeas abandoned Dalinar at the Tower, Renarin followed Navani to Sadeas's camp seeking news and thanked her for her glyph prayer. He joyfully embraced Dalinar and Adolin when they returned. After Dalinar traded his Shardblade for Kaladin and the bridgemen, he gave his Shardplate to Renarin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
     },
     {
-      "bookId": "way-of-kings",
-      "text": "Renarin was often with Dalinar during his highstorm visions. When Dalinar hesitated to share them, fearing they were too close to forbidden foretelling, Renarin pointed out that they showed the past, not the future.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+      "title": [
+        {
+          "text": "A new Shardbearer",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "words-of-radiance", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        },
+        {
+          "text": "Shardbearer and bridgeman",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Shardbearer, bridgeman and Radiant",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly after receiving his Shardplate, Renarin began writing numbers on the walls during highstorms, counting down to a coming storm. On a joint plateau assault he wanted to help defend a bridge, but when he summoned his Blade he heard it screeching in his mind and froze.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        },
+        {
+          "text": "Adolin gave Renarin the Shardblade he won from Salinor Eved in a duel. Zahel began training Renarin with his Shards, impressed by his obedience, and had him repeatedly jump off the dueling grounds' roof in Plate to build his confidence.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "18" }]
+        },
+        {
+          "text": "When the Assassin in White attacked during a highstorm, Renarin was ordered to take Elhokar to safety. The next day he begged Kaladin to let him join Bridge Four and was set to washing bowls. The bridgemen were uneasy at first but came to accept him. Zahel also taught him delicate control of his Plate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Adolin borrowed Renarin's Shardplate, once Dalinar's, to pose as his father when meeting Eshonai.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
+        },
+        {
+          "text": "When Adolin fought four Shardbearers at once, Renarin joined in without Plate but froze when his Blade screeched in his mind. He dismissed it when Relis charged him, and Kaladin intervened. Afterward Renarin helped remove Adolin's drained Plate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        },
+        {
+          "text": "By the time Kaladin left prison, Renarin was fully part of Bridge Four and was learning to carry the bridge, making his first full carry during Shallan's expedition onto the Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "On the expedition to the center of the Shattered Plains, Renarin escorted Shallan and her scholars to the Oathgate during the Battle of Narak and cut an opening into its control building with his Shardblade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+        },
+        {
+          "text": "While Shallan worked out the Oathgate, Renarin crouched on the floor scrawling zeros and muttering that he had seen the coming storm and they were doomed, until Shallan threatened to gag him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "Renarin then joined a meeting of Dalinar, Kaladin and Shallan and told them that he too was a Knight Radiant, a Truthwatcher, saying his ability was to see the truth of things. Dalinar realized this was why he had stopped wearing spectacles, and that he froze when summoning his Blade because he heard its screams.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
     },
     {
-      "bookId": "way-of-kings",
-      "text": "After Sadeas abandoned Dalinar at the Tower, Renarin followed Navani to Sadeas's camp seeking news and thanked her for her glyph prayer. He joyfully embraced Dalinar and Adolin when they returned. After Dalinar traded his Shardblade for Kaladin and the bridgemen, he gave his Shardplate to Renarin.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "10" },
+            { "book": "oathbringer", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "117" },
+            { "book": "oathbringer", "chapter": "i-13" },
+            { "book": "oathbringer", "chapter": "109" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        },
+        {
+          "text": "Urithiru and Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Dalinar asked Renarin to master his powers so he could teach new Radiants. Renarin told Adolin he had to return the Shardblade because of its screams, summoned his spren as a Blade to show he was not defenseless, and healed Adolin's hand.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        },
+        {
+          "text": "Renarin joined Adolin and Bridge Four in Shardplate to help Shallan fight an Unmade in the tower's depths. Unsettled by its creeping darkness, he froze until Teft called him into formation, then healed the bridgemen and guarded Adolin's back during the fight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "Baking bread with Rock, Renarin discussed his place in Bridge Four now that the others were becoming Windrunner squires. When Fused attacked the caravan bringing Rock's family, Renarin fetched Adolin and troops, and his healing saved several lives.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        },
+        {
+          "text": "At a scholars' meeting, Renarin suggested the tower was one great fabrial and was mocked as feminine by Janala before Shallan defended him; he then gave Shallan the idea of joining the Kholinar mission. Dalinar's quiet support gave him confidence, and at a subsequent meeting Renarin's visions led him to open the Gem Archive of Radiant recordings.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "Sent to Thaylen City's crowded hospitals, Renarin healed many of those wounded by the Everstorm, giving the credit to Dalinar. He could not heal Rysn's legs because too much time had passed since her injury.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        },
+        {
+          "text": "Renarin attended meetings of the tower's scholars and searched for patterns in the gem archive. Navani, seeing how happy he was with the bridgemen, encouraged him to spend more time with them, and had him try to push Stormlight into the tower's heart, without success.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "109" }]
+        },
+        {
+          "text": "At the coalition meeting in Thaylen City, Renarin asked Kdralk whether the Thaylen reserve held large gemstones, without explaining why, then excused himself just before news of the Eila Stele arrived.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "During the battle at Thaylen City, Renarin sat in the temple of Pailiah seeing visions as panes of stained glass. Jasnah, realizing his spren Glys was corrupted, came to kill him. Seeing a vision of Dalinar becoming Odium's champion and of his own death, Renarin accepted it, but Jasnah could not strike and embraced him instead, showing him his visions could be wrong.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Jasnah dragged Renarin across the city toward Dalinar, insisting he could keep up as a Radiant, and Soulcast the soldiers he warned had turned traitor. Dalinar then sent Renarin to take the Oathgate from the Thunderclast guarding it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        },
+        {
+          "text": "Renarin healed Adolin, then faced the Thunderclast, which crushed him under its fist. Healing himself, he cut off its limbs with Hrdalm's help and, at Glys's direction, drove the life out of it with Stormlight, surviving a fight his visions said would kill him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Twelve Fused guarded the Oathgate, but a vision showed Renarin Teft becoming Radiant and activating it; he smiled at the Fused just before Teft emerged with Kholin troops. Renarin told Bridge Four to guard the Oathgate, accepted a hug from Rock, rested, and then healed the gravely wounded.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Adolin gave Renarin the Shardblade he won from Salinor Eved in a duel. Zahel began training Renarin with his Shards, impressed by his obedience, and had him repeatedly jump off the dueling grounds' roof in Plate to build his confidence.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "18" }]
-    },
+      "title": [
+        {
+          "text": "Hearthstone and Emul",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "12" },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "50" },
+            { "book": "rhythm-of-war", "chapter": "54" },
+            { "book": "rhythm-of-war", "chapter": "113" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the evacuation of Hearthstone, Renarin calmed frightened children with a ball of light and carried supplies with Dabbid. When Moash's taunts froze Kaladin, Renarin drove Moash off by showing him an image of an alternate, Radiant version of himself, then helped Kaladin back to the airship.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        },
+        {
+          "text": "The coalition chose not to send Renarin to the honorspren, worried about how they would react to his spren's corruption.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "In Emul, Renarin waited outside while Jasnah stabbed Highprince Ruthar, then healed him as planned. He apologized to Dalinar for not warning him and mentioned a new vision.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        },
+        {
+          "text": "Renarin worried Odium might shape his visions, but Dalinar convinced him to share. Renarin's vision suggested Odium would delay any real contest of champions indefinitely, and showed a blackness representing Renarin himself, since his future sight clouds Odium's. Dalinar urged him not to hide his abilities, but Renarin feared people would reject him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+        },
+        {
+          "text": "At Glys's urging, Renarin asked Dalinar whether more Radiants should bond spren corrupted by Sja-anat; Dalinar was uncomfortable with the idea. Asked who might suit such a bond, Renarin suggested Rlain.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+        },
+        {
+          "text": "After a vision of Taravangian shrouded in darkness with a point of light breaking through, Renarin told him he could still be redeemed. In the following weeks Renarin sent Taravangian a note saying \"I'm sorry\" along with gemstones holding corrupted windspren, which Taravangian used to summon Odium and slay him with Nightblood. How much Renarin knew is unclear.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
     {
-      "bookId": "words-of-radiance",
-      "text": "When the Assassin in White attacked during a highstorm, Renarin was ordered to take Elhokar to safety. The next day he begged Kaladin to let him join Bridge Four and was set to washing bowls. The bridgemen were uneasy at first but came to accept him. Zahel also taught him delicate control of his Plate.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Adolin borrowed Renarin's Shardplate, once Dalinar's, to pose as his father when meeting Eshonai.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "By the time Kaladin left prison, Renarin was fully part of Bridge Four and was learning to carry the bridge, making his first full carry during Shallan's expedition onto the Plains.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "On the expedition to the center of the Shattered Plains, Renarin escorted Shallan and her scholars to the Oathgate during the Battle of Narak and cut an opening into its control building with his Shardblade.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "While Shallan worked out the Oathgate, Renarin crouched on the floor scrawling zeros and muttering that he had seen the coming storm and they were doomed, until Shallan threatened to gag him.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Renarin joined Dalinar, Kaladin and Shallan's meeting of Radiants and revealed that he too was a Knight Radiant, a Truthwatcher. He had been writing the countdown numbers on the walls, guided by visions from a spren he had bonded. Stormlight had healed his eyes, and he froze whenever he summoned his Shardblade because he heard its screams.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "When Adolin fought four Shardbearers at once, Renarin joined in without Plate but froze when his Blade screeched in his mind. He dismissed it when Relis charged him, and Kaladin intervened. Afterward Renarin helped remove Adolin's drained Plate.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "In Urithiru, Dalinar asked Renarin to master his powers so he could teach new Radiants. Renarin told Adolin he had to return the Shardblade because of its screams, summoned his spren as a Blade to show he was not defenseless, and healed Adolin's hand.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Renarin joined Adolin and Bridge Four in Shardplate to help Shallan fight an Unmade in the tower's depths. Unsettled by its creeping darkness, he froze until Teft called him into formation, then healed the bridgemen and guarded Adolin's back during the fight.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Baking bread with Rock, Renarin discussed his place in Bridge Four now that the others were becoming Windrunner squires. When Fused attacked the caravan bringing Rock's family, Renarin fetched Adolin and troops, and his healing saved several lives.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Renarin attended meetings of the tower's scholars and searched for patterns in the gem archive. Navani, seeing how happy he was with the bridgemen, encouraged him to spend more time with them, and had him try to push Stormlight into the tower's heart, without success.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "109" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "At the coalition meeting in Thaylen City, Renarin asked Kdralk whether the Thaylen reserve held large gemstones, without explaining why, then excused himself just before news of the Eila Stele arrived.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Sent to Thaylen City's crowded hospitals, Renarin healed many of those wounded by the Everstorm, giving the credit to Dalinar. He could not heal Rysn's legs because too much time had passed since her injury.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "At a scholars' meeting, Renarin suggested the tower was one great fabrial and was mocked as feminine by Janala before Shallan defended him; he then gave Shallan the idea of joining the Kholinar mission. Dalinar's quiet support gave him confidence, and at a subsequent meeting Renarin's visions led him to open the Gem Archive of Radiant recordings.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "During the battle at Thaylen City, Renarin sat in the temple of Pailiah seeing visions as panes of stained glass. Jasnah, realizing his spren Glys was corrupted, came to kill him. Seeing a vision of Dalinar becoming Odium's champion and of his own death, Renarin accepted it, but Jasnah could not strike and embraced him instead, showing him his visions could be wrong.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Jasnah dragged Renarin across the city toward Dalinar, insisting he could keep up as a Radiant, and Soulcast the soldiers he warned had turned traitor. Dalinar then sent Renarin to take the Oathgate from the Thunderclast guarding it.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Renarin healed Adolin, then faced the Thunderclast, which crushed him under its fist. Healing himself, he cut off its limbs with Hrdalm's help and, at Glys's direction, drove the life out of it with Stormlight, surviving a fight his visions said would kill him.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Twelve Fused guarded the Oathgate, but a vision showed Renarin Teft becoming Radiant and activating it; he smiled at the Fused just before Teft emerged with Kholin troops. Renarin told Bridge Four to guard the Oathgate, accepted a hug from Rock, rested, and then healed the gravely wounded.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "During the evacuation of Hearthstone, Renarin calmed frightened children with a ball of light and carried supplies with Dabbid. When Moash's taunts froze Kaladin, Renarin drove Moash off by showing him an image of an alternate, Radiant version of himself, then helped Kaladin back to the airship.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "The coalition chose not to send Renarin to the honorspren, worried about how they would react to his spren's corruption.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "In Emul, Renarin waited outside while Jasnah stabbed Highprince Ruthar, then healed him as planned. He apologized to Dalinar for not warning him and mentioned a new vision.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Renarin worried Odium might shape his visions, but Dalinar convinced him to share. Renarin's vision suggested Odium would delay any real contest of champions indefinitely, and showed a blackness representing Renarin himself, since his future sight clouds Odium's. Dalinar urged him not to hide his abilities, but Renarin feared people would reject him.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "At Glys's urging, Renarin asked Dalinar whether more Radiants should bond spren corrupted by Sja-anat; Dalinar was uncomfortable with the idea. Asked who might suit such a bond, Renarin suggested Rlain.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "After a vision of Taravangian shrouded in darkness with a point of light breaking through, Renarin told him he could still be redeemed. In the following weeks Renarin sent Taravangian a note saying \"I'm sorry\" along with gemstones holding corrupted windspren, which Taravangian used to summon Odium and slay him with Nightblood. How much Renarin knew is unclear.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+      "text": "Renarin is slender, with sapphire eyes and black hair flecked with blond, and long wore spectacles. He usually wears a Kholin officer's uniform, and after joining Bridge Four, theirs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "i-9" }
+          ]
+        }
+      ]
     }
   ],
   "personality": [
@@ -199,19 +339,6 @@
             { "book": "way-of-kings", "chapter": "60" },
             { "book": "words-of-radiance", "chapter": "49" },
             { "book": "oathbringer", "chapter": "55" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Renarin is slender, with sapphire eyes and black hair flecked with blond, and long wore spectacles. He usually wears a Kholin officer's uniform, and after joining Bridge Four, theirs.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "way-of-kings", "chapter": "26" },
-            { "book": "words-of-radiance", "chapter": "89" },
-            { "book": "oathbringer", "chapter": "9" },
-            { "book": "rhythm-of-war", "chapter": "i-9" }
           ]
         }
       ]

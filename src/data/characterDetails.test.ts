@@ -3,8 +3,10 @@ import { books } from './books'
 import { chapters } from './chapters'
 import { findCharacter } from './characters'
 import { characterDetails } from './characterDetails'
+import { characterPortraits } from './characterPortraits'
 import { personas } from './reveal'
 import { systems } from './systems'
+import { characterTravels } from './travels'
 import type { CharacterStory, Reveal, StoryItem } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
@@ -148,6 +150,7 @@ describe('character details', () => {
           [`history[${j}].title`, sec.title],
           [`history[${j}].items`, sec.items],
         ]),
+        ['appearance', s.appearance],
         ['personality', s.personality],
       ]
       for (const [kind, items] of groups)
@@ -168,6 +171,38 @@ describe('character details', () => {
       for (const sec of s.history ?? []) {
         expect(sec.title.length, id).toBeGreaterThan(0)
         expect(sec.items.length, id).toBeGreaterThan(0)
+      }
+    }
+  })
+
+  it('dates every portrait and finds its image', () => {
+    const portraitFiles = Object.keys(
+      import.meta.glob('../../public/portraits/*'),
+    )
+    const pageIds = new Set(personas.map((p) => p.id))
+    for (const [id, list] of Object.entries(characterPortraits)) {
+      expect(characterDetails[id] ?? pageIds.has(id), id).toBeTruthy()
+      for (const art of list) {
+        const where = `${id} ${art.src}`
+        expect(portraitFiles, where).toContain(`../../public${art.src}`)
+        expect(art.alt.trim(), where).not.toBe('')
+        expect(art.artist.trim(), where).not.toBe('')
+        expectValidReveal(art.revealedIn, where)
+      }
+    }
+  })
+
+  it('names worlds that exist on every travel stop', () => {
+    for (const [id, stops] of Object.entries(characterTravels)) {
+      expect(characterDetails[id], id).toBeDefined()
+      for (const stop of stops) {
+        expect(planetIds, id).toContain(stop.planetId)
+        expect(stop.events.length, id).toBeGreaterThan(0)
+        for (const e of [
+          ...stop.events,
+          ...(stop.uncertain ? [stop.uncertain] : []),
+        ])
+          expectValidReveal(e.revealedIn, `${id} ${stop.planetId}: ${e.text}`)
       }
     }
   })

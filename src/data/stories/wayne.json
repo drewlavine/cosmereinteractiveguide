@@ -13,180 +13,271 @@
       "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "alloy-of-law",
-      "text": "After Wax returned to Elendel, Wayne, left in charge of Weathering, followed the trail of the Vanishers, a gang of theatrical thieves, to the city. He barged in on Wax's meeting with Lord Harms posing as Wax's uncle, then privately urged Wax to go after the gang.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Wayne attended the Yomen-Ostlin wedding dinner disguised as a waiter. When the Vanishers attacked, he and Wax fought them off, but the survivors escaped with Steris, and the bandit Tarson took Wayne's lucky hat.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Disguised as a constable and then as a Vanisher, Wayne interrogated captured gang members and learned of a hideout. When Wax's butler tried to kill them with a bomb, Wayne's speed bubble bought time to escape, and he shielded the others, healing himself. At the empty hideout, he found a cigar box pointing to Miles Dagouter.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "After Miles attacked their train, Wayne bribed a hostile Ranette with a stolen aluminum gun to let them in. He stole shipping manifests and, disguised as an old woman, scouted the Breaknaught, a heavily armored train. During a staged attack, he threw a supposedly wounded Wax into a train car and locked it.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "16" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Watching with Marasi, Wayne saw how the Vanishers swapped out train cars, and the two followed the stolen car to the hideout, where Wayne joined Wax in the thick of the fighting.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "When Tarson took Marasi hostage, Wayne's speed bubble let Wax make a near-impossible shot. As Wax fought Miles, Marasi slowed time around them, giving Wayne time to bring constables, who overwhelmed Miles.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Wayne alerted Wax that the Marksman was on the move and joined the chase. When the Marksman fled into the slums, Wayne blended in with locals, followed one to his hideout and captured him, but Marks was shot dead as they left.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
-    },
-    {
-      "bookId": "shadows-of-self",
-      "text": "Drifting into pickpocketing, Wayne robbed a man at gunpoint and accidentally killed him. At trial he learned the victim was a bookkeeper, charity worker and father of three. Wax saved him from hanging, and the two became partners. Afterward Wayne's hands shook whenever he held a gun, and he sent half his earnings to the widow, visiting the eldest child, Allriandre, monthly though she never forgave him.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "10" },
-            { "book": "shadows-of-self", "chapter": "5" }
+          "text": "Tinweight Settlement",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne grew up in Tinweight Settlement, where his father worked the mine. After his father and then his uncle Gregr died in mining accidents, his mother went to work in the mine while Wayne took over her laundry work. He fell into the habit of taking things and dreamed of making a living at cards. His mother also died in a collapse.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Roughs",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drifting into pickpocketing, Wayne robbed a man at gunpoint and accidentally killed him. At trial he learned the victim was a bookkeeper, charity worker and father of three. Wax saved him from hanging, and the two became partners. Afterward Wayne's hands shook whenever he held a gun, and he sent half his earnings to the widow, visiting the eldest child, Allriandre, monthly though she never forgave him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "10" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "On the first of the month, Wayne snuck into Elendel University to give Allriandre her stipend; she made him recite his crime again and refused to forgive him. He and Wax then found the Terris Steelrunner Idashwy dead with a hole in her chest, and concluded her killer had used Hemalurgy to steal her powers.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+      "title": [
+        {
+          "text": "Investigating the Vanishers",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "alloy-of-law", "chapter": "6" },
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "alloy-of-law", "chapter": "16" },
+            { "book": "alloy-of-law", "chapter": "18" },
+            { "book": "alloy-of-law", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Wax returned to Elendel, Wayne, left in charge of Weathering, followed the trail of the Vanishers, a gang of theatrical thieves, to the city. He barged in on Wax's meeting with Lord Harms posing as Wax's uncle, then privately urged Wax to go after the gang.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "Wayne attended the Yomen-Ostlin wedding dinner disguised as a waiter. When the Vanishers attacked, he and Wax fought them off, but the survivors escaped with Steris, and the bandit Tarson took Wayne's lucky hat.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "6" }]
+        },
+        {
+          "text": "Disguised as a constable and then as a Vanisher, Wayne interrogated captured gang members and learned of a hideout. When Wax's butler tried to kill them with a bomb, Wayne's speed bubble bought time to escape, and he shielded the others, healing himself. At the empty hideout, he found a cigar box pointing to Miles Dagouter.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        },
+        {
+          "text": "After Miles attacked their train, Wayne bribed a hostile Ranette with a stolen aluminum gun to let them in. He stole shipping manifests and, disguised as an old woman, scouted the Breaknaught, a heavily armored train. During a staged attack, he threw a supposedly wounded Wax into a train car and locked it.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "16" }]
+        },
+        {
+          "text": "Watching with Marasi, Wayne saw how the Vanishers swapped out train cars, and the two followed the stolen car to the hideout, where Wayne joined Wax in the thick of the fighting.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+        },
+        {
+          "text": "When Tarson took Marasi hostage, Wayne's speed bubble let Wax make a near-impossible shot. As Wax fought Miles, Marasi slowed time around them, giving Wayne time to bring constables, who overwhelmed Miles.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        }
+      ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Turned away from Lady ZoBell's party, Wayne got in posing as a mathematics professor with Marasi as his assistant, bluffing off a colleague who recognized him. A young woman slapped him, saying he had stolen her father's invention. He tackled a suspicious server for Wax, then stayed to guard the governor and deduced the server wasn't Bleeder.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+      "title": [
+        {
+          "text": "Cases in Elendel",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "shadows-of-self", "chapter": "12" },
+            { "book": "shadows-of-self", "chapter": "19" },
+            { "book": "shadows-of-self", "chapter": "21" },
+            { "book": "shadows-of-self", "chapter": "26" },
+            { "book": "shadows-of-self", "chapter": "epilogue" }
+          ]
+        },
+        {
+          "text": "The hunt for Bleeder",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne alerted Wax that the Marksman was on the move and joined the chase. When the Marksman fled into the slums, Wayne blended in with locals, followed one to his hideout and captured him, but Marks was shot dead as they left.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "3" }]
+        },
+        {
+          "text": "On the first of the month, Wayne snuck into Elendel University to give Allriandre her stipend; she made him recite his crime again and refused to forgive him. He and Wax then found the Terris Steelrunner Idashwy dead with a hole in her chest, and concluded her killer had used Hemalurgy to steal her powers.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "Turned away from Lady ZoBell's party, Wayne got in posing as a mathematics professor with Marasi as his assistant, bluffing off a colleague who recognized him. A young woman slapped him, saying he had stolen her father's invention. He tackled a suspicious server for Wax, then stayed to guard the governor and deduced the server wasn't Bleeder.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+        },
+        {
+          "text": "At a bar-like temple of the Common Man, Wayne cheered up the patrons and met the kandra MeLaan, who explained how to remove Bleeder's spike. Guarding Governor Innate together, Wayne and MeLaan grew close as he coached her on accents.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+        },
+        {
+          "text": "Fleeing a riot after being recognized, Wayne returned to Innate's manor, heard the governor's accent was off, and realized he was Bleeder. Bleeder spotted him, stripped his metalminds, drugged him and stuffed him in a closet.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+        },
+        {
+          "text": "Wax freed Wayne before chasing Bleeder. Wounded, Wayne stayed onstage beside MeLaan as she posed as the governor to calm the city, but the speech failed until Aradel arrested her for corruption and won the crowds over.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+        },
+        {
+          "text": "After Wax killed Bleeder and learned she had been Lessie, Wayne tried to help him grieve. He also sought out the girl who had slapped him, recognized her father as the true inventor of the incandescent lightbulb, and offered to fund their inventions.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "At a bar-like temple of the Common Man, Wayne cheered up the patrons and met the kandra MeLaan, who explained how to remove Bleeder's spike. Guarding Governor Innate together, Wayne and MeLaan grew close as he coached her on accents.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "19" }]
+      "title": [
+        {
+          "text": "The search for the Bands",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "bands-of-mourning", "chapter": "9" },
+            { "book": "bands-of-mourning", "chapter": "14" },
+            { "book": "bands-of-mourning", "chapter": "17" },
+            { "book": "bands-of-mourning", "chapter": "21" },
+            { "book": "bands-of-mourning", "chapter": "28" },
+            { "book": "bands-of-mourning", "chapter": "29" },
+            { "book": "bands-of-mourning", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne had his friends sabotage Wax and Steris's wedding by flooding the church, though they went further than he expected by toppling a water tower. A talk with Marasi convinced him to give up on Ranette, and he told Ranette so.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
+        },
+        {
+          "text": "On the train to New Seran, Wayne collected accents and talked with Marasi about living in Wax's shadow. He and MeLaan spent the rest of the ride making out in a luggage compartment, missing the Nightstreet Gang's attack entirely, to Marasi's outrage.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
+        },
+        {
+          "text": "In New Seran, Wayne and Marasi hunted for ReLuur's spike. Bribing the gravekeeper Dechamp to dig up ReLuur's grave, they were ambushed by Set gunmen who killed Dechamp. Wayne was delighted to learn criminals feared him so much, and the pair drove the attackers off.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
+        },
+        {
+          "text": "Disguised as Death, Wayne tricked Templeton Fig into revealing that ReLuur's spike had gone to Dulsing. There, Wax Pushed Wayne over the guarded border by his belt; Wayne healed from the landing and cut the power to the floodlights so the others could sneak in.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "17" }]
+        },
+        {
+          "text": "Wayne distracted guards so Wax could free Telsin, but a huge firefight broke out, the soldiers knowing to keep shooting him even when he played dead. Following Allik, the group escaped aboard a small airship using weight medallions, picked up Steris, and headed for the Sovereign's temple.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "At the temple, Wayne took the spearhead from a statue of the Sovereign. Edwarn arrived under a flag of parley, and helped Wax open the inner door, but the pedestal was empty. Telsin betrayed them, an Allomantic grenade drained Wayne's metals, and he escaped while the others were captured.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+        },
+        {
+          "text": "Wayne healed from a spike pit and found Wax pinned beneath rock. He drove off Edwarn but couldn't free Wax and wept as he died. After Telsin took MeLaan's spikes, Wayne shot Telsin in the face, knowing her goldminds would heal her, and recovered MeLaan's and ReLuur's spikes, restoring MeLaan.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+        },
+        {
+          "text": "After Wax defeated Edwarn and a deal was struck with Jordis's crew, Wayne flew home to Elendel with the others, talking with Wax about shooting Telsin.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
+        }
+      ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Fleeing a riot after being recognized, Wayne returned to Innate's manor, heard the governor's accent was off, and realized he was Bleeder. Bleeder spotted him, stripped his metalminds, drugged him and stuffed him in a closet.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+      "title": [
+        {
+          "text": "Investigating the Set",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "16" },
+            { "book": "lost-metal", "chapter": "8" },
+            { "book": "lost-metal", "chapter": "49" },
+            { "book": "lost-metal", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Grown wealthy through risky investments, especially in Tarcsel Electric, Wayne spent six years practicing with bendalloy, learning to make speed bubbles faster, control their size, and shape them.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+        },
+        {
+          "text": "Six years after the Bands were recovered, Wayne and Marasi took down a Set-organized gang in Elendel, Wayne handling most of them himself.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "8" }]
+        },
+        {
+          "text": "MeLaan broke up with Wayne before leaving to explore the cosmere, leaving him crushed and drinking. Encouraged by Ranette, he arranged for a bank to handle his payments to Allriandre.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
+        },
+        {
+          "text": "On Marasi's raid of a Set warehouse in Bilming, Wayne and VenDell posed as Set members until the Bilming constabulary stormed in. Wayne fought Getruda, a Set agent modeled on him. Allowed to stay with a Bilming escort, Moonlight, they found the Set had killed Tobal Copper and learned from a broadsheet owner of a rocket meant to carry a bomb to Elendel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "Wayne created a distraction so Wax could search Entrone's office. In a passage under Entrone's manor they defeated the Set agents Dumad and Getruda, though Wayne used up much of his stored healing.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "Arriving too late at the Set's laboratory, Wax and Wayne shared old Roughs beer atop a billboard, where they talked about Wayne's past and Wax tried to convince him he was a good person.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+        }
+      ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "Wax freed Wayne before chasing Bleeder. Wounded, Wayne stayed onstage beside MeLaan as she posed as the governor to calm the city, but the speech failed until Aradel arrested her for corruption and won the crowds over.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "26" }]
+      "title": [
+        {
+          "text": "Stopping the bomb",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "66" },
+            { "book": "lost-metal", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fighting up the Shaw, Bilming's tallest building, Wayne talked a group of frightened guards into fleeing. He took on Dumad, grappling him into the sky and stealing his aluminum flask so they plummeted and Dumad died. The bomb atop the tower proved a decoy; the real one was on a ship bound for Elendel.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
+        },
+        {
+          "text": "Spiking themselves with Dumad's and Getruda's spikes, Wax and Wayne flew to the bomb ship. Unable to disarm it, Wayne devised a plan using bendalloy and steel that Harmony said could work. He Pushed Wax off the ship, swallowed some lerasium, and went down to the three-barrel bomb.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+        },
+        {
+          "text": "Wayne consumed all seventeen pouches of his bendalloy and formed a perfect speed bubble around the three barrels. Burning duralumin and bendalloy together, he filled each barrel with water and Pushed them out of the bubble to detonate. When the bubble dropped, he was killed by the explosion.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+        }
+      ]
     },
     {
-      "bookId": "shadows-of-self",
-      "text": "After Wax killed Bleeder and learned she had been Lessie, Wayne tried to help him grieve. He also sought out the girl who had slapped him, recognized her father as the true inventor of the incandescent lightbulb, and offered to fund their inventions.",
-      "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Wayne had his friends sabotage Wax and Steris's wedding by flooding the church, though they went further than he expected by toppling a water tower. A talk with Marasi convinced him to give up on Ranette, and he told Ranette so.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "4" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "On the train to New Seran, Wayne collected accents and talked with Marasi about living in Wax's shadow. He and MeLaan spent the rest of the ride making out in a luggage compartment, missing the Nightstreet Gang's attack entirely, to Marasi's outrage.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "9" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "In New Seran, Wayne and Marasi hunted for ReLuur's spike. Bribing the gravekeeper Dechamp to dig up ReLuur's grave, they were ambushed by Set gunmen who killed Dechamp. Wayne was delighted to learn criminals feared him so much, and the pair drove the attackers off.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "14" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Disguised as Death, Wayne tricked Templeton Fig into revealing that ReLuur's spike had gone to Dulsing. There, Wax Pushed Wayne over the guarded border by his belt; Wayne healed from the landing and cut the power to the floodlights so the others could sneak in.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "17" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Wayne distracted guards so Wax could free Telsin, but a huge firefight broke out, the soldiers knowing to keep shooting him even when he played dead. Following Allik, the group escaped aboard a small airship using weight medallions, picked up Steris, and headed for the Sovereign's temple.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "At the temple, Wayne took the spearhead from a statue of the Sovereign. Edwarn arrived under a flag of parley, and helped Wax open the inner door, but the pedestal was empty. Telsin betrayed them, an Allomantic grenade drained Wayne's metals, and he escaped while the others were captured.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Wayne healed from a spike pit and found Wax pinned beneath rock. He drove off Edwarn but couldn't free Wax and wept as he died. After Telsin took MeLaan's spikes, Wayne shot Telsin in the face, knowing her goldminds would heal her, and recovered MeLaan's and ReLuur's spikes, restoring MeLaan.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "After Wax defeated Edwarn and a deal was struck with Jordis's crew, Wayne flew home to Elendel with the others, talking with Wax about shooting Telsin.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "30" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wayne grew up in Tinweight Settlement, where his father worked the mine. After his father and then his uncle Gregr died in mining accidents, his mother went to work in the mine while Wayne took over her laundry work. He fell into the habit of taking things and dreamed of making a living at cards. His mother also died in a collapse.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Six years after the Bands were recovered, Wayne and Marasi took down a Set-organized gang in Elendel, Wayne handling most of them himself.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "8" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Grown wealthy through risky investments, especially in Tarcsel Electric, Wayne spent six years practicing with bendalloy, learning to make speed bubbles faster, control their size, and shape them.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "MeLaan broke up with Wayne before leaving to explore the cosmere, leaving him crushed and drinking. Encouraged by Ranette, he arranged for a bank to handle his payments to Allriandre.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "16" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "On Marasi's raid of a Set warehouse in Bilming, Wayne and VenDell posed as Set members until the Bilming constabulary stormed in. Wayne fought Getruda, a Set agent modeled on him. Allowed to stay with a Bilming escort, Moonlight, they found the Set had killed Tobal Copper and learned from a broadsheet owner of a rocket meant to carry a bomb to Elendel.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wayne created a distraction so Wax could search Entrone's office. In a passage under Entrone's manor they defeated the Set agents Dumad and Getruda, though Wayne used up much of his stored healing.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Arriving too late at the Set's laboratory, Wax and Wayne shared old Roughs beer atop a billboard, where they talked about Wayne's past and Wax tried to convince him he was a good person.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Fighting up the Shaw, Bilming's tallest building, Wayne talked a group of frightened guards into fleeing. He took on Dumad, grappling him into the sky and stealing his aluminum flask so they plummeted and Dumad died. The bomb atop the tower proved a decoy; the real one was on a ship bound for Elendel.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "66" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Spiking themselves with Dumad's and Getruda's spikes, Wax and Wayne flew to the bomb ship. Unable to disarm it, Wayne devised a plan using bendalloy and steel that Harmony said could work. He Pushed Wax off the ship, swallowed some lerasium, and went down to the three-barrel bomb.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wayne consumed all seventeen pouches of his bendalloy and formed a perfect speed bubble around the three barrels. Burning duralumin and bendalloy together, he filled each barrel with water and Pushed them out of the bubble to detonate. When the bubble dropped, he was killed by the explosion.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
-    },
-    {
-      "bookId": "lost-metal",
-      "text": "Wayne spoke briefly with Harmony, celebrating that he had saved the world and that he'd made the biggest explosion anyone ever had, then passed into the Beyond. His will left money to Ranette and Allriandre, his lucky hat to Marasi, and odd objects to be delivered to Wax over time. A bronze statue of him was raised in the Field of Rebirth.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "74" }]
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "74" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wayne spoke briefly with Harmony, celebrating that he had saved the world and that he'd made the biggest explosion anyone ever had, then passed into the Beyond. His will left money to Ranette and Allriandre, his lucky hat to Marasi, and odd objects to be delivered to Wax over time. A bronze statue of him was raised in the Field of Rebirth.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "74" }]
+        }
+      ]
     }
   ],
+  "appearance": [],
   "personality": [
     {
       "text": "Wax is Wayne's best friend and partner, and Wayne owes him his life. They banter easily, sometimes compete over who defeated more enemies, and Wax wishes Wayne would stay out of his personal life, such as mocking Steris.",

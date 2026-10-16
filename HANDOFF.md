@@ -1,27 +1,90 @@
-# Handoff — 2026-10-15 (before restart)
+# Handoff: 2026-10-16
 
-## State
+For the next Copilot session (started from this repo). Read this, then
+`AGENTS.md` (engineering) and `~/cig-char-data/AGENTS.md` (content and spoiler
+rules) before doing anything. Delete or rewrite this file once it's stale.
 
-- Repo: ~/Source Code/cosmere interactive guide. Pushed to origin/main.
-- Committed (steps 2–3, all validated: typecheck/lint/build/144 tests):
-  ROADMAP.md, characters.test.tsx, characterDetails.test.ts, characterStories.ts (new),
-  reveal.ts (revealStory), types.ts (StoryItem/CharacterStory), CharacterDetail.tsx (redesign),
-  CharacterList.tsx (name filter + Group by dropdown: series/world/species/ability/books, `?group=`), index.css (layout + .app grid minmax phone overflow fix).
-- Backup: Copilot session files/ (cig-char-data-backup.tgz for the pipeline).
-- Pipeline ~/cig-char-data: story_src.py, story_check.py (incl. HINDSIGHT warnings),
-  emit_story.py (writes src/data/stories/<id>.json), STORY_GUIDE.md, story/*.json (34 done).
-- Screenshots (session files/): v_kal_story.png, v_kal_pers.png, v_zahel.png, v_list.png, v_m375b.png.
+## Working with Drew
 
-## Waiting on user
+- Replies: succinct bullets, no long prose.
+- **Spoiler safety beats completeness.** Date facts by Coppermind footnotes
+  first (see the content AGENTS.md).
+- Ask before committing or pushing unless told to. When Drew is unavailable
+  (no answer to a question), make a sensible choice, note it, and carry on.
+- Private, non-public site for now; licences/permissions only matter if it's
+  ever released (keep art credits and the CC BY-NC-ND footer anyway).
+- Drew likes seeing screenshots of UI changes (desktop and phone).
 
-1. (Done: committed and pushed.)
-2. Flashbacks: answered by History (in-world order). Pilot on Kaladin + Vasher;
-   roll out to the other 32 once approved (make_history.py drafts, headings by hand).
-3. Collapse Key facts box on phones?
-4. Multi-book appearance/personality items appear late — OK?
-5. (Done: stories load on demand from src/data/stories/<id>.json; bundle 1.5 MB → 1.0 MB.)
+## Where things are
 
-## After that
+- App: this repo, `main`, pushed to origin.
+- Content pipeline: `~/cig-char-data` (not a git repo; backup tarball in the
+  previous session's folder:
+  `~/.copilot/session-state/532e20c7-152e-493e-b050-91485d254e82/files/cig-char-data-backup.tgz`,
+  without the re-fetchable `pages/` cache; that folder also has screenshots and checkpoint notes in `checkpoints/`).
+- Product plan and history of decisions: `ROADMAP.md` (section 8 is the
+  Characters page; read it before character work).
 
-- Scale details + stories to remaining ~2,100 characters in small batches.
-- Travels tab for world hoppers.
+## State of the character pages (34 pilot characters + Felt)
+
+Done and committed:
+
+- **Details** (`src/data/characterDetails.ts`): chapter-dated appearances,
+  aliases, species, abilities, nationality, profession, groups, bonds, family.
+- **Personas**: Zahel (Vasher), Azure (Vivenna), Ironeyes (Marsh), Wit (Hoid),
+  Thaidakar (Kelsier). Own page until the reader can tell who they are.
+- **Page layout**: breadcrumb, spoiler notice, name + aliases + intro, tabs,
+  and a Key facts infobox (world globe, facts, close family, first appearance,
+  Coppermind link) beside the tabs, with per-book art above it.
+- **Tabs**: History (Coppermind-style eras in in-world order, each paragraph
+  citing its books), Personality (sub-headings **Appearance** and
+  **Personality**), Travels (world hoppers only), Appearances. The
+  Relationships tab was removed: parents, siblings, spouses and children are in
+  Key facts; distant relatives are left to the Coppermind.
+- **Art** (`src/data/characterPortraits.ts`, `public/portraits/`): one or more
+  pieces per character, each dated by the latest thing it shows; the page
+  shows the latest the reader has reached.
+- **Travels** (`src/data/travels.ts`, `src/components/TravelMap.tsx`): an
+  animated star-map journey (play/pause, step buttons, slider) for **Vasher**
+  and **Felt**. Stops can need other reveals (`needs`) and carry a Word of
+  Brandon note (`wob`, shown with a badge).
+- **Felt** was added as the showcase world hopper (Scadrial spy, Roshar scout,
+  linked by Word of Brandon). Decision made while Drew was away: the link shows
+  once the reader has met him on both worlds (same as Vasher/Zahel). The Time
+  Machine confirms the wiki itself only linked them between 2015 and 2017.
+- **Spoiler tooling**: `npm run spoiler:snapshot -- <id>` compares a page with
+  the Coppermind Time Machine (see AGENTS.md files).
+
+## Open questions for Drew (not yet answered)
+
+1. Is the Travels proof of concept the right direction before rolling it out to
+   other world hoppers (Hoid, Khriss, Azure, Kelsier, Nazh...)?
+2. Felt's identity link: OK to show once both worlds are read, given it's only
+   Word of Brandon?
+3. Collapse the Key facts box on phones?
+4. Multi-book appearance/personality items appear late (only when every book
+   they draw on is read). OK?
+
+## Known doubts to mention
+
+- Sazed's Era 2 items say he's Harmony (dated by Alloy of Law footnotes).
+- Two Hoid "Ancient times" History items were written by an agent; double-check.
+- Dalinar's uniform art still shows a game logo.
+- Art gaps: Hoid before Wit is named, Syl as a Shardblade, Venli before
+  stormform, Moash as a bridgeman; Spook, Marasi, Wayne and Yumi have no
+  appearance text yet.
+- Felt's Awakener ability is dated at the end of Wind and Truth (strict); the
+  Coppermind cites interlude 1.
+- The Time Machine check hasn't been run on the other 34 characters yet; doing
+  that (and triaging the leads) is a good next task.
+
+## Suggested next steps
+
+1. Run `npm run spoiler:snapshot` over all 35 characters and fix real leaks.
+2. Optionally improve the snapshot check: flag terms absent before book X but
+   present just after it (points at the book they came from; fewer false
+   alarms).
+3. Get Drew's answers above; roll Travels out to other world hoppers.
+4. Scale details and stories to the other ~2,100 characters in small batches
+   (ROADMAP section 8), with the Time Machine check per batch.
+5. Remove the old "Story" format from the app and pipeline (all 35 use History).

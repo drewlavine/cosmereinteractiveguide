@@ -1,4 +1,10 @@
-import { cleanup, render, screen, within } from '@testing-library/react'
+import {
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+  within,
+} from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeAll, describe, expect, it } from 'vitest'
@@ -103,7 +109,6 @@ describe('characters pages', () => {
     ).toEqual([
       ['History', '/characters/kaladin'],
       ['Personality', '/characters/kaladin/personality'],
-      ['Relationships', '/characters/kaladin/relationships'],
       ['Appearances', '/characters/kaladin/appearances'],
     ])
     expect(within(tabs).getByRole('link', { name: 'History' })).toHaveAttribute(
@@ -140,24 +145,36 @@ describe('characters pages', () => {
     expect(wayOfKings).toHaveTextContent(/first appears in Chapter 1$/)
   })
 
-  it('lists family ties once the books reveal them', async () => {
+  it('lists close family in the key facts once the books reveal them', () => {
     const before = ['way-of-kings', 'words-of-radiance']
     renderAt('/characters/dalinar-kholin', before, { oathbringer: '3' })
-    await userEvent.click(screen.getByRole('link', { name: 'Relationships' }))
-    let family = screen.getByRole('region', { name: 'Relationships' })
-    expect(within(family).getByText('Siblings')).toBeInTheDocument()
-    expect(within(family).getByText('Gavilar')).toBeInTheDocument()
+    let facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(within(facts).getByText('Sibling')).toBeInTheDocument()
+    expect(within(facts).getByText(/Gavilar/)).toBeInTheDocument()
     // Dalinar and Navani marry in Oathbringer chapter 4.
-    expect(within(family).queryByText('Navani')).toBeNull()
+    expect(within(facts).queryByText('Navani')).toBeNull()
     cleanup()
+    // The old Relationships tab's URL goes to the first tab.
     renderAt('/characters/dalinar-kholin/relationships', before, {
       oathbringer: '4',
     })
-    family = screen.getByRole('region', { name: 'Relationships' })
-    const spouse = within(family).getByText('Spouse').closest('div')!
+    facts = screen.getByRole('complementary', { name: 'Key facts' })
+    const spouse = within(facts).getByText('Spouse').nextElementSibling!
     expect(
-      within(spouse).getByRole('link', { name: 'Navani' }),
+      within(spouse as HTMLElement).getByRole('link', { name: 'Navani' }),
     ).toHaveAttribute('href', '/characters/navani-kholin')
+    expect(screen.getByRole('region', { name: 'History' })).toBeInTheDocument()
+  })
+
+  it('splits Personality into Appearance and Personality', () => {
+    renderAt('/characters/kaladin/personality', allBooks)
+    const panel = screen.getByRole('region', { name: 'Personality' })
+    expect(
+      within(panel)
+        .getAllByRole('heading')
+        .map((h) => h.textContent),
+    ).toEqual(['Appearance', 'Personality'])
+    expect(within(panel).getByText(/slave brands/)).toBeInTheDocument()
   })
 
   it('keeps Zahel apart from Vasher until the reader has read both', async () => {
@@ -240,9 +257,10 @@ describe('characters pages', () => {
     expect(screen.queryByRole('link', { name: 'Zahel' })).toBeNull()
   })
 
-  it('hides the Relationships tab when no tie is revealed yet', () => {
+  it('leaves family out of the key facts until a tie is revealed', () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '1' })
-    expect(screen.queryByRole('link', { name: 'Relationships' })).toBeNull()
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(within(facts).queryByText(/Parent|Sibling/)).toBeNull()
   })
 
   it('reveals abilities at their chapter, and sends unknown tabs to the first', async () => {
@@ -546,5 +564,65 @@ describe('character portraits', () => {
       allBooks.filter((b) => b !== 'rhythm-of-war'),
     )
     expect(document.querySelector('.character-portrait')).toBeNull()
+  })
+})
+
+describe('character travels', () => {
+  beforeAll(() => Promise.all([loadStory('vasher'), loadStory('felt')]))
+  const worlds = () =>
+    [...document.querySelectorAll('.travel-steps button')].map(
+      (b) => b.textContent,
+    )
+  const card = () => document.querySelector('.travel-card')!
+
+  it('adds worlds as the books reveal them', () => {
+    renderAt('/characters/vasher/travels', [], { warbreaker: 'prologue' })
+    expect(worlds()).toEqual(['Nalthis'])
+    expect(card()).toHaveTextContent('T’Telir')
+    cleanup()
+    renderAt('/characters/vasher/travels', ['warbreaker'])
+    expect(worlds()).toEqual(['Nalthis', 'Nalthis'])
+    expect(document.body).not.toHaveTextContent(/Zahel|Roshar/)
+    cleanup()
+    renderAt('/characters/vasher/travels', ['warbreaker'], {
+      'words-of-radiance': '16',
+    })
+    expect(worlds()).toEqual(['Nalthis', 'Nalthis', 'Roshar'])
+    expect(card()).toHaveTextContent('Zahel')
+    expect(card()).not.toHaveTextContent(/Gavilar|Lift freed/)
+  })
+
+  it('steps through the journey and flags a stay the books leave undated', () => {
+    renderAt('/characters/vasher/travels', ['warbreaker', 'fires-of-december'])
+    expect(worlds()).toEqual(['Nalthis', 'Miral', 'Nalthis', 'Roshar'])
+    expect(card()).toHaveTextContent('Stop 4 of 4')
+    fireEvent.click(screen.getByRole('button', { name: 'Miral' }))
+    expect(card()).toHaveTextContent('Stop 2 of 4')
+    expect(screen.getByText('Timing uncertain')).toBeInTheDocument()
+    fireEvent.click(screen.getByRole('button', { name: 'Previous stop' }))
+    expect(card()).toHaveTextContent('Born, died and Returned')
+  })
+
+  it('shows a trip known only from Brandon once the reader has met him on both worlds', () => {
+    renderAt('/characters/felt/travels', ['final-empire', 'well-of-ascension'])
+    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    cleanup()
+    renderAt('/characters/felt/travels', ['oathbringer'])
+    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    cleanup()
+    renderAt('/characters/felt/travels', ['final-empire'], {
+      oathbringer: '114',
+    })
+    expect(worlds()).toEqual(['Scadrial', 'Roshar'])
+    expect(card()).toHaveTextContent('Nightwatcher')
+    expect(screen.getByText('Word of Brandon')).toBeInTheDocument()
+  })
+
+  it("gives a persona's page no travels", () => {
+    renderAt('/characters/zahel/travels', ['way-of-kings'], {
+      'words-of-radiance': '35',
+    })
+    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(document.querySelector('.travel-map')).toBeNull()
   })
 })

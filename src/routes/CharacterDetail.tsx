@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
+import { TravelMap } from '../components/TravelMap'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
@@ -8,12 +9,14 @@ import { characterDetails } from '../data/characterDetails'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { chapterLabel } from '../data/progress'
+import { characterTravels } from '../data/travels'
 import {
   findPersona,
   hasMet,
   revealCharacter,
   revealPortrait,
   revealStory,
+  revealTravels,
 } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
@@ -25,19 +28,16 @@ interface CharacterTab {
   content: ReactNode
 }
 
-/** Headings for family ties, in the order they're listed. */
-const relationLabels: Record<string, string> = {
-  parent: 'Parents',
-  sibling: 'Siblings',
-  spouse: 'Spouse',
-  child: 'Children',
-  relative: 'Other relatives',
-  ancestor: 'Ancestors',
-}
-
-const relationLabel = (relation: string) =>
-  relationLabels[relation] ??
-  relation.charAt(0).toUpperCase() + relation.slice(1)
+/**
+ * Close family shown in the key facts, in order, as [one, several]. More
+ * distant relatives are left to the Coppermind.
+ */
+const familyLabels: [string, [string, string]][] = [
+  ['parent', ['Parent', 'Parents']],
+  ['sibling', ['Sibling', 'Siblings']],
+  ['spouse', ['Spouse', 'Spouses']],
+  ['child', ['Child', 'Children']],
+]
 
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
@@ -107,6 +107,12 @@ export function CharacterDetail() {
     canSee,
     viewAnyway.has(scope),
   )
+  const travels = revealTravels(
+    character.id,
+    characterTravels[persona?.characterId ?? character.id],
+    canSee,
+    viewAnyway.has(scope),
+  )
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
   )
@@ -122,12 +128,12 @@ export function CharacterDetail() {
   const firstChapter =
     first?.chapter && chapterLabel(first.bookId, first.chapter)
 
-  const relationOrder = Object.keys(relationLabels)
-  const relations = [...new Set(shown.relatives.map((r) => r.relation))].sort(
-    (a, b) =>
-      (relationOrder.indexOf(a) + 1 || 99) -
-      (relationOrder.indexOf(b) + 1 || 99),
-  )
+  const family = familyLabels.flatMap(([relation, [one, several]]) => {
+    const people = shown.relatives.filter((r) => r.relation === relation)
+    return people.length > 0
+      ? [{ relation, label: people.length > 1 ? several : one, people }]
+      : []
+  })
 
   const tabs: CharacterTab[] = details
     ? [
@@ -185,43 +191,37 @@ export function CharacterDetail() {
         {
           id: 'personality',
           label: 'Personality',
-          content: story.personality.length > 0 && (
+          content: (story.appearance.length > 0 ||
+            story.personality.length > 0) && (
             <div className="character-story">
-              {story.personality.map((text) => (
-                <p key={text}>{text}</p>
-              ))}
+              {(
+                [
+                  ['Appearance', story.appearance],
+                  ['Personality', story.personality],
+                ] as const
+              ).map(
+                ([heading, items]) =>
+                  items.length > 0 && (
+                    <section key={heading}>
+                      <h2>{heading}</h2>
+                      {items.map((text) => (
+                        <p key={text}>{text}</p>
+                      ))}
+                    </section>
+                  ),
+              )}
             </div>
           ),
         },
         {
-          id: 'relationships',
-          label: 'Relationships',
-          content: relations.length > 0 && (
-            <dl className="character-relations">
-              {relations.map((relation) => (
-                <div key={relation}>
-                  <dt>{relationLabel(relation)}</dt>
-                  <dd>
-                    <ul className="character-relatives">
-                      {shown.relatives
-                        .filter((r) => r.relation === relation)
-                        .map((r) => (
-                          <li key={r.name}>
-                            {/* An unmet relative's page would only say "not met yet". */}
-                            {r.characterId && hasMet(r.characterId, canSee) ? (
-                              <Link to={`/characters/${r.characterId}`}>
-                                {r.name}
-                              </Link>
-                            ) : (
-                              r.name
-                            )}
-                          </li>
-                        ))}
-                    </ul>
-                  </dd>
-                </div>
-              ))}
-            </dl>
+          id: 'travels',
+          label: 'Travels',
+          content: travels.stops.length > 0 && (
+            <TravelMap
+              characterId={character.id}
+              stops={travels.stops}
+              systems={systems}
+            />
           ),
         },
         {
@@ -288,6 +288,24 @@ export function CharacterDetail() {
         {fact('Abilities', shown.abilities)}
         {fact('Groups', shown.groups)}
         {fact('Bonded with', shown.bonds)}
+        {family.map(({ relation, label, people }) => (
+          <Fragment key={relation}>
+            <dt>{label}</dt>
+            <dd>
+              {people.map((r, i) => (
+                <Fragment key={r.name}>
+                  {i > 0 && ', '}
+                  {/* An unmet relative's page would only say "not met yet". */}
+                  {r.characterId && hasMet(r.characterId, canSee) ? (
+                    <Link to={`/characters/${r.characterId}`}>{r.name}</Link>
+                  ) : (
+                    r.name
+                  )}
+                </Fragment>
+              ))}
+            </dd>
+          </Fragment>
+        ))}
         {first && (
           <>
             <dt>First appears</dt>
@@ -349,7 +367,9 @@ export function CharacterDetail() {
       </nav>
       <SpoilerNotice
         scope={scope}
-        spoilers={shown.spoilers || story.spoilers || art.spoilers}
+        spoilers={
+          shown.spoilers || story.spoilers || art.spoilers || travels.spoilers
+        }
       />
       {!details && header}
       {!details ? (

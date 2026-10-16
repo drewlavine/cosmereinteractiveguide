@@ -31,148 +31,239 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "final-empire",
-      "text": "On Kelsier's crew, Spook mostly served as a lookout, watching the area around Clubs' shop from a tenement two streets away. He sat in on planning sessions but rarely contributed beyond fetching things and serving drinks.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
-    },
-    {
-      "bookId": "final-empire",
-      "text": "When the crew feared Marsh had been taken by the Ministry, they sent Spook, their best Tineye, with the House Renoux canal procession leaving Luthadel. Steel Inquisitors hunting Vin attacked the convoy and, not finding her, brought Spook, OreSeur and the Renoux servants back to Luthadel as prisoners.",
-      "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
-    },
-    {
-      "bookId": "well-of-ascension",
-      "text": "During the siege of Luthadel, Spook was seldom given important work, serving as a packman, coachman, guard or occasional spy. When the crew decided to send Vin and Elend away, Spook guided them toward the Terris mountains. Realizing they had been tricked, Vin raced back to the city; Spook returned with Elend a few days afterward and used his tin to see that Elend's flag still flew over the gates.",
-      "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Elend and Vin sent Spook to Urteau to learn about the Citizen, Quellion, and his government. Spook became skilled at sneaking into the Citizen's house, both to overhear his plans and to watch his sister Beldre, whose beauty and sadness drew him. His overuse of tin left him so sensitive to light that he wore a blindfold, relying on his other senses.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Angered by an execution and the speech that followed, Spook approached Beldre and told her he would be the one to kill her brother. Distracted, he was spotted by Quellion's men, who turned out to be Allomancers, and he lost the fight.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Spook met Breeze, Allrianne and Sazed when they arrived in Urteau, hid them, and suggested the cave holding the Lord Ruler's cache as their base. He tried to tell Sazed about Kelsier's voice, but with Sazed doubting his own beliefs, Spook held back.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Rumors spread that Spook had survived the fire. He confronted Durn, who had spread them to undermine Quellion, and decided to trust him. Asked to save a man's young sister from the Citizen, Spook had the ashes of the prisoners' pyre searched and, finding too few skulls, realized Quellion was secretly taking the Allomancers.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Spook found where the next execution would be held and slipped in through the building's passages to free the prisoners, killing the soldiers. Unable to open a door even with pewter, he leapt from the burning building with a child in his arms, and his friends started a riot to cover his escape.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Spook persuaded Sazed to work out how to use the Lord Ruler's water system to flood the city, hoping a second miracle would turn the people against Quellion.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "46" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Born Jedal after his father in the gritty Eastern Lands, he ran with skaa street gangs and learned their slang. He Snapped as a Tineye at five, thanks to noble blood, and his family meant to kill him to hide it. His uncle Cladent paid for his freedom and took him to Luthadel. Refusing his father's name, he called himself Lestibournes, slang for \"I've been abandoned\"; Kelsier nicknamed him Spook.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
+          "text": "Childhood",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born Jedal after his father in the gritty Eastern Lands, he ran with skaa street gangs and learned their slang. He Snapped as a Tineye at five, thanks to noble blood, and his family meant to kill him to hide it. His uncle Cladent paid for his freedom and took him to Luthadel. Refusing his father's name, he called himself Lestibournes, slang for \"I've been abandoned\"; Kelsier nicknamed him Spook.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "hero-of-ages", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Kelsier's crew",
+          "revealedIn": [
             { "book": "final-empire", "chapter": "32" },
-            { "book": "hero-of-ages", "chapter": "53" }
+            { "book": "final-empire", "chapter": "35" }
           ]
         }
-      ]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Spook asked Beldre to join him; she refused. When she then came to their hideout to speak for her brother, Spook, urged on by the voice, took her captive and spread word that she had fled Quellion. Their talks troubled him, but he embraced the title Survivor of the Flames and enjoyed the attention.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "As the city neared revolt, Spook fought Quellion, but Beldre shot Spook to save her brother. When the voice urged him to kill her and take her power, Spook realized the spike was the source of everything. He pulled out Quellion's spike, then his own, losing his pewter.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "With Urteau burning and no one left to release the water, Spook heard a voice saying Kelsier had chosen him as a friend. Exhausted, he went into the burning building and threw his weight against the machine to start it, then collapsed.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
-    },
-    {
-      "bookId": "hero-of-ages",
-      "text": "Spook woke in the new world Sazed had made and found Vin and Elend's bodies and the Words of Founding. Sazed's note said he had been unable to bring them back, but had healed the damage Spook did by flaring tin and made him a Mistborn, hinting that there were more Allomantic metals.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "As the Lord Mistborn, Spook ruled for a century, building housing for the poor and passing laws empowering common people. His street slang became High Imperial, used in official documents, and Breeze wrote most of his speeches. His Hemalurgy book called constructs more trouble than they were worth and suggested using old, sick Metalborn to make spikes.",
-      "revealedIn": [
+      ],
+      "items": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "14" },
-            { "book": "bands-of-mourning", "chapter": "9" }
-          ]
-        }
-      ]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "In the fight Spook was run through by a sword that had also pierced a Pewterarm; its broken tip stayed in him and let him burn pewter. Waking in a burning building, he heard a voice that seemed to be Kelsier's urging him on, found vials, burned pewter, and escaped, trusting the voice.",
-      "revealedIn": [
+          "text": "On Kelsier's crew, Spook mostly served as a lookout, watching the area around Clubs' shop from a tenement two streets away. He sat in on planning sessions but rarely contributed beyond fetching things and serving drinks.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
         {
-          "all": [
-            { "book": "hero-of-ages", "chapter": "26" },
-            { "book": "secret-history", "chapter": "6-5" }
-          ]
+          "text": "When the crew feared Marsh had been taken by the Ministry, they sent Spook, their best Tineye, with the House Renoux canal procession leaving Luthadel. Steel Inquisitors hunting Vin attacked the convoy and, not finding her, brought Spook, OreSeur and the Renoux servants back to Luthadel as prisoners.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
         }
       ]
     },
     {
-      "bookId": "secret-history",
-      "text": "While Spook lay unconscious, Kelsier told him that Vin had a spike and was hearing Ruin. Spook wrote a warning on a metal sheet not to trust anyone pierced by metal. Goradel tried to carry it to Vin but was killed by Marsh, who read it and realized Vin's earring was a spike.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "hero-of-ages", "chapter": "72" },
-            { "book": "secret-history", "chapter": "6-7" }
-          ]
+          "text": "The siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
         }
-      ]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "Kelsier had followed Spook in Urteau, sending him messages of hope and urging him to fight on. After Sazed's Ascension, Kelsier asked him to repair Spook's body and make him a Mistborn.",
-      "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "After the Catacendre, Breeze taught Spook how to be a king and Ham trained him in combat. The survivors gave him a two-story log house, which embarrassed him since others had so little; Beldre lived there with him. He fathered over a dozen children.",
-      "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "secret-history",
-      "text": "Following Kelsier's instructions in a dream, Spook had an old Inquisitor spike forged into an earring and wore it, which let him see Kelsier. Kelsier convinced him they must study the cosmere, since ignorance had nearly destroyed Scadrial, and the two began experimenting with Hemalurgy. Spook wrote a book on the subject.",
-      "revealedIn": [
+      ],
+      "items": [
         {
-          "all": [
-            { "book": "shadows-of-self", "chapter": "6" },
-            { "book": "secret-history", "chapter": "epilogue" }
+          "text": "During the siege of Luthadel, Spook was seldom given important work, serving as a packman, coachman, guard or occasional spy. When the crew decided to send Vin and Elend away, Spook guided them toward the Terris mountains. Realizing they had been tricked, Vin raced back to the city; Spook returned with Elend a few days afterward and used his tin to see that Elend's flag still flew over the gates.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Spying in Urteau",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "16" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "26" },
+                { "book": "secret-history", "chapter": "6-5" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "31" },
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "41" },
+            { "book": "hero-of-ages", "chapter": "46" },
+            { "book": "hero-of-ages", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "58" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "72" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Urteau and the Survivor of the Flames",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elend and Vin sent Spook to Urteau to learn about the Citizen, Quellion, and his government. Spook became skilled at sneaking into the Citizen's house, both to overhear his plans and to watch his sister Beldre, whose beauty and sadness drew him. His overuse of tin left him so sensitive to light that he wore a blindfold, relying on his other senses.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "Angered by an execution and the speech that followed, Spook approached Beldre and told her he would be the one to kill her brother. Distracted, he was spotted by Quellion's men, who turned out to be Allomancers, and he lost the fight.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        },
+        {
+          "text": "In the fight Spook was run through by a sword that had also pierced a Pewterarm; its broken tip stayed in him and let him burn pewter. Waking in a burning building, he heard a voice that seemed to be Kelsier's urging him on, found vials, burned pewter, and escaped, trusting the voice.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "26" },
+                { "book": "secret-history", "chapter": "6-5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Spook met Breeze, Allrianne and Sazed when they arrived in Urteau, hid them, and suggested the cave holding the Lord Ruler's cache as their base. He tried to tell Sazed about Kelsier's voice, but with Sazed doubting his own beliefs, Spook held back.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+        },
+        {
+          "text": "Rumors spread that Spook had survived the fire. He confronted Durn, who had spread them to undermine Quellion, and decided to trust him. Asked to save a man's young sister from the Citizen, Spook had the ashes of the prisoners' pyre searched and, finding too few skulls, realized Quellion was secretly taking the Allomancers.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "Spook found where the next execution would be held and slipped in through the building's passages to free the prisoners, killing the soldiers. Unable to open a door even with pewter, he leapt from the burning building with a child in his arms, and his friends started a riot to cover his escape.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        },
+        {
+          "text": "Spook persuaded Sazed to work out how to use the Lord Ruler's water system to flood the city, hoping a second miracle would turn the people against Quellion.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "46" }]
+        },
+        {
+          "text": "Spook asked Beldre to join him; she refused. When she then came to their hideout to speak for her brother, Spook, urged on by the voice, took her captive and spread word that she had fled Quellion. Their talks troubled him, but he embraced the title Survivor of the Flames and enjoyed the attention.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "53" }]
+        },
+        {
+          "text": "As the city neared revolt, Spook fought Quellion, but Beldre shot Spook to save her brother. When the voice urged him to kill her and take her power, Spook realized the spike was the source of everything. He pulled out Quellion's spike, then his own, losing his pewter.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "With Urteau burning and no one left to release the water, Spook heard a voice saying Kelsier had chosen him as a friend. Exhausted, he went into the burning building and threw his weight against the machine to start it, then collapsed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "While Spook lay unconscious, Kelsier told him that Vin had a spike and was hearing Ruin. Spook wrote a warning on a metal sheet not to trust anyone pierced by metal. Goradel tried to carry it to Vin but was killed by Marsh, who read it and realized Vin's earring was a spike.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "72" },
+                { "book": "secret-history", "chapter": "6-7" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "lost-metal",
-      "text": "By 348 PC, according to Marsh, only Marsh, Kelsier and Sazed remained of the original crew.",
-      "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
+      "title": [
+        {
+          "text": "The new world",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "epilogue" },
+            { "book": "secret-history", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "6" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "bands-of-mourning", "chapter": "9" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "28" }
+          ]
+        },
+        {
+          "text": "The Lord Mistborn",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "bands-of-mourning", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spook woke in the new world Sazed had made and found Vin and Elend's bodies and the Words of Founding. Sazed's note said he had been unable to bring them back, but had healed the damage Spook did by flaring tin and made him a Mistborn, hinting that there were more Allomantic metals.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Kelsier had followed Spook in Urteau, sending him messages of hope and urging him to fight on. After Sazed's Ascension, Kelsier asked him to repair Spook's body and make him a Mistborn.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After the Catacendre, Breeze taught Spook how to be a king and Ham trained him in combat. The survivors gave him a two-story log house, which embarrassed him since others had so little; Beldre lived there with him. He fathered over a dozen children.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Following Kelsier's instructions in a dream, Spook had an old Inquisitor spike forged into an earring and wore it, which let him see Kelsier. Kelsier convinced him they must study the cosmere, since ignorance had nearly destroyed Scadrial, and the two began experimenting with Hemalurgy. Spook wrote a book on the subject.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "6" },
+                { "book": "secret-history", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the Lord Mistborn, Spook ruled for a century, building housing for the poor and passing laws empowering common people. His street slang became High Imperial, used in official documents, and Breeze wrote most of his speeches. His Hemalurgy book called constructs more trouble than they were worth and suggested using old, sick Metalborn to make spikes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "14" },
+                { "book": "bands-of-mourning", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By 348 PC, according to Marsh, only Marsh, Kelsier and Sazed remained of the original crew.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
+        }
+      ]
     }
   ],
+  "appearance": [],
   "personality": [
     {
       "text": "At fifteen Spook was shy and spoke in Eastern street slang that the crew could barely follow. He gave Vin a pink handkerchief, the traditional gift of a young man hoping to court a lady, though she was not interested.",

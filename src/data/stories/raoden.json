@@ -17,68 +17,138 @@
       "revealedIn": [{ "book": "elantris", "chapter": "62" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "elantris",
-      "text": "Ten years after the Reod, Raoden was struck by the Shaod and cast into Elantris, while his father claimed he had died of the Coughing shivers. Attacked by Shaor's gang, he escaped by tossing them his basket of offerings. A Dula named Galladon took him in, explained that Elantrians had no heartbeat and could not heal, and showed him that Aons could still be drawn but did nothing. Raoden began investigating why AonDor had failed.",
-      "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+      "title": [
+        {
+          "text": "Childhood in Kae",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a boy, Raoden had broken his leg and developed an infection, and he was taken into Elantris, where an Elantrian woman healed him with a glowing Aon. He was grateful to her and angry when his father raged against Elantrians on the trip home, the first of many arguments between them. His mother died at some point during his youth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "As a boy, Raoden had broken his leg and developed an infection, and he was taken into Elantris, where an Elantrian woman healed him with a glowing Aon. He was grateful to her and angry when his father raged against Elantrians on the trip home, the first of many arguments between them. His mother died at some point during his youth.",
-      "revealedIn": [{ "book": "elantris", "chapter": "19" }]
+      "title": [
+        {
+          "text": "Crown prince",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "52" },
+            { "book": "elantris", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As crown prince after Iadon became king, Raoden had received a strict education, but he often disagreed with his father, gaining a large following. To spite Iadon he took fencing lessons from Count Eondel. Lukel was a close friend, and Raoden had been engaged to the Teo princess Sarene before the Shaod took him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "52" }]
+        },
+        {
+          "text": "Before the Shaod, Raoden had openly opposed his father and led a group of nobles seeking to change Arelon's government.",
+          "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "While Sarene was bringing food into Elantris, Raoden met her as Spirit. He recognized the Teo princess, but she took him for an ordinary Elantrian. Karata and Mareshe, posing as the city's leaders, agreed to let the nobles hand out food in exchange for goods the Elantrians could use for clothing and repairs. Sarene came to suspect that Spirit was the real ruler of the city and slowly began to trust him.",
-      "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+      "title": [
+        {
+          "text": "Cast into Elantris",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "5" },
+            { "book": "elantris", "chapter": "41" },
+            { "book": "elantris", "chapter": "23" },
+            { "book": "elantris", "chapter": "46" },
+            { "book": "elantris", "chapter": "49" }
+          ]
+        },
+        {
+          "text": "Spirit of Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ten years after the Reod, Raoden was struck by the Shaod and cast into Elantris, while his father claimed he had died of the Coughing shivers. Attacked by Shaor's gang, he escaped by tossing them his basket of offerings. A Dula named Galladon took him in, explained that Elantrians had no heartbeat and could not heal, and showed him that Aons could still be drawn but did nothing. Raoden began investigating why the Aons had failed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "5" }]
+        },
+        {
+          "text": "Calling himself Spirit, Raoden set out to bring order to Elantris. He gathered new arrivals to help rebuild the city, drew in others with rumors that his followers no longer felt hunger or pain, and united the rival factions of Karata and Aanden. By giving everyone tasks and resources, he gave the Elantrians a sense of purpose despite his own suffering.",
+          "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+        },
+        {
+          "text": "While Sarene was bringing food into Elantris, Raoden met her as Spirit. He recognized the Teo princess, but she took him for an ordinary Elantrian. Karata and Mareshe, posing as the city's leaders, agreed to let the nobles hand out food in exchange for goods the Elantrians could use for clothing and repairs. Sarene came to suspect that Spirit was the real ruler of the city and slowly began to trust him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        },
+        {
+          "text": "When Sarene told him that Iadon had killed himself, Raoden was pained by the news even though he had once wished for his father's death.",
+          "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+        },
+        {
+          "text": "Talking with Galladon, Raoden realized that the great chasm near Elantris had caused the Reod. Adding a line for the chasm to Aon Ehe released a blast of fire that burned part of the library. Further tests showed the Aons still hampered, but partly usable. Raoden built an Aon based on Shao that cloaked him in the illusion of a healthy person, letting him leave Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "49" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Calling himself Spirit, Raoden set out to bring order to Elantris. He gathered new arrivals to help rebuild the city, drew in others with rumors that his followers no longer felt hunger or pain, and united the rival factions of Karata and Aanden. By giving everyone tasks and resources, he gave the Elantrians a sense of purpose despite his own suffering.",
-      "revealedIn": [{ "book": "elantris", "chapter": "41" }]
+      "title": [
+        {
+          "text": "Among the nobles in disguise",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "50" },
+            { "book": "elantris", "chapter": "56" }
+          ]
+        },
+        {
+          "text": "King of Arelon",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Disguised as exiled Dulas, Raoden and Galladon joined Sarene and her allies. Suspicious, Sarene sparred with him and accidentally wounded him. He told her he was Spirit and that he had reconnected with the Dor. At a meeting in Kiin's house, Count Ahan betrayed the group to King Telrii, who had Duke Roial killed and ordered the others executed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "50" }]
+        },
+        {
+          "text": "On impulse, Raoden dropped his disguise to reveal another illusion of his face from before the Shaod, sending Telrii fleeing. He tried to heal Roial, whom he regarded as a father figure, but failed, and that night began studying the modifiers for Aon Ien. At his coronation the illusion slipped and revealed him as an Elantrian, but Sarene calmed the crowd and the people accepted him as king.",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Before the Shaod, Raoden had openly opposed his father and led a group of nobles seeking to change Arelon's government. When Sarene told him that Iadon had killed himself, Raoden was pained by the news even though he had once wished for his father's death.",
-      "revealedIn": [{ "book": "elantris", "chapter": "46" }]
+      "title": [
+        {
+          "text": "Restoring Elantris",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Wyrn's army attacked, Raoden realized that Elantris and the surrounding cities formed a single huge Aon. By drawing a line for the chasm, he repaired the Dor and completed the Shaod for every living Elantrian. The restored Elantrians drove back Fjorden's attacks on both Arelon and Teod. Afterward Raoden used Aon Ien to save his childhood best friend Lukel from a sword wound.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
     },
     {
-      "bookId": "elantris",
-      "text": "Talking with Galladon, Raoden realized that the great chasm near Elantris had caused the Reod. Adding a line for the chasm to Aon Ehe released a blast of fire that burned part of the library. Further tests showed AonDor still hampered, but partly usable. Raoden built an Aon based on Shao that cloaked him in the illusion of a healthy person, letting him leave Elantris.",
-      "revealedIn": [{ "book": "elantris", "chapter": "49" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "Disguised as exiled Dulas, Raoden and Galladon joined Sarene and her allies. Suspicious, Sarene sparred with him and accidentally wounded him. He told her he was Spirit and that he had reconnected with the Dor. At a meeting in Kiin's house, Count Ahan betrayed the group to King Telrii, who had Duke Roial killed and ordered the others executed.",
-      "revealedIn": [{ "book": "elantris", "chapter": "50" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "As crown prince after Iadon became king, Raoden had received a strict education, but he often disagreed with his father, gaining a large following. To spite Iadon he took fencing lessons from Count Eondel. Lukel was a close friend, and Raoden had been engaged to the Teo princess Sarene before the Shaod took him.",
-      "revealedIn": [{ "book": "elantris", "chapter": "52" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "On impulse, Raoden dropped his disguise to reveal another illusion of his face from before the Shaod, sending Telrii fleeing. He tried to heal Roial, whom he regarded as a father figure, but failed, and that night began studying the modifiers for Aon Ien. At his coronation the illusion slipped and revealed him as an Elantrian, but Sarene calmed the crowd and the people accepted him as king.",
-      "revealedIn": [{ "book": "elantris", "chapter": "56" }]
-    },
-    {
-      "bookId": "elantris",
-      "text": "As Wyrn's army attacked, Raoden realized that Elantris and the surrounding cities formed a single huge Aon. By drawing a line for the chasm, he repaired the Dor and completed the Shaod for every living Elantrian. The restored Elantrians drove back Fjorden's attacks on both Arelon and Teod. Afterward Raoden used Aon Ien to save his childhood best friend Lukel from a sword wound.",
-      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
-    },
-    {
-      "bookId": "hope-of-elantris",
-      "text": "Afterward, Sarene became pregnant with Raoden's child as Seons began returning.",
-      "revealedIn": ["hope-of-elantris"]
+      "title": [{ "text": "Married life", "revealedIn": ["hope-of-elantris"] }],
+      "items": [
+        {
+          "text": "Afterward, Sarene became pregnant with Raoden's child as Seons began returning.",
+          "revealedIn": ["hope-of-elantris"]
+        }
+      ]
     }
   ],
-  "personality": [
+  "appearance": [
     {
       "text": "Before the Shaod, Raoden was handsome, with sandy brown hair and blue eyes. The Shaod left him bald, with wrinkled grey skin marked by dark splotches, like other Elantrians. After Elantris was restored, his skin became silver and his hair pure white.",
       "revealedIn": [{ "book": "elantris", "chapter": "61" }]
-    },
+    }
+  ],
+  "personality": [
     {
       "text": "Raoden draws Aons with notable grace and speed, and his Aons are unusually powerful, especially for illusions and combat. A capable swordsman trained by Eondel, he can nearly match Sarene. He is a natural leader, and he is bonded to the Seon Ien.",
       "revealedIn": [{ "book": "elantris", "chapter": "61" }]

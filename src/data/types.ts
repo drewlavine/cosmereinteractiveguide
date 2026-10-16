@@ -270,7 +270,9 @@ export interface CharacterStory {
    * (each with title versions, earliest first) of items, in the order shown.
    */
   history?: { title: StoryItem[]; items: StoryItem[] }[]
-  /** Appearance and personality. */
+  /** How they look. */
+  appearance: StoryItem[]
+  /** Who they are: character, habits, outlook. */
   personality: StoryItem[]
 }
 

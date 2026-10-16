@@ -21,67 +21,118 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "alloy-of-law",
-      "text": "In her final year at university, when Wax returned to Elendel, Marasi persuaded Lord Harms to let her come along to discuss Wax marrying Steris. At the Yomen-Ostlin wedding dinner she impressed Wax and Wayne with her questions and insights. When the Vanishers attacked and took Steris, Marasi fought off her own kidnappers and shot two Vanishers threatening Wax.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Marasi was the illegitimate daughter of Jackstom Harms, making her Steris's half sister. Constantly told she was useless as an heir and as an Allomancer, she grew determined to accomplish something. Fascinated by criminals and lawkeepers and inspired by tales of Wax in the Roughs, she moved to Elendel for university with her father's support, posing as Steris's cousin from the Outer Estates.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "In the final confrontation with Miles Dagouter, Marasi used her Pulser ability to slow time around herself and Miles while he fought Wax, giving the constables time to surround the place.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
-    },
-    {
-      "bookId": "alloy-of-law",
-      "text": "Marasi had helped Wax work out why the Vanishers targeted particular women, stayed with the hunt to the end, and was briefly captured by Miles before Wax freed her. Afterward she nearly confessed her feelings, but Wax gently turned her down. She attended Miles's execution, after which a figure called Ironeyes gave her a book on Hemalurgy to deliver to Wax.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "After Wax and Steris's wedding, the kandra VenDell asked Marasi, on Harmony's behalf, to recover the kandra ReLuur's missing spike in New Seran and to look for the Bands of Mourning. On the way, the Nightstreet Gang attacked their train, and Marasi's Allomancy and rifle saved passengers and Wax.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "In New Seran, Marasi and Wayne's investigation led the group to the Set's base in Dulsing. There she and MeLaan recovered ReLuur's spike and some medallions from Professor Irich's safe, and she freed the captive Allik Neverfar against MeLaan's advice. Fighting with an Allomantic grenade, she was shot in the abdomen.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Marasi convinced the others to flee with Allik aboard his airship Wilg, where MeLaan operated on her; through a misunderstanding Marasi thought she was dying. While guarding the entrance to the Sovereign's temple, she and Steris talked, and Steris opened up about her love for Wax, changing how Marasi saw her sister and people generally.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "alloy-of-law", "chapter": "9" },
-            { "book": "bands-of-mourning", "chapter": "31" }
+          "text": "Early life",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi was the illegitimate daughter of Jackstom Harms, making her Steris's half sister. Constantly told she was useless as an heir and as an Allomancer, she grew determined to accomplish something. Fascinated by criminals and lawkeepers and inspired by tales of Wax in the Roughs, she moved to Elendel for university with her father's support, posing as Steris's cousin from the Outer Estates.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "alloy-of-law", "chapter": "19" },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In her final year at university, when Wax returned to Elendel, Marasi persuaded Lord Harms to let her come along to discuss Wax marrying Steris. At the Yomen-Ostlin wedding dinner she impressed Wax and Wayne with her questions and insights. When the Vanishers attacked and took Steris, Marasi fought off her own kidnappers and shot two Vanishers threatening Wax.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+        },
+        {
+          "text": "In the final confrontation with Miles Dagouter, Marasi used her Pulser ability to slow time around herself and Miles while he fought Wax, giving the constables time to surround the place.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        },
+        {
+          "text": "Marasi had helped Wax work out why the Vanishers targeted particular women, stayed with the hunt to the end, and was briefly captured by Miles before Wax freed her. Afterward she nearly confessed her feelings, but Wax gently turned her down. She attended Miles's execution, after which a figure called Ironeyes gave her a book on Hemalurgy to deliver to Wax.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Joining the constabulary",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marasi became a constable and crime analyst under Constable-General Aradel. After Aradel was elected governor, Constable-General Reddi, long cold to her, finally accepted her as a constable in her own right.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "epilogue" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "bands-of-mourning",
-      "text": "Captured by the Set when Telsin and Mister Suit attacked, Marasi realized the spear point in her purse was the Bands of Mourning. Tapping their immense power, she freed herself, attacked the guards, and found and revived Wax beneath the temple, then gave him the Bands.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
-    },
-    {
-      "bookId": "bands-of-mourning",
-      "text": "Marasi became a constable and crime analyst under Constable-General Aradel. After Aradel was elected governor, Constable-General Reddi, long cold to her, finally accepted her as a constable in her own right.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "shadows-of-self", "chapter": "epilogue" },
-            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          "text": "The Bands of Mourning",
+          "revealedIn": [
+            { "book": "bands-of-mourning", "chapter": "31" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "9" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            }
           ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Wax and Steris's wedding, the kandra VenDell asked Marasi, on Harmony's behalf, to recover the kandra ReLuur's missing spike in New Seran and to look for the Bands of Mourning. On the way, the Nightstreet Gang attacked their train, and Marasi's Allomancy and rifle saved passengers and Wax.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        },
+        {
+          "text": "In New Seran, Marasi and Wayne's investigation led the group to the Set's base in Dulsing. There she and MeLaan recovered ReLuur's spike and some medallions from Professor Irich's safe, and she freed the captive Allik Neverfar against MeLaan's advice. Fighting with an Allomantic grenade, she was shot in the abdomen.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
+        },
+        {
+          "text": "Marasi convinced the others to flee with Allik aboard his airship Wilg, where MeLaan operated on her; through a misunderstanding Marasi thought she was dying. While guarding the entrance to the Sovereign's temple, she and Steris talked, and Steris opened up about her love for Wax, changing how Marasi saw her sister and people generally.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "9" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Captured by the Set when Telsin and Mister Suit attacked, Marasi realized the spear point in her purse was the Bands of Mourning. Tapping their immense power, she freed herself, attacked the guards, and found and revived Wax beneath the temple, then gave him the Bands.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "31" }]
         }
       ]
     }
   ],
+  "appearance": [],
   "personality": [
     {
       "text": "Marasi is fascinated by human morality, believing most people are good mainly because society expects it, and is intrigued by those far more or less moral than average. She cites crime statistics, especially when distressed, and is an excellent rifle shot in her university's ladies' target club.",

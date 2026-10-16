@@ -17,72 +17,154 @@
       "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "warbreaker",
-      "text": "As the first daughter of King Dedelin of Idris, Vivenna was raised to marry the God King of Hallandren as the peace treaty required, and was due to go to T'Telir at twenty-two. But Dedelin, who favored her because she reminded him of his late wife, sent her younger sister Siri instead.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Vivenna's lifelong friend Parlin came with her to T'Telir. She was fond of him in a sisterly way, and was jealous when he took a liking to the mercenary Jewels.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Vivenna was kidnapped by Vasher, who was trying to stop the mercenaries' plans, but she escaped. Back at the safe house she found Parlin tortured to death along with slain Idrian soldiers and dead animals, and finally saw the mercenaries for what they were.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Fleeing again, Vivenna lost most of her Breath in a failed attempt to Awaken a cloak. She hid in the Idrian slums as a Drab, living in poverty and keeping only a shawl that held her remaining Breath. When Denth's men nearly caught her, Vasher rescued her.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "Vivenna left home to rescue Siri. In T'Telir she sought the Idrian agent Lemex and was met by the mercenaries Denth and Tonk Fah, who took her to him. Lemex, gravely ill, forced his Breath on her before dying, raising her to the Third Heightening. The mercenaries declared her their new employer, and with their help she spent weeks among the city's Idrians, stirring them against the Court of Gods.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
-    },
-    {
-      "bookId": "warbreaker",
-      "text": "When Vasher had first captured her, he tested her with the sword Nightblood, which made her sick, showing she was pure of heart by its standards. After rescuing her from the streets, he nursed her back to health and began teaching her to use Breath. Wanting never to be powerless again, she embraced Awakening and stopped judging people by appearances.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "In Kholinar, after Queen Aesudan withdrew into the palace, Azure became Highmarshal of the Wall Guard. She secured a monastery with a Soulcaster, and Wit gave her metal panels that kept voidspren from sensing its use, letting her feed the Wall Guard and some of the city.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Azure joined the assault on the Kholinar palace and fled into Shadesmar with Kaladin, Shallan and Adolin, staying behind to defend their ship while the others escaped. The ship went on to Lasting Integrity, where she stayed for some time; she was the last human to leave the honorspren fortress, about five months before Shallan and Adolin arrived.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "oathbringer", "chapter": "110" },
-            { "book": "rhythm-of-war", "chapter": "78" }
+          "text": "Childhood in Idris",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the first daughter of King Dedelin of Idris, Vivenna was raised to marry the God King of Hallandren as the peace treaty required, and was due to go to T'Telir at twenty-two. But Dedelin, who favored her because she reminded him of his late wife, sent her younger sister Siri instead.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Among the mercenaries",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "43" },
+            { "book": "warbreaker", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vivenna left home to rescue Siri. In T'Telir she sought the Idrian agent Lemex and was met by the mercenaries Denth and Tonk Fah, who took her to him. Lemex, gravely ill, forced his Breath on her before dying, raising her to the Third Heightening. The mercenaries declared her their new employer, and with their help she spent weeks among the city's Idrians, stirring them against the Court of Gods.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        },
+        {
+          "text": "Vivenna's lifelong friend Parlin came with her to T'Telir. She was fond of him in a sisterly way, and was jealous when he took a liking to the mercenary Jewels.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fleeing the mercenaries",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "35" },
+            { "book": "warbreaker", "chapter": "41" },
+            { "book": "warbreaker", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vivenna was kidnapped by Vasher, who was trying to stop the mercenaries' plans, but she escaped. Back at the safe house she found Parlin tortured to death along with slain Idrian soldiers and dead animals, and finally saw the mercenaries for what they were.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+        },
+        {
+          "text": "Fleeing again, Vivenna lost most of her Breath in a failed attempt to Awaken a cloak. She hid in the Idrian slums as a Drab, living in poverty and keeping only a shawl that held her remaining Breath. When Denth's men nearly caught her, Vasher rescued her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
+        },
+        {
+          "text": "When Vasher had first captured her, he tested her with the sword Nightblood, which made her sick, showing she was pure of heart by its standards. After rescuing her from the streets, he nursed her back to health and began teaching her to use Breath. Wanting never to be powerless again, she embraced Awakening and stopped judging people by appearances.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Traveling with Vasher",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When events came to a head at the Court of Gods, Vivenna helped prevent another Manywar. After reuniting with Siri, she chose to travel with Vasher, starting with his investigation into Yesteel's return. She also promised Nightblood she would come looking for it if it were ever stolen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "35" }
+              ]
+            }
           ]
         }
       ]
     },
     {
-      "bookId": "wind-and-truth",
-      "text": "When events came to a head at the Court of Gods, Vivenna helped prevent another Manywar. After reuniting with Siri, she chose to travel with Vasher, starting with his investigation into Yesteel's return. She also promised Nightblood she would come looking for it if it were ever stolen.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "warbreaker", "chapter": "epilogue" },
-            { "book": "wind-and-truth", "chapter": "35" }
+          "text": "Highmarshal of the Wall Guard",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "108" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "78" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On Roshar: Kholinar and Shadesmar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "78" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kholinar, after Queen Aesudan withdrew into the palace, Azure became Highmarshal of the Wall Guard. She secured a monastery with a Soulcaster, and Wit gave her metal panels that kept voidspren from sensing its use, letting her feed the Wall Guard and some of the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "Azure joined the assault on the Kholinar palace and fled into Shadesmar with Kaladin, Shallan and Adolin, staying behind to defend their ship while the others escaped. The ship went on to Lasting Integrity, where she stayed for some time; she was the last human to leave the honorspren fortress, about five months before Shallan and Adolin arrived.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "78" }
+              ]
+            }
           ]
         }
       ]
     }
   ],
-  "personality": [
-    {
-      "text": "Dedelin admires Vivenna's devotion and her control over her hair, which surpasses his own, and sees her as the perfect daughter. Her sister Siri, who lacks that control, believes Vivenna is the best at everything.",
-      "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
-    },
+  "appearance": [
     {
       "text": "Following strict Idrian custom, Vivenna wore a plain grey dress and kept her hair in a black knot. In T'Telir she reluctantly began wearing more colorful and revealing dresses for practical reasons, and she cut off her hair to sell it.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
@@ -94,6 +176,12 @@
     {
       "text": "Azure looks like a lean Alethi woman in her mid-thirties, a little short by Alethi standards, with light orange eyes, straight black hair to mid-cheek and two scars across her face. She wears gloves, an azure cloak often wrapped around her left arm and a mail coif, and often carries her helm.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dedelin admires Vivenna's devotion and her control over her hair, which surpasses his own, and sees her as the perfect daughter. Her sister Siri, who lacks that control, believes Vivenna is the best at everything.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "2" }]
     },
     {
       "text": "Over time Vivenna grew into a capable woman who realized rulership was not for her, giving up her place to her siblings to travel with Vasher. Nightblood finds her very grumpy.",

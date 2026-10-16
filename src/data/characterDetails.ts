@@ -3663,4 +3663,153 @@ export const characterDetails: Record<string, CharacterDetails> = {
     bonds: [],
     relatives: [],
   },
+  felt: {
+    appearsIn: [
+      {
+        bookId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '31' }],
+      },
+      {
+        bookId: 'well-of-ascension',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'final-empire', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'final-empire', chapter: '31' },
+          { book: 'words-of-radiance', chapter: '81' },
+        ],
+      },
+    ],
+    abilities: [
+      { name: 'Awakener', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          {
+            all: [
+              { book: 'final-empire', chapter: '31' },
+              { book: 'words-of-radiance', chapter: '81' },
+            ],
+          },
+          {
+            all: [
+              { book: 'well-of-ascension', chapter: '42' },
+              { book: 'words-of-radiance', chapter: '81' },
+            ],
+          },
+          {
+            all: [
+              { book: 'hero-of-ages', chapter: '25' },
+              { book: 'words-of-radiance', chapter: '81' },
+            ],
+          },
+          {
+            all: [
+              { book: 'final-empire', chapter: '31' },
+              { book: 'oathbringer', chapter: '114' },
+            ],
+          },
+          {
+            all: [
+              { book: 'well-of-ascension', chapter: '42' },
+              { book: 'oathbringer', chapter: '114' },
+            ],
+          },
+          {
+            all: [
+              { book: 'hero-of-ages', chapter: '25' },
+              { book: 'oathbringer', chapter: '114' },
+            ],
+          },
+          {
+            all: [
+              { book: 'final-empire', chapter: '31' },
+              { book: 'rhythm-of-war', chapter: '21' },
+            ],
+          },
+          {
+            all: [
+              { book: 'well-of-ascension', chapter: '42' },
+              { book: 'rhythm-of-war', chapter: '21' },
+            ],
+          },
+          {
+            all: [
+              { book: 'hero-of-ages', chapter: '25' },
+              { book: 'rhythm-of-war', chapter: '21' },
+            ],
+          },
+          {
+            all: [
+              { book: 'final-empire', chapter: '31' },
+              { book: 'wind-and-truth', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'well-of-ascension', chapter: '42' },
+              { book: 'wind-and-truth', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'hero-of-ages', chapter: '25' },
+              { book: 'wind-and-truth', chapter: '7' },
+            ],
+          },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Spy', revealedIn: [{ book: 'final-empire', chapter: '31' }] },
+      {
+        name: 'Military scout',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Venture army',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '42' }],
+      },
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Malli',
+        relation: 'spouse',
+        characterId: 'malli',
+        revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+      },
+    ],
+  },
 }

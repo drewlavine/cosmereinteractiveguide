@@ -32,329 +32,479 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "way-of-kings",
-      "text": "During the unification of Alethkar, Navani proved a capable partner to Gavilar, helping devise his strategy and planning and carrying out schemes in support of his cause.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "After years in Kholinar, Navani came back to the warcamps on the Shattered Plains, bringing news that the Vedens had perfected half-shards, wanting her son protected, and needing to speak with Dalinar. She had concluded that leaving the warcamps, now the real center of the kingdom, had been a political mistake, and judged that Aesudan could hold Kholinar.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "As a young woman Navani was friends with Dalinar Kholin, and both brothers were drawn to her. Finding Dalinar frightening, she chose to marry Gavilar, the future king, and had two children with him: Jasnah and Elhokar.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Dalinar trusted Navani to record his visions. She proved an expert scribe, coaxing out details and taking them down calmly and carefully.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Navani privately admitted to Dalinar that she had really returned because she no longer felt she had a home; as a widow, the court expected her to stay out of the way, pampered and ignored.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "Navani saw the visions as proof that Dalinar was not going mad. Working together built trust between them, and they admitted their feelings for each other. Navani made it plain she would not let tradition stop her, since a match between them was not explicitly forbidden.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
-    },
-    {
-      "bookId": "way-of-kings",
-      "text": "When news came that Dalinar had died at the Tower after Sadeas's betrayal, Navani feared that no one would pray for him, as he had no wife or daughters. In her despair she painted a huge glyph prayer, Thath, meaning justice, onto the stones of the Plains.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Through Jasnah, Navani offered to examine Shallan's broken Soulcaster, and she backed the proposed engagement between Shallan and Adolin.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
-    },
-    {
-      "bookId": "words-of-radiance",
-      "text": "Navani found that phrases Dalinar spoke during his visions matched a chant in the Dawnchant, letting her scholars use the visions to help translate the ancient script. She kept the visions secret, cross-referenced them with history, and built a timeline of them; when the decision came to publish them, she cut sensitive lines such as the claim that the Almighty was dead.",
-      "revealedIn": [
+      "title": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "60" },
-            { "book": "words-of-radiance", "chapter": "4" }
-          ]
+          "text": "Early life",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a girl Navani travelled to Shulin with her father to help with the family business, learning to ride and hunt on their ranch but receiving little training in court life, and other women mocked her looks. Her mother left the family, and when Navani was seventeen her father was killed in a duel.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
         }
       ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Navani and Dalinar drew up a plan to unify the highprinces and strengthen the crown: changing how gemhearts were shared out, having Adolin duel for Shardblades, and persuading the highprinces of the benefits of unity. She urged building alliances on loyalty rather than fear.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "8" }]
+      "title": [
+        {
+          "text": "Marriage to Gavilar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young woman Navani was friends with Dalinar Kholin, and both brothers were drawn to her. Finding Dalinar frightening, she chose to marry Gavilar, the future king, and had two children with him: Jasnah and Elhokar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "During the unification of Alethkar, Navani proved a capable partner to Gavilar, helping devise his strategy and planning and carrying out schemes in support of his cause.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "During the unification, Navani and her close friend Ialai Sadeas plotted together at dinners to stabilize the kingdom their husbands were conquering, and looked for a politically useful wife for Dalinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "In Gavilar's last days, as he grew strange and distracted, Navani worked to keep squabbling lighteyes from splitting the kingdom. She knew he owned a small gemstone that glowed with a strange, somehow dark light.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "On the night of Gavilar's death, Navani argued bitterly with her estranged husband and burned a glyphward praying for his death. When she saw his broken body, she pitied him rather than grieving and felt guilty about the glyphward. She chose to stay silent about the truth and let him keep his legacy.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Navani worked toward ways to protect her family, hoping to recreate Shardplate, and oversaw a fabrial platform that could float in the air, meant to lift archers above the battlefield.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+      "title": [
+        {
+          "text": "Return to the Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "way-of-kings", "chapter": "58" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "62" },
+            { "book": "way-of-kings", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After years in Kholinar, Navani came back to the warcamps on the Shattered Plains, bringing news that the Vedens had perfected half-shards, wanting her son protected, and needing to speak with Dalinar. She had concluded that leaving the warcamps, now the real center of the kingdom, had been a political mistake, and judged that Aesudan could hold Kholinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Navani privately admitted to Dalinar that she had really returned because she no longer felt she had a home; as a widow, the court expected her to stay out of the way, pampered and ignored.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+        },
+        {
+          "text": "Dalinar trusted Navani to record his visions. She proved an expert scribe, coaxing out details and taking them down calmly and carefully.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+        },
+        {
+          "text": "Navani found that phrases Dalinar spoke during his visions matched a chant in the Dawnchant, letting her scholars use the visions to help translate the ancient script. She kept the visions secret, cross-referenced them with history, and built a timeline of them; when the decision came to publish them, she cut sensitive lines such as the claim that the Almighty was dead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Navani saw the visions as proof that Dalinar was not going mad. Working together built trust between them, and they admitted their feelings for each other. Navani made it plain she would not let tradition stop her, since a match between them was not explicitly forbidden.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+        },
+        {
+          "text": "When word came that Dalinar had been killed at the Tower after Sadeas abandoned him, Navani feared that no one would pray for him, as he had no wife or daughters. In her despair she painted a huge glyph prayer, Thath, meaning justice, onto the stones of the Plains.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "When peace talks were arranged with the Parshendi leader Eshonai, Navani wrote the script for Adolin, who went in his father's place, sending it by spanreed to the scribe accompanying him. The meeting failed.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
+      "title": [
+        {
+          "text": "Uniting the highprinces",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "words-of-radiance", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "53" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Through Jasnah, Navani offered to examine Shallan's broken Soulcaster, and she backed the proposed engagement between Shallan and Adolin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        },
+        {
+          "text": "Navani and Dalinar drew up a plan to unify the highprinces and strengthen the crown: changing how gemhearts were shared out, having Adolin duel for Shardblades, and persuading the highprinces of the benefits of unity. She urged building alliances on loyalty rather than fear.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "8" }]
+        },
+        {
+          "text": "Navani worked toward ways to protect her family, hoping to recreate Shardplate, and oversaw a fabrial platform that could float in the air, meant to lift archers above the battlefield.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        },
+        {
+          "text": "When peace talks were arranged with the Parshendi leader Eshonai, Navani wrote the script for Adolin, who went in his father's place, sending it by spanreed to the scribe accompanying him. The meeting failed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
+        },
+        {
+          "text": "Navani teased Adolin about his dueling superstitions and burned prayers for him before his duels. She also persuaded him to at least consider the engagement to Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "When Shallan arrived and told Navani that Jasnah had been lost at sea, Navani refused to see her or have anything to do with her, even accusing Shallan of dooming Jasnah by setting fire to the ship while her daughter lay unconscious.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+        },
+        {
+          "text": "Despite the war and court intrigue, Navani kept up her fabrial research, working on water pumps for the warcamps and new weapons. Her team realized that the gemstones on Shardblades were likely not original, since a Blade could be summoned even when its gem was empty. She was furious when Dalinar's visions were published in a mocking tone, though Dalinar took it calmly.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Navani teased Adolin about his dueling superstitions and burned prayers for him before his duels. She also persuaded him to at least consider the engagement to Shallan.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+      "title": [
+        {
+          "text": "Expedition to the center of the Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "77" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "words-of-radiance", "chapter": "85" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Shallan survived a fall into the chasms and came back with a detailed map of the Plains, Navani warmed to her, admitted she had been avoiding painful things, and told Shallan she had nothing to apologize for. Navani agreed to help with Jasnah's research without taking it from Shallan, who then told her that Jasnah had been Soulcasting without a fabrial.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+        },
+        {
+          "text": "Navani took charge of researching Jasnah's notes on the Oathgate, Urithiru and the Knights Radiant, pulling Dalinar's scribes and cartographers onto the search. She also transcribed the questioning of a Parshendi who had returned to Bridge Four to aid them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "At the Battle of Narak, Navani led her scholars in using fabrials in the fight: light fabrials lit the battlefield, and newly built attractors drew water from the air to keep the rain off the archers, letting Roion's men strike the Parshendi. Her scholars, led by Inadara, also helped Shallan reach and open the Oathgate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "When Shallan arrived and told Navani that Jasnah had died at sea, Navani refused to see her or have anything to do with her, even accusing Shallan of abandoning Jasnah by setting fire to the ship while her daughter lay unconscious.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+      "title": [
+        {
+          "text": "Urithiru and the coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Navani recorded Dalinar's visions in greater detail now that he could replay them at will. When he resolved to unite all of Roshar, he asked for her help. She and Dalinar were married, with the Stormfather performing the ceremony.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+        },
+        {
+          "text": "Navani worked on civic projects in Urithiru such as sewage, wrote her memoirs, and developed new fabrials. She led diplomacy with the other monarchs, but only Taravangian of Kharbranth answered in support. When Dalinar told her what he remembered of visiting the Nightwatcher and began recovering memories, she researched the Old Magic but found no case where its effects had ever worn off.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "Navani and Jasnah were the first people Dalinar brought into his visions, arriving at Aharietiam. Navani marveled at the vision's realism and badgered a Radiant into showing her his fabrial, then asked about the parshmen and Honorblades. The Stormfather told them the truth of that day: the Heralds had chosen not to return.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "Studying Urithiru, Navani found patterns in its gemstones that unlocked recorded messages left by the tower's last Radiants.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        },
+        {
+          "text": "After much effort, several monarchs agreed to meet at Urithiru, but by then Dalinar was struggling with returning memories and the fall of Kholinar. Navani hosted the summit, having everyone carry their own chair in the old Alethi way. When the meeting dissolved into demands, she assigned each kingdom a task suited to its strengths and won agreement.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "When Dalinar recovered enough to rejoin the meetings, he realized the enemy's target was Thaylenah rather than Jah Keved, but Taravangian betrayed them by leaking Dalinar's secrets, and the coalition fell apart. Thaylenah still accepted Alethi help, and Navani went to Thaylen City to support Queen Fen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Despite the war and court intrigue, Navani kept up her fabrial research, working on water pumps for the warcamps and new weapons. Her team realized that the gemstones on Shardblades were likely not original, since a Blade could be summoned even when its gem was empty. She was furious when Dalinar's visions were published in a mocking tone, though Dalinar took it calmly.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the battle at Thaylen City, a huge stone monster destroyed the tower where Navani and Fen were sheltering. Captured by Amaram's troops, who blamed the Kholins for Sadeas's death, Navani knocked them down with her painrial before they could execute Fen's consort, Kmakl.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Adolin found Navani, told her that Elhokar had died, and comforted her. At Jasnah's request she helped clear the center of the city and care for its people until Dalinar returned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "After the battle, Dalinar gave Navani the gem that imprisoned Nergaoul to study and asked her to teach him to read and write. She did, and also helped him write his autobiography.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "After Shallan survived a fall into the chasms and came back with a detailed map of the Plains, Navani warmed to her, admitted she had been avoiding painful things, and told Shallan she had nothing to apologize for. Navani agreed to help with Jasnah's research without taking it from Shallan, who then told her that Jasnah had been Soulcasting without a fabrial.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+      "title": [
+        {
+          "text": "The war continues",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "2" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "rhythm-of-war", "chapter": "6" },
+            { "book": "rhythm-of-war", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "17" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Thaylens found a ghost ship, Navani sought a vessel to investigate Aimia. Rysn came to offer her ship, and Navani, believing the missing ship had sailed to the legendary island of Akinah, pointed out that Urithiru too had once been called a legend.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
+        },
+        {
+          "text": "Navani examined Rysn's larkin Chiri-Chiri, offered generous pay, and agreed to secure Queen Fen's endorsement and send fabrials that might help with Rysn's disability. She sent Rushu with experimental devices and assigned Windrunners who lacked Shardblades, so no key to the gate would fall to the enemy.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "During the evacuation of Hearthstone, Navani was aboard the Fourth Bridge, a flying ship her engineers had designed, when the Herdazian Mink slipped aboard and struck a deal with Dalinar. Navani helped secure the refugees, and when Rushu spotted a man watching the battle, Navani recognized him as Moash and warned the Windrunners.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        },
+        {
+          "text": "Returning to Urithiru, Navani studied a captured suppression fabrial whose gemstones matched those of the tower's crystal pillar, and puzzled over Soulcasters, which defied fabrial science. She found a conjoined ruby in the ship's flight mechanism and attached it to a spanreed; the writer on the other end called her a monster who imprisoned spren, then went silent.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        },
+        {
+          "text": "Navani questioned the imprisoned Szeth about the strange dark sphere he had carried. He told her Gavilar had given it to him just before dying but knew nothing more. When he asked whether she hated him, she said that she did.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        },
+        {
+          "text": "Navani visited her grandson Gavinor, worried about how the trauma of Kholinar was affecting him, and deflected his request to learn the sword. She then joined Dalinar, Jasnah and the Mink to plan strategy, and she and Jasnah persuaded Dalinar to accept the Mink's proposal to retake Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+        },
+        {
+          "text": "Navani tested a new lifting fabrial built by her engineers. At a coalition meeting she coldly criticized Taravangian's seizure of Jah Keved, then was unsettled when he readily agreed to the Emul campaign. Dalinar shared her worries and asked her to remain in Urithiru, which she promised to do.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Navani took charge of researching Jasnah's notes on the Oathgate, Urithiru and the Knights Radiant, pulling Dalinar's scribes and cartographers onto the search. She also transcribed the questioning of a Parshendi who had returned to Bridge Four to aid them.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+      "title": [
+        {
+          "text": "Running the tower",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "27" },
+            { "book": "rhythm-of-war", "chapter": "28" },
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "39" },
+            { "book": "rhythm-of-war", "chapter": "40" },
+            { "book": "rhythm-of-war", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "49" },
+            { "book": "rhythm-of-war", "chapter": "89" },
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        },
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        },
+        {
+          "text": "The occupation and liberation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the coalition army departed, Navani warned Dalinar about Taravangian and asked Jasnah to keep him out of the fighting. She took over the running of the tower and checked on a hidden room containing a scale model of Urithiru. Then the mysterious spanreed began blinking again, and she dropped everything to answer it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+        },
+        {
+          "text": "Navani's team tried to trace the spanreed's writer, and she and her scholars concluded it was a spren somewhere inside the tower. On impulse, she broke the spanreed, hoping to draw the spren out another time.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
+        },
+        {
+          "text": "Navani kept testing the lifting fabrial. Her guards then brought her Dabbid, a quiet servant they had caught leaving a spanreed ruby at her workstation, though she could get nothing out of him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        },
+        {
+          "text": "An explosion killed two of Navani's scholars. When she connected Dabbid's ruby to a spanreed, it frantically wrote that singers had infiltrated the tower and that it was the Sibling, the tower's spren. As the Radiants began collapsing, Navani sent runners to the garrisons and learned from Dabbid that the Sibling spoke to him through crystal veins in the walls.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        },
+        {
+          "text": "With every Radiant unconscious and singers invading, Navani ordered her soldiers toward the pillar room. Speaking directly to the Sibling through a crystal vein, she learned that the Fused Raboniel had corrupted the tower's defenses, and the Sibling, though distrustful of her, told her how to activate a last defense.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        },
+        {
+          "text": "Navani's team reached the lowest levels, where she and two Thaylen scholars used a tuning fork to infuse a series of gemstones, raising a shield around the pillar that was the Sibling's heart. She then surrendered to the singers and negotiated with Raboniel, who offered to employ her as a research assistant.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+        },
+        {
+          "text": "Navani accepted Raboniel's offer. While sketching for her, Navani realized that Soulcasters, the tower's lifts and other unusual fabrials were made directly of spren rather than powered by spren trapped in gems.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
+        },
+        {
+          "text": "Navani had her scholars stall with busywork and coded nonsense while she worked secretly with the Sibling to protect them and to contact Kaladin. When she persuaded the Sibling to reveal the location of a node, Raboniel overheard; Kaladin destroyed the node, but the Sibling felt betrayed. Raboniel shared food and wine with Navani and spoke of the long war between humans and singers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+        },
+        {
+          "text": "Raboniel coaxed Navani into continuing their research. Singing Honor's and Odium's rhythms together, they created Warlight for the first time, and Raboniel named Navani Voice of Lights. Navani realized Raboniel was seeking an opposite of Light, and that Gavilar's strange sphere was an example, though she kept that to herself.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+        },
+        {
+          "text": "Working with sound plates and music theory, Navani found the tone for anti-Voidlight. Raboniel forced her to share the work, and together they created it, but Raboniel then began making anti-Stormlight to kill the unconscious Radiants and their spren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Navani set fabrial traps and gravely wounded Raboniel with a dagger holding anti-Voidlight. When Moash came to kill her, Raboniel held him off long enough for Navani to swear an Ideal and bond the Sibling. As a Bondsmith, she drove Moash away, restored the tower and sent the invaders fleeing.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Navani found Raboniel still alive. Raboniel asked Navani to end her life, and after they sang Honor's and Odium's tones together, Navani did so, promising to end the war. Afterward, Dalinar praised her for saving the tower herself, and she welcomed the deal he had made with Odium.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "At the Battle of Narak, Navani led her scholars in using fabrials in the fight: light fabrials lit the battlefield, and newly built attractors drew water from the air to keep the rain off the archers, letting Roion's men strike the Parshendi. Her scholars, led by Inadara, also helped Shallan reach and open the Oathgate.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }]
+      "title": [
+        {
+          "text": "Preparing for the contest",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "20" },
+            { "book": "wind-and-truth", "chapter": "23" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bonded to the Sibling, Navani could speak with them mind to mind, explore sealed parts of Urithiru, and restart fabrials that warmed the tower. She sat with the coalition leaders when Wit announced that Odium had a new vessel, asked whether the contract's loopholes could be exploited, and urged Dalinar to reconcile with Adolin, who refused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
+        },
+        {
+          "text": "Navani planned with Jasnah, Fen, Dalinar and Wit to enter the Spiritual Realm to learn the history of the conflict. She managed the tower's supplies and the lighteyes' anger over emancipation, debated Dalinar's planned ascension with the Sibling, and checked on Rushu's attempts to domesticate flamespren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
+        }
+      ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "In Urithiru, Navani recorded Dalinar's visions in greater detail now that he could replay them at will. When he resolved to unite all of Roshar, he asked for her help. She and Dalinar were married, with the Stormfather performing the ceremony.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+      "title": [
+        {
+          "text": "Visions in the Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "31" },
+            { "book": "wind-and-truth", "chapter": "46" },
+            { "book": "wind-and-truth", "chapter": "50" },
+            { "book": "wind-and-truth", "chapter": "58" },
+            { "book": "wind-and-truth", "chapter": "65" },
+            { "book": "wind-and-truth", "chapter": "77" },
+            { "book": "wind-and-truth", "chapter": "82" },
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "wind-and-truth", "chapter": "101" },
+            { "book": "wind-and-truth", "chapter": "105" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani told Dalinar of her fear of losing him to his ascension but insisted on going with him to interpret the visions. She scolded Wit for keeping his knowledge of Ashyn to himself, then entered the Spiritual Realm with Dalinar, bringing Gavinor along.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+        },
+        {
+          "text": "In a vision of humanity's arrival on Roshar, Navani disliked Dalinar's blunt questioning of the singers. She watched Ishar open a portal from Ashyn for human refugees, recognized several Heralds, and saw Wit among them, whose vision-self realized it was not real.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "46" }]
+        },
+        {
+          "text": "Navani studied Ishar's portal, noting he had to maintain it by Elsecalling, until Jezrien and Wit warned her away. She asked the Wind for a guide and was told to take Ash's ribbon as an anchor to the next vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+        },
+        {
+          "text": "Navani took the place of Pralla in a vision where the Heralds debated war. She was shocked to see Vedel Surgebinding before the Oathpact, and comforted Gavinor when Dalinar drew him in. The Wind told her it had changed because humans worshipped the Stormfather and that it was preparing a champion of its own.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        },
+        {
+          "text": "In a vision forty-three years after the humans' arrival, Navani watched Honor appear to the Heralds and saw them swear the Oathpact. Tempted to join, she declined, noting that Wit had not.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        },
+        {
+          "text": "Navani traveled through the Desolations with Dalinar. Separated from him, she tied a thread of Connection between them so she would not be lost again, and Gavinor revealed that Battar had been visiting his mother Aesudan.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+        },
+        {
+          "text": "In a vision of the Radiants abandoning Urithiru, Navani was placed in the role of the Bondsmith Melishi and witnessed a standoff over the truth of humanity's origins. Through the Sibling she learned that fabrials had helped divide them from Melishi, and she helped Dalinar find a path to the next vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
+        },
+        {
+          "text": "Navani witnessed a failed parley with singers who served Ba-Ado-Mishram, then saw Melishi imprison the Unmade. Honor's vision of a burning Roshar drew Odium's notice, and he separated her from Dalinar and Gavinor.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "Separated from Dalinar, Navani was shown humiliating memories, such as being mocked as a girl for her looks and an old argument with Gavilar. Realizing what was being done, she took control of the visions and, guessing Gavinor was being tormented at the siege of Kholinar, asked to see Elhokar's death.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
+        },
+        {
+          "text": "In the vision of Kholinar's fall, Navani reached the Sibling through the tones of Roshar and planned an escape. With the help of vision Elhokar and Kaladin she freed Gavinor, then carried him to the Oathgate, where the Sibling pulled them both back to the tower.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "105" }]
+        }
+      ]
     },
     {
-      "bookId": "oathbringer",
-      "text": "Navani worked on civic projects in Urithiru such as sewage, wrote her memoirs, and developed new fabrials. She led diplomacy with the other monarchs, but only Taravangian of Kharbranth answered in support. When Dalinar told her what he remembered of visiting the Nightwatcher and began recovering memories, she researched the Old Magic but found no case where its effects had ever worn off.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Navani and Jasnah were the first people Dalinar brought into his visions, arriving at Aharietiam. Navani marveled at the vision's realism and badgered a Radiant into showing her his fabrial, then asked about the parshmen and Honorblades. The Stormfather told them the truth of that day: the Heralds had chosen not to return.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Studying Urithiru, Navani found patterns in its gemstones that unlocked recorded messages left by the tower's last Radiants.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "After much effort, several monarchs agreed to meet at Urithiru, but by then Dalinar was struggling with returning memories and the fall of Kholinar. Navani hosted the summit, having everyone carry their own chair in the old Alethi way. When the meeting dissolved into demands, she assigned each kingdom a task suited to its strengths and won agreement.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "When Dalinar recovered enough to rejoin the meetings, he realized the enemy's target was Thaylenah rather than Jah Keved, but Taravangian betrayed them by leaking Dalinar's secrets, and the coalition fell apart. Thaylenah still accepted Alethi help, and Navani went to Thaylen City to support Queen Fen.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "During the battle at Thaylen City, a huge stone monster destroyed the tower where Navani and Fen were sheltering. Captured by Amaram's troops, who blamed the Kholins for Sadeas's death, Navani knocked them down with her painrial before they could execute Fen's consort, Kmakl.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Adolin found Navani, told her that Elhokar had died, and comforted her. At Jasnah's request she helped clear the center of the city and care for its people until Dalinar returned.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Afterward, Dalinar gave Navani the gem that imprisoned Nergaoul to study, and she recalled that Gavilar had owned a similar gem that glowed with a strange dark light. Dalinar also asked her to teach him to read and write, which she did.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
-    },
-    {
-      "bookId": "dawnshard",
-      "text": "When the Thaylens found a ghost ship, Navani sought a vessel to investigate Aimia. Rysn came to offer her ship, and Navani, believing the missing ship had sailed to the legendary island of Akinah, pointed out that Urithiru too had once been called a legend.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
-    },
-    {
-      "bookId": "dawnshard",
-      "text": "Navani examined Rysn's larkin Chiri-Chiri, offered generous pay, and agreed to secure Queen Fen's endorsement and send fabrials that might help with Rysn's disability. She sent Rushu with experimental devices and assigned Windrunners who lacked Shardblades, so no key to the gate would fall to the enemy.",
-      "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Years before, on the night of Gavilar's death, Navani had argued bitterly with her estranged husband and burned a glyphward praying for his death. When she saw his broken body, she pitied him rather than grieving and felt guilty about the glyphward. She chose to stay silent about the truth and let him keep his legacy.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "During the evacuation of Hearthstone, Navani was aboard the Fourth Bridge, a flying ship her engineers had designed, when the Herdazian Mink slipped aboard and struck a deal with Dalinar. Navani helped secure the refugees, and when Rushu spotted a man watching the battle, Navani recognized him as Moash and warned the Windrunners.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Returning to Urithiru, Navani studied a captured suppression fabrial whose gemstones matched those of the tower's crystal pillar, and puzzled over Soulcasters, which defied fabrial science. She found a conjoined ruby in the ship's flight mechanism and attached it to a spanreed; the writer on the other end called her a monster who imprisoned spren, then went silent.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani questioned the imprisoned Szeth about the strange dark sphere he had carried. He told her Gavilar had given it to him just before dying but knew nothing more. When he asked whether she hated him, she said that she did.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani visited her grandson Gavinor, worried about how the trauma of Kholinar was affecting him, and deflected his request to learn the sword. She then joined Dalinar, Jasnah and the Mink to plan strategy, and she and Jasnah persuaded Dalinar to accept the Mink's proposal to retake Emul.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani tested a new lifting fabrial built by her engineers. At a coalition meeting she coldly criticized Taravangian's seizure of Jah Keved, then was unsettled when he readily agreed to the Emul campaign. Dalinar shared her worries and asked her to remain in Urithiru, which she promised to do.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "As the coalition army departed, Navani warned Dalinar about Taravangian and asked Jasnah to keep him out of the fighting. She took over the running of the tower and checked on a hidden room containing a scale model of Urithiru. Then the mysterious spanreed began blinking again, and she dropped everything to answer it.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani's team tried to trace the spanreed's writer, and she and her scholars concluded it was a spren somewhere inside the tower. On impulse, she broke the spanreed, hoping to draw the spren out another time.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani kept testing the lifting fabrial. Her guards then brought her Dabbid, a quiet servant they had caught leaving a spanreed ruby at her workstation, though she could get nothing out of him.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "An explosion killed two of Navani's scholars. When she connected Dabbid's ruby to a spanreed, it frantically wrote that singers had infiltrated the tower and that it was the Sibling, the tower's spren. As the Radiants began collapsing, Navani sent runners to the garrisons and learned from Dabbid that the Sibling spoke to him through crystal veins in the walls.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "With every Radiant unconscious and singers invading, Navani ordered her soldiers toward the pillar room. Speaking directly to the Sibling through a crystal vein, she learned that the Fused Raboniel had corrupted the tower's defenses, and the Sibling, though distrustful of her, told her how to activate a last defense.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani's team reached the lowest levels, where she and two Thaylen scholars used a tuning fork to infuse a series of gemstones, raising a shield around the pillar that was the Sibling's heart. She then surrendered to the singers and negotiated with Raboniel, who offered to employ her as a research assistant.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani accepted Raboniel's offer. While sketching for her, Navani realized that Soulcasters, the tower's lifts and other unusual fabrials were made directly of spren rather than powered by spren trapped in gems.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani had her scholars stall with busywork and coded nonsense while she worked secretly with the Sibling to protect them and to contact Kaladin. When she persuaded the Sibling to reveal the location of a node, Raboniel overheard; Kaladin destroyed the node, but the Sibling felt betrayed. Raboniel shared food and wine with Navani and spoke of the long war between humans and singers.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Raboniel coaxed Navani into continuing their research. Singing Honor's and Odium's rhythms together, they created Warlight for the first time, and Raboniel named Navani Voice of Lights. Navani realized Raboniel was seeking an opposite of Light, and that Gavilar's strange sphere was an example, though she kept that to herself.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Working with sound plates and music theory, Navani found the tone for anti-Voidlight. Raboniel forced her to share the work, and together they created it, but Raboniel then began making anti-Stormlight to kill the unconscious Radiants and their spren.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani set fabrial traps and gravely wounded Raboniel with a dagger holding anti-Voidlight. When Moash came to kill her, Raboniel held him off long enough for Navani to swear an Ideal and bond the Sibling. As a Bondsmith, she drove Moash away, restored the tower and sent the invaders fleeing.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Navani found Raboniel still alive. Raboniel asked Navani to end her life, and after they sang Honor's and Odium's tones together, Navani did so, promising to end the war. Afterward, Dalinar praised her for saving the tower herself, and she welcomed the deal he had made with Odium.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Bonded to the Sibling, Navani could speak with them mind to mind, explore sealed parts of Urithiru, and restart fabrials that warmed the tower. She sat with the coalition leaders when Wit announced that Odium had a new vessel, asked whether the contract's loopholes could be exploited, and urged Dalinar to reconcile with Adolin, who refused.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "20" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani planned with Jasnah, Fen, Dalinar and Wit to enter the Spiritual Realm to learn the history of the conflict. She managed the tower's supplies and the lighteyes' anger over emancipation, debated Dalinar's planned ascension with the Sibling, and checked on Rushu's attempts to domesticate flamespren.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani told Dalinar of her fear of losing him to his ascension but insisted on going with him to interpret the visions. She scolded Wit for keeping his knowledge of Ashyn to himself, then entered the Spiritual Realm with Dalinar, bringing Gavinor along.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "In a vision of humanity's arrival on Roshar, Navani disliked Dalinar's blunt questioning of the singers. She watched Ishar open a portal from Ashyn for human refugees, recognized several Heralds, and saw Wit among them, whose vision-self realized it was not real.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "46" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani studied Ishar's portal, noting he had to maintain it by Elsecalling, until Jezrien and Wit warned her away. She asked the Wind for a guide and was told to take Ash's ribbon as an anchor to the next vision.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani took the place of Pralla in a vision where the Heralds debated war. She was shocked to see Vedel Surgebinding before the Oathpact, and comforted Gavinor when Dalinar drew him in. The Wind told her it had changed because humans worshipped the Stormfather and that it was preparing a champion of its own.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "In a vision forty-three years after the humans' arrival, Navani watched Honor appear to the Heralds and saw them swear the Oathpact. Tempted to join, she declined, noting that Wit had not.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani traveled through the Desolations with Dalinar. Separated from him, she tied a thread of Connection between them so she would not be lost again, and Gavinor revealed that Battar had been visiting his mother Aesudan.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "In a vision of the Radiants abandoning Urithiru, Navani was placed in the role of the Bondsmith Melishi and witnessed a standoff over the truth of humanity's origins. Through the Sibling she learned that fabrials had helped divide them from Melishi, and she helped Dalinar find a path to the next vision.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Navani witnessed a failed parley with singers who served Ba-Ado-Mishram, then saw Melishi imprison the Unmade. Honor's vision of a burning Roshar drew Odium's notice, and he separated her from Dalinar and Gavinor.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Odium showed Navani humiliating memories, including being mocked as a girl in Shulin, where she had grown up on her father's ranch with little court training. Realizing what was happening, she took control of the visions and asked to see Elhokar's death, guessing Gavinor was trapped there.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "101" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "In the vision of Kholinar's fall, Navani reached the Sibling through the tones of Roshar and planned an escape. With the help of vision Elhokar and Kaladin she freed Gavinor, then carried him to the Oathgate, where the Sibling pulled them both back to the tower.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "105" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Back in Urithiru, Navani prepared to stand as champion herself if needed. Wit told her that Taravangian was now Odium's vessel. When Dalinar returned, she kissed him before everyone and urged him to act on his own beliefs.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "After receiving Dalinar's final message of love, Navani set aside her grief and urged the Sibling to raise defenses against Retribution. This sealed her in crystal, alive but seemingly asleep and unable to communicate.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+      "title": [
+        {
+          "text": "Back in Urithiru",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Back in Urithiru, Navani prepared to stand as champion herself if needed. Wit told her that Taravangian was now Odium's vessel. When Dalinar returned, she kissed him before everyone and urged him to act on his own beliefs.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "After receiving Dalinar's final message of love, Navani set aside her grief and urged the Sibling to raise defenses against Retribution. This sealed her in crystal, alive but seemingly asleep and unable to communicate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
     }
   ],
-  "personality": [
-    {
-      "text": "Navani's great passion is fabrial science. A renowned artifabrian, she directs teams of ardents who build her designs, from the grandbows to an early painrial she is especially proud of.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
-    },
-    {
-      "text": "Exacting in her words and thoughts, Navani is a careful, businesslike scribe. As a widowed queen she chafes at being sidelined by the court and is willing to defy tradition whenever it is not explicitly forbidden.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
-    },
+  "appearance": [
     {
       "text": "Navani has a stately bearing, light violet eyes, full lips and black hair going silver, worn in perfect braids. Considered one of Alethkar's great beauties, she often wears red lipstick, a red dress and rubies in her hair, and favors a less floral perfume than most Alethi women.",
       "revealedIn": [
@@ -366,6 +516,16 @@
           ]
         }
       ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Navani's great passion is fabrial science. A renowned artifabrian, she directs teams of ardents who build her designs, from the grandbows to an early painrial she is especially proud of.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Exacting in her words and thoughts, Navani is a careful, businesslike scribe. As a widowed queen she chafes at being sidelined by the court and is willing to defy tradition whenever it is not explicitly forbidden.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
     },
     {
       "text": "Navani tends to downplay her own scholarship, yet she is a brilliant systems engineer who leads teams across many disciplines. She is uncomfortable when others praise her intellect.",

@@ -1,0 +1,181 @@
+{
+  "intro": [
+    {
+      "text": "A spy for House Venture who reports to Elend Venture.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+    },
+    {
+      "text": "A scout serving with the Alethi armies on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "text": "A scout and one of Dalinar Kholin's most trusted men, who once guided him to the Nightwatcher.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "114" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Once a spy for Elend Venture, now a scout and one of Dalinar Kholin's most trusted men.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "114" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Once a spy for Elend Venture, later a trusted scout of House Kholin, who turned out to be working for the Ghostbloods.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Spy for House Venture",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "well-of-ascension", "chapter": "42" },
+            { "book": "hero-of-ages", "chapter": "25" }
+          ]
+        },
+        {
+          "text": "On Scadrial",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "31" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Worked as one of House Venture's main spies, first for Straff Venture and then for his son Elend.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "Watched the hideout of Kelsier's crew and told Elend they were a capable, well-funded skaa thieving crew, which showed Elend that Valette Renoux wasn't what she seemed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        },
+        {
+          "text": "During the siege of Luthadel, Elend asked him to find out how someone was getting in to poison the city's food. Questioning refugees and the men on the walls led nowhere, but on a hunch he had the river searched and found drain grates pried loose. Elend, impressed, planned to give him more work, perhaps hunting a kandra spy.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+        },
+        {
+          "text": "Was posted to guard the Lord Ruler's storage cavern in Statlin City while Vin and Elend claimed the others.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Scout for House Kholin",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        },
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "31" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after Gavilar's assassination, travelled in secret with Dalinar Kholin to the Valley, warning him that the Nightwatcher's curse could be bad. He had been there before, but she never showed herself to him; he thought she disliked foreigners. He was the first to speak Evi's name to Dalinar afterwards.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        },
+        {
+          "text": "Before the Battle of Narak, scouted the plateaus around Narak with Shim, reporting to Lyn.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "Went with Adolin and Shallan through Shadesmar to Lasting Integrity, keeping watch on a band of Tukari that followed them. During Adolin's trial he stayed in the camp nearby rather than going back to Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        },
+        {
+          "text": "Turned out to be an Awakener.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-1" }]
+        },
+        {
+          "text": "Was secretly working for the Ghostbloods: after Shallan freed the Herald Kalak, Felt captured him for them, and took back the seon she had unknowingly been using.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "After the Night of Sorrows, met Shallan at Cultivation's Perpendicularity, where she spoke with the Ghostbloods' leader. With Dalinar and Mraize dead, he said he and his wife Malli would have to serve someone else.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, slight man with pale skin, a hawkish face and a drooping mustache. On Roshar he looks foreign, and the Alethi take him for darkeyed. He often wears the floppy brown hat Bashin left him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "42" },
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Reliable, logical and resourceful, and observant enough to make a very good spy. Unlike many nobles he works hard, and he is loyal to the lords he serves and enjoys the tasks they give him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "well-of-ascension", "chapter": "42" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Lithe and nimble, and a trained military scout at home in the wilds. Older by the time of the Desolation, he is still agile enough to climb outcroppings and scout.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "31" },
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -19,5 +19,7 @@
     "erasableSyntaxOnly": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["vite.config.ts", "scripts"]
+  "include": ["vite.config.ts", "scripts"],
+  // Imports app code, so it's checked with the app's settings.
+  "exclude": ["scripts/spoiler-snapshot.ts"]
 }

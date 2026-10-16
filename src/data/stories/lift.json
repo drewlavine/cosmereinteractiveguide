@@ -24,146 +24,232 @@
       ]
     }
   ],
-  "story": [
+  "history": [
     {
-      "bookId": "words-of-radiance",
-      "text": "Hunted in Marabethia by a man she called Darkness, who believed her powers could bring a Desolation, Lift fled to Azimir and joined a crew of thieves led by Tigzikk. They planned to rob the Bronze Palace while the viziers chose a new Prime, and Lift joined in to keep Tigzikk safe.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+      "title": [
+        {
+          "text": "Thief in Azimir",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hunted in Marabethia by a man she called Darkness, who believed her powers could bring a Desolation, Lift fled to Azimir and joined a crew of thieves led by Tigzikk. They planned to rob the Bronze Palace while the viziers chose a new Prime, and Lift joined in to keep Tigzikk safe.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Inside the palace grounds, Lift spotted Darkness and escaped over the wall, then used her spren to open a room for the crew. Instead of keeping watch with Gawx, she went looking for food, and the two split up.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Lift reached the Prime's quarters while the guards dealt with Gawx, but Darkness arrived with papers authorizing her execution. She escaped, but one of his men cut Gawx's throat. Though she was already safe, Lift went back to try to save him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Lift spoke the Second Ideal of the Edgedancers and healed Gawx, the first time she had healed anyone, and Darkness seized her for execution. The viziers believed Gawx had healed himself as a sign from the Heralds and made him Prime Aqasix; he quickly pardoned Lift, forcing Darkness to release her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Inside the palace grounds, Lift spotted Darkness and escaped over the wall, then used her spren to open a room for the crew. Instead of keeping watch with Gawx, she went looking for food, and the two split up.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+      "title": [
+        {
+          "text": "Yeddaw",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "4" },
+            { "book": "edgedancer", "chapter": "6" },
+            { "book": "edgedancer", "chapter": "10" },
+            { "book": "edgedancer", "chapter": "14" },
+            { "book": "edgedancer", "chapter": "16" },
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "edgedancer", "chapter": "19" },
+            { "book": "edgedancer", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Uneasy with settling into palace life, Lift left Azimir for Yeddaw. Slipping past the gate guard Hauka by hiding in a smuggler's cart, she tipped it into the immigrant district and leapt after it, using Wyndle to slow her fall.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+        },
+        {
+          "text": "Hungry after using up her power, Lift found the Tashi's Light Orphanage, run by a woman called the Stump, who allowed her three meals. An old man outside told her the Stump liked to trade spheres.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+        },
+        {
+          "text": "Lift followed Hauka and saw Darkness questioning her, then trailed him to his base, ate his food, and learned that he had recruits, including Szeth, searching for her and for another possible Surgebinder in Yeddaw. Back at the orphanage, she noticed an injured boy had recovered remarkably.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+        },
+        {
+          "text": "Claiming friendship with the emperor and using a spanreed to prove it, Lift had the scribes of the Grand Indicium search records for strange events, but found nothing useful before the Everstorm approached.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+        },
+        {
+          "text": "Lift tracked Darkness's followers inside the Indicium, where Szeth guarded the door with his strange sword, Nightblood, which liked her. Szeth told her Darkness's other followers were hunting the old man outside the orphanage, a possible Lightweaver, and doubted she could catch them.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "16" }]
+        },
+        {
+          "text": "At the orphanage, Lift took her last meal, then found the two Skybreakers dead and the old man revealed as Arclo, an Aimian. He led her to realize the other Surgebinder was the Stump.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+        },
+        {
+          "text": "Darkness reached the orphanage first and stabbed the Stump. On the roof, Wyndle became a weapon to block his Shardblade, and Lift spoke the Third Ideal. Showing him the Everstorm and the transformed parshmen, she convinced Darkness, who was the Herald Nale, that the Desolation had come, and even hugged him as he broke down.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        },
+        {
+          "text": "Lift helped heal the Stump, explained some of her abilities to her, and then set off back to Azimir.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Lift reached the Prime's quarters while the guards dealt with Gawx, but Darkness arrived with papers authorizing her execution. She escaped, but one of his men cut Gawx's throat. Though she was already safe, Lift went back to try to save him.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+      "title": [
+        {
+          "text": "Meeting Dalinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift slipped into a vision Dalinar shared with Yanagawn, warned her friend not to trust Dalinar because of his violent past, and helped the emperor leave the vision early.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+        },
+        {
+          "text": "After seeing Dalinar confront Odium, Lift became more willing to listen to him. When he came to Azimir, she stole his food while he waited on the viziers, and because he did not resent it, she shared some back.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "Lift came to Urithiru with Yanagawn and sailed with him to Thaylen City. When the coalition collapsed and the Azish fleet left despite her protests, she knocked out her guard and escaped to rejoin the Radiants.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ]
     },
     {
-      "bookId": "words-of-radiance",
-      "text": "Lift spoke the Second Ideal of the Edgedancers and healed Gawx, the first time she had healed anyone, and Darkness seized her for execution. The viziers believed Gawx had healed himself as a sign from the Heralds and made him Prime Aqasix; he quickly pardoned Lift, forcing Darkness to release her.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "117" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Thaylen Field, Dalinar sent Lift to recover a perfect gemstone the Fused had stolen from the city's reserve.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "While chasing the gem, Lift was joined by Szeth. When Nightblood began devouring him, she tried to heal Szeth and was nearly consumed too, until Dalinar's perpendicularity sated the sword.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        },
+        {
+          "text": "Lift and Szeth recovered the gemstone. She had Shallan make an illusory copy for the Fused to steal, then carried the real gem through the Thrill to Dalinar and watched him trap Nergaoul.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
     },
     {
-      "bookId": "edgedancer",
-      "text": "Uneasy with settling into palace life, Lift left Azimir for Yeddaw. Slipping past the gate guard Hauka by hiding in a smuggler's cart, she tipped it into the immigrant district and leapt after it, using Wyndle to slow her fall.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+      "title": [
+        {
+          "text": "Knight Radiant",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "7" },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A year after the Battle of Thaylen Field, Lift was among the Edgedancers on the Fourth Bridge at Hearthstone. She slipped into the manor where Kaladin was fighting, disabled the fabrial suppressing the Radiants' powers, and was sent to get the injured Godeke out and bring the device to Navani.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        },
+        {
+          "text": "When the coalition sought an envoy to the honorspren, Lift popped out from near the snack table to volunteer, but the rulers wanted someone more mature, and Godeke went instead.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "Stealing food in Urithiru had lost its fun, since people like Gift left baskets out for her. Lift confessed to Wyndle that she had asked the Nightwatcher not to change and hated that she was growing. Then her powers failed, and they found fallen Windrunners near the Oathgate.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+        }
+      ]
     },
     {
-      "bookId": "edgedancer",
-      "text": "Hungry after using up her power, Lift found the Tashi's Light Orphanage, run by a woman called the Stump, who allowed her three meals. An old man outside told her the Stump liked to trade spheres.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+      "title": [
+        {
+          "text": "Captive in the tower",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "60" },
+            { "book": "rhythm-of-war", "chapter": "85" },
+            { "book": "rhythm-of-war", "chapter": "91" },
+            { "book": "rhythm-of-war", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        },
+        {
+          "text": "Captivity and healing",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift rescued a red chicken from a green one and healed it, and it led her to the body of an old man it mourned. A tall man with the green chicken caught her, caged her, and gave her to Raboniel, noting that she ran on Lifelight rather than Stormlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        },
+        {
+          "text": "After weeks of captivity, Lift was freed by Venli, who swore her to secrecy about her powers. With Rlain and Dabbid, she reached the hidden Kaladin and healed him, the hardest healing she had ever done, then healed Teft as well.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
+        },
+        {
+          "text": "Lift kept Teft from slipping back into a coma and learned that Navani had been isolated. She said she could wake the sleeping Radiants with enough food, though they would be unable to fight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
+        },
+        {
+          "text": "Lift and Teft broke into the room holding the Radiants. Moash, hiding among the bodies, cut her legs with a Shardblade, and as she dragged herself toward the Radiants, he killed Teft.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
+        },
+        {
+          "text": "Bound and injured, Lift recovered in the infirmary after the tower was freed, reunited with Wyndle, and went looking for the red chicken, an Aviar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+        }
+      ]
     },
     {
-      "bookId": "edgedancer",
-      "text": "Lift followed Hauka and saw Darkness questioning her, then trailed him to his base, ate his food, and learned that he had recruits, including Szeth, searching for her and for another possible Surgebinder in Yeddaw. Back at the orphanage, she noticed an injured boy had recovered remarkably.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
-    },
+      "title": [
+        {
+          "text": "Standing in for Navani",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift sneaked in to watch the Bondsmiths' test journey into the Spiritual Realm and found Gavinor had done the same on her advice. When Mraize's sabotage pulled the group in, Wit shielded Lift but Gavinor was lost, and she blamed herself. Wit had her pose as Navani to avoid panic.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        },
+        {
+          "text": "The Sibling led Lift to a hidden room where Axindweth was holding her Aviar and torturing Zahel. Lift chose to fight and, despite her awkward, changing body, defeated Axindweth and two guards. Zahel praised her instincts and offered to train her, and after some hesitation she agreed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
     {
-      "bookId": "edgedancer",
-      "text": "Claiming friendship with the emperor and using a spanreed to prove it, Lift had the scribes of the Grand Indicium search records for strange events, but found nothing useful before the Everstorm approached.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "Lift tracked Darkness's followers inside the Indicium, where Szeth guarded the door with his strange sword, Nightblood, which liked her. Szeth told her the Skybreakers were hunting the old man outside the orphanage, a possible Lightweaver, and doubted she could catch them.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "16" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "At the orphanage, Lift took her last meal, then found the two Skybreakers dead and the old man revealed as Arclo, an Aimian. He led her to realize the other Surgebinder was the Stump.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "Darkness reached the orphanage first and stabbed the Stump. On the roof, Wyndle became a weapon to block his Shardblade, and Lift spoke the Third Ideal. Showing him the Everstorm and the transformed parshmen, she convinced Darkness, who was the Herald Nale, that the Desolation had come, and even hugged him as he broke down.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
-    },
-    {
-      "bookId": "edgedancer",
-      "text": "Lift helped heal the Stump, explained some of her abilities to her, and then set off back to Azimir.",
-      "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Lift slipped into a vision Dalinar shared with Yanagawn, warned her friend not to trust Dalinar because of his violent past, and helped the emperor leave the vision early.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "After seeing Dalinar confront Odium, Lift became more willing to listen to him. When he came to Azimir, she stole his food while he waited on the viziers, and because he did not resent it, she shared some back.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Lift came to Urithiru with Yanagawn and sailed with him to Thaylen City. When the coalition collapsed and the Azish fleet left despite her protests, she knocked out her guard and escaped to rejoin the Radiants.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "During the Battle of Thaylen Field, Dalinar sent Lift to recover Honor's Drop, a perfect gemstone the Fused had stolen from the city's reserve.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "While chasing the gem, Lift was joined by Szeth. When Nightblood began devouring him, she tried to heal Szeth and was nearly consumed too, until Dalinar's perpendicularity sated the sword.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
-    },
-    {
-      "bookId": "oathbringer",
-      "text": "Lift and Szeth recovered Honor's Drop. She had Shallan make an illusory copy for the Fused to steal, then carried the real gem through the Thrill to Dalinar and watched him trap Nergaoul.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "A year after the Battle of Thaylen Field, Lift was among the Edgedancers on the Fourth Bridge at Hearthstone. She slipped into the manor where Kaladin was fighting, disabled the fabrial suppressing the Radiants' powers, and was sent to get the injured Godeke out and bring the device to Navani.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "When the coalition sought an envoy to the honorspren, Lift popped out from near the snack table to volunteer, but the rulers wanted someone more mature, and Godeke went instead.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Stealing food in Urithiru had lost its fun, since people like Gift left baskets out for her. Lift confessed to Wyndle that she had asked the Nightwatcher not to change and hated that she was growing. Then her powers failed, and they found fallen Windrunners near the Oathgate.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Lift rescued a red chicken from a green one and healed it, and it led her to the body of an old man it mourned. A tall man with the green chicken caught her, caged her, and gave her to Raboniel, noting that she ran on Lifelight rather than Stormlight.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "After weeks of captivity, Lift was freed by Venli, who swore her to secrecy about her powers. With Rlain and Dabbid, she reached the hidden Kaladin and healed him, the hardest healing she had ever done, then healed Teft as well.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "85" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Lift kept Teft from slipping back into a coma and learned that Navani had been isolated. She said she could wake the sleeping Radiants with enough food, though they would be unable to fight.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Lift and Teft broke into the room holding the Radiants. Moash, hiding among the bodies, cut her legs with a Shardblade, and as she dragged herself toward the Radiants, he killed Teft.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
-    },
-    {
-      "bookId": "rhythm-of-war",
-      "text": "Bound and injured, Lift recovered in the infirmary after the tower was freed, reunited with Wyndle, and went looking for the red chicken, an Aviar.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "Lift sneaked in to watch the Bondsmiths' test journey into the Spiritual Realm and found Gavinor had done the same on her advice. When Mraize's sabotage pulled the group in, Wit shielded Lift but Gavinor was lost, and she blamed herself. Wit had her pose as Navani to avoid panic.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
-    },
-    {
-      "bookId": "wind-and-truth",
-      "text": "The Sibling led Lift to a hidden room where Axindweth was holding her Aviar and torturing Zahel. Lift chose to fight and, despite her awkward, changing body, defeated Axindweth and two guards. Zahel praised her instincts and offered to train her, and after some hesitation she agreed.",
-      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+      "text": "Lift has long, straight black hair, tan skin and rounded Reshi features. Her eyes, once brown, have turned a pale, clear color. She keeps a diamond mark in her pocket for luck.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
     }
   ],
   "personality": [
@@ -178,17 +264,6 @@
           "all": [
             { "book": "words-of-radiance", "chapter": "i-9" },
             { "book": "edgedancer", "chapter": "1" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Lift has long, straight black hair, tan skin and rounded Reshi features. Her eyes, once brown, have turned a pale, clear color. She keeps a diamond mark in her pocket for luck.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "i-9" },
-            { "book": "oathbringer", "chapter": "65" }
           ]
         }
       ]
