@@ -7,6 +7,7 @@ import { CharacterDetail } from './routes/CharacterDetail'
 import { CharacterList } from './routes/CharacterList'
 import { ComingSoon } from './routes/ComingSoon'
 import { LocationDetail } from './routes/LocationDetail'
+import { LocationList } from './routes/LocationList'
 import { NotFound } from './routes/NotFound'
 import { PlanetDetail } from './routes/PlanetDetail'
 import { RouteError } from './routes/RouteError'
@@ -38,6 +39,7 @@ export const routes: RouteObject[] = [
         path: 'characters/:characterId/:tab',
         element: <CharacterDetail />,
       },
+      { path: 'locations', element: <LocationList /> },
       { path: 'search', element: <SearchPage /> },
       ...comingSoonTabs.map((tab) => ({
         path: tab.path.slice(1),

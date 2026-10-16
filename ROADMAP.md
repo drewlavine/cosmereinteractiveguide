@@ -193,8 +193,8 @@ tab here once its section's first version ships.
   - [x] **Characters**: browse and view characters (see 8)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
         (see 11)
-  - [ ] **Locations**: cities, regions and landmarks (placeholder tab
-        added; see 12)
+  - [ ] **Locations**: cities, regions and landmarks (list page live;
+        location pages to come; see 12)
   - [ ] **Magic**: magic systems and abilities (placeholder tab added; see
         13)
   - [ ] **Events**: key events across the Cosmere (placeholder tab added;
@@ -289,6 +289,8 @@ tab here once its section's first version ships.
     - [ ] The other ~2,100 characters, in small batches with the same
           scripts and overrides; consider lazy-loading the data if the
           bundle grows too large
+      - [x] Mistborn Era 1 (183 characters: details and stories; art to
+            follow)
 - [ ] Spoiler filter: leave out characters the reader hasn't met yet
   - [x] Tag each character with where the reader first meets them (book
         and chapter; pilot characters only so far, the rest count as met)
@@ -556,9 +558,19 @@ current point, based on their Books Read and Reading settings.
 
 - [ ] A Locations tab to browse and view locations (cities, regions,
       landmarks), built on the location pages from 1b
-  - [ ] A list across every world, grouped like the Characters list (A–Z,
-        World, Type, Book), with the choice saved in the URL
-  - [ ] Hidden until reached, like everything else (spoiler rule)
+  - [x] A list across every world, grouped like the Characters list (A–Z,
+        Type, World, Series, Inside), with the choice saved in the URL.
+        684 places from the Coppermind's location categories
+        (`~/cig-loc-data/build.py`, from the wiki snapshot), merged with the
+        map's places
+  - [x] Hidden until reached, like everything else (spoiler rule): a place
+        shows once the reader has finished the earliest book its page cites
+        (maps count as the book they're printed in; world guides, Arcanum and
+        comics don't). Map places keep their hand-checked tags
+  - [ ] Refine the "Other places" type (valleys, deserts, Shadesmar
+        features…) and let Drew adjust the type groups
+  - [ ] Location pages for places without a map page, starting with
+        Mistborn Era 1
 
 ### 13. Magic
 
@@ -608,6 +620,22 @@ Not planned yet; come back to these if wanted.
   - Shadesmar crossings: draw Cognitive-Realm trips differently from
     physical ones
   - Compare two travellers on one map (e.g. Hoid and Vasher on Nalthis)
+
+## Stretch goals
+
+Only if the guide takes off.
+
+- **Move data out of the app bundle**, in stages:
+  - Static JSON per entity, loaded on demand (as character stories already
+    are), with a schema (e.g. zod) to validate it
+  - A database (SQLite via Cloudflare D1/Turso, or Postgres via Supabase)
+    behind a small API. The pipeline stays the only writer; the API trims
+    spoilers server-side with the same shared `reveal.ts` code, so spoilers
+    never reach the browser. Responses cached per entity and reading point;
+    search via Postgres full-text or Meilisearch, filtered the same way
+  - Optional accounts to sync reading progress across devices
+  - One rule throughout: all spoiler trimming goes through one shared
+    function, so server and tests can't disagree
 
 ## Completed
 

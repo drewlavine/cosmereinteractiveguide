@@ -112,6 +112,45 @@ export interface Location {
   coppermindUrl: string
 }
 
+/** Kinds of place in the Locations list, from the Coppermind's categories. */
+export type ListedLocationKind =
+  | 'system'
+  | 'planet'
+  | 'moon'
+  | 'celestial'
+  | 'continent'
+  | 'nation'
+  | 'region'
+  | 'settlement'
+  | 'building'
+  | 'water'
+  | 'island'
+  | 'mountain'
+  | 'forest'
+  | 'plain'
+  | 'cave'
+  | 'perpendicularity'
+  | 'other'
+
+/** A place in the Locations list (see locationList.ts). */
+export interface ListedLocation {
+  /** Same id as its map place, when it has one. */
+  id: string
+  name: string
+  kind: ListedLocationKind
+  /** Planet id. */
+  world?: string
+  /** The listed place it lies within. */
+  parentId?: string
+  /** The earliest book its Coppermind page cites. */
+  revealedIn: Reveal
+  /** Every book its page cites, in publication order. */
+  books: string[]
+  coppermindPage: string
+  /** Planet of its map place, when it has one (see places/). */
+  mapPlanetId?: string
+}
+
 export interface Belt {
   /** Orbit index for layout; bodies outside the belt should use higher orbits. */
   orbit: number

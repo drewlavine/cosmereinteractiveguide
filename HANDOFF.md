@@ -79,6 +79,39 @@ OK.
   lead (an infobox title dated to the wrong ref, fixed in overrides); the
   rest were false alarms. Screenshots in `files/spoilers-sigzil/`.
 - Persona header names a standalone book by its title, not "Standalones".
+- **Mistborn Era 1 batch: details and stories done, art still to do.**
+  177 stories written (6 stub pages skipped: cadon, cobble, dedri-vasting,
+  sev, shum, lord-hue). Writer-flagged dating issues triaged (10 fixed via
+  overrides, out-of-book facts dropped); Time Machine re-run on the 24
+  majors with stories, 1 real leak fixed. Tests pinned in
+  `src/data/era1.test.ts`. 183 characters
+  (`~/cig-char-data/batch-era1*.txt`: 24 major, 107 minor, 52 mentioned
+  only), so 219 have details now. Includes 1 from The Eleventh Metal and 9
+  that the batch builder missed because they're linked through redirects.
+  Overrides cover 78 more ids (decisions recorded in `era1_overrides.py` and
+  `era1_fix_mentions.py`); mentioned-only characters are met where first
+  named. 11 identity cases handled (3 as persona pages; ids listed in
+  `src/data/era1.test.ts`, not here, to keep this file spoiler-free).
+  Time Machine on the 24 majors and 3 personas:
+  15 lead terms, all dated correctly (wiki pages lagged), no real leaks.
+  `spoiler:snapshot` now works for characters without a story yet.
+- **Locations list** (`/locations`): 684 places (635 from the Coppermind's
+  location categories, plus map places with no page of their own). Pipeline
+  `~/cig-loc-data` (`crawl_cats.py` → `titles.txt` → `snapshot.py crawl
+  --only` → `fetch_files.py` → `file_books.json` → `build.py`, which writes
+  `src/data/locationList.ts`; `src/data/listedLocations.ts` merges map
+  places). Dating: earliest book the page cites, limited to the page's own
+  series; maps count as their book; world guides, Arcanum, comics and
+  broadsheets don't (24 such pages left out). Checked: no Era 2 place dated
+  to Era 1. Group by A–Z, Type, World, Series, Inside; types are a first
+  guess for Drew to adjust ("Other places" is broad). Tests in
+  `src/locations.test.tsx` and `src/data/locationList.test.ts`.
+- `scripts/screenshot-seed.html` now switches off the page fade-in; headless
+  Chrome never ran it, so earlier screenshots came out dim.
+- Main JS chunk is now ~1,167 kB (308 kB gzip); the >500 kB warning was
+  already there. Not lazy-loaded: `reveal.ts` needs the details
+  synchronously for the list, group-by, search and first-met. Revisit
+  (e.g. JSON split by series) as more batches land.
 
 ## Known doubts to mention
 

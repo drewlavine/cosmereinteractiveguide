@@ -11,31 +11,9 @@ import {
 } from '../data/reveal'
 import type { Character } from '../data/types'
 import { useCanSee, useShownSystems } from '../state/reveal'
+import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
-// First letter without accents, or "#" for names that start with a digit etc.
-const letterOf = (name: string) => {
-  const letter = name.normalize('NFD').charAt(0).toUpperCase()
-  return /[A-Z]/.test(letter) ? letter : '#'
-}
-
-// The list is already sorted, so each letter's names arrive together.
-const byLetter = (list: Character[]) =>
-  list.reduce<{ letter: string; items: Character[] }[]>((acc, character) => {
-    const letter = letterOf(character.name)
-    const last = acc.at(-1)
-    if (last?.letter === letter) last.items.push(character)
-    else acc.push({ letter, items: [character] })
-    return acc
-  }, [])
-
-const fold = (text: string) =>
-  text
-    .normalize('NFD')
-    .replace(/[\u0300-\u036f]/g, '')
-    .toLowerCase()
-
-const anchor = (id: string) =>
-  `characters-${id === '#' ? 'other' : fold(id).replace(/[^a-z0-9]+/g, '-')}`
+const anchor = (id: string) => anchorFor('characters', id)
 
 interface Entry {
   character: Character
@@ -63,8 +41,6 @@ type GroupingId = (typeof groupings)[number]['id']
 
 const isGrouping = (id: string | null): id is GroupingId =>
   groupings.some((g) => g.id === id)
-
-const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`
 
 export function CharacterList() {
   const canSee = useCanSee()

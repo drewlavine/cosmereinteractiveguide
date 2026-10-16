@@ -54,8 +54,6 @@ export const mainTabs: MainTab[] = [
     label: 'Locations',
     path: '/locations',
     isActive: underPath('/locations'),
-    comingSoon:
-      'Browse cities, regions and landmarks across every world. For now, find them on the maps from the Star Map.',
   },
   {
     id: 'magic',
