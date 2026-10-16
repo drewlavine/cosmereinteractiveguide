@@ -5,12 +5,12 @@ import { people as characters } from '../data/people'
 import {
   findPersona,
   hasMet,
-  metIn,
   revealCharacter,
   seenThrough,
+  type ShownCharacter,
 } from '../data/reveal'
 import type { Character } from '../data/types'
-import { useCanSee } from '../state/reveal'
+import { useCanSee, useShownSystems } from '../state/reveal'
 
 // First letter without accents, or "#" for names that start with a digit etc.
 const letterOf = (name: string) => {
@@ -28,31 +28,51 @@ const byLetter = (list: Character[]) =>
     return acc
   }, [])
 
-const anchor = (letter: string) =>
-  `characters-${letter === '#' ? 'other' : letter.toLowerCase()}`
-
 const fold = (text: string) =>
   text
     .normalize('NFD')
     .replace(/[\u0300-\u036f]/g, '')
     .toLowerCase()
 
+const anchor = (id: string) =>
+  `characters-${id === '#' ? 'other' : fold(id).replace(/[^a-z0-9]+/g, '-')}`
+
 interface Entry {
   character: Character
   /** Every name the reader may know them by, folded for matching. */
   names: string[]
-  /** Books the reader has met them in. */
-  books: string[]
-  /** Whether we know which books they're in yet. */
-  sorted: boolean
+  /** What the reader knows about them, for grouping. */
+  shown: ShownCharacter
 }
+
+interface Group {
+  id: string
+  name: string
+  items: Character[]
+}
+
+/** Ways to group the list, besides A–Z; each gives an entry's categories. */
+const groupings = [
+  { id: 'series', label: 'Series' },
+  { id: 'world', label: 'World' },
+  { id: 'species', label: 'Species' },
+  { id: 'ability', label: 'Ability' },
+  { id: 'books', label: 'Number of books' },
+] as const
+type GroupingId = (typeof groupings)[number]['id']
+
+const isGrouping = (id: string | null): id is GroupingId =>
+  groupings.some((g) => g.id === id)
+
+const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? '' : 's'}`
 
 export function CharacterList() {
   const canSee = useCanSee()
+  const systems = useShownSystems()
   const [params, setParams] = useSearchParams()
   const query = fold(params.get('q') ?? '').trim()
-  const seriesId = params.get('series') ?? ''
-  const byBooks = params.get('sort') === 'books'
+  const groupParam = params.get('group')
+  const grouping = isGrouping(groupParam) ? groupParam : undefined
 
   // A persona the reader has seen through is listed as the character.
   const listed = useMemo(
@@ -76,30 +96,73 @@ export function CharacterList() {
               ...shown.aliases,
               ...shown.personas.map((p) => p.name),
             ].map(fold),
-            books: shown.appearsIn.map((a) => a.bookId),
-            sorted: metIn(character.id, canSee) !== undefined,
+            shown,
           }
         }),
     [listed, canSee],
   )
-  const seriesOptions = useMemo(() => {
-    const ids = new Set(met.flatMap((e) => e.books.map((b) => seriesOf(b)?.id)))
-    return bookSeries.filter((s) => ids.has(s.id))
-  }, [met])
 
   const matches = met.filter(
-    (e) =>
-      (!query || e.names.some((n) => n.includes(query))) &&
-      (!seriesId || e.books.some((b) => seriesOf(b)?.id === seriesId)),
+    (e) => !query || e.names.some((n) => n.includes(query)),
   )
-  const unsorted = seriesId
-    ? met.filter(
-        (e) => !e.sorted && (!query || e.names.some((n) => n.includes(query))),
-      ).length
-    : 0
-  const groups = byLetter(matches.map((e) => e.character))
-  const ranked = [...matches].sort((a, b) => b.books.length - a.books.length)
   const hidden = listed.length - met.length
+
+  // Categories an entry falls under, as [id, name, order]; a character can be
+  // under several (e.g. two abilities). Only what the reader knows is used.
+  const planetName = (id: string) =>
+    systems.flatMap((s) => s.planets).find((p) => p.id === id)?.name ?? id
+  const categories = (e: Entry): [string, string, number][] => {
+    const { shown } = e
+    switch (grouping) {
+      case 'series': {
+        const ids = new Set(shown.appearsIn.map((a) => seriesOf(a.bookId)?.id))
+        return bookSeries
+          .map((s, i): [string, string, number] => [s.id, s.name, i])
+          .filter(([id]) => ids.has(id))
+      }
+      case 'world':
+        return shown.world ? [[shown.world, planetName(shown.world), 0]] : []
+      case 'species':
+        return shown.species.map((n) => [n, n, 0])
+      case 'ability':
+        return shown.abilities.map((n) => [n, n, 0])
+      case 'books': {
+        const n = shown.appearsIn.length
+        return n > 0 ? [[String(n), `In ${plural(n, 'book')}`, -n]] : []
+      }
+      default:
+        return []
+    }
+  }
+
+  let groups: Group[]
+  let unsorted = 0
+  if (grouping) {
+    const byId = new Map<string, Group & { order: number }>()
+    for (const e of matches) {
+      const cats = categories(e)
+      if (cats.length === 0) unsorted++
+      for (const [id, name, order] of cats) {
+        const group = byId.get(id) ?? { id, name, order, items: [] }
+        group.items.push(e.character)
+        byId.set(id, group)
+      }
+    }
+    // Series and book counts in their own order; the rest biggest first.
+    groups = [...byId.values()].sort(
+      (a, b) =>
+        a.order - b.order ||
+        (grouping === 'series' || grouping === 'books'
+          ? 0
+          : b.items.length - a.items.length) ||
+        a.name.localeCompare(b.name),
+    )
+  } else
+    groups = byLetter(matches.map((e) => e.character)).map((g) => ({
+      id: g.letter,
+      name: g.letter,
+      items: g.items,
+    }))
 
   const setParam = (key: string, value: string) =>
     setParams(
@@ -111,6 +174,7 @@ export function CharacterList() {
       },
       { replace: true, preventScrollReset: true },
     )
+  const label = groupings.find((g) => g.id === grouping)?.label.toLowerCase()
 
   return (
     <article className="character-list" aria-labelledby="characters-title">
@@ -133,91 +197,56 @@ export function CharacterList() {
           autoComplete="off"
           spellCheck={false}
         />
-        {seriesOptions.length > 0 && (
-          <div className="filter-chips" role="group" aria-label="Series">
-            {[{ id: '', name: 'All series' }, ...seriesOptions].map((s) => (
-              <button
-                key={s.id}
-                type="button"
-                className="filter-chip"
-                aria-pressed={seriesId === s.id}
-                onClick={() => setParam('series', s.id)}
-              >
-                {s.name}
-              </button>
+        <label className="character-group-by">
+          Group by
+          <select
+            value={grouping ?? ''}
+            onChange={(event) => setParam('group', event.target.value)}
+          >
+            <option value="">Name (A–Z)</option>
+            {groupings.map((g) => (
+              <option key={g.id} value={g.id}>
+                {g.label}
+              </option>
             ))}
-          </div>
-        )}
-        <div className="filter-chips" role="group" aria-label="Sort">
-          <button
-            type="button"
-            className="filter-chip"
-            aria-pressed={!byBooks}
-            onClick={() => setParam('sort', '')}
-          >
-            A–Z
-          </button>
-          <button
-            type="button"
-            className="filter-chip"
-            aria-pressed={byBooks}
-            onClick={() => setParam('sort', 'books')}
-          >
-            Most books
-          </button>
-        </div>
+          </select>
+        </label>
       </div>
+
+      {groups.length > 0 && (
+        <nav
+          aria-label={grouping ? `Jump to ${label}` : 'Jump to letter'}
+          className="letter-index"
+        >
+          {groups.map(({ id, name }) => (
+            <a key={id} href={`#${anchor(id)}`}>
+              {name}
+            </a>
+          ))}
+        </nav>
+      )}
       {unsorted > 0 && (
         <p className="character-count">
-          {unsorted} more characters aren’t sorted by series yet.
+          {plural(unsorted, 'more character')} not sorted by {label} yet.
         </p>
       )}
-
-      {matches.length === 0 ? (
-        <p>No characters match.</p>
-      ) : byBooks ? (
-        <ol className="character-ranked">
-          {ranked.map(({ character, books }) => (
-            <li key={character.id}>
-              <Link to={`/characters/${character.id}`}>{character.name}</Link>
-              {books.length > 0 && (
-                <span className="character-first-chapter">
-                  {' '}
-                  · {books.length} {books.length === 1 ? 'book' : 'books'}
-                </span>
-              )}
-            </li>
-          ))}
-        </ol>
-      ) : (
-        <>
-          <nav aria-label="Jump to letter" className="letter-index">
-            {groups.map(({ letter }) => (
-              <a key={letter} href={`#${anchor(letter)}`}>
-                {letter}
-              </a>
+      {matches.length === 0 && <p>No characters match.</p>}
+      {groups.map(({ id, name, items }) => (
+        <section
+          key={id}
+          className="character-group"
+          aria-labelledby={anchor(id)}
+        >
+          <h2 id={anchor(id)}>{name}</h2>
+          <ul>
+            {items.map((character) => (
+              <li key={character.id}>
+                <Link to={`/characters/${character.id}`}>{character.name}</Link>
+              </li>
             ))}
-          </nav>
-          {groups.map(({ letter, items }) => (
-            <section
-              key={letter}
-              className="character-group"
-              aria-labelledby={anchor(letter)}
-            >
-              <h2 id={anchor(letter)}>{letter}</h2>
-              <ul>
-                {items.map((character) => (
-                  <li key={character.id}>
-                    <Link to={`/characters/${character.id}`}>
-                      {character.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </section>
-          ))}
-        </>
-      )}
+          </ul>
+        </section>
+      ))}
     </article>
   )
 }

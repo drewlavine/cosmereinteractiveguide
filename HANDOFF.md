@@ -6,7 +6,7 @@
 - Committed (steps 2–3, all validated: typecheck/lint/build/144 tests):
   ROADMAP.md, characters.test.tsx, characterDetails.test.ts, characterStories.ts (new),
   reveal.ts (revealStory), types.ts (StoryItem/CharacterStory), CharacterDetail.tsx (redesign),
-  CharacterList.tsx (filters/sort), index.css (layout + .app grid minmax phone overflow fix).
+  CharacterList.tsx (name filter + Group by dropdown: series/world/species/ability/books, `?group=`), index.css (layout + .app grid minmax phone overflow fix).
 - Backup: Copilot session files/ (cig-char-data-backup.tgz for the pipeline).
 - Pipeline ~/cig-char-data: story_src.py, story_check.py (incl. HINDSIGHT warnings),
   emit_story.py (writes src/data/stories/<id>.json), STORY_GUIDE.md, story/*.json (34 done).

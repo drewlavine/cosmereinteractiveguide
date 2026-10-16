@@ -329,23 +329,51 @@ describe('characters pages', () => {
     await userEvent.clear(
       screen.getByRole('searchbox', { name: /Filter characters/ }),
     )
-    const series = screen.getByRole('group', { name: 'Series' })
-    await userEvent.click(
-      within(series).getByRole('button', { name: 'Standalones' }),
-    )
-    expect(screen.getByRole('link', { name: 'Vivenna' })).toBeInTheDocument()
-    expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
-    expect(screen.getByText(/aren’t sorted by series yet/)).toBeInTheDocument()
   })
 
-  it('offers only series the reader has met characters in', () => {
-    renderAt('/characters', ['warbreaker'])
-    const series = screen.getByRole('group', { name: 'Series' })
+  it('groups the list by series, world, species, ability or book count', async () => {
+    renderAt('/characters', allBooks)
+    const groupBy = screen.getByRole('combobox', { name: 'Group by' })
+    await userEvent.selectOptions(groupBy, 'series')
+    const region = (name: string) => screen.getByRole('region', { name })
     expect(
-      within(series)
-        .getAllByRole('button')
-        .map((b) => b.textContent),
-    ).toEqual(['All series', 'Standalones'])
+      within(region('The Stormlight Archive')).getByRole('link', {
+        name: 'Kaladin',
+      }),
+    ).toBeInTheDocument()
+    expect(
+      within(region('Standalones')).getByRole('link', { name: 'Vivenna' }),
+    ).toBeInTheDocument()
+    expect(screen.getByText(/not sorted by series yet/)).toBeInTheDocument()
+    await userEvent.selectOptions(groupBy, 'world')
+    expect(
+      within(region('Roshar')).getByRole('link', { name: 'Kaladin' }),
+    ).toBeInTheDocument()
+    await userEvent.selectOptions(groupBy, 'books')
+    expect(
+      within(region('In 6 books')).getByRole('link', { name: 'Kaladin' }),
+    ).toBeInTheDocument()
+  })
+
+  it('groups only by what the reader knows', async () => {
+    // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
+    renderAt('/characters?group=ability', [], { 'way-of-kings': '56' })
+    expect(screen.queryByRole('region', { name: 'Surgebinder' })).toBeNull()
+    cleanup()
+    renderAt('/characters?group=ability', [], { 'way-of-kings': '57' })
+    expect(
+      within(screen.getByRole('region', { name: 'Surgebinder' })).getByRole(
+        'link',
+        { name: 'Kaladin' },
+      ),
+    ).toBeInTheDocument()
+    cleanup()
+    renderAt('/characters?group=series', ['warbreaker'])
+    expect(
+      within(screen.getByRole('navigation', { name: 'Jump to series' }))
+        .getAllByRole('link')
+        .map((a) => a.textContent),
+    ).toEqual(['Standalones'])
   })
 
   it('shows not found for unknown characters', () => {

@@ -1744,45 +1744,23 @@ a.search-option:focus-visible {
   outline: none;
 }
 
-.filter-chips {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.35rem;
-}
-
-.filter-chip {
-  padding: 0.25rem 0.75rem;
-  border: 1px solid rgba(212, 165, 64, 0.3);
-  border-radius: 999px;
-  background: none;
+.character-group-by {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
   color: var(--gold-soft);
-  font: inherit;
-  font-size: 0.9rem;
-  cursor: pointer;
 }
 
-.filter-chip:hover {
-  background: rgba(212, 165, 64, 0.1);
-}
-
-.filter-chip[aria-pressed='true'] {
-  border-color: var(--gold);
-  background: rgba(212, 165, 64, 0.24);
+.character-group-by select {
+  padding: 0.4rem 0.6rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 8px;
+  background: var(--slate-deep);
   color: var(--text-strong);
+  font: inherit;
 }
 
-.character-ranked {
-  columns: 16rem;
-  column-gap: 1.5rem;
-  margin: 1rem 0;
-  padding-left: 1.5rem;
-}
-
-.character-ranked li {
-  break-inside: avoid;
-  padding: 0.1rem 0;
-}
-
-.character-ranked a {
-  text-decoration: none;
+.character-group-by select:focus {
+  border-color: var(--gold);
+  outline: none;
 }

@@ -279,18 +279,20 @@ Category:Cosmere; check anything unclear by hand.
 - [ ] Group and sort the character list in different ways. More groupings
       can be added later.
   - [x] A–Z (the current list)
-  - [x] Filter by name (including other names the reader knows) and by
-        series (only series the reader has met characters in), and sort by
-        **Most books** (counting only books the reader has met them in).
-        Saved in the URL (`?q=`, `?series=`, `?sort=books`)
+  - [x] Filter by name (including other names the reader knows), saved in
+        the URL (`?q=`)
+  - [x] A **Group by** dropdown (replaced the series and sort chips): Name,
+        **Series**, **World**, **Species**, **Ability** and **Number of
+        books**, using only what the reader knows. Characters without that
+        data yet are counted, not listed
   - [ ] **Book**: characters under each book they appear in, in publication
         order. A character in several books is listed under each.
-  - [ ] **Species**: e.g. human, singer, spren, kandra, koloss, Shard
-  - [ ] **Abilities**: e.g. Windrunner, Mistborn, Coinshot, Awakener,
+  - [x] **Species**: e.g. human, singer, spren, kandra, koloss, Shard
+  - [x] **Abilities**: e.g. Windrunner, Mistborn, Coinshot, Awakener,
         Elantrian, Lightweaver. A character with several abilities is listed
         under each.
-  - [ ] A group-by control on the list, saved in the URL (e.g.
-        `/characters?group=book`) so it can be shared
+  - [x] A group-by control on the list, saved in the URL (e.g.
+        `/characters?group=series`) so it can be shared
   - [ ] Add each character's books, species and abilities to the data
         (Coppermind infoboxes are the source)
     - [x] Pilot: 34 main characters in `data/characterDetails.ts` (books,
@@ -309,7 +311,7 @@ Category:Cosmere; check anything unclear by hand.
           character's exact name (or unique first name) still finds them,
           marked "not met yet", since the reader is looking for them; their
           page shows the name only, until Show anyway
-    - [ ] Groupings, once they exist
+    - [x] Groupings
   - [ ] Hide references to unmet characters elsewhere too, e.g. in other
         characters' summaries, location pages and planet pages
   - [x] Tag species and abilities by when they're revealed, so grouping
