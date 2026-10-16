@@ -120,7 +120,7 @@ Category:Cosmere; check anything unclear by hand.
   keyboard-friendly list of places beside the map.
 - Location pages at `/systems/:system/planets/:planet/locations/:location`,
   with a summary, parent place, "Stories set here" and "Mentioned in", all
-  spoiler-tagged. These pages also feed the Locations tab (item 5) and the
+  spoiler-tagged. These pages also feed the Locations tab (item 12) and the
   universal search (item 4).
 - Coppermind has no clickable-map data to reuse, so all shapes are traced by
   hand. Coppermind articles are the source for location page content.
@@ -183,64 +183,26 @@ Category:Cosmere; check anything unclear by hand.
 
 ### 5. Main navigation tabs
 
+The header's tabs, in order. Each tab's work lives in its own section; tick a
+tab here once its section's first version ships.
+
 - [x] Add tabs to the header banner for moving between the main sections of the
       guide. More tabs may be added later.
-  - [x] **Star Map**: the current Cosmere star map, systems and planets
-  - [x] **Characters**: browse and view characters (list and page skeleton,
-        names only for now)
-    - The character list is not yet spoiler-filtered
+  - [ ] **Where You Are**: the new starting tab, before Star Map (see 10)
+  - [x] **Star Map**: the Cosmere star map, systems and planets (see 0–3)
+  - [x] **Characters**: browse and view characters (see 8)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
-        (names, series, kind and year only for now). Read books are marked,
-        and books are searchable.
-    - [ ] Book details (setting, worlds and places, previous/next in series)
-    - [ ] Publication order view (the Coppermind's Cosmere bibliography
-          lists every book in order, including within a year)
-    - [ ] Tabs on each book page for everything in that book: Characters,
-          Locations, Events, Magic, plus others that fit (e.g. Worlds,
-          Shards, Items, Organizations). Each entry links to its own page.
-      - Gated by the spoiler rule, down to the chapter once item 7 lands:
-        a reader partway through a book only sees what they've reached.
-        Unread books show nothing in these tabs, only the hidden-content
-        notice.
-      - Source: the Coppermind. Its footnotes cite the book and chapter
-        for almost every fact (e.g. "The Way of Kings chapter 34"), so
-        use those to tag each fact, and each appearance, with the chapter
-        it's revealed in. Where a fact has no footnote, fall back to the
-        page's infobox (books it appears in) and the chapter-by-chapter
-        summary pages (first chapter it's linked in). Anything still
-        unclear needs a manual check.
-  - [ ] **Locations**: browse and view locations (cities, regions, landmarks)
-        (placeholder tab added)
-  - [ ] **Magic**: the magic systems and how they work (placeholder tab
-        added)
-    - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
-          ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
-          it does, its world, and the characters known to have it
-    - [ ] Gated like everything else: an ability (and who has it) only
-          shows once the reader has reached where it's revealed
-    - [ ] Linked from the Characters list's **Group by → Ability** headings
-          and from abilities on character pages (see 8)
-  - [ ] **Events**: key events across the Cosmere, in order (placeholder tab
-        added)
+        (see 11)
+  - [ ] **Locations**: cities, regions and landmarks (placeholder tab
+        added; see 12)
+  - [ ] **Magic**: magic systems and abilities (placeholder tab added; see
+        13)
+  - [ ] **Events**: key events across the Cosmere (placeholder tab added;
+        see 14)
   - [ ] **Culture**: the peoples and societies of the Cosmere (placeholder
-        tab added)
-    - [ ] Populate it from the Coppermind's Culture category: political
-          houses and families, noble ranks, titles and honorifics,
-          nations, religions, orders and organizations, social classes,
-          customs, languages, and anything else found there
-    - [ ] A page per entry (what it is, its world, the books it's in, and
-          the characters linked to it), linked from character pages where
-          they mention it (e.g. a character's house or title)
-    - [ ] A list that can be grouped, like the Characters list, with the
-          choice saved in the URL: **Type** (house, rank, title, religion,
-          ...), **A–Z**, **Book**, **World** and **Series**, plus a name
-          filter
-    - [ ] Follows the spoiler rule like everything else: an entry, and
-          every fact on its page, only shows once the reader has reached
-          where it's revealed (dated by footnotes down to the chapter);
-          unreached entries are hidden from lists and search with no
-          placeholders
-  - [ ] **Maps**: a gallery of all available maps (shared with planet maps, 1)
+        tab added; see 15)
+  - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
+        see 1)
   - [x] Give each tab its own URL and show which tab is active
   - [ ] Keep every tab spoiler-free for the books the reader has marked as read
 
@@ -316,8 +278,7 @@ Category:Cosmere; check anything unclear by hand.
   - [x] **Abilities**: e.g. Windrunner, Mistborn, Coinshot, Awakener,
         Elantrian, Lightweaver. A character with several abilities is listed
         under each.
-    - [ ] Each ability heading links to its own ability page under the
-          **Magic** tab (see 5)
+    - [ ] Each ability heading links to its own ability page (see 13)
   - [x] A group-by control on the list, saved in the URL (e.g.
         `/characters?group=series`) so it can be shared
   - [ ] Add each character's books, species and abilities to the data
@@ -545,6 +506,97 @@ AI-generated.
       loading and error states
 - [ ] Phone pass: thumb-friendly targets, no cramped tables, tidy nav
 - [ ] Accessibility: contrast, focus rings, reduced-motion support
+
+### 10. Where You Are
+
+A "you are here" starting tab: an overview of the Cosmere at the reader's
+current point, based on their Books Read and Reading settings.
+
+- [ ] Add the tab as the first in the header, and make it the home page
+      (the Star Map keeps its own tab)
+  - [ ] Shows where they are in their read-through (last finished book,
+        current book and chapter, what's next in the series and in
+        publication order)
+  - [ ] A short, spoiler-safe "state of the Cosmere" summary for that
+        point: the worlds and eras in play, key characters and where they
+        stand, major recent events, active conflicts and powers (Shards,
+        factions), and important ideas or magic they've just learned
+  - [ ] Grouped by world/series so readers following several series can
+        catch up on each separately, with links into the relevant
+        character, place, magic, culture and event pages
+  - [ ] Follows the spoiler rule strictly: only what the reader has
+        reached (down to the chapter), with no hints about what's hidden;
+        updates as soon as their reading settings change
+  - [ ] A friendly empty state for new readers (pick books to begin)
+
+### 11. Book pages
+
+- [x] Every Cosmere book, grouped by series, with a page each (names,
+      series, kind and year only for now). Read books are marked, and books
+      are searchable.
+  - [ ] Book details (setting, worlds and places, previous/next in series)
+  - [ ] Publication order view (the Coppermind's Cosmere bibliography
+        lists every book in order, including within a year)
+  - [ ] Tabs on each book page for everything in that book: Characters,
+        Locations, Events, Magic, plus others that fit (e.g. Worlds,
+        Shards, Items, Organizations). Each entry links to its own page.
+    - Gated by the spoiler rule, down to the chapter once item 7 lands:
+      a reader partway through a book only sees what they've reached.
+      Unread books show nothing in these tabs, only the hidden-content
+      notice.
+    - Source: the Coppermind. Its footnotes cite the book and chapter
+      for almost every fact (e.g. "The Way of Kings chapter 34"), so
+      use those to tag each fact, and each appearance, with the chapter
+      it's revealed in. Where a fact has no footnote, fall back to the
+      page's infobox (books it appears in) and the chapter-by-chapter
+      summary pages (first chapter it's linked in). Anything still
+      unclear needs a manual check.
+
+### 12. Locations
+
+- [ ] A Locations tab to browse and view locations (cities, regions,
+      landmarks), built on the location pages from 1b
+  - [ ] A list across every world, grouped like the Characters list (A–Z,
+        World, Type, Book), with the choice saved in the URL
+  - [ ] Hidden until reached, like everything else (spoiler rule)
+
+### 13. Magic
+
+- [ ] A Magic tab: the magic systems of the Cosmere and how they work
+  - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
+        ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
+        it does, its world, and the characters known to have it
+  - [ ] Gated like everything else: an ability (and who has it) only
+        shows once the reader has reached where it's revealed
+  - [ ] Linked from the Characters list's **Group by → Ability** headings
+        and from abilities on character pages (see 8)
+  - [ ] Add magic systems and abilities to search (4)
+
+### 14. Events
+
+- [ ] An Events tab: key events across the Cosmere, in in-world order
+  - [ ] A page per event, linked from character, location and book pages
+  - [ ] Dated and hidden like any other fact (spoiler rule)
+
+### 15. Culture
+
+- [ ] A Culture tab: the peoples and societies of the Cosmere
+  - [ ] Populate it from the Coppermind's Culture category: political
+        houses and families, noble ranks, titles and honorifics,
+        nations, religions, orders and organizations, social classes,
+        customs, languages, and anything else found there
+  - [ ] A page per entry (what it is, its world, the books it's in, and
+        the characters linked to it), linked from character pages where
+        they mention it (e.g. a character's house or title)
+  - [ ] A list that can be grouped, like the Characters list, with the
+        choice saved in the URL: **Type** (house, rank, title, religion,
+        ...), **A–Z**, **Book**, **World** and **Series**, plus a name
+        filter
+  - [ ] Follows the spoiler rule like everything else: an entry, and
+        every fact on its page, only shows once the reader has reached
+        where it's revealed (dated by footnotes down to the chapter);
+        unreached entries are hidden from lists and search with no
+        placeholders
 
 ## Ideas
 
