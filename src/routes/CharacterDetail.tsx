@@ -1,16 +1,18 @@
-import { useEffect, useState, type ReactNode } from 'react'
+import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
 import { characterDetails } from '../data/characterDetails'
+import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { chapterLabel } from '../data/progress'
 import {
   findPersona,
   hasMet,
   revealCharacter,
+  revealPortrait,
   revealStory,
 } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
@@ -100,6 +102,11 @@ export function CharacterDetail() {
     canSee,
     viewAnyway.has(scope),
   )
+  const art = revealPortrait(
+    characterPortraits[character.id],
+    canSee,
+    viewAnyway.has(scope),
+  )
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
   )
@@ -124,26 +131,57 @@ export function CharacterDetail() {
 
   const tabs: CharacterTab[] = details
     ? [
-        {
-          id: 'story',
-          label: 'Story',
-          content: story.story.length > 0 && (
-            <div className="character-story">
-              {story.story.map(({ bookId, items }, i) => (
-                <section key={`${bookId}-${i}`}>
-                  <h2>
-                    <Link to={`/books/${bookId}`}>
-                      <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                    </Link>
-                  </h2>
-                  {items.map((text) => (
-                    <p key={text}>{text}</p>
+        story.history
+          ? {
+              id: 'history',
+              label: 'History',
+              content: story.history.length > 0 && (
+                <div className="character-story">
+                  {story.history.map(({ title, items }, i) => (
+                    <section key={`${title}-${i}`}>
+                      {title && <h2>{title}</h2>}
+                      {items.map(({ text, books }) => (
+                        <p key={text}>
+                          {text}{' '}
+                          <span className="character-story-source">
+                            {books.map((bookId, j) => (
+                              <Fragment key={bookId}>
+                                {j > 0 && ', '}
+                                <Link to={`/books/${bookId}`}>
+                                  <cite>
+                                    {findBook(bookId)?.title ?? bookId}
+                                  </cite>
+                                </Link>
+                              </Fragment>
+                            ))}
+                          </span>
+                        </p>
+                      ))}
+                    </section>
                   ))}
-                </section>
-              ))}
-            </div>
-          ),
-        },
+                </div>
+              ),
+            }
+          : {
+              id: 'story',
+              label: 'Story',
+              content: story.story.length > 0 && (
+                <div className="character-story">
+                  {story.story.map(({ bookId, items }, i) => (
+                    <section key={`${bookId}-${i}`}>
+                      <h2>
+                        <Link to={`/books/${bookId}`}>
+                          <cite>{findBook(bookId)?.title ?? bookId}</cite>
+                        </Link>
+                      </h2>
+                      {items.map((text) => (
+                        <p key={text}>{text}</p>
+                      ))}
+                    </section>
+                  ))}
+                </div>
+              ),
+            },
         {
           id: 'personality',
           label: 'Personality',
@@ -278,6 +316,31 @@ export function CharacterDetail() {
     </aside>
   )
 
+  const header = (
+    <header className="character-header">
+      <h1 id="character-title">{character.name}</h1>
+      {shown.personas.map(({ name, books }) => (
+        <p key={name} className="character-persona">
+          Known as <strong>{name}</strong> in{' '}
+          {[...new Set(books.map((b) => seriesOf(b)?.name ?? b))].map(
+            (series, i) => (
+              <span key={series}>
+                {i > 0 && ', '}
+                <cite>{series}</cite>
+              </span>
+            ),
+          )}
+        </p>
+      ))}
+      {shown.aliases.length > 0 && (
+        <p className="planet-detail-aka">
+          Also known as {shown.aliases.join(', ')}
+        </p>
+      )}
+      {story.intro && <p className="character-intro">{story.intro}</p>}
+    </header>
+  )
+
   return (
     <article className="character-detail" aria-labelledby="character-title">
       <nav aria-label="Breadcrumb" className="breadcrumb">
@@ -286,30 +349,9 @@ export function CharacterDetail() {
       </nav>
       <SpoilerNotice
         scope={scope}
-        spoilers={shown.spoilers || story.spoilers}
+        spoilers={shown.spoilers || story.spoilers || art.spoilers}
       />
-      <header className="character-header">
-        <h1 id="character-title">{character.name}</h1>
-        {shown.personas.map(({ name, books }) => (
-          <p key={name} className="character-persona">
-            Known as <strong>{name}</strong> in{' '}
-            {[...new Set(books.map((b) => seriesOf(b)?.name ?? b))].map(
-              (series, i) => (
-                <span key={series}>
-                  {i > 0 && ', '}
-                  <cite>{series}</cite>
-                </span>
-              ),
-            )}
-          </p>
-        ))}
-        {shown.aliases.length > 0 && (
-          <p className="planet-detail-aka">
-            Also known as {shown.aliases.join(', ')}
-          </p>
-        )}
-        {story.intro && <p className="character-intro">{story.intro}</p>}
-      </header>
+      {!details && header}
       {!details ? (
         <>
           <p>Details coming soon.</p>
@@ -328,7 +370,29 @@ export function CharacterDetail() {
         </>
       ) : (
         <div className="character-body">
-          {infobox}
+          {header}
+          <div className="character-side">
+            {art.portrait && (
+              <figure className="character-portrait">
+                <img src={art.portrait.src} alt={art.portrait.alt} />
+                <figcaption>
+                  Art by{' '}
+                  {art.portrait.artistUrl ? (
+                    <a
+                      href={art.portrait.artistUrl}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      {art.portrait.artist}
+                    </a>
+                  ) : (
+                    art.portrait.artist
+                  )}
+                </figcaption>
+              </figure>
+            )}
+            {infobox}
+          </div>
           <div className="character-main">
             {active ? (
               <>

@@ -5,7 +5,7 @@ import { findCharacter } from './characters'
 import { characterDetails } from './characterDetails'
 import { personas } from './reveal'
 import { systems } from './systems'
-import type { CharacterStory, Reveal } from './types'
+import type { CharacterStory, Reveal, StoryItem } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
 const planetIds = new Set(systems.flatMap((s) => s.planets.map((p) => p.id)))
@@ -140,11 +140,17 @@ describe('character details', () => {
       expect(d, id).toBeDefined()
       const name = findCharacter(id)!.name.split(' ')[0]
       const personaBooks = new Set(d.personas?.flatMap((p) => p.books))
-      for (const [kind, items] of [
+      expect(!s.story === !s.history, `${id}: story or history`).toBe(false)
+      const groups: [string, StoryItem[]][] = [
         ['intro', s.intro],
-        ['story', s.story],
+        ['story', s.story ?? []],
+        ...(s.history ?? []).flatMap((sec, j): [string, StoryItem[]][] => [
+          [`history[${j}].title`, sec.title],
+          [`history[${j}].items`, sec.items],
+        ]),
         ['personality', s.personality],
-      ] as const)
+      ]
+      for (const [kind, items] of groups)
         items.forEach((it, i) => {
           const where = `${id} ${kind}[${i}]`
           expect(it.text.trim(), where).not.toBe('')
@@ -158,7 +164,11 @@ describe('character details', () => {
           if (books.every((b) => personaBooks.has(b)))
             expect(it.text, where).not.toMatch(new RegExp(`\\b${name}\\b`))
         })
-      for (const it of s.story) expect(bookIds, id).toContain(it.bookId)
+      for (const it of s.story ?? []) expect(bookIds, id).toContain(it.bookId)
+      for (const sec of s.history ?? []) {
+        expect(sec.title.length, id).toBeGreaterThan(0)
+        expect(sec.items.length, id).toBeGreaterThan(0)
+      }
     }
   })
 })

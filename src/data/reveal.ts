@@ -1,5 +1,6 @@
 import { hasReached, type ReadingProgress } from './progress'
 import { characterDetails } from './characterDetails'
+import type { Portrait } from './characterPortraits'
 import type {
   CharacterDetails,
   Fact,
@@ -401,6 +402,12 @@ export interface ShownStory {
   intro?: string
   /** What happens to them, grouped by book in reading order. */
   story: { bookId: string; items: string[] }[]
+  /**
+   * Their life in in-world order, for stories written as a history. A
+   * section shows when any of its items does, under its latest title the
+   * reader may see; each item notes the books it's from.
+   */
+  history?: { title?: string; items: { text: string; books: string[] }[] }[]
   personality: string[]
   /** Whether unread books hide any of it. */
   spoilers: boolean
@@ -434,8 +441,18 @@ export function revealStory(
   const aboutPersona = ({ revealedIn }: StoryItem) =>
     revealedIn.flatMap(pointBooks).every((b) => personaBooks.has(b))
 
+  const history = prose.history
+    ?.map(({ title, items }) => ({
+      title: title.filter(show).at(-1)?.text,
+      items: items.filter(show).map(({ text, revealedIn }) => ({
+        text,
+        books: [...new Set(trim(revealedIn).flatMap(pointBooks))],
+      })),
+    }))
+    .filter((s) => s.items.length > 0)
+
   const story: ShownStory['story'] = []
-  for (const item of prose.story.filter(show)) {
+  for (const item of (prose.story ?? []).filter(show)) {
     const last = story.at(-1)
     if (last?.bookId === item.bookId) last.items.push(item.text)
     else story.push({ bookId: item.bookId, items: [item.text] })
@@ -446,7 +463,25 @@ export function revealStory(
       .filter(show)
       .at(-1)?.text,
     story,
+    history,
     personality: prose.personality.filter(show).map((i) => i.text),
+    spoilers,
+  }
+}
+
+/**
+ * The latest portrait the reader may see (or, with `viewAnyway`, the latest
+ * of all), and whether unread books hide a later one.
+ */
+export function revealPortrait(
+  portraits: readonly Portrait[] = [],
+  canSee: CanSee,
+  viewAnyway = false,
+): { portrait?: Portrait; spoilers: boolean } {
+  const visible = portraits.filter((p) => canSee(p.revealedIn))
+  const spoilers = visible.length < portraits.length
+  return {
+    portrait: (viewAnyway ? portraits : visible).at(-1),
     spoilers,
   }
 }

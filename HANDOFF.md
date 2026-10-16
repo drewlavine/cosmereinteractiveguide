@@ -15,7 +15,8 @@
 ## Waiting on user
 
 1. (Done: committed and pushed.)
-2. Flashbacks: keep reading order or label/group?
+2. Flashbacks: answered by History (in-world order). Pilot on Kaladin + Vasher;
+   roll out to the other 32 once approved (make_history.py drafts, headings by hand).
 3. Collapse Key facts box on phones?
 4. Multi-book appearance/personality items appear late — OK?
 5. (Done: stories load on demand from src/data/stories/<id>.json; bundle 1.5 MB → 1.0 MB.)

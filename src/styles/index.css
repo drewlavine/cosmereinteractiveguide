@@ -521,10 +521,17 @@ dd {
 /* Infobox beside the tabs, like the Coppermind's; above them on narrow screens. */
 .character-body {
   display: grid;
-  grid-template-areas: 'main info';
+  grid-template-areas:
+    'head info'
+    'main info';
   grid-template-columns: minmax(0, 1fr) 17rem;
-  gap: 2.5rem;
+  grid-template-rows: auto 1fr;
+  column-gap: 2.5rem;
   align-items: start;
+}
+
+.character-body > .character-header {
+  grid-area: head;
 }
 
 .character-main {
@@ -532,10 +539,44 @@ dd {
   min-width: 0;
 }
 
-.character-infobox {
+.character-side {
   grid-area: info;
   position: sticky;
   top: 5rem;
+}
+
+/* Too tall to stay in view while scrolling. */
+.character-side:has(.character-portrait) {
+  position: static;
+}
+
+.character-portrait {
+  margin: 0 0 1rem;
+}
+
+.character-portrait img {
+  display: block;
+  width: 100%;
+  max-height: 24rem;
+  object-fit: cover;
+  object-position: top;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.character-portrait figcaption {
+  margin-top: 0.35rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.character-portrait figcaption a {
+  color: inherit;
+}
+
+.character-infobox {
   padding: 1rem 1.15rem;
   border: 1px solid rgba(212, 165, 64, 0.35);
   border-radius: 12px;
@@ -578,13 +619,25 @@ dd {
 
 @media (max-width: 760px) {
   .character-body {
-    grid-template-areas: 'info' 'main';
+    grid-template-areas: 'head' 'info' 'main';
     grid-template-columns: minmax(0, 1fr);
-    gap: 1.5rem;
+    grid-template-rows: none;
+    row-gap: 1.5rem;
   }
 
-  .character-infobox {
+  .character-body > .character-header {
+    margin-bottom: 0;
+  }
+
+  .character-side {
     position: static;
+  }
+
+  .character-portrait img {
+    width: auto;
+    max-width: 100%;
+    max-height: 20rem;
+    margin: 0 auto;
   }
 }
 
@@ -593,10 +646,15 @@ dd {
 }
 
 .character-story h2 {
-  margin: 1.5rem 0 0.5rem;
-  padding-bottom: 0.25rem;
-  border-bottom: 1px solid rgba(212, 165, 64, 0.2);
-  font-size: 1.35rem;
+  margin: 2rem 0 0.75rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 2px solid rgba(212, 165, 64, 0.55);
+  color: var(--gold);
+  font-size: 1.6rem;
+}
+
+.character-story section:first-child h2 {
+  margin-top: 1.25rem;
 }
 
 .character-story h2 a {
@@ -604,8 +662,18 @@ dd {
 }
 
 .character-story p {
-  margin: 0 0 0.8rem;
+  margin: 0 0 0.75rem;
+  font-size: 0.92rem;
   line-height: 1.6;
+}
+
+.character-story-source {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+}
+
+.character-story-source a {
+  color: inherit;
 }
 
 .character-tab-panel > .character-story:not(:has(h2)) {

@@ -1,10 +1,11 @@
 import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
-import { beforeAll, describe, expect, it } from 'vitest'
+import { afterEach, beforeAll, describe, expect, it } from 'vitest'
 import { books } from './data/books'
 import { characters } from './data/characters'
 import { characterDetails } from './data/characterDetails'
+import { characterPortraits } from './data/characterPortraits'
 import { loadStory, storyIds } from './data/characterStories'
 import { personas } from './data/reveal'
 import { routes } from './routes'
@@ -100,12 +101,12 @@ describe('characters pages', () => {
         .getAllByRole('link')
         .map((l) => [l.textContent, l.getAttribute('href')]),
     ).toEqual([
-      ['Story', '/characters/kaladin'],
+      ['History', '/characters/kaladin'],
       ['Personality', '/characters/kaladin/personality'],
       ['Relationships', '/characters/kaladin/relationships'],
       ['Appearances', '/characters/kaladin/appearances'],
     ])
-    expect(within(tabs).getByRole('link', { name: 'Story' })).toHaveAttribute(
+    expect(within(tabs).getByRole('link', { name: 'History' })).toHaveAttribute(
       'aria-current',
       'page',
     )
@@ -115,17 +116,21 @@ describe('characters pages', () => {
     expect(within(facts).getByText('Alethi')).toBeInTheDocument()
     expect(within(facts).getByText(/Bridge Four/)).toBeInTheDocument()
     expect(within(facts).getAllByText(/Windrunner/).length).toBeGreaterThan(0)
-    const story = screen.getByRole('region', { name: 'Story' })
+    // His life in in-world order, like the Coppermind's History.
+    const history = screen.getByRole('region', { name: 'History' })
     expect(
-      within(story).getByRole('heading', { name: 'The Way of Kings' }),
-    ).toBeInTheDocument()
+      within(history)
+        .getAllByRole('heading')
+        .map((h) => h.textContent)
+        .slice(0, 4),
+    ).toEqual(['Early life', "Amaram's army", 'Slavery', 'Bridgeman'])
 
     await userEvent.click(
       within(tabs).getByRole('link', { name: 'Appearances' }),
     )
     // Switching tabs is instant: no page transition within a character.
     const appearances = screen.getByRole('region', { name: 'Appearances' })
-    expect(screen.queryByRole('region', { name: 'Story' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'History' })).toBeNull()
     const wayOfKings = within(appearances)
       .getByRole('link', { name: 'The Way of Kings' })
       .closest('li')
@@ -162,6 +167,11 @@ describe('characters pages', () => {
     stormlight('/characters/zahel')
     expect(screen.getByRole('heading', { name: 'Zahel' })).toBeInTheDocument()
     expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
+    expect(
+      within(screen.getByRole('region', { name: 'History' }))
+        .getAllByRole('heading')
+        .map((h) => h.textContent),
+    ).toEqual(['Ardent and swordmaster'])
     // Nothing on the page, story included, gives him away.
     for (const spoiler of [
       /Vasher/,
@@ -192,8 +202,8 @@ describe('characters pages', () => {
     // Warbreaker only: Vasher, with nothing from Stormlight.
     renderAt('/characters/vasher', ['warbreaker'])
     expect(screen.getByText(/Awakener/)).toBeInTheDocument()
-    for (const spoiler of [/Zahel/, /Ardent/, /Worldhopper/])
-      expect(screen.queryByText(spoiler)).toBeNull()
+    for (const spoiler of [/Zahel/, /Ardent/, /Worldhopper/, /Roshar/])
+      expect(screen.getByRole('article').textContent).not.toMatch(spoiler)
     cleanup()
 
     // Both: one page, Vasher's, with Zahel as another name.
@@ -212,6 +222,18 @@ describe('characters pages', () => {
     expect(screen.getByText(/Also known as/)).not.toHaveTextContent('Zahel')
     expect(screen.getByText(/Worldhopper/)).toBeInTheDocument()
     expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
+    cleanup()
+    // His history runs from Nalthis to Roshar once both are read.
+    renderAt('/characters/vasher', [
+      'warbreaker',
+      'way-of-kings',
+      'words-of-radiance',
+    ])
+    expect(
+      within(screen.getByRole('region', { name: 'History' }))
+        .getAllByRole('heading')
+        .map((h) => h.textContent),
+    ).toEqual(['Becoming a Returned', 'The Manywar', "In T'Telir", 'On Roshar'])
     cleanup()
     both('/characters')
     expect(screen.getByRole('link', { name: 'Vasher' })).toBeInTheDocument()
@@ -235,7 +257,7 @@ describe('characters pages', () => {
     cleanup()
     renderAt('/characters/kaladin/abilities', allBooks)
     expect(
-      await screen.findByRole('region', { name: 'Story' }),
+      await screen.findByRole('region', { name: 'History' }),
     ).toBeInTheDocument()
   })
 
@@ -288,25 +310,38 @@ describe('characters pages', () => {
     ).toHaveAttribute('href', '/characters')
   })
 
-  it('tells the story only as far as the reader has read', async () => {
-    // Footnotes date his first summary to chapter 6 and his first story beat to chapter 2.
+  it('tells his history only as far as the reader has read', async () => {
+    const headings = () =>
+      within(screen.getByRole('region', { name: 'History' }))
+        .getAllByRole('heading')
+        .map((h) => h.textContent)
+    // Footnotes date his slavery to chapter 2 and Bridge Four to chapter 6;
+    // his childhood is told in flashbacks from chapter 16.
     renderAt('/characters/kaladin', [], { 'way-of-kings': '6' })
-    const early = screen.getByRole('region', { name: 'Story' }).textContent
     expect(document.querySelector('.character-intro')).not.toBeNull()
+    expect(headings()).toEqual(['Slavery', 'Bridgeman'])
+    cleanup()
+    // Once read, the flashbacks take their place in his life, first.
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '20' })
+    expect(headings()).toEqual(['Early life', 'Slavery', 'Bridgeman'])
     expect(
-      screen.queryByRole('heading', { name: 'Words of Radiance' }),
-    ).toBeNull()
+      within(screen.getByRole('region', { name: 'History' })).getAllByRole(
+        'link',
+        { name: 'The Way of Kings' },
+      ).length,
+    ).toBeGreaterThan(0)
+    cleanup()
+    // A section's title grows with it, never ahead of it.
+    renderAt('/characters/kaladin', ['way-of-kings', 'words-of-radiance'], {
+      oathbringer: '60',
+    })
+    expect(headings()).toContain('Kholinar')
+    expect(headings().join()).not.toMatch(/Shadesmar|Thaylen/)
     cleanup()
     renderAt('/characters/kaladin', ['way-of-kings'])
-    const story = screen.getByRole('region', { name: 'Story' })
-    expect(story.textContent!.length).toBeGreaterThan(early!.length)
-    expect(
-      screen.queryByRole('heading', { name: 'Words of Radiance' }),
-    ).toBeNull()
+    expect(headings()).not.toContain("Dalinar's guard")
     await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
-    expect(
-      screen.getByRole('heading', { name: 'Words of Radiance' }),
-    ).toBeInTheDocument()
+    expect(headings()).toContain("Dalinar's guard")
   })
 
   it('filters the list by name and series', async () => {
@@ -379,5 +414,137 @@ describe('characters pages', () => {
   it('shows not found for unknown characters', () => {
     renderAt('/characters/nobody-at-all')
     expect(screen.getByText(/Lost in the Cognitive Realm/)).toBeInTheDocument()
+  })
+})
+
+describe('character portraits', () => {
+  beforeAll(() => Promise.all([loadStory('kaladin'), loadStory('vasher')]))
+  const real = characterPortraits.kaladin
+
+  it("shows Zahel's art without giving away that he's Vasher", () => {
+    const art = () => screen.getByRole('img', { name: /Zahel|Vasher/ })
+    renderAt('/characters/zahel', ['way-of-kings'], {
+      'words-of-radiance': '34',
+    })
+    expect(document.querySelector('.character-portrait')).toBeNull()
+    cleanup()
+    renderAt('/characters/zahel', ['way-of-kings'], {
+      'words-of-radiance': '35',
+    })
+    expect(art()).toHaveAttribute('alt', expect.stringMatching(/sparring/))
+    expect(document.querySelector('.character-portrait')).not.toHaveTextContent(
+      /Vasher|Nightblood|sword on his back/,
+    )
+    cleanup()
+    renderAt(
+      '/characters/zahel',
+      ['way-of-kings', 'words-of-radiance', 'oathbringer'],
+      { 'rhythm-of-war': '15' },
+    )
+    expect(art()).toHaveAttribute('alt', expect.stringMatching(/laundry/))
+  })
+
+  it("follows Vasher from Warbreaker to Zahel's books", () => {
+    const alt = (read: string[], reading: Record<string, string> = {}) => {
+      cleanup()
+      renderAt('/characters/vasher', read, reading)
+      return screen
+        .getByRole('img', { name: /Zahel|Vasher/ })
+        .getAttribute('alt')
+    }
+    expect(alt([], { warbreaker: 'prologue' })).toMatch(/^Vasher/)
+    expect(alt(['warbreaker'], { 'words-of-radiance': '34' })).toMatch(
+      /^Vasher/,
+    )
+    expect(alt(['warbreaker'], { 'words-of-radiance': '35' })).toMatch(
+      /sparring/,
+    )
+    expect(
+      alt(['warbreaker', 'words-of-radiance', 'oathbringer'], {
+        'rhythm-of-war': '15',
+      }),
+    ).toMatch(/laundry/)
+  })
+  afterEach(() => {
+    characterPortraits.kaladin = real
+  })
+
+  it("shows Kaladin's art only once the reader reaches what it shows", () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '48' })
+    expect(document.querySelector('.character-portrait')).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '75' })
+    expect(
+      screen.getByRole('img', { name: /as a bridgeman/ }),
+    ).toBeInTheDocument()
+    cleanup()
+    // Finishing WoK keeps the bridgeman until WoR shows him in uniform.
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    expect(
+      screen.getByRole('img', { name: /as a bridgeman/ }),
+    ).toBeInTheDocument()
+    expect(screen.getAllByRole('link', { name: 'Exmakina' })).toHaveLength(1)
+    const latest = (read: string[], reading: Record<string, string>) => {
+      cleanup()
+      renderAt('/characters/kaladin', read, reading)
+      return screen.getByRole('img', { name: /Kaladin/ }).getAttribute('alt')
+    }
+    expect(latest(['way-of-kings'], { 'words-of-radiance': '2' })).toMatch(
+      /Kholin uniform/,
+    )
+    expect(
+      latest(['way-of-kings', 'words-of-radiance'], { oathbringer: '6' }),
+    ).toMatch(/Kholin uniform/)
+    expect(
+      latest(['way-of-kings', 'words-of-radiance'], { oathbringer: '7' }),
+    ).toMatch(/flying/)
+    const toRow = ['way-of-kings', 'words-of-radiance', 'oathbringer']
+    expect(latest(toRow, { 'rhythm-of-war': '116' })).toMatch(/flying/)
+    expect(latest([...toRow, 'rhythm-of-war'], {})).toMatch(/Shardplate/)
+    expect(
+      latest([...toRow, 'rhythm-of-war'], { 'wind-and-truth': '12' }),
+    ).toMatch(/Shinovar/)
+  })
+
+  it('shows the latest art the reader has reached, with its artist', () => {
+    characterPortraits.kaladin = [
+      {
+        src: '/portraits/early.webp',
+        alt: 'Kaladin as a bridgeman',
+        artist: 'Artist A',
+        artistUrl: 'https://example.com/a',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        src: '/portraits/late.webp',
+        alt: 'Kaladin in Shardplate',
+        artist: 'Artist B',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ]
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    const art = screen.getByRole('img', { name: 'Kaladin as a bridgeman' })
+    expect(art).toHaveAttribute('src', '/portraits/early.webp')
+    expect(screen.getByRole('link', { name: 'Artist A' })).toHaveAttribute(
+      'href',
+      'https://example.com/a',
+    )
+    expect(screen.queryByAltText('Kaladin in Shardplate')).toBeNull()
+  })
+
+  it('shows no art until the reader reaches any', () => {
+    characterPortraits.kaladin = [
+      {
+        src: '/portraits/late.webp',
+        alt: 'Kaladin in Shardplate',
+        artist: 'Artist B',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ]
+    renderAt(
+      '/characters/kaladin',
+      allBooks.filter((b) => b !== 'rhythm-of-war'),
+    )
+    expect(document.querySelector('.character-portrait')).toBeNull()
   })
 })

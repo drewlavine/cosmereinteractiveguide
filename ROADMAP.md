@@ -401,12 +401,36 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Story text lives in one small JSON file per character
         (`data/stories/`), loaded when the page opens, so it stays out of
         the main bundle as more characters are added
-  - [ ] Story and Personality for the other characters
+  - [ ] **History** instead of Story, like the Coppermind's: their life in
+        in-world order (flashbacks take their place), under era headings,
+        each paragraph citing its book. Headings are written by hand, never
+        the Coppermind's own (e.g. "Death", "Apparent Death" would spoil),
+        and have dated versions that grow with the section (Kaladin's
+        "Kholinar" becomes "Kholinar, Shadesmar and Thaylen City"); checks
+        make sure a heading always shows with its paragraphs
+    - [x] Pilot: Kaladin and Vasher (persona headings: Zahel's readers see
+          "Ardent and swordmaster", not "On Roshar")
+    - [ ] The other 32 pilot characters
+  - [ ] Story/History and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)
   - [ ] Leave out of tabs: Coppermind's Trivia, Development and Speculation
         sections, and Words of Brandon (out of the books, and hard to date
         for spoilers); keep the Coppermind link for those
+- [ ] **Character art** above Key facts, credited and dated like a fact
+      (art can spoil: Shardplate, a scar, a sword)
+  - [x] Portrait slot (`data/characterPortraits.ts`, images in
+        `public/portraits/`): latest art the reader may see, "Art by" link
+  - [x] One portrait per book, changing as the reader progresses (Kaladin:
+        WoK bridgeman → WoR uniform → OB Windrunner → RoW Shardplate → WaT
+        Shinovar; Vasher: Warbreaker → Zahel teaching Adolin (WoR) → Zahel
+        with laundry (RoW), and the same Zahel art on his persona page)
+  - [ ] Art with permission from artists or Dragonsteel. Not from the
+        Coppermind: its images belong to their artists and are "only to be
+        used with their permission"
+- [ ] Check the footer license: the Coppermind's text is CC BY-NC-ND (no
+      derivatives), not BY-NC-SA; ask 17th Shard (contact on the Coppermind
+      Copyrights page) about our paraphrased summaries
 - [ ] **Travels** tab for world hoppers (e.g. Hoid, Vasher, Vivenna, Khriss,
       Nazh, Tress, Felt): a visual timeline of the planets they've visited,
       in the Cosmere's in-world order (not publication order), each stop
