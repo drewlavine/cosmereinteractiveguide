@@ -250,6 +250,25 @@ export interface Persona {
   identityRevealedIn: Reveal
 }
 
+/** A short piece of text about a character, adapted from the Coppermind. */
+export interface StoryItem {
+  text: string
+  revealedIn: Reveal
+}
+
+/** What a character's page says about them in prose. */
+export interface CharacterStory {
+  /**
+   * "Who they are" in a sentence or two, earliest first; a page shows the
+   * latest one the reader may see.
+   */
+  intro: StoryItem[]
+  /** What happens to them, in reading order, each under the book it's from. */
+  story: (StoryItem & { bookId: string })[]
+  /** Appearance and personality. */
+  personality: StoryItem[]
+}
+
 /** A family tie, revealed where the books make it clear. */
 export interface Relative extends Fact {
   /**

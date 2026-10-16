@@ -3,6 +3,7 @@ import { books } from './books'
 import { chapters } from './chapters'
 import { findCharacter } from './characters'
 import { characterDetails } from './characterDetails'
+import { characterStories } from './characterStories'
 import { personas } from './reveal'
 import { systems } from './systems'
 import type { Reveal } from './types'
@@ -124,5 +125,33 @@ describe('character details', () => {
     expect(cameo?.revealedIn.length).toBeGreaterThan(0)
     for (const p of cameo?.revealedIn ?? [])
       expect(typeof p === 'object' && 'all' in p && p.all.length).toBe(2)
+  })
+
+  it('dates every story item, and keeps persona-only items in persona', () => {
+    for (const [id, s] of Object.entries(characterStories)) {
+      const d = characterDetails[id]
+      expect(d, id).toBeDefined()
+      const name = findCharacter(id)!.name.split(' ')[0]
+      const personaBooks = new Set(d.personas?.flatMap((p) => p.books))
+      for (const [kind, items] of [
+        ['intro', s.intro],
+        ['story', s.story],
+        ['personality', s.personality],
+      ] as const)
+        items.forEach((it, i) => {
+          const where = `${id} ${kind}[${i}]`
+          expect(it.text.trim(), where).not.toBe('')
+          expectValidReveal(it.revealedIn, where)
+          const books = it.revealedIn.flatMap((p) =>
+            (typeof p !== 'string' && 'all' in p ? p.all : [p]).map((q) =>
+              typeof q === 'string' ? q : q.book,
+            ),
+          )
+          // Shown on a persona page, it mustn't give the real name away.
+          if (books.every((b) => personaBooks.has(b)))
+            expect(it.text, where).not.toMatch(new RegExp(`\\b${name}\\b`))
+        })
+      for (const it of s.story) expect(bookIds, id).toContain(it.bookId)
+    }
   })
 })

@@ -279,6 +279,10 @@ Category:Cosmere; check anything unclear by hand.
 - [ ] Group and sort the character list in different ways. More groupings
       can be added later.
   - [x] A–Z (the current list)
+  - [x] Filter by name (including other names the reader knows) and by
+        series (only series the reader has met characters in), and sort by
+        **Most books** (counting only books the reader has met them in).
+        Saved in the URL (`?q=`, `?series=`, `?sort=books`)
   - [ ] **Book**: characters under each book they appear in, in publication
         order. A character in several books is listed under each.
   - [ ] **Species**: e.g. human, singer, spren, kandra, koloss, Shard
@@ -380,6 +384,19 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Unnamed cameos (e.g. Hoid as a beggar or coachman in Mistborn) count
         only once the reader has met the character by name in another book
         and reached the cameo
+  - [x] Redesign: breadcrumb, then name, other names and a short
+        spoiler-safe summary up top; a **Key facts** infobox beside the tabs
+        (above them on phones) with world, species, nationality, profession,
+        abilities, groups, bonds, first appearance and the Coppermind link;
+        tabs **Story**, **Personality**, **Relationships**, **Appearances**
+  - [x] **Story** and **Personality** for the pilot: short paraphrased items
+        under each book, written from the Coppermind's History sections, each
+        dated by the footnotes of the paragraphs it draws on (so it appears
+        only once the reader reaches that chapter). The summary up top is the
+        latest one the reader can see. Persona pages tell only the persona's
+        story. Checks catch items that name a persona's real name or a fact
+        the footnotes date later
+  - [ ] Story and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)
   - [ ] Leave out of tabs: Coppermind's Trivia, Development and Speculation

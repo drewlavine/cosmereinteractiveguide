@@ -1,5 +1,6 @@
 import { hasReached, type ReadingProgress } from './progress'
 import { characterDetails } from './characterDetails'
+import { characterStories } from './characterStories'
 import type {
   CharacterDetails,
   Fact,
@@ -11,6 +12,7 @@ import type {
   RevealPoint,
   StarSystem,
   Story,
+  StoryItem,
 } from './types'
 
 /** Whether the reader may see something with these tags. */
@@ -389,6 +391,61 @@ export function revealCharacter(
         relation,
         characterId,
       })),
+    spoilers,
+  }
+}
+
+/** A character's prose trimmed to what the reader may see. */
+export interface ShownStory {
+  /** The latest "who they are" line the reader may see. */
+  intro?: string
+  /** What happens to them, grouped by book in reading order. */
+  story: { bookId: string; items: string[] }[]
+  personality: string[]
+  /** Whether unread books hide any of it. */
+  spoilers: boolean
+}
+
+/**
+ * Trims a character's prose like revealCharacter does its facts. The
+ * character's page leaves out intros from their personas' books, which
+ * describe the persona.
+ */
+export function revealStory(
+  characterId: string,
+  canSee: CanSee,
+  viewAnyway = false,
+): ShownStory {
+  const v = view(characterId, canSee)
+  const prose = characterStories[v?.persona?.characterId ?? characterId]
+  if (!v || !prose) return { story: [], personality: [], spoilers: false }
+  const { details, persona, trim } = v
+
+  let spoilers = false
+  const show = ({ revealedIn }: StoryItem) => {
+    const reveal = trim(revealedIn)
+    if (persona && reveal.length === 0) return false
+    if (canSee(reveal)) return true
+    spoilers = true
+    return viewAnyway
+  }
+  const personaBooks = new Set((details.personas ?? []).flatMap((p) => p.books))
+  const aboutPersona = ({ revealedIn }: StoryItem) =>
+    revealedIn.flatMap(pointBooks).every((b) => personaBooks.has(b))
+
+  const story: ShownStory['story'] = []
+  for (const item of prose.story.filter(show)) {
+    const last = story.at(-1)
+    if (last?.bookId === item.bookId) last.items.push(item.text)
+    else story.push({ bookId: item.bookId, items: [item.text] })
+  }
+  return {
+    intro: prose.intro
+      .filter((i) => persona || !aboutPersona(i))
+      .filter(show)
+      .at(-1)?.text,
+    story,
+    personality: prose.personality.filter(show).map((i) => i.text),
     spoilers,
   }
 }

@@ -87,27 +87,32 @@ describe('characters pages', () => {
         .getAllByRole('link')
         .map((l) => [l.textContent, l.getAttribute('href')]),
     ).toEqual([
-      ['Overview', '/characters/kaladin'],
+      ['Story', '/characters/kaladin'],
+      ['Personality', '/characters/kaladin/personality'],
       ['Relationships', '/characters/kaladin/relationships'],
       ['Appearances', '/characters/kaladin/appearances'],
     ])
-    expect(
-      within(tabs).getByRole('link', { name: 'Overview' }),
-    ).toHaveAttribute('aria-current', 'page')
-    const overview = screen.getByRole('region', { name: 'Overview' })
-    expect(within(overview).getByText(/Human/)).toBeInTheDocument()
-    expect(within(overview).getByText('Alethi')).toBeInTheDocument()
-    expect(within(overview).getByText(/Bridge Four/)).toBeInTheDocument()
-    expect(within(overview).getAllByText(/Windrunner/).length).toBeGreaterThan(
-      0,
+    expect(within(tabs).getByRole('link', { name: 'Story' })).toHaveAttribute(
+      'aria-current',
+      'page',
     )
+    // Key facts sit beside the tabs, whichever tab is open.
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(within(facts).getByText(/Human/)).toBeInTheDocument()
+    expect(within(facts).getByText('Alethi')).toBeInTheDocument()
+    expect(within(facts).getByText(/Bridge Four/)).toBeInTheDocument()
+    expect(within(facts).getAllByText(/Windrunner/).length).toBeGreaterThan(0)
+    const story = screen.getByRole('region', { name: 'Story' })
+    expect(
+      within(story).getByRole('heading', { name: 'The Way of Kings' }),
+    ).toBeInTheDocument()
 
     await userEvent.click(
       within(tabs).getByRole('link', { name: 'Appearances' }),
     )
     // Switching tabs is instant: no page transition within a character.
     const appearances = screen.getByRole('region', { name: 'Appearances' })
-    expect(screen.queryByText(/Human/)).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Story' })).toBeNull()
     const wayOfKings = within(appearances)
       .getByRole('link', { name: 'The Way of Kings' })
       .closest('li')
@@ -144,11 +149,22 @@ describe('characters pages', () => {
     stormlight('/characters/zahel')
     expect(screen.getByRole('heading', { name: 'Zahel' })).toBeInTheDocument()
     expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
-    for (const spoiler of [/Vasher/, /Awakener/, /Nalthis/, /Worldhopper/])
-      expect(screen.queryByText(spoiler)).toBeNull()
+    // Nothing on the page, story included, gives him away.
+    for (const spoiler of [
+      /Vasher/,
+      /Awakener/,
+      /Awaken/,
+      /Nalthis/,
+      /Nightblood/,
+      /Warbreaker/,
+      /Worldhopper/,
+    ])
+      expect(screen.getByRole('article').textContent).not.toMatch(spoiler)
     await userEvent.click(screen.getByRole('link', { name: 'Appearances' }))
     expect(
-      screen.getByRole('link', { name: 'Words of Radiance' }).closest('li'),
+      within(screen.getByRole('region', { name: 'Appearances' }))
+        .getByRole('link', { name: 'Words of Radiance' })
+        .closest('li'),
     ).toHaveTextContent(/first appears in Chapter 16$/)
     expect(screen.queryByRole('link', { name: 'Warbreaker' })).toBeNull()
     cleanup()
@@ -194,19 +210,19 @@ describe('characters pages', () => {
     expect(screen.queryByRole('link', { name: 'Relationships' })).toBeNull()
   })
 
-  it('reveals abilities at their chapter, and sends unknown tabs to the overview', async () => {
+  it('reveals abilities at their chapter, and sends unknown tabs to the first', async () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '56' })
     expect(screen.queryByText(/Abilities|Surgebinder/)).toBeNull()
     cleanup()
     // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
     renderAt('/characters/kaladin', [], { 'way-of-kings': '57' })
-    const overview = screen.getByRole('region', { name: 'Overview' })
-    expect(within(overview).getByText('Surgebinder')).toBeInTheDocument()
-    expect(screen.queryByText(/Windrunner/)).toBeNull()
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(within(facts).getByText('Surgebinder')).toBeInTheDocument()
+    expect(document.body.textContent).not.toMatch(/Windrunner/)
     cleanup()
     renderAt('/characters/kaladin/abilities', allBooks)
     expect(
-      await screen.findByRole('region', { name: 'Overview' }),
+      await screen.findByRole('region', { name: 'Story' }),
     ).toBeInTheDocument()
   })
 
@@ -222,8 +238,10 @@ describe('characters pages', () => {
       '/systems/rosharan/planets/roshar',
     )
     expect(screen.getByText('Human')).toBeInTheDocument()
-    expect(screen.queryByText(/Windrunner/)).toBeNull()
-    expect(screen.queryByText(/Herald/)).toBeNull()
+    // He swears a Windrunner Ideal in this book, but only becomes one in the next.
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(within(facts).queryByText(/Windrunner/)).toBeNull()
+    expect(screen.getByRole('article').textContent).not.toMatch(/Herald/)
     expect(screen.getByText(/Some information hidden/)).toBeInTheDocument()
   })
 
@@ -250,8 +268,71 @@ describe('characters pages', () => {
       screen.getByRole('link', { name: /on the Coppermind/ }),
     ).toHaveAttribute('href', 'https://coppermind.net/wiki/Blackthorn_(spren)')
     expect(
-      screen.getByRole('link', { name: 'Back to all characters' }),
+      within(screen.getByRole('navigation', { name: 'Breadcrumb' })).getByRole(
+        'link',
+        { name: 'Characters' },
+      ),
     ).toHaveAttribute('href', '/characters')
+  })
+
+  it('tells the story only as far as the reader has read', async () => {
+    // Footnotes date his first summary to chapter 6 and his first story beat to chapter 2.
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '6' })
+    const early = screen.getByRole('region', { name: 'Story' }).textContent
+    expect(document.querySelector('.character-intro')).not.toBeNull()
+    expect(
+      screen.queryByRole('heading', { name: 'Words of Radiance' }),
+    ).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    const story = screen.getByRole('region', { name: 'Story' })
+    expect(story.textContent!.length).toBeGreaterThan(early!.length)
+    expect(
+      screen.queryByRole('heading', { name: 'Words of Radiance' }),
+    ).toBeNull()
+    await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
+    expect(
+      screen.getByRole('heading', { name: 'Words of Radiance' }),
+    ).toBeInTheDocument()
+  })
+
+  it('filters the list by name and series', async () => {
+    renderAt('/characters', allBooks)
+    await userEvent.type(
+      screen.getByRole('searchbox', { name: /Filter characters/ }),
+      'kalad',
+    )
+    expect(screen.getByRole('link', { name: 'Kaladin' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Vin' })).toBeNull()
+    await userEvent.clear(
+      screen.getByRole('searchbox', { name: /Filter characters/ }),
+    )
+    // Other names count too.
+    await userEvent.type(
+      screen.getByRole('searchbox', { name: /Filter characters/ }),
+      'stormblessed',
+    )
+    expect(screen.getByRole('link', { name: 'Kaladin' })).toBeInTheDocument()
+    await userEvent.clear(
+      screen.getByRole('searchbox', { name: /Filter characters/ }),
+    )
+    const series = screen.getByRole('group', { name: 'Series' })
+    await userEvent.click(
+      within(series).getByRole('button', { name: 'Standalones' }),
+    )
+    expect(screen.getByRole('link', { name: 'Vivenna' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
+    expect(screen.getByText(/aren’t sorted by series yet/)).toBeInTheDocument()
+  })
+
+  it('offers only series the reader has met characters in', () => {
+    renderAt('/characters', ['warbreaker'])
+    const series = screen.getByRole('group', { name: 'Series' })
+    expect(
+      within(series)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['All series', 'Standalones'])
   })
 
   it('shows not found for unknown characters', () => {

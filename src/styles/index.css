@@ -63,6 +63,8 @@ h3 {
 .app {
   display: grid;
   grid-template-rows: auto 1fr auto;
+  /* Without this the column grows to fit the header's tabs on phones. */
+  grid-template-columns: minmax(0, 1fr);
   height: 100vh;
   height: 100dvh;
   overflow: hidden;
@@ -504,12 +506,122 @@ dd {
   margin: 0 0 1rem;
 }
 
-.character-detail dl {
+.character-header {
+  margin-bottom: 1.5rem;
+}
+
+.character-intro {
+  max-width: 46rem;
+  margin: 0.9rem 0 0;
+  color: var(--text-strong);
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+
+/* Infobox beside the tabs, like the Coppermind's; above them on narrow screens. */
+.character-body {
+  display: grid;
+  grid-template-areas: 'main info';
+  grid-template-columns: minmax(0, 1fr) 17rem;
+  gap: 2.5rem;
+  align-items: start;
+}
+
+.character-main {
+  grid-area: main;
+  min-width: 0;
+}
+
+.character-infobox {
+  grid-area: info;
+  position: sticky;
+  top: 5rem;
+  padding: 1rem 1.15rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 12px;
+  background: var(--panel);
+}
+
+.character-infobox-world {
+  display: block;
+  width: 7.5rem;
+  margin: 0 auto 0.25rem;
+}
+
+.character-infobox-world svg {
+  display: block;
+  width: 100%;
+  overflow: visible;
+}
+
+.character-infobox dl {
+  margin: 0;
+}
+
+.character-infobox dt {
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.character-infobox dt:first-child {
+  margin-top: 0;
+}
+
+.character-infobox-source {
+  margin: 1rem 0 0;
+  padding-top: 0.75rem;
+  border-top: 1px solid rgba(212, 165, 64, 0.2);
+  font-size: 0.9rem;
+}
+
+@media (max-width: 760px) {
+  .character-body {
+    grid-template-areas: 'info' 'main';
+    grid-template-columns: minmax(0, 1fr);
+    gap: 1.5rem;
+  }
+
+  .character-infobox {
+    position: static;
+  }
+}
+
+.character-story {
+  max-width: 46rem;
+}
+
+.character-story h2 {
+  margin: 1.5rem 0 0.5rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.2);
+  font-size: 1.35rem;
+}
+
+.character-story h2 a {
+  text-decoration: none;
+}
+
+.character-story p {
+  margin: 0 0 0.8rem;
+  line-height: 1.6;
+}
+
+.character-tab-panel > .character-story:not(:has(h2)) {
+  padding-top: 1.25rem;
+}
+
+.character-relations {
   margin: 1.25rem 0;
 }
 
+.character-relations > div + div {
+  margin-top: 0.75rem;
+}
+
 .character-tabs {
-  margin: 1.25rem 0 0;
+  margin: 0;
   border-bottom: 1px solid rgba(212, 165, 64, 0.35);
 }
 
@@ -1605,4 +1717,72 @@ a.search-option:focus-visible {
 
 .star-map-empty p {
   margin: 0 0 1rem;
+}
+
+/* Character list filters */
+.character-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  align-items: center;
+  margin: 1rem 0 0.5rem;
+}
+
+.character-filter-input {
+  flex: 0 1 18rem;
+  min-width: 12rem;
+  padding: 0.45rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 999px;
+  background: rgba(15, 26, 34, 0.6);
+  color: var(--text-strong);
+  font: inherit;
+}
+
+.character-filter-input:focus {
+  border-color: var(--gold);
+  outline: none;
+}
+
+.filter-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.filter-chip {
+  padding: 0.25rem 0.75rem;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 999px;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.filter-chip:hover {
+  background: rgba(212, 165, 64, 0.1);
+}
+
+.filter-chip[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.24);
+  color: var(--text-strong);
+}
+
+.character-ranked {
+  columns: 16rem;
+  column-gap: 1.5rem;
+  margin: 1rem 0;
+  padding-left: 1.5rem;
+}
+
+.character-ranked li {
+  break-inside: avoid;
+  padding: 0.1rem 0;
+}
+
+.character-ranked a {
+  text-decoration: none;
 }
