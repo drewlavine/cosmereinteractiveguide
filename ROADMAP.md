@@ -396,6 +396,9 @@ Category:Cosmere; check anything unclear by hand.
         latest one the reader can see. Persona pages tell only the persona's
         story. Checks catch items that name a persona's real name or a fact
         the footnotes date later
+  - [x] Story text lives in one small JSON file per character
+        (`data/stories/`), loaded when the page opens, so it stays out of
+        the main bundle as more characters are added
   - [ ] Story and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)

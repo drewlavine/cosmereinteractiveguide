@@ -1,6 +1,5 @@
 import { hasReached, type ReadingProgress } from './progress'
 import { characterDetails } from './characterDetails'
-import { characterStories } from './characterStories'
 import type {
   CharacterDetails,
   Fact,
@@ -12,6 +11,7 @@ import type {
   RevealPoint,
   StarSystem,
   Story,
+  CharacterStory,
   StoryItem,
 } from './types'
 
@@ -411,13 +411,14 @@ export interface ShownStory {
  * character's page leaves out intros from their personas' books, which
  * describe the persona.
  */
+/** `prose` is the story of the character behind any persona (see loadStory). */
 export function revealStory(
   characterId: string,
+  prose: CharacterStory | undefined,
   canSee: CanSee,
   viewAnyway = false,
 ): ShownStory {
   const v = view(characterId, canSee)
-  const prose = characterStories[v?.persona?.characterId ?? characterId]
   if (!v || !prose) return { story: [], personality: [], spoilers: false }
   const { details, persona, trim } = v
 

@@ -1,0 +1,234 @@
+{
+  "intro": [
+    {
+      "text": "A mysterious man who tricks his way into a cell in the God King's palace in T'Telir, then escapes it to visit a rebel named Vahr.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "text": "A gruff, mysterious swordsman in T'Telir who carries the strange sword Nightblood and works against a faction pushing Hallandren toward war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
+    },
+    {
+      "text": "A Returned once called Warbreaker the Peaceful, who ended the Manywar as Peacegiver centuries ago and now travels with Vivenna.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Zahel, an ardent and swordmaster in the Kholin warcamp who trains Adolin and Renarin Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+    },
+    {
+      "text": "A Returned of Nalthis, once called Warbreaker the Peaceful, who lives on Roshar as Zahel, a swordmaster among the ardents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "wind-and-truth", "chapter": "i-9" },
+            { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ]
+    }
+  ],
+  "story": [
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher used a trick to get himself thrown into a cell in the God King's palace. He escaped and visited a rebel named Vahr, who gave him his Breath in exchange for a merciful death.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Through a priest, Vasher learned of a Hallandren faction pushing for war against Idris. Seeking more, he met Bluefingers, whose information led him to the palace of the Returned Mercystar. He broke in, disabled guards, created a Lifeless squirrel as a distraction and found a secret trapdoor.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "21" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Finding Vivenna unknowingly helping Denth stir up trouble in the city, Vasher kidnapped her and made her hold Nightblood. It sickened her, proving her heart pure, and earning his protection. She fled back to Denth, discovered his treachery and ended up on the streets, where Vasher found her and used Nightblood to kill the thugs threatening her.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher had been failing to persuade T'Telir's Idrians to stop rioting and avoid war. He began bringing Vivenna to their meetings, where she urged them to make their suffering known without spreading hatred and to become heroes to Idris, and the two carried this message to group after group.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher taught Vivenna the theory and practice of Awakening, helped her grip a sword and coached her on how to act. When she shared some of Denth's plans, he tracked down a priest's kidnapped daughter, being used to sway her father toward war, but lost his temper and killed the thugs during the rescue.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "49" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher and Denth had once been friends and fellow members of the Five Scholars, who knew each other as Tax and VaraTreledees, and Vasher married Denth's sister Shashara. After she drew Nightblood at the Battle of Twilight Falls and wanted to spread the secrets of making Lifeless and swords like it, they fought and Vasher killed her with Nightblood, making Denth his enemy.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "At the arena, Vasher and Vivenna learned that Siri was pregnant, and at Vivenna's pleading he agreed to help save her. Breaking into the God King's palace, he was ambushed and captured by Denth's mercenaries, then hung by his wrists in a stone room and tortured by Denth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vivenna recovered Nightblood, freed Vasher and gave him Breath. Thrown from a window mid-duel with Denth, Vasher survived, killed Lifeless with Nightblood and dropped it just before it drained him. Denth, seeking revenge for Shashara and Arsteel, demanded they finish. Vasher won with his secret move, transferring Breath into Denth and killing him in the moment of shock, as he had once killed Arsteel.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "The Pahn Kahl had already sent Hallandren's Lifeless against Idris to weaken both kingdoms. Vasher despaired, but Vivenna discovered who he really was and convinced him to give Susebron control of Kalad's Phantoms. Vasher revealed himself as a Returned and told Susebron how to activate them.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher was born on Nalthis, died and Returned, remembering nothing of his former life. The Five Scholars split and joined different sides in the Manywar; Vasher, then called Kalad, is said to have started it, building a vast Lifeless army that seized Hallandren and drove its royals into the highlands. Over the years he learned to give away all his Breath except the divine Breath that keeps him alive.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "Vasher used Kalad's Phantoms to force Hallandren and the other kingdoms to stop fighting, too late to save Kuth and Huth. People thought him a different man and called him Peacegiver. He left the first God King over fifty thousand Breaths to guard but not use, and left the Phantoms with just enough Breath to hold together.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "bookId": "warbreaker",
+      "text": "With the Lifeless army destroyed and few Phantoms lost, Vasher set off with Vivenna to find Yesteel, who was trying to restore Kuth and Huth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "bookId": "words-of-radiance",
+      "text": "Zahel served as an ardent and swordmaster in the Kholin warcamp. Encouraged by Adolin, his former student, he took Renarin Kholin as a pupil as well.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+    },
+    {
+      "bookId": "words-of-radiance",
+      "text": "Zahel valued Renarin's eagerness, obedience and willingness to look foolish. He offered to teach Kaladin to fight with and against Shards, testing him in a sparring match. Kaladin refused at first, but after the attempt on the king's life he returned with three Bridge Four men, though the ardent Ivis did most of the teaching.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    },
+    {
+      "bookId": "oathbringer",
+      "text": "Zahel trained Kaladin's men to better guard the Kholins and sometimes shouted advice at Adolin's duels. When Dalinar tested the limits of Vorinism, Zahel advised him on how torn the ardents felt between him and their religion, and accepted Dalinar's choices more readily than other ardents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "oathbringer",
+      "text": "During the siege of Kholinar, Highmarshal Azure asked Kaladin and Adolin to warn Zahel that she was looking for him.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+    },
+    {
+      "bookId": "rhythm-of-war",
+      "text": "Kaladin had once trusted Zahel enough to ask his advice about letting King Elhokar be killed. After Kaladin was relieved of duty for battle shock, he sought Zahel out again. Zahel easily beat him using only his clothing, which moved and fought for him, and in talking helped Kaladin see he had to find his own path rather than live by what others wanted.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "wind-and-truth",
+      "text": "Gavilar Kholin had once recruited Zahel as a scholar, treating him as a valued secret possession. Zahel had supplied the sphere of anti-Voidlight that passed to Szeth after he killed the king.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+    },
+    {
+      "bookId": "wind-and-truth",
+      "text": "When Kaladin asked to become a swordmaster among the ardents, Zahel refused, seeing he still loved fighting. Kaladin recognized his style as Azure's and passed on her message; Zahel was unconcerned. Showing Kaladin a fossil, Zahel said he was a Cognitive Shadow like the Heralds and Fused, and that only a soul-unraveling weapon could truly kill the Fused.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "15" },
+            { "book": "wind-and-truth", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "wind-and-truth",
+      "text": "Vasher and Shashara, who had fallen in love and married, worked together to Awaken a sapient metal object with Shashara the more talented Awakener. After long thought they gave it the Command \"destroy evil,\" not realizing it could not know what evil was, and used a thousand Breaths to create Nightblood.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "wind-and-truth", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "wind-and-truth",
+      "text": "During the occupation of Urithiru, Axindweth held Zahel captive, stripped and tortured in an aluminum-lined room so the Sibling would not notice, trying to take his power. When he refused her bargain, she used a painrial on him. Alerted by the Sibling, Lift tripped Axindweth and freed him, and Zahel offered to become her teacher.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+    },
+    {
+      "bookId": "fires-of-december",
+      "text": "In the past, the Five Scholars had learned to enter the Cognitive Realm and travel to other worlds. On Miral, Vasher became known as the Prophet, gathered disciples, pushed for people's legal rights, warned against the Zuhel bond and was said to heal the sick.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    },
+    {
+      "bookId": "fires-of-december",
+      "text": "Before confronting the Megalith, the Prophet reluctantly wrote down three pieces of advice for his followers, the mandata. Using AonDor, Hemalurgy and Awakening, he made a silver spike, the Ever-Slaying Sword, and with a dragon's help drove it into the Megalith's heart, imprisoning a fragment and breaking the rest into demons. He left the king of Mountaincrest passphrases to release it, and left Miral months after arriving.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "xli" }]
+    },
+    {
+      "bookId": "fires-of-december",
+      "text": "Through a vision in the Spiritual Realm while watching the Everstorm, Vasher met December, who told him of Miral's crisis. Moved, he promised to help, but could not leave Roshar. He finally sent a remotely controlled simulacrum of himself, though Miral's people had already solved the problem.",
+      "revealedIn": [{ "book": "fires-of-december", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Vasher is a deep expert in Awakening who easily issues three Commands at once. With three centuries of practice and a Returned's speed and strength, he is a superb swordsman, though he admits his temper keeps him from being the best, and he readily uses cheap tricks such as transferring Breath to stun an opponent.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    },
+    {
+      "text": "Zahel considers Dalinar and his sons his friends. He speaks to Adolin fondly as a student despite their difference in rank, and Adolin often remembers his advice. He enjoys training Renarin for his enthusiasm and willingness to look foolish.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "15" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As a Returned, Vasher can change his appearance at will. In T'Telir he usually appears as a tall man in ragged brown clothes with rope-tied trousers, shoulder-length unkempt hair and scruff. Revealing his Returned form, he becomes taller, muscular and clean-shaven, with golden hair and a color-enhancing aura.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "epilogue" },
+            { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As Zahel on Roshar, Vasher has long chestnut hair, a short scruffy black beard, light skin, a scar on his cheek and old-seeming eyes in an unwrinkled face. He wears loose tan clothing tied with rope and has a low, grinding voice. He is an ardent swordmaster, though a poor ardent, and uses color-based exclamations that baffle Rosharans.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "wind-and-truth", "chapter": "i-9" },
+            { "book": "fires-of-december", "chapter": "xli" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vasher is grumpy and rough, struggles to express himself and lets anger get the better of him. His memory has gaps, and he believes he has changed over the years; with age he seems deeply weary. He can reach the Spiritual Realm while asleep and speak with people Connected to him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "15" },
+            { "book": "fires-of-december", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

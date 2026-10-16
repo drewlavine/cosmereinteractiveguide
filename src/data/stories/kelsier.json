@@ -1,0 +1,195 @@
+{
+  "intro": [
+    {
+      "text": "A thief hired by Yeden, leader of the skaa rebellion, to bring down the Final Empire, who returns to Luthadel to gather a crew.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "text": "A half-skaa Mistborn who leads a crew of thieves in a scheme to topple the Final Empire, while mentoring Vin in Allomancy.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "The leader of the skaa rebellion, killed by the Lord Ruler and afterward revered by the Church of the Survivor as the Lord of the Mists.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Thaidakar, the leader of the Ghostbloods, a secret society opposed by Shallan.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "story": [
+    {
+      "bookId": "final-empire",
+      "text": "Kelsier persuaded the rebel leader Yeden to hire him to overthrow the Final Empire. Visiting Lord Tresting's plantation on the way back, he killed Tresting, his servants and soldiers to save a skaa girl, then burned the manor so the skaa there had to join the rebellion. In Luthadel he reunited with his best friend Dockson.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Kelsier's plan was to raise a hidden skaa army in the Arguois caverns, provoke a house war among the nobility, draw Luthadel's garrison away to the Pits of Hathsin, and seize the city for Yeden in exchange for the Lord Ruler's atium. Each crew member had a role, and Kelsier hoped to kill the Lord Ruler with the Eleventh Metal as a bonus.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Watching Camon's crew on a tip from Marsh, Kelsier saw Vin Soothe an obligator and realized an Inquisitor had noticed her. He lured the Inquisitor away, then saved Vin from Camon, handing the crew to Milev. Confirming she was Mistborn, he invited her to join him, and recruited Breeze, Ham, Clubs, Spook and a reluctant Marsh.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Kelsier and his brother Marsh were born to a noble father and a skaa mother, who hid her status so her sons would pass as illegitimate nobles. When their father discovered the truth, he had her killed, leaving both brothers with a deep hatred of nobles. Kelsier went on to become a famous Luthadel thief.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Kelsier opened the plan by attacking Keep Venture, killing eight Hazekillers and stealing atium. He gave Vin a mistcloak, openly taught her the basic metals, and had her leap the city walls. Seeing she didn't trust him, he gave her money and the chance to leave, and she stayed.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "8" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Over the following months, Kelsier made himself a beacon to the skaa, helped recruit, attacked nobles to inflame the houses, bought and planted information, and kept training Vin. Despite setbacks, the rebellion grew large enough to hold Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    },
+    {
+      "bookId": "final-empire",
+      "text": "Kelsier's relationship with his older brother Marsh was strained: Marsh resented his success with a rebellion Marsh had quit, and disliked how casually he killed nobles. Even so, Marsh infiltrated the Steel Ministry for him, and Kelsier was grieved and furious when they found signs of Marsh's death.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "bookId": "hero-of-ages",
+      "text": "Trying to save skaa prisoners from execution, Kelsier beheaded a Steel Inquisitor with its own axe, but the Lord Ruler struck him down with a spear through the chest. He had meant to use the Eleventh Metal against the Lord Ruler. OreSeur, using his bones, appeared to skaa as a risen Kelsier, giving rise to the Church of the Survivor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "eleventh-metal",
+      "text": "After escaping the Pits of Hathsin, Kelsier was trained in Allomancy by the Mistborn Gemmel, who often threw him into life-or-death situations to force him to learn, and who came to wonder what he had unleashed by teaching him.",
+      "revealedIn": [
+        {
+          "all": [{ "book": "final-empire", "chapter": "27" }, "eleventh-metal"]
+        }
+      ]
+    },
+    {
+      "bookId": "shadows-of-self",
+      "text": "Survivorism endured after the Catacendre, and the Survivor's Statemark, one of its symbols, evoked his death by a spear.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "12" }]
+    },
+    {
+      "bookId": "shadows-of-self",
+      "text": "Marsh gave Wax a book on Hemalurgy, believing he was doing Kelsier's work, and Harmony remarked that Wax's casual manner reminded him of Kelsier. Wax, a descendant of Kelsier's associate Edgard Ladrian, was a Pathian rather than a Survivorist.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "shadows-of-self", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "bands-of-mourning",
+      "text": "Years after the Catacendre, Kelsier, in a body with a spike through his right eye, found the Southern Scadrians dying of cold. He taught them to make unsealed metalminds, ruled them as the Sovereign, and forged the Bands of Mourning before hiding them and vanishing. Wax saw one of his memories through a coppermind medallion.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "After dying, Kelsier met Preservation in the Cognitive Realm and punched him for claiming to be God. Panicked by the pull of the Beyond, he persuaded the Shard to link him to the Well of Ascension, becoming a Cognitive Shadow trapped there with Ruin, whose power terrified him. When Hoid passed through the Well, Kelsier picked a fight and lost.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "2-2" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "Freed when Vin released Ruin, Kelsier wandered Cognitive Luthadel, grieving to learn Dockson had died. Khriss and Nazh questioned him and mentioned the Ire. Seeking their base, he spoke with Ruin, then infiltrated it and, posing as Ruin, stole an orb meant to Connect its user to Preservation.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "5-3" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "Before the Pits, Kelsier ran a hugely successful crew with Dockson and his wife Mare. A failed theft from the Lord Ruler sent him to the Pits, where he watched Mare beaten to death and Snapped, becoming Mistborn and escaping. After his training he killed the Mistborn Shezler and, under Ruin's influence, sought the Eleventh Metal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "hero-of-ages", "chapter": "24" },
+            "eleventh-metal",
+            { "book": "secret-history", "chapter": "6-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "Returning to Scadrial, Kelsier found Preservation weakened and Vin greatly grown, and stayed near her for a while.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-3" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "Kelsier slowly came to respect Preservation, whom he nicknamed Fuzz. Preservation, curious, went along with his schemes while disapproving of how he toyed with people's faith.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "When Leras, the Vessel of Preservation, died, Kelsier used the orb to briefly hold his power, though he could not use it well. Speaking to Spook, he sent a warning he knew Marsh would intercept, giving Marsh the means to tear out Vin's earring. He then surrendered the power to her. After she and Elend died, he spoke with them before they passed into the Beyond.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-8" }]
+    },
+    {
+      "bookId": "secret-history",
+      "text": "After Harmony's Ascension, Kelsier asked Sazed and Spook to help him return to the Physical Realm. Sazed lied that it was impossible, and Kelsier saw through it; he remained unable to leave Scadrial through Shadesmar.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "epilogue" }]
+    },
+    {
+      "bookId": "lost-metal",
+      "text": "Kelsier had the Ghostbloods on Scadrial resist Trell from a safehouse in Bilming. Learning the Set planned to bomb Elendel, he sent Moonlight, TwinSoul and Marasi to stop it and had agents help Steris evacuate the city. Afterward he urged Harmony to lead Scadrial into a new age of technology and Metalborn.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "19" },
+            { "book": "secret-history", "chapter": "6-4" },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "bookId": "wind-and-truth",
+      "text": "Thaidakar spoke with Shallan after she revealed she had killed Iyatil and Mraize. He agreed to a reluctant truce, warning that other Ghostbloods might be less understanding, and said he was losing interest in Roshar since harvesting Stormlight was no longer possible. Their brief talk lasted hours for him.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kelsier is tall and hawk-faced, with light-blonde hair, hazel eyes and arms covered in scars from the Pits of Hathsin. He dresses as a nobleman, wears a mistcloak at night, and goes barefoot on missions.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "text": "Stern and intense, Kelsier smiles constantly as an act of defiance against the Lord Ruler. His hatred of injustice is so extreme he sees no good in any noble. He keeps his late wife Mare's drawing of a flower to inspire his crew.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "A Mistborn, Kelsier is especially skilled with iron and steel, controlling dozens of metal pieces at once, and can pewter drag for hours. His emotional Allomancy is forceful rather than subtle, though it can sway large crowds.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
+    {
+      "text": "Kelsier is nearly always late, a natural, charismatic leader, and loves heights. His hatred of nobles softened only partly through Vin's faith in Elend. After death he liked heights even more, and he lost his Allomancy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ]
+    }
+  ]
+}

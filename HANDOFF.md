@@ -9,7 +9,7 @@
   CharacterList.tsx (filters/sort), index.css (layout + .app grid minmax phone overflow fix).
 - Backup: Copilot session files/ (cig-char-data-backup.tgz for the pipeline).
 - Pipeline ~/cig-char-data: story_src.py, story_check.py (incl. HINDSIGHT warnings),
-  emit_story.py, STORY_GUIDE.md, story/*.json (34 done).
+  emit_story.py (writes src/data/stories/<id>.json), STORY_GUIDE.md, story/*.json (34 done).
 - Screenshots (session files/): v_kal_story.png, v_kal_pers.png, v_zahel.png, v_list.png, v_m375b.png.
 
 ## Waiting on user
@@ -18,7 +18,7 @@
 2. Flashbacks: keep reading order or label/group?
 3. Collapse Key facts box on phones?
 4. Multi-book appearance/personality items appear late — OK?
-5. Lazy-load story text before scaling (bundle 1.5 MB).
+5. (Done: stories load on demand from src/data/stories/<id>.json; bundle 1.5 MB → 1.0 MB.)
 
 ## After that
 

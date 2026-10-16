@@ -1,10 +1,11 @@
 import { cleanup, render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
-import { describe, expect, it } from 'vitest'
+import { beforeAll, describe, expect, it } from 'vitest'
 import { books } from './data/books'
 import { characters } from './data/characters'
 import { characterDetails } from './data/characterDetails'
+import { loadStory, storyIds } from './data/characterStories'
 import { personas } from './data/reveal'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
@@ -29,7 +30,19 @@ const allBooks = books.map((b) => b.id)
 const characterLinks = () =>
   document.querySelectorAll('.character-group a[href^="/characters/"]')
 
+describe('character stories', () => {
+  // Runs before the stories below are preloaded.
+  it('loads a story when its page opens, keeping the tab asked for', async () => {
+    renderAt('/characters/kaladin/personality', ['way-of-kings'])
+    expect(
+      await screen.findByRole('region', { name: 'Personality' }),
+    ).toHaveTextContent(/surgeon/)
+  })
+})
+
 describe('characters pages', () => {
+  beforeAll(() => Promise.all(storyIds.map(loadStory)))
+
   it('lists every character, grouped by letter', () => {
     renderAt('/characters', allBooks)
     const list = screen.getByRole('article', { name: 'Characters' })

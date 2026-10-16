@@ -1,10 +1,11 @@
-import type { ReactNode } from 'react'
+import { useEffect, useState, type ReactNode } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
 import { characterDetails } from '../data/characterDetails'
+import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { chapterLabel } from '../data/progress'
 import {
   findPersona,
@@ -39,6 +40,21 @@ const relationLabel = (relation: string) =>
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
 
+/** A character's story, loaded on demand; `loading` until it arrives. */
+function useStory(id: string | undefined) {
+  const [, setLoaded] = useState<string>()
+  const story = id ? cachedStory(id) : undefined
+  useEffect(() => {
+    let live = true
+    if (id && !cachedStory(id))
+      void loadStory(id).then(() => live && setLoaded(id))
+    return () => {
+      live = false
+    }
+  }, [id])
+  return { story, loading: !!id && hasStory(id) && !story }
+}
+
 export function CharacterDetail() {
   const { characterId, tab } = useParams()
   const character = findPerson(characterId)
@@ -46,6 +62,7 @@ export function CharacterDetail() {
   const { viewAnyway } = useBooksRead()
   const canSee = useCanSee()
   const systems = useShownSystems()
+  const prose = useStory(persona?.characterId ?? character?.id)
 
   if (!character) return <NotFound />
   // Once the reader can tell who a persona is, it's the character's page.
@@ -72,7 +89,17 @@ export function CharacterDetail() {
       </section>
     )
 
-  const story = revealStory(character.id, canSee, viewAnyway.has(scope))
+  // Brief, as each story is a small local file; waiting avoids the tabs
+  // jumping, and an existing tab being taken for an unknown one.
+  if (prose.loading)
+    return <article className="character-detail" aria-busy="true" />
+
+  const story = revealStory(
+    character.id,
+    prose.story,
+    canSee,
+    viewAnyway.has(scope),
+  )
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
   )

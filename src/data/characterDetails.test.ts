@@ -3,14 +3,21 @@ import { books } from './books'
 import { chapters } from './chapters'
 import { findCharacter } from './characters'
 import { characterDetails } from './characterDetails'
-import { characterStories } from './characterStories'
 import { personas } from './reveal'
 import { systems } from './systems'
-import type { Reveal } from './types'
+import type { CharacterStory, Reveal } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
 const planetIds = new Set(systems.flatMap((s) => s.planets.map((p) => p.id)))
 const entries = Object.entries(characterDetails)
+const characterStories = Object.fromEntries(
+  Object.entries(
+    import.meta.glob<CharacterStory>('./stories/*.json', {
+      eager: true,
+      import: 'default',
+    }),
+  ).map(([f, s]) => [f.slice('./stories/'.length, -'.json'.length), s]),
+)
 
 const expectValidReveal = (reveal: Reveal, where: string) => {
   expect(reveal.length, where).toBeGreaterThan(0)
