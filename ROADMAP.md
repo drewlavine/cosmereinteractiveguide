@@ -383,6 +383,10 @@ Category:Cosmere; check anything unclear by hand.
         already know the nickname), Kelsier as Thaidakar (Wind and Truth),
         Hoid as Wit (The Stormlight Archive, The Sunlit Man). The header
         names only series the reader has reached
+  - [x] Sigzil, with **Nomad** as his persona in The Sunlit Man: details,
+        History, art and Travels. A Sunlit Man-only reader may never have met
+        Sigzil, so the identity needs both series. A standalone book is named
+        by its title in the header ("Known as Nomad in The Sunlit Man")
   - [x] Unnamed cameos (e.g. Hoid as a beggar or coachman in Mistborn) count
         only once the reader has met the character by name in another book
         and reached the cameo
@@ -417,7 +421,9 @@ Category:Cosmere; check anything unclear by hand.
         (its old URL opens the first tab). Distant relatives and ancestors
         are left to the Coppermind
   - [x] Personality tab split under **Appearance** and **Personality**
-        headings (styled like History's); items that mixed both were split
+        headings (styled like History's); items that mixed both were split.
+        The tab is now called **Description** (`/description`)
+  - [x] Key facts collapse behind a "Key facts" toggle on phones
   - [ ] Story/History and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)
@@ -458,6 +464,8 @@ Category:Cosmere; check anything unclear by hand.
         time; a card under the map lists that stay's events, cited like
         History, with a link to History. Unread stops and legs are hidden
         entirely. Not on persona pages (it would give Zahel away)
+  - [x] Sigzil (five stops; Stormlight-only readers see no Travels tab
+        until they know he's Nomad)
   - [ ] Iterate on the map after review (ideas: passport stamps per world,
         a Shadesmar crossing for Cognitive-Realm trips, comparing two
         travellers)
@@ -476,8 +484,19 @@ Category:Cosmere; check anything unclear by hand.
         has), so, as with Vasher/Zahel, a stop's `needs` holds it back until
         the reader has met him on both worlds, and the card notes it's Word
         of Brandon
-  - [ ] Roll out to the other world hoppers in the pilot (Hoid, Vivenna,
-        Kelsier, Marsh, Tress, Nikaro, Yumi, Sazed?), then the rest
+  - [x] Roll out to the other world hoppers in the pilot: **Vivenna**
+        (Nalthis → Roshar as Azure, once she can be recognized) and
+        **Hoid** (Ashyn, Roshar, Taldain, Sel, Scadrial, Nalthis, Threnody,
+        Roshar, Scadrial, Miral, Lumar, Komashi), in his Coppermind History's
+        order, each event dated like its History paragraph. Left out: Yolen
+        (not in the books), Canticle (only an illusion), the Dynamic (no
+        world, order unknown). Kelsier, Marsh, Sazed, Tress, Nikaro and Yumi
+        stay on one world in the books, so they get no Travels
+  - [x] Worlds that would overlap on the map (Ashyn and Roshar) are set
+        side by side
+  - [x] The map opens on the first stop (in-world order), with the rest of
+        the route drawn faintly ahead, ready to play
+  - [ ] The rest of the world hoppers (Khriss, Nazh, ...) as they're added
 
 ## Completed
 

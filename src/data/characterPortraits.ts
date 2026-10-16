@@ -1042,4 +1042,56 @@ export const characterPortraits: Record<string, Portrait[]> = {
       revealedIn: [{ book: 'oathbringer', chapter: '114' }],
     },
   ],
+  sigzil: [
+    {
+      // Kholin blue uniform: Bridge Four joins Dalinar's army late in WoK.
+      src: '/portraits/sigzil-bridgeman.webp',
+      alt: 'Sigzil, with a forehead tattoo, in a blue uniform',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: ['way-of-kings'],
+    },
+    {
+      // Uniform with a shoulder patch, taking notes; dated late to be safe.
+      src: '/portraits/sigzil-clerk.webp',
+      alt: 'Sigzil in a blue coat with a shoulder patch, writing in a notebook',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: ['oathbringer'],
+    },
+    {
+      // Windrunner glyph on the patch: he speaks the Ideal in Dawnshard / RoW.
+      src: '/portraits/sigzil-windrunner.webp',
+      alt: 'Sigzil in a blue coat with a glyph patch, holding a book',
+      artist: 'paintweaver',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Paintweaver',
+      revealedIn: [
+        { book: 'dawnshard', chapter: 'epilogue' },
+        { book: 'rhythm-of-war', chapter: '10' },
+      ],
+    },
+    {
+      // As Nomad, once the reader knows who Nomad is.
+      src: '/portraits/nomad-pin.webp',
+      alt: 'Nomad in a red coat, raising a jagged sword',
+      artist: 'Sandara Tang',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Sandara',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'sunlit-man', chapter: '39' }] },
+      ],
+    },
+  ],
+  // His persona page, for readers who don't yet know who he is: nothing
+  // here may hint at Sigzil or his home world.
+  nomad: [
+    {
+      // He fights with a Shardblade from SLM ch 3.
+      src: '/portraits/nomad-pin.webp',
+      alt: 'Nomad in a red coat, raising a jagged sword',
+      artist: 'Sandara Tang',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Sandara',
+      revealedIn: [{ book: 'sunlit-man', chapter: '3' }],
+    },
+  ],
 }

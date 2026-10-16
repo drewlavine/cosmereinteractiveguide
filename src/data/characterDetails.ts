@@ -3812,4 +3812,142 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
   },
+  sigzil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Nomad',
+        revealedIn: [
+          { all: ['way-of-kings', { book: 'sunlit-man', chapter: '39' }] },
+        ],
+      },
+      { name: 'Zellion', revealedIn: [{ book: 'sunlit-man', chapter: '39' }] },
+      { name: 'Sunlit', revealedIn: [{ book: 'sunlit-man', chapter: '39' }] },
+      { name: 'Sig', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Sunlit Man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '11' }],
+      },
+      {
+        name: 'Sess Nassith Tor',
+        revealedIn: [{ book: 'sunlit-man', chapter: '47' }],
+      },
+      {
+        name: 'Scholar with a Spear',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '81' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'way-of-kings', chapter: '14' },
+          { book: 'sunlit-man', chapter: '1' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [
+          { book: 'dawnshard', chapter: 'epilogue' },
+          { book: 'rhythm-of-war', chapter: '10' },
+        ],
+      },
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'sunlit-man', chapter: '28' }],
+      },
+      {
+        name: 'Dawnshard',
+        revealedIn: [
+          { book: 'sunlit-man', chapter: '11' },
+          { book: 'wind-and-truth', chapter: '146' },
+        ],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [
+          { book: 'rhythm-of-war', chapter: '111' },
+          { book: 'sunlit-man', chapter: '3' },
+        ],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'sunlit-man', chapter: '1' }],
+      },
+    ],
+    nationality: [{ name: 'Azish', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Worldsingers',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      { name: 'Kholin army', revealedIn: ['way-of-kings'] },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        name: 'Knights Radiant',
+        revealedIn: [
+          { book: 'dawnshard', chapter: 'epilogue' },
+          { book: 'rhythm-of-war', chapter: '10' },
+        ],
+      },
+    ],
+    bonds: [
+      { name: 'Auxiliary', revealedIn: [{ book: 'sunlit-man', chapter: '1' }] },
+      {
+        name: 'Vienta',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '118' }],
+      },
+    ],
+    relatives: [],
+    personas: [
+      {
+        id: 'nomad',
+        name: 'Nomad',
+        coppermindPage: 'Nomad',
+        books: ['sunlit-man'],
+        identityRevealedIn: [
+          { all: ['way-of-kings', { book: 'sunlit-man', chapter: '39' }] },
+        ],
+      },
+    ],
+  },
 }

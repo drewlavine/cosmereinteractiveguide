@@ -1,0 +1,544 @@
+{
+  "intro": [
+    {
+      "text": "A quiet bridgeman of Bridge Four who at first scorns Kaladin's efforts to help the crew.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    },
+    {
+      "text": "A Worldsinger and former bridgeman, now a lieutenant and the clerk of Bridge Four in Dalinar Kholin's army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Worldsinger from Azir and member of Bridge Four, promoted to companylord to lead the Windrunners in Kaladin's place.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nomad, a wanderer who Skips from world to world, arriving on the sun-scorched planet Canticle with almost no Investiture left.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+    },
+    {
+      "text": "Nomad, a wanderer who has spent decades Skipping from world to world to escape the Night Brigade.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+    },
+    {
+      "text": "A Worldsinger from Azir who once led Bridge Four's Windrunners, then became a Dawnshard, fled Roshar and now wanders between worlds as Nomad, hunted by the Night Brigade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "34" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Worldsinger from Azir and companylord of the Windrunners, put in charge of defending Narak on the Shattered Plains.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "wind-and-truth", "chapter": "78" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Worldsinger from Azir and former Windrunner who renounced his oaths to save his spren, then took Wit's Dawnshard and fled into Shadesmar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Worldsinger from Azir who renounced his Windrunner oaths, took Wit's Dawnshard and has since wandered between worlds as Nomad, hunted by the Night Brigade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "sunlit-man", "chapter": "34" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Worldsinger's apprentice",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "way-of-kings", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The son of a laborer, Sigzil was the first in his family in generations with a chance at Azir's governmental service tests, but he had little time to study. Before the tests he got into trouble and was rescued by Hoid, who took him on as an apprentice Worldsinger.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+        },
+        {
+          "text": "Sigzil travelled to many places with his master. In Babatharnam he was thrown in prison three times, and each time his master had to pay to free him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "way-of-kings", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a bridgeman, Sigzil was at first one of the loudest critics of Kaladin's efforts to rebuild Bridge Four, and he walked off when Rock mentioned he was a Worldsinger. Over time he warmed up, telling stories of far-off places such as Marabethia, Yulay, Babatharnam and Shinovar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "Watching a battle with Kaladin and Rock, he analyzed the tactics that put bridgemen in danger, and that evening he and Kaladin talked about their schooling. In the chasms he added to Teft's account of the First Ideal of the Lost Radiants, and he backed Kaladin's plan to train the men with spears.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        },
+        {
+          "text": "When Kaladin wondered whether he'd rather rule Alethkar in place of the lighteyes, Sigzil used Babatharnam to argue that the trouble was not eye color but people abusing power, then stalked off when Rock said he sounded like a Worldsinger.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "On chasm duty he reluctantly played the Worldsinger, confirming that the place Kaladin had seen in a highstorm vision, Sesemalex Dar, was real. He also told Kaladin how deeply the Parshendi revere their dead.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "A wandering storyteller with a flute told Kaladin to take care of Sigzil and to tell him he had graduated and was now a full Worldsinger. When Kaladin asked about his master, Sigzil refused to discuss him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "At the Tower, when Kaladin told the crew to flee without him, Sigzil was the first to refuse. Awed by Kaladin's fighting, he talked him into showing how he drew in Stormlight that evening in Dalinar Kholin's warcamp, and began devising experiments to measure his powers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lieutenant and clerk",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Bridge Four now in Dalinar's army, Kaladin made Sigzil a lieutenant and the crew's clerk, as the only one who could read glyphs. Like the others, he had glyphs tattooed on his forehead over his slave brand.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        },
+        {
+          "text": "He finally tried his experiments on Kaladin's abilities when they took the first forty new bridgemen into the chasms to train, but with too many variables they switched to sparring against Kaladin instead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        },
+        {
+          "text": "Sigzil sent Kaladin regular reports on troops and supplies and planned patrol routes beyond the warcamps. Meeting Kaladin in the chasms, he used his master's training to ask pointed questions about who controlled a Shin assassin and who sabotaged Elhokar's railing.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+        },
+        {
+          "text": "On a night out at the market with Kaladin, Lopen and others, he listened to the criers' news and raised the question of housing for married bridgemen. When Rock told of meeting a white-haired god, Sigzil recognized his former master.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "He guarded the Kholins at Adolin's duel and took shifts awaiting Kaladin's return from the chasms. With Teft he played michim, listening so quietly that Teft opened up about his past, which Sigzil kept to himself. He then joined Dalinar's expedition onto the Shattered Plains.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "rhythm-of-war", "chapter": "91" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the Battle of Narak, Sigzil was among the bridgemen who began to use Stormlight. Afterward he walked Kaladin through using Syl as a Shardblade to activate the Oathgate, taking them to Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scouting Urithiru, Sigzil's group found Torol Sadeas's body. He brought Kaladin the crew's problems, from needing a real scribe to their place in the army, and told Hoid's story of Mishim. When Kaladin said he was glad Sigzil had failed the exams, Sigzil found he felt the same, and it freed him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+        },
+        {
+          "text": "Kaladin put Sigzil in charge of three squads of recruits learning to draw in Stormlight. He organized experiments on the Surge of Gravitation and how far from Kaladin their powers lasted, practiced flying with the crew, and admitted to Rock that he felt he didn't fit in.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        },
+        {
+          "text": "While Kaladin was away, Dalinar lent Bridge Four Jezrien's Honorblade to practice with, and Sigzil drew up a daily rotation for it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen Field",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sigzil went with Dalinar to Thaylen City. After the Honorblade was stolen, Bridge Four came through the Oathgate into the Battle of Thaylen Field and held the platform to the end, then flew the wounded up to it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A year of scouting",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "11" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the next year Sigzil bonded a spren of his own and became a Windrunner of the Third Ideal. His experiments with Kaladin showed Reverse Lashings need the user to picture the result. Scouting Akinah with Lyn and Leyten, he helped rescue Leyten from shadows in the clouds that drained his Stormlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "11" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the evacuation of Hearthstone he fought Leshwi, who stabbed him through the chest but spared his life. Kaladin told him to drop his spear, bow to her and withdraw to watch over the squires.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Companylord",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "50" },
+            { "book": "rhythm-of-war", "chapter": "98" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar relieved Kaladin of duty, Sigzil was promoted to companylord of the Windrunners. The coalition took time to accept him. He pledged the Windrunners to the Emul offensive and urged an envoy to the honorspren, but would not go himself, saying they would not welcome a Windrunner.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "In Emul he led flyers to drive Skybreakers off one of the coalition's flying platforms. When word from Urithiru stopped, Dalinar had him send scouts, then a secret team to spy on the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        },
+        {
+          "text": "Sigzil told stories at the Windrunners' nightly stew when Dalinar visited, and took a team including the Lightweaver Stargyle to scout the Herald Ishar's camp, whose illusion showed Dalinar what they saw.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+        },
+        {
+          "text": "Sigzil and four other Windrunners flew with Dalinar and Szeth to Tukar. When Ishar attacked Dalinar, Sigzil turned aside the blow and fought him with the others, but Ishar drained their Stormlight into the ground and left them helpless. Afterward, Stormlight did little to ease his pain.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "After Ishar fled, the Windrunners searched his tent, where Sigzil found a ledger recording how long spren had lived in bodies the Herald made for them. Appalled, they flew back to camp.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending Narak",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "78" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sigzil spotted Fused heading for the Shattered Plains, Dalinar put him in charge of defending Narak until the contest with Odium. With his spren and the Mink he planned to give up two plateaus to hold the key ones, and used an illusion of gemstones to draw the enemy, though his Radiants suffered heavy losses.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "78" }]
+        },
+        {
+          "text": "He watched helplessly as Moash killed Leyten and his spren. With Stormlight nearly gone, he was about to retreat when Venli arrived with listeners and defecting Heavenly Ones; together they wrote a treaty and a plan to drive the Fused from the Plains.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        },
+        {
+          "text": "The plan worked, but Moash brought Sigzil down with anti-Stormlight, breaking his bones, and cornered Vienta. Before Moash could kill her, Sigzil renounced his oaths, leaving her a deadeye but alive.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wit's Dawnshard",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "147" },
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Recovering in Urithiru, Sigzil was told by Wit to take his Dawnshard before Retribution could claim it. The transfer, of the Intent Exist, sent him into Shadesmar as Retribution destroyed Wit's body. With the Oathgates dead he wandered Shadesmar until a family on the Iriali caravan took him in, where he met the highspren 12124.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Sigzil and 12124 bonded, making him a Skybreaker; the spren took the name Auxiliary, and they swore up to the Fourth Ideal together.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "20" },
+            { "book": "sunlit-man", "chapter": "21" },
+            { "book": "sunlit-man", "chapter": "34" },
+            { "book": "sunlit-man", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once, in a moment of need, the Dawnshard Nomad carried reached for Investiture to protect him and found it in his spren Auxiliary, burning him away. Nomad stopped it just before Auxiliary was gone, leaving the spren only his mind.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+        },
+        {
+          "text": "In time Nomad gave the Dawnshard to someone else, and he does not know who holds it now.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "21" }]
+        },
+        {
+          "text": "Though he no longer held the Dawnshard, the Night Brigade hunted Nomad for decades, meaning to make a Hemalurgic spike of him to track it down. On the run he visited tens of worlds, including Ashyn and Threnody.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+        },
+        {
+          "text": "On one stop, a cavern world, Nomad stole a set of ragged clothes before Skipping on.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "1" },
+            { "book": "sunlit-man", "chapter": "2" },
+            { "book": "sunlit-man", "chapter": "3" },
+            { "book": "sunlit-man", "chapter": "4" },
+            { "book": "sunlit-man", "chapter": "10" },
+            { "book": "sunlit-man", "chapter": "44" },
+            { "book": "sunlit-man", "chapter": "45" },
+            { "book": "sunlit-man", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nomad Skipped to Canticle with only fifteen hundred BEUs left, too little to Connect to the planet, and woke in the mud among prisoners, unable to understand anyone.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+        },
+        {
+          "text": "Officials chained him with the prisoners to die in the sunrise. His Torment kept him from striking them and two Charred overpowered him, but he broke the chain with Auxiliary as a crowbar and hooked onto a hoverbike, which pulled him away as the sunlight set his skin aflame.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+        },
+        {
+          "text": "In the city of Union the Cinder King questioned him, grew angry when Nomad couldn't understand, and recoiled when touching him did nothing. Guards dragged Nomad away.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "2" }]
+        },
+        {
+          "text": "Fitted with golden bracers, Nomad was thrown into an arena with prisoners and Charred. He defended himself with his Shardblade as a crowbar and tricked his Torment to pin a Charred, but when he boasted to the Cinder King the bracers shocked him unconscious.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "3" }]
+        },
+        {
+          "text": "He woke manacled to the outside of a ship and watched the Cinder King shrivel a man with a touch and turn a woman into a Charred.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+        },
+        {
+          "text": "On Beacon, Hoid appeared to Nomad and apologized for what he had done to him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        },
+        {
+          "text": "Claiming asylum under the Silverlight Codes, Nomad made the Scadrians' research facility let him in with Confidence, Contemplation and Rebeke. He found they were TimeTellers selling the Cinder King technology for sunhearts, and they didn't care that he was a tyrant.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "The Beaconites left in despair. Watching the Cinder King's forces round them up, Nomad hated himself as a man who runs away and spoke his Radiant oaths again, to no effect.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "When a scientist showed him an overcharged sunheart, Nomad worked out how sunhearts are recharged and learned the Scadrians kept it secret. He grabbed the sunheart; realizing he was the man the Night Brigade wanted, they tried to stop him, but he threatened them with Auxiliary as a Shardblade and ran for the Beaconites.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "Too slow to reach them before dawn, Nomad flew when Auxiliary burned himself away to fuel him. Shardplate formed around Nomad as he flew with the sunrise, trailing flames in the shape of the Skybreaker glyph.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Leaving Canticle",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Cinder King's overthrow, Nomad Skipped on and found himself on UTol.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like the rest of Bridge Four, he has a glyph tattoo on his forehead over his old slave brand.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+    },
+    {
+      "text": "Sigzil is clean-shaven, with dark brown skin and thick, curly black hair. Short by Azish standards, he seems very tall to people of other worlds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "sunlit-man", "chapter": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Because of his Investiture, Nomad's appearance always resets to how it was when he took up the Dawnshard; when his hair burned away on reaching Canticle, it quickly grew back.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+    },
+    {
+      "text": "Nomad's spren gives him a Shardblade and Shardplate. Since Canticle's sun touched it, his Plate burns with red-orange light and trails smoke.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sigzil is usually quiet and close-mouthed, but as a Worldsinger he talks freely and knows a great deal about many cultures. He likes deep one-on-one conversations, speaks formally and can be judgmental about disorder, though following his master's teaching he tries to be open-minded.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Organized and studious, he still thinks less of himself for failing Azir's service exams, and he wants a clear chain of command between himself and whoever he serves.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+    },
+    {
+      "text": "He isn't content to be only a clerk and wants to be first into the sky. He is encouraging and optimistic with his friends.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "79" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A life of running has made Nomad harsher and more brash, though he believes he is at heart the same person he always was.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "text": "Nomad has lost much of his faith, though he still believes in a God Beyond and part of him wants to keep believing in the god of his youth.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "47" }]
+    }
+  ]
+}

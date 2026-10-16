@@ -92,6 +92,23 @@ describe('search', () => {
     expect(keys(both, 'zahel')).not.toContain('character:zahel')
   })
 
+  it('finds Nomad as himself until the reader can tell he is Sigzil', () => {
+    const sunlit = reader('sunlit-man')
+    expect(keys(sunlit, 'nomad')[0]).toBe('character:nomad')
+    // Typing his real name finds only an unmet character, not Nomad.
+    const [unmet] = sunlit.search('sigzil').groups[0].hits
+    expect(unmet.key).toBe('character:sigzil')
+    expect(unmet.subtitle).toBe('Character · not met yet')
+    expect(keys(sunlit, 'sigzil')).not.toContain('character:nomad')
+    expect(keys(reader('way-of-kings'), 'nomad')).not.toContain(
+      'character:sigzil',
+    )
+    const both = reader('way-of-kings', 'sunlit-man')
+    expect(keys(both, 'nomad')[0]).toBe('character:sigzil')
+    expect(both.search('nomad').groups[0].hits[0].title).toBe('Sigzil (Nomad)')
+    expect(keys(both, 'nomad')).not.toContain('character:nomad')
+  })
+
   it('only looks up entries the reader may see', () => {
     expect(reader().get('planet:sel')).toBeUndefined()
     expect(reader('elantris').get('planet:sel')?.title).toBe('Sel')

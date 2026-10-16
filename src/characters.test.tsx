@@ -40,9 +40,9 @@ const characterLinks = () =>
 describe('character stories', () => {
   // Runs before the stories below are preloaded.
   it('loads a story when its page opens, keeping the tab asked for', async () => {
-    renderAt('/characters/kaladin/personality', ['way-of-kings'])
+    renderAt('/characters/kaladin/description', ['way-of-kings'])
     expect(
-      await screen.findByRole('region', { name: 'Personality' }),
+      await screen.findByRole('region', { name: 'Description' }),
     ).toHaveTextContent(/surgeon/)
   })
 })
@@ -108,7 +108,7 @@ describe('characters pages', () => {
         .map((l) => [l.textContent, l.getAttribute('href')]),
     ).toEqual([
       ['History', '/characters/kaladin'],
-      ['Personality', '/characters/kaladin/personality'],
+      ['Description', '/characters/kaladin/description'],
       ['Appearances', '/characters/kaladin/appearances'],
     ])
     expect(within(tabs).getByRole('link', { name: 'History' })).toHaveAttribute(
@@ -166,9 +166,20 @@ describe('characters pages', () => {
     expect(screen.getByRole('region', { name: 'History' })).toBeInTheDocument()
   })
 
-  it('splits Personality into Appearance and Personality', () => {
-    renderAt('/characters/kaladin/personality', allBooks)
-    const panel = screen.getByRole('region', { name: 'Personality' })
+  it('lets phones collapse the key facts', async () => {
+    renderAt('/characters/kaladin', allBooks)
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    const toggle = within(facts).getByRole('button', { name: 'Key facts' })
+    expect(toggle).toHaveAttribute('aria-expanded', 'false')
+    expect(facts).toHaveClass('collapsed')
+    await userEvent.click(toggle)
+    expect(toggle).toHaveAttribute('aria-expanded', 'true')
+    expect(facts).not.toHaveClass('collapsed')
+  })
+
+  it('splits Description into Appearance and Personality', () => {
+    renderAt('/characters/kaladin/description', allBooks)
+    const panel = screen.getByRole('region', { name: 'Description' })
     expect(
       within(panel)
         .getAllByRole('heading')
@@ -255,6 +266,68 @@ describe('characters pages', () => {
     both('/characters')
     expect(screen.getByRole('link', { name: 'Vasher' })).toBeInTheDocument()
     expect(screen.queryByRole('link', { name: 'Zahel' })).toBeNull()
+  })
+
+  it('keeps Nomad apart from Sigzil until the reader has read both', async () => {
+    // The Sunlit Man only: Nomad, with nothing from Stormlight.
+    const sunlit = (to: string) => renderAt(to, ['sunlit-man'])
+    sunlit('/characters/nomad')
+    expect(screen.getByRole('heading', { name: 'Nomad' })).toBeInTheDocument()
+    const page = () => screen.getByRole('article').textContent
+    for (const spoiler of [
+      /Sigzil/,
+      /Roshar/,
+      /Azi[rs]h?/,
+      /Bridge Four/,
+      /Windrunner/,
+      /Worldsinger/,
+      /Kaladin/,
+      /Vienta/,
+      /Stormlight Archive/,
+      /Shadesmar/,
+    ])
+      expect(page()).not.toMatch(spoiler)
+    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.getByRole('img', { name: /Nomad/ })).toHaveAttribute(
+      'src',
+      expect.not.stringMatching(/sigzil/),
+    )
+    await userEvent.click(screen.getByRole('link', { name: 'Appearances' }))
+    expect(page()).not.toMatch(/Way of Kings|Radiance|Oathbringer|Rhythm/)
+    cleanup()
+    sunlit('/characters')
+    expect(screen.getByRole('link', { name: 'Nomad' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Sigzil' })).toBeNull()
+    cleanup()
+
+    // Stormlight only: Sigzil, with nothing from The Sunlit Man.
+    renderAt('/characters/sigzil', [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+      'rhythm-of-war',
+      'wind-and-truth',
+    ])
+    expect(screen.getByRole('heading', { name: 'Sigzil' })).toBeInTheDocument()
+    expect(screen.getByText(/Worldsinger/)).toBeInTheDocument()
+    for (const spoiler of [/Nomad/, /Zellion/, /Canticle/, /Cinder King/])
+      expect(page()).not.toMatch(spoiler)
+    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    cleanup()
+
+    // Both: one page, Sigzil's, with Nomad as another name.
+    renderAt('/characters/nomad', ['way-of-kings'], { 'sunlit-man': '39' })
+    expect(
+      await screen.findByRole('heading', { name: 'Sigzil' }),
+    ).toBeInTheDocument()
+    expect(document.querySelector('.character-persona')).toHaveTextContent(
+      'Known as Nomad in The Sunlit Man',
+    )
+    cleanup()
+    // Short of the chapter that tells who he is, they stay apart.
+    renderAt('/characters/nomad', ['way-of-kings'], { 'sunlit-man': '38' })
+    expect(screen.getByRole('heading', { name: 'Nomad' })).toBeInTheDocument()
+    expect(page()).not.toMatch(/Sigzil|Roshar/)
   })
 
   it('leaves family out of the key facts until a tie is revealed', () => {
@@ -568,7 +641,9 @@ describe('character portraits', () => {
 })
 
 describe('character travels', () => {
-  beforeAll(() => Promise.all([loadStory('vasher'), loadStory('felt')]))
+  beforeAll(() =>
+    Promise.all(['vasher', 'felt', 'vivenna', 'hoid'].map(loadStory)),
+  )
   const worlds = () =>
     [...document.querySelectorAll('.travel-steps button')].map(
       (b) => b.textContent,
@@ -588,6 +663,7 @@ describe('character travels', () => {
       'words-of-radiance': '16',
     })
     expect(worlds()).toEqual(['Nalthis', 'Nalthis', 'Roshar'])
+    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
     expect(card()).toHaveTextContent('Zahel')
     expect(card()).not.toHaveTextContent(/Gavilar|Lift freed/)
   })
@@ -595,7 +671,8 @@ describe('character travels', () => {
   it('steps through the journey and flags a stay the books leave undated', () => {
     renderAt('/characters/vasher/travels', ['warbreaker', 'fires-of-december'])
     expect(worlds()).toEqual(['Nalthis', 'Miral', 'Nalthis', 'Roshar'])
-    expect(card()).toHaveTextContent('Stop 4 of 4')
+    // The journey starts at the first stop.
+    expect(card()).toHaveTextContent('Stop 1 of 4')
     fireEvent.click(screen.getByRole('button', { name: 'Miral' }))
     expect(card()).toHaveTextContent('Stop 2 of 4')
     expect(screen.getByText('Timing uncertain')).toBeInTheDocument()
@@ -614,8 +691,35 @@ describe('character travels', () => {
       oathbringer: '114',
     })
     expect(worlds()).toEqual(['Scadrial', 'Roshar'])
+    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
     expect(card()).toHaveTextContent('Nightwatcher')
     expect(screen.getByText('Word of Brandon')).toBeInTheDocument()
+  })
+
+  it('adds Sigzil’s worlds beyond Roshar only once he’s known as Nomad', () => {
+    const stormlight = [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+      'rhythm-of-war',
+      'wind-and-truth',
+    ]
+    renderAt('/characters/sigzil/travels', stormlight)
+    expect(document.querySelector('.travel-map')).toBeNull()
+    cleanup()
+    renderAt('/characters/sigzil/travels', [...stormlight, 'sunlit-man'])
+    expect(worlds()).toEqual([
+      'Roshar',
+      'Ashyn',
+      'Threnody',
+      'Canticle',
+      'UTol',
+    ])
+    fireEvent.click(screen.getByRole('button', { name: 'Ashyn' }))
+    expect(screen.getByText('Timing uncertain')).toBeInTheDocument()
+    cleanup()
+    renderAt('/characters/nomad/travels', ['sunlit-man'])
+    expect(document.querySelector('.travel-map')).toBeNull()
   })
 
   it("gives a persona's page no travels", () => {
@@ -624,5 +728,33 @@ describe('character travels', () => {
     })
     expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
     expect(document.querySelector('.travel-map')).toBeNull()
+  })
+
+  it('adds Azure’s Roshar to Vivenna’s travels once she can be recognized', () => {
+    renderAt('/characters/vivenna/travels', [], { oathbringer: '108' })
+    expect(document.querySelector('.travel-map')).toBeNull()
+    cleanup()
+    renderAt('/characters/vivenna/travels', ['warbreaker'], {
+      oathbringer: '108',
+    })
+    expect(worlds()).toEqual(['Nalthis', 'Roshar'])
+    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
+    expect(card()).toHaveTextContent('Highmarshal')
+    expect(card()).not.toHaveTextContent('Lasting Integrity')
+  })
+
+  it('keeps Hoid’s cameos and Wit off his travels until the reader knows him', () => {
+    renderAt('/characters/hoid/travels', ['elantris'], {
+      'way-of-kings': '57',
+    })
+    expect(document.body).not.toHaveTextContent(/Roshar|Elhokar/)
+    cleanup()
+    renderAt('/characters/hoid/travels', ['elantris'], {
+      'way-of-kings': '58',
+    })
+    expect(worlds()).toEqual(['Sel', 'Roshar'])
+    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
+    expect(card()).toHaveTextContent('Elhokar')
+    expect(document.body).not.toHaveTextContent(/Midius|Ashyn|Middlefest/)
   })
 })

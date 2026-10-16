@@ -1,4 +1,4 @@
-# Handoff: 2026-10-16
+# Handoff: 2026-10-16 (updated later the same day)
 
 For the next Copilot session (started from this repo). Read this, then
 `AGENTS.md` (engineering) and `~/cig-char-data/AGENTS.md` (content and spoiler
@@ -25,7 +25,7 @@ rules) before doing anything. Delete or rewrite this file once it's stale.
 - Product plan and history of decisions: `ROADMAP.md` (section 8 is the
   Characters page; read it before character work).
 
-## State of the character pages (34 pilot characters + Felt)
+## State of the character pages (35 pilot characters + Felt)
 
 Done and committed:
 
@@ -55,15 +55,30 @@ Done and committed:
 - **Spoiler tooling**: `npm run spoiler:snapshot -- <id>` compares a page with
   the Coppermind Time Machine (see AGENTS.md files).
 
-## Open questions for Drew (not yet answered)
+## Drew's answers (2026-10-16)
 
-1. Is the Travels proof of concept the right direction before rolling it out to
-   other world hoppers (Hoid, Khriss, Azure, Kelsier, Nazh...)?
-2. Felt's identity link: OK to show once both worlds are read, given it's only
-   Word of Brandon?
-3. Collapse the Key facts box on phones?
-4. Multi-book appearance/personality items appear late (only when every book
-   they draw on is read). OK?
+All yes: Travels is the right direction; Felt's link once both worlds are
+read is fine; Key facts collapse on phones; multi-book items appearing late is
+OK.
+
+## Done this session (uncommitted until Drew says)
+
+- Travels for **Vivenna** and **Hoid** (12 stops, Lumar/Komashi flagged
+  "timing uncertain"). Kelsier, Marsh, Sazed, Tress, Nikaro, Yumi: one world
+  in the books, so no Travels. Time Machine: travel leads all false alarms.
+- Map sets overlapping worlds (Ashyn/Roshar) side by side.
+- Travels map opens on the first stop, not the last.
+- Personality tab renamed **Description** (`/description`).
+- Key facts collapse behind a toggle on phones (<760px).
+- Screenshots: `~/.copilot/session-state/249c4643-7828-45de-8cc7-b2b80b8ed4c4/files/`.
+- Headless Chrome can't go below 500px wide; use 500 for phone shots.
+- **Sigzil** added (36 characters now) with the **Nomad** persona (The Sunlit
+  Man). Identity needs all of The Way of Kings plus Sunlit Man ch 39. Story
+  (12 History sections, 9 intros), 4 portraits (1 persona-safe), 5 Travels
+  stops, tests for the persona, search and travels. Time Machine: one real
+  lead (an infobox title dated to the wrong ref, fixed in overrides); the
+  rest were false alarms. Screenshots in `files/spoilers-sigzil/`.
+- Persona header names a standalone book by its title, not "Standalones".
 
 ## Known doubts to mention
 
@@ -75,6 +90,10 @@ Done and committed:
   appearance text yet.
 - Felt's Awakener ability is dated at the end of Wind and Truth (strict); the
   Coppermind cites interlude 1.
+- Vasher's and Vivenna's Travels tabs show to readers of only one of their
+  books, hinting they're world hoppers (Sigzil's uses `needs` to avoid that).
+- Persona pages link "<persona> on the Coppermind", which redirects to the
+  real character's page (Zahel, Nomad); the link already warns of spoilers.
 - The Time Machine check hasn't been run on the other 34 characters yet; doing
   that (and triaging the leads) is a good next task.
 
@@ -84,7 +103,7 @@ Done and committed:
 2. Optionally improve the snapshot check: flag terms absent before book X but
    present just after it (points at the book they came from; fewer false
    alarms).
-3. Get Drew's answers above; roll Travels out to other world hoppers.
+3. Travels for new world hoppers (Khriss, Nazh...) as they're added.
 4. Scale details and stories to the other ~2,100 characters in small batches
    (ROADMAP section 8), with the Time Machine check per batch.
 5. Remove the old "Story" format from the app and pipeline (all 35 use History).

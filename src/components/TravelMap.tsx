@@ -29,6 +29,44 @@ function locate(planetId: string) {
   }
 }
 
+/**
+ * Where each visited world is drawn. Worlds that would sit on top of each
+ * other (e.g. Ashyn and Roshar, which share a system) are set side by side.
+ */
+function placeWorlds(planetIds: string[]) {
+  const clusters: { x: number; y: number; ids: string[] }[] = []
+  const located = new Map(
+    planetIds.flatMap((id) => {
+      const p = locate(id)
+      return p ? [[id, p] as const] : []
+    }),
+  )
+  for (const [id, p] of located) {
+    const near = clusters.find((c) => Math.hypot(c.x - p.x, c.y - p.y) < 90)
+    if (near) near.ids.push(id)
+    else clusters.push({ x: p.x, y: p.y, ids: [id] })
+  }
+  const placed = new Map<string, NonNullable<ReturnType<typeof locate>>>()
+  for (const c of clusters) {
+    if (c.ids.length === 1) {
+      placed.set(c.ids[0], located.get(c.ids[0])!)
+      continue
+    }
+    const x = c.ids.reduce((t, id) => t + located.get(id)!.x, 0) / c.ids.length
+    const y = c.ids.reduce((t, id) => t + located.get(id)!.y, 0) / c.ids.length
+    c.ids
+      .sort((a, b) => located.get(a)!.x - located.get(b)!.x)
+      .forEach((id, i) =>
+        placed.set(id, {
+          ...located.get(id)!,
+          x: x + (i - (c.ids.length - 1) / 2) * 110,
+          y,
+        }),
+      )
+  }
+  return placed
+}
+
 const backgroundStars = (() => {
   let seed = 7
   const random = () => ((seed = (seed * 16807) % 2147483647) - 1) / 2147483646
@@ -81,7 +119,7 @@ export function TravelMap({
   systems: ShownSystem[]
 }) {
   const id = useId().replace(/[^\w-]/g, '')
-  const [step, setStep] = useState(stops.length - 1)
+  const [step, setStep] = useState(0)
   const [playing, setPlaying] = useState(false)
   const current = Math.min(step, stops.length - 1)
 
@@ -94,7 +132,8 @@ export function TravelMap({
     return () => clearTimeout(timer)
   }, [playing, current, stops.length])
 
-  const points = stops.map((s) => locate(s.planetId))
+  const worldAt = placeWorlds([...new Set(stops.map((s) => s.planetId))])
+  const points = stops.map((s) => worldAt.get(s.planetId))
   const placed = points.filter((p) => p !== undefined)
   if (placed.length === 0) return null
 
@@ -242,7 +281,7 @@ export function TravelMap({
         )}
 
         {[...worlds].map(([planetId, visits]) => {
-          const p = locate(planetId)
+          const p = worldAt.get(planetId)
           if (!p) return null
           const active = stops[current].planetId === planetId
           const reached = visits.some((v) => v <= current)

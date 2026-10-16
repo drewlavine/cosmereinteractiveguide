@@ -65,6 +65,8 @@ export function CharacterDetail() {
   const canSee = useCanSee()
   const systems = useShownSystems()
   const prose = useStory(persona?.characterId ?? character?.id)
+  // Only phones collapse the key facts (see the stylesheet).
+  const [factsOpen, setFactsOpen] = useState(false)
 
   if (!character) return <NotFound />
   // Once the reader can tell who a persona is, it's the character's page.
@@ -189,8 +191,8 @@ export function CharacterDetail() {
               ),
             },
         {
-          id: 'personality',
-          label: 'Personality',
+          id: 'description',
+          label: 'Description',
           content: (story.appearance.length > 0 ||
             story.personality.length > 0) && (
             <div className="character-story">
@@ -258,7 +260,18 @@ export function CharacterDetail() {
     return <Navigate to={`/characters/${character.id}`} replace />
 
   const infobox = details && (
-    <aside className="character-infobox" aria-label="Key facts">
+    <aside
+      className={`character-infobox${factsOpen ? '' : ' collapsed'}`}
+      aria-label="Key facts"
+    >
+      <button
+        type="button"
+        className="character-infobox-toggle"
+        aria-expanded={factsOpen}
+        onClick={() => setFactsOpen((open) => !open)}
+      >
+        Key facts
+      </button>
       {system && world && (
         <Link
           to={`/systems/${system.id}/planets/${world.id}`}
@@ -340,14 +353,22 @@ export function CharacterDetail() {
       {shown.personas.map(({ name, books }) => (
         <p key={name} className="character-persona">
           Known as <strong>{name}</strong> in{' '}
-          {[...new Set(books.map((b) => seriesOf(b)?.name ?? b))].map(
-            (series, i) => (
-              <span key={series}>
-                {i > 0 && ', '}
-                <cite>{series}</cite>
-              </span>
+          {[
+            ...new Set(
+              books.map((b) => {
+                const series = seriesOf(b)
+                // A standalone is named by its own title, not "Standalones".
+                return series?.id === 'standalones'
+                  ? (findBook(b)?.title ?? b)
+                  : (series?.name ?? b)
+              }),
             ),
-          )}
+          ].map((series, i) => (
+            <span key={series}>
+              {i > 0 && ', '}
+              <cite>{series}</cite>
+            </span>
+          ))}
         </p>
       ))}
       {shown.aliases.length > 0 && (
