@@ -213,8 +213,33 @@ Category:Cosmere; check anything unclear by hand.
         (placeholder tab added)
   - [ ] **Magic**: the magic systems and how they work (placeholder tab
         added)
+    - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
+          ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
+          it does, its world, and the characters known to have it
+    - [ ] Gated like everything else: an ability (and who has it) only
+          shows once the reader has reached where it's revealed
+    - [ ] Linked from the Characters list's **Group by → Ability** headings
+          and from abilities on character pages (see 8)
   - [ ] **Events**: key events across the Cosmere, in order (placeholder tab
         added)
+  - [ ] **Culture**: the peoples and societies of the Cosmere (placeholder
+        tab added)
+    - [ ] Populate it from the Coppermind's Culture category: political
+          houses and families, noble ranks, titles and honorifics,
+          nations, religions, orders and organizations, social classes,
+          customs, languages, and anything else found there
+    - [ ] A page per entry (what it is, its world, the books it's in, and
+          the characters linked to it), linked from character pages where
+          they mention it (e.g. a character's house or title)
+    - [ ] A list that can be grouped, like the Characters list, with the
+          choice saved in the URL: **Type** (house, rank, title, religion,
+          ...), **A–Z**, **Book**, **World** and **Series**, plus a name
+          filter
+    - [ ] Follows the spoiler rule like everything else: an entry, and
+          every fact on its page, only shows once the reader has reached
+          where it's revealed (dated by footnotes down to the chapter);
+          unreached entries are hidden from lists and search with no
+          placeholders
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps, 1)
   - [x] Give each tab its own URL and show which tab is active
   - [ ] Keep every tab spoiler-free for the books the reader has marked as read
@@ -291,6 +316,8 @@ Category:Cosmere; check anything unclear by hand.
   - [x] **Abilities**: e.g. Windrunner, Mistborn, Coinshot, Awakener,
         Elantrian, Lightweaver. A character with several abilities is listed
         under each.
+    - [ ] Each ability heading links to its own ability page under the
+          **Magic** tab (see 5)
   - [x] A group-by control on the list, saved in the URL (e.g.
         `/characters?group=series`) so it can be shared
   - [ ] Add each character's books, species and abilities to the data
@@ -415,7 +442,7 @@ Category:Cosmere; check anything unclear by hand.
     - [x] Pilot: Kaladin and Vasher (persona headings: Zahel's readers see
           "Ardent and swordmaster", not "On Roshar")
     - [x] The other 32 pilot characters (all 34 now use History)
-    - [ ] Remove the old Story format from the app and pipeline
+    - [x] Remove the old Story format from the app and pipeline
   - [x] Close family (parents, siblings, spouses, children) moved into the
         Key facts infobox, linked once met; the Relationships tab is gone
         (its old URL opens the first tab). Distant relatives and ancestors
@@ -441,8 +468,10 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Art for the other pilot characters (1–5 pieces each), and
         persona-safe art for Wit, Azure and Ironeyes. Thaidakar has none:
         every piece shows Kelsier's face
-  - [ ] Gaps: Hoid before Wit is named (Elantris, Warbreaker), Syl as a
-        Shardblade, Venli before stormform, Moash as a bridgeman
+  - [x] Gaps: Syl as a Shardblade, Venli before stormform, Moash as a
+        bridgeman; Dalinar's logo piece replaced
+  - [ ] Gap: Hoid before Wit is named (Elantris, Warbreaker); no suitable
+        Coppermind art yet
   - [x] Private site for now: art is taken from the Coppermind galleries,
         credited and linked
   - [ ] **Before any public release:** get each artist's (or Dragonsteel's /
@@ -466,9 +495,7 @@ Category:Cosmere; check anything unclear by hand.
         entirely. Not on persona pages (it would give Zahel away)
   - [x] Sigzil (five stops; Stormlight-only readers see no Travels tab
         until they know he's Nomad)
-  - [ ] Iterate on the map after review (ideas: passport stamps per world,
-        a Shadesmar crossing for Cognitive-Realm trips, comparing two
-        travellers)
+  - [ ] Iterate on the map after review (see **Ideas** below)
   - [x] Show each stop only once the reader reaches the chapter that
         reveals it (a stop shows once any of its events does)
   - [x] A stay whose order among the stops is known but whose date isn't
@@ -497,6 +524,38 @@ Category:Cosmere; check anything unclear by hand.
   - [x] The map opens on the first stop (in-world order), with the rest of
         the route drawn faintly ahead, ready to play
   - [ ] The rest of the world hoppers (Khriss, Nazh, ...) as they're added
+
+### 9. Look and feel polish
+
+Make the app feel designed and cohesive rather than generic or
+AI-generated.
+
+- [ ] Design audit: screenshot every page (desktop and phone) and list
+      inconsistencies in spacing, type, colour and components
+- [ ] Visual identity: a deliberate palette, type pairing (display and
+      body), and Cosmere-flavoured touches (e.g. subtle Shardic or
+      world-specific accents) instead of default-looking UI
+- [ ] Design tokens: one set of CSS variables for colour, spacing, radius,
+      shadow and type scale; replace one-off values in `index.css`
+- [ ] Shared components: consistent buttons, tabs, cards, chips, notices
+      and empty states
+- [ ] Layout and hierarchy: clearer page headers, rhythm and whitespace;
+      tame dense infoboxes and lists
+- [ ] Motion and states: restrained transitions, and real hover, focus,
+      loading and error states
+- [ ] Phone pass: thumb-friendly targets, no cramped tables, tidy nav
+- [ ] Accessibility: contrast, focus rings, reduced-motion support
+
+## Ideas
+
+Not planned yet; come back to these if wanted.
+
+- **Travels map**
+  - Passport stamps: a stamp per world visited, collected as the reader
+    progresses
+  - Shadesmar crossings: draw Cognitive-Realm trips differently from
+    physical ones
+  - Compare two travellers on one map (e.g. Hoid and Vasher on Nalthis)
 
 ## Completed
 

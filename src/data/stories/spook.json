@@ -263,14 +263,23 @@
       ]
     }
   ],
-  "appearance": [],
+  "appearance": [
+    {
+      "text": "After the Collapse Spook shot up to over six feet tall, barely resembling the gangly boy he had been. At least once he wore a beard as a disguise.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
+    },
+    {
+      "text": "Overusing his tin left Spook so sensitive to light that he had to wear a blindfold.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
   "personality": [
     {
       "text": "At fifteen Spook was shy and spoke in Eastern street slang that the crew could barely follow. He gave Vin a pink handkerchief, the traditional gift of a young man hoping to court a lady, though she was not interested.",
       "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
     },
     {
-      "text": "After the Collapse he grew far more confident, dropped his street cant and shot up past six feet. He liked women of almost any kind and flirted often, with little success.",
+      "text": "After the Collapse he grew far more confident and dropped his street cant. He liked women of almost any kind and flirted often, with little success.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "25" }]
     },
     {

@@ -120,7 +120,12 @@
       ]
     }
   ],
-  "appearance": [],
+  "appearance": [
+    {
+      "text": "Yumi dresses modestly, preferring clothes that hide her figure and cover her skin, though she relaxes this as she lets herself be more expressive.",
+      "revealedIn": [{ "book": "yumi", "chapter": "15" }]
+    }
+  ],
   "personality": [
     {
       "text": "Yumi is unhappy with her life and wishes for something more, but forces herself to accept it and its rules without question. When she starts to wonder whether she could do more with her life, she hates herself for the thought.",
@@ -129,10 +134,6 @@
     {
       "text": "Yumi hates lies, having been taught all her life that they are evil, and judges harshly anyone who tells them.",
       "revealedIn": [{ "book": "yumi", "chapter": "11" }]
-    },
-    {
-      "text": "Yumi is modest, preferring clothes that hide her figure and cover her skin, though she relaxes this as she lets herself be more expressive.",
-      "revealedIn": [{ "book": "yumi", "chapter": "15" }]
     },
     {
       "text": "As yoki-hijo, Yumi summons the hijo through ritual stone stacking and can have them take the shape of tools to help the people of Torio. She is very heavily Invested.",

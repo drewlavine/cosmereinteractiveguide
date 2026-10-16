@@ -214,7 +214,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Formless',
-        revealedIn: [{ book: 'oathbringer', chapter: '78' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
       },
       {
         name: "Unulukuak'kina'autu'atai",
@@ -1270,7 +1270,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Kaladin',
         revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
       },
-      { name: 'Relador', revealedIn: [{ book: 'oathbringer', chapter: '95' }] },
+      {
+        name: 'Relador',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
     ],
     relatives: [],
   },
@@ -1537,7 +1540,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Mistborn',
         revealedIn: [{ book: 'final-empire', chapter: '4' }],
       },
-      { name: 'Hemalurgist', revealedIn: ['secret-history'] },
       { name: 'Sliver', revealedIn: ['secret-history'] },
     ],
     nationality: [],
@@ -1552,7 +1554,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'final-empire', chapter: '29' }],
       },
       { name: 'Venture army', revealedIn: ['secret-history'] },
-      { name: 'Preservers', revealedIn: ['secret-history'] },
     ],
     bonds: [],
     relatives: [
@@ -1681,7 +1682,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: "Kelsier's crew",
         revealedIn: [{ book: 'final-empire', chapter: '4' }],
       },
-      { name: 'Preservers', revealedIn: ['lost-metal'] },
+      { name: 'Preservers', revealedIn: ['wind-and-truth'] },
       {
         name: 'Ghostbloods',
         revealedIn: [
@@ -1766,7 +1767,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
     nationality: [],
     profession: [],
     groups: [
-      { name: 'Preservers', revealedIn: ['secret-history'] },
       { name: 'Venture army', revealedIn: ['secret-history'] },
       {
         name: 'Luthadel Assembly',
@@ -1826,7 +1826,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     aliases: [
       { name: 'Saze', revealedIn: ['secret-history'] },
       { name: 'Hero of Ages', revealedIn: ['hero-of-ages'] },
-      { name: 'Rabzeen', revealedIn: ['secret-history'] },
+      { name: 'Rabzeen', revealedIn: ['lost-metal'] },
       {
         name: 'Master Vaht',
         revealedIn: [{ book: 'final-empire', chapter: '9' }],
@@ -1867,7 +1867,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'well-of-ascension', chapter: '9' }],
       },
       { name: 'Venture army', revealedIn: ['secret-history'] },
-      { name: 'Preservers', revealedIn: ['secret-history'] },
     ],
     bonds: [],
     relatives: [],
@@ -1938,7 +1937,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     groups: [
       { name: "Kelsier's crew", revealedIn: ['lost-metal'] },
       { name: 'Skaa rebellion', revealedIn: ['final-empire'] },
-      { name: 'Preservers', revealedIn: ['lost-metal'] },
+      { name: 'Preservers', revealedIn: ['wind-and-truth'] },
     ],
     bonds: [],
     relatives: [
@@ -2019,7 +2018,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     nationality: [],
     profession: [],
     groups: [
-      { name: 'Preservers', revealedIn: ['secret-history'] },
+      { name: 'Preservers', revealedIn: ['lost-metal'] },
       { name: 'Venture army', revealedIn: ['secret-history'] },
       { name: 'Originators', revealedIn: ['secret-history'] },
     ],
@@ -2787,7 +2786,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
     species: [
       { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '3' }] },
       { name: 'Returned', revealedIn: [{ book: 'warbreaker', chapter: '3' }] },
-      { name: 'Cognitive Shadow', revealedIn: ['warbreaker'] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+        ],
+      },
     ],
     abilities: [],
     nationality: [
@@ -3705,7 +3709,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     abilities: [
-      { name: 'Awakener', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Awakener',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-1' }],
+      },
       {
         name: 'Worldhopper',
         revealedIn: [

@@ -5,7 +5,8 @@
 // didn't know yet came from a later book: a spoiler.
 //
 // Usage: npm run spoiler:snapshot -- <character-id> [snapshot-date ...]
-// Writes data/raw/timemachine/<id>/<date>.{ours.txt,wiki} (git-ignored) and
+// Writes data/raw/timemachine/<id>/<date>.{ours.txt,wiki} (git-ignored; a
+// persona's page goes to <character-id>/<date>.<persona>.ours.txt) and
 // prints, per snapshot, capitalised terms we use that the old page never
 // mentions. Those are leads to read, not verdicts: the old page may just be
 // shorter than ours. Fetches through headless Chrome (~/cig-characters/fetch.sh),
@@ -139,11 +140,10 @@ function ours(read: Set<string>) {
     `bonds: ${shown.bonds.join(', ')}`,
     `family: ${shown.relatives.map((r) => `${r.name} (${r.relation})`).join(', ')}`,
     `intro: ${prose.intro ?? ''}`,
-    ...(prose.history ?? []).flatMap((s) => [
+    ...prose.history.flatMap((s) => [
       `## ${s.title ?? ''}`,
       ...s.items.map((i) => i.text),
     ]),
-    ...prose.story.flatMap((s) => s.items),
     ...prose.appearance,
     ...prose.personality,
     ...travels.stops.flatMap((s) => [
@@ -179,7 +179,8 @@ for (const { date, notYet } of snapshots) {
       console.log(`${date}: no Coppermind page yet; check every line by hand`)
     writeFileSync(wikiFile, wiki)
   }
-  writeFileSync(join(dir, `${date}.ours.txt`), lines.join('\n') + '\n')
+  const oursName = id === characterId ? date : `${date}.${id}`
+  writeFileSync(join(dir, `${oursName}.ours.txt`), lines.join('\n') + '\n')
   const known = wiki.toLowerCase()
   // Capitalised words, possessives dropped, skipping each sentence's first.
   const terms = [

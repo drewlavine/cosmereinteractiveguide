@@ -179,11 +179,10 @@ export const characterPortraits: Record<string, Portrait[]> = {
     },
     {
       // No Blade (he trades it away late in WoK); shown from WoR.
-      src: '/portraits/dalinar-kholin-uniform.webp',
-      alt: 'Dalinar, grey-templed, in a blue Kholin uniform coat with gold epaulettes',
-      artist: 'Guilherme Castro',
-      artistUrl:
-        'https://coppermind.net/wiki/Coppermind:Artists/Guilherme_Castro',
+      src: '/portraits/dalinar-kholin-coat.webp',
+      alt: 'Dalinar in profile, grey-templed, in a dark blue Kholin uniform coat with the Kholin glyph on the shoulder',
+      artist: 'HW Lee',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/HW_Lee',
       revealedIn: [
         {
           all: [
@@ -398,6 +397,18 @@ export const characterPortraits: Record<string, Portrait[]> = {
   ],
   venli: [
     {
+      // Before any new form: no red eyes or stormform; Eshonai in her armour. Both are seen in WoR I-1.
+      src: '/portraits/venli-listeners.webp',
+      alt: 'Venli, a listener with marbled skin and long dark hair in a rust-coloured shawl, beside Eshonai in pale armour',
+      artist: 'taratjah',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/taratjah',
+      revealedIn: [
+        {
+          all: ['way-of-kings', { book: 'words-of-radiance', chapter: 'i-1' }],
+        },
+      ],
+    },
+    {
       // Stormform with red lightning; she has taken stormform by WoR I-11.
       src: '/portraits/venli-stormform.webp',
       alt: 'Venli, a listener with carapace and long dark hair, red lightning between her hands',
@@ -436,6 +447,14 @@ export const characterPortraits: Record<string, Portrait[]> = {
       artistUrl:
         'https://coppermind.net/wiki/Coppermind:Artists/Rebecca_Sorge_Jensen',
       revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+    },
+    {
+      // Syl as a Shardblade in Kaladin's hand, with his glowing eyes: she returns as a Blade at WoR 84.
+      src: '/portraits/sylphrena-storm.webp',
+      alt: 'Kaladin, eyes glowing, as Syl forms into a glowing Shardblade in his hand',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '84' }],
     },
     {
       // Wearing a Bridge Four uniform jacket and a later look; dated after OB to be safe.
@@ -510,7 +529,15 @@ export const characterPortraits: Record<string, Portrait[]> = {
   ],
   moash: [
     {
-      // Kholin uniform, from WoR; no bridgeman-era art suitable.
+      // Carrying a bridge in Bridge Four, where he is from his first appearance (WoK 14).
+      src: '/portraits/moash-bridge.webp',
+      alt: 'Moash, bearded, carrying a wooden bridge on his shoulder',
+      artist: 'Sheep',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Sheep',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    {
+      // Kholin uniform, from WoR.
       src: '/portraits/moash-uniform.webp',
       alt: 'Moash, curly-haired and scowling, in a blue Kholin uniform',
       artist: 'Jamie Knierim',

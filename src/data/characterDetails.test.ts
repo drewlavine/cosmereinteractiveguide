@@ -142,11 +142,10 @@ describe('character details', () => {
       expect(d, id).toBeDefined()
       const name = findCharacter(id)!.name.split(' ')[0]
       const personaBooks = new Set(d.personas?.flatMap((p) => p.books))
-      expect(!s.story === !s.history, `${id}: story or history`).toBe(false)
+      expect(s.history.length, `${id}: history`).toBeGreaterThan(0)
       const groups: [string, StoryItem[]][] = [
         ['intro', s.intro],
-        ['story', s.story ?? []],
-        ...(s.history ?? []).flatMap((sec, j): [string, StoryItem[]][] => [
+        ...s.history.flatMap((sec, j): [string, StoryItem[]][] => [
           [`history[${j}].title`, sec.title],
           [`history[${j}].items`, sec.items],
         ]),
@@ -167,8 +166,7 @@ describe('character details', () => {
           if (books.every((b) => personaBooks.has(b)))
             expect(it.text, where).not.toMatch(new RegExp(`\\b${name}\\b`))
         })
-      for (const it of s.story ?? []) expect(bookIds, id).toContain(it.bookId)
-      for (const sec of s.history ?? []) {
+      for (const sec of s.history) {
         expect(sec.title.length, id).toBeGreaterThan(0)
         expect(sec.items.length, id).toBeGreaterThan(0)
       }

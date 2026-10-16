@@ -401,14 +401,12 @@ export function revealCharacter(
 export interface ShownStory {
   /** The latest "who they are" line the reader may see. */
   intro?: string
-  /** What happens to them, grouped by book in reading order. */
-  story: { bookId: string; items: string[] }[]
   /**
-   * Their life in in-world order, for stories written as a history. A
-   * section shows when any of its items does, under its latest title the
-   * reader may see; each item notes the books it's from.
+   * Their life in in-world order. A section shows when any of its items
+   * does, under its latest title the reader may see; each item notes the
+   * books it's from.
    */
-  history?: { title?: string; items: { text: string; books: string[] }[] }[]
+  history: { title?: string; items: { text: string; books: string[] }[] }[]
   appearance: string[]
   personality: string[]
   /** Whether unread books hide any of it. */
@@ -428,7 +426,7 @@ export function revealStory(
   viewAnyway = false,
 ): ShownStory {
   const v = view(characterId, canSee)
-  if (!v || !prose) return { story: [], appearance: [], personality: [], spoilers: false }
+  if (!v || !prose) return { history: [], appearance: [], personality: [], spoilers: false }
   const { details, persona, trim } = v
 
   let spoilers = false
@@ -444,7 +442,7 @@ export function revealStory(
     revealedIn.flatMap(pointBooks).every((b) => personaBooks.has(b))
 
   const history = prose.history
-    ?.map(({ title, items }) => ({
+    .map(({ title, items }) => ({
       title: title.filter(show).at(-1)?.text,
       items: items.filter(show).map(({ text, revealedIn }) => ({
         text,
@@ -453,18 +451,11 @@ export function revealStory(
     }))
     .filter((s) => s.items.length > 0)
 
-  const story: ShownStory['story'] = []
-  for (const item of (prose.story ?? []).filter(show)) {
-    const last = story.at(-1)
-    if (last?.bookId === item.bookId) last.items.push(item.text)
-    else story.push({ bookId: item.bookId, items: [item.text] })
-  }
   return {
     intro: prose.intro
       .filter((i) => persona || !aboutPersona(i))
       .filter(show)
       .at(-1)?.text,
-    story,
     history,
     appearance: prose.appearance.filter(show).map((i) => i.text),
     personality: prose.personality.filter(show).map((i) => i.text),

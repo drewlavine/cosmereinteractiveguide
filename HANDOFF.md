@@ -82,28 +82,32 @@ OK.
 
 ## Known doubts to mention
 
-- Sazed's Era 2 items say he's Harmony (dated by Alloy of Law footnotes).
-- Two Hoid "Ancient times" History items were written by an agent; double-check.
-- Dalinar's uniform art still shows a game logo.
-- Art gaps: Hoid before Wit is named, Syl as a Shardblade, Venli before
-  stormform, Moash as a bridgeman; Spook, Marasi, Wayne and Yumi have no
-  appearance text yet.
-- Felt's Awakener ability is dated at the end of Wind and Truth (strict); the
-  Coppermind cites interlude 1.
+- Art gaps filled: Dalinar's logo piece replaced; Syl as a Shardblade, Venli
+  before stormform and Moash as a bridgeman added (provenance in
+  `~/cig-char-data/art/gaps.json`). Still open: Hoid before Wit is named (no
+  suitable Coppermind art).
+- Appearance text added for Spook, Wayne and Yumi. Marasi still has none: her
+  Coppermind page has no physical description.
 - Vasher's and Vivenna's Travels tabs show to readers of only one of their
   books, hinting they're world hoppers (Sigzil's uses `needs` to avoid that).
 - Persona pages link "<persona> on the Coppermind", which redirects to the
   real character's page (Zahel, Nomad); the link already warns of spoilers.
-- The Time Machine check hasn't been run on the other 34 characters yet; doing
-  that (and triaging the leads) is a good next task.
+- The "Preservers" group has no clear in-book source: dropped for Vin, Elend
+  and Sazed; dated to The Lost Metal for Spook and Wind and Truth for Kelsier
+  and Marsh (when their wiki pages gained it). Revisit if a footnote turns up.
 
 ## Suggested next steps
 
-1. Run `npm run spoiler:snapshot` over all 35 characters and fix real leaks.
+1. (Done 2026-10-16) Time Machine sweep over all 36 characters and the six
+   persona pages; log in `~/cig-char-data/audit-2026-10-16.md`. Persona
+   snapshots now write `<date>.<persona>.ours.txt`. Remember `date.py` before
+   `emit.py` after editing overrides.
 2. Optionally improve the snapshot check: flag terms absent before book X but
    present just after it (points at the book they came from; fewer false
    alarms).
 3. Travels for new world hoppers (Khriss, Nazh...) as they're added.
 4. Scale details and stories to the other ~2,100 characters in small batches
    (ROADMAP section 8), with the Time Machine check per batch.
-5. Remove the old "Story" format from the app and pipeline (all 35 use History).
+5. (Done 2026-10-16) Old "Story" format removed from the app and pipeline;
+   every story is a History (`story_check` rejects "story"; `make_history.py`
+   and `HISTORY_TASK.md` are gone).

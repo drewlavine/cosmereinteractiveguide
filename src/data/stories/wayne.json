@@ -277,7 +277,21 @@
       ]
     }
   ],
-  "appearance": [],
+  "appearance": [
+    {
+      "text": "Wayne is short, lean and muscular, with a round face and a sharp chin, and cannot grow a proper beard. He favours Roughs clothing with a duster coat and loves hats, which he says are essential to a good disguise.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "9" },
+            { "book": "shadows-of-self", "chapter": "2" },
+            { "book": "bands-of-mourning", "chapter": "23" },
+            { "book": "lost-metal", "chapter": "49" }
+          ]
+        }
+      ]
+    }
+  ],
   "personality": [
     {
       "text": "Wax is Wayne's best friend and partner, and Wayne owes him his life. They banter easily, sometimes compete over who defeated more enemies, and Wax wishes Wayne would stay out of his personal life, such as mocking Steris.",

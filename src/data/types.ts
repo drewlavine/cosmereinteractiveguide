@@ -263,13 +263,11 @@ export interface CharacterStory {
    * latest one the reader may see.
    */
   intro: StoryItem[]
-  /** What happens to them, in reading order, each under the book it's from. */
-  story?: (StoryItem & { bookId: string })[]
   /**
    * Their life in in-world order, like the Coppermind's History: sections
    * (each with title versions, earliest first) of items, in the order shown.
    */
-  history?: { title: StoryItem[]; items: StoryItem[] }[]
+  history: { title: StoryItem[]; items: StoryItem[] }[]
   /** How they look. */
   appearance: StoryItem[]
   /** Who they are: character, habits, outlook. */

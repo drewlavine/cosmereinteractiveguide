@@ -71,6 +71,14 @@ export const mainTabs: MainTab[] = [
     isActive: underPath('/events'),
     comingSoon: 'Key events across the Cosmere, in order.',
   },
+  {
+    id: 'culture',
+    label: 'Culture',
+    path: '/culture',
+    isActive: underPath('/culture'),
+    comingSoon:
+      'The peoples of the Cosmere: houses, ranks, titles, religions, customs and more.',
+  },
 ]
 
 export const comingSoonTabs = mainTabs.filter((tab) => tab.comingSoon)

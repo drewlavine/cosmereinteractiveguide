@@ -139,57 +139,34 @@ export function CharacterDetail() {
 
   const tabs: CharacterTab[] = details
     ? [
-        story.history
-          ? {
-              id: 'history',
-              label: 'History',
-              content: story.history.length > 0 && (
-                <div className="character-story">
-                  {story.history.map(({ title, items }, i) => (
-                    <section key={`${title}-${i}`}>
-                      {title && <h2>{title}</h2>}
-                      {items.map(({ text, books }) => (
-                        <p key={text}>
-                          {text}{' '}
-                          <span className="character-story-source">
-                            {books.map((bookId, j) => (
-                              <Fragment key={bookId}>
-                                {j > 0 && ', '}
-                                <Link to={`/books/${bookId}`}>
-                                  <cite>
-                                    {findBook(bookId)?.title ?? bookId}
-                                  </cite>
-                                </Link>
-                              </Fragment>
-                            ))}
-                          </span>
-                        </p>
-                      ))}
-                    </section>
+        {
+          id: 'history',
+          label: 'History',
+          content: story.history.length > 0 && (
+            <div className="character-story">
+              {story.history.map(({ title, items }, i) => (
+                <section key={`${title}-${i}`}>
+                  {title && <h2>{title}</h2>}
+                  {items.map(({ text, books }) => (
+                    <p key={text}>
+                      {text}{' '}
+                      <span className="character-story-source">
+                        {books.map((bookId, j) => (
+                          <Fragment key={bookId}>
+                            {j > 0 && ', '}
+                            <Link to={`/books/${bookId}`}>
+                              <cite>{findBook(bookId)?.title ?? bookId}</cite>
+                            </Link>
+                          </Fragment>
+                        ))}
+                      </span>
+                    </p>
                   ))}
-                </div>
-              ),
-            }
-          : {
-              id: 'story',
-              label: 'Story',
-              content: story.story.length > 0 && (
-                <div className="character-story">
-                  {story.story.map(({ bookId, items }, i) => (
-                    <section key={`${bookId}-${i}`}>
-                      <h2>
-                        <Link to={`/books/${bookId}`}>
-                          <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                        </Link>
-                      </h2>
-                      {items.map((text) => (
-                        <p key={text}>{text}</p>
-                      ))}
-                    </section>
-                  ))}
-                </div>
-              ),
-            },
+                </section>
+              ))}
+            </div>
+          ),
+        },
         {
           id: 'description',
           label: 'Description',

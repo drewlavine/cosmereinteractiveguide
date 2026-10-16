@@ -31,6 +31,7 @@ describe('main tabs', () => {
       'Locations',
       'Magic',
       'Events',
+      'Culture',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
       '/',
@@ -39,6 +40,7 @@ describe('main tabs', () => {
       '/locations',
       '/magic',
       '/events',
+      '/culture',
     ])
     expect(new Set(mainTabs.map((t) => t.id)).size).toBe(mainTabs.length)
   })
