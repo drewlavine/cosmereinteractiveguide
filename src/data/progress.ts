@@ -28,8 +28,12 @@ export const chapterLabel = (bookId: string, chapterId: string) =>
   chapters[bookId]?.find((c) => c.id === chapterId)?.label
 
 /** Whether the reader has got as far as this point in the books. */
-export function hasReached(progress: ReadingProgress, point: RevealPoint) {
+export function hasReached(
+  progress: ReadingProgress,
+  point: RevealPoint,
+): boolean {
   if (typeof point === 'string') return progress.read.has(point)
+  if ('all' in point) return point.all.every((p) => hasReached(progress, p))
   if (progress.read.has(point.book)) return true
   const at = progress.reading.get(point.book)
   if (at == null) return false

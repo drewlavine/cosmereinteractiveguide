@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { Link } from 'react-router'
-import { characters } from '../data/characters'
-import { hasMet } from '../data/reveal'
+import { people as characters } from '../data/people'
+import { findPersona, hasMet, seenThrough } from '../data/reveal'
 import type { Character } from '../data/types'
 import { useCanSee } from '../state/reveal'
 
@@ -26,12 +26,21 @@ const anchor = (letter: string) =>
 
 export function CharacterList() {
   const canSee = useCanSee()
-  const met = useMemo(
-    () => characters.filter((c) => hasMet(c.id, canSee)),
+  // A persona the reader has seen through is listed as the character.
+  const listed = useMemo(
+    () =>
+      characters.filter((c) => {
+        const persona = findPersona(c.id)
+        return !persona || !seenThrough(persona, canSee)
+      }),
     [canSee],
   )
+  const met = useMemo(
+    () => listed.filter((c) => hasMet(c.id, canSee)),
+    [listed, canSee],
+  )
   const groups = useMemo(() => byLetter(met), [met])
-  const hidden = characters.length - met.length
+  const hidden = listed.length - met.length
 
   return (
     <article className="character-list" aria-labelledby="characters-title">

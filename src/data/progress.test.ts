@@ -27,6 +27,15 @@ describe('reading progress', () => {
     expect(hasReached(progress(['way-of-kings']), wok('epilogue'))).toBe(true)
   })
 
+  it('needs every part of an all-of tag', () => {
+    const both = { all: ['warbreaker', wok('34')] }
+    expect(hasReached(progress(['warbreaker']), both)).toBe(false)
+    expect(hasReached(progress([], { 'way-of-kings': '40' }), both)).toBe(false)
+    expect(
+      hasReached(progress(['warbreaker'], { 'way-of-kings': '40' }), both),
+    ).toBe(true)
+  })
+
   it('reveals nothing before the first chapter is finished', () => {
     const reader = progress([], { 'way-of-kings': null })
     expect(hasReached(reader, wok('prologue'))).toBe(false)

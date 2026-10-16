@@ -5,6 +5,7 @@ import { describe, expect, it } from 'vitest'
 import { books } from './data/books'
 import { characters } from './data/characters'
 import { characterDetails } from './data/characterDetails'
+import { personas } from './data/reveal'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
 
@@ -46,8 +47,10 @@ describe('characters pages', () => {
 
   it('hides characters the reader has not met', () => {
     renderAt('/characters')
-    const hidden = Object.keys(characterDetails).length
-    expect(characterLinks()).toHaveLength(characters.length - hidden)
+    const hidden = Object.keys(characterDetails).length + personas.length
+    expect(characterLinks()).toHaveLength(
+      characters.length + personas.length - hidden,
+    )
     expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
     expect(
       screen.getByText(new RegExp(`· ${hidden} hidden based on books`)),
@@ -73,7 +76,7 @@ describe('characters pages', () => {
     expect(screen.queryByText(/Roshar|Windrunner|Kal,/)).toBeNull()
     await userEvent.click(screen.getByRole('button', { name: 'Show anyway' }))
     expect(screen.queryByText(/Not met yet/)).toBeNull()
-    expect(screen.getByText(/Windrunner/)).toBeInTheDocument()
+    expect(screen.getAllByText(/Windrunner/).length).toBeGreaterThan(0)
   })
 
   it('splits a character page into tabs, each at its own URL', async () => {
@@ -85,6 +88,7 @@ describe('characters pages', () => {
         .map((l) => [l.textContent, l.getAttribute('href')]),
     ).toEqual([
       ['Overview', '/characters/kaladin'],
+      ['Relationships', '/characters/kaladin/relationships'],
       ['Appearances', '/characters/kaladin/appearances'],
     ])
     expect(
@@ -92,7 +96,11 @@ describe('characters pages', () => {
     ).toHaveAttribute('aria-current', 'page')
     const overview = screen.getByRole('region', { name: 'Overview' })
     expect(within(overview).getByText(/Human/)).toBeInTheDocument()
-    expect(within(overview).getByText(/Windrunner/)).toBeInTheDocument()
+    expect(within(overview).getByText('Alethi')).toBeInTheDocument()
+    expect(within(overview).getByText(/Bridge Four/)).toBeInTheDocument()
+    expect(within(overview).getAllByText(/Windrunner/).length).toBeGreaterThan(
+      0,
+    )
 
     await userEvent.click(
       within(tabs).getByRole('link', { name: 'Appearances' }),
@@ -107,6 +115,83 @@ describe('characters pages', () => {
       within(appearances).getByRole('link', { name: 'The Way of Kings' }),
     ).toHaveAttribute('href', '/books/way-of-kings')
     expect(wayOfKings).toHaveTextContent(/first appears in Chapter 1$/)
+  })
+
+  it('lists family ties once the books reveal them', async () => {
+    const before = ['way-of-kings', 'words-of-radiance']
+    renderAt('/characters/dalinar-kholin', before, { oathbringer: '3' })
+    await userEvent.click(screen.getByRole('link', { name: 'Relationships' }))
+    let family = screen.getByRole('region', { name: 'Relationships' })
+    expect(within(family).getByText('Siblings')).toBeInTheDocument()
+    expect(within(family).getByText('Gavilar')).toBeInTheDocument()
+    // Dalinar and Navani marry in Oathbringer chapter 4.
+    expect(within(family).queryByText('Navani')).toBeNull()
+    cleanup()
+    renderAt('/characters/dalinar-kholin/relationships', before, {
+      oathbringer: '4',
+    })
+    family = screen.getByRole('region', { name: 'Relationships' })
+    const spouse = within(family).getByText('Spouse').closest('div')!
+    expect(
+      within(spouse).getByRole('link', { name: 'Navani' }),
+    ).toHaveAttribute('href', '/characters/navani-kholin')
+  })
+
+  it('keeps Zahel apart from Vasher until the reader has read both', async () => {
+    const stormlight = (to: string) =>
+      renderAt(to, ['way-of-kings'], { 'words-of-radiance': '44' })
+    // Stormlight only: Zahel, with only what Stormlight reveals.
+    stormlight('/characters/zahel')
+    expect(screen.getByRole('heading', { name: 'Zahel' })).toBeInTheDocument()
+    expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
+    for (const spoiler of [/Vasher/, /Awakener/, /Nalthis/, /Worldhopper/])
+      expect(screen.queryByText(spoiler)).toBeNull()
+    await userEvent.click(screen.getByRole('link', { name: 'Appearances' }))
+    expect(
+      screen.getByRole('link', { name: 'Words of Radiance' }).closest('li'),
+    ).toHaveTextContent(/first appears in Chapter 16$/)
+    expect(screen.queryByRole('link', { name: 'Warbreaker' })).toBeNull()
+    cleanup()
+    stormlight('/characters/vasher')
+    expect(screen.getByText(/Not met yet/)).toBeInTheDocument()
+    cleanup()
+    stormlight('/characters')
+    expect(screen.getByRole('link', { name: 'Zahel' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Vasher' })).toBeNull()
+    cleanup()
+
+    // Warbreaker only: Vasher, with nothing from Stormlight.
+    renderAt('/characters/vasher', ['warbreaker'])
+    expect(screen.getByText(/Awakener/)).toBeInTheDocument()
+    for (const spoiler of [/Zahel/, /Ardent/, /Worldhopper/])
+      expect(screen.queryByText(spoiler)).toBeNull()
+    cleanup()
+
+    // Both: one page, Vasher's, with Zahel as another name.
+    const both = (to: string) =>
+      renderAt(to, ['warbreaker', 'way-of-kings'], {
+        'words-of-radiance': '16',
+      })
+    both('/characters/zahel')
+    expect(
+      await screen.findByRole('heading', { name: 'Vasher' }),
+    ).toBeInTheDocument()
+    // Both main names up top; Zahel isn't buried among the minor aliases.
+    expect(document.querySelector('.character-persona')).toHaveTextContent(
+      'Known as Zahel in The Stormlight Archive',
+    )
+    expect(screen.getByText(/Also known as/)).not.toHaveTextContent('Zahel')
+    expect(screen.getByText(/Worldhopper/)).toBeInTheDocument()
+    expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
+    cleanup()
+    both('/characters')
+    expect(screen.getByRole('link', { name: 'Vasher' })).toBeInTheDocument()
+    expect(screen.queryByRole('link', { name: 'Zahel' })).toBeNull()
+  })
+
+  it('hides the Relationships tab when no tie is revealed yet', () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '1' })
+    expect(screen.queryByRole('link', { name: 'Relationships' })).toBeNull()
   })
 
   it('reveals abilities at their chapter, and sends unknown tabs to the overview', async () => {

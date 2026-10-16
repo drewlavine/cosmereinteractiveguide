@@ -424,6 +424,20 @@ dd {
   color: var(--text-muted, #9fb0bc);
 }
 
+.character-persona {
+  margin: 0.2rem 0 0;
+  font-family: var(--display);
+  font-size: 1.25rem;
+  color: var(--text-muted, #9fb0bc);
+}
+
+.character-persona strong {
+  color: var(--gold);
+  font-style: italic;
+  font-weight: inherit;
+  font-size: 1.6rem;
+}
+
 .message-page {
   padding: 4rem 1.5rem;
   text-align: center;
@@ -519,6 +533,23 @@ dd {
 
 .character-tab-panel li {
   padding: 0.15rem 0;
+}
+
+.character-relatives {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.4rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.character-tab-panel .character-relatives li {
+  padding: 0;
+}
+
+.character-relatives li:not(:last-child)::after {
+  content: ',';
 }
 
 .character-first-chapter {

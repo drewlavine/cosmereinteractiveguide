@@ -1,3 +1,5 @@
+import { findPersona } from './data/reveal'
+
 /**
  * Main navigation tabs shown in the header, in display order.
  *
@@ -76,7 +78,11 @@ export const comingSoonTabs = mainTabs.filter((tab) => tab.comingSoon)
 /**
  * The page a URL belongs to, for page transitions. Tabs within one entity's
  * page (e.g. `/characters/kaladin/abilities`) are the same page, so
- * switching tabs is instant instead of replaying the page transition.
+ * switching tabs is instant instead of replaying the page transition. So is
+ * a persona's page, which turns into its character's (Zahel into Vasher).
  */
-export const pageKey = (pathname: string) =>
-  pathname.match(/^\/characters\/[^/]+/)?.[0] ?? pathname
+export const pageKey = (pathname: string) => {
+  const id = pathname.match(/^\/characters\/([^/]+)/)?.[1]
+  if (id === undefined) return pathname
+  return `/characters/${findPersona(id)?.characterId ?? id}`
+}

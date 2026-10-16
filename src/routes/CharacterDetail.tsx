@@ -1,11 +1,11 @@
 import type { ReactNode } from 'react'
 import { Link, Navigate, useParams } from 'react-router'
 import { SpoilerNotice } from '../components/SpoilerNotice'
-import { findBook } from '../data/books'
-import { findCharacter } from '../data/characters'
+import { findBook, seriesOf } from '../data/books'
+import { findPerson } from '../data/people'
 import { characterDetails } from '../data/characterDetails'
 import { chapterLabel } from '../data/progress'
-import { revealCharacter } from '../data/reveal'
+import { findPersona, hasMet, revealCharacter } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
 import { NotFound } from './NotFound'
@@ -16,17 +16,41 @@ interface CharacterTab {
   content: ReactNode
 }
 
+/** Headings for family ties, in the order they're listed. */
+const relationLabels: Record<string, string> = {
+  parent: 'Parents',
+  sibling: 'Siblings',
+  spouse: 'Spouse',
+  child: 'Children',
+  relative: 'Other relatives',
+  ancestor: 'Ancestors',
+}
+
+const relationLabel = (relation: string) =>
+  relationLabels[relation] ??
+  relation.charAt(0).toUpperCase() + relation.slice(1)
+
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
 
 export function CharacterDetail() {
   const { characterId, tab } = useParams()
-  const character = findCharacter(characterId)
+  const character = findPerson(characterId)
+  const persona = findPersona(characterId)
   const { viewAnyway } = useBooksRead()
   const canSee = useCanSee()
   const systems = useShownSystems()
 
   if (!character) return <NotFound />
+  // Once the reader can tell who a persona is, it's the character's page.
+  if (persona && canSee(persona.identityRevealedIn))
+    return (
+      <Navigate
+        to={`/characters/${persona.characterId}${tab ? `/${tab}` : ''}`}
+        replace
+      />
+    )
+  const details = characterDetails[persona?.characterId ?? character.id]
   const scope = `character:${character.id}`
   const shown = revealCharacter(character.id, canSee, viewAnyway.has(scope))
 
@@ -54,14 +78,27 @@ export function CharacterDetail() {
       </>
     )
 
-  const tabs: CharacterTab[] = characterDetails[character.id]
+  const relationOrder = Object.keys(relationLabels)
+  const relations = [...new Set(shown.relatives.map((r) => r.relation))].sort(
+    (a, b) =>
+      (relationOrder.indexOf(a) + 1 || 99) -
+      (relationOrder.indexOf(b) + 1 || 99),
+  )
+
+  const tabs: CharacterTab[] = details
     ? [
         {
           id: 'overview',
           label: 'Overview',
           content: ((system && world) ||
-            shown.species.length > 0 ||
-            shown.abilities.length > 0) && (
+            [
+              shown.species,
+              shown.nationality,
+              shown.profession,
+              shown.abilities,
+              shown.groups,
+              shown.bonds,
+            ].some((items) => items.length > 0)) && (
             <dl>
               {system && world && (
                 <>
@@ -74,7 +111,42 @@ export function CharacterDetail() {
                 </>
               )}
               {list('Species', shown.species)}
+              {list('Nationality', shown.nationality)}
+              {list('Profession', shown.profession)}
               {list('Abilities', shown.abilities)}
+              {list('Groups', shown.groups)}
+              {list('Bonded with', shown.bonds)}
+            </dl>
+          ),
+        },
+        {
+          id: 'relationships',
+          label: 'Relationships',
+          content: relations.length > 0 && (
+            <dl>
+              {relations.map((relation) => (
+                <div key={relation}>
+                  <dt>{relationLabel(relation)}</dt>
+                  <dd>
+                    <ul className="character-relatives">
+                      {shown.relatives
+                        .filter((r) => r.relation === relation)
+                        .map((r) => (
+                          <li key={r.name}>
+                            {/* An unmet relative's page would only say "not met yet". */}
+                            {r.characterId && hasMet(r.characterId, canSee) ? (
+                              <Link to={`/characters/${r.characterId}`}>
+                                {r.name}
+                              </Link>
+                            ) : (
+                              r.name
+                            )}
+                          </li>
+                        ))}
+                    </ul>
+                  </dd>
+                </div>
+              ))}
             </dl>
           ),
         },
@@ -115,12 +187,25 @@ export function CharacterDetail() {
     <article className="character-detail" aria-labelledby="character-title">
       <SpoilerNotice scope={scope} spoilers={shown.spoilers} />
       <h1 id="character-title">{character.name}</h1>
+      {shown.personas.map(({ name, books }) => (
+        <p key={name} className="character-persona">
+          Known as <strong>{name}</strong> in{' '}
+          {[...new Set(books.map((b) => seriesOf(b)?.name ?? b))].map(
+            (series, i) => (
+              <span key={series}>
+                {i > 0 && ', '}
+                <cite>{series}</cite>
+              </span>
+            ),
+          )}
+        </p>
+      ))}
       {shown.aliases.length > 0 && (
         <p className="planet-detail-aka">
           Also known as {shown.aliases.join(', ')}
         </p>
       )}
-      {!characterDetails[character.id] ? (
+      {!details ? (
         <p>Details coming soon.</p>
       ) : active ? (
         <>

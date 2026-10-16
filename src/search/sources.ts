@@ -1,8 +1,12 @@
 import { bookMeta, books, seriesOf } from '../data/books'
-import { characterDetails } from '../data/characterDetails'
-import { characters } from '../data/characters'
+import { people as characters } from '../data/people'
 import { findLocation, kindLabels, locations } from '../data/locations'
-import { firstMet } from '../data/reveal'
+import {
+  findPersona,
+  metIn,
+  revealCharacter,
+  seenThrough,
+} from '../data/reveal'
 import { systems } from '../data/systems'
 import type { SearchSource } from './types'
 
@@ -101,18 +105,25 @@ const people: SearchSource = {
   label: 'Characters',
   icon: 'character',
   entries: (canSee) =>
-    characters.map((character) => {
-      const details = characterDetails[character.id]
+    characters.flatMap((character) => {
+      const persona = findPersona(character.id)
+      // Once the reader can tell who a persona is, the character's own entry
+      // finds them under that name.
+      if (persona && seenThrough(persona, canSee)) return []
+      const revealedIn = metIn(character.id, canSee)
+      const shown = persona ? undefined : revealCharacter(character.id, canSee)
+      const personaNames = shown?.personas.map((p) => p.name) ?? []
       return {
         key: `character:${character.id}`,
-        title: character.name,
-        aliases: details?.aliases
-          .filter((a) => canSee(a.revealedIn))
-          .map((a) => a.name),
+        // "Vasher (Zahel)", so a search for either shows they're one person.
+        title: personaNames.length
+          ? `${character.name} (${personaNames.join(', ')})`
+          : character.name,
+        aliases: shown ? [...personaNames, ...shown.aliases] : [],
         subtitle: 'Character',
         href: `/characters/${character.id}`,
-        revealedIn: details && firstMet(details),
-        exactMatch: details && {
+        revealedIn,
+        exactMatch: revealedIn && {
           names: exactNames(character.name),
           subtitle: 'Character · not met yet',
         },

@@ -5,8 +5,10 @@ import type {
   Fact,
   Location,
   Passage,
+  Persona,
   Planet,
   Reveal,
+  RevealPoint,
   StarSystem,
   Story,
 } from './types'
@@ -200,13 +202,76 @@ export function revealLocation(
 export const firstMet = (details: CharacterDetails): Reveal =>
   details.appearsIn.flatMap((s) => s.revealedIn)
 
+/** A character's other name, listed alongside the characters. */
+export interface PersonaEntry extends Persona {
+  characterId: string
+}
+
+export const personas: PersonaEntry[] = Object.entries(
+  characterDetails,
+).flatMap(([characterId, details]) =>
+  (details.personas ?? []).map((p) => ({ ...p, characterId })),
+)
+const personaById = new Map(personas.map((p) => [p.id, p]))
+
+export const findPersona = (id?: string) =>
+  id === undefined ? undefined : personaById.get(id)
+
+const pointBooks = (point: RevealPoint): string[] =>
+  typeof point === 'string'
+    ? [point]
+    : 'all' in point
+      ? point.all.flatMap(pointBooks)
+      : [point.book]
+
+/**
+ * The details a page draws on, and which of their reveal points it may use.
+ * A persona's page uses only the persona's books. A character's page leaves
+ * those books out until the reader can tell who the persona is.
+ */
+function view(id: string, canSee: CanSee) {
+  const persona = personaById.get(id)
+  const details = characterDetails[persona?.characterId ?? id]
+  if (!details) return undefined
+  if (persona) {
+    const books = new Set(persona.books)
+    const trim = (reveal: Reveal) =>
+      reveal.filter((p) => pointBooks(p).every((b) => books.has(b)))
+    return { details, persona, trim }
+  }
+  const hidden = new Set(
+    (details.personas ?? [])
+      .filter((p) => !canSee(p.identityRevealedIn))
+      .flatMap((p) => p.books),
+  )
+  const trim = (reveal: Reveal) =>
+    reveal.filter((p) => !pointBooks(p).some((b) => hidden.has(b)))
+  return { details, persona: undefined, trim }
+}
+
+/**
+ * Where the reader first meets a character or persona, or undefined for a
+ * character without details yet. A persona the reader has seen through is
+ * never met: they meet the character instead.
+ */
+export function metIn(id: string, canSee: CanSee): Reveal | undefined {
+  const v = view(id, canSee)
+  if (!v) return undefined
+  if (v.persona && canSee(v.persona.identityRevealedIn)) return []
+  return v.trim(firstMet(v.details))
+}
+
+/** Whether the reader can tell who a persona really is. */
+export const seenThrough = (persona: Persona, canSee: CanSee) =>
+  canSee(persona.identityRevealedIn)
+
 /**
  * Whether the reader has met a character. Characters without details yet
  * can't be checked, so they count as met.
  */
 export function hasMet(characterId: string, canSee: CanSee) {
-  const details = characterDetails[characterId]
-  return !details || canSee(firstMet(details))
+  const reveal = metIn(characterId, canSee)
+  return !reveal || canSee(reveal)
 }
 
 /** A character's details trimmed to what the reader may see. */
@@ -219,9 +284,19 @@ export interface ShownCharacter {
   appearsIn: { bookId: string; chapter?: string }[]
   /** Planet id of their home world. */
   world?: string
+  /**
+   * Other names they go by in whole series (see Persona), once the reader
+   * can tell it's the same person. Left out of `aliases`.
+   */
+  personas: { name: string; books: readonly string[] }[]
   aliases: string[]
   species: string[]
   abilities: string[]
+  nationality: string[]
+  profession: string[]
+  groups: string[]
+  bonds: string[]
+  relatives: { name: string; relation: string; characterId?: string }[]
   /** Whether unread books hide anything about this character. */
   spoilers: boolean
 }
@@ -235,40 +310,85 @@ export function revealCharacter(
   canSee: CanSee,
   viewAnyway = false,
 ): ShownCharacter {
-  const details = characterDetails[characterId]
-  const empty = { appearsIn: [], aliases: [], species: [], abilities: [] }
-  if (!details) return { met: true, ...empty, spoilers: false }
-  const met = canSee(firstMet(details))
+  const v = view(characterId, canSee)
+  const empty = {
+    appearsIn: [],
+    personas: [],
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  }
+  if (!v) return { met: true, ...empty, spoilers: false }
+  const { details, persona, trim } = v
+  const met = hasMet(characterId, canSee)
   if (!met && !viewAnyway) return { met, ...empty, spoilers: true }
 
   let spoilers = !met
-  const show = (reveal: Reveal) => {
+  const show = (all: Reveal) => {
+    const reveal = trim(all)
+    // A persona's page never shows what the character's other books reveal.
+    if (persona && reveal.length === 0) return false
     if (canSee(reveal)) return true
     spoilers = true
     return viewAnyway
   }
-  const names = (facts: Fact[]) =>
+  const names = (facts: Fact[] = []) =>
     facts.filter((f) => show(f.revealedIn)).map((f) => f.name)
 
+  const appearsIn = details.appearsIn
+    .filter((s) => show(s.revealedIn))
+    .map(({ bookId, revealedIn }) => {
+      // In an `all` point, the first chapter of this book is where they
+      // appear; the other points say what else it takes to recognize them.
+      const first = trim(revealedIn)
+        .flatMap((p) => (typeof p !== 'string' && 'all' in p ? p.all : [p]))
+        .find((p) => typeof p !== 'string' && p.book === bookId)
+      return typeof first === 'object'
+        ? { bookId, chapter: first.chapter }
+        : { bookId }
+    })
+  // Only the persona's books the reader has met them in, so the header
+  // doesn't hint at books they haven't reached.
+  const shownPersonas = persona
+    ? []
+    : (details.personas ?? [])
+        .filter((p) => show(p.identityRevealedIn))
+        .map(({ name, books }) => ({
+          name,
+          books: books.filter((b) => appearsIn.some((s) => s.bookId === b)),
+        }))
   return {
     met,
-    appearsIn: details.appearsIn
-      .filter((s) => show(s.revealedIn))
-      .map(({ bookId, revealedIn }) => {
-        const first = revealedIn.find(
-          (p) => typeof p !== 'string' && p.book === bookId,
-        )
-        return typeof first === 'object'
-          ? { bookId, chapter: first.chapter }
-          : { bookId }
-      }),
+    appearsIn,
     world:
       details.world && show(details.world.revealedIn)
         ? details.world.planetId
         : undefined,
-    aliases: names(details.aliases),
+    personas: shownPersonas,
+    // Shown personas get their own line; a persona's page is already titled
+    // with its name. Otherwise the name is just another alias.
+    aliases: names(details.aliases).filter(
+      (name) =>
+        name !== persona?.name && !shownPersonas.some((p) => p.name === name),
+    ),
     species: names(details.species),
     abilities: names(details.abilities),
+    nationality: names(details.nationality),
+    profession: names(details.profession),
+    groups: names(details.groups),
+    bonds: names(details.bonds),
+    relatives: (details.relatives ?? [])
+      .filter((r) => show(r.revealedIn))
+      .map(({ name, relation, characterId }) => ({
+        name,
+        relation,
+        characterId,
+      })),
     spoilers,
   }
 }

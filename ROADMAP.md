@@ -340,7 +340,7 @@ Category:Cosmere; check anything unclear by hand.
       cut off at the reader's chapter
     - **Relationships**: family (parents, siblings, spouse, children,
       ancestors) and key relationships, linking to other characters' pages
-      (unmet characters hidden)
+      (linked once the reader has met them)
     - **Appearance & Personality**
     - **Travels**: the world-hopper timeline (below); only for world
       hoppers
@@ -350,6 +350,38 @@ Category:Cosmere; check anything unclear by hand.
         species and abilities; Appearances with each book's first chapter).
         Other names stay above the tabs. Switching tabs is instant (no page
         transition within one page)
+  - [x] Coppermind sidebar facts for the pilot characters: nationality,
+        profession, groups and bonds in Overview, and a **Relationships**
+        tab (parents, siblings, spouse, children, other relatives,
+        ancestors). A relative links to their page once the reader has met
+        them. Each tie is dated by a footnoted sentence that names both the
+        person and the relation (e.g. "married"), not by the name alone;
+        engagements don't count as marriages; both sides of a tie (e.g.
+        husband and wife) share one date. Nameless relatives ("her mother")
+        are left out
+  - [x] Rechecked every hand-set date against the footnotes (e.g.
+        Stormblessed now from The Way of Kings chapter 2, Lift's
+        Edgedancer order from Words of Radiance Interlude 9)
+  - [x] **Personas** for characters who go by another name in other books
+        (Vasher as Zahel in the Stormlight Archive). Until the reader has read
+        the character's own books **and** reached the persona's first
+        appearance, the persona gets its own page, list entry and search
+        result with only what its books reveal, and the character's page
+        leaves those books out. Past that point (stated in the books or not)
+        the persona page turns into the character's, which shows the other
+        name up top ("Known as Zahel in The Stormlight Archive") apart from
+        minor aliases, and search titles it "Vasher (Zahel)". Built on "all
+        of" reveal points (reached once every part is)
+  - [x] Same treatment for the rest of the pilot: Vivenna as Azure
+        (Oathbringer), Marsh as Ironeyes (The Alloy of Law; Era 1 readers
+        already know the nickname), Kelsier as Thaidakar (Wind and Truth),
+        Hoid as Wit (The Stormlight Archive, The Sunlit Man). The header
+        names only series the reader has reached
+  - [x] Unnamed cameos (e.g. Hoid as a beggar or coachman in Mistborn) count
+        only once the reader has met the character by name in another book
+        and reached the cameo
+  - [ ] Check for personas and cameos when scaling to every character
+        (e.g. Khriss)
   - [ ] Leave out of tabs: Coppermind's Trivia, Development and Speculation
         sections, and Words of Brandon (out of the books, and hard to date
         for spoilers); keep the Coppermind link for those

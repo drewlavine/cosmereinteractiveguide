@@ -77,6 +77,21 @@ describe('search', () => {
     expect(search.get('character:kaladin')).toBeUndefined()
   })
 
+  it('finds Zahel as himself until the reader can tell he is Vasher', () => {
+    const stormlight = reader('words-of-radiance')
+    expect(keys(stormlight, 'zahel')[0]).toBe('character:zahel')
+    expect(keys(stormlight, 'zahel')).not.toContain('character:vasher')
+    expect(keys(reader(), 'zahel')).toContain('character:zahel')
+    const both = reader('warbreaker', 'words-of-radiance')
+    expect(keys(both, 'zahel')[0]).toBe('character:vasher')
+    const [hit] = both.search('zahel').groups[0].hits
+    expect(hit.title).toBe('Vasher (Zahel)')
+    expect(reader('warbreaker').search('vasher').groups[0].hits[0].title).toBe(
+      'Vasher',
+    )
+    expect(keys(both, 'zahel')).not.toContain('character:zahel')
+  })
+
   it('only looks up entries the reader may see', () => {
     expect(reader().get('planet:sel')).toBeUndefined()
     expect(reader('elantris').get('planet:sel')?.title).toBe('Sel')

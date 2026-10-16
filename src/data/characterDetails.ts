@@ -62,7 +62,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Son of Tanavast', revealedIn: ['wind-and-truth'] },
       { name: 'Knight of Wind', revealedIn: ['wind-and-truth'] },
       { name: 'Head of the Cobalt Guard', revealedIn: ['wind-and-truth'] },
-      { name: 'Stormblessed', revealedIn: ['way-of-kings'] },
+      {
+        name: 'Stormblessed',
+        revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+      },
     ],
     species: [
       { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
@@ -83,6 +86,87 @@ export const characterDetails: Record<string, CharacterDetails> = {
       {
         name: 'Surgebinder',
         revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+      { name: 'Therapist', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '16' }],
+      },
+      { name: 'Apprentice surgeon', revealedIn: ['wind-and-truth'] },
+    ],
+    groups: [
+      { name: 'Herald of the Almighty', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Knights Radiant (Windrunners)',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+      { name: 'Kholin army', revealedIn: ['wind-and-truth'] },
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['wind-and-truth'] },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      { name: 'Takers', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+      { name: 'Kholinar Wall Guard', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [
+      {
+        name: 'Sylphrena',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Lirin',
+        relation: 'parent',
+        characterId: 'lirin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Hesina',
+        relation: 'parent',
+        characterId: 'hesina',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+      {
+        name: 'Tien',
+        relation: 'sibling',
+        characterId: 'tien',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Oroden',
+        relation: 'sibling',
+        characterId: 'oroden',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        name: 'Aesudan',
+        relation: 'relative',
+        characterId: 'aesudan-kholin',
+        revealedIn: ['wind-and-truth'],
       },
     ],
   },
@@ -128,7 +212,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Kishi',
         revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
       },
-      { name: 'Formless', revealedIn: ['rhythm-of-war'] },
+      {
+        name: 'Formless',
+        revealedIn: [{ book: 'oathbringer', chapter: '78' }],
+      },
       {
         name: "Unulukuak'kina'autu'atai",
         revealedIn: [{ book: 'rhythm-of-war', chapter: '90' }],
@@ -147,8 +234,91 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
     ],
     abilities: [
-      { name: 'Lightweaver', revealedIn: ['words-of-radiance'] },
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
       { name: 'Shardbearer', revealedIn: ['words-of-radiance'] },
+    ],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '32' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Pattern',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '15' }],
+      },
+      {
+        name: 'Testament',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Lin Davar',
+        relation: 'parent',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+      {
+        name: 'Chanarach',
+        relation: 'parent',
+        characterId: 'chanarach',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'sibling',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'sibling',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '27' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'sibling',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'sibling',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+      {
+        name: 'Adolin Kholin',
+        relation: 'spouse',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
     ],
   },
   'dalinar-kholin': {
@@ -179,9 +349,15 @@ export const characterDetails: Record<string, CharacterDetails> = {
       revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
     },
     aliases: [
-      { name: 'Blackthorn', revealedIn: ['way-of-kings'] },
+      {
+        name: 'Blackthorn',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
       { name: 'Highprince of Alethkar', revealedIn: ['wind-and-truth'] },
-      { name: 'Highprince of War', revealedIn: ['words-of-radiance'] },
+      {
+        name: 'Highprince of War',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
       { name: 'King of Urithiru', revealedIn: ['wind-and-truth'] },
       {
         name: 'Honor',
@@ -206,6 +382,93 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Old Magic', revealedIn: ['oathbringer'] },
       { name: 'Shardbearer', revealedIn: ['way-of-kings'] },
       { name: 'Sliver', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '64' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Bondsmiths)',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '89' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '66' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Stormfather',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Gavilar',
+        relation: 'sibling',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        name: 'Evi',
+        relation: 'spouse',
+        characterId: 'evi-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '71' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'spouse',
+        characterId: 'navani-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'child',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'child',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+      {
+        name: 'Shallan Davar',
+        relation: 'daughter-in-law',
+        characterId: 'shallan-davar',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'relative',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'relative',
+        characterId: 'elhokar-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'relative',
+        characterId: 'gavinor-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'House Davar',
+        relation: 'relative',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
     ],
   },
   'adolin-kholin': {
@@ -247,6 +510,89 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
     ],
     abilities: [{ name: 'Shardbearer', revealedIn: ['way-of-kings'] }],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '136' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dalinar',
+        relation: 'parent',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Evi',
+        relation: 'parent',
+        characterId: 'evi-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'sibling',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'spouse',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Gavilar',
+        relation: 'relative',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'relative',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'relative',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'relative',
+        characterId: 'navani-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Toh',
+        relation: 'relative',
+        characterId: 'toh',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'relative',
+        characterId: 'gavinor-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   'navani-kholin': {
     appearsIn: [
@@ -304,6 +650,60 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'rhythm-of-war', chapter: '110' }],
       },
     ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Bondsmiths)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '110' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Sibling',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '110' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Gavilar',
+        relation: 'spouse',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'spouse',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'child',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'child',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   'jasnah-kholin': {
     appearsIn: [
@@ -352,6 +752,82 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'rhythm-of-war', chapter: '64' }],
       },
     ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '38' }] },
+    ],
+    profession: [
+      {
+        name: 'Historian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '61' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Elsecallers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '119' }],
+      },
+      {
+        name: 'Veristitalians',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    bonds: [{ name: 'Ivory', revealedIn: ['wind-and-truth'] }],
+    relatives: [
+      {
+        name: 'Gavilar',
+        relation: 'parent',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'parent',
+        characterId: 'navani-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'sibling',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'relative',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'relative',
+        characterId: 'gavinor-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Shallan',
+        relation: 'relative',
+        characterId: 'shallan-davar',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   'renarin-kholin': {
     appearsIn: [
@@ -398,6 +874,86 @@ export const characterDetails: Record<string, CharacterDetails> = {
       {
         name: 'Shardbearer',
         revealedIn: [{ book: 'words-of-radiance', chapter: '56' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '52' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Truthwatchers)',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '89' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+      },
+      { name: 'Kholin army', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [
+      { name: 'Glys', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    relatives: [
+      {
+        name: 'Dalinar',
+        relation: 'parent',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+      {
+        name: 'Evi',
+        relation: 'parent',
+        characterId: 'evi-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '61' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'sibling',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Gavilar',
+        relation: 'relative',
+        characterId: 'gavilar-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'relative',
+        characterId: 'jasnah-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'relative',
+        characterId: 'elhokar-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Navani',
+        relation: 'relative',
+        characterId: 'navani-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Toh',
+        relation: 'relative',
+        characterId: 'toh',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'relative',
+        characterId: 'gavinor-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
       },
     ],
   },
@@ -473,6 +1029,57 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
       },
     ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Assassin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    groups: [
+      { name: 'Knights Radiant (Skybreakers)', revealedIn: ['oathbringer'] },
+    ],
+    bonds: [
+      {
+        name: '12124',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '133' }],
+      },
+    ],
+    relatives: [
+      { name: 'Neturo', relation: 'parent', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Zeenid',
+        relation: 'parent',
+        characterId: 'zeenid-daughter-beth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+      {
+        name: 'Elid',
+        relation: 'sibling',
+        characterId: 'elid-daughter-zeenid',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      {
+        name: 'Masha-daughter-Shaliv',
+        relation: 'spouse',
+        characterId: 'masha-daughter-shaliv',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Vallano',
+        relation: 'paternal grandfather',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Beth',
+        relation: 'maternal grandmother',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   lift: {
     appearsIn: [
@@ -509,13 +1116,38 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     abilities: [
-      { name: 'Edgedancer', revealedIn: ['edgedancer'] },
+      {
+        name: 'Edgedancer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
       { name: 'Shardbearer', revealedIn: ['wind-and-truth'] },
       {
         name: 'Old Magic',
         revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
       },
     ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Thief',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Huqin's crew",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        name: 'Knights Radiant (Edgedancers)',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    bonds: [
+      { name: 'Wyndle', revealedIn: ['wind-and-truth'] },
+      { name: 'Aviar', revealedIn: ['wind-and-truth'] },
+    ],
+    relatives: [],
   },
   venli: {
     appearsIn: [
@@ -563,6 +1195,37 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'rhythm-of-war', chapter: '67' }],
       },
     ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '52' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Timbre', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    relatives: [
+      {
+        name: 'Jaxlim',
+        relation: 'parent',
+        characterId: 'jaxlim',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+      {
+        name: 'Eshonai',
+        relation: 'sibling',
+        characterId: 'eshonai',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+      },
+      {
+        name: 'Demid',
+        relation: 'spouse',
+        characterId: 'demid',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
   },
   sylphrena: {
     appearsIn: [
@@ -599,6 +1262,17 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Kaladin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+      { name: 'Relador', revealedIn: [{ book: 'oathbringer', chapter: '95' }] },
+    ],
+    relatives: [],
   },
   pattern: {
     appearsIn: [
@@ -631,6 +1305,16 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Shallan',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+    relatives: [],
   },
   teft: {
     appearsIn: [
@@ -666,6 +1350,33 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       { name: 'Shardbearer', revealedIn: ['rhythm-of-war'] },
     ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'oathbringer', chapter: '41' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '11' }],
+      },
+      {
+        name: 'Envisagers',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['rhythm-of-war'] },
+      { name: 'Kholin army', revealedIn: ['rhythm-of-war'] },
+    ],
+    bonds: [
+      {
+        name: 'Phendorana',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-14' }],
+      },
+    ],
+    relatives: [],
   },
   moash: {
     appearsIn: [
@@ -712,6 +1423,55 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Shardbearer', revealedIn: ['wind-and-truth'] },
       { name: 'Surgebinder', revealedIn: ['wind-and-truth'] },
       { name: 'Hemalurgist', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+      {
+        name: 'Caravaneer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    groups: [
+      { name: 'Sadeas army', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      { name: 'Kholin army', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+      { name: 'Voidbringers', revealedIn: ['oathbringer'] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ana',
+        relation: 'ancestor',
+        characterId: 'ana',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+      {
+        name: 'Da',
+        relation: 'ancestor',
+        characterId: 'da',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
     ],
   },
   vin: {
@@ -780,6 +1540,53 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Hemalurgist', revealedIn: ['secret-history'] },
       { name: 'Sliver', revealedIn: ['secret-history'] },
     ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Camon's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '37' }],
+      },
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '29' }],
+      },
+      { name: 'Venture army', revealedIn: ['secret-history'] },
+      { name: 'Preservers', revealedIn: ['secret-history'] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tevidian Tekiel',
+        relation: 'parent',
+        characterId: 'tevidian-tekiel',
+        revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+      {
+        name: 'Reen',
+        relation: 'sibling',
+        characterId: 'reen',
+        revealedIn: [{ book: 'final-empire', chapter: '2' }],
+      },
+      {
+        name: 'Elend Venture',
+        relation: 'spouse',
+        characterId: 'elend-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '48' }],
+      },
+      {
+        name: 'Salmen Tekiel',
+        relation: 'relative',
+        characterId: 'salmen-tekiel',
+        revealedIn: ['secret-history'],
+      },
+      {
+        name: 'Kale Tekiel',
+        relation: 'relative',
+        characterId: 'kale-tekiel',
+        revealedIn: ['secret-history'],
+      },
+    ],
   },
   kelsier: {
     appearsIn: [
@@ -795,6 +1602,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       {
         bookId: 'lost-metal',
         revealedIn: [{ book: 'lost-metal', chapter: '40' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
       },
     ],
     world: {
@@ -823,7 +1634,14 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Thaidakar',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+        revealedIn: [
+          {
+            all: [
+              'final-empire',
+              { book: 'wind-and-truth', chapter: 'prologue' },
+            ],
+          },
+        ],
       },
       {
         name: 'Survivor',
@@ -836,6 +1654,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [
           { book: 'final-empire', chapter: 'prologue' },
           { book: 'lost-metal', chapter: '40' },
+          { book: 'wind-and-truth', chapter: 'prologue' },
         ],
       },
       {
@@ -854,6 +1673,53 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       { name: 'Sliver', revealedIn: ['secret-history'] },
       { name: 'Hemalurgist', revealedIn: ['lost-metal'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+      { name: 'Preservers', revealedIn: ['lost-metal'] },
+      {
+        name: 'Ghostbloods',
+        revealedIn: [
+          { book: 'lost-metal', chapter: '40' },
+          { book: 'wind-and-truth', chapter: '147' },
+        ],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Marsh',
+        relation: 'sibling',
+        characterId: 'marsh',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+      {
+        name: 'Mare',
+        relation: 'spouse',
+        characterId: 'mare',
+        revealedIn: [{ book: 'final-empire', chapter: '4' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'thaidakar',
+        name: 'Thaidakar',
+        coppermindPage: 'Thaidakar',
+        books: ['wind-and-truth'],
+        identityRevealedIn: [
+          {
+            all: [
+              'final-empire',
+              { book: 'wind-and-truth', chapter: 'prologue' },
+            ],
+          },
+        ],
+      },
     ],
   },
   'elend-venture': {
@@ -897,6 +1763,42 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
     ],
     abilities: [{ name: 'Mistborn', revealedIn: ['well-of-ascension'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Preservers', revealedIn: ['secret-history'] },
+      { name: 'Venture army', revealedIn: ['secret-history'] },
+      {
+        name: 'Luthadel Assembly',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '10' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Straff Venture',
+        relation: 'parent',
+        characterId: 'straff-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '20' }],
+      },
+      {
+        name: 'Sabrienne Venture',
+        relation: 'parent',
+        revealedIn: ['secret-history'],
+      },
+      {
+        name: 'Zane Venture',
+        relation: 'sibling',
+        characterId: 'zane-venture',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '18' }],
+      },
+      {
+        name: 'Vin',
+        relation: 'spouse',
+        characterId: 'vin',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '48' }],
+      },
+    ],
   },
   sazed: {
     appearsIn: [
@@ -946,7 +1848,29 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'hero-of-ages', chapter: '82' }],
       },
     ],
-    abilities: [{ name: 'Feruchemist', revealedIn: ['final-empire'] }],
+    abilities: [
+      {
+        name: 'Feruchemist',
+        revealedIn: [{ book: 'final-empire', chapter: '22' }],
+      },
+    ],
+    nationality: [
+      { name: 'Terris', revealedIn: [{ book: 'final-empire', chapter: '8' }] },
+    ],
+    profession: [
+      { name: 'Keeper', revealedIn: [{ book: 'final-empire', chapter: '22' }] },
+      { name: 'Steward', revealedIn: [{ book: 'final-empire', chapter: '8' }] },
+    ],
+    groups: [
+      {
+        name: "Kelsier's crew",
+        revealedIn: [{ book: 'well-of-ascension', chapter: '9' }],
+      },
+      { name: 'Venture army', revealedIn: ['secret-history'] },
+      { name: 'Preservers', revealedIn: ['secret-history'] },
+    ],
+    bonds: [],
+    relatives: [],
   },
   marsh: {
     appearsIn: [
@@ -964,7 +1888,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         bookId: 'alloy-of-law',
-        revealedIn: [{ book: 'lost-metal', chapter: '27' }],
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
       },
       {
         bookId: 'secret-history',
@@ -979,11 +1903,14 @@ export const characterDetails: Record<string, CharacterDetails> = {
       planetId: 'scadrial',
       revealedIn: [
         { book: 'final-empire', chapter: '6' },
-        { book: 'lost-metal', chapter: '27' },
+        { book: 'alloy-of-law', chapter: 'epilogue' },
       ],
     },
     aliases: [
-      { name: 'Ironeyes', revealedIn: [{ book: 'lost-metal', chapter: '27' }] },
+      {
+        name: 'Ironeyes',
+        revealedIn: [{ book: 'final-empire', chapter: '10' }],
+      },
       { name: 'Death', revealedIn: [{ book: 'lost-metal', chapter: '27' }] },
     ],
     species: [
@@ -991,7 +1918,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Human',
         revealedIn: [
           { book: 'final-empire', chapter: '6' },
-          { book: 'lost-metal', chapter: '27' },
+          { book: 'alloy-of-law', chapter: 'epilogue' },
         ],
       },
       {
@@ -1004,6 +1931,39 @@ export const characterDetails: Record<string, CharacterDetails> = {
       {
         name: 'Hemalurgist',
         revealedIn: [{ book: 'final-empire', chapter: 'epilogue' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: "Kelsier's crew", revealedIn: ['lost-metal'] },
+      { name: 'Skaa rebellion', revealedIn: ['final-empire'] },
+      { name: 'Preservers', revealedIn: ['lost-metal'] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kelsier',
+        relation: 'sibling',
+        characterId: 'kelsier',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'ironeyes',
+        name: 'Ironeyes',
+        coppermindPage: 'Marsh',
+        books: ['alloy-of-law'],
+        identityRevealedIn: [
+          {
+            all: [
+              { book: 'final-empire', chapter: '10' },
+              { book: 'alloy-of-law', chapter: 'epilogue' },
+            ],
+          },
+          { book: 'lost-metal', chapter: '27' },
+        ],
       },
     ],
   },
@@ -1056,6 +2016,34 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       { name: 'Hemalurgist', revealedIn: ['secret-history'] },
     ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Preservers', revealedIn: ['secret-history'] },
+      { name: 'Venture army', revealedIn: ['secret-history'] },
+      { name: 'Originators', revealedIn: ['secret-history'] },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jedal',
+        relation: 'parent',
+        characterId: 'jedal',
+        revealedIn: [{ book: 'hero-of-ages', chapter: '23' }],
+      },
+      {
+        name: 'Margel',
+        relation: 'parent',
+        characterId: 'margel',
+        revealedIn: ['secret-history'],
+      },
+      {
+        name: 'Cladent',
+        relation: 'relative',
+        characterId: 'cladent',
+        revealedIn: ['secret-history'],
+      },
+    ],
   },
   'waxillium-ladrian': {
     appearsIn: [
@@ -1107,6 +2095,82 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Hemalurgist', revealedIn: ['lost-metal'] },
       { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
     ],
+    nationality: [],
+    profession: [
+      { name: 'Lawman', revealedIn: [{ book: 'alloy-of-law', chapter: '4' }] },
+      { name: 'High Lord', revealedIn: ['lost-metal'] },
+      { name: 'Senator', revealedIn: [{ book: 'lost-metal', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Telsin',
+        relation: 'sibling',
+        characterId: 'telsin-ladrian',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        name: 'Paalm',
+        relation: 'spouse',
+        characterId: 'paalm',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Steris Harms',
+        relation: 'spouse',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '3' }],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'child',
+        characterId: 'maxillium-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'child',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: [{ book: 'lost-metal', chapter: '2' }],
+      },
+      {
+        name: 'Edwarn',
+        relation: 'relative',
+        characterId: 'edwarn-ladrian',
+        revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Hinston',
+        relation: 'relative',
+        characterId: 'hinston-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Edgard Ladrian',
+        relation: 'ancestor',
+        characterId: 'edgard-ladrian',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        name: 'Allrianne Cett',
+        relation: 'ancestor',
+        characterId: 'allrianne-cett',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '5' }],
+      },
+      {
+        name: 'Ashweather Cett',
+        relation: 'ancestor',
+        characterId: 'ashweather-cett',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Vwafendal',
+        relation: 'ancestor',
+        characterId: 'vwafendal',
+        revealedIn: ['lost-metal'],
+      },
+    ],
   },
   wayne: {
     appearsIn: [
@@ -1146,11 +2210,34 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
     ],
     abilities: [
-      { name: 'Twinborn', revealedIn: ['alloy-of-law'] },
+      {
+        name: 'Twinborn',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
       { name: 'Slider', revealedIn: [{ book: 'alloy-of-law', chapter: '9' }] },
-      { name: 'Bloodmaker', revealedIn: ['alloy-of-law'] },
+      {
+        name: 'Bloodmaker',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
       { name: 'Hemalurgist', revealedIn: ['lost-metal'] },
       { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gregr',
+        relation: 'relative',
+        characterId: 'gregr',
+        revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+      },
     ],
   },
   'marasi-colms': {
@@ -1183,6 +2270,53 @@ export const characterDetails: Record<string, CharacterDetails> = {
     abilities: [
       { name: 'Pulser', revealedIn: [{ book: 'alloy-of-law', chapter: '19' }] },
     ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Constable',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jackstom Harms',
+        relation: 'parent',
+        characterId: 'jackstom-harms',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Steris Harms',
+        relation: 'sibling',
+        characterId: 'steris-harms',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'relative',
+        characterId: 'maxillium-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'relative',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Armal',
+        relation: 'relative',
+        characterId: 'armal',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
   },
   'steris-harms': {
     appearsIn: [
@@ -1212,6 +2346,42 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
     ],
     abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Marasi Colms',
+        relation: 'sibling',
+        characterId: 'marasi-colms',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '9' }],
+      },
+      {
+        name: 'Maxillium',
+        relation: 'child',
+        characterId: 'maxillium-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Tindwyl',
+        relation: 'child',
+        characterId: 'tindwyl-ladrian',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Armal',
+        relation: 'relative',
+        characterId: 'armal',
+        revealedIn: ['lost-metal'],
+      },
+      {
+        name: 'Spook',
+        relation: 'ancestor',
+        characterId: 'spook',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '7' }],
+      },
+    ],
   },
   raoden: {
     appearsIn: [
@@ -1233,6 +2403,24 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '1' }] },
     ],
     abilities: [{ name: 'AonDor', revealedIn: ['elantris'] }],
+    nationality: [{ name: 'Arelene', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Ien', revealedIn: ['hope-of-elantris'] }],
+    relatives: [
+      {
+        name: 'Iadon',
+        relation: 'parent',
+        characterId: 'iadon',
+        revealedIn: [{ book: 'elantris', chapter: '46' }],
+      },
+      {
+        name: 'Sarene',
+        relation: 'spouse',
+        characterId: 'sarene',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+    ],
   },
   sarene: {
     appearsIn: [
@@ -1257,6 +2445,48 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '2' }] },
     ],
     abilities: [],
+    nationality: [{ name: 'Teo', revealedIn: ['hope-of-elantris'] }],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Ashe', revealedIn: ['hope-of-elantris'] }],
+    relatives: [
+      {
+        name: 'Eventeo',
+        relation: 'parent',
+        characterId: 'eventeo',
+        revealedIn: [{ book: 'elantris', chapter: '17' }],
+      },
+      {
+        name: 'Teorn',
+        relation: 'sibling',
+        characterId: 'teorn',
+        revealedIn: ['hope-of-elantris'],
+      },
+      {
+        name: 'Raoden',
+        relation: 'spouse',
+        characterId: 'raoden',
+        revealedIn: [{ book: 'elantris', chapter: '2' }],
+      },
+      {
+        name: 'Kaise',
+        relation: 'relative',
+        characterId: 'kaise',
+        revealedIn: ['hope-of-elantris'],
+      },
+      {
+        name: 'Daorn',
+        relation: 'relative',
+        characterId: 'daorn',
+        revealedIn: ['hope-of-elantris'],
+      },
+      {
+        name: 'Kiin',
+        relation: 'relative',
+        characterId: 'kiin',
+        revealedIn: [{ book: 'elantris', chapter: '5' }],
+      },
+    ],
   },
   hrathen: {
     appearsIn: [
@@ -1271,6 +2501,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Human', revealedIn: [{ book: 'elantris', chapter: '3' }] },
     ],
     abilities: [{ name: 'Dakhor', revealedIn: ['elantris'] }],
+    nationality: [
+      { name: 'Fjordell', revealedIn: [{ book: 'elantris', chapter: '36' }] },
+    ],
+    profession: [{ name: 'Derethi Gyorn', revealedIn: ['elantris'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
   },
   vivenna: {
     appearsIn: [
@@ -1278,14 +2515,40 @@ export const characterDetails: Record<string, CharacterDetails> = {
         bookId: 'warbreaker',
         revealedIn: [{ book: 'warbreaker', chapter: '1' }],
       },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
     ],
     world: {
       planetId: 'nalthis',
       revealedIn: [{ book: 'warbreaker', chapter: '1' }],
     },
-    aliases: [{ name: 'Princess of Idris', revealedIn: ['warbreaker'] }],
+    aliases: [
+      {
+        name: 'Azure',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '70' }] },
+        ],
+      },
+      { name: 'Princess of Idris', revealedIn: ['warbreaker'] },
+      {
+        name: 'Highmarshal',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+      {
+        name: 'Commander of the Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+    ],
     species: [
-      { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '1' }] },
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'warbreaker', chapter: '1' },
+          { book: 'oathbringer', chapter: '70' },
+        ],
+      },
     ],
     abilities: [
       {
@@ -1293,6 +2556,76 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'warbreaker', chapter: '43' }],
       },
       { name: 'Awakener', revealedIn: ['warbreaker'] },
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '70' }] },
+          { book: 'oathbringer', chapter: '108' },
+        ],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+    ],
+    nationality: [
+      { name: 'Idrian', revealedIn: [{ book: 'warbreaker', chapter: '10' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dedelin',
+        relation: 'parent',
+        characterId: 'dedelin',
+        revealedIn: [{ book: 'warbreaker', chapter: '1' }],
+      },
+      {
+        name: 'Ridger',
+        relation: 'sibling',
+        characterId: 'ridger',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        name: 'Fafen',
+        relation: 'sibling',
+        characterId: 'fafen',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        name: 'Siri',
+        relation: 'sibling',
+        revealedIn: [{ book: 'warbreaker', chapter: '33' }],
+      },
+      {
+        name: 'Denth',
+        relation: 'relative',
+        characterId: 'denth',
+        revealedIn: ['warbreaker'],
+      },
+      {
+        name: 'Vo',
+        relation: 'ancestor',
+        characterId: 'vo',
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    personas: [
+      {
+        id: 'azure',
+        name: 'Azure',
+        coppermindPage: 'Azure',
+        books: ['oathbringer'],
+        identityRevealedIn: [
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '70' }] },
+        ],
+      },
     ],
   },
   vasher: {
@@ -1301,10 +2634,22 @@ export const characterDetails: Record<string, CharacterDetails> = {
         bookId: 'warbreaker',
         revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
       },
-      { bookId: 'words-of-radiance', revealedIn: ['wind-and-truth'] },
-      { bookId: 'oathbringer', revealedIn: ['wind-and-truth'] },
-      { bookId: 'rhythm-of-war', revealedIn: ['wind-and-truth'] },
-      { bookId: 'wind-and-truth', revealedIn: ['wind-and-truth'] },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '16' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-9' }],
+      },
       { bookId: 'fires-of-december', revealedIn: ['fires-of-december'] },
     ],
     world: {
@@ -1312,7 +2657,15 @@ export const characterDetails: Record<string, CharacterDetails> = {
       revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
     },
     aliases: [
-      { name: 'Zahel', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Zahel',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'words-of-radiance', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+          { all: ['warbreaker', { book: 'wind-and-truth', chapter: 'i-9' }] },
+        ],
+      },
       { name: 'Kalad the Usurper', revealedIn: ['warbreaker'] },
       {
         name: 'Talaxin',
@@ -1332,18 +2685,79 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Human',
         revealedIn: [
           { book: 'warbreaker', chapter: 'prologue' },
-          'wind-and-truth',
+          { book: 'words-of-radiance', chapter: '16' },
           'fires-of-december',
         ],
       },
       { name: 'Returned', revealedIn: ['warbreaker'] },
-      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+      },
     ],
     abilities: [
       { name: 'Awakener', revealedIn: ['warbreaker'] },
-      { name: 'Worldhopper', revealedIn: ['fires-of-december'] },
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'words-of-radiance', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+          { all: ['warbreaker', { book: 'wind-and-truth', chapter: 'i-9' }] },
+          'fires-of-december',
+        ],
+      },
       { name: 'Hemalurgist', revealedIn: ['fires-of-december'] },
-      { name: 'Shardbearer', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '18' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'warbreaker', chapter: '29' }] },
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '16' }],
+      },
+      {
+        name: 'Swordmaster',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '16' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Five Scholars',
+        revealedIn: [{ book: 'warbreaker', chapter: '29' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Shashara',
+        relation: 'spouse',
+        characterId: 'shashara',
+        revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'zahel',
+        name: 'Zahel',
+        coppermindPage: 'Zahel',
+        books: [
+          'words-of-radiance',
+          'oathbringer',
+          'rhythm-of-war',
+          'wind-and-truth',
+        ],
+        identityRevealedIn: [
+          { all: ['warbreaker', { book: 'words-of-radiance', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'oathbringer', chapter: '16' }] },
+          { all: ['warbreaker', { book: 'rhythm-of-war', chapter: '15' }] },
+          { all: ['warbreaker', { book: 'wind-and-truth', chapter: 'i-9' }] },
+        ],
+      },
     ],
   },
   lightsong: {
@@ -1376,13 +2790,198 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Cognitive Shadow', revealedIn: ['warbreaker'] },
     ],
     abilities: [],
+    nationality: [
+      {
+        name: 'Hallandren',
+        revealedIn: [{ book: 'warbreaker', chapter: '23' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Llarimar',
+        relation: 'sibling',
+        characterId: 'llarimar',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+      {
+        name: 'Tatara',
+        relation: 'relative',
+        characterId: 'tatara',
+        revealedIn: [{ book: 'warbreaker', chapter: '57' }],
+      },
+    ],
   },
   hoid: {
     appearsIn: [
       { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '58' }] },
       {
+        bookId: 'final-empire',
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+        ],
+      },
+      {
         bookId: 'hero-of-ages',
-        revealedIn: [{ book: 'secret-history', chapter: '6-1' }],
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'hero-of-ages', chapter: '27' },
+            ],
+          },
+        ],
       },
       {
         bookId: 'warbreaker',
@@ -1390,11 +2989,343 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         bookId: 'way-of-kings',
-        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+        ],
       },
       {
         bookId: 'words-of-radiance',
         revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'shadows-of-self', chapter: '7' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'bands-of-mourning',
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'bands-of-mourning', chapter: '11' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'secret-history',
+        revealedIn: [
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '58' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'secret-history', chapter: '2-1' },
+            ],
+          },
+        ],
       },
       {
         bookId: 'oathbringer',
@@ -1405,12 +3336,19 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
       },
       {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '20' }],
+      },
+      {
         bookId: 'white-sand-omnibus',
         revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
       },
       { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '4' }] },
       { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '5' }] },
-      { bookId: 'sunlit-man', revealedIn: ['sunlit-man'] },
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '9' }],
+      },
       {
         bookId: 'wind-and-truth',
         revealedIn: [{ book: 'wind-and-truth', chapter: '3' }],
@@ -1424,9 +3362,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'fires-of-december', chapter: 'xii' }],
       },
     ],
-    world: { planetId: 'yolen', revealedIn: ['sunlit-man'] },
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'sunlit-man', chapter: '10' }],
+    },
     aliases: [
-      { name: 'Wit', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+      { name: 'Wit', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
       { name: 'Cephandrius', revealedIn: ['fires-of-december'] },
       { name: 'Midius', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
       { name: 'Cephandrius Maxtori', revealedIn: ['fires-of-december'] },
@@ -1445,15 +3386,56 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Human',
         revealedIn: [
           { book: 'elantris', chapter: '58' },
-          { book: 'warbreaker', chapter: '32' },
-          { book: 'way-of-kings', chapter: '58' },
-          { book: 'secret-history', chapter: '6-1' },
-          { book: 'white-sand-omnibus', chapter: 'epilogue' },
-          { book: 'tress', chapter: '4' },
-          { book: 'yumi', chapter: '5' },
-          'sunlit-man',
-          { book: 'isles-of-the-emberdark', chapter: '49' },
-          { book: 'fires-of-december', chapter: 'xii' },
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          { book: 'way-of-kings', chapter: '12' },
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'alloy-of-law', chapter: '4' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          { book: 'sunlit-man', chapter: '9' },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'final-empire', chapter: '19' },
+            ],
+          },
         ],
       },
       { name: 'Elantrian', revealedIn: [{ book: 'tress', chapter: '64' }] },
@@ -1468,7 +3450,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
       },
       { name: 'Awakener', revealedIn: ['fires-of-december'] },
-      { name: 'Lightweaver', revealedIn: ['rhythm-of-war'] },
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
       { name: 'Shardbearer', revealedIn: ['fires-of-december'] },
       { name: 'AonDor', revealedIn: [{ book: 'tress', chapter: '64' }] },
       {
@@ -1477,7 +3462,107 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Dawnshard',
-        revealedIn: ['sunlit-man', { book: 'wind-and-truth', chapter: '146' }],
+        revealedIn: [
+          { book: 'sunlit-man', chapter: '21' },
+          { book: 'wind-and-truth', chapter: '146' },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Worldsingers', revealedIn: [{ book: 'tress', chapter: '24' }] },
+      { name: 'Worldbringers', revealedIn: [{ book: 'tress', chapter: '24' }] },
+    ],
+    bonds: [
+      {
+        name: 'Design',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '80' }],
+      },
+      { name: 'Olo', revealedIn: [{ book: 'wind-and-truth', chapter: '147' }] },
+    ],
+    relatives: [],
+    personas: [
+      {
+        id: 'wit',
+        name: 'Wit',
+        coppermindPage: 'Wit',
+        books: ['way-of-kings', 'sunlit-man'],
+        identityRevealedIn: [
+          { book: 'way-of-kings', chapter: '58' },
+          {
+            all: [
+              { book: 'elantris', chapter: '58' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'warbreaker', chapter: '32' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '45' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: '67' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'rhythm-of-war', chapter: '17' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'white-sand-omnibus', chapter: 'epilogue' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'tress', chapter: '4' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'yumi', chapter: '5' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'lost-metal', chapter: '20' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '3' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'isles-of-the-emberdark', chapter: '49' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'fires-of-december', chapter: 'xii' },
+              { book: 'sunlit-man', chapter: '9' },
+            ],
+          },
+        ],
       },
     ],
   },
@@ -1489,6 +3574,42 @@ export const characterDetails: Record<string, CharacterDetails> = {
     aliases: [{ name: 'Glorf', revealedIn: [{ book: 'tress', chapter: '1' }] }],
     species: [{ name: 'Human', revealedIn: [{ book: 'tress', chapter: '1' }] }],
     abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sprouter', revealedIn: [{ book: 'tress', chapter: '12' }] },
+      { name: 'Merchant', revealedIn: ['tress'] },
+      { name: 'Captain', revealedIn: [{ book: 'tress', chapter: '19' }] },
+      { name: 'Pirate', revealedIn: [{ book: 'tress', chapter: '9' }] },
+      { name: 'Window Cleaner', revealedIn: ['tress'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lem',
+        relation: 'parent',
+        characterId: 'lem',
+        revealedIn: ['tress'],
+      },
+      {
+        name: 'Ulba',
+        relation: 'parent',
+        characterId: 'ulba',
+        revealedIn: ['tress'],
+      },
+      {
+        name: 'Aunt Glorf',
+        relation: 'relative',
+        characterId: 'aunt-glorf',
+        revealedIn: ['tress'],
+      },
+      {
+        name: 'Great-grandmother Glorf',
+        relation: 'ancestor',
+        characterId: 'great-grandmother-glorf',
+        revealedIn: ['tress'],
+      },
+    ],
   },
   yumi: {
     appearsIn: [
@@ -1513,6 +3634,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
     abilities: [
       { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '2' }] },
     ],
+    nationality: [{ name: 'Torish', revealedIn: ['yumi'] }],
+    profession: [
+      { name: 'Yoki-hijo', revealedIn: [{ book: 'yumi', chapter: '2' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
   },
   nikaro: {
     appearsIn: [
@@ -1527,5 +3655,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
     ],
     species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '1' }] }],
     abilities: [],
+    nationality: [{ name: 'Nagadan', revealedIn: ['yumi'] }],
+    profession: [
+      { name: 'Painter', revealedIn: [{ book: 'yumi', chapter: '27' }] },
+    ],
+    groups: [{ name: 'Nightmare Division', revealedIn: ['yumi'] }],
+    bonds: [],
+    relatives: [],
   },
 }

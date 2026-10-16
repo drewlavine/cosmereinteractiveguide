@@ -1,8 +1,17 @@
+/** A chapter in a book (see chapters.ts). */
+export interface ChapterPoint {
+  book: string
+  chapter: string
+}
+
 /**
  * Where something is revealed: a book id (see books.ts), meaning by the end of
- * that book, or a chapter in it (see chapters.ts).
+ * that book, or a chapter in it. `all` is reached only once every point in it
+ * is, for things that take two books to see, such as a world hopper going by
+ * another name in another series.
  */
-export type RevealPoint = string | { book: string; chapter: string }
+export type RevealPoint =
+  string | ChapterPoint | { all: readonly (string | ChapterPoint)[] }
 
 /**
  * Places that reveal something, earliest first. It is shown once the reader
@@ -210,6 +219,46 @@ export interface CharacterDetails {
   aliases: Fact[]
   species: Fact[]
   abilities: Fact[]
+  nationality?: Fact[]
+  profession?: Fact[]
+  /** Organizations, crews and orders they belong to. */
+  groups?: Fact[]
+  /** Spren, seons and others they're bonded with. */
+  bonds?: Fact[]
+  relatives?: Relative[]
+  personas?: Persona[]
+}
+
+/**
+ * Another name a character goes by in some books, such as Vasher as Zahel in
+ * the Stormlight Archive. Until the reader can tell they're the same person,
+ * what those books reveal is shown on a page of the persona's own, and left
+ * off the character's page.
+ */
+export interface Persona {
+  /** Unique kebab-case slug, used in the persona's URL. */
+  id: string
+  name: string
+  /** Exact Coppermind page title (usually a redirect to the character). */
+  coppermindPage: string
+  /** Books where they go by this name. */
+  books: readonly string[]
+  /**
+   * Where the reader can tell who they are: usually having read the
+   * character's own books and reached the persona's first appearance.
+   */
+  identityRevealedIn: Reveal
+}
+
+/** A family tie, revealed where the books make it clear. */
+export interface Relative extends Fact {
+  /**
+   * 'parent', 'sibling', 'spouse', 'child', 'relative', 'ancestor', or a
+   * closer label from the Coppermind such as 'paternal grandfather'.
+   */
+  relation: string
+  /** Set when the relative has a page of their own. */
+  characterId?: string
 }
 
 /** A Cosmere character. Names only for now; details come later. */

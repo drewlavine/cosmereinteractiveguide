@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { books } from './books'
-import { readerCanSee, revealSystem } from './reveal'
+import { metIn, readerCanSee, revealCharacter, revealSystem } from './reveal'
 import { systems } from './systems'
 import type { Reveal } from './types'
 
@@ -84,5 +84,65 @@ describe('spoiler tags', () => {
     expect(shown.planets).toHaveLength(system.planets.length)
     expect(shown.hiddenPlanets).toEqual([])
     expect(shown.spoilers).toBe(true)
+  })
+})
+
+describe('personas', () => {
+  const reader = (read: string[]) =>
+    readerCanSee({ read: new Set(read), reading: new Map() })
+  const names = (id: string, read: string[]) => {
+    const c = revealCharacter(id, reader(read))
+    return { personas: c.personas.map((p) => p.name), aliases: c.aliases }
+  }
+
+  it('keeps Azure apart from Vivenna until both books are read', () => {
+    expect(
+      reader(['oathbringer'])(metIn('azure', reader(['oathbringer']))!),
+    ).toBe(true)
+    expect(revealCharacter('azure', reader(['oathbringer'])).relatives).toEqual(
+      [],
+    )
+    expect(names('vivenna', ['warbreaker']).personas).toEqual([])
+    expect(names('vivenna', ['warbreaker', 'oathbringer']).personas).toEqual([
+      'Azure',
+    ])
+    expect(metIn('azure', reader(['warbreaker', 'oathbringer']))).toEqual([])
+  })
+
+  it('names Marsh as Ironeyes for Era 1 readers', () => {
+    expect(names('marsh', ['final-empire']).aliases).toContain('Ironeyes')
+    expect(names('marsh', ['alloy-of-law']).personas).toEqual([])
+    expect(names('marsh', ['final-empire', 'alloy-of-law']).personas).toEqual([
+      'Ironeyes',
+    ])
+  })
+
+  it('shows Wit as Hoid once the reader can tell', () => {
+    const wok = reader([])
+    expect(wok(metIn('wit', reader(['sunlit-man']))!)).toBe(false)
+    expect(names('hoid', ['way-of-kings']).personas).toEqual(['Wit'])
+    expect(names('hoid', ['sunlit-man']).personas).toEqual([])
+    expect(names('hoid', ['elantris', 'sunlit-man']).personas).toEqual(['Wit'])
+    // The header names only the series of books the reader has reached.
+    expect(
+      revealCharacter('hoid', reader(['elantris', 'way-of-kings'])).personas,
+    ).toEqual([{ name: 'Wit', books: ['way-of-kings'] }])
+  })
+
+  it('counts unnamed cameos only once Hoid is known', () => {
+    const books = (read: string[]) =>
+      revealCharacter('hoid', reader(read)).appearsIn.map((s) => s.bookId)
+    expect(revealCharacter('hoid', reader(['final-empire'])).met).toBe(false)
+    expect(books(['elantris'])).not.toContain('final-empire')
+    expect(books(['final-empire', 'elantris'])).toContain('final-empire')
+  })
+
+  it('keeps Thaidakar apart from Kelsier until Wind and Truth', () => {
+    expect(
+      names('kelsier', ['final-empire', 'rhythm-of-war']).aliases,
+    ).not.toContain('Thaidakar')
+    expect(
+      names('kelsier', ['final-empire', 'wind-and-truth']).personas,
+    ).toEqual(['Thaidakar'])
   })
 })
