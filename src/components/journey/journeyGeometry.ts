@@ -1,24 +1,77 @@
-import type { MapPoint } from '../../data/journey'
+import type { AtlasMap, MapPoint } from '../../data/journey'
 import type { MapBox } from './MapEngine'
 
-interface Stop {
-  mapId: string
-  path: readonly MapPoint[]
+/**
+ * Each stop's track on one map: the way from the last placed stop before it
+ * (its last point) along the stop's own path. `paths[i]` is stop i's points
+ * on this map: empty while where it happened is unknown (no track; the line
+ * joins the stops either side), undefined when it's on another map (the
+ * line breaks there). Hidden stops are already gone.
+ */
+export function tracks(
+  paths: readonly (readonly MapPoint[] | undefined)[],
+): MapPoint[][] {
+  let prev: MapPoint | undefined
+  return paths.map((path) => {
+    if (!path) {
+      prev = undefined
+      return []
+    }
+    if (!path.length) return []
+    const from = prev
+    prev = path.at(-1)
+    return from ? [from, ...path] : [...path]
+  })
 }
 
 /**
- * Each stop's track: the way from the last placed stop before it on the
- * same map (its last point) along the stop's own path. A stop on a
- * different map starts afresh; one with no place yet has no track. Hidden
- * stops are already gone, so the line joins what's shown.
+ * Where map `inner` sits on map `outer`, if `outer` holds it (directly or
+ * through maps between): the pin on `outer` that zooms into it.
  */
-export function tracks(stops: readonly Stop[]): MapPoint[][] {
-  let prev: Stop | undefined
-  return stops.map((stop) => {
-    if (!stop.path.length) return []
-    const from = prev?.mapId === stop.mapId ? prev.path.at(-1) : undefined
-    prev = stop
-    return from ? [from, ...stop.path] : [...stop.path]
+export function anchorOn(
+  maps: readonly AtlasMap[],
+  outer: string,
+  inner: string,
+): MapPoint | undefined {
+  const seen = new Set<string>()
+  for (let m = maps.find((x) => x.id === inner); m?.parent;) {
+    if (seen.has(m.id)) return undefined
+    seen.add(m.id)
+    if (m.parent.mapId === outer) return m.parent.at
+    const up: string = m.parent.mapId
+    m = maps.find((x) => x.id === up)
+  }
+  return undefined
+}
+
+/** The outermost map holding `id` (itself when nothing does). */
+export function rootOf(maps: readonly AtlasMap[], id: string): string {
+  const seen = new Set<string>()
+  let m = maps.find((x) => x.id === id)
+  while (m?.parent && !seen.has(m.id)) {
+    seen.add(m.id)
+    const up: string = m.parent.mapId
+    const next = maps.find((x) => x.id === up)
+    if (!next) break
+    m = next
+  }
+  return m?.id ?? id
+}
+
+/**
+ * Each stop's points as drawn on map `mapId`: its own path there, or the pin
+ * of the inner map (e.g. a city) it happened on; undefined if neither.
+ */
+export function pathsOn(
+  stops: readonly { mapId: string; path: readonly MapPoint[] }[],
+  maps: readonly AtlasMap[],
+  mapId: string,
+): (readonly MapPoint[] | undefined)[] {
+  return stops.map((s) => {
+    if (s.mapId === mapId) return s.path
+    const at = anchorOn(maps, mapId, s.mapId)
+    if (!at) return undefined
+    return s.path.length ? [at] : []
   })
 }
 

@@ -643,7 +643,10 @@ export interface ShownJourneyStop {
 export interface ShownJourney {
   /** In timeline order. */
   stops: ShownJourneyStop[]
-  /** The maps the stops are on, in order of first use. */
+  /**
+   * The maps the stops are on and the maps holding those (a city's world
+   * map), outermost first, in order of first use.
+   */
   maps: AtlasMap[]
   credits: JourneyCredit[]
   /** Whether unread books hide any of it. */
@@ -701,7 +704,15 @@ export function revealJourney(
       if (!map || !show(e.revealedIn)) return []
       // The map is the series' own, not the character's: never trimmed.
       if (!canSee(map.revealedIn) && ((spoilers = true), !viewAnyway)) return []
-      if (!maps.some((m) => m.id === map.id)) maps.push(map)
+      // An inner map (a city) brings the maps holding it, to zoom out to.
+      const chain: AtlasMap[] = []
+      for (let m: AtlasMap | undefined = map; m;) {
+        if (chain.includes(m)) break
+        chain.unshift(m)
+        const up: AtlasMap | undefined = m.parent && atlas.map(m.parent.mapId)
+        m = up && canSee(up.revealedIn) ? up : undefined
+      }
+      for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
       const located = !e.placeRevealedIn || see(e.placeRevealedIn)
       const place = e.placeId && located ? atlas.place(e.placeId) : undefined
       return [
@@ -715,7 +726,9 @@ export function revealJourney(
           place:
             place && see(place.revealedIn)
               ? { name: place.name, href: place.href }
-              : undefined,
+              : e.placeName && located
+                ? { name: e.placeName }
+                : undefined,
           where: firstPoint(trim(e.revealedIn), see),
           summary: (e.summary ?? [])
             .filter(

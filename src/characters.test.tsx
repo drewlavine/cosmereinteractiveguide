@@ -367,7 +367,7 @@ describe('characters pages', () => {
       'wind-and-truth',
     ])
     expect(screen.getByRole('heading', { name: 'Sigzil' })).toBeInTheDocument()
-    expect(screen.getByText(/Worldsinger/)).toBeInTheDocument()
+    expect(screen.getAllByText(/Worldsinger/).length).toBeGreaterThan(0)
     for (const spoiler of [/Nomad/, /Zellion/, /Canticle/, /Cinder King/])
       expect(page()).not.toMatch(spoiler)
     expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
@@ -788,7 +788,7 @@ describe('character journey', () => {
   it('gives his birthplace and age as the reader goes on', () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '16' })
     let facts = screen.getByRole('complementary', { name: 'Key facts' })
-    // The date's source is the Word of Brandon; the place's, the book.
+    // One mark: the date's source is the Word of Brandon; the place's, the book.
     const born = within(facts).getByText('Born')
       .nextElementSibling as HTMLElement
     expect(born).toHaveTextContent(/^Late 1153.*Hearthstone/)
@@ -797,8 +797,7 @@ describe('character journey', () => {
         .getAllByRole('button')
         .map((b) => b.getAttribute('aria-label')),
     ).toEqual([
-      'Source: Word of Brandon',
-      'Source: The Way of Kings chapter 16',
+      'Sources: Word of Brandon (date), The Way of Kings chapter 16 (place)',
     ])
     // History paragraphs name the chapter they come from, like footnotes.
     expect(

@@ -3,7 +3,7 @@
  * (from maps.ts) and the places they can name (the Locations list). The
  * journey code itself only sees the generic Atlas interface.
  */
-import type { Atlas, AtlasMap, AtlasPlace } from './journey'
+import type { Atlas, AtlasMap, AtlasPlace, MapPoint } from './journey'
 import { findListed, placeHref, placeRevealedIn } from './listedLocations'
 import { mapImageUrl, mapSourceUrl, mapThumbUrl, planetMaps } from './maps'
 import type { Reveal } from './types'
@@ -21,6 +21,8 @@ interface JourneyMapSource {
    * from the start of that book (the Maps sections still wait for the end).
    */
   revealedIn: Reveal
+  /** For a map inside another (a city): that map and the pin it zooms from. */
+  parent?: { mapId: string; placeId?: string; at: MapPoint }
 }
 
 const sources: JourneyMapSource[] = [
@@ -30,6 +32,30 @@ const sources: JourneyMapSource[] = [
     mapId: 'roshar',
     file: 'Roshar.jpg',
     revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+  },
+  {
+    id: 'final-empire',
+    planetId: 'scadrial',
+    mapId: 'final-empire',
+    file: 'Final_Empire_Map.jpg',
+    revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+  },
+  {
+    // The original front-matter map, not the later colour one.
+    id: 'luthadel',
+    planetId: 'scadrial',
+    mapId: 'luthadel',
+    file: 'Luthadel.png',
+    revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    parent: { mapId: 'final-empire', placeId: 'luthadel', at: [1273, 805] },
+  },
+  {
+    id: 'fadrex-city',
+    planetId: 'scadrial',
+    mapId: 'fadrex-city',
+    file: 'Fadrex_City.jpg',
+    revealedIn: [{ book: 'hero-of-ages', chapter: 'prologue' }],
+    parent: { mapId: 'final-empire', placeId: 'fadrex-city', at: [881, 752] },
   },
 ]
 
@@ -56,6 +82,7 @@ const maps = new Map<string, AtlasMap>(
             url: mapSourceUrl(version.file),
           },
           revealedIn: s.revealedIn,
+          ...(s.parent && { parent: s.parent }),
         },
       ],
     ]

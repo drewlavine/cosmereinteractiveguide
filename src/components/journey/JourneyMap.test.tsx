@@ -198,6 +198,23 @@ describe('JourneyMap', () => {
     expect(svg.querySelectorAll('.journey-dot')).toHaveLength(3)
   })
 
+  it('goes back to an event by clicking its point on the map', async () => {
+    const { group, slider } = setup()
+    const svg = group.querySelector('.journey-layers')!
+    // The current event's point isn't a target: it's already shown.
+    expect(svg.querySelectorAll('.journey-dot-hit')).toHaveLength(0)
+    await userEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    await userEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    const hits = svg.querySelectorAll('.journey-dot-hit')
+    expect(hits).toHaveLength(2)
+    // Hovering names it straight away.
+    await userEvent.hover(hits[0])
+    expect(svg.querySelector('.journey-dot-tip')).toHaveTextContent(/\S/)
+    await userEvent.click(hits[0])
+    expect(slider).toHaveValue('0')
+    expect(svg.querySelector('.journey-dot-tip')).toBeNull()
+  })
+
   it('flies to each stop, or jumps for reduced motion', async () => {
     const { content } = setup()
     // It opens on the whole map and flies in to the first stop.
@@ -289,6 +306,65 @@ describe('JourneyMap', () => {
     fireEvent.keyDown(document, { key: 'Escape' })
     expect(group).not.toHaveClass('is-overlay')
     expect(document.body.style.overflow).toBe('')
+  })
+
+  it('zooms into a city map through its pin, and back out from it', () => {
+    vi.useFakeTimers()
+    const city: AtlasMap = {
+      id: 'city',
+      title: 'Citytown',
+      image: { src: 'city.jpg', width: 800, height: 600, alt: 'City map' },
+      credit: { text: 'City map' },
+      revealedIn: [],
+      parent: { mapId: 'world', at: [500, 250] },
+    }
+    const nested: ShownJourney = {
+      ...journey,
+      maps: [map, city],
+      stops: [
+        { ...journey.stops[0], mapId: 'city', path: [[10, 10]] },
+        { ...journey.stops[0], id: 'w', mapId: 'world', path: [[100, 100]] },
+      ],
+    }
+    render(
+      <RouterProvider
+        router={createMemoryRouter(
+          [{ path: '/', element: <JourneyMap name="Hero" journey={nested} /> }],
+          { initialEntries: ['/'] },
+        )}
+      />,
+    )
+    const heading = () => document.querySelector('.journey-heading')
+    const dots = () =>
+      [...document.querySelectorAll('.journey-dot')].map((d) => [
+        d.getAttribute('cx'),
+        d.getAttribute('cy'),
+      ])
+    // Opens on the world map, flying in to the city before swapping maps.
+    expect(heading()).toHaveTextContent('Testland')
+    // The city's stop isn't drawn on the world on the way in.
+    expect(dots()).toEqual([])
+    act(() => vi.advanceTimersByTime(1000))
+    expect(heading()).toHaveTextContent('Citytown')
+    expect(dots()).toEqual([['10', '10']])
+    // Back on the world, the city's event sits on its pin, joined by a line.
+    fireEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    // The city zooms out first, then the world takes over at its pin.
+    expect(heading()).toHaveTextContent('Citytown')
+    act(() => vi.advanceTimersByTime(1000))
+    expect(heading()).toHaveTextContent('Testland')
+    // The way on is drawn only once the world has zoomed out from the city.
+    expect(dots()).toEqual([['500', '250']])
+    expect(document.querySelector('.journey-track-now')).toBeNull()
+    act(() => vi.advanceTimersByTime(1000))
+    expect(dots()).toEqual([
+      ['500', '250'],
+      ['100', '100'],
+    ])
+    expect(document.querySelector('.journey-track-now')).toHaveAttribute(
+      'd',
+      'M500 250 L100 100',
+    )
   })
 
   it('credits the data and the map', () => {

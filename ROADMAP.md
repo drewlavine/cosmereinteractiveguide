@@ -203,7 +203,8 @@ tab here once its section's first version ships.
         ability pages to come; see 13)
   - [ ] **Culture**: the peoples and societies of the Cosmere (list page
         live; entry pages to come; see 15)
-  - [ ] **Events**: key events across the Cosmere (placeholder tab added;
+  - [ ] **Events**: key events across the Cosmere (placeholder page at
+        `/events`; tab hidden from the header until Drew decides on it;
         see 14)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
         see 1)
@@ -695,9 +696,20 @@ can become a template for other series. Data from importers in
         for the **Born** and **Age** key facts and History/Travels sources), the parents (linked once met), and the place
         (no marker until then). Nothing known: the journey starts at the
         first known event
+  - [x] Click a past event's point on the map to go back to it
   - [x] **Age** key fact as of the reader's book, and **Born** (when, then
         where) above the parents
-- [ ] Mistborn Era 1 and Era 2 via a cosmere-maps importer
+- [x] Vin in Mistborn Era 1 (37 hand-written events, `import_hand.py`), on
+      the Final Empire map with city maps of Luthadel and Fadrex City: the
+      map zooms into the city for city stops and back out to the world map,
+      drawing the next leg only once it has zoomed out
+- [x] Dalinar, The Way of Kings to Rhythm of War (29 events); a shared
+      event can tell each character's side (`byCharacter`)
+- [x] Every event names where it happens (a listed place, linked once
+      revealed, or a hand-written name such as Keep Venture)
+- [x] Verification pass over Vin's and Dalinar's events against the
+      Coppermind's chapter summaries (dates, places, wording)
+- [ ] Mistborn Era 2 (and routes) via a cosmere-maps importer
       (altonchaney/cosmere-maps, MIT), which also has per-chapter routes
 - [x] The later Stormlight books for Kaladin (Words of Radiance to Rhythm
       of War: 39 events, each hand-written and dated)

@@ -379,8 +379,10 @@ describe("Kaladin's journey in The Way of Kings", () => {
     expect(all.stops.every((s) => s.where?.bookId === wok)).toBe(true)
     expect(all.spoilers).toBe(true)
     expect(all.credits[0].url).toBe('https://github.com/17thshard/roshar-map')
-    // Roshar's places are only listed once the book is finished.
-    expect((await kaladin(at('60'))).stops.every((s) => !s.place)).toBe(true)
+    // Roshar's places are only listed (linked) once the book is finished;
+    // midway each stop gives only the name its own chapter tells.
+    const midway = (await kaladin(at('60'))).stops
+    expect(midway.every((s) => s.place && !s.place.href)).toBe(true)
     expect(all.stops.some((s) => s.place?.name === 'Shattered Plains')).toBe(
       true,
     )
@@ -409,5 +411,115 @@ describe("Kaladin's journey in The Way of Kings", () => {
       finished,
     )
     expect(shown.stops).toEqual([])
+  })
+})
+
+describe('every journey stop', () => {
+  const series: Record<string, string[]> = {
+    roshar: [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+      'rhythm-of-war',
+    ],
+    scadrial: ['final-empire', 'well-of-ascension', 'hero-of-ages'],
+  }
+  it('names where it happens as soon as it shows', async () => {
+    const missing: string[] = []
+    for (const [packId, books] of Object.entries(series)) {
+      const events = (await loadPack(packId))!.events
+      for (const e of events) {
+        // Where it happened can be held back (a birthplace): check from then.
+        const [point] = e.placeRevealedIn ?? e.revealedIn
+        if (typeof point !== 'object' || !('book' in point)) continue
+        const canSee = readerCanSee({
+          read: new Set(books.slice(0, books.indexOf(point.book))),
+          reading: new Map([[point.book, point.chapter]]),
+        })
+        for (const c of e.characters) {
+          const stop = revealCharacterJourney(
+            c,
+            events,
+            journeyAtlas,
+            canSee,
+          ).stops.find((s) => s.id === e.id)
+          if (stop && !stop.place) missing.push(`${c}: ${stop.title}`)
+        }
+      }
+    }
+    expect(missing).toEqual([])
+  })
+})
+
+describe('a shared Roshar event', () => {
+  it("tells each character's side as their own stop", async () => {
+    const events = (await loadPack('roshar'))!.events
+    const wor = readerCanSee({
+      read: new Set([wok]),
+      reading: new Map([['words-of-radiance', '33']]),
+    })
+    const last = (id: string) =>
+      revealCharacterJourney(id, events, journeyAtlas, wor).stops.at(-1)!
+    // Dalinar's own text, dated to his chapter; Kaladin's comes later.
+    expect(last('dalinar-kholin').title).toBe("Szeth's attack")
+    expect(last('kaladin').title).not.toBe("Szeth's attack")
+    const later = readerCanSee({
+      read: new Set([wok]),
+      reading: new Map([['words-of-radiance', 'i-6']]),
+    })
+    const kaladin = revealCharacterJourney(
+      'kaladin',
+      events,
+      journeyAtlas,
+      later,
+    )
+    expect(kaladin.stops.at(-1)!.title).toBe('The assassin in white')
+  })
+})
+
+describe("Vin's journey in Era 1", () => {
+  const reading = (book: string, chapter: string) =>
+    readerCanSee({ read: new Set(), reading: new Map([[book, chapter]]) })
+  const vin = async (canSee: ReturnType<typeof at>) => {
+    const pack = (await loadPack('scadrial'))!
+    return revealCharacterJourney('vin', pack.events, journeyAtlas, canSee, {
+      credits: pack.credits,
+    })
+  }
+
+  it('reveals each event at its chapter, starting in Luthadel', async () => {
+    expect((await vin(reading('final-empire', '1'))).stops).toEqual([])
+    const early = await vin(reading('final-empire', '4'))
+    expect(early.stops.map((s) => s.mapId)).toEqual(['luthadel', 'luthadel'])
+    // The city brings the world map holding it, to zoom out to.
+    expect(early.maps.map((m) => m.id)).toEqual(['final-empire', 'luthadel'])
+    expect(journeyAtlas.map('luthadel')?.parent?.mapId).toBe('final-empire')
+    const later = await vin(reading('final-empire', '8'))
+    expect(later.stops.at(-1)?.mapId).toBe('final-empire')
+  })
+
+  it('keeps later books and the Fadrex map hidden until reached', async () => {
+    const tfe = await vin(reading('final-empire', 'epilogue'))
+    expect(tfe.stops.every((s) => s.where?.bookId === 'final-empire')).toBe(
+      true,
+    )
+    expect(tfe.maps.map((m) => m.id)).not.toContain('fadrex-city')
+    const hoa = await vin(
+      readerCanSee({
+        read: new Set(['final-empire', 'well-of-ascension']),
+        reading: new Map([['hero-of-ages', '30']]),
+      }),
+    )
+    expect(hoa.maps.map((m) => m.id)).toContain('fadrex-city')
+    expect(hoa.stops.at(-1)?.where).toEqual({
+      bookId: 'hero-of-ages',
+      chapter: '30',
+    })
+  })
+
+  it('names the square only once the reader knows its later name', async () => {
+    const stop = (await vin(reading('final-empire', '34'))).stops.at(-1)!
+    expect(stop.title).toBe("Kelsier's death")
+    expect(stop.place?.name ?? '').not.toMatch(/Survivor/)
   })
 })

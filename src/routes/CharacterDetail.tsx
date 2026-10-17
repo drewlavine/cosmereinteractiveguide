@@ -363,13 +363,7 @@ export function CharacterDetail() {
           <>
             <dt>Born</dt>
             <dd>
-              {/* Each part carries its own source. */}
-              {shown.born.name && (
-                <>
-                  {shown.born.name}
-                  <SourceMark sources={shown.born.sources} />
-                </>
-              )}
+              {shown.born.name}
               {birthplace && (
                 <>
                   {shown.born.name && ', '}
@@ -378,9 +372,19 @@ export function CharacterDetail() {
                   ) : (
                     birthplace.name
                   )}
-                  <SourceMark books={shown.born.placeBooks} />
                 </>
               )}
+              {/* One mark for the line, saying which source backs which part. */}
+              <SourceMark
+                parts={[
+                  ...(shown.born.name
+                    ? [{ about: 'date', sources: shown.born.sources }]
+                    : []),
+                  ...(birthplace
+                    ? [{ about: 'place', books: shown.born.placeBooks }]
+                    : []),
+                ].filter((p) => p.sources?.length || p.books?.length)}
+              />
             </dd>
           </>
         )}

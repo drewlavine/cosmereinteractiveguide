@@ -31,7 +31,6 @@ describe('main tabs', () => {
       'Locations',
       'Abilities',
       'Culture',
-      'Events',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
       '/',
@@ -40,7 +39,6 @@ describe('main tabs', () => {
       '/locations',
       '/abilities',
       '/culture',
-      '/events',
     ])
     expect(new Set(mainTabs.map((t) => t.id)).size).toBe(mainTabs.length)
   })
@@ -56,7 +54,6 @@ describe('main tabs', () => {
     ['/locations/kredik-shaw', 'Locations'],
     ['/systems/scadrian/planets/scadrial/locations/luthadel', 'Locations'],
     ['/abilities', 'Abilities'],
-    ['/events', 'Events'],
   ])('marks the right tab active on %s', (path, tab) => {
     renderAt(path)
     expect(activeTab()).toEqual([tab])
@@ -85,18 +82,13 @@ describe('main tabs', () => {
     expect(isCharacters('/charactersheet')).toBe(false)
   })
 
-  it.each(['Events'])(
-    'shows a coming-soon page for the %s tab',
-    async (label) => {
-      renderAt('/')
-      await userEvent.click(
-        within(mainNav()).getByRole('link', { name: label }),
-      )
-      expect(
-        await screen.findByRole('heading', { level: 1, name: label }),
-      ).toBeInTheDocument()
-      expect(screen.getByText('Coming soon')).toBeInTheDocument()
-      expect(activeTab()).toEqual([label])
-    },
-  )
+  it('hides the Events tab but keeps its page', async () => {
+    renderAt('/events')
+    expect(
+      within(mainNav()).queryByRole('link', { name: 'Events' }),
+    ).not.toBeInTheDocument()
+    expect(
+      await screen.findByRole('heading', { level: 1, name: 'Events' }),
+    ).toBeInTheDocument()
+  })
 })

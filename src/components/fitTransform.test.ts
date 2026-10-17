@@ -1,6 +1,14 @@
 import { describe, expect, it } from 'vitest'
 import { fitTransform } from './fitTransform'
-import { boundsOf, pathData, tracks } from './journey/journeyGeometry'
+import type { AtlasMap, MapPoint } from '../data/journey'
+import {
+  anchorOn,
+  boundsOf,
+  pathData,
+  pathsOn,
+  rootOf,
+  tracks,
+} from './journey/journeyGeometry'
 
 describe('fitTransform', () => {
   const viewport = { width: 800, height: 400 }
@@ -72,7 +80,9 @@ describe('journey geometry', () => {
   const elsewhere = { mapId: 'other', path: [[5, 5]] as const }
 
   it('joins each stop to the one before on the same map', () => {
-    expect(tracks([a, b, route, elsewhere, a])).toEqual([
+    const on = (...stops: { mapId: string; path: readonly MapPoint[] }[]) =>
+      stops.map((s) => (s.mapId === 'm' ? s.path : undefined))
+    expect(tracks(on(a, b, route, elsewhere, a))).toEqual([
       [[0, 0]],
       [
         [0, 0],
@@ -83,7 +93,7 @@ describe('journey geometry', () => {
         [20, 0],
         [20, 30],
       ],
-      [[5, 5]],
+      [],
       [[0, 0]],
     ])
   })
@@ -92,7 +102,7 @@ describe('journey geometry', () => {
     const a = { mapId: 'm', path: [[0, 0]] as [number, number][] }
     const unknown = { mapId: 'm', path: [] }
     const b = { mapId: 'm', path: [[10, 0]] as [number, number][] }
-    expect(tracks([unknown, a, unknown, b])).toEqual([
+    expect(tracks([unknown, a, unknown, b].map((s) => s.path))).toEqual([
       [],
       [[0, 0]],
       [],
@@ -100,6 +110,43 @@ describe('journey geometry', () => {
         [0, 0],
         [10, 0],
       ],
+    ])
+  })
+
+  const atlas = (id: string, parent?: AtlasMap['parent']) =>
+    ({ id, parent }) as AtlasMap
+  const world = atlas('world')
+  const city = atlas('city', { mapId: 'world', at: [100, 50] })
+  const keep = atlas('keep', { mapId: 'city', at: [3, 4] })
+  const nested = [world, city, keep]
+
+  it('finds where an inner map sits on the maps holding it', () => {
+    expect(anchorOn(nested, 'world', 'city')).toEqual([100, 50])
+    expect(anchorOn(nested, 'world', 'keep')).toEqual([100, 50])
+    expect(anchorOn(nested, 'city', 'keep')).toEqual([3, 4])
+    expect(anchorOn(nested, 'city', 'world')).toBeUndefined()
+    expect(rootOf(nested, 'keep')).toBe('world')
+    expect(rootOf(nested, 'world')).toBe('world')
+  })
+
+  it("draws an inner map's stops at its pin, breaking on other maps", () => {
+    const stops = [
+      { mapId: 'world', path: [[0, 0]] as MapPoint[] },
+      { mapId: 'city', path: [[7, 7]] as MapPoint[] },
+      { mapId: 'city', path: [] },
+      { mapId: 'other', path: [[1, 1]] as MapPoint[] },
+    ]
+    expect(pathsOn(stops, nested, 'world')).toEqual([
+      [[0, 0]],
+      [[100, 50]],
+      [],
+      undefined,
+    ])
+    expect(pathsOn(stops, nested, 'city')).toEqual([
+      undefined,
+      [[7, 7]],
+      [],
+      undefined,
     ])
   })
 

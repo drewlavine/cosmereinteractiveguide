@@ -1,0 +1,1035 @@
+{
+  "id": "scadrial",
+  "credits": [
+    {
+      "text": "Era 1 journey events written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire"
+    }
+  ],
+  "events": [
+    {
+      "id": "sh-d0fb0760",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[724, 770]],
+      "placeName": "Canton of Finance",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "2"
+        }
+      ],
+      "title": "A scam at the Canton of Finance",
+      "summary": [
+        {
+          "text": "Vin, a street thief in Camon's crew, helps him con an obligator at the Ministry's Canton of Finance, secretly using the 'Luck' she has always relied on.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "2"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 1
+    },
+    {
+      "id": "sh-1e08251c",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "4"
+        }
+      ],
+      "title": "Joining Kelsier's crew",
+      "summary": [
+        {
+          "text": "Kelsier and Dockson take over Camon's hideout. Kelsier tests Vin and tells her she is Mistborn, and she meets his crew and hears their plan to overthrow the Lord Ruler.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "4"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 2
+    },
+    {
+      "id": "sh-df10760b",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1244, 809]
+      ],
+      "placeId": "fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "8"
+        }
+      ],
+      "title": "Off to Fellise",
+      "summary": [
+        {
+          "text": "To train as a noblewoman, Vin goes to Lord Renoux's mansion in Fellise, a short way outside Luthadel.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 3,
+      "placeName": "Fellise"
+    },
+    {
+      "id": "sh-aaff7675",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "12"
+        }
+      ],
+      "title": "Meeting Elend",
+      "summary": [
+        {
+          "text": "Vin attends her first ball as Lady Valette Renoux, where she meets Elend Venture for the first time.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "12"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 4
+    },
+    {
+      "id": "sh-b2c0c580",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "14"
+        }
+      ],
+      "title": "Into Kredik Shaw",
+      "summary": [
+        {
+          "text": "Kelsier takes Vin into the Lord Ruler's palace. Fighting their way out, she kills for the first time and narrowly escapes an Inquisitor.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "14"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 5,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-249b41fd",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1270, 630]
+      ],
+      "placeId": "arguois-caverns",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "25"
+        }
+      ],
+      "title": "The army's caves",
+      "summary": [
+        {
+          "text": "Vin and Kelsier race out to the caves where the crew's skaa army trained, after most of it marched out to fight too early.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "25"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 6,
+      "placeName": "Arguois caverns"
+    },
+    {
+      "id": "sh-e0854ed8",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "26"
+        }
+      ],
+      "title": "Executions in the square",
+      "summary": [
+        {
+          "text": "In Fountain Square, Vin watches the Lord Ruler's Inquisitors behead skaa in public.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 7
+    },
+    {
+      "id": "sh-b884e9f6",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "30"
+        }
+      ],
+      "title": "Saving Elend",
+      "summary": [
+        {
+          "text": "At the last ball at Keep Venture, Vin learns that assassins are after Elend, fights them off and kills Shan Elariel, though she is badly hurt.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 8
+    },
+    {
+      "id": "sh-801a9b53",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeId": "square-of-the-survivor",
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "34"
+        }
+      ],
+      "title": "Kelsier's death",
+      "summary": [
+        {
+          "text": "In Fountain Square, Vin watches the Lord Ruler kill Kelsier in front of a crowd of skaa.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 9
+    },
+    {
+      "id": "sh-f1020cbf",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "36"
+        }
+      ],
+      "title": "Past the Inquisitors",
+      "summary": [
+        {
+          "text": "Vin breaks into Kredik Shaw alone and gets past two Inquisitors to reach the Lord Ruler's secret building.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 10,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-af445d53",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "38"
+        }
+      ],
+      "title": "Killing the Lord Ruler",
+      "summary": [
+        {
+          "text": "Freed from her cell by Sazed, Vin fights the Lord Ruler, draws power from the mists, tears off his bracers and kills him.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "38"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 11,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-bda41634",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "2"
+        }
+      ],
+      "approximate": true,
+      "title": "Ambushed in the mists",
+      "summary": [
+        {
+          "text": "A year after the Lord Ruler's fall, a group of Allomancers attacks Vin in the mists. She beats them with help from an unknown Mistborn watching her.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "2"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 12,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-b06fa1aa",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "17"
+        }
+      ],
+      "title": "Straff's messenger",
+      "summary": [
+        {
+          "text": "A messenger from Straff Venture's army turns out to be the Mistborn who has been watching Vin.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "17"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 13
+    },
+    {
+      "id": "sh-01df3bf9",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[724, 770]],
+      "placeName": "Assembly Hall",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "38"
+        }
+      ],
+      "title": "Attack at the Assembly",
+      "summary": [
+        {
+          "text": "When Allomancers attack Elend at an Assembly meeting, Vin kills them in front of the crowd but is badly hurt.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "38"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 14
+    },
+    {
+      "id": "sh-c19095c5",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1268, 782]],
+      "placeName": "Straff's camp",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "26"
+        }
+      ],
+      "approximate": true,
+      "title": "In Straff's camp",
+      "summary": [
+        {
+          "text": "Vin goes with Elend into his father Straff's army camp outside Luthadel to negotiate.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 15
+    },
+    {
+      "id": "sh-917beb27",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[676, 651]],
+      "placeName": "Keep Hasting",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "43"
+        }
+      ],
+      "title": "Attack on Keep Hasting",
+      "summary": [
+        {
+          "text": "Pushed by Zane, Vin storms Keep Hasting, where Lord Cett is staying, and comes close to killing him.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "43"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 16
+    },
+    {
+      "id": "sh-1f0b8509",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "47"
+        }
+      ],
+      "approximate": true,
+      "title": "Killing Zane",
+      "summary": [
+        {
+          "text": "When Vin refuses to leave with him, Zane attacks her. OreSeur turns out to be Zane's kandra, TenSoon, and Vin kills Zane.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "47"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 17,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-0d07d9c6",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "48"
+        }
+      ],
+      "approximate": true,
+      "title": "Marrying Elend",
+      "summary": [
+        {
+          "text": "Wounded, Vin proposes to Elend, and Sazed marries them.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "48"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 18,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-533a3041",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1285, 560]
+      ],
+      "placeName": "North of Luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "49"
+        }
+      ],
+      "approximate": true,
+      "title": "Leaving for the north",
+      "summary": [
+        {
+          "text": "Vin and Elend leave the besieged city, heading north to look for the Well of Ascension.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "49"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 19
+    },
+    {
+      "id": "sh-9a7b4e93",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1285, 560],
+        [1273, 805]
+      ],
+      "placeName": "Road to Luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "52"
+        }
+      ],
+      "approximate": true,
+      "title": "Racing back",
+      "summary": [
+        {
+          "text": "Learning that the koloss outside Luthadel have no one controlling them, Vin runs back alone on a pewter drag.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "52"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 20
+    },
+    {
+      "id": "sh-ecc71db4",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[676, 651]],
+      "placeName": "Keep Hasting",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "54"
+        }
+      ],
+      "approximate": true,
+      "title": "Koloss in the city",
+      "summary": [
+        {
+          "text": "Back in the city, Vin fights through the koloss to Keep Hasting and takes control of them.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "54"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 21
+    },
+    {
+      "id": "sh-c22c3d95",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1268, 782]],
+      "placeName": "Straff's camp",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "55"
+        }
+      ],
+      "approximate": true,
+      "title": "Killing Straff",
+      "summary": [
+        {
+          "text": "Leading the koloss, Vin attacks Straff's army, kills Straff, and makes the other lords accept Elend as emperor.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "55"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 22
+    },
+    {
+      "id": "sh-ec00b035",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "58"
+        }
+      ],
+      "title": "The Well of Ascension",
+      "summary": [
+        {
+          "text": "Beneath Kredik Shaw, Vin finds the Well of Ascension and takes in its power. She gives it up instead of using it, and frees something imprisoned there.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 23,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-19da4edf",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1162, 1046]],
+      "placeId": "vetitan",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "5"
+        }
+      ],
+      "title": "Saving Vetitan",
+      "summary": [
+        {
+          "text": "Vin and Elend save Vetitan from a koloss army by taking control of it, then find a storage cavern hidden by the Lord Ruler beneath the town.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "5"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 24,
+      "placeName": "Vetitan"
+    },
+    {
+      "id": "sh-db10fedd",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[881, 752]],
+      "placeId": "fadrex-city",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "25"
+        }
+      ],
+      "title": "Outside Fadrex",
+      "summary": [
+        {
+          "text": "Elend's army camps outside Fadrex City, held by King Yomen, and Vin sets out to scout it.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "25"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 25,
+      "placeName": "Fadrex City"
+    },
+    {
+      "id": "sh-17e61f47",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[193, 617]],
+      "placeName": "Slowswift's home",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "27"
+        }
+      ],
+      "title": "Into Fadrex",
+      "summary": [
+        {
+          "text": "Vin slips into Fadrex City and visits an informant, Slowswift, to learn about Yomen.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "27"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 26
+    },
+    {
+      "id": "sh-877c8965",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[292, 639]],
+      "placeId": "keep-orielle",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "30"
+        }
+      ],
+      "title": "Ball at Keep Orielle",
+      "summary": [
+        {
+          "text": "Vin and Elend walk openly into a ball at Keep Orielle, in the heart of Yomen's city.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 27,
+      "placeName": "Keep Orielle"
+    },
+    {
+      "id": "sh-ea302699",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[372, 706]],
+      "placeName": "Canton of Resource",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "44"
+        }
+      ],
+      "title": "Beneath the Canton of Resource",
+      "summary": [
+        {
+          "text": "During a ball at the Canton of Resource, Vin goes searching underground for the city's storage cavern and is locked in.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "44"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 28
+    },
+    {
+      "id": "sh-c2114b91",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[372, 706]],
+      "placeId": "fadrex-city",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "54"
+        }
+      ],
+      "approximate": true,
+      "title": "Yomen's prisoner",
+      "summary": [
+        {
+          "text": "Vin wakes in chains with no metals, a prisoner of King Yomen.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "54"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 29,
+      "placeName": "Fadrex City"
+    },
+    {
+      "id": "sh-a67d0b3e",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[372, 706]],
+      "placeId": "fadrex-city",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "65"
+        }
+      ],
+      "approximate": true,
+      "title": "Breaking free",
+      "summary": [
+        {
+          "text": "Vin breaks out of Yomen's prison and fights off Marsh, and Yomen lets Elend's army into Fadrex.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "65"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 30,
+      "placeName": "Fadrex City"
+    },
+    {
+      "id": "sh-0f0430b9",
+      "characters": ["vin"],
+      "mapId": "fadrex-city",
+      "path": [[605, 247]],
+      "placeId": "fadrex-city",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "67"
+        }
+      ],
+      "approximate": true,
+      "title": "Koloss at the gates",
+      "summary": [
+        {
+          "text": "From inside Fadrex, Vin watches a huge koloss army gather outside the city with Elend and Yomen.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "67"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 31,
+      "placeName": "Fadrex City"
+    },
+    {
+      "id": "sh-6a8829d5",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [881, 752],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "72"
+        }
+      ],
+      "title": "Back to Luthadel",
+      "summary": [
+        {
+          "text": "Vin reaches Luthadel with Mistborn on her trail, and Inquisitors waiting.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "72"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 32,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-9bbbad13",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "73"
+        }
+      ],
+      "title": "Killing the Inquisitors",
+      "summary": [
+        {
+          "text": "With her earring torn out, Vin draws the mists into herself, kills the Inquisitors and brings down Kredik Shaw.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "73"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 33,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-2a518c90",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "76"
+        }
+      ],
+      "approximate": true,
+      "title": "Above Luthadel",
+      "summary": [
+        {
+          "text": "Holding the mists' power, Vin rises above Luthadel and confronts Ruin while she tries to repair the land.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "76"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 34,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-697ef5bd",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1140, 632]
+      ],
+      "placeId": "pits-of-hathsin",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "79"
+        }
+      ],
+      "title": "The Pits of Hathsin",
+      "summary": [
+        {
+          "text": "Vin follows Ruin to the Pits of Hathsin, where refugees are sheltering.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "79"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 35,
+      "placeName": "Pits of Hathsin"
+    },
+    {
+      "id": "sh-f0c60329",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1140, 632]],
+      "placeId": "pits-of-hathsin",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "81"
+        }
+      ],
+      "approximate": true,
+      "title": "The last battle",
+      "summary": [
+        {
+          "text": "As Elend and his soldiers face the koloss, Vin sacrifices herself to kill Ruin.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "81"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 36,
+      "placeName": "Pits of Hathsin"
+    }
+  ]
+}

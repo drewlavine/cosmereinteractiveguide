@@ -565,6 +565,90 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'oathbringer', chapter: '100' }],
       },
     ],
+    born: [
+      {
+        name: 'Around 1120',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+        ],
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    age: [
+      {
+        name: '53',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: '53',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+      {
+        name: '53 or 54',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'oathbringer', chapter: '1' }],
+      },
+      {
+        name: '54 or 55',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+      {
+        name: '54 or 55',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/116/#e5569',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
   },
   'adolin-kholin': {
     appearsIn: [

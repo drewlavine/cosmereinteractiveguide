@@ -200,7 +200,22 @@ OK.
   (`~/.cig-headless/chrome-headless-shell/*/chrome-headless-shell-*/chrome-headless-shell --headless`),
   never Google Chrome.app (it steals focus); phone shots at 500 wide.
 
+- **Journey maps, 2026-10-17 (later): Vin (Era 1) and Dalinar.**
+  Uncommitted. Vin: `~/cig-journey-data/hand/scadrial.json` +
+  `import_hand.py`, city maps with zoom in/out. Dalinar: 29 events in
+  `text/roshar-map.json`; new importer fields `byCharacter`, `point`,
+  `place`, `approximate`, top-level `added`. A verification pass
+  (report in the session's `files/journey-verification.md`, spoilers)
+  fixed 44 issues. Vitest caches `import.meta.glob`: after adding a pack,
+  `rm -rf node_modules/.vitest-cache node_modules/.vite`.
+
 ## Known doubts to mention
+
+- Dalinar "Taking Oathbringer": the verifier called "Gavilar tells him it
+  is Oathbringer" unsupported, but our History says so at OB 11; dropped
+  for now, easy to restore.
+- Vin has no event art yet; History hyperlinks are deferred until a tab is
+  finished.
 
 - Journey map:
   - Several events share the Shattered Plains point; a drill-down map
@@ -208,8 +223,9 @@ OK.
   - "Drawing in Stormlight" has no art: none found that shows it.
   - The Roshar map shows from the Way of Kings prelude (it's printed front
     matter); its labels name places the reader hasn't met yet.
-  - Places on the map are dated per book, so mid-book readers see "Stop N"
-    rather than names (fails closed).
+  - Listed places are dated per book, so mid-book a stop shows its own
+    `placeName` (safe at its chapter) unlinked; the link comes once the
+    place is revealed.
   - A stop whose chapter id we don't know shows once the book is finished
     (as with other facts), never mid-book.
   - Refs naming several chapters use the latest. Many Way of Kings stops are

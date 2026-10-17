@@ -52,6 +52,12 @@ export interface JourneyEvent {
   /** The place it happens at; named only once the place is revealed. */
   placeId?: string
   /**
+   * Hand-written name of where it happens, safe at the event's chapter: for
+   * places not in the Locations list (a keep, a camp), or while `placeId`'s
+   * own name is still hidden.
+   */
+  placeName?: string
+  /**
    * Where the reader learns where it happened, if later than the event
    * itself (e.g. a birth date known before the birthplace). Until then the
    * event has no point on the map and no place.

@@ -2,6 +2,7 @@ import {
   Fragment,
   useCallback,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
@@ -15,12 +16,23 @@ import type { ShownJourney } from '../../data/reveal'
 import { stopName, stopSource } from './journeyLabels'
 import type { MapEngineHandle } from './MapEngine'
 import { SvgMapEngine } from './SvgMapEngine'
-import { boundsOf, pathData, tracks } from './journeyGeometry'
+import {
+  anchorOn,
+  boundsOf,
+  pathData,
+  pathsOn,
+  rootOf,
+  tracks,
+} from './journeyGeometry'
 import { useFullscreen } from './useFullscreen'
 
 const PLAY_MS = 2600
 // The least a stop's view shows, as a share of the map's width.
 const MIN_VIEW = 0.12
+// Moving between a map and one inside it (a city): how long each step of
+// the zoom takes, and how much of the outer map's width shows at the pin.
+const ZOOM_MS = 800
+const PIN_VIEW = 0.015
 
 const reducedMotion = () =>
   typeof window !== 'undefined' &&
@@ -47,13 +59,34 @@ export default function JourneyMap({
   const [playing, setPlaying] = useState(false)
   const [cardOpen, setCardOpen] = useState(true)
   const [viewing, setViewing] = useState(false)
+  // The past event under the pointer, named at once (a <title> waits ~1s).
+  const [hovered, setHovered] = useState<number>()
   const frame = useRef<HTMLDivElement>(null)
   const engine = useRef<MapEngineHandle>(null)
   const fullscreen = useFullscreen(frame)
 
   const stop = stops[current]
-  const map = maps.find((m) => m.id === stop?.mapId) ?? maps[0]
-  const lines = useMemo(() => tracks(stops), [stops])
+  // The map on screen. It trails the stop's own map while zooming between
+  // a map and one inside it (a city), and starts on the outermost one.
+  const [view, setView] = useState(() =>
+    stops[0] ? rootOf(maps, stops[0].mapId) : undefined,
+  )
+  const map = maps.find((m) => m.id === view) ?? maps[0]
+  const paths = useMemo(
+    () => (map ? pathsOn(stops, maps, map.id) : []),
+    [stops, maps, map],
+  )
+  const lines = useMemo(() => tracks(paths), [paths])
+  // The map just left, to zoom out of its pin on the new one.
+  const left = useRef<string>(undefined)
+  // A stop whose way there waits until the zoom out of a city is done.
+  const [arriving, setArriving] = useState<number>()
+  // The last stop drawn: the one before while still changing maps, so the
+  // way to a stop on another map only shows once that map is on screen.
+  const drawn =
+    (stop && map && stop.mapId !== map.id) || arriving === current
+      ? current - 1
+      : current
 
   // Moving to an event opens its card again.
   const go = useCallback(
@@ -89,7 +122,7 @@ export default function JourneyMap({
   // the whole map while where it happened is still unknown.
   const fly = useCallback(
     (animate: boolean) => {
-      const path = stops[current]?.path
+      const path = paths[current]
       if (!path || !map) return
       const { width, height } = map.image
       const box = path.length
@@ -101,15 +134,74 @@ export default function JourneyMap({
         inset: covered(),
       })
     },
-    [stops, current, map, covered],
+    [paths, current, map, covered],
   )
 
   // Opened from a preview: take focus so the arrow keys work straight away.
   useEffect(() => frame.current?.focus({ preventScroll: true }), [])
 
   // Fly to each stop as it comes, the first from the whole map, and again
-  // when the card opens or closes over it.
-  useEffect(() => fly(true), [fly, cardOpen])
+  // when the card opens or closes over it. A stop on another map swaps maps.
+  // Into a city: fly to its pin, then the city flies in to the stop. Out of
+  // one: show the whole city, then the outer map zooms out from the city's
+  // pin, then pans to the stop.
+  const target = stop?.mapId
+  useEffect(() => {
+    if (!target || !map) return
+    const motion = !reducedMotion()
+    const whole = {
+      x: 0,
+      y: 0,
+      width: map.image.width,
+      height: map.image.height,
+    }
+    if (target !== map.id) {
+      const into = motion && anchorOn(maps, map.id, target)
+      const outOf = motion && anchorOn(maps, target, map.id)
+      const swap = () => {
+        left.current = map.id
+        if (outOf) setArriving(current)
+        setView(target)
+      }
+      if (!into && !outOf) return swap()
+      engine.current?.flyTo(
+        into ? boundsOf([into], map.image.width * PIN_VIEW) : whole,
+        { maxZoom: into ? 8 : undefined, inset: covered() },
+      )
+      const timer = setTimeout(swap, ZOOM_MS)
+      return () => clearTimeout(timer)
+    }
+    const from = left.current
+    left.current = undefined
+    const pin = from && motion && anchorOn(maps, map.id, from)
+    if (!pin) {
+      fly(true)
+      if (arriving === undefined) return
+      // Cut short (e.g. the card closed): draw the way at once.
+      const timer = setTimeout(() => setArriving(undefined))
+      return () => clearTimeout(timer)
+    }
+    engine.current?.flyTo(boundsOf([pin], map.image.width * PIN_VIEW), {
+      animate: false,
+      maxZoom: 8,
+      inset: covered(),
+    })
+    // Two frames, so the jump to the pin is drawn before the zoom out.
+    let timer: ReturnType<typeof setTimeout> | undefined
+    let frameId = requestAnimationFrame(() => {
+      frameId = requestAnimationFrame(() => {
+        engine.current?.flyTo(boundsOf([pin], map.image.width * MIN_VIEW * 2), {
+          maxZoom: 1.2,
+          inset: covered(),
+        })
+        timer = setTimeout(() => setArriving(undefined), ZOOM_MS)
+      })
+    })
+    return () => {
+      cancelAnimationFrame(frameId)
+      clearTimeout(timer)
+    }
+  }, [target, current, arriving, map, maps, fly, covered, cardOpen])
 
   // Re-centre when the frame changes size (full screen, rotation...).
   const flyNow = useRef(fly)
@@ -143,6 +235,7 @@ export default function JourneyMap({
 
   const pick = (i: number) => {
     setPlaying(false)
+    setHovered(undefined)
     go(i)
   }
 
@@ -165,12 +258,11 @@ export default function JourneyMap({
 
   const layers = (zoom: number) => {
     const px = (n: number) => n / zoom
-    const here = lines[current].at(-1)
+    const here = lines[drawn]?.at(-1)
     return (
       <>
         {lines.map((line, i) => {
-          if (i > current || stops[i].mapId !== map.id || !line.length)
-            return null
+          if (i > drawn || !line.length) return null
           const dash = stops[i].approximate ? `${px(7)} ${px(6)}` : undefined
           return (
             <Fragment key={stops[i].id}>
@@ -178,9 +270,9 @@ export default function JourneyMap({
                 <path
                   d={pathData(line)}
                   className={
-                    i === current ? 'journey-track-now' : 'journey-track-past'
+                    i === drawn ? 'journey-track-now' : 'journey-track-past'
                   }
-                  strokeWidth={px(i === current ? 4 : 3)}
+                  strokeWidth={px(i === drawn ? 4 : 3)}
                   strokeDasharray={dash}
                 />
               )}
@@ -191,9 +283,32 @@ export default function JourneyMap({
                 strokeWidth={px(1.5)}
                 className="journey-dot"
               />
+              {/* A bigger, unseen target that goes to the event. The
+                  numbered events below do the same from the keyboard. */}
+              {i !== current && (
+                <circle
+                  cx={line.at(-1)![0]}
+                  cy={line.at(-1)![1]}
+                  r={px(12)}
+                  className="journey-dot-hit"
+                  data-event={i}
+                  onClick={() => pick(i)}
+                  onPointerEnter={() => setHovered(i)}
+                  onPointerLeave={() => setHovered(undefined)}
+                />
+              )}
             </Fragment>
           )
         })}
+        {hovered !== undefined &&
+        hovered !== current &&
+        lines[hovered]?.length ? (
+          <DotTip
+            at={lines[hovered].at(-1)!}
+            zoom={zoom}
+            text={stopName(stops[hovered], hovered)}
+          />
+        ) : null}
         {here && (
           <>
             <circle
@@ -249,6 +364,7 @@ export default function JourneyMap({
           )}
         </div>
         <SvgMapEngine
+          key={map.id}
           ref={engine}
           image={map.image}
           label={`Map of ${map.title}: drag to pan, pinch or scroll to zoom`}
@@ -516,5 +632,60 @@ function ArtViewer({ art, onClose }: { art: JourneyArt; onClose: () => void }) {
         ×
       </button>
     </dialog>
+  )
+}
+
+/**
+ * A tooltip above a point on the map, the size it would be on screen at any
+ * zoom: a box sized to its text, with a pointer down to the point.
+ */
+function DotTip({
+  at: [x, y],
+  zoom,
+  text,
+}: {
+  at: readonly number[]
+  zoom: number
+  text: string
+}) {
+  const label = useRef<SVGTextElement>(null)
+  const [width, setWidth] = useState(text.length * 7)
+  // The text's width on screen; jsdom can't measure, so it keeps the guess.
+  useLayoutEffect(() => {
+    const t = label.current
+    if (t?.getComputedTextLength) setWidth(t.getComputedTextLength() * zoom)
+  }, [text, zoom])
+  const px = (n: number) => n / zoom
+  const r = px(5)
+  const w = px(width + 20)
+  const h = px(26)
+  const top = y - px(14) - h
+  const left = x - w / 2
+  return (
+    <g className="journey-dot-tip">
+      <path
+        d={[
+          `M${left} ${top + r}`,
+          `a${r} ${r} 0 0 1 ${r} ${-r}`,
+          `h${w - 2 * r}`,
+          `a${r} ${r} 0 0 1 ${r} ${r}`,
+          `v${h - 2 * r}`,
+          `a${r} ${r} 0 0 1 ${-r} ${r}`,
+          `H${x + px(6)} l${-px(6)} ${px(7)} l${-px(6)} ${-px(7)}`,
+          `H${left + r}`,
+          `a${r} ${r} 0 0 1 ${-r} ${-r} z`,
+        ].join(' ')}
+        strokeWidth={px(1)}
+      />
+      <text
+        ref={label}
+        x={x}
+        y={top + h / 2}
+        fontSize={px(13)}
+        dominantBaseline="central"
+      >
+        {text}
+      </text>
+    </g>
   )
 }

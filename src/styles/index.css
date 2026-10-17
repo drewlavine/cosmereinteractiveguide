@@ -1240,6 +1240,32 @@ dd {
   stroke: #15232f;
 }
 
+.journey-dot-hit {
+  fill: transparent;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.journey-dot-tip {
+  pointer-events: none;
+  filter: drop-shadow(0 3px 8px rgb(0 0 0 / 0.5));
+}
+
+.journey-dot-tip path {
+  fill: var(--slate-deep);
+  stroke: var(--gold);
+}
+
+.journey-dot-tip text {
+  fill: var(--text);
+  text-anchor: middle;
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+}
+
+.journey-dot-hit:hover {
+  fill: rgb(242 193 78 / 0.25);
+}
+
 .journey-here {
   fill: #15232f;
   stroke: #f2c14e;

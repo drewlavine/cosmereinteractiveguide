@@ -322,10 +322,17 @@ links? }`, each shown at its own chapter until a fuller part takes over;
     `AtlasMap` can have a `parent` (map id, place, point): the star map is
     just a top map with planet maps as children, as Middle-earth would be
     with regional maps. A world hop is an event on the top map with the
-    planet as its place; drill-down follows `parent` links. Neither is
-    wired yet, but neither needs a schema change.
+    planet as its place; drill-down follows `parent` links. City maps
+    (Luthadel, Fadrex City) are wired this way: `revealJourney` adds a
+    stop's visible parent chain to `maps`; on the parent, inner stops are
+    drawn at the city's pin (`pathsOn`, `anchorOn`, `rootOf` in
+    `journeyGeometry.ts`). `JourneyMap` zooms into the pin and swaps to the
+    city map, or zooms out over the pin and then pans, drawing a new leg
+    only after the swap. The star map isn't wired yet.
 - **Trimming** (`reveal.ts`): `revealJourney` keeps the events the reader
-  has reached, in `order`, names a place only once it's revealed, keeps a
+  has reached, in `order`, names and links a listed place only once it's
+  revealed, else names the event's own `placeName` (safe at its chapter;
+  every event has one, so every stop says where it is), keeps a
   hand-written summary's passages by their own points, and reports whether
   anything was hidden (`spoilers`) for the Show anyway notice.
   `revealCharacterJourney` and `journeyShown` serve pages and page

@@ -7,6 +7,122 @@ import type { JourneyIndex } from './journey'
  * part of the journey once they've reached any of these and the map).
  */
 export const journeyIndex: JourneyIndex = {
+  'dalinar-kholin': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '4',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '11',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '26',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '49',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '57',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '59',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '65',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '76',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '100',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '109',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '114',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '98',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '111',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '112',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: 'prologue',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '13',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '26',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '28',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '55',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '60',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '68',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '69',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '32',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '58',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '86',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '89',
+        },
+      ],
+    },
+  ],
   kaladin: [
     {
       pack: 'roshar',
@@ -167,6 +283,170 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'words-of-radiance',
           chapter: '88',
+        },
+      ],
+    },
+  ],
+  vin: [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '27',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '30',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '44',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '54',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '65',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '67',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '8',
+        },
+        {
+          book: 'final-empire',
+          chapter: '25',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '5',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '25',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '72',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '79',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '81',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '26',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '52',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '2',
+        },
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '12',
+        },
+        {
+          book: 'final-empire',
+          chapter: '14',
+        },
+        {
+          book: 'final-empire',
+          chapter: '26',
+        },
+        {
+          book: 'final-empire',
+          chapter: '30',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '36',
+        },
+        {
+          book: 'final-empire',
+          chapter: '38',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '76',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '2',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '17',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '38',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '43',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '47',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '48',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '54',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
         },
       ],
     },

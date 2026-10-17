@@ -1,5 +1,6 @@
 import { lazy, Suspense, useState } from 'react'
 import type { ShownJourney } from '../../data/reveal'
+import { rootOf } from './journeyGeometry'
 
 const JourneyMap = lazy(() => import('./JourneyMap'))
 
@@ -17,8 +18,10 @@ export function JourneyPreview({
 }) {
   const [open, setOpen] = useState(false)
   const { stops, maps } = journey
-  // The whole map the journey starts on, zoomed out, with no event marked.
-  const map = maps.find((m) => m.id === stops[0]?.mapId)
+  // The whole map the journey starts on (or the one holding it, if it starts
+  // in a city), zoomed out, with no event marked.
+  const map =
+    stops[0] && maps.find((m) => m.id === rootOf(maps, stops[0].mapId))
   if (!map) return null
 
   if (open)

@@ -10,7 +10,8 @@ import { findPersona } from './data/reveal'
  * 2. Add the tab's routes as children of the layout route in `routes.tsx`.
  *
  * A tab with `comingSoon` set gets a placeholder page at its `path`
- * automatically; remove `comingSoon` once its real routes exist.
+ * automatically; remove `comingSoon` once its real routes exist. Set
+ * `hidden` to take a tab out of the header without dropping its page.
  */
 export interface MainTab {
   id: string
@@ -21,6 +22,8 @@ export interface MainTab {
   isActive: (pathname: string) => boolean
   /** Placeholder text for a section that isn't built yet. */
   comingSoon?: string
+  /** Left out of the header for now; its page still works at `path`. */
+  hidden?: boolean
 }
 
 /** Matches each path itself and everything below it. */
@@ -81,6 +84,7 @@ export const mainTabs: MainTab[] = [
     path: '/events',
     isActive: underPath('/events'),
     comingSoon: 'Key events across the Cosmere, in order.',
+    hidden: true,
   },
 ]
 

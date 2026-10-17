@@ -8,6 +8,188 @@
   ],
   "events": [
     {
+      "id": "rm-2a111c03",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1935, 795]],
+      "placeId": "alethkar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prologue"
+        }
+      ],
+      "approximate": true,
+      "title": "Born",
+      "summary": [
+        {
+          "text": "Dalinar is born around 1120.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "prologue"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "26"
+            }
+          ],
+          "cite": {
+            "text": "Word of Brandon",
+            "url": "https://wob.coppermind.net/events/116/#e5569"
+          }
+        },
+        {
+          "text": "Dalinar is born around 1120, the second son of the Kholin family.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "26"
+            }
+          ],
+          "cite": {
+            "text": "Word of Brandon",
+            "url": "https://wob.coppermind.net/events/116/#e5569"
+          }
+        }
+      ],
+      "source": "roshar-map",
+      "order": 1,
+      "placeName": "Alethkar"
+    },
+    {
+      "id": "rm-97a65af7",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1878, 873]],
+      "placeId": "alethkar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "26"
+        }
+      ],
+      "approximate": true,
+      "title": "War of unification",
+      "summary": [
+        {
+          "text": "Dalinar follows his older brother Gavilar into a war to unite Alethkar under the Kholin banner.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 2,
+      "placeName": "Alethkar"
+    },
+    {
+      "id": "rm-98965771",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1899, 962]],
+      "placeId": "rathalas",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "11"
+        }
+      ],
+      "title": "Taking Oathbringer",
+      "art": {
+        "src": "/journey-art/rm-98965771.webp",
+        "alt": "A frightened boy kneels holding a huge Shardblade, while an armoured figure with a bloodied axe stands over him.",
+        "credit": {
+          "text": "Xabi Gazte",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Xabi_Gazte"
+        }
+      },
+      "summary": [
+        {
+          "text": "Dalinar attacks Rathalas, the Rift, and kills Brightlord Tanalan. He spares Tanalan's widow and young son, and takes the Shardblade, Oathbringer.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 3,
+      "placeName": "Rathalas"
+    },
+    {
+      "id": "rm-1663c7a6",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1800, 800]],
+      "placeName": "Kalanor's lands",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "26"
+        }
+      ],
+      "approximate": true,
+      "title": "Duel with Kalanor",
+      "summary": [
+        {
+          "text": "Attacking Highprince Kalanor, Dalinar is so lost in the Thrill that he kills his own men. He wins Kalanor's Shards in a duel, then turns on Gavilar, stopping only when his brother takes off his helm and smiles. Ashamed, he gives Gavilar the Shards.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 4
+    },
+    {
+      "id": "rm-8312fac7",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1935, 795]],
+      "placeId": "kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "49"
+        }
+      ],
+      "title": "Adolin is born",
+      "art": {
+        "src": "/journey-art/rm-8312fac7.webp",
+        "alt": "Dalinar cradles his newborn son, smiling, as Evi watches from the bed.",
+        "credit": {
+          "text": "Xabi Gazte",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Xabi_Gazte"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "Called away from a wrestling match when Evi goes into labour, Dalinar is overjoyed at the birth of their son, Adolin.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "49"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 5,
+      "placeName": "Kholinar"
+    },
+    {
       "id": "rm-88d82cfa",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -71,7 +253,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 1
+      "order": 6,
+      "placeName": "Hearthstone"
     },
     {
       "id": "rm-6e2723a3",
@@ -107,7 +290,44 @@
         }
       ],
       "source": "roshar-map",
-      "order": 2
+      "order": 7,
+      "placeName": "Hearthstone"
+    },
+    {
+      "id": "rm-514e251d",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1899, 963]],
+      "placeId": "rathalas",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "76"
+        }
+      ],
+      "title": "Burning the Rift",
+      "art": {
+        "src": "/journey-art/rm-514e251d.webp",
+        "alt": "An armoured figure with a Shardblade on his shoulder stands silhouetted against a burning city.",
+        "credit": {
+          "text": "AshfellEverdawn",
+          "url": "https://www.reddit.com/user/AshfellEverdawn"
+        }
+      },
+      "summary": [
+        {
+          "text": "After an ambush, Dalinar has Rathalas burned in a rage of the Thrill. Evi, who had gone into the city, dies in the fire. Dalinar hides this and has it given out that she was assassinated and that the city burned in retribution.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "76"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 8,
+      "placeName": "Rathalas"
     },
     {
       "id": "rm-3a07c257",
@@ -134,7 +354,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 3
+      "order": 9,
+      "placeName": "Hearthstone"
+    },
+    {
+      "id": "rm-e526b0c5",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2010, 1200]],
+      "placeName": "South of the Shattered Plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "28"
+        }
+      ],
+      "approximate": true,
+      "title": "Meeting the Parshendi",
+      "summary": [
+        {
+          "text": "Seven years earlier, on an expedition south of the Shattered Plains, Dalinar meets a Parshendi patrol and sees they are intelligent and organized. He brings Gavilar to meet them.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 10
     },
     {
       "id": "rm-a9c9545f",
@@ -161,7 +410,82 @@
         }
       ],
       "source": "roshar-map",
-      "order": 4
+      "order": 11,
+      "placeName": "Hearthstone"
+    },
+    {
+      "id": "rm-7df53afc",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1936, 796]],
+      "placeId": "kholinar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prologue"
+        }
+      ],
+      "title": "Gavilar is assassinated",
+      "art": {
+        "src": "/journey-art/rm-7df53afc.webp",
+        "alt": "A man in white walks from fallen guards down a palace hall, his hand over his face.",
+        "credit": {
+          "text": "Artem Demura",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Artem_Demura"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "On the night of a feast in Kholinar to celebrate a treaty with the Parshendi, an assassin in white, Szeth, kills King Gavilar, Dalinar's brother.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "prologue"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 12,
+      "placeName": "Kholinar"
+    },
+    {
+      "id": "rm-489f36f4",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1152, 1051]],
+      "placeId": "the-valley",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "114"
+        }
+      ],
+      "title": "The Nightwatcher",
+      "art": {
+        "src": "/journey-art/rm-489f36f4.webp",
+        "alt": "Dalinar sits on the grass of a glowing forest, facing a spren made of vines.",
+        "credit": {
+          "text": "Jordi Rapture",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jordi_Rapture"
+        },
+        "position": "50% 60%"
+      },
+      "summary": [
+        {
+          "text": "Travelling to the Shattered Plains after Gavilar's death, Dalinar goes to the Valley to ask the Nightwatcher for forgiveness. Cultivation offers to prune him instead. He accepts and loses all memory of his wife.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "114"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 13,
+      "placeName": "Valley"
     },
     {
       "id": "rm-eec42826",
@@ -197,13 +521,15 @@
         }
       ],
       "source": "roshar-map",
-      "order": 5
+      "order": 14,
+      "placeName": "Hearthstone"
     },
     {
       "id": "rm-fcef4d20",
       "characters": ["kaladin"],
       "mapId": "roshar",
       "path": [[1864, 643]],
+      "placeId": "alethkar",
       "revealedIn": [
         {
           "book": "way-of-kings",
@@ -232,13 +558,15 @@
         }
       ],
       "source": "roshar-map",
-      "order": 6
+      "order": 15,
+      "placeName": "Alethkar"
     },
     {
       "id": "rm-2b5c487c",
       "characters": ["kaladin"],
       "mapId": "roshar",
       "path": [[1862, 641]],
+      "placeId": "alethkar",
       "revealedIn": [
         {
           "book": "way-of-kings",
@@ -258,7 +586,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 7
+      "order": 16,
+      "placeName": "Alethkar"
     },
     {
       "id": "rm-92cff05a",
@@ -294,7 +623,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 8
+      "order": 17,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-5cfdd7ef",
@@ -330,7 +660,44 @@
         }
       ],
       "source": "roshar-map",
-      "order": 9
+      "order": 18,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-cb40a04b",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2013, 1142]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "13"
+        }
+      ],
+      "title": "The chasmfiend hunt",
+      "art": {
+        "src": "/journey-art/rm-cb40a04b.webp",
+        "alt": "Dalinar in Shardplate, Blade in hand, faces a huge chasmfiend on the plateaus.",
+        "credit": {
+          "text": "Evan Monteiro",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Evan_Monteiro"
+        }
+      },
+      "summary": [
+        {
+          "text": "On a hunt on the Shattered Plains with King Elhokar and Sadeas, a chasmfiend attacks. Dalinar risks his life to save his nephew.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "13"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 19,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-f8deda35",
@@ -366,7 +733,73 @@
         }
       ],
       "source": "roshar-map",
-      "order": 10
+      "order": 20,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-3fe7d351",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2002, 1127]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "28"
+        }
+      ],
+      "title": "Thinking of abdicating",
+      "summary": [
+        {
+          "text": "When eight highprinces refuse his call for joint assaults, leaving only Sadeas, Dalinar tells Navani he is considering abdicating to Adolin. She urges him to stay.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 21,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-144f1166",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2001, 1126]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "55"
+        }
+      ],
+      "title": "Joint plateau assaults",
+      "art": {
+        "src": "/journey-art/rm-144f1166.webp",
+        "alt": "Two armies clash on a plateau under a storm of arrows; riders lead the charge.",
+        "credit": {
+          "text": "Miguel Sastre",
+          "url": "https://www.instagram.com/p/CDZXDdrjYcU/"
+        },
+        "position": "50% 60%"
+      },
+      "summary": [
+        {
+          "text": "Highprinces Dalinar and Sadeas begin attacking plateaus together, with Sadeas's bridge crews running for both armies. Their first joint assault succeeds.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "55"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 22,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-3e8cd050",
@@ -402,7 +835,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 11
+      "order": 23,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-65f3ae5a",
@@ -429,11 +863,40 @@
         }
       ],
       "source": "roshar-map",
-      "order": 12
+      "order": 24,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-572eefb0",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2004, 1126]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "60"
+        }
+      ],
+      "title": "The Dawnchant",
+      "summary": [
+        {
+          "text": "Navani realises that Dalinar speaks the Dawnchant, a dead language, during his visions, which shows they are real.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "60"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 25,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-41f8bcc9",
-      "characters": ["kaladin"],
+      "characters": ["kaladin", "dalinar-kholin"],
       "mapId": "roshar",
       "path": [[2007, 1132]],
       "placeId": "shattered-plains",
@@ -465,7 +928,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 13
+      "order": 26,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-bbcd36e3",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2002, 1127]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "69"
+        }
+      ],
+      "title": "Buying Bridge Four's freedom",
+      "summary": [
+        {
+          "text": "Dalinar trades his Shardblade, Oathbringer, to Sadeas for the freedom of Kaladin and the bridgemen.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "69"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 27,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-b31aa395",
@@ -501,7 +993,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 14
+      "order": 28,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-bb6edd25",
@@ -528,7 +1021,45 @@
         }
       ],
       "source": "roshar-map",
-      "order": 15
+      "order": 29,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-021759a8",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2002, 1124]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "32"
+        }
+      ],
+      "title": "Szeth's attack",
+      "art": {
+        "src": "/journey-art/rm-021759a8.webp",
+        "alt": "In a pillared hall, two men with a Shardblade and a spear face a glowing figure in white.",
+        "credit": {
+          "text": "Jules Aguimatang",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jules_Aguimatang"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Warned by Kaladin, Dalinar flees the palace with the king, but Szeth breaks in and says he has come for Dalinar. Dalinar catches Szeth's Shardblade between his palms, and Kaladin knocks Szeth out through the wall.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 30,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-1eb04109",
@@ -564,7 +1095,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 16
+      "order": 31,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-82e039be",
@@ -591,7 +1123,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 17
+      "order": 32,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-fb952227",
@@ -627,7 +1160,45 @@
         }
       ],
       "source": "roshar-map",
-      "order": 18
+      "order": 33,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-89558117",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1999, 1124]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "58"
+        }
+      ],
+      "title": "Four Shardbearers",
+      "art": {
+        "src": "/journey-art/rm-89558117.webp",
+        "alt": "Kaladin in a blue coat stands in the dueling arena between armored Shardbearers.",
+        "credit": {
+          "text": "Randy Vargas",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Randy_Vargas"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "Dalinar's plan to beat Sadeas through Adolin's duel falls apart when Kaladin accuses Amaram. Dalinar stops the king from executing Kaladin, who is jailed instead.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 34,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-e52d63e8",
@@ -663,7 +1234,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 19
+      "order": 35,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-39a2fd03",
@@ -690,7 +1262,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 20
+      "order": 36,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-3c1f0567",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[2026, 1143]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "86"
+        }
+      ],
+      "title": "The Battle of Narak",
+      "summary": [
+        {
+          "text": "At Narak, caught between two storms, Dalinar leads the Alethi armies. Kaladin catches him when Szeth drops him from the sky, and Shallan opens the Oathgate to get the armies out.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "86"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 37,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-4b938243",
@@ -726,7 +1327,82 @@
         }
       ],
       "source": "roshar-map",
-      "order": 21
+      "order": 38,
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rm-406fee7d",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "89"
+        }
+      ],
+      "title": "Becoming a Bondsmith",
+      "art": {
+        "src": "/journey-art/rm-406fee7d.webp",
+        "alt": "A vast tiered tower rises among snowy mountains, ringed by round platforms.",
+        "credit": {
+          "text": "Jacobo Montoya",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jacobo_Montoya"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "In Urithiru, Dalinar climbs to the top of the tower, swears the Ideals of a Bondsmith and bonds the Stormfather.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "89"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 39,
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rm-ffdb2933",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1159, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "4"
+        }
+      ],
+      "title": "Marrying Navani",
+      "art": {
+        "src": "/journey-art/rm-ffdb2933.webp",
+        "alt": "Dalinar and Navani hold hands beneath the Stormfather's face in the night sky.",
+        "credit": {
+          "text": "Artur Felipe Mósca",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Artur_Felipe_M%C3%B3sca"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "With no ardent willing to marry them, Dalinar asks the Stormfather, who appears to all and receives his and Navani's vows.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "4"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 40,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-aae193f6",
@@ -762,13 +1438,15 @@
         }
       ],
       "source": "roshar-map",
-      "order": 22
+      "order": 41,
+      "placeName": "Hearthstone"
     },
     {
       "id": "rm-63b18f84",
       "characters": ["kaladin"],
       "mapId": "roshar",
       "path": [[1911, 647]],
+      "placeId": "alethkar",
       "revealedIn": [
         {
           "book": "oathbringer",
@@ -797,7 +1475,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 23
+      "order": 42,
+      "placeName": "Alethkar"
     },
     {
       "id": "rm-90ce1846",
@@ -833,13 +1512,15 @@
         }
       ],
       "source": "roshar-map",
-      "order": 24
+      "order": 43,
+      "placeName": "Revolar"
     },
     {
       "id": "rm-26acf180",
       "characters": ["kaladin"],
       "mapId": "roshar",
       "path": [[2026, 1144]],
+      "placeId": "shattered-plains",
       "revealedIn": [
         {
           "book": "oathbringer",
@@ -859,7 +1540,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 25
+      "order": 44,
+      "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rm-74f1e570",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "57"
+        }
+      ],
+      "title": "Odium appears",
+      "summary": [
+        {
+          "text": "As a vision ends, Odium appears to Dalinar. He says he means to kill Cultivation too, turns down a contest of champions, and shows Dalinar his true power.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "57"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 45,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-1cebb6e1",
@@ -886,7 +1596,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 26
+      "order": 46,
+      "placeName": "Thaylen City"
+    },
+    {
+      "id": "rm-d04a9c36",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1501, 1312]],
+      "placeId": "thaylen-city",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "59"
+        }
+      ],
+      "title": "Thaylenah joins",
+      "summary": [
+        {
+          "text": "Dalinar goes through the new Oathgate to Thaylen City. There he uses his Bondsmith powers to mend a ruined temple, and Queen Fen agrees to join his coalition.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 47,
+      "placeName": "Thaylen City"
     },
     {
       "id": "rm-4a995cb3",
@@ -922,7 +1661,44 @@
         }
       ],
       "source": "roshar-map",
-      "order": 27
+      "order": 48,
+      "placeName": "Kholinar"
+    },
+    {
+      "id": "rm-672ce2d0",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[937, 1043]],
+      "placeId": "azimir",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "65"
+        }
+      ],
+      "title": "Visit to Azimir",
+      "art": {
+        "src": "/journey-art/rm-672ce2d0.webp",
+        "alt": "Lift, perched on the back of a sofa, hands Dalinar a bowl of food in an Azish room.",
+        "credit": {
+          "text": "Marie Seeberger",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
+        }
+      },
+      "summary": [
+        {
+          "text": "Dalinar travels to Azimir through the Oathgate and learns Azish through the Stormfather. With essays from Fen, Navani and Jasnah, he persuades the viziers to visit Urithiru. On his return, he suddenly remembers everything about the Rift.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "65"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 49,
+      "placeName": "Azimir"
     },
     {
       "id": "rm-a5947c79",
@@ -949,7 +1725,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 28
+      "order": 50,
+      "placeName": "Kholinar"
     },
     {
       "id": "rm-7f2e5429",
@@ -985,7 +1762,72 @@
         }
       ],
       "source": "roshar-map",
-      "order": 29
+      "order": 51,
+      "placeName": "Kholinar"
+    },
+    {
+      "id": "rm-7d58310d",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1539, 1053]],
+      "placeId": "vedenar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "100"
+        }
+      ],
+      "title": "The Thrill at Vedenar",
+      "summary": [
+        {
+          "text": "At Vedenar, Dalinar feels the Thrill for the first time in years. Fleeing it, he is declared excommunicated by ardents and forces the Oathgate to work without a Shardblade. Back in Urithiru, he starts drinking again.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "100"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 52,
+      "placeName": "Vedenar"
+    },
+    {
+      "id": "rm-ecc10b2e",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1157, 1001]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "109"
+        }
+      ],
+      "title": "Talks with Venli",
+      "art": {
+        "src": "/journey-art/rm-ecc10b2e.webp",
+        "alt": "Dalinar and Venli fall through a shattering vision of a city filled with golden light.",
+        "credit": {
+          "text": "Ganna Pazyniuk",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/AnnDR"
+        }
+      },
+      "summary": [
+        {
+          "text": "In a vision, Dalinar asks Venli for a truce. She demands Alethkar. Odium breaks into the vision and tells Dalinar there will be peace once Dalinar has destroyed the world.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "109"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 53,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-5851dfa3",
@@ -1012,7 +1854,36 @@
         }
       ],
       "source": "roshar-map",
-      "order": 30
+      "order": 54,
+      "placeName": "Thaylen City"
+    },
+    {
+      "id": "rm-cbe26988",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1501, 1312]],
+      "placeId": "thaylen-city",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "120"
+        }
+      ],
+      "title": "Unity",
+      "summary": [
+        {
+          "text": "At Thaylen City, Dalinar refuses to give Odium his past, swears the Third Ideal and joins the three Realms, bringing the missing Radiants back. He then goes into the red mist and traps the Thrill.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "120"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 55,
+      "placeName": "Thaylen City"
     },
     {
       "id": "rm-57906d1b",
@@ -1048,7 +1919,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 31
+      "order": 56,
+      "placeName": "Hearthstone"
     },
     {
       "id": "rm-3a5b3473",
@@ -1084,7 +1956,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 32
+      "order": 57,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-cd4e4262",
@@ -1120,7 +1993,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 33
+      "order": 58,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-8fe24339",
@@ -1147,7 +2021,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 34
+      "order": 59,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-47856261",
@@ -1174,7 +2049,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 35
+      "order": 60,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-54820dd6",
@@ -1201,7 +2077,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 36
+      "order": 61,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-64c3f69b",
@@ -1228,7 +2105,37 @@
         }
       ],
       "source": "roshar-map",
-      "order": 37
+      "order": 62,
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rm-d0438357",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1000, 1060]],
+      "placeId": "emul",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "98"
+        }
+      ],
+      "approximate": true,
+      "title": "Victory in Emul",
+      "summary": [
+        {
+          "text": "The coalition wins the last battle of its campaign in Emul. Walking the battlefield, Dalinar promises the Mink they will free Herdaz once Alethkar is free.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "98"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 63,
+      "placeName": "Emul"
     },
     {
       "id": "rm-3240ec46",
@@ -1264,7 +2171,8 @@
         }
       ],
       "source": "roshar-map",
-      "order": 38
+      "order": 64,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-a77260dc",
@@ -1300,7 +2208,65 @@
         }
       ],
       "source": "roshar-map",
-      "order": 39
+      "order": 65,
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rm-2467df50",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1039, 1126]],
+      "placeId": "tukar",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "111"
+        }
+      ],
+      "title": "Confronting Ishar",
+      "summary": [
+        {
+          "text": "Dalinar flies with Szeth and Windrunners to Tukar to confront Ishar. Ishar calls him Odium's champion, beats the Windrunners and tries to take Dalinar's bond to the Stormfather until Szeth drives him off.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "111"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 66,
+      "placeName": "Tukar"
+    },
+    {
+      "id": "rm-d8fecedd",
+      "characters": ["dalinar-kholin"],
+      "mapId": "roshar",
+      "path": [[1000, 1060]],
+      "placeId": "emul",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "112"
+        }
+      ],
+      "approximate": true,
+      "title": "Setting the terms",
+      "summary": [
+        {
+          "text": "Odium draws Dalinar into a vision, and they agree on a contest of champions in eleven days. If Dalinar's champion wins, Odium returns Alethkar and Herdaz. If Odium's wins, he keeps his conquests and takes Dalinar's soul.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "112"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 67,
+      "placeName": "Emul"
     }
   ]
 }

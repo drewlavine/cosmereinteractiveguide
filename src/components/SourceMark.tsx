@@ -5,7 +5,6 @@ import {
   useRef,
   useState,
   type FocusEvent,
-  type ReactNode,
 } from 'react'
 import { Link } from 'react-router'
 import { findBook } from '../data/books'
@@ -20,19 +19,55 @@ export interface Source {
   url?: string
 }
 
+function bookEntry(b: string | BookSource) {
+  const { bookId, chapter: id } = typeof b === 'string' ? { bookId: b } : b
+  const title = findBook(bookId)?.title ?? bookId
+  // Lower case mid-line, like the Coppermind: "chapter 16", "prologue".
+  const chapter = id && lowerFirst(chapterLabel(bookId, id))
+  return {
+    name: chapter ? `${title} ${chapter}` : title,
+    node: (
+      <>
+        <Link to={`/books/${bookId}`}>
+          <cite>{title}</cite>
+        </Link>
+        {chapter && ` ${chapter}`}
+      </>
+    ),
+  }
+}
+
+function sourceEntry(s: Source) {
+  return {
+    name: s.text,
+    node: s.url ? (
+      <a href={s.url} target="_blank" rel="noreferrer">
+        {s.text}
+      </a>
+    ) : (
+      s.text
+    ),
+  }
+}
+
+interface Sources {
+  books?: readonly (string | BookSource)[]
+  sources?: readonly Source[]
+}
+
 /**
  * A small book badge after a fact that names its sources: shown on hover or
  * focus, and pinned open by a tap where there's no hover. `books` are book
- * ids or {bookId, chapter}, linked to the book's page with the chapter named; `sources` are anything else (a Word of
- * Brandon...).
+ * ids or {bookId, chapter}, linked to the book's page with the chapter
+ * named; `sources` are anything else (a Word of Brandon...). A line built
+ * from parts with different sources passes `parts` instead, each labelled
+ * with what it backs ("date", "place"), so one mark covers the line.
  */
 export function SourceMark({
   books = [],
   sources = [],
-}: {
-  books?: readonly (string | BookSource)[]
-  sources?: readonly Source[]
-}) {
+  parts,
+}: Sources & { parts?: readonly (Sources & { about: string })[] }) {
   const [pinned, setPinned] = useState(false)
   const [hover, setHover] = useState(false)
   const [focus, setFocus] = useState(false)
@@ -61,40 +96,18 @@ export function SourceMark({
     return () => document.removeEventListener('pointerdown', away)
   }, [pinned])
 
-  const cited = books.map((b) => {
-    const { bookId, chapter } = typeof b === 'string' ? { bookId: b } : b
-    return {
-      bookId,
-      title: findBook(bookId)?.title ?? bookId,
-      // Lower case mid-line, like the Coppermind: "chapter 16", "prologue".
-      chapter: chapter && lowerFirst(chapterLabel(bookId, chapter)),
-    }
-  })
-  const names = [
-    ...cited.map((b) => (b.chapter ? `${b.title} ${b.chapter}` : b.title)),
-    ...sources.map((s) => s.text),
-  ]
-  if (!names.length) return null
-  const label = `${names.length > 1 ? 'Sources' : 'Source'}: ${names.join(', ')}`
-  const items: ReactNode[] = [
-    ...cited.map((b) => (
-      <span key={`${b.bookId}/${b.chapter}`}>
-        <Link to={`/books/${b.bookId}`}>
-          <cite>{b.title}</cite>
-        </Link>
-        {b.chapter && ` ${b.chapter}`}
-      </span>
-    )),
-    ...sources.map((s) =>
-      s.url ? (
-        <a key={s.text} href={s.url} target="_blank" rel="noreferrer">
-          {s.text}
-        </a>
-      ) : (
-        <span key={s.text}>{s.text}</span>
-      ),
-    ),
-  ]
+  const entries = (parts ?? [{ books, sources, about: '' }]).flatMap(
+    ({ books = [], sources = [], about }) =>
+      [...books.map(bookEntry), ...sources.map(sourceEntry)].map((e) => ({
+        ...e,
+        // With only one part there's nothing to tell apart.
+        about: (parts?.length ?? 0) > 1 ? about : '',
+      })),
+  )
+  if (!entries.length) return null
+  const many = entries.length > 1
+  const names = entries.map((e) => e.name + (e.about ? ` (${e.about})` : ''))
+  const label = `${many ? 'Sources' : 'Source'}: ${names.join(', ')}`
 
   return (
     <span
@@ -133,11 +146,12 @@ export function SourceMark({
         role="tooltip"
         style={shift ? { translate: `${shift}px 0` } : undefined}
       >
-        {names.length > 1 ? 'Sources: ' : 'Source: '}
-        {items.map((item, i) => (
+        {many ? 'Sources: ' : 'Source: '}
+        {entries.map((e, i) => (
           <span key={i}>
             {i > 0 && ', '}
-            {item}
+            {e.node}
+            {e.about && ` (${e.about})`}
           </span>
         ))}
       </span>
