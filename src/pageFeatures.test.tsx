@@ -12,6 +12,7 @@ import { books } from './data/books'
 import { loadStory, storyIds } from './data/characterStories'
 import { listedLocations, placeHref } from './data/listedLocations'
 import { hasLocationStory, loadLocationStory } from './data/locationStories'
+import { loadPack } from './data/journeyPacks'
 import { featuresOf } from './data/pageFeatures'
 import { people } from './data/people'
 import { findPersona, hasMet, readerCanSee } from './data/reveal'
@@ -19,10 +20,14 @@ import { systems } from './data/systems'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
 
-const renderAt = (path: string, read: string[] = []) => {
+const renderAt = (
+  path: string,
+  read: string[] = [],
+  reading: Record<string, string> = {},
+) => {
   localStorage.setItem(
     BOOKS_READ_KEY,
-    JSON.stringify({ version: 2, read, reading: {} }),
+    JSON.stringify({ version: 2, read, reading }),
   )
   render(
     <RouterProvider
@@ -46,17 +51,19 @@ const featureLinks = (name: string) =>
     .map((a) => [a.getAttribute('aria-label'), a.getAttribute('href')])
 
 // Found from the data, so the tests don't name who travels where.
+const travelsOf = (c: (typeof people)[number], read: string[]) =>
+  featuresOf('character', c, ctxOf(read)).filter(
+    (f) => f.feature.id === 'travels',
+  )
 const travellers = people.filter(
-  (c) =>
-    !findPersona(c.id) && featuresOf('character', c, ctxOf(allBooks)).length,
+  (c) => !findPersona(c.id) && travelsOf(c, allBooks).length,
 )
 /** A traveller met in a single book whose Travels that book doesn't show. */
 const travelHidden = books
   .flatMap((b) => travellers.map((c) => ({ c, read: [b.id] })))
   .find(
     ({ c, read }) =>
-      hasMet(c.id, ctxOf(read).canSee) &&
-      !featuresOf('character', c, ctxOf(read)).length,
+      hasMet(c.id, ctxOf(read).canSee) && !travelsOf(c, read).length,
   )
 
 afterEach(() => {
@@ -69,6 +76,7 @@ describe('page feature icons', () => {
   beforeAll(() =>
     Promise.all([
       ...storyIds.map(loadStory),
+      loadPack('roshar'),
       ...listedLocations
         .filter((l) => hasLocationStory(l.id))
         .map((l) => loadLocationStory(l.id)),
@@ -133,6 +141,27 @@ describe('page feature icons', () => {
       )
       cleanup()
     }
+  })
+
+  it('links Kaladin to his Journey once its first stop is reached', async () => {
+    const journeyLink = () =>
+      featureLinks('Kaladin').filter(([label]) => label === 'Kaladin: Journey')
+    renderAt('/characters', [], { 'way-of-kings': 'prologue' })
+    expect(journeyLink()).toEqual([])
+    cleanup()
+    renderAt('/characters', [], { 'way-of-kings': '1' })
+    expect(journeyLink()).toEqual([
+      ['Kaladin: Journey', '/characters/kaladin#journey'],
+    ])
+    expect(
+      screen.getByRole('group', { name: 'Icon legend' }),
+    ).toHaveTextContent('Journey')
+    cleanup()
+    await loadPack('roshar')
+    renderAt('/characters/kaladin#journey', [], { 'way-of-kings': '1' })
+    expect(
+      await screen.findByRole('region', { name: 'Journey' }),
+    ).toHaveAttribute('id', 'journey')
   })
 
   it('links a place to its map, once its map’s book is read', () => {
@@ -202,9 +231,10 @@ describe('grouping by page feature', () => {
 
   it('groups characters under each feature their page shows', () => {
     renderAt('/characters?group=feature', allBooks)
-    expect(headings()).toEqual(['Travels', 'No special features'])
+    expect(headings()).toEqual(['Journey', 'Travels', 'No special features'])
     for (const c of travellers) expect(inGroup('Travels', c.name)).toBe(true)
-    expect(inGroup('No special features', 'Kaladin')).toBe(true)
+    expect(inGroup('Journey', 'Kaladin')).toBe(true)
+    expect(inGroup('No special features', 'Kaladin')).toBe(false)
     expect(screen.queryByText(/not sorted by/)).toBeNull()
   })
 

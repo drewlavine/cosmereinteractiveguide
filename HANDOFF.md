@@ -63,6 +63,30 @@ OK.
 
 ## Done this session (uncommitted until Drew says)
 
+- **Journey map proof of concept (2026-10-17): Kaladin, The Way of Kings.**
+  Uncommitted. See ROADMAP 16, ARCHITECTURE 5.9 and
+  `~/cig-journey-data/README.md`.
+  - Generic model `src/data/journey.ts`, packs `src/data/journeys/*.json`
+    (generated), index `journeyIndex.ts` (generated), atlas
+    `journeyAtlas.ts`, trimming `revealJourney`/`revealCharacterJourney`/
+    `journeyShown` in `reveal.ts`.
+  - UI in `src/components/journey/`; `PanZoom` gained `flyTo`/`reset`
+    (maths in `fitTransform.ts`). Journey section is first on Kaladin's
+    page; Journey page feature on the Characters list.
+  - Pipeline `~/cig-journey-data` (not a git repo): roshar-map importer
+    (17thshard/roshar-map, MIT, numbers only), affine fit over 23 shared
+    city pins (RMS 4.3 px, max 8.4 px), 19 Way of Kings events emitted (11
+    Kaladin's). Re-running it reproduces the app files byte for byte.
+  - Credit by the map: "Journey data adapted from the 17th Shard's Roshar
+    map (MIT)"; the footer says "the 17th Shard" (no world name, as every
+    reader sees the footer).
+  - Later: blurred start with Explore journey; event titles and summaries
+    in a popup card; Full screen and Close on the map; centring in the
+    clear area (`fitTransform` `inset`); fan art per event (7 pieces, in
+    `public/journey-art/`, via `text/roshar-map.json`) with a lightbox.
+    **Art permission needed before any public release.**
+  - Screenshots in this session's `files/journey-*.png`, `j3-*.png`.
+
 - Travels for **Vivenna** and **Hoid** (12 stops, Lumar/Komashi flagged
   "timing uncertain"). Kelsier, Marsh, Sazed, Tress, Nikaro, Yumi: one world
   in the books, so no Travels. Time Machine: travel leads all false alarms.
@@ -178,6 +202,21 @@ OK.
 
 ## Known doubts to mention
 
+- Journey map:
+  - Several events share the Shattered Plains point; a drill-down map
+    would separate them. Hearthstone's point is slightly off.
+  - "Drawing in Stormlight" has no art: none found that shows it.
+  - The Roshar map shows from the Way of Kings prelude (it's printed front
+    matter); its labels name places the reader hasn't met yet.
+  - Places on the map are dated per book, so mid-book readers see "Stop N"
+    rather than names (fails closed).
+  - A stop whose chapter id we don't know shows once the book is finished
+    (as with other facts), never mid-book.
+  - Refs naming several chapters use the latest. Many Way of Kings stops are
+    the same Shattered Plains point, so the map doesn't move between them;
+    Hearthstone's source point sits near Mourn's Vault on our map.
+  - Shadesmar stops (no map yet) and undated events are dropped.
+
 - Culture: scope, types and groupings are my defaults. Types are first
   guesses (myths include creatures the Coppermind files as myths); 34 pages
   cited only by world guides or Words of Brandon are left out; a handful of
@@ -218,3 +257,9 @@ OK.
 5. (Done 2026-10-16) Old "Story" format removed from the app and pipeline;
    every story is a History (`story_check` rejects "story"; `make_history.py`
    and `HISTORY_TASK.md` are gone).
+6. Journey map (ROADMAP 16): Kaladin now runs WoK to RoW (39 events,
+   birth first: year from a WoB at WoK 1, parents and Hearthstone at WoK
+   16). Next: Drew's review, other Roshar characters, Era 1/2 via a
+   cosmere-maps importer, routes between stops, a Shadesmar map (3 Kaladin
+   events dropped for now), drill-down maps where events stack (Shattered
+   Plains, Urithiru), and merging Travels into Journey.

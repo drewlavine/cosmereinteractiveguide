@@ -19,6 +19,12 @@ export type RevealPoint =
  */
 export type Reveal = readonly RevealPoint[]
 
+/** A book a fact comes from, and its chapter if known. */
+export interface BookSource {
+  bookId: string
+  chapter?: string
+}
+
 /** A sentence or two of prose, revealed by its own books. */
 export interface Passage {
   text: string
@@ -29,6 +35,12 @@ export interface Passage {
 export interface Fact {
   name: string
   revealedIn: Reveal
+}
+
+/** An out-of-book source for a fact, e.g. a Word of Brandon. */
+export interface FactSource {
+  text: string
+  url?: string
 }
 
 /** A book set on a planet, shown once the reader has read it. */
@@ -365,6 +377,18 @@ export interface CharacterDetails {
   /** Spren, seons and others they're bonded with. */
   bonds?: Fact[]
   relatives?: Relative[]
+  /**
+   * When and where they were born, fuller versions later: a page shows the
+   * latest one the reader may see. `name` is the when ("Late 1153"), if
+   * known. `sources` are out-of-book ones (a Word of Brandon), used only if
+   * they spoil nothing unread.
+   */
+  born?: (Fact & { placeId?: string; sources?: FactSource[] })[]
+  /**
+   * Their age at points in the story, in story order: a page shows the
+   * latest one the reader may see, as of the book it's revealed in.
+   */
+  age?: (Fact & { sources?: FactSource[] })[]
   personas?: Persona[]
 }
 

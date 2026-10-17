@@ -659,6 +659,60 @@ current point, based on their Books Read and Reading settings.
           is a spoiler, after an independent review); unmet entries are
           hidden with no placeholders
 
+### 16. Journey map
+
+Where a character goes, stop by stop, on our maps, following their in-world
+timeline (not grouped by book), each stop dated to its own chapter. One
+reusable `JourneyMap` component with no series-specific logic, so the app
+can become a template for other series. Data from importers in
+`~/cig-journey-data` (see its README and `ARCHITECTURE.md` 5.9).
+
+- [x] Proof of concept: Kaladin in The Way of Kings, on our Roshar map, from
+      the 17th Shard's Roshar map data (MIT; data only, never their art or
+      prose; credited by the map and in the footer)
+  - [x] A **Journey** section at the top of the character page: a blurred,
+        zoomed-out map with an **Explore journey** button, which lazy-loads
+        the full map; it opens on the whole map and flies to event 1
+  - [x] Each event has a hand-written title and summary (`revealAt` dates
+        it no earlier than any fact it tells), shown in a popup card over
+        the map that can be hidden; the map centres the event in the clear
+        part beside or below the card, above the timeline
+  - [x] Fan art per event where a piece shows that event and is safe at
+        its chapter (credited; click for the whole picture). **Ask the
+        artists before any public release.**
+  - [x] Timeline with play/pause, previous/next, a slider and a list of
+        stops; the map flies to each stop (no animation with reduced
+        motion); the path so far drawn, earlier legs dimmed, approximate
+        legs dashed
+  - [x] Full screen (Fullscreen API, with a fixed overlay where it's
+        missing), Esc exits; keyboard (arrow keys, Home/End) and touch
+  - [x] Every stop gated by its chapter; places named only once the reader
+        may see them; unknown chapters hidden mid-book
+  - [x] A **Journey** page feature (icon on the Characters list)
+  - [x] A **birth** event first whenever anything about it is known, each
+        part shown only once read: the date (a Word of Brandon is fine if
+        it spoils nothing; its source behind a small book mark, also used
+        for the **Born** and **Age** key facts and History/Travels sources), the parents (linked once met), and the place
+        (no marker until then). Nothing known: the journey starts at the
+        first known event
+  - [x] **Age** key fact as of the reader's book, and **Born** (when, then
+        where) above the parents
+- [ ] Mistborn Era 1 and Era 2 via a cosmere-maps importer
+      (altonchaney/cosmere-maps, MIT), which also has per-chapter routes
+- [x] The later Stormlight books for Kaladin (Words of Radiance to Rhythm
+      of War: 39 events, each hand-written and dated)
+- [ ] The other Roshar characters the source tags
+- [ ] Routes between stops rather than straight lines (e.g. cosmere-maps'
+      Stormlight paths), and stops at a finer scale on child maps
+      (Shattered Plains, Kharbranth...)
+- [ ] A Shadesmar map, so Cognitive Realm stops can show
+- [ ] Merge Travels into Journey: world hops as events on the star map,
+      drilling down into each planet's map
+- [ ] Book and series pages: everyone's journeys in reading order
+- [ ] An all-characters map (like cosmeremaps.com)
+- [ ] Extract the journey model, engine and importers as a template for
+      other series
+
 ## Ideas
 
 Not planned yet; come back to these if wanted.

@@ -1,6 +1,6 @@
+import { SourceMark } from './SourceMark'
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link } from 'react-router'
-import { findBook } from '../data/books'
 import { locationDetails } from '../data/locationDetails'
 import {
   cachedLocationStory,
@@ -258,17 +258,8 @@ export function PlacePage(props: PlacePageProps) {
               {story.history.map(({ title, items }, i) => {
                 const paragraphs = items.map(({ text, books }) => (
                   <p key={text}>
-                    {text}{' '}
-                    <span className="character-story-source">
-                      {books.map((bookId, j) => (
-                        <Fragment key={bookId}>
-                          {j > 0 && ', '}
-                          <Link to={`/books/${bookId}`}>
-                            <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                          </Link>
-                        </Fragment>
-                      ))}
-                    </span>
+                    {text}
+                    <SourceMark books={books} />
                   </p>
                 ))
                 return title ? (

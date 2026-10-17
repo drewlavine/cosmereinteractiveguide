@@ -3,6 +3,15 @@ import { characterDetails } from './characterDetails'
 import type { Portrait } from './characterPortraits'
 import { characterTravels, type TravelStop } from './travels'
 import type {
+  Atlas,
+  AtlasMap,
+  JourneyArt,
+  JourneyCredit,
+  JourneyEvent,
+  JourneyIndex,
+  MapPoint,
+} from './journey'
+import type {
   CharacterDetails,
   Fact,
   Location,
@@ -14,10 +23,12 @@ import type {
   Planet,
   Reveal,
   RevealPoint,
+  BookSource,
   StarSystem,
   Story,
   CharacterStory,
   StoryItem,
+  FactSource,
 } from './types'
 
 /** Whether the reader may see something with these tags. */
@@ -224,6 +235,21 @@ const personaById = new Map(personas.map((p) => [p.id, p]))
 export const findPersona = (id?: string) =>
   id === undefined ? undefined : personaById.get(id)
 
+/** The book (and chapter) of each point, without repeats. */
+function pointSources(points: Reveal): BookSource[] {
+  const flat = (p: RevealPoint): BookSource[] =>
+    typeof p === 'string'
+      ? [{ bookId: p }]
+      : 'all' in p
+        ? p.all.flatMap(flat)
+        : [{ bookId: p.book, chapter: p.chapter }]
+  const seen = new Set<string>()
+  return points.flatMap(flat).filter((s) => {
+    const key = `${s.bookId}/${s.chapter ?? ''}`
+    return !seen.has(key) && !!seen.add(key)
+  })
+}
+
 const pointBooks = (point: RevealPoint): string[] =>
   typeof point === 'string'
     ? [point]
@@ -304,8 +330,29 @@ export interface ShownCharacter {
   groups: string[]
   bonds: string[]
   relatives: { name: string; relation: string; characterId?: string }[]
+  /** The latest version the reader may see. */
+  /**
+   * `sources` back the date; `placeBooks` the place, the chapter of the
+   * first version to give it.
+   */
+  born?: {
+    name: string
+    placeId?: string
+    sources?: FactSource[]
+    placeBooks?: BookSource[]
+  }
+  /** The latest the reader may see, and the book it's as of. */
+  age?: { name: string; bookId: string; sources?: FactSource[] }
   /** Whether unread books hide anything about this character. */
   spoilers: boolean
+}
+
+/** The last of some story-ordered versions the reader may see. */
+function latest<T extends { revealedIn: Reveal }>(
+  versions: readonly T[] = [],
+  show: (reveal: Reveal) => boolean,
+) {
+  return versions.filter((v) => show(v.revealedIn)).at(-1)
 }
 
 /**
@@ -396,6 +443,39 @@ export function revealCharacter(
         relation,
         characterId,
       })),
+    born: (() => {
+      const born = latest(details.born, show)
+      if (!born) return undefined
+      const { name, placeId, sources } = born
+      const first = details.born?.find((b) => b.placeId === placeId)
+      return {
+        name,
+        ...(sources && { sources }),
+        ...(placeId &&
+          first && {
+            placeId,
+            placeBooks: pointSources(trim(first.revealedIn)),
+          }),
+      }
+    })(),
+    age: (() => {
+      const age = latest(details.age, show)
+      const points = age ? trim(age.revealedIn) : []
+      const point = points.find((p) => canSee([p])) ?? points[0]
+      const bookId =
+        typeof point === 'string'
+          ? point
+          : point && 'book' in point
+            ? point.book
+            : undefined
+      return age && bookId
+        ? {
+            name: age.name,
+            bookId,
+            ...(age.sources && { sources: age.sources }),
+          }
+        : undefined
+    })(),
     spoilers,
   }
 }
@@ -409,7 +489,7 @@ export interface ShownStory {
    * does, under its latest title the reader may see; each item notes the
    * books it's from.
    */
-  history: { title?: string; items: { text: string; books: string[] }[] }[]
+  history: { title?: string; items: { text: string; books: BookSource[] }[] }[]
   appearance: string[]
   personality: string[]
   /** Whether unread books hide any of it. */
@@ -450,7 +530,7 @@ export function revealStory(
       title: title.filter(show).at(-1)?.text,
       items: items.filter(show).map(({ text, revealedIn }) => ({
         text,
-        books: [...new Set(trim(revealedIn).flatMap(pointBooks))],
+        books: pointSources(trim(revealedIn)),
       })),
     }))
     .filter((s) => s.items.length > 0)
@@ -489,7 +569,7 @@ export interface ShownTravelStop {
   place?: string
   uncertain?: string
   wob?: string
-  events: { text: string; books: string[] }[]
+  events: { text: string; books: BookSource[] }[]
 }
 
 /**
@@ -519,7 +599,7 @@ export function revealTravels(
       wob: wob && show(wob) ? wob.text : undefined,
       events: events.filter(show).map(({ text, revealedIn }) => ({
         text,
-        books: [...new Set(v.trim(revealedIn).flatMap(pointBooks))],
+        books: pointSources(v.trim(revealedIn)),
       })),
     }))
     .filter((s) => s.events.length > 0)
@@ -539,13 +619,174 @@ export const revealCharacterTravels = (
     viewAnyway,
   )
 
+/** A journey event trimmed to what the reader may see. */
+export interface ShownJourneyStop {
+  id: string
+  mapId: string
+  /** Empty while where it happened is still hidden. */
+  path: readonly MapPoint[]
+  approximate: boolean
+  /** What happens, e.g. "Sold to Bridge Four". */
+  title?: string
+  art?: JourneyArt
+  /** Set only once the place itself is revealed. */
+  place?: { name: string; href?: string }
+  /** The first point the reader has reached that reveals it. */
+  where?: { bookId: string; chapter?: string }
+  summary: {
+    text: string
+    cite?: { text: string; url?: string }
+    links?: { text: string; href: string }[]
+  }[]
+}
+
+export interface ShownJourney {
+  /** In timeline order. */
+  stops: ShownJourneyStop[]
+  /** The maps the stops are on, in order of first use. */
+  maps: AtlasMap[]
+  credits: JourneyCredit[]
+  /** Whether unread books hide any of it. */
+  spoilers: boolean
+}
+
+const firstPoint = (
+  reveal: Reveal,
+  canSee: CanSee,
+): ShownJourneyStop['where'] => {
+  for (const point of reveal) {
+    if (!canSee([point]) || (typeof point !== 'string' && 'all' in point))
+      continue
+    return typeof point === 'string'
+      ? { bookId: point }
+      : { bookId: point.book, chapter: point.chapter }
+  }
+  return undefined
+}
+
+/**
+ * One character's journey, trimmed to what the reader may see: events they
+ * haven't reached, on maps they can't see yet, vanish; places they haven't
+ * reached stay unnamed. `trim` drops reveal points a page may not use (see
+ * revealCharacterJourney). Generic: knows nothing of any one series.
+ */
+export function revealJourney(
+  characterId: string,
+  events: readonly JourneyEvent[],
+  atlas: Atlas,
+  canSee: CanSee,
+  {
+    viewAnyway = false,
+    credits = [],
+    trim = (r: Reveal) => r,
+  }: {
+    viewAnyway?: boolean
+    credits?: readonly JourneyCredit[]
+    trim?: (reveal: Reveal) => Reveal
+  } = {},
+): ShownJourney {
+  let spoilers = false
+  const show = (reveal: Reveal) => {
+    if (canSee(trim(reveal))) return true
+    spoilers = true
+    return viewAnyway
+  }
+  const see: CanSee = (reveal) => viewAnyway || canSee(trim(reveal))
+  const maps: AtlasMap[] = []
+  const stops = events
+    .filter((e) => e.characters.includes(characterId))
+    .toSorted((a, b) => a.order - b.order)
+    .flatMap((e): ShownJourneyStop[] => {
+      const map = atlas.map(e.mapId)
+      if (!map || !show(e.revealedIn)) return []
+      // The map is the series' own, not the character's: never trimmed.
+      if (!canSee(map.revealedIn) && ((spoilers = true), !viewAnyway)) return []
+      if (!maps.some((m) => m.id === map.id)) maps.push(map)
+      const located = !e.placeRevealedIn || see(e.placeRevealedIn)
+      const place = e.placeId && located ? atlas.place(e.placeId) : undefined
+      return [
+        {
+          id: e.id,
+          mapId: e.mapId,
+          path: located ? e.path : [],
+          approximate: !!e.approximate,
+          ...(e.title && { title: e.title }),
+          ...(e.art && { art: e.art }),
+          place:
+            place && see(place.revealedIn)
+              ? { name: place.name, href: place.href }
+              : undefined,
+          where: firstPoint(trim(e.revealedIn), see),
+          summary: (e.summary ?? [])
+            .filter(
+              (p) =>
+                see(p.revealedIn) && !(p.supersededIn && see(p.supersededIn)),
+            )
+            .map((p) => {
+              const links = (p.links ?? [])
+                .filter((l) => viewAnyway || hasMet(l.characterId, canSee))
+                .map((l) => ({
+                  text: l.text,
+                  href: `/characters/${l.characterId}`,
+                }))
+              return {
+                text: p.text,
+                ...(p.cite && { cite: p.cite }),
+                ...(links.length && { links }),
+              }
+            }),
+        },
+      ]
+    })
+  return {
+    stops,
+    maps,
+    credits: stops.length ? [...credits] : [],
+    spoilers,
+  }
+}
+
+/**
+ * Whether a character's page shows any of their journey, by the index alone
+ * (no pack needed): some event and its map are revealed. Persona pages get
+ * none, as with Travels; a character's page skips books where they go by a
+ * persona the reader hasn't seen through.
+ */
+export function journeyShown(
+  id: string,
+  index: JourneyIndex,
+  atlas: Atlas,
+  canSee: CanSee,
+) {
+  const v = view(id, canSee)
+  if (!v || v.persona) return false
+  return (index[id] ?? []).some(({ mapId, revealedIn }) => {
+    const map = atlas.map(mapId)
+    return !!map && canSee(v.trim(revealedIn)) && canSee(map.revealedIn)
+  })
+}
+
+/** A character page's journey: as revealJourney, with persona books trimmed. */
+export function revealCharacterJourney(
+  id: string,
+  events: readonly JourneyEvent[],
+  atlas: Atlas,
+  canSee: CanSee,
+  options: { viewAnyway?: boolean; credits?: readonly JourneyCredit[] } = {},
+): ShownJourney {
+  const v = view(id, canSee)
+  if (!v || v.persona)
+    return { stops: [], maps: [], credits: [], spoilers: false }
+  return revealJourney(id, events, atlas, canSee, { ...options, trim: v.trim })
+}
+
 /** What a place's page may say in prose. */
 export interface ShownLocationStory {
   /** The latest "what it is" line the reader may see. */
   intro?: string
   description: string[]
   /** As ShownStory's history. */
-  history: { title?: string; items: { text: string; books: string[] }[] }[]
+  history: { title?: string; items: { text: string; books: BookSource[] }[] }[]
   spoilers: boolean
 }
 
@@ -570,7 +811,7 @@ export function revealLocationStory(
         title: title.filter(show).at(-1)?.text,
         items: items.filter(show).map(({ text, revealedIn }) => ({
           text,
-          books: [...new Set(revealedIn.flatMap(pointBooks))],
+          books: pointSources(revealedIn),
         })),
       }))
       .filter((s) => s.items.length > 0),

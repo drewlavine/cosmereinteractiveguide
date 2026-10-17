@@ -14,6 +14,7 @@ import { characters } from './data/characters'
 import { characterDetails } from './data/characterDetails'
 import { characterPortraits } from './data/characterPortraits'
 import { loadStory, storyIds } from './data/characterStories'
+import { loadPack } from './data/journeyPacks'
 import { personas } from './data/reveal'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
@@ -51,7 +52,7 @@ describe('character stories', () => {
 })
 
 describe('characters pages', () => {
-  beforeAll(() => Promise.all(storyIds.map(loadStory)))
+  beforeAll(() => Promise.all([...storyIds.map(loadStory), loadPack('roshar')]))
 
   it('lists every character, grouped by letter', () => {
     renderAt('/characters', allBooks)
@@ -109,7 +110,7 @@ describe('characters pages', () => {
       within(main)
         .getAllByRole('heading', { level: 2 })
         .map((h) => h.textContent),
-    ).toEqual(['History', 'Description', 'Appearances'])
+    ).toEqual(['Journey', 'History', 'Description', 'Appearances'])
     // Key facts sit beside the sections.
     const facts = screen.getByRole('complementary', { name: 'Key facts' })
     expect(within(facts).getByText(/Human/)).toBeInTheDocument()
@@ -138,8 +139,9 @@ describe('characters pages', () => {
     const links = within(contents)
       .getAllByRole('link')
       .map((l) => [l.textContent, l.getAttribute('href')])
-    expect(links.slice(0, 3)).toEqual([
+    expect(links.slice(0, 4)).toEqual([
       ['(Top)', '#top'],
+      ['Journey', '#journey'],
       ['History', '#history'],
       ['Early life', '#history-early-life'],
     ])
@@ -191,7 +193,14 @@ describe('characters pages', () => {
       within(contents)
         .getAllByRole('link')
         .map((l) => l.textContent),
-    ).toEqual(['(Top)', 'History', 'Slavery', 'Bridgeman', 'Appearances'])
+    ).toEqual([
+      '(Top)',
+      'Journey',
+      'History',
+      'Slavery',
+      'Bridgeman',
+      'Appearances',
+    ])
   })
 
   it('lists close family in the key facts once the books reveal them', () => {
@@ -687,6 +696,172 @@ describe('character portraits', () => {
       allBooks.filter((b) => b !== 'rhythm-of-war'),
     )
     expect(document.querySelector('.character-portrait')).toBeNull()
+  })
+})
+
+describe('character journey', () => {
+  beforeAll(() => Promise.all([loadStory('kaladin'), loadPack('roshar')]))
+  const journey = () => screen.queryByRole('region', { name: 'Journey' })
+
+  it('shows no Journey to a reader who has not reached its first event', () => {
+    // His birth starts it, so it shows as soon as he's met.
+    renderAt('/characters/kaladin', [], { 'way-of-kings': 'prologue' })
+    expect(journey()).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin', ['final-empire'])
+    expect(journey()).toBeNull()
+  })
+
+  const explore = () =>
+    within(journey()!).getByRole('button', { name: /^Explore journey/ })
+  const openMap = async () => {
+    await userEvent.click(explore())
+    return screen.findByRole('group', { name: 'Kaladin’s journey' })
+  }
+  const events = (map: HTMLElement) =>
+    within(within(map).getByRole('list', { name: 'Events' }))
+      .getAllByRole('button')
+      .map((b) => b.getAttribute('aria-label'))
+
+  it('opens the page with the Journey so far, growing chapter by chapter', () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '10' })
+    const main = document.querySelector('.character-main') as HTMLElement
+    expect(
+      within(main).getAllByRole('heading', { level: 2 })[0],
+    ).toHaveTextContent('Journey')
+    // The starting state is the blurred map and one button, no event text.
+    expect(explore()).toHaveAccessibleName(
+      'Explore journey: 2 events on the map of Roshar',
+    )
+    expect(journey()).not.toHaveTextContent('Sold to Bridge Four')
+    // Later stops are hidden, so the reader is told some is.
+    expect(screen.getByText(/Some information hidden/)).toBeInTheDocument()
+    cleanup()
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '30' })
+    expect(explore()).toHaveAccessibleName(/4 events/)
+    cleanup()
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    expect(explore()).toHaveAccessibleName(/13 events/)
+  })
+
+  it('reveals each event at the later of the source and our History dates', async () => {
+    // The source dates Roshone's arrival to chapter 25; our History, to 37.
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '36' })
+    expect(explore()).toHaveAccessibleName(/4 events/)
+    expect((await openMap()).textContent).not.toMatch(/Roshone/)
+    cleanup()
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '37' })
+    expect(explore()).toHaveAccessibleName(/5 events/)
+    expect(events(await openMap())).toContain(
+      '4. Roshone becomes citylord, Chapter 37',
+    )
+  })
+
+  it('shows his birth with no place before the book says where', async () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '1' })
+    // The key facts give the year, with its Word of Brandon linked.
+    const facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(facts).toHaveTextContent('Age19 in The Way of Kings')
+    expect(facts).toHaveTextContent('BornLate 1153')
+    expect(facts).not.toHaveTextContent('Hearthstone')
+    // Its source sits behind a small mark, opened by a tap.
+    const born = within(facts).getByText('Born')
+      .nextElementSibling as HTMLElement
+    const mark = within(born).getByRole('button', {
+      name: 'Source: Word of Brandon',
+    })
+    expect(mark).toHaveAttribute('aria-expanded', 'false')
+    await userEvent.click(mark)
+    expect(mark).toHaveAttribute('aria-expanded', 'true')
+    expect(
+      within(born).getByRole('link', { name: 'Word of Brandon' }),
+    ).toHaveAttribute('href', expect.stringContaining('wob.coppermind.net'))
+    expect(explore()).toHaveAccessibleName(/1 event/)
+    const map = await openMap()
+    const card = within(map).getByRole('region', { name: 'Event' })
+    expect(card).toHaveTextContent('Born')
+    expect(card).not.toHaveTextContent(/Lirin|Hesina|Hearthstone/)
+    expect(map.querySelector('.journey-here')).toBeNull()
+    expect(map.querySelector('.journey-dot')).toBeNull()
+  })
+
+  it('gives his birthplace and age as the reader goes on', () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '16' })
+    let facts = screen.getByRole('complementary', { name: 'Key facts' })
+    // The date's source is the Word of Brandon; the place's, the book.
+    const born = within(facts).getByText('Born')
+      .nextElementSibling as HTMLElement
+    expect(born).toHaveTextContent(/^Late 1153.*Hearthstone/)
+    expect(
+      within(born)
+        .getAllByRole('button')
+        .map((b) => b.getAttribute('aria-label')),
+    ).toEqual([
+      'Source: Word of Brandon',
+      'Source: The Way of Kings chapter 16',
+    ])
+    // History paragraphs name the chapter they come from, like footnotes.
+    expect(
+      screen.getAllByRole('button', {
+        name: /^Sources?: The Way of Kings chapter \d+/,
+      }).length,
+    ).toBeGreaterThan(0)
+    // Its page isn't open to the reader yet, so it isn't linked.
+    expect(
+      within(facts).queryByRole('link', { name: 'Hearthstone' }),
+    ).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(facts).toHaveTextContent('Age20 in The Way of Kings')
+    expect(
+      within(facts).getByRole('link', { name: 'Hearthstone' }),
+    ).toHaveAttribute('href', expect.stringContaining('hearthstone'))
+    cleanup()
+    renderAt(
+      '/characters/kaladin',
+      ['way-of-kings', 'words-of-radiance', 'oathbringer'],
+      { 'rhythm-of-war': '1' },
+    )
+    facts = screen.getByRole('complementary', { name: 'Key facts' })
+    expect(facts).toHaveTextContent('Age21 in Rhythm of War')
+  })
+
+  it('opens the interactive map from the preview', async () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '45' })
+    const map = await openMap()
+    expect(within(map).getAllByRole('listitem')).toHaveLength(7)
+    expect(within(map).getByRole('slider', { name: 'Event' })).toHaveAttribute(
+      'aria-valuetext',
+      'Event 1 of 7: Born',
+    )
+    // His birth: the year (citing its Word of Brandon) and his parents.
+    const card = within(map).getByRole('region', { name: 'Event' })
+    expect(within(card).getByRole('link', { name: 'Lirin' })).toHaveAttribute(
+      'href',
+      '/characters/lirin',
+    )
+    expect(
+      within(card).getByRole('link', { name: 'Word of Brandon' }),
+    ).toHaveAttribute('href', expect.stringContaining('wob.coppermind.net'))
+    expect(card).toHaveTextContent('Chapter 1')
+    expect(map).not.toHaveTextContent(/Spears in the chasms|Tien’s last/)
+    expect(
+      within(map).getByRole('link', {
+        name: /Journey data adapted from the 17th Shard/,
+      }),
+    ).toHaveAttribute('href', 'https://github.com/17thshard/roshar-map')
+    // The card can be hidden and brought back.
+    await userEvent.click(
+      within(card).getByRole('button', { name: 'Hide event details' }),
+    )
+    expect(within(map).queryByRole('region', { name: 'Event' })).toBeNull()
+    await userEvent.click(
+      within(map).getByRole('button', { name: 'Show event' }),
+    )
+    expect(
+      within(map).getByRole('region', { name: 'Event' }),
+    ).toBeInTheDocument()
   })
 })
 

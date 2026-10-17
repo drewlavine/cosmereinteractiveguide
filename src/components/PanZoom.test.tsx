@@ -1,7 +1,8 @@
-import { fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen } from '@testing-library/react'
+import { createRef } from 'react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it, vi } from 'vitest'
-import { PanZoom } from './PanZoom'
+import { PanZoom, type PanZoomHandle } from './PanZoom'
 
 const setup = () => {
   const onClick = vi.fn()
@@ -59,5 +60,32 @@ describe('PanZoom', () => {
 
     fireEvent.click(target)
     expect(onClick).toHaveBeenCalledOnce()
+  })
+
+  it('flies to a box through its ref, animated unless asked not to', () => {
+    const ref = createRef<PanZoomHandle>()
+    vi.spyOn(HTMLElement.prototype, 'getBoundingClientRect').mockReturnValue({
+      width: 400,
+      height: 200,
+    } as DOMRect)
+    render(
+      <PanZoom label="Fly map" ref={ref}>
+        <div />
+      </PanZoom>,
+    )
+    const content = screen.getByRole('region', { name: 'Fly map' })
+      .firstElementChild as HTMLElement
+    act(() =>
+      ref.current!.flyTo(
+        { x: 100, y: 50, width: 50, height: 25 },
+        { padding: 0 },
+      ),
+    )
+    expect(content.style.transform).toBe('translate(-800px, -400px) scale(8)')
+    expect(content).toHaveClass('is-flying')
+    act(() => ref.current!.reset({ animate: false }))
+    expect(content.style.transform).toBe('translate(0px, 0px) scale(1)')
+    expect(content).not.toHaveClass('is-animating')
+    vi.restoreAllMocks()
   })
 })

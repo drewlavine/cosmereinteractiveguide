@@ -1,38 +1,72 @@
 import {
   useCallback,
   useEffect,
+  useImperativeHandle,
   useRef,
   useState,
   type MouseEvent,
   type PointerEvent,
   type ReactNode,
+  type Ref,
 } from 'react'
+import {
+  clampScale,
+  fitTransform,
+  MAX_SCALE,
+  MIN_SCALE,
+  type ContentRect,
+  type FlyOptions,
+  type Transform,
+} from './fitTransform'
 
-interface Transform {
-  x: number
-  y: number
-  scale: number
-}
+export type { ContentRect, FlyOptions, Transform } from './fitTransform'
 
-const MIN_SCALE = 0.5
-const MAX_SCALE = 8
 const BUTTON_STEP = 1.5
 // Pointer movement (px) before a press becomes a pan instead of a click.
 const DRAG_THRESHOLD = 4
 const IDENTITY: Transform = { x: 0, y: 0, scale: 1 }
 
-const clampScale = (s: number) => Math.min(MAX_SCALE, Math.max(MIN_SCALE, s))
+/** What a parent can do to a PanZoom through its `ref`. */
+export interface PanZoomHandle {
+  /** Pans and zooms so the box fills the viewport, centred. */
+  flyTo(rect: ContentRect, options?: FlyOptions): void
+  reset(options?: { animate?: boolean }): void
+}
 
 export function PanZoom({
   children,
   label,
+  ref,
+  onTransform,
 }: {
   children: ReactNode
   label: string
+  ref?: Ref<PanZoomHandle>
+  /** Told the new transform after each change, e.g. to size overlays. */
+  onTransform?: (transform: Transform) => void
 }) {
   const viewportRef = useRef<HTMLDivElement>(null)
   const [transform, setTransform] = useState(IDENTITY)
-  const [animate, setAnimate] = useState(false)
+  // 'zoom': a short ease for the buttons; 'fly': a longer glide for flyTo.
+  const [animate, setAnimate] = useState<false | 'zoom' | 'fly'>(false)
+
+  useEffect(() => onTransform?.(transform), [transform, onTransform])
+
+  useImperativeHandle(
+    ref,
+    () => ({
+      flyTo(rect, options = {}) {
+        const box = viewportRef.current!.getBoundingClientRect()
+        setAnimate(options.animate === false ? false : 'fly')
+        setTransform(fitTransform(rect, box, options))
+      },
+      reset({ animate = true } = {}) {
+        setAnimate(animate && 'zoom')
+        setTransform(IDENTITY)
+      },
+    }),
+    [],
+  )
   const [dragging, setDragging] = useState(false)
 
   const pointers = useRef(new Map<number, { x: number; y: number }>())
@@ -48,7 +82,7 @@ export function PanZoom({
 
   const zoomFromCenter = (factor: number) => {
     const rect = viewportRef.current!.getBoundingClientRect()
-    setAnimate(true)
+    setAnimate('zoom')
     zoomAt(factor, rect.width / 2, rect.height / 2)
   }
 
@@ -154,7 +188,7 @@ export function PanZoom({
         onClickCapture={onClickCapture}
       >
         <div
-          className={`pan-zoom-content${animate ? ' is-animating' : ''}`}
+          className={`pan-zoom-content${animate ? ' is-animating' : ''}${animate === 'fly' ? ' is-flying' : ''}`}
           style={{
             transform: `translate(${transform.x}px, ${transform.y}px) scale(${transform.scale})`,
           }}
@@ -184,7 +218,7 @@ export function PanZoom({
           type="button"
           aria-label="Reset view"
           onClick={() => {
-            setAnimate(true)
+            setAnimate('zoom')
             setTransform(IDENTITY)
           }}
         >

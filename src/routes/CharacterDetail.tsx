@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
+import { SourceMark } from '../components/SourceMark'
 import { Link, Navigate, useLocation, useParams } from 'react-router'
 import {
   PageContents,
@@ -8,17 +9,23 @@ import {
 import { slugs } from '../components/pageSlugs'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { TravelMap } from '../components/TravelMap'
+import { JourneyPreview } from '../components/journey/JourneyPreview'
+import { useJourneyPacks } from '../components/journey/useJourneyPacks'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
+import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { characterDetails } from '../data/characterDetails'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
+import { journeyAtlas } from '../data/journeyAtlas'
+import { journeyIndex } from '../data/journeyIndex'
 import { chapterLabel } from '../data/progress'
 import {
   findPersona,
   hasMet,
   revealCharacter,
+  revealCharacterJourney,
   revealCharacterTravels,
   revealPortrait,
   revealStory,
@@ -74,6 +81,11 @@ export function CharacterDetail() {
   const canSee = useCanSee()
   const systems = useShownSystems()
   const prose = useStory(persona?.characterId ?? character?.id)
+  // A persona page has no journey (see revealCharacterJourney).
+  const journeyPacks = useJourneyPacks(
+    journeyIndex,
+    persona ? undefined : character?.id,
+  )
   // Only phones collapse the key facts (see the stylesheet).
   const [factsOpen, setFactsOpen] = useState(false)
 
@@ -116,7 +128,7 @@ export function CharacterDetail() {
 
   // Brief, as each story is a small local file; waiting keeps the page (and
   // its Contents) from jumping as the story arrives.
-  if (prose.loading)
+  if (prose.loading || journeyPacks.loading)
     return <article className="character-detail" aria-busy="true" />
 
   const story = revealStory(
@@ -134,6 +146,16 @@ export function CharacterDetail() {
     character.id,
     canSee,
     viewAnyway.has(scope),
+  )
+  const journey = revealCharacterJourney(
+    character.id,
+    journeyPacks.packs.flatMap((p) => p.events),
+    journeyAtlas,
+    canSee,
+    {
+      viewAnyway: viewAnyway.has(scope),
+      credits: journeyPacks.packs.flatMap((p) => p.credits),
+    },
   )
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
@@ -157,18 +179,19 @@ export function CharacterDetail() {
       : []
   })
 
-  const source = (bookIds: string[]) => (
-    <span className="character-story-source">
-      {bookIds.map((bookId, j) => (
-        <Fragment key={bookId}>
-          {j > 0 && ', '}
-          <Link to={`/books/${bookId}`}>
-            <cite>{findBook(bookId)?.title ?? bookId}</cite>
-          </Link>
-        </Fragment>
-      ))}
-    </span>
-  )
+  // A birthplace links to its page once the reader may see the place.
+  const birthplace = (() => {
+    const place = findListed(shown.born?.placeId)
+    if (!place) return undefined
+    const planetShown = (id: string) =>
+      systems.some((s) => s.planets.some((p) => p.id === id))
+    return {
+      name: place.name,
+      href: canSee(placeRevealedIn(place))
+        ? placeHref(place, planetShown)
+        : undefined,
+    }
+  })()
   const historyIds = slugs(
     'history',
     story.history.map((h) => h.title ?? ''),
@@ -182,6 +205,13 @@ export function CharacterDetail() {
 
   const parts: Part[] = [
     {
+      id: 'journey',
+      title: 'Journey',
+      className: 'character-journey',
+      show: journey.stops.length > 0,
+      body: <JourneyPreview name={character.name} journey={journey} />,
+    },
+    {
       id: 'history',
       title: 'History',
       className: 'character-story',
@@ -191,7 +221,8 @@ export function CharacterDetail() {
           {story.history.map(({ title, items }, i) => {
             const paragraphs = items.map(({ text, books }) => (
               <p key={text}>
-                {text} {source(books)}
+                {text}
+                <SourceMark books={books} />
               </p>
             ))
             return title ? (
@@ -310,12 +341,49 @@ export function CharacterDetail() {
             </dd>
           </>
         )}
+        {shown.age && (
+          <>
+            <dt>Age</dt>
+            <dd>
+              {shown.age.name}{' '}
+              <span className="fact-note">
+                in <cite>{findBook(shown.age.bookId)?.title}</cite>
+              </span>
+              <SourceMark sources={shown.age.sources} />
+            </dd>
+          </>
+        )}
         {fact('Species', shown.species)}
         {fact('Nationality', shown.nationality)}
         {fact('Profession', shown.profession)}
         {fact('Abilities', shown.abilities)}
         {fact('Groups', shown.groups)}
         {fact('Bonded with', shown.bonds)}
+        {shown.born && (
+          <>
+            <dt>Born</dt>
+            <dd>
+              {/* Each part carries its own source. */}
+              {shown.born.name && (
+                <>
+                  {shown.born.name}
+                  <SourceMark sources={shown.born.sources} />
+                </>
+              )}
+              {birthplace && (
+                <>
+                  {shown.born.name && ', '}
+                  {birthplace.href ? (
+                    <Link to={birthplace.href}>{birthplace.name}</Link>
+                  ) : (
+                    birthplace.name
+                  )}
+                  <SourceMark books={shown.born.placeBooks} />
+                </>
+              )}
+            </dd>
+          </>
+        )}
         {family.map(({ relation, label, people }) => (
           <Fragment key={relation}>
             <dt>{label}</dt>
@@ -404,7 +472,11 @@ export function CharacterDetail() {
       <SpoilerNotice
         scope={scope}
         spoilers={
-          shown.spoilers || story.spoilers || art.spoilers || travels.spoilers
+          shown.spoilers ||
+          story.spoilers ||
+          art.spoilers ||
+          travels.spoilers ||
+          journey.spoilers
         }
       />
       {!details && header}

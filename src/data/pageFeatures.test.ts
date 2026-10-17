@@ -8,7 +8,16 @@ import {
   type FeatureKind,
 } from './pageFeatures'
 import { people } from './people'
-import { hasMet, readerCanSee, revealCharacterTravels } from './reveal'
+import { chapters } from './chapters'
+import { journeyAtlas } from './journeyAtlas'
+import { journeyIndex } from './journeyIndex'
+import { loadPack } from './journeyPacks'
+import {
+  hasMet,
+  readerCanSee,
+  revealCharacterJourney,
+  revealCharacterTravels,
+} from './reveal'
 import { characterTravels } from './travels'
 
 const progress = (read: string[]) => ({
@@ -17,6 +26,33 @@ const progress = (read: string[]) => ({
 const all = progress(books.map((b) => b.id))
 const none = progress([])
 const kinds: FeatureKind[] = ['character', 'location', 'ability']
+
+describe('the Journey feature', () => {
+  it('flags Journey exactly when the Journey section shows', async () => {
+    const chaptersRead = chapters['way-of-kings'].map((c) => c.id)
+    for (const [id, entries] of Object.entries(journeyIndex)) {
+      const c = people.find((p) => p.id === id)!
+      const events = (
+        await Promise.all(entries.map((e) => loadPack(e.pack)))
+      ).flatMap((p) => p!.events)
+      for (const chapter of [null, ...chaptersRead]) {
+        const canSee = readerCanSee({
+          read: new Set(),
+          reading: new Map([['way-of-kings', chapter]]),
+        })
+        const shows =
+          revealCharacterJourney(id, events, journeyAtlas, canSee).stops
+            .length > 0
+        expect(
+          featuresOf('character', c, { canSee })
+            .filter((f) => f.feature.id === 'journey')
+            .map((f) => f.section),
+          `${id} at ${chapter}`,
+        ).toEqual(shows ? ['journey'] : [])
+      }
+    }
+  })
+})
 
 describe('page features registry', () => {
   it('describes every feature', () => {
@@ -30,7 +66,10 @@ describe('page features registry', () => {
   })
 
   it('offers each list only the features its pages can have', () => {
-    expect(featuresFor('character').map((f) => f.id)).toEqual(['travels'])
+    expect(featuresFor('character').map((f) => f.id)).toEqual([
+      'journey',
+      'travels',
+    ])
     expect(featuresFor('location').map((f) => f.id)).toEqual(['map'])
     expect(featuresFor('ability')).toEqual([])
   })

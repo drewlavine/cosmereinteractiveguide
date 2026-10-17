@@ -8,6 +8,15 @@ import type {
 
 /** One icon per feature, drawn on a 24px grid in the stroke style of SearchIcon. */
 const paths: Record<PageFeatureId, ReactNode> = {
+  // A winding trail from a start point to a map pin.
+  journey: (
+    <>
+      <circle cx="5" cy="19" r="1.6" />
+      <path d="M6.6 18.4c4.4-.8 7.6-2.6 4.6-5.4s1-4.6 3.6-4.8" />
+      <path d="M18 3.5a3.5 3.5 0 0 1 3.5 3.5c0 2.6-3.5 6-3.5 6s-3.5-3.4-3.5-6A3.5 3.5 0 0 1 18 3.5Z" />
+      <circle cx="18" cy="7" r="1" />
+    </>
+  ),
   // A folded map.
   map: (
     <>

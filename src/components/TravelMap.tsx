@@ -1,6 +1,6 @@
-import { Fragment, useEffect, useId, useState } from 'react'
+import { SourceMark } from './SourceMark'
+import { useEffect, useId, useState } from 'react'
 import { Link } from 'react-router'
-import { findBook } from '../data/books'
 import type { ShownSystem, ShownTravelStop } from '../data/reveal'
 import { systems as allSystems } from '../data/systems'
 import { ChartDefs, GoldStar } from './chart'
@@ -432,17 +432,8 @@ export function TravelMap({
         <ul>
           {stop.events.map(({ text, books }) => (
             <li key={text}>
-              {text}{' '}
-              <span className="character-story-source">
-                {books.map((bookId, j) => (
-                  <Fragment key={bookId}>
-                    {j > 0 && ', '}
-                    <Link to={`/books/${bookId}`}>
-                      <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                    </Link>
-                  </Fragment>
-                ))}
-              </span>
+              {text}
+              <SourceMark books={books} />
             </li>
           ))}
         </ul>

@@ -71,12 +71,14 @@ src/
   navigation.ts       Header tabs; tabs marked comingSoon get placeholder routes automatically
   routes/             One component per page (lists, detail pages, search, errors)
   components/         Reusable UI: layout shell, maps, charts, sections/Contents, search box
+    journey/          Journey map: engine interface, SVG engine, preview, full map (5.9)
   data/               Content + domain logic
     types.ts          The content model (Reveal, Character, Location, ...)
     reveal.ts         Spoiler engine: pure functions that trim data to the reader
     progress.ts       Book/chapter ordering and "has the reader reached X?"
     *.ts              Generated or hand-written content modules
     stories/*.json    Per-character long text, one lazily loaded chunk each
+    journeys/*.json   Journey packs (5.9), loaded lazily
   state/              Reader progress (Context, persistence) and reveal hooks
   search/             Index construction, sources, hooks
   styles/index.css    Global stylesheet with design tokens
@@ -280,6 +282,82 @@ is no compile-time scoping. **Revisit** when it slows down changes: CSS
 Modules (supported by Vite natively) is the low-risk next step, one
 component at a time.
 
+### 5.9 Journey maps: one generic model, importers outside, a swappable engine
+
+A journey is where characters go, as events on maps, each gated by its own
+chapter. The code knows nothing about the Cosmere, so the app can become a
+template for other series.
+
+- **Model** (`src/data/journey.ts`, documented in place):
+  - `JourneyEvent { id, characters, mapId, path: [x, y][], placeId?,
+placeRevealedIn?, revealedIn, order, approximate?, title?, summary?, art?,
+source? }`. `summary` is parts `{ text, revealedIn, supersededIn?, cite?,
+links? }`, each shown at its own chapter until a fuller part takes over;
+    `links` make names character links once met; `cite` names an
+    out-of-book source (a Word of Brandon), shown as a `SourceMark` (a small
+    book badge: hover, focus or tap for the sources and their links). The
+    same mark gives the book sources of History paragraphs and Travels
+    events (`{bookId, chapter?}`, shown as "<book> chapter 16" like the
+    Coppermind's footnotes), and the sources of a character's `born` and
+    `age` Key facts; `born`'s date and place each get their own mark (the
+    place's is the chapter of the first version to give it).
+    Both are versions in story order; the page shows the latest revealed
+    (`born` gains a `placeId` once the birthplace is known; `age` is shown
+    "in <book>"). Until `placeRevealedIn` the event has no point on
+    the map and no place (the map shows whole), e.g. a birth year known
+    before the birthplace.
+    `art` is `{ src, alt, credit, position? }`, a WebP in
+    `public/journey-art/` named by the event's neutral id. `path` is in the
+    map image's pixels; one point is a stay, several a route. `order` is
+    the in-world timeline (so flashbacks fall into place), else reading
+    order. Ids are neutral hashes, as source ids can name what happens.
+  - `JourneyPack { id, credits, events }`: one JSON file per pack
+    (`src/data/journeys/<pack>.json`), loaded lazily
+    (`journeyPacks.ts`, `useJourneyPacks`). The small, eager
+    `journeyIndex.ts` lists each character's packs, maps and reveal points,
+    so lists and page features know synchronously whether a reader sees
+    any journey.
+  - `Atlas { map(id), place(id) }`, supplied by the series
+    (`journeyAtlas.ts` adapts `maps.ts` and the Locations list). An
+    `AtlasMap` can have a `parent` (map id, place, point): the star map is
+    just a top map with planet maps as children, as Middle-earth would be
+    with regional maps. A world hop is an event on the top map with the
+    planet as its place; drill-down follows `parent` links. Neither is
+    wired yet, but neither needs a schema change.
+- **Trimming** (`reveal.ts`): `revealJourney` keeps the events the reader
+  has reached, in `order`, names a place only once it's revealed, keeps a
+  hand-written summary's passages by their own points, and reports whether
+  anything was hidden (`spoilers`) for the Show anyway notice.
+  `revealCharacterJourney` and `journeyShown` serve pages and page
+  features. Unknown chapter ids stay hidden mid-book.
+- **Engine** (`components/journey/MapEngine.ts`): `flyTo(box, {animate,
+maxZoom, inset})`, where `inset` is the screen pixels panels cover, so
+  the box is centred in the clear part, plus `layers(zoom)` drawn in image pixels. `SvgMapEngine` is
+  an SVG overlay on the image inside `PanZoom`, whose imperative
+  `flyTo`/`reset` (fit maths in `fitTransform.ts`) animate a CSS
+  transform. A WebGL engine (e.g. PixiJS) could replace it behind the same
+  interface if an all-characters map needs thousands of paths.
+- **UI**: `JourneyPreview` (blurred whole map with an Explore button,
+  eager) lazy-loads `JourneyMap` (event card popup with art and a
+  lightbox, overlay timeline, playback, full screen via
+  `useFullscreen`: the Fullscreen API where it works, else a fixed overlay).
+- **Importers** live in `~/cig-journey-data` (Python): one per source, each
+  fitting the source's coordinates onto one of our maps (affine least
+  squares over matched places, residuals stored), mapping chapter refs to
+  our chapter ids (unknown: dropped) and emitting packs and the index.
+  Sources give numbers only, never prose. Event text is ours
+  (`text/*.json`); event art is fan art, chosen per event, credited, and
+  cleared with the artist before any public release.
+
+Why: a fan map's data is the cheapest source of positions, but each source
+has its own map, ids and chapter notation. Normalising at the pipeline
+boundary keeps the app to one schema and one trimming function, the same
+approach as the other content (5.1, 5.2).
+
+Trade-off: positions inherit the source's accuracy plus the fit's error
+(RMS ~4 px on our 2560 px Roshar map). **Revisit** the engine if a map
+needs many thousands of paths.
+
 ## 6. Quality gates
 
 Run before every change:
@@ -290,7 +368,7 @@ npx tsc -b && npm run lint && npx vitest run && npm run build
 
 - **Type check** across three projects (`app`, `node`, `scripts`) via
   project references.
-- **Tests (~220)**, in three layers:
+- **Tests (~290)**, in three layers:
   - _Data integrity:_ unique ids, known book ids, references that resolve,
     dates consistent with sources (`src/data/*.test.ts`).
   - _Spoiler behaviour:_ render real routes at exact reading positions and

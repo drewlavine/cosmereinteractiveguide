@@ -1,0 +1,1306 @@
+{
+  "id": "roshar",
+  "credits": [
+    {
+      "text": "Journey data adapted from the 17th Shard's Roshar map (MIT)",
+      "url": "https://github.com/17thshard/roshar-map"
+    }
+  ],
+  "events": [
+    {
+      "id": "rm-88d82cfa",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "1"
+        }
+      ],
+      "title": "Born",
+      "placeRevealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "16"
+        }
+      ],
+      "summary": [
+        {
+          "text": "Kaladin is born late in 1153.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "1"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "16"
+            }
+          ],
+          "cite": {
+            "text": "Word of Brandon",
+            "url": "https://wob.coppermind.net/events/305/#e10572"
+          }
+        },
+        {
+          "text": "Kaladin is born late in 1153 to Lirin and Hesina.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "16"
+            }
+          ],
+          "cite": {
+            "text": "Word of Brandon",
+            "url": "https://wob.coppermind.net/events/305/#e10572"
+          },
+          "links": [
+            {
+              "text": "Lirin",
+              "characterId": "lirin"
+            },
+            {
+              "text": "Hesina",
+              "characterId": "hesina"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 1
+    },
+    {
+      "id": "rm-6e2723a3",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "16"
+        }
+      ],
+      "title": "Training as a surgeon",
+      "art": {
+        "src": "/journey-art/rm-6e2723a3.webp",
+        "alt": "Young Kal, blood on his face and shirt, holding a tray of surgical bottles and bandages.",
+        "credit": {
+          "text": "botanicaxu",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/botanicaxu"
+        },
+        "position": "50% 20%"
+      },
+      "summary": [
+        {
+          "text": "At eight, Kal begins training in surgery with his father, though he dreams of being a soldier.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "16"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 2
+    },
+    {
+      "id": "rm-3a07c257",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "20"
+        }
+      ],
+      "title": "Wistiow dies",
+      "summary": [
+        {
+          "text": "Hearthstone's ailing citylord, Brightlord Wistiow, dies, having set aside spheres to pay for Kal's surgical studies.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "20"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 3
+    },
+    {
+      "id": "rm-a9c9545f",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "37"
+        }
+      ],
+      "title": "Roshone becomes citylord",
+      "summary": [
+        {
+          "text": "Brightlord Roshone arrives as Hearthstone's new citylord. Sure that Lirin stole Wistiow's spheres, he sets out to squeeze the surgeon's family.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 4
+    },
+    {
+      "id": "rm-eec42826",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "44"
+        }
+      ],
+      "title": "Kaladin enlists",
+      "art": {
+        "src": "/journey-art/rm-eec42826.webp",
+        "alt": "Kal and Tien in green army uniforms, holding spears, on a battlefield.",
+        "credit": {
+          "text": "BBQShapez",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/BBQShapez"
+        },
+        "position": "55% 20%"
+      },
+      "summary": [
+        {
+          "text": "When Brightlord Amaram comes recruiting, Roshone has Tien drafted to spite Lirin. Kal enlists too, to keep his younger brother safe.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "44"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 5
+    },
+    {
+      "id": "rm-fcef4d20",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1864, 643]],
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "67"
+        }
+      ],
+      "title": "Tien's last battle",
+      "art": {
+        "src": "/journey-art/rm-fcef4d20.webp",
+        "alt": "Kaladin kneels on a battlefield among spears, holding his brother.",
+        "credit": {
+          "text": "Ari Ibarra",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Ari_Ibarra"
+        },
+        "position": "50% 55%"
+      },
+      "summary": [
+        {
+          "text": "Tien's untrained squad is pushed to the front as bait. Kaladin fights his way across the battlefield but reaches his brother too late.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "67"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 6
+    },
+    {
+      "id": "rm-2b5c487c",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1862, 641]],
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "51"
+        }
+      ],
+      "title": "Branded a slave",
+      "summary": [
+        {
+          "text": "After Kaladin's last battle in Amaram's army, Amaram has the surviving squadmates killed, takes the battle's Shards for himself, and spares Kaladin only to brand him a slave.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "51"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 7
+    },
+    {
+      "id": "rm-92cff05a",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1999, 1127]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "6"
+        }
+      ],
+      "title": "Sold to Bridge Four",
+      "art": {
+        "src": "/journey-art/rm-92cff05a.webp",
+        "alt": "Kaladin slumped in a slaver's cage at dusk, a windspren drifting past.",
+        "credit": {
+          "text": "ThomasW",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/ThomasW"
+        },
+        "position": "80% 50%"
+      },
+      "summary": [
+        {
+          "text": "The slaver Tvlakv sells Kaladin to Highprince Sadeas's army on the Shattered Plains, where he is assigned to Bridge Four, the crew with the worst losses.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "6"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 8
+    },
+    {
+      "id": "rm-5cfdd7ef",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1999, 1128]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "40"
+        }
+      ],
+      "title": "Hung out in a highstorm",
+      "art": {
+        "src": "/journey-art/rm-5cfdd7ef.webp",
+        "alt": "In the rain, Rock and Teft carry a bloodied Kaladin between them, a windspren curling around them.",
+        "credit": {
+          "text": "Elisgardor",
+          "url": "https://www.instagram.com/p/CAnK3Gfpos_/"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "Bridge Four's side carry shields the crew, but other crews copy it badly and Sadeas's assault fails. Blamed, Kaladin is hung outside to face a highstorm, and survives.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "40"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 9
+    },
+    {
+      "id": "rm-f8deda35",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2002, 1126]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "49"
+        }
+      ],
+      "title": "Spears in the chasms",
+      "art": {
+        "src": "/journey-art/rm-f8deda35.webp",
+        "alt": "A lone figure with a spear in the bottom of a deep red chasm.",
+        "credit": {
+          "text": "Adam J. Marin",
+          "url": "https://imgur.com/gallery/Bw2k31X"
+        },
+        "position": "50% 70%"
+      },
+      "summary": [
+        {
+          "text": "Sent to permanent chasm duty, Bridge Four starts training in secret with spears under Kaladin, with Teft overseeing, hoping to fight their way to freedom.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "49"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 10
+    },
+    {
+      "id": "rm-3e8cd050",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2001, 1126]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "60"
+        }
+      ],
+      "title": "Joint plateau assaults",
+      "art": {
+        "src": "/journey-art/rm-3e8cd050.webp",
+        "alt": "Two armies clash on a plateau under a storm of arrows; riders lead the charge.",
+        "credit": {
+          "text": "Miguel Sastre",
+          "url": "https://www.instagram.com/p/CDZXDdrjYcU/"
+        },
+        "position": "50% 60%"
+      },
+      "summary": [
+        {
+          "text": "Highprinces Dalinar and Sadeas begin attacking plateaus together, with Sadeas's bridge crews running for both armies. Their first joint assault succeeds.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "60"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 11
+    },
+    {
+      "id": "rm-65f3ae5a",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2010, 1136]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "57"
+        }
+      ],
+      "title": "Drawing in Stormlight",
+      "summary": [
+        {
+          "text": "Teft tricks Kaladin into drawing in Stormlight without thinking, then shows him what he has done. Shaken, Kaladin goes off alone to think it over.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "57"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 12
+    },
+    {
+      "id": "rm-41f8bcc9",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2007, 1132]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "68"
+        }
+      ],
+      "title": "Battle of the Tower",
+      "art": {
+        "src": "/journey-art/rm-41f8bcc9.webp",
+        "alt": "Kaladin, glowing, leaps into a mass of enemy warriors with his spear.",
+        "credit": {
+          "text": "Grant M. Hansen",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Grant_M._Hansen"
+        },
+        "position": "40% 30%"
+      },
+      "summary": [
+        {
+          "text": "At the plateau called the Tower, Sadeas pulls back and leaves Dalinar's army trapped. Kaladin turns Bridge Four around and gives Dalinar and Adolin's men a way off the plateau.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "68"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 13
+    },
+    {
+      "id": "rm-b31aa395",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1999, 1123]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "12"
+        }
+      ],
+      "title": "Amaram on the Shattered Plains",
+      "art": {
+        "src": "/journey-art/rm-b31aa395.webp",
+        "alt": "Amaram in a green and red uniform, holding a Shardblade.",
+        "credit": {
+          "text": "Marie Seeberger",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
+        },
+        "position": "50% 25%"
+      },
+      "summary": [
+        {
+          "text": "Kaladin tests his Surgebinding in the chasms with Sigzil, Rock and Lopen, then returns to camp to hear that Amaram, the man who branded him, has come to the Shattered Plains.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "12"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 14
+    },
+    {
+      "id": "rm-bb6edd25",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1986, 1171]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "28"
+        }
+      ],
+      "title": "Meeting Shallan",
+      "summary": [
+        {
+          "text": "Kaladin meets Shallan Davar for the first time, and she tricks him out of his new boots.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 15
+    },
+    {
+      "id": "rm-1eb04109",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2002, 1124]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "i-6"
+        }
+      ],
+      "title": "The assassin in white",
+      "art": {
+        "src": "/journey-art/rm-1eb04109.webp",
+        "alt": "In a pillared hall, two men with a Shardblade and a spear face a glowing figure in white.",
+        "credit": {
+          "text": "Jules Aguimatang",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jules_Aguimatang"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Warned by Syl, Kaladin helps Dalinar and the king flee when Szeth attacks. His arm is severed, but he pushes Szeth and Dalinar through a hole in the wall, survives the fall and heals himself with Stormlight.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "i-6"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 16
+    },
+    {
+      "id": "rm-82e039be",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2000, 1125]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "46"
+        }
+      ],
+      "title": "Meeting Graves",
+      "summary": [
+        {
+          "text": "Moash takes Kaladin to meet Graves and his conspirators, who ask him to help assassinate King Elhokar. He hesitantly agrees, to Syl's dismay.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "46"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 17
+    },
+    {
+      "id": "rm-fb952227",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1999, 1124]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "58"
+        }
+      ],
+      "title": "Four Shardbearers",
+      "art": {
+        "src": "/journey-art/rm-fb952227.webp",
+        "alt": "Kaladin in a blue coat stands in the dueling arena between armored Shardbearers.",
+        "credit": {
+          "text": "Randy Vargas",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Randy_Vargas"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "When Adolin faces four Shardbearers in a duel, Kaladin leaps into the arena to help him win. He then publicly challenges Amaram for his crimes, and the humiliated king has him imprisoned.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 18
+    },
+    {
+      "id": "rm-e52d63e8",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2010, 1132]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "75"
+        }
+      ],
+      "title": "Stranded in the chasms",
+      "art": {
+        "src": "/journey-art/rm-e52d63e8.webp",
+        "alt": "A huge, spiny chasmfiend crawls through a dark chasm.",
+        "credit": {
+          "text": "Ellie L.",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Ellie_L."
+        },
+        "position": "50% 50%"
+      },
+      "summary": [
+        {
+          "text": "A sabotaged bridge drops Kaladin and Shallan into the chasms. With Syl gone and his powers failing, they share painful pasts, he kills a chasmfiend with her Shardblade, and they shelter from a highstorm in a cut alcove before making it back to camp.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "75"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 19
+    },
+    {
+      "id": "rm-39a2fd03",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2026, 1143]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "86"
+        }
+      ],
+      "title": "The Battle of Narak",
+      "summary": [
+        {
+          "text": "Having spoken the Third Ideal to save the king, Kaladin flies out to Narak, where the Alethi armies are caught between two storms, and fights Szeth high above the battle.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "86"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 20
+    },
+    {
+      "id": "rm-4b938243",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "88"
+        }
+      ],
+      "title": "Through the Oathgate",
+      "art": {
+        "src": "/journey-art/rm-4b938243.webp",
+        "alt": "A vast tiered tower rises among snowy mountains, ringed by round platforms.",
+        "credit": {
+          "text": "Jacobo Montoya",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jacobo_Montoya"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "After the battle, Kaladin and Bridge Four escape the storms through the Oathgate to Urithiru, the lost tower city of the Knights Radiant.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "88"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 21
+    },
+    {
+      "id": "rm-aae193f6",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1923, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "7"
+        }
+      ],
+      "title": "Home to Hearthstone",
+      "art": {
+        "src": "/journey-art/rm-aae193f6.webp",
+        "alt": "Kaladin kneels in a windswept field under a stormy sky, ribbons of wind around him.",
+        "credit": {
+          "text": "Ashley Coad",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Ashley_Coad"
+        },
+        "position": "40% 60%"
+      },
+      "summary": [
+        {
+          "text": "Kaladin flies to Hearthstone to warn his family of the Everstorm, but arrives after it has struck. He reunites with his parents, punches Roshone for Moash's sake and meets his baby brother, Oroden, then sets out after the town's escaped parshmen.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 22
+    },
+    {
+      "id": "rm-63b18f84",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1911, 647]],
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "14"
+        }
+      ],
+      "title": "Captive of the parshmen",
+      "art": {
+        "src": "/journey-art/rm-63b18f84.webp",
+        "alt": "Two parshmen sit together on the grass, one writing.",
+        "credit": {
+          "text": "Marie Seeberger",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Tracking the escaped parshmen, Kaladin finds them frightened and playing cards rather than monstrous, and surrenders instead of fighting them.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "14"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 23
+    },
+    {
+      "id": "rm-90ce1846",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1877, 722]],
+      "placeId": "revolar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "31"
+        }
+      ],
+      "title": "Parting the storm",
+      "art": {
+        "src": "/journey-art/rm-90ce1846.webp",
+        "alt": "Kaladin holds back a dark storm with one glowing hand, a child clinging to him.",
+        "credit": {
+          "text": "Esther Schrader",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Esther_Schrader"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "In Revolar, a red-eyed Fused appears and Kaladin flees. Caught by the storm, he shields a group of townspeople until they reach shelter, and the winds carry him to Urithiru.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "31"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 24
+    },
+    {
+      "id": "rm-26acf180",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2026, 1144]],
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "37"
+        }
+      ],
+      "title": "Training squires",
+      "summary": [
+        {
+          "text": "Back at Urithiru, Kaladin holds try-outs on the Shattered Plains, training Bridge Four and new recruits to draw Stormlight. He helps Hobber heal his legs, and they rescue a caravan carrying Rock's family.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 25
+    },
+    {
+      "id": "rm-1cebb6e1",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1501, 1312]],
+      "placeId": "thaylen-city",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "59"
+        }
+      ],
+      "title": "Opening Thaylen City's Oathgate",
+      "summary": [
+        {
+          "text": "Once Queen Fen agrees, Kaladin flies Shallan to Thaylen City to unlock its Oathgate.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 26
+    },
+    {
+      "id": "rm-4a995cb3",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1936, 796]],
+      "placeId": "kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "62"
+        }
+      ],
+      "title": "Into Kholinar",
+      "art": {
+        "src": "/journey-art/rm-4a995cb3.webp",
+        "alt": "Kaladin, Elhokar, Adolin and Shallan plan around a table in a sunlit room.",
+        "credit": {
+          "text": "Marie Seeberger",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Kaladin flies Elhokar, Adolin, Shallan and others above a highstorm to Kholinar. Disguised, they slip into the city and shelter at Adolin's tailor's house.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "62"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 27
+    },
+    {
+      "id": "rm-a5947c79",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1936, 796]],
+      "placeId": "kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "70"
+        }
+      ],
+      "title": "The Wall Guard",
+      "summary": [
+        {
+          "text": "On Elhokar's orders, Kaladin joins Kholinar's Wall Guard, whose soldiers welcome him with a free meal, and meets their leader, Highmarshal Azure.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "70"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 28
+    },
+    {
+      "id": "rm-7f2e5429",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1936, 796]],
+      "placeId": "kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "85"
+        }
+      ],
+      "title": "The fall of Kholinar",
+      "art": {
+        "src": "/journey-art/rm-7f2e5429.webp",
+        "alt": "Moash in a dark coat holds a bloodied spear.",
+        "credit": {
+          "text": "Nick Vidic",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Nick_Vidic"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "In the assault on the palace, Kaladin rescues Elhokar's young son but freezes as his friends fight on both sides. Moash kills Elhokar in front of him, and when Shallan activates the Oathgate the group finds itself in Shadesmar.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "85"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 29
+    },
+    {
+      "id": "rm-5851dfa3",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1501, 1312]],
+      "placeId": "thaylen-city",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "120"
+        }
+      ],
+      "title": "The Battle of Thaylen Field",
+      "summary": [
+        {
+          "text": "Back from Shadesmar, Kaladin arrives in time to block Amaram's killing blow at Dalinar. He fights the transformed, empowered Amaram while fending off Fused, until Rock shoots Amaram with an arrow.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "120"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 30
+    },
+    {
+      "id": "rm-57906d1b",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1923, 631]],
+      "placeId": "hearthstone",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "9"
+        }
+      ],
+      "title": "Evacuating Hearthstone",
+      "art": {
+        "src": "/journey-art/rm-57906d1b.webp",
+        "alt": "Renarin, glowing, steps between Moash and a fallen Kaladin in a burning room.",
+        "credit": {
+          "text": "rspixart",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/rspixart"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Now a highmarshal, Kaladin returns to Hearthstone and barely survives a Fused who travels as a streak of light, then brings an airship to evacuate the whole town. In the manor's cellar he finds Moash killing Roshone, and freezes when Moash urges him to kill himself, until Renarin brings him back to the ship.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "9"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 31
+    },
+    {
+      "id": "rm-3a5b3473",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "15"
+        }
+      ],
+      "title": "Relieved of duty",
+      "art": {
+        "src": "/journey-art/rm-3a5b3473.webp",
+        "alt": "Kaladin and Zahel spar among billowing sheets and colourful scarves.",
+        "credit": {
+          "text": "Pam Hage",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Pam_Hage"
+        },
+        "position": "50% 50%"
+      },
+      "summary": [
+        {
+          "text": "Relieved of active duty by Dalinar, Kaladin hands his roles to Sigzil and Skar. Zahel beats him in a sparring match and tells him he can't become an ardent, as he still loves the fight.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "15"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 32
+    },
+    {
+      "id": "rm-cd4e4262",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "18"
+        }
+      ],
+      "title": "A surgeon again",
+      "art": {
+        "src": "/journey-art/rm-cd4e4262.webp",
+        "alt": "Notebook sketches of the Fourth Bridge airship.",
+        "credit": {
+          "text": "Kelley Harris",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Kelley_Harris"
+        },
+        "position": "50% 30%"
+      },
+      "summary": [
+        {
+          "text": "Kaladin meets the airship Fourth Bridge and brings his parents to their new rooms at Urithiru. When he admits he has retired, his father has him join his surgery.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "18"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 33
+    },
+    {
+      "id": "rm-8fe24339",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "25"
+        }
+      ],
+      "title": "Noril",
+      "summary": [
+        {
+          "text": "Kaladin and Teft track down Noril, a former patient the ardents have locked away in a dark corridor. Kaladin sees himself in him and resolves to find a new way to help men like him.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "25"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 34
+    },
+    {
+      "id": "rm-47856261",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "43"
+        }
+      ],
+      "title": "The tower falls",
+      "summary": [
+        {
+          "text": "When the Fused seize Urithiru, its Radiants fall unconscious, Teft among them, but Kaladin stays awake. When soldiers come for the fallen Radiants, he fights, kills a Regal and flees with Teft into hiding high in the tower.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "43"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 35
+    },
+    {
+      "id": "rm-54820dd6",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "59"
+        }
+      ],
+      "title": "The first node",
+      "summary": [
+        {
+          "text": "Helped by the tower's spren, the Sibling, Kaladin spies on the Oathgates. When the Fused find one of the tower's hidden nodes, he outwits the Pursuer and destroys it, but his healing has begun to fail.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 36
+    },
+    {
+      "id": "rm-64c3f69b",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "70"
+        }
+      ],
+      "title": "The node in the well",
+      "summary": [
+        {
+          "text": "When the Fused find another node, in a well, Kaladin evades the Pursuer, dives in and destroys it, then escapes onto the tower's outside in a highstorm.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "70"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 37
+    },
+    {
+      "id": "rm-3240ec46",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "80"
+        }
+      ],
+      "title": "The Dog and the Dragon",
+      "art": {
+        "src": "/journey-art/rm-3240ec46.webp",
+        "alt": "A watercolour dog looks up at a great blue dragon.",
+        "credit": {
+          "text": "RadiantShard",
+          "url": "https://www.reddit.com/r/Stormlight_Archive/comments/kdnvpx/the_dog_and_the_dragon/"
+        },
+        "position": "50% 50%"
+      },
+      "summary": [
+        {
+          "text": "Collapsed and barely alive, Kaladin finds himself in a dark, strange place, where Wit hides him for a while and tells him a story.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "80"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 38
+    },
+    {
+      "id": "rm-a77260dc",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "111"
+        }
+      ],
+      "title": "The Fourth Ideal",
+      "art": {
+        "src": "/journey-art/rm-a77260dc.webp",
+        "alt": "Kaladin hurtles through a dusty sky, spear in hand, wrapped in streaks of blue light.",
+        "credit": {
+          "text": "Antti Hakosaari",
+          "url": "https://imgur.com/gallery/Bw2k31X"
+        },
+        "position": "50% 25%"
+      },
+      "summary": [
+        {
+          "text": "Healed by Lift, Kaladin defeats the Pursuer, then finds Teft killed by Moash. Atop the tower he jumps, meaning to die. A vision of Tien helps him accept loss, and still falling he speaks the Fourth Ideal as windspren form his Shardplate.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "111"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 39
+    }
+  ]
+}

@@ -169,6 +169,101 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: ['wind-and-truth'],
       },
     ],
+    born: [
+      {
+        name: 'Late 1153',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+        ],
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: 'Late 1153',
+        placeId: 'hearthstone',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+        ],
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    age: [
+      {
+        name: '19',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: '20',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        name: '20',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+      {
+        name: '20',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'oathbringer', chapter: '1' }],
+      },
+      {
+        name: '21',
+        sources: [
+          {
+            text: 'Word of Brandon',
+            url: 'https://wob.coppermind.net/events/305/#e10572',
+          },
+          {
+            text: 'Roshar timeline (17th Shard)',
+            url: 'https://github.com/17thshard/roshar-map',
+          },
+        ],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
   },
   'shallan-davar': {
     appearsIn: [

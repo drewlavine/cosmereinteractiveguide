@@ -201,6 +201,16 @@ h3 {
   transition: transform 250ms ease-out;
 }
 
+.pan-zoom-content.is-flying {
+  transition: transform 900ms cubic-bezier(0.45, 0, 0.2, 1);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pan-zoom-content.is-animating {
+    transition: none;
+  }
+}
+
 .zoom-controls {
   position: absolute;
   right: 1rem;
@@ -896,13 +906,9 @@ dd {
   line-height: 1.6;
 }
 
-.character-story-source {
+.fact-note {
   color: var(--text-muted, #9fb0bc);
-  font-size: 0.75rem;
-}
-
-.character-story-source a {
-  color: inherit;
+  font-size: 0.85em;
 }
 
 .travel-map {
@@ -1130,6 +1136,614 @@ dd {
   }
   .travel-leg-new {
     stroke-dashoffset: 0;
+  }
+}
+
+/* Journey map */
+/* The map sits midway between its heading and the next one (2rem above). */
+.character-journey > .page-section-body {
+  padding-top: 1.25rem;
+}
+
+.journey-preview-map {
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 100%;
+  padding: 0;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+  background: var(--slate-deep);
+  cursor: pointer;
+}
+
+.journey-preview-map svg {
+  display: block;
+  grid-area: 1 / 1;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  filter: blur(3px) brightness(0.65) saturate(0.8);
+  transform: scale(1.04);
+  transition: filter 0.25s ease;
+}
+
+.journey-preview-map:hover svg,
+.journey-preview-map:focus-visible svg {
+  filter: blur(2px) brightness(0.75) saturate(0.9);
+}
+
+.journey-preview-map:hover,
+.journey-preview-map:focus-visible {
+  border-color: var(--gold);
+}
+
+.journey-preview-map .journey-explore {
+  grid-area: 1 / 1;
+  z-index: 1;
+  padding: 0.7rem 1.6rem;
+  border-color: var(--gold);
+  background: rgba(21, 35, 47, 0.85);
+  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.45);
+  font-size: 1.05rem;
+}
+
+.journey-preview-map:hover .journey-explore,
+.journey-preview-map:focus-visible .journey-explore {
+  background: rgba(60, 50, 25, 0.92);
+}
+
+.journey-button {
+  padding: 0.4rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--gold);
+  font: inherit;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+.journey-button:hover {
+  background: rgba(212, 165, 64, 0.18);
+}
+
+.journey-explore {
+  background: rgba(212, 165, 64, 0.15);
+  font-weight: bold;
+}
+
+.journey-credits {
+  margin: 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.78rem;
+}
+
+.journey-track-past,
+.journey-track-now {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.journey-track-past {
+  stroke: rgba(242, 193, 78, 0.55);
+}
+
+.journey-track-now {
+  stroke: #f2c14e;
+  filter: drop-shadow(0 0 2px rgba(21, 35, 47, 0.9));
+}
+
+.journey-dot {
+  fill: #f2c14e;
+  stroke: #15232f;
+}
+
+.journey-here {
+  fill: #15232f;
+  stroke: #f2c14e;
+}
+
+.journey-pulse {
+  fill: none;
+  stroke: #f2c14e;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: travel-pulse 1.8s ease-out infinite;
+}
+
+.journey-map {
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  gap: 0.6rem;
+  outline: none;
+}
+
+.journey-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.journey-heading {
+  flex: 1;
+  margin: 0;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.1rem;
+}
+
+/* The map, with the event card and the timeline floating over it. */
+.journey-stage {
+  position: relative;
+  height: min(72vh, 640px);
+  min-height: 380px;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+  background: var(--slate-deep);
+}
+
+.journey-stage .pan-zoom-content {
+  padding: 0;
+}
+
+.journey-canvas {
+  position: relative;
+  width: 100%;
+}
+
+.journey-canvas img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.journey-layers {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.journey-map-actions {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 3;
+  display: flex;
+  gap: 0.4rem;
+}
+
+.journey-map-actions .journey-button {
+  background: rgba(16, 27, 37, 0.9);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.45);
+}
+
+.journey-map-actions .journey-button:hover {
+  background: rgba(60, 50, 25, 0.92);
+}
+
+.journey-card,
+.journey-panel {
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 10px;
+  background: rgba(16, 27, 37, 0.9);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+}
+
+.journey-card {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 3;
+  width: min(23rem, calc(100% - 1.5rem));
+  max-height: calc(100% - 7.5rem);
+  padding: 0.9rem 1rem 0.8rem;
+  overflow-y: auto;
+  animation: journey-card-in 0.25s ease-out;
+}
+
+@keyframes journey-card-in {
+  from {
+    opacity: 0;
+    transform: translateY(-6px);
+  }
+}
+
+.journey-card.has-art {
+  padding-top: 0;
+}
+
+/* The event's art, as a banner across the top of the card. */
+.journey-art {
+  position: relative;
+  margin: 0 -1rem 0.7rem;
+}
+
+.journey-art img {
+  display: block;
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+  border-radius: 9px 9px 0 0;
+  animation: journey-art-in 0.4s ease-out;
+}
+
+@keyframes journey-art-in {
+  from {
+    opacity: 0;
+  }
+}
+
+.journey-art-open {
+  position: relative;
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.journey-art-hint {
+  position: absolute;
+  top: 0.4rem;
+  left: 0.45rem;
+  display: grid;
+  place-items: center;
+  width: 1.8rem;
+  height: 1.8rem;
+  border-radius: 50%;
+  background: rgba(16, 27, 37, 0.75);
+  color: var(--text);
+  font-size: 1rem;
+  opacity: 0;
+  transition: opacity 0.2s;
+}
+
+.journey-art-open:hover .journey-art-hint,
+.journey-art-open:focus-visible .journey-art-hint {
+  opacity: 1;
+}
+
+@media (hover: none) {
+  .journey-art-hint {
+    opacity: 1;
+  }
+}
+
+/* The whole picture, uncropped. */
+.journey-art-viewer {
+  max-width: min(92vw, 1100px);
+  max-height: 92vh;
+  padding: 0;
+  overflow: visible;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 10px;
+  background: var(--slate-deep);
+  color: var(--text);
+}
+
+.journey-art-viewer::backdrop {
+  background: rgba(6, 10, 14, 0.85);
+}
+
+.journey-art-viewer figure {
+  margin: 0;
+}
+
+.journey-art-viewer img {
+  display: block;
+  max-width: 100%;
+  max-height: calc(92vh - 2.2rem);
+  margin: 0 auto;
+  border-radius: 9px 9px 0 0;
+  object-fit: contain;
+}
+
+.journey-art-viewer figcaption {
+  padding: 0.45rem 0.8rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.85rem;
+}
+
+.journey-art-viewer .journey-art-viewer-close {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  background: rgba(16, 27, 37, 0.8);
+  color: var(--text);
+}
+
+.journey-art figcaption {
+  position: absolute;
+  right: 0.4rem;
+  bottom: 0.3rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  background: rgba(16, 27, 37, 0.75);
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.72rem;
+}
+
+.journey-art figcaption a {
+  color: inherit;
+}
+
+.journey-card.has-art .journey-card-close {
+  z-index: 1;
+  background: rgba(16, 27, 37, 0.75);
+  color: var(--text);
+}
+
+.journey-card-close {
+  position: absolute;
+  top: 0.35rem;
+  right: 0.45rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: transparent;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 1.4rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.journey-card-close:hover {
+  background: rgba(212, 165, 64, 0.18);
+  color: var(--gold);
+}
+
+.journey-card-show {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 3;
+  background: rgba(16, 27, 37, 0.9);
+}
+
+.journey-card .travel-card-step {
+  margin-right: 2rem;
+}
+
+.journey-card h3 {
+  margin: 0.15rem 2rem 0.25rem 0;
+  color: var(--gold);
+  font-size: 1.3rem;
+}
+
+.journey-card h3 a {
+  text-decoration: none;
+}
+
+.journey-card p {
+  margin: 0 0 0.45rem;
+  line-height: 1.5;
+}
+
+.journey-source {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.88rem;
+}
+
+.source-mark {
+  position: relative;
+  display: inline-block;
+  margin-left: 0.1em;
+  vertical-align: 0.35em;
+  line-height: 1;
+}
+
+.source-mark > button {
+  display: inline-grid;
+  place-items: center;
+  width: 0.72rem;
+  height: 0.72rem;
+  padding: 0;
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: rgb(212 165 64 / 0.16);
+  color: var(--gold);
+  cursor: pointer;
+}
+
+/* A bigger target for fingers than the badge itself. */
+.source-mark > button::before {
+  content: '';
+  position: absolute;
+  inset: -0.7rem;
+}
+
+.source-mark > button svg {
+  width: 0.46rem;
+  height: 0.46rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.4;
+  stroke-linejoin: round;
+}
+
+.source-mark > button:hover,
+.source-mark.is-open > button {
+  background: var(--gold);
+  color: var(--bg);
+}
+
+.source-mark > button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.source-tip {
+  display: none;
+  position: absolute;
+  z-index: 30;
+  bottom: calc(100% + 0.4rem);
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.4rem 0.65rem;
+  border: 1px solid var(--gold);
+  border-radius: 6px;
+  background: var(--slate-deep);
+  color: var(--text);
+  font-size: 0.8rem;
+  font-style: normal;
+  line-height: 1.35;
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgb(0 0 0 / 0.45);
+}
+
+/* A bridge over the gap, so the pointer can reach the links. */
+.source-tip::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 0.5rem;
+}
+
+.source-mark.is-open .source-tip {
+  display: block;
+}
+
+.journey-approx {
+  margin-left: 0.5rem;
+  text-transform: none;
+  letter-spacing: 0;
+}
+
+.journey-stage .zoom-controls {
+  right: 0.75rem;
+  bottom: 0.75rem;
+}
+
+/* The timeline stops short of the zoom buttons in the corner. */
+.journey-panel {
+  position: absolute;
+  right: calc(1.5rem + 44px);
+  bottom: 0.75rem;
+  left: 0.75rem;
+  z-index: 2;
+  display: grid;
+  gap: 0.35rem;
+  padding: 0.5rem 0.75rem;
+}
+
+.journey-controls {
+  margin: 0;
+}
+
+.journey-steps {
+  display: flex;
+  gap: 0.3rem;
+  margin: 0;
+  padding: 0 0 0.15rem;
+  overflow-x: auto;
+  list-style: none;
+}
+
+.journey-steps button {
+  min-width: 1.9rem;
+  height: 1.9rem;
+  padding: 0 0.35rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 999px;
+  background: rgba(21, 35, 47, 0.7);
+  color: var(--text);
+  font: inherit;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.journey-steps button:hover {
+  border-color: var(--gold);
+}
+
+.journey-steps button[aria-current] {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #15232f;
+  font-weight: bold;
+}
+
+.journey-map button:focus-visible,
+.journey-map input:focus-visible,
+.journey-map a:focus-visible,
+.journey-preview button:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Full screen: the map fills the screen. */
+.journey-map.is-fullscreen {
+  height: 100dvh;
+  padding: 0.75rem;
+  background: var(--bg);
+}
+
+.journey-map.is-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.journey-map.is-fullscreen .journey-stage {
+  height: auto;
+  min-height: 0;
+}
+
+@media (max-width: 760px) {
+  .journey-stage {
+    height: 70vh;
+    min-height: 420px;
+  }
+
+  .journey-map-actions {
+    top: 0.5rem;
+    right: 0.5rem;
+  }
+
+  .journey-card,
+  .journey-card-show {
+    top: 3rem;
+    left: 0.5rem;
+  }
+
+  .journey-card {
+    width: calc(100% - 1rem);
+    max-height: 50%;
+  }
+
+  .journey-art img {
+    height: 7.5rem;
+  }
+
+  .journey-stage .zoom-controls {
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+
+  .journey-panel {
+    right: calc(1rem + 44px);
+    bottom: 0.5rem;
+    left: 0.5rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .journey-pulse,
+  .journey-card,
+  .journey-art img {
+    animation: none;
   }
 }
 

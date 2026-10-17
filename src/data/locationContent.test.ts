@@ -57,7 +57,12 @@ describe('revealLocationStory', () => {
     expect(s.history).toEqual([
       {
         title: 'title safe',
-        items: [{ text: 'event a', books: ['final-empire'] }],
+        items: [
+          {
+            text: 'event a',
+            books: [{ bookId: 'final-empire', chapter: tfe[5] }],
+          },
+        ],
       },
     ])
     expect(s.spoilers).toBe(true)

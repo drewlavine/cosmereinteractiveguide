@@ -19,11 +19,14 @@
  * the section is there).
  */
 import { characterDetails } from './characterDetails'
+import { journeyAtlas } from './journeyAtlas'
+import { journeyIndex } from './journeyIndex'
 import { mapPlaceOf, placeRevealedIn, systemOfPlanet } from './listedLocations'
 import { interactiveMaps, placeMaps, unlockedMaps } from './maps'
 import {
   findPersona,
   hasMet,
+  journeyShown,
   revealCharacterTravels,
   seenThrough,
   type CanSee,
@@ -87,18 +90,46 @@ function placeMapSection(place: ListedLocation, canSee: CanSee) {
   return unlockedMaps(world, hasRead(canSee)).length ? 'maps' : undefined
 }
 
-/** As CharacterDetail's Travels section. */
-function travelsSection(character: Character, canSee: CanSee) {
+/**
+ * The id of the page a character list entry opens, if that page shows its
+ * sections (CharacterDetail): a persona the reader has seen through opens
+ * the character's page.
+ */
+function characterPage(character: Character, canSee: CanSee) {
   const persona = findPersona(character.id)
-  // A persona the reader has seen through opens the character's page.
   const id =
     persona && seenThrough(persona, canSee) ? persona.characterId : character.id
   if (!characterDetails[persona?.characterId ?? id] || !hasMet(id, canSee))
     return undefined
+  return id
+}
+
+/** As CharacterDetail's Travels section. */
+function travelsSection(character: Character, canSee: CanSee) {
+  const id = characterPage(character, canSee)
+  if (!id) return undefined
   return revealCharacterTravels(id, canSee).stops.length ? 'travels' : undefined
 }
 
+/** As CharacterDetail's Journey section. */
+function journeySection(character: Character, canSee: CanSee) {
+  const id = characterPage(character, canSee)
+  if (!id) return undefined
+  return journeyShown(id, journeyIndex, journeyAtlas, canSee)
+    ? 'journey'
+    : undefined
+}
+
 export const pageFeatures = [
+  {
+    id: 'journey',
+    label: 'Journey',
+    description:
+      'What happens to them and where, event by event, on an interactive map',
+    section: {
+      character: (character, { canSee }) => journeySection(character, canSee),
+    },
+  },
   {
     id: 'map',
     label: 'Map',

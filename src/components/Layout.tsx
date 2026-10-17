@@ -51,7 +51,16 @@ export function Layout() {
             >
               CC BY-NC-ND 4.0
             </a>
-            . Private, unofficial fan project, not affiliated with Dragonsteel.
+            . Journey data adapted from{' '}
+            <a
+              href="https://github.com/17thshard/roshar-map"
+              target="_blank"
+              rel="noreferrer"
+            >
+              the 17th Shard
+            </a>{' '}
+            (MIT). Private, unofficial fan project, not affiliated with
+            Dragonsteel.
           </footer>
         </div>
       </BooksReadProvider>
