@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A place in the Final Empire where a skaa rebellion failed.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Massacre of Tougier",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About three hundred years before the story begins, seven thousand skaa were killed at Tougier in what became known as the Massacre of Tougier. Kelsier pointed to it when urging Yeden to join his plan.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        }
+      ]
+    }
+  ]
+}

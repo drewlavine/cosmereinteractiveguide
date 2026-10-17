@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "An empire whose capital is Luthadel, its bureaucracy run by the obligators of the Steel Ministry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
+    },
+    {
+      "text": "The Lord Ruler's empire, governed from his seat at Luthadel. Noble houses control its trade and most of its skaa, under the watch of the Steel Ministry.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
+    {
+      "text": "The Lord Ruler's empire, centred on Luthadel. It effectively collapsed when the Lord Ruler was killed in 1022 FE.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Most food comes from plantations, each owned by a nobleman and worked by a few hundred skaa under overseers. Plantation skaa live in single-room wooden hovels with a firepit in the middle. Every night, soon after sunset, mists appear, and they matter to the culture of nobles and skaa alike.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    },
+    {
+      "text": "Society is split between nobles and skaa. Skaa are essentially slaves, traded between noble houses; a lucky few work as craftsmen in relative comfort, and far from the centre some skaa own land. The noble houses control trade, while the Steel Ministry's obligators police them and keep the empire running.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    },
+    {
+      "text": "The empire is divided into ten Dominances, each run by provincial lords answerable for their own skaa. Luthadel, in the Central Dominance, is the capital and economic heart, home to the Great Houses that control the canals and trade. In the cities, skaa do most manual labour, from building to sweeping ash off the streets, and are often paid in tokens rather than coins.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "Atium, mined only at the Pits of Hathsin by convicted skaa, is enormously valuable. It must be bought from the Lord Ruler at high prices, and the Great Houses' monthly stipend of it is one way he keeps them in check.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "final-empire", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler built a stable empire that tolerated no dissent, even from the nobility, and banned every religion except his Steel Ministry. The Valla, the last religion to keep resisting, was destroyed late in the fifth century of his rule.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "text": "Every couple of centuries the Great Houses fell into a house war, a largely political struggle; the previous one had been devastating.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "1022 FE and after",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "well-of-ascension", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The empire effectively collapsed when the Lord Ruler was killed in 1022 FE.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "In the aftermath, the former empire broke apart into several competing kingdoms.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ]
+}

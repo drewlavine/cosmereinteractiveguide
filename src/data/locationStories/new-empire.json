@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "The realm Elend Venture founded after the Battle of Luthadel, when he took command of the armies of Cett and Straff.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Foundation",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Luthadel, Elend Venture took control of the armies that had besieged the city and established the New Empire. Cett and Straff's general Janarle swore loyalty to him.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "55" }]
+        }
+      ]
+    }
+  ]
+}

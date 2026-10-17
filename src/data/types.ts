@@ -151,6 +151,106 @@ export interface ListedLocation {
   mapPlanetId?: string
 }
 
+export type ListedAbilityKind =
+  | 'system'
+  | 'power'
+  | 'metal'
+  | 'order'
+  | 'user'
+  | 'bond'
+  | 'investiture'
+  | 'item'
+  | 'concept'
+
+/** A link from an ability to a magic system or Shard, dated on its own. */
+export interface AbilityTie {
+  revealedIn: Reveal
+}
+
+/** A magic system, power or other ability (see abilityList.ts). */
+export interface ListedAbility {
+  id: string
+  name: string
+  kind: ListedAbilityKind
+  /** Planet id of its world of origin. */
+  world?: string
+  /** Ids of the listed systems it belongs to. */
+  systems?: (AbilityTie & { id: string })[]
+  /** Shards it draws on. */
+  shards?: (AbilityTie & { name: string })[]
+  /** The earliest book its Coppermind page cites, or later if set by hand. */
+  revealedIn: Reveal
+  /** Every book its page cites, in publication order. */
+  books: string[]
+  coppermindPage: string
+}
+
+export type ListedCultureKind =
+  | 'house'
+  | 'title'
+  | 'class'
+  | 'people'
+  | 'religion'
+  | 'organization'
+  | 'language'
+  | 'custom'
+  | 'literature'
+  | 'myth'
+  | 'food'
+  | 'clothing'
+  | 'currency'
+  | 'game'
+  | 'other'
+
+/** A house, title, religion, custom or other bit of culture (see cultureList.ts). */
+export interface ListedCulture {
+  id: string
+  name: string
+  kind: ListedCultureKind
+  /** Planet id of the world it belongs to. */
+  world?: string
+  /** The earliest book its Coppermind page cites, or later if set by hand. */
+  revealedIn: Reveal
+  /** Every book its page cites (from its reveal on), in publication order. */
+  books: string[]
+  coppermindPage: string
+}
+
+/** A Key fact about a place, e.g. the dominance it lies in. */
+export interface LocationFact {
+  /** e.g. 'Dominance', 'Ruled by'. */
+  label: string
+  name: string
+  /** The listed place it names, if any. */
+  placeId?: string
+  /** The character it names, if any. */
+  characterId?: string
+  revealedIn: Reveal
+}
+
+/** Someone who lives at, was born at or belongs to a place. */
+export interface LocationPerson {
+  characterId: string
+  relation: 'resident' | 'born' | 'citizen'
+  revealedIn: Reveal
+}
+
+/** Key facts and people for a place (see locationDetails.ts). */
+export interface LocationDetails {
+  facts: LocationFact[]
+  people: LocationPerson[]
+}
+
+/** What a place's page says in prose (see locationStories.ts). */
+export interface LocationStory {
+  /** "What it is" in a sentence or two, earliest first. */
+  intro: StoryItem[]
+  /** What it's like: geography, layout, people, culture. */
+  description: StoryItem[]
+  /** What happened there, in in-world order (as CharacterStory's). */
+  history: { title: StoryItem[]; items: StoryItem[] }[]
+}
+
 export interface Belt {
   /** Orbit index for layout; bodies outside the belt should use higher orbits. */
   orbit: number

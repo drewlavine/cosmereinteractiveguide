@@ -98,7 +98,7 @@ OK.
 - **Locations list** (`/locations`): 684 places (635 from the Coppermind's
   location categories, plus map places with no page of their own). Pipeline
   `~/cig-loc-data` (`crawl_cats.py` → `titles.txt` → `snapshot.py crawl
-  --only` → `fetch_files.py` → `file_books.json` → `build.py`, which writes
+--only` → `fetch_files.py` → `file_books.json` → `build.py`, which writes
   `src/data/locationList.ts`; `src/data/listedLocations.ts` merges map
   places). Dating: earliest book the page cites, limited to the page's own
   series; maps count as their book; world guides, Arcanum, comics and
@@ -106,6 +106,22 @@ OK.
   to Era 1. Group by A–Z, Type, World, Series, Inside; types are a first
   guess for Drew to adjust ("Other places" is broad). Tests in
   `src/locations.test.tsx` and `src/data/locationList.test.ts`.
+- **Location maps**: `LocationMaps.tsx` shows a place's own map (Luthadel),
+  or highlights it on each unlocked map it's marked on ("Where it is").
+- **Place pages** (`PlacePage.tsx`, shared by map places and the new
+  `/locations/:id` route in `ListedLocationDetail.tsx`): Key facts, intro,
+  About, History, People, Map. Data: `src/data/locationStories/<id>.json`
+  (lazy, like character stories) and `src/data/locationDetails.ts`;
+  `revealLocationStory` / `revealLocationDetails` in `reveal.ts`. Pipeline
+  in `~/cig-loc-data`: `loc_parse.py` → `loc_story_src.py` → agent-written
+  `story/<id>.json` (`LOC_STORY_GUIDE.md`, `loc_story_check.py`) →
+  `loc_facts.py` (facts dated by the earliest cited body statement, parent
+  places with the place, else latest cited book; people from character
+  Residence/Birthplace/Nationality via the character Dater, never Died;
+  overrides in `review/*.json`, `facts_overrides.json`,
+  `people_overrides.json`) → `loc_emit.py`. Era 1 done (63 stories), plus an
+  independent spoiler review. Tests: `src/data/locationContent.test.ts`,
+  "place pages" in `src/locations.test.tsx`.
 - `scripts/screenshot-seed.html` now switches off the page fade-in; headless
   Chrome never ran it, so earlier screenshots came out dim.
 - Main JS chunk is now ~1,167 kB (308 kB gzip); the >500 kB warning was
@@ -113,7 +129,66 @@ OK.
   synchronously for the list, group-by, search and first-met. Revisit
   (e.g. JSON split by series) as more batches land.
 
+- **Wiki-style sections** (`src/components/PageSections.tsx`,
+  `pageSlugs.ts`): character, place and planet pages are one scrolling page
+  of collapsible `PageSection`s with a sticky `PageContents` (scroll spy on
+  `.app-main`; a click pins the highlight until the reader scrolls; bottom of
+  page marks the last section). Contents reads the DOM, so spoiler-hidden
+  sections never show. `/characters/:id/:tab` redirects to `#tab`.
+- **Layout trial**: Kaladin's page only (`LAYOUT_TRIAL` in
+  `CharacterDetail.tsx`) has a Sections / Tabs switch (`?layout=tabs`), both
+  full width. Remove whichever Drew rejects.
+- Headless Chrome fires no scroll events or rAF in screenshots, so the
+  Contents highlight can't be verified that way; check by hand.
+
+- **Abilities list** (`/abilities`, tab renamed from Magic): pipeline
+  `~/cig-abil-data` (`crawl_cats.py` → `titles.txt`; hand classification in
+  `kinds.json`, Shard ties in `shard_ties.json`, spoiler fixes in
+  `overrides.json` incl. `revealedIn`, `dropSystems`, `systemRevealedIn`;
+  `abil_build.py` writes `src/data/abilityList.ts`). Dating = earliest cited
+  book; an independent review added 29 later dates. No ability pages yet.
+
+- **Culture list** (`/culture`, placeholder replaced): pipeline
+  `~/cig-cult-data` (`python3 crawl_cats.py` → `cat_pages.json`/`titles.txt`;
+  `python3 fetch_pages.py` fetches pages missing from the snapshot via
+  fetch.sh into `raw/pages/`; `~/.cig-venv/bin/python cult_build.py` writes
+  `src/data/cultureList.ts`). Type from `kinds.json`, then "House …", then
+  category rules; spoiler fixes in `overrides.json` (`revealedIn`, `kind`
+  incl. `skip`, `name`, `world`, `why`) on top of `review/*.json` from an
+  independent review (`review_sheet.py` makes the sheets). Dating = earliest
+  cited book, as for abilities; uncited pages are left out. Group by Type,
+  Book, World, Series; A–Z default. Not in search (Abilities aren't
+  either). No entry pages yet. Tests: `src/culture.test.tsx`,
+  `src/data/cultureList.test.ts`.
+
+- **Page feature icons** on the Characters and Locations lists
+  (`src/data/pageFeatures.ts` registry, `src/components/PageFeatures.tsx`
+  icons/links/legend): Travels (characters) and Map (places: own map,
+  "Where it is", or a planet's interactive map / maps). Each icon links to
+  `<page>#<section>`; tooltips from `data-tip` via CSS; legend under the
+  filters; **Group by → Page feature**. Gated by books alone with the
+  page's own reveal helpers (`revealCharacterTravels`, `placeMaps`,
+  `interactiveMaps` were extracted for this). Hash links now keep the
+  section in view while the page fades in; in Kaladin's tabbed trial the
+  hash picks the tab. Tests: `src/pageFeatures.test.tsx`,
+  `src/data/pageFeatures.test.ts`. Icons are a first go; Drew may want
+  changes.
+- Screenshots: use chrome-headless-shell
+  (`~/.cig-headless/chrome-headless-shell/*/chrome-headless-shell-*/chrome-headless-shell --headless`),
+  never Google Chrome.app (it steals focus); phone shots at 500 wide.
+
 ## Known doubts to mention
+
+- Culture: scope, types and groupings are my defaults. Types are first
+  guesses (myths include creatures the Coppermind files as myths); 34 pages
+  cited only by world guides or Words of Brandon are left out; a handful of
+  late dates from the review were marked unsure (see
+  `~/cig-cult-data/review/*.json`).
+
+- Abilities: scope, groupings and dating were my defaults while Drew was away.
+  Least sure of first-naming books for Hemalurgy, Malatium, Lerasium,
+  Nicrosil, Compounding (dated late, maybe one book too late). The ten Surges
+  have no Coppermind pages, so they aren't listed.
 
 - Art gaps filled: Dalinar's logo piece replaced; Syl as a Shardblade, Venli
   before stormform and Moash as a bridgeman added (provenance in

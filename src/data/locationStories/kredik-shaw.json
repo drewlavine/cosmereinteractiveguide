@@ -1,0 +1,110 @@
+{
+  "intro": [
+    {
+      "text": "The palace of the Lord Ruler in Luthadel, heavily guarded and wrapped in an oppressive air.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "text": "The ruined palace of the Lord Ruler in Luthadel, its remains driven into the ground within a large crater.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "73" },
+            { "book": "shadows-of-self", "chapter": "20" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Standing near the palace brings a heavy sense of depression, like a strong, constant Soothing, which comes from the Lord Ruler himself. Armoured guards drawn from the Luthadel Garrison and a strong force of hazekillers defend it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "text": "The palace bristles with peaked spires and sheer towers of many thicknesses: some hold large rooms and stairwells, others are thin iron rods. It has no outer defensive walls, and was built with materials and methods known only to the Steel Ministry.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
+    },
+    {
+      "text": "One part holds a great domed room painted with murals, among them a mountain, a cavern, a pool of light and something very dark. At its centre stands a small, single-storey stone building carved with flowing patterns, its wooden door inscribed with words probably in ancient Terris.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "14" },
+            { "book": "hero-of-ages", "chapter": "14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Break-ins",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "15" },
+            { "book": "final-empire", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Years earlier, Kelsier, Mare and Redd broke into the palace but were discovered. Redd was killed on the spot, and Kelsier and Mare were sent to the Pits of Hathsin.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Kelsier and Vin slipped in again but were chased off by Steel Inquisitors. Vin was badly hurt, and Sazed saved her with Feruchemy. They got away with a book taken from one of the palace rooms.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "15" }]
+        },
+        {
+          "text": "On another night, Vin entered alone and was captured by the Inquisitor Kar, held in a cell and questioned in a throne room. Freed by Sazed and Elend, she crashed back into the throne room through a huge stained-glass window and, with Marsh's help, fought the Lord Ruler there and killed him.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Destruction",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "73" },
+                { "book": "shadows-of-self", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having become Preservation, Vin destroyed the palace while fighting Ruin's last Inquisitors. Its remains were forced into the ground inside a large crater.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "73" },
+                { "book": "shadows-of-self", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A namesake in Bilming",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Independence Tower, a skyscraper in the city of Bilming, is often called the Shaw after the old palace.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

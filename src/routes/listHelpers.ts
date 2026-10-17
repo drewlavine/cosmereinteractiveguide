@@ -27,5 +27,5 @@ export const byLetter = <T extends { name: string }>(list: T[]) =>
 export const anchorFor = (prefix: string, id: string) =>
   `${prefix}-${id === '#' ? 'other' : fold(id).replace(/[^a-z0-9]+/g, '-')}`
 
-export const plural = (n: number, word: string) =>
-  `${n} ${word}${n === 1 ? '' : 's'}`
+export const plural = (n: number, word: string, many = `${word}s`) =>
+  `${n} ${n === 1 ? word : many}`

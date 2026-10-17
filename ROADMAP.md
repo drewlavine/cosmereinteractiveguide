@@ -92,6 +92,10 @@ Category:Cosmere; check anything unclear by hand.
         if one exists
     - [x] Location pages, with parent place, places within, "Stories set
           here" and "Mentioned in"
+    - [x] Maps on location pages: a place with a map of its own (Luthadel,
+          Kholinar…) shows it, with its editions; any other place is
+          highlighted on each unlocked map it's marked on ("Where it is",
+          with a choice of map). 17 own maps, 186 marked, 3 without a map
     - [ ] Jump to a regional map, e.g. from Arelon's outline to the Arelon map
   - [x] Only show regions, and information about them, from books the reader
         has marked as read
@@ -190,17 +194,17 @@ tab here once its section's first version ships.
       guide. More tabs may be added later.
   - [ ] **Where You Are**: the new starting tab, before Star Map (see 10)
   - [x] **Star Map**: the Cosmere star map, systems and planets (see 0–3)
-  - [x] **Characters**: browse and view characters (see 8)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
         (see 11)
+  - [x] **Characters**: browse and view characters (see 8)
   - [ ] **Locations**: cities, regions and landmarks (list page live;
         location pages to come; see 12)
-  - [ ] **Magic**: magic systems and abilities (placeholder tab added; see
-        13)
+  - [ ] **Abilities**: magic systems and other abilities (list page live;
+        ability pages to come; see 13)
+  - [ ] **Culture**: the peoples and societies of the Cosmere (list page
+        live; entry pages to come; see 15)
   - [ ] **Events**: key events across the Cosmere (placeholder tab added;
         see 14)
-  - [ ] **Culture**: the peoples and societies of the Cosmere (placeholder
-        tab added; see 15)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
         see 1)
   - [x] Give each tab its own URL and show which tab is active
@@ -272,6 +276,14 @@ tab here once its section's first version ships.
         **Series**, **World**, **Species**, **Ability** and **Number of
         books**, using only what the reader knows. Characters without that
         data yet are counted, not listed
+  - [x] **Page feature icons**: small icons after a name for the special
+        parts of its page the reader can see (Travels; Map on Locations),
+        each linking straight to that section, with hover/focus tooltips and
+        a legend under the filters. Spoiler-gated by books alone, from the
+        same reveal code as the page. One registry
+        (`src/data/pageFeatures.ts`), so a new feature is one entry plus
+        its icon. **Group by → Page feature** lists entries under each
+        feature (and "No special features")
   - [ ] **Book**: characters under each book they appear in, in publication
         order. A character in several books is listed under each.
   - [x] **Species**: e.g. human, singer, spren, kandra, koloss, Shard
@@ -385,6 +397,16 @@ tab here once its section's first version ships.
         (above them on phones) with world, species, nationality, profession,
         abilities, groups, bonds, first appearance and the Coppermind link;
         tabs **Story**, **Personality**, **Relationships**, **Appearances**
+  - [x] Wiki-style layout (after Tolkien Gateway): tabs replaced by one
+        scrolling page of collapsible sections (History with a part per
+        heading, Description, Travels, Appearances), text filling the
+        window, and a sticky **Contents** panel that marks the section being
+        read (the clicked one, or the last one at the bottom of the page).
+        Hidden sections never appear in Contents. Old tab URLs redirect to
+        `#section`. Same layout on place and planet pages
+  - [ ] Choose between sections and tabs: Kaladin's page has a
+        Sections / Tabs switch (`?layout=tabs`) for comparison; remove it
+        once decided
   - [x] **Story** and **Personality** for the pilot: short paraphrased items
         under each book, written from the Coppermind's History sections, each
         dated by the footnotes of the paragraphs it draws on (so it appears
@@ -540,7 +562,7 @@ current point, based on their Books Read and Reading settings.
   - [ ] Publication order view (the Coppermind's Cosmere bibliography
         lists every book in order, including within a year)
   - [ ] Tabs on each book page for everything in that book: Characters,
-        Locations, Events, Magic, plus others that fit (e.g. Worlds,
+        Locations, Events, Abilities, plus others that fit (e.g. Worlds,
         Shards, Items, Organizations). Each entry links to its own page.
     - Gated by the spoiler rule, down to the chapter once item 7 lands:
       a reader partway through a book only sees what they've reached.
@@ -567,14 +589,34 @@ current point, based on their Books Read and Reading settings.
         shows once the reader has finished the earliest book its page cites
         (maps count as the book they're printed in; world guides, Arcanum and
         comics don't). Map places keep their hand-checked tags
+  - [x] Map icons on the list (see 8, page feature icons), linking to the
+        place's map or "Where it is", and a planet's interactive map; Group
+        by → Page feature
   - [ ] Refine the "Other places" type (valleys, deserts, Shadesmar
         features…) and let Drew adjust the type groups
-  - [ ] Location pages for places without a map page, starting with
-        Mistborn Era 1
+  - [x] A page for every listed place (`/locations/:id`); places with a map
+        page (and planets) go there instead. Every list entry links
+  - [x] Place pages share one layout with the character pages: Key facts
+        box, intro, About, History, People and Map, each item spoiler-tagged
+        (pipeline: `~/cig-loc-data/loc_parse.py` → `loc_story_src.py` →
+        stories by agents (`LOC_STORY_GUIDE.md`, `loc_story_check.py`) →
+        `loc_facts.py` (+ reviewed overrides) → `loc_emit.py`)
+  - [x] Mistborn Era 1 content: 63 places with stories, 58 with Key facts
+        or People (5 Era 1 places have no dated Coppermind text yet)
+  - [ ] The other series' places
+  - [ ] Visitors (from Travels) alongside residents in People
 
-### 13. Magic
+### 13. Abilities
 
-- [ ] A Magic tab: the magic systems of the Cosmere and how they work
+- [ ] An Abilities tab: the magic systems and other abilities of the
+      Cosmere and how they work
+  - [x] The list page (`/abilities`): 141 entries from the Coppermind's
+        Magic category (systems, powers, metals, orders, users, bonds,
+        Investiture, Invested objects, concepts), each listed once the
+        reader has finished the earliest book its page cites (later by hand
+        where the name is a spoiler); Group by Type, Magic system, World,
+        Shard and Series, with ties to systems and Shards dated separately.
+        Pipeline: `~/cig-abil-data/abil_build.py`
   - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
         ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
         it does, its world, and the characters known to have it
@@ -593,14 +635,18 @@ current point, based on their Books Read and Reading settings.
 ### 15. Culture
 
 - [ ] A Culture tab: the peoples and societies of the Cosmere
-  - [ ] Populate it from the Coppermind's Culture category: political
+  - [x] Populate it from the Coppermind's Culture category: political
         houses and families, noble ranks, titles and honorifics,
         nations, religions, orders and organizations, social classes,
-        customs, languages, and anything else found there
+        customs, languages, and anything else found there. 458 entries
+        from Category:Culture plus Groups' noble houses, families and
+        armies; places, characters and magic orders already on other tabs
+        are left out, as are events (Events tab) and pages no book cites.
+        Pipeline: `~/cig-cult-data/cult_build.py`
   - [ ] A page per entry (what it is, its world, the books it's in, and
         the characters linked to it), linked from character pages where
         they mention it (e.g. a character's house or title)
-  - [ ] A list that can be grouped, like the Characters list, with the
+  - [x] A list that can be grouped, like the Characters list, with the
         choice saved in the URL: **Type** (house, rank, title, religion,
         ...), **A–Z**, **Book**, **World** and **Series**, plus a name
         filter
@@ -609,6 +655,10 @@ current point, based on their Books Read and Reading settings.
         where it's revealed (dated by footnotes down to the chapter);
         unreached entries are hidden from lists and search with no
         placeholders
+    - [x] On the list: each entry shows once the reader has finished
+          the earliest book its page cites (later by hand where the name
+          is a spoiler, after an independent review); unmet entries are
+          hidden with no placeholders
 
 ## Ideas
 

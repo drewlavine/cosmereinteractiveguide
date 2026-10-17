@@ -67,7 +67,12 @@ describe('location page', () => {
   it('shows a place with its parent, stories and spoiler-free summary', () => {
     renderAt(`${SEL}/locations/svorden`, ['elantris'])
     expect(screen.getByRole('heading', { name: 'Svorden' })).toBeInTheDocument()
-    expect(screen.getByText(/^Nation in/)).toHaveTextContent('Nation in Sycla')
+    expect(screen.getByText('Type').nextElementSibling).toHaveTextContent(
+      'Nation',
+    )
+    expect(screen.getByText('Located in').nextElementSibling).toHaveTextContent(
+      'Sycla',
+    )
     expect(screen.queryByText(/Rose Empire/)).not.toBeInTheDocument()
     expect(screen.queryByText('Mentioned in')).not.toBeInTheDocument()
     expect(

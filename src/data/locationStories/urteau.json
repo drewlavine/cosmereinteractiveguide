@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "The largest city in the Northern Dominance, northeast of Luthadel near the Kalling Ashmount, and the ancestral seat of House Venture.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "3" }]
+    },
+    {
+      "text": "The largest city in the Northern Dominance and the ancestral seat of House Venture, taken over by skaa rebels led by a man called the Citizen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "3" },
+            { "book": "hero-of-ages", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tin and coal mines lie in the country around the city.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "3" }]
+    },
+    {
+      "text": "Urteau is crossed by streetslots: broad canals left dry for a century and used as ash-filled sunken roads. The widest, the Marketpit, serves as a main boulevard of traders and beggars. Most buildings are wooden. Noble districts had stained glass and elaborate gardens, while skaa quarters such as the crowded Harrows were run-down. The city has no wall, and koloss garrisons are stationed a few days' march away.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "27" },
+            { "book": "hero-of-ages", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A storage cavern holding an underground lake lies beneath the city's Canton of Inquisition building.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "29" }]
+    },
+    {
+      "text": "Under the Citizen, residents followed strict rules on trade, begging and dress: gray for ordinary skaa, brown for soldiers and red for officials. Public executions and heavy patrols left people subdued. Even so, the city kept a night life, trusting the Lord of the Mists to protect them.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Skaa rule",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Luthadel was under siege, skaa rebels rose and seized Urteau, led by Quellion, known as the Citizen. Nobles were hunted down and executed, their houses burned, murals painted over, stained glass smashed and gardens dug up. The rebels acted in the name of Kelsier, whom they called the Lord of the Mists, and saw Urteau as the one city that had truly become skaa-ruled.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "Spook came to the city to quietly look into its new government, and Elend sent Sazed and Breeze with a few hundred soldiers to deal with the rebellion and secure the storage cache. Riots broke out and fires swept the city until the hidden reservoir was released into the canals. Fire brigades were then organized. A third of Urteau burned; refugees from nearby towns arrived, and water ran through the canals again.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        }
+      ]
+    }
+  ]
+}

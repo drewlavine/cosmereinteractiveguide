@@ -1,0 +1,65 @@
+{
+  "intro": [
+    {
+      "text": "A city that Ashweather Cett made his capital after the Lord Ruler's death.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "3" }]
+    },
+    {
+      "text": "A major trade hub in the Western Dominance, months from Urteau and near Chardees, served by several canals including the Conway Canal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "3" },
+            { "book": "hero-of-ages", "chapter": "25" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dark red and orange rock shelves around the city serve as natural walls, making it far more defensible than the larger western city of Tremredare. It holds one of the Lord Ruler's storage caches.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "3" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "3" },
+                { "book": "hero-of-ages", "chapter": "30" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cett made Fadrex his capital, and when he marched on Luthadel he took all its known Allomancers with him, mostly from Houses Gardre and Conrad.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "3" }]
+        },
+        {
+          "text": "While Cett was away, the obligator Aradan Yomen rose to power and restored the old order of the Final Empire, holding balls for the nobility.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "3" },
+                { "book": "hero-of-ages", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Emperor Elend Venture besieged the city to reach its storage cache.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

@@ -29,19 +29,20 @@ export const underPath =
   (pathname: string) =>
     paths.some((path) => pathname === path || pathname.startsWith(`${path}/`))
 
+/** A place page on the star map, e.g. `/systems/x/planets/y/locations/z`. */
+const isStarMapPlace = (pathname: string) =>
+  /^\/systems\/[^/]+\/planets\/[^/]+\/locations\//.test(pathname)
+
 export const mainTabs: MainTab[] = [
   {
     id: 'star-map',
     label: 'Star Map',
     path: '/',
-    // Systems, planets and locations all live under the star map.
-    isActive: (pathname) => pathname === '/' || underPath('/systems')(pathname),
-  },
-  {
-    id: 'characters',
-    label: 'Characters',
-    path: '/characters',
-    isActive: underPath('/characters'),
+    // Systems and planets live under the star map; their places belong to
+    // the Locations tab.
+    isActive: (pathname) =>
+      pathname === '/' ||
+      (underPath('/systems')(pathname) && !isStarMapPlace(pathname)),
   },
   {
     id: 'books',
@@ -50,17 +51,29 @@ export const mainTabs: MainTab[] = [
     isActive: underPath('/books'),
   },
   {
+    id: 'characters',
+    label: 'Characters',
+    path: '/characters',
+    isActive: underPath('/characters'),
+  },
+  {
     id: 'locations',
     label: 'Locations',
     path: '/locations',
-    isActive: underPath('/locations'),
+    isActive: (pathname) =>
+      underPath('/locations')(pathname) || isStarMapPlace(pathname),
   },
   {
-    id: 'magic',
-    label: 'Magic',
-    path: '/magic',
-    isActive: underPath('/magic'),
-    comingSoon: 'The magic systems of the Cosmere and how they work.',
+    id: 'abilities',
+    label: 'Abilities',
+    path: '/abilities',
+    isActive: underPath('/abilities'),
+  },
+  {
+    id: 'culture',
+    label: 'Culture',
+    path: '/culture',
+    isActive: underPath('/culture'),
   },
   {
     id: 'events',
@@ -68,14 +81,6 @@ export const mainTabs: MainTab[] = [
     path: '/events',
     isActive: underPath('/events'),
     comingSoon: 'Key events across the Cosmere, in order.',
-  },
-  {
-    id: 'culture',
-    label: 'Culture',
-    path: '/culture',
-    isActive: underPath('/culture'),
-    comingSoon:
-      'The peoples of the Cosmere: houses, ranks, titles, religions, customs and more.',
   },
 ]
 

@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "A city of the Final Empire and home of its Great Houses, with the imperial highroad running out from its front.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "The Lord Ruler's city in the Central Dominance, ruled after his death by Elend Venture as King of the Central Dominance.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its nobility was ranked among ten Great Houses, whose standings had long been stable.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "Its districts include the Twists, the Ashwarrens, Aspen Row, the Hotel District, Old Gate, the Commercial District, the Cracks, Southbridge, Brassgate, the Industrial District, Blockstreet, the Sootwarrens and Grainfield.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    },
+    {
+      "text": "It was the only city in the Final Empire allowed a wall. With eight evenly spaced gates and modest height, the wall served more as a status symbol than as a defence.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "52" },
+            { "book": "hero-of-ages", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Like every major city of the Final Empire, it was built near a number of mines.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sieges",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "37" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "52" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No attacks on Luthadel were recorded under the Lord Ruler. About a year after his death, with Elend Venture as king, the city was besieged by three armies at once, one of them made up of koloss.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "37" }]
+        },
+        {
+          "text": "The siege ended with the koloss assaulting the city, the only time an enemy army broke through Luthadel's walls.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "52" },
+                { "book": "hero-of-ages", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruin of the city",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In time, Luthadel was destroyed by volcanic activity and great fires. Apart from part of Kredik Shaw, forced underground, its last traces vanished when the world was remade.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "20" }]
+        }
+      ]
+    }
+  ]
+}

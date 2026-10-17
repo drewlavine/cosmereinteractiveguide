@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "The fortress of the Steel Inquisitors, far south of Luthadel in the Eastern Dominance, near the River Seran and its lakes.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It sits in a vast crater-like valley about three hundred feet deep, with steep rocky sides, ringed by gentle hills and reached by no roads. This makes it hard to defend but even harder to find.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "text": "Its broad, flat walls are dark stone, partly plated with rusted, moss- and ash-stained steel, and its huge gates are steel. The building has no windows and looks forbidding.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "text": "Inside it is almost totally dark. Walls and pillars are covered in polished steel sheets worked into patterns, and the floor is laid with reflective steel tiles. The rooms are tall, square, bare and doorless, and the stone stairs have high steps.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "text": "The ground floor is only an entrance; the Inquisitors' quarters are above. The basement holds the room where new Inquisitors are made, and deeper still is a cave-like chamber with Kwaan's inscription carved into a great steel plate.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler built the Conventical as a laboratory for Hemalurgy. Over his thousand-year reign he tried there to create new Hemalurgic beings beyond koloss, kandra and Inquisitors; many died, and every attempt failed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "12" },
+            { "book": "well-of-ascension", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler's death, the Inquisitors and high obligators withdrew to the Conventical. Then they abandoned it, killing the servants and taking everything of use.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+        },
+        {
+          "text": "Finding it deserted, Marsh and Sazed went to investigate. Marsh climbed down a cable into the crater while Sazed drifted down using Feruchemy, and together they forced open the steel doors.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+        },
+        {
+          "text": "Inside, Sazed recorded what he saw in his coppermind while Marsh searched the Inquisitors' quarters. Sazed found the chamber with Kwaan's inscription and made a quick charcoal rubbing before Marsh pressed him to leave.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+        },
+        {
+          "text": "Sazed afterwards returned alone and compared his rubbing with the steel original, finding that they did not match.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A former country estate in the Southern Dominance that became the seat of King Audil Lekal after the Lord Ruler's death.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Before the Lord Ruler died it was a country estate with a manor house but no true palace, though it was notable enough to appear on maps from 1021.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Lord Ruler's death a shantytown grew up around the main manor house.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "King Audil Lekal ruled his kingdom from Lekal City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "Sazed and Breeze came to Lekal City as ambassadors of Elend Venture's New Empire to seek Audil Lekal's surrender. Seeing he was beaten, the king signed a treaty making his kingdom a vassal of the empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The ashmount",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lava from a nearby ashmount destroyed Lekal City, and the whole Southern Dominance was said to be burning.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "61" }]
+        }
+      ]
+    }
+  ]
+}

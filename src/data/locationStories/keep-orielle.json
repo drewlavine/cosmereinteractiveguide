@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A noble keep, less imposing than Keep Venture but still impressive, with a grand marble hall.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    },
+    {
+      "text": "A noble keep in Fadrex City, known for its grand marble hall.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its main hall doubles as a ballroom: white marble with fine stonework, rows of marble pillars, and floor-to-ceiling stained-glass panels of masterful quality that divide and decorate the room. It holds hundreds, yet the low ceilings make it feel intimate.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A ball during the siege",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the first night of the siege of Fadrex City, the keep hosted a lavish ball. Vin heard of it from Slowswift, and she and Elend arrived at its doors by Allomantic flight. It was the first time Elend had openly displayed his powers, and the two used the ball to show their strength to the gathered nobles, including Aradan Yomen and Lady Patresen.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+        }
+      ]
+    }
+  ]
+}

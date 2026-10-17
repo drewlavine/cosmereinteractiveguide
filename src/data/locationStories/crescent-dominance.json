@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "The Dominances are the regions into which the Final Empire is divided for governance, each run by provincial lords who hold command of, and responsibility for, their own skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Central Dominance lies at the empire's heart and is where the Steel Ministry's grip is tightest: obligators witness contracts large and small, Inquisitors are never far off, and mass executions keep skaa and nobles alike in line. Luthadel has a large underworld of thieving crews and illegal Allomancers. The region's flat plains suit farming, its metal-rich ground makes metals a leading export, and its most valuable product is atium from the Pits of Hathsin.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "text": "Under this arrangement, in place since roughly the empire's ninth century, lords answer for the skaa on their own lands. It gives the nobility more freedom than earlier systems, and the Lord Ruler offsets it by stepping up obligator activity. The five Inner Dominances had seen no serious rebellion for two hundred years.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "Though the smallest Dominance by area, the Central Dominance is the most populous and politically important. It holds Luthadel, the imperial capital, where every Great House keeps a keep, and it is the empire's economic centre. Winters are mild, sometimes snowless. Farmed plains alternate with shrubland and small aspen woods, the ground beneath Luthadel is rich in tin and brass, and the region holds hundreds of cave systems.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "text": "The Terris Dominance in the far north is snowy, mountainous and thinly populated. Its capital is Tathingdwen, and many small villages are scattered across it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+    },
+    {
+      "text": "Elsewhere, the Northern Dominance is fertile and well watered, with forests, farms, syrups and glues made from tree sap, and tin and coal mines around Urteau. The Eastern Dominance has large lakes, grasslands where skaa herd goats and sheep, clay, and gold mines of little trade value. The Western Dominance is a land of eroded plateaus, rock spires and canyons, with some of the empire's highest farmland.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "12" },
+            { "book": "hero-of-ages", "chapter": "14" },
+            { "book": "hero-of-ages", "chapter": "30" },
+            { "book": "hero-of-ages", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the time of Elend's New Empire, the Northern Dominance was ruled by King Janarle.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        },
+        {
+          "text": "Urteau's streets were canals that made moving goods easy, but once the canals were drained the city became a backwater and its trade faded.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }]
+        },
+        {
+          "text": "Fadrex City replaced Tremredare as capital of the Western Dominance, being easier to defend, first under King Ashweather Cett. Aradan Yomen, formerly the area's leading obligator, then became king there, still ruling from Fadrex City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "30" }]
+        },
+        {
+          "text": "The Southern Dominance's capital under the Lord Ruler had been Austrex; in the New Empire's time King Audil Lekal ruled from Lekal City. Bounded by water on three sides, the region has busy ports that the Steel Ministry watched for smuggling and unrest.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "With Ruin free, the Outer Dominances could no longer grow crops and were overrun by koloss.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        }
+      ]
+    }
+  ]
+}

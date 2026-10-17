@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A plantation of Lord Themos Tresting in the Final Empire, worked by several hundred skaa.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Besides its several hundred skaa workers, the plantation had a staff of other lords, at least two minor obligators, taskmasters and more than two dozen soldiers. The skaa lived in hovels, and Tresting lived in a manor.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A night at the plantation",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "prologue" },
+            { "book": "final-empire", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One night Kelsier came to the plantation, visited a skaa hovel and shared noble food with the elders Tepper and Mennis. When Tresting's soldiers seized Jess's daughter to take her to the manor, Kelsier went there, killed the obligators, taskmasters and soldiers, set the manor on fire and rescued the girl.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }]
+        },
+        {
+          "text": "Afterwards some of the plantation's skaa set out to join the skaa rebels in the Arguois caverns, though only a few of them stayed there.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A city in the Central Dominance of the Final Empire.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "text": "A city in the Central Dominance of the Final Empire, at least two days' ride north of Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies at least two days' ride north of Luthadel, and three days' march from Holstep and the Arguois caverns.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Valtroux Garrison",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "final-empire", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the skaa rebel army attacked the much smaller garrison at nearby Holstep, the Holstep troops got a messenger to Valtroux. The Valtroux Garrison, five thousand strong, marched for Holstep at once.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "Under orders to take no prisoners, the Valtroux troops destroyed the rebels before Kelsier and Vin could arrive, and set the heads of Yeden and other officers on spears beside a road. Only Demoux's group, which had stayed out of the attack and hidden, survived.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "The rebels fought better than past uprisings, but, just out of the Holstep battle, they could not match a fully trained garrison of the same size.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        },
+        {
+          "text": "Soon after, the Luthadel Garrison arrived to relieve the Valtroux troops and went on searching for rebels who had fled.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        }
+      ]
+    }
+  ]
+}

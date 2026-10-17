@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A street in Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Under the Lord Ruler it was a quiet street of shops, such as tailors and jewellers, serving only the nobility.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "17" },
+                { "book": "well-of-ascension", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Renoux suggested Vin buy new earrings on Kenton Street to replace the stud she always wore, but she refused and kept her earring.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "17" },
+                { "book": "well-of-ascension", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once Elend lifted the restrictions on skaa merchants and wages, Kenton Street became a busy market, with merchants hiring criers and jugglers to draw customers.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+        },
+        {
+          "text": "During the siege of Luthadel, Tindwyl took Allrianne and Vin dress-shopping there, and Vin noticed merchants asking five boxings for a box of old apples. Elend afterwards had Ham bring the street's clothing merchants to see the refugees, hoping it would make them lower their prices.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+        }
+      ]
+    }
+  ]
+}

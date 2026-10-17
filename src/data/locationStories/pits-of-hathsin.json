@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "The Lord Ruler's brutal prison camp for skaa in the Final Empire, from which no one was known to have escaped alive before Kelsier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "text": "A deadly skaa prison camp of the Lord Ruler's that also secretly serves as the Final Empire's only known source of atium.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Prisoners must climb down a narrow, stifling gorge and reach into crystal-lined crevices for geodes holding atium. Each must find one geode a week or be beaten to death. The camp both punishes skaa criminals and hides the mines, since no prisoner leaves.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Preservation created the Pits to hide the part of Ruin's body he had taken, which appeared in the physical world as atium.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "4" },
+            { "book": "final-empire", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier and his wife Mare were sent to the Pits as punishment for trying to rob the Lord Ruler's palace, Kredik Shaw. After Mare died there, Kelsier escaped, the first prisoner known to survive the Pits.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+        },
+        {
+          "text": "Kelsier afterwards went back to the Pits, freed the prisoners and shattered most of the atium-bearing crystals with Allomancy, Pulling on the traces of atium inside them. He reckoned the crystals would need about three hundred years to regrow.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Centuries afterwards",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Centuries on, atium no longer formed in the crystals. The Pits were sometimes called the Survivor's Cradle, after Kelsier's Snapping there.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

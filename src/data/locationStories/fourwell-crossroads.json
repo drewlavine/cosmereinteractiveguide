@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A busy intersection in Luthadel, named for the four wells at its corners.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each corner has a well, and at the centre stands a copper fountain showing the Lord Ruler with the defeated Deepness at his feet.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    },
+    {
+      "text": "So many people pass through that beggars prize a spot here and have to fight to keep it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beggars' spot",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kelsier had Camon made a beggar, Camon failed to win a place at the crossroads and had to beg in a smaller, quieter square three streets to the west.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "11" }]
+        }
+      ]
+    }
+  ]
+}

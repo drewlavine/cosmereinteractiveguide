@@ -3,6 +3,7 @@ import {
   fireEvent,
   render,
   screen,
+  waitFor,
   within,
 } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
@@ -35,11 +36,13 @@ const renderAt = (
 
 const allBooks = books.map((b) => b.id)
 const characterLinks = () =>
-  document.querySelectorAll('.character-group a[href^="/characters/"]')
+  document.querySelectorAll(
+    '.character-group a[href^="/characters/"]:not(.feature-link)',
+  )
 
 describe('character stories', () => {
   // Runs before the stories below are preloaded.
-  it('loads a story when its page opens, keeping the tab asked for', async () => {
+  it('loads a story when its page opens, at the old tab asked for', async () => {
     renderAt('/characters/kaladin/description', ['way-of-kings'])
     expect(
       await screen.findByRole('region', { name: 'Description' }),
@@ -99,23 +102,15 @@ describe('characters pages', () => {
     expect(screen.getAllByText(/Windrunner/).length).toBeGreaterThan(0)
   })
 
-  it('splits a character page into tabs, each at its own URL', async () => {
+  it('puts a character on one page of sections, with a Contents', async () => {
     renderAt('/characters/kaladin', allBooks)
-    const tabs = screen.getByRole('navigation', { name: 'About Kaladin' })
+    const main = document.querySelector('.character-main') as HTMLElement
     expect(
-      within(tabs)
-        .getAllByRole('link')
-        .map((l) => [l.textContent, l.getAttribute('href')]),
-    ).toEqual([
-      ['History', '/characters/kaladin'],
-      ['Description', '/characters/kaladin/description'],
-      ['Appearances', '/characters/kaladin/appearances'],
-    ])
-    expect(within(tabs).getByRole('link', { name: 'History' })).toHaveAttribute(
-      'aria-current',
-      'page',
-    )
-    // Key facts sit beside the tabs, whichever tab is open.
+      within(main)
+        .getAllByRole('heading', { level: 2 })
+        .map((h) => h.textContent),
+    ).toEqual(['History', 'Description', 'Appearances'])
+    // Key facts sit beside the sections.
     const facts = screen.getByRole('complementary', { name: 'Key facts' })
     expect(within(facts).getByText(/Human/)).toBeInTheDocument()
     expect(within(facts).getByText('Alethi')).toBeInTheDocument()
@@ -125,17 +120,11 @@ describe('characters pages', () => {
     const history = screen.getByRole('region', { name: 'History' })
     expect(
       within(history)
-        .getAllByRole('heading')
+        .getAllByRole('heading', { level: 3 })
         .map((h) => h.textContent)
         .slice(0, 4),
     ).toEqual(['Early life', "Amaram's army", 'Slavery', 'Bridgeman'])
-
-    await userEvent.click(
-      within(tabs).getByRole('link', { name: 'Appearances' }),
-    )
-    // Switching tabs is instant: no page transition within a character.
     const appearances = screen.getByRole('region', { name: 'Appearances' })
-    expect(screen.queryByRole('region', { name: 'History' })).toBeNull()
     const wayOfKings = within(appearances)
       .getByRole('link', { name: 'The Way of Kings' })
       .closest('li')
@@ -143,6 +132,93 @@ describe('characters pages', () => {
       within(appearances).getByRole('link', { name: 'The Way of Kings' }),
     ).toHaveAttribute('href', '/books/way-of-kings')
     expect(wayOfKings).toHaveTextContent(/first appears in Chapter 1$/)
+
+    // The Contents lists each section, and the history's parts under it.
+    const contents = await screen.findByRole('navigation', { name: 'Contents' })
+    const links = within(contents)
+      .getAllByRole('link')
+      .map((l) => [l.textContent, l.getAttribute('href')])
+    expect(links.slice(0, 3)).toEqual([
+      ['(Top)', '#top'],
+      ['History', '#history'],
+      ['Early life', '#history-early-life'],
+    ])
+    expect(links).toContainEqual(['Appearances', '#appearances'])
+    expect(links).toContainEqual(['Personality', '#description-personality'])
+
+    // A section folds away from its heading.
+    const toggle = within(history).getByRole('button', { name: 'History' })
+    expect(toggle).toHaveAttribute('aria-expanded', 'true')
+    await userEvent.click(toggle)
+    expect(toggle).toHaveAttribute('aria-expanded', 'false')
+    expect(within(history).queryByText(/Bridgeman/)).not.toBeVisible()
+    // Following its Contents link opens it again.
+    await userEvent.click(
+      within(contents).getByRole('link', { name: 'Slavery' }),
+    )
+    expect(toggle).toHaveAttribute('aria-expanded', 'true')
+    // The part jumped to is marked, with its section, until the reader scrolls.
+    const marked = () =>
+      within(contents)
+        .getAllByRole('link')
+        .filter((l) => l.getAttribute('aria-current'))
+        .map((l) => l.textContent)
+    expect(marked()).toEqual(['History', 'Slavery'])
+    await userEvent.click(
+      within(contents).getByRole('link', { name: 'Appearances' }),
+    )
+    expect(marked()).toEqual(['Appearances'])
+
+    // Scrolled to the very bottom, the last section is the one marked.
+    const scroller = document.querySelector('.app-main') as HTMLElement
+    for (const [key, value] of Object.entries({
+      scrollHeight: 3000,
+      clientHeight: 800,
+      scrollTop: 2200,
+    }))
+      Object.defineProperty(scroller, key, { configurable: true, value })
+    await userEvent.click(within(contents).getByRole('link', { name: '(Top)' }))
+    expect(marked()).toEqual(['(Top)'])
+    fireEvent.wheel(scroller)
+    fireEvent.scroll(scroller)
+    await waitFor(() => expect(marked()).toEqual(['Appearances']))
+  })
+
+  it('lets Kaladin’s page switch to the old tabbed layout', async () => {
+    renderAt('/characters/kaladin', allBooks)
+    const layout = screen.getByRole('group', { name: 'Page layout' })
+    await userEvent.click(within(layout).getByRole('button', { name: 'Tabs' }))
+    expect(screen.queryByRole('navigation', { name: 'Contents' })).toBeNull()
+    const tabs = screen.getByRole('navigation', { name: 'About Kaladin' })
+    expect(screen.getByRole('region', { name: 'History' })).toBeInTheDocument()
+    expect(screen.queryByRole('region', { name: 'Appearances' })).toBeNull()
+    await userEvent.click(
+      within(tabs).getByRole('button', { name: 'Appearances' }),
+    )
+    expect(
+      screen.getByRole('region', { name: 'Appearances' }),
+    ).toBeInTheDocument()
+    expect(screen.queryByRole('region', { name: 'History' })).toBeNull()
+    await userEvent.click(
+      within(layout).getByRole('button', { name: 'Sections' }),
+    )
+    expect(
+      await screen.findByRole('navigation', { name: 'Contents' }),
+    ).toBeInTheDocument()
+    cleanup()
+    // Only Kaladin's page has the switch.
+    renderAt('/characters/vin', allBooks)
+    expect(screen.queryByRole('group', { name: 'Page layout' })).toBeNull()
+  })
+
+  it('lists only what is shown in the Contents', async () => {
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '6' })
+    const contents = await screen.findByRole('navigation', { name: 'Contents' })
+    expect(
+      within(contents)
+        .getAllByRole('link')
+        .map((l) => l.textContent),
+    ).toEqual(['(Top)', 'History', 'Slavery', 'Bridgeman', 'Appearances'])
   })
 
   it('lists close family in the key facts once the books reveal them', () => {
@@ -177,12 +253,12 @@ describe('characters pages', () => {
     expect(facts).not.toHaveClass('collapsed')
   })
 
-  it('splits Description into Appearance and Personality', () => {
+  it('splits Description into Appearance and Personality', async () => {
     renderAt('/characters/kaladin/description', allBooks)
-    const panel = screen.getByRole('region', { name: 'Description' })
+    const panel = await screen.findByRole('region', { name: 'Description' })
     expect(
       within(panel)
-        .getAllByRole('heading')
+        .getAllByRole('heading', { level: 3 })
         .map((h) => h.textContent),
     ).toEqual(['Appearance', 'Personality'])
     expect(within(panel).getByText(/slave brands/)).toBeInTheDocument()
@@ -197,7 +273,7 @@ describe('characters pages', () => {
     expect(screen.getByText(/Ardent, Swordmaster/)).toBeInTheDocument()
     expect(
       within(screen.getByRole('region', { name: 'History' }))
-        .getAllByRole('heading')
+        .getAllByRole('heading', { level: 3 })
         .map((h) => h.textContent),
     ).toEqual(['Ardent and swordmaster'])
     // Nothing on the page, story included, gives him away.
@@ -259,7 +335,7 @@ describe('characters pages', () => {
     ])
     expect(
       within(screen.getByRole('region', { name: 'History' }))
-        .getAllByRole('heading')
+        .getAllByRole('heading', { level: 3 })
         .map((h) => h.textContent),
     ).toEqual(['Becoming a Returned', 'The Manywar', "In T'Telir", 'On Roshar'])
     cleanup()
@@ -287,7 +363,7 @@ describe('characters pages', () => {
       /Shadesmar/,
     ])
       expect(page()).not.toMatch(spoiler)
-    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
     expect(screen.getByRole('img', { name: /Nomad/ })).toHaveAttribute(
       'src',
       expect.not.stringMatching(/sigzil/),
@@ -312,7 +388,7 @@ describe('characters pages', () => {
     expect(screen.getByText(/Worldsinger/)).toBeInTheDocument()
     for (const spoiler of [/Nomad/, /Zellion/, /Canticle/, /Cinder King/])
       expect(page()).not.toMatch(spoiler)
-    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
     cleanup()
 
     // Both: one page, Sigzil's, with Nomad as another name.
@@ -338,7 +414,8 @@ describe('characters pages', () => {
 
   it('reveals abilities at their chapter, and sends unknown tabs to the first', async () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '56' })
-    expect(screen.queryByText(/Abilities|Surgebinder/)).toBeNull()
+    const article = screen.getByRole('article')
+    expect(within(article).queryByText(/Abilities|Surgebinder/)).toBeNull()
     cleanup()
     // Kaladin learns he's a Surgebinder in chapter 57 (Coppermind footnote).
     renderAt('/characters/kaladin', [], { 'way-of-kings': '57' })
@@ -404,7 +481,7 @@ describe('characters pages', () => {
   it('tells his history only as far as the reader has read', async () => {
     const headings = () =>
       within(screen.getByRole('region', { name: 'History' }))
-        .getAllByRole('heading')
+        .getAllByRole('heading', { level: 3 })
         .map((h) => h.textContent)
     // Footnotes date his slavery to chapter 2 and Bridge Four to chapter 6;
     // his childhood is told in flashbacks from chapter 16.
@@ -682,10 +759,10 @@ describe('character travels', () => {
 
   it('shows a trip known only from Brandon once the reader has met him on both worlds', () => {
     renderAt('/characters/felt/travels', ['final-empire', 'well-of-ascension'])
-    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
     cleanup()
     renderAt('/characters/felt/travels', ['oathbringer'])
-    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
     cleanup()
     renderAt('/characters/felt/travels', ['final-empire'], {
       oathbringer: '114',
@@ -726,7 +803,7 @@ describe('character travels', () => {
     renderAt('/characters/zahel/travels', ['way-of-kings'], {
       'words-of-radiance': '35',
     })
-    expect(screen.queryByRole('tab', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
     expect(document.querySelector('.travel-map')).toBeNull()
   })
 

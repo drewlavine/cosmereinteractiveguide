@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A city of respectable size in the far north of the Western Dominance of the Final Empire.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Only one ashmount lies near Mantiz, so slightly less ash falls than in Luthadel, but with nobody organising its removal the city is almost buried in it. Four huge keeps rise over its skyline, Keep Shezler among them.",
+      "revealedIn": ["eleventh-metal"]
+    },
+    {
+      "text": "Its buildings are rounded, cornerless and seldom symmetrical, built of stone coated in hardened mud, with an organic, unfinished look and sometimes irregular windows.",
+      "revealedIn": ["eleventh-metal"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        { "text": "Kelsier's visit", "revealedIn": ["eleventh-metal"] }
+      ],
+      "items": [
+        {
+          "text": "While training with Gemmel, Kelsier visited Mantiz and made contact with its underground. One night he infiltrated Keep Shezler, killed Antillius Shezler, freed his skaa prisoners and took his notebook of rumours about an eleventh metal.",
+          "revealedIn": ["eleventh-metal"]
+        }
+      ]
+    }
+  ]
+}

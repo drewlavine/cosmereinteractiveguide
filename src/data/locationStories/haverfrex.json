@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A city on the Luth-Davn Canal, which links it to Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The city was the site of one of the Lord Ruler's main canneries.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "13" },
+            { "book": "hero-of-ages", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ashweather Cett held Haverfrex during the siege of Luthadel, giving him an easy supply line along the canal.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+        }
+      ]
+    }
+  ]
+}

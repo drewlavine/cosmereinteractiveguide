@@ -26,21 +26,21 @@ describe('main tabs', () => {
     const links = within(mainNav()).getAllByRole('link')
     expect(links.map((l) => l.textContent)).toEqual([
       'Star Map',
-      'Characters',
       'Books',
+      'Characters',
       'Locations',
-      'Magic',
-      'Events',
+      'Abilities',
       'Culture',
+      'Events',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
       '/',
-      '/characters',
       '/books',
+      '/characters',
       '/locations',
-      '/magic',
-      '/events',
+      '/abilities',
       '/culture',
+      '/events',
     ])
     expect(new Set(mainTabs.map((t) => t.id)).size).toBe(mainTabs.length)
   })
@@ -53,7 +53,9 @@ describe('main tabs', () => {
     ['/characters/kaladin', 'Characters'],
     ['/books', 'Books'],
     ['/locations', 'Locations'],
-    ['/magic', 'Magic'],
+    ['/locations/kredik-shaw', 'Locations'],
+    ['/systems/scadrian/planets/scadrial/locations/luthadel', 'Locations'],
+    ['/abilities', 'Abilities'],
     ['/events', 'Events'],
   ])('marks the right tab active on %s', (path, tab) => {
     renderAt(path)
@@ -83,7 +85,7 @@ describe('main tabs', () => {
     expect(isCharacters('/charactersheet')).toBe(false)
   })
 
-  it.each(['Magic', 'Events', 'Culture'])(
+  it.each(['Events'])(
     'shows a coming-soon page for the %s tab',
     async (label) => {
       renderAt('/')

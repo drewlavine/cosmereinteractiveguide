@@ -2,6 +2,10 @@ import { cleanup, render, screen, within } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it } from 'vitest'
 import { books } from './data/books'
+import { chapters } from './data/chapters'
+import { listedLocations, mapPlaceOf } from './data/listedLocations'
+import { hasLocationStory, loadLocationStory } from './data/locationStories'
+import { readerCanSee } from './data/reveal'
 import { routes } from './routes'
 import { BOOKS_READ_KEY } from './state/booksRead'
 
@@ -96,4 +100,125 @@ describe('locations list', () => {
     renderAt('/locations?q=kredik', ERA1)
     expect(names()).toEqual(['Kredik Shaw'])
   })
+})
+
+describe('location page maps', () => {
+  const hathsin = '/systems/scadrian/planets/scadrial/locations/pits-of-hathsin'
+
+  it('marks a place without its own map on the maps it appears on', async () => {
+    renderAt(hathsin, ['final-empire'])
+    expect(
+      await screen.findByRole('heading', { name: 'Where it is' }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('img', {
+        name: 'Pits of Hathsin marked on a map of The Final Empire',
+      }),
+    ).toBeInTheDocument()
+    // The Scadrial map is from a later book, so there's nothing to choose.
+    expect(
+      screen.queryByRole('group', { name: 'Choose a map' }),
+    ).not.toBeInTheDocument()
+  })
+
+  it('lets the reader choose between maps once more are unlocked', async () => {
+    renderAt(
+      hathsin,
+      books.map((b) => b.id),
+    )
+    const choice = await screen.findByRole('group', { name: 'Choose a map' })
+    expect(
+      within(choice)
+        .getAllByRole('button')
+        .map((b) => b.textContent),
+    ).toEqual(['Scadrial', 'The Final Empire'])
+  })
+
+  it('shows a city its own map', async () => {
+    renderAt('/systems/scadrian/planets/scadrial/locations/luthadel', [
+      'final-empire',
+    ])
+    expect(
+      await screen.findByRole('heading', { name: 'Map' }),
+    ).toBeInTheDocument()
+    expect(screen.getByRole('img', { name: /^Luthadel: / })).toBeInTheDocument()
+    expect(
+      screen.queryByRole('img', { name: /marked on/ }),
+    ).not.toBeInTheDocument()
+  })
+})
+
+describe('place pages', () => {
+  const listedOnly = listedLocations.find(
+    (l) => !mapPlaceOf(l) && hasLocationStory(l.id) && l.kind !== 'planet',
+  )!
+
+  it('gives places without a map page a page of their own', async () => {
+    renderAt(`/locations/${listedOnly.id}`, ERA1)
+    expect(
+      await screen.findByRole('heading', { level: 1, name: listedOnly.name }),
+    ).toBeInTheDocument()
+    expect(
+      screen.getByRole('complementary', { name: 'Key facts' }),
+    ).toBeInTheDocument()
+  })
+
+  it('links every listed place from the list', () => {
+    renderAt('/locations', ERA1)
+    expect(
+      within(list()).getByRole('link', { name: listedOnly.name }),
+    ).toHaveAttribute('href', `/locations/${listedOnly.id}`)
+  })
+
+  it('hides a place page before its book is read', () => {
+    renderAt(`/locations/${listedOnly.id}`)
+    expect(
+      screen.getByRole('heading', { name: 'Not reached yet' }),
+    ).toBeInTheDocument()
+    expect(screen.queryByText(listedOnly.name)).not.toBeInTheDocument()
+  })
+
+  it('sends map places to their map page', async () => {
+    renderAt('/locations/luthadel', ERA1)
+    const crumbs = await screen.findByRole('navigation', { name: 'Breadcrumb' })
+    // Place pages belong to the Locations tab, with a geographic trail.
+    expect(
+      within(crumbs)
+        .getAllByRole('link')
+        .map((l) => l.textContent),
+    ).toEqual(['Locations', 'Scadrial', 'Final Empire', 'Central Dominance'])
+    expect(within(crumbs).getByText('Luthadel')).toHaveAttribute(
+      'aria-current',
+      'page',
+    )
+  })
+
+  it.each([5, 20, 40])(
+    "shows Luthadel's text only up to the chapter reached (%i)",
+    async (i) => {
+      const woa = chapters['well-of-ascension'].map((c) => c.id)
+      const reading = { 'well-of-ascension': woa[i] }
+      const canSee = readerCanSee({
+        read: new Set(['final-empire']),
+        reading: new Map(Object.entries(reading)),
+      })
+      const story = (await loadLocationStory('luthadel'))!
+      renderAt(
+        '/systems/scadrian/planets/scadrial/locations/luthadel',
+        ['final-empire'],
+        reading,
+      )
+      await screen.findByRole('heading', { level: 1, name: 'Luthadel' })
+      const page = document.body.textContent ?? ''
+      const items = [
+        ...story.description,
+        ...story.history.flatMap((s) => [...s.title, ...s.items]),
+      ]
+      for (const item of items)
+        if (!canSee(item.revealedIn))
+          expect(page.includes(item.text), 'hidden item shown').toBe(false)
+      const shownIntro = story.intro.filter((x) => canSee(x.revealedIn)).at(-1)
+      if (shownIntro) expect(page).toContain(shownIntro.text)
+    },
+  )
 })

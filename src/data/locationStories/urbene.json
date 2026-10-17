@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A small village in the Eastern Dominance of the Final Empire, about halfway between Erlac and the Conventical of Seran.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A picturesque village in a quiet hollow: ten large wooden hovels in a loose circle around a central well, with a nobleman's manor farther up the valley. Its skaa were herdsmen.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sazed's visit",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Passing through on his way to Luthadel, Sazed found the village full of skaa dead of hunger and thirst. With the mists out during the day, they had been too afraid to leave their hovels. A single villager, driven mad, had survived by eating the dead, and told Sazed what had happened.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        }
+      ]
+    }
+  ]
+}

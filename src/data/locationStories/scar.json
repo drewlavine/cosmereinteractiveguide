@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "The Starbelt: a bright band of stars in the night sky of Threnody, a world without a moon.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "Taln's Scar: a deep red group of stars in the night sky of Roshar, named for the Herald Taln.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A prominent cluster of stars seen from several planets of the cosmere, known variously as the Starbelt, Taln's Scar and the Red Rip.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its stars are unusually bright, and most of them look red when seen from several planets, unlike other stars.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "7" },
+            { "book": "way-of-kings", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On Threnody, whose nights are very dark, the Starbelt is usually bright enough to faintly light objects, even through tree branches. Its place in the sky seems to change from day to day, and locals do not describe its light as red.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "On Roshar it appears deep red and shifts its position with the seasons. It shows before sunset, ahead of the twinkling white stars. The bright star Reya's Tear is not part of it. Rosharan astrology takes note of where the Scar stood on a person's seventh birthday.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On Scadrial, centuries after the Final Empire, a bright sight called the Red Rip stands out on cloudless nights, sometimes low on the horizon. From high enough up it can even be seen through the mists.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "82" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": []
+}

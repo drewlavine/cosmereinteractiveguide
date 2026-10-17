@@ -1,0 +1,88 @@
+{
+  "intro": [
+    {
+      "text": "A vast barren desert covering most of Scadrial in the days of the Final Empire, sparing only the far north and part of the southern continent. Part of the Eastern Dominance borders it.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Rashek took the power at the Well of Ascension, he moved Scadrial nearer its sun to burn away the Deepness, then overcorrected back and forth until he gave up on a proper orbit. Ash drawn to the north pole left the middle of the world unprotected, and almost everything away from the poles was scorched lifeless.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "52" },
+                { "book": "hero-of-ages", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Being beyond the Lord Ruler's reach, the burnlands drew skaa who fled there. Their borders were called the wastes and their people wasted men: bandit kings and robber-barons in semi-nomadic clans who raided the empire for food and supplies. Free of imperial control, they developed technologies unknown elsewhere and even sparked a few successful uprisings, despite wild koloss who thrived there too.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "52" },
+                { "book": "hero-of-ages", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "23" },
+            { "book": "hero-of-ages", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Synod sent Sazed to the Eastern Dominance to teach the people living near the burnlands.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+        },
+        {
+          "text": "During the Final Ascension, Scadrial was returned to its proper orbit and life came back to the burnlands.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    }
+  ]
+}

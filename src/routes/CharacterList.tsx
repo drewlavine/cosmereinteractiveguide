@@ -1,6 +1,13 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router'
+import { FeatureLegend, FeatureLinks } from '../components/PageFeatures'
 import { bookSeries, seriesOf } from '../data/books'
+import {
+  featureGroups,
+  featuresFor,
+  featuresOf,
+  type FoundFeature,
+} from '../data/pageFeatures'
 import { people as characters } from '../data/people'
 import {
   findPersona,
@@ -21,6 +28,8 @@ interface Entry {
   names: string[]
   /** What the reader knows about them, for grouping. */
   shown: ShownCharacter
+  /** Special parts of their page the reader can see. */
+  features: FoundFeature[]
 }
 
 interface Group {
@@ -36,6 +45,7 @@ const groupings = [
   { id: 'species', label: 'Species' },
   { id: 'ability', label: 'Ability' },
   { id: 'books', label: 'Number of books' },
+  { id: 'feature', label: 'Page feature' },
 ] as const
 type GroupingId = (typeof groupings)[number]['id']
 
@@ -73,9 +83,22 @@ export function CharacterList() {
               ...shown.personas.map((p) => p.name),
             ].map(fold),
             shown,
+            features: featuresOf('character', character, { canSee }),
           }
         }),
     [listed, canSee],
+  )
+  const featuresById = useMemo(
+    () => new Map(met.map((e) => [e.character.id, e.features])),
+    [met],
+  )
+  // The legend explains the icons any listed character has.
+  const legend = useMemo(
+    () =>
+      featuresFor('character').filter((f) =>
+        met.some((e) => e.features.some((found) => found.feature === f)),
+      ),
+    [met],
   )
 
   const matches = met.filter(
@@ -106,6 +129,8 @@ export function CharacterList() {
         const n = shown.appearsIn.length
         return n > 0 ? [[String(n), `In ${plural(n, 'book')}`, -n]] : []
       }
+      case 'feature':
+        return featureGroups('character', e.features)
       default:
         return []
     }
@@ -124,11 +149,12 @@ export function CharacterList() {
         byId.set(id, group)
       }
     }
-    // Series and book counts in their own order; the rest biggest first.
+    // Series, book counts and features in their own order; the rest
+    // biggest first.
     groups = [...byId.values()].sort(
       (a, b) =>
         a.order - b.order ||
-        (grouping === 'series' || grouping === 'books'
+        (grouping === 'series' || grouping === 'books' || grouping === 'feature'
           ? 0
           : b.items.length - a.items.length) ||
         a.name.localeCompare(b.name),
@@ -188,6 +214,7 @@ export function CharacterList() {
           </select>
         </label>
       </div>
+      <FeatureLegend features={legend} />
 
       {groups.length > 0 && (
         <nav
@@ -218,6 +245,11 @@ export function CharacterList() {
             {items.map((character) => (
               <li key={character.id}>
                 <Link to={`/characters/${character.id}`}>{character.name}</Link>
+                <FeatureLinks
+                  name={character.name}
+                  href={`/characters/${character.id}`}
+                  features={featuresById.get(character.id) ?? []}
+                />
               </li>
             ))}
           </ul>

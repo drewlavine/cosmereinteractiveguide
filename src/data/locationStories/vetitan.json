@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "A small town in the Southern Dominance of the Final Empire, and the site of one of the Lord Ruler's hidden storage caverns.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A lord's manor of wood and fine stone stands at the town's centre, and the Steel Ministry kept offices in a tall, imposing building. A trapdoor in that building leads to a cellar where a stone wall, passable only by Allomancers, hides the way into the storage cavern.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+    },
+    {
+      "text": "The town lies in the Southern Dominance, not far from Garthwood or the Central Dominance. With around seven thousand people it is large for a farming community; most houses have a single storey. Nearby ore deposits make it a mining town as well as a farming one.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the lords left",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vetitan was once governed by local lords and the Steel Ministry. When the lords and their obligators abandoned it and their soldiers drifted away, a skaa named Fatren took charge. He had the townspeople keep planting, used the crops as bribes to keep them out of nearby armies, and raised a garrison of about a thousand, mostly former miners, with a thousand more in reserve.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "Thickening mists made farming harder and supplies ran short. Koloss destroyed nearby Garthwood, and fewer than a hundred survivors reached Vetitan. On his brother Druffel's advice, Fatren had an earthen wall with proper gates built around the town; it held off bandits but not enough to stop a koloss army.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The koloss attack",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About three months after Garthwood fell, ten thousand koloss marched on Vetitan. Emperor Elend Venture arrived just in time to train the garrison, won Fatren's fealty in return for a title, and led a surprise charge on the koloss camp. The defenders fought on until Vin killed the Inquisitor controlling the koloss, letting Elend take control of them; he set some to obey Fatren.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The cache and the evacuation",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "12" },
+            { "book": "hero-of-ages", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vin and Elend quickly found the town's storage cavern, stocked with food, water and the first eight Allomantic metals. Its inscription described malatium and the use of emotional Allomancy on koloss and kandra, and pointed them to the final cache in Fadrex City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "12" }]
+        },
+        {
+          "text": "Elend reluctantly moved Vetitan's people to Luthadel, since the town lay outside his defences. Some died in the mists on the march. The townsfolk were to farm near the capital and the soldiers could join the army. Five hundred troops were then sent back to ship the cavern's supplies to Luthadel by barge.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "8" }]
+        }
+      ]
+    }
+  ]
+}

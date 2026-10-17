@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A city in the Final Empire.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Spook's visit",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the siege of Luthadel, Spook passed through Yelva City and sent Clubs a carving made by a local carpenter.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }]
+        }
+      ]
+    }
+  ]
+}

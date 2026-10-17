@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A sunken thoroughfare in the city of Urteau, once its widest canal.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Marketpit was once Urteau's widest canal, with room for three boats moored in the middle and others passing on each side. Since the canals ran dry it has become the city's central boulevard, crowded with traders and beggars.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "text": "Stairs lead up from the pit to a wealthier district where the canals were filled in and cobbled. The Citizen often addressed the people here, and executions were carried out by burning prisoners inside a former noble's house.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Citizen",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spook was attacked here by the Citizen's soldiers, among them two Thugs. He was wounded and knocked out, then left in a burning building to be executed, but escaped. Afterwards he found only nine skulls in the ruins, though ten people had been sent to die.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "At another execution near the Marketpit, Spook broke into the burning building and most of the prisoners got out. Trapped inside with a little girl, he went through the flames and leapt from a window.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        }
+      ]
+    }
+  ]
+}

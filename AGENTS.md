@@ -68,8 +68,12 @@ To look at a page as a reader at a given point:
 
 1. `npm run build && cp scripts/screenshot-seed.html dist/seed.html`
 2. `npx vite preview --port 5198 --strictPort` (in the background)
-3. Headless Chrome with a fresh `--user-data-dir`, `--virtual-time-budget=6000`,
-   `--window-size=1280,1100` (390,844 for phones), `--screenshot=<file>` on
+3. chrome-headless-shell
+   (`~/.cig-headless/chrome-headless-shell/*/chrome-headless-shell-*/chrome-headless-shell --headless`;
+   never Google Chrome.app, which pops up windows and steals focus) with a
+   fresh `--user-data-dir`, `--virtual-time-budget=8000`,
+   `--window-size=1280,1100` (500,1500 for phones; it can't go narrower),
+   `--screenshot=<file>` on
    `http://localhost:5198/seed.html?read=<url-encoded JSON book ids>&reading=<url-encoded {"book": "chapter"}>&to=<url-encoded path>`.
 4. Afterwards stop the server (`lsof -ti tcp:5198`, then `kill <pid>`) and
    delete `dist/seed.html`.

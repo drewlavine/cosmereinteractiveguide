@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A city in the Southern Dominance of the Final Empire, southeast of Vetitan.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Koloss attack",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Koloss attacked Garthwood three months before they struck Vetitan. Though Garthwood was much larger than Vetitan, which had seven thousand people, fewer than a hundred of its survivors reached Vetitan.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "1" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A town with an imperial garrison about an hour north of the Luth-Davn Canal, two weeks from Luthadel by canal, near the Arguois caverns.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Holstep lies about an hour north of the Luth-Davn Canal, a two-week canal journey from Luthadel. The Arguois caverns are nearby, and Valtroux is about three days' march away.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The rebel attack",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "final-empire", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Yeden's orders, part of the skaa rebel army hidden in the Arguois caverns made a night attack on the Holstep Garrison. Around two thousand, Demoux among them, refused, thinking it a mistake. The other five thousand beat the garrison of about a thousand, though the fight was harder than expected.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "A messenger escaped to Valtroux, whose five-thousand-strong garrison marched at once while the Luthadel Garrison followed. The tired rebels were overwhelmed and no prisoners were taken; the officers' heads, Yeden's among them, were set on spears by the road. Only those who had stayed in the caverns survived.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        },
+        {
+          "text": "The defeat was a serious blow to Kelsier's plans, and he blamed himself for the rebels' overconfidence.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A land on Scadrial in the age before the Final Empire.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Terris stewards were modelled on the Urtan servant class.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Conquest",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler conquered Urtan late in the first century of the Final Empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "27" }]
+        }
+      ]
+    }
+  ]
+}

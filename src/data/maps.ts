@@ -1,3 +1,6 @@
+import { findLocation } from './locations'
+import type { Location } from './types'
+
 /**
  * Official in-world maps, hosted by the Coppermind and shown with credit.
  * Each map lists its versions in publication order. A version stays hidden
@@ -1184,4 +1187,57 @@ export function unlockedMaps(
     const versions = map.versions.filter((v) => versionUnlocked(v, hasRead))
     return versions.length ? [{ ...map, versions }] : []
   })
+}
+
+/** A map shown at its latest version that marks something, with those marks. */
+export type MarkedMap<S> = PlanetMap & { version: MapVersion; spots: S[] }
+
+/** The maps with a version that marks something, each at its latest such version. */
+export const markedMaps = <S>(
+  maps: PlanetMap[],
+  spotsOf: (version: MapVersion) => S[],
+): MarkedMap<S>[] =>
+  maps.flatMap((map) => {
+    const version = map.versions.findLast((v) => spotsOf(v).length)
+    return version ? [{ ...map, version, spots: spotsOf(version) }] : []
+  })
+
+export type PlaceSpot = Hotspot & { location: Location }
+
+/**
+ * A planet's interactive maps: unlocked maps with places the reader may see
+ * (`showPlace`) marked on them.
+ */
+export const interactiveMaps = (
+  planetId: string,
+  hasRead: (bookId: string) => boolean,
+  showPlace: (location: Location) => boolean,
+) =>
+  markedMaps(unlockedMaps(planetId, hasRead), (version): PlaceSpot[] =>
+    (version.hotspots ?? []).flatMap((spot) => {
+      const location = findLocation(planetId, spot.locationId)
+      return location && showPlace(location) ? [{ ...spot, location }] : []
+    }),
+  )
+
+/**
+ * The maps on a place's page, and the id of the section showing them: the
+ * place's own map (a city like Luthadel), else the unlocked maps it's marked
+ * on. Undefined when there are none.
+ */
+export function placeMaps(
+  planetId: string,
+  locationId: string,
+  hasRead: (bookId: string) => boolean,
+):
+  | { section: 'map'; own: PlanetMap }
+  | { section: 'where-it-is'; locators: MarkedMap<Hotspot>[] }
+  | undefined {
+  const maps = unlockedMaps(planetId, hasRead)
+  const own = maps.find((m) => m.id === locationId)
+  if (own) return { section: 'map', own }
+  const locators = markedMaps(maps, (v) =>
+    (v.hotspots ?? []).filter((h) => h.locationId === locationId),
+  )
+  return locators.length ? { section: 'where-it-is', locators } : undefined
 }

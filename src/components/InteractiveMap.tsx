@@ -1,21 +1,14 @@
 import { useState } from 'react'
 import { Link } from 'react-router'
 import { books } from '../data/books'
-import { findLocation, kindLabels } from '../data/locations'
-import {
-  mapImageUrl,
-  mapSourceUrl,
-  unlockedMaps,
-  type Hotspot,
-  type MapVersion,
-} from '../data/maps'
+import { kindLabels } from '../data/locations'
+import { interactiveMaps, mapImageUrl, mapSourceUrl } from '../data/maps'
 import type { Location, LocationKind } from '../data/types'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee } from '../state/reveal'
 import { TracerOverlay, TracerToolbar, type Point } from './MapTracer'
 import { PanZoom } from './PanZoom'
-
-type Spot = Hotspot & { location: Location }
+import { PageSection } from './PageSections'
 
 /** One place on the map: an outline made of one or more areas, or a pin. */
 type Shape =
@@ -80,19 +73,10 @@ export function InteractiveMap({
   const [tracing, setTracing] = useState(false)
   const [points, setPoints] = useState<Point[]>([])
 
-  const spotsOf = (version: MapVersion): Spot[] =>
-    (version.hotspots ?? []).flatMap((spot) => {
-      const location = findLocation(planetId, spot.locationId)
-      return location && (showAll || canSee(location.revealedIn))
-        ? [{ ...spot, location }]
-        : []
-    })
-
-  const maps = unlockedMaps(planetId, showAll ? () => true : hasRead).flatMap(
-    (map) => {
-      const version = map.versions.findLast((v) => spotsOf(v).length)
-      return version ? [{ ...map, version, spots: spotsOf(version) }] : []
-    },
+  const maps = interactiveMaps(
+    planetId,
+    showAll ? () => true : hasRead,
+    (location) => showAll || canSee(location.revealedIn),
   )
   if (!maps.length) return null
 
@@ -141,12 +125,11 @@ export function InteractiveMap({
   })
 
   return (
-    <section
+    <PageSection
+      id="interactive-map"
+      title="Interactive map"
       className="interactive-map"
-      aria-labelledby="interactive-map-title"
     >
-      <h2 id="interactive-map-title">Interactive map</h2>
-
       {maps.length > 1 && (
         <div
           className="map-editions"
@@ -286,6 +269,6 @@ export function InteractiveMap({
           onClear={() => setPoints([])}
         />
       )}
-    </section>
+    </PageSection>
   )
 }

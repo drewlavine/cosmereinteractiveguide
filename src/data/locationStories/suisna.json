@@ -1,0 +1,29 @@
+{
+  "intro": [
+    {
+      "text": "A city near Luthadel, caught in the path of the koloss army during the siege of Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+    },
+    {
+      "text": "A small city in the Central Dominance, a day's travel from Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "42" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The siege of Luthadel",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The koloss army pillaged Suisna. Its people fled toward Luthadel, and Straff Venture sent them on into the besieged city to strain its supplies further.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+        }
+      ]
+    }
+  ]
+}

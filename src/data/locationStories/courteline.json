@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A settlement near Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Skaa rebellion",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "About fifty years before the present day, a skaa rebellion at Courteline failed. The entire Luthadel Garrison was sent to crush it, the only time Ham knew of the whole Garrison leaving the city.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "6" }]
+        }
+      ]
+    }
+  ]
+}

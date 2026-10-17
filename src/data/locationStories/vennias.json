@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A place in the Final Empire, probably in the Central Dominance.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Marsh's insertion",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Travelling to inspect the rebel army, Kelsier and Yeden left Marsh at Vennias, where he joined Steel Ministry acolytes to begin infiltrating the Ministry.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+        }
+      ]
+    }
+  ]
+}

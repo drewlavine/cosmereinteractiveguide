@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "Enormous volcanoes in Scadrial's northern hemisphere, whose ash is unusually black.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "19" }]
+    },
+    {
+      "text": "Former volcanoes of Scadrial, quiet since the Catacendre, whose names still mark their old sites on maps.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The ash the Ashmounts produce is black, although ordinary ash is grey and white with only some darker material.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "19" }]
+    },
+    {
+      "text": "After the Catacendre their old sites are unpopulated but still labelled on maps. Tyrian, Morag, Torinost, Kalling and Faleast still appear in some form, while Zerinah and Doriel do not; a city in the Basin is named Doriel, and the land east of the Southern Roughs is called Lost Doriel.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler made the Ashmounts when he first touched the power at the Well of Ascension, to make up for having moved the world too close to the sun. Their ash clouds kept the planet from overheating, and he reshaped plants, animals, people and tiny organisms to live with the ash.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A world remade",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sazed Ascended, he returned Scadrial to its original orbit, so the Ashmounts were no longer needed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "82" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 341 PC the Set held captives underground, telling them the world above had ended with the Ashmounts erupting again. Investigating, Wax and Marasi worried that the Set might be trying to restart the volcanoes.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "43" }]
+        }
+      ]
+    }
+  ]
+}

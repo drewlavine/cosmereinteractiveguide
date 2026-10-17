@@ -1,6 +1,7 @@
 import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
-import { SpoilerNotice } from '../components/SpoilerNotice'
+import { PlaceBreadcrumb, PlacePage } from '../components/PlacePage'
+import { ancestorTrail } from '../data/ancestors'
 import { childLocations, findLocation, kindLabels } from '../data/locations'
 import { revealLocation } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
@@ -33,59 +34,57 @@ export function LocationDetail() {
   const [kind] = kindLabels[location.kind]
 
   return (
-    <article
-      className="planet-detail location-detail"
-      aria-labelledby="location-title"
-    >
-      <nav aria-label="Breadcrumb" className="breadcrumb">
-        <Link to="/">Star map</Link> /{' '}
-        <Link to={`/systems/${system.id}`}>{system.name}</Link> /{' '}
-        <Link to={`/systems/${system.id}/planets/${planet.id}`}>
-          {planet.name}
-        </Link>{' '}
-        / <span aria-current="page">{shown.name}</span>
-      </nav>
-
-      <SpoilerNotice scope={system.id} spoilers={shown.spoilers} />
-
-      <p className="location-kind">
-        {kind} {parent ? 'in' : 'on'}{' '}
-        <Link
-          to={
-            parent
-              ? href(parent.id)
-              : `/systems/${system.id}/planets/${planet.id}`
-          }
-        >
-          {parent?.name ?? planet.name}
-        </Link>
-      </p>
-      <h1 id="location-title">{shown.name}</h1>
-      {shown.altName && (
-        <p className="planet-detail-aka">Also called {shown.altName}</p>
-      )}
-      {shown.summary && <p>{shown.summary}</p>}
-      <dl>
-        <BookList label="Stories set here" bookIds={shown.settingOf} />
-        <BookList label="Mentioned in" bookIds={shown.mentionedIn} />
-        {children.length > 0 && (
-          <>
-            <dt>Places here</dt>
-            <dd>
-              <ul className="location-children">
-                {children.map((child) => (
-                  <li key={child.id}>
-                    <Link to={href(child.id)}>{child.name}</Link>
-                  </li>
-                ))}
-              </ul>
-            </dd>
-          </>
-        )}
-      </dl>
-      <a href={shown.coppermindUrl} target="_blank" rel="noreferrer">
-        Read more on the Coppermind
-      </a>
-    </article>
+    <PlacePage
+      id={location.id}
+      name={shown.name}
+      altName={shown.altName}
+      scope={system.id}
+      showAll={showAll}
+      spoilers={shown.spoilers}
+      breadcrumb={
+        <PlaceBreadcrumb
+          trail={[
+            {
+              name: planet.name,
+              href: `/systems/${system.id}/planets/${planet.id}`,
+            },
+            ...ancestorTrail(location, visible).map((p) => ({
+              name: p.name,
+              href: href(p.id),
+            })),
+          ]}
+          current={shown.name}
+        />
+      }
+      kind={kind}
+      parent={parent && { name: parent.name, href: href(parent.id) }}
+      summary={shown.summary || undefined}
+      planetId={planet.id}
+      world={{
+        name: planet.name,
+        href: `/systems/${system.id}/planets/${planet.id}`,
+      }}
+      extraFacts={
+        <>
+          <BookList label="Stories set here" bookIds={shown.settingOf} />
+          <BookList label="Mentioned in" bookIds={shown.mentionedIn} />
+          {children.length > 0 && (
+            <>
+              <dt>Places here</dt>
+              <dd>
+                <ul className="location-children">
+                  {children.map((child) => (
+                    <li key={child.id}>
+                      <Link to={href(child.id)}>{child.name}</Link>
+                    </li>
+                  ))}
+                </ul>
+              </dd>
+            </>
+          )}
+        </>
+      }
+      coppermindUrl={shown.coppermindUrl}
+    />
   )
 }

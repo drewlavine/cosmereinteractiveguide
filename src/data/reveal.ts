@@ -1,11 +1,14 @@
 import { hasReached, type ReadingProgress } from './progress'
 import { characterDetails } from './characterDetails'
 import type { Portrait } from './characterPortraits'
-import type { TravelStop } from './travels'
+import { characterTravels, type TravelStop } from './travels'
 import type {
   CharacterDetails,
   Fact,
   Location,
+  LocationDetails,
+  LocationPerson,
+  LocationStory,
   Passage,
   Persona,
   Planet,
@@ -426,7 +429,8 @@ export function revealStory(
   viewAnyway = false,
 ): ShownStory {
   const v = view(characterId, canSee)
-  if (!v || !prose) return { history: [], appearance: [], personality: [], spoilers: false }
+  if (!v || !prose)
+    return { history: [], appearance: [], personality: [], spoilers: false }
   const { details, persona, trim } = v
 
   let spoilers = false
@@ -520,4 +524,118 @@ export function revealTravels(
     }))
     .filter((s) => s.events.length > 0)
   return { stops: shown, spoilers }
+}
+
+/** A character's Travels section: their (or a persona's) stops, trimmed. */
+export const revealCharacterTravels = (
+  id: string,
+  canSee: CanSee,
+  viewAnyway = false,
+) =>
+  revealTravels(
+    id,
+    characterTravels[findPersona(id)?.characterId ?? id],
+    canSee,
+    viewAnyway,
+  )
+
+/** What a place's page may say in prose. */
+export interface ShownLocationStory {
+  /** The latest "what it is" line the reader may see. */
+  intro?: string
+  description: string[]
+  /** As ShownStory's history. */
+  history: { title?: string; items: { text: string; books: string[] }[] }[]
+  spoilers: boolean
+}
+
+/** Trims a place's story to what the reader may see. */
+export function revealLocationStory(
+  prose: LocationStory | undefined,
+  canSee: CanSee,
+  viewAnyway = false,
+): ShownLocationStory {
+  if (!prose) return { description: [], history: [], spoilers: false }
+  let spoilers = false
+  const show = ({ revealedIn }: StoryItem) => {
+    if (canSee(revealedIn)) return true
+    spoilers = true
+    return viewAnyway
+  }
+  return {
+    intro: prose.intro.filter(show).at(-1)?.text,
+    description: prose.description.filter(show).map((i) => i.text),
+    history: prose.history
+      .map(({ title, items }) => ({
+        title: title.filter(show).at(-1)?.text,
+        items: items.filter(show).map(({ text, revealedIn }) => ({
+          text,
+          books: [...new Set(revealedIn.flatMap(pointBooks))],
+        })),
+      }))
+      .filter((s) => s.items.length > 0),
+    spoilers,
+  }
+}
+
+/** A place's Key facts and people, trimmed to what the reader may see. */
+export interface ShownLocationDetails {
+  /** Facts by label, in the order first given. */
+  facts: {
+    label: string
+    values: { name: string; placeId?: string; characterId?: string }[]
+  }[]
+  /** Each person once, with every tie the reader may see. */
+  people: { characterId: string; relations: LocationPerson['relation'][] }[]
+  spoilers: boolean
+}
+
+/**
+ * Trims a place's Key facts and people. A fact naming a place or character
+ * shows only once the reader may see them too (`placeShown`, hasMet); a
+ * person only once met, and not through a persona the reader hasn't seen
+ * through.
+ */
+export function revealLocationDetails(
+  details: LocationDetails | undefined,
+  canSee: CanSee,
+  placeShown: (placeId: string) => boolean,
+  viewAnyway = false,
+): ShownLocationDetails {
+  const shown: ShownLocationDetails = { facts: [], people: [], spoilers: false }
+  if (!details) return shown
+  const show = (ok: boolean) => {
+    if (ok) return true
+    shown.spoilers = true
+    return viewAnyway
+  }
+  for (const f of details.facts) {
+    const ok =
+      canSee(f.revealedIn) &&
+      (!f.placeId || placeShown(f.placeId)) &&
+      (!f.characterId || hasMet(f.characterId, canSee))
+    if (!show(ok)) continue
+    const group = shown.facts.find((g) => g.label === f.label)
+    const value = {
+      name: f.name,
+      placeId: f.placeId,
+      characterId: f.characterId,
+    }
+    if (group) group.values.push(value)
+    else shown.facts.push({ label: f.label, values: [value] })
+  }
+  for (const p of details.people) {
+    const trim = view(p.characterId, canSee)?.trim ?? ((r: Reveal) => r)
+    const reveal = trim(p.revealedIn)
+    const ok =
+      reveal.length > 0 && canSee(reveal) && hasMet(p.characterId, canSee)
+    if (!show(ok)) continue
+    const person = shown.people.find((x) => x.characterId === p.characterId)
+    if (person) {
+      if (!person.relations.includes(p.relation))
+        person.relations.push(p.relation)
+    } else
+      shown.people.push({ characterId: p.characterId, relations: [p.relation] })
+  }
+  return shown
 }

@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, type ReactNode } from 'react'
 import { books } from '../data/books'
 import {
   mapImageUrl,
@@ -10,6 +10,7 @@ import {
 } from '../data/maps'
 import { useBooksRead } from '../state/booksRead'
 import { PanZoom } from './PanZoom'
+import { PageSection } from './PageSections'
 
 const bookTitle = (bookId: string) =>
   books.find((b) => b.id === bookId)?.title ?? bookId
@@ -46,66 +47,13 @@ export function PlanetMaps({
   }
 
   return (
-    <section className="planet-maps" aria-labelledby="planet-maps-title">
-      <h2 id="planet-maps-title">Maps</h2>
-
-      <figure className="map-viewer">
-        <div
-          className="map-viewer-frame"
-          style={{ aspectRatio: `${version.width} / ${version.height}` }}
-        >
-          <PanZoom key={version.file} label={`${map.title} map`}>
-            <img
-              className="map-viewer-image"
-              src={mapImageUrl(version.file)}
-              alt={`${map.title}: ${version.caption}`}
-              width={version.width}
-              height={version.height}
-              draggable={false}
-            />
-          </PanZoom>
-        </div>
-
-        <figcaption className="map-viewer-caption">
-          <div>
-            <strong>{map.title}.</strong> {version.caption}
-          </div>
-
-          {map.versions.length > 1 && (
-            <div
-              className="map-editions"
-              role="group"
-              aria-label={`${map.title} editions`}
-            >
-              <span className="map-editions-label">Edition:</span>
-              {map.versions.map((v) => (
-                <button
-                  key={v.file}
-                  type="button"
-                  className="map-edition"
-                  aria-pressed={v === version}
-                  onClick={() => setFile(v.file)}
-                >
-                  {v.edition ?? source(v)}
-                </button>
-              ))}
-            </div>
-          )}
-
-          <small className="map-credit">
-            Map by {version.artist}, from <cite>{source(version)}</cite>. ©
-            Dragonsteel. Image via{' '}
-            <a
-              href={mapSourceUrl(version.file)}
-              target="_blank"
-              rel="noreferrer"
-            >
-              the Coppermind
-            </a>
-            .
-          </small>
-        </figcaption>
-      </figure>
+    <PageSection id="maps" title="Maps" className="planet-maps">
+      <MapFigure
+        map={map}
+        version={version}
+        source={source}
+        onVersion={(v) => setFile(v.file)}
+      />
 
       <ul className="map-strip" aria-label="Choose a map">
         {maps.map((m) => {
@@ -137,6 +85,83 @@ export function PlanetMaps({
           )
         })}
       </ul>
-    </section>
+    </PageSection>
+  )
+}
+
+/**
+ * One map version with its caption, edition choice (when `onVersion` is
+ * given) and credit. `overlay` is drawn over the image, in image pixels.
+ */
+export function MapFigure({
+  map,
+  version,
+  source,
+  onVersion,
+  overlay,
+}: {
+  map: PlanetMap
+  version: MapVersion
+  source: (version: MapVersion) => string
+  onVersion?: (version: MapVersion) => void
+  overlay?: ReactNode
+}) {
+  return (
+    <figure className="map-viewer">
+      <div
+        className="map-viewer-frame"
+        style={{ aspectRatio: `${version.width} / ${version.height}` }}
+      >
+        <PanZoom key={version.file} label={`${map.title} map`}>
+          <div className="map-canvas">
+            <img
+              className="map-viewer-image"
+              src={mapImageUrl(version.file)}
+              alt={`${map.title}: ${version.caption}`}
+              width={version.width}
+              height={version.height}
+              draggable={false}
+            />
+            {overlay}
+          </div>
+        </PanZoom>
+      </div>
+
+      <figcaption className="map-viewer-caption">
+        <div>
+          <strong>{map.title}.</strong> {version.caption}
+        </div>
+
+        {onVersion && map.versions.length > 1 && (
+          <div
+            className="map-editions"
+            role="group"
+            aria-label={`${map.title} editions`}
+          >
+            <span className="map-editions-label">Edition:</span>
+            {map.versions.map((v) => (
+              <button
+                key={v.file}
+                type="button"
+                className="map-edition"
+                aria-pressed={v === version}
+                onClick={() => onVersion?.(v)}
+              >
+                {v.edition ?? source(v)}
+              </button>
+            ))}
+          </div>
+        )}
+
+        <small className="map-credit">
+          Map by {version.artist}, from <cite>{source(version)}</cite>. ©
+          Dragonsteel. Image via{' '}
+          <a href={mapSourceUrl(version.file)} target="_blank" rel="noreferrer">
+            the Coppermind
+          </a>
+          .
+        </small>
+      </figcaption>
+    </figure>
   )
 }

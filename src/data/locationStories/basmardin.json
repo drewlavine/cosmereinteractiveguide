@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A city in the Final Empire where House Hasting took refuge after the Lord Ruler's death.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Hasting fled to BasMardin after the Lord Ruler died. The house's heir, Telden Hasting, did not stay, fearing koloss activity in the area, and moved to Fadrex City.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ]
+    }
+  ]
+}

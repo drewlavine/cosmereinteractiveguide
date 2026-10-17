@@ -2,6 +2,7 @@ import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { InteractiveMap } from '../components/InteractiveMap'
 import { PlanetGlobe } from '../components/PlanetGlobe'
+import { PageContents } from '../components/PageSections'
 import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { locations } from '../data/locations'
@@ -59,51 +60,58 @@ export function PlanetDetail() {
 
       <SpoilerNotice scope={system.id} spoilers={spoilers} />
 
-      <div className="planet-detail-body">
-        <svg
-          className="planet-detail-globe"
-          viewBox="-200 -200 400 400"
-          aria-hidden
-        >
-          <PlanetGlobe
-            planet={planet}
-            cx={0}
-            cy={0}
-            r={planet.rings ? 100 : 120}
-          />
-        </svg>
-        <div>
-          <h1 id="planet-title">{planet.name}</h1>
-          {planet.altName && (
-            <p className="planet-detail-aka">Also called {planet.altName}</p>
-          )}
-          {planet.summary && <p>{planet.summary}</p>}
-          <dl>
-            <BookList label="Stories set here" bookIds={planet.settingOf} />
-            <BookList label="Mentioned in" bookIds={planet.mentionedIn} />
-            <FactList label="Shards" items={planet.shards} />
-            <FactList label="Magic systems" items={planet.magicSystems} />
-            <FactList label="Moons" items={moonNames} />
-            {planet.rings && (
-              <>
-                <dt>Rings</dt>
-                <dd>Yes</dd>
-              </>
-            )}
-          </dl>
-          <a href={planet.coppermindUrl} target="_blank" rel="noreferrer">
-            Read more on the Coppermind
-          </a>
-        </div>
-      </div>
+      <div className="page-layout">
+        <div className="page-layout-main">
+          <div className="planet-detail-body">
+            <svg
+              className="planet-detail-globe"
+              viewBox="-200 -200 400 400"
+              aria-hidden
+            >
+              <PlanetGlobe
+                planet={planet}
+                cx={0}
+                cy={0}
+                r={planet.rings ? 100 : 120}
+              />
+            </svg>
+            <div>
+              <h1 id="planet-title">{planet.name}</h1>
+              {planet.altName && (
+                <p className="planet-detail-aka">
+                  Also called {planet.altName}
+                </p>
+              )}
+              {planet.summary && <p>{planet.summary}</p>}
+              <dl>
+                <BookList label="Stories set here" bookIds={planet.settingOf} />
+                <BookList label="Mentioned in" bookIds={planet.mentionedIn} />
+                <FactList label="Shards" items={planet.shards} />
+                <FactList label="Magic systems" items={planet.magicSystems} />
+                <FactList label="Moons" items={moonNames} />
+                {planet.rings && (
+                  <>
+                    <dt>Rings</dt>
+                    <dd>Yes</dd>
+                  </>
+                )}
+              </dl>
+              <a href={planet.coppermindUrl} target="_blank" rel="noreferrer">
+                Read more on the Coppermind
+              </a>
+            </div>
+          </div>
 
-      <InteractiveMap
-        key={`interactive-${planet.id}`}
-        systemId={system.id}
-        planetId={planet.id}
-        showAll={showAll}
-      />
-      <PlanetMaps key={planet.id} planetId={planet.id} showAll={showAll} />
+          <InteractiveMap
+            key={`interactive-${planet.id}`}
+            systemId={system.id}
+            planetId={planet.id}
+            showAll={showAll}
+          />
+          <PlanetMaps key={planet.id} planetId={planet.id} showAll={showAll} />
+        </div>
+        <PageContents key={`contents-${planet.id}`} />
+      </div>
     </article>
   )
 }

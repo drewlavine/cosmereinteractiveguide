@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "A city and kingdom of Scadrial in the age before the Final Empire, lying near the centre of the known lands.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "16" }]
+    },
+    {
+      "text": "A great city and kingdom of Scadrial's classical era, once ruled by Alendi. Rashek borrowed much of its culture, from architecture and fashion to pocket watches, in building the Final Empire.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "16" },
+            { "book": "hero-of-ages", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Khlennium lay between the southern isles and the Terris hills to the north, and between the great eastern nations and a fiery western empire. Its lands are mostly flat, with no mountains.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "16" }]
+    },
+    {
+      "text": "Khlennium's government included a council.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "45" }]
+    },
+    {
+      "text": "The city was thought a place of wonder: a cosmopolitan hub drawing people of many nations, Terris scholars among them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "hero-of-ages", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Terris saw the Khlenni as oppressors, yet many young Terrismen in the cities dressed Khlenni-style, the men in tailored suits and the women in gowns.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "hero-of-ages", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It was known for grand architecture, including cathedrals, stained glass and broad halls, and for its great library. The Khlenni had their own language and were skilled engineers, with clockwork, steam devices and pocket watches.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "well-of-ascension", "chapter": "12" },
+            { "book": "hero-of-ages", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The classical era",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "30" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "hero-of-ages", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Khlennium came to be ruled by Alendi. In a decade under him it joined with several nations, Terris among them, through diplomacy and conquest, to stand against the growing Deepness.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "well-of-ascension", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Seeking to save Khlennium from the Deepness, Alendi set out for the Well of Ascension, but Rashek killed him on the way and took the power for himself. Rashek then took Khlennium's throne in Alendi's guise; what became of the kingdom afterwards is unclear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "16" },
+                { "book": "hero-of-ages", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

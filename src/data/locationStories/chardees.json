@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A city in the south of the Western Dominance, just north of Fadrex City, on a waterway flowing into Lake Tyrian.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The cache map",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Studying a metal map of the Final Empire found in the storage cache at Vetitan, Vin at first thought the last cache was marked near Chardees, but Elend pointed out it was at Fadrex City instead. The two cities lie close together.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        }
+      ]
+    }
+  ]
+}

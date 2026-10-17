@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "The Fountain Square, an enormous square in Luthadel where the Lord Ruler stages public executions.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "text": "A large square in Luthadel, once called the Fountain Square, where the Lord Ruler held public executions; it was renamed in honour of the Survivor.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The square is huge, with a central patio raised five feet above the ground holding four bowl-shaped fountains.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Execution ground",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "26" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "secret-history", "chapter": "1-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler used the square for public executions. Every man in Luthadel was released from work and required to attend, more than the square could hold even with onlookers on nearby rooftops; the nobility had bleachers. Inquisitors beheaded the prisoners and let the blood run into the fountain basins.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        },
+        {
+          "text": "Inquisitors led captives, including Spook and people of the false House Renoux, toward the square for execution as a trap for Kelsier. He attacked in a small courtyard nearby and freed them, and skaa already gathered for the executions crowded in. The Lord Ruler arrived with soldiers, obligators and Inquisitors, and killed Kelsier there.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "secret-history", "chapter": "1-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Square of the Survivor",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Kelsier's death the Fountain Square was renamed the Square of the Survivor in his honour, and rebel skaa gathered there.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+        }
+      ]
+    }
+  ]
+}

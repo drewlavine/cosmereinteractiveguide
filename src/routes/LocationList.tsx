@@ -1,35 +1,21 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router'
+import { FeatureLegend, FeatureLinks } from '../components/PageFeatures'
 import { bookSeries, seriesOf } from '../data/books'
-import { listedLocations as locationList } from '../data/listedLocations'
-import { findLocation } from '../data/locations'
+import {
+  listedKindLabels,
+  listedLocations as locationList,
+  placeHref,
+  placeRevealedIn,
+} from '../data/listedLocations'
+import { featureGroups, featuresFor, featuresOf } from '../data/pageFeatures'
 import { systems } from '../data/systems'
-import type { ListedLocation, ListedLocationKind } from '../data/types'
+import type { ListedLocation } from '../data/types'
 import { useCanSee } from '../state/reveal'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
 const anchor = (id: string) => anchorFor('locations', id)
 
-/** Labels for each kind, in the order the Type grouping lists them. */
-const listedKindLabels: Record<ListedLocationKind, string> = {
-  system: 'Planetary systems',
-  planet: 'Planets',
-  moon: 'Moons',
-  celestial: 'Other celestial bodies',
-  continent: 'Continents',
-  nation: 'Nations',
-  region: 'Regions',
-  settlement: 'Cities and towns',
-  building: 'Buildings',
-  water: 'Seas, lakes and rivers',
-  island: 'Islands',
-  mountain: 'Mountains',
-  forest: 'Forests',
-  plain: 'Plains',
-  cave: 'Caves',
-  perpendicularity: 'Perpendicularities',
-  other: 'Other places',
-}
 const kindOrder = Object.keys(listedKindLabels)
 
 const groupings = [
@@ -37,6 +23,7 @@ const groupings = [
   { id: 'world', label: 'World' },
   { id: 'series', label: 'Series' },
   { id: 'inside', label: 'Inside' },
+  { id: 'feature', label: 'Page feature' },
 ] as const
 type GroupingId = (typeof groupings)[number]['id']
 
@@ -51,14 +38,6 @@ interface Group {
 
 const byId = new Map(locationList.map((l) => [l.id, l]))
 
-/** Map place for a listed place, if it has one. */
-const mapPlaceOf = (l: ListedLocation) =>
-  l.mapPlanetId ? findLocation(l.mapPlanetId, l.id) : undefined
-
-const systemOfPlanet = new Map(
-  systems.flatMap((s) => s.planets.map((p) => [p.id, s] as const)),
-)
-
 export function LocationList() {
   const canSee = useCanSee()
   const [params, setParams] = useSearchParams()
@@ -66,15 +45,23 @@ export function LocationList() {
   const groupParam = params.get('group')
   const grouping = isGrouping(groupParam) ? groupParam : undefined
 
-  // Hand-tagged map places keep their own reveal; the rest use their page's.
   const shown = useMemo(
-    () =>
-      locationList.filter((l) =>
-        canSee(mapPlaceOf(l)?.revealedIn ?? l.revealedIn),
-      ),
+    () => locationList.filter((l) => canSee(placeRevealedIn(l))),
     [canSee],
   )
   const shownIds = useMemo(() => new Set(shown.map((l) => l.id)), [shown])
+  const featuresById = useMemo(
+    () =>
+      new Map(shown.map((l) => [l.id, featuresOf('location', l, { canSee })])),
+    [shown, canSee],
+  )
+  // The legend explains the icons any listed place has.
+  const legend = useMemo(() => {
+    const found = [...featuresById.values()].flat()
+    return featuresFor('location').filter((f) =>
+      found.some((x) => x.feature === f),
+    )
+  }, [featuresById])
   const planets = useMemo(
     () =>
       new Map(
@@ -115,6 +102,8 @@ export function LocationList() {
         const parent = parentOf(l)
         return parent ? [[parent.id, parent.name, 0]] : []
       }
+      case 'feature':
+        return featureGroups('location', featuresById.get(l.id) ?? [])
       default:
         return []
     }
@@ -133,11 +122,11 @@ export function LocationList() {
         groupsById.set(id, group)
       }
     }
-    // Types and series in their own order; the rest biggest first.
+    // Types, series and features in their own order; the rest biggest first.
     groups = [...groupsById.values()].sort(
       (a, b) =>
         a.order - b.order ||
-        (grouping === 'type' || grouping === 'series'
+        (grouping === 'type' || grouping === 'series' || grouping === 'feature'
           ? 0
           : b.items.length - a.items.length) ||
         a.name.localeCompare(b.name),
@@ -149,22 +138,7 @@ export function LocationList() {
       items: g.items,
     }))
 
-  // Places with a page of their own so far: map places and planets.
-  const hrefOf = (l: ListedLocation) => {
-    const mapPlace = mapPlaceOf(l)
-    if (mapPlace) {
-      const system = systemOfPlanet.get(mapPlace.planetId)
-      return (
-        system &&
-        `/systems/${system.id}/planets/${mapPlace.planetId}/locations/${l.id}`
-      )
-    }
-    if (l.kind === 'planet' && l.world && planets.has(l.world)) {
-      const system = systemOfPlanet.get(l.world)
-      return system && `/systems/${system.id}/planets/${l.world}`
-    }
-    return undefined
-  }
+  const hrefOf = (l: ListedLocation) => placeHref(l, (id) => planets.has(id))
 
   const setParam = (key: string, value: string) =>
     setParams(
@@ -217,6 +191,7 @@ export function LocationList() {
           </select>
         </label>
       </div>
+      <FeatureLegend features={legend} />
 
       {groups.length > 0 && (
         <nav
@@ -244,14 +219,16 @@ export function LocationList() {
         >
           <h2 id={anchor(id)}>{name}</h2>
           <ul>
-            {items.map((l) => {
-              const href = hrefOf(l)
-              return (
-                <li key={l.id}>
-                  {href ? <Link to={href}>{l.name}</Link> : l.name}
-                </li>
-              )
-            })}
+            {items.map((l) => (
+              <li key={l.id}>
+                <Link to={hrefOf(l)}>{l.name}</Link>
+                <FeatureLinks
+                  name={l.name}
+                  href={hrefOf(l)}
+                  features={featuresById.get(l.id) ?? []}
+                />
+              </li>
+            ))}
           </ul>
         </section>
       ))}

@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A large natural cave system in the Central Dominance, north of Luthadel between the city and the Pits of Hathsin, several weeks away by barge.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The caves lie beside a forest backing onto a river, among several cave complexes in the area. They are entered through three cracks in the ground that are hard to climb down, so a well-supplied force could hold them indefinitely. Inside are mineral-streaked rock, stalactites and stalagmites, small rooms, and a cavern with natural acoustics large enough for seven thousand men.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "text": "The skaa rebellion uses the caves to house and train its armies; they could hold perhaps ten thousand people. The Lord Ruler knows of this but does not consider the rebels a threat, and has never successfully raided the caverns.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A rebel refuge",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "final-empire", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rebel groups may have used the caves for centuries before the current skaa rebellion.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "After a massacre at Lord Tresting's plantation, Mennis and other skaa from the estate went to the caves on Kelsier's advice to join the rebel army.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "Before Kelsier began raising an army, about three hundred skaa, including women and children, hid in the caves.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kelsier's army",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1023 FE, Kelsier's recruiting swelled the numbers in the caves greatly. Weapons and supplies were smuggled in through Lord Renoux's shipments from Luthadel to his western plantation. Kelsier and Yeden visited to give the troops hope, and Kelsier used Captain Demoux to make a show of the army's strength.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        },
+        {
+          "text": "Yeden then decided to test the army against the garrison at Holstep. About two thousand men refused his orders and stayed in the caves, where Kelsier and Vin found them. The weakened army then left the caves, which could no longer serve as a gathering place.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+        }
+      ]
+    }
+  ]
+}

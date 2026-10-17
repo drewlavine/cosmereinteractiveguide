@@ -1,0 +1,194 @@
+{
+  "intro": [
+    {
+      "text": "The land of the Terris people on Scadrial. Much of their old religion was lost after the Lord Ruler's Ascension, though they kept some of its values alive.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "The homeland of the Terris people, in the Terris mountains. Under the Final Empire it was the Terris Dominance, with its capital at Tathingdwen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "32" },
+            "well-of-ascension"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Terris lore spoke of prophecies about a Hero of Ages who would one day use a power hidden in the Well of Ascension to save the world. Even with their old faith largely forgotten, the Terris kept its ideals of temperance, faith and understanding.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "29" },
+            { "book": "well-of-ascension", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Under the Final Empire the Terris Dominance was governed from Tathingdwen and dotted with small villages. Most villages were home to Terris women not picked for the breeding program and to stewards who had not been sold to noble houses; the most remote villages held only men.",
+      "revealedIn": ["well-of-ascension"]
+    },
+    {
+      "text": "In the age of the Elendel Basin, Terris people live all across the Elendel Basin. Many cities have self-policing Terris enclaves, such as the Village in Elendel, and the Terris language, once nearly lost, has been revived.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "text": "Terris dress is colourful, built around the tinningdar, a long-sleeved belted robe patterned with overlapping Vs and often embroidered. Under the Final Empire it was known as a steward's robe, worn in the colours of the steward's house; young children wore plain white smocks instead.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "18" },
+            { "book": "hero-of-ages", "chapter": "18" },
+            { "book": "shadows-of-self", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "well-of-ascension", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the late Classical era the Terris lived in their mountains under the domination of foreign powers such as Khlennium, which bred lasting resentment, especially among the young. Even so, some Terris traded with Khlennium and took up Khlenni fashions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "32" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Terris had Feruchemy by at least two centuries before the Lord Ruler's Ascension, and perhaps much longer.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "When Alendi came to Terris to stop the Deepness, the Terris guided him into the mountains to seek the Well of Ascension. There his packman Rashek killed him and took the Well's power himself, then set himself up as humanity's protector, beginning the Final Empire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "3" },
+                { "book": "well-of-ascension", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Terris who remained were harshly oppressed. From the sixth century of the Final Empire the Canton of Inquisition ran the Terris Dominance, keeping genealogies and running a breeding program meant to weaken Feruchemy; many men were made eunuchs, and some were trained as stewards for noble houses.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's fall",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Lord Ruler fell, the Canton of Inquisition tried to rule Terris, but the Synod came out of hiding and took over. The Synod governed for a year, the Keepers taught openly, and the breeding and steward programs ended. The Terris vowed never to take another master, and many distrusted the New Empire.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        },
+        {
+          "text": "Steel Inquisitors leading an army of koloss then struck the newly free Terris, killing Feruchemists. Nearly a quarter of the Terris died; the survivors abandoned the mountains, travelled toward the Central Dominance, and settled at the Pits of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Elendel Basin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About a fifth of the Originators, the survivors from whom the Basin's people descend, were Terris. Many taught their children the Terris language, slowly bringing it back.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While many Terris blended into Basin society, others kept to their own enclaves and married within them. The Village in Elendel had its own Synod, which claimed more authority over other enclaves than it actually held.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "4" },
+                { "book": "shadows-of-self", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In time, Terris staff became fashionable, especially in political cabinets, where some employers valued them mainly for appearances, a practice some Terris criticised.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "2" }]
+        }
+      ]
+    }
+  ]
+}

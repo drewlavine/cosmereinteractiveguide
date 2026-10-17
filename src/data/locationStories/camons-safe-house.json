@@ -1,0 +1,63 @@
+{
+  "intro": [
+    {
+      "text": "A thieving crew's hideout in the Twists, a skaa slum near Luthadel's Iron Gate: a shop front above a stone cavern where the crew lives.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A shop at street level serves as a front for the crew's work, while the crew lives and plans its jobs in a stone cavern below. Several watch-holes look out over the streets for danger; Vin often spent her free time in them, where she could be alone and feel fairly safe.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Camon's crew",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "5" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "11" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a scam on a Canton of Finance obligator, two Ministry spies and a Steel Inquisitor followed Camon and Vin back here. Dockson killed the spies and Kelsier drew off the Inquisitor. In return Kelsier used the house that evening to meet his own crew, and replaced Camon as crewleader with Milev.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+        },
+        {
+          "text": "While Vin was training with Breeze, Steel Inquisitors hunting her tracked down the safe house and killed the whole crew. The building stood empty afterwards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "11" },
+                { "book": "well-of-ascension", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "An old hiding place",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After her and Zane's attack on Cett's army, Vin hid in one of the old watch-holes. OreSeur found her and told Elend Venture, who came to comfort her and persuaded her to come out.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
+        }
+      ]
+    }
+  ]
+}

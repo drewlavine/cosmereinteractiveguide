@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A hidden storeroom the Lord Ruler built beneath Kredik Shaw in Luthadel, stocked with food.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "text": "One of a set of hidden caches the Lord Ruler left in and around the Central Dominance, beneath Luthadel, Statlin City, Urteau, Vetitan and Fadrex City.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "63" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Luthadel cavern is lined with shelves of canned food. A large metal plaque on its wall shows a map of the Final Empire with Statlin City circled. A long tunnel runs from it to a smaller chamber.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "text": "The Lord Ruler began building the caches eight hundred years into his reign, and each one found is larger than the last.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "48" }]
+    },
+    {
+      "text": "Each cache lies in rocky ground near metal mines, beneath a Steel Ministry building; the metal in the earth hides them from Ruin. Luthadel's cavern sits at the centre, with the other four forming a box around it.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The caches",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "58" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "5" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "63" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first cavern was found beneath Luthadel, inside Kredik Shaw, its plaque pointing the way to the next.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+        },
+        {
+          "text": "The second cavern, in Statlin City, held large amounts of lumber and a description of aluminum.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The third, in Urteau, held information on electrum and a vast store of water, naturally filtered through layers of rock, that had once filled the city's canals.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "The fourth, in Vetitan, held large stores of the eight basic Allomantic metals. Its plate told of malatium, said that strong emotional Allomancy can control koloss and kandra, and warned that only one's thoughts are safe from Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "The fifth and last cavern, in Fadrex City, held almost no useful information. In place of a map it bore a circle with a dot at its centre and numerical clues around its edge; laid over a map of the right scale, the dot marked the Pits of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    }
+  ]
+}

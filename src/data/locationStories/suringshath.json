@@ -1,0 +1,25 @@
+{
+  "intro": [
+    {
+      "text": "A settlement on the route the Terris refugees took toward Luthadel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Terris refugees",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Surviving Terris people travelling to Luthadel passed through Suringshath, hoping to resupply there, before they met Vin, Elend and Spook heading the other way.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ]
+    }
+  ]
+}

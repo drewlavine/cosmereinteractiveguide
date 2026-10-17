@@ -1,5 +1,17 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
-import { Link, Navigate, useParams } from 'react-router'
+import {
+  Link,
+  Navigate,
+  useLocation,
+  useParams,
+  useSearchParams,
+} from 'react-router'
+import {
+  PageContents,
+  PageSection,
+  PageSubsection,
+} from '../components/PageSections'
+import { slugs } from '../components/pageSlugs'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { TravelMap } from '../components/TravelMap'
 import { SpoilerNotice } from '../components/SpoilerNotice'
@@ -9,24 +21,32 @@ import { characterDetails } from '../data/characterDetails'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { chapterLabel } from '../data/progress'
-import { characterTravels } from '../data/travels'
 import {
   findPersona,
   hasMet,
   revealCharacter,
+  revealCharacterTravels,
   revealPortrait,
   revealStory,
-  revealTravels,
 } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
 import { NotFound } from './NotFound'
 
-interface CharacterTab {
+/** A part of a character page: a section, or a tab in the old layout. */
+interface Part {
   id: string
-  label: string
-  content: ReactNode
+  title: string
+  className?: string
+  show: boolean
+  body: ReactNode
 }
+
+/**
+ * Kaladin's page can switch back to the old tabbed layout, so the two can be
+ * compared (`?layout=tabs`).
+ */
+const LAYOUT_TRIAL = 'kaladin'
 
 /**
  * Close family shown in the key facts, in order, as [one, several]. More
@@ -59,6 +79,9 @@ function useStory(id: string | undefined) {
 
 export function CharacterDetail() {
   const { characterId, tab } = useParams()
+  const { hash } = useLocation()
+  const [search, setSearch] = useSearchParams()
+  const [tabShown, setTabShown] = useState<string>()
   const character = findPerson(characterId)
   const persona = findPersona(characterId)
   const { viewAnyway } = useBooksRead()
@@ -73,7 +96,19 @@ export function CharacterDetail() {
   if (persona && canSee(persona.identityRevealedIn))
     return (
       <Navigate
-        to={`/characters/${persona.characterId}${tab ? `/${tab}` : ''}`}
+        to={{
+          pathname: `/characters/${persona.characterId}`,
+          hash: tab ?? hash,
+        }}
+        replace
+      />
+    )
+  // The page was once split into tabs, each at its own URL; those now open
+  // the one page at that section, if it's there.
+  if (tab)
+    return (
+      <Navigate
+        to={{ pathname: `/characters/${character.id}`, hash: tab }}
         replace
       />
     )
@@ -93,8 +128,8 @@ export function CharacterDetail() {
       </section>
     )
 
-  // Brief, as each story is a small local file; waiting avoids the tabs
-  // jumping, and an existing tab being taken for an unknown one.
+  // Brief, as each story is a small local file; waiting keeps the page (and
+  // its Contents) from jumping as the story arrives.
   if (prose.loading)
     return <article className="character-detail" aria-busy="true" />
 
@@ -109,9 +144,8 @@ export function CharacterDetail() {
     canSee,
     viewAnyway.has(scope),
   )
-  const travels = revealTravels(
+  const travels = revealCharacterTravels(
     character.id,
-    characterTravels[persona?.characterId ?? character.id],
     canSee,
     viewAnyway.has(scope),
   )
@@ -137,104 +171,125 @@ export function CharacterDetail() {
       : []
   })
 
-  const tabs: CharacterTab[] = details
-    ? [
-        {
-          id: 'history',
-          label: 'History',
-          content: story.history.length > 0 && (
-            <div className="character-story">
-              {story.history.map(({ title, items }, i) => (
-                <section key={`${title}-${i}`}>
-                  {title && <h2>{title}</h2>}
-                  {items.map(({ text, books }) => (
-                    <p key={text}>
-                      {text}{' '}
-                      <span className="character-story-source">
-                        {books.map((bookId, j) => (
-                          <Fragment key={bookId}>
-                            {j > 0 && ', '}
-                            <Link to={`/books/${bookId}`}>
-                              <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                            </Link>
-                          </Fragment>
-                        ))}
-                      </span>
-                    </p>
-                  ))}
-                </section>
-              ))}
-            </div>
-          ),
-        },
-        {
-          id: 'description',
-          label: 'Description',
-          content: (story.appearance.length > 0 ||
-            story.personality.length > 0) && (
-            <div className="character-story">
-              {(
-                [
-                  ['Appearance', story.appearance],
-                  ['Personality', story.personality],
-                ] as const
-              ).map(
-                ([heading, items]) =>
-                  items.length > 0 && (
-                    <section key={heading}>
-                      <h2>{heading}</h2>
-                      {items.map((text) => (
-                        <p key={text}>{text}</p>
-                      ))}
-                    </section>
-                  ),
-              )}
-            </div>
-          ),
-        },
-        {
-          id: 'travels',
-          label: 'Travels',
-          content: travels.stops.length > 0 && (
-            <TravelMap
-              characterId={character.id}
-              stops={travels.stops}
-              systems={systems}
-            />
-          ),
-        },
-        {
-          id: 'appearances',
-          label: 'Appearances',
-          content: shown.appearsIn.length > 0 && (
-            <ul className="character-appearances">
-              {shown.appearsIn.map(({ bookId, chapter }) => {
-                const label = chapter && chapterLabel(bookId, chapter)
-                return (
-                  <li key={bookId}>
-                    <Link to={`/books/${bookId}`}>
-                      <cite>{findBook(bookId)?.title ?? bookId}</cite>
-                    </Link>
-                    {label && (
-                      <span className="character-first-chapter">
-                        {' '}
-                        · first appears in {label}
-                      </span>
-                    )}
-                  </li>
-                )
-              })}
-            </ul>
-          ),
-        },
-      ].filter((t) => t.content)
-    : []
+  const source = (bookIds: string[]) => (
+    <span className="character-story-source">
+      {bookIds.map((bookId, j) => (
+        <Fragment key={bookId}>
+          {j > 0 && ', '}
+          <Link to={`/books/${bookId}`}>
+            <cite>{findBook(bookId)?.title ?? bookId}</cite>
+          </Link>
+        </Fragment>
+      ))}
+    </span>
+  )
+  const historyIds = slugs(
+    'history',
+    story.history.map((h) => h.title ?? ''),
+  )
+  const description = (
+    [
+      ['Appearance', story.appearance],
+      ['Personality', story.personality],
+    ] as const
+  ).filter(([, items]) => items.length > 0)
 
-  // Tabs with nothing to show are left out, and their URLs go to the first
-  // tab, so a hidden tab looks the same as one that doesn't exist.
-  const active = tab ? tabs.find((t) => t.id === tab) : tabs[0]
-  if (tab && !active)
-    return <Navigate to={`/characters/${character.id}`} replace />
+  const parts: Part[] = [
+    {
+      id: 'history',
+      title: 'History',
+      className: 'character-story',
+      show: story.history.length > 0,
+      body: (
+        <>
+          {story.history.map(({ title, items }, i) => {
+            const paragraphs = items.map(({ text, books }) => (
+              <p key={text}>
+                {text} {source(books)}
+              </p>
+            ))
+            return title ? (
+              <PageSubsection
+                key={historyIds[i]}
+                id={historyIds[i]}
+                title={title}
+              >
+                {paragraphs}
+              </PageSubsection>
+            ) : (
+              <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
+            )
+          })}
+        </>
+      ),
+    },
+    {
+      id: 'description',
+      title: 'Description',
+      className: 'character-story',
+      show: description.length > 0,
+      body: (
+        <>
+          {description.map(([heading, items]) => (
+            <PageSubsection
+              key={heading}
+              id={`description-${heading.toLowerCase()}`}
+              title={heading}
+            >
+              {items.map((text) => (
+                <p key={text}>{text}</p>
+              ))}
+            </PageSubsection>
+          ))}
+        </>
+      ),
+    },
+    {
+      id: 'travels',
+      title: 'Travels',
+      show: travels.stops.length > 0,
+      body: (
+        <>
+          <TravelMap
+            characterId={character.id}
+            stops={travels.stops}
+            systems={systems}
+          />
+        </>
+      ),
+    },
+    {
+      id: 'appearances',
+      title: 'Appearances',
+      show: shown.appearsIn.length > 0,
+      body: (
+        <>
+          <ul className="character-appearances">
+            {shown.appearsIn.map(({ bookId, chapter }) => {
+              const label = chapter && chapterLabel(bookId, chapter)
+              return (
+                <li key={bookId}>
+                  <Link to={`/books/${bookId}`}>
+                    <cite>{findBook(bookId)?.title ?? bookId}</cite>
+                  </Link>
+                  {label && (
+                    <span className="character-first-chapter">
+                      {' '}
+                      · first appears in {label}
+                    </span>
+                  )}
+                </li>
+              )
+            })}
+          </ul>
+        </>
+      ),
+    },
+  ].filter((p) => p.show)
+  const anySection = parts.length > 0
+  // In the tabbed layout, a link to a section opens its tab.
+  const activeTab =
+    parts.find((p) => p.id === (tabShown ?? hash.slice(1))) ?? parts[0]
 
   const infobox = details && (
     <aside
@@ -357,12 +412,42 @@ export function CharacterDetail() {
     </header>
   )
 
+  const trial = character.id === LAYOUT_TRIAL && !!details
+  const tabbed = trial && search.get('layout') === 'tabs'
+
   return (
-    <article className="character-detail" aria-labelledby="character-title">
+    <article
+      className={`character-detail${tabbed ? ' layout-tabs' : ''}`}
+      aria-labelledby="character-title"
+    >
       <nav aria-label="Breadcrumb" className="breadcrumb">
         <Link to="/characters">Characters</Link> /{' '}
         <span aria-current="page">{character.name}</span>
       </nav>
+      {trial && (
+        <div className="layout-switch" role="group" aria-label="Page layout">
+          {(
+            [
+              ['sections', 'Sections'],
+              ['tabs', 'Tabs'],
+            ] as const
+          ).map(([value, label]) => (
+            <button
+              key={value}
+              type="button"
+              aria-pressed={(value === 'tabs') === tabbed}
+              onClick={() =>
+                setSearch(value === 'tabs' ? { layout: 'tabs' } : {}, {
+                  replace: true,
+                  preventScrollReset: true,
+                })
+              }
+            >
+              {label}
+            </button>
+          ))}
+        </div>
+      )}
       <SpoilerNotice
         scope={scope}
         spoilers={
@@ -412,44 +497,52 @@ export function CharacterDetail() {
             {infobox}
           </div>
           <div className="character-main">
-            {active ? (
+            {!anySection ? (
+              <p>Nothing to show yet for the books you’ve read.</p>
+            ) : tabbed ? (
               <>
                 <nav
                   className="character-tabs"
                   aria-label={`About ${character.name}`}
                 >
                   <ul>
-                    {tabs.map((t) => (
-                      <li key={t.id}>
-                        <Link
-                          to={
-                            t === tabs[0]
-                              ? `/characters/${character.id}`
-                              : `/characters/${character.id}/${t.id}`
-                          }
+                    {parts.map((p) => (
+                      <li key={p.id}>
+                        <button
+                          type="button"
                           className={
-                            t === active ? 'main-tab is-active' : 'main-tab'
+                            p === activeTab ? 'main-tab is-active' : 'main-tab'
                           }
-                          aria-current={t === active ? 'page' : undefined}
-                          preventScrollReset
+                          aria-current={p === activeTab ? 'page' : undefined}
+                          onClick={() => setTabShown(p.id)}
                         >
-                          {t.label}
-                        </Link>
+                          {p.title}
+                        </button>
                       </li>
                     ))}
                   </ul>
                 </nav>
                 <section
-                  className="character-tab-panel"
-                  aria-label={active.label}
+                  className={`character-tab-panel${activeTab.className ? ` ${activeTab.className}` : ''}`}
+                  aria-label={activeTab.title}
                 >
-                  {active.content}
+                  {activeTab.body}
                 </section>
               </>
             ) : (
-              <p>Nothing to show yet for the books you’ve read.</p>
+              parts.map((p) => (
+                <PageSection
+                  key={p.id}
+                  id={p.id}
+                  title={p.title}
+                  className={p.className}
+                >
+                  {p.body}
+                </PageSection>
+              ))
             )}
           </div>
+          {anySection && !tabbed && <PageContents />}
         </div>
       )}
     </article>

@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A canal in the Final Empire, with a towpath running alongside it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    },
+    {
+      "text": "The main canal between Luthadel and Haverfrex in the Final Empire, joining the western bank of the River Channerel.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Along the canal",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier and Vin hurried along the canal's towpath toward Holstep and the Arguois caverns, hoping to reach a battle between the skaa rebels and the Holstep and Valtroux garrisons.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "Ashweather Cett's army camped near the canal and used it to bring supplies from Haverfrex.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "16" }]
+        }
+      ]
+    }
+  ]
+}

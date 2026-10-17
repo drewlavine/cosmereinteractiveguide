@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A city in Terris, on the way toward the Terris Mountains.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+    },
+    {
+      "text": "The capital of the Terris Dominance of the Final Empire.",
+      "revealedIn": ["well-of-ascension"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Terris men and women are kept strictly apart. Women chosen for the Steel Ministry's breeding programs are held in guarded facilities, while men are trained in steward academies.",
+      "revealedIn": ["well-of-ascension"]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Seat of the Synod",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "49" },
+                { "book": "hero-of-ages", "chapter": "22" }
+              ]
+            },
+            { "book": "well-of-ascension", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under the Lord Ruler the city held the Synod, the ruling council of the Keepers. Sazed had been there, and said he left in disgrace, cursed by the common people, when he went to join Kelsier's crew.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "49" },
+                { "book": "hero-of-ages", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Vin, Elend and Spook set out north toward Terris, with Spook due to give them a message on reaching Tathingdwen, but they turned back for Luthadel before getting there.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Attack on the city",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "56" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Many Steel Inquisitors and an army of koloss attacked Tathingdwen. Local Terris forces fought the koloss while the Inquisitors hunted down the Keepers and the Synod. The city was burned to the ground and Terris left in ruins; Spook and Elend met Terris refugees on their way back to Luthadel.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "56" },
+                "hero-of-ages"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

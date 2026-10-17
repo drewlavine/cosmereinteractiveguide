@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A small, prosperous suburban town in the Central Dominance, not far from Luthadel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Fellise is less crowded, cleaner and laxer about imperial law than the capital. Nobles keep lavish villas and manors, not fortified keeps, in a tidy quarter whose cobbled streets are lined with aspens, whose bark resists ash stains. Much of the town is whitewashed granite, unlike black Luthadel, though its slums are like any other. Late at night its streets are empty and silent.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "text": "It is an hour from Luthadel by carriage, but a line of bronze bars set into the ground lets Coinshots and Mistborn travel between the two very quickly. Who built this roadway is unknown, but it was not Kelsier.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vin and the crew",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before moving to Luthadel, Vin had worked in Fellise while travelling with her brother Reen.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "text": "Kelsier based the false House Renoux here, with Vin and OreSeur posing as its members, supposedly to seek alliances in Luthadel. He also used the area to train Vin in Allomancy.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        }
+      ]
+    }
+  ]
+}
