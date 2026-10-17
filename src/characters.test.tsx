@@ -184,33 +184,6 @@ describe('characters pages', () => {
     await waitFor(() => expect(marked()).toEqual(['Appearances']))
   })
 
-  it('lets Kaladin’s page switch to the old tabbed layout', async () => {
-    renderAt('/characters/kaladin', allBooks)
-    const layout = screen.getByRole('group', { name: 'Page layout' })
-    await userEvent.click(within(layout).getByRole('button', { name: 'Tabs' }))
-    expect(screen.queryByRole('navigation', { name: 'Contents' })).toBeNull()
-    const tabs = screen.getByRole('navigation', { name: 'About Kaladin' })
-    expect(screen.getByRole('region', { name: 'History' })).toBeInTheDocument()
-    expect(screen.queryByRole('region', { name: 'Appearances' })).toBeNull()
-    await userEvent.click(
-      within(tabs).getByRole('button', { name: 'Appearances' }),
-    )
-    expect(
-      screen.getByRole('region', { name: 'Appearances' }),
-    ).toBeInTheDocument()
-    expect(screen.queryByRole('region', { name: 'History' })).toBeNull()
-    await userEvent.click(
-      within(layout).getByRole('button', { name: 'Sections' }),
-    )
-    expect(
-      await screen.findByRole('navigation', { name: 'Contents' }),
-    ).toBeInTheDocument()
-    cleanup()
-    // Only Kaladin's page has the switch.
-    renderAt('/characters/vin', allBooks)
-    expect(screen.queryByRole('group', { name: 'Page layout' })).toBeNull()
-  })
-
   it('lists only what is shown in the Contents', async () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '6' })
     const contents = await screen.findByRole('navigation', { name: 'Contents' })

@@ -135,9 +135,8 @@ OK.
   `.app-main`; a click pins the highlight until the reader scrolls; bottom of
   page marks the last section). Contents reads the DOM, so spoiler-hidden
   sections never show. `/characters/:id/:tab` redirects to `#tab`.
-- **Layout trial**: Kaladin's page only (`LAYOUT_TRIAL` in
-  `CharacterDetail.tsx`) has a Sections / Tabs switch (`?layout=tabs`), both
-  full width. Remove whichever Drew rejects.
+- **Layout decided**: Drew chose sections over tabs; the Kaladin trial
+  switch and tabbed layout were removed.
 - Headless Chrome fires no scroll events or rAF in screenshots, so the
   Contents highlight can't be verified that way; check by hand.
 

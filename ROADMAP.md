@@ -404,9 +404,8 @@ tab here once its section's first version ships.
         read (the clicked one, or the last one at the bottom of the page).
         Hidden sections never appear in Contents. Old tab URLs redirect to
         `#section`. Same layout on place and planet pages
-  - [ ] Choose between sections and tabs: Kaladin's page has a
-        Sections / Tabs switch (`?layout=tabs`) for comparison; remove it
-        once decided
+  - [x] Choose between sections and tabs: sections chosen; the trial
+        switch and the tabbed layout are gone
   - [x] **Story** and **Personality** for the pilot: short paraphrased items
         under each book, written from the Coppermind's History sections, each
         dated by the footnotes of the paragraphs it draws on (so it appears

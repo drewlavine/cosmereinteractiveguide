@@ -135,14 +135,6 @@ describe('page feature icons', () => {
     }
   })
 
-  it('opens the tab a link names in Kaladin’s tabbed layout', () => {
-    renderAt('/characters/kaladin?layout=tabs#appearances', allBooks)
-    expect(
-      screen.getByRole('region', { name: 'Appearances' }),
-    ).toBeInTheDocument()
-    expect(screen.queryByRole('region', { name: 'History' })).toBeNull()
-  })
-
   it('links a place to its map, once its map’s book is read', () => {
     renderAt('/locations', ['final-empire'])
     expect(featureLinks('Luthadel')).toEqual([

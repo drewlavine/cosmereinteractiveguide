@@ -1,11 +1,5 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
-import {
-  Link,
-  Navigate,
-  useLocation,
-  useParams,
-  useSearchParams,
-} from 'react-router'
+import { Link, Navigate, useLocation, useParams } from 'react-router'
 import {
   PageContents,
   PageSection,
@@ -33,7 +27,7 @@ import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
 import { NotFound } from './NotFound'
 
-/** A part of a character page: a section, or a tab in the old layout. */
+/** A section of a character page. */
 interface Part {
   id: string
   title: string
@@ -41,12 +35,6 @@ interface Part {
   show: boolean
   body: ReactNode
 }
-
-/**
- * Kaladin's page can switch back to the old tabbed layout, so the two can be
- * compared (`?layout=tabs`).
- */
-const LAYOUT_TRIAL = 'kaladin'
 
 /**
  * Close family shown in the key facts, in order, as [one, several]. More
@@ -80,8 +68,6 @@ function useStory(id: string | undefined) {
 export function CharacterDetail() {
   const { characterId, tab } = useParams()
   const { hash } = useLocation()
-  const [search, setSearch] = useSearchParams()
-  const [tabShown, setTabShown] = useState<string>()
   const character = findPerson(characterId)
   const persona = findPersona(characterId)
   const { viewAnyway } = useBooksRead()
@@ -287,9 +273,6 @@ export function CharacterDetail() {
     },
   ].filter((p) => p.show)
   const anySection = parts.length > 0
-  // In the tabbed layout, a link to a section opens its tab.
-  const activeTab =
-    parts.find((p) => p.id === (tabShown ?? hash.slice(1))) ?? parts[0]
 
   const infobox = details && (
     <aside
@@ -412,42 +395,12 @@ export function CharacterDetail() {
     </header>
   )
 
-  const trial = character.id === LAYOUT_TRIAL && !!details
-  const tabbed = trial && search.get('layout') === 'tabs'
-
   return (
-    <article
-      className={`character-detail${tabbed ? ' layout-tabs' : ''}`}
-      aria-labelledby="character-title"
-    >
+    <article className="character-detail" aria-labelledby="character-title">
       <nav aria-label="Breadcrumb" className="breadcrumb">
         <Link to="/characters">Characters</Link> /{' '}
         <span aria-current="page">{character.name}</span>
       </nav>
-      {trial && (
-        <div className="layout-switch" role="group" aria-label="Page layout">
-          {(
-            [
-              ['sections', 'Sections'],
-              ['tabs', 'Tabs'],
-            ] as const
-          ).map(([value, label]) => (
-            <button
-              key={value}
-              type="button"
-              aria-pressed={(value === 'tabs') === tabbed}
-              onClick={() =>
-                setSearch(value === 'tabs' ? { layout: 'tabs' } : {}, {
-                  replace: true,
-                  preventScrollReset: true,
-                })
-              }
-            >
-              {label}
-            </button>
-          ))}
-        </div>
-      )}
       <SpoilerNotice
         scope={scope}
         spoilers={
@@ -499,36 +452,6 @@ export function CharacterDetail() {
           <div className="character-main">
             {!anySection ? (
               <p>Nothing to show yet for the books you’ve read.</p>
-            ) : tabbed ? (
-              <>
-                <nav
-                  className="character-tabs"
-                  aria-label={`About ${character.name}`}
-                >
-                  <ul>
-                    {parts.map((p) => (
-                      <li key={p.id}>
-                        <button
-                          type="button"
-                          className={
-                            p === activeTab ? 'main-tab is-active' : 'main-tab'
-                          }
-                          aria-current={p === activeTab ? 'page' : undefined}
-                          onClick={() => setTabShown(p.id)}
-                        >
-                          {p.title}
-                        </button>
-                      </li>
-                    ))}
-                  </ul>
-                </nav>
-                <section
-                  className={`character-tab-panel${activeTab.className ? ` ${activeTab.className}` : ''}`}
-                  aria-label={activeTab.title}
-                >
-                  {activeTab.body}
-                </section>
-              </>
             ) : (
               parts.map((p) => (
                 <PageSection
@@ -542,7 +465,7 @@ export function CharacterDetail() {
               ))
             )}
           </div>
-          {anySection && !tabbed && <PageContents />}
+          {anySection && <PageContents />}
         </div>
       )}
     </article>
