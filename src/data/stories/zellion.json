@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "The man who, some on Canticle believe, brought their people to the planet.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+    },
+    {
+      "text": "A preacher on Threnody who led a group of Threnodites away from their world to escape the Evil and the infighting that followed it. His name is Yolish and means One Who Finds.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "From Threnody to Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "39" },
+            { "book": "sunlit-man", "chapter": "44" },
+            { "book": "sunlit-man", "chapter": "22" },
+            { "book": "sunlit-man", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Zellion was a preacher on Threnody. He persuaded a group of Threnodites to leave the system with him, escaping the Evil and the infighting that broke out among those fleeing it.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        },
+        {
+          "text": "His followers believed his teachings about Adonalsium and went with him to Canticle, travelling in technologically advanced ships.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "In the new system, the settlers built ships modeled on the ones that had carried them there. Many of that first generation died and rose as shades, becoming the people's Chorus.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+        },
+        {
+          "text": "Many generations on, some on Canticle believed Zellion may have brought the people there to keep them so busy running from the sun that they would have no time for fighting among themselves.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,106 @@
+{
+  "intro": [
+    {
+      "text": "One of the basic Allomantic metals. A Seeker burning it feels pulses from people burning metals nearby and, with practice, can tell which metals they are using.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to sense Allomancy nearby, Feruchemists store wakefulness in it, and a Hemalurgic spike of bronze can steal a Smoker's copper power.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "20" },
+            { "book": "well-of-ascension", "chapter": "57" },
+            { "book": "hero-of-ages", "chapter": "34" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A practised Seeker can tell metals apart by the length of the pulses, whether they seem to push or pull, and their rhythm. Telling internal from external metals is the hardest skill and can take months to learn. A skilled Seeker can also tell whether an Allomancer is flaring their metal, and sometimes even that they are running low.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "text": "A Seeker can sense whom a Soother or Rioter is targeting and which emotions they are working on.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "20" },
+            { "book": "well-of-ascension", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A bronze spike driven through a Smoker's heart takes their copper power.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "34" }]
+    },
+    {
+      "text": "A Feruchemist can store wakefulness in bronze, growing drowsy while filling it, and tap it to stay awake or alert for long stretches.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On Roshar, a fabrial with a bronze cage becomes an alerter, warning of nearby objects, feelings or other things.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Senses Allomancy nearby",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Seeker",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Copper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores wakefulness",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ferring",
+      "name": "Sentry",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "57" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "marsh",
+      "role": "Seeker",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    }
+  ]
+}

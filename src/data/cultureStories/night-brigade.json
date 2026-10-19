@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "A group that once caught Nomad.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "6" }]
+    },
+    {
+      "text": "A mysterious group that keeps chasing Nomad from world to world.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+    },
+    {
+      "text": "A group of Threnodites who command shades and are known for their brutality. For decades they have hunted Nomad across the cosmere, seeking the Dawnshard he once held.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its members are Threnodites. They can command shades, they have a spaceship, and they are known for their brutality.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "27" }]
+    },
+    {
+      "text": "They know many of the cosmere's secrets, including what Dawnshards are and what they can do, and they know how to make a spike from a person.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    },
+    {
+      "text": "Like others who seek a Dawnshard, they hide their real goal behind the huge bounty on Nomad's head.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    },
+    {
+      "text": "Nomad believes that his capture by the Night Brigade could lead to the deaths of millions.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    },
+    {
+      "text": "A mercenary company from Threnody. They can scan a planet for Nomad and find him within a few days of each skip, though how they pick the right planet is unknown.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting Nomad",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "6" },
+            { "book": "sunlit-man", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At some point in the past, the Night Brigade caught Nomad.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "6" }]
+        },
+        {
+          "text": "The Night Brigade began hunting Nomad after he gave up the Dawnshard he once held. He first turned himself in, thinking they would lose interest, but learned they could make a spike from him to track down the Dawnshard's new holder. He escaped, and they have pursued him ever since, for decades.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "26" },
+            { "book": "sunlit-man", "chapter": "27" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Nomad was on Canticle, the Night Brigade's warship appeared as a new star in the sky.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "26" }]
+        },
+        {
+          "text": "Nomad refused Contemplation's idea of asking the Night Brigade for help against the Cinder King. He warned her how dangerous they were and told her to tell them everything about him if they came asking.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "27" }]
+        },
+        {
+          "text": "Members of the Night Brigade, including the Admiral and Staff Sergeant Truth-Is-Waiting, came down to the surface in a stolen local ship to question people about Nomad, but he skipped away before they found him. Truth-Is-Waiting learned of a Scadrian research outpost on the planet that they could question.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Hunting",
+      "name": "Nomad",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+    },
+    {
+      "label": "Leader",
+      "name": "The Admiral",
+      "characterId": "admiral",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "admiral",
+      "role": "leader",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "truth-is-waiting",
+      "role": "staff sergeant",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ]
+}

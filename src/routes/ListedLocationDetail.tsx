@@ -8,9 +8,13 @@ import {
   listedKindNames,
   listedLocations,
   placeHref,
+  placeKnownIn,
+  placeMention,
   placeRevealedIn,
   systemOfPlanet,
 } from '../data/listedLocations'
+import { findBook } from '../data/books'
+import { chapterLabel } from '../data/progress'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
 import { NotFound } from './NotFound'
@@ -48,21 +52,32 @@ export function ListedLocationDetail() {
       </section>
     )
 
+  // Named in a chapter the reader has reached, but not yet told what it is:
+  // the page says only that.
+  const mention = !showAll && !canSee(placeKnownIn(place))
+  const mentioned = mention ? placeMention(place, canSee) : undefined
+  const stub =
+    mentioned &&
+    `A place first mentioned in ${chapterLabel(mentioned.book, mentioned.chapter)} of ${findBook(mentioned.book)?.title}.`
+  const known = (l: (typeof listedLocations)[number]) =>
+    showAll || canSee(placeKnownIn(l))
+
   const shownPlace = (id?: string) => {
     const l = findListed(id)
     return l && (showAll || canSee(placeRevealedIn(l))) ? l : undefined
   }
-  const parent = shownPlace(place.parentId)
+  const parent = mention ? undefined : shownPlace(place.parentId)
   const planet = systems
     .flatMap((s) => s.planets)
     .find((p) => p.id === place.world)
-  const world = planet &&
+  const world = !mention &&
+    planet &&
     system && {
       name: planet.name,
       href: `/systems/${system.id}/planets/${planet.id}`,
     }
   const children = listedLocations.filter(
-    (l) => l.parentId === place.id && shownPlace(l.id),
+    (l) => l.parentId === place.id && shownPlace(l.id) && known(l),
   )
   const books = place.books.filter((b) => canSee([b]))
   const kind = listedKindNames[place.kind]
@@ -85,7 +100,8 @@ export function ListedLocationDetail() {
           current={place.name}
         />
       }
-      kind={kind}
+      kind={mention ? undefined : kind}
+      summary={stub || undefined}
       parent={
         parent && { name: parent.name, href: placeHref(parent, planetShown) }
       }

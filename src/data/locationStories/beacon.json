@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A flying settlement on Canticle that needs sunhearts to stay aloft.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+    },
+    {
+      "text": "A flying city on Canticle, made of many smaller ships linked together and steered as one, kept aloft by sunhearts.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Like other cities on Canticle, Beacon cannot fly without sunhearts. Unlike in Union, there are always volunteers to provide them, from among the sick and the elderly.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+    },
+    {
+      "text": "The city is ruled by the Greater Good, three old women named Confidence, Compassion and Contemplation. When one of them dies, a new member is appointed, who need not be a woman.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+    },
+    {
+      "text": "The Greater Good also choose the Lodestar, Beacon's chief navigator.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    },
+    {
+      "text": "The ships that make up the city separate and rejoin in different arrangements, so its layout changes, but the ships generally get smaller towards the edges. The largest ship, which holds the Chorus, always sits at the centre.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+    }
+  ],
+  "history": []
+}

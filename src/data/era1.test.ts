@@ -1,6 +1,13 @@
 import { describe, expect, it } from 'vitest'
 import { books } from './books'
-import { hasMet, readerCanSee, revealCharacter, revealStory } from './reveal'
+import { characterPortraits } from './characterPortraits'
+import {
+  hasMet,
+  readerCanSee,
+  revealCharacter,
+  revealPortrait,
+  revealStory,
+} from './reveal'
 import allrianneStory from './stories/allrianne-cett.json'
 
 // Mistborn Era 1 identity reveals: each is hidden before the chapter that
@@ -165,5 +172,28 @@ describe('Mistborn Era 1 fact dating', () => {
       at(era1),
     )
     expect(JSON.stringify(story)).not.toMatch(/Elendel/)
+  })
+})
+
+describe('Mistborn Era 1 art', () => {
+  const art = (id: string, canSee: ReturnType<typeof at>) =>
+    revealPortrait(characterPortraits[id], canSee).portrait?.src
+
+  it('shows the Lord Ruler from his first appearance, Rashek only after', () => {
+    expect(art('lord-ruler', at([], { 'final-empire': '33' }))).toBeUndefined()
+    expect(art('lord-ruler', at([], { 'final-empire': '34' }))).toBeDefined()
+    expect(art('rashek', at([], { 'final-empire': '37' }))).toBeUndefined()
+    expect(art('rashek', at([], { 'final-empire': '38' }))).toBeDefined()
+  })
+
+  it('puts Breeze and Clubs art on their persona pages until their names are out', () => {
+    const tfe = at([], { 'final-empire': '4' })
+    expect(art('breeze', tfe)).toBeDefined()
+    expect(art('clubs', tfe)).toBeDefined()
+    expect(art('edgard-ladrian', at(era1))).toBeUndefined()
+    expect(
+      art('cladent', at(['final-empire', 'well-of-ascension'])),
+    ).toBeUndefined()
+    expect(art('cladent', at(era1))).toBeDefined()
   })
 })

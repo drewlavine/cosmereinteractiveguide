@@ -7,6 +7,264 @@ import type { JourneyIndex } from './journey'
  * part of the journey once they've reached any of these and the map).
  */
 export const journeyIndex: JourneyIndex = {
+  'allrianne-cett': [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '29',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '41',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '50',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '21',
+        },
+      ],
+    },
+  ],
+  'aradan-yomen': [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '32',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '44',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '63',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '65',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '70',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '74',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '37',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+  ],
+  'ashweather-cett': [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '25',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '11',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '50',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '3',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '32',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '43',
+        },
+      ],
+    },
+  ],
+  breeze: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '29',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '41',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '58',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '59',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '11',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '10',
+        },
+        {
+          book: 'final-empire',
+          chapter: '26',
+        },
+        {
+          book: 'final-empire',
+          chapter: '33',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '21',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '32',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '52',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '53',
+        },
+      ],
+    },
+  ],
+  clubs: [
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '5',
+        },
+        {
+          book: 'final-empire',
+          chapter: '6',
+        },
+        {
+          book: 'final-empire',
+          chapter: '35',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '6',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '52',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '53',
+        },
+      ],
+    },
+  ],
   'dalinar-kholin': [
     {
       pack: 'roshar',
@@ -119,6 +377,370 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'words-of-radiance',
           chapter: '89',
+        },
+      ],
+    },
+  ],
+  demoux: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '21',
+        },
+        {
+          book: 'final-empire',
+          chapter: '25',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '8',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '17',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '47',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '80',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '81',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '36',
+        },
+      ],
+    },
+  ],
+  dockson: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '22',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '2',
+        },
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '33',
+        },
+        {
+          book: 'final-empire',
+          chapter: '35',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '33',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '53',
+        },
+      ],
+    },
+  ],
+  'elend-venture': [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '32',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '44',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '65',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '70',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '5',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '25',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '74',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '81',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '1',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '27',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '42',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '51',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '57',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '12',
+        },
+        {
+          book: 'final-empire',
+          chapter: '31',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '36',
+        },
+        {
+          book: 'final-empire',
+          chapter: '37',
+        },
+        {
+          book: 'final-empire',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '77',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '10',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '38',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '48',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '59',
+        },
+      ],
+    },
+  ],
+  'ferson-penrod': [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '42',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '52',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '77',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '10',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '31',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '38',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '54',
+        },
+      ],
+    },
+  ],
+  goradel: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '18',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '29',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '58',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '64',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '69',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '36',
+        },
+        {
+          book: 'final-empire',
+          chapter: '37',
+        },
+      ],
+    },
+  ],
+  hammond: [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '65',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '21',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '25',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '24',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '37',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '1',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '54',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
         },
       ],
     },
@@ -287,6 +909,628 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  kelsier: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: 'prologue',
+        },
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '8',
+        },
+        {
+          book: 'final-empire',
+          chapter: '17',
+        },
+        {
+          book: 'final-empire',
+          chapter: '21',
+        },
+        {
+          book: 'final-empire',
+          chapter: '25',
+        },
+        {
+          book: 'final-empire',
+          chapter: '32',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '2',
+        },
+        {
+          book: 'final-empire',
+          chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '5',
+        },
+        {
+          book: 'final-empire',
+          chapter: '14',
+        },
+        {
+          book: 'final-empire',
+          chapter: '19',
+        },
+        {
+          book: 'final-empire',
+          chapter: '26',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '35',
+        },
+      ],
+    },
+  ],
+  'lord-ruler': [
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '32',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '36',
+        },
+      ],
+    },
+  ],
+  marsh: [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '65',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '20',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '34',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '69',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '81',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '12',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '7',
+        },
+        {
+          book: 'final-empire',
+          chapter: '27',
+        },
+        {
+          book: 'final-empire',
+          chapter: '32',
+        },
+        {
+          book: 'final-empire',
+          chapter: '38',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '42',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '72',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '73',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
+        },
+      ],
+    },
+  ],
+  oreseur: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '8',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'final-empire',
+          chapter: '35',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '11',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '2',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '5',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '47',
+        },
+      ],
+    },
+  ],
+  rashek: [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '48',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '4',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '12',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '38',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '12',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '57',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
+        },
+      ],
+    },
+  ],
+  sazed: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '8',
+        },
+        {
+          book: 'final-empire',
+          chapter: '22',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '4',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '22',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '29',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '62',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '66',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '71',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '80',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '82',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '4',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '12',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '15',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '19',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '23',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '15',
+        },
+        {
+          book: 'final-empire',
+          chapter: '37',
+        },
+        {
+          book: 'final-empire',
+          chapter: '38',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '48',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '53',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '54',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
+        },
+      ],
+    },
+  ],
+  spook: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '14',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '16',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '19',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '29',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '41',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '49',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '58',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '64',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '51',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '56',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '57',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '6',
+        },
+        {
+          book: 'final-empire',
+          chapter: '32',
+        },
+        {
+          book: 'final-empire',
+          chapter: '34',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '58',
+        },
+      ],
+    },
+  ],
+  'straff-venture': [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '1',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '18',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '27',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '39',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '55',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '28',
+        },
+        {
+          book: 'final-empire',
+          chapter: '31',
+        },
+        {
+          book: 'final-empire',
+          chapter: '36',
+        },
+      ],
+    },
+  ],
+  'telden-hasting': [
+    {
+      pack: 'scadrial',
+      mapId: 'fadrex-city',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '32',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '50',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'final-empire',
+          chapter: '23',
+        },
+        {
+          book: 'final-empire',
+          chapter: '28',
+        },
+        {
+          book: 'final-empire',
+          chapter: '31',
+        },
+        {
+          book: 'final-empire',
+          chapter: '32',
+        },
+      ],
+    },
+  ],
+  tensoon: [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '2',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '11',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '33',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '62',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '66',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '78',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '80',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'hero-of-ages',
+          chapter: '11',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '52',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '47',
+        },
+      ],
+    },
+  ],
+  tindwyl: [
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '14',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '23',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '37',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '49',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '54',
+        },
+      ],
+    },
+  ],
   vin: [
     {
       pack: 'scadrial',
@@ -447,6 +1691,48 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '58',
+        },
+      ],
+    },
+  ],
+  'zane-venture': [
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '18',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '27',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '46',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'well-of-ascension',
+          chapter: '17',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '34',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '43',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '47',
         },
       ],
     },

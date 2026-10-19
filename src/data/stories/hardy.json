@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Beacon and one of the four members of Zeal's special operations team, who carry out its missions in the field.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Zeal's team",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "32" },
+            { "book": "sunlit-man", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Beacon crash-landed on the far side of the mountains, Zeal asked the Greater Good to let his team raid for sunhearts to power their escape.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+        },
+        {
+          "text": "On the Dawnchaser with Zeal, Nomad, Rebeke and Elegy, Hardy cheerfully pressed Zeal for details of the mission to dig up sunhearts in the great maelstrom before the Cinder King. Nomad cut in that only he would go out, the team being there as backup at Zeal's insistence. Once Nomad left the ship, the heat overcame Hardy.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large, beefy man who, like the rest of Zeal's team, looks rougher than other Beaconites. He wears thick work gloves, coarse overalls and a long coat, with a great deal of leather in his clothes.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Speaks more coarsely than most Beaconites and often uses \"blessed\" as a curse, which Nomad puts down to living in a conservative religious society.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+    },
+    {
+      "text": "Affable and easygoing, and willing to put himself in great danger for his people even without knowing all of a mission's details.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+    }
+  ]
+}

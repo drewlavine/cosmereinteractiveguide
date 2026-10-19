@@ -1,0 +1,117 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it sees blue lines pointing to nearby metal and can Pull that metal toward themselves.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to Pull on metal, Feruchemists store weight in it, and Hemalurgic spikes of iron steal physical strength.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            "hero-of-ages"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Alone, iron is mostly defensive, for instance Pulling enemy projectiles into a wooden shield, and it needs a heavy, anchored piece of metal to fly toward. Used together with steel it is far more powerful.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "34" },
+            { "book": "well-of-ascension", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Feruchemist can store weight in iron and tap it to grow heavier, for example to brace against a force or strike harder.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "text": "Koloss are made by driving iron spikes into a living human, giving great strength but ruining the mind. Kandra call a pair of iron spikes the Blessing of Potency, which grants strength and endurance.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+    },
+    {
+      "text": "The force of a Pull grows with the Allomancer's own weight, and metal partly inside a person's body normally cannot be Pulled, though a strong enough Lurcher can overcome both limits.",
+      "revealedIn": [
+        { "all": [{ "book": "final-empire", "chapter": "7" }, "alloy-of-law"] }
+      ]
+    },
+    {
+      "text": "On Roshar, a fabrial with an iron cage attracts the element tied to its trapped spren, such as smoke.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Pulls on nearby metal",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Steel",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Lurcher",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "34" },
+            { "book": "well-of-ascension", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores weight",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Skimmer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "12" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals physical strength",
+      "revealedIn": ["hero-of-ages"]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Skimmer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "12" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    }
+  ]
+}

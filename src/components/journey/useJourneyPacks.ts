@@ -3,11 +3,17 @@ import type { JourneyIndex, JourneyPack } from '../../data/journey'
 import { cachedPack, hasPack, loadPack } from '../../data/journeyPacks'
 
 /**
- * The packs holding a character's journey, loaded on demand: `loading`
- * until they've all arrived. Packs are small local files, like stories.
+ * The packs holding the journey of a character (and their personas, see
+ * journeyIds), loaded on demand: `loading` until they've all arrived. Packs
+ * are small local files, like stories.
  */
-export function useJourneyPacks(index: JourneyIndex, id: string | undefined) {
-  const ids = [...new Set((id ? (index[id] ?? []) : []).map((e) => e.pack))]
+export function useJourneyPacks(
+  index: JourneyIndex,
+  characterIds: readonly string[],
+) {
+  const ids = [
+    ...new Set(characterIds.flatMap((c) => index[c] ?? []).map((e) => e.pack)),
+  ]
     .filter(hasPack)
     .toSorted()
   const key = ids.join(' ')

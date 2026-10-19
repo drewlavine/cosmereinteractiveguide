@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest'
 import { books } from './books'
+import { chapters } from './chapters'
 import { characterPortraits } from './characterPortraits'
 import {
   metIn,
@@ -13,7 +14,7 @@ import spookStory from './stories/spook.json'
 import wayneStory from './stories/wayne.json'
 import yumiStory from './stories/yumi.json'
 import { systems } from './systems'
-import type { Reveal } from './types'
+import type { Reveal, RevealPoint } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
 const everyBook = readerCanSee({ read: bookIds, reading: new Map() })
@@ -50,9 +51,15 @@ function allTags(): Reveal[] {
 
 describe('spoiler tags', () => {
   it('tags everything with real book ids', () => {
+    const check = (point: RevealPoint) => {
+      if (typeof point === 'string') return expect(bookIds).toContain(point)
+      if ('all' in point) return point.all.forEach(check)
+      expect(bookIds).toContain(point.book)
+      expect(chapters[point.book].map((c) => c.id)).toContain(point.chapter)
+    }
     for (const tag of allTags()) {
       expect(tag.length).toBeGreaterThan(0)
-      for (const id of tag) expect(bookIds).toContain(id)
+      tag.forEach(check)
     }
   })
 
@@ -282,5 +289,46 @@ describe('art and appearance gaps', () => {
     const era2 = ['alloy-of-law', 'shadows-of-self', 'bands-of-mourning']
     expect(looks('wayne', wayneStory, at(era2, { 'lost-metal': '48' }))).toBe(0)
     expect(looks('wayne', wayneStory, at(era2, { 'lost-metal': '49' }))).toBe(1)
+  })
+})
+
+describe('planets', () => {
+  const at = (reading: Record<string, string>) =>
+    readerCanSee({ read: new Set(), reading: new Map(Object.entries(reading)) })
+  const shown = (systemId: string, reading: Record<string, string>) =>
+    revealSystem(
+      systems.find((s) => s.id === systemId)!,
+      at(reading),
+    ).planets.map((p) => p.name)
+
+  it('shows a planet from the chapter that first names it', () => {
+    expect(shown('uncharted', { 'sunlit-man': '7' })).not.toContain('Canticle')
+    expect(shown('uncharted', { 'sunlit-man': '8' })).toContain('Canticle')
+    expect(shown('rosharan', { 'way-of-kings': '45' })).toEqual([])
+    expect(shown('rosharan', { 'way-of-kings': '46' })).toEqual(['Roshar'])
+  })
+
+  it('shows a world named in another series once the reader gets there', () => {
+    expect(shown('selish', { 'way-of-kings': '20' })).toEqual([])
+    expect(shown('selish', { 'way-of-kings': '21' })).toEqual(['Sel'])
+    expect(shown('rosharan', { 'sunlit-man': '9' })).toEqual(['Roshar'])
+  })
+
+  it("builds up a planet's description chapter by chapter", () => {
+    const canticle = (chapter: string) =>
+      revealSystem(
+        systems.find((s) => s.id === 'uncharted')!,
+        at({ 'sunlit-man': chapter }),
+      ).planets.find((p) => p.id === 'canticle')!
+    const early = canticle('8')
+    expect(early.summary).toMatch(/stay ahead of the dawn/)
+    expect(early.summary).not.toMatch(/Sky Tyrant|100 miles|Zellion/)
+    expect(early.magicSystems).toEqual([])
+    expect(early.spoilers).toBe(true)
+    const mid = canticle('12')
+    expect(mid.summary).toMatch(/Sky Tyrant/)
+    expect(mid.summary).not.toMatch(/100 miles/)
+    expect(mid.magicSystems).toEqual(['Charred', 'Sunhearts'])
+    expect(canticle('34').summary).toMatch(/100 miles/)
   })
 })

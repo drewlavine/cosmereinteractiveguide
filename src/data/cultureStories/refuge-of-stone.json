@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A legendary underground city on Canticle, said to have been built by the Sunlit Ones from stone the sun cannot melt. For people always fleeing the sun, it stands for a safe haven.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Sunlit Ones were said to take in sunlight rather than be destroyed by it, which let them stay in one place long enough to build beneath the ground.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The search for the Refuge",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "44" },
+            { "book": "sunlit-man", "chapter": "8" },
+            { "book": "sunlit-man", "chapter": "11" },
+            { "book": "sunlit-man", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beacon's Lodestar, Elegy Salvage, believed the Refuge was real and the best hope of escaping the Cinder King.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "Zeal brought back a key taken in a raid on the Cinder King, which the Beaconites believed would let them reach lands beneath the surface. Nomad was sure it belonged to a small Scadrian research vessel instead.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+        },
+        {
+          "text": "Nomad agreed to help the Beaconites find the door, while warning that the Refuge was unlikely to be what they expected; they decided it was their only hope.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "The Cinder King's forces gathered around the site, and Rebeke uncovered its door while the Beaconites fought to reach it.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "43" }]
+        },
+        {
+          "text": "Behind the door was a Scadrian research ship crewed by TimeTellers, not the Refuge the Beaconites had hoped for.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Legendary builders",
+      "name": "the Sunlit Ones",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+    }
+  ],
+  "people": []
+}

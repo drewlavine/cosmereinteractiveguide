@@ -1,17 +1,20 @@
 import { useMemo } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import { FeatureLegend, FeatureLinks } from '../components/PageFeatures'
-import { bookSeries, seriesOf } from '../data/books'
+import { books, bookSeries, seriesOf } from '../data/books'
+import { shownBooks } from '../data/entryStories'
 import {
   listedKindLabels,
   listedLocations as locationList,
   placeHref,
+  placeKnownIn,
   placeRevealedIn,
 } from '../data/listedLocations'
 import { featureGroups, featuresFor, featuresOf } from '../data/pageFeatures'
 import { systems } from '../data/systems'
 import type { ListedLocation } from '../data/types'
 import { useCanSee } from '../state/reveal'
+import { GroupJump, LetterJump } from '../components/ListJump'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
 const anchor = (id: string) => anchorFor('locations', id)
@@ -20,6 +23,7 @@ const kindOrder = Object.keys(listedKindLabels)
 
 const groupings = [
   { id: 'type', label: 'Type' },
+  { id: 'book', label: 'Book' },
   { id: 'world', label: 'World' },
   { id: 'series', label: 'Series' },
   { id: 'inside', label: 'Inside' },
@@ -73,6 +77,16 @@ export function LocationList() {
     [canSee],
   )
 
+  const booksById = useMemo(
+    () =>
+      new Map(
+        shown.map((l) => [
+          l.id,
+          shownBooks(l.books, placeRevealedIn(l), canSee),
+        ]),
+      ),
+    [shown, canSee],
+  )
   const matches = shown.filter((l) => !query || fold(l.name).includes(query))
   const hidden = locationList.length - shown.length
 
@@ -83,9 +97,18 @@ export function LocationList() {
   // Categories a place falls under, as [id, name, order]; only what the
   // reader may see is used.
   const categories = (l: ListedLocation): [string, string, number][] => {
+    // A place only named so far isn't sorted by what it is or where.
+    const known = canSee(placeKnownIn(l))
+    if (!known && grouping !== 'book' && grouping !== 'series') return []
     switch (grouping) {
       case 'type':
         return [[l.kind, listedKindLabels[l.kind], kindOrder.indexOf(l.kind)]]
+      case 'book': {
+        const read = booksById.get(l.id) ?? []
+        return books
+          .map((b, i): [string, string, number] => [b.id, b.title, i])
+          .filter(([id]) => read.includes(id))
+      }
       case 'world': {
         const name = l.world && planets.get(l.world)
         return name && l.world ? [[l.world, name, 0]] : []
@@ -122,11 +145,14 @@ export function LocationList() {
         groupsById.set(id, group)
       }
     }
-    // Types, series and features in their own order; the rest biggest first.
+    // Types, books, series and features in their own order; the rest biggest first.
     groups = [...groupsById.values()].sort(
       (a, b) =>
         a.order - b.order ||
-        (grouping === 'type' || grouping === 'series' || grouping === 'feature'
+        (grouping === 'type' ||
+        grouping === 'book' ||
+        grouping === 'series' ||
+        grouping === 'feature'
           ? 0
           : b.items.length - a.items.length) ||
         a.name.localeCompare(b.name),
@@ -190,21 +216,13 @@ export function LocationList() {
             ))}
           </select>
         </label>
+        {grouping && label && (
+          <GroupJump groups={groups} anchor={anchor} label={label} />
+        )}
       </div>
       <FeatureLegend features={legend} />
 
-      {groups.length > 0 && (
-        <nav
-          aria-label={grouping ? `Jump to ${label}` : 'Jump to letter'}
-          className="letter-index"
-        >
-          {groups.map(({ id, name }) => (
-            <a key={id} href={`#${anchor(id)}`}>
-              {name}
-            </a>
-          ))}
-        </nav>
-      )}
+      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
       {unsorted > 0 && (
         <p className="character-count">
           {plural(unsorted, 'more place')} not sorted by {label}.
@@ -217,7 +235,9 @@ export function LocationList() {
           className="character-group"
           aria-labelledby={anchor(id)}
         >
-          <h2 id={anchor(id)}>{name}</h2>
+          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
+            {name}
+          </h2>
           <ul>
             {items.map((l) => (
               <li key={l.id}>

@@ -30,6 +30,17 @@ only clear in hindsight (e.g. Kaladin unknowingly drawing arrows in The Way of
 Kings chapter 6), use the first footnoted chapter where the book makes it
 clear instead (chapter 57).
 
+### Facts build up chapter by chapter
+
+Applies to every entry on every tab (characters, places, culture,
+abilities, events, ...). An entry appears at the chapter that first names
+it, not when that book is finished, and says only what the reader knows at
+that point. Each later fact carries its own chapter date and is added once
+the reader passes it. For example, a group first seen chasing someone reads
+"A mysterious organization chasing Nomad", and the reason why is added only
+at the chapter that reveals it. Dating a whole entry by book is a stopgap,
+not the finished state.
+
 ## Cosmere-only rule
 
 Applies to all data, current and future: characters, places, books, magic,
@@ -192,7 +203,7 @@ tab here once its section's first version ships.
 
 - [x] Add tabs to the header banner for moving between the main sections of the
       guide. More tabs may be added later.
-  - [ ] **Where You Are**: the new starting tab, before Star Map (see 10)
+  - [ ] **My Cosmere**: the new starting tab, before Star Map (see 10)
   - [x] **Star Map**: the Cosmere star map, systems and planets (see 0–3)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
         (see 11)
@@ -203,9 +214,8 @@ tab here once its section's first version ships.
         ability pages to come; see 13)
   - [ ] **Culture**: the peoples and societies of the Cosmere (list page
         live; entry pages to come; see 15)
-  - [ ] **Events**: key events across the Cosmere (placeholder page at
-        `/events`; tab hidden from the header until Drew decides on it;
-        see 14)
+  - [ ] **Timeline**: the Cosmere's history in in-world order (placeholder
+        page at `/timeline`; see 14)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
         see 1)
   - [x] Give each tab its own URL and show which tab is active
@@ -302,8 +312,9 @@ tab here once its section's first version ships.
     - [ ] The other ~2,100 characters, in small batches with the same
           scripts and overrides; consider lazy-loading the data if the
           bundle grows too large
-      - [x] Mistborn Era 1 (183 characters: details and stories; art to
-            follow)
+      - [x] Mistborn Era 1 (183 characters: details and stories; art for
+            the 32 with suitable Coppermind art, 54 pieces, persona-safe for
+            Breeze, Clubs and the Lord Ruler)
 - [ ] Spoiler filter: leave out characters the reader hasn't met yet
   - [x] Tag each character with where the reader first meets them (book
         and chapter; pilot characters only so far, the rest count as met)
@@ -531,27 +542,51 @@ AI-generated.
 - [ ] Phone pass: thumb-friendly targets, no cramped tables, tidy nav
 - [ ] Accessibility: contrast, focus rings, reduced-motion support
 
-### 10. Where You Are
+### 10. My Cosmere
 
-A "you are here" starting tab: an overview of the Cosmere at the reader's
-current point, based on their Books Read and Reading settings.
+The reader's own home page and starting point for exploring the guide. Drew
+is still shaping it (October 2026); nothing is built yet. Mockup: session
+`files/mock/my-cosmere.html`.
 
-- [ ] Add the tab as the first in the header, and make it the home page
-      (the Star Map keeps its own tab)
-  - [ ] Shows where they are in their read-through (last finished book,
-        current book and chapter, what's next in the series and in
-        publication order)
-  - [ ] A short, spoiler-safe "state of the Cosmere" summary for that
-        point: the worlds and eras in play, key characters and where they
-        stand, major recent events, active conflicts and powers (Shards,
-        factions), and important ideas or magic they've just learned
-  - [ ] Grouped by world/series so readers following several series can
-        catch up on each separately, with links into the relevant
-        character, place, magic, culture and event pages
-  - [ ] Follows the spoiler rule strictly: only what the reader has
-        reached (down to the chapter), with no hints about what's hidden;
-        updates as soon as their reading settings change
-  - [ ] A friendly empty state for new readers (pick books to begin)
+**How it differs from the other tabs.** Every other tab is the whole
+Cosmere, trimmed to what the reader may see; the Timeline tab (14) is its
+history in order. My Cosmere is only about the reader: where they are, what
+just happened, what changed since they last moved their place, and where to
+go next. It answers "where am I?", not "what is there?". It never lists:
+each panel is a short summary that links into the other tabs.
+
+Not a dashboard of numbers: an illustrated, readable page that teaches the
+universe the reader is investing in (mockup v4):
+
+- **The Cosmere, as far as you've read**: a short plain intro (the
+  Shattering, the Shards) and a small sky of the worlds the reader has
+  reached; tap one to jump to it.
+- **A chapter per world**, current world first:
+  - a one-line lede on what the world is like and where things stand;
+  - its map, with "you are here"; places named in the text light up on
+    the map when pointed at;
+  - **The story so far** (current book only): a few plain paragraphs up to
+    the reader's chapter, names and places linked;
+  - **Worth knowing**: three or four questions a reader would ask at this
+    point ("What are highstorms?"), each opening a one- or two-sentence
+    answer and a link to the full page;
+  - **People to know**: portraits with a one-line who-they-are at the
+    reader's point.
+- **Keep exploring**: links to the Timeline and Star Map.
+
+**Keep it high level.** Only universe-changing facts make the state
+(Shards changing hands, a world remade, a world's order overturned).
+Personal arcs and battles belong on character and journey pages.
+
+- [ ] Data: per world, a list of states, each dated with `revealedIn`; the
+      page shows the latest one reached and nothing beyond it
+- [ ] Worth knowing: per world, questions with short answers, each
+      dated, so they change as the reader goes on
+- [ ] Book recaps: per book, short recap sections each dated to the
+      chapter where they end; the panel shows those the reader has passed
+- [ ] Add the tab as the first in the header and make it the home page
+      (the Star Map moves to its own URL and keeps its tab)
+- [ ] A friendly empty state for new readers (pick books to begin)
 
 ### 11. Book pages
 
@@ -620,17 +655,49 @@ current point, based on their Books Read and Reading settings.
   - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
         ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
         it does, its world, and the characters known to have it
+    - [x] Shared entry page (`/abilities/:id`) with chapter-dated intro,
+          about, history, key facts and people. Pipeline:
+          `~/cig-entry-data` (see its `ENTRY_STORY_GUIDE.md`); an entry
+          with a page shows from its earliest intro's chapter
+    - [ ] Written so far: The Sunlit Man's abilities (15); the rest to do
   - [ ] Gated like everything else: an ability (and who has it) only
         shows once the reader has reached where it's revealed
+    - [ ] Stopgap to replace: list entries are dated by book and carry no
+          text. Date them by chapter, with facts that build up (see "Facts
+          build up chapter by chapter")
   - [ ] Linked from the Characters list's **Group by → Ability** headings
         and from abilities on character pages (see 8)
-  - [ ] Add magic systems and abilities to search (4)
+  - [x] Add abilities to search (4)
+  - [ ] Add magic systems to search (4)
 
-### 14. Events
+### 14. Timeline
 
-- [ ] An Events tab: key events across the Cosmere, in in-world order
-  - [ ] A page per event, linked from character, location and book pages
-  - [ ] Dated and hidden like any other fact (spoiler rule)
+The Cosmere's history across every world, in in-world order, trimmed to
+what the reader may see. Tab live at `/timeline` with a placeholder page
+(replaced the hidden Events tab, October 2026).
+
+Sources, for ordering only (verify each entry against the Coppermind, date
+it by the book that reveals it, skip unpublished works, credit them):
+
+- A fan spreadsheet
+  (docs.google.com/spreadsheets/d/1JJtJhHwpKdow01n2-bsT3scVvqJd6lZh4uvpNwcslv8):
+  about 94 events on one cross-world year scale with per-world years. Its
+  Books column says where an event happens, not where the reader learns it.
+- storyorder.guide/guides/cosmere: 34 stories in in-world order, for placing
+  each book on the timeline.
+- The Coppermind draft User:Fbstj/cosmere/chrono: book order plus event
+  lists for Sel, Scadrial, Nalthis and Roshar, with Word of Brandon
+  citations (a user page, so cross-check the main articles).
+
+Cosmere-level facts (the Shattering, Shards) surface piecemeal across books
+and Ars Arcanums, so their dating needs extra care.
+
+- [x] A Timeline tab in the header (placeholder page)
+- [ ] Events in in-world order, each with a scope (Cosmere or a world), an
+      in-world time, plain text and `revealedIn`
+- [ ] Books placed on the timeline where their stories happen
+- [ ] Filter by world; jump to "now" for the reader's current book
+- [ ] A page per event, linked from character, location and book pages
 
 ### 15. Culture
 
@@ -641,11 +708,16 @@ current point, based on their Books Read and Reading settings.
         customs, languages, and anything else found there. 458 entries
         from Category:Culture plus Groups' noble houses, families and
         armies; places, characters and magic orders already on other tabs
-        are left out, as are events (Events tab) and pages no book cites.
+        are left out, as are events (Timeline tab) and pages no book cites.
         Pipeline: `~/cig-cult-data/cult_build.py`
   - [ ] A page per entry (what it is, its world, the books it's in, and
         the characters linked to it), linked from character pages where
         they mention it (e.g. a character's house or title)
+    - [x] Shared entry page (`/culture/:id`), linked from the list; same
+          pipeline as abilities (`~/cig-entry-data`)
+    - [ ] Written so far: The Sunlit Man's entries plus Bridge Four (10);
+          the rest to do
+    - [ ] Linked from character pages
   - [x] A list that can be grouped, like the Characters list, with the
         choice saved in the URL: **Type** (house, rank, title, religion,
         ...), **A–Z**, **Book**, **World** and **Series**, plus a name
@@ -659,6 +731,11 @@ current point, based on their Books Read and Reading settings.
           the earliest book its page cites (later by hand where the name
           is a spoiler, after an independent review); unmet entries are
           hidden with no placeholders
+    - [ ] Stopgap to replace: entries are dated by book and carry no text.
+          Give each entry facts dated by chapter (see "Facts build up
+          chapter by chapter"), starting with organizations (e.g. Bridge
+          Four, the Night Brigade)
+  - [x] Add culture entries to search (4)
 
 ### 16. Journey map
 
@@ -703,6 +780,9 @@ can become a template for other series. Data from importers in
       the Final Empire map with city maps of Luthadel and Fadrex City: the
       map zooms into the city for city stops and back out to the world map,
       drawing the next leg only once it has zoomed out
+- [x] Era 1 journeys for 24 characters (278 events), with event art on
+      44 of them (`hand/art/<book>.json`), each piece showing that event
+      and safe at its chapter
 - [x] Dalinar, The Way of Kings to Rhythm of War (29 events); a shared
       event can tell each character's side (`byCharacter`)
 - [x] Every event names where it happens (a listed place, linked once

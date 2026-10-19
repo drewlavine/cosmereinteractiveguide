@@ -1,0 +1,157 @@
+{
+  "intro": [
+    {
+      "text": "A subject named in one of the scholarly books Elend carries, alongside something called metalminds.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "text": "A Terris art of storing a person's own attributes in pieces of metal, called metalminds, to be drawn back out when needed. Its practitioners are Feruchemists.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Feruchemist fills a metalmind by going without an attribute for a while, and can then tap it to gain that attribute back. Each metal holds a different attribute, and the Keepers use the art to store memories.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "Drawing on a metalmind faster than it was filled gives a stronger effect for a shorter time, but some of the stored attribute is lost along the way.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Someone who is both an Allomancer and a Feruchemist can burn a charged metalmind, drawing out far more of the attribute than was ever stored in it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A metalmind is normally tied to the identity of the Feruchemist who filled it, so others cannot draw on it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "bands-of-mourning", "chapter": "17" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some southern medallions are special metalminds, made with nicrosil, that let anyone use the attributes stored in them.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the Terris",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "30" },
+            { "book": "well-of-ascension", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under the Lord Ruler the Ministry controlled Terris breeding to stamp out Feruchemy. The Terris resisted by slipping people with hidden Feruchemical gifts into the breeding, so the power survived without the Ministry's knowledge.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        },
+        {
+          "text": "After the Lord Ruler's fall the Synod, the secret leaders of the Keepers, came into the open and sent Keepers out to teach what they had preserved. About a year on, Steel Inquisitors attacked and killed the Synod.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Catacendre",
+          "revealedIn": [
+            {
+              "all": [
+                "alloy-of-law",
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Terris married into the wider population and the gift broke apart. Ferrings, who can use only one Feruchemical metal, appeared, while Full Feruchemists with every ability vanished. Research into the art flourished, and new metals and attributes were found.",
+          "revealedIn": [
+            {
+              "all": [
+                "alloy-of-law",
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Southern Scadrians developed metalminds anyone can use, and technology built on Feruchemy.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Stored in",
+      "name": "Metalminds",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "label": "Practitioners",
+      "name": "Feruchemists",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "label": "Single-metal users",
+      "name": "Ferrings",
+      "revealedIn": [
+        {
+          "all": [
+            "alloy-of-law",
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "With Allomancy",
+      "name": "Twinborn",
+      "revealedIn": [
+        {
+          "all": [{ "book": "alloy-of-law", "chapter": "1" }, "shadows-of-self"]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "user",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "user",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    }
+  ]
+}

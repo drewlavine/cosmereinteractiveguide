@@ -26,7 +26,7 @@ describe('search box', () => {
     await userEvent.type(screen.getByRole('combobox'), 'kaladin')
     expect(
       within(screen.getByRole('listbox')).getByRole('option', {
-        name: /Kaladin/,
+        name: /^Kaladin(?!’s|'s)/,
       }),
     ).toBeInTheDocument()
     await userEvent.keyboard('{Enter}')

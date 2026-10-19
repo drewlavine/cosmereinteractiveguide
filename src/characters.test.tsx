@@ -46,7 +46,12 @@ describe('character stories', () => {
   it('loads a story when its page opens, at the old tab asked for', async () => {
     renderAt('/characters/kaladin/description', ['way-of-kings'])
     expect(
-      await screen.findByRole('region', { name: 'Description' }),
+      // Loading the story is slow when the whole suite runs at once.
+      await screen.findByRole(
+        'region',
+        { name: 'Description' },
+        { timeout: 5000 },
+      ),
     ).toHaveTextContent(/surgeon/)
   })
 })
@@ -554,11 +559,24 @@ describe('characters pages', () => {
     ).toBeInTheDocument()
     cleanup()
     renderAt('/characters?group=series', ['warbreaker'])
+    // One group: nothing to jump between.
     expect(
-      within(screen.getByRole('navigation', { name: 'Jump to series' }))
-        .getAllByRole('link')
-        .map((a) => a.textContent),
-    ).toEqual(['Standalones'])
+      screen.queryByRole('combobox', { name: 'Jump to series' }),
+    ).toBeNull()
+    expect(
+      screen.getByRole('region', { name: 'Standalones' }),
+    ).toBeInTheDocument()
+    cleanup()
+    renderAt('/characters?group=series', ['warbreaker', 'way-of-kings'])
+    expect(
+      within(screen.getByRole('combobox', { name: 'Jump to series' }))
+        .getAllByRole('option')
+        .slice(1)
+        .map((o) => o.textContent),
+    ).toEqual(['The Stormlight Archive', 'Standalones'])
+    expect(
+      screen.queryByRole('navigation', { name: 'Jump to letter' }),
+    ).toBeNull()
   })
 
   it('shows not found for unknown characters', () => {
@@ -805,7 +823,13 @@ describe('character journey', () => {
         name: /^Sources?: The Way of Kings chapter \d+/,
       }).length,
     ).toBeGreaterThan(0)
-    // Its page isn't open to the reader yet, so it isn't linked.
+    // Chapter 16 names it, so its page is open (saying only that).
+    expect(
+      within(facts).getByRole('link', { name: 'Hearthstone' }),
+    ).toBeInTheDocument()
+    cleanup()
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '15' })
+    facts = screen.getByRole('complementary', { name: 'Key facts' })
     expect(
       within(facts).queryByRole('link', { name: 'Hearthstone' }),
     ).toBeNull()
@@ -971,7 +995,8 @@ describe('character travels', () => {
     renderAt('/characters/hoid/travels', ['elantris'], {
       'way-of-kings': '57',
     })
-    expect(document.body).not.toHaveTextContent(/Roshar|Elhokar/)
+    expect(worlds()).toEqual(['Sel'])
+    expect(document.body).not.toHaveTextContent('Elhokar')
     cleanup()
     renderAt('/characters/hoid/travels', ['elantris'], {
       'way-of-kings': '58',

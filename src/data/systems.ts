@@ -1,4 +1,4 @@
-import type { Story, Fact, Passage, StarSystem } from './types'
+import type { Story, Fact, Passage, RevealPoint, StarSystem } from './types'
 
 const wiki = (page: string) => `https://coppermind.net/wiki/${page}`
 
@@ -7,14 +7,16 @@ const ordinal = (n: number) =>
 
 // Spoiler tags: book ids from books.ts, earliest published first. Anything
 // tagged shows once the reader has read any one of its books.
-const p = (text: string, ...revealedIn: string[]): Passage => ({
+const p = (text: string, ...revealedIn: RevealPoint[]): Passage => ({
   text,
   revealedIn,
 })
-const f = (name: string, ...revealedIn: string[]): Fact => ({
+const f = (name: string, ...revealedIn: RevealPoint[]): Fact => ({
   name,
   revealedIn,
 })
+/** Reached chapter `chapter` of `book` (chapter ids from chapters.ts). */
+const ch = (book: string, chapter: string) => ({ book, chapter })
 /** A book set on a planet; `alsoIn` lists collections that reprint it. */
 const story = (bookId: string, ...alsoIn: string[]): Story => ({
   bookId,
@@ -97,7 +99,7 @@ export const systems: StarSystem[] = [
       {
         id: 'ashyn',
         name: 'Ashyn',
-        revealedIn: [AU, ROW, SLM, WAT],
+        revealedIn: [AU, ROW, SLM, ch(WAT, '4')],
         summary: [
           p('The innermost planet in the system.', AU, ROW, WAT),
           p('Its old name was Alaswha.', WAT),
@@ -135,7 +137,20 @@ export const systems: StarSystem[] = [
       {
         id: 'roshar',
         name: 'Roshar',
-        revealedIn: SA,
+        revealedIn: [
+          ch(WOK, '46'),
+          ch(WOR, '1'),
+          EDGE,
+          AU,
+          ch(OB, '93'),
+          ch(DAWN, '14'),
+          ch(ROW, '13'),
+          ch(WAT, 'prologue'),
+          ELSE,
+          LOPEN,
+          ch(SLM, '9'),
+          ch(ISLES, '36'),
+        ],
         summary: [
           p('Roshar is the second planet from the sun.', AU, ROW, WAT),
           p('Its single supercontinent is swept by highstorms.', ...SA),
@@ -183,7 +198,13 @@ export const systems: StarSystem[] = [
       {
         id: 'braize',
         name: 'Braize',
-        revealedIn: [WOR, AU, OB, ROW, WAT],
+        revealedIn: [
+          WOR,
+          AU,
+          ch(OB, '121'),
+          ch(ROW, '73'),
+          ch(WAT, 'prologue'),
+        ],
         summary: [
           p('A cold, barren, wind-swept world.', ROW, WAT),
           p('The Shard Odium resides here.', AU, OB),
@@ -300,7 +321,7 @@ export const systems: StarSystem[] = [
       {
         id: 'scadrial',
         name: 'Scadrial',
-        revealedIn: MB,
+        revealedIn: [...MB, ch(ROW, '21'), ch(ISLES, '28')],
         chartLabel: p('Scadrial New Orbit', AU),
         summary: [
           p('The first planet from its sun.', AU),
@@ -486,7 +507,7 @@ export const systems: StarSystem[] = [
       {
         id: 'nalthis',
         name: 'Nalthis',
-        revealedIn: [WB],
+        revealedIn: [WB, ch(TRESS, '15'), ch(WAT, '56')],
         summary: [
           p(
             'The only inhabited planet, home to a large human population and the Shard Endowment. Nalthians are born with Breath, Endowment’s Investiture, which fuels Awakening. Its one moon is Rrendos, and it shares its orbit with a cognitive anomaly.',
@@ -618,7 +639,7 @@ export const systems: StarSystem[] = [
       {
         id: 'sel',
         name: 'Sel',
-        revealedIn: SEL,
+        revealedIn: [...SEL, ch(WOK, '21'), AOL, SOS],
         altName: p('Seol', AU),
         summary: [
           p('A world of thriving human empires.', ...SEL),
@@ -747,7 +768,11 @@ export const systems: StarSystem[] = [
       {
         id: 'taldain',
         name: 'Taldain',
-        revealedIn: TAL,
+        revealedIn: [
+          ...TAL.filter((b) => b !== WSO),
+          ch(WSO, '11'),
+          ch(ISLES, '28'),
+        ],
         summary: [
           p("The system's only planet.", AU),
           p(
@@ -861,7 +886,7 @@ export const systems: StarSystem[] = [
       {
         id: 'threnody',
         name: 'Threnody',
-        revealedIn: [S4S, AU],
+        revealedIn: [S4S, AU, ch(ROW, '27'), ch(SLM, '15')],
         summary: [
           p('The third planet from the sun.', AU),
           p(
@@ -1181,7 +1206,7 @@ export const systems: StarSystem[] = [
       {
         id: 'yolen',
         name: 'Yolen',
-        revealedIn: YOLEN,
+        revealedIn: [AU, SLM, WAT, ch(ISLES, 'prologue')],
         summary: [
           p(
             'Where humans first appeared and where Adonalsium was Shattered.',
@@ -1283,7 +1308,7 @@ export const systems: StarSystem[] = [
       {
         id: 'komashi',
         name: 'Komashi',
-        revealedIn: [YUMI],
+        revealedIn: [ch(YUMI, '6')],
         summary: [
           p(
             'A world of brown stone and oceans, home of the hijo: Splinters of Virtuosity that power hion. A machine wrapped the planet in a black shroud for about seventeen hundred years until Yumi destroyed it.',
@@ -1347,16 +1372,79 @@ export const systems: StarSystem[] = [
       {
         id: 'canticle',
         name: 'Canticle',
-        revealedIn: [SLM],
+        revealedIn: [ch(SLM, '8')],
         summary: [
           p(
-            'A tiny world only about 100 miles in radius, held together by an enormous Invested iron core. Its heavily Invested sun scorches the day side hot enough to vaporize a person, so its people, Threnodites who fled their homeworld under the preacher Zellion, keep moving just ahead of the dawn. Blue and gold rings light its night side. No Shard lives there and it has no perpendicularity.',
-            SLM,
+            'Its sunlight burns anything it touches, so its people keep moving to stay ahead of the dawn. They grow crops on the land just before dawn, lit by light that great rings around the planet reflect down, and can harvest every day.',
+            ch(SLM, '8'),
+          ),
+          p(
+            'Its people speak in a careful, courteous way meant to avoid giving offence, and are often named after emotions, virtues or ideas, such as Zeal or Confidence.',
+            ch(SLM, '8'),
+          ),
+          p(
+            'Its single sun is heavily Invested, and the rings reflect some of that Invested light onto the night side. People both fear and respect the sun, calling it names like the Sky Tyrant. Impassable mountains and highlands run along the southern band.',
+            ch(SLM, '12'),
+          ),
+          p(
+            'Plants grow quickly in the night, fed by the light reflected from the rings, and people sow seeds after the day has burned the land bare. Everyone speaks a single language, and many find the idea of foreign languages strange.',
+            ch(SLM, '13'),
+          ),
+          p(
+            'Its people came from Threnody, a world they regard as Hell, and their language is close to Threnody’s. There are around fifty cities, but most of the larger ones have been absorbed into Union; a number of small towns remain.',
+            ch(SLM, '15'),
+          ),
+          p(
+            'The Cinder King once found a sick worldhopper and killed him, fearing he was a demon. From the man’s books he learned of the wider cosmere, then set out to conquer the other cities and unite everyone in his capital.',
+            ch(SLM, '16'),
+          ),
+          p(
+            'Most of its people descend from Threnodites who left soon after the Evil attacked their ancestors. Many are pale, nearly as many have darker skin like the Azish, and some fall in between. Invested, gazelle-like animals live near the dawn.',
+            ch(SLM, '17'),
+          ),
+          p(
+            'People live in large flying cities, each keeping to its own corridor of latitude. A city is made of smaller ships that can link together, among them hovercycles, farming ships and prospectors that find sunhearts; all run on sunhearts.',
+            ch(SLM, '23'),
+          ),
+          p(
+            'The Cinder King rules through his monopoly on sunhearts and the threat of his Charred; cities he has not conquered have been pushed towards the poles. Each city has a Lodestar, its chief navigator. People tell many stories with morals, often about children eaten by shades.',
+            ch(SLM, '26'),
+          ),
+          p(
+            'Its rings are blue and gold. The atmosphere thins quickly with height and ends about a thousand feet up, so mountains reach into space and cannot be crossed.',
+            ch(SLM, '28'),
+          ),
+          p(
+            'It spins backwards, so the sun rises in the west and sets in the east, and a day lasts ten standard hours.',
+            ch(SLM, '32'),
+          ),
+          p(
+            'It is tiny, only about 100 miles in radius, but a huge, dense, Invested iron core gives it about 0.7 standard gravity and holds its rings in place. Behind the sunset line, a great maelstrom of fiery cyclones sweeps the land.',
+            ch(SLM, '34'),
+          ),
+          p(
+            'It was settled by Threnodites led by the preacher Zellion, driven from their homeworld by infighting, who devised the flying cities. The sunlight heats the land and air enough to melt anything nearby and vaporize a person.',
+            ch(SLM, '39'),
+          ),
+          p(
+            'No Shard lives there, and it has no perpendicularity.',
+            ch(SLM, '44'),
+          ),
+          p(
+            'Its atmosphere resists the flow of Investiture, so the Invested sunlight heats it fiercely, and melting stone and magma from the Invested core constantly reshape the land.',
+            ch(SLM, '45'),
+          ),
+          p(
+            'Its people worship Adonalsium, knowing he is dead and splintered into Shards, yet believing that everything follows his plan.',
+            ch(SLM, '47'),
           ),
         ],
         settingOf: [story(SLM)],
         shards: [],
-        magicSystems: [f('Charred', SLM), f('Sunhearts', SLM)],
+        magicSystems: [
+          f('Charred', ch(SLM, '12')),
+          f('Sunhearts', ch(SLM, '12')),
+        ],
         moons: [],
         orbit: 1,
         color: '#c4652f',
@@ -1369,7 +1457,7 @@ export const systems: StarSystem[] = [
       {
         id: 'grand-apparatus',
         name: 'Grand Apparatus',
-        revealedIn: [ISLES],
+        revealedIn: [ch(ISLES, '25')],
         summary: [
           p(
             'A planet-sized megastructure: cities of thousands of communal rooms, forever on the move, run by a vast Invested mechanism. Its people count themselves Invention’s, though it was probably built before the Shattering. A ruling class of Sleepless keeps everyone inside, Lawnarks among them, and experiments on them. Rooms with windows are rare, and there are no birds.',
@@ -1390,7 +1478,7 @@ export const systems: StarSystem[] = [
         // The Lost Metal features this world unnamed; Isles of the Emberdark names it.
         id: 'dhatri',
         name: 'Dhatri',
-        revealedIn: [LM, ISLES],
+        revealedIn: [LM, ch(ISLES, '22')],
         summary: [
           p(
             'Homeworld of the aethers, which its people worship as gods older than Adonalsium itself.',
@@ -1422,7 +1510,7 @@ export const systems: StarSystem[] = [
       {
         id: 'lumar',
         name: 'Lumar',
-        revealedIn: [TRESS],
+        revealedIn: [ch(TRESS, '31')],
         summary: [
           p(
             'A backwater world ringed by twelve moons hanging in equidistant, geostationary orbits close above it. Each moon hosts an aggressive strain of aether whose spores rain down in lunagrees, so the whole planet is covered in seas of spores rather than water. Each day the sun passes behind one moon, casting a moonshadow.',

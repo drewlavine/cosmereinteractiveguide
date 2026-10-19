@@ -32,6 +32,15 @@ const paths: Record<SearchIconName | 'search', ReactNode> = {
       <path d="M19.5 5.5c-2.5-1.3-5-1.3-7.5 0v14c2.5-1.3 5-1.3 7.5 0Z" />
     </>
   ),
+  ability: (
+    <path d="M12 3.5 14.2 9.8 20.5 12l-6.3 2.2L12 20.5l-2.2-6.3L3.5 12l6.3-2.2Z" />
+  ),
+  culture: (
+    <>
+      <path d="M5.5 20.5v-16" />
+      <path d="M5.5 4.5h12l-2.5 4 2.5 4h-12" />
+    </>
+  ),
   character: (
     <>
       <circle cx="12" cy="8" r="3.8" />

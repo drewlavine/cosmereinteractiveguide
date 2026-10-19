@@ -1121,4 +1121,544 @@ export const characterPortraits: Record<string, Portrait[]> = {
       revealedIn: [{ book: 'sunlit-man', chapter: '3' }],
     },
   ],
+  // Mistborn Era 1 (manifests in ~/cig-char-data/art/era1-a.json, era1-b.json).
+  breeze: [
+    {
+      // Official Mistborn Deckbuilding Game card art (Brotherwise). Just Breeze in fine clothes with wine, as he is when introduced at the crew meeting (FE ch 4). Nothing about his real name.
+      src: '/portraits/breeze-soother.webp',
+      alt: 'Breeze, a portly gentleman in a dark coat and plum waistcoat, holding a glass of wine in a curtained study',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    {
+      // Official Deckbuilding Game "Charm" card: Breeze with Allrianne. Her pursuit of him is only plain from WoA ch 50 (Vin sees her seducing him), so dated there.
+      src: '/portraits/breeze-charm.webp',
+      alt: 'Breeze lounging on a sofa while a young blonde noblewoman in a pink gown leans flirtatiously against him',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+  ],
+  'edgard-ladrian': [
+    {
+      // Same as the Breeze persona's first piece (FE ch 4), gated on the identity reveal {all: [FE, SoS ch 19]} like Vasher/Zahel.
+      src: '/portraits/breeze-soother.webp',
+      alt: 'Breeze, a portly gentleman in a dark coat and plum waistcoat, holding a glass of wine in a curtained study',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [
+        { all: ['final-empire', { book: 'shadows-of-self', chapter: '19' }] },
+      ],
+    },
+    {
+      // Same as the persona's Charm card (WoA ch 50) plus the identity reveal.
+      src: '/portraits/breeze-charm.webp',
+      alt: 'Breeze lounging on a sofa while a young blonde noblewoman in a pink gown leans flirtatiously against him',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [
+        {
+          all: [
+            'final-empire',
+            { book: 'shadows-of-self', chapter: '19' },
+            { book: 'well-of-ascension', chapter: '50' },
+          ],
+        },
+      ],
+    },
+  ],
+  clubs: [
+    {
+      // Clubs in his carpentry shop, where the crew meets when he first appears (FE ch 4). Nothing later.
+      src: '/portraits/clubs-pipe.webp',
+      alt: 'Clubs, a scowling grey-haired old man in suspenders, smoking a pipe in his cluttered woodshop',
+      artist: 'Ydunn Lopez',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ydunn_Lopez',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    {
+      // Plain portrait the Coppermind files under The Well of Ascension; nothing specific shown, so dated to his first WoA chapter (6).
+      src: '/portraits/clubs-hat.webp',
+      alt: 'Clubs, weathered and scowling, arms crossed under a wide-brimmed hat and a long coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [
+        { all: ['final-empire', { book: 'well-of-ascension', chapter: '6' }] },
+      ],
+    },
+  ],
+  cladent: [
+    {
+      // Persona art (FE ch 4) gated on his real name's reveal (HoA), Vasher/Zahel pattern.
+      src: '/portraits/clubs-pipe.webp',
+      alt: 'Clubs, a scowling grey-haired old man in suspenders, smoking a pipe in his cluttered woodshop',
+      artist: 'Ydunn Lopez',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ydunn_Lopez',
+      revealedIn: [
+        { all: ['hero-of-ages', { book: 'final-empire', chapter: '4' }] },
+      ],
+    },
+    {
+      // Persona art (WoA ch 6) gated on the HoA identity reveal.
+      src: '/portraits/clubs-hat.webp',
+      alt: 'Clubs, weathered and scowling, arms crossed under a wide-brimmed hat and a long coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [
+        { all: ['hero-of-ages', { book: 'well-of-ascension', chapter: '6' }] },
+      ],
+    },
+  ],
+  'lord-ruler': [
+    {
+      // Official Mistborn Handbook art (Cosmere RPG). He first appears on the page in Fountain Square at FE ch 34, arriving by carriage among the fallen rebels. No bracers, no Terris or packman hint. The page redirects to Rashek from ch 38, so one piece is enough.
+      src: '/portraits/lord-ruler-carriage.webp',
+      alt: 'The Lord Ruler, tall with long black hair, in a white coat and dark waistcoat, stepping from his black carriage over fallen bodies',
+      artist: 'Mike Lim',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Mike_Lim',
+      revealedIn: [{ book: 'final-empire', chapter: '34' }],
+    },
+  ],
+  rashek: [
+    {
+      // Official Deckbuilding Game "Confrontation" card. The spears are from FE ch 34; showing Rashek as the Lord Ruler needs the identity reveal at FE ch 38.
+      src: '/portraits/rashek-confrontation.webp',
+      alt: 'Rashek as the Lord Ruler, in black, walking calmly with two spears through his chest before a burning city of spires',
+      artist: 'Gal Or',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Gal_Or',
+      revealedIn: [{ book: 'final-empire', chapter: '38' }],
+    },
+    {
+      // Rashek betraying Alendi at the Well of Ascension. The Well and Alendi's name are late WoA, so it goes to the end of WoA, matching era1-b's Alendi entry. Reuses era1-b's file alendi-at-the-well.webp.
+      src: '/portraits/alendi-at-the-well.webp',
+      alt: 'Alendi, old and weary in furs, kneeling by a glowing light in the snow as a shadowed Rashek behind him raises a knife',
+      artist: 'Hinumay',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Hinumay',
+      revealedIn: ['well-of-ascension'],
+    },
+  ],
+  dockson: [
+    {
+      // Dockson as the crew's organiser with his paperwork; nothing past his first chapter (FE ch 2).
+      src: '/portraits/dockson-documents.webp',
+      alt: 'Dockson, bearded, in a brown coat and cravat, carrying a stack of books and papers',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'final-empire', chapter: '2' }],
+    },
+    {
+      // Plain portrait with nothing book-specific. Swapped in at his first WoA chapter (5) so the art changes with the book.
+      src: '/portraits/dockson-waistcoat.webp',
+      alt: 'Dockson, dark-haired with a goatee, in a green double-breasted waistcoat before red-lit gothic windows',
+      artist: 'SiarexKH',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/SiarexKH',
+      revealedIn: [
+        { all: ['final-empire', { book: 'well-of-ascension', chapter: '5' }] },
+      ],
+    },
+  ],
+  hammond: [
+    {
+      // Ham as he is introduced at the crew meeting (FE ch 4): sleeveless vest and muscles, no Allomancy shown.
+      src: '/portraits/hammond-thug.webp',
+      alt: 'Ham, muscular and short-haired, in a sleeveless vest with arms crossed under a hazy red sky',
+      artist: 'Egilde Art',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Egilde_Art',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+  ],
+  tensoon: [
+    {
+      // TenSoon in his wolfhound body. His page and the fact that he's the wolfhound only appear at WoA ch 47 (the impersonation reveal), so that's the earliest date.
+      src: '/portraits/tensoon-wolfhound.webp',
+      alt: 'TenSoon in the body of a great shaggy wolfhound, lying in front of a red backdrop',
+      artist: 'Egilde Art',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Egilde_Art',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '47' }],
+    },
+    {
+      // Shows his glowing bones/insides, which hints at kandra true bodies, Blessings and spikes (HoA reveals). Conservatively dated to the end of HoA.
+      src: '/portraits/tensoon-glowing-bones.webp',
+      alt: 'TenSoon as a pale wolfhound, his ribs glowing like embers through his fur, amid swirling sparks',
+      artist: 'Shayndlart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shayndlart',
+      revealedIn: ['hero-of-ages'],
+    },
+  ],
+  oreseur: [
+    {
+      // From the artist's "OreSeur in his bodies": the face looks not quite human, hinting at what a kandra is. Kandra species is dated FE epilogue, so this waits for the end of FE.
+      src: '/portraits/oreseur-face.webp',
+      alt: 'OreSeur, a gaunt bald man with an eerie, pale, almost translucent face',
+      artist: 'Lydia Futral',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Lydia_Futral',
+      revealedIn: ['final-empire'],
+    },
+    {
+      // Official Mistborn: House War art (Crafty Games) titled OreSeur: the wolfhound body Vin gives him in WoA. Dated to WoA ch 20, where his page's wolfhound fact is dated. It looks the same as what the reader believes OreSeur to be, so it doesn't hint at TenSoon. No Coppermind artist page; links to the artist's site.
+      src: '/portraits/oreseur-wolfhound.webp',
+      alt: 'A shaggy wolfhound standing on a Luthadel rooftop at dusk beside a seated, cloaked figure',
+      artist: 'Abigail Platter',
+      artistUrl: 'http://abigailplatter.com/',
+      revealedIn: [
+        { all: ['final-empire', { book: 'well-of-ascension', chapter: '20' }] },
+      ],
+    },
+  ],
+  tindwyl: [
+    {
+      // Official Terris: Wrought of Copper art (Mistborn Adventure Game). Her bracers/metalminds suggest a Keeper, so dated to WoA ch 13, after she is guessed to be a Keeper and uses Feruchemy to snap her bonds, not her ch 10 arrival.
+      src: '/portraits/tindwyl-keeper.webp',
+      alt: 'Tindwyl, a stern Terriswoman in layered V-patterned robes and bracers, one finger raised as if lecturing',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '13' }],
+    },
+    {
+      // Spanish illustrated edition interior art. Shows her studying beside Sazed, closely and fondly, as on their night of study over his rubbing (WoA ch 37). Not dated earlier because it shows their closeness. No Coppermind artist page; links to the original post.
+      src: '/portraits/tindwyl-with-sazed.webp',
+      alt: 'Tindwyl, long braid and gold earrings, studying a glowing book alongside Sazed',
+      artist: 'Eva Gutierrez',
+      artistUrl: 'https://www.instagram.com/p/CUcxdHgqiT4/',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '37' }],
+    },
+  ],
+  'straff-venture': [
+    {
+      // Official House War art: the high lord in his keep, as in FE (first appears FE ch 19). The artist isn't credited, so this links to the Kickstarter post.
+      src: '/portraits/straff-venture-keep.webp',
+      alt: 'Straff Venture, a stern nobleman in a dark suit with a cane, standing before tall stained-glass windows',
+      artist: 'Mistborn: House War (Crafty Games)',
+      artistUrl:
+        'https://www.kickstarter.com/projects/craftygames/mistborn-house-war/posts/1607911',
+      revealedIn: [{ book: 'final-empire', chapter: '19' }],
+    },
+    {
+      // Official House War "Siege of Luthadel" art: Straff in uniform at his siege camp, dated to his first on-page WoA chapter (18). No Coppermind artist page.
+      src: '/portraits/straff-venture-siege.webp',
+      alt: 'Straff Venture in a dark military uniform with a sword, standing before an army camp of tents under a red sky',
+      artist: 'Oliver Specht',
+      artistUrl: 'https://oliver-specht.de/work',
+      revealedIn: [
+        { all: ['final-empire', { book: 'well-of-ascension', chapter: '18' }] },
+      ],
+    },
+  ],
+  'zane-venture': [
+    {
+      // Plain head-and-shoulders sketch. No Allomancy, madness, Straff or watcher hints. Safe at his first appearance (WoA ch 2).
+      src: '/portraits/zane-venture-portrait.webp',
+      alt: 'Zane, a narrow-faced young man with messy dark curly hair and a dark collar',
+      artist: 'Laura MacMahon',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Laura_MacMahon',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '2' }],
+    },
+    {
+      // Official Deckbuilding Game "Precise Shot" card: Mistborn Allomancy (coin-throwing, leaping in the mists), dated to WoA ch 17 when he is revealed as the Mistborn watcher. Nothing about his madness or father.
+      src: '/portraits/zane-venture-precise-shot.webp',
+      alt: 'Zane, all in black, leaping through the misty night over a city of spires, a dagger in one hand as he flings a coin',
+      artist: 'Gal Or',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Gal_Or',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '17' }],
+    },
+  ],
+  'allrianne-cett': [
+    {
+      // Spanish illustrated WoA interior art, a plain portrait. Safe at her first appearance (WoA ch 21). No Coppermind artist page.
+      src: '/portraits/allrianne-cett-pink.webp',
+      alt: 'Allrianne, a young blonde noblewoman with a pink bow in her hair and a high-collared pink dress',
+      artist: 'Ana Mateos',
+      artistUrl: 'https://www.instagram.com/p/CUdLZWzKrmP/',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '21' }],
+    },
+    {
+      // Official Deckbuilding Game "Charm" card: her flirting with Breeze, plain from WoA ch 50.
+      src: '/portraits/breeze-charm.webp',
+      alt: 'Allrianne, a young blonde noblewoman in a pink gown, leaning flirtatiously against Breeze on a sofa',
+      artist: 'Deandra Scicluna',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Deandra_Scicluna',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '50' }],
+    },
+  ],
+  'ashweather-cett': [
+    {
+      // Official Cosmere RPG (Mistborn) art: the scheming lord planning his campaign. Nothing past his arrival in Luthadel (WoA ch 31).
+      src: '/portraits/ashweather-cett-map.webp',
+      alt: 'Ashweather Cett, bearded and brooding, seated with clasped hands over a war map scattered with tokens',
+      artist: 'Darko Stojanovic',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Darko_Stojanovic',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '31' }],
+    },
+  ],
+  'aradan-yomen': [
+    {
+      // Obligator tattoos and his diadem with its bead. The bead is cited from HoA ch 43, so it's dated there and not to his ch 30 first mention. The alt doesn't say it's atium.
+      src: '/portraits/aradan-yomen.webp',
+      alt: 'Aradan Yomen, bald and round-faced, with intricate obligator tattoos around his eyes and a silver diadem set with a small bead',
+      artist: 'LittleGreyDragon',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/LittleGreyDragon',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '43' }],
+    },
+  ],
+  beldre: [
+    {
+      // Her first meeting with Spook (eyes wrapped, as he is throughout Urteau): he slips through the crowd to speak to her at Quellion's side in HoA ch 16. Nothing of her Allomancy (ch 58).
+      src: '/portraits/beldre-first-meeting.webp',
+      alt: 'Beldre, auburn-haired in a plain dress, face to face in the mist with a cloaked young man whose eyes are bound with cloth',
+      artist: 'Kate7h',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Kate7h',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '16' }],
+    },
+    {
+      // Spook and Beldre together on the Field of Rebirth under a blue sky and green grass: the world after the Catacendre, so dated to the end of HoA.
+      src: '/portraits/beldre-field-of-rebirth.webp',
+      alt: 'Beldre embracing Spook in a sunny, grassy field under a blue sky',
+      artist: 'Kate7h',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Kate7h',
+      revealedIn: ['hero-of-ages'],
+    },
+  ],
+  mare: [
+    {
+      // Kings Wild Project Mistborn deck card. Just her face, flowers and a dress: no Allomancy or Pits imagery. Safe where Kelsier first speaks of his wife (FE ch 4).
+      src: '/portraits/mare-queen-of-hearts.webp',
+      alt: 'Mare as the Queen of Hearts on a playing card, flowers in her hair',
+      artist: 'Jackson Robinson',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Jackson_Robinson',
+      revealedIn: [{ book: 'final-empire', chapter: '4' }],
+    },
+    {
+      // The folded flower picture she treasured; Vin is given it in FE ch 35, so dated there.
+      src: '/portraits/mare-flower.webp',
+      alt: 'Mare, dark hair pinned up with white flowers, looking down at a folded paper with a drawing of a flower',
+      artist: 'Egilde Art',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Egilde_Art',
+      revealedIn: [{ book: 'final-empire', chapter: '35' }],
+    },
+  ],
+  melaan: [
+    {
+      // Her female Era 2 body as she appears in Shadows of Self (tavern scene with Wayne, SoS ch 13). Nothing Era 1 shows her wooden True Body, so an HoA-only reader sees no art.
+      src: '/portraits/melaan-portrait.webp',
+      alt: 'MeLaan as a woman with short wavy hair and a dark, gold-trimmed dress',
+      artist: 'Jamie Knierim',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jamie_Knierim',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '13' }],
+    },
+    {
+      // Mistborn Adventure Game (Masks of the Past) art: her True Body bones showing through her face, an Era 2 look. Dated to the end of SoS to be safe.
+      src: '/portraits/melaan-masks-of-the-past.webp',
+      alt: 'MeLaan, tall in vest and trousers with a knife, half her face peeled away to show a skull of crystal bone',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: ['shadows-of-self'],
+    },
+  ],
+  paalm: [
+    {
+      // This is Lessie's face, so on Paalm's page it only appears once Lessie is revealed as Paalm (alias revealedIn SoS ch 26). Paalm is only mentioned in HoA, with no art for that.
+      src: '/portraits/paalm-lessie.webp',
+      alt: 'Paalm in her Lessie form: a freckled, dark-haired woman with a sly grin',
+      artist: 'Jamie Knierim',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jamie_Knierim',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '26' }],
+    },
+    {
+      // Mistborn Adventure Game art of her as Bleeder, with the mask and Lessie's face; dated to the end of SoS.
+      src: '/portraits/paalm-masks-of-the-past.webp',
+      alt: 'Paalm in a long coat with a revolver, lowering a horned mask from her freckled face',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: ['shadows-of-self'],
+    },
+  ],
+  'shan-elariel': [
+    {
+      // Just a noblewoman in a ball gown: Vin meets her at a ball in FE ch 18.
+      src: '/portraits/shan-elariel-ball.webp',
+      alt: 'Shan Elariel in a ruffled blue ball gown, auburn hair in curls, looking down her nose',
+      artist: 'Jove',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jove',
+      revealedIn: [{ book: 'final-empire', chapter: '18' }],
+    },
+    {
+      // Mistborn: The Deckbuilding Game card. The mistcloak and coin show she is Mistborn, revealed when she tries to kill Elend and fights Vin (FE ch 30).
+      src: '/portraits/shan-elariel-the-noble.webp',
+      alt: 'Shan Elariel in a dark tasseled mistcloak on a balcony above a ballroom, flipping a coin',
+      artist: 'Svetlana Kostina',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Svetlana_Kostina',
+      revealedIn: [{ book: 'final-empire', chapter: '30' }],
+    },
+  ],
+  khrissalla: [
+    {
+      // A plain scholarly portrait (from White Sand) with nothing tied to any plot point; safe wherever she first appears (BoM ch 12, Secret History part 3 ch 2, White Sand prologue).
+      src: '/portraits/khrissalla-map.webp',
+      alt: 'Khriss, a dark-skinned young woman with beaded braids, studying a large map beside stacks of books',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [
+        { book: 'bands-of-mourning', chapter: '12' },
+        { book: 'secret-history', chapter: '3-2' },
+        { book: 'white-sand-omnibus', chapter: 'prologue' },
+      ],
+    },
+    {
+      // Nazh carrying Khriss's things, from Secret History, where they first appear together at the campfire (part 3 ch 2). Shows nothing else from the book.
+      src: '/portraits/khriss-and-nazh.webp',
+      alt: 'Khriss walking and writing notes while Nazh trudges behind her, laden with books and baggage',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+    },
+  ],
+  nazrilof: [
+    {
+      // Secret History art; Nazh is first seen in person with Khriss at the campfire (part 3 ch 2). His WoR mention is only map notes, so no earlier art.
+      src: '/portraits/khriss-and-nazh.webp',
+      alt: 'Nazh, scowling under a huge pack of books and baggage, trudging after Khriss as she writes notes',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [{ book: 'secret-history', chapter: '3-2' }],
+    },
+    {
+      // Nazh on his homeworld Threnody, which is only named in Isles of the Emberdark; dated to the end of that book.
+      src: '/portraits/nazrilof-forest.webp',
+      alt: 'Nazh sitting on a fallen log in a misty, dead forest, faint blue lights around him and pale ghostly figures among the trees',
+      artist: 'Ashley Coad',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ashley_Coad',
+      revealedIn: ['isles-of-the-emberdark'],
+    },
+  ],
+  leras: [
+    {
+      // Cosmere RPG art of Leras as Preservation (his face dissolving into mist). His page and his identity as Preservation are only revealed by Secret History, so dated to its end.
+      src: '/portraits/leras-preservation.webp',
+      alt: 'Leras, a dark-haired man in a long fur-trimmed coat, floating before a blue stained-glass window, mist streaming from his face',
+      artist: 'Nino Vecia',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nino_Vecia',
+      revealedIn: ['secret-history'],
+    },
+  ],
+  alendi: [
+    {
+      // A plain portrait of the conqueror; safe where his page appears (WoA ch 12). Says nothing about the Hero.
+      src: '/portraits/alendi-uniform.webp',
+      alt: 'Alendi, a grey-haired young man in a green and gold military uniform, holding a sword upright',
+      artist: 'Hinumay',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Hinumay',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
+    },
+    {
+      // Rashek betraying Alendi at the Well of Ascension; that and the Well itself are late-WoA revelations, so dated to the end of WoA.
+      src: '/portraits/alendi-at-the-well.webp',
+      alt: 'Alendi, old and weary in furs, kneeling by a glowing light in the snow as a shadowed figure behind him raises a knife',
+      artist: 'Hinumay',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Hinumay',
+      revealedIn: ['well-of-ascension'],
+    },
+  ],
+  camon: [
+    {
+      // Just Camon as he is in FE ch 1.
+      src: '/portraits/camon.webp',
+      alt: 'Camon, a heavy, scowling man with slicked-back hair in a vest',
+      artist: 'Egilde Art',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Egilde_Art',
+      revealedIn: [{ book: 'final-empire', chapter: '1' }],
+    },
+  ],
+  gemmel: [
+    {
+      // Cosmere RPG Mistborn Handbook art. The mistcloak implies an Allomancer; FE ch 8 says he trained Kelsier by pushing him off a wall. His being Mistborn is spelled out only in The Eleventh Metal, which also counts.
+      src: '/portraits/gemmel-mistcloak.webp',
+      alt: 'Gemmel, a wild-haired, white-bearded old man in a tasseled mistcloak, pointing up on a misty city street',
+      artist: 'Nele Klumpe',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nele_Klumpe',
+      revealedIn: [{ book: 'final-empire', chapter: '8' }, 'eleventh-metal'],
+    },
+    {
+      // Official interior art for The Eleventh Metal (Kelsier and Gemmel on the rooftops of Mantiz); dated to that story.
+      src: '/portraits/gemmel-rooftops.webp',
+      alt: 'Gemmel, wild-haired and wrapped in fluttering cloak tassels, on a rooftop with a young Kelsier at night',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: ['eleventh-metal'],
+    },
+  ],
+  human: [
+    {
+      // Just Human as a koloss, as he is when Vin and Elend meet him in HoA ch 8. No spikes or later events.
+      src: '/portraits/human-koloss.webp',
+      alt: 'Human, a huge blue-skinned koloss with red eyes, wearing crossed ropes',
+      artist: 'zelloss',
+      artistUrl: 'https://coppermind.net/wiki/File:Human_Koloss.jpg',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '8' }],
+    },
+    {
+      // Cosmere RPG art of Vin dominating Human with Allomancy; she Pushes him to learn how koloss are made in HoA ch 37.
+      src: '/portraits/human-and-vin.webp',
+      alt: 'Vin facing Human, a huge blue koloss kneeling by a giant sword, under a stormy orange sky',
+      artist: 'Satoshi Kamanaka',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Satoshi_Kamanaka',
+      revealedIn: [{ book: 'hero-of-ages', chapter: '37' }],
+    },
+  ],
+  noorden: [
+    {
+      // Former obligator with his eye tattoos, as he is when he appears in WoA ch 34.
+      src: '/portraits/noorden.webp',
+      alt: 'Noorden, a bald, round-faced man with spectacles and swirling tattoos around his eyes',
+      artist: 'Anna Korabelnikova',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Anna_Korabelnikova',
+      revealedIn: [{ book: 'well-of-ascension', chapter: '34' }],
+    },
+  ],
+  riina: [
+    {
+      // Official Tress interior art (cropped from the battle with Hoid): her as the Sorceress using AonDor. Both are revealed at Tress ch 64, where her page appears. Secret History readers see no art.
+      src: '/portraits/riina-sorceress.webp',
+      alt: 'Riina, a blond woman in a pale gown, drawing glowing symbols in the air in a library',
+      artist: 'Howard Lyon',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Howard_Lyon',
+      revealedIn: [{ book: 'tress', chapter: '64' }],
+    },
+  ],
+  'teven-renoux': [
+    {
+      // Mistborn: House War board game art of Lord Renoux as the nobleman Vin sees in FE ch 13. Shows nothing of the kandra impostor.
+      src: '/portraits/teven-renoux-house-war.webp',
+      alt: 'Lord Renoux, a grey-haired nobleman with a monocle in a green coat, hand on his chest, on a grand staircase',
+      artist: 'Mistborn: House War (Crafty Games)',
+      artistUrl: 'https://coppermind.net/wiki/File:House_War_-_Lord_Renoux.jpg',
+      revealedIn: [{ book: 'final-empire', chapter: '13' }],
+    },
+  ],
+  'themos-tresting': [
+    {
+      // The opening scene of FE's prologue on Tresting's plantation.
+      src: '/portraits/themos-tresting-ashfall.webp',
+      alt: 'Lord Tresting on a balcony under red parasols with obligators, pointing out over skaa working in the ashfall',
+      artist: 'Francis Goeltner',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Francis_Goeltner',
+      revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
+    },
+  ],
 }

@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "A spiritual tie between people, places and things. Feruchemists store it in duralumin, and medallions holding it let a wearer in a foreign land speak the local language.",
+      "revealedIn": [
+        {
+          "all": [
+            "alloy-of-law",
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Feruchemist storing Connection becomes less noticed and less trusted by others; tapping it lets them form trusting relationships quickly.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A Bondsmith can touch another person to forge a spiritual Connection with them, briefly gaining the ability to speak whatever languages that person speaks.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    },
+    {
+      "text": "Travelling far from something one is strongly Connected to brings a pulling sensation that grows stronger with distance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "5-1" },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Connection can be handled directly, stretched and checked for flaws, though stretching it too far risks wearing it down.",
+      "revealedIn": [{ "book": "yumi", "chapter": "22" }]
+    },
+    {
+      "text": "When made visible, Connection appears as glowing cords of light linking things together, which are hard to read or understand.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "6-4" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "yumi", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Feruchemical metal",
+      "name": "Duralumin",
+      "revealedIn": [
+        {
+          "all": [
+            "alloy-of-law",
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ]
+}

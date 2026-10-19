@@ -1,4 +1,4 @@
-import { useParams } from 'react-router'
+import { Link, useParams } from 'react-router'
 import { PanZoom } from '../components/PanZoom'
 import { BinarySystemChart } from '../components/BinarySystemChart'
 import { SpoilerNotice } from '../components/SpoilerNotice'
@@ -28,6 +28,10 @@ export function SystemView() {
           <SystemChart system={system} />
         )}
       </PanZoom>
+
+      <Link to="/" className="system-back">
+        <span aria-hidden="true">←</span> Star map
+      </Link>
 
       <aside className="system-info" aria-label="System information">
         <details>

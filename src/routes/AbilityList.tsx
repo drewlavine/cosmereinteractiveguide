@@ -1,10 +1,12 @@
 import { useMemo } from 'react'
-import { useSearchParams } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import { abilityKindLabels, abilityList } from '../data/abilities'
 import { bookSeries, seriesOf } from '../data/books'
 import { systems } from '../data/systems'
 import type { ListedAbility } from '../data/types'
+import { entryBooks, entryRevealedIn } from '../data/entryStories'
 import { useCanSee } from '../state/reveal'
+import { GroupJump, LetterJump } from '../components/ListJump'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
 const anchor = (id: string) => anchorFor('abilities', id)
@@ -37,7 +39,7 @@ export function AbilityList() {
   const grouping = isGrouping(groupParam) ? groupParam : undefined
 
   const shown = useMemo(
-    () => abilityList.filter((a) => canSee(a.revealedIn)),
+    () => abilityList.filter((a) => canSee(entryRevealedIn('ability', a))),
     [canSee],
   )
   const shownById = useMemo(() => new Map(shown.map((a) => [a.id, a])), [shown])
@@ -83,7 +85,7 @@ export function AbilityList() {
           .map((s) => [s.name, s.name, 0])
       case 'series': {
         const ids = new Set(
-          a.books.filter((b) => canSee([b])).map((b) => seriesOf(b)?.id),
+          entryBooks('ability', a, canSee).map((b) => seriesOf(b)?.id),
         )
         return bookSeries
           .map((s, i): [string, string, number] => [s.id, s.name, i])
@@ -173,20 +175,12 @@ export function AbilityList() {
             ))}
           </select>
         </label>
+        {grouping && label && (
+          <GroupJump groups={groups} anchor={anchor} label={label} />
+        )}
       </div>
 
-      {groups.length > 0 && (
-        <nav
-          aria-label={grouping ? `Jump to ${label}` : 'Jump to letter'}
-          className="letter-index"
-        >
-          {groups.map(({ id, name }) => (
-            <a key={id} href={`#${anchor(id)}`}>
-              {name}
-            </a>
-          ))}
-        </nav>
-      )}
+      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
       {unsorted > 0 && (
         <p className="character-count">
           {plural(unsorted, 'more ability', 'more abilities')} not sorted by{' '}
@@ -200,11 +194,13 @@ export function AbilityList() {
           className="character-group"
           aria-labelledby={anchor(id)}
         >
-          <h2 id={anchor(id)}>{name}</h2>
+          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
+            {name}
+          </h2>
           <ul>
             {items.map((a) => (
               <li key={a.id}>
-                <span>{a.name}</span>
+                <Link to={`/abilities/${a.id}`}>{a.name}</Link>
               </li>
             ))}
           </ul>

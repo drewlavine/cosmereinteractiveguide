@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A young woman of Beacon on Canticle who helped rescue Elegy from Union and was then assigned to look after Nomad.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+    },
+    {
+      "text": "A Charred of Canticle unlike any other, who keeps her memories and can command other Charred, and is now a leader of the people of Beacon.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rescuing Elegy",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly before Nomad arrived, Rebeke set out with Divinity to rescue Elegy. Divinity died in the attempt, but with Nomad's help she brought out Elegy and Thomos.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Looking after Nomad",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "18" },
+            { "book": "sunlit-man", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Back at Beacon, the Greater Good assigned Rebeke to look after Nomad. Together they ran down a scout from Union, though not before it called the Cinder King's forces.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        },
+        {
+          "text": "Despite his promise of no trickery, the Cinder King took Rebeke hostage to manipulate Nomad. Once she was freed, more of his forces attacked Beacon, and she piloted the ship Nomad was on as he rescued the Greater Good.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        },
+        {
+          "text": "Rebeke piloted the Dawnchaser through the great maelstrom beyond sunset using only its instruments.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A different kind of Charred",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A cinderheart was set into Rebeke but siphoned off before it fully took hold, leaving her with abilities unlike other Charred. She kept her memories and felt none of the rage, and like the Cinder King she could control Charred through their cinderhearts, though only weakly against another will.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A woman in her twenties. Nomad first guesses her early twenties, but she says she is about a decade younger than him; he stopped aging at thirty-eight Rosharan years, though he looks younger.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "40" }]
+    },
+    {
+      "text": "She has silver-streaked black hair worn in a braid, light green eyes and pale skin, features she shares with Elegy. Her cinderheart sits at the surface of her skin, leaving her chest intact, with patches of ashen skin around it.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "50" }]
+    }
+  ],
+  "personality": []
+}

@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "Ember-hearted warriors who serve the Cinder King on Canticle: people left with a burned-out hole in the chest and a glowing ember where the heart should be.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "text": "People on Canticle turned by the Cinder King into ember-hearted warriors, each with a cinderheart set in the chest, through which he controls them.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Charred is made by stabbing a person in the chest with a glowing spear. The ember lodges where the heart was, leaving a burned-out hole around it.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "text": "Charred collapse if the heat is drawn out of their bodies. They are not strong enough to break chains, cannot survive guns, and die if they cannot breathe.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+    },
+    {
+      "text": "A cinderheart is not an ordinary sunheart: it holds a Connection that lets the Cinder King command the Charred. Drawing some of its Investiture away into a charged sunheart weakens that hold, letting a Charred think and speak, though the memories of their old life seem burned away and the urge to fight remains.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    },
+    {
+      "text": "Charred are unnaturally strong, fast and tough, deadly up close and always driven to act. Their bodies run hot enough to boil off water, and they can use their cinderhearts to set off explosives. The cinderheart keeps pushing heat through the body in place of the organs it burned away; if it stops, the Charred dies.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+    },
+    {
+      "text": "The cinderheart, usually on a spearhead, burns away the chest and most of the person's memories and soul. Charred feel one another and the emotions of the leader who commands them, and will not attack such a leader. When two leaders contend for the same Charred, the stronger wins. Freed Charred still feel that Connection but no longer hear orders.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "45" },
+            { "book": "sunlit-man", "chapter": "epilogue" },
+            { "book": "sunlit-man", "chapter": "24" },
+            { "book": "sunlit-man", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scadrian researchers who came to Canticle experimented with its Investiture, learned to make cinderhearts and the Charred, and began trading with the Cinder King.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "Through those trades the Cinder King learned how to make Charred, and with an army of them he conquered the world.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        },
+        {
+          "text": "On Beacon, Nomad drew part of the Investiture from the captured Charred Elegy's cinderheart, loosening the Cinder King's hold so that she could speak for herself.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        },
+        {
+          "text": "Using a sliver of sunheart and a Command, Elegy freed other Charred from the Cinder King's control, and they turned on the rest.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+        },
+        {
+          "text": "After the Cinder King's fall, Union chose to stop making Charred and to rehabilitate those that remained, with Rebeke, now the Sunlit One, working to wake them.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Made by",
+      "name": "The Cinder King",
+      "characterId": "cinder-king",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "label": "Powered by",
+      "name": "A cinderheart",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    },
+    {
+      "label": "Weakness",
+      "name": "Losing their heat",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+    },
+    {
+      "label": "Leaders",
+      "name": "Sunlit Ones",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "cinder-king",
+      "role": "creator",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "characterId": "elegy-salvage",
+      "role": "Charred",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "characterId": "rebeke-salvage",
+      "role": "Sunlit One",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ]
+}

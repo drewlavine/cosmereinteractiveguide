@@ -13,6 +13,8 @@ import type {
 } from './journey'
 import type {
   CharacterDetails,
+  EntryPerson,
+  EntryStory,
   Fact,
   Location,
   LocationDetails,
@@ -668,13 +670,14 @@ const firstPoint = (
 }
 
 /**
- * One character's journey, trimmed to what the reader may see: events they
+ * One character's journey (the events of any of `characterIds`, e.g. a
+ * character and their personas), trimmed to what the reader may see: events they
  * haven't reached, on maps they can't see yet, vanish; places they haven't
  * reached stay unnamed. `trim` drops reveal points a page may not use (see
  * revealCharacterJourney). Generic: knows nothing of any one series.
  */
 export function revealJourney(
-  characterId: string,
+  characterIds: string | readonly string[],
   events: readonly JourneyEvent[],
   atlas: Atlas,
   canSee: CanSee,
@@ -688,6 +691,7 @@ export function revealJourney(
     trim?: (reveal: Reveal) => Reveal
   } = {},
 ): ShownJourney {
+  const ids = typeof characterIds === 'string' ? [characterIds] : characterIds
   let spoilers = false
   const show = (reveal: Reveal) => {
     if (canSee(trim(reveal))) return true
@@ -697,7 +701,7 @@ export function revealJourney(
   const see: CanSee = (reveal) => viewAnyway || canSee(trim(reveal))
   const maps: AtlasMap[] = []
   const stops = events
-    .filter((e) => e.characters.includes(characterId))
+    .filter((e) => e.characters.some((c) => ids.includes(c)))
     .toSorted((a, b) => a.order - b.order)
     .flatMap((e): ShownJourneyStop[] => {
       const map = atlas.map(e.mapId)
@@ -760,10 +764,27 @@ export function revealJourney(
 }
 
 /**
+ * Whose events a page's journey draws on. A persona page has only events
+ * tagged with the persona (told under that name, so they never give the
+ * character away). A character's page adds those of every persona the
+ * reader has seen through, and skips books where they go by a persona the
+ * reader hasn't.
+ */
+export function journeyIds(id: string, canSee: CanSee): string[] {
+  const v = view(id, canSee)
+  if (!v) return []
+  if (v.persona) return [id]
+  return [
+    id,
+    ...(v.details.personas ?? [])
+      .filter((p) => canSee(p.identityRevealedIn))
+      .map((p) => p.id),
+  ]
+}
+
+/**
  * Whether a character's page shows any of their journey, by the index alone
- * (no pack needed): some event and its map are revealed. Persona pages get
- * none, as with Travels; a character's page skips books where they go by a
- * persona the reader hasn't seen through.
+ * (no pack needed): some event and its map are revealed.
  */
 export function journeyShown(
   id: string,
@@ -772,14 +793,19 @@ export function journeyShown(
   canSee: CanSee,
 ) {
   const v = view(id, canSee)
-  if (!v || v.persona) return false
-  return (index[id] ?? []).some(({ mapId, revealedIn }) => {
-    const map = atlas.map(mapId)
-    return !!map && canSee(v.trim(revealedIn)) && canSee(map.revealedIn)
-  })
+  if (!v) return false
+  return journeyIds(id, canSee).some((who) =>
+    (index[who] ?? []).some(({ mapId, revealedIn }) => {
+      const map = atlas.map(mapId)
+      return !!map && canSee(v.trim(revealedIn)) && canSee(map.revealedIn)
+    }),
+  )
 }
 
-/** A character page's journey: as revealJourney, with persona books trimmed. */
+/**
+ * A character or persona page's journey: as revealJourney, for the events
+ * of journeyIds, with books the page leaves out trimmed.
+ */
 export function revealCharacterJourney(
   id: string,
   events: readonly JourneyEvent[],
@@ -788,9 +814,11 @@ export function revealCharacterJourney(
   options: { viewAnyway?: boolean; credits?: readonly JourneyCredit[] } = {},
 ): ShownJourney {
   const v = view(id, canSee)
-  if (!v || v.persona)
-    return { stops: [], maps: [], credits: [], spoilers: false }
-  return revealJourney(id, events, atlas, canSee, { ...options, trim: v.trim })
+  if (!v) return { stops: [], maps: [], credits: [], spoilers: false }
+  return revealJourney(journeyIds(id, canSee), events, atlas, canSee, {
+    ...options,
+    trim: v.trim,
+  })
 }
 
 /** What a place's page may say in prose. */
@@ -890,6 +918,65 @@ export function revealLocationDetails(
         person.relations.push(p.relation)
     } else
       shown.people.push({ characterId: p.characterId, relations: [p.relation] })
+  }
+  return shown
+}
+
+/** A Culture or Abilities entry's page, trimmed to what the reader may see. */
+export interface ShownEntry extends ShownLocationStory {
+  /** Facts by label, in the order first given. */
+  facts: {
+    label: string
+    values: { name: string; characterId?: string; placeId?: string }[]
+  }[]
+  /** Each person once, with every role the reader may see. */
+  people: { characterId: string; roles: EntryPerson['role'][] }[]
+}
+
+/**
+ * Trims an entry's page like a place's: prose by date; a fact naming a place
+ * or character only once the reader may see them too; a person only once
+ * met, and not through a persona the reader hasn't seen through.
+ */
+export function revealEntry(
+  story: EntryStory | undefined,
+  canSee: CanSee,
+  placeShown: (placeId: string) => boolean,
+  viewAnyway = false,
+): ShownEntry {
+  const prose = revealLocationStory(story, canSee, viewAnyway)
+  const shown: ShownEntry = { ...prose, facts: [], people: [] }
+  if (!story) return shown
+  const show = (ok: boolean) => {
+    if (ok) return true
+    shown.spoilers = true
+    return viewAnyway
+  }
+  for (const f of story.facts) {
+    const ok =
+      canSee(f.revealedIn) &&
+      (!f.placeId || placeShown(f.placeId)) &&
+      (!f.characterId || hasMet(f.characterId, canSee))
+    if (!show(ok)) continue
+    const group = shown.facts.find((g) => g.label === f.label)
+    const value = {
+      name: f.name,
+      characterId: f.characterId,
+      placeId: f.placeId,
+    }
+    if (group) group.values.push(value)
+    else shown.facts.push({ label: f.label, values: [value] })
+  }
+  for (const p of story.people) {
+    const trim = view(p.characterId, canSee)?.trim ?? ((r: Reveal) => r)
+    const reveal = trim(p.revealedIn)
+    const ok =
+      reveal.length > 0 && canSee(reveal) && hasMet(p.characterId, canSee)
+    if (!show(ok)) continue
+    const person = shown.people.find((x) => x.characterId === p.characterId)
+    if (person) {
+      if (!person.roles.includes(p.role)) person.roles.push(p.role)
+    } else shown.people.push({ characterId: p.characterId, roles: [p.role] })
   }
   return shown
 }

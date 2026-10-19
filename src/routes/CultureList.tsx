@@ -1,10 +1,12 @@
 import { useMemo } from 'react'
-import { useSearchParams } from 'react-router'
+import { Link, useSearchParams } from 'react-router'
 import { bookSeries, books, seriesOf } from '../data/books'
 import { cultureKindLabels, cultureList } from '../data/culture'
 import { systems } from '../data/systems'
 import type { ListedCulture } from '../data/types'
+import { entryBooks, entryRevealedIn } from '../data/entryStories'
 import { useCanSee } from '../state/reveal'
+import { GroupJump, LetterJump } from '../components/ListJump'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
 const anchor = (id: string) => anchorFor('culture', id)
@@ -36,7 +38,7 @@ export function CultureList() {
   const grouping = isGrouping(groupParam) ? groupParam : undefined
 
   const shown = useMemo(
-    () => cultureList.filter((c) => canSee(c.revealedIn)),
+    () => cultureList.filter((c) => canSee(entryRevealedIn('culture', c))),
     [canSee],
   )
   const planets = useMemo(
@@ -56,7 +58,7 @@ export function CultureList() {
   // Categories an entry falls under, as [id, name, order]; only what the
   // reader may see is used.
   const categories = (c: ListedCulture): [string, string, number][] => {
-    const read = c.books.filter((b) => canSee([b]))
+    const read = entryBooks('culture', c, canSee)
     switch (grouping) {
       case 'type':
         return [[c.kind, cultureKindLabels[c.kind], kindOrder.indexOf(c.kind)]]
@@ -156,20 +158,12 @@ export function CultureList() {
             ))}
           </select>
         </label>
+        {grouping && label && (
+          <GroupJump groups={groups} anchor={anchor} label={label} />
+        )}
       </div>
 
-      {groups.length > 0 && (
-        <nav
-          aria-label={grouping ? `Jump to ${label}` : 'Jump to letter'}
-          className="letter-index"
-        >
-          {groups.map(({ id, name }) => (
-            <a key={id} href={`#${anchor(id)}`}>
-              {name}
-            </a>
-          ))}
-        </nav>
-      )}
+      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
       {unsorted > 0 && (
         <p className="character-count">
           {plural(unsorted, 'more entry', 'more entries')} not sorted by {label}
@@ -183,11 +177,13 @@ export function CultureList() {
           className="character-group"
           aria-labelledby={anchor(id)}
         >
-          <h2 id={anchor(id)}>{name}</h2>
+          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
+            {name}
+          </h2>
           <ul>
             {items.map((c) => (
               <li key={c.id}>
-                <span>{c.name}</span>
+                <Link to={`/culture/${c.id}`}>{c.name}</Link>
               </li>
             ))}
           </ul>

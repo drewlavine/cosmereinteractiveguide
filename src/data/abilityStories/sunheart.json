@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "Glowing stones that power the vehicles of Canticle, each made from a person left out in the path of the rising sun.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+    },
+    {
+      "text": "Power cells of Canticle, formed when a person caught between the sun and the planet's core is condensed into stone, their soul holding back a flood of the sun's Investiture. They fuel the planet's cities and ships.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Under the Cinder King, people are chosen by lottery and left out for the sun; their souls are turned to stone as sunhearts. The stones are left where they form and gathered on the next rotation by prospector ships. Each holds far more Investiture than one soul could, so something else must be feeding them.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+    },
+    {
+      "text": "A sunheart is a stable store of condensed energy that works as a battery or fuel, strong enough to keep a whole city aloft. Once its energy is spent, it dims.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+    },
+    {
+      "text": "A sunheart is a cylinder about eight inches tall that looks like smokestone, feels like glass and glows deep red. It can be carried safely, floats on magma, and can be broken like resin into pieces that keep glowing. Spent ones look like dark, bumpy glass. A charged sunheart counts as alive by the reckoning of Investiture.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    },
+    {
+      "text": "Heat and Investiture can be drawn out of a sunheart or pushed into it, though putting energy in needs a Connection to the person it was made from, and only works while it still holds some charge. It filters what it takes in, taking corrupted Investiture first. A sunheart that is not fully spent can be recharged in the sun; a drained one lets the light pass through.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "47" }]
+    },
+    {
+      "text": "Cinderhearts are corrupted sunhearts made with a special Investiture. Through them the Cinder King controls the Charred, and every Charred is Connected to the others. A cinderheart burns like a bright ember; with its corruption removed it glows a soft red-orange.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "12" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Cinder King held power over Canticle's sunhearts, choosing by lottery the people who would be given to the sun to make them.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+        },
+        {
+          "text": "Rebeke and the people of Union reached out to the other corridors to share how to recharge sunhearts.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Made from",
+      "name": "People left in the sun",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+    },
+    {
+      "label": "Powers",
+      "name": "Cities, ships and explosives",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+    },
+    {
+      "label": "Energy from",
+      "name": "Canticle's sun",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    },
+    {
+      "label": "Corrupted form",
+      "name": "Cinderhearts",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    }
+  ],
+  "people": []
+}

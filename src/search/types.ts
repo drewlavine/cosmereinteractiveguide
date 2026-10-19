@@ -22,7 +22,7 @@ export interface SearchEntry {
 
 /** Icons available to search results; add an SVG in SearchIcon for new ones. */
 export type SearchIconName =
-  'system' | 'planet' | 'place' | 'character' | 'book'
+  'system' | 'planet' | 'place' | 'character' | 'book' | 'ability' | 'culture'
 
 /** A kind of data search covers, shown as one group of results. */
 export interface SearchSource {

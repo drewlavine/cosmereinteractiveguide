@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A magic system of the cosmere. Invested Arts differ greatly in how they look and work, but in each, practitioners who have been Initiated use their abilities to manipulate Investiture.",
+      "revealedIn": ["elantris"]
+    }
+  ],
+  "description": [
+    {
+      "text": "Initiation is the process by which a person gains access to a form of Investiture.",
+      "revealedIn": ["elantris"]
+    },
+    {
+      "text": "Every Invested Art needs some Intent: the practitioner's purpose or will for what should happen. Some arts need more than others; Awakening, for one, demands a firm mental picture, or the result goes astray, and the more complex the Command, the more that matters.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    },
+    {
+      "text": "Invested Arts can be classed by where their power goes. In an end-positive art, the practitioner draws power from an outside source. In an end-neutral art, power is neither gained nor lost, only moved around. In an end-negative art, some power is lost.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "Many magics can heal, from sprains and illness to fatal wounds and lost limbs, and constant healing can leave the user numb to pain.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "bands-of-mourning", "chapter": "17" },
+            { "book": "oathbringer", "chapter": "72" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Command is the word or phrase used to focus Intent when imposing one's will on Investiture. The Command is narrow while the Intent is broader, and depending on the art and the practitioner's skill, the Investiture may grasp the wider Intent and not just the words.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shards and their Arts",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "hero-of-ages", "chapter": "epilogue" },
+            "lost-metal"
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before his death, Honor placed limits on the powers of the Bondsmiths. A living Shard can influence the arts tied to its power in some way.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "As part of his plan against Ruin, Preservation altered Allomancy as a clue for humankind. Sazed, in turn, healed Spook's savantism and made him a Mistborn.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After the Catacendre, Hemalurgy changed: spikes no longer decay and grant fewer powers. This was not Harmony's choice but a side effect of reining in Ruin's nature, since modern souls accept less of Ruin's influence.",
+          "revealedIn": ["lost-metal"]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    { "label": "Requires", "name": "Initiation", "revealedIn": ["elantris"] },
+    {
+      "label": "Guided by",
+      "name": "Intent",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "46" }]
+    },
+    {
+      "label": "Classes",
+      "name": "End-positive, end-neutral, end-negative",
+      "revealedIn": ["alloy-of-law"]
+    }
+  ],
+  "people": []
+}

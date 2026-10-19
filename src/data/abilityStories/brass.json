@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it can Soothe, dampening the emotions of people nearby.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Soothing can dull someone's fatigue, fear or happiness, and Soothing every emotion but one has much the same effect as Rioting that one.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "text": "Very strong Soothing can take complete control of koloss, and once they are controlled the Soothing is no longer needed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "54" },
+            { "book": "hero-of-ages", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Feruchemist can store warmth in brass, growing cold while filling it, and tap it to grow warm.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "In the Elendel Basin, businesses are forbidden by law to use emotional Allomancy on their customers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On Roshar, a fabrial with a brass cage weakens the fabrial's effect.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Soothes emotions",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Zinc",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores warmth",
+      "revealedIn": ["alloy-of-law"]
+    },
+    { "label": "Ferring", "name": "Firesoul", "revealedIn": ["alloy-of-law"] }
+  ],
+  "people": []
+}

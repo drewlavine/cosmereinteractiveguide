@@ -1,0 +1,220 @@
+{
+  "intro": [
+    {
+      "text": "Something that can leave a stain on fine cloth that is very hard to get out.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-8" }]
+    },
+    {
+      "text": "Ancient Invested entities, which their followers hold to predate Adonalsium itself. People bonded to one, called aetherbound, carry a bud of it and can grow its substance into objects.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+    },
+    {
+      "text": "Ancient Invested entities that existed before the Shattering of Adonalsium. They began on a single world, home to twelve primal aethers, and have since spread to others, including Lumar, whose seas are made of aether spores. People bonded to a primal aether are called aetherbound.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "lost-metal", "chapter": "51" },
+            { "book": "tress", "chapter": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Invested entities whose spores rain down on the planet Lumar from its twelve moons, forming its seas. Huge prime aethers live on the moons themselves.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each aetherbound is Connected to one of the twelve primal aethers, which grants them a bud of its core; the bud can show as a physical change to the body. They can grow its aether into shapes, limited by its size and by how clearly they can picture what they want, so complex mechanisms take great skill.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+    },
+    {
+      "text": "Roseite, the aether of Silajana, forms strong pink-red crystals that resist gunfire. Its aetherbound have a bud of roseite in the palm of one hand, and can choose its shade and clarity; unsustained roseite collapses into rose-coloured dust.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+    },
+    {
+      "text": "Aether made by an aetherbound fades without physical contact or a field of Investiture to sustain it. Pure Investiture can stand in for water, allowing greater feats. Aetherbound stay in contact with their primal aether, which can speak into their minds and may sense what lies around its aether.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+    },
+    {
+      "text": "On Lumar, aether spores touched by even a little water expand violently, pulling Investiture from the Spiritual Realm to grow into their substance, until they reach a maximum size. Silver and salt kill them, turning them grey. The growth can be steered by thoughts and commands, and is pushed by steel and pulled by iron.",
+      "revealedIn": [{ "book": "tress", "chapter": "44" }]
+    },
+    {
+      "text": "Lumar's aethers are an especially parasitic strain. Midnight Essence instead forms a Luhel bond: in exchange for water, it lets a person control it and see through its eyes, taking the shape of something from their mind.",
+      "revealedIn": [{ "book": "tress", "chapter": "48" }]
+    },
+    {
+      "text": "Aethers can grow slow and drowsy with age, needing an aetherbound to wake them; an aetherbound can also talk them into sleep, and sleeping aether does not react to water.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "46" }]
+    },
+    {
+      "text": "If an aetherbound's aether dies, their bud cracks and they lose most of their abilities, though while they keep the bud they can still speak to aether and its spores.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "42" },
+            { "book": "lost-metal", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Those who follow the primal aethers hold that the aethers predate Adonalsium and are independent of its creations.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+        },
+        {
+          "text": "On the home world of the primal aethers, a dark aether became a threat too great for Prasanva to defeat, and Prasanva went offworld in search of allies.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Lumar",
+          "revealedIn": [
+            { "book": "tress", "chapter": "28" },
+            {
+              "all": [
+                { "book": "tress", "chapter": "10" },
+                { "book": "isles-of-the-emberdark", "chapter": "28" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The prime aethers on Lumar's moons need water but have none, so they choose people below as spore eaters, who host a manifestation of the aether that protects them while it drains their water, which can kill them.",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        },
+        {
+          "text": "Lumarans use spores in cannonballs filled with water, to burst against enemy ships.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "tress", "chapter": "10" },
+                { "book": "isles-of-the-emberdark", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Midnight Essence is used on Lumar for spying.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Midnight Essence, the midnight aether, was among the dangers on Roshar during the Desolations.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "tress", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Among the stars",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "36" },
+            { "book": "isles-of-the-emberdark", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Many people mine aether spores from Lumar.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "36" }]
+        },
+        {
+          "text": "Aether fuels Scadrian ships, and an aetherbound can put that aether to sleep, leaving the engines unusable for a time.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Effect",
+      "name": "Grows into crystal, vines, air or fire",
+      "revealedIn": [{ "book": "tress", "chapter": "52" }]
+    },
+    {
+      "label": "Powered by",
+      "name": "Water, or Investiture",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "lost-metal", "chapter": "epilogue-1" },
+            { "book": "tress", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Weakness",
+      "name": "Silver and salt",
+      "revealedIn": [{ "book": "tress", "chapter": "11" }]
+    },
+    {
+      "label": "Users",
+      "name": "Aetherbound",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "42" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "prasanva",
+      "role": "aetherbound",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+    },
+    {
+      "characterId": "aditil",
+      "role": "aetherbound",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "42" }]
+    }
+  ]
+}

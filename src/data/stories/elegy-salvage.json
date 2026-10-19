@@ -1,0 +1,172 @@
+{
+  "intro": [
+    {
+      "text": "A Charred woman of Canticle, once the Lodestar of Beacon, brought back from the Cinder King's city and kept restrained.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    },
+    {
+      "text": "The former Lodestar of Beacon on Canticle. Nomad has freed her from the Cinder King's control, but her memories have been burned away.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lodestar of Beacon",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For a time Elegy was the Lodestar of Beacon. She inspired its people to rebel and decided to move the city into the darkness behind the maelstrom. Stealing the Cinder King's key to reach the Refuge was her plan too. She briefly considered settling in the southern corridor, but found no way past the mountains.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+        },
+        {
+          "text": "The Cinder King captured her and made her a Charred.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The arena",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "3" },
+            { "book": "sunlit-man", "chapter": "5" },
+            { "book": "sunlit-man", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Nomad defied Glowing Eyes and was put in the arena, Elegy was the main ember-hearted fighter sent against him. Nomad secretly turned Auxiliary into a crowbar to fend her off and disarm her, then, as she climbed after him, made Aux a heavy barbell and slammed it into her, defeating her.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "3" }]
+        },
+        {
+          "text": "When the Beaconites attacked the arena, Rebeke and a companion used the chaos to search for Elegy, found her lying in the mud and escaped with her on their quadcycle. Her companion was killed as they fled.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "5" }]
+        },
+        {
+          "text": "Though she was brought safely to Beacon, Elegy was hostile to her rescuers and communicated only in growls, so they had to restrain her.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nomad's experiments",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "24" },
+            { "book": "sunlit-man", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nomad asked for Elegy so he could study Canticle's Investiture. Pressing depleted sunhearts to her did nothing, nor did using a local prayer as a command, but a charged sunheart drew some heat from her.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        },
+        {
+          "text": "Touching her cinderheart with a charged sunheart removed some of its corruption, freeing her from the Cinder King's control and letting her speak. She demanded to be released and to have the Cinder King's voice restored to her mind. It soon became clear that she didn't remember Rebeke: her memories had been burned away.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        },
+        {
+          "text": "Thinking her cured, Rebeke freed Elegy, who immediately attacked Nomad. After a struggle, he turned Auxiliary into handcuffs and restrained her.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Crossing the mountains",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Nomad flew Beacon over the mountains, Elegy was locked in his cab so she couldn't hurt anyone. Returning after unhooking the boilers, he found her unconscious but alive.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stealing sunhearts",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "33" },
+            { "book": "sunlit-man", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the rush to leave, Nomad hadn't thought to move Elegy, so she came along on the mission to steal sunhearts. She told him she feared the Cinder King would retake control of her, and he gave her a sliver of sunheart to clear the corruption from her cinderheart if that happened.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+        },
+        {
+          "text": "Watching Nomad fight off Charred, Elegy was impressed and wanted to fight as he did. When he offered to remove her restraints, she refused, knowing she would attack him at once.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Refuge",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the fight for the Refuge, Nomad freed Elegy and lent her his Shardspear, and together they fought off the Charred. When the Scadrians refused to help the Beaconites, she pretended to be a mindless Charred lashing out at the rebels.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "46" }]
+        },
+        {
+          "text": "She and Rebeke were taken captive by the Cinder King. When he tried to put Elegy back under his control, she pretended it had worked and fooled him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Union",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "48" },
+            { "book": "sunlit-man", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Zellion flew after Union, Elegy attacked the Cinder King's other warriors and used her sunheart sliver to free them from the Cinder King's control, causing chaos. He threatened to kill Rebeke unless she stopped, and she was recaptured. Once he left, she escaped and met Zellion, who told her to save her sister from being transformed.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+        },
+        {
+          "text": "Elegy arrived too late to stop the process, but as the cinderheart transformed Rebeke, she drew some of Rebeke's Investiture into herself, halting the change halfway and leaving Rebeke like the Cinder King.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A Charred woman who appears to be in her late thirties, with light green eyes and short black hair streaked with silver. A vein of blackness with a glowing line down its center scores her left cheek, and like all Charred her chest has been burned away to house a glowing cinderheart.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Becoming a Charred made her far more aggressive, with an intense drive to fight everyone around her, though with great effort she can control herself. She admires strength but values discipline most, and wants to be someone who can master herself.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "51" }]
+    }
+  ]
+}

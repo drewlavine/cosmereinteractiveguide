@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Union who works as an official under the Cinder King.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Union",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a crisis, the Cinder King sent Faith to Union's command center to lock down the city. The lockdown kept every ship from leaving Union for an hour unless the Cinder King himself overrode it.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

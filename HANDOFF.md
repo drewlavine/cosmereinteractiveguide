@@ -103,7 +103,12 @@ OK.
   lead (an infobox title dated to the wrong ref, fixed in overrides); the
   rest were false alarms. Screenshots in `files/spoilers-sigzil/`.
 - Persona header names a standalone book by its title, not "Standalones".
-- **Mistborn Era 1 batch: details and stories done, art still to do.**
+- **Mistborn Era 1 batch: details, stories and art done.** Art: 54
+  portraits for 32 characters (manifests `~/cig-char-data/art/era1-a.json`,
+  `era1-b.json`; Alonoe's piece dropped as a possible hint); the rest have
+  no suitable Coppermind art. Journey event art on 44 of 278 events
+  (`~/cig-journey-data/hand/art/<book>.json`, brief `hand/art/BRIEF.md`,
+  wired via the config's `art` list in `import_hand.py`).
   177 stories written (6 stub pages skipped: cadon, cobble, dedri-vasting,
   sev, shum, lord-hue). Writer-flagged dating issues triaged (10 fixed via
   overrides, out-of-book facts dropped); Time Machine re-run on the 24

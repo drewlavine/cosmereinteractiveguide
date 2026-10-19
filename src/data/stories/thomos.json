@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "A prisoner of a cruel ruler and his burning warriors.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Prisoner in the arena",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "8" },
+            { "book": "sunlit-man", "chapter": "4" },
+            { "book": "sunlit-man", "chapter": "5" },
+            { "book": "sunlit-man", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Captured by the Cinder King's forces after an attack on Beacon, Thomos was made to watch other prisoners left for the sun, and saw Nomad survive the sunlight when he arrived on Canticle. Sent into the arena with about thirty other prisoners to evade the Cinder King's burning warriors, he helped Nomad climb onto one of the metal boxes and watched the contest from there with him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+        },
+        {
+          "text": "Because he had come through the contest with such stamina, the ruler chose to make him one of his burning warriors, raising a spear before a cheering crowd as Thomos screamed and struggled. His cries moved Nomad to act and summon his weapon, Aux, and the stunned ruler held off until a rescue party arrived.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+        },
+        {
+          "text": "In the fighting, the warriors holding him threw him aside and kicked him. He fell from the ruler's ship into the mud near the middle of the arena and broke his leg. Nomad pulled him free, carried him across the arena and put him on the back of a rescuer's quadcycle, and Thomos tearfully thanked him as they flew off.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "5" }]
+        },
+        {
+          "text": "Clinging to his seat as the cycle was chased away, he slipped in and out of consciousness from the pain, but came round enough to watch in awe as Nomad drove off their pursuers.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Back at Beacon",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Beacon, Rebeke asked Zeal and Adonalsium-Will-Remember-Our-Plight-Eventually to tell his family he had been rescued. Half-conscious, he kept muttering that Nomad had survived the sunlight, and Zeal had him taken for medical care.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Slightly heavyset, with pale skin, brown eyes, a dimpled chin and a gap in his teeth. Like other people of Canticle, he wears gloves to avoid passing heat by accident.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gritty and determined in the face of danger, and willing to help others even when in peril himself.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+    }
+  ]
+}

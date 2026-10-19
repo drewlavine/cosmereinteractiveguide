@@ -1,0 +1,124 @@
+{
+  "intro": [
+    {
+      "text": "The group that leads the city of Beacon.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+    },
+    {
+      "text": "The three-member council that rules Beacon on Canticle. Its members are chosen from the elderly in the months before they are to become sunhearts, and each takes a title that serves as their name and stands for a duty on the council.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its members wear plain black dresses, gloves and hats, even indoors, and speak formally and deferentially when they disagree with one another.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+    },
+    {
+      "text": "The council makes Beacon's decisions but can hand authority to others, such as appointing a Lodestar or putting a hard choice to a vote of the whole city, and it can discipline those who defy it. Because its members change so often, a steward provides continuity, and a field commander and a lead engineer also serve under it.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+    },
+    {
+      "text": "Under the council, Jeffrey Jeffrey serves as steward, Solemnity Divine as lead engineer and Zeal as field commander.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leading Beacon",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "20" },
+            { "book": "sunlit-man", "chapter": "8" },
+            { "book": "sunlit-man", "chapter": "11" },
+            { "book": "sunlit-man", "chapter": "18" },
+            { "book": "sunlit-man", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "23" },
+            { "book": "sunlit-man", "chapter": "39" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Greater Good voted to make Elegy Salvage Beacon's Lodestar. Following her plan, Beacon stopped turning people into sunhearts, which let the council's members live and rule for longer, something Contemplation felt guilty about.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+        },
+        {
+          "text": "After a raid to rescue Elegy, the Greater Good weighed whether a key taken in the raid could open a way to lands beneath the surface.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+        },
+        {
+          "text": "The council decided to put the search for the underground Refuge to the people, and punished Rebeke for disobeying them.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "When the Cinder King's ships attacked the fleeing Beacon, all of the Greater Good were on one ship, which was targeted and boarded; Nomad helped fight off the attackers.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        },
+        {
+          "text": "Facing impassable mountains, Confidence took a gloomy view of Beacon's chances and challenged Nomad on his intentions.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+        },
+        {
+          "text": "After a prototype ship exploded, Compassion feared their deaths were sealed. The council accepted Nomad's plan to leave most of Beacon behind and thanked him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+        },
+        {
+          "text": "Once Beacon had crossed the mountains, the Greater Good gave Nomad a name in honour of the original Lodestar, connecting him to Canticle.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        },
+        {
+          "text": "After the Cinder King's fall, the Greater Good tried to hand power to Rebeke Salvage, but she left leadership with them.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Members",
+      "name": "Three",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+    },
+    {
+      "label": "Based in",
+      "name": "Beacon",
+      "placeId": "beacon",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "contemplation",
+      "role": "member",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    },
+    {
+      "characterId": "confidence",
+      "role": "member",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+    },
+    {
+      "characterId": "compassion",
+      "role": "member",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+    },
+    {
+      "characterId": "jeffrey-jeffrey",
+      "role": "steward",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    },
+    {
+      "characterId": "solemnity-divine",
+      "role": "lead engineer",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    },
+    {
+      "characterId": "zeal",
+      "role": "field commander",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    }
+  ]
+}

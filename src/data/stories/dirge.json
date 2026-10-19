@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Beacon who helped test Nomad's engine designs.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+    },
+    {
+      "text": "A resident of Beacon and one of the five engineers on Solemnity Divine's team.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beacon",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Helped test the prototypes of Nomad's steam-powered engine and refine the design.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Nomad regarded the engineering team as skilled, knowledgeable overachievers, though Canticle's harsh conditions had kept them from studying some ideas that would be basic on other worlds.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+    }
+  ]
+}

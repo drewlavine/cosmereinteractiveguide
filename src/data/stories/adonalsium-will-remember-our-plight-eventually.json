@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Beacon on Canticle.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beacon",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Zeal asked him to find sleeping quarters for Nomad and Elegy, but Nomad refused to go with him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

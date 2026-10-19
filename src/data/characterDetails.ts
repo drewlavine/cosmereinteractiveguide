@@ -9370,4 +9370,673 @@ export const characterDetails: Record<string, CharacterDetails> = {
     bonds: [],
     relatives: [],
   },
+  auxiliary: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        { book: 'sunlit-man', chapter: '28' },
+        { book: 'wind-and-truth', chapter: '86' },
+      ],
+    },
+    aliases: [
+      { name: 'Aux', revealedIn: [{ book: 'sunlit-man', chapter: '2' }] },
+      {
+        name: '12124',
+        revealedIn: [
+          {
+            all: [
+              { book: 'sunlit-man', chapter: '40' },
+              { book: 'wind-and-truth', chapter: '147' },
+            ],
+          },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Highspren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker magic',
+        revealedIn: [
+          { book: 'oathbringer', chapter: '121' },
+          { book: 'sunlit-man', chapter: '28' },
+        ],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'sunlit-man', chapter: '1' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Nomad', revealedIn: [{ book: 'sunlit-man', chapter: '1' }] },
+      { name: 'Szeth', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    relatives: [],
+    personas: [
+      {
+        id: '12124',
+        name: '12124',
+        coppermindPage: '12124',
+        books: ['oathbringer', 'rhythm-of-war', 'wind-and-truth'],
+        identityRevealedIn: [
+          {
+            all: [
+              { book: 'sunlit-man', chapter: '40' },
+              { book: 'wind-and-truth', chapter: '147' },
+            ],
+          },
+        ],
+      },
+    ],
+  },
+  'cinder-king': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Glowing Eyes',
+        revealedIn: [{ book: 'sunlit-man', chapter: '2' }],
+      },
+      {
+        name: 'Cinder King',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+      { name: 'Sunlit One', revealedIn: ['sunlit-man'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '2' }] },
+    ],
+    abilities: [
+      { name: 'Charred', revealedIn: [{ book: 'sunlit-man', chapter: '44' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'glowing-eyes',
+        name: 'Glowing Eyes',
+        coppermindPage: 'Cinder King',
+        books: ['sunlit-man'],
+        identityRevealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+  },
+  'rebeke-salvage': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+    aliases: [
+      {
+        name: 'Sunlit One',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    abilities: [
+      { name: 'Charred', revealedIn: [{ book: 'sunlit-man', chapter: '50' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Elegy',
+        relation: 'sibling',
+        characterId: 'elegy-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '25' }],
+      },
+      {
+        name: 'Divinity',
+        relation: 'sibling',
+        characterId: 'divinity-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+  },
+  'elegy-salvage': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    abilities: [
+      { name: 'Charred', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Divinity',
+        relation: 'sibling',
+        characterId: 'divinity-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '25' }],
+      },
+      {
+        name: 'Rebeke',
+        relation: 'sibling',
+        characterId: 'rebeke-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '25' }],
+      },
+    ],
+  },
+  contemplation: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+    aliases: [
+      {
+        name: 'Contemplation',
+        revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Greater Good',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zeal: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Union', revealedIn: [{ book: 'sunlit-man', chapter: '12' }] },
+    ],
+    profession: [
+      {
+        name: 'Field Commander',
+        revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  confidence: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+    aliases: [
+      {
+        name: 'Confidence',
+        revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Greater Good',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zellion: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'threnody',
+      revealedIn: [{ book: 'sunlit-man', chapter: '22' }],
+    },
+    aliases: [
+      { name: 'Lodestar', revealedIn: [{ book: 'sunlit-man', chapter: '11' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '11' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'sunlit-man', chapter: '22' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  compassion: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+    aliases: [
+      {
+        name: 'Compassion',
+        revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '8' }] },
+    ],
+    abilities: [
+      { name: 'Sunheart', revealedIn: [{ book: 'sunlit-man', chapter: '39' }] },
+    ],
+    nationality: [
+      { name: 'Union', revealedIn: [{ book: 'sunlit-man', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Greater Good',
+        revealedIn: [{ book: 'sunlit-man', chapter: '12' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'divinity-salvage': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Union', revealedIn: [{ book: 'sunlit-man', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rebeke',
+        relation: 'sibling',
+        characterId: 'rebeke-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+      {
+        name: 'Elegy',
+        relation: 'sibling',
+        characterId: 'elegy-salvage',
+        revealedIn: [{ book: 'sunlit-man', chapter: '25' }],
+      },
+    ],
+  },
+  'solemnity-divine': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Engineer', revealedIn: [{ book: 'sunlit-man', chapter: '23' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jeffrey-jeffrey': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thomos: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Union', revealedIn: [{ book: 'sunlit-man', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'adonalsium-will-remember-our-plight-eventually': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  haridan: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'sunlit-man', chapter: '12' }],
+    },
+    aliases: [
+      {
+        name: 'Lieutenant',
+        revealedIn: [{ book: 'sunlit-man', chapter: '12' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '11' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'sunlit-man', chapter: '12' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dirge: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Engineer', revealedIn: [{ book: 'sunlit-man', chapter: '23' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'deborah-james': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hardy: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  faith: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'canticle',
+      revealedIn: [{ book: 'sunlit-man', chapter: '48' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'sunlit-man', chapter: '48' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Union', revealedIn: [{ book: 'sunlit-man', chapter: '48' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'truth-is-waiting': {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    world: { planetId: 'threnody', revealedIn: ['sunlit-man'] },
+    aliases: [
+      { name: 'Truth', revealedIn: ['sunlit-man'] },
+      {
+        name: 'Staff Sergeant',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['sunlit-man'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Night Brigade',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  admiral: {
+    appearsIn: [
+      {
+        bookId: 'sunlit-man',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    world: { planetId: 'threnody', revealedIn: ['sunlit-man'] },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Night Brigade',
+        revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
 }

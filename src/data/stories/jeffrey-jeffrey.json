@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A citizen of Beacon who serves as an administrator for the Greater Good.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Beacon",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "11" },
+            { "book": "sunlit-man", "chapter": "32" },
+            { "book": "sunlit-man", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Took part in the raid that stole a Scadrian authorization badge from the Cinder King, and gave the Greater Good a report of the mission on the group's return. When Nomad said he could work the key to enter the Refuge, Jeffrey Jeffrey judged reaching the Refuge to be Beacon's only hope.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "When Beacon failed to find the Refuge, he joined its leaders to count the losses and plan anew. He helped Nomad gather materials to adapt Beacon's engines for a vacuum, showed him the controls for the climb over the mountain, and was at the meeting that surveyed the damage after Beacon crashed on the far side.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+        },
+        {
+          "text": "Flew a Beacon gunship in a battle with Union. When his ship went down, Nomad rescued him and set him down on the Dawnchaser.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A burly man with a bushy black beard and brown eyes. Nomad thought he looked like one of his own cousins.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "8" }]
+    }
+  ],
+  "personality": []
+}

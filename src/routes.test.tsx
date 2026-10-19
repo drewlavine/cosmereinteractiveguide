@@ -70,6 +70,17 @@ describe('routes', () => {
     expect(screen.getByText('Between Braize and Jes')).toBeInTheDocument()
   })
 
+  it('links from a system map back to the star map', async () => {
+    renderAt('/systems/rosharan')
+    await userEvent.click(screen.getByRole('link', { name: 'Star map' }))
+    expect(
+      await screen.findByRole('link', { name: 'Selish System' }),
+    ).toBeInTheDocument()
+    expect(
+      screen.queryByRole('complementary', { name: 'System information' }),
+    ).not.toBeInTheDocument()
+  })
+
   it('starts with the system info panel collapsed and toggles it', async () => {
     renderAt('/systems/rosharan')
     const details = screen

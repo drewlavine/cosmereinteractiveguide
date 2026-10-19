@@ -379,10 +379,18 @@ describe("Kaladin's journey in The Way of Kings", () => {
     expect(all.stops.every((s) => s.where?.bookId === wok)).toBe(true)
     expect(all.spoilers).toBe(true)
     expect(all.credits[0].url).toBe('https://github.com/17thshard/roshar-map')
-    // Roshar's places are only listed (linked) once the book is finished;
-    // midway each stop gives only the name its own chapter tells.
+    // Midway a stop links its place only once a chapter reached names it;
+    // otherwise it gives only the name its own chapter tells.
     const midway = (await kaladin(at('60'))).stops
-    expect(midway.every((s) => s.place && !s.place.href)).toBe(true)
+    expect(midway.every((s) => s.place)).toBe(true)
+    for (const s of midway)
+      if (s.place?.href)
+        expect(
+          at('60')(
+            journeyAtlas.place(s.place.href.split('/').at(-1)!)!.revealedIn,
+          ),
+        ).toBe(true)
+    expect(midway.some((s) => !s.place?.href)).toBe(true)
     expect(all.stops.some((s) => s.place?.name === 'Shattered Plains')).toBe(
       true,
     )
@@ -521,5 +529,73 @@ describe("Vin's journey in Era 1", () => {
     const stop = (await vin(reading('final-empire', '34'))).stops.at(-1)!
     expect(stop.title).toBe("Kelsier's death")
     expect(stop.place?.name ?? '').not.toMatch(/Survivor/)
+  })
+})
+
+describe('persona journeys', () => {
+  const tfe = (chapter: string) =>
+    readerCanSee({
+      read: new Set(),
+      reading: new Map([['final-empire', chapter]]),
+    })
+  const stay = (
+    id: string,
+    who: string,
+    reveal: Reveal,
+    order: number,
+  ): JourneyEvent => ({
+    id,
+    characters: [who],
+    mapId: 'final-empire',
+    path: [[1273, 805]],
+    revealedIn: reveal,
+    order,
+  })
+  // Made-up events: one told under the persona's name, one about the
+  // character himself, dated in the persona's book, and one in a later book.
+  const events = [
+    stay('ruler', 'lord-ruler', [{ book: 'final-empire', chapter: '5' }], 1),
+    stay('trek', 'rashek', [{ book: 'final-empire', chapter: '20' }], 0),
+    stay('later', 'rashek', [{ book: 'well-of-ascension', chapter: '5' }], 2),
+  ]
+  const index = {
+    'lord-ruler': [
+      {
+        pack: 'scadrial',
+        mapId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '5' }],
+      },
+    ],
+    rashek: [
+      {
+        pack: 'scadrial',
+        mapId: 'final-empire',
+        revealedIn: [{ book: 'final-empire', chapter: '20' }],
+      },
+    ],
+  }
+  const ids = (id: string, canSee: ReturnType<typeof at>) =>
+    revealCharacterJourney(id, events, journeyAtlas, canSee).stops.map(
+      (s) => s.id,
+    )
+
+  it("shows a persona's own events on its page, never the character's", () => {
+    expect(ids('lord-ruler', tfe('30'))).toEqual(['ruler'])
+    expect(journeyShown('lord-ruler', index, journeyAtlas, tfe('30'))).toBe(
+      true,
+    )
+    expect(journeyShown('lord-ruler', index, journeyAtlas, tfe('4'))).toBe(
+      false,
+    )
+  })
+
+  it("keeps the character's events in the persona's books hidden until the reader sees through it", () => {
+    expect(ids('rashek', tfe('30'))).toEqual([])
+    expect(journeyShown('rashek', index, journeyAtlas, tfe('30'))).toBe(false)
+  })
+
+  it('merges both once the reader knows who the persona is', () => {
+    expect(ids('rashek', tfe('38'))).toEqual(['trek', 'ruler'])
+    expect(journeyShown('rashek', index, journeyAtlas, tfe('38'))).toBe(true)
   })
 })

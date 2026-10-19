@@ -100,6 +100,72 @@ describe('locations list', () => {
     renderAt('/locations?q=kredik', ERA1)
     expect(names()).toEqual(['Kredik Shaw'])
   })
+
+  it('groups by book, only books the reader may see', () => {
+    renderAt('/locations?group=book', ERA1)
+    const regions = screen
+      .getAllByRole('region')
+      .map((r) => r.getAttribute('aria-labelledby'))
+    expect(regions.length).toBeGreaterThan(0)
+    const wellOf = books.find((b) => b.id === 'well-of-ascension')!.title
+    const group = screen.getByRole('region', { name: wellOf })
+    const inBook = listedLocations
+      .filter((l) => l.books.includes('well-of-ascension'))
+      .map((l) => l.name)
+    for (const li of group.querySelectorAll('li'))
+      expect(inBook).toContain(li.textContent?.trim())
+    expect(
+      screen.queryByRole('region', {
+        name: books.find((b) => b.id === 'way-of-kings')!.title,
+      }),
+    ).toBeNull()
+  })
+
+  it('groups a place under the book being read once it is revealed', () => {
+    const sunlit = books.find((b) => b.id === 'sunlit-man')!.title
+    renderAt('/locations?group=book', [], { 'sunlit-man': '6' })
+    expect(screen.queryByRole('region', { name: sunlit })).toBeNull()
+    cleanup()
+    renderAt('/locations?group=book', [], { 'sunlit-man': '7' })
+    expect(
+      within(screen.getByRole('region', { name: sunlit })).getByText('Beacon'),
+    ).toBeInTheDocument()
+  })
+
+  it('shows a place from the chapter that names it, sorted by type only once known', () => {
+    renderAt('/locations?group=type', [], { 'sunlit-man': '7' })
+    expect(within(list()).queryByText('Beacon')).toBeNull()
+    expect(
+      screen.getByText(/1 more place not sorted by type/),
+    ).toBeInTheDocument()
+    cleanup()
+    renderAt('/locations?group=type', [], { 'sunlit-man': '13' })
+    expect(within(list()).getByText('Beacon')).toBeInTheDocument()
+  })
+})
+
+describe('a place only named so far', () => {
+  it('says where it was mentioned and nothing more until its intro', async () => {
+    renderAt('/locations/beacon', [], { 'sunlit-man': '7' })
+    expect(
+      await screen.findByText(
+        'A place first mentioned in Chapter 7 of The Sunlit Man.',
+      ),
+    ).toBeInTheDocument()
+    expect(screen.queryByText('Type')).toBeNull()
+    expect(screen.queryByText('World')).toBeNull()
+    cleanup()
+    renderAt('/locations/beacon', [], { 'sunlit-man': '13' })
+    expect(await screen.findByText('Type')).toBeInTheDocument()
+    expect(screen.queryByText(/first mentioned in/)).toBeNull()
+  })
+
+  it('stays hidden before the chapter that names it', () => {
+    renderAt('/locations/beacon', [], { 'sunlit-man': '6' })
+    expect(
+      screen.getByRole('heading', { name: 'Not reached yet' }),
+    ).toBeInTheDocument()
+  })
 })
 
 describe('location page maps', () => {

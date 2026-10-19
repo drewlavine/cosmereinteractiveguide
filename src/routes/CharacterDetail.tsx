@@ -25,6 +25,7 @@ import {
   findPersona,
   hasMet,
   revealCharacter,
+  journeyIds,
   revealCharacterJourney,
   revealCharacterTravels,
   revealPortrait,
@@ -81,10 +82,9 @@ export function CharacterDetail() {
   const canSee = useCanSee()
   const systems = useShownSystems()
   const prose = useStory(persona?.characterId ?? character?.id)
-  // A persona page has no journey (see revealCharacterJourney).
   const journeyPacks = useJourneyPacks(
     journeyIndex,
-    persona ? undefined : character?.id,
+    character ? journeyIds(character.id, canSee) : [],
   )
   // Only phones collapse the key facts (see the stylesheet).
   const [factsOpen, setFactsOpen] = useState(false)

@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The power that magic systems draw upon. An art may use Investiture from within the practitioner or from an outside source.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A form of power that, like matter, can be turned into energy. Magic systems are the most common way to tap it.",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Invested Arts can gain Investiture, lose it or break even in use.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "In the Physical Realm Investiture can take solid, liquid or gaseous forms, and solid Investiture is always metallic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "57" },
+            { "book": "edgedancer", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Investiture cannot be created or destroyed, only changed in form.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "lost-metal", "chapter": "17" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Raw Investiture responds to the thoughts and perceptions of thinking beings and can be reshaped by them, though a being with a firm sense of self resists such change.",
+      "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+    },
+    {
+      "text": "Investiture in active use is called kinetic; Investiture held in a vessel such as a gemstone is static, and objects holding it resist being affected by Invested Arts.",
+      "revealedIn": [
+        { "all": ["rhythm-of-war", { "book": "sunlit-man", "chapter": "6" }] }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Unit",
+      "name": "Breath Equivalent Unit (BEU)",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+    }
+  ],
+  "people": []
+}

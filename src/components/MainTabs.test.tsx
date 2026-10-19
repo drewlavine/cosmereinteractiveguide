@@ -31,6 +31,7 @@ describe('main tabs', () => {
       'Locations',
       'Abilities',
       'Culture',
+      'Timeline',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
       '/',
@@ -39,6 +40,7 @@ describe('main tabs', () => {
       '/locations',
       '/abilities',
       '/culture',
+      '/timeline',
     ])
     expect(new Set(mainTabs.map((t) => t.id)).size).toBe(mainTabs.length)
   })
@@ -82,13 +84,11 @@ describe('main tabs', () => {
     expect(isCharacters('/charactersheet')).toBe(false)
   })
 
-  it('hides the Events tab but keeps its page', async () => {
-    renderAt('/events')
+  it('shows a placeholder page for the Timeline tab', async () => {
+    renderAt('/timeline')
     expect(
-      within(mainNav()).queryByRole('link', { name: 'Events' }),
-    ).not.toBeInTheDocument()
-    expect(
-      await screen.findByRole('heading', { level: 1, name: 'Events' }),
+      await screen.findByRole('heading', { level: 1, name: 'Timeline' }),
     ).toBeInTheDocument()
+    expect(activeTab()).toEqual(['Timeline'])
   })
 })

@@ -1,0 +1,207 @@
+{
+  "intro": [
+    {
+      "text": "The soul of a dead person that holds on in the Cognitive Realm instead of being drawn on into the Beyond, as most of the dead quickly are.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+    },
+    {
+      "text": "A soul kept from passing on after death by Investiture. On Roshar, the Fused are singers made into Cognitive Shadows by Odium's power.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+    },
+    {
+      "text": "A spirit that has not moved on to the Beyond, also called a Type Two Invested entity. Cognitive Shadows can arise on any world in the cosmere, though they take different forms from one world to another.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Scholars, theologians and philosophers debate whether a Cognitive Shadow is the person themselves or a copy of them made of Investiture.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    },
+    {
+      "text": "A newly dead soul can become a Cognitive Shadow by finding Investiture to anchor it in the Cognitive Realm before it passes on; the Investiture takes the place of the parts of the soul that tied it to the Realms. Strong attachment to the Physical Realm can play a part. Some are bound to the planetary system where they formed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "1-1" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Cognitive Shadow can choose to pass into the Beyond. It can also be destroyed by starving it of Investiture or by cutting its Connection to all three Realms, which removes its anchor and feels like having the soul torn apart. A weak one put back into its body dies if the body is killed again.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "1-1" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "How others see a Cognitive Shadow slowly shapes it, though a strong sense of self means this takes centuries; those with a weaker sense of self change more easily. Shadows invisible in the Physical Realm can still be seen and heard by people who exist partly in the Cognitive Realm.",
+      "revealedIn": [{ "book": "yumi", "chapter": "17" }]
+    },
+    {
+      "text": "Cognitive Shadows usually keep their memories, which are written into the Cognitive aspect, though a Shard or similar being can strip memories away by tampering with their Investiture. Over time their minds change, binding them more tightly to their Intent and making them more and more like spren.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "15" },
+            { "book": "yumi", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Scadrial",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "1-1" },
+            { "book": "secret-history", "chapter": "6-4" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kelsier died, he refused to go on into the Beyond, and Leras preserved him by making him part of the power of the Well of Ascension, where he remained trapped.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+        },
+        {
+          "text": "Infused with Preservation's power through the Well, Kelsier was a Cognitive Shadow; after Ruin was freed he could roam Scadrial's Cognitive Realm and influence the Physical, though not leave it. With a device made by the Ire, he briefly held Preservation itself.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        },
+        {
+          "text": "Kelsier found a way to build himself a new physical body through Hemalurgy and return to the Physical Realm, though he never regained his Allomancy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Threnody",
+          "revealedIn": [
+            {
+              "all": [
+                "shadows-for-silence",
+                { "book": "secret-history", "chapter": "3-2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Threnody's shades are Cognitive Shadows that can touch the Physical Realm. Quick movement at night, fire or spilled blood draws them; their touch withers and usually kills, and those they kill become shades. Silver repels and harms them.",
+          "revealedIn": [
+            {
+              "all": [
+                "shadows-for-silence",
+                { "book": "secret-history", "chapter": "3-2" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Singers who turned to Odium for help against the humans were infused with his power and became Cognitive Shadows, the Fused. They dwell on Braize and return in each Desolation, taking the bodies of living singers, and the endless cycle of rebirth slowly drives them mad.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "The Thunderclasts, giant stone monsters that serve Odium in the Desolations, are rock animated by the Cognitive Shadow of a singer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Komashi",
+          "revealedIn": [
+            { "book": "yumi", "chapter": "39" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The yoki-hijo were Invested enough to re-form after being killed by the father machine, which then trapped them in a simulation of their old lives, repeating the same day while their memories were wiped.",
+          "revealedIn": [{ "book": "yumi", "chapter": "39" }]
+        },
+        {
+          "text": "The nightmares were people of Torio killed by the father machine, which took their souls. Freed a little at night, they roamed in search of people to feed on, until painters forced them into harmless shapes. When the machine was destroyed and the shroud lifted, they dissolved away.",
+          "revealedIn": [{ "book": "yumi", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Also called",
+      "name": "Type Two Invested entity",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    },
+    {
+      "label": "Anchored by",
+      "name": "Investiture",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "1-1" },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "Cognitive Shadow",
+      "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+    }
+  ]
+}

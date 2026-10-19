@@ -69,8 +69,8 @@ describe('search', () => {
     expect(hit.key).toBe('character:kaladin')
     expect(hit.subtitle).toBe('Character · not met yet')
     // The exact hit isn't counted as hidden (other unmet near-names may be).
-    expect(search.search('kaladin').hidden).toBe(
-      reader('way-of-kings').search('kaladin').hidden,
+    expect(search.search('szeth').hidden).toBe(
+      reader('way-of-kings').search('szeth').hidden,
     )
     // Partial names, typos and other names stay hidden.
     for (const query of ['kalad', 'kaladn', 'davar', 'stormblessed', 'zahel'])

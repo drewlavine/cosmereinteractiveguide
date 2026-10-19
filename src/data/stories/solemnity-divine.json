@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A Beaconite on Canticle who follows Nomad's explanation of the city's failing engines better than anyone else in the room.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+    },
+    {
+      "text": "The lead engineer of Beacon on Canticle, who helps Nomad design and test ways to get the city over the mountains in its path.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Crossing the mountains",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "23" },
+            { "book": "sunlit-man", "chapter": "26" },
+            { "book": "sunlit-man", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Nomad explained why Beacon's engines gave out where the air was thin, Solemnity Divine was the least lost person in the room. She told him her people had little time to spend on researching flight.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+        },
+        {
+          "text": "Her expertise lay in repairing and copying the technology Beacon already had; by her own account she knew little of fluid dynamics or aviation, though Nomad thought she and her engineers were more skilled than they believed.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+        },
+        {
+          "text": "After Nomad's prototype engine for thin air exploded, he gave her the schematics. She and her best colleagues reworked the design while the rest of her engineers sealed the air into the largest ships. Of their three new prototypes, only two exploded.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "26" }]
+        },
+        {
+          "text": "When Nomad told her to start building the engines, she felt they weren't ready but did it anyway.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "27" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Left for the sun",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Solemnity Divine was left for the sun with the other Beaconites. When Zellion arrived to save them, he had her help prepare a supercharged sunheart to power the dome and the Dawnchaser. She then flew Zellion to Union in the ship.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tan-skinned woman with long dark hair; Nomad thinks she could pass for an Alethi.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She is often sarcastic.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "32" }]
+    }
+  ]
+}

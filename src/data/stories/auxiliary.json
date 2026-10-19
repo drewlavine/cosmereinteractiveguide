@@ -1,0 +1,534 @@
+{
+  "intro": [
+    {
+      "text": "12124, a highspren bonded to Szeth, who seldom shows himself and is always judging his Radiant's worthiness.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+    },
+    {
+      "text": "Nomad's spren companion, who takes the form of tools and weapons when Nomad summons him.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+    },
+    {
+      "text": "Nomad's spren companion, reduced to a fragment of his mind and personality after a Dawnshard consumed most of him.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "40" }]
+    },
+    {
+      "text": "Nomad's spren companion, known as Aux and once Szeth's highspren, 12124. After a Dawnshard consumed most of him, a fragment of him traveled with Nomad, on the run from the Night Brigade, until he gave it up on Canticle to save Nomad and Beacon.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "sunlit-man", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's highspren",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "i-7" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "12124 bonded Szeth before the Battle of Thaylen Field and approved when Szeth swore his Third Ideal there. He stayed at Szeth's side, always judging his worthiness. While Szeth guarded Gavinor and Dalinar on the Emuli front, 12124 showed himself to urge Szeth to complete his Fourth Ideal quest soon and to rely more on his own judgement than on Dalinar's.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "i-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During the Cleansing of Shinovar, a guilt-ridden 12124 watched one of Szeth's therapy sessions and asked Kaladin for one too. Speaking very formally at first, he revealed that highspren also swear oaths with their knights, and regretted mentioning the idea of joining dissenters. He insisted therapy was easy, yet admitted feeling relieved afterwards, then vanished.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "28" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "10" },
+                { "book": "sunlit-man", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            },
+            { "book": "sunlit-man", "chapter": "45" },
+            { "book": "sunlit-man", "chapter": "40" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Looking back, Auxiliary disliked the person he had been on Roshar before he met Nomad.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        },
+        {
+          "text": "Szeth's former highspren met Nomad in Shadesmar, among an Iriali convoy, soon after Nomad took up the Dawnshard. He had rejected his old name, 12124, considering himself a failure, but hadn't chosen another. Nomad told him he wanted to lie low and take the easy road.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "10" },
+                { "book": "sunlit-man", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He and Nomad chose to bond, neither fully understanding what that meant alongside the Dawnshard Nomad held. Over years together, including time on Roshar, he took the name Auxiliary and slowly let Nomad see his true self. His early moral lectures gave way to leading questions, and in time he swore oaths as a Knight Radiant in his own right.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "Years after they bonded, Nomad unconsciously reached for the Dawnshard in a moment of need, and it consumed nearly all of Auxiliary's essence. He shielded a small fragment of his mind and soul that held his personality. Nomad then ordered him never to contact Wit.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "40" }]
+        },
+        {
+          "text": "After Nomad passed the Dawnshard on, the Night Brigade began hunting them, and the pair Skipped across tens of planets, never returning to Roshar, to protect people they cared about. Just before Canticle they barely managed a Skip from a cavern planet, leaving Nomad almost drained.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Arrival on Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "1" },
+            { "book": "sunlit-man", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Canticle, Nomad asked Auxiliary to Connect him to the planet for translation, but he was too low on Investiture. When warriors attacked and Nomad called for a weapon, Auxiliary reminded him that Nomad must summon him as one, and that his Torment was what stopped him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+        },
+        {
+          "text": "As dawn set the ground alight, Auxiliary realized the sunlight's overwhelming force and warned Nomad to avoid it. Nomad summoned him as a crowbar to break his restraints, then as a hook and chain that caught a fleeing hovercycle and dragged Nomad away just as the light reached him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+        },
+        {
+          "text": "As Nomad was dragged along the ground, Auxiliary warned that his healing was running out and that absorbing the sunlight would likely have destroyed him. Seeing them outpace the sun, he concluded the planet turned slowly. The riders couldn't pry his chain loose and dragged Nomad all the way to a flying city.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The flying city",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "2" },
+            { "book": "sunlit-man", "chapter": "3" },
+            { "book": "sunlit-man", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hauled up into the city, Nomad kept Auxiliary as a chain to hide his abilities. Listening to Glowing Eyes and his officers, Auxiliary half-recognized their language through a faint Connection and translated a phrase as One Who Escaped the Sun.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "2" }]
+        },
+        {
+          "text": "In the arena, as a warrior leapt at Nomad, he summoned Auxiliary as a heavy weight that she crashed into, bringing all three down. Nomad rose to challenge Glowing Eyes, who activated Nomad's bracers and knocked him out.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "3" }]
+        },
+        {
+          "text": "Tossed aside as a crowbar, Auxiliary told the waking Nomad what had happened. They watched Glowing Eyes transform a captive with an ember-tipped spear, which Auxiliary doubted held enough power for a Skip. When Glowing Eyes turned to another captive, Nomad, to Auxiliary's surprise, summoned him as a Shardblade and hurled him into a post beside the man's head.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+        },
+        {
+          "text": "Nomad flashed Auxiliary through several forms to draw Glowing Eyes to himself, hoping to be stabbed with the Invested spear so Auxiliary could absorb it. Before the blow fell, a nearby ship exploded as raiders attacked.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Escape",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "5" },
+            { "book": "sunlit-man", "chapter": "6" },
+            { "book": "sunlit-man", "chapter": "10" },
+            { "book": "sunlit-man", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the chaos, Nomad formed Auxiliary into an unusual insulating layer under his bracers, then a jack to shift the wreckage pinning him. Auxiliary warned that he couldn't shield Nomad from the sunrise, and confirmed that he could absorb Investiture from the planet's rings, though only slowly.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "5" }]
+        },
+        {
+          "text": "Nomad offered Auxiliary as a crowbar to a young raider, begging for her help, then made him a shield against Glowing Eyes' shots. When Nomad shot away his last restraint and asked whether Auxiliary had seen how to fly her hovercycle, hoping to steal it, Auxiliary refused to answer and called him despicable.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "5" }]
+        },
+        {
+          "text": "Through Auxiliary's limited translation, the young woman offered to take Nomad along if he shielded them. After picking up another captive they fled, Nomad widening Auxiliary into a transparent shield over the cycle. He then leapt onto a pursuing ship, failed to summon a sword, and fought with Auxiliary as an oversized wrench and a shield.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "6" }]
+        },
+        {
+          "text": "Auxiliary warned of a second ship closing on the cycle. Nomad boarded it, pried open the hatch over its power source, kept his footing through a roll with Auxiliary as a magnetic boot, and absorbed its Investiture. Auxiliary then began Connecting him to the planet, and without telling him reinforced his Connection with Wit.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        },
+        {
+          "text": "Once Connected, Nomad and Auxiliary could understand Rebeke's radio call to Zeal, and Auxiliary recognized from their names that these people were Threnodites.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beacon",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "10" },
+            { "book": "sunlit-man", "chapter": "11" },
+            { "book": "sunlit-man", "chapter": "12" },
+            { "book": "sunlit-man", "chapter": "13" },
+            { "book": "sunlit-man", "chapter": "14" },
+            { "book": "sunlit-man", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Beacon, Auxiliary grumbled about being left out in the rain. Nomad told him their best chance of an Investiture source to leave the planet was the Scadrian research facility.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        },
+        {
+          "text": "When Nomad promised the Greater Good to help find the Refuge of Stone, knowing it was only a Scadrian outpost, Auxiliary called him callous but said no more, as it was their best way off the planet. Nomad declined to answer the council's questions about the spirit with him.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "Nomad confronted Auxiliary for disobeying orders and contacting Wit. Abashed, Auxiliary admitted he had hoped for a sudden transformation like the one when Nomad swore his Radiant oaths. When Nomad said most change was a slow slide, like aging, Auxiliary retorted that Nomad no longer aged.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "Scouting with Rebeke, Auxiliary was impressed when Nomad worked out the volcanic origin of the rock formations from little information. When he wondered how life under the Cinder King could be bad enough to flee into darkness, Nomad's questions drew out how sunhearts were made: from living people left to die in the sun.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+        },
+        {
+          "text": "Sickened, Auxiliary reasoned that the sun must supercharge them. Hearing that the Cinder King could forcibly drain people's heat and had done so to thousands, he warned Nomad that someone so Invested could be very dangerous. Then he spotted a Union scout ship, and they gave chase.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "13" }]
+        },
+        {
+          "text": "Auxiliary worried about a high-speed chase on a planet of expert pilots. After Rebeke shot the scout, he was puzzled that Nomad's uncomforting story consoled her. When Rebeke asked why Nomad talked to himself, Nomad said he prayed to an ancient god, and Auxiliary retorted that he was no god: he worked for a living.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "14" }]
+        },
+        {
+          "text": "When Rebeke feared becoming a killer, Auxiliary stopped Nomad from a glib reply, reminding him she was hurting, and an ashamed Nomad softened his answer. Watching the downed scout, they were surprised to see the Cinder King's personal ship arrive alone.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Cinder King",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "16" },
+            { "book": "sunlit-man", "chapter": "17" },
+            { "book": "sunlit-man", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Nomad parleyed aboard the Cinder King's ship, Auxiliary joked about how well adjusted the man seemed after hearing his theory of power. He thought the Cinder King might be smart, until he broke his word by bringing in a captive Rebeke. When the Cinder King fired at her, Nomad threw Auxiliary as a metal ball to block the blast.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "16" }]
+        },
+        {
+          "text": "Escaping on Rebeke's hovercycle, Nomad used Auxiliary as a door guard, crowbar and shield. Seeing the Cinder King examine the fake key, Auxiliary guessed he had realized the Beaconites were hunting for the door. When Rebeke wouldn't hold on to Nomad, embarrassed by her people's taboo on touch, Nomad anchored her to the cycle with Auxiliary.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "17" }]
+        },
+        {
+          "text": "Finding Beacon under attack, Auxiliary pointed out the Greater Good's ship under pursuit and scolded Nomad for briefly considering the Cinder King's offer. Nomad broke into the ship with Auxiliary and drew the Charred away from the old women, while Auxiliary warned that he could barely keep Nomad moving under so many blows.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Over the mountains",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "20" },
+            { "book": "sunlit-man", "chapter": "21" },
+            { "book": "sunlit-man", "chapter": "22" },
+            { "book": "sunlit-man", "chapter": "23" },
+            { "book": "sunlit-man", "chapter": "24" },
+            { "book": "sunlit-man", "chapter": "25" },
+            { "book": "sunlit-man", "chapter": "26" },
+            { "book": "sunlit-man", "chapter": "28" },
+            { "book": "sunlit-man", "chapter": "29" },
+            { "book": "sunlit-man", "chapter": "30" },
+            { "book": "sunlit-man", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the leadership meeting, Auxiliary found it hilarious that they left Nomad lying on the floor like a sleeping dragon, and was confused why the city couldn't simply fly over thousand-foot mountains. He and Nomad retreated to Elegy's old chambers to test the engines and sunhearts.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "19" }]
+        },
+        {
+          "text": "Auxiliary acted as a sounding board for Nomad's tests, challenging his claim that all motion came from an imbalance of forces by recalling how they used to fly together. He wistfully said he had loved flying before the accident with the Dawnshard; when Nomad blamed himself, Auxiliary said he couldn't have foreseen it, and that he had saved this fragment of himself.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+        },
+        {
+          "text": "When Nomad turned to studying Elegy, hoping it might lead to a cure for his Torment, Auxiliary pointed out that Rebeke, likely disapproving, was hiding outside the door, and was smug when he proved right. He was wryly amused by Canticle's customs for sharing heat.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "21" }]
+        },
+        {
+          "text": "At the Reliquary, Auxiliary suggested the Chorus built things much as he did, so Nomad shouldn't be surprised. Nomad replied that Auxiliary didn't take in raw materials, which Auxiliary argued was the more reasonable way.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+        },
+        {
+          "text": "After the first prototype engine failed, Auxiliary found it suspiciously convenient that Beacon had the right engineers. When Nomad bluntly told the Greater Good that most of the city's ships must be abandoned, Auxiliary said he seemed to forget he was supposed to be good with people.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "23" }]
+        },
+        {
+          "text": "Holding the sunheart from Rebeke's cycle, Auxiliary estimated it at about two hundred BEUs, a fortune on many planets, and calculated that keeping Beacon aloft took tens of thousands, so the sunhearts must draw Investiture from outside. He reasoned that the Charred's cinderhearts were Connected to the Cinder King's, and judged Elegy's not to be anti-Investiture.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        },
+        {
+          "text": "When Elegy began to speak, Auxiliary teased Nomad about Rebeke's admiration, and noted that Elegy's soul was badly compromised, making her easy to control. As Nomad prepared to put a sliver of sunheart into a cut in his own arm to test it on his Torment, Auxiliary called it a really stupid idea.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "24" }]
+        },
+        {
+          "text": "When Elegy, freed by Rebeke, attacked, Nomad restrained her with Auxiliary as a cuff and chain, and Auxiliary seriously asked if he was all right. When Zeal asked how Nomad controlled his shade, Nomad said Auxiliary attacked with sarcasm rather than a deadly touch, and Auxiliary sarcastically insisted he was never sarcastic.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "25" }]
+        },
+        {
+          "text": "Watching the engineers test their new prototypes, Auxiliary noted they were lucky one worked, then marveled at the planet's landscape through a gap in the clouds.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "26" }]
+        },
+        {
+          "text": "On a stress-test flight up the mountain, Auxiliary asked what Nomad planned if they got the city over. Nomad admitted the real trouble would come when the Beaconites learned the Refuge was no haven, and that he had promised only to get them through the door. Sorrowful, Auxiliary asked whether they could do nothing more.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        },
+        {
+          "text": "At the summit, with Nomad unable to speak in the thin air, Auxiliary recalled their first encounter with the Night Brigade, when Nomad turned himself in, and said he didn't want to go back to who he had been then. Life was about growth, he said, and the person you were is the person you are.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        },
+        {
+          "text": "As they piloted Beacon up the mountain, Auxiliary found the climb more boring than it should be, and asked how long it had been since Nomad commanded so many people, which made Nomad bristle.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        },
+        {
+          "text": "When Elegy asked how Nomad could feel as she did without acting on it, Auxiliary urged him to just tell her there was more to life than fighting, but Nomad led her toward it instead. Auxiliary was amused that Elegy moralized at Nomad better than he did.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "29" }]
+        },
+        {
+          "text": "Freeing a stuck water tank, Nomad climbed beneath the city on Auxiliary as a hook and chain, the spren molding himself to each hold. When Nomad slipped, Auxiliary offered his remaining essence for a few moments of flight; Nomad flatly refused, and Auxiliary thanked him for caring.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "30" }]
+        },
+        {
+          "text": "When a blunt pole failed on the last latch, Auxiliary prompted Nomad to think of him as a tool to rescue Beacon's people rather than a weapon, and he formed a Shardspear that cut the lock. The city crested the summit but kept rising until its propellant ran out and it began to fall.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "30" }]
+        },
+        {
+          "text": "As Beacon fell, Auxiliary formed handholds to the control room and, with mounting fear, urged Nomad to restart the engines. Nomad waited for thicker air, then reignited them, slowing the city just enough before it crashed.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The maelstrom",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "33" },
+            { "book": "sunlit-man", "chapter": "34" },
+            { "book": "sunlit-man", "chapter": "35" },
+            { "book": "sunlit-man", "chapter": "36" },
+            { "book": "sunlit-man", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Auxiliary enjoyed how the Beaconites reacted to Nomad's wild plan to dig up sunhearts in the great maelstrom. On the Dawnchaser, he worried how much they trusted Nomad and told him he was a good leader. Seeing Zeal's crew laughing at the edge of destruction, he asked why Nomad couldn't find happiness between disasters too.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "33" }]
+        },
+        {
+          "text": "In the maelstrom, Auxiliary heard a faint ping from the prospector controls, and Nomad trusted his senses. Nomad dug with Auxiliary as a shovel, then sheltered beneath him as a shield while the heat burned through his Investiture; when he rose, Auxiliary reported that about fifteen minutes had passed and almost nothing was left.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "34" }]
+        },
+        {
+          "text": "Nomad hid in the Cinder King's vault behind a false cabinet front made of Auxiliary. Locked in with the sunhearts, he wanted a Shardspear to cut the door, but Auxiliary said his cankered soul and broken oaths prevented it, and Nomad couldn't recapture the right state of mind. Then Zeal opened the door.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "35" }]
+        },
+        {
+          "text": "Auxiliary warned that the Cinder King was following them. Realizing that the Cinder King's Thaylen sunheart might ease his Torment through their Connection, Nomad dashed onto his ship and used it, and Auxiliary confirmed it was working.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "36" }]
+        },
+        {
+          "text": "Fighting Charred at the Dawnchaser, Nomad set the Thaylen sunheart into Auxiliary as a bo staff, and Auxiliary found he could draw on its normally inaccessible Investiture. When a Charred slipped into the cabin, Nomad at last formed a Shardspear and killed it through the windshield. Auxiliary felt guilty fighting fellow victims of the Cinder King, and Nomad's Chasm Kata drove the rest away.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Refuge",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "39" },
+            { "book": "sunlit-man", "chapter": "40" },
+            { "book": "sunlit-man", "chapter": "41" },
+            { "book": "sunlit-man", "chapter": "42" },
+            { "book": "sunlit-man", "chapter": "44" },
+            { "book": "sunlit-man", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Beacon fled along the mountain's shadow, Auxiliary pointed out the slow water tower ship, and sensed something odd before one of Nomad's old Shardplate fragments reappeared. With just enough Investiture for enhanced strength, Nomad leapt to the rear and had Auxiliary pour it all into a shield over the ship, holding back the sunlight until it reached darkness.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        },
+        {
+          "text": "Auxiliary marveled that it had worked and that the light had pushed. When the Beaconites shared their heat and renamed Nomad Zellion, Auxiliary reminded him that words imbued with Intent have power, and noted that though the heat was little, it was a remarkable amount for each of them to give.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+        },
+        {
+          "text": "Auxiliary told Zellion that the Beaconites had somehow Connected him fully to Canticle, making him a man of two homeworlds, and hoped they could enjoy it for a time before the Night Brigade forced them on.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "40" }]
+        },
+        {
+          "text": "Auxiliary noticed the Cinder King's ships racing ahead and leading Beacon to the true Refuge, and called Zellion's knack for predicting people uncanny. When the raids began, Zellion gave Auxiliary to Elegy as a Shardspear.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "41" }]
+        },
+        {
+          "text": "When Elegy kept stabbing a dead Charred, Auxiliary offered to blunt his tip if she went too far again. In her hands he proved deadly against Charred used to overwhelming their foes.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+        },
+        {
+          "text": "Zellion took Auxiliary back to rescue Jeffrey Jeffrey, using him as a grappling hook, Shardblade, shield and claws. Auxiliary diagnosed the man's broken ribs, whiplash and possible concussion. Zellion then threw him to Elegy as a machete, and Auxiliary spotted the Cinder King's ships landing ahead.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+        },
+        {
+          "text": "At the Refuge's door, Auxiliary returned to Zellion as glowing mist. He went inside with Zellion, Rebeke, Confidence and Contemplation, but the Scadrians offered no refuge, only mercenary work for Zellion, and Auxiliary said they had gotten exactly what they deserved.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "Auxiliary didn't think Zellion a coward, only traumatized, and asked when he would take the Scadrians' jar of Dor to Skip away. Watching the Beaconites captured, Zellion whispered his old oaths to no effect. Auxiliary couldn't understand why he had abandoned them, and Zellion admitted he didn't know.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        },
+        {
+          "text": "When the Scadrians recognized Zellion and attacked with devices of the Metallic Arts, he summoned Auxiliary as a Shardblade and demanded to be returned to the surface.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Racing the sunrise",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the surface, Auxiliary reckoned the stranded Beaconites had about fifteen minutes before the light reached them. Seeing Zellion couldn't outrun the sun, he offered the remnants of his soul so Zellion could fly. Zellion tried to stop him, but Auxiliary said it wasn't his choice: Zellion may have betrayed his oaths, but Auxiliary never had. As Investiture flooded Zellion, he asked him to protect Beacon's people.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The dome",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "48" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Keeping his promise, Zellion used Auxiliary's lifeless form as a shield and expanded it with a supercharged sunheart into a dome over Beacon. The Cinder King's stolen cannon couldn't break it.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "48" }]
+        },
+        {
+          "text": "The dome held through the day, then vanished at Zellion's call to appear as a Shardblade beside him on a distant beach, where he used it to cut off a weight band and made a mirrored shield to signal a passing ship.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A highspren: a black slit in reality holding a void of stars, around which the air seems to warp. He can make himself invisible at will, and in the Cognitive Realm he is a human-shaped void of the same kind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "98" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He can no longer manifest on his own and exists as a deep monotone voice in Nomad's head, still able to sigh and to change his volume, though not his tone.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "37" }]
+    },
+    {
+      "text": "He takes physical form only when Nomad summons him as an object, in any shape Nomad understands, always of a silvery metal that forms from glowing white mist and can partly return to mist to reshape.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "43" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "12124 is reverent and formal toward Szeth, kneeling when he shows himself; their bond is more like that of master and student than of kin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+    },
+    {
+      "text": "Upbeat and witty even when Nomad is in pain, he has a dry, sarcastic humor often aimed at Nomad, usually to nudge him toward better choices. He prefers boasting to self-deprecation, yet rejects being called a god.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "16" },
+            { "book": "sunlit-man", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Highly intelligent, he draws meaningful conclusions from little information and has some medical knowledge. He can be philosophical, disdains physics and math in favor of art, and loves grand natural vistas.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+    },
+    {
+      "text": "He tries hard to understand why people act as they do, reading emotions well but motives less so, and is often impressed by Nomad's ability to anticipate others.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    },
+    {
+      "text": "He has a strong sense of morality, chiding Nomad for lying or mistreating people and refusing to take part in what he thinks wrong. He still considers himself a Knight Radiant in good standing, calling himself the knight or the hero and Nomad his squire, and feels deeply for the oppressed.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+    }
+  ]
+}

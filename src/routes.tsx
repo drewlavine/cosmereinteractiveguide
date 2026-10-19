@@ -1,12 +1,14 @@
 import type { RouteObject } from 'react-router'
 import { Layout } from './components/Layout'
 import { comingSoonTabs } from './navigation'
+import { AbilityDetail } from './routes/AbilityDetail'
 import { AbilityList } from './routes/AbilityList'
 import { BookDetail } from './routes/BookDetail'
 import { Books } from './routes/Books'
 import { CharacterDetail } from './routes/CharacterDetail'
 import { CharacterList } from './routes/CharacterList'
 import { ComingSoon } from './routes/ComingSoon'
+import { CultureDetail } from './routes/CultureDetail'
 import { CultureList } from './routes/CultureList'
 import { ListedLocationDetail } from './routes/ListedLocationDetail'
 import { LocationDetail } from './routes/LocationDetail'
@@ -43,7 +45,9 @@ export const routes: RouteObject[] = [
         element: <CharacterDetail />,
       },
       { path: 'abilities', element: <AbilityList /> },
+      { path: 'abilities/:abilityId', element: <AbilityDetail /> },
       { path: 'culture', element: <CultureList /> },
+      { path: 'culture/:cultureId', element: <CultureDetail /> },
       { path: 'locations', element: <LocationList /> },
       { path: 'locations/:locationId', element: <ListedLocationDetail /> },
       { path: 'search', element: <SearchPage /> },

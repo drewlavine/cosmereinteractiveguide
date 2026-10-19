@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Scadrian lieutenant stationed at the Scadrian research facility on Canticle.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Canticle",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "One of the Cinder King's outriders found his body in a mudslide, and his authorization key was given to the Cinder King.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

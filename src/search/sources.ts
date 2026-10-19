@@ -1,7 +1,11 @@
+import { abilityKindNames, abilityList } from '../data/abilities'
 import { bookMeta, books, seriesOf } from '../data/books'
+import { cultureKindNames, cultureList } from '../data/culture'
+import { entryRevealedIn } from '../data/entryStories'
 import { people as characters } from '../data/people'
 import { findLocation, kindLabels, locations } from '../data/locations'
 import {
+  type CanSee,
   findPersona,
   metIn,
   revealCharacter,
@@ -131,6 +135,43 @@ const people: SearchSource = {
     }),
 }
 
+const worldName = (canSee: CanSee, id?: string) => {
+  const planet = id ? planetById.get(id) : undefined
+  return planet && canSee(planet.revealedIn) ? planet.name : undefined
+}
+
+const abilities: SearchSource = {
+  id: 'abilities',
+  label: 'Abilities',
+  icon: 'ability',
+  entries: (canSee) =>
+    abilityList.map((a) => ({
+      key: `ability:${a.id}`,
+      title: a.name,
+      subtitle: [abilityKindNames[a.kind], worldName(canSee, a.world)]
+        .filter(Boolean)
+        .join(' · '),
+      href: `/abilities/${a.id}`,
+      revealedIn: entryRevealedIn('ability', a),
+    })),
+}
+
+const culture: SearchSource = {
+  id: 'culture',
+  label: 'Culture',
+  icon: 'culture',
+  entries: (canSee) =>
+    cultureList.map((c) => ({
+      key: `culture:${c.id}`,
+      title: c.name,
+      subtitle: [cultureKindNames[c.kind], worldName(canSee, c.world)]
+        .filter(Boolean)
+        .join(' · '),
+      href: `/culture/${c.id}`,
+      revealedIn: entryRevealedIn('culture', c),
+    })),
+}
+
 // Book titles aren't spoilers, so every book is listed.
 const bookPages: SearchSource = {
   id: 'books',
@@ -161,5 +202,7 @@ export const searchSources: SearchSource[] = [
   planets,
   places,
   people,
+  abilities,
+  culture,
   bookPages,
 ]

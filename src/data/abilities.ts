@@ -14,3 +14,16 @@ export const abilityKindLabels: Record<ListedAbilityKind, string> = {
   item: 'Invested objects',
   concept: 'Concepts',
 }
+
+/** What one entry of each type is called, e.g. on its page. */
+export const abilityKindNames: Record<ListedAbilityKind, string> = {
+  system: 'Magic system',
+  power: 'Power',
+  metal: 'Metal',
+  order: 'Order',
+  user: 'User or Invested being',
+  bond: 'Bond',
+  investiture: 'Investiture',
+  item: 'Invested object',
+  concept: 'Concept',
+}

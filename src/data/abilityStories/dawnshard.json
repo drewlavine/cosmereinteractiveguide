@@ -1,0 +1,245 @@
+{
+  "intro": [
+    {
+      "text": "Something out of Rosharan legend: an old writing tells of a Dawnshard able to bind any creature, voidish or mortal.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "text": "Commands of immense power, made with a deity's understanding, that let someone with access to Investiture work the mightiest magic. On Roshar they survive only in old legends of something precious and deadly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Something Nomad once held. Having held one left him with his Torment, a condition that stops him from doing harm, even in self-defense.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Dawnshard is a Command and does nothing by itself: like any use of Investiture, it needs a person with access to Investiture trying to do something. Held by someone without Investiture, or by an object, its most dangerous powers are useless.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+    },
+    {
+      "text": "A Dawnshard's Investiture has no mind or personality of its own, though it may be drawn to a particular bearer, almost like a physical pull. It can protect itself and its bearer from some threats.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    },
+    {
+      "text": "A Connection links a Dawnshard's former holders to its current one. By making a spike from a former holder's soul, hunters can follow that chain to whoever holds it now.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    },
+    {
+      "text": "Dawnshards sense one another and are drawn together, as if seeking to reunite all four. When two meet, the pull can be strong enough to crush a person, unless a bearer experienced with a Dawnshard holds it back.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+    },
+    {
+      "text": "Holding a Dawnshard sharpens the senses for color and sound and lets the bearer sense the souls of living things nearby. Over time its power coats the bearer's soul like scar tissue, granting abilities and restrictions and pushing them toward its Intent; with the right knowledge this can be undone.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "dawnshard", "chapter": "epilogue" },
+            { "book": "sunlit-man", "chapter": "36" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "19" },
+                { "book": "sunlit-man", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "127" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "i-15" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Dawnshards existed before the Shattering: they were the Commands Adonalsium used to create all things.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "19" },
+                { "book": "sunlit-man", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "127" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some ten thousand years before the True Desolation, the Dawnshards were used to Shatter Adonalsium into sixteen Shards. Afterwards each was taken to a different planet to keep them apart.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "sunlit-man", "chapter": "21" },
+                { "book": "wind-and-truth", "chapter": "i-15" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "dawnshard", "chapter": "16" },
+            { "book": "wind-and-truth", "chapter": "i-15" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Dawnshard of Change came to rest in a mural depicting the Shattering, in a cavern beneath Akinah. The lanceryn guarded it from shadowy groups who wanted it as a weapon until they were nearly wiped out; the Sleepless then took over their watch.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "In the cavern beneath Akinah, Rysn found the mural, heard the Dawnshard's voice and accepted it, becoming a Dawnshard herself.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+        },
+        {
+          "text": "In return for her crew's safety, Rysn promised the Sleepless she would protect the Dawnshard, keeping it away from Akinah before anyone from the wider cosmere came to look for it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "Hoid, disguised as Dalinar, met Rysn, and each sensed the other's Dawnshard. The two began pulling together with deadly force until Hoid stopped it, vowing they would never meet again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        },
+        {
+          "text": "Fearing that Retribution would kill him and take his Dawnshard, Hoid passed it to his apprentice Sigzil and sent him to Shadesmar. Sigzil left Roshar, hoping to find Hoid again and return it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nomad's Dawnshard",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "10" },
+            { "book": "sunlit-man", "chapter": "20" },
+            { "book": "sunlit-man", "chapter": "1" },
+            { "book": "sunlit-man", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit gave Nomad his Dawnshard.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "10" }]
+        },
+        {
+          "text": "While Nomad held it, he let the Dawnshard feed on Auxiliary, leaving Aux badly diminished.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+        },
+        {
+          "text": "Holding the Dawnshard left Nomad able to Skip between worlds when he has enough Investiture, and with his Torment, which keeps him from doing harm even to defend himself or others.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "1" }]
+        },
+        {
+          "text": "After giving it up, Nomad turned himself in to the Night Brigade, thinking they would lose interest in him. Learning they could make a spike from his soul to track the Dawnshard, he fled, and has been running from them ever since.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Yolen",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The dragons of Yolen kept one Dawnshard in an ancestral cavern behind an Invested lock, until too many knew its location and they moved it. Since then, the Malwish have broken the lock with a device called the Intensifier and set out to trace the Connection it left behind.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Commands of",
+      "name": "Adonalsium",
+      "characterId": "adonalsium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "21" },
+            { "book": "wind-and-truth", "chapter": "127" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Number",
+      "name": "Four",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "sunlit-man", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Known Dawnshard",
+      "name": "Change",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+    },
+    {
+      "label": "Known Dawnshard",
+      "name": "Exist",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "sunlit-man", "chapter": "34" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "rysn-ftori",
+      "role": "bearer",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+    },
+    {
+      "characterId": "hoid",
+      "role": "bearer",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+    },
+    {
+      "characterId": "sigzil",
+      "role": "bearer",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ]
+}

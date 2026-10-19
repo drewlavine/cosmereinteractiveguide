@@ -263,6 +263,35 @@ export interface LocationStory {
   history: { title: StoryItem[]; items: StoryItem[] }[]
 }
 
+/** A Key fact on a Culture or Abilities entry's page, e.g. its leader. */
+export interface EntryFact {
+  /** e.g. 'Leader', 'Based on'. */
+  label: string
+  name: string
+  characterId?: string
+  /** A listed place it names. */
+  placeId?: string
+  revealedIn: Reveal
+}
+
+/** Someone tied to a Culture or Abilities entry, e.g. a member. */
+export interface EntryPerson {
+  characterId: string
+  /** e.g. 'member', 'leader', 'user'. */
+  role: string
+  revealedIn: Reveal
+}
+
+/**
+ * What a Culture or Abilities entry's page says (see entryStories.ts): prose
+ * like a place's, plus Key facts and people, every item dated on its own so
+ * the page grows chapter by chapter.
+ */
+export interface EntryStory extends LocationStory {
+  facts: EntryFact[]
+  people: EntryPerson[]
+}
+
 export interface Belt {
   /** Orbit index for layout; bodies outside the belt should use higher orbits. */
   orbit: number

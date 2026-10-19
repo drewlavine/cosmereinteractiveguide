@@ -1,0 +1,74 @@
+{
+  "intro": [
+    {
+      "text": "An art that uses metal spikes to take powers from one person and give them to another. It is named for its tie to blood, and the transfer always involves a death.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+    },
+    {
+      "text": "A destructive art that uses metal spikes to take powers from one person and give them to another, at the cost of some of the power and of changes to the recipient's body and mind.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Both the spike's metal and where on the body it is driven matter. Steel spikes, for example, take physical Allomantic powers.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+    },
+    {
+      "text": "A spike loses some of its charge once it is made, so Inquisitors were made by driving spikes through the victim straight into the person beneath.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+    },
+    {
+      "text": "A spike made by killing someone with no Allomancy or Feruchemy takes the power that exists in every soul instead, and grants lesser abilities.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "text": "Spikes change the body of whoever bears them, depending on the powers granted, where they sit and how many there are. Koloss, kandra and Steel Inquisitors are all made this way.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+    },
+    {
+      "text": "Every spike gives Ruin some power to influence its bearer, which a strong will can resist; the more spikes, the easier the control.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler worked out where to place spikes to make servants, and the Inquisitors' torture chambers served as Hemalurgic laboratories. In a thousand years he made only three kinds of creature with it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Tool",
+      "name": "Metal spikes",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "marsh",
+      "role": "Inquisitor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "kandra",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "creator of servants",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+    }
+  ]
+}

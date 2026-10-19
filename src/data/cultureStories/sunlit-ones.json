@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "Legendary people of Canticle who could survive its sun, taking the sun's power into themselves instead of being destroyed by it.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Their gift let them stay in one place long enough to build an underground city, the Refuge of Stone, and they had some way to keep stone from melting.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the Beaconites",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "11" },
+            { "book": "sunlit-man", "chapter": "22" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Beaconites proclaimed Nomad a Sunlit Man after he returned speaking their language.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "11" }]
+        },
+        {
+          "text": "Nomad told Rebeke that he disliked being called Sunlit.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "22" }]
+        },
+        {
+          "text": "The Greater Good recognized Rebeke Salvage as the Sunlit One.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "rebeke-salvage",
+      "role": "Sunlit One",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ]
+}

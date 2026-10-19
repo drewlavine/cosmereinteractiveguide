@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A group of scientists who seek to understand the mysteries of the cosmere and claim neutrality in interplanetary conflicts.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "TimeTellers wear small triangular metal ornaments, enamelled in red, on the sides of their faces.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+    },
+    {
+      "text": "Nomad suspects they are secretly an arm of the Malwish military, developing technology to stay ahead in a growing interplanetary arms race.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Canticle",
+          "revealedIn": [
+            { "book": "sunlit-man", "chapter": "44" },
+            { "book": "sunlit-man", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A group of TimeTellers came to Canticle to study its sun and core and how the two interact.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "They tried to hire Nomad as a mercenary. Having worked with the Cinder King, they refused to help Beacon's people.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "44" }]
+        },
+        {
+          "text": "One of their scientists, studying how to move Investiture between sunhearts, told Nomad they had recharged one.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

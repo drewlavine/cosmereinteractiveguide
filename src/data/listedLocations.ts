@@ -1,7 +1,15 @@
+import { locationMentions } from './locationMentions'
+import { locationReveals } from './locationReveals'
 import { locationList } from './locationList'
 import { findLocation, locations } from './locations'
 import { systems } from './systems'
-import type { ListedLocation, Location, ListedLocationKind } from './types'
+import type { CanSee } from './reveal'
+import type {
+  ListedLocation,
+  Location,
+  ListedLocationKind,
+  Reveal,
+} from './types'
 
 const kindOf: Record<Location['kind'], ListedLocationKind> = {
   continent: 'continent',
@@ -93,9 +101,26 @@ export const findListed = (id?: string) =>
 export const mapPlaceOf = (l: ListedLocation) =>
   l.mapPlanetId ? findLocation(l.mapPlanetId, l.id) : undefined
 
-/** Hand-tagged map places keep their own reveal; the rest use their page's. */
-export const placeRevealedIn = (l: ListedLocation) =>
-  mapPlaceOf(l)?.revealedIn ?? l.revealedIn
+/**
+ * When the reader knows what a place is. Hand-tagged map places keep their
+ * own reveal; places with a page from its earliest intro (dated to the
+ * chapter); the rest from the book their Coppermind page first cites.
+ */
+export const placeKnownIn = (l: ListedLocation): Reveal =>
+  mapPlaceOf(l)?.revealedIn ?? locationReveals[l.id] ?? l.revealedIn
+
+/**
+ * When a place shows at all: as soon as a chapter names it, though until
+ * placeKnownIn its page says only where it was mentioned.
+ */
+export const placeRevealedIn = (l: ListedLocation): Reveal =>
+  mapPlaceOf(l)
+    ? placeKnownIn(l)
+    : [...(locationMentions[l.id] ?? []), ...placeKnownIn(l)]
+
+/** The first chapter the reader has reached that names a place. */
+export const placeMention = (l: ListedLocation, canSee: CanSee) =>
+  mapPlaceOf(l) ? undefined : locationMentions[l.id]?.find((p) => canSee([p]))
 
 export const systemOfPlanet = new Map(
   systems.flatMap((s) => s.planets.map((p) => [p.id, s] as const)),

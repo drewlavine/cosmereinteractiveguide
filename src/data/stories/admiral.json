@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "The commander of the Night Brigade, who came to Canticle looking for Nomad.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Canticle",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arrived in the Canticle system aboard the Night Brigade's warship with her staff sergeant, Truth-Is-Waiting, and went down to the planet with him and others of the Brigade, including at least two shades, to learn where Nomad was.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After Truth-Is-Waiting reported what he had learned, she chose to question the Scadrian research ship on the planet rather than the locals.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall woman with short black hair, in full military uniform.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Formal and tireless, she usually stands while working and takes a hands-on part in the Brigade's operations. She will harm civilians without qualms but prefers to aim at useful targets. She is set on getting the Dawnshard Nomad once held, and his escapes confuse and enrage her, though she hides her fury and wants to be left alone when angry.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Commands the Brigade's shades as well as its living members, seemingly without speaking, as they appear to obey her wishes.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+    }
+  ]
+}

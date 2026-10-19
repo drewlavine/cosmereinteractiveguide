@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A title from Threnody, first held by the leader who brought a group of Threnodites to Canticle to escape strife at home.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+    },
+    {
+      "text": "An appointed leader on Canticle who steers a city along its route. The title began with the leader who brought the first Threnodites to Canticle.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In some cities the Lodestar also guides long-term plans. On Beacon, the Lodestar is chosen by a vote of the Greater Good.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first Lodestar led a group of Threnodites from Threnody to Canticle, escaping the strife there.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "First Lodestar",
+      "name": "Zellion",
+      "characterId": "zellion",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "zellion",
+      "role": "first Lodestar",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+    },
+    {
+      "characterId": "elegy-salvage",
+      "role": "Beacon's Lodestar",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "20" }]
+    }
+  ]
+}

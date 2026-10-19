@@ -306,13 +306,38 @@ h3 {
   fill: var(--gold);
 }
 
+/* Back to the star map, floating top-left over a system chart. */
+.system-back {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 2;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.55rem 0.9rem;
+  border: 2px solid var(--gold);
+  border-radius: 10px;
+  color: var(--gold-soft);
+  background: var(--panel);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+  backdrop-filter: blur(6px);
+  text-decoration: none;
+}
+
+.system-back:hover,
+.system-back:focus-visible {
+  color: var(--slate-deep);
+  background: var(--gold);
+}
+
 /* System info panel (collapsed by default) */
 .system-info {
   position: absolute;
   top: 1rem;
   right: 1rem;
   z-index: 2;
-  width: min(320px, calc(100% - 2rem));
+  width: min(320px, calc(100% - 11rem));
   border: 2px solid var(--gold);
   border-radius: 10px;
   background: var(--panel);
@@ -3021,4 +3046,13 @@ a.search-option:focus-visible {
 .character-group-by select:focus {
   border-color: var(--gold);
   outline: none;
+}
+
+.character-group h2[data-count]::after {
+  content: attr(data-count);
+  margin-left: 0.6rem;
+  color: var(--text-muted, #9fb0bc);
+  font-family: system-ui, sans-serif;
+  font-size: 0.9rem;
+  font-weight: normal;
 }

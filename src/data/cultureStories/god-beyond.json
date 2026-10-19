@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "A god some people on Scadrial speak of.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
+    },
+    {
+      "text": "A god spoken of on more than one world, including Scadrial and Threnody.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            "shadows-for-silence"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A god spoken of on several worlds of the cosmere, including Scadrial, Threnody and Roshar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            "shadows-for-silence",
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "On Threnody, Silence Montane and her daughter William Ann swear by the God Beyond.",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "text": "On Roshar, Wit refers to the God Beyond in a parable he tells Shallan.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "On Scadrial, Wayne believes the God Beyond made the world and the people in it, and Lessie also mentions it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dalinar mentions the God Beyond in passing while talking to Kaladin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    },
+    {
+      "text": "Nomad says he believes in the God Beyond, which he holds to be separate from Adonalsium.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "39" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wayne",
+      "role": "believer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "10" },
+            { "book": "shadows-of-self", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "silence-montane",
+      "role": "believer",
+      "revealedIn": ["shadows-for-silence"]
+    },
+    {
+      "characterId": "william-ann-montane",
+      "role": "believer",
+      "revealedIn": ["shadows-for-silence"]
+    }
+  ]
+}

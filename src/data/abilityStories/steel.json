@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it sees blue lines pointing to nearby metal and can Push that metal away, even launching themselves through the air off coins.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to Push on metal, Feruchemists store speed in it, and Hemalurgic spikes of steel steal physical Allomantic powers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "well-of-ascension", "chapter": "19" },
+            "hero-of-ages"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Steelpushing is a showy power: it can fire coins as projectiles, carry a Coinshot through the air off metal on the ground, or form a bubble that deflects incoming metal, though not always fast bullets.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Coinshot who can also change their weight with iron Feruchemy can make their Pushes stronger by growing heavier, or travel farther by growing lighter.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "text": "The force of a Push grows with the Allomancer's own weight, and metal partly inside a person's body normally cannot be Pushed, though a strong enough Coinshot can overcome both limits.",
+      "revealedIn": ["alloy-of-law"]
+    },
+    {
+      "text": "A Feruchemist can store speed in steel, moving sluggishly while filling it, and tap it to move far faster than normal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "19" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On Roshar, a fabrial with a steel cage pushes away the element tied to its trapped spren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Pushes on nearby metal",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Iron",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Coinshot",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores speed",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Steelrunner",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "15" },
+            "alloy-of-law"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals physical Allomantic powers",
+      "revealedIn": ["hero-of-ages"]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    }
+  ]
+}

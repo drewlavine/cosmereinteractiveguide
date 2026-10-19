@@ -57,6 +57,132 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  beacon: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'Greater Good',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '15',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adonalsium-will-remember-our-plight-eventually',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'compassion',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        characterId: 'confidence',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'contemplation',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'deborah-james',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'divinity-salvage',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '33',
+          },
+        ],
+      },
+      {
+        characterId: 'elegy-salvage',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        characterId: 'hardy',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'jeffrey-jeffrey',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '11',
+          },
+        ],
+      },
+      {
+        characterId: 'rebeke-salvage',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'solemnity-divine',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '19',
+          },
+        ],
+      },
+      {
+        characterId: 'thomos',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'zeal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '7',
+          },
+        ],
+      },
+    ],
+  },
   'black-lake': {
     facts: [
       {
@@ -1551,6 +1677,98 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  'ulutu-dynasty': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Azish',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '26',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  union: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Threnodite',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        label: 'Capital',
+        name: 'Union',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Cinder King',
+        characterId: 'cinder-king',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'compassion',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'divinity-salvage',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'faith',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'thomos',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'zeal',
+        relation: 'citizen',
+        revealedIn: [
+          {
+            book: 'sunlit-man',
+            chapter: '12',
+          },
+        ],
+      },
+    ],
   },
   urbene: {
     facts: [

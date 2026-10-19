@@ -18,6 +18,7 @@ import {
 } from '../data/reveal'
 import type { Character } from '../data/types'
 import { useCanSee, useShownSystems } from '../state/reveal'
+import { GroupJump, LetterJump } from '../components/ListJump'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
 
 const anchor = (id: string) => anchorFor('characters', id)
@@ -213,21 +214,13 @@ export function CharacterList() {
             ))}
           </select>
         </label>
+        {grouping && label && (
+          <GroupJump groups={groups} anchor={anchor} label={label} />
+        )}
       </div>
       <FeatureLegend features={legend} />
 
-      {groups.length > 0 && (
-        <nav
-          aria-label={grouping ? `Jump to ${label}` : 'Jump to letter'}
-          className="letter-index"
-        >
-          {groups.map(({ id, name }) => (
-            <a key={id} href={`#${anchor(id)}`}>
-              {name}
-            </a>
-          ))}
-        </nav>
-      )}
+      {!grouping && <LetterJump groups={groups} anchor={anchor} />}
       {unsorted > 0 && (
         <p className="character-count">
           {plural(unsorted, 'more character')} not sorted by {label} yet.
@@ -240,7 +233,9 @@ export function CharacterList() {
           className="character-group"
           aria-labelledby={anchor(id)}
         >
-          <h2 id={anchor(id)}>{name}</h2>
+          <h2 id={anchor(id)} data-count={grouping ? items.length : undefined}>
+            {name}
+          </h2>
           <ul>
             {items.map((character) => (
               <li key={character.id}>

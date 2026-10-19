@@ -92,7 +92,8 @@ export interface PlacePageProps {
   showAll: boolean
   breadcrumb: ReactNode
   /** e.g. "City"; shown as Key facts' Type row. */
-  kind: string
+  /** Left out while the reader only knows the place's name. */
+  kind?: string
   /** The place it's in, if the reader can see it. */
   parent?: Crumb
   /** Intro when the place has no story yet. */
@@ -193,7 +194,7 @@ export function PlacePage(props: PlacePageProps) {
               Key facts
             </button>
             <dl>
-              {!details.facts.some((f) => f.label === 'Type') && (
+              {props.kind && !details.facts.some((f) => f.label === 'Type') && (
                 <>
                   <dt>Type</dt>
                   <dd>{props.kind}</dd>
