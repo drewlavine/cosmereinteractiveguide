@@ -1,0 +1,164 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it grows stronger, faster, tougher and better balanced.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to strengthen their bodies, Feruchemists store physical strength in it, and Hemalurgic spikes of pewter steal physical Feruchemical powers.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Pewter helps the body heal, so a badly wounded Allomancer can be fed pewter to recover.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "15" }]
+    },
+    {
+      "text": "By flaring pewter without pause, called pewter dragging, a Thug can run about as fast as a galloping horse for a long time. When the pewter stops, all the held-back exhaustion strikes at once, which can kill, and recovery takes days of rest and food.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "text": "Pewter burns faster than any other basic metal, and running out can be deadly: a Thug who survived a fatal wound only through pewter may die once it is gone. The body burns pewter on its own to heal, so even an unconscious Thug can be given more.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "59" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pewter heightens every physical ability: strength, speed, balance and reaction time. It also makes the body resistant to heat and cold and lets it keep going long after it would normally give out.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "24" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Feruchemist can store physical strength in pewter, growing scrawny and weak while filling it. Tapping it adds real muscle, so the body bulks up, sometimes so much that moving becomes awkward.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Enhances the body",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Tin",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Thug",
+      "revealedIn": [{ "book": "final-empire", "chapter": "26" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores physical strength",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ferring",
+      "name": "Brute",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals physical Feruchemy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "label": "Kandra Blessing",
+      "name": "Elasticity",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "38" },
+            { "book": "bands-of-mourning", "chapter": "24" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Fabrial cage",
+      "name": "Augments its element",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "15" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "Thug",
+      "revealedIn": [{ "book": "final-empire", "chapter": "24" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "59" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "Thug",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "19" }]
+    },
+    {
+      "characterId": "tarson",
+      "role": "Pewterarm",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "characterId": "gave-entrone",
+      "role": "burns pewter",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "59" }]
+    }
+  ]
+}

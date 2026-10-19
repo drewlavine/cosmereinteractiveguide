@@ -5,7 +5,7 @@
       "revealedIn": [
         {
           "all": [
-            "alloy-of-law",
+            { "book": "alloy-of-law", "chapter": "prologue" },
             { "book": "bands-of-mourning", "chapter": "22" }
           ]
         }
@@ -15,7 +15,7 @@
   "description": [
     {
       "text": "A Feruchemist storing Connection becomes less noticed and less trusted by others; tapping it lets them form trusting relationships quickly.",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "text": "A Bondsmith can touch another person to forge a spiritual Connection with them, briefly gaining the ability to speak whatever languages that person speaks.",
@@ -57,7 +57,7 @@
       "revealedIn": [
         {
           "all": [
-            "alloy-of-law",
+            { "book": "alloy-of-law", "chapter": "prologue" },
             { "book": "bands-of-mourning", "chapter": "22" }
           ]
         }

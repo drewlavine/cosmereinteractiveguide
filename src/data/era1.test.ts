@@ -6,8 +6,13 @@ import {
   readerCanSee,
   revealCharacter,
   revealPortrait,
+  revealEntry,
   revealStory,
 } from './reveal'
+import allomancy from './abilityStories/allomancy.json'
+import steel from './abilityStories/steel.json'
+import { entryRevealedIn } from './entryStories'
+import type { EntryStory } from './types'
 import allrianneStory from './stories/allrianne-cett.json'
 
 // Mistborn Era 1 identity reveals: each is hidden before the chapter that
@@ -195,5 +200,66 @@ describe('Mistborn Era 1 art', () => {
       art('cladent', at(['final-empire', 'well-of-ascension'])),
     ).toBeUndefined()
     expect(art('cladent', at(era1))).toBeDefined()
+  })
+})
+
+describe('Mistborn Era 1 ability users', () => {
+  const users = (story: EntryStory, canSee: ReturnType<typeof at>) =>
+    revealEntry(story, canSee, () => true).people
+  const level = (
+    story: EntryStory,
+    id: string,
+    canSee: ReturnType<typeof at>,
+  ) => users(story, canSee).find((p) => p.characterId === id)?.level
+
+  it('lists personas by the name the reader knows', () => {
+    const early = users(
+      allomancy as EntryStory,
+      at([], { 'final-empire': '12' }),
+    )
+    const ids = early.map((p) => p.characterId)
+    expect(ids).toEqual(expect.arrayContaining(['vin', 'breeze', 'clubs']))
+    expect(ids).not.toContain('edgard-ladrian')
+    expect(ids).not.toContain('cladent')
+  })
+
+  it('ranks Elend as Mistborn only once he becomes one', () => {
+    const allo = allomancy as EntryStory
+    expect(
+      level(
+        allo,
+        'elend-venture',
+        at(['final-empire'], { 'well-of-ascension': '58' }),
+      ),
+    ).toBeUndefined()
+    expect(
+      level(
+        allo,
+        'elend-venture',
+        at(['final-empire'], { 'well-of-ascension': '59' }),
+      ),
+    ).toBe('Mistborn')
+    expect(revealEntry(allo, at(['final-empire']), () => true).levels).toEqual([
+      'Mistborn',
+      'Misting',
+    ])
+  })
+
+  it('keeps Rashek off the Steel page until the Lord Ruler is unmasked', () => {
+    const ids = (chapter: string) =>
+      users(steel as EntryStory, at([], { 'final-empire': chapter })).map(
+        (p) => p.characterId,
+      )
+    expect(ids('37')).not.toContain('rashek')
+    expect(ids('38')).toContain('rashek')
+  })
+
+  it('hides the duralumin page before it is named', () => {
+    const shown = (chapter: string) =>
+      at(['final-empire'], { 'well-of-ascension': chapter })(
+        entryRevealedIn('ability', { id: 'duralumin', revealedIn: [] }),
+      )
+    expect(shown('4')).toBe(false)
+    expect(shown('5')).toBe(true)
   })
 })

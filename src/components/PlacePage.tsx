@@ -14,6 +14,7 @@ import {
   placeRevealedIn,
 } from '../data/listedLocations'
 import { findPerson } from '../data/people'
+import { PeopleGrid } from './PeopleGrid'
 import {
   revealLocationDetails,
   revealLocationStory,
@@ -279,16 +280,13 @@ export function PlacePage(props: PlacePageProps) {
           )}
           {people.length > 0 && (
             <PageSection id="people" title="People">
-              <ul className="place-people">
-                {people.map((p) => (
-                  <li key={p.characterId}>
-                    <Link to={`/characters/${p.characterId}`}>{p.name}</Link>{' '}
-                    <span className="place-people-tie">
-                      {p.relations.map((r) => relationLabels[r]).join(', ')}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+              <PeopleGrid
+                people={people.map((p) => ({
+                  characterId: p.characterId,
+                  name: p.name,
+                  roles: p.relations.map((r) => relationLabels[r]),
+                }))}
+              />
             </PageSection>
           )}
           {props.planetId && (

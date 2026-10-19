@@ -1,0 +1,231 @@
+{
+  "intro": [
+    {
+      "text": "The thick mist that covers Scadrial every night. Skaa fear it and stay indoors after dark, while Mistborn and other Mistings see it as cover and wear mistcloaks to blend into it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "The mist that covers Scadrial at night, long feared by the skaa. It proved to be the Deepness of the old legends, and Vin drew on it to fuel her Allomancy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The mist that comes out at night on Scadrial. Once feared as the Deepness, by 341 PC it is seen as a beneficial presence said to protect the just.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "alloy-of-law", "chapter": "13" },
+            { "book": "bands-of-mourning", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The mists are not blown in from anywhere: each night they simply fade into being.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "Unlike ordinary fog, under the Lord Ruler the mists never came by day, and mist drifting into a building or tent soon dissipated.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "23" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The mists hide the stars and distort sounds. Burning tin lets an Allomancer see partly through them, and a tin savant can see through them almost entirely.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "prologue" },
+            { "book": "well-of-ascension", "chapter": "23" },
+            { "book": "hero-of-ages", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The mists swirl around any Allomancer, but anyone pierced by a Hemalurgic spike pushes them slightly away, and koloss sense hatred from them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "19" },
+            { "book": "hero-of-ages", "chapter": "77" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "With the blessing of Preservation or Harmony, Allomancers can draw on the mists as fuel once their metals are spent, gaining greater power. Harmony can also use them to lend someone strength or calm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "79" },
+            { "book": "shadows-of-self", "chapter": "11" },
+            { "book": "bands-of-mourning", "chapter": "16" },
+            { "book": "lost-metal", "chapter": "66" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In ancient times",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The mists were the source of the Deepness that the Lord Ruler defeated long ago. Fed by Ruin as well, they then covered the land by day as well as by night.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fighting the Lord Ruler, Vin drew on the mists directly and used them to tear away his atium bracelets.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "3" },
+            { "book": "well-of-ascension", "chapter": "4" },
+            { "book": "well-of-ascension", "chapter": "13" },
+            { "book": "well-of-ascension", "chapter": "15" },
+            { "book": "well-of-ascension", "chapter": "47" },
+            { "book": "hero-of-ages", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A figure made of mist began watching Vin from the rooftops. She sensed pulses like Allomancy from it, and it vanished when she Pushed coins at it.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "3" }]
+        },
+        {
+          "text": "In a village in the Eastern Dominance, a man reported mists in the daytime; another villager standing in them shook violently and died.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "4" }]
+        },
+        {
+          "text": "The mists began coming earlier each evening. Vin confronted the mist spirit, and it hurt her.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
+        },
+        {
+          "text": "Sazed found a village whose people were afraid to go out into the daytime mists: some who went out died shaking, others fell ill but lived, and some were untouched.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        },
+        {
+          "text": "Vin saw the mists linger inside a building for a long time without fading.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }]
+        },
+        {
+          "text": "Fighting the Inquisitors at Luthadel, Vin drew on the mists to fuel her Allomancy, and they streamed toward her from across the land. Once they had all flowed into her, the mists were gone.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Three centuries on",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "16" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "11" },
+                { "book": "lost-metal", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "People came to see the mists as less dangerous, and by 341 PC as beneficial, said to protect the just. Mistcloaks gave way to mistcoats that still split into strips below the waist, and Coinshots call the clear sky above the mists the Ascendant's Fields.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "13" },
+                { "book": "bands-of-mourning", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mythical figures are often reported in the mists: Survivorists see the Survivor more on misty nights, and Wax sometimes sees shapes in the mist that look like Vin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "11" },
+                { "book": "lost-metal", "chapter": "32" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Appears",
+      "name": "Every night",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "label": "Feared by",
+      "name": "Skaa",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Power of",
+      "name": "Preservation",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "secret-history", "chapter": "6-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "drew on it",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    }
+  ]
+}

@@ -1,0 +1,159 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it has all five senses sharpened at once.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to sharpen their senses, Feruchemists store the keenness of a sense in it, and Hemalurgic spikes of tin steal senses.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "hero-of-ages", "chapter": "66" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Feruchemist can store the keenness of a sense in tin, that sense weakening meanwhile: Sazed wears glasses while storing his eyesight.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "Tin brings in more sensation than is comfortable, and a Tineye has to learn to ignore some of it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "text": "Flaring tin floods the senses, which can clear the head of a tired or dazed Tineye. It helps in dim light but not in total darkness. Every sense grows sharper together, including cold, hunger and pain, so rough ground, a bright fire or a raised voice can hurt.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "hero-of-ages", "chapter": "16" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each tinmind holds a single sense. Tapping it sharpens that sense but shows nothing that couldn't be perceived anyway. Tapping sight blurs the edges of vision in favour of distance and can cause nausea, and storing smell dulls taste.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "hero-of-ages", "chapter": "66" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Tineye can see through the mists that cover Scadrial at night.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "8" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "yumi", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A tin savant",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spook burned tin so heavily that his senses became extreme: by day he wore a blindfold, gloves and earplugs. In exchange he could hear and feel attacks coming, almost as if burning atium.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Sharpens all senses",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Pewter",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Tineye",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores keenness of senses",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Windwhisperer",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "hero-of-ages", "chapter": "66" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals senses",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "label": "Kandra Blessing",
+      "name": "Awareness",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "label": "Fabrial cage",
+      "name": "Diminishes its element",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "mare",
+      "role": "Tineye",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "Tineye",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "characterId": "straff-venture",
+      "role": "Tineye",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "49" }]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 import { abilityKindNames, abilityList } from '../data/abilities'
 import { bookMeta, books, seriesOf } from '../data/books'
 import { cultureKindNames, cultureList } from '../data/culture'
-import { entryRevealedIn } from '../data/entryStories'
+import { entryRevealedIn, shownAliases } from '../data/entryStories'
 import { people as characters } from '../data/people'
 import { findLocation, kindLabels, locations } from '../data/locations'
 import {
@@ -142,18 +142,28 @@ const worldName = (canSee: CanSee, id?: string) => {
 
 const abilities: SearchSource = {
   id: 'abilities',
-  label: 'Abilities',
+  label: 'Magic',
   icon: 'ability',
   entries: (canSee) =>
-    abilityList.map((a) => ({
-      key: `ability:${a.id}`,
-      title: a.name,
-      subtitle: [abilityKindNames[a.kind], worldName(canSee, a.world)]
-        .filter(Boolean)
-        .join(' · '),
-      href: `/abilities/${a.id}`,
-      revealedIn: entryRevealedIn('ability', a),
-    })),
+    abilityList.flatMap((a) => [
+      {
+        key: `ability:${a.id}`,
+        title: a.name,
+        subtitle: [abilityKindNames[a.kind], worldName(canSee, a.world)]
+          .filter(Boolean)
+          .join(' · '),
+        href: `/magic/${a.id}`,
+        revealedIn: entryRevealedIn('ability', a),
+      },
+      // Coinshot, Skimmer...: their own results, leading to the metal.
+      ...shownAliases('ability', a, canSee).map((alias) => ({
+        key: `ability:${a.id}:${alias.name}`,
+        title: alias.name,
+        subtitle: `${alias.role} · ${a.name}`,
+        href: `/magic/${a.id}`,
+        revealedIn: alias.revealedIn,
+      })),
+    ]),
 }
 
 const culture: SearchSource = {

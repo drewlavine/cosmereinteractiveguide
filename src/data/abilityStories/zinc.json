@@ -1,0 +1,167 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it can Riot, inflaming the emotions of people nearby.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to Riot emotions, Feruchemists store mental speed in it, and Hemalurgic spikes of zinc steal emotional fortitude.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rioting can strengthen desire, determination, anger and the like, and Rioting every emotion but one works much like Soothing that one. A Rioter cannot Riot themselves.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "46" }]
+    },
+    {
+      "text": "Very strong Rioting can take complete control of a Hemalurgic creature, and once it is controlled the Rioting is no longer needed. It takes a Mistborn burning duralumin with zinc, or several Rioters and Soothers together, though early in the Final Empire a single Rioter could do it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "54" },
+            { "book": "hero-of-ages", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "After the Catacendre, businesses may not use Rioters on their customers, but consensual Rioting is allowed, and some zinc counselors use it as a kind of therapy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "shadows-of-self", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Feruchemist can store mental speed in zinc, turning slow-witted while filling it: words are heard at once but take longer to understand. Tapping it lets them think and reach conclusions very quickly, though it also makes them hungry.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rioting is not mind control: it stirs emotions rather than dictating actions. It can be aimed at one person or a group, and at particular emotions, and is easier to aim in a direction than at a single person.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "10" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "lost-metal", "chapter": "60" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Riots emotions",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Brass",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Rioter",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores mental speed",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ferring",
+      "name": "Sparker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals emotional fortitude",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "label": "Kandra Blessing",
+      "name": "Stability",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "label": "Fabrial cage",
+      "name": "Strengthens the fabrial",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+    },
+    {
+      "label": "Slang",
+      "name": "Zinctongue, a smooth talker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "5" },
+            { "book": "secret-history", "chapter": "1-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+    },
+    {
+      "characterId": "allrianne-cett",
+      "role": "Rioter",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Feruchemy",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    }
+  ]
+}

@@ -1,0 +1,1056 @@
+{
+  "intro": [
+    {
+      "text": "A power some people are born with. A Misting has a single Allomantic ability, while a Mistborn can use them all; Kelsier tests Vin to see whether she is one.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "The power of burning metals an Allomancer has swallowed. Each metal grants its own ability, and the basic metals come in pairs, such as iron, which Pulls on nearby metal, and steel, which Pushes on it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "The most widely used of Scadrial's three Metallic Arts. Allomancers swallow and burn metals, each of which grants a particular power.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Misting can burn only one metal; a Mistborn can burn them all.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+    },
+    {
+      "text": "Allomancers swallow metals and burn them: each metal they can use grants its own power, and burning it feels like warmth in the stomach.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "The basic metals come in pairs, a pure metal and its alloy, with complementary effects: iron Pulls on nearby metal, steel Pushes on it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "The power lies dormant until a person Snaps, usually through some intense, often traumatic, experience.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "text": "Allomancy runs on an outside power, Preservation's, which each metal channels into its own ability.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "hero-of-ages", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allomancy was rare before the Lord Ruler's Ascension. He handed out beads of lerasium, strengthening the power in Final Empire bloodlines for generations. His Ministry hid several metals, so most people knew only the four physical and four mental metals, plus gold and atium, while the Eleventh Metal lived on only in legend.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "Over the generations, Allomancers slowly grew weaker.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Snapped by the mists",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once it was clear the mist sickness was Snapping people, a careful count showed that exactly sixteen percent of those newly exposed fell ill and became Allomancers.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Many soldiers in Elend's army, Demoux among them, were Snapped by the mists. At the Pits of Hathsin, Elend's army burned through the atium there, keeping it from Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Final Empire",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the Terris and people of noble descent intermarried, some descendants were born with one Allomantic and one Feruchemical power. These Twinborn have names for each pairing, and their two powers combine into a secondary effect called a Resonance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Becoming an Allomancer",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "21" },
+            { "book": "final-empire", "chapter": "17" },
+            { "book": "final-empire", "chapter": "32" },
+            { "book": "hero-of-ages", "chapter": "21" },
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "hero-of-ages", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ability lies dormant until the person Snaps. After that it works by instinct, even while they are unconscious, as long as they have swallowed the right metal, though it takes training to use it well.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "21" }]
+        },
+        {
+          "text": "Snapping takes an intense emotional experience, usually a traumatic one. The more powerful the Allomancer, the more easily they Snap.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+        },
+        {
+          "text": "Kelsier Snapped in the Pits of Hathsin after Mare died. Marsh Snapped when obligators took his mother away, and Spook at five years old, too young to remember it well.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        },
+        {
+          "text": "Noble families often test children of confirmed bloodlines with a planned beating, to see whether they Snap.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "21" }]
+        },
+        {
+          "text": "Snapping still needs extraordinary trauma, but the Lord Ruler's nuggets, passed down through noble bloodlines, made it easier than it had once been.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "Vin Snapped while she was being born, during her mother's unusually difficult labour.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Snapped by the mists",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The mist sickness was the mists Snapping people: given a vial, a soldier who had fallen ill burns metal, and Elend senses the pulse. Exactly sixteen percent of those newly exposed fall ill.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Many soldiers in Elend's army, Demoux among them, were Snapped by the mists.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "Before the Ascension, the mists Snapped people in the same way, one of the only ways Allomancy could wake then. They made only Mistings, and some of those Snapped, mostly the young and the old, died.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Burning metals",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "final-empire", "chapter": "25" },
+            { "book": "well-of-ascension", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "An Allomancer who has swallowed a metal they can burn feels it as a reserve of power in the stomach. Metals are usually taken as flakes in a vial of alcohol, and burning them brings a warm feeling.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "Flaring a metal burns it faster: more power, but the reserve empties sooner.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "Flaring pewter to keep going for hours has a price: Vin learns the hard way about pewter dragging, and her head still aches fifteen days on.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "25" }]
+        },
+        {
+          "text": "Purer metal works better, and alloys need exact proportions for full power. Burning an impure alloy can make the Allomancer sick, and metals with no Allomantic use can't be burned at all.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "A badly mixed alloy still feels like a reserve, but burning it brings sickness and a blinding headache.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Pushing and Pulling",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "21" },
+            { "book": "well-of-ascension", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each basic pair joins a pure metal with its alloy, and the two have complementary effects: iron Pulls on nearby metals, while steel Pushes on them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "The Lord Ruler's Push is strong enough to shove away even the metals inside Vin's stomach, and his Soothing reaches her through a coppercloud.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "Allomancers were far stronger in the Final Empire's early days: a simple Push or Pull on the emotions, from a Mistborn, Soother or Rioter, was enough to take control of a kandra or koloss.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "21" }]
+        },
+        {
+          "text": "Burning duralumin with brass, Vin Soothes her kandra companion, and it works.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The metals",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "hero-of-ages", "chapter": "72" },
+            { "book": "hero-of-ages", "chapter": "76" },
+            { "book": "tress", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On her first night of training, Kelsier teaches Vin the eight basic metals.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "text": "The Lord Ruler's Ministry kept several metals secret, so most people knew only the four physical and four mental metals, plus gold and atium. A rumoured Eleventh Metal lived on in legend.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        },
+        {
+          "text": "There are sixteen metals. The Lord Ruler probably knew them all but held some back, so during his reign people Snapped and died without knowing they were Mistings, because no one knew their metal.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "Tin lets an Allomancer see through the mists because the mists are made of the same power as Allomancy.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "76" }]
+        },
+        {
+          "text": "Off Scadrial, Allomantic effects look most like those of Rosharan fabrials, and steel and iron also act on Aether.",
+          "revealedIn": [{ "book": "tress", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mistings and Mistborn",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "3" },
+            { "book": "final-empire", "chapter": "10" },
+            { "book": "hero-of-ages", "chapter": "9" },
+            { "book": "hero-of-ages", "chapter": "22" },
+            { "book": "hero-of-ages", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Misting has a single Allomantic power; a Mistborn can burn every metal.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "3" }]
+        },
+        {
+          "text": "Each kind of Misting has its own name: Ham is a Thug, burning pewter; Clubs is a Smoker; Breeze leads a team of Soothers and Rioters.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        },
+        {
+          "text": "Allomancy began with the mists. The nuggets of metal in the Chamber of Ascension, a fraction of the Well's power, make whoever swallows one a Mistborn.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        },
+        {
+          "text": "Allomancers have slowly weakened over the generations.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "22" }]
+        },
+        {
+          "text": "Allomancy was far rarer before the Ascension. Today's Allomancers descend from the men who ate the few beads of Preservation's power; they became the first nobility, and the beads' power lasted ten centuries of breeding.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Savants",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flaring a metal hard for long periods can change an Allomancer's body, making them a savant: stronger with that metal but dependent on it, usually beyond repair.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Where the power comes from",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "32" },
+            { "book": "hero-of-ages", "chapter": "77" },
+            { "book": "hero-of-ages", "chapter": "79" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "78" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fighting the Lord Ruler, Vin draws on the mists themselves to Pull away his atium bracers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "text": "Allomancy is of Preservation: it adds power, drawn from an outside source, Preservation's own body.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        },
+        {
+          "text": "The mists swirl slightly around anyone using Allomancy, while Hemalurgy drives them away.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "77" }]
+        },
+        {
+          "text": "A burned metal acts as a conduit to Preservation, focusing his power into that metal's ability. Drawing on the mists directly takes Preservation's blessing.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        },
+        {
+          "text": "Unlike Feruchemy, which runs on the Feruchemist's own body, Allomancy draws on an outside power, usually Preservation's, though in some cases an Allomancer draws on Ruin's instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "78" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Twinborn and Compounders",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Compounder uses the same metal for both Allomancy and Feruchemy: burning a charged metalmind releases a huge burst of the stored attribute.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the Terris and people of noble descent intermarried, some descendants were born with one Allomantic and one Feruchemical power. These Twinborn have a name for each pairing, and their two powers combine into a secondary effect called a Resonance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "God metals",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "78" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Atium is part of Ruin's own body, and Preservation hid it in the Pits of Hathsin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "78" }]
+        },
+        {
+          "text": "God metals don't fit the Allomantic table. They are pure Investiture in solid form, and Scadrians know of those tied to their own Shards: lerasium, atium and harmonium, which explodes in liquid. Their alloys can grant further abilities.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Allomantic metals",
+      "columns": ["Metal", "Misting", "Effect"],
+      "rows": [
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "", "Pulls on nearby metals"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Lurcher", "Pulls on nearby metals"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "34" },
+                { "book": "well-of-ascension", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "", "Pushes on nearby metals"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Coinshot", "Pushes on nearby metals"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Tineye", "Sharpens all the senses"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": [
+            "Pewter",
+            "Thug",
+            "Makes the body stronger, faster, tougher and steadier"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": [
+            "Zinc",
+            "",
+            "Riots: inflames the emotions of people nearby"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": [
+            "Zinc",
+            "Rioter",
+            "Riots: inflames the emotions of people nearby"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": [
+            "Brass",
+            "",
+            "Soothes: dampens the emotions of people nearby"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": [
+            "Brass",
+            "Soother",
+            "Soothes: dampens the emotions of people nearby"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": [
+            "Copper",
+            "Smoker",
+            "Makes a coppercloud hiding nearby Allomancy from Seekers"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Seeker", "Senses Allomancy being used nearby"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "", "Shows another version of oneself"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Augur", "Shows who one could have been"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "37" },
+                { "book": "alloy-of-law", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": [
+            "Electrum",
+            "",
+            "Splits one's atium shadow, foiling atium users"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": [
+            "Electrum",
+            "Oracle",
+            "Shows one's own possible futures; foils atium users"
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": [
+            "Aluminum",
+            "",
+            "Makes all the burner's metal reserves vanish"
+          ],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": [
+            "Aluminum",
+            "Aluminum Gnat",
+            "Makes all the burner's metal reserves vanish"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "36" },
+                { "book": "well-of-ascension", "chapter": "5" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": [
+            "Duralumin",
+            "",
+            "Burns other metals at once in one huge burst"
+          ],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": [
+            "Duralumin",
+            "Duralumin Gnat",
+            "Burns other metals at once in one huge burst"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "11" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "71" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "cadmium",
+          "entry": "cadmium",
+          "cells": [
+            "Cadmium",
+            "Pulser",
+            "Slows time in a bubble around the user"
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "bendalloy",
+          "entry": "bendalloy",
+          "cells": [
+            "Bendalloy",
+            "Slider",
+            "Speeds time in a bubble around the user"
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "chromium",
+          "entry": "chromium",
+          "cells": [
+            "Chromium",
+            "Leecher",
+            "Wipes the metal reserves of an Allomancer touched"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "63" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": [
+            "Nicrosil",
+            "Nicroburst",
+            "Makes a touched Allomancer's burning metals flare in one burst"
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": "God metals",
+      "columns": ["Metal", "Effect"],
+      "rows": [
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "See a few seconds into the future"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": [
+            "Atium",
+            "See a few seconds into the future; part of Ruin's body"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "13" },
+                { "book": "hero-of-ages", "chapter": "78" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "malatium",
+          "entry": "malatium",
+          "cells": [
+            "The Eleventh Metal",
+            "Shows a shadowy figure of unclear meaning"
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+        },
+        {
+          "key": "malatium",
+          "entry": "malatium",
+          "cells": ["Malatium", "Shows a person's past self"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": ["A metal bead", "Swallowing one made Elend a Mistborn"],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "59" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": [
+            "Nuggets from the Well",
+            "Make whoever swallows one a Mistborn"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": [
+            "Lerasium",
+            "Makes a normal person a Mistborn of undiluted power"
+          ],
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "key": "harmonium",
+          "entry": "harmonium",
+          "cells": [
+            "Harmonium",
+            "Explodes in liquid, so can only be burned in theory"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "trellium",
+          "entry": "trellium",
+          "cells": [
+            "Trellium",
+            "As spikes, gives kandra Allomantic and Feruchemical powers"
+          ],
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Awakened by",
+      "name": "Snapping",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "label": "Overuse",
+      "name": "Savantism",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
+    },
+    {
+      "label": "Power source",
+      "name": "Preservation",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "78" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "With Feruchemy",
+      "name": "Twinborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Same metal, both arts",
+      "name": "Compounder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "God Metals",
+      "name": "Lerasium, atium and harmonium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "17" }]
+    },
+    {
+      "characterId": "hammond",
+      "role": "Thug",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "edgard-ladrian",
+      "role": "Soother",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "cladent",
+      "role": "Smoker",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "characterId": "cobble",
+      "role": "Smoker",
+      "level": "Misting",
+      "revealedIn": ["final-empire"]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Seeker",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "characterId": "shan-elariel",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "Tineye",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "22" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "17" }]
+    },
+    {
+      "characterId": "straff-venture",
+      "role": "Tineye",
+      "level": "Misting",
+      "revealedIn": ["well-of-ascension"]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "59" }]
+    },
+    {
+      "characterId": "allrianne-cett",
+      "role": "Rioter",
+      "level": "Misting",
+      "revealedIn": ["hero-of-ages"]
+    },
+    {
+      "characterId": "beldre",
+      "role": "Coinshot",
+      "level": "Misting",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    },
+    {
+      "characterId": "quellion",
+      "role": "Seeker by spike",
+      "level": "Misting",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+    },
+    {
+      "characterId": "aradan-yomen",
+      "role": "Seer",
+      "level": "Misting",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "Seer",
+      "level": "Misting",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "gemmel",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": ["eleventh-metal"]
+    },
+    {
+      "characterId": "antillius-shezler",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": ["eleventh-metal"]
+    },
+    {
+      "characterId": "spook",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "secret-history", "chapter": "6-9" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Coinshot",
+      "level": "Misting",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Slider",
+      "level": "Misting",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "gold Compounder",
+      "level": "Misting",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    },
+    {
+      "characterId": "tarson",
+      "role": "Thug",
+      "level": "Misting",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "characterId": "marasi-colms",
+      "role": "Pulser",
+      "level": "Misting",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+    },
+    {
+      "characterId": "dumad",
+      "role": "Coinshot",
+      "level": "Misting",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "24" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Mistborn",
+      "level": "Mistborn",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "72" }]
+    },
+    {
+      "characterId": "breeze",
+      "role": "Soother",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "clubs",
+      "role": "Smoker",
+      "level": "Misting",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    }
+  ],
+  "levels": ["Misting", "Mistborn"]
+}

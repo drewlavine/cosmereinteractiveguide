@@ -1,0 +1,169 @@
+{
+  "intro": [
+    {
+      "text": "One of the eight basic Allomantic metals. An Allomancer burning it makes a coppercloud that hides their own Allomancy, and that of people nearby, from Seekers.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "A metal used by all three metal-based arts. Allomancers burn it to hide Allomancy, Feruchemists store memories in it, and Hemalurgic spikes of copper steal mental fortitude and memory.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "well-of-ascension", "chapter": "4" },
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A coppercloud also shields the one burning copper from emotional Allomancy, though shielding others inside it is very hard.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "text": "Sazed keeps records of many old religions in copperminds.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "text": "A memory stored in a coppermind vanishes from the Feruchemist's own mind until it is drawn back out. Memories held only in the mind slowly fade.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+    },
+    {
+      "text": "Few can see through a coppercloud: those with a Hemalurgic spike that strengthens their bronze, or Allomancers of unusually strong lineage. A Seeker standing inside a coppercloud senses nothing, even from others inside it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "hero-of-ages", "chapter": "73" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Keepers fill copperminds with huge stores of knowledge, which does not fade while stored, and make index copperminds to find facts quickly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "4" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Final Empire",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "14" },
+            { "book": "final-empire", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a mission, Vin felt the Lord Ruler's Soothing reach her despite her coppercloud.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+        },
+        {
+          "text": "Vin came to suspect that Inquisitors could see through copperclouds; Kelsier tested the idea and found she was right.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Hides Allomancy from Seekers",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "label": "Paired metal",
+      "name": "Bronze",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Smoker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "well-of-ascension", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores memories",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Archivist",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "4" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals mental fortitude and memory",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "label": "Kandra Blessing",
+      "name": "Presence",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "label": "On Roshar",
+      "name": "Signal lines on Reacher ships",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "clubs",
+      "role": "Smoker",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "characterId": "cobble",
+      "role": "Smoker",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "14" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "tapped a coppermind",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
+    }
+  ]
+}

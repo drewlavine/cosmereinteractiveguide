@@ -1,0 +1,244 @@
+{
+  "intro": [
+    {
+      "text": "The study of the Realms in which things exist. Shai teaches Gaotona some of it alongside the workings of Forgery.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    },
+    {
+      "text": "The study of the three Realms that make up reality: the Physical, the Cognitive and the Spiritual.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-12" },
+            { "book": "secret-history", "chapter": "3-3" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "rhythm-of-war", "chapter": "i-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Investiture cycles between the Realms but always returns to the Spiritual. Great concentrations of it bend the Realms closer together.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "28" }]
+    },
+    {
+      "text": "The Cognitive Realm is the world of thought and perception, where the Cognitive side of everything takes shape. A planet's reflection there is called a subastral.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "2-1" }]
+    },
+    {
+      "text": "The Spiritual Realm lies beyond space and time, where all times and places are one. It holds each person's spiritweb, their Spiritual side, and records a thing's Identity, Connection and Fortune.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "secret-history", "chapter": "3-3" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Physical Realm is the natural world of the senses, of space and time, following scientific law. It exists whatever anyone perceives, which is why it does not line up perfectly with the other Realms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-12" },
+            { "book": "rhythm-of-war", "chapter": "i-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Cognitive Realm space is warped by perception, so distances shrink and people can walk between worlds; worldhoppers usually travel this way. People cross between it and the Physical Realm at perpendicularities, among other ways.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-8" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The philosopher Gavarah developed the theory long ago, and scholars came to accept that the Spiritual Realm is a place of pure truth while the Cognitive is more changeable. Few studied it closely: in six years of research Jasnah Kholin found little on the Cognitive Realm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-8" },
+                { "book": "words-of-radiance", "chapter": "24" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Scadrial",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "12" },
+                { "book": "hero-of-ages", "chapter": "71" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "57" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ancient Terris knew of the Realms and wove them into their religion. Much of this was lost when the Lord Ruler destroyed that religion, though the First Generation of kandra kept some of it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "19" },
+                { "book": "well-of-ascension", "chapter": "12" },
+                { "book": "hero-of-ages", "chapter": "71" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sazed put some basic knowledge of the Realms in the Words of Founding. The Terris, the kandra and the Set research the Spiritual metals in secret, so most people of the Basin know little more than that.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "57" },
+                { "book": "bands-of-mourning", "chapter": "31" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Southern Scadrians understand far more. A visitor taught them to make unsealed brassminds, and from there they learned to make unsealed metalminds for every Metallic Art, though never with more than three powers in one.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Sel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-12" },
+                { "book": "secret-history", "chapter": "5-2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The MaiPon learned much about the Realms through study of Forgery and know of ideas like Identity and Connection. The Ire also had an advanced understanding.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "emperors-soul", "chapter": "day-12" },
+                { "book": "secret-history", "chapter": "5-2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Realms",
+      "name": "Physical, Cognitive, Spiritual",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "emperors-soul", "chapter": "day-12" },
+            { "book": "secret-history", "chapter": "3-3" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "rhythm-of-war", "chapter": "i-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Developed on Roshar by",
+      "name": "Gavarah",
+      "characterId": "gavarah",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "24" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Crossing points",
+      "name": "Perpendicularities",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    },
+    {
+      "label": "Smallest particles",
+      "name": "Axi",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "gavarah",
+      "role": "founder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "24" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "researcher",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "24" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "gaotona",
+      "role": "student",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-12" }]
+    }
+  ]
+}

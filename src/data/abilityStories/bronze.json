@@ -12,7 +12,7 @@
             { "book": "final-empire", "chapter": "20" },
             { "book": "well-of-ascension", "chapter": "57" },
             { "book": "hero-of-ages", "chapter": "34" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
@@ -44,14 +44,14 @@
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "57" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
     },
     {
       "text": "On Roshar, a fabrial with a bronze cage becomes an alerter, warning of nearby objects, feelings or other things.",
-      "revealedIn": ["rhythm-of-war"]
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
     }
   ],
   "history": [],
@@ -78,7 +78,7 @@
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "57" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
@@ -90,7 +90,7 @@
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "57" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
@@ -101,6 +101,16 @@
       "characterId": "marsh",
       "role": "Seeker",
       "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "20" }]
+    },
+    {
+      "characterId": "quellion",
+      "role": "Hemalurgic Seeker",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
     }
   ]
 }

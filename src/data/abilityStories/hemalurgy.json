@@ -1,6 +1,10 @@
 {
   "intro": [
     {
+      "text": "An art that drives metal spikes into people to take their abilities and pass them on to someone else. What a spike steals depends on its metal.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
       "text": "An art that uses metal spikes to take powers from one person and give them to another. It is named for its tie to blood, and the transfer always involves a death.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
     },
@@ -11,19 +15,19 @@
   ],
   "description": [
     {
-      "text": "Both the spike's metal and where on the body it is driven matter. Steel spikes, for example, take physical Allomantic powers.",
+      "text": "Each metal steals something different: iron takes strength, tin takes senses, and steel takes the physical Allomantic powers.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "text": "Power is lost in every transfer: the recipient gets less than the victim had.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+    },
+    {
+      "text": "Both the spike's metal and where on the body it is driven matter.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
     },
     {
-      "text": "A spike loses some of its charge once it is made, so Inquisitors were made by driving spikes through the victim straight into the person beneath.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
-    },
-    {
-      "text": "A spike made by killing someone with no Allomancy or Feruchemy takes the power that exists in every soul instead, and grants lesser abilities.",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
-    },
-    {
-      "text": "Spikes change the body of whoever bears them, depending on the powers granted, where they sit and how many there are. Koloss, kandra and Steel Inquisitors are all made this way.",
+      "text": "Spikes change the body of whoever bears them. Koloss, kandra and Steel Inquisitors are all made this way.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
     },
     {
@@ -36,13 +40,834 @@
       "title": [
         {
           "text": "Under the Lord Ruler",
-          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "40" },
+            { "book": "hero-of-ages", "chapter": "42" },
+            { "book": "hero-of-ages", "chapter": "44" },
+            { "book": "hero-of-ages", "chapter": "80" }
+          ]
         }
       ],
       "items": [
         {
-          "text": "The Lord Ruler worked out where to place spikes to make servants, and the Inquisitors' torture chambers served as Hemalurgic laboratories. In a thousand years he made only three kinds of creature with it.",
+          "text": "Skaa Mistings were hunted to supply the Steel Ministry with new Inquisitors.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "At first koloss made new members only with spikes and captives the Lord Ruler gave them, but they learned to reuse spikes taken from fallen koloss.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "text": "The Lord Ruler made only three kinds of creature with Hemalurgy in a thousand years.",
           "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        },
+        {
+          "text": "He taught the kandra to pull out their spikes if Ruin ever tried to seize them, and most did.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruin's spikes",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "6" },
+            { "book": "hero-of-ages", "chapter": "42" },
+            { "book": "hero-of-ages", "chapter": "58" },
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "73" },
+            { "book": "hero-of-ages", "chapter": "80" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marsh's Inquisitors carry new spikes charged by killing Terris Keepers.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "6" }]
+        },
+        {
+          "text": "Marsh stabs King Penrod in the heart with a bronze spike he made from a Smoker; Penrod's surgeons leave it in.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "text": "Spook pulls a bronze spike from Quellion's arm, then removes the metal splinter in his own body and loses his Thug strength.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "text": "Quellion had placed his own bronze spike, made from an Allomancer he captured, and it made him a Seeker. Zane probably came by his spike the same way.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Marsh rips out Vin's earring, a spike, and Ruin's voice stops. It had killed her Seeker sister and passed on her power, doubling Vin's bronze.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        },
+        {
+          "text": "Kandra led by KanPaar, who kept their spikes, try to bring the atium to Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Wax's day",
+          "revealedIn": [
+            { "book": "shadows-of-self", "chapter": "13" },
+            { "book": "shadows-of-self", "chapter": "21" },
+            { "book": "shadows-of-self", "chapter": "25" },
+            { "book": "bands-of-mourning", "chapter": "27" },
+            { "book": "lost-metal", "chapter": "21" },
+            { "book": "lost-metal", "chapter": "49" },
+            { "book": "lost-metal", "chapter": "epilogue-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The kandra Paalm has pulled out one of her spikes so that Harmony cannot control her.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+        },
+        {
+          "text": "Paalm makes four-legged, human-like Hemalurgic creatures; TenSoon pulls a red-tinted spike from one.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+        },
+        {
+          "text": "Wax shoots Paalm with a bullet made from his earring, giving her a second spike so Harmony can control her again.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "25" }]
+        },
+        {
+          "text": "The Set takes the kandra MeLaan's spikes. Edwarn carries three spikes he calls boons; more might let Harmony interfere.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "27" }]
+        },
+        {
+          "text": "The Cycle uses spikes for extra abilities; one is trellium, which may be why he bore four without Harmony's control. He turns out to be Granks.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+        },
+        {
+          "text": "Dumad bears more than three spikes, burns bronze and can sense Feruchemy. Wax hits him and Getruda with rounds made for killing Hemalurgists.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+        },
+        {
+          "text": "Wax carries a large spike through his chest, and Wayne carries one Wax gave him.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Spikes and stealing",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "hero-of-ages", "chapter": "13" },
+            { "book": "hero-of-ages", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "33" },
+            { "book": "hero-of-ages", "chapter": "38" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "42" },
+                { "book": "fires-of-december", "chapter": "xxvi" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "72" },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "47" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A spike is driven through one person to take an ability, then into another to give it. To make an Inquisitor, the spike went through a captive's heart and straight on into the person lying beneath.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "text": "The art is named for its tie to blood, and a death is always involved when it moves powers from one person to another.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+        },
+        {
+          "text": "In concept the art is simple, and parasitic: without other people to steal from, it would be useless.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "35" }]
+        },
+        {
+          "text": "Some power is always lost: the recipient gains the ability in a lesser form than the victim had it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+        },
+        {
+          "text": "A spike made by killing someone who is neither Allomancer nor Feruchemist takes the power that lives in every soul, and grants lesser abilities.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "text": "The spike has to touch moving blood to take or give an ability. It need not be held: thrown at the right bind point with Intent, it still works.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "42" },
+                { "book": "fires-of-december", "chapter": "xxvi" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Killing a Mistborn with a spike draws out only one of their sixteen powers; the rest are lost.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "A spike can be charged without killing: a very thin spike, threaded carefully past the organs with the right Intent (and, ideally, a spoken Command), tears off a small piece of the victim's soul and leaves them alive. This also gathers Investiture from people who are not Allomancers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "13" },
+                { "book": "lost-metal", "chapter": "47" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "One spike can take the same ability from several people.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bind points and placement",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "42" },
+            { "book": "hero-of-ages", "chapter": "43" },
+            { "book": "hero-of-ages", "chapter": "44" },
+            { "book": "bands-of-mourning", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Where a spike goes matters as much as its metal. A steel spike takes one of the four physical Allomantic powers, and which one depends on where it is placed.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "The body has between 200 and 300 bind points, and different points serve different effects.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "text": "Skill in Allomancy and Feruchemy lies in using the powers; the art unique to Hemalurgy is knowing where to put the spikes.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "43" }]
+        },
+        {
+          "text": "The Lord Ruler worked out where to place spikes, and the Inquisitors' torture chambers served as his Hemalurgic laboratories.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        },
+        {
+          "text": "A book on Hemalurgy warns against experimenting, since placing a spike can have unpredictable results.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Receiving powers",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "45" },
+            { "book": "hero-of-ages", "chapter": "37" },
+            { "book": "hero-of-ages", "chapter": "42" },
+            { "book": "lost-metal", "chapter": "prologue" },
+            { "book": "lost-metal", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Someone who already has a power and gains a spike granting the same one becomes nearly twice as strong as a normal Allomancer.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+        },
+        {
+          "text": "Most Inquisitors were made from Mistings, and Seekers were favoured: with a spike adding more bronze, an Inquisitor was very good at hunting skaa Mistings.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "37" }]
+        },
+        {
+          "text": "A spike holds only so much charge, so piling up spikes cannot give endless strength.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "text": "There is a limit to how many spikes a person can take before their body or mind suffers.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        },
+        {
+          "text": "That limit has dropped since Ruin was joined with Preservation: past it, the soul stops gaining powers. Hemalurgists made since then cannot normally use Compounding.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hemalurgic decay",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "37" },
+            { "book": "shadows-of-self", "chapter": "6" },
+            { "book": "lost-metal", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once charged, a spike starts to lose some of its power, and the longer it stays outside a body the weaker it gets; most of the loss happens on the first day. That is why Inquisitors were made by driving spikes through the victim directly into the Inquisitor below.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "Decay shows in the first Inquisitors' healing: their stolen Feruchemical power let them store health more slowly than a true Feruchemist, which is why they heal fast yet need much rest.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "Decay mattered less for Inquisitors made from Mistborn, whose own powers already made them very strong.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "37" }]
+        },
+        {
+          "text": "Coating a spike in blood greatly slows decay. The blood need not be fresh: a cut of meat big enough to hold the spike works too.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "6" }]
+        },
+        {
+          "text": "Arcanists have found a way to avoid decay outside the body altogether, though how is unknown.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Changes to body and mind",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "40" },
+            { "book": "hero-of-ages", "chapter": "41" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "41" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "77" },
+            { "book": "hero-of-ages", "chapter": "79" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each spike twists the body further from human.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "How someone changes depends on the powers granted, where the spikes sit and how many there are.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        },
+        {
+          "text": "The twisting is what lets Inquisitors live with spikes through their eyes: an Inquisitor's heart sits in a different place, and its brain is reshaped around the eye spikes. Koloss change even more.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "41" }]
+        },
+        {
+          "text": "Pulling out spikes at such vital points undoes the change and kills. The more spikes a person bears, the greater the strain on body and soul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "41" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The mists swirl around anyone using Allomancy but draw away from a Hemalurgist using his powers, the more so the closer he is to Ruin and the longer he has borne the spikes.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "77" }]
+        },
+        {
+          "text": "A spike can also keep the mists from investing themselves in a person: a disguised spike did this to the mists' chosen host until it was taken out.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "79" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Control through the spikes",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "37" }
+              ]
+            },
+            { "book": "hero-of-ages", "chapter": "51" },
+            { "book": "hero-of-ages", "chapter": "63" },
+            { "book": "hero-of-ages", "chapter": "66" },
+            { "book": "hero-of-ages", "chapter": "67" },
+            { "book": "hero-of-ages", "chapter": "70" },
+            { "book": "hero-of-ages", "chapter": "72" },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "75" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "21" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "67" },
+                { "book": "shadows-of-self", "chapter": "7" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Control over Hemalurgic creatures ranges from whispers to full command. A controller can sense where each creature is and must concentrate to give direct orders; otherwise they follow general ones. Many can be controlled at once.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "37" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Spiking a person was hard even for Ruin, so he began with people who had a weak hold on reality and used them to spike steadier ones. He reached many important people this way.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "51" }]
+        },
+        {
+          "text": "Ruin held passionate, impulsive people more easily than logical ones; someone who removed a spike before he had a firm grip could escape.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+        },
+        {
+          "text": "Inquisitors had more spikes than any of Ruin's other creations and were completely under his rule; only a man of supreme will could resist even slightly.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "66" }]
+        },
+        {
+          "text": "With four spikes and weakened minds, koloss were easy to dominate except in a blood frenzy. Allomancers can take them too: a determined ordinary Push holds a koloss, while a kandra needs a duralumin Push.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "67" }]
+        },
+        {
+          "text": "Unstable people are open to Ruin even without a spike, and he can prod them into spiking themselves.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "text": "Spiked people can fight control with mental strength, but are easier to take when feeling strong emotion. A stronger rival can steal control, and the one losing it feels a violent ripping.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "Each spike gives Ruin some influence, weakened by the person's mental strength. Even one spike lets him appear to them and bend their thoughts slightly, so they overlook oddities. The holes spikes leave in the soul also let a strong Soother or Rioter reach in.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "75" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Once emotional Allomancy has taken hold of a Hemalurgic creature, the Soothing or Rioting is no longer needed, even while the Allomancer sleeps. It can be done by one Allomancer burning duralumin with brass or zinc, or by several Soothers or Rioters together.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "54" },
+                { "book": "hero-of-ages", "chapter": "21" },
+                { "book": "bands-of-mourning", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The more spikes a creature has, the easier it is to control: Ruin or Harmony needs at least four in a human, and a kandra with only one spike is beyond their control.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "67" },
+                { "book": "shadows-of-self", "chapter": "7" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hemalurgic creatures",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "hero-of-ages", "chapter": "40" },
+            { "book": "hero-of-ages", "chapter": "39" },
+            { "book": "hero-of-ages", "chapter": "45" },
+            { "book": "shadows-of-self", "chapter": "21" },
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Steel Inquisitors are made with Hemalurgy, by spiking a captive and the Inquisitor-to-be in one stroke.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "text": "Inquisitors combine the powers of several Allomancers, which is why skaa Mistings were hunted: to make new Inquisitors.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "A koloss is made by pulling four spikes from a dead koloss and driving them into a living human.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "Koloss, kandra and Inquisitors are all made by the same process.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "A koloss holds five souls, shown by its four spikes. Each pair of spikes grants the kandra's Blessing of Potency, and each spike twists the body further.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
+        },
+        {
+          "text": "Kandra bear spikes too. Their Blessings come from them: Potency gives strength like burning pewter, Presence mental capacity, Awareness sharper senses, and the rarely used Stability emotional fortitude.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+        },
+        {
+          "text": "Inquisitors carry nine to eleven spikes, each holding an Allomantic or Feruchemical power. The eye spikes let them see with iron and steel, and a linchpin spike between the shoulder blades holds their fraying souls together; pulling it kills them. Seekers and Mistborn make the best Inquisitors, as extra bronze lets them pierce copperclouds.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+        },
+        {
+          "text": "Kandra are mistwraiths made sapient by two spikes that both carry the same human attribute, which they call a Blessing. A kandra with only one spike can still think, but behaves more erratically.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "21" }]
+        },
+        {
+          "text": "Chimeras are humans twisted by a single trellium spike into dog-like creatures with skulls thick enough to resist modern guns. The single spike keeps them beyond Harmony's control. A newer strain with two spikes is nicknamed Metal Mutants.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "21" },
+                { "book": "lost-metal", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "What each metal steals",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "hero-of-ages", "chapter": "34" },
+            { "book": "lost-metal", "chapter": "epilogue-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iron spikes steal strength, steel spikes the physical Allomantic powers, tin spikes senses, zinc spikes emotional fortitude and copper spikes mental fortitude, memory and intelligence. The Inquisitors' experiments found that atium spikes steal the temporal Allomantic powers.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "text": "A dead Inquisitor had a speed that was not Allomancy, and Vin finds a spike in its heart.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "Spikes of other metals steal Feruchemical powers: the first Inquisitors each got a spike taken from a Feruchemist, which let them store healing.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "A bronze spike driven through a Smoker's heart takes his power.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "34" }]
+        },
+        {
+          "text": "A trellium spike can give Allomantic and Feruchemical powers to kandra. It also lets its bearer speak to others who carry spikes, and Autonomy can act and speak through someone pierced with one.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Beyond Scadrial",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-7" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            },
+            "fires-of-december",
+            { "book": "wind-and-truth", "chapter": "118" },
+            { "book": "sunlit-man", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hemalurgy works anywhere in the cosmere, as long as there is Intent to make a spike.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-7" }]
+        },
+        {
+          "text": "A spike through the right eye socket can hold a Cognitive Shadow to a body in the Physical Realm, and gives that eye iron and steel sight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On Miral, the Prophet bound the Megalith's soul to its body with a large silver spike and an Aon, using a buffer of Breath-like Investiture.",
+          "revealedIn": ["fires-of-december"]
+        },
+        {
+          "text": "On Roshar a variant uses crystal spikes instead of metal, in part the work of the Herald Battar. Moash had his eyes pierced by such spikes, letting him sense Investiture and see Invested beings even when they hide; like Hemalurgy, it reshapes the body so he survives.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        },
+        {
+          "text": "The Charred are made by piercing people with a corrupted sunheart, a cinderheart that replaces heart and lungs. It badly damages the soul and erases most memories, but gives strength, speed and toughness, making them passingly like Steel Inquisitors. If the process is interrupted, a Sunlit Charred keeps its memories and can command the others.",
+          "revealedIn": [{ "book": "sunlit-man", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Hemalurgic metals",
+      "columns": ["Metal", "Steals"],
+      "rows": [
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Physical strength"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Physical Allomantic powers"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Senses"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": ["Zinc", "Emotional fortitude"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": ["Copper", "Mental fortitude, memory and intelligence"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": [
+            "Atium",
+            "Temporal Allomantic powers, by the Inquisitors' experiments"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Allomantic copper"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "34" }]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Feruchemical steel (speed)"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Feruchemical gold (healing)"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Mental Allomantic powers"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": ["Lerasium", "All abilities"],
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+        },
+        {
+          "key": "trellium",
+          "entry": "trellium",
+          "cells": [
+            "Trellium",
+            "Allomantic and Feruchemical powers, for kandra"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": ["Nicrosil", "Raw Investiture rather than powers"],
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": ["Electrum", "Allomantic duralumin"],
+          "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": "Known spikes",
+      "columns": ["Bind point", "Spike", "Power", "Seen in"],
+      "rows": [
+        {
+          "key": "Heart",
+          "cells": [
+            "Heart",
+            "Pewter",
+            "Speed that is not Allomancy",
+            "An Inquisitor"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "key": "Heart",
+          "cells": [
+            "Heart",
+            "Pewter",
+            "Feruchemical steel (speed)",
+            "An Inquisitor"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "key": "Between the ribs",
+          "cells": [
+            "Between the ribs",
+            "Gold",
+            "Feruchemical gold (healing)",
+            "Inquisitors"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "key": "Heart",
+          "cells": ["Heart", "Bronze", "Allomantic copper", "King Penrod"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+        },
+        {
+          "key": "Eyes",
+          "cells": ["Eyes", "", "Iron and steel sight", "Inquisitors"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+        },
+        {
+          "key": "Between the shoulder blades",
+          "cells": [
+            "Between the shoulder blades",
+            "",
+            "Linchpin holding the other spikes",
+            "Inquisitors"
+          ],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "45" }]
+        },
+        {
+          "key": "Left shoulder",
+          "cells": ["Left shoulder", "Steel", "Allomantic pewter", "Spook"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+        },
+        {
+          "key": "Arm",
+          "cells": ["Arm", "Bronze", "Allomantic bronze", "Quellion"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+        },
+        {
+          "key": "Left earlobe",
+          "cells": ["Left earlobe", "Bronze", "Allomantic bronze", "Vin"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+        },
+        {
+          "key": "Between the ribs",
+          "cells": [
+            "Between the ribs",
+            "Electrum",
+            "Allomantic duralumin",
+            "Wax"
+          ],
+          "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": "Kandra Blessings",
+      "columns": ["Blessing", "Spike", "Grants"],
+      "rows": [
+        {
+          "key": "Awareness",
+          "cells": ["Awareness", "Tin", "Sharper senses"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "key": "Presence",
+          "cells": ["Presence", "Copper", "Mental capacity"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "key": "Stability",
+          "cells": ["Stability", "Zinc", "Emotional fortitude, rarely used"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        },
+        {
+          "key": "Potency",
+          "cells": ["Potency", "Iron", "Strength, like burning pewter"],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
         }
       ]
     }
@@ -51,14 +876,14 @@
     {
       "label": "Tool",
       "name": "Metal spikes",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
     }
   ],
   "people": [
     {
       "characterId": "marsh",
       "role": "Inquisitor",
-      "revealedIn": [{ "book": "hero-of-ages", "chapter": "13" }]
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
     },
     {
       "characterId": "tensoon",
@@ -69,6 +894,120 @@
       "characterId": "rashek",
       "role": "creator of servants",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+    },
+    {
+      "characterId": "bendal",
+      "role": "Inquisitor",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "34" },
+            { "book": "hero-of-ages", "chapter": "40" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "kar",
+      "role": "Inquisitor",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "40" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "human",
+      "role": "koloss",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "37" }]
+    },
+    {
+      "characterId": "spook",
+      "role": "Thug spike",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    },
+    {
+      "characterId": "quellion",
+      "role": "Seeker spike",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    },
+    {
+      "characterId": "kanpaar",
+      "role": "kandra",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "80" }]
+    },
+    {
+      "characterId": "paalm",
+      "role": "kandra",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "13" }]
+    },
+    {
+      "characterId": "melaan",
+      "role": "kandra",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "26" }]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "26" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "25" }]
+    },
+    {
+      "characterId": "getruda",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "49" }]
+    },
+    {
+      "characterId": "dumad",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "25" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "crystal spikes",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+    },
+    {
+      "characterId": "ferson-penrod",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
+    },
+    {
+      "characterId": "aradan-yomen",
+      "role": "removed his spike",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "63" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "70" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "earring spike",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "73" }]
+    },
+    {
+      "characterId": "granks",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "21" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "spike bearer",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-2" }]
+    },
+    {
+      "characterId": "battar",
+      "role": "crystal spikes",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
     }
   ]
 }

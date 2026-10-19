@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "An Allomantic metal that hides its burner's future from enemies burning atium, whose view of the burner splits apart.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+    },
+    {
+      "text": "An alloy of gold and silver. Allomancers burn it to see their own possible futures, a cheap counter to atium, and Feruchemists store determination in it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "31" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "When an Allomancer burning atium faces someone burning electrum, the electrum burner's atium shadow splits, so their actions cannot be predicted.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+    },
+    {
+      "text": "An electrum Misting, or Oracle, sees shadows of their own possible futures a few seconds ahead, like atium shadows. Because gold and silver are far cheaper than atium, Elend called it the poor man's atium.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "A Feruchemist storing determination in electrum becomes depressed while filling it, and can tap it afterward to enter a manic state.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A hidden metal",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "hero-of-ages", "chapter": "31" },
+            { "book": "hero-of-ages", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler kept electrum from public knowledge, since it would have destroyed the value of atium and the economy built on it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "Sazed sought out the metal plate left with the Urteau storage cache, which held information on electrum.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+        },
+        {
+          "text": "When Yomen, burning atium, seemed unnaturally fast in a fight, Elend burned electrum and left him confused.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Alloy",
+      "name": "45% gold, 55% silver",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "31" }]
+    },
+    {
+      "label": "Counters",
+      "name": "Atium",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+    },
+    {
+      "label": "Allomancy",
+      "name": "Shows own near future",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Oracle",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores determination",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Pinnacle",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals Allomantic duralumin",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "69" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+    }
+  ]
+}

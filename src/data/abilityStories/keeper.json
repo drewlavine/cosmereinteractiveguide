@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "A group first mentioned when Kelsier talks in private with Sazed, the Terris steward who knows hundreds of religions.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+    },
+    {
+      "text": "Terris Feruchemists who store knowledge in their metalminds. They formed to remember everything after the Terris religion was lost, and Sazed is one of them.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "A secret order of Terris Feruchemists, led by the Synod, who gathered knowledge in their metalminds and kept it hidden from the Lord Ruler.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "well-of-ascension", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Sazed believes the Lord Ruler fears the Keepers, thinking them something he does not understand.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "text": "The order was formed to remember everything after the Terris religion was lost, and each Keeper stores what they gather in metalminds.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "The Keepers were ruled by the Synod and stayed hidden from the Lord Ruler, who would have had them killed for their Feruchemy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "well-of-ascension", "chapter": "7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They follow the old Worldbringers in collecting as much knowledge as they can.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "9" },
+            { "book": "hero-of-ages", "chapter": "68" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Final Empire",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sazed planned to travel to Terris and share what he had learned with the other Keepers.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Teaching the people",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "7" },
+            { "book": "well-of-ascension", "chapter": "13" },
+            { "book": "well-of-ascension", "chapter": "23" },
+            { "book": "well-of-ascension", "chapter": "56" }
+          ]
+        },
+        {
+          "text": "Teaching and the Synod's end",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Synod, the governing body of Terris, sent Keepers out to teach. Sazed taught rural skaa writing, farming, governing and medicine.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "7" }]
+        },
+        {
+          "text": "Another Keeper, the Terriswoman Tindwyl, came to Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
+        },
+        {
+          "text": "Sazed left his teaching to return to Luthadel against the Synod's orders, as he had once disobeyed them to help fight the Lord Ruler.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "23" }]
+        },
+        {
+          "text": "Steel Inquisitors came to Tathingdwen and killed the Synod, and Terris refugees fled toward Luthadel.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Led by",
+      "name": "The Synod",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "7" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sazed",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "characterId": "tindwyl",
+      "role": "Keeper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
+    }
+  ]
+}

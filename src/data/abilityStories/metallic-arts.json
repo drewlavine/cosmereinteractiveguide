@@ -1,0 +1,741 @@
+{
+  "intro": [
+    {
+      "text": "Three magic arts tied to metals. The Lord Ruler came to understand them when he took the power at the Well of Ascension.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    },
+    {
+      "text": "The three metal-based powers: Allomancy, which gains power from outside, Feruchemy, which stores and returns it, and Hemalurgy, which steals powers from one person to give to another.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Allomancy is of Preservation and gains power from an outside source; Feruchemy is balanced, storing power and giving it back; Hemalurgy is of Ruin, and power is lost whenever it moves abilities between people.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "34" }]
+    },
+    {
+      "text": "Hemalurgy can steal Allomantic or Feruchemical powers from one person and give them to another.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "text": "People born with Allomantic or Feruchemical powers, along with kandra, are called Metalborn.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "lost-metal", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Well of Ascension the Lord Ruler took nine beads of Preservation's power and gave them to kings he wanted on his side, creating the first Mistborn. The power passed down for over a thousand years, slowly thinning until Mistings appeared and Mistborn grew rarer. He also learned how to make Inquisitors, koloss and kandra.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Gain, balance and loss",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "32" },
+            { "book": "hero-of-ages", "chapter": "33" },
+            { "book": "hero-of-ages", "chapter": "34" },
+            { "book": "hero-of-ages", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Allomancy is of Preservation. Its power comes from outside the Allomancer, from Preservation's own body, so using it adds power to the world.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        },
+        {
+          "text": "Hemalurgy is of Ruin. Taking abilities from one person and giving them, in weaker form, to another loses power along the way.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "33" }]
+        },
+        {
+          "text": "Feruchemy is the power of balance. A Feruchemist stores power and draws it back when needed, with nothing lost or gained, only moved in time and speed. Of the three arts, it was the only one people knew before the conflict between Preservation and Ruin.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "34" }]
+        },
+        {
+          "text": "Hemalurgy can steal Allomantic or Feruchemical powers and give them to someone else. A spike made by killing an ordinary person steals the trace of Preservation's power in that person's soul.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Metalborn",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Metalborn are people with Allomantic or Feruchemical powers: those with all sixteen metals, Mistborn and full Feruchemists, as well as Mistings and Ferrings, who have one power each. Kandra count too, but Hemalurgists don't, since their art isn't inborn. The name seems to have come into use only after the Catacendre.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "4" },
+                { "book": "lost-metal", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "New metals",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "15" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Southern Scadrians power their machines with harmonium, which they call ettmetal. It burns with a pure white light and explodes in water, and when heated with electricity and slowly pulled apart it begins to split into parts like atium and lerasium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Trellium is a silvery metal with a red cast and dark, rust-like spots. Its Allomantic and Feruchemical uses are unknown, but as spikes it can take Allomantic or Feruchemical powers and give them to kandra, or turn humans into Hemalurgic constructs.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "The metals",
+      "columns": ["Metal", "Allomancy", "Feruchemy", "Hemalurgy"],
+      "rows": [
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Pulls on nearby metal", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Pulls on nearby metal", "Stores weight", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "well-of-ascension", "chapter": "53" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": [
+            "Iron",
+            "Pulls on nearby metal",
+            "Stores weight",
+            "Steals physical strength"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "hero-of-ages", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Pushes on nearby metal", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Pushes on nearby metal", "Stores speed", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "well-of-ascension", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": [
+            "Steel",
+            "Pushes on nearby metal",
+            "Stores speed",
+            "Steals physical Allomancy"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "well-of-ascension", "chapter": "19" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Sharpens the senses", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": [
+            "Tin",
+            "Sharpens the senses",
+            "Stores a sense, such as sight",
+            ""
+          ],
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": [
+            "Tin",
+            "Sharpens the senses",
+            "Stores a sense, such as sight",
+            "Steals senses"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Strengthens the body", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Strengthens the body", "Stores strength", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": [
+            "Pewter",
+            "Strengthens the body",
+            "Stores strength",
+            "Steals physical Feruchemy"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "37" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": ["Zinc", "Riots: inflames emotions", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": [
+            "Zinc",
+            "Riots: inflames emotions",
+            "",
+            "Steals emotional fortitude"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": [
+            "Zinc",
+            "Riots: inflames emotions",
+            "Stores mental speed",
+            "Steals emotional fortitude"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "well-of-ascension", "chapter": "50" },
+                { "book": "hero-of-ages", "chapter": "prologue" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": ["Brass", "Soothes: dampens emotions", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": ["Brass", "Soothes: dampens emotions", "Stores warmth", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "7" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": ["Copper", "Hides Allomancy in a coppercloud", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": [
+            "Copper",
+            "Hides Allomancy in a coppercloud",
+            "Stores memories",
+            ""
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "well-of-ascension", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": [
+            "Copper",
+            "Hides Allomancy in a coppercloud",
+            "Stores memories",
+            "Steals memory and intelligence"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "well-of-ascension", "chapter": "12" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Senses Allomancy nearby", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "9" }]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": [
+            "Bronze",
+            "Senses Allomancy nearby",
+            "",
+            "Steals mental Allomancy"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "well-of-ascension", "chapter": "5" },
+                { "book": "hero-of-ages", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": [
+            "Bronze",
+            "Senses Allomancy nearby",
+            "Stores wakefulness",
+            "Steals mental Allomancy"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "9" },
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "5" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Shows another version of oneself", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": [
+            "Gold",
+            "Shows another version of oneself",
+            "Stores health",
+            ""
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                { "book": "well-of-ascension", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": [
+            "Gold",
+            "Shows another version of oneself",
+            "Stores health",
+            "Can steal Feruchemical gold"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                { "book": "well-of-ascension", "chapter": "58" },
+                { "book": "hero-of-ages", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": ["Electrum", "Splits one's atium shadow", "", ""],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": [
+            "Electrum",
+            "Shows one's own possible futures",
+            "Stores determination",
+            ""
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": [
+            "Electrum",
+            "Shows one's own possible futures",
+            "Stores determination",
+            "Can steal Allomantic duralumin"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "69" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "cadmium",
+          "entry": "cadmium",
+          "cells": [
+            "Cadmium",
+            "Slows time around the user",
+            "Stores breath",
+            ""
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "bendalloy",
+          "entry": "bendalloy",
+          "cells": [
+            "Bendalloy",
+            "Speeds time around the user",
+            "Stores nutrition",
+            ""
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "chromium",
+          "entry": "chromium",
+          "cells": [
+            "Chromium",
+            "Wipes a touched Allomancer's reserves",
+            "",
+            ""
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "63" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": [
+            "Nicrosil",
+            "Flares a touched Allomancer's metals",
+            "Stores Investiture",
+            ""
+          ],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": [
+            "Nicrosil",
+            "Flares a touched Allomancer's metals",
+            "Stores Investiture",
+            "Steals Investiture, not powers"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "lost-metal", "chapter": "47" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": ["Aluminum", "Empties the burner's metal reserves", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": [
+            "Aluminum",
+            "Empties the burner's metal reserves",
+            "Stores Identity",
+            ""
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "5" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": [
+            "Duralumin",
+            "Burns other metals in one huge burst",
+            "",
+            ""
+          ],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": [
+            "Duralumin",
+            "Burns other metals in one huge burst",
+            "Stores Connection",
+            ""
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "11" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "See a few seconds ahead", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "See a few seconds ahead", "Stores youth", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": [
+            "Atium",
+            "See a few seconds ahead",
+            "Stores youth",
+            "Steals temporal Allomancy"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "malatium",
+          "entry": "malatium",
+          "cells": ["Malatium", "Shows a person's past self", "", ""],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": ["Lerasium", "Makes one a full Mistborn", "", ""],
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        },
+        {
+          "key": "lerasium",
+          "entry": "lerasium",
+          "cells": [
+            "Lerasium",
+            "Makes one a full Mistborn",
+            "",
+            "Steals every ability"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "shadows-of-self", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "trellium",
+          "entry": "trellium",
+          "cells": [
+            "Trellium",
+            "",
+            "",
+            "Gives kandra Allomantic or Feruchemical powers"
+          ],
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Arts",
+      "name": "Allomancy, Feruchemy, Hemalurgy",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "38" }]
+    },
+    {
+      "label": "Inborn users",
+      "name": "Metalborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "bands-of-mourning", "chapter": "4" },
+            { "book": "lost-metal", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "rashek",
+      "role": "master",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }]
+    }
+  ]
+}

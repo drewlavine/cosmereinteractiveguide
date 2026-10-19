@@ -65,9 +65,9 @@ export const mainTabs: MainTab[] = [
   },
   {
     id: 'abilities',
-    label: 'Abilities',
-    path: '/abilities',
-    isActive: underPath('/abilities'),
+    label: 'Magic',
+    path: '/magic',
+    isActive: underPath('/magic'),
   },
   {
     id: 'culture',

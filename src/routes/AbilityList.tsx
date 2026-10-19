@@ -4,7 +4,7 @@ import { abilityKindLabels, abilityList } from '../data/abilities'
 import { bookSeries, seriesOf } from '../data/books'
 import { systems } from '../data/systems'
 import type { ListedAbility } from '../data/types'
-import { entryBooks, entryRevealedIn } from '../data/entryStories'
+import { entryBooks, entryRevealedIn, shownAliases } from '../data/entryStories'
 import { useCanSee } from '../state/reveal'
 import { GroupJump, LetterJump } from '../components/ListJump'
 import { anchorFor, byLetter, fold, plural } from './listHelpers'
@@ -54,7 +54,16 @@ export function AbilityList() {
     [canSee],
   )
 
-  const matches = shown.filter((a) => !query || fold(a.name).includes(query))
+  // An entry matched only by another name shows that name too (Coinshot).
+  const aliasHit = (a: ListedAbility) =>
+    query && !fold(a.name).includes(query)
+      ? shownAliases('ability', a, canSee).find((x) =>
+          fold(x.name).includes(query),
+        )?.name
+      : undefined
+  const matches = shown.filter(
+    (a) => !query || fold(a.name).includes(query) || aliasHit(a),
+  )
   const hidden = abilityList.length - shown.length
 
   // Categories an ability falls under, as [id, name, order]; only what the
@@ -142,11 +151,11 @@ export function AbilityList() {
       className="character-list ability-list"
       aria-labelledby="abilities-title"
     >
-      <h1 id="abilities-title">Abilities</h1>
+      <h1 id="abilities-title">Magic</h1>
       <p className="character-count">
         {matches.length < shown.length
-          ? `${matches.length} of ${shown.length} abilities`
-          : `${shown.length} abilities`}
+          ? `${matches.length} of ${shown.length} entries`
+          : `${shown.length} entries`}
         {hidden > 0 && ` · ${hidden} hidden based on books you've read`}
       </p>
 
@@ -183,11 +192,11 @@ export function AbilityList() {
       {!grouping && <LetterJump groups={groups} anchor={anchor} />}
       {unsorted > 0 && (
         <p className="character-count">
-          {plural(unsorted, 'more ability', 'more abilities')} not sorted by{' '}
-          {label}.
+          {plural(unsorted, 'more entry', 'more entries')} not sorted by {label}
+          .
         </p>
       )}
-      {matches.length === 0 && <p>No abilities match.</p>}
+      {matches.length === 0 && <p>Nothing matches.</p>}
       {groups.map(({ id, name, items }) => (
         <section
           key={id}
@@ -200,7 +209,10 @@ export function AbilityList() {
           <ul>
             {items.map((a) => (
               <li key={a.id}>
-                <Link to={`/abilities/${a.id}`}>{a.name}</Link>
+                <Link to={`/magic/${a.id}`}>{a.name}</Link>
+                {aliasHit(a) && (
+                  <span className="list-alias"> ({aliasHit(a)})</span>
+                )}
               </li>
             ))}
           </ul>

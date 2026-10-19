@@ -87,6 +87,85 @@ describe('revealEntry', () => {
     })
   })
 
+  it('groups users by the highest level the reader has seen', () => {
+    const levelled: EntryStory = {
+      ...story,
+      levels: ['Low', 'Mid', 'High'],
+      people: [
+        { characterId: 'kelsier', role: 'u', level: 'Low', revealedIn: at(5) },
+        {
+          characterId: 'kelsier',
+          role: 'u',
+          level: 'High',
+          revealedIn: at(30),
+        },
+        { characterId: 'vin', role: 'u', level: 'Mid', revealedIn: at(8) },
+      ],
+    }
+    const show = (i: number) =>
+      revealEntry(levelled, reader([], { 'final-empire': tfe[i] }), () => true)
+    expect(show(6).levels).toEqual(['Low'])
+    const mid = show(10)
+    expect(mid.levels).toEqual(['Mid', 'Low'])
+    expect(mid.people.find((p) => p.characterId === 'kelsier')?.level).toBe(
+      'Low',
+    )
+    const late = show(31)
+    expect(late.levels).toEqual(['High', 'Mid'])
+    expect(late.people.find((p) => p.characterId === 'kelsier')?.level).toBe(
+      'High',
+    )
+  })
+
+  it('shows How it works sections and table rows by date', () => {
+    const full: EntryStory = {
+      ...story,
+      mechanics: [
+        {
+          title: [{ text: 'Burning', revealedIn: at(5) }],
+          items: [
+            { text: 'early', revealedIn: at(5) },
+            { text: 'late', revealedIn: at(30) },
+          ],
+        },
+      ],
+      tables: [
+        {
+          title: 'Metals',
+          columns: ['Metal', 'Name', 'Effect'],
+          rows: [
+            {
+              key: 'steel',
+              entry: 'steel',
+              cells: ['Steel', '', 'Pushes'],
+              revealedIn: at(5),
+            },
+            { key: 'gold', cells: ['Gold', '', 'Past'], revealedIn: at(30) },
+            {
+              key: 'steel',
+              entry: 'steel',
+              cells: ['Steel', 'Coinshot', 'Pushes'],
+              revealedIn: at(20),
+            },
+          ],
+        },
+      ],
+    }
+    const show = (i: number) =>
+      revealEntry(full, reader([], { 'final-empire': tfe[i] }), () => true)
+    expect(show(4).mechanics).toEqual([])
+    expect(show(4).tables).toEqual([])
+    const early = show(6)
+    expect(early.mechanics[0].items.map((i) => i.text)).toEqual(['early'])
+    expect(early.tables[0].columns).toEqual(['Metal', 'Effect'])
+    expect(early.tables[0].rows[0].cells).toEqual(['Steel', 'Pushes'])
+    expect(early.spoilers).toBe(true)
+    const mid = show(21)
+    expect(mid.tables[0].rows.map((r) => r.cells[1])).toEqual(['Coinshot'])
+    const late = show(31)
+    expect(late.tables[0].rows.map((r) => r.key)).toEqual(['steel', 'gold'])
+  })
+
   it('shows everything when viewed anyway', () => {
     const s = revealEntry(story, reader([]), () => false, true)
     expect(s.intro).toBe('intro late')

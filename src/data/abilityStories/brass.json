@@ -23,7 +23,7 @@
     },
     {
       "text": "A Feruchemist can store warmth in brass, growing cold while filling it, and tap it to grow warm.",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "text": "In the Elendel Basin, businesses are forbidden by law to use emotional Allomancy on their customers.",
@@ -61,9 +61,49 @@
     {
       "label": "Feruchemy",
       "name": "Stores warmth",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
-    { "label": "Ferring", "name": "Firesoul", "revealedIn": ["alloy-of-law"] }
+    {
+      "label": "Ferring",
+      "name": "Firesoul",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    }
   ],
-  "people": []
+  "people": [
+    {
+      "characterId": "breeze",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "edgard-ladrian",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "10" }]
+    },
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
+    },
+    {
+      "characterId": "lord-ruler",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Soother",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "characterId": "shan-elariel",
+      "role": "Allomancer",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "3" }]
+    }
+  ]
 }

@@ -643,9 +643,9 @@ Personal arcs and battles belong on character and journey pages.
 
 ### 13. Abilities
 
-- [ ] An Abilities tab: the magic systems and other abilities of the
+- [ ] A Magic tab (was Abilities; `/abilities/*` redirects): the magic systems and other abilities of the
       Cosmere and how they work
-  - [x] The list page (`/abilities`): 141 entries from the Coppermind's
+  - [x] The list page (`/magic`): 141 entries from the Coppermind's
         Magic category (systems, powers, metals, orders, users, bonds,
         Investiture, Invested objects, concepts), each listed once the
         reader has finished the earliest book its page cites (later by hand
@@ -655,11 +655,25 @@ Personal arcs and battles belong on character and journey pages.
   - [ ] A page per magic system (e.g. Allomancy, Surgebinding) and per
         ability (e.g. Windrunner, Mistborn, Coinshot, Awakener), with what
         it does, its world, and the characters known to have it
-    - [x] Shared entry page (`/abilities/:id`) with chapter-dated intro,
+    - [x] Shared entry page (`/magic/:id`) with chapter-dated intro,
           about, history, key facts and people. Pipeline:
           `~/cig-entry-data` (see its `ENTRY_STORY_GUIDE.md`); an entry
           with a page shows from its earliest intro's chapter
-    - [ ] Written so far: The Sunlit Man's abilities (15); the rest to do
+    - [x] **Users** section (all named users, alphabetical, each dated by
+          the first block showing the use; personas by the name the reader
+          knows). Abilities with ranks group users by the highest rank seen:
+          Misting/Mistborn, Ferring/Feruchemist; Ideals and Heightenings to
+          use the same `levels` field
+    - [x] Fuller system pages: a **How it works** section (titled
+          subsections, no cap) and spoiler-dated **tables** (rows can cite
+          another page's lines, e.g. a metal's; later row versions replace
+          earlier ones as more is revealed), cross-referenced section by
+          section against the Coppermind. Done for Metallic Arts, Allomancy,
+          Feruchemy, Hemalurgy and Compounding
+    - [x] Ars Arcanum facts show from a book's first chapter (the appendix
+          spoils nothing); the entry pipeline dates its citations that way
+    - [ ] Written so far: The Sunlit Man's abilities (15) and every ability
+          first revealed in Mistborn Era 1 (23); the rest to do
   - [ ] Gated like everything else: an ability (and who has it) only
         shows once the reader has reached where it's revealed
     - [ ] Stopgap to replace: list entries are dated by book and carry no

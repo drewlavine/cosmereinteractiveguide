@@ -14,6 +14,9 @@ rules) before doing anything. Delete or rewrite this file once it's stale.
 - Private, non-public site for now; licences/permissions only matter if it's
   ever released (keep art credits and the CC BY-NC-ND footer anyway).
 - Drew likes seeing screenshots of UI changes (desktop and phone).
+- **Current focus: Mistborn Era 1** (from 2026-10-19; Sunlit Man is paused).
+  Drew has read Era 1; he's mid-read in Sunlit Man and Stormlight, so never
+  put their plot in chat.
 
 ## Where things are
 
@@ -169,12 +172,23 @@ OK.
 - Headless Chrome fires no scroll events or rAF in screenshots, so the
   Contents highlight can't be verified that way; check by hand.
 
-- **Abilities list** (`/abilities`, tab renamed from Magic): pipeline
+- **Magic list** (`/magic`; tab renamed back from Abilities, old `/abilities/*` links redirect; people sections on entry and place pages use `PeopleGrid` portrait cards): pipeline
   `~/cig-abil-data` (`crawl_cats.py` → `titles.txt`; hand classification in
   `kinds.json`, Shard ties in `shard_ties.json`, spoiler fixes in
   `overrides.json` incl. `revealedIn`, `dropSystems`, `systemRevealedIn`;
   `abil_build.py` writes `src/data/abilityList.ts`). Dating = earliest cited
-  book; an independent review added 29 later dates. No ability pages yet.
+  book; an independent review added 29 later dates.
+- **System pages** (Metallic Arts, Allomancy, Feruchemy, Hemalurgy,
+  Compounding): `mechanics` (How it works) and `tables` story fields; table
+  rows may cite `"<entry>:<block>"`. `entry_story_src.py` sets
+  `parse.ARS_ARCANUM_AT_START`, so Ars Arcanum citations date to the book's
+  first chapter (Drew's rule); character/location pipelines unchanged.
+- **Ability pages**: written for Sunlit Man (15) and all 23 Era 1 abilities.
+  Each has a **Users** section (story `people`; persona ids allowed, e.g.
+  `breeze`, `clubs`, `lord-ruler`). Optional story `levels` (lowest first)
+  plus a `level` per person groups users by rank (Allomancy, Feruchemy).
+  Rules in `~/cig-entry-data/ENTRY_STORY_GUIDE.md`; doubts per page in
+  `notes/ability/<id>.md`.
 
 - **Culture list** (`/culture`, placeholder replaced): pipeline
   `~/cig-cult-data` (`python3 crawl_cats.py` → `cat_pages.json`/`titles.txt`;

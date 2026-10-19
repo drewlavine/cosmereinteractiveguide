@@ -275,10 +275,20 @@ export interface EntryFact {
 }
 
 /** Someone tied to a Culture or Abilities entry, e.g. a member. */
+/** Another name that leads to an entry, e.g. Coinshot (a Misting) for Steel. */
+export interface EntryAlias {
+  name: string
+  /** What the name is, e.g. 'Misting', 'Ferring', 'Also called'. */
+  role: string
+  revealedIn: Reveal
+}
+
 export interface EntryPerson {
   characterId: string
   /** e.g. 'member', 'leader', 'user'. */
   role: string
+  /** One of the page's `levels` (an Ideal, a Heightening, Mistborn...). */
+  level?: string
   revealedIn: Reveal
 }
 
@@ -287,9 +297,34 @@ export interface EntryPerson {
  * like a place's, plus Key facts and people, every item dated on its own so
  * the page grows chapter by chapter.
  */
+/**
+ * A table on an entry's page, e.g. the Allomantic metals. Rows are in the
+ * order written; rows sharing a key are versions of one row, of which the
+ * reader sees the latest revealed.
+ */
+export interface EntryTable {
+  title: string
+  columns: string[]
+  rows: {
+    key: string
+    /** An Abilities entry the first cell links to, once it's revealed. */
+    entry?: string
+    cells: string[]
+    revealedIn: Reveal
+  }[]
+}
+
 export interface EntryStory extends LocationStory {
+  /** "How it works": sections like history's, for magic systems. */
+  mechanics?: LocationStory['history']
+  tables?: EntryTable[]
   facts: EntryFact[]
   people: EntryPerson[]
+  /**
+   * Ranks its users can reach, lowest first. When given, every person has a
+   * level and the page groups users by the highest one the reader has seen.
+   */
+  levels?: string[]
 }
 
 export interface Belt {

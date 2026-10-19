@@ -29,7 +29,7 @@ describe('main tabs', () => {
       'Books',
       'Characters',
       'Locations',
-      'Abilities',
+      'Magic',
       'Culture',
       'Timeline',
     ])
@@ -38,7 +38,7 @@ describe('main tabs', () => {
       '/books',
       '/characters',
       '/locations',
-      '/abilities',
+      '/magic',
       '/culture',
       '/timeline',
     ])
@@ -55,7 +55,7 @@ describe('main tabs', () => {
     ['/locations', 'Locations'],
     ['/locations/kredik-shaw', 'Locations'],
     ['/systems/scadrian/planets/scadrial/locations/luthadel', 'Locations'],
-    ['/abilities', 'Abilities'],
+    ['/magic', 'Magic'],
   ])('marks the right tab active on %s', (path, tab) => {
     renderAt(path)
     expect(activeTab()).toEqual([tab])

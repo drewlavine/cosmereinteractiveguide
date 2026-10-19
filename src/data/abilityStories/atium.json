@@ -1,0 +1,210 @@
+{
+  "intro": [
+    {
+      "text": "A valuable metal that Kelsier steals from a safe in Keep Venture, fighting his way out past its hazekillers.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "text": "A rare Allomantic metal that lets whoever burns it see a few seconds into the future. A bead looks like a tiny, bright silver drop of liquid.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+    },
+    {
+      "text": "A metal formed from Ruin's own power at the Pits of Hathsin. Allomancers burn it to see a few seconds ahead, and a Feruchemist can store youth in it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "hero-of-ages", "chapter": "78" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Atium can serve Feruchemy too: the Lord Ruler wore atium bracelets driven through his upper arms, and when Vin tore them away he quickly aged.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "text": "Someone able both to burn atium and to store youth in it could burn their own stored youth for an almost endless supply, living practically forever.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "text": "An atium burner is hard but not impossible to beat. When two people burn atium against each other, each one's shadows split into many possibilities, since each keeps changing the future the other foresees.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }]
+    },
+    {
+      "text": "Burning atium shows atium shadows of everything in sight, acting out what is about to happen, and expands the mind enough to take it all in, even attacks from behind. Its burners draw on Ruin's power, which may be why atium makes them such efficient killers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "33" },
+            { "book": "hero-of-ages", "chapter": "78" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "hero-of-ages", "chapter": "78" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "28" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "hero-of-ages", "chapter": "71" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Atium came into being when Preservation hid a piece of Ruin's power at the Pits of Hathsin. There it formed crystals that grew geodes holding beads of atium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "hero-of-ages", "chapter": "78" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "House Venture oversaw the mining of atium.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "28" }]
+        },
+        {
+          "text": "Obligators at the Pits secretly opened most of the geodes and gave the atium to the kandra to hide, keeping it from Ruin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "33" },
+                { "book": "hero-of-ages", "chapter": "71" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kelsier went to the Pits of Hathsin and shattered the crystal formations that produced the geodes, stopping the flow of atium.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler's fall",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rumors spread of a hidden atium cache in Luthadel, and the kings besieging the city bargained for it, but Elend's people never found it.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "35" }]
+        },
+        {
+          "text": "The mists Snapped many people, and some became Seers, Mistings who burn atium. At the Pits of Hathsin they burned through the kandra's hoard before Ruin's forces could reach it.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Wax's time",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax found that splitting harmonium with trellium makes a small amount of atium, explosively. The kandra then began repeating the process to produce more.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "See a few seconds ahead",
+      "revealedIn": [{ "book": "final-empire", "chapter": "13" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Seer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "74" }]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores youth",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Timewinder",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals time-related Allomantic powers",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
+    },
+    {
+      "label": "Source",
+      "name": "Pits of Hathsin",
+      "placeId": "pits-of-hathsin",
+      "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "14" }]
+    },
+    {
+      "characterId": "shan-elariel",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "30" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "34" }]
+    },
+    {
+      "characterId": "aradan-yomen",
+      "role": "Seer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "44" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    },
+    {
+      "characterId": "demoux",
+      "role": "Seer",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+    }
+  ]
+}

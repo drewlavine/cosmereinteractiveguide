@@ -22,7 +22,7 @@ export function AbilityDetail() {
       key={entry.id}
       kind="ability"
       entry={entry}
-      list={{ name: 'Abilities', href: '/abilities' }}
+      list={{ name: 'Magic', href: '/magic' }}
       typeLabel={abilityKindNames[entry.kind]}
       extraFacts={
         <>
@@ -33,7 +33,7 @@ export function AbilityDetail() {
                 {systems.map((s, i) => (
                   <Fragment key={s!.id}>
                     {i > 0 && ', '}
-                    <Link to={`/abilities/${s!.id}`}>{s!.name}</Link>
+                    <Link to={`/magic/${s!.id}`}>{s!.name}</Link>
                   </Fragment>
                 ))}
               </dd>

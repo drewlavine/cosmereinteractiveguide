@@ -2,13 +2,13 @@
   "intro": [
     {
       "text": "A magic system of the cosmere. Invested Arts differ greatly in how they look and work, but in each, practitioners who have been Initiated use their abilities to manipulate Investiture.",
-      "revealedIn": ["elantris"]
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
     }
   ],
   "description": [
     {
       "text": "Initiation is the process by which a person gains access to a form of Investiture.",
-      "revealedIn": ["elantris"]
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
     },
     {
       "text": "Every Invested Art needs some Intent: the practitioner's purpose or will for what should happen. Some arts need more than others; Awakening, for one, demands a firm mental picture, or the result goes astray, and the more complex the Command, the more that matters.",
@@ -16,7 +16,7 @@
     },
     {
       "text": "Invested Arts can be classed by where their power goes. In an end-positive art, the practitioner draws power from an outside source. In an end-neutral art, power is neither gained nor lost, only moved around. In an end-negative art, some power is lost.",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "text": "Many magics can heal, from sprains and illness to fatal wounds and lost limbs, and constant healing can leave the user numb to pain.",
@@ -44,7 +44,7 @@
           "revealedIn": [
             { "book": "rhythm-of-war", "chapter": "111" },
             { "book": "hero-of-ages", "chapter": "epilogue" },
-            "lost-metal"
+            { "book": "lost-metal", "chapter": "prologue" }
           ]
         }
       ],
@@ -59,13 +59,17 @@
         },
         {
           "text": "After the Catacendre, Hemalurgy changed: spikes no longer decay and grant fewer powers. This was not Harmony's choice but a side effect of reining in Ruin's nature, since modern souls accept less of Ruin's influence.",
-          "revealedIn": ["lost-metal"]
+          "revealedIn": [{ "book": "lost-metal", "chapter": "prologue" }]
         }
       ]
     }
   ],
   "facts": [
-    { "label": "Requires", "name": "Initiation", "revealedIn": ["elantris"] },
+    {
+      "label": "Requires",
+      "name": "Initiation",
+      "revealedIn": [{ "book": "elantris", "chapter": "prologue" }]
+    },
     {
       "label": "Guided by",
       "name": "Intent",
@@ -74,7 +78,7 @@
     {
       "label": "Classes",
       "name": "End-positive, end-neutral, end-negative",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     }
   ],
   "people": []

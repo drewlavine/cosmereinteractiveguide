@@ -1,0 +1,301 @@
+{
+  "intro": [
+    {
+      "text": "A way of mixing Feruchemy with Allomancy, which gave the Lord Ruler many of his most spectacular abilities.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "22" }]
+    },
+    {
+      "text": "A technique for using Allomancy to boost Feruchemy: burning a metalmind one has filled draws out far more of the stored attribute than was put in.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "What comes out can be stored again and the cycle repeated, giving almost endless access to the attribute.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "text": "It feeds Allomancy's outside power, from Preservation, into Feruchemy, which otherwise only gives back what was stored.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "32" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Someone with both Allomantic and Feruchemical powers in the same metal can burn a metalmind they filled, drawing out about ten times the attribute they stored.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Lord Ruler was both Mistborn and a full Feruchemist, so he could Compound with every metal. He aged himself briefly to store youth in atium, then burned it to stay young, and used gold to heal so fast that rumours said he had survived flaying and beheading. Fear of new Compounders may be one reason he persecuted Feruchemists.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Other Compounders",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "hero-of-ages", "chapter": "37" },
+                { "book": "lost-metal", "chapter": "28" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Steel Inquisitors were not taught to Compound and rarely had the right mix of powers. Marsh, though, learned how, and used a bag of atium taken from KanPaar to lengthen his life as the Lord Ruler had.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "hero-of-ages", "chapter": "37" },
+                { "book": "lost-metal", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Miles Dagouter used gold Compounding to heal almost instantly, earning the name Miles Hundredlives. Rumours that he tapped his metalminds constantly convinced Waxillium that Compounding is dangerous to stop once begun.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "How it works",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "32" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A person with both powers in one metal stores an attribute in a metalmind, then burns that metalmind. Instead of the usual Allomantic effect, they get a huge burst of the stored attribute: an iron Compounder can draw out roughly ten times the weight they stored.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Allomancy draws its power from outside, from Preservation, while Feruchemy only gives back what its user stored. Burning a metalmind runs the stored power through Allomancy, which multiplies it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "32" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The released attribute can be stored again instead of used, and the cycle repeated, each time with a bigger reserve.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Limits",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "13" },
+            { "book": "lost-metal", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Only metalminds the Compounder filled themselves will work: when Vin burned some of Sazed's metalminds, she could not reach the power in them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Besides the user's own metalminds, an unkeyed metalmind, not tied to anyone's Identity, can also be Compounded.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "29" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Feruchemy gives decreasing returns, so the Lord Ruler had to spend ever more youth to keep from ageing.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "The metalminds themselves are burned up, so they must be small enough to swallow, and a Compounder needs a steady supply of metal. This caps how much they can draw on over time.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        },
+        {
+          "text": "Someone who gained their powers through Hemalurgy must also learn to overcome the spikes' Identity contamination before they can Compound.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "28" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dangers",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rumour says Miles Dagouter tapped his healing constantly. Waxillium takes this as a sign that Compounding is dangerous to stop once begun, as the body comes to rely on it.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Compounded metals",
+      "columns": ["Metal", "Result"],
+      "rows": [
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "Near-endless youth"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Healing fast enough to survive terrible wounds"],
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Far more weight than was stored"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bendalloy",
+          "entry": "bendalloy",
+          "cells": ["Bendalloy", "Going without food or water"],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Requires",
+      "name": "Both powers in one metal",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Multiplier",
+      "name": "About tenfold",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "rashek",
+      "role": "every metal",
+      "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "gold Compounder",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "atium Compounder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "hero-of-ages", "chapter": "37" },
+            { "book": "lost-metal", "chapter": "28" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link } from 'react-router'
 import { BookList } from './BookList'
+import { PeopleGrid, type GridPerson } from './PeopleGrid'
 import { PageContents, PageSection, PageSubsection } from './PageSections'
 import { slugs } from './pageSlugs'
 import { SourceMark } from './SourceMark'
@@ -11,8 +12,11 @@ import {
   entryRevealedIn,
   hasEntryStory,
   loadEntryStory,
+  shownAliases,
   type EntryKind,
 } from '../data/entryStories'
+import { abilityList } from '../data/abilities'
+import { entryAliases } from '../data/entryAliases'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { findPerson } from '../data/people'
 import { revealEntry, type ShownEntry } from '../data/reveal'
@@ -113,10 +117,35 @@ export function EntryPage({
       return <Link to={`/characters/${v.characterId}`}>{v.name}</Link>
     return v.name
   }
+  const aliasFacts: [string, string[]][] = []
+  for (const a of showAll
+    ? (entryAliases[kind][entry.id] ?? [])
+    : shownAliases(kind, entry, canSee)) {
+    const row = aliasFacts.find(([role]) => role === a.role)
+    if (row) row[1].push(a.name)
+    else aliasFacts.push([a.role, [a.name]])
+  }
   const historyIds = slugs(
     'history',
     shown.history.map((h) => h.title ?? ''),
   )
+  const levelIds = slugs('people', shown.levels)
+  const mechanicsIds = slugs(
+    'how',
+    shown.mechanics.map((h) => h.title ?? ''),
+  )
+  const tableIds = slugs(
+    'table',
+    shown.tables.map((t) => t.title),
+  )
+  const entryLink = (id: string | undefined, text: string) => {
+    const e = id && abilityList.find((a) => a.id === id)
+    return e && (showAll || canSee(entryRevealedIn('ability', e))) ? (
+      <Link to={`/magic/${e.id}`}>{text}</Link>
+    ) : (
+      text
+    )
+  }
   const people = shown.people
     .map((p) => ({ ...p, name: findPerson(p.characterId)?.name }))
     .filter((p): p is typeof p & { name: string } => !!p.name)
@@ -168,6 +197,12 @@ export function EntryPage({
                   </dd>
                 </>
               )}
+              {aliasFacts.map(([role, names]) => (
+                <Fragment key={`alias-${role}`}>
+                  <dt>{role}</dt>
+                  <dd>{names.join(', ')}</dd>
+                </Fragment>
+              ))}
               {shown.facts.map(({ label, values }) => (
                 <Fragment key={label}>
                   <dt>{label}</dt>
@@ -207,46 +242,118 @@ export function EntryPage({
               ))}
             </PageSection>
           )}
+          {shown.mechanics.length > 0 && (
+            <PageSection id="how" title="How it works">
+              <Sections sections={shown.mechanics} ids={mechanicsIds} />
+            </PageSection>
+          )}
+          {shown.tables.map((t, i) => (
+            <PageSection key={tableIds[i]} id={tableIds[i]} title={t.title}>
+              <div className="entry-table-wrap">
+                <table className="entry-table">
+                  <thead>
+                    <tr>
+                      {t.columns.map((c) => (
+                        <th key={c} scope="col">
+                          {c}
+                        </th>
+                      ))}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {t.rows.map((row) => (
+                      <tr key={row.key}>
+                        {row.cells.map((cell, j) =>
+                          j === 0 ? (
+                            <th key={j} scope="row">
+                              {entryLink(row.entry, cell)}
+                            </th>
+                          ) : (
+                            <td key={j}>
+                              {cell}
+                              {j === row.cells.length - 1 && (
+                                <SourceMark books={row.books} />
+                              )}
+                            </td>
+                          ),
+                        )}
+                      </tr>
+                    ))}
+                  </tbody>
+                </table>
+              </div>
+            </PageSection>
+          ))}
           {shown.history.length > 0 && (
             <PageSection id="history" title="History">
-              {shown.history.map(({ title, items }, i) => {
-                const paragraphs = items.map(({ text, books }) => (
-                  <p key={text}>
-                    {text}
-                    <SourceMark books={books} />
-                  </p>
-                ))
-                return title ? (
-                  <PageSubsection
-                    key={historyIds[i]}
-                    id={historyIds[i]}
-                    title={title}
-                  >
-                    {paragraphs}
-                  </PageSubsection>
-                ) : (
-                  <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
-                )
-              })}
+              <Sections sections={shown.history} ids={historyIds} />
             </PageSection>
           )}
           {people.length > 0 && (
-            <PageSection id="people" title="People">
-              <ul className="place-people">
-                {people.map((p) => (
-                  <li key={p.characterId}>
-                    <Link to={`/characters/${p.characterId}`}>{p.name}</Link>{' '}
-                    <span className="place-people-tie">
-                      {p.roles.join(', ')}
-                    </span>
-                  </li>
-                ))}
-              </ul>
+            <PageSection
+              id="people"
+              title={kind === 'ability' ? 'Users' : 'People'}
+            >
+              {shown.levels.length > 0 ? (
+                shown.levels.map((level, i) => (
+                  <PageSubsection key={level} id={levelIds[i]} title={level}>
+                    <PeopleList
+                      people={people.filter((p) => p.level === level)}
+                      level={level}
+                    />
+                  </PageSubsection>
+                ))
+              ) : (
+                <PeopleList people={people} />
+              )}
             </PageSection>
           )}
         </div>
         <PageContents />
       </div>
     </article>
+  )
+}
+
+/** Titled sections of dated paragraphs, e.g. How it works. */
+function Sections({
+  sections,
+  ids,
+}: {
+  sections: ShownEntry['mechanics']
+  ids: string[]
+}) {
+  return sections.map(({ title, items }, i) => {
+    const paragraphs = items.map(({ text, books }) => (
+      <p key={text}>
+        {text}
+        <SourceMark books={books} />
+      </p>
+    ))
+    return title ? (
+      <PageSubsection key={ids[i]} id={ids[i]} title={title}>
+        {paragraphs}
+      </PageSubsection>
+    ) : (
+      <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
+    )
+  })
+}
+
+/** Users at one level; a role that just repeats the level is left out. */
+function PeopleList({
+  people,
+  level,
+}: {
+  people: GridPerson[]
+  level?: string
+}) {
+  return (
+    <PeopleGrid
+      people={people.map((p) => ({
+        ...p,
+        roles: p.roles.filter((r) => r.toLowerCase() !== level?.toLowerCase()),
+      }))}
+    />
   )
 }

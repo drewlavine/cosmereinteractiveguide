@@ -2,7 +2,7 @@
   "intro": [
     {
       "text": "The power that magic systems draw upon. An art may use Investiture from within the practitioner or from an outside source.",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "text": "A form of power that, like matter, can be turned into energy. Magic systems are the most common way to tap it.",
@@ -12,7 +12,7 @@
   "description": [
     {
       "text": "Invested Arts can gain Investiture, lose it or break even in use.",
-      "revealedIn": ["alloy-of-law"]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "text": "In the Physical Realm Investiture can take solid, liquid or gaseous forms, and solid Investiture is always metallic.",
@@ -44,7 +44,12 @@
     {
       "text": "Investiture in active use is called kinetic; Investiture held in a vessel such as a gemstone is static, and objects holding it resist being affected by Invested Arts.",
       "revealedIn": [
-        { "all": ["rhythm-of-war", { "book": "sunlit-man", "chapter": "6" }] }
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "89" },
+            { "book": "sunlit-man", "chapter": "6" }
+          ]
+        }
       ]
     }
   ],

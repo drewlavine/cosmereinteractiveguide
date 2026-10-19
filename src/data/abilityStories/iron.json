@@ -11,7 +11,7 @@
           "all": [
             { "book": "final-empire", "chapter": "7" },
             { "book": "well-of-ascension", "chapter": "53" },
-            "hero-of-ages"
+            { "book": "hero-of-ages", "chapter": "42" }
           ]
         }
       ]
@@ -40,7 +40,12 @@
     {
       "text": "The force of a Pull grows with the Allomancer's own weight, and metal partly inside a person's body normally cannot be Pulled, though a strong enough Lurcher can overcome both limits.",
       "revealedIn": [
-        { "all": [{ "book": "final-empire", "chapter": "7" }, "alloy-of-law"] }
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "7" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
       ]
     },
     {
@@ -84,7 +89,7 @@
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "12" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
@@ -92,10 +97,20 @@
     {
       "label": "Hemalurgy",
       "name": "Steals physical strength",
-      "revealedIn": ["hero-of-ages"]
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "42" }]
     }
   ],
   "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
     {
       "characterId": "sazed",
       "role": "Feruchemist",
@@ -104,14 +119,22 @@
     {
       "characterId": "waxillium-ladrian",
       "role": "Skimmer",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "well-of-ascension", "chapter": "12" },
-            "alloy-of-law"
-          ]
-        }
-      ]
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "characterId": "pull",
+      "role": "Lurcher",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "characterId": "tensoon",
+      "role": "kandra",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "39" }]
+    },
+    {
+      "characterId": "human",
+      "role": "koloss",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "40" }]
     }
   ]
 }

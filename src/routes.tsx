@@ -18,6 +18,7 @@ import { PlanetDetail } from './routes/PlanetDetail'
 import { RouteError } from './routes/RouteError'
 import { SearchPage } from './routes/SearchPage'
 import { StarMap } from './routes/StarMap'
+import { ToMagic } from './routes/ToMagic'
 import { SystemView } from './routes/SystemView'
 
 export const routes: RouteObject[] = [
@@ -44,8 +45,11 @@ export const routes: RouteObject[] = [
         path: 'characters/:characterId/:tab',
         element: <CharacterDetail />,
       },
-      { path: 'abilities', element: <AbilityList /> },
-      { path: 'abilities/:abilityId', element: <AbilityDetail /> },
+      { path: 'magic', element: <AbilityList /> },
+      { path: 'magic/:abilityId', element: <AbilityDetail /> },
+      // The tab was called Abilities; keep old links working.
+      { path: 'abilities/*', element: <ToMagic /> },
+      { path: 'abilities', element: <ToMagic /> },
       { path: 'culture', element: <CultureList /> },
       { path: 'culture/:cultureId', element: <CultureDetail /> },
       { path: 'locations', element: <LocationList /> },

@@ -155,6 +155,64 @@ export const entryReveals: Record<
         chapter: '28',
       },
     ],
+    allomancy: [
+      {
+        book: 'final-empire',
+        chapter: '3',
+      },
+      {
+        book: 'final-empire',
+        chapter: '7',
+      },
+      {
+        book: 'alloy-of-law',
+        chapter: 'prologue',
+      },
+    ],
+    aluminum: [
+      {
+        book: 'final-empire',
+        chapter: '36',
+      },
+      {
+        book: 'well-of-ascension',
+        chapter: '5',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '36',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    atium: [
+      {
+        book: 'final-empire',
+        chapter: '5',
+      },
+      {
+        book: 'final-empire',
+        chapter: '13',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: 'epilogue',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: '78',
+          },
+        ],
+      },
+    ],
     brass: [
       {
         book: 'final-empire',
@@ -180,7 +238,10 @@ export const entryReveals: Record<
             book: 'hero-of-ages',
             chapter: '34',
           },
-          'alloy-of-law',
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
         ],
       },
     ],
@@ -208,13 +269,60 @@ export const entryReveals: Record<
         chapter: '15',
       },
     ],
+    compounding: [
+      {
+        book: 'hero-of-ages',
+        chapter: '22',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: 'epilogue',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: '11',
+          },
+        ],
+      },
+    ],
     connection: [
       {
         all: [
-          'alloy-of-law',
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
           {
             book: 'bands-of-mourning',
             chapter: '22',
+          },
+        ],
+      },
+    ],
+    copper: [
+      {
+        book: 'final-empire',
+        chapter: '9',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '9',
+          },
+          {
+            book: 'well-of-ascension',
+            chapter: '4',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: 'prologue',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
           },
         ],
       },
@@ -241,6 +349,46 @@ export const entryReveals: Record<
         chapter: '1',
       },
     ],
+    duralumin: [
+      {
+        book: 'well-of-ascension',
+        chapter: '5',
+      },
+      {
+        book: 'well-of-ascension',
+        chapter: '11',
+      },
+      {
+        all: [
+          {
+            book: 'well-of-ascension',
+            chapter: '11',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    electrum: [
+      {
+        book: 'hero-of-ages',
+        chapter: '3',
+      },
+      {
+        all: [
+          {
+            book: 'hero-of-ages',
+            chapter: '31',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
     feruchemy: [
       {
         book: 'final-empire',
@@ -250,8 +398,42 @@ export const entryReveals: Record<
         book: 'final-empire',
         chapter: '22',
       },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '22',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    gold: [
+      {
+        book: 'final-empire',
+        chapter: '27',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '27',
+          },
+          {
+            book: 'well-of-ascension',
+            chapter: '58',
+          },
+        ],
+      },
     ],
     hemalurgy: [
+      {
+        book: 'hero-of-ages',
+        chapter: 'prologue',
+      },
       {
         book: 'hero-of-ages',
         chapter: '13',
@@ -261,9 +443,17 @@ export const entryReveals: Record<
         chapter: '41',
       },
     ],
-    'invested-art': ['elantris'],
+    'invested-art': [
+      {
+        book: 'elantris',
+        chapter: 'prologue',
+      },
+    ],
     investiture: [
-      'alloy-of-law',
+      {
+        book: 'alloy-of-law',
+        chapter: 'prologue',
+      },
       {
         book: 'lost-metal',
         chapter: '17',
@@ -284,7 +474,130 @@ export const entryReveals: Record<
             book: 'well-of-ascension',
             chapter: '53',
           },
-          'hero-of-ages',
+          {
+            book: 'hero-of-ages',
+            chapter: '42',
+          },
+        ],
+      },
+    ],
+    keeper: [
+      {
+        book: 'final-empire',
+        chapter: '9',
+      },
+      {
+        book: 'final-empire',
+        chapter: '22',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '9',
+          },
+          {
+            book: 'well-of-ascension',
+            chapter: '7',
+          },
+        ],
+      },
+    ],
+    malatium: [
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '35',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        book: 'hero-of-ages',
+        chapter: '5',
+      },
+    ],
+    'metallic-arts': [
+      {
+        book: 'hero-of-ages',
+        chapter: '9',
+      },
+      {
+        book: 'hero-of-ages',
+        chapter: '38',
+      },
+    ],
+    mist: [
+      {
+        book: 'final-empire',
+        chapter: '7',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '7',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: '81',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'hero-of-ages',
+            chapter: '81',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: '13',
+          },
+          {
+            book: 'bands-of-mourning',
+            chapter: '16',
+          },
+        ],
+      },
+    ],
+    pewter: [
+      {
+        book: 'final-empire',
+        chapter: '7',
+      },
+      {
+        book: 'hero-of-ages',
+        chapter: 'prologue',
+      },
+    ],
+    'realmatic-theory': [
+      {
+        book: 'emperors-soul',
+        chapter: 'day-12',
+      },
+      {
+        all: [
+          {
+            book: 'emperors-soul',
+            chapter: 'day-12',
+          },
+          {
+            book: 'secret-history',
+            chapter: '3-3',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '119',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: 'i-2',
+          },
         ],
       },
     ],
@@ -325,7 +638,10 @@ export const entryReveals: Record<
             book: 'well-of-ascension',
             chapter: '19',
           },
-          'hero-of-ages',
+          {
+            book: 'hero-of-ages',
+            chapter: 'prologue',
+          },
         ],
       },
     ],
@@ -337,6 +653,58 @@ export const entryReveals: Record<
       {
         book: 'sunlit-man',
         chapter: '45',
+      },
+    ],
+    tin: [
+      {
+        book: 'final-empire',
+        chapter: '7',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '22',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: '66',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    zinc: [
+      {
+        book: 'final-empire',
+        chapter: '7',
+      },
+      {
+        all: [
+          {
+            book: 'final-empire',
+            chapter: '7',
+          },
+          {
+            book: 'well-of-ascension',
+            chapter: '50',
+          },
+          {
+            book: 'hero-of-ages',
+            chapter: 'prologue',
+          },
+          {
+            book: 'alloy-of-law',
+            chapter: 'prologue',
+          },
+          {
+            book: 'bands-of-mourning',
+            chapter: '3',
+          },
+        ],
       },
     ],
   },

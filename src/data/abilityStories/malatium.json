@@ -1,0 +1,160 @@
+{
+  "intro": [
+    {
+      "text": "An alloy of atium and gold, known in legend as the Eleventh Metal. Burning it shows another person as they once were, or as they might have become.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An Allomantic metal described on a metal plate the Lord Ruler left in a hidden storage cache. Burning it lets an Allomancer see into another person's past.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Malatium is silvery white, much like porcelain. It works as a counterpart to atium, looking into another person's past rather than the future.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Flaring it shows more than a shadow of the person: a glimpse into the Spiritual Realm and a vision of an event from their past, seen through their Connection.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "1-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kelsier's Eleventh Metal",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "24" },
+                "eleventh-metal",
+                { "book": "secret-history", "chapter": "6-1" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "35" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While training under Gemmel, Kelsier defeated the Mistborn Antillius Shezler and found his notes theorizing about an eleventh Allomantic metal. Sazed, looking back, found no older legends of it and concluded Ruin had fabricated them to drive Kelsier's plan, and Ruin claimed as much.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "24" },
+                "eleventh-metal",
+                { "book": "secret-history", "chapter": "6-1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kelsier claimed legends told of an Eleventh Metal that could let someone slay the Lord Ruler, and that he had found it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "35" },
+                { "book": "hero-of-ages", "chapter": "23" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Vin burned the Eleventh Metal in Kredik Shaw but could not make sense of what it showed her. Burning it again as she charged the Lord Ruler, she struck at the shadowy figure it revealed, to no effect.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "38" },
+                { "book": "hero-of-ages", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Alloy of",
+      "name": "Atium and gold",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "In legend",
+      "name": "The Eleventh Metal",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Allomancy",
+      "name": "Shows another person's past",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "prologue" },
+            { "book": "secret-history", "chapter": "1-1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

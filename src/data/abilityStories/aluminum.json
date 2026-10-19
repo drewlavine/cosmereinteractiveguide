@@ -1,0 +1,240 @@
+{
+  "intro": [
+    {
+      "text": "A metal that an Inquisitor forces the captured Vin to swallow and burn.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    },
+    {
+      "text": "A metal that makes all of an Allomancer's metal reserves vanish when burned. Vin hopes its proper alloy will give her an edge.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "text": "A metal that Allomancy cannot affect and that wipes out an Allomancer's metal reserves when burned. Feruchemists can store Identity in it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Feruchemist who stores in aluminum is called a Trueself and stores a spiritual sense of Identity. Tapping it makes the Trueself harder to influence. The ability is poorly understood and rarely discussed outside Terris communities.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "text": "Allomancers cannot Push or Pull aluminum, and it does not show up in the sight that steel and iron give. Guns and bullets made of it are prized, if expensive, on Scadrial; the bullets are an inert aluminum alloy, since pure aluminum would not fly well.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "7" }]
+    },
+    {
+      "text": "On Sel, Forgery cannot change aluminum at all.",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "text": "A Trueself who empties their Identity into an aluminum metalmind and then fills another metalmind can make one that any Feruchemist with that power is able to tap.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+    },
+    {
+      "text": "Aluminum shields people from emotional Allomancy, so those who can afford it often wear hats lined with it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "shadows-of-self", "chapter": "1" },
+            { "book": "lost-metal", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Rose Empire",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Rose Empire aluminum is called ralkalest. The palace cells meant for Forgers have ralkalest grates in their ceilings and thin ralkalest plates behind their stone walls.",
+          "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "37" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "7" },
+            { "book": "wind-and-truth", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "rhythm-of-war", "chapter": "16" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "wind-and-truth", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Long ago the Knights Radiant lined tunnels deep beneath Urithiru with ralkalest. In Azir, aluminum once came from stars that fell from the sky and was called starmetal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "37" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Unkalaki get aluminum by trading with the spren world and know that it affects spren.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "7" }]
+        },
+        {
+          "text": "Gavilar and an ally found that boxes lined with aluminum let Light and spren be carried between the planets of the Rosharan system through Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "In Kholinar, Wit gave Highmarshal Azure metal sheets, possibly aluminum. Lining a room with them let Soulcasting fabrials be used without the Voidspren detecting it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "The gemstone holding the Unmade Nergaoul was sealed in an aluminum box and sunk to the bottom of the ocean so it could not be freed again.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        },
+        {
+          "text": "On the expedition to Aimia, Navani set Rushu to study how aluminum affects fabrials. Rushu and Huio found that the thickness of the metal mattered, that spren react to it almost like prey to a predator, and that it disrupts how spren sense thoughts.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "7" }]
+        },
+        {
+          "text": "Bits of aluminum foil placed in fabrials blocked some of their motions but not others. This gave a spanreed that passes on sideways but not vertical motion, a lift between the decks of the Wandersail and floating chairs for Rysn.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "Odium's forces lined their weapons with aluminum to protect them against Shardblades.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the Elendel Basin",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Ghostbloods produce a large share of the Basin's aluminum and have funded their work with it for two decades. Their chemist, Dean, expects Scadrians to learn to make it by electrolysis, which would make it cheaper than tin.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Lumar",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rooms and boxes lined with aluminum are used to protect aether spores from silver.",
+          "revealedIn": [{ "book": "tress", "chapter": "23" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Threnody and beyond",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "26" },
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shades cannot pass through aluminum, and it can keep the Evil from sensing Investiture.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
+        },
+        {
+          "text": "Some smugglers use aluminum boxes that even modern scans cannot see into, and aluminum boxes also keep communication devices from overhearing conversations.",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Wipes metal reserves",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "label": "Alloy",
+      "name": "Duralumin",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Aluminum Gnat",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "36" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores Identity",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Trueself",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "In the Rose Empire",
+      "name": "Ralkalest",
+      "placeId": "rose-empire",
+      "revealedIn": [{ "book": "emperors-soul", "chapter": "day-2" }]
+    },
+    {
+      "label": "In Azir",
+      "name": "Starmetal",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "wind-and-truth", "chapter": "76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "forced to burn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "36" }]
+    }
+  ]
+}

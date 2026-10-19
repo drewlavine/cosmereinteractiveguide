@@ -1,5 +1,6 @@
 import type { CanSee } from './reveal'
-import type { EntryStory, Reveal, RevealPoint } from './types'
+import type { EntryAlias, EntryStory, Reveal, RevealPoint } from './types'
+import { entryAliases } from './entryAliases'
 import { entryReveals } from './entryReveals'
 
 /**
@@ -48,6 +49,19 @@ export const entryRevealedIn = (
   kind: EntryKind,
   entry: { id: string; revealedIn: Reveal },
 ): Reveal => entryReveals[kind][entry.id] ?? entry.revealedIn
+
+/**
+ * The entry's other names the reader may see (Coinshot for Steel), in the
+ * order given; none until the entry itself shows.
+ */
+export const shownAliases = (
+  kind: EntryKind,
+  entry: { id: string; revealedIn: Reveal },
+  canSee: CanSee,
+): EntryAlias[] =>
+  canSee(entryRevealedIn(kind, entry))
+    ? (entryAliases[kind][entry.id] ?? []).filter((a) => canSee(a.revealedIn))
+    : []
 
 /** Books of the points in `reveal` the reader has reached. */
 const reachedBooks = (reveal: Reveal, canSee: CanSee) =>

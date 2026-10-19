@@ -1,0 +1,220 @@
+{
+  "intro": [
+    {
+      "text": "An alloy of aluminum that Vin has a metallurgist make, hoping it is aluminum's Allomantic pair. Burned on its own, it seems to do nothing.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "text": "An Allomantic alloy of aluminum. Burned together with another metal, it uses that metal up all at once in a single enormous burst of power.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+    },
+    {
+      "text": "An alloy of aluminum. Allomancers burn it to spend their other metals in one huge burst, and Feruchemists store Connection in it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "11" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Burned with steel, duralumin spends all of the steel at once in one tremendously powerful Push, strong enough to send attackers flying.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
+    },
+    {
+      "text": "With tin, the sudden flood of senses can overwhelm the burner, leaving them briefly numb, blind and deaf. With bronze, Allomantic pulses become far louder and sharper.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "20" }]
+    },
+    {
+      "text": "Combined with brass or zinc, it makes a Soothe or Riot strong enough to take control of a kandra or of koloss.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "54" }]
+    },
+    {
+      "text": "With pewter, a Thug can withstand or deal far more damage than normal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "38" },
+            { "book": "hero-of-ages", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Feruchemist stores Spiritual Connection in duralumin: filling it makes others less aware and less friendly toward them, while tapping it builds relationships faster. Southern Scadrians use unsealed duraluminminds to speak with people in foreign lands.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "bands-of-mourning", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vin's discovery",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "8" },
+            { "book": "well-of-ascension", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Inquisitors made her burn aluminum, Vin guessed it must have an alloy, and tested mixes with the metallurgist Terion's help. The one that did not sicken her was duralumin, but it seemed to do nothing until she burned it alongside tin while chasing the Watcher.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "8" }]
+        },
+        {
+          "text": "Vin kept duralumin secret and used it to great effect with both physical and mental metals, until TenSoon and Zane learned of it and Zane used it against her.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Against Ruin",
+          "revealedIn": [
+            { "book": "hero-of-ages", "chapter": "72" },
+            { "book": "hero-of-ages", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Few Inquisitors gained duralumin, since a spike for it needed an Allomancer who could burn it, and duralumin Mistings did not know their power; Marsh was one of the few.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+        },
+        {
+          "text": "At the Pits of Hathsin, Elend burned duralumin and atium together and had a sudden flash of insight.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Wax's time",
+          "revealedIn": [
+            { "book": "lost-metal", "chapter": "25" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            },
+            { "book": "lost-metal", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Mistborn gone, duralumin became nearly useless in Allomancy and faded into myth, remembered as the metal of the Ascendant Warrior, though the south used it in Feruchemy.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "25" }]
+        },
+        {
+          "text": "Better metallurgy made duralumin common again, and the Set gave Dumad a spike granting duralumin Allomancy, which he combined with Steelpushing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Dumad's death, Wax used the spike to Push himself up to the Pewternaut A16, and Wayne, now Mistborn, burned duralumin with bendalloy to set off the bomb aboard early.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Alloy",
+      "name": "96% aluminum, 4% copper",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "5" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Duralumin Gnat",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "well-of-ascension", "chapter": "11" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "lost-metal", "chapter": "71" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores Connection",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Connector",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+    },
+    {
+      "label": "With atium",
+      "name": "See farther into the future",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "81" },
+            { "book": "secret-history", "chapter": "6-9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "8" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "57" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "51" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "Inquisitor",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "72" }]
+    },
+    {
+      "characterId": "dumad",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "23" }]
+    },
+    {
+      "characterId": "waxillium-ladrian",
+      "role": "Hemalurgic spike",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "71" }]
+    }
+  ]
+}

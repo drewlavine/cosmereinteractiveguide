@@ -11,7 +11,7 @@
           "all": [
             { "book": "final-empire", "chapter": "7" },
             { "book": "well-of-ascension", "chapter": "19" },
-            "hero-of-ages"
+            { "book": "hero-of-ages", "chapter": "prologue" }
           ]
         }
       ]
@@ -30,23 +30,23 @@
       ]
     },
     {
-      "text": "A Coinshot who can also change their weight with iron Feruchemy can make their Pushes stronger by growing heavier, or travel farther by growing lighter.",
-      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
-    },
-    {
-      "text": "The force of a Push grows with the Allomancer's own weight, and metal partly inside a person's body normally cannot be Pushed, though a strong enough Coinshot can overcome both limits.",
-      "revealedIn": ["alloy-of-law"]
-    },
-    {
       "text": "A Feruchemist can store speed in steel, moving sluggishly while filling it, and tap it to move far faster than normal.",
       "revealedIn": [
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "19" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
+    },
+    {
+      "text": "A Coinshot who can also change their weight with iron Feruchemy can make their Pushes stronger by growing heavier, or travel farther by growing lighter.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "text": "The force of a Push grows with the Allomancer's own weight, and metal partly inside a person's body normally cannot be Pushed, though a strong enough Coinshot can overcome both limits.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
     },
     {
       "text": "On Roshar, a fabrial with a steel cage pushes away the element tied to its trapped spren.",
@@ -82,7 +82,7 @@
         {
           "all": [
             { "book": "well-of-ascension", "chapter": "15" },
-            "alloy-of-law"
+            { "book": "alloy-of-law", "chapter": "prologue" }
           ]
         }
       ]
@@ -90,14 +90,74 @@
     {
       "label": "Hemalurgy",
       "name": "Steals physical Allomantic powers",
-      "revealedIn": ["hero-of-ages"]
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "prologue" }]
     }
   ],
   "people": [
     {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "characterId": "kelsier",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+    },
+    {
+      "characterId": "rashek",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+    },
+    {
+      "characterId": "zane-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "17" }]
+    },
+    {
+      "characterId": "elend-venture",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "51" }]
+    },
+    {
+      "characterId": "beldre",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "58" }]
+    },
+    {
       "characterId": "waxillium-ladrian",
       "role": "Coinshot",
       "revealedIn": [{ "book": "alloy-of-law", "chapter": "1" }]
+    },
+    {
+      "characterId": "push",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "characterId": "paalm",
+      "role": "Hemalurgic Coinshot",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "23" }]
+    },
+    {
+      "characterId": "forch",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "edwarn-ladrian",
+      "role": "Hemalurgic Coinshot",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "29" }]
+    },
+    {
+      "characterId": "dumad",
+      "role": "Coinshot",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "24" }]
     }
   ]
 }

@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "An Allomantic metal. Burning it shows the Allomancer a vision of another version of themselves.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+    },
+    {
+      "text": "A metal of two arts. Allomancers burn it to see another version of themselves, and Feruchemists store health in it to heal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "27" },
+            { "book": "well-of-ascension", "chapter": "58" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Feruchemist can tap stored health to heal. Healing this way does not push out things lodged in a wound, such as metal, which can end up sealed inside the body and cause infection.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "text": "The vision, a gold shadow, shows who the burner could have been. While it lasts they see through both pairs of eyes and think both sets of thoughts. Seeing it is emotionally hard, so gold is of little practical use, and touching the shadow has unpleasant effects.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "alloy-of-law", "chapter": "15" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Someone who can both burn gold and store health in it has a nearly endless supply of health, recovering almost instantly from terrible injuries. Drawing it constantly wards off sickness, tiredness and pain, and can even remove the need to breathe, though it cannot stop aging.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A Bloodmaker fills a goldmind by spending time sick and weak, then taps it to heal quickly, even from wounds that would kill. It heals injuries better than disease.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [
+    {
+      "label": "Allomancy",
+      "name": "Shows another version of oneself",
+      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+    },
+    {
+      "label": "Misting",
+      "name": "Augur",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "alloy-of-law", "chapter": "15" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Feruchemy",
+      "name": "Stores health",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "label": "Ferring",
+      "name": "Bloodmaker",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hemalurgy",
+      "name": "Steals Feruchemical gold",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "vin",
+      "role": "Mistborn",
+      "revealedIn": [{ "book": "final-empire", "chapter": "27" }]
+    },
+    {
+      "characterId": "sazed",
+      "role": "Feruchemist",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+    },
+    {
+      "characterId": "wayne",
+      "role": "Bloodmaker",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "Compounder",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+    }
+  ]
+}

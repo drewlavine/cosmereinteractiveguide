@@ -7,6 +7,17 @@
     {
       "text": "A Terris art of storing a person's own attributes in pieces of metal, called metalminds, to be drawn back out when needed. Its practitioners are Feruchemists.",
       "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+    },
+    {
+      "text": "A Terris art of storing one's own attributes in metalminds, to draw back out when needed. Feruchemists who can use only one metal are called Ferrings.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ]
     }
   ],
   "description": [
@@ -15,7 +26,7 @@
       "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
     },
     {
-      "text": "Drawing on a metalmind faster than it was filled gives a stronger effect for a shorter time, but some of the stored attribute is lost along the way.",
+      "text": "A metalmind answers only to the person who filled it; others who burn or hold it cannot reach the power inside.",
       "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
     },
     {
@@ -23,37 +34,87 @@
       "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
     },
     {
-      "text": "A metalmind is normally tied to the identity of the Feruchemist who filled it, so others cannot draw on it.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "final-empire", "chapter": "epilogue" },
-            { "book": "bands-of-mourning", "chapter": "17" }
-          ]
-        }
-      ]
+      "text": "It only gives back what its user put in: nothing comes from outside, and nothing is lost for good.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
-      "text": "Some southern medallions are special metalminds, made with nicrosil, that let anyone use the attributes stored in them.",
-      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+      "text": "A Feruchemist with only one metal is called a Ferring, and each kind has its own name, such as Skimmer for iron.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     }
   ],
   "history": [
     {
       "title": [
         {
-          "text": "Among the Terris",
+          "text": "Before the Lord Ruler",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Worldbringers, a holy order of Feruchemist scholars, taught and kept knowledge across the land. Many other Feruchemists did ordinary work, such as herding or guiding travellers through the mountains.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the Lord Ruler",
           "revealedIn": [
-            { "book": "well-of-ascension", "chapter": "30" },
-            { "book": "well-of-ascension", "chapter": "56" }
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "30" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            },
+            { "book": "final-empire", "chapter": "epilogue" },
+            { "book": "hero-of-ages", "chapter": "65" },
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "well-of-ascension", "chapter": "30" }
           ]
         }
       ],
       "items": [
         {
-          "text": "Under the Lord Ruler the Ministry controlled Terris breeding to stamp out Feruchemy. The Terris resisted by slipping people with hidden Feruchemical gifts into the breeding, so the power survived without the Ministry's knowledge.",
-          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+          "text": "When the Lord Ruler took power, he turned the living Feruchemists into mistwraiths, but overlooked the heritage carried by other Terris, so Feruchemists kept being born. He restricted the Terris ever more tightly, in time breeding them to wipe the power out, while the Terris tricked the breeders to keep it alive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "well-of-ascension", "chapter": "30" },
+                { "book": "hero-of-ages", "chapter": "68" }
+              ]
+            }
+          ]
         },
+        {
+          "text": "Sazed suspects the Lord Ruler persecuted Feruchemists so their power would not mix with Allomancy and produce people who could do what he did.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Sazed came to judge that the Lord Ruler feared Feruchemy: its scholarly users, with their great memories, would have been hard to control, so he built his rule on Allomancy instead.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+        },
+        {
+          "text": "After the Terris religion was lost, Feruchemists formed the Keepers to remember everything they could.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "Tindwyl, a Terris breeder, bore over twenty children who all carry Feruchemy, without the Ministry ever knowing.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Lord Ruler",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
+        }
+      ],
+      "items": [
         {
           "text": "After the Lord Ruler's fall the Synod, the secret leaders of the Keepers, came into the open and sent Keepers out to teach what they had preserved. About a year on, Steel Inquisitors attacked and killed the Synod.",
           "revealedIn": [{ "book": "well-of-ascension", "chapter": "56" }]
@@ -67,7 +128,13 @@
           "revealedIn": [
             {
               "all": [
-                "alloy-of-law",
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
                 { "book": "bands-of-mourning", "chapter": "3" }
               ]
             },
@@ -77,19 +144,873 @@
       ],
       "items": [
         {
-          "text": "The Terris married into the wider population and the gift broke apart. Ferrings, who can use only one Feruchemical metal, appeared, while Full Feruchemists with every ability vanished. Research into the art flourished, and new metals and attributes were found.",
+          "text": "The Terris married into the wider population, and people began to be born with one Feruchemical power and one Allomantic power.",
           "revealedIn": [
             {
               "all": [
-                "alloy-of-law",
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Full Feruchemists, with every ability, vanished, and the Terris began careful breeding to produce one again. Research into the art flourished, and new metals and the attributes they store were found.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
                 { "book": "bands-of-mourning", "chapter": "3" }
               ]
             }
           ]
         },
         {
-          "text": "The Southern Scadrians developed metalminds anyone can use, and technology built on Feruchemy.",
+          "text": "The southern peoples developed metalminds anyone can use, and technology built on Feruchemy.",
           "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Who can use it",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "well-of-ascension", "chapter": "30" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Feruchemy is an art of the Terris people. Sazed, a Terris steward, is a Feruchemist.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "The ability is inherited. Under the Lord Ruler, the Terris kept it alive in their bloodlines: Tindwyl's many children all carry it.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "30" }]
+        },
+        {
+          "text": "Since the Terris married into other peoples, a person can be born with one Feruchemical power and one Allomantic power, and is then called Twinborn.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Metalminds",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "final-empire", "chapter": "37" },
+            { "book": "alloy-of-law", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Attributes are stored in pieces of metal called metalminds, to be drawn back out when needed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "A metalmind only has to touch its owner to be used; Sazed once tapped a pewtermind he had swallowed.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "text": "The kind of metal decides which attribute it holds, and each metalmind is named after its metal, such as a tinmind or a coppermind. Putting an attribute in is called storing; drawing it out is tapping.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Storing and tapping",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "22" },
+            { "book": "final-empire", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While storing, the Feruchemist goes without part of that attribute: as Sazed fills a tinmind with his eyesight, his sight weakens and he wears spectacles.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "text": "Tapping at the rate an attribute was stored returns all of it. Tapping faster gives a stronger effect for a shorter time, but some of the stored attribute is lost on the way.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "What the metals store",
+          "revealedIn": [
+            { "book": "well-of-ascension", "chapter": "53" },
+            { "book": "well-of-ascension", "chapter": "15" },
+            { "book": "well-of-ascension", "chapter": "19" },
+            { "book": "hero-of-ages", "chapter": "66" },
+            { "book": "hero-of-ages", "chapter": "36" },
+            { "book": "well-of-ascension", "chapter": "50" },
+            { "book": "well-of-ascension", "chapter": "12" },
+            { "book": "hero-of-ages", "chapter": "5" },
+            { "book": "well-of-ascension", "chapter": "58" },
+            { "book": "shadows-of-self", "chapter": "5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iron stores weight. Sazed taps his ironmind to grow heavy enough to hold a gate shut against koloss.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        },
+        {
+          "text": "Steel stores speed. Sazed uses a steelmind's stored speed to reach Luthadel faster.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        },
+        {
+          "text": "Tin stores the senses. Tapping sight lets the Feruchemist see far off but blurs the edges of their vision, and too much can make them sick.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }]
+        },
+        {
+          "text": "Tin only sharpens senses a person already has; it cannot let them perceive what they otherwise could not.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "66" }]
+        },
+        {
+          "text": "Pewter stores strength. Storing it leaves the Feruchemist scrawny and weak; tapping it makes their muscles swell.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        },
+        {
+          "text": "Zinc stores mental speed. While filling a zincmind, a Feruchemist takes in words at once but is slow to grasp their meaning.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "text": "Copper stores memories. A memory put into a coppermind leaves the Feruchemist's own mind until it is drawn back out.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        },
+        {
+          "text": "Memories in a coppermind do not fade, and Keepers keep index copperminds to find facts quickly.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }]
+        },
+        {
+          "text": "Bronze stores wakefulness. Filling a bronzemind makes the Feruchemist drowsy, even sending them into a deep, trance-like sleep.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "text": "Gold stores health, and tapping it heals wounds quickly, though anything lodged in a wound can be sealed inside the body as it closes.",
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+        },
+        {
+          "text": "Filling a goldmind is hard, as it means spending time sick and weak.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Keyed and unkeyed metalminds",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            },
+            { "book": "bands-of-mourning", "chapter": "3" },
+            { "book": "bands-of-mourning", "chapter": "21" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "17" },
+                { "book": "sunlit-man", "chapter": "51" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A metalmind answers only to the person who filled it: when Vin burned some of Sazed's metalminds, she could not reach the power in them.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Another Feruchemist can sense that a metalmind holds someone else's stores, but only if they can use that attribute themselves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By working with Identity, for instance through aluminum Feruchemy, a metalmind can be made unkeyed, tied to no one, so that anyone with the right Feruchemical ability can tap it.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "text": "Unsealed metalminds mix nicrosil with other metals; the nicrosil lets the user use the other metals' powers. The southern peoples use them widely as medallions.",
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "21" }]
+        },
+        {
+          "text": "Usually a person must know an object is a metalmind to use it. Some devices, though, force whoever wears them against their skin to store or tap an attribute, without their knowing or any control.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "17" },
+                { "book": "sunlit-man", "chapter": "51" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ferrings and full Feruchemists",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "36" },
+                { "book": "bands-of-mourning", "chapter": "3" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Feruchemist with only one metal is a Ferring, and each kind has its own name, such as Skimmer for iron, Archivist for copper or Bloodmaker for gold.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "text": "Feruchemists who can use every metal are called full Feruchemists. They have died out, and the Terris are trying to breed one again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Other arts, such as Hemalurgy, are the only known way to have a mix of powers that fits neither kind.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "hero-of-ages", "chapter": "36" },
+                { "book": "bands-of-mourning", "chapter": "3" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Savants",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drawing on metalminds constantly for a long time can change a Feruchemist's body. A Feruchemist who Compounds, and so draws on power from outside, becomes a savant more easily.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Where the power comes from",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "It is end-neutral: the Feruchemist's own attributes are turned into Investiture and back, with nothing gained from an outside source and nothing permanently lost.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "With Allomancy and other powers",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            },
+            { "book": "shadows-of-self", "chapter": "7" },
+            { "book": "hero-of-ages", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Feruchemist who is also an Allomancer can burn a metalmind, using Allomancy's outside power to draw out far more of the stored attribute. This is called Compounding.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "A Compounder is a Twinborn whose Allomantic and Feruchemical powers share a metal, letting them burn their own metalminds for a great burst of the attribute.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Like Ferrings, Twinborn have names for each mix of powers. Even when the two powers use different metals, they combine into a side effect called a Resonance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "1" },
+                { "book": "shadows-of-self", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A metalmind resists Allomantic Pushes and Pulls, more so the fuller it is; a full one is almost immune.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }]
+        },
+        {
+          "text": "Hemalurgic spikes of some metals steal Feruchemical abilities. The first Inquisitors gained the power to store healing this way, though they filled it more slowly than a true Feruchemist.",
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "God metals",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Atium stores youth. Sazed reasons that the Lord Ruler let himself age for short spells to fill atium, then drew the youth back out to stay young.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Scadrial's God Metals each come from a Shard. Atium stores youth, useful mostly for disguise unless Compounded; lerasium's and harmonium's Feruchemical powers are unknown, as harmonium explodes in water. Alloys of God Metals may hold more.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "Feruchemical metals",
+      "columns": ["Metal", "Stores", "Ferring", "Group"],
+      "rows": [
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Weight", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Weight (physical mass)", "Skimmer", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "12" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "iron",
+          "entry": "iron",
+          "cells": ["Iron", "Weight (physical mass)", "Skimmer", "Physical"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "12" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Speed", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "15" }]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Physical speed", "Steelrunner", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "15" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "steel",
+          "entry": "steel",
+          "cells": ["Steel", "Physical speed", "Steelrunner", "Physical"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "15" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Senses, such as eyesight", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Senses, such as sight and smell", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": ["Tin", "Senses, one per tinmind", "Windwhisperer", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "hero-of-ages", "chapter": "66" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "tin",
+          "entry": "tin",
+          "cells": [
+            "Tin",
+            "Senses, one per tinmind",
+            "Windwhisperer",
+            "Physical"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "22" },
+                { "book": "hero-of-ages", "chapter": "66" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Strength", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "37" }]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Physical strength", "Brute", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "37" },
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "pewter",
+          "entry": "pewter",
+          "cells": ["Pewter", "Physical strength", "Brute", "Physical"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "37" },
+                { "book": "well-of-ascension", "chapter": "53" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": ["Zinc", "Mental speed", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "50" }]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": ["Zinc", "Mental speed", "Sparker", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "50" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "zinc",
+          "entry": "zinc",
+          "cells": ["Zinc", "Mental speed", "Sparker", "Cognitive"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "50" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": ["Brass", "Warmth", "Firesoul", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "brass",
+          "entry": "brass",
+          "cells": ["Brass", "Warmth", "Firesoul", "Cognitive"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": ["Copper", "Memories", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "29" }]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": ["Copper", "Memories", "Archivist", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "4" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "copper",
+          "entry": "copper",
+          "cells": ["Copper", "Memories", "Archivist", "Cognitive"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "4" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Wakefulness", "", ""],
+          "revealedIn": [{ "book": "hero-of-ages", "chapter": "5" }]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Wakefulness", "Sentry", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "5" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bronze",
+          "entry": "bronze",
+          "cells": ["Bronze", "Wakefulness", "Sentry", "Cognitive"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "57" },
+                { "book": "hero-of-ages", "chapter": "5" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "cadmium",
+          "entry": "cadmium",
+          "cells": ["Cadmium", "Breath", "Gasper", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "cadmium",
+          "entry": "cadmium",
+          "cells": ["Cadmium", "Breath", "Gasper", "Hybrid"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "bendalloy",
+          "entry": "bendalloy",
+          "cells": ["Bendalloy", "Nutrition and calories", "Subsumer", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "bendalloy",
+          "entry": "bendalloy",
+          "cells": [
+            "Bendalloy",
+            "Nutrition and calories",
+            "Subsumer",
+            "Hybrid"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Health", "", ""],
+          "revealedIn": [{ "book": "well-of-ascension", "chapter": "58" }]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Health", "Bloodmaker", ""],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "58" },
+                { "book": "alloy-of-law", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "gold",
+          "entry": "gold",
+          "cells": ["Gold", "Health", "Bloodmaker", "Hybrid"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "well-of-ascension", "chapter": "58" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": ["Electrum", "Determination", "Pinnacle", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "electrum",
+          "entry": "electrum",
+          "cells": ["Electrum", "Determination", "Pinnacle", "Hybrid"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "chromium",
+          "entry": "chromium",
+          "cells": ["Chromium", "Fortune", "Spinner", "Spiritual"],
+          "revealedIn": [{ "book": "bands-of-mourning", "chapter": "3" }]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": ["Nicrosil", "Investiture", "Soulbearer", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "nicrosil",
+          "entry": "nicrosil",
+          "cells": ["Nicrosil", "Investiture", "Soulbearer", "Spiritual"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": ["Aluminum", "Identity", "Trueself", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "aluminum",
+          "entry": "aluminum",
+          "cells": ["Aluminum", "Identity", "Trueself", "Spiritual"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": ["Duralumin", "Connection", "Connector", ""],
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
+        },
+        {
+          "key": "duralumin",
+          "entry": "duralumin",
+          "cells": ["Duralumin", "Connection", "Connector", "Spiritual"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "Youth", "", ""],
+          "revealedIn": [{ "book": "final-empire", "chapter": "epilogue" }]
+        },
+        {
+          "key": "atium",
+          "entry": "atium",
+          "cells": ["Atium", "Youth", "Timewinder", "God metal"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "epilogue" },
+                { "book": "alloy-of-law", "chapter": "prologue" },
+                { "book": "bands-of-mourning", "chapter": "22" },
+                { "book": "lost-metal", "chapter": "prologue" }
+              ]
+            }
+          ]
         }
       ]
     }
@@ -101,28 +1022,19 @@
       "revealedIn": [{ "book": "final-empire", "chapter": "18" }]
     },
     {
-      "label": "Practitioners",
-      "name": "Feruchemists",
-      "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
-    },
-    {
-      "label": "Single-metal users",
-      "name": "Ferrings",
-      "revealedIn": [
-        {
-          "all": [
-            "alloy-of-law",
-            { "book": "bands-of-mourning", "chapter": "3" }
-          ]
-        }
-      ]
+      "label": "Power source",
+      "name": "The user's own attributes",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "prologue" }]
     },
     {
       "label": "With Allomancy",
       "name": "Twinborn",
       "revealedIn": [
         {
-          "all": [{ "book": "alloy-of-law", "chapter": "1" }, "shadows-of-self"]
+          "all": [
+            { "book": "alloy-of-law", "chapter": "1" },
+            { "book": "shadows-of-self", "chapter": "prologue" }
+          ]
         }
       ]
     }
@@ -131,27 +1043,45 @@
     {
       "characterId": "sazed",
       "role": "Feruchemist",
+      "level": "Feruchemist",
       "revealedIn": [{ "book": "final-empire", "chapter": "22" }]
     },
     {
       "characterId": "rashek",
       "role": "Feruchemist",
+      "level": "Feruchemist",
       "revealedIn": [{ "book": "final-empire", "chapter": "38" }]
     },
     {
       "characterId": "tindwyl",
       "role": "Feruchemist",
+      "level": "Feruchemist",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "13" }]
     },
     {
       "characterId": "waxillium-ladrian",
-      "role": "user",
+      "role": "Skimmer",
+      "level": "Ferring",
       "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
     },
     {
       "characterId": "wayne",
-      "role": "user",
+      "role": "Bloodmaker",
+      "level": "Ferring",
       "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+    },
+    {
+      "characterId": "marsh",
+      "role": "through spikes",
+      "level": "Ferring",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "65" }]
+    },
+    {
+      "characterId": "miles-dagouter",
+      "role": "Bloodmaker",
+      "level": "Ferring",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
     }
-  ]
+  ],
+  "levels": ["Ferring", "Feruchemist"]
 }

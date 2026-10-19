@@ -929,8 +929,30 @@ export interface ShownEntry extends ShownLocationStory {
     label: string
     values: { name: string; characterId?: string; placeId?: string }[]
   }[]
-  /** Each person once, with every role the reader may see. */
-  people: { characterId: string; roles: EntryPerson['role'][] }[]
+  /**
+   * Each person once, with every role the reader may see and, on a page with
+   * levels, the highest level they've been seen to reach.
+   */
+  people: {
+    characterId: string
+    roles: EntryPerson['role'][]
+    level?: string
+  }[]
+  /** The page's levels that have someone in them, highest first. */
+  levels: string[]
+  /** "How it works", shaped like history. */
+  mechanics: ShownLocationStory['history']
+  /** Tables with at least one row the reader may see. */
+  tables: {
+    title: string
+    columns: string[]
+    rows: {
+      key: string
+      entry?: string
+      cells: string[]
+      books: BookSource[]
+    }[]
+  }[]
 }
 
 /**
@@ -945,8 +967,24 @@ export function revealEntry(
   viewAnyway = false,
 ): ShownEntry {
   const prose = revealLocationStory(story, canSee, viewAnyway)
-  const shown: ShownEntry = { ...prose, facts: [], people: [] }
+  const shown: ShownEntry = {
+    ...prose,
+    facts: [],
+    people: [],
+    levels: [],
+    mechanics: [],
+    tables: [],
+  }
   if (!story) return shown
+  if (story.mechanics) {
+    const how = revealLocationStory(
+      { intro: [], description: [], history: story.mechanics },
+      canSee,
+      viewAnyway,
+    )
+    shown.mechanics = how.history
+    shown.spoilers ||= how.spoilers
+  }
   const show = (ok: boolean) => {
     if (ok) return true
     shown.spoilers = true
@@ -967,6 +1005,7 @@ export function revealEntry(
     if (group) group.values.push(value)
     else shown.facts.push({ label: f.label, values: [value] })
   }
+  const rank = (level?: string) => story.levels?.indexOf(level ?? '') ?? -1
   for (const p of story.people) {
     const trim = view(p.characterId, canSee)?.trim ?? ((r: Reveal) => r)
     const reveal = trim(p.revealedIn)
@@ -976,7 +1015,45 @@ export function revealEntry(
     const person = shown.people.find((x) => x.characterId === p.characterId)
     if (person) {
       if (!person.roles.includes(p.role)) person.roles.push(p.role)
-    } else shown.people.push({ characterId: p.characterId, roles: [p.role] })
+      if (rank(p.level) > rank(person.level)) person.level = p.level
+    } else
+      shown.people.push({
+        characterId: p.characterId,
+        roles: [p.role],
+        level: p.level,
+      })
   }
+  for (const table of story.tables ?? []) {
+    const rows: ShownEntry['tables'][number]['rows'] = []
+    for (const r of table.rows) {
+      if (!show(canSee(r.revealedIn))) continue
+      const row = {
+        key: r.key,
+        entry: r.entry,
+        cells: r.cells,
+        books: pointSources(r.revealedIn),
+      }
+      const at = rows.findIndex((x) => x.key === r.key)
+      if (at >= 0) rows[at] = row
+      else rows.push(row)
+    }
+    // A column with nothing the reader may see yet is left out, so blank
+    // cells don't hint at what's to come.
+    const keep = table.columns.map(
+      (_, i) => i === 0 || rows.some((r) => r.cells[i]),
+    )
+    if (rows.length > 0)
+      shown.tables.push({
+        title: table.title,
+        columns: table.columns.filter((_, i) => keep[i]),
+        rows: rows.map((r) => ({
+          ...r,
+          cells: r.cells.filter((_, i) => keep[i]),
+        })),
+      })
+  }
+  shown.levels = (story.levels ?? [])
+    .filter((l) => shown.people.some((p) => p.level === l))
+    .reverse()
   return shown
 }
