@@ -3234,3 +3234,28 @@ a.search-option:focus-visible {
 .entry-table tbody tr:nth-child(even) {
   background: rgba(28, 42, 53, 0.45);
 }
+
+/* A group's members, each with what its page says about them. */
+.member-entry {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 0.9rem;
+}
+
+.member-entry > h3 {
+  grid-column: 1 / -1;
+}
+
+.member-entry-face {
+  align-self: start;
+  margin-top: 0.2rem;
+}
+
+.member-entry-face .people-card-face {
+  width: 3.5rem;
+  height: 3.5rem;
+}
+
+.member-entry-text > p:first-child {
+  margin-top: 0;
+}

@@ -1,6 +1,7 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
 import { Link } from 'react-router'
 import { BookList } from './BookList'
+import { MemberList } from './MemberList'
 import { PeopleGrid, type GridPerson } from './PeopleGrid'
 import { PageContents, PageSection, PageSubsection } from './PageSections'
 import { slugs } from './pageSlugs'
@@ -161,6 +162,15 @@ export function EntryPage({
     .map((p) => ({ ...p, name: findPerson(p.characterId)?.name }))
     .filter((p): p is typeof p & { name: string } => !!p.name)
     .sort((a, b) => a.name.localeCompare(b.name))
+  // Written-up members in the page's order, then the rest by name.
+  const members = shown.members
+    .map((m) => ({ ...m, name: findPerson(m.characterId)?.name }))
+    .filter((m): m is typeof m & { name: string } => !!m.name)
+    .sort(
+      (a, b) =>
+        +!a.items.length - +!b.items.length ||
+        (a.items.length ? 0 : a.name.localeCompare(b.name)),
+    )
 
   return (
     <article
@@ -346,7 +356,17 @@ export function EntryPage({
               <Sections sections={shown.history} ids={historyIds} link={link} />
             </PageSection>
           )}
-          {people.length > 0 && (
+          {members.length > 0 && (
+            <PageSection id="people" title={shown.peopleTitle ?? 'Members'}>
+              <MemberList
+                members={members}
+                canSee={canSee}
+                viewAnyway={showAll}
+                link={link}
+              />
+            </PageSection>
+          )}
+          {members.length === 0 && people.length > 0 && (
             <PageSection
               id="people"
               title={

@@ -979,6 +979,15 @@ export interface ShownEntry extends ShownLocationStory {
   }[]
   aboutTitle?: string
   peopleTitle?: string
+  /**
+   * On a page with member write-ups: each member the reader has met, in the
+   * page's order, with what it says about them so far; then everyone else in
+   * `people`, with nothing written.
+   */
+  members: {
+    characterId: string
+    items: { text: string; books: BookSource[] }[]
+  }[]
   /** "How it works", shaped like history. */
   mechanics: ShownLocationStory['history']
   /** Tables with at least one row the reader may see. */
@@ -1015,6 +1024,7 @@ export function revealEntry(
     sections: [],
     mechanics: [],
     tables: [],
+    members: [],
     aboutTitle: story?.aboutTitle,
     peopleTitle: story?.peopleTitle,
   }
@@ -1144,6 +1154,19 @@ export function revealEntry(
       })
   }
   addMembers()
+  if (story.members) {
+    for (const m of story.members) {
+      const items = m.items
+        .filter((i) => show(canSee(i.revealedIn)))
+        .map((i) => ({ text: i.text, books: pointSources(i.revealedIn) }))
+      const listed = shown.people.some((p) => p.characterId === m.characterId)
+      if ((items.length > 0 || listed) && show(hasMet(m.characterId, canSee)))
+        shown.members.push({ characterId: m.characterId, items })
+    }
+    for (const p of shown.people)
+      if (!shown.members.some((m) => m.characterId === p.characterId))
+        shown.members.push({ characterId: p.characterId, items: [] })
+  }
   shown.levels = (story.levels ?? [])
     .filter((l) => shown.people.some((p) => p.level === l))
     .reverse()

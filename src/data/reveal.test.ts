@@ -13,10 +13,11 @@ import {
   revealSystem,
 } from './reveal'
 import spookStory from './stories/spook.json'
+import unmadeStory from './cultureStories/unmade.json'
 import wayneStory from './stories/wayne.json'
 import yumiStory from './stories/yumi.json'
 import { systems } from './systems'
-import type { Reveal, RevealPoint } from './types'
+import type { EntryStory, Reveal, RevealPoint } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
 const everyBook = readerCanSee({ read: bookIds, reading: new Map() })
@@ -155,6 +156,68 @@ describe('personas', () => {
     expect(revealCharacter('hoid', reader(['final-empire'])).met).toBe(false)
     expect(books(['elantris'])).not.toContain('final-empire')
     expect(books(['final-empire', 'elantris'])).toContain('final-empire')
+  })
+
+  it('writes up group members in order, each line at its own chapter', () => {
+    const wok: RevealPoint = 'way-of-kings'
+    const story = {
+      intro: [],
+      description: [],
+      history: [],
+      facts: [],
+      people: [
+        { characterId: 'shallan', role: 'member', revealedIn: [wok] },
+        { characterId: 'kaladin', role: 'member', revealedIn: [wok] },
+      ],
+      members: [
+        {
+          characterId: 'kaladin',
+          items: [
+            { text: 'Early.', revealedIn: [wok] },
+            { text: 'Late.', revealedIn: ['oathbringer'] },
+          ],
+        },
+      ],
+    } as unknown as EntryStory
+    const at = (read: string[]) =>
+      revealEntry(
+        story,
+        readerCanSee({ read: new Set(read), reading: new Map() }),
+        () => true,
+      )
+    expect(at([]).members).toEqual([])
+    const shown = at(['way-of-kings'])
+    expect(shown.spoilers).toBe(true)
+    expect(
+      shown.members.map((m) => [m.characterId, m.items.map((i) => i.text)]),
+    ).toEqual([
+      ['kaladin', ['Early.']],
+      ['shallan', []],
+    ])
+    expect(at(['way-of-kings', 'oathbringer']).members[0].items).toEqual([
+      expect.objectContaining({ text: 'Early.' }),
+      expect.objectContaining({ text: 'Late.' }),
+    ])
+  })
+
+  it('shows what the Unmade page says about each only from its chapter', () => {
+    const at = (chapter: string) =>
+      revealEntry(
+        unmadeStory as unknown as EntryStory,
+        readerCanSee({
+          read: new Set(['way-of-kings', 'words-of-radiance', 'oathbringer']),
+          reading: new Map([['rhythm-of-war', chapter]]),
+        }),
+        () => true,
+      )
+    const about = (chapter: string, id: string) =>
+      at(chapter)
+        .members.find((m) => m.characterId === id)
+        ?.items.map((i) => i.text) ?? []
+    const search = 'The Ghostbloods are searching for her.'
+    expect(about('23', 'ba-ado-mishram')).not.toContain(search)
+    expect(about('24', 'ba-ado-mishram')).toContain(search)
+    expect(at('1').members[0].characterId).toBe('ashertmarn')
   })
 
   it('meets Thaidakar in Rhythm of War and sees through him at its end', () => {

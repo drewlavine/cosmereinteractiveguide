@@ -1,11 +1,11 @@
 {
   "intro": [
     {
-      "text": "Mysterious beings of legend. Listener songs credit them with making certain forms, and scholars note that many of them are mindless.",
+      "text": "Beings of Rosharan legend. A listener song says one form of power was made by Unmade hand, and a scholar notes many of them are mindless.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
     },
     {
-      "text": "The Unmade: the spren of Odium, nine ancient beings long feared in Rosharan legend.",
+      "text": "The spren of Odium: nine ancient beings feared in Rosharan legend.",
       "revealedIn": [
         {
           "all": [
@@ -16,7 +16,7 @@
       ]
     },
     {
-      "text": "Nine ancient, twisted spren that are Splinters of Odium. Though counted as his minions, not all of them still do his bidding, and they range from mindless forces to cunning individuals with vast and terrible powers.",
+      "text": "Nine ancient, twisted spren that are Splinters of Odium. Not all of them still do his bidding; some are mindless forces, others cunning individuals.",
       "revealedIn": [
         {
           "all": [
@@ -28,109 +28,258 @@
       ]
     }
   ],
-  "description": [
+  "description": [],
+  "history": [],
+  "sections": [
     {
-      "text": "Being near an Unmade brings a strong sense of unease and wrongness that grows the closer one gets, and Lightweavers cannot draw buildings under an Unmade's influence.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
-    },
-    {
-      "text": "By modern times the Unmade had become heavily mythologised. Vorin teaching speaks of them only vaguely, often as a single being, but ardents tell old folktales of them, and stories cast them as princes of the Voidbringers. So many names and powers are ascribed to each that truth is hard to tell from legend.",
-      "revealedIn": [
+      "title": "Characteristics",
+      "items": [
         {
-          "all": [
-            { "book": "way-of-kings", "chapter": "45" },
-            { "book": "words-of-radiance", "chapter": "45" },
-            { "book": "oathbringer", "chapter": "90" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Some Unmade are practically mindless, more like emotion spren, while others are intelligent, crafty and conniving.",
-      "revealedIn": [
+          "text": "Hessi's Mythica argues each Unmade was a specific kind of spren with vast powers, not just \"spirits of the void\" or \"nine shadows who moved in the night\".",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+        },
         {
-          "all": [
-            { "book": "oathbringer", "chapter": "81" },
-            { "book": "rhythm-of-war", "chapter": "i-2" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "Odium trapped them in a halfway existence, many belonging fully to neither the Physical nor the Cognitive Realm. Some take on forms in the Physical Realm if they linger in one place or are drawn through by strong emotions.",
-      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-2" }]
-    },
-    {
-      "text": "The listeners' songs name all nine, remembering them as gods the listeners swore never to follow again.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "31" },
-            { "book": "rhythm-of-war", "chapter": "73" }
-          ]
-        }
-      ]
-    }
-  ],
-  "history": [
-    {
-      "title": [
-        {
-          "text": "Old encounters",
+          "text": "Some Unmade are practically mindless, more like emotion spren. Others are intelligent, crafty and conniving.",
           "revealedIn": [
-            { "book": "oathbringer", "chapter": "30" },
-            { "book": "oathbringer", "chapter": "38" }
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "81" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ba-Ado-Mishram is the most intelligent. Re-Shephir, Sja-anat and Yelig-nar have shown awareness; Nergaoul and Ashertmarn act on instinct.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
           ]
         }
       ],
-      "items": [
+      "parts": [
         {
-          "text": "Before the Recreance, a Lightweaver managed to trap Re-Shephir, something thought impossible. She escaped centuries ago and hid in Urithiru, until a confrontation with Shallan, whose powers reminded her of that Lightweaver, made her flee.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+          "title": [
+            {
+              "text": "Creation",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "42" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Raboniel tries to unmake the Sibling: with her hands on the tower's pillar, she pushes Voidlight into its garnets to corrupt it.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+            },
+            {
+              "text": "Sja-anat believes Odium could unmake the Unmade again, stealing their memories and ripping them apart, and fears he will do the same to her children.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-2" }]
+            }
+          ]
         },
         {
-          "text": "About five generations before Lunamor, his ancestor encountered one of the Unmade in the Horneater Peaks.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+          "title": [
+            {
+              "text": "Functioning",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "63" },
+                { "book": "oathbringer", "chapter": "92" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Being near an Unmade brings a strong sense of unease and wrongness, stronger the closer one gets. Lightweavers cannot draw buildings under an Unmade's influence.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
+            },
+            {
+              "text": "Hessi's Mythica says the Unmade are still among us, and some of their effects are common in the world.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+            },
+            {
+              "text": "Odium left the Unmade in a halfway existence, many not fully in the Physical or Cognitive Realm. Some take forms in the Physical Realm if they stay in one place too long or are pulled through by strong emotion.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-2" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Capturing",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "30" },
+                { "book": "oathbringer", "chapter": "79" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Before the Recreance a Lightweaver trapped Re-Shephir, which was thought impossible. She escaped centuries ago, and fled from Shallan rather than be trapped again.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+            },
+            {
+              "text": "Hessi's Mythica theorises the Unmade could be captured like ordinary spren, using a special prison and Melishi.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "79" }]
+            },
+            {
+              "text": "At the Battle of Thaylen Field, Dalinar captures Nergaoul in the King's Drop, a perfect ruby.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+            }
+          ]
         }
       ]
     },
     {
-      "title": [
+      "title": "History",
+      "items": [],
+      "parts": [
         {
-          "text": "The True Desolation",
-          "revealedIn": [
-            { "book": "oathbringer", "chapter": "85" },
-            { "book": "oathbringer", "chapter": "121" },
-            { "book": "rhythm-of-war", "chapter": "16" },
-            { "book": "rhythm-of-war", "chapter": "37" },
-            { "book": "rhythm-of-war", "chapter": "112" }
+          "title": [
+            {
+              "text": "During the Desolations",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "80" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "92" },
+                    { "book": "rhythm-of-war", "chapter": "73" }
+                  ]
+                },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Hessi's Mythica says Ba-Ado-Mishram Connected with the parsh, giving them Voidlight and forms of power, and a strike team was sent to imprison her.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+            },
+            {
+              "text": "The Unmade fought for Odium in the Desolations, and Urithiru had some protection against them. Between Desolations they lose their bond to Odium; since Aharietiam they have stayed subtly active.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "92" },
+                    { "book": "rhythm-of-war", "chapter": "73" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Venli learns the Unmade started a war while the Fused were stuck on Braize. When humans captured Ba-Ado-Mishram, the singers lost part of themselves.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "True Desolation",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "oathbringer", "chapter": "30" },
+                { "book": "oathbringer", "chapter": "77" },
+                { "book": "oathbringer", "chapter": "115" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "About five generations before Lunamor, his ancestor met one of the Unmade in the Horneater Peaks.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+            },
+            {
+              "text": "Re-Shephir is found under Urithiru and flees after Shallan confronts her.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+            },
+            {
+              "text": "Shallan learns two Unmade are in Kholinar: Sja-anat and Ashertmarn.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+            },
+            {
+              "text": "At the Battle of Thaylen Field the Thrill enters Amaram's army; their eyes glow red and they attack the city.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+            },
+            {
+              "text": "Amaram swallows a gemstone and joins with Yelig-nar.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "After the Battle of Thaylen Field",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "rhythm-of-war", "chapter": "112" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Ishar tells Szeth the Shin once accepted the Unmade as gods, and that he saved them from the Unmade.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+            },
+            {
+              "text": "Odium tells Dalinar he can order the Unmade to retreat, but not all of them obey him.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+            }
           ]
         }
-      ],
+      ]
+    },
+    {
+      "title": "Culture",
       "items": [
         {
-          "text": "In Kholinar, Sja-anat had corrupted the spren of the Oathgate, yet she saved Shallan and her companions from death as they passed through it.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "85" }]
+          "text": "A listener song says one form of power was made by Unmade hand.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
         },
         {
-          "text": "At the Battle of Thaylen Field, Dalinar used his knowledge of the Thrill and of how spren are coaxed into gemstones to capture Nergaoul in the King's Drop.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+          "text": "By modern times the Unmade are heavily mythologised. Vorin teaching speaks of them vaguely, often as one being. Stories call them spirits of the void, nine shadows that moved in the night, and princes of the Voidbringers; some say there were ten. Many dismiss them as folklore.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
         },
         {
-          "text": "Nergaoul's gemstone was afterward sealed in an aluminum box and sunk to the bottom of the ocean.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+          "text": "The listeners' songs name all nine, as gods the listeners swore never to follow again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "31" },
+                { "book": "rhythm-of-war", "chapter": "73" }
+              ]
+            }
+          ]
         },
         {
-          "text": "Re-Shephir shared what she knew about the Sibling with the Fused.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
-        },
-        {
-          "text": "Negotiating with Dalinar, Odium claimed he could order the Unmade to retreat, though not all of them obey him now.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+          "text": "Sekeir, who rules Lasting Integrity, says humans thrive on the terrible emotions of the Unmade.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
         }
-      ]
+      ],
+      "parts": []
     }
   ],
+  "peopleTitle": "Members of the Unmade",
   "facts": [
     {
       "label": "Number",
@@ -204,6 +353,219 @@
           "all": [
             { "book": "oathbringer", "chapter": "106" },
             { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "members": [
+    {
+      "characterId": "ashertmarn",
+      "items": [
+        {
+          "text": "Called the Heart of the Revel; one of two Unmade in Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "Hessi's Mythica calls him the third of the great mindless Unmade, causing a lust for indulgence; the debauchery at Bayala's court in 480 may have been his.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "He takes the form of a huge black heart that grows veins into the ground. In Kholinar he grew over the Oathgate and drew many of the elite into the revel. Where he went after leaving the platform is unknown.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    },
+    {
+      "characterId": "ba-ado-mishram",
+      "items": [
+        {
+          "text": "Hessi's Mythica says she Connected with the parsh, giving them Voidlight and forms of power, and a strike team was sent to imprison her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "Hessi's Mythica calls her keen of mind, a highprincess of the enemy and their commander in some Desolations.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        },
+        {
+          "text": "The Ghostbloods are searching for her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "Binding her injured the Sibling, and Urithiru stopped working.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+        },
+        {
+          "text": "Venli learns that when humans captured her, the singers lost part of themselves.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+        },
+        {
+          "text": "An epigraph's writer, who was there when she was captured, asks that she be found and released.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Shallan tells Mraize she will reach her before the Ghostbloods do.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "characterId": "chemoarish",
+      "items": [
+        {
+          "text": "Hessi's Mythica calls her the Dustmother, with more varied lore than most, and believes she is not the Nightwatcher.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        }
+      ]
+    },
+    {
+      "characterId": "dai-gonarthis",
+      "items": [
+        {
+          "text": "Hessi's Mythica asks whether Dai-Gonarthis is the ninth Unmade, and whether it destroyed Aimia.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "characterId": "moelach",
+      "items": [
+        {
+          "text": "His presence causes the Death Rattles. He has been near Kholinar, then Kharbranth, then the Horneater Peaks.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "oathbringer", "chapter": "102" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hessi's Mythica says he grants visions of the future, most often to the dying, and that the effect moves across Roshar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
+    },
+    {
+      "characterId": "nergaoul",
+      "items": [
+        {
+          "text": "Hessi's Mythica says he drove both sides of a battle into a rage, and that the Alethi Thrill, with its visions of red mist and dying creatures, is his.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field the Thrill enters Amaram's army; their eyes glow red and they attack the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        },
+        {
+          "text": "Dalinar captures him in the King's Drop, a perfect ruby.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "The gem is put in an aluminum box and sunk to the bottom of the ocean.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "characterId": "re-shephir",
+      "items": [
+        {
+          "text": "Called the Midnight Mother. A mass like black tar under Urithiru; she makes figures of black goo.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        },
+        {
+          "text": "She wants to understand humans and kills to mimic them. A Lightweaver trapped her before the Recreance; she escaped centuries ago, and flees when Shallan's powers remind her of that Lightweaver.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "32" }]
+        },
+        {
+          "text": "Hessi's Mythica says she seemed to have been destroyed at Aharietiam.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "109" }]
+        },
+        {
+          "text": "She had told the Fused the Sibling was long dead.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "characterId": "sja-anat",
+      "items": [
+        {
+          "text": "Called the Taker of Secrets; she corrupts spren. She is one of two Unmade in Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "She corrupted the Kholinar Oathgate's spren to make a trap, but saves Shallan and her companions as they pass through.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "85" }]
+        },
+        {
+          "text": "Hessi's Mythica says the Radiants feared her most of the Unmade, for corrupting spren, and saw her as an individual.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "She sends more corrupted spren to Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "She appears as a black shadow pointing the wrong way, with white holes for eyes, often in mirrors. She works against Odium while pretending not to.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "116" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She sends corrupted windspren to Taravangian, who uses them to lure Odium to Nightblood, kill Rayse and take up Odium.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        },
+        {
+          "text": "She sends her children, Glys and Tumi, to bond allies of the Radiants.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "characterId": "yelig-nar",
+      "items": [
+        {
+          "text": "Hessi's Mythica calls him Blightwind and says he may have had the powers of all Surges; three legends mention swallowing a gemstone.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "95" }]
+        },
+        {
+          "text": "Hessi's Mythica says he consumes souls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field, Amaram swallows a gemstone and joins with him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Queen Aesudan swallowed a gemstone and worked with him, until he consumed her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "i-2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Those he joins with have red eyes, grow crystals and are wrapped in black wind. They must control him or be consumed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "31" }
+              ]
+            }
           ]
         }
       ]

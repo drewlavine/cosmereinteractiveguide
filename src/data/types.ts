@@ -345,6 +345,11 @@ export interface EntryStory extends LocationStory {
   facts: EntryFact[]
   people: EntryPerson[]
   /**
+   * A group's members in the Coppermind's order, each with what the group's
+   * page says about them. Shown in place of People.
+   */
+  members?: { characterId: string; items: StoryItem[] }[]
+  /**
    * Ranks its users can reach, lowest first. When given, every person has a
    * level and the page groups users by the highest one the reader has seen.
    */

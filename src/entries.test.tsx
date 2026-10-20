@@ -77,6 +77,42 @@ describe('culture pages', () => {
   })
 })
 
+describe('group members', () => {
+  it('lists each with what the page says, in the page’s order', async () => {
+    localStorage.setItem(
+      BOOKS_READ_KEY,
+      JSON.stringify({
+        version: 2,
+        read: ['way-of-kings', 'words-of-radiance', 'oathbringer'],
+        reading: {},
+      }),
+    )
+    render(
+      <RouterProvider
+        router={createMemoryRouter(routes, {
+          initialEntries: ['/culture/unmade'],
+        })}
+      />,
+    )
+    const members = await screen.findByRole('region', {
+      name: 'Members of the Unmade',
+    })
+    const sja = within(members).getByRole('region', { name: 'Sja-anat' })
+    expect(
+      within(sja).getByText(
+        (_, el) =>
+          el?.tagName === 'P' &&
+          !!el.textContent?.includes('saves Shallan and her companions'),
+      ),
+    ).toBeInTheDocument()
+    // Rhythm of War's lines wait for it.
+    expect(members.textContent).not.toContain('Glys and Tumi')
+    expect(
+      within(sja).getByRole('link', { name: 'Sja-anat’s page' }),
+    ).toHaveAttribute('href', '/characters/sja-anat')
+  })
+})
+
 describe('culture in search', () => {
   const search = (chapter: string) =>
     createSearch(
