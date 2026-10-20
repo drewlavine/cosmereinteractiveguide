@@ -21,6 +21,7 @@ import { entryAliases } from '../data/entryAliases'
 import { entryArt } from '../data/entryArt'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { findPerson } from '../data/people'
+import { groupMembers } from '../data/groupMembers'
 import { revealEntry, revealPortrait, type ShownEntry } from '../data/reveal'
 import type { Reveal } from '../data/types'
 import { useBooksRead } from '../state/booksRead'
@@ -106,6 +107,7 @@ export function EntryPage({
     canSee,
     placeShown,
     showAll,
+    groupMembers[scope],
   )
   const books = showAll ? entry.books : entryBooks(kind, entry, canSee)
   const art = revealPortrait(entryArt[scope], canSee, showAll)
@@ -135,6 +137,10 @@ export function EntryPage({
     shown.history.map((h) => h.title ?? ''),
   )
   const levelIds = slugs('people', shown.levels)
+  const sectionIds = slugs(
+    'part',
+    shown.sections.map((s) => s.title),
+  )
   const mechanicsIds = slugs(
     'how',
     shown.mechanics.map((h) => h.title ?? ''),
@@ -262,7 +268,7 @@ export function EntryPage({
         </div>
         <div className="character-main character-story">
           {shown.description.length > 0 && (
-            <PageSection id="about" title="About">
+            <PageSection id="about" title={shown.aboutTitle ?? 'About'}>
               {(() => {
                 const linked = new Set<string>()
                 return shown.description.map((text) => (
@@ -271,6 +277,24 @@ export function EntryPage({
               })()}
             </PageSection>
           )}
+          {shown.sections.map((s, i) => (
+            <PageSection key={sectionIds[i]} id={sectionIds[i]} title={s.title}>
+              {(() => {
+                const linked = new Set<string>()
+                return s.items.map((text) => (
+                  <p key={text}>{link(text, linked)}</p>
+                ))
+              })()}
+              <Sections
+                sections={s.parts}
+                ids={slugs(
+                  sectionIds[i],
+                  s.parts.map((p) => p.title ?? ''),
+                )}
+                link={link}
+              />
+            </PageSection>
+          ))}
           {shown.mechanics.length > 0 && (
             <PageSection id="how" title="How it works">
               <Sections
@@ -325,7 +349,9 @@ export function EntryPage({
           {people.length > 0 && (
             <PageSection
               id="people"
-              title={kind === 'ability' ? 'Users' : 'People'}
+              title={
+                shown.peopleTitle ?? (kind === 'ability' ? 'Users' : 'People')
+              }
             >
               {shown.levels.length > 0 ? (
                 <>
@@ -338,7 +364,10 @@ export function EntryPage({
                     </PageSubsection>
                   ))}
                   {people.some((p) => !p.level) && (
-                    <PageSubsection id="people-other" title="Other users">
+                    <PageSubsection
+                      id="people-other"
+                      title={shown.peopleTitle ? 'Others' : 'Other users'}
+                    >
                       <PeopleList people={people.filter((p) => !p.level)} />
                     </PageSubsection>
                   )}
@@ -355,24 +384,68 @@ export function EntryPage({
   )
 }
 
+/** "A", "A and B", "A, B and C". */
+function andList(parts: ReactNode[]) {
+  return parts.map((p, i) => (
+    <Fragment key={i}>
+      {i > 0 && (i === parts.length - 1 ? ' and ' : ', ')}
+      {p}
+    </Fragment>
+  ))
+}
+
+/** An Ideal's words in a quote box, with who the reader has seen say them. */
+function Words({
+  words,
+}: {
+  words: ShownEntry['sections'][number]['parts'][number]['words']
+}) {
+  return words.map(({ text, books, spokenBy }) => {
+    const names = spokenBy.flatMap((id) => {
+      const p = findPerson(id)
+      return p
+        ? [
+            <Link key={id} to={`/characters/${id}`}>
+              {p.name}
+            </Link>,
+          ]
+        : []
+    })
+    return (
+      <blockquote key={text} className="entry-words">
+        <p>
+          “{text}”
+          <SourceMark books={books} />
+        </p>
+        {names.length > 0 && <footer>— as spoken by {andList(names)}</footer>}
+      </blockquote>
+    )
+  })
+}
+
 /** Titled sections of dated paragraphs, e.g. How it works. */
 function Sections({
   sections,
   ids,
   link,
 }: {
-  sections: ShownEntry['mechanics']
+  sections: (ShownEntry['mechanics'][number] & {
+    words?: ShownEntry['sections'][number]['parts'][number]['words']
+  })[]
   ids: string[]
   link: LinkTextFn
 }) {
-  return sections.map(({ title, items }, i) => {
+  return sections.map(({ title, items, words }, i) => {
     const linked = new Set<string>()
-    const paragraphs = items.map(({ text, books }) => (
-      <p key={text}>
-        {link(text, linked)}
-        <SourceMark books={books} />
-      </p>
-    ))
+    const paragraphs = [
+      words?.length ? <Words key="words" words={words} /> : null,
+      ...items.map(({ text, books }) => (
+        <p key={text}>
+          {link(text, linked)}
+          <SourceMark books={books} />
+        </p>
+      )),
+    ]
     return title ? (
       <PageSubsection key={ids[i]} id={ids[i]} title={title}>
         {paragraphs}

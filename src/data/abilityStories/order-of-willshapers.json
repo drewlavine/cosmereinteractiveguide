@@ -22,11 +22,11 @@
       "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
     },
     {
-      "text": "Willshapers use the Surges of Transportation and Cohesion.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+      "text": "The order is said to be very varied, but its members share a love of adventure, novelty or oddity.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "50" }]
     },
     {
-      "text": "They focus on personal fulfilment, radical self-expression, and freeing those who are captive.",
+      "text": "Willshapers focus on personal fulfilment, radical self-expression and freeing those who are held captive.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
     }
   ],
@@ -62,6 +62,12 @@
         {
           "text": "The True Desolation",
           "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            },
             { "book": "rhythm-of-war", "chapter": "67" },
             { "book": "rhythm-of-war", "chapter": "115" }
           ]
@@ -69,40 +75,248 @@
       ],
       "items": [
         {
-          "text": "Venli practises her powers as a Willshaper by shaping stone; three other spren like hers want to bond her squires.",
+          "text": "No human Willshapers are known in modern times; the listeners seem to be the only people bonded to Reachers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With Timbre's help, Venli swore the First Ideal and became a Willshaper.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
         },
         {
-          "text": "Venli brings a Reacher to the listeners, hoping the spren will bond her mother.",
+          "text": "Venli practised her powers as a Willshaper by shaping stone; three other spren like hers wanted to bond her squires.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        },
+        {
+          "text": "Venli brought a Reacher to the listeners, hoping the spren would bond her mother.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
         }
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
-        }
-      ],
+      "title": "Ideals of the Willshapers",
       "items": [
         {
-          "text": "Cohesion lets a Willshaper make stone malleable, like clay or even liquid, and connects them deeply to the spren of the stone.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+          "text": "The Ideals, also called the Immortal Words, are rules a Radiant lives by. The First Ideal is shared by every order as the motto of the Knights Radiant; each order has four more Ideals of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        },
+        {
+          "text": "A Willshaper's Words can be accepted by Cultivation or by the Stormfather.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "rhythm-of-war", "chapter": "117" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Willshapers share the First Ideal with every other order. It is broadly read as valuing life, strength and service, and the way a task is done.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": [
+                {
+                  "characterId": "venli",
+                  "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Second Ideal",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Venli's Words were at first not accepted; they were accepted only when her mother recognised her.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+            },
+            {
+              "text": "A Willshaper who has sworn the Second Ideal can take squires.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will seek freedom for those in bondage.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }],
+              "spokenBy": [
+                {
+                  "characterId": "venli",
+                  "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Willshapers use the Surges of Transportation and Cohesion.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
         },
         {
           "text": "Like most Radiants, Willshapers have squires.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Transportation",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "33" },
+                    { "book": "wind-and-truth", "chapter": "89" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Transportation moves a Willshaper between the realms through a small perpendicularity called an Elsegate. It is very hard to master, and entering Shadesmar this way is much easier than leaving it.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "33" },
+                    { "book": "wind-and-truth", "chapter": "89" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Willshapers can also look into Shadesmar without fully crossing over.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "33" },
+                    { "book": "wind-and-truth", "chapter": "89" }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "text": "Willshapers who are also Regals are highly resistant to fabrials that stop Radiants from Surgebinding.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+          "title": [
+            {
+              "text": "Cohesion",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "67" },
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "67" },
+                    { "book": "wind-and-truth", "chapter": "55" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Cohesion lets a Willshaper make stone malleable, like clay or even liquid, and reshape it at will. It also connects them deeply to the spren of the stone.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+            },
+            {
+              "text": "Through Cohesion, Willshapers can communicate with the stones.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "67" },
+                    { "book": "wind-and-truth", "chapter": "55" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Regals",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "109" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "120" },
+                    { "book": "rhythm-of-war", "chapter": "109" },
+                    { "book": "wind-and-truth", "chapter": "146" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "When a Willshaper is a Regal, their Reacher keeps the voidspren in their gemheart trapped and shields them from it, so they keep their form's abilities and can switch between red and normal eyes to blend in with Odium's forces.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+            },
+            {
+              "text": "Willshapers who are also Regals are highly resistant to fabrials that stop Radiants from Surgebinding.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+            },
+            {
+              "text": "A Regal Willshaper can fuel Surgebinding with Stormlight or Voidlight.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+            },
+            {
+              "text": "A Regal Willshaper can also use Warlight.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "120" },
+                    { "book": "rhythm-of-war", "chapter": "109" },
+                    { "book": "wind-and-truth", "chapter": "146" }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Willshapers",
   "facts": [
     {
       "label": "Surges",

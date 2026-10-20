@@ -18,15 +18,11 @@
   ],
   "description": [
     {
-      "text": "Lightweavers use the Surges of Illumination and Transformation.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-    },
-    {
-      "text": "Beyond the First Ideal, their Ideals are truths they speak about themselves.",
+      "text": "Lightweavers grow by speaking truths about themselves.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
     },
     {
-      "text": "The order attracts people interested in art, intrigue, secrets and espionage.",
+      "text": "The order tends to draw people who pursue the arts.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
     }
   ],
@@ -34,7 +30,7 @@
     {
       "title": [
         {
-          "text": "The ancient Radiants",
+          "text": "The Ancient Radiants",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
         }
       ],
@@ -52,7 +48,7 @@
     {
       "title": [
         {
-          "text": "The refounded order",
+          "text": "The Refounded Lightweavers",
           "revealedIn": [
             { "book": "oathbringer", "chapter": "2" },
             { "book": "oathbringer", "chapter": "77" },
@@ -88,56 +84,326 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "prologue" },
-                { "book": "rhythm-of-war", "chapter": "39" }
-              ]
-            },
-            { "book": "words-of-radiance", "chapter": "49" },
-            { "book": "way-of-kings", "chapter": "7" },
-            { "book": "oathbringer", "chapter": "77" }
-          ]
-        }
-      ],
+      "title": "Ideals of the Lightweavers",
       "items": [
         {
-          "text": "Illumination crafts illusions by weaving light and sound.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+          "text": "The Ideals of the Knights Radiant, also called the Immortal Words, are rules the Radiants live by. The First Ideal is shared by every order; each order then has four more of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
         },
         {
-          "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences. To Soulcast, a Lightweaver looks into the Cognitive Realm and speaks with the object's Cognitive aspect.",
-          "revealedIn": [
+          "text": "An old account says the warrior Malchin was unsuited to the Lightweavers: he wanted simple oaths, but their spren defined them loosely, and the path meant speaking truths toward a self-awareness he could never reach.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "prologue" },
-                { "book": "rhythm-of-war", "chapter": "39" }
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Lightweavers share the First Ideal with every other order; it serves as the motto of the Knights Radiant.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": [
+                {
+                  "characterId": "shallan-davar",
+                  "revealedIn": [
+                    {
+                      "all": [
+                        { "book": "words-of-radiance", "chapter": "89" },
+                        { "book": "oathbringer", "chapter": "2" }
+                      ]
+                    }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "text": "Before the Recreance, Lightweavers were known for mnemonic abilities described as \"strange and varied\".",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+          "title": [
+            {
+              "text": "The Oaths of the Lightweavers",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "17" },
+                { "book": "wind-and-truth", "chapter": "13" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Beyond the First Ideal, a Lightweaver's Ideals are truths they speak about themselves.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+            },
+            {
+              "text": "At the fourth truth, a Lightweaver gains Shardplate, formed of creationspren.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+            }
+          ]
         },
         {
-          "text": "Shallan can fix a scene in her memory, a Memory, and then draw it with remarkable accuracy.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+          "title": [
+            {
+              "text": "Truths Spoken",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "70" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [],
+          "words": [
+            {
+              "text": "I'm a murderer. I killed my father.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "70" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                }
+              ],
+              "spokenBy": [
+                {
+                  "characterId": "shallan-davar",
+                  "revealedIn": [
+                    {
+                      "all": [
+                        { "book": "way-of-kings", "chapter": "70" },
+                        { "book": "oathbringer", "chapter": "2" }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Lightweavers use the Surges of Illumination and Transformation.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "The Lightweavers, like the Willshapers, had an affinity for the realm of spren, though neither order truly mastered it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
         },
         {
           "text": "Like most Radiants, Lightweavers have squires.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "They have an uncommon affinity with the beads of Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "9" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Illumination",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "98" },
+                { "book": "rhythm-of-war", "chapter": "26" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "2" },
+                    { "book": "wind-and-truth", "chapter": "49" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "2" },
+                    { "book": "wind-and-truth", "chapter": "11" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Illumination crafts illusions by weaving light and sound.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "Lightweavers use it to disguise themselves, to hide behind or inside illusory walls and rocks, and to confuse or distract. A Lightweaving needs a focus, such as a drawing.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+            },
+            {
+              "text": "Lightweavers use Illumination somewhat differently from Truthwatchers.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+            },
+            {
+              "text": "Skilled Lightweavers can work without a focus, as Shallan does when she weaves a disguise without sketching it first.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "2" },
+                    { "book": "wind-and-truth", "chapter": "49" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "By combining Illumination with Soulcasting, a Lightweaver can make a solid illusion, an ability once forbidden to humans. Shallan is the first known to do it in modern times.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "2" },
+                    { "book": "wind-and-truth", "chapter": "11" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Transformation",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "26" },
+                { "book": "rhythm-of-war", "chapter": "39" },
+                { "book": "wind-and-truth", "chapter": "29" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "Lightweavers see Soulcasting differently from Elsecallers.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+            },
+            {
+              "text": "To Soulcast, a Lightweaver shifts their perception into the Cognitive Realm and speaks with the object's Cognitive aspect.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+            },
+            {
+              "text": "A Lightweaver bonded to two Cryptics can use Transformation to enter the Cognitive Realm, but can't bring others along or return alone.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Enlightened",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "A Lightweaver whose Cryptic has been Enlightened by Sja-anat can still use Illumination to make illusions.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Mnemonic abilities",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "49" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "7" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Before the Recreance, Lightweavers were known for mnemonic abilities described as \"strange and varied\".",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+            },
+            {
+              "text": "Shallan can fix a scene in her memory, a Memory, and then draw it with remarkable accuracy.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "7" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Nahel Bond Abilities",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "With a strong enough bond, a Lightweaver and their Cryptic can speak mind to mind, and a Lightweaver who concentrates can sense their Cryptic's emotions and location.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shardplate Abilities",
+              "revealedIn": [
+                { "book": "wind-and-truth", "chapter": "13" },
+                { "book": "wind-and-truth", "chapter": "28" },
+                { "book": "wind-and-truth", "chapter": "31" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "A Lightweaver's Shardplate is made of creationspren, which reshape it to match the Lightweaver's mental image.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+            },
+            {
+              "text": "The Plate can be made sleeker, and its helmet can amplify the wearer's voice. The creationspren can also form around someone the Lightweaver touches, holding them immobile, which can trap an enemy.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "28" }]
+            },
+            {
+              "text": "Once they become armor, creationspren show some personality and send feelings and impressions to their Lightweaver. They change shape freely, often looking like Shadesmar's beads, and can serve as a model for commanding other beads into a shape.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+            }
+          ]
         }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Lightweavers",
   "facts": [
     {
       "label": "Surges",

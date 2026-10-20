@@ -9,7 +9,7 @@
       "revealedIn": [
         {
           "all": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "i-9" },
             { "book": "oathbringer", "chapter": "107" }
           ]
         }
@@ -18,19 +18,8 @@
   ],
   "description": [
     {
-      "text": "Dustbringers use the Surges of Division and Abrasion.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-    },
-    {
-      "text": "People often misjudged Dustbringers because of their destructive powers, and even some other Radiants felt they were \"on the edge of evil\".",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "36" },
-            { "book": "oathbringer", "chapter": "24" }
-          ]
-        }
-      ]
+      "text": "Dustbringers use the Surges of Division and Abrasion, and form Nahel bonds with ashspren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
     }
   ],
   "history": [
@@ -39,6 +28,8 @@
         {
           "text": "The ancient Radiants",
           "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "prelude" },
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "prelude" },
@@ -50,15 +41,16 @@
       ],
       "items": [
         {
-          "text": "During the final battle of the Last Desolation, the Dustbringers' powers left burnt plants and corpses and smouldering rock.",
-          "revealedIn": [
-            {
-              "all": [
-                { "book": "way-of-kings", "chapter": "prelude" },
-                { "book": "words-of-radiance", "chapter": "4" }
-              ]
-            }
-          ]
+          "text": "Many Dustbringers objected to their order's name for sounding like \"Voidbringers\" and asked to be called Releasers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+        },
+        {
+          "text": "They claimed to be misjudged because of the dreadful nature of their power.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+        },
+        {
+          "text": "During the final battle of the Last Desolation, the Dustbringers' powers left burning corpses and growth and smouldering rock.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
         },
         {
           "text": "In one of Dalinar's visions, a Dustbringer and her squires hunt a spren corrupted by Sja-anat, then fight a thunderclast.",
@@ -87,7 +79,6 @@
             },
             {
               "all": [
-                { "book": "oathbringer", "chapter": "107" },
                 { "book": "dawnshard", "chapter": "3" },
                 { "book": "rhythm-of-war", "chapter": "17" }
               ]
@@ -112,11 +103,10 @@
           ]
         },
         {
-          "text": "By 1174, at least a few other ashspren have bonded people, and Dalinar's coalition begins to suspect that not all Dustbringers are loyal to their cause.",
+          "text": "By 1174 there are other Dustbringers. Lopen asks the new Dustbringer Ral-na not to talk with them, for political reasons, and Jasnah suspects the order of rebellion.",
           "revealedIn": [
             {
               "all": [
-                { "book": "oathbringer", "chapter": "107" },
                 { "book": "dawnshard", "chapter": "3" },
                 { "book": "rhythm-of-war", "chapter": "17" }
               ]
@@ -126,34 +116,119 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "i-9" },
-            { "book": "oathbringer", "chapter": "107" },
-            { "book": "words-of-radiance", "chapter": "4" }
-          ]
-        }
-      ],
+      "title": "Ideals of the Dustbringers",
       "items": [
         {
-          "text": "Abrasion lets them change the friction between surfaces, moving with ease or making objects slippery to anyone but themselves. In a vision, one Dustbringer glides across the water of the Purelake.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
-        },
+          "text": "The Ideals, also called the Immortal Words, are the rules Radiants live by. The First Ideal is shared by every order and serves as the motto of the Knights Radiant; the other four are each order's own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ],
+      "parts": [
         {
-          "text": "Division lets them make things burn, degrade or turn to dust, and it also works on living flesh.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Dustbringers share the First Ideal with every other order. It is broadly read as valuing life, strength and service, and the way a goal is reached.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Dustbringers use the Surges of Division and Abrasion.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
         },
         {
           "text": "Like most Radiants, Dustbringers have squires; one in Dalinar's visions has about a dozen.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+        },
+        {
+          "text": "Many Dustbringer tactics rely on intimidation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Division",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Division lets them make things burn, degrade or turn to dust, with fine control: Malata engraves a table with it. It also works on living flesh.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Abrasion",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-9" },
+                    { "book": "wind-and-truth", "chapter": "90" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Abrasion changes the friction between two surfaces. In one of Dalinar's visions, a Dustbringer glides across the water of the Purelake.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+            },
+            {
+              "text": "They can lower the friction between their bodies and other surfaces to move with ease, or make objects slippery to anyone but themselves.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+            },
+            {
+              "text": "Abrasion can also raise the friction between two objects.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-9" },
+                    { "book": "wind-and-truth", "chapter": "90" }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
+  "peopleTitle": "Dustbringers",
   "facts": [
     {
       "label": "Spren",

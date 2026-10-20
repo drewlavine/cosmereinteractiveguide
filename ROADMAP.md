@@ -679,6 +679,19 @@ Personal arcs and battles belong on character and journey pages.
           another page's lines, e.g. a metal's; later row versions replace
           earlier ones as more is revealed), cross-referenced section by
           section against the Coppermind. Done for Metallic Arts, Allomancy,
+    - [x] Radiant order pages follow their Coppermind page's layout:
+          Philosophy, **Ideals of the <Order>** (a subsection per Ideal,
+          its words in a quote box dated to where the reader first reads
+          them, "as spoken by" each speaker from the chapter they say
+          them), Abilities (a subsection per Surge, Resonance...), History,
+          then the order's members by Ideal. Pages can now carry such
+          `sections` and rename About and Users (`aboutTitle`,
+          `peopleTitle`)
+    - [x] Members from character pages: anyone whose dated group or title
+          facts link to an entry (Bridge Four, Highprince, Herald, the
+          orders...) is listed on it once the reader sees they belong,
+          even on entries with no written page
+          (`~/cig-char-data/members.py`, run by `emit.py`)
           Feruchemy, Hemalurgy and Compounding
     - [x] Ars Arcanum facts show from a book's first chapter (the appendix
           spoils nothing); the entry pipeline dates its citations that way

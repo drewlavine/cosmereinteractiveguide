@@ -23,7 +23,7 @@
     {
       "title": [
         {
-          "text": "The ancient Radiants",
+          "text": "The Ancient Radiants",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "53" },
             {
@@ -75,48 +75,128 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            {
-              "all": [
-                { "book": "way-of-kings", "chapter": "33" },
-                { "book": "words-of-radiance", "chapter": "prologue" },
-                { "book": "rhythm-of-war", "chapter": "39" }
-              ]
-            },
-            { "book": "oathbringer", "chapter": "33" }
-          ]
-        }
-      ],
+      "title": "Ideals of the Elsecallers",
       "items": [
         {
-          "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences.",
+          "text": "The Ideals of the Knights Radiant, also called the Immortal Words, are rules the Radiants live by. The First Ideal is shared by every order; each order then has four more of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Elsecallers share the First Ideal with every other order; it serves as the motto of the Knights Radiant.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Elsecallers use the Surges of Transformation and Transportation.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
         },
         {
-          "text": "To Soulcast, an Elsecaller shifts their perception into the Cognitive Realm and speaks with the Cognitive aspect of the object they want to change. Elsecallers view Soulcasting differently from Lightweavers.",
-          "revealedIn": [
+          "text": "Among the orders that visited the realm of spren, the Elsecallers were generous, bringing others along on their visits.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "They have an uncommon affinity with the beads of Shadesmar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
             {
-              "all": [
-                { "book": "way-of-kings", "chapter": "33" },
+              "text": "Transformation",
+              "revealedIn": [
                 { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "way-of-kings", "chapter": "33" },
                 { "book": "rhythm-of-war", "chapter": "39" }
               ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "Soulcasting can turn one material into another, though turning it into one of the Ten Essences is easiest.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+            },
+            {
+              "text": "To Soulcast, an Elsecaller shifts their perception into the Cognitive Realm and speaks with the object's Cognitive aspect. Elsecallers see Soulcasting differently from Lightweavers.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
             }
           ]
         },
         {
-          "text": "Elsecalling, a use of Transportation, lets them travel bodily into Shadesmar, though getting back out is harder.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+          "title": [
+            {
+              "text": "Transportation",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "33" },
+                { "book": "wind-and-truth", "chapter": "53" },
+                { "book": "wind-and-truth", "chapter": "50" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Elsecalling, a use of Transportation, lets them travel bodily into Shadesmar, though getting back out is much harder.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+            },
+            {
+              "text": "It works by opening a small perpendicularity, an Elsegate, for the Elsecaller to pass through. The Surge is very hard to master.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+            },
+            {
+              "text": "An Elsecaller can also pass through the Spiritual Realm, moving themselves or others seemingly faster than light.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Enlightened",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "An Elsecaller whose inkspren has been Enlightened by Sja-anat can still use Transportation as usual.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+            }
+          ]
         }
       ]
     }
   ],
+  "peopleTitle": "Elsecallers",
   "facts": [
     {
       "label": "Surges",

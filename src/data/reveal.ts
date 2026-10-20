@@ -968,6 +968,17 @@ export interface ShownEntry extends ShownLocationStory {
   }[]
   /** The page's levels that have someone in them, highest first. */
   levels: string[]
+  /** Sections in the Coppermind's order, each part like history's. */
+  sections: {
+    title: string
+    items: string[]
+    parts: (ShownLocationStory['history'][number] & {
+      /** Quoted words, each with who the reader has seen say them. */
+      words: { text: string; books: BookSource[]; spokenBy: string[] }[]
+    })[]
+  }[]
+  aboutTitle?: string
+  peopleTitle?: string
   /** "How it works", shaped like history. */
   mechanics: ShownLocationStory['history']
   /** Tables with at least one row the reader may see. */
@@ -993,6 +1004,7 @@ export function revealEntry(
   canSee: CanSee,
   placeShown: (placeId: string) => boolean,
   viewAnyway = false,
+  members: readonly { characterId: string; revealedIn: Reveal }[] = [],
 ): ShownEntry {
   const prose = revealLocationStory(story, canSee, viewAnyway)
   const shown: ShownEntry = {
@@ -1000,10 +1012,70 @@ export function revealEntry(
     facts: [],
     people: [],
     levels: [],
+    sections: [],
     mechanics: [],
     tables: [],
+    aboutTitle: story?.aboutTitle,
+    peopleTitle: story?.peopleTitle,
   }
-  if (!story) return shown
+  const show = (ok: boolean) => {
+    if (ok) return true
+    shown.spoilers = true
+    return viewAnyway
+  }
+  // Seen to belong, from their own page's dated group or title facts.
+  const seen = (p: { characterId: string; revealedIn: Reveal }) => {
+    const trim = view(p.characterId, canSee)?.trim ?? ((r: Reveal) => r)
+    const reveal = trim(p.revealedIn)
+    return reveal.length > 0 && canSee(reveal) && hasMet(p.characterId, canSee)
+  }
+  const addMembers = () => {
+    for (const m of members) {
+      if (shown.people.some((p) => p.characterId === m.characterId)) continue
+      if (show(seen(m)))
+        shown.people.push({ characterId: m.characterId, roles: [] })
+    }
+  }
+  if (!story) {
+    addMembers()
+    return shown
+  }
+  for (const section of story.sections ?? []) {
+    const lead = revealLocationStory(
+      { intro: [], description: section.items, history: [] },
+      canSee,
+      viewAnyway,
+    )
+    shown.spoilers ||= lead.spoilers
+    const parts: ShownEntry['sections'][number]['parts'] = []
+    for (const part of section.parts) {
+      const words = part.words
+        ?.filter((w) => show(canSee(w.revealedIn)))
+        .map((w) => ({
+          text: w.text,
+          books: pointSources(w.revealedIn),
+          spokenBy: w.spokenBy
+            .filter((p) => show(seen(p)))
+            .map((p) => p.characterId),
+        }))
+      const body = revealLocationStory(
+        { intro: [], description: [], history: [part] },
+        canSee,
+        viewAnyway,
+      )
+      shown.spoilers ||= body.spoilers
+      const title = part.title.filter((t) => show(canSee(t.revealedIn))).at(-1)
+      const items = body.history[0]?.items ?? []
+      if (items.length > 0 || words?.length)
+        parts.push({ title: title?.text, items, words: words ?? [] })
+    }
+    if (lead.description.length > 0 || parts.length > 0)
+      shown.sections.push({
+        title: section.title,
+        items: lead.description,
+        parts,
+      })
+  }
   if (story.mechanics) {
     const how = revealLocationStory(
       { intro: [], description: [], history: story.mechanics },
@@ -1012,11 +1084,6 @@ export function revealEntry(
     )
     shown.mechanics = how.history
     shown.spoilers ||= how.spoilers
-  }
-  const show = (ok: boolean) => {
-    if (ok) return true
-    shown.spoilers = true
-    return viewAnyway
   }
   for (const f of story.facts) {
     const ok =
@@ -1035,11 +1102,7 @@ export function revealEntry(
   }
   const rank = (level?: string) => story.levels?.indexOf(level ?? '') ?? -1
   for (const p of story.people) {
-    const trim = view(p.characterId, canSee)?.trim ?? ((r: Reveal) => r)
-    const reveal = trim(p.revealedIn)
-    const ok =
-      reveal.length > 0 && canSee(reveal) && hasMet(p.characterId, canSee)
-    if (!show(ok)) continue
+    if (!show(seen(p))) continue
     const person = shown.people.find((x) => x.characterId === p.characterId)
     if (person) {
       if (!person.roles.includes(p.role)) person.roles.push(p.role)
@@ -1080,6 +1143,7 @@ export function revealEntry(
         })),
       })
   }
+  addMembers()
   shown.levels = (story.levels ?? [])
     .filter((l) => shown.people.some((p) => p.level === l))
     .reverse()

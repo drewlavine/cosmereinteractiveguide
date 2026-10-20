@@ -194,3 +194,121 @@ describe('entryBooks', () => {
     ).toEqual(['final-empire', 'well-of-ascension'])
   })
 })
+
+describe('revealEntry sections', () => {
+  const ideals: EntryStory = {
+    ...story,
+    aboutTitle: 'Philosophy',
+    peopleTitle: 'Windrunners',
+    sections: [
+      {
+        title: 'Ideals',
+        items: [{ text: 'lead', revealedIn: at(4) }],
+        parts: [
+          {
+            title: [
+              { text: 'The Second Ideal', revealedIn: [...at(6), ...at(12)] },
+            ],
+            items: [{ text: 'meaning', revealedIn: at(12) }],
+            words: [
+              {
+                text: 'early words',
+                revealedIn: at(6),
+                spokenBy: [
+                  { characterId: 'kelsier', revealedIn: at(6) },
+                  { characterId: 'vin', revealedIn: at(15) },
+                ],
+              },
+              { text: 'late words', revealedIn: at(20), spokenBy: [] },
+            ],
+          },
+          {
+            title: [{ text: 'The Third Ideal', revealedIn: at(25) }],
+            items: [{ text: 'third', revealedIn: at(25) }],
+          },
+        ],
+      },
+    ],
+  }
+  const read = (i: number) =>
+    revealEntry(ideals, reader([], { 'final-empire': tfe[i] }), () => true)
+
+  it('shows each quote and speaker from their own chapter', () => {
+    const s = read(10)
+    expect(s.aboutTitle).toBe('Philosophy')
+    expect(s.peopleTitle).toBe('Windrunners')
+    expect(s.sections).toHaveLength(1)
+    expect(s.sections[0].items).toEqual(['lead'])
+    const [part] = s.sections[0].parts
+    expect(part.title).toBe('The Second Ideal')
+    expect(part.items).toEqual([])
+    expect(part.words.map((w) => [w.text, w.spokenBy])).toEqual([
+      ['early words', ['kelsier']],
+    ])
+    expect(s.sections[0].parts).toHaveLength(1)
+    expect(s.spoilers).toBe(true)
+
+    const later = read(22).sections[0].parts[0]
+    expect(later.items.map((i) => i.text)).toEqual(['meaning'])
+    expect(later.words.map((w) => [w.text, w.spokenBy])).toEqual([
+      ['early words', ['kelsier', 'vin']],
+      ['late words', []],
+    ])
+  })
+
+  it('hides a section until something in it is reached', () => {
+    expect(read(3).sections).toEqual([])
+  })
+})
+
+describe('revealEntry members', () => {
+  const members = [
+    { characterId: 'kelsier', revealedIn: at(30) },
+    { characterId: 'vin', revealedIn: at(8) },
+    { characterId: laterId, revealedIn: at(8) },
+  ]
+
+  it('adds members once their own page shows they belong', () => {
+    const early = revealEntry(
+      story,
+      reader([], { 'final-empire': tfe[6] }),
+      () => true,
+      false,
+      members,
+    )
+    expect(early.people.map((p) => p.characterId)).toEqual(['kelsier'])
+
+    const s = revealEntry(
+      story,
+      reader(['final-empire']),
+      () => true,
+      false,
+      members,
+    )
+    // Kelsier keeps his written roles; Vin joins with none; unmet stay hidden.
+    expect(s.people).toEqual([
+      { characterId: 'kelsier', roles: ['member', 'leader'] },
+      { characterId: 'vin', roles: [] },
+    ])
+  })
+
+  it('lists members on an entry without a written page', () => {
+    const s = revealEntry(
+      undefined,
+      reader(['final-empire']),
+      () => true,
+      false,
+      members,
+    )
+    expect(s.people.map((p) => p.characterId)).toEqual(['kelsier', 'vin'])
+    const before = revealEntry(
+      undefined,
+      reader([], { 'final-empire': tfe[6] }),
+      () => true,
+      false,
+      members,
+    )
+    expect(before.people).toEqual([])
+    expect(before.spoilers).toBe(true)
+  })
+})

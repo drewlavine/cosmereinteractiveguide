@@ -19,6 +19,20 @@
     {
       "title": [
         {
+          "text": "The Ancient Radiants",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "An old account calls the Truthwatchers esoteric: none of them spoke or wrote of what they did, and their silence came from tact rather than disdain.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
           "text": "The True Desolation",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "89" },
@@ -48,26 +62,221 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
+      "title": "Ideals of the Truthwatchers",
+      "items": [
         {
-          "text": "Powers",
+          "text": "The Ideals of the Knights Radiant, also called the Immortal Words, are rules the Radiants live by. The First Ideal is shared by every order; each order then has four more of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Truthwatchers share the First Ideal with every other order; it serves as the motto of the Knights Radiant.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Truthwatchers use the Surges of Progression and Illumination.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
         }
       ],
-      "items": [
+      "parts": [
         {
-          "text": "Progression heals damage to a person's body and soul instantly, without scarring.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+          "title": [
+            {
+              "text": "Progression",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "prologue" },
+                    { "book": "wind-and-truth", "chapter": "50" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Progression, the Surge of growth and healing, alters how living things grow and heal.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "It heals harm to a person's body and soul at once and without scars, though harder healings take skill.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "prologue" },
+                    { "book": "wind-and-truth", "chapter": "50" }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "text": "Illumination can disguise a Truthwatcher, hide them in illusory walls and rocks, or confuse and distract.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+          "title": [
+            {
+              "text": "Illumination",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "6" },
+                { "book": "wind-and-truth", "chapter": "141" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Illumination crafts illusions by weaving light and sound.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "Truthwatchers use it for disguises, for illusory walls and rocks to hide in, and to confuse or distract.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+            },
+            {
+              "text": "The Truthwatcher Honorbearer summons a globe of light that brings shadows to life, speaking with the voices of the people Szeth has killed.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Corrupted spren",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "116" },
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "6" },
+                { "book": "wind-and-truth", "chapter": "84" }
+              ]
+            },
+            {
+              "text": "Enlightened",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Renarin's spren, Glys, is corrupted, yet bonded to a human.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+            },
+            {
+              "text": "With a corrupted spren, Progression still works as usual: Renarin heals Adolin with Stormlight. By drawing in a great deal of Stormlight, he also makes a wounded thunderclast's spirit flee its body.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+            },
+            {
+              "text": "Instead of illusions, Renarin can only summon lights, which sometimes act strangely.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+            },
+            {
+              "text": "Inside the Spiritual Realm, Enlightened Truthwatchers can exert some control over it. They can also hear Odium's rhythms.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Future sight",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "54" },
+                { "book": "rhythm-of-war", "chapter": "i-6" },
+                { "book": "wind-and-truth", "chapter": "30" },
+                { "book": "wind-and-truth", "chapter": "84" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Renarin sees visions of possible futures, shown in stained glass. They are not always accurate: a vision about Jasnah does not come true.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+            },
+            {
+              "text": "The visions don't come from Odium, though Odium may influence what they show.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+            },
+            {
+              "text": "Odium cannot see the future of Renarin and those close to him: it shows as a blacked-out place.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }]
+            },
+            {
+              "text": "Rlain can enter one of Renarin's visions with him. The visions come when the rhythms of Roshar swell.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "30" }]
+            },
+            {
+              "text": "Ba-Ado-Mishram can affect the visions in small ways.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "84" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Sphere light",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "8" },
+                { "book": "wind-and-truth", "chapter": "62" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Renarin can summon a light that shows an illusion of a person's other self.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+            },
+            {
+              "text": "The light can show a person an alternate version of themselves, and it responds better when given a Command.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Nahel bond abilities",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "With a strong enough bond, an Enlightened Truthwatcher and their mistspren can feel each other's emotions.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+            }
+          ]
         }
       ]
     }
   ],
+  "peopleTitle": "Truthwatchers",
   "facts": [
     {
       "label": "Surges",

@@ -31,11 +31,7 @@
   ],
   "description": [
     {
-      "text": "Their Resonance is the strength of their squires: Windrunners can have many more squires than other orders, and the squires can Lash and heal themselves while their Windrunner is near.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
-    },
-    {
-      "text": "Those who join the order are drawn to protecting others, especially innocents and those unable to defend themselves.",
+      "text": "Those who join the Windrunners are drawn to protecting others, above all innocents and people who cannot defend themselves.",
       "revealedIn": [
         {
           "all": [
@@ -46,27 +42,18 @@
       ]
     },
     {
-      "text": "The order values command, teamwork and a strong squad.",
+      "text": "The order believes in a clear command structure, teamwork and the strength of a good squad.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
-    },
-    {
-      "text": "Windrunners use the Surges of Adhesion and Gravitation, which together give the three Lashings: flying, sticking things together, and pulling things towards an object.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            { "book": "rhythm-of-war", "chapter": "49" }
-          ]
-        }
-      ]
     }
   ],
   "history": [
     {
       "title": [
         {
-          "text": "The ancient Windrunners",
+          "text": "The Ancient Radiants",
           "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "54" },
+            { "book": "way-of-kings", "chapter": "52" },
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "52" },
@@ -78,18 +65,15 @@
       ],
       "items": [
         {
-          "text": "Around the time of the Recreance, the order had over a hundred members and many squires, and sometimes clashed with the Skybreakers over how to interpret the law.",
-          "revealedIn": [
-            {
-              "all": [
-                { "book": "way-of-kings", "chapter": "52" },
-                { "book": "words-of-radiance", "chapter": "54" }
-              ]
-            }
-          ]
+          "text": "The ancient Windrunners focused more than any other order on mastering their weapons, and had more squires than any other order.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
         },
         {
-          "text": "At the start of the Recreance, many Windrunners and Stonewards abandoned their Shardblades and Shardplate before Feverstone Keep, a scene Dalinar sees in a vision.",
+          "text": "In one of Dalinar's visions, Windrunners and Stonewards rode to a battlefield, drove their Shardblades into the ground, dropped their Shardplate and walked away.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Around the time of the Recreance the order had over a hundred members and many squires, and clashed with the Skybreakers over how to read the law. The abandonment Dalinar saw happened before Feverstone Keep, at the start of the Recreance.",
           "revealedIn": [
             {
               "all": [
@@ -104,7 +88,7 @@
     {
       "title": [
         {
-          "text": "The refounded order",
+          "text": "The Refounded Windrunners",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "86" },
             {
@@ -127,11 +111,11 @@
       ],
       "items": [
         {
-          "text": "Kaladin, who spoke the Second Ideal during the Battle of the Tower, is the first Windrunner since the Recreance.",
+          "text": "Kaladin, who spoke the Second Ideal during the Battle of the Tower, was the first Windrunner since the Recreance.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
         },
         {
-          "text": "After Kaladin swears the Third Ideal, the rest of his bridgemen become his squires, and many of them form Nahel bonds of their own.",
+          "text": "After Kaladin swore the Third Ideal, the rest of his bridgemen became his squires, and many of them formed Nahel bonds of their own.",
           "revealedIn": [
             {
               "all": [
@@ -143,7 +127,7 @@
           ]
         },
         {
-          "text": "Thanks to their bridge-crew past and Kaladin's training, the new order is well organized and military, with ranks for squires. About a year after the Battle of Thaylen Field it has roughly three hundred members, about fifty of them full Windrunners.",
+          "text": "Thanks to their bridge-crew past and Kaladin's training, the new order was well organized and military, with ranks for squires. About a year after the Battle of Thaylen Field it had roughly three hundred members, about fifty of them full Windrunners.",
           "revealedIn": [
             {
               "all": [
@@ -155,62 +139,254 @@
           ]
         },
         {
-          "text": "Thaylen sailors consider a Windrunner on board a good omen.",
+          "text": "Thaylen sailors considered a Windrunner on board a good omen.",
           "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
         }
       ]
-    }
-  ],
-  "mechanics": [
+    },
     {
       "title": [
         {
-          "text": "The Ideals",
+          "text": "Reforging of the Oathpact",
           "revealedIn": [
-            { "book": "way-of-kings", "chapter": "59" },
-            {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "84" },
-                { "book": "oathbringer", "chapter": "2" }
-              ]
-            },
-            { "book": "rhythm-of-war", "chapter": "12" },
-            {
-              "all": [
-                { "book": "oathbringer", "chapter": "86" },
-                { "book": "rhythm-of-war", "chapter": "110" }
-              ]
-            }
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "145" }
           ]
+        },
+        {
+          "text": "Reforging of the Oathpact and Night of Sorrows",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
         }
       ],
       "items": [
         {
-          "text": "All orders share the First Ideal; each then has four Ideals of its own.",
+          "text": "When the Oathpact was reforged, Kaladin replaced Jezrien as the Herald of Kings and patron of the Windrunners.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "The Night of Sorrows, at the same time, drew away all the Stormlight on Roshar and left it out of reach.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        }
+      ]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Ideals of the Windrunners",
+      "items": [
+        {
+          "text": "The Ideals, also called the Immortal Words, are the rules Radiants live by. Every order shares the First Ideal, which serves as the motto of the Knights Radiant as a whole; each order then has four Ideals of its own.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
         },
         {
-          "text": "A Windrunner must speak the Third Ideal before their honorspren can become a Shardblade; afterwards they can take on squires.",
-          "revealedIn": [
+          "text": "A Windrunner's Ideals are usually accepted by the Stormfather.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "The Stormfather's Bondsmith can also accept them: Dalinar voiced the acceptance of Kaladin's Fourth Ideal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "The Wind itself can accept them too, as it accepted Kaladin's Fifth Ideal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "84" },
-                { "book": "oathbringer", "chapter": "2" }
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Windrunners share the First Ideal with every other order. It is broadly read as valuing life, strength and service, and the way a goal is reached as much as the goal itself.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": [
+                {
+                  "characterId": "teft",
+                  "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+                },
+                {
+                  "characterId": "kaladin",
+                  "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+                }
               ]
             }
           ]
         },
         {
-          "text": "The modern Windrunners treat those who have sworn the Second Ideal as more than squires but not yet full Windrunners.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+          "title": [
+            {
+              "text": "The Second Ideal",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "12" },
+                { "book": "way-of-kings", "chapter": "67" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The modern Windrunners treat those who have sworn the Second Ideal as more than squires, but not yet full Windrunners.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will protect those who cannot protect themselves.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }],
+              "spokenBy": [
+                {
+                  "characterId": "kaladin",
+                  "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+                },
+                {
+                  "characterId": "lopen",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+                }
+              ]
+            }
+          ]
         },
         {
-          "text": "The Fourth Ideal asks a Windrunner to accept that they cannot save everyone while still fighting to protect them. With it they gain Shardplate formed of windspren.",
-          "revealedIn": [
+          "title": [
             {
-              "all": [
-                { "book": "oathbringer", "chapter": "86" },
-                { "book": "rhythm-of-war", "chapter": "110" }
+              "text": "The Third Ideal",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "84" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                },
+                { "book": "oathbringer", "chapter": "119" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "dawnshard", "chapter": "epilogue" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "A Windrunner must speak the Third Ideal before their honorspren can become a Shardblade. With it they can also take on squires.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "84" },
+                    { "book": "oathbringer", "chapter": "2" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "The exact words of the Third Ideal can differ from one Windrunner to the next.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will protect even those I hate, so long as it is right.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }],
+              "spokenBy": [
+                {
+                  "characterId": "kaladin",
+                  "revealedIn": [
+                    { "book": "words-of-radiance", "chapter": "84" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "I will protect those I hate. Even...even if the one I hate most is... myself.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "119" }],
+              "spokenBy": [
+                {
+                  "characterId": "teft",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+                }
+              ]
+            },
+            {
+              "text": "I've got to protect people, you know? Even from myself.",
+              "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }],
+              "spokenBy": [
+                {
+                  "characterId": "lopen",
+                  "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Fourth Ideal",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "86" },
+                    { "book": "rhythm-of-war", "chapter": "110" }
+                  ]
+                },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Fourth Ideal asks a Windrunner to forgive themselves for past failures and accept that they cannot save everyone, while still fighting to protect others. With it, they gain Shardplate formed of windspren.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "86" },
+                    { "book": "rhythm-of-war", "chapter": "110" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "words": [
+            {
+              "text": "I accept that there will be those I cannot protect!",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }],
+              "spokenBy": [
+                {
+                  "characterId": "kaladin",
+                  "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Fifth Ideal",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Fifth Ideal is about self-care: to keep protecting others, a Windrunner must first protect themselves.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will protect myself, so that I may continue to protect others.",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }],
+              "spokenBy": [
+                {
+                  "characterId": "kaladin",
+                  "revealedIn": [{ "book": "wind-and-truth", "chapter": "139" }]
+                }
               ]
             }
           ]
@@ -218,63 +394,193 @@
       ]
     },
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            { "book": "rhythm-of-war", "chapter": "prologue" },
-            { "book": "rhythm-of-war", "chapter": "49" },
-            { "book": "way-of-kings", "chapter": "i-9" },
-            {
-              "all": [
-                { "book": "oathbringer", "chapter": "108" },
-                { "book": "rhythm-of-war", "chapter": "55" }
-              ]
-            },
-            { "book": "rhythm-of-war", "chapter": "110" }
-          ]
-        }
-      ],
+      "title": "Abilities",
       "items": [
         {
-          "text": "Adhesion creates an extremely strong temporary bond between two objects, and Gravitation changes the direction and strength of an object's pull.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-        },
-        {
-          "text": "A Basic Lashing binds people or objects to a new surface or direction, changing which way gravity pulls them.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-        },
-        {
-          "text": "A Full Lashing pools Stormlight on an area, sticking anything that touches it until the Stormlight runs out.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
-        },
-        {
-          "text": "A Reverse Lashing, combining both Surges, makes an object pull others towards it, most strongly things in the air; the Windrunner must keep touching the object.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
-        },
-        {
-          "text": "Someone in Shardplate is immune to Lashings, though objects they touch can be affected.",
+          "text": "Someone wearing Shardplate is immune to Lashings, though objects they touch can still be affected.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
         },
         {
-          "text": "With a strong enough bond, a Windrunner and their honorspren can sense each other's emotions and speak mind to mind; honorspren consider the bond an intimate mixing of souls.",
+          "text": "Windrunners use the Surges of Adhesion and Gravitation, which together give the three Lashings.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "A Windrunner can also hold back the wind: Kaladin once made a pocket of calm in a highstorm, a barrier of windspren that diverted the storm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+        },
+        {
+          "text": "Windrunners have flown at 200 miles an hour or more. They can shape wind and air pressure, and can keep a group they are flying together in one channel.",
           "revealedIn": [
             {
               "all": [
-                { "book": "oathbringer", "chapter": "108" },
-                { "book": "rhythm-of-war", "chapter": "55" }
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "60" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Adhesion",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "prologue" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Adhesion creates an extremely strong, temporary bond between two objects.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "A Full Lashing pools Stormlight on an area, so that anything touching it sticks there until the Stormlight runs out.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Gravitation",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Gravitation changes the direction and strength of an object's gravitational pull.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "A Basic Lashing binds people or objects to a new surface or direction, changing which way gravity pulls them.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "A Reverse Lashing, which combines both Surges, makes an object pull others towards it, most strongly things in the air. The Windrunner must keep touching the object.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Resonance",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Windrunners' Resonance is the strength of their squires: they can have many more squires than other orders. A squire can make their own Lashings and heal themselves, but only while their Windrunner is near.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+            },
+            {
+              "text": "Squires use Stormlight well within thirty miles of their Windrunner and fifty miles at most, and lose their powers an hour or two after the Windrunner leaves.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Nahel bond abilities",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "108" },
+                    { "book": "rhythm-of-war", "chapter": "55" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Honorspren consider the bond deeply intimate, a mixing of souls. With a strong enough bond, a Windrunner and their honorspren can sense each other's emotions and speak mind to mind.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "108" },
+                    { "book": "rhythm-of-war", "chapter": "55" }
+                  ]
+                }
               ]
             }
           ]
         },
         {
-          "text": "Windrunner Shardplate is made of windspren and glows a vibrant blue.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+          "title": [
+            {
+              "text": "Shardplate abilities",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "110" },
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "110" },
+                    { "book": "wind-and-truth", "chapter": "109" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "31" },
+                    { "book": "rhythm-of-war", "chapter": "111" },
+                    { "book": "wind-and-truth", "chapter": "109" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Windrunner Shardplate is made of windspren and glows a vibrant blue.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+            },
+            {
+              "text": "The windspren stay close to their Radiant and come when called. They guard the Windrunner without a thought from them, but are not fully present until danger appears or they are summoned.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "rhythm-of-war", "chapter": "110" },
+                    { "book": "wind-and-truth", "chapter": "109" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "The Plate can form fully, as other orders' does, or a single section can appear just before a blow and vanish again, keeping the Radiant agile. The windspren can also be sent to armor other people who need protection.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "31" },
+                    { "book": "rhythm-of-war", "chapter": "111" },
+                    { "book": "wind-and-truth", "chapter": "109" }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Windrunners",
   "facts": [
     {
       "label": "Spren",

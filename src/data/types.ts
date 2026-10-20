@@ -317,7 +317,28 @@ export interface EntryTable {
   }[]
 }
 
+/** A Radiant Ideal's words as a page quotes them, with who is seen saying them. */
+export interface EntryWords extends StoryItem {
+  spokenBy: { characterId: string; revealedIn: Reveal }[]
+}
+
+/**
+ * A top-level section in the Coppermind's order (e.g. "Ideals of the
+ * Windrunners"): a short lead, then parts shaped like history's.
+ */
+export interface EntrySection {
+  title: string
+  items: StoryItem[]
+  parts: (LocationStory['history'][number] & { words?: EntryWords[] })[]
+}
+
 export interface EntryStory extends LocationStory {
+  /** Renames About, e.g. "Philosophy". */
+  aboutTitle?: string
+  /** Renames People/Users, e.g. "Windrunners". */
+  peopleTitle?: string
+  /** Sections after About, before How it works. */
+  sections?: EntrySection[]
   /** "How it works": sections like history's, for magic systems. */
   mechanics?: LocationStory['history']
   tables?: EntryTable[]

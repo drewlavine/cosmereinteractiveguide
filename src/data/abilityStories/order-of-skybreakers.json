@@ -18,11 +18,7 @@
   ],
   "description": [
     {
-      "text": "Skybreakers use the Surges of Gravitation and Division, and bond highspren.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
-    },
-    {
-      "text": "Highspren, and through them the Skybreakers, judge by the letter of the law and by logic, where Windrunners will set the law aside to protect people.",
+      "text": "Highspren, and through them the Skybreakers, judge by the letter of the law and by logic, where Windrunners will set the law aside to do what is right.",
       "revealedIn": [
         {
           "all": [
@@ -42,10 +38,6 @@
           ]
         }
       ]
-    },
-    {
-      "text": "Skybreakers usually wear the uniform of local law enforcement wherever they go.",
-      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
     }
   ],
   "history": [
@@ -76,7 +68,7 @@
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
         },
         {
-          "text": "They worried that other Radiants would put themselves above the law, so they policed them, separating innocent from guilty, a skill even their critics admired.",
+          "text": "They worried that other Radiants would think themselves above the law and become tyrants. Their work meant separating the innocent from the guilty, a skill even their critics admired.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
         },
         {
@@ -131,11 +123,34 @@
           ]
         },
         {
-          "text": "They keep a small fortress in Marabethia overlooking the Purelake, where hopefuls are tested and squires and masters train.",
+          "text": "Nale seems to control which recruits bond spren, and tests them exactingly before they are found worthy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They keep a small fortress in Marabethia overlooking the Purelake, where hopefuls are tested and squires and masters train. Skybreakers usually wear the uniform of local law enforcement wherever they go.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
         },
         {
           "text": "Around 1153, Nale began a crusade to stop the other orders returning, as Ishar had told him it would hasten the Voidbringers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Skybreaker acolyte sent on this mission became involved with Shallan's mother. The two tried to kill Shallan, and she killed them both. Nale came to suspect Helaran instead, and according to Mraize recruited him; Helaran died trying to kill Amaram.",
           "revealedIn": [
             {
               "all": [
@@ -171,7 +186,7 @@
       ],
       "items": [
         {
-          "text": "As the True Desolation begins, Nale recruits Szeth. Nale denies for weeks that his mission has failed, until a confrontation with Lift shows him the truth; meanwhile the order trains as if the Desolation has come.",
+          "text": "As the True Desolation began, Nale recruited Szeth. For weeks he denied that his mission had failed, until a confrontation with Lift showed him the truth.",
           "revealedIn": [
             {
               "all": [
@@ -183,7 +198,7 @@
           ]
         },
         {
-          "text": "Szeth so impresses the highspren in his tests that they let him swear the oaths quickly.",
+          "text": "Meanwhile the order trained as if the Desolation had come: initiates hunted criminals who had escaped a prison on the Purelake, and squires practised Gravitation by pelting each other with bags of coloured powder.",
           "revealedIn": [
             {
               "all": [
@@ -195,7 +210,30 @@
           ]
         },
         {
-          "text": "When Nale returns, he tells his order the truth of the Recreance and gives them a choice. He and most of the order follow Odium and the singers, but Szeth swears to follow Dalinar.",
+          "text": "Szeth so impressed the highspren in his tests that they let him swear the oaths quickly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "98" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Nale returned, he told his order the truth of the Recreance and gave them a choice. He and most of the order chose to follow Odium and the singers, most easily those sworn to follow Nale himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth instead swore to follow Dalinar, who acknowledged him as the Skybreaker when the Radiants assembled.",
           "revealedIn": [
             {
               "all": [
@@ -208,68 +246,266 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
+      "title": "Ideals of the Skybreakers",
+      "items": [
         {
-          "text": "The Ideals",
-          "revealedIn": [
-            { "book": "oathbringer", "chapter": "90" },
-            { "book": "oathbringer", "chapter": "117" },
+          "text": "The Ideals, also called the Immortal Words, are the rules Radiants live by. Every order shares the First Ideal, which serves as the motto of the Knights Radiant as a whole; each order then has four Ideals of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        },
+        {
+          "text": "Skybreakers tell their recruits all five Ideals when they swear the first.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "55" },
-                { "book": "oathbringer", "chapter": "90" }
+              "text": "The First Ideal",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "way-of-kings", "chapter": "59" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Skybreakers call the First Ideal the Ideal of Radiance. Before swearing it, hopefuls travel with the order on a mission and must prove their dedication and solemnity to a full Skybreaker.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            },
+            {
+              "text": "It gives no powers and no Stormlight, but it qualifies them for the tests to become squires. Swearing it pardons their past misdeeds, done properly with the local authorities and paperwork.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": [
+                {
+                  "characterId": "szeth",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Second Ideal",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "oathbringer", "chapter": "92" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Second Ideal, the Ideal of Justice, is an oath to seek and administer justice. It is sworn once a master accepts someone as a squire, and lets the squire breathe in Stormlight and use Gravitation.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I swear to seek justice, to let it guide me, until I find a more perfect Ideal.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "92" }],
+              "spokenBy": [
+                {
+                  "characterId": "szeth",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Third Ideal",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "oathbringer", "chapter": "90" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "90" },
+                    { "book": "wind-and-truth", "chapter": "40" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "117" },
+                    { "book": "wind-and-truth", "chapter": "64" }
+                  ]
+                },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Third Ideal, the Ideal of Dedication, dedicates a Skybreaker to a greater truth: a code or, sometimes, a person. Nale warns that people change easily, but some Skybreakers choose to follow him.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+            },
+            {
+              "text": "Swearing it makes someone a full Skybreaker, and most can't use Division until they have. It is as far as most Skybreakers ever go.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            },
+            {
+              "text": "A squire must bond their highspren before swearing it, and must speak it before the highspren can become a Shardblade.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "90" },
+                    { "book": "wind-and-truth", "chapter": "40" }
+                  ]
+                }
               ]
             },
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "88" },
-                { "book": "oathbringer", "chapter": "90" }
+              "text": "Sometimes a Skybreaker can change whom they follow and still stay true to the oath.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "117" },
+                    { "book": "wind-and-truth", "chapter": "64" }
+                  ]
+                }
               ]
             }
-          ]
-        }
-      ],
-      "items": [
-        {
-          "text": "Recruits are told all five Ideals when they swear the first. Swearing it, the Ideal of Radiance, pardons their past misdeeds, done properly with the local authorities and paperwork.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
-        },
-        {
-          "text": "The Second Ideal, the Ideal of Justice, is sworn once a master accepts someone as a squire. It lets the squire breathe in Stormlight and use Gravitation.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
-        },
-        {
-          "text": "The Third Ideal, the Ideal of Dedication, dedicates a Skybreaker to a code or, sometimes, a person. Nale warns that people change easily, but some choose to follow him.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
-        },
-        {
-          "text": "Most Skybreakers can't use Division until the Third Ideal, which makes them a full Skybreaker and is as far as most ever go.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
-        },
-        {
-          "text": "The Fourth Ideal, the Ideal of Crusade, needs a personal quest completed to the highspren's satisfaction; most Skybreakers never reach it, and some spend decades trying.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
-        },
-        {
-          "text": "Only Skybreakers of the Fourth Ideal or above can take squires.",
-          "revealedIn": [
+          ],
+          "words": [
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "55" },
-                { "book": "oathbringer", "chapter": "90" }
+              "text": "I swear to follow the will of Dalinar Kholin. This is my oath.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }],
+              "spokenBy": [
+                {
+                  "characterId": "szeth",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+                }
               ]
             }
           ]
         },
         {
-          "text": "In the centuries before 1173, only Nale swore the Fifth Ideal, the Ideal of Law.",
-          "revealedIn": [
+          "title": [
             {
-              "all": [
-                { "book": "words-of-radiance", "chapter": "88" },
-                { "book": "oathbringer", "chapter": "90" }
+              "text": "The Fourth Ideal",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "90" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "55" },
+                    { "book": "oathbringer", "chapter": "90" }
+                  ]
+                },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Fourth Ideal, the Ideal of Crusade, needs a personal quest, chosen by the Skybreaker at the Third Ideal and completed to their highspren's satisfaction. Only when the quest is done do they reach the Fourth Ideal.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            },
+            {
+              "text": "Most Skybreakers never reach it, and those who do can spend decades at the Third Ideal first.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            },
+            {
+              "text": "Only Skybreakers of the Fourth Ideal or above can take squires.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "55" },
+                    { "book": "oathbringer", "chapter": "90" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will cleanse the Shin of their false leaders, so long as Dalinar Kholin agrees.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }],
+              "spokenBy": [
+                {
+                  "characterId": "szeth",
+                  "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Fifth Ideal",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "90" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "88" },
+                    { "book": "oathbringer", "chapter": "90" }
+                  ]
+                },
+                { "book": "rhythm-of-war", "chapter": "i-7" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "90" },
+                    { "book": "rhythm-of-war", "chapter": "i-7" },
+                    { "book": "wind-and-truth", "chapter": "133" }
+                  ]
+                },
+                { "book": "wind-and-truth", "chapter": "133" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Fifth Ideal, the Ideal of Law, is an oath to become a personification of law and truth.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            },
+            {
+              "text": "In the centuries before 1173, only Nale swore it.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "88" },
+                    { "book": "oathbringer", "chapter": "90" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "A Skybreaker who swears the Fifth Ideal is no longer bound by the Third Ideal they swore.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+            },
+            {
+              "text": "Nale and Szeth are likely the only Skybreakers to have reached it.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "90" },
+                    { "book": "rhythm-of-war", "chapter": "i-7" },
+                    { "book": "wind-and-truth", "chapter": "133" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "words": [
+            {
+              "text": "I am my own agent. I make my own choices. I. Am. THE LAW!",
+              "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }],
+              "spokenBy": [
+                {
+                  "characterId": "szeth",
+                  "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+                }
               ]
             }
           ]
@@ -277,31 +513,123 @@
       ]
     },
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            { "book": "words-of-radiance", "chapter": "55" }
-          ]
-        }
-      ],
+      "title": "Abilities",
       "items": [
         {
-          "text": "Gravitation lets a Skybreaker change the direction and strength of an object's gravitational pull, binding people or objects to new surfaces or directions with a Basic Lashing.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-        },
-        {
-          "text": "Division lets them destroy or degrade things around them.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-        },
-        {
-          "text": "Their famed skill at dividing the innocent from the guilty had no magical cause.",
+          "text": "They were famed for dividing the innocent from the guilty, an almost divine skill that no Surge or spren gave them.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Skybreakers use the Surges of Gravitation and Division, and bond highspren.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Gravitation",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Gravitation lets a Skybreaker change the direction and strength of an object's gravitational pull.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "A Basic Lashing binds people or objects to other surfaces or in other directions, changing which way gravity pulls them.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Division",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Division lets them destroy or degrade things around them.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "Most Skybreakers can't use Division until they have sworn the Third Ideal.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Nahel bond abilities",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "121" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "121" },
+                    { "book": "sunlit-man", "chapter": "30" },
+                    { "book": "wind-and-truth", "chapter": "40" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "A highspren can let its Skybreaker know its feelings without speaking, even when it is not a Shardblade.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+            },
+            {
+              "text": "With a strong enough bond, a Skybreaker and their highspren can sense each other's emotions and speak mind to mind.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "121" },
+                    { "book": "sunlit-man", "chapter": "30" },
+                    { "book": "wind-and-truth", "chapter": "40" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shardplate abilities",
+              "revealedIn": [
+                { "book": "isles-of-the-emberdark", "chapter": "7" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Skybreaker Shardplate glows a smoky grey.",
+              "revealedIn": [
+                { "book": "isles-of-the-emberdark", "chapter": "7" }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Skybreakers",
   "facts": [
     {
       "label": "Spren",

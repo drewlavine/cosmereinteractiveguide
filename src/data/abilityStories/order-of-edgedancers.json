@@ -1,28 +1,17 @@
 {
   "intro": [
     {
-      "text": "An order of the ancient Knights Radiant, among the most graceful fighters, who preferred to serve as medics or rescue trapped allies.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+      "text": "An order of the ancient Knights Radiant, renowned for a deadliness hidden in graceful, limber movements, and said to be the most articulate and refined of the Radiants.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
     }
   ],
   "description": [
     {
-      "text": "Edgedancers use the Surges of Abrasion and Progression.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+      "text": "Edgedancers follow a philosophy of remembering the ordinary people of the world.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
     },
     {
-      "text": "Some felt that the Edgedancers ignored important things and thought them small-minded.",
-      "revealedIn": [
-        {
-          "all": [
-            { "book": "words-of-radiance", "chapter": "i-9" },
-            { "book": "oathbringer", "chapter": "72" }
-          ]
-        }
-      ]
-    },
-    {
-      "text": "They follow a philosophy of remembering the ordinary people of the world, and tend to ignore high society.",
+      "text": "They even try to remember and hear their enemies, whose stories could give them insight.",
       "revealedIn": [
         {
           "all": [
@@ -39,19 +28,23 @@
         {
           "text": "The ancient Radiants",
           "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "46" },
             {
               "all": [
                 { "book": "words-of-radiance", "chapter": "i-9" },
                 { "book": "oathbringer", "chapter": "72" }
               ]
-            },
-            { "book": "words-of-radiance", "chapter": "i-9" }
+            }
           ]
         }
       ],
       "items": [
         {
-          "text": "Though renowned for their deadliness, Edgedancers preferred to serve as medics or to rescue trapped allies. They were among the most graceful of the Radiants, in battle and out.",
+          "text": "The Edgedancers' graceful, limber movements hid a deadliness that became renowned, and they were thought the most articulate and refined of the Radiants.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Some felt that the Edgedancers ignored important things and thought them small-minded.",
           "revealedIn": [
             {
               "all": [
@@ -71,10 +64,6 @@
               ]
             }
           ]
-        },
-        {
-          "text": "They sometimes served as scouts, or joined special teams with Windrunners and Skybreakers.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
         }
       ]
     },
@@ -93,43 +82,153 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "The Ideals",
-          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
-        }
-      ],
+      "title": "Ideals of the Edgedancers",
       "items": [
         {
-          "text": "An Edgedancer must reach the Third Ideal before their spren can become a Shardblade.",
-          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+          "text": "The Ideals, also called the Immortal Words, are the rules Radiants live by. The First Ideal is shared by every order and serves as the motto of the Knights Radiant; each order then has four Ideals of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Edgedancers share the First Ideal with every other order. It is broadly read as valuing life, strength and service, and the way a goal is reached.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": []
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Second Ideal",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+            }
+          ],
+          "items": [],
+          "words": [
+            {
+              "text": "I will remember those who have been forgotten.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }],
+              "spokenBy": [
+                {
+                  "characterId": "lift",
+                  "revealedIn": [
+                    { "book": "words-of-radiance", "chapter": "i-9" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Third Ideal",
+              "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "An Edgedancer must reach the Third Ideal before their spren can become a Shardblade.",
+              "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "I will listen to those who have been ignored.",
+              "revealedIn": [{ "book": "edgedancer", "chapter": "19" }],
+              "spokenBy": [
+                {
+                  "characterId": "lift",
+                  "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "i-9" },
-            { "book": "words-of-radiance", "chapter": "prologue" }
-          ]
-        }
-      ],
+      "title": "Abilities",
       "items": [
         {
-          "text": "Abrasion lets them manipulate friction. They are said to \"ride the thinnest rope at speed, dance across rooftops, and move through a battlefield like a ribbon on the wind.\"",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+          "text": "Edgedancers use the Surges of Abrasion and Progression.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Abrasion",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-9" },
+                    { "book": "wind-and-truth", "chapter": "i-13" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Abrasion lets them manipulate friction. They are said to \"ride the thinnest rope at speed, dance across rooftops, and move through a battlefield like a ribbon on the wind.\"",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+            },
+            {
+              "text": "Less friction makes them hard to stop or grab in close combat and lets them slide long distances quickly, though keeping balance takes practice. They can also raise friction to grip surfaces and push off harder.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-9" },
+                    { "book": "wind-and-truth", "chapter": "i-13" }
+                  ]
+                }
+              ]
+            }
+          ]
         },
         {
-          "text": "Progression lets them make plants and other organic things grow much faster than normal, and heal.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+          "title": [
+            {
+              "text": "Progression",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Progression lets them make plants and other organic things grow much faster than normal, and heal.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
         }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Edgedancers",
   "facts": [
     {
       "label": "Surges",

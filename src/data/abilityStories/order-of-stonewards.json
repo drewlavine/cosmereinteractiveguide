@@ -11,12 +11,8 @@
   ],
   "description": [
     {
-      "text": "Stonewards use the Surges of Cohesion and Tension.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-    },
-    {
-      "text": "The Stonewards followed Talenelat'Elin, Stonesinew, Herald of War, and no order matched its patron more closely.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+      "text": "The Stonewards strive to exemplify resolve, strength and dependability.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
     }
   ],
   "history": [
@@ -26,6 +22,7 @@
           "text": "The ancient Radiants",
           "revealedIn": [
             { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "63" },
             { "book": "words-of-radiance", "chapter": "37" }
           ]
         }
@@ -36,7 +33,11 @@
           "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
         },
         {
-          "text": "Their dependability, strength and resolve were said to reflect their patron Herald.",
+          "text": "The Stonewards followed Talenelat'Elin, Stonesinew, Herald of War, and no order matched its patron more closely.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        },
+        {
+          "text": "They were known for dependability, strength and resolve, but were also stubborn, even when proven wrong.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
         }
       ]
@@ -56,34 +57,155 @@
       ]
     }
   ],
-  "mechanics": [
+  "sections": [
     {
-      "title": [
-        {
-          "text": "Powers",
-          "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "prologue" },
-            { "book": "oathbringer", "chapter": "38" },
-            { "book": "rhythm-of-war", "chapter": "43" }
-          ]
-        }
-      ],
+      "title": "Ideals of the Stonewards",
       "items": [
         {
-          "text": "Tension lets them change how stiff an object is.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
-        },
+          "text": "The Ideals, also called the Immortal Words, are the rules Radiants live by. The First Ideal is shared by every order and serves as the motto of the Knights Radiant; each order then has four Ideals of its own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        }
+      ],
+      "parts": [
         {
-          "text": "Cohesion lets them make stone malleable; in a vision, a Stoneward shapes handholds down a cliff.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+          "title": [
+            {
+              "text": "The First Ideal",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Stonewards share the First Ideal with every other order. It is broadly read as valuing life, strength and service, and the way a goal is reached.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+            }
+          ],
+          "words": [
+            {
+              "text": "Life before death, strength before weakness, journey before destination.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }],
+              "spokenBy": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Stonewards use the Surges of Cohesion and Tension.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
         },
         {
           "text": "Like most Radiants, Stonewards have squires.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
         }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Cohesion",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "38" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "38" },
+                    { "book": "wind-and-truth", "chapter": "41" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Cohesion lets them reshape stone; in a vision, a Stoneward forms handholds down a cliff so Dalinar's group can escape.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+            },
+            {
+              "text": "It can make stone as soft as clay or even liquid, and lets a Stoneward speak with the spren of the stone.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "38" },
+                    { "book": "wind-and-truth", "chapter": "41" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Tension",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "prologue" },
+                    { "book": "rhythm-of-war", "chapter": "32" },
+                    { "book": "wind-and-truth", "chapter": "41" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Tension lets them change how stiff an object is.",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "text": "By controlling hardness, Stonewards can stiffen cloth into weapons or armour and walk on liquids.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "prologue" },
+                    { "book": "rhythm-of-war", "chapter": "32" },
+                    { "book": "wind-and-truth", "chapter": "41" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shardplate",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "wind-and-truth", "chapter": "118" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Shardplate of the Stonewards glows amber.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "19" },
+                    { "book": "wind-and-truth", "chapter": "118" }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ],
+  "aboutTitle": "Philosophy",
+  "peopleTitle": "Stonewards",
   "facts": [
     {
       "label": "Surges",

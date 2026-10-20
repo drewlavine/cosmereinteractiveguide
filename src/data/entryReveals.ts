@@ -1350,7 +1350,7 @@ export const entryReveals: Record<
         all: [
           {
             book: 'words-of-radiance',
-            chapter: 'prologue',
+            chapter: 'i-9',
           },
           {
             book: 'oathbringer',
@@ -1362,7 +1362,7 @@ export const entryReveals: Record<
     'order-of-edgedancers': [
       {
         book: 'words-of-radiance',
-        chapter: 'i-9',
+        chapter: '46',
       },
     ],
     'order-of-elsecallers': [
