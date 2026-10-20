@@ -1,4 +1,4 @@
-import { cleanup, render, screen } from '@testing-library/react'
+import { cleanup, render, screen, within } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it } from 'vitest'
 import { chapters } from './data/chapters'
@@ -47,7 +47,10 @@ describe('culture pages', () => {
   it('build up chapter by chapter once reached', async () => {
     renderAt('/culture/night-brigade', firstIntro.chapter)
     expect(
-      await screen.findByText(nightBrigade.intro[0].text),
+      await screen.findByText(
+        (_, el) =>
+          el?.tagName === 'P' && el.textContent === nightBrigade.intro[0].text,
+      ),
     ).toBeInTheDocument()
     // Later facts wait for their own chapters.
     for (const f of nightBrigade.facts.filter(
@@ -55,7 +58,11 @@ describe('culture pages', () => {
         sunlit.indexOf(point(f.revealedIn as RevealPoint[]).chapter) >
         sunlit.indexOf(firstIntro.chapter),
     ))
-      expect(screen.queryByText(f.name)).toBeNull()
+      expect(
+        within(
+          screen.getByRole('complementary', { name: 'Key facts' }),
+        ).queryByText(f.name),
+      ).toBeNull()
   })
 
   it('are linked from the Culture list once reached', async () => {

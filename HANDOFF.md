@@ -66,6 +66,15 @@ OK.
 
 ## Done this session (uncommitted until Drew says)
 
+- **Auto-linking in page prose (uncommitted).** `src/data/textLinks.ts`
+  finds names of visible pages (met characters with pages, listed places,
+  planets, Magic and Culture entries, plus aliases and plurals) in prose and
+  `useLinkText` (`src/components/LinkedText.tsx`) turns them into links on
+  character, entry, place and planet pages (intro, sections, Key facts).
+  Rules: only what the reader can see; a page's own name beats another
+  page's alias; a name shared by two pages links nowhere; book titles and a
+  `commonWords` stoplist are skipped; each page is linked once per section
+  and never to itself. Tests: `src/data/textLinks.test.ts`.
 - **Stormlight Archive mass population (uncommitted, awaiting Drew's review).**
   Done by parallel agents with the brief `~/cig-char-data/SA_BATCH_BRIEF.md`;
   each wrote only its own `overrides.d/sa-*.json` and `story/<id>.json`.
@@ -271,6 +280,9 @@ OK.
 
 ## Known doubts to mention
 
+- Auto-links: everyday-word names (Death, Night, Stone…) are stoplisted;
+  demonyms like Alethi don't link (no Culture page); journey event text and
+  book pages aren't auto-linked yet.
 - Stormlight (my defaults while Drew was away; check these first):
   - Ghostbloods' Culture entry is Scadrial, revealed at The Lost Metal, so
     Stormlight-only readers don't see it.

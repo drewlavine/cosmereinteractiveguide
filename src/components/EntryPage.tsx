@@ -6,6 +6,7 @@ import { PageContents, PageSection, PageSubsection } from './PageSections'
 import { slugs } from './pageSlugs'
 import { SourceMark } from './SourceMark'
 import { SpoilerNotice } from './SpoilerNotice'
+import { useLinkText, type LinkTextFn } from './LinkedText'
 import {
   cachedEntryStory,
   entryBooks,
@@ -78,6 +79,7 @@ export function EntryPage({
   const prose = useEntryStory(kind, entry.id)
   const [factsOpen, setFactsOpen] = useState(false)
   const scope = `${kind}:${entry.id}`
+  const link = useLinkText(scope)
   const showAll = viewAnyway.has(scope)
 
   if (!showAll && !canSee(entryRevealedIn(kind, entry)))
@@ -115,7 +117,7 @@ export function EntryPage({
       return <Link to={placeHref(place, planetShown)}>{v.name}</Link>
     if (v.characterId && findPerson(v.characterId))
       return <Link to={`/characters/${v.characterId}`}>{v.name}</Link>
-    return v.name
+    return link(v.name)
   }
   const aliasFacts: [string, string[]][] = []
   for (const a of showAll
@@ -167,7 +169,9 @@ export function EntryPage({
       <div className="character-body">
         <header className="character-header">
           <h1 id="entry-title">{entry.name}</h1>
-          {shown.intro && <p className="character-intro">{shown.intro}</p>}
+          {shown.intro && (
+            <p className="character-intro">{link(shown.intro)}</p>
+          )}
         </header>
         <div className="character-side">
           <aside
@@ -237,14 +241,21 @@ export function EntryPage({
         <div className="character-main character-story">
           {shown.description.length > 0 && (
             <PageSection id="about" title="About">
-              {shown.description.map((text) => (
-                <p key={text}>{text}</p>
-              ))}
+              {(() => {
+                const linked = new Set<string>()
+                return shown.description.map((text) => (
+                  <p key={text}>{link(text, linked)}</p>
+                ))
+              })()}
             </PageSection>
           )}
           {shown.mechanics.length > 0 && (
             <PageSection id="how" title="How it works">
-              <Sections sections={shown.mechanics} ids={mechanicsIds} />
+              <Sections
+                sections={shown.mechanics}
+                ids={mechanicsIds}
+                link={link}
+              />
             </PageSection>
           )}
           {shown.tables.map((t, i) => (
@@ -286,7 +297,7 @@ export function EntryPage({
           ))}
           {shown.history.length > 0 && (
             <PageSection id="history" title="History">
-              <Sections sections={shown.history} ids={historyIds} />
+              <Sections sections={shown.history} ids={historyIds} link={link} />
             </PageSection>
           )}
           {people.length > 0 && (
@@ -319,14 +330,17 @@ export function EntryPage({
 function Sections({
   sections,
   ids,
+  link,
 }: {
   sections: ShownEntry['mechanics']
   ids: string[]
+  link: LinkTextFn
 }) {
   return sections.map(({ title, items }, i) => {
+    const linked = new Set<string>()
     const paragraphs = items.map(({ text, books }) => (
       <p key={text}>
-        {text}
+        {link(text, linked)}
         <SourceMark books={books} />
       </p>
     ))

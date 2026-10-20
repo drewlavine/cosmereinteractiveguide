@@ -1,3 +1,5 @@
+import { Fragment } from 'react'
+import { useLinkText, type LinkTextFn } from '../components/LinkedText'
 import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { InteractiveMap } from '../components/InteractiveMap'
@@ -12,11 +14,28 @@ import { useCanSee, useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
 import { NotFound } from './NotFound'
 
-function FactList({ label, items }: { label: string; items: string[] }) {
+function FactList({
+  label,
+  items,
+  link,
+}: {
+  label: string
+  items: string[]
+  link: LinkTextFn
+}) {
   return (
     <>
       <dt>{label}</dt>
-      <dd>{items.length ? items.join(', ') : 'None known'}</dd>
+      <dd>
+        {items.length
+          ? items.map((item, i) => (
+              <Fragment key={item}>
+                {i > 0 && ', '}
+                {link(item)}
+              </Fragment>
+            ))
+          : 'None known'}
+      </dd>
     </>
   )
 }
@@ -27,6 +46,7 @@ export function PlanetDetail() {
   const canSee = useCanSee()
   const system = useShownSystem(systemId)
   const planet = system?.planets.find((p) => p.id === planetId)
+  const link = useLinkText(`place:${planetId}`)
 
   if (!system) return <NotFound />
   if (!planet) {
@@ -82,13 +102,17 @@ export function PlanetDetail() {
                   Also called {planet.altName}
                 </p>
               )}
-              {planet.summary && <p>{planet.summary}</p>}
+              {planet.summary && <p>{link(planet.summary)}</p>}
               <dl>
                 <BookList label="Stories set here" bookIds={planet.settingOf} />
                 <BookList label="Mentioned in" bookIds={planet.mentionedIn} />
-                <FactList label="Shards" items={planet.shards} />
-                <FactList label="Magic systems" items={planet.magicSystems} />
-                <FactList label="Moons" items={moonNames} />
+                <FactList label="Shards" items={planet.shards} link={link} />
+                <FactList
+                  label="Magic systems"
+                  items={planet.magicSystems}
+                  link={link}
+                />
+                <FactList label="Moons" items={moonNames} link={link} />
                 {planet.rings && (
                   <>
                     <dt>Rings</dt>

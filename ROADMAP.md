@@ -364,6 +364,8 @@ tab here once its section's first version ships.
     - **Relationships**: family (parents, siblings, spouse, children,
       ancestors) and key relationships, linking to other characters' pages
       (linked once the reader has met them)
+    - [x] Names of visible characters, places, planets, Magic and Culture
+      entries in page prose link to their pages automatically
     - **Appearance & Personality**
     - **Travels**: the world-hopper timeline (below); only for world
       hoppers

@@ -26,6 +26,7 @@ import { PageContents, PageSection, PageSubsection } from './PageSections'
 import { slugs } from './pageSlugs'
 import { LocationMaps } from './LocationMaps'
 import { SpoilerNotice } from './SpoilerNotice'
+import { useLinkText } from './LinkedText'
 
 const listedByName = new Map<string, ListedLocation | null>()
 for (const l of listedLocations)
@@ -121,6 +122,7 @@ export function PlacePage(props: PlacePageProps) {
   const systems = useShownSystems()
   const prose = useLocationStory(id)
   const [factsOpen, setFactsOpen] = useState(false)
+  const link = useLinkText(`place:${id}`)
 
   if (prose.loading)
     return <article className="character-detail place-page" aria-busy="true" />
@@ -150,7 +152,7 @@ export function PlacePage(props: PlacePageProps) {
       return <Link to={placeHref(place, planetShown)}>{v.name}</Link>
     if (v.characterId && findPerson(v.characterId))
       return <Link to={`/characters/${v.characterId}`}>{v.name}</Link>
-    return v.name
+    return link(v.name)
   }
 
   const historyIds = slugs(
@@ -179,7 +181,7 @@ export function PlacePage(props: PlacePageProps) {
           {props.altName && (
             <p className="planet-detail-aka">Also called {props.altName}</p>
           )}
-          {intro && <p className="character-intro">{intro}</p>}
+          {intro && <p className="character-intro">{link(intro)}</p>}
         </header>
         <div className="character-side">
           <aside
@@ -250,17 +252,21 @@ export function PlacePage(props: PlacePageProps) {
         <div className="character-main character-story">
           {story.description.length > 0 && (
             <PageSection id="about" title="About">
-              {story.description.map((text) => (
-                <p key={text}>{text}</p>
-              ))}
+              {(() => {
+                const linked = new Set<string>()
+                return story.description.map((text) => (
+                  <p key={text}>{link(text, linked)}</p>
+                ))
+              })()}
             </PageSection>
           )}
           {story.history.length > 0 && (
             <PageSection id="history" title="History">
               {story.history.map(({ title, items }, i) => {
+                const linked = new Set<string>()
                 const paragraphs = items.map(({ text, books }) => (
                   <p key={text}>
-                    {text}
+                    {link(text, linked)}
                     <SourceMark books={books} />
                   </p>
                 ))

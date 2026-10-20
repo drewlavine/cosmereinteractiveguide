@@ -12,6 +12,7 @@ import { TravelMap } from '../components/TravelMap'
 import { JourneyPreview } from '../components/journey/JourneyPreview'
 import { useJourneyPacks } from '../components/journey/useJourneyPacks'
 import { SpoilerNotice } from '../components/SpoilerNotice'
+import { useLinkText } from '../components/LinkedText'
 import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
@@ -88,6 +89,7 @@ export function CharacterDetail() {
   )
   // Only phones collapse the key facts (see the stylesheet).
   const [factsOpen, setFactsOpen] = useState(false)
+  const link = useLinkText(`character:${persona?.characterId ?? character?.id}`)
 
   if (!character) return <NotFound />
   // Once the reader can tell who a persona is, it's the character's page.
@@ -165,7 +167,14 @@ export function CharacterDetail() {
     items.length > 0 && (
       <>
         <dt>{label}</dt>
-        <dd>{items.join(', ')}</dd>
+        <dd>
+          {items.map((item, i) => (
+            <Fragment key={item}>
+              {i > 0 && ', '}
+              {link(item)}
+            </Fragment>
+          ))}
+        </dd>
       </>
     )
   const first = shown.appearsIn[0]
@@ -219,9 +228,10 @@ export function CharacterDetail() {
       body: (
         <>
           {story.history.map(({ title, items }, i) => {
+            const linked = new Set<string>()
             const paragraphs = items.map(({ text, books }) => (
               <p key={text}>
-                {text}
+                {link(text, linked)}
                 <SourceMark books={books} />
               </p>
             ))
@@ -247,17 +257,20 @@ export function CharacterDetail() {
       show: description.length > 0,
       body: (
         <>
-          {description.map(([heading, items]) => (
-            <PageSubsection
-              key={heading}
-              id={`description-${heading.toLowerCase()}`}
-              title={heading}
-            >
-              {items.map((text) => (
-                <p key={text}>{text}</p>
-              ))}
-            </PageSubsection>
-          ))}
+          {description.map(([heading, items]) => {
+            const linked = new Set<string>()
+            return (
+              <PageSubsection
+                key={heading}
+                id={`description-${heading.toLowerCase()}`}
+                title={heading}
+              >
+                {items.map((text) => (
+                  <p key={text}>{link(text, linked)}</p>
+                ))}
+              </PageSubsection>
+            )
+          })}
         </>
       ),
     },
@@ -463,7 +476,7 @@ export function CharacterDetail() {
           Also known as {shown.aliases.join(', ')}
         </p>
       )}
-      {story.intro && <p className="character-intro">{story.intro}</p>}
+      {story.intro && <p className="character-intro">{link(story.intro)}</p>}
     </header>
   )
 
