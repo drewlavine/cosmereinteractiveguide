@@ -19,18 +19,21 @@ import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { characterDetails } from '../data/characterDetails'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
-import { journeyAtlas } from '../data/journeyAtlas'
+import { journeyAtlas, journeyMapPlanet } from '../data/journeyAtlas'
+import { historyParagraphFor } from '../data/historyMatch'
 import { journeyIndex } from '../data/journeyIndex'
 import { chapterLabel } from '../data/progress'
 import {
   findPersona,
   hasMet,
   revealCharacter,
+  journeyByWorld,
   journeyIds,
   revealCharacterJourney,
   revealCharacterTravels,
   revealPortrait,
   revealStory,
+  type ShownJourneyStop,
 } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
@@ -89,7 +92,8 @@ export function CharacterDetail() {
   )
   // Only phones collapse the key facts (see the stylesheet).
   const [factsOpen, setFactsOpen] = useState(false)
-  const link = useLinkText(`character:${persona?.characterId ?? character?.id}`)
+  const selfKey = `character:${persona?.characterId ?? character?.id}`
+  const link = useLinkText(selfKey)
 
   if (!character) return <NotFound />
   // Once the reader can tell who a persona is, it's the character's page.
@@ -159,6 +163,7 @@ export function CharacterDetail() {
       credits: journeyPacks.packs.flatMap((p) => p.credits),
     },
   )
+  const worldJourneys = journeyByWorld(journey, journeyMapPlanet)
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
   )
@@ -205,6 +210,11 @@ export function CharacterDetail() {
     'history',
     story.history.map((h) => h.title ?? ''),
   )
+  const paragraphs = story.history.flatMap(({ items }, i) =>
+    items.map(({ books }, j) => ({ id: `history-${i}-${j}`, books })),
+  )
+  const more = (where: ShownJourneyStop['where']) =>
+    historyParagraphFor(where, paragraphs)
   const description = (
     [
       ['Appearance', story.appearance],
@@ -214,11 +224,37 @@ export function CharacterDetail() {
 
   const parts: Part[] = [
     {
+      id: 'travels',
+      title: 'Travels',
+      show: travels.stops.length > 0,
+      body: (
+        <>
+          <TravelMap
+            characterId={character.id}
+            name={character.name}
+            worldJourneys={worldJourneys}
+            selfKey={selfKey}
+            more={more}
+            stops={travels.stops}
+            systems={systems}
+          />
+        </>
+      ),
+    },
+    {
       id: 'journey',
       title: 'Journey',
       className: 'character-journey',
-      show: journey.stops.length > 0,
-      body: <JourneyPreview name={character.name} journey={journey} />,
+      // A world-hopper's journeys open from their travels, world by world.
+      show: journey.stops.length > 0 && travels.stops.length === 0,
+      body: (
+        <JourneyPreview
+          name={character.name}
+          journey={journey}
+          selfKey={selfKey}
+          more={more}
+        />
+      ),
     },
     {
       id: 'history',
@@ -229,8 +265,8 @@ export function CharacterDetail() {
         <>
           {story.history.map(({ title, items }, i) => {
             const linked = new Set<string>()
-            const paragraphs = items.map(({ text, books }) => (
-              <p key={text}>
+            const paragraphs = items.map(({ text, books }, j) => (
+              <p key={text} id={`history-${i}-${j}`}>
                 {link(text, linked)}
                 <SourceMark books={books} />
               </p>
@@ -271,20 +307,6 @@ export function CharacterDetail() {
               </PageSubsection>
             )
           })}
-        </>
-      ),
-    },
-    {
-      id: 'travels',
-      title: 'Travels',
-      show: travels.stops.length > 0,
-      body: (
-        <>
-          <TravelMap
-            characterId={character.id}
-            stops={travels.stops}
-            systems={systems}
-          />
         </>
       ),
     },

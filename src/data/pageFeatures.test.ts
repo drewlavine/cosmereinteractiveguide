@@ -40,9 +40,13 @@ describe('the Journey feature', () => {
           read: new Set(),
           reading: new Map([['way-of-kings', chapter]]),
         })
+        // Travellers (once the page is theirs) open it from Travels instead.
+        const travels = featuresOf('character', c, { canSee }).some(
+          (f) => f.feature.id === 'travels',
+        )
         const shows =
           revealCharacterJourney(id, events, journeyAtlas, canSee).stops
-            .length > 0
+            .length > 0 && !travels
         expect(
           featuresOf('character', c, { canSee })
             .filter((f) => f.feature.id === 'journey')
@@ -93,9 +97,12 @@ describe('page features registry', () => {
         const shows =
           hasMet(c.id, ctx.canSee) &&
           revealCharacterTravels(c.id, ctx.canSee).stops.length > 0
-        expect(featuresOf('character', c, ctx).map((f) => f.section)).toEqual(
+        const found = featuresOf('character', c, ctx).map((f) => f.section)
+        expect(found.filter((s) => s !== 'journey')).toEqual(
           shows ? ['travels'] : [],
         )
+        // Journey only shows when Travels doesn't.
+        if (shows) expect(found).not.toContain('journey')
       }
     // Every traveller's journey shows once every book is read.
     for (const c of travellers)

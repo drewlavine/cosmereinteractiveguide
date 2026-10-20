@@ -4,6 +4,7 @@ import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
 import type { AtlasMap } from '../../data/journey'
 import type { ShownJourney } from '../../data/reveal'
+import { BooksReadProvider } from '../BooksReadProvider'
 import JourneyMap from './JourneyMap'
 
 const map: AtlasMap = {
@@ -56,14 +57,18 @@ const journey: ShownJourney = {
   ],
 }
 
-const setup = () => {
+const setup = (props: Partial<Parameters<typeof JourneyMap>[0]> = {}) => {
   render(
     <RouterProvider
       router={createMemoryRouter(
         [
           {
             path: '/',
-            element: <JourneyMap name="Hero" journey={journey} />,
+            element: (
+              <BooksReadProvider>
+                <JourneyMap name="Hero" journey={journey} {...props} />
+              </BooksReadProvider>
+            ),
           },
         ],
         { initialEntries: ['/'] },
@@ -107,6 +112,48 @@ afterEach(() => {
 })
 
 describe('JourneyMap', () => {
+  it('jumps to the part of the page telling more about an event', async () => {
+    const target = document.createElement('p')
+    target.id = 'history-0-0'
+    target.scrollIntoView = vi.fn()
+    document.body.append(target)
+    setup({ more: (where) => (where?.chapter === '6' ? target.id : undefined) })
+    await userEvent.click(
+      screen.getByRole('button', { name: 'More in History' }),
+    )
+    expect(target).toHaveClass('page-flash')
+    // No More where the page has nothing to add.
+    await userEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    expect(screen.queryByRole('button', { name: 'More in History' })).toBeNull()
+    target.remove()
+  })
+
+  it("links the people an event names, but not the page's own", () => {
+    const stop = {
+      ...journey.stops[0],
+      summary: [
+        {
+          text: 'Hero met Friend at the harbour.',
+          links: [
+            { text: 'Hero', href: '/characters/hero' },
+            { text: 'Friend', href: '/characters/friend' },
+          ],
+        },
+      ],
+    }
+    setup({
+      journey: { ...journey, stops: [stop] },
+      selfKey: 'character:hero',
+    })
+    const card = document.querySelector('.journey-card') as HTMLElement
+    expect(within(card).getByRole('link', { name: 'Friend' })).toHaveAttribute(
+      'href',
+      '/characters/friend',
+    )
+    expect(within(card).queryByRole('link', { name: 'Hero' })).toBeNull()
+    expect(card).toHaveTextContent('Hero met Friend at the harbour.')
+  })
+
   it('steps through the stops with the buttons, slider and list', async () => {
     const { group, slider } = setup()
     const card = () => group.querySelector('.journey-card') as HTMLElement
@@ -329,7 +376,16 @@ describe('JourneyMap', () => {
     render(
       <RouterProvider
         router={createMemoryRouter(
-          [{ path: '/', element: <JourneyMap name="Hero" journey={nested} /> }],
+          [
+            {
+              path: '/',
+              element: (
+                <BooksReadProvider>
+                  <JourneyMap name="Hero" journey={nested} />
+                </BooksReadProvider>
+              ),
+            },
+          ],
           { initialEntries: ['/'] },
         )}
       />,
@@ -365,6 +421,74 @@ describe('JourneyMap', () => {
       'd',
       'M500 250 L100 100',
     )
+  })
+
+  it('shows a city event on the world map, and goes back to the city', () => {
+    vi.useFakeTimers()
+    const city: AtlasMap = {
+      id: 'city',
+      title: 'Citytown',
+      image: { src: 'city.jpg', width: 800, height: 600, alt: 'City map' },
+      credit: { text: 'City map' },
+      revealedIn: [],
+      parent: { mapId: 'world', at: [500, 250] },
+    }
+    const nested: ShownJourney = {
+      ...journey,
+      maps: [map, city],
+      stops: [
+        { ...journey.stops[0], id: 'w', mapId: 'world', path: [[100, 100]] },
+        { ...journey.stops[0], mapId: 'city', path: [[10, 10]] },
+      ],
+    }
+    render(
+      <RouterProvider
+        router={createMemoryRouter(
+          [
+            {
+              path: '/',
+              element: (
+                <BooksReadProvider>
+                  <JourneyMap name="Hero" journey={nested} />
+                </BooksReadProvider>
+              ),
+            },
+          ],
+          { initialEntries: ['/'] },
+        )}
+      />,
+    )
+    const heading = () => document.querySelector('.journey-heading')
+    const here = () => document.querySelector('.journey-here')
+    // Each step of a zoom waits on the one before.
+    const settle = () => {
+      for (let i = 0; i < 3; i++) act(() => vi.advanceTimersByTime(1000))
+    }
+    // Only city events offer the world map.
+    expect(
+      screen.queryByRole('button', { name: 'Show on world map' }),
+    ).toBeNull()
+    fireEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    settle()
+    expect(heading()).toHaveTextContent('Citytown')
+    fireEvent.click(screen.getByRole('button', { name: 'Show on world map' }))
+    settle()
+    expect(heading()).toHaveTextContent('Testland')
+    // The event is marked at the city's pin.
+    expect(here()).toHaveAttribute('cx', '500')
+    expect(here()).toHaveAttribute('cy', '250')
+    fireEvent.click(screen.getByRole('button', { name: 'See location view' }))
+    settle()
+    expect(heading()).toHaveTextContent('Citytown')
+    expect(here()).toHaveAttribute('cx', '10')
+    // Moving to another event leaves the world view.
+    fireEvent.click(screen.getByRole('button', { name: 'Show on world map' }))
+    settle()
+    fireEvent.click(screen.getByRole('button', { name: 'Previous event' }))
+    fireEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    settle()
+    settle()
+    expect(heading()).toHaveTextContent('Citytown')
   })
 
   it('credits the data and the map', () => {

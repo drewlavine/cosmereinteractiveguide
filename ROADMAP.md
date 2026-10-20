@@ -825,11 +825,27 @@ can become a template for other series. Data from importers in
       Kholinar, Thaylen City, Narak, and Shadesmar's Sea of Lost Lights and
       Sea of Souls; each map gated where nothing printed on it spoils.
       Moving between two cities zooms out and back in
+- [x] "Show on world map" / "See location view" to see a city event on its
+      world map and back
+- [x] Shallan's events rewritten as plain in-world facts in chronological
+      order (65 events, starting with her birth), with text that grows as
+      later books reveal more and art on 22 events
+- [x] Reminder-style events (after the 17th Shard): a title stating what
+      happens and a one-sentence blurb with the why, for Shallan, Wit and
+      Hoid; "More in History" jumps to the matching History paragraph
+- [ ] The same reminder-style rewrite for the other journeys
 - [ ] The same city-map treatment for the other Stormlight characters
 - [ ] Routes between stops rather than straight lines (e.g. cosmere-maps'
       Stormlight paths)
-- [ ] Merge Travels into Journey: world hops as events on the star map,
-      drilling down into each planet's map
+- [x] Travels first on the page; a traveller's stop zooms into that
+      world's journey (journey maps added for T'Telir, Arelon, Elantris
+      and Kae, the Elendel Basin, Dayside and Kingseat)
+- [x] Journey events for Hoid (as Wit on Roshar), so his Travels stops
+      zoom in; reworked to the turning-point model on every world. Lumar,
+      Komashi, Threnody and Ashyn stay Travels-only: the Coppermind has no
+      surface map for them
+- [ ] Journey events for the other world-hoppers (Sigzil, Vasher,
+      Vivenna, Felt)
 - [ ] Book and series pages: everyone's journeys in reading order
 - [ ] An all-characters map (like cosmeremaps.com)
 - [ ] Extract the journey model, engine and importers as a template for

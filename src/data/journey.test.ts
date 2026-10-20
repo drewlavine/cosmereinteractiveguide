@@ -1,4 +1,5 @@
 import { describe, expect, it } from 'vitest'
+import { books } from './books'
 import { chapters } from './chapters'
 import type { Atlas, JourneyEvent, JourneyPack } from './journey'
 import { journeyAtlas } from './journeyAtlas'
@@ -262,7 +263,9 @@ describe('journey data', () => {
         }
         if (e.placeId) expect(journeyAtlas.place(e.placeId)).toBeDefined()
         // Our own text, and where it happened, are revealed with the
-        // event or later in the same book, never earlier.
+        // event or later (a later version may come in a later book of the
+        // series), never earlier.
+        const bookAt = (id: string) => books.findIndex((b) => b.id === id)
         const index = (point: Reveal[number]) => {
           if (typeof point === 'string' || 'all' in point) return -1
           return chapters[point.book].findIndex((c) => c.id === point.chapter)
@@ -275,10 +278,11 @@ describe('journey data', () => {
           for (const point of reveal) {
             expect(typeof point === 'object' && 'book' in point).toBe(true)
             if (typeof point !== 'object' || !('book' in point)) continue
-            expect(typeof own === 'object' && 'book' in own && own.book).toBe(
-              point.book,
-            )
-            expect(index(point)).toBeGreaterThanOrEqual(index(own))
+            if (typeof own !== 'object' || !('book' in own))
+              throw new Error(`${e.id} has no book`)
+            if (own.book === point.book)
+              expect(index(point)).toBeGreaterThanOrEqual(index(own))
+            else expect(bookAt(point.book)).toBeGreaterThan(bookAt(own.book))
           }
         // Ids are neutral: they must never name what happens.
         expect(e.id).toMatch(/^[a-z]+-[0-9a-f]{8}$/)
@@ -495,11 +499,25 @@ describe("Vin's journey in Era 1", () => {
     })
   }
 
-  it('reveals each event at its chapter, starting in Luthadel', async () => {
+  it('reveals each event at its chapter, starting with her birth', async () => {
     expect((await vin(reading('final-empire', '1'))).stops).toEqual([])
+    expect(
+      (await vin(reading('final-empire', '2'))).stops.map((s) => s.title),
+    ).toEqual(["Vin works Camon's cons with her Luck"])
     const early = await vin(reading('final-empire', '4'))
-    expect(early.stops.map((s) => s.mapId)).toEqual(['luthadel', 'luthadel'])
+    expect(early.stops.map((s) => s.title)).toEqual([
+      'Vin is born',
+      'Reen raises Vin, then leaves',
+      "Vin works Camon's cons with her Luck",
+      "Vin joins Kelsier's crew",
+    ])
     // The city brings the world map holding it, to zoom out to.
+    expect(early.stops.map((s) => s.mapId)).toEqual([
+      'final-empire',
+      'final-empire',
+      'luthadel',
+      'luthadel',
+    ])
     expect(early.maps.map((m) => m.id)).toEqual(['final-empire', 'luthadel'])
     expect(journeyAtlas.map('luthadel')?.parent?.mapId).toBe('final-empire')
     const later = await vin(reading('final-empire', '8'))
@@ -527,7 +545,7 @@ describe("Vin's journey in Era 1", () => {
 
   it('names the square only once the reader knows its later name', async () => {
     const stop = (await vin(reading('final-empire', '34'))).stops.at(-1)!
-    expect(stop.title).toBe("Kelsier's death")
+    expect(stop.title).toBe('Vin watches Kelsier die')
     expect(stop.place?.name ?? '').not.toMatch(/Survivor/)
   })
 })
@@ -624,9 +642,9 @@ describe("Shallan's journey on Roshar's city maps", () => {
   })
 
   it('keeps each city map closed until its own gate', async () => {
-    const early = await shallan(reading('words-of-radiance', '10'))
+    const early = await shallan(reading('words-of-radiance', '12'))
     expect(early.maps.some((m) => m.id === 'frostlands')).toBe(false)
-    const later = await shallan(reading('words-of-radiance', '11'))
+    const later = await shallan(reading('words-of-radiance', '13'))
     expect(later.maps.some((m) => m.id === 'frostlands')).toBe(true)
     for (const s of later.stops) expect(journeyAtlas.map(s.mapId)).toBeDefined()
   })

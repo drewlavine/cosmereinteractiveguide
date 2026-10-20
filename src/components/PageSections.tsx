@@ -1,8 +1,6 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
 import { useLocation } from 'react-router'
-
-/** Sent to a section to open it, e.g. when its Contents link is followed. */
-const OPEN = 'page-section-open'
+import { OPEN } from './pageOpen'
 
 interface SectionProps {
   id: string

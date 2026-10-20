@@ -1131,6 +1131,50 @@ dd {
   font-size: 0.85rem;
 }
 
+.journey-more {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  font-size: 0.85rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.journey-more::after {
+  content: ' →';
+}
+
+/* A part of the page just jumped to, e.g. from a journey event's More. */
+.page-flash {
+  animation: page-flash 2.4s ease-out;
+  border-radius: 4px;
+}
+
+@keyframes page-flash {
+  0%,
+  30% {
+    background: rgba(212, 165, 64, 0.22);
+    box-shadow: 0 0 0 6px rgba(212, 165, 64, 0.22);
+  }
+  100% {
+    background: transparent;
+    box-shadow: 0 0 0 6px transparent;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .page-flash {
+    animation: none;
+  }
+}
+
+.travel-zoom {
+  display: block;
+  margin: 0.25rem 0 0.75rem;
+}
+
 .travel-place {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.95rem;
@@ -1767,6 +1811,15 @@ dd {
   .journey-map-actions {
     top: 0.5rem;
     right: 0.5rem;
+    left: 0.5rem;
+    justify-content: flex-end;
+    gap: 0.3rem;
+  }
+
+  .journey-map-actions .journey-button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+    white-space: nowrap;
   }
 
   .journey-card,

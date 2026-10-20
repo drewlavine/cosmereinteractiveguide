@@ -1,0 +1,41 @@
+{
+  "id": "sel",
+  "credits": [
+    {
+      "text": "Sel journey events written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:Elantris",
+      "source": "sel-hand"
+    }
+  ],
+  "events": [
+    {
+      "id": "slh-8b19c7ad",
+      "characters": ["hoid"],
+      "mapId": "arelon",
+      "path": [[285, 380]],
+      "placeId": "elantris",
+      "placeName": "the Pool near Elantris",
+      "revealedIn": [
+        {
+          "book": "elantris",
+          "chapter": "epilogue"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid fails to become an Elantrian",
+      "summary": [
+        {
+          "text": "After Elantris was restored, Hoid found he had not become an Elantrian, then stepped into the Pool and vanished.",
+          "revealedIn": [
+            {
+              "book": "elantris",
+              "chapter": "epilogue"
+            }
+          ]
+        }
+      ],
+      "source": "sel-hand",
+      "order": 1
+    }
+  ]
+}

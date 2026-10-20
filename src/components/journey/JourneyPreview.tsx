@@ -1,5 +1,5 @@
 import { lazy, Suspense, useState } from 'react'
-import type { ShownJourney } from '../../data/reveal'
+import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
 import { rootOf } from './journeyGeometry'
 
 const JourneyMap = lazy(() => import('./JourneyMap'))
@@ -12,9 +12,15 @@ const JourneyMap = lazy(() => import('./JourneyMap'))
 export function JourneyPreview({
   name,
   journey,
+  selfKey,
+  more,
 }: {
   name: string
   journey: ShownJourney
+  /** The page it's on, never linked from the events. */
+  selfKey?: string
+  /** The id of the part of the page telling more about an event, if any. */
+  more?: (where: ShownJourneyStop['where']) => string | undefined
 }) {
   const [open, setOpen] = useState(false)
   const { stops, maps } = journey
@@ -33,6 +39,8 @@ export function JourneyPreview({
           name={name}
           journey={journey}
           onClose={() => setOpen(false)}
+          selfKey={selfKey}
+          more={more}
         />
       </Suspense>
     )

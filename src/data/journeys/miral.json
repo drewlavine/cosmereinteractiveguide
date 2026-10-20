@@ -1,0 +1,100 @@
+{
+  "id": "miral",
+  "credits": [
+    {
+      "text": "Miral journey events written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:Fires_of_December",
+      "source": "miral-hand"
+    }
+  ],
+  "events": [
+    {
+      "id": "mrh-c4f76af4",
+      "characters": ["hoid"],
+      "mapId": "kingseat",
+      "path": [[959.3907396571047, 742.266965797559]],
+      "placeId": "kingseat",
+      "revealedIn": [
+        {
+          "book": "fires-of-december",
+          "chapter": "xxvii"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid speaks from Flint's lantern",
+      "summary": [
+        {
+          "text": "Hoid, already dead, spoke from a lantern that Flint offered to sell to the hexers.",
+          "revealedIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "xxvii"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "xxix"
+            }
+          ]
+        },
+        {
+          "text": "Hoid, already dead, spoke from a lantern that Flint offered to sell to the hexers. Flint told December he had killed Hoid on the king's order.",
+          "revealedIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "xxix"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "epilogue"
+            }
+          ]
+        },
+        {
+          "text": "Hoid, already dead, spoke from a lantern that Flint offered to sell to the hexers. He later learned that Valor's temple's protections had killed him.",
+          "revealedIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "epilogue"
+            }
+          ]
+        }
+      ],
+      "source": "miral-hand",
+      "order": 1,
+      "placeName": "Kingseat"
+    },
+    {
+      "id": "mrh-a4e2bc82",
+      "characters": ["hoid"],
+      "mapId": "kingseat",
+      "path": [[250, 390]],
+      "placeId": "kingseat",
+      "placeName": "the palace, Kingseat",
+      "revealedIn": [
+        {
+          "book": "fires-of-december",
+          "chapter": "xl"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid casts December into the future",
+      "summary": [
+        {
+          "text": "As Flint lay dying, December asked Hoid to cast her into the future again.",
+          "revealedIn": [
+            {
+              "book": "fires-of-december",
+              "chapter": "xl"
+            }
+          ]
+        }
+      ],
+      "source": "miral-hand",
+      "order": 2
+    }
+  ]
+}

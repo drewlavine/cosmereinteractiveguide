@@ -111,10 +111,13 @@ function travelsSection(character: Character, canSee: CanSee) {
   return revealCharacterTravels(id, canSee).stops.length ? 'travels' : undefined
 }
 
-/** As CharacterDetail's Journey section. */
+/**
+ * As CharacterDetail's Journey section: travellers open theirs from
+ * Travels instead.
+ */
 function journeySection(character: Character, canSee: CanSee) {
   const id = characterPage(character, canSee)
-  if (!id) return undefined
+  if (!id || travelsSection(character, canSee)) return undefined
   return journeyShown(id, journeyIndex, journeyAtlas, canSee)
     ? 'journey'
     : undefined

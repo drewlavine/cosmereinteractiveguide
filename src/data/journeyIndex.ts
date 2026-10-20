@@ -885,6 +885,76 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  hoid: [
+    {
+      pack: 'miral',
+      mapId: 'kingseat',
+      revealedIn: [
+        {
+          book: 'fires-of-december',
+          chapter: 'xxvii',
+        },
+        {
+          book: 'fires-of-december',
+          chapter: 'xl',
+        },
+      ],
+    },
+    {
+      pack: 'nalthis',
+      mapId: 't-telir',
+      revealedIn: [
+        {
+          book: 'warbreaker',
+          chapter: '32',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'elendel-basin',
+      revealedIn: [
+        {
+          book: 'lost-metal',
+          chapter: '72',
+        },
+        {
+          book: 'shadows-of-self',
+          chapter: '7',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'luthadel',
+      revealedIn: [
+        {
+          book: 'secret-history',
+          chapter: '2-1',
+        },
+      ],
+    },
+    {
+      pack: 'sel',
+      mapId: 'arelon',
+      revealedIn: [
+        {
+          book: 'elantris',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+    {
+      pack: 'taldain',
+      mapId: 'dayside',
+      revealedIn: [
+        {
+          book: 'white-sand-omnibus',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+  ],
   'jasnah-kholin': [
     {
       pack: 'roshar',
@@ -1778,7 +1848,7 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'words-of-radiance',
-          chapter: '11',
+          chapter: '13',
         },
         {
           book: 'words-of-radiance',
@@ -1800,15 +1870,11 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'way-of-kings',
-          chapter: '3',
-        },
-        {
-          book: 'way-of-kings',
-          chapter: '5',
-        },
-        {
-          book: 'way-of-kings',
           chapter: '8',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '29',
         },
         {
           book: 'way-of-kings',
@@ -1826,10 +1892,6 @@ export const journeyIndex: JourneyIndex = {
           book: 'way-of-kings',
           chapter: '70',
         },
-        {
-          book: 'way-of-kings',
-          chapter: '74',
-        },
       ],
     },
     {
@@ -1838,15 +1900,11 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'oathbringer',
-          chapter: '61',
-        },
-        {
-          book: 'oathbringer',
-          chapter: '62',
-        },
-        {
-          book: 'oathbringer',
           chapter: '78',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '82',
         },
         {
           book: 'oathbringer',
@@ -1860,25 +1918,19 @@ export const journeyIndex: JourneyIndex = {
     },
     {
       pack: 'roshar',
-      mapId: 'narak-defenses',
-      revealedIn: [
-        {
-          book: 'wind-and-truth',
-          chapter: '21',
-        },
-        {
-          book: 'wind-and-truth',
-          chapter: '29',
-        },
-      ],
-    },
-    {
-      pack: 'roshar',
       mapId: 'roshar',
       revealedIn: [
         {
           book: 'oathbringer',
-          chapter: '8',
+          chapter: '9',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '18',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '25',
         },
         {
           book: 'oathbringer',
@@ -1886,7 +1938,11 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'oathbringer',
-          chapter: '33',
+          chapter: '32',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '40',
         },
         {
           book: 'oathbringer',
@@ -1894,23 +1950,15 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'oathbringer',
-          chapter: '60',
-        },
-        {
-          book: 'oathbringer',
           chapter: '122',
         },
         {
           book: 'rhythm-of-war',
-          chapter: '22',
-        },
-        {
-          book: 'rhythm-of-war',
-          chapter: '93',
+          chapter: '19',
         },
         {
           book: 'way-of-kings',
-          chapter: '70',
+          chapter: '45',
         },
         {
           book: 'wind-and-truth',
@@ -1918,7 +1966,7 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'wind-and-truth',
-          chapter: '147',
+          chapter: '93',
         },
         {
           book: 'words-of-radiance',
@@ -1930,15 +1978,19 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'words-of-radiance',
-          chapter: '19',
+          chapter: '10',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '39',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '45',
         },
         {
           book: 'words-of-radiance',
           chapter: '86',
-        },
-        {
-          book: 'words-of-radiance',
-          chapter: '87',
         },
         {
           book: 'words-of-radiance',
@@ -1948,37 +2000,15 @@ export const journeyIndex: JourneyIndex = {
     },
     {
       pack: 'roshar',
-      mapId: 'sea-of-lost-lights',
-      revealedIn: [
-        {
-          book: 'oathbringer',
-          chapter: '89',
-        },
-        {
-          book: 'oathbringer',
-          chapter: '102',
-        },
-        {
-          book: 'oathbringer',
-          chapter: '110',
-        },
-        {
-          book: 'oathbringer',
-          chapter: '115',
-        },
-      ],
-    },
-    {
-      pack: 'roshar',
       mapId: 'sea-of-souls',
       revealedIn: [
         {
           book: 'rhythm-of-war',
-          chapter: '36',
+          chapter: '82',
         },
         {
           book: 'rhythm-of-war',
-          chapter: '82',
+          chapter: '90',
         },
         {
           book: 'rhythm-of-war',
@@ -1990,15 +2020,11 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'wind-and-truth',
-          chapter: '11',
-        },
-        {
-          book: 'wind-and-truth',
           chapter: '32',
         },
         {
           book: 'wind-and-truth',
-          chapter: '145',
+          chapter: '134',
         },
       ],
     },
@@ -2012,11 +2038,7 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'words-of-radiance',
-          chapter: '72',
-        },
-        {
-          book: 'words-of-radiance',
-          chapter: '74',
+          chapter: '81',
         },
       ],
     },
@@ -2036,6 +2058,10 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'rhythm-of-war',
+          chapter: '2',
+        },
+        {
+          book: 'rhythm-of-war',
           chapter: '7',
         },
         {
@@ -2044,19 +2070,15 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'words-of-radiance',
-          chapter: '40',
-        },
-        {
-          book: 'words-of-radiance',
           chapter: '43',
         },
         {
           book: 'words-of-radiance',
-          chapter: '52',
+          chapter: '49',
         },
         {
           book: 'words-of-radiance',
-          chapter: '54',
+          chapter: '52',
         },
         {
           book: 'words-of-radiance',
@@ -2528,19 +2550,15 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'hero-of-ages',
-          chapter: '27',
-        },
-        {
-          book: 'hero-of-ages',
           chapter: '30',
         },
         {
           book: 'hero-of-ages',
-          chapter: '44',
+          chapter: '45',
         },
         {
           book: 'hero-of-ages',
-          chapter: '54',
+          chapter: '63',
         },
         {
           book: 'hero-of-ages',
@@ -2558,6 +2576,10 @@ export const journeyIndex: JourneyIndex = {
       revealedIn: [
         {
           book: 'final-empire',
+          chapter: '3',
+        },
+        {
+          book: 'final-empire',
           chapter: '8',
         },
         {
@@ -2570,7 +2592,11 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'hero-of-ages',
-          chapter: '25',
+          chapter: '15',
+        },
+        {
+          book: 'hero-of-ages',
+          chapter: '37',
         },
         {
           book: 'hero-of-ages',
@@ -2578,23 +2604,11 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'hero-of-ages',
-          chapter: '79',
-        },
-        {
-          book: 'hero-of-ages',
           chapter: '81',
         },
         {
           book: 'well-of-ascension',
-          chapter: '26',
-        },
-        {
-          book: 'well-of-ascension',
-          chapter: '49',
-        },
-        {
-          book: 'well-of-ascension',
-          chapter: '52',
+          chapter: '51',
         },
         {
           book: 'well-of-ascension',
@@ -2616,6 +2630,10 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'final-empire',
+          chapter: '7',
+        },
+        {
+          book: 'final-empire',
           chapter: '12',
         },
         {
@@ -2624,7 +2642,7 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'final-empire',
-          chapter: '26',
+          chapter: '27',
         },
         {
           book: 'final-empire',
@@ -2636,11 +2654,23 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'final-empire',
+          chapter: '35',
+        },
+        {
+          book: 'final-empire',
           chapter: '36',
         },
         {
           book: 'final-empire',
+          chapter: '37',
+        },
+        {
+          book: 'final-empire',
           chapter: '38',
+        },
+        {
+          book: 'final-empire',
+          chapter: 'epilogue',
         },
         {
           book: 'hero-of-ages',
@@ -2652,11 +2682,19 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'well-of-ascension',
-          chapter: '2',
+          chapter: '8',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '13',
         },
         {
           book: 'well-of-ascension',
           chapter: '17',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '34',
         },
         {
           book: 'well-of-ascension',
@@ -2665,6 +2703,10 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '43',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '44',
         },
         {
           book: 'well-of-ascension',
@@ -2681,6 +2723,98 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '58',
+        },
+        {
+          book: 'well-of-ascension',
+          chapter: '59',
+        },
+      ],
+    },
+  ],
+  wit: [
+    {
+      pack: 'roshar',
+      mapId: 'kholinar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '82',
+        },
+        {
+          book: 'oathbringer',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'rhythm-of-war',
+          chapter: '50',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '80',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '99',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '4',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '18',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '32',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: 'i-15',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '127',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '146',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '55',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+    {
+      pack: 'roshar',
+      mapId: 'warcamps',
+      revealedIn: [
+        {
+          book: 'rhythm-of-war',
+          chapter: 'epilogue',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '22',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '57',
         },
       ],
     },

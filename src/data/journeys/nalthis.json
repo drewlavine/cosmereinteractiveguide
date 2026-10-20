@@ -1,0 +1,41 @@
+{
+  "id": "nalthis",
+  "credits": [
+    {
+      "text": "Nalthis journey events written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:Warbreaker",
+      "source": "nalthis-hand"
+    }
+  ],
+  "events": [
+    {
+      "id": "nh-2df93cc4",
+      "characters": ["hoid"],
+      "mapId": "t-telir",
+      "path": [[600, 365]],
+      "placeId": "court-of-gods",
+      "placeName": "Lightsong's palace, Court of Gods",
+      "revealedIn": [
+        {
+          "book": "warbreaker",
+          "chapter": "32"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid tells Siri of the Manywar",
+      "summary": [
+        {
+          "text": "Lightsong brought Siri to Hoid, who told her the history of the Returned and the Manywar.",
+          "revealedIn": [
+            {
+              "book": "warbreaker",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "nalthis-hand",
+      "order": 1
+    }
+  ]
+}

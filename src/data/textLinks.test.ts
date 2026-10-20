@@ -25,6 +25,16 @@ describe('links in prose', () => {
     )
   })
 
+  it('links a title the books use as a name, from when they use it', () => {
+    const text = 'Vin was born to a skaa prostitute and the Lord Prelan.'
+    expect(hrefs(text, at([], { 'final-empire': '25' }))).toEqual([
+      '/characters/vin',
+    ])
+    expect(hrefs(text, at([], { 'final-empire': '26' }))).toContain(
+      '/characters/tevidian-tekiel',
+    )
+  })
+
   it('links each page once per set and never the page itself', () => {
     const canSee = at(['way-of-kings'])
     const index = linkIndex(textLinks(canSee))

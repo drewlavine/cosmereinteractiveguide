@@ -9,10 +9,12 @@ import {
   type KeyboardEvent,
   type ReactNode,
 } from 'react'
+import { useLinkText, type LinkTextFn } from '../LinkedText'
+import { showOnPage } from '../pageOpen'
 import { SourceMark } from '../SourceMark'
 import { Link } from 'react-router'
 import type { JourneyArt } from '../../data/journey'
-import type { ShownJourney } from '../../data/reveal'
+import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
 import { stopName, stopSource } from './journeyLabels'
 import type { MapEngineHandle } from './MapEngine'
 import { SvgMapEngine } from './SvgMapEngine'
@@ -48,17 +50,28 @@ export default function JourneyMap({
   name,
   journey,
   onClose,
+  closeLabel = 'Close',
+  selfKey,
+  more,
 }: {
   /** Whose journey, for labels. */
   name: string
   journey: ShownJourney
   onClose?: () => void
+  closeLabel?: string
+  /** The page it's on (e.g. "character:shallan-davar"), never linked. */
+  selfKey?: string
+  /** The id of the part of the page telling more about an event, if any. */
+  more?: (where: ShownJourneyStop['where']) => string | undefined
 }) {
+  const link = useLinkText(selfKey)
   const { stops, maps, credits } = journey
   const [current, setCurrent] = useState(0)
   const [playing, setPlaying] = useState(false)
   const [cardOpen, setCardOpen] = useState(true)
   const [viewing, setViewing] = useState(false)
+  // The outer map (e.g. Roshar) the reader asked to see a city event on.
+  const [outer, setOuter] = useState<string>()
   // The past event under the pointer, named at once (a <title> waits ~1s).
   const [hovered, setHovered] = useState<number>()
   const frame = useRef<HTMLDivElement>(null)
@@ -66,6 +79,7 @@ export default function JourneyMap({
   const fullscreen = useFullscreen(frame)
 
   const stop = stops[current]
+  const moreId = stop && more?.(stop.where)
   // The map on screen. It trails the stop's own map while zooming between
   // a map and one inside it (a city), and starts on the outermost one.
   const [view, setView] = useState(() =>
@@ -83,8 +97,9 @@ export default function JourneyMap({
   const [arriving, setArriving] = useState<number>()
   // The last stop drawn: the one before while still changing maps, so the
   // way to a stop on another map only shows once that map is on screen.
+  const target = outer ?? stop?.mapId
   const drawn =
-    (stop && map && stop.mapId !== map.id) || arriving === current
+    (target && map && target !== map.id) || arriving === current
       ? current - 1
       : current
 
@@ -94,6 +109,7 @@ export default function JourneyMap({
       setCurrent(Math.max(0, Math.min(stops.length - 1, i)))
       setCardOpen(true)
       setViewing(false)
+      setOuter(undefined)
     },
     [stops.length],
   )
@@ -145,7 +161,6 @@ export default function JourneyMap({
   // Into a city: fly to its pin, then the city flies in to the stop. Out of
   // one: show the whole city, then the outer map zooms out from the city's
   // pin, then pans to the stop.
-  const target = stop?.mapId
   useEffect(() => {
     if (!target || !map) return
     const motion = !reducedMotion()
@@ -260,6 +275,11 @@ export default function JourneyMap({
     pick(to)
   }
 
+  // A city event can be seen where it sits on the world map, and back.
+  const world = maps.find((m) => m.id === stop.mapId)?.parent
+    ? rootOf(maps, stop.mapId)
+    : undefined
+
   const source = stopSource(stop)
   const place = stopName(stop, current)
 
@@ -364,9 +384,21 @@ export default function JourneyMap({
           >
             {fullscreen.active ? 'Exit full screen' : 'Full screen'}
           </button>
+          {world && (
+            <button
+              type="button"
+              className="journey-button"
+              onClick={() => {
+                setPlaying(false)
+                setOuter(outer ? undefined : world)
+              }}
+            >
+              {outer ? 'See location view' : 'Show on world map'}
+            </button>
+          )}
           {onClose && !fullscreen.active && (
             <button type="button" className="journey-button" onClick={onClose}>
-              Close
+              {closeLabel}
             </button>
           )}
         </div>
@@ -458,10 +490,22 @@ export default function JourneyMap({
             )}
             {stop.summary.map(({ text, cite, links }) => (
               <p key={text}>
-                {linked(text, links)}
+                {linked(text, links, link, selfKey)}
                 {cite && <SourceMark sources={[cite]} />}
               </p>
             ))}
+            {moreId && (
+              <button
+                type="button"
+                className="journey-more"
+                onClick={() => {
+                  if (fullscreen.active) fullscreen.exit()
+                  showOnPage(moreId)
+                }}
+              >
+                More in History
+              </button>
+            )}
           </section>
         ) : (
           <button
@@ -564,25 +608,35 @@ export default function JourneyMap({
   )
 }
 
-/** The text with each link's first mention, in order, made a link. */
+/**
+ * The text with each given link's first mention, in order, made a link, and
+ * the other pages it names linked as in prose; never the page it's on.
+ */
 function linked(
   text: string,
   links: readonly { text: string; href: string }[] = [],
+  link: LinkTextFn,
+  selfKey?: string,
 ): ReactNode[] {
   const out: ReactNode[] = []
+  const done = new Set<string>()
+  const self = selfKey?.replace(/^character:/, '/characters/')
   let rest = text
   for (const l of links) {
+    if (l.href === self) continue
     const at = rest.indexOf(l.text)
     if (at < 0) continue
     out.push(
-      rest.slice(0, at),
+      <Fragment key={`${l.href}-text`}>
+        {link(rest.slice(0, at), done)}
+      </Fragment>,
       <Link key={l.href} to={l.href}>
         {l.text}
       </Link>,
     )
     rest = rest.slice(at + l.text.length)
   }
-  return [...out, rest]
+  return [...out, <Fragment key="rest">{link(rest, done)}</Fragment>]
 }
 
 function ArtCredit({ credit }: { credit: JourneyArt['credit'] }) {

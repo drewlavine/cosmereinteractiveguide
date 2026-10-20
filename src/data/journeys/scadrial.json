@@ -2,12 +2,130 @@
   "id": "scadrial",
   "credits": [
     {
-      "text": "Era 1 journey events written for this guide from the Coppermind's chapter summaries",
+      "text": "Scadrial journey events written for this guide from the Coppermind's chapter summaries",
       "url": "https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire",
       "source": "scadrial-hand"
     }
   ],
   "events": [
+    {
+      "id": "sh-4c1cc37f",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1273, 805]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "3"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin is born",
+      "summary": [
+        {
+          "text": "Vin was born to a skaa prostitute and a Ministry obligator.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "3"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "final-empire",
+              "chapter": "20"
+            }
+          ]
+        },
+        {
+          "text": "Vin was born to a skaa prostitute and a Ministry obligator. Her mother killed Vin's baby sister and gave Vin an earring.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "20"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "final-empire",
+              "chapter": "26"
+            }
+          ]
+        },
+        {
+          "text": "Vin was born to a skaa prostitute and the Lord Prelan. Her mother killed Vin's baby sister and gave Vin an earring.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "26"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "73"
+            }
+          ]
+        },
+        {
+          "text": "Vin was born to a skaa prostitute and the Lord Prelan. Her mother killed Vin's baby sister and gave Vin an earring, a Hemalurgic spike.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "73"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 1,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-89746bd6",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[1273, 805]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "3"
+        }
+      ],
+      "approximate": true,
+      "title": "Reen raises Vin, then leaves",
+      "summary": [
+        {
+          "text": "Vin's half-brother Reen raised her as a thief, then left her with Camon's crew.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "3"
+            }
+          ],
+          "supersededIn": [
+            {
+              "book": "final-empire",
+              "chapter": "37"
+            }
+          ]
+        },
+        {
+          "text": "Vin's half-brother Reen raised her as a thief, then left her. He died under Inquisitor torture rather than give her up.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 2,
+      "placeName": "Luthadel"
+    },
     {
       "id": "sh-d0fb0760",
       "characters": ["vin"],
@@ -20,10 +138,10 @@
           "chapter": "2"
         }
       ],
-      "title": "A scam at the Canton of Finance",
+      "title": "Vin works Camon's cons with her Luck",
       "summary": [
         {
-          "text": "Vin, a street thief in Camon's crew, helps him con an obligator at the Ministry's Canton of Finance, secretly using the 'Luck' she has always relied on.",
+          "text": "Vin used her 'Luck' to help Camon con an obligator at the Canton of Finance.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -33,7 +151,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 1
+      "order": 3
     },
     {
       "id": "sh-1e08251c",
@@ -47,10 +165,10 @@
           "chapter": "4"
         }
       ],
-      "title": "Joining Kelsier's crew",
+      "title": "Vin joins Kelsier's crew",
       "summary": [
         {
-          "text": "Kelsier and Dockson take over Camon's hideout. Kelsier tests Vin and tells her she is Mistborn, and she meets his crew and hears their plan to overthrow the Lord Ruler.",
+          "text": "Kelsier took over Camon's crew, told Vin she was Mistborn, and brought her into his own crew.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -60,7 +178,35 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 2
+      "order": 4
+    },
+    {
+      "id": "sh-c530da5a",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[962, 388]],
+      "placeName": "Luthadel city wall",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "7"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin learns to burn metals",
+      "summary": [
+        {
+          "text": "Kelsier taught Vin to burn the eight basic metals.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 5
     },
     {
       "id": "sh-df10760b",
@@ -77,7 +223,7 @@
           "chapter": "8"
         }
       ],
-      "title": "Off to Fellise",
+      "title": "Vin moves to Fellise",
       "art": {
         "src": "/journey-art/sh-df10760b.webp",
         "alt": "Two small cloaked figures, one in a tasselled mistcloak, stand in falling ash and mist below Luthadel's towering dark walls and spires, faint blue lines running from them.",
@@ -89,7 +235,7 @@
       },
       "summary": [
         {
-          "text": "To train as a noblewoman, Vin goes to Lord Renoux's mansion in Fellise, a short way outside Luthadel.",
+          "text": "Vin moved to Fellise to train as Lady Valette Renoux, with Sazed as her steward.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -99,7 +245,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 3,
+      "order": 6,
       "placeName": "Fellise"
     },
     {
@@ -114,7 +260,7 @@
           "chapter": "12"
         }
       ],
-      "title": "Meeting Elend",
+      "title": "Vin meets Elend",
       "art": {
         "src": "/journey-art/sh-aaff7675.webp",
         "alt": "A young woman in a red gown approaches a young nobleman reading at a lamp-lit table in a grand hall.",
@@ -126,7 +272,7 @@
       },
       "summary": [
         {
-          "text": "Vin attends her first ball as Lady Valette Renoux, where she meets Elend Venture for the first time.",
+          "text": "At her first ball as Valette, Vin met Elend Venture.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -136,7 +282,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 4
+      "order": 7
     },
     {
       "id": "sh-b2c0c580",
@@ -150,10 +296,19 @@
           "chapter": "14"
         }
       ],
-      "title": "Into Kredik Shaw",
+      "title": "Vin and Kelsier raid Kredik Shaw",
+      "art": {
+        "src": "/journey-art/sh-b2c0c580.webp",
+        "alt": "Two mistcloaked figures leap across Luthadel's rooftops at night toward the lit, many-spired palace.",
+        "credit": {
+          "text": "Ricky Ho",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Ricky_Ho"
+        },
+        "position": "50% 15%"
+      },
       "summary": [
         {
-          "text": "Kelsier takes Vin into the Lord Ruler's palace. Fighting their way out, she kills for the first time and narrowly escapes an Inquisitor.",
+          "text": "Kelsier led Vin into Kredik Shaw. She killed for the first time and barely escaped the Inquisitors.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -163,7 +318,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 5,
+      "order": 8,
       "placeName": "Kredik Shaw"
     },
     {
@@ -181,10 +336,10 @@
           "chapter": "25"
         }
       ],
-      "title": "The army's caves",
+      "title": "The skaa army is crushed",
       "summary": [
         {
-          "text": "Vin and Kelsier race out to the caves where the crew's skaa army trained, after most of it marched out to fight too early.",
+          "text": "The skaa army attacked too early and was crushed; Vin stopped Kelsier from fighting alone.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -194,35 +349,35 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 6,
+      "order": 9,
       "placeName": "Arguois caverns"
     },
     {
-      "id": "sh-e0854ed8",
+      "id": "sh-5bcd02d3",
       "characters": ["vin"],
       "mapId": "luthadel",
-      "path": [[663, 520]],
-      "placeName": "Fountain Square",
+      "path": [[440, 458]],
+      "placeName": "The Twists",
       "revealedIn": [
         {
           "book": "final-empire",
-          "chapter": "26"
+          "chapter": "27"
         }
       ],
-      "title": "Executions in the square",
+      "title": "Vin burns gold",
       "summary": [
         {
-          "text": "In Fountain Square, Vin watches the Lord Ruler's Inquisitors behead skaa in public.",
+          "text": "Vin burned gold for the first time and saw two versions of herself.",
           "revealedIn": [
             {
               "book": "final-empire",
-              "chapter": "26"
+              "chapter": "27"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 7
+      "order": 10
     },
     {
       "id": "sh-b884e9f6",
@@ -236,7 +391,7 @@
           "chapter": "30"
         }
       ],
-      "title": "Saving Elend",
+      "title": "Vin saves Elend from assassins",
       "art": {
         "src": "/journey-art/sh-b884e9f6.webp",
         "alt": "Vin, in a white shirt and mistcloak, grapples at close quarters with a dark-haired noblewoman Allomancer among tall spires.",
@@ -248,7 +403,7 @@
       },
       "summary": [
         {
-          "text": "At the last ball at Keep Venture, Vin learns that assassins are after Elend, fights them off and kills Shan Elariel, though she is badly hurt.",
+          "text": "Vin fought off assassins sent for Elend at Keep Venture and killed Shan Elariel.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -258,7 +413,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 8
+      "order": 11
     },
     {
       "id": "sh-801a9b53",
@@ -273,7 +428,7 @@
           "chapter": "34"
         }
       ],
-      "title": "Kelsier's death",
+      "title": "Vin watches Kelsier die",
       "art": {
         "src": "/journey-art/sh-801a9b53.webp",
         "alt": "The Lord Ruler, long-haired in a dark embroidered coat, strides forward unharmed with two spears run through his chest, Luthadel's spires behind him under a red sky.",
@@ -285,7 +440,7 @@
       },
       "summary": [
         {
-          "text": "In Fountain Square, Vin watches the Lord Ruler kill Kelsier in front of a crowd of skaa.",
+          "text": "The Lord Ruler killed Kelsier in Fountain Square.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -295,7 +450,34 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 9
+      "order": 12
+    },
+    {
+      "id": "sh-2d52e188",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[760, 620]],
+      "placeName": "Kelsier's warehouse",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "35"
+        }
+      ],
+      "title": "Vin learns Kelsier's real plan",
+      "summary": [
+        {
+          "text": "OreSeur revealed Kelsier's plan to become the skaa's martyr and gave Vin the Eleventh Metal.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "35"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 13
     },
     {
       "id": "sh-f1020cbf",
@@ -309,7 +491,7 @@
           "chapter": "36"
         }
       ],
-      "title": "Past the Inquisitors",
+      "title": "Vin is captured in Kredik Shaw",
       "art": {
         "src": "/journey-art/sh-f1020cbf.webp",
         "alt": "Vin, in a tasselled mistcloak and holding a dagger, flies through the night towards the spires of a dark palace above a lit gate.",
@@ -321,7 +503,7 @@
       },
       "summary": [
         {
-          "text": "Vin breaks into Kredik Shaw alone and gets past two Inquisitors to reach the Lord Ruler's secret building.",
+          "text": "Vin was captured breaking into Kredik Shaw, and the Lord Ruler had her father killed.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -331,7 +513,35 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 10,
+      "order": 14,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-06491cb6",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "37"
+        }
+      ],
+      "title": "Elend learns who Vin really is",
+      "summary": [
+        {
+          "text": "Sazed and Elend freed Vin, and Elend learned she was a skaa Mistborn.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 15,
       "placeName": "Kredik Shaw"
     },
     {
@@ -346,7 +556,7 @@
           "chapter": "38"
         }
       ],
-      "title": "Killing the Lord Ruler",
+      "title": "Vin kills the Lord Ruler",
       "art": {
         "src": "/journey-art/sh-af445d53.webp",
         "alt": "Wreathed in swirling mist, Vin faces the Lord Ruler, who grips a kneeling Steel Inquisitor by the head with one hand and reaches towards her with the other.",
@@ -358,7 +568,7 @@
       },
       "summary": [
         {
-          "text": "Freed from her cell by Sazed, Vin fights the Lord Ruler, draws power from the mists, tears off his bracers and kills him.",
+          "text": "Vin drew on the mists and killed the Lord Ruler.",
           "revealedIn": [
             {
               "book": "final-empire",
@@ -368,45 +578,93 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 11,
+      "order": 16,
       "placeName": "Kredik Shaw"
     },
     {
-      "id": "sh-bda41634",
+      "id": "sh-5658768e",
       "characters": ["vin"],
       "mapId": "luthadel",
       "path": [[988, 448]],
-      "placeId": "luthadel",
+      "placeName": "Keep Venture",
       "revealedIn": [
         {
-          "book": "well-of-ascension",
-          "chapter": "2"
+          "book": "final-empire",
+          "chapter": "epilogue"
         }
       ],
       "approximate": true,
-      "title": "Ambushed in the mists",
-      "art": {
-        "src": "/journey-art/sh-bda41634.webp",
-        "alt": "Vin in a mistcloak flings coins through the mists, cutting down an attacker who falls backwards.",
-        "credit": {
-          "text": "Howard Lyon",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Howard_Lyon"
-        },
-        "position": "50% 30%"
-      },
+      "title": "Vin chooses Elend",
       "summary": [
         {
-          "text": "A year after the Lord Ruler's fall, a group of Allomancers attacks Vin in the mists. She beats them with help from an unknown Mistborn watching her.",
+          "text": "OreSeur's Contract passed to Vin, and she chose to stay with Elend.",
           "revealedIn": [
             {
-              "book": "well-of-ascension",
-              "chapter": "2"
+              "book": "final-empire",
+              "chapter": "epilogue"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 12,
+      "order": 17
+    },
+    {
+      "id": "sh-817a963a",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "8"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin discovers duralumin",
+      "summary": [
+        {
+          "text": "Vin burned duralumin by accident, and the Mistborn watching her spoke to her.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 18,
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-4a439920",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "13"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin confronts the mist spirit",
+      "summary": [
+        {
+          "text": "The mist spirit wounded Vin, and she began to fear the mists.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "13"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 19,
       "placeName": "Luthadel"
     },
     {
@@ -421,10 +679,10 @@
           "chapter": "17"
         }
       ],
-      "title": "Straff's messenger",
+      "title": "Vin learns the Watcher is Zane",
       "summary": [
         {
-          "text": "A messenger from Straff Venture's army turns out to be the Mistborn who has been watching Vin.",
+          "text": "Vin learned the Mistborn watching her was Zane, Straff's messenger.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -434,7 +692,35 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 13
+      "order": 20
+    },
+    {
+      "id": "sh-e70170e8",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "34"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin learns Zane is Elend's brother",
+      "summary": [
+        {
+          "text": "Zane told Vin he was Elend's half-brother and asked her to leave with him.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 21
     },
     {
       "id": "sh-01df3bf9",
@@ -448,7 +734,7 @@
           "chapter": "38"
         }
       ],
-      "title": "Attack at the Assembly",
+      "title": "Vin saves Elend at the Assembly",
       "art": {
         "src": "/journey-art/sh-01df3bf9.webp",
         "alt": "Vin in a white gown, bloodied and holding a dagger, looks back over her shoulder.",
@@ -460,7 +746,7 @@
       },
       "summary": [
         {
-          "text": "When Allomancers attack Elend at an Assembly meeting, Vin kills them in front of the crowd but is badly hurt.",
+          "text": "Vin killed the Allomancers who attacked Elend at the Assembly.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -470,35 +756,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 14
-    },
-    {
-      "id": "sh-c19095c5",
-      "characters": ["vin"],
-      "mapId": "final-empire",
-      "path": [[1268, 782]],
-      "placeName": "Straff's camp",
-      "revealedIn": [
-        {
-          "book": "well-of-ascension",
-          "chapter": "26"
-        }
-      ],
-      "approximate": true,
-      "title": "In Straff's camp",
-      "summary": [
-        {
-          "text": "Vin goes with Elend into his father Straff's army camp outside Luthadel to negotiate.",
-          "revealedIn": [
-            {
-              "book": "well-of-ascension",
-              "chapter": "26"
-            }
-          ]
-        }
-      ],
-      "source": "scadrial-hand",
-      "order": 15
+      "order": 22
     },
     {
       "id": "sh-917beb27",
@@ -512,10 +770,10 @@
           "chapter": "43"
         }
       ],
-      "title": "Attack on Keep Hasting",
+      "title": "Vin storms Keep Hasting",
       "summary": [
         {
-          "text": "Pushed by Zane, Vin storms Keep Hasting, where Lord Cett is staying, and comes close to killing him.",
+          "text": "Urged by Zane, Vin attacked Keep Hasting and nearly killed Lord Cett.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -525,7 +783,34 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 16
+      "order": 23
+    },
+    {
+      "id": "sh-c7b22aa1",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "44"
+        }
+      ],
+      "title": "Vin decides to go north",
+      "summary": [
+        {
+          "text": "Vin decided to leave Luthadel and go north to Terris.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "44"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 24
     },
     {
       "id": "sh-1f0b8509",
@@ -540,10 +825,10 @@
         }
       ],
       "approximate": true,
-      "title": "Killing Zane",
+      "title": "Vin kills Zane",
       "summary": [
         {
-          "text": "When Vin refuses to leave with him, Zane attacks her. OreSeur turns out to be Zane's kandra, TenSoon, and Vin kills Zane.",
+          "text": "Vin killed Zane. OreSeur turned out to be TenSoon, Zane's kandra.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -553,7 +838,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 17,
+      "order": 25,
       "placeName": "Luthadel"
     },
     {
@@ -569,10 +854,10 @@
         }
       ],
       "approximate": true,
-      "title": "Marrying Elend",
+      "title": "Vin marries Elend",
       "summary": [
         {
-          "text": "Wounded, Vin proposes to Elend, and Sazed marries them.",
+          "text": "Vin married Elend, with Sazed officiating.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -582,7 +867,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 18,
+      "order": 26,
       "placeName": "Luthadel"
     },
     {
@@ -597,55 +882,24 @@
       "revealedIn": [
         {
           "book": "well-of-ascension",
-          "chapter": "49"
+          "chapter": "51"
         }
       ],
       "approximate": true,
-      "title": "Leaving for the north",
+      "title": "Vin turns back for Luthadel",
       "summary": [
         {
-          "text": "Vin and Elend leave the besieged city, heading north to look for the Well of Ascension.",
+          "text": "Vin realized the Well was in Luthadel and turned back.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
-              "chapter": "49"
+              "chapter": "51"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 19
-    },
-    {
-      "id": "sh-9a7b4e93",
-      "characters": ["vin"],
-      "mapId": "final-empire",
-      "path": [
-        [1285, 560],
-        [1273, 805]
-      ],
-      "placeName": "Road to Luthadel",
-      "revealedIn": [
-        {
-          "book": "well-of-ascension",
-          "chapter": "52"
-        }
-      ],
-      "approximate": true,
-      "title": "Racing back",
-      "summary": [
-        {
-          "text": "Learning that the koloss outside Luthadel have no one controlling them, Vin runs back alone on a pewter drag.",
-          "revealedIn": [
-            {
-              "book": "well-of-ascension",
-              "chapter": "52"
-            }
-          ]
-        }
-      ],
-      "source": "scadrial-hand",
-      "order": 20
+      "order": 27
     },
     {
       "id": "sh-ecc71db4",
@@ -660,7 +914,7 @@
         }
       ],
       "approximate": true,
-      "title": "Koloss in the city",
+      "title": "Vin takes control of the koloss",
       "art": {
         "src": "/journey-art/sh-ecc71db4.webp",
         "alt": "Vin swings a huge sword as she fights her way through a crowd of koloss in a city under a red sky.",
@@ -672,7 +926,7 @@
       },
       "summary": [
         {
-          "text": "Back in the city, Vin fights through the koloss to Keep Hasting and takes control of them.",
+          "text": "Vin used duralumin to take control of the koloss attacking Luthadel.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -682,7 +936,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 21
+      "order": 28
     },
     {
       "id": "sh-c22c3d95",
@@ -697,10 +951,10 @@
         }
       ],
       "approximate": true,
-      "title": "Killing Straff",
+      "title": "Vin kills Straff",
       "summary": [
         {
-          "text": "Leading the koloss, Vin attacks Straff's army, kills Straff, and makes the other lords accept Elend as emperor.",
+          "text": "Vin killed Straff, and the other lords accepted Elend as emperor.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -710,7 +964,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 22
+      "order": 29
     },
     {
       "id": "sh-ec00b035",
@@ -724,7 +978,7 @@
           "chapter": "58"
         }
       ],
-      "title": "The Well of Ascension",
+      "title": "Vin gives up the Well's power",
       "art": {
         "src": "/journey-art/sh-ec00b035.webp",
         "alt": "Vin stands in a swirl of white, eyes blank and glowing, as power rises up around her.",
@@ -736,7 +990,7 @@
       },
       "summary": [
         {
-          "text": "Beneath Kredik Shaw, Vin finds the Well of Ascension and takes in its power. She gives it up instead of using it, and frees something imprisoned there.",
+          "text": "Vin took the Well of Ascension's power, gave it up, and freed what was imprisoned there.",
           "revealedIn": [
             {
               "book": "well-of-ascension",
@@ -746,7 +1000,35 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 23,
+      "order": 30,
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "sh-2fbb19cd",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "well-of-ascension",
+          "chapter": "59"
+        }
+      ],
+      "title": "Vin saves Elend, who becomes Mistborn",
+      "summary": [
+        {
+          "text": "Vin fed the dying Elend a bead of metal from the Well, and he became Mistborn.",
+          "revealedIn": [
+            {
+              "book": "well-of-ascension",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 31,
       "placeName": "Kredik Shaw"
     },
     {
@@ -761,7 +1043,7 @@
           "chapter": "5"
         }
       ],
-      "title": "Saving Vetitan",
+      "title": "Vin and Elend save Vetitan",
       "art": {
         "src": "/journey-art/sh-19da4edf.webp",
         "alt": "Vin stands on top of a fallen koloss, a huge spear beside her, under a grey sky",
@@ -773,7 +1055,7 @@
       },
       "summary": [
         {
-          "text": "Vin and Elend save Vetitan from a koloss army by taking control of it, then find a storage cavern hidden by the Lord Ruler beneath the town.",
+          "text": "Vin and Elend took control of a koloss army at Vetitan and found a storage cache.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -783,72 +1065,36 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 24,
+      "order": 32,
       "placeName": "Vetitan"
     },
     {
-      "id": "sh-db10fedd",
+      "id": "sh-8b2e504f",
       "characters": ["vin"],
       "mapId": "final-empire",
-      "path": [[881, 752]],
-      "placeId": "fadrex-city",
+      "path": [[1000, 830]],
+      "placeName": "On the march",
       "revealedIn": [
         {
           "book": "hero-of-ages",
-          "chapter": "25"
+          "chapter": "15"
         }
       ],
-      "title": "Outside Fadrex",
-      "art": {
-        "src": "/journey-art/sh-db10fedd.webp",
-        "alt": "An army winds through a rugged, ashy landscape toward a city in the hills under a swirling sky",
-        "credit": {
-          "text": "Michael \"Stickmouse\" Howard",
-          "url": "https://www.artstation.com/artwork/OWWYb"
-        },
-        "position": "50% 55%"
-      },
+      "approximate": true,
+      "title": "Vin turns against the mists",
       "summary": [
         {
-          "text": "Elend's army camps outside Fadrex City, held by King Yomen, and Vin sets out to scout it.",
+          "text": "Vin decided the mists were her enemy.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
-              "chapter": "25"
+              "chapter": "15"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 25,
-      "placeName": "Fadrex City"
-    },
-    {
-      "id": "sh-17e61f47",
-      "characters": ["vin"],
-      "mapId": "fadrex-city",
-      "path": [[193, 617]],
-      "placeName": "Slowswift's home",
-      "revealedIn": [
-        {
-          "book": "hero-of-ages",
-          "chapter": "27"
-        }
-      ],
-      "title": "Into Fadrex",
-      "summary": [
-        {
-          "text": "Vin slips into Fadrex City and visits an informant, Slowswift, to learn about Yomen.",
-          "revealedIn": [
-            {
-              "book": "hero-of-ages",
-              "chapter": "27"
-            }
-          ]
-        }
-      ],
-      "source": "scadrial-hand",
-      "order": 26
+      "order": 33
     },
     {
       "id": "sh-877c8965",
@@ -862,7 +1108,7 @@
           "chapter": "30"
         }
       ],
-      "title": "Ball at Keep Orielle",
+      "title": "Vin and Elend crash Yomen's ball",
       "art": {
         "src": "/journey-art/sh-877c8965.webp",
         "alt": "Elend in a light suit holds Vin's hand as she stands in a long blue ball gown",
@@ -874,7 +1120,7 @@
       },
       "summary": [
         {
-          "text": "Vin and Elend walk openly into a ball at Keep Orielle, in the heart of Yomen's city.",
+          "text": "Vin and Elend walked into King Yomen's ball at Keep Orielle.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -884,8 +1130,36 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 27,
+      "order": 34,
       "placeName": "Keep Orielle"
+    },
+    {
+      "id": "sh-45a0402c",
+      "characters": ["vin"],
+      "mapId": "final-empire",
+      "path": [[900, 765]],
+      "placeName": "Camp outside Fadrex",
+      "revealedIn": [
+        {
+          "book": "hero-of-ages",
+          "chapter": "37"
+        }
+      ],
+      "approximate": true,
+      "title": "Vin learns how koloss are made",
+      "summary": [
+        {
+          "text": "Vin learned that koloss are made from people.",
+          "revealedIn": [
+            {
+              "book": "hero-of-ages",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 35
     },
     {
       "id": "sh-ea302699",
@@ -896,52 +1170,51 @@
       "revealedIn": [
         {
           "book": "hero-of-ages",
-          "chapter": "44"
+          "chapter": "45"
         }
       ],
-      "title": "Beneath the Canton of Resource",
+      "title": "Vin comes face to face with Ruin",
       "summary": [
         {
-          "text": "During a ball at the Canton of Resource, Vin goes searching underground for the city's storage cavern and is locked in.",
+          "text": "In the cache under the Canton of Resource, Vin met Ruin, who had posed as Reen.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
-              "chapter": "44"
+              "chapter": "45"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 28
+      "order": 36
     },
     {
-      "id": "sh-c2114b91",
+      "id": "sh-59a9d180",
       "characters": ["vin"],
       "mapId": "fadrex-city",
       "path": [[372, 706]],
-      "placeId": "fadrex-city",
+      "placeName": "Canton of Resource",
       "revealedIn": [
         {
           "book": "hero-of-ages",
-          "chapter": "54"
+          "chapter": "63"
         }
       ],
       "approximate": true,
-      "title": "Yomen's prisoner",
+      "title": "Vin sees how Ruin used her",
       "summary": [
         {
-          "text": "Vin wakes in chains with no metals, a prisoner of King Yomen.",
+          "text": "Vin realized Ruin had used her and Elend to find the storage caches.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
-              "chapter": "54"
+              "chapter": "63"
             }
           ]
         }
       ],
       "source": "scadrial-hand",
-      "order": 29,
-      "placeName": "Fadrex City"
+      "order": 37
     },
     {
       "id": "sh-a67d0b3e",
@@ -956,10 +1229,10 @@
         }
       ],
       "approximate": true,
-      "title": "Breaking free",
+      "title": "Vin breaks out of Yomen's prison",
       "summary": [
         {
-          "text": "Vin breaks out of Yomen's prison and fights off Marsh, and Yomen lets Elend's army into Fadrex.",
+          "text": "Vin broke out of Yomen's prison and drove off Marsh.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -969,7 +1242,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 30,
+      "order": 38,
       "placeName": "Fadrex City"
     },
     {
@@ -985,10 +1258,10 @@
         }
       ],
       "approximate": true,
-      "title": "Koloss at the gates",
+      "title": "Vin sets out to bait Ruin",
       "summary": [
         {
-          "text": "From inside Fadrex, Vin watches a huge koloss army gather outside the city with Elend and Yomen.",
+          "text": "Vin left Fadrex for Luthadel to draw out Ruin.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -998,7 +1271,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 31,
+      "order": 39,
       "placeName": "Fadrex City"
     },
     {
@@ -1016,7 +1289,7 @@
           "chapter": "72"
         }
       ],
-      "title": "Back to Luthadel",
+      "title": "Vin falls to Ruin's Inquisitors",
       "art": {
         "src": "/journey-art/sh-6a8829d5.webp",
         "alt": "Vin clings to a tall spiked spire high above a city as robed figures leap through the air around her",
@@ -1028,7 +1301,7 @@
       },
       "summary": [
         {
-          "text": "Vin reaches Luthadel with Mistborn on her trail, and Inquisitors waiting.",
+          "text": "Inquisitors captured Vin in Luthadel, and Marsh tore out her earring.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -1038,7 +1311,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 32,
+      "order": 40,
       "placeName": "Luthadel"
     },
     {
@@ -1053,7 +1326,7 @@
           "chapter": "73"
         }
       ],
-      "title": "Killing the Inquisitors",
+      "title": "Vin draws in the mists",
       "art": {
         "src": "/journey-art/sh-9bbbad13.webp",
         "alt": "Vin, sword in hand, fights a swarm of leaping, spiked Inquisitors among tall stone spires",
@@ -1065,7 +1338,7 @@
       },
       "summary": [
         {
-          "text": "With her earring torn out, Vin draws the mists into herself, kills the Inquisitors and brings down Kredik Shaw.",
+          "text": "Vin drew in the mists, killed the Inquisitors and brought down Kredik Shaw.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -1075,7 +1348,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 33,
+      "order": 41,
       "placeName": "Kredik Shaw"
     },
     {
@@ -1091,10 +1364,10 @@
         }
       ],
       "approximate": true,
-      "title": "Above Luthadel",
+      "title": "Vin takes the mists' power",
       "summary": [
         {
-          "text": "Holding the mists' power, Vin rises above Luthadel and confronts Ruin while she tries to repair the land.",
+          "text": "Vin took the mists' full power and faced Ruin.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -1104,11 +1377,11 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 34,
+      "order": 42,
       "placeName": "Luthadel"
     },
     {
-      "id": "sh-697ef5bd",
+      "id": "sh-f0c60329",
       "characters": ["vin"],
       "mapId": "final-empire",
       "path": [
@@ -1119,39 +1392,11 @@
       "revealedIn": [
         {
           "book": "hero-of-ages",
-          "chapter": "79"
-        }
-      ],
-      "title": "The Pits of Hathsin",
-      "summary": [
-        {
-          "text": "Vin follows Ruin to the Pits of Hathsin, where refugees are sheltering.",
-          "revealedIn": [
-            {
-              "book": "hero-of-ages",
-              "chapter": "79"
-            }
-          ]
-        }
-      ],
-      "source": "scadrial-hand",
-      "order": 35,
-      "placeName": "Pits of Hathsin"
-    },
-    {
-      "id": "sh-f0c60329",
-      "characters": ["vin"],
-      "mapId": "final-empire",
-      "path": [[1140, 632]],
-      "placeId": "pits-of-hathsin",
-      "revealedIn": [
-        {
-          "book": "hero-of-ages",
           "chapter": "81"
         }
       ],
       "approximate": true,
-      "title": "The last battle",
+      "title": "Vin gives her life to stop Ruin",
       "art": {
         "src": "/journey-art/sh-f0c60329.webp",
         "alt": "Elend swings a huge sword while Vin, eyes glowing, raises a hand beside him amid falling ash and mist",
@@ -1163,7 +1408,7 @@
       },
       "summary": [
         {
-          "text": "As Elend and his soldiers face the koloss, Vin sacrifices herself to kill Ruin.",
+          "text": "After Marsh killed Elend, Vin destroyed Ruin and died.",
           "revealedIn": [
             {
               "book": "hero-of-ages",
@@ -1173,7 +1418,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 36,
+      "order": 43,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -1201,7 +1446,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 37
+      "order": 44
     },
     {
       "id": "sh-f790a3bd",
@@ -1232,7 +1477,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 38
+      "order": 45
     },
     {
       "id": "sh-87c429c7",
@@ -1260,7 +1505,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 39
+      "order": 46
     },
     {
       "id": "sh-53ae8f39",
@@ -1288,7 +1533,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 40
+      "order": 47
     },
     {
       "id": "sh-eeb97881",
@@ -1318,7 +1563,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 41,
+      "order": 48,
       "placeName": "Urteau"
     },
     {
@@ -1346,7 +1591,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 42,
+      "order": 49,
       "placeName": "Urteau"
     },
     {
@@ -1374,7 +1619,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 43,
+      "order": 50,
       "placeName": "Urteau"
     },
     {
@@ -1403,7 +1648,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 44
+      "order": 51
     },
     {
       "id": "sh-077f1a0b",
@@ -1430,7 +1675,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 45,
+      "order": 52,
       "placeName": "Fadrex City"
     },
     {
@@ -1458,7 +1703,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 46,
+      "order": 53,
       "placeName": "Keep Orielle"
     },
     {
@@ -1486,7 +1731,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 47,
+      "order": 54,
       "placeName": "Fadrex City"
     },
     {
@@ -1514,7 +1759,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 48
+      "order": 55
     },
     {
       "id": "sh-37d490f0",
@@ -1542,7 +1787,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 49
+      "order": 56
     },
     {
       "id": "sh-548e2174",
@@ -1570,7 +1815,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 50,
+      "order": 57,
       "placeName": "Fadrex City"
     },
     {
@@ -1598,7 +1843,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 51
+      "order": 58
     },
     {
       "id": "sh-1cdc674a",
@@ -1626,7 +1871,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 52,
+      "order": 59,
       "placeName": "Fadrex City"
     },
     {
@@ -1654,7 +1899,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 53,
+      "order": 60,
       "placeName": "Fadrex City"
     },
     {
@@ -1683,7 +1928,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 54,
+      "order": 61,
       "placeName": "Luthadel"
     },
     {
@@ -1712,7 +1957,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 55
+      "order": 62
     },
     {
       "id": "sh-266b033a",
@@ -1739,7 +1984,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 56
+      "order": 63
     },
     {
       "id": "sh-03f4cb40",
@@ -1766,7 +2011,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 57
+      "order": 64
     },
     {
       "id": "sh-0e31da6e",
@@ -1794,7 +2039,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 58
+      "order": 65
     },
     {
       "id": "sh-b7dd00cd",
@@ -1822,7 +2067,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 59
+      "order": 66
     },
     {
       "id": "sh-0329f409",
@@ -1858,7 +2103,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 60,
+      "order": 67,
       "placeName": "Fadrex City"
     },
     {
@@ -1887,7 +2132,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 61,
+      "order": 68,
       "placeName": "Fadrex City"
     },
     {
@@ -1915,7 +2160,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 62
+      "order": 69
     },
     {
       "id": "sh-bb1354c7",
@@ -1943,7 +2188,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 63,
+      "order": 70,
       "placeName": "Luthadel"
     },
     {
@@ -1971,7 +2216,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 64
+      "order": 71
     },
     {
       "id": "sh-6656ad2d",
@@ -1998,7 +2243,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 65
+      "order": 72
     },
     {
       "id": "sh-2f651b4b",
@@ -2025,7 +2270,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 66,
+      "order": 73,
       "placeName": "Western Dominance"
     },
     {
@@ -2057,7 +2302,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 67,
+      "order": 74,
       "placeName": "Luthadel"
     },
     {
@@ -2085,7 +2330,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 68
+      "order": 75
     },
     {
       "id": "sh-8e11b4e4",
@@ -2112,7 +2357,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 69
+      "order": 76
     },
     {
       "id": "sh-73694961",
@@ -2140,7 +2385,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 70
+      "order": 77
     },
     {
       "id": "sh-1be25052",
@@ -2167,7 +2412,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 71
+      "order": 78
     },
     {
       "id": "sh-60d1e20d",
@@ -2194,7 +2439,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 72
+      "order": 79
     },
     {
       "id": "sh-479e3cdf",
@@ -2224,7 +2469,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 73,
+      "order": 80,
       "placeName": "Urteau"
     },
     {
@@ -2252,7 +2497,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 74,
+      "order": 81,
       "placeName": "Urteau"
     },
     {
@@ -2280,7 +2525,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 75,
+      "order": 82,
       "placeName": "Urteau"
     },
     {
@@ -2308,7 +2553,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 76,
+      "order": 83,
       "placeName": "Urteau"
     },
     {
@@ -2336,7 +2581,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 77,
+      "order": 84,
       "placeName": "Urteau"
     },
     {
@@ -2365,7 +2610,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 78
+      "order": 85
     },
     {
       "id": "sh-8590c990",
@@ -2392,7 +2637,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 79
+      "order": 86
     },
     {
       "id": "sh-b156607a",
@@ -2420,7 +2665,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 80
+      "order": 87
     },
     {
       "id": "sh-df019801",
@@ -2449,7 +2694,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 81
+      "order": 88
     },
     {
       "id": "sh-86e4bd5d",
@@ -2476,7 +2721,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 82
+      "order": 89
     },
     {
       "id": "sh-ab793ce6",
@@ -2504,7 +2749,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 83
+      "order": 90
     },
     {
       "id": "sh-896e3183",
@@ -2531,7 +2776,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 84
+      "order": 91
     },
     {
       "id": "sh-b1fdb2fa",
@@ -2558,7 +2803,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 85
+      "order": 92
     },
     {
       "id": "sh-db867a32",
@@ -2594,7 +2839,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 86,
+      "order": 93,
       "placeName": "Arguois caverns"
     },
     {
@@ -2622,7 +2867,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 87,
+      "order": 94,
       "placeName": "Arguois caverns"
     },
     {
@@ -2651,7 +2896,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 88,
+      "order": 95,
       "placeName": "Luthadel"
     },
     {
@@ -2680,7 +2925,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 89
+      "order": 96
     },
     {
       "id": "sh-afcfbc48",
@@ -2708,7 +2953,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 90
+      "order": 97
     },
     {
       "id": "sh-e908ac40",
@@ -2736,7 +2981,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 91
+      "order": 98
     },
     {
       "id": "sh-efb9381e",
@@ -2766,7 +3011,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 92,
+      "order": 99,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -2794,7 +3039,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 93,
+      "order": 100,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -2822,7 +3067,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 94
+      "order": 101
     },
     {
       "id": "sh-ee27d86e",
@@ -2849,7 +3094,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 95
+      "order": 102
     },
     {
       "id": "sh-a13d5d04",
@@ -2879,7 +3124,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 96,
+      "order": 103,
       "placeName": "Fellise"
     },
     {
@@ -2907,7 +3152,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 97
+      "order": 104
     },
     {
       "id": "sh-2bb8a556",
@@ -2936,7 +3181,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 98
+      "order": 105
     },
     {
       "id": "sh-a1331ebb",
@@ -2963,7 +3208,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 99
+      "order": 106
     },
     {
       "id": "sh-36793492",
@@ -2990,7 +3235,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 100
+      "order": 107
     },
     {
       "id": "sh-ebab4d37",
@@ -3026,7 +3271,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 101
+      "order": 108
     },
     {
       "id": "sh-a8c88a8f",
@@ -3053,7 +3298,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 102
+      "order": 109
     },
     {
       "id": "sh-d4b72514",
@@ -3080,7 +3325,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 103
+      "order": 110
     },
     {
       "id": "sh-ed9b6b4c",
@@ -3107,7 +3352,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 104
+      "order": 111
     },
     {
       "id": "sh-e5a64542",
@@ -3134,7 +3379,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 105,
+      "order": 112,
       "placeName": "Kredik Shaw"
     },
     {
@@ -3163,7 +3408,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 106,
+      "order": 113,
       "placeName": "Luthadel"
     },
     {
@@ -3191,7 +3436,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 107,
+      "order": 114,
       "placeName": "Luthadel"
     },
     {
@@ -3219,7 +3464,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 108
+      "order": 115
     },
     {
       "id": "sh-59f363f3",
@@ -3256,7 +3501,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 109
+      "order": 116
     },
     {
       "id": "sh-8e75be88",
@@ -3283,7 +3528,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 110
+      "order": 117
     },
     {
       "id": "sh-369eb0f4",
@@ -3311,7 +3556,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 111
+      "order": 118
     },
     {
       "id": "sh-b6d20355",
@@ -3339,7 +3584,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 112
+      "order": 119
     },
     {
       "id": "sh-79f8860e",
@@ -3370,7 +3615,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 113
+      "order": 120
     },
     {
       "id": "sh-8ed5d756",
@@ -3398,7 +3643,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 114
+      "order": 121
     },
     {
       "id": "sh-4d52ed1f",
@@ -3425,7 +3670,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 115,
+      "order": 122,
       "placeName": "Luthadel"
     },
     {
@@ -3453,7 +3698,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 116,
+      "order": 123,
       "placeName": "Kredik Shaw"
     },
     {
@@ -3481,7 +3726,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 117,
+      "order": 124,
       "placeName": "Vetitan"
     },
     {
@@ -3518,7 +3763,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 118,
+      "order": 125,
       "placeName": "Fadrex City"
     },
     {
@@ -3555,7 +3800,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 119,
+      "order": 126,
       "placeName": "Keep Orielle"
     },
     {
@@ -3583,7 +3828,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 120
+      "order": 127
     },
     {
       "id": "sh-b3b28201",
@@ -3611,7 +3856,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 121
+      "order": 128
     },
     {
       "id": "sh-b4b6d2a1",
@@ -3638,7 +3883,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 122
+      "order": 129
     },
     {
       "id": "sh-a3763780",
@@ -3668,7 +3913,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 123,
+      "order": 130,
       "placeName": "Luthadel"
     },
     {
@@ -3705,7 +3950,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 124
+      "order": 131
     },
     {
       "id": "sh-462fffbd",
@@ -3744,7 +3989,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 125,
+      "order": 132,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -3772,7 +4017,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 126
+      "order": 133
     },
     {
       "id": "sh-233c97fc",
@@ -3799,7 +4044,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 127
+      "order": 134
     },
     {
       "id": "sh-2a673a3e",
@@ -3827,7 +4072,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 128
+      "order": 135
     },
     {
       "id": "sh-a390639a",
@@ -3854,7 +4099,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 129
+      "order": 136
     },
     {
       "id": "sh-3e13a98d",
@@ -3882,7 +4127,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 130
+      "order": 137
     },
     {
       "id": "sh-103907fe",
@@ -3909,7 +4154,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 131
+      "order": 138
     },
     {
       "id": "sh-4756ee3f",
@@ -3937,7 +4182,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 132
+      "order": 139
     },
     {
       "id": "sh-f6cd54d3",
@@ -3964,7 +4209,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 133
+      "order": 140
     },
     {
       "id": "sh-97e8e848",
@@ -3991,7 +4236,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 134,
+      "order": 141,
       "placeName": "Luthadel"
     },
     {
@@ -4019,7 +4264,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 135,
+      "order": 142,
       "placeName": "Kredik Shaw"
     },
     {
@@ -4047,7 +4292,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 136,
+      "order": 143,
       "placeName": "Kredik Shaw"
     },
     {
@@ -4078,7 +4323,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 137,
+      "order": 144,
       "placeName": "Urteau"
     },
     {
@@ -4106,7 +4351,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 138,
+      "order": 145,
       "placeName": "Urteau"
     },
     {
@@ -4134,7 +4379,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 139,
+      "order": 146,
       "placeName": "Urteau"
     },
     {
@@ -4163,7 +4408,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 140
+      "order": 147
     },
     {
       "id": "sh-5cee1cb3",
@@ -4190,7 +4435,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 141
+      "order": 148
     },
     {
       "id": "sh-92f9d652",
@@ -4229,7 +4474,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 142,
+      "order": 149,
       "placeName": "Arguois caverns"
     },
     {
@@ -4257,7 +4502,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 143
+      "order": 150
     },
     {
       "id": "sh-46d5b70a",
@@ -4284,7 +4529,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 144
+      "order": 151
     },
     {
       "id": "sh-baff5b53",
@@ -4312,7 +4557,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 145,
+      "order": 152,
       "placeName": "Luthadel"
     },
     {
@@ -4341,7 +4586,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 146
+      "order": 153
     },
     {
       "id": "sh-a0ec51b2",
@@ -4368,7 +4613,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 147
+      "order": 154
     },
     {
       "id": "sh-062067db",
@@ -4395,7 +4640,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 148,
+      "order": 155,
       "placeName": "Kredik Shaw"
     },
     {
@@ -4432,7 +4677,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 149,
+      "order": 156,
       "placeName": "Fadrex City"
     },
     {
@@ -4461,7 +4706,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 150,
+      "order": 157,
       "placeName": "Fadrex City"
     },
     {
@@ -4490,7 +4735,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 151,
+      "order": 158,
       "placeName": "Fadrex City"
     },
     {
@@ -4519,7 +4764,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 152
+      "order": 159
     },
     {
       "id": "sh-5f956ec8",
@@ -4546,7 +4791,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 153,
+      "order": 160,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -4574,7 +4819,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 154,
+      "order": 161,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -4611,7 +4856,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 155,
+      "order": 162,
       "placeName": "Tresting plantation"
     },
     {
@@ -4639,7 +4884,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 156
+      "order": 163
     },
     {
       "id": "sh-de78b603",
@@ -4666,7 +4911,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 157
+      "order": 164
     },
     {
       "id": "sh-093ed344",
@@ -4693,7 +4938,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 158
+      "order": 165
     },
     {
       "id": "sh-08dc2d87",
@@ -4732,7 +4977,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 159,
+      "order": 166,
       "placeName": "Fellise"
     },
     {
@@ -4760,7 +5005,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 160,
+      "order": 167,
       "placeName": "Kredik Shaw"
     },
     {
@@ -4789,7 +5034,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 161,
+      "order": 168,
       "placeName": "Luthadel"
     },
     {
@@ -4829,7 +5074,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 162,
+      "order": 169,
       "placeName": "Arguois caverns"
     },
     {
@@ -4860,7 +5105,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 163,
+      "order": 170,
       "placeName": "Arguois caverns"
     },
     {
@@ -4888,7 +5133,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 164
+      "order": 171
     },
     {
       "id": "sh-317caebc",
@@ -4918,7 +5163,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 165,
+      "order": 172,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -4956,7 +5201,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 166
+      "order": 173
     },
     {
       "id": "sh-b3399dba",
@@ -4985,7 +5230,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 167
+      "order": 174
     },
     {
       "id": "sh-93ed750d",
@@ -5013,7 +5258,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 168
+      "order": 175
     },
     {
       "id": "sh-6369d866",
@@ -5043,7 +5288,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 169,
+      "order": 176,
       "placeName": "Fellise"
     },
     {
@@ -5072,7 +5317,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 170
+      "order": 177
     },
     {
       "id": "sh-6dfb0e97",
@@ -5101,7 +5346,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 171
+      "order": 178
     },
     {
       "id": "sh-1bfd49b6",
@@ -5137,7 +5382,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 172,
+      "order": 179,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5174,7 +5419,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 173,
+      "order": 180,
       "placeName": "Conventical of Seran"
     },
     {
@@ -5202,7 +5447,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 174,
+      "order": 181,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5230,7 +5475,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 175,
+      "order": 182,
       "placeName": "Ashmounts"
     },
     {
@@ -5258,7 +5503,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 176
+      "order": 183
     },
     {
       "id": "sh-58fa03c8",
@@ -5286,7 +5531,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 177,
+      "order": 184,
       "placeName": "Fadrex City"
     },
     {
@@ -5318,7 +5563,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 178,
+      "order": 185,
       "placeName": "Luthadel"
     },
     {
@@ -5346,7 +5591,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 179,
+      "order": 186,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5374,7 +5619,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 180,
+      "order": 187,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5402,7 +5647,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 181,
+      "order": 188,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -5430,7 +5675,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 182,
+      "order": 189,
       "placeName": "Fellise"
     },
     {
@@ -5458,7 +5703,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 183
+      "order": 190
     },
     {
       "id": "sh-d8002824",
@@ -5487,7 +5732,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 184
+      "order": 191
     },
     {
       "id": "sh-ded813c1",
@@ -5515,7 +5760,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 185,
+      "order": 192,
       "placeName": "Luthadel"
     },
     {
@@ -5543,7 +5788,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 186
+      "order": 193
     },
     {
       "id": "sh-8a8ab6c2",
@@ -5571,7 +5816,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 187
+      "order": 194
     },
     {
       "id": "sh-b3fc4981",
@@ -5599,7 +5844,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 188,
+      "order": 195,
       "placeName": "Luthadel"
     },
     {
@@ -5628,7 +5873,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 189
+      "order": 196
     },
     {
       "id": "sh-9ec3c1fd",
@@ -5664,7 +5909,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 190
+      "order": 197
     },
     {
       "id": "sh-96b855ac",
@@ -5692,7 +5937,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 191,
+      "order": 198,
       "placeName": "Ashmounts"
     },
     {
@@ -5720,7 +5965,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 192,
+      "order": 199,
       "placeName": "Terris Dominance"
     },
     {
@@ -5748,7 +5993,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 193,
+      "order": 200,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5776,7 +6021,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 194,
+      "order": 201,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5804,7 +6049,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 195
+      "order": 202
     },
     {
       "id": "sh-6d3b78e2",
@@ -5831,7 +6076,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 196,
+      "order": 203,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5868,7 +6113,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 197
+      "order": 204
     },
     {
       "id": "sh-eb5767ce",
@@ -5895,7 +6140,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 198,
+      "order": 205,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5932,7 +6177,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 199,
+      "order": 206,
       "placeName": "Kredik Shaw"
     },
     {
@@ -5963,7 +6208,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 200,
+      "order": 207,
       "placeName": "Fellise"
     },
     {
@@ -5991,7 +6236,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 201,
+      "order": 208,
       "placeName": "Clubs's shop"
     },
     {
@@ -6019,7 +6264,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 202,
+      "order": 209,
       "placeName": "Fellise"
     },
     {
@@ -6047,7 +6292,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 203,
+      "order": 210,
       "placeName": "Kredik Shaw"
     },
     {
@@ -6075,7 +6320,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 204,
+      "order": 211,
       "placeName": "Kredik Shaw"
     },
     {
@@ -6104,7 +6349,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 205,
+      "order": 212,
       "placeName": "Eastern Dominance"
     },
     {
@@ -6144,7 +6389,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 206,
+      "order": 213,
       "placeName": "Conventical of Seran"
     },
     {
@@ -6175,7 +6420,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 207,
+      "order": 214,
       "placeName": "Urbene"
     },
     {
@@ -6207,7 +6452,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 208
+      "order": 215
     },
     {
       "id": "sh-df6ff737",
@@ -6237,7 +6482,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 209,
+      "order": 216,
       "placeName": "Luthadel"
     },
     {
@@ -6266,7 +6511,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 210
+      "order": 217
     },
     {
       "id": "sh-3ad2d6f2",
@@ -6303,7 +6548,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 211
+      "order": 218
     },
     {
       "id": "sh-3025204d",
@@ -6331,7 +6576,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 212
+      "order": 219
     },
     {
       "id": "sh-ab59884a",
@@ -6358,7 +6603,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 213,
+      "order": 220,
       "placeName": "Kredik Shaw"
     },
     {
@@ -6389,7 +6634,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 214,
+      "order": 221,
       "placeName": "Conventical of Seran"
     },
     {
@@ -6418,7 +6663,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 215,
+      "order": 222,
       "placeName": "Lekal City"
     },
     {
@@ -6446,7 +6691,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 216,
+      "order": 223,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -6477,7 +6722,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 217,
+      "order": 224,
       "placeName": "Urteau"
     },
     {
@@ -6505,7 +6750,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 218,
+      "order": 225,
       "placeName": "Urteau"
     },
     {
@@ -6537,7 +6782,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 219
+      "order": 226
     },
     {
       "id": "sh-0a4e1f6e",
@@ -6565,7 +6810,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 220
+      "order": 227
     },
     {
       "id": "sh-57acf3f7",
@@ -6593,7 +6838,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 221
+      "order": 228
     },
     {
       "id": "sh-a36f1b4f",
@@ -6630,7 +6875,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 222,
+      "order": 229,
       "placeName": "Pits of Hathsin"
     },
     {
@@ -6658,7 +6903,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 223,
+      "order": 230,
       "placeName": "Clubs's shop"
     },
     {
@@ -6687,7 +6932,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 224
+      "order": 231
     },
     {
       "id": "sh-1ec8a33e",
@@ -6714,7 +6959,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 225
+      "order": 232
     },
     {
       "id": "sh-7a229eb4",
@@ -6745,7 +6990,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 226
+      "order": 233
     },
     {
       "id": "sh-38e2c3f9",
@@ -6773,7 +7018,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 227
+      "order": 234
     },
     {
       "id": "sh-2d7e048f",
@@ -6804,7 +7049,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 228
+      "order": 235
     },
     {
       "id": "sh-d6c1e973",
@@ -6834,7 +7079,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 229,
+      "order": 236,
       "placeName": "Luthadel"
     },
     {
@@ -6862,7 +7107,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 230,
+      "order": 237,
       "placeName": "Kredik Shaw"
     },
     {
@@ -6890,7 +7135,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 231,
+      "order": 238,
       "placeName": "Urteau"
     },
     {
@@ -6927,7 +7172,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 232,
+      "order": 239,
       "placeName": "Urteau"
     },
     {
@@ -6964,7 +7209,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 233,
+      "order": 240,
       "placeName": "Urteau"
     },
     {
@@ -6992,7 +7237,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 234,
+      "order": 241,
       "placeName": "Urteau"
     },
     {
@@ -7020,7 +7265,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 235,
+      "order": 242,
       "placeName": "Urteau"
     },
     {
@@ -7048,7 +7293,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 236,
+      "order": 243,
       "placeName": "Urteau"
     },
     {
@@ -7076,7 +7321,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 237,
+      "order": 244,
       "placeName": "Urteau"
     },
     {
@@ -7104,7 +7349,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 238,
+      "order": 245,
       "placeName": "Urteau"
     },
     {
@@ -7142,7 +7387,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 239,
+      "order": 246,
       "placeName": "Urteau"
     },
     {
@@ -7170,7 +7415,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 240
+      "order": 247
     },
     {
       "id": "sh-2f32733d",
@@ -7197,7 +7442,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 241
+      "order": 248
     },
     {
       "id": "sh-3bd9f83d",
@@ -7224,7 +7469,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 242
+      "order": 249
     },
     {
       "id": "sh-81b80f51",
@@ -7252,7 +7497,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 243
+      "order": 250
     },
     {
       "id": "sh-0bea8955",
@@ -7280,7 +7525,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 244
+      "order": 251
     },
     {
       "id": "sh-e0138665",
@@ -7308,7 +7553,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 245
+      "order": 252
     },
     {
       "id": "sh-8d556c17",
@@ -7336,7 +7581,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 246
+      "order": 253
     },
     {
       "id": "sh-ebc51721",
@@ -7364,7 +7609,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 247
+      "order": 254
     },
     {
       "id": "sh-8f88d786",
@@ -7392,7 +7637,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 248
+      "order": 255
     },
     {
       "id": "sh-abafbf96",
@@ -7420,7 +7665,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 249
+      "order": 256
     },
     {
       "id": "sh-3d9c301b",
@@ -7447,7 +7692,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 250
+      "order": 257
     },
     {
       "id": "sh-5d2985e5",
@@ -7475,7 +7720,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 251
+      "order": 258
     },
     {
       "id": "sh-a0566257",
@@ -7502,7 +7747,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 252
+      "order": 259
     },
     {
       "id": "sh-7df015c7",
@@ -7529,7 +7774,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 253,
+      "order": 260,
       "placeName": "Keep Orielle"
     },
     {
@@ -7557,7 +7802,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 254
+      "order": 261
     },
     {
       "id": "sh-42de33b0",
@@ -7594,7 +7839,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 255,
+      "order": 262,
       "placeName": "Luthadel"
     },
     {
@@ -7623,7 +7868,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 256,
+      "order": 263,
       "placeName": "Luthadel"
     },
     {
@@ -7658,7 +7903,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 257
+      "order": 264
     },
     {
       "id": "sh-8901512c",
@@ -7701,7 +7946,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 258
+      "order": 265
     },
     {
       "id": "sh-aa86105c",
@@ -7735,7 +7980,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 259
+      "order": 266
     },
     {
       "id": "sh-c1329788",
@@ -7762,7 +8007,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 260
+      "order": 267
     },
     {
       "id": "sh-9d970235",
@@ -7792,7 +8037,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 261,
+      "order": 268,
       "placeName": "Urteau"
     },
     {
@@ -7824,7 +8069,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 262
+      "order": 269
     },
     {
       "id": "sh-c3e27092",
@@ -7852,7 +8097,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 263
+      "order": 270
     },
     {
       "id": "sh-f249941b",
@@ -7880,7 +8125,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 264
+      "order": 271
     },
     {
       "id": "sh-69007b84",
@@ -7907,7 +8152,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 265
+      "order": 272
     },
     {
       "id": "sh-d570189f",
@@ -7934,7 +8179,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 266
+      "order": 273
     },
     {
       "id": "sh-3bf90547",
@@ -7971,7 +8216,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 267,
+      "order": 274,
       "placeName": "Luthadel"
     },
     {
@@ -8000,7 +8245,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 268
+      "order": 275
     },
     {
       "id": "sh-58ede7e0",
@@ -8028,7 +8273,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 269
+      "order": 276
     },
     {
       "id": "sh-2d93b172",
@@ -8056,7 +8301,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 270,
+      "order": 277,
       "placeName": "Luthadel"
     },
     {
@@ -8084,7 +8329,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 271
+      "order": 278
     },
     {
       "id": "sh-f1d28d26",
@@ -8111,7 +8356,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 272
+      "order": 279
     },
     {
       "id": "sh-60a9af14",
@@ -8139,7 +8384,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 273
+      "order": 280
     },
     {
       "id": "sh-b08862d7",
@@ -8167,7 +8412,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 274
+      "order": 281
     },
     {
       "id": "sh-d422441c",
@@ -8194,7 +8439,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 275
+      "order": 282
     },
     {
       "id": "sh-76eec041",
@@ -8221,7 +8466,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 276
+      "order": 283
     },
     {
       "id": "sh-3268aa93",
@@ -8249,7 +8494,7 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 277
+      "order": 284
     },
     {
       "id": "sh-3f25376f",
@@ -8277,8 +8522,94 @@
         }
       ],
       "source": "scadrial-hand",
-      "order": 278,
+      "order": 285,
       "placeName": "Luthadel"
+    },
+    {
+      "id": "sh-dda06031",
+      "characters": ["hoid"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "placeName": "the Well of Ascension, beneath Kredik Shaw",
+      "revealedIn": [
+        {
+          "book": "secret-history",
+          "chapter": "2-1"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid takes lerasium from the Well",
+      "summary": [
+        {
+          "text": "At the Well of Ascension, Hoid fought off Kelsier and took a bead of lerasium.",
+          "revealedIn": [
+            {
+              "book": "secret-history",
+              "chapter": "2-1"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 286
+    },
+    {
+      "id": "sh-1f626043",
+      "characters": ["hoid"],
+      "mapId": "elendel-basin",
+      "path": [[276, 794]],
+      "placeId": "elendel",
+      "revealedIn": [
+        {
+          "book": "shadows-of-self",
+          "chapter": "7"
+        }
+      ],
+      "title": "Hoid becomes Wax's coachman",
+      "summary": [
+        {
+          "text": "Hoid began driving Wax's carriage as his new coachman.",
+          "revealedIn": [
+            {
+              "book": "shadows-of-self",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 287,
+      "placeName": "Elendel"
+    },
+    {
+      "id": "sh-497e7f4a",
+      "characters": ["hoid"],
+      "mapId": "elendel-basin",
+      "path": [[175, 790]],
+      "placeId": "sea-of-yomend",
+      "placeName": "at sea off Elendel",
+      "revealedIn": [
+        {
+          "book": "lost-metal",
+          "chapter": "72"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid rescues Wax at sea",
+      "summary": [
+        {
+          "text": "After the ship exploded, Hoid reached the drowning Wax in a small motorboat.",
+          "revealedIn": [
+            {
+              "book": "lost-metal",
+              "chapter": "72"
+            }
+          ]
+        }
+      ],
+      "source": "scadrial-hand",
+      "order": 288
     }
   ]
 }

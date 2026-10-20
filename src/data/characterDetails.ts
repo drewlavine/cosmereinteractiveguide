@@ -8333,7 +8333,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
       planetId: 'scadrial',
       revealedIn: [{ book: 'final-empire', chapter: '12' }],
     },
-    aliases: [],
+    aliases: [
+      {
+        name: 'Lord Prelan',
+        revealedIn: [{ book: 'final-empire', chapter: '26' }],
+      },
+    ],
     species: [
       { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
     ],

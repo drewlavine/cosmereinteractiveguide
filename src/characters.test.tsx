@@ -991,16 +991,18 @@ describe('character travels', () => {
     expect(card()).not.toHaveTextContent('Lasting Integrity')
   })
 
-  it('keeps Hoid’s cameos and Wit off his travels until the reader knows him', () => {
+  it('keeps Hoid’s cameos and Wit off his travels until the reader knows him', async () => {
     renderAt('/characters/hoid/travels', ['elantris'], {
       'way-of-kings': '57',
     })
+    await screen.findByRole('heading', { level: 1, name: 'Hoid' })
     expect(worlds()).toEqual(['Sel'])
     expect(document.body).not.toHaveTextContent('Elhokar')
     cleanup()
     renderAt('/characters/hoid/travels', ['elantris'], {
       'way-of-kings': '58',
     })
+    await screen.findByRole('heading', { level: 1, name: 'Hoid' })
     expect(worlds()).toEqual(['Sel', 'Roshar'])
     fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
     expect(card()).toHaveTextContent('Elhokar')

@@ -808,6 +808,29 @@ export function journeyShown(
 }
 
 /**
+ * A journey cut into one per world (e.g. Hoid's on Roshar and on Scadrial),
+ * each with only its own stops and the maps they use. `worldOf` names the
+ * world a map shows.
+ */
+export function journeyByWorld(
+  journey: ShownJourney,
+  worldOf: (mapId: string) => string | undefined,
+): Record<string, ShownJourney> {
+  const out: Record<string, ShownJourney> = {}
+  for (const stop of journey.stops) {
+    const world = worldOf(stop.mapId)
+    if (!world) continue
+    out[world] ??= { ...journey, stops: [], maps: [] }
+    out[world].stops.push(stop)
+  }
+  for (const part of Object.values(out))
+    part.maps = journey.maps.filter(
+      (m) => worldOf(m.id) === worldOf(part.stops[0].mapId),
+    )
+  return out
+}
+
+/**
  * A character or persona page's journey: as revealJourney, for the events
  * of journeyIds, with books the page leaves out trimmed.
  */

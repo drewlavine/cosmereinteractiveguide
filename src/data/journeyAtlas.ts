@@ -150,6 +150,52 @@ const sources: JourneyMapSource[] = [
     revealedIn: [{ book: 'hero-of-ages', chapter: 'prologue' }],
     parent: { mapId: 'final-empire', placeId: 'fadrex-city', at: [881, 752] },
   },
+  {
+    id: 'elendel-basin',
+    planetId: 'scadrial',
+    mapId: 'elendel-basin',
+    file: 'Elendel_Basin.png',
+    revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+  },
+  {
+    id: 'dayside',
+    planetId: 'taldain',
+    mapId: 'dayside',
+    file: 'Dayside_map.jpg',
+    revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+  },
+  {
+    // Interior art, page unknown; it shows only the city and the Megalith's
+    // corpse, which the reader knows of by chapter X.
+    id: 'kingseat',
+    planetId: 'miral',
+    mapId: 'kingseat',
+    file: 'Map_of_Kingseat_by_Tran_Nguyen.jpg',
+    revealedIn: [{ book: 'fires-of-december', chapter: 'x' }],
+  },
+  {
+    id: 't-telir',
+    planetId: 'nalthis',
+    mapId: 't-telir',
+    file: 'T-Telir.png',
+    revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+  },
+  {
+    // The original front-matter map; its pins are the Locations' ones.
+    id: 'arelon',
+    planetId: 'sel',
+    mapId: 'arelon',
+    file: 'Arelon.jpg',
+    revealedIn: [{ book: 'elantris', chapter: 'prologue' }],
+  },
+  {
+    id: 'elantris-and-kae',
+    planetId: 'sel',
+    mapId: 'elantris-and-kae',
+    file: 'Elantris-Kae_Map.jpg',
+    revealedIn: [{ book: 'elantris', chapter: 'prologue' }],
+    parent: { mapId: 'arelon', placeId: 'elantris', at: [415, 404] },
+  },
 ]
 
 const maps = new Map<string, AtlasMap>(
@@ -181,6 +227,10 @@ const maps = new Map<string, AtlasMap>(
     ]
   }),
 )
+
+/** The world a journey map shows (part of), e.g. 'roshar' for Kholinar. */
+export const journeyMapPlanet = (mapId: string) =>
+  sources.find((s) => s.id === mapId)?.planetId
 
 export const journeyAtlas: Atlas = {
   map: (id) => maps.get(id),

@@ -1,10 +1,17 @@
 import { SourceMark } from './SourceMark'
-import { useEffect, useId, useState } from 'react'
+import { lazy, Suspense, useEffect, useId, useState } from 'react'
 import { Link } from 'react-router'
-import type { ShownSystem, ShownTravelStop } from '../data/reveal'
+import type {
+  ShownJourney,
+  ShownJourneyStop,
+  ShownSystem,
+  ShownTravelStop,
+} from '../data/reveal'
 import { systems as allSystems } from '../data/systems'
 import { ChartDefs, GoldStar } from './chart'
 import { PlanetGlobe } from './PlanetGlobe'
+
+const JourneyMap = lazy(() => import('./journey/JourneyMap'))
 
 const WIDTH = 1000
 const HEIGHT = 680
@@ -111,16 +118,30 @@ function arc(a: Pt, b: Pt, away: Pt, repeat: number) {
  */
 export function TravelMap({
   characterId,
+  name: who,
   stops,
   systems,
+  worldJourneys = {},
+  selfKey,
+  more,
 }: {
   characterId: string
+  /** Whose travels, for the world journeys' labels. */
+  name: string
   stops: ShownTravelStop[]
   systems: ShownSystem[]
+  /** The character's journey on each world that has one, to zoom into. */
+  worldJourneys?: Record<string, ShownJourney>
+  /** The page it's on, never linked from the world journeys' events. */
+  selfKey?: string
+  /** The id of the part of the page telling more about an event, if any. */
+  more?: (where: ShownJourneyStop['where']) => string | undefined
 }) {
   const id = useId().replace(/[^\w-]/g, '')
   const [step, setStep] = useState(0)
   const [playing, setPlaying] = useState(false)
+  // The world zoomed into, its journey shown in place of the star map.
+  const [zoomed, setZoomed] = useState<string>()
   const current = Math.min(step, stops.length - 1)
 
   useEffect(() => {
@@ -180,6 +201,26 @@ export function TravelMap({
     setPlaying(false)
     setStep(i)
   }
+  const inside = zoomed && worldJourneys[zoomed]
+  const zoomable = !!worldJourneys[stop.planetId]?.stops.length
+
+  if (inside)
+    return (
+      <div className="travel-map travel-map-zoomed">
+        <Suspense
+          fallback={<p className="journey-loading">Loading the map…</p>}
+        >
+          <JourneyMap
+            name={who}
+            journey={inside}
+            onClose={() => setZoomed(undefined)}
+            closeLabel="Back to the stars"
+            selfKey={selfKey}
+            more={more}
+          />
+        </Suspense>
+      </div>
+    )
 
   return (
     <div className="travel-map">
@@ -437,6 +478,18 @@ export function TravelMap({
             </li>
           ))}
         </ul>
+        {zoomable && (
+          <button
+            type="button"
+            className="journey-button travel-zoom"
+            onClick={() => {
+              setPlaying(false)
+              setZoomed(stop.planetId)
+            }}
+          >
+            Zoom in to {name}
+          </button>
+        )}
         <Link to={`/characters/${characterId}/history`} className="travel-more">
           Read more in History →
         </Link>
