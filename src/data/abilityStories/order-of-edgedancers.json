@@ -142,6 +142,63 @@
       "characterId": "lift",
       "role": "Edgedancer",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "characterId": "vedel",
+      "role": "Patron Herald",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "level": "Second Ideal",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+    },
+    {
+      "characterId": "godeke",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+    },
+    {
+      "characterId": "lorain",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+    },
+    {
+      "characterId": "baramaz",
+      "role": "Edgedancer leader",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+    },
+    {
+      "characterId": "chella",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    },
+    {
+      "characterId": "dulo-son-tudla",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

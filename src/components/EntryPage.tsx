@@ -18,9 +18,10 @@ import {
 } from '../data/entryStories'
 import { abilityList } from '../data/abilities'
 import { entryAliases } from '../data/entryAliases'
+import { entryArt } from '../data/entryArt'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { findPerson } from '../data/people'
-import { revealEntry, type ShownEntry } from '../data/reveal'
+import { revealEntry, revealPortrait, type ShownEntry } from '../data/reveal'
 import type { Reveal } from '../data/types'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
@@ -107,6 +108,8 @@ export function EntryPage({
     showAll,
   )
   const books = showAll ? entry.books : entryBooks(kind, entry, canSee)
+  const art = revealPortrait(entryArt[scope], canSee, showAll)
+  const shownArt = art.portrait as (typeof entryArt)[string][number] | undefined
   const planet = systems
     .flatMap((s) => s.planets.map((p) => ({ ...p, systemId: s.id })))
     .find((p) => p.id === entry.world)
@@ -164,7 +167,9 @@ export function EntryPage({
       </nav>
       <SpoilerNotice
         scope={scope}
-        spoilers={shown.spoilers || books.length < entry.books.length}
+        spoilers={
+          shown.spoilers || art.spoilers || books.length < entry.books.length
+        }
       />
       <div className="character-body">
         <header className="character-header">
@@ -174,6 +179,23 @@ export function EntryPage({
           )}
         </header>
         <div className="character-side">
+          {shownArt && (
+            <figure
+              className={`character-portrait${shownArt.glyph ? ' entry-glyph' : ''}`}
+            >
+              <img src={shownArt.src} alt={shownArt.alt} />
+              <figcaption>
+                Art by{' '}
+                {shownArt.artistUrl ? (
+                  <a href={shownArt.artistUrl} target="_blank" rel="noreferrer">
+                    {shownArt.artist}
+                  </a>
+                ) : (
+                  shownArt.artist
+                )}
+              </figcaption>
+            </figure>
+          )}
           <aside
             className={`character-infobox${factsOpen ? '' : ' collapsed'}`}
             aria-label="Key facts"
@@ -306,14 +328,21 @@ export function EntryPage({
               title={kind === 'ability' ? 'Users' : 'People'}
             >
               {shown.levels.length > 0 ? (
-                shown.levels.map((level, i) => (
-                  <PageSubsection key={level} id={levelIds[i]} title={level}>
-                    <PeopleList
-                      people={people.filter((p) => p.level === level)}
-                      level={level}
-                    />
-                  </PageSubsection>
-                ))
+                <>
+                  {shown.levels.map((level, i) => (
+                    <PageSubsection key={level} id={levelIds[i]} title={level}>
+                      <PeopleList
+                        people={people.filter((p) => p.level === level)}
+                        level={level}
+                      />
+                    </PageSubsection>
+                  ))}
+                  {people.some((p) => !p.level) && (
+                    <PageSubsection id="people-other" title="Other users">
+                      <PeopleList people={people.filter((p) => !p.level)} />
+                    </PageSubsection>
+                  )}
+                </>
               ) : (
                 <PeopleList people={people} />
               )}

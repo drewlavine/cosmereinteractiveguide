@@ -516,6 +516,43 @@
       "characterId": "sibling",
       "role": "Bonded spren",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Bondsmith",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    },
+    {
+      "characterId": "neturo-son-vallano",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

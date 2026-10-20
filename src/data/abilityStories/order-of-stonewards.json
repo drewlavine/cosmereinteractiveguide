@@ -96,6 +96,56 @@
       "characterId": "talenel",
       "role": "Patron Herald",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+    },
+    {
+      "characterId": "talatin",
+      "role": "Ancient Stoneward",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "characterId": "starfalls-stoneward",
+      "role": "Ancient Stoneward",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+    },
+    {
+      "characterId": "badali",
+      "role": "Stoneward",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+    },
+    {
+      "characterId": "zu-roshar",
+      "role": "Stoneward",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+    },
+    {
+      "characterId": "rit-daughter-clutio",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }]
+    },
+    {
+      "characterId": "dami",
+      "role": "Stoneward",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "dami",
+      "role": "Stoneward",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "erinor",
+      "role": "Stoneward",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

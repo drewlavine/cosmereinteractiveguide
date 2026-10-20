@@ -96,6 +96,8 @@ export interface JourneyArt {
 export interface JourneyCredit {
   text: string
   url: string
+  /** The importer it credits; credited only when its events are shown. */
+  source?: string
 }
 
 /** One data pack: the events from one or more sources, loaded together. */

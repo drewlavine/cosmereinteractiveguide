@@ -171,6 +171,35 @@
       "characterId": "malata",
       "role": "Dustbringer",
       "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    },
+    {
+      "characterId": "chanarach",
+      "role": "Patron Herald",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "characterId": "ral-na",
+      "role": "Dustbringer",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    },
+    {
+      "characterId": "gearil-daughter-gearil",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    },
+    {
+      "characterId": "elid-daughter-zeenid",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

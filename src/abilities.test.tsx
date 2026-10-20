@@ -90,3 +90,64 @@ describe('old Abilities links', () => {
     ).toBeTruthy()
   })
 })
+
+describe('order art', () => {
+  const SA = ['way-of-kings', 'words-of-radiance', 'edgedancer', 'oathbringer']
+
+  it('shows the glyph until a painting of modern Radiants may be seen', async () => {
+    renderAt('/magic/order-of-bondsmiths', SA)
+    const img = await screen.findByRole('img', {
+      name: 'The glyph of the Bondsmiths',
+    })
+    expect(img).toHaveAttribute('src', '/entries/order-of-bondsmiths-glyph.svg')
+    expect(screen.getByText(/Some information hidden/)).toBeInTheDocument()
+  })
+
+  it('shows the painting once its date is reached', async () => {
+    renderAt('/magic/order-of-bondsmiths', [
+      ...SA,
+      'dawnshard',
+      'rhythm-of-war',
+    ])
+    const fig = (
+      await screen.findByRole('img', { name: /Two Bondsmiths/ })
+    ).closest('figure')!
+    expect(within(fig).getByRole('link', { name: 'Steve Argyle' })).toBeTruthy()
+  })
+})
+
+describe('Radiant Ideals', () => {
+  const SA = ['way-of-kings', 'words-of-radiance', 'edgedancer', 'oathbringer']
+  const group = (id: string) => document.getElementById(id)!
+
+  it('lists each Radiant under the highest Ideal the reader has seen', async () => {
+    renderAt('/magic/order-of-windrunners', SA)
+    await screen.findByRole('heading', { level: 1, name: /Windrunners/ })
+    expect(
+      within(group('people-third-ideal')).getByRole('link', {
+        name: /^Kaladin/,
+      }),
+    ).toBeTruthy()
+    expect(document.getElementById('people-fourth-ideal')).toBeNull()
+    expect(group('people-other')).toBeTruthy()
+  })
+
+  it('moves them up when a later Ideal is reached', async () => {
+    renderAt('/magic/order-of-windrunners', [
+      ...SA,
+      'dawnshard',
+      'rhythm-of-war',
+    ])
+    await screen.findByRole('heading', { level: 1, name: /Windrunners/ })
+    expect(
+      within(group('people-fourth-ideal')).getByRole('link', {
+        name: /^Kaladin/,
+      }),
+    ).toBeTruthy()
+    expect(
+      within(group('people-third-ideal')).queryByRole('link', {
+        name: /^Kaladin/,
+      }),
+    ).toBeNull()
+  })
+})

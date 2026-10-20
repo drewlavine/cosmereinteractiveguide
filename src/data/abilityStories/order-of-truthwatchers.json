@@ -90,6 +90,44 @@
       "characterId": "rlain",
       "role": "Truthwatcher",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    },
+    {
+      "characterId": "pailiah",
+      "role": "Patron Herald",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "characterId": "arshqqam",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    },
+    {
+      "characterId": "ym",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "dyels-mother",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "rahel",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+    },
+    {
+      "characterId": "vambra-daughter-skies",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

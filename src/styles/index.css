@@ -611,6 +611,12 @@ dd {
   background: var(--panel);
 }
 
+.entry-glyph img {
+  height: 12rem;
+  padding: 1.5rem;
+  object-fit: contain;
+}
+
 .character-portrait figcaption {
   margin-top: 0.35rem;
   color: var(--text-muted, #9fb0bc);

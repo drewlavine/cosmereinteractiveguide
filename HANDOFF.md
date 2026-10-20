@@ -66,6 +66,30 @@ OK.
 
 ## Done this session (uncommitted until Drew says)
 
+- **Radiant Ideals (uncommitted).** Three agents researched every named
+  Radiant's Ideals into `~/cig-entry-data/ideals/*.json` (notes beside them:
+  uncertain calls such as the Bridge Four group statement, Ral-na, Dami's
+  Third Ideal). `ideals_apply.py` turns them into extras and leveled people
+  on the 10 order pages, `knights-radiant`, `surgebinding` and `nahel-bond`.
+  Re-run it after editing the JSON, then `entry_story_check.py` and
+  `entry_emit.py`. Unlevelled users show under "Other users".
+- **Order art (uncommitted).** `src/data/entryArt.ts`: each order's glyph
+  (Isaac Stewart, traced by Cuaiir, recoloured gold) and Steve Argyle's
+  Kickstarter painting, dated: Windrunners from Oathbringer 7; Bondsmiths,
+  Elsecallers, Truthwatchers, Willshapers after Rhythm of War; Lightweavers
+  after Wind and Truth; the rest with the order.
+- **Shallan's journey on city maps (uncommitted).** New hand source
+  `~/cig-journey-data/config/roshar-hand.json` + `hand/roshar.json` (60
+  events; draft and evidence in `hand/drafts/shallan-davar.*`, brief in
+  `hand/drafts/BRIEF-roshar.md`). Shallan is off the roshar-map import.
+  City maps and their gates are in `src/data/journeyAtlas.ts`. Pipeline
+  changes: `emit.py` drops disabled characters from events and tags credits
+  by source (the app credits only shown sources); `import_hand.py` takes an
+  `idPrefix` per source (roshar-hand uses `rh-`; the shared `sh-` prune had
+  deleted Scadrial art); `check_draft.py --config <source>`. Kharbranth
+  points are best guesses from the book's descriptions (marked approximate);
+  no fan identifications were found.
+
 - **Auto-linking in page prose (uncommitted).** `src/data/textLinks.ts`
   finds names of visible pages (met characters with pages, listed places,
   planets, Magic and Culture entries, plus aliases and plurals) in prose and

@@ -158,6 +158,13 @@ export default function JourneyMap({
     if (target !== map.id) {
       const into = motion && anchorOn(maps, map.id, target)
       const outOf = motion && anchorOn(maps, target, map.id)
+      // Between two cities on one map: out to that map, then in to the other.
+      const up = map.parent?.mapId
+      if (motion && !into && !outOf && up && anchorOn(maps, up, target)) {
+        engine.current?.flyTo(whole, { inset: covered() })
+        const timer = setTimeout(() => setView(up), ZOOM_MS)
+        return () => clearTimeout(timer)
+      }
       const swap = () => {
         left.current = map.id
         if (outOf) setArriving(current)

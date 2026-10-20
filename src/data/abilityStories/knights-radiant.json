@@ -366,6 +366,567 @@
       "characterId": "rlain",
       "role": "Truthwatcher",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Bondsmith",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    },
+    {
+      "characterId": "ral-na",
+      "role": "Dustbringer",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "level": "Second Ideal",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+    },
+    {
+      "characterId": "dami",
+      "role": "Stoneward",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "dami",
+      "role": "Stoneward",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "6" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+    },
+    {
+      "characterId": "vathah",
+      "role": "Lightweaver squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "Lightweaver",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "16" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "Willshaper",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "Willshaper",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "level": "Fifth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "characterId": "lopen",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "lopen",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "characterId": "lopen",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "huio",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "huio",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    },
+    {
+      "characterId": "lyn",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "lyn",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    },
+    {
+      "characterId": "sigzil",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+    },
+    {
+      "characterId": "sigzil",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    },
+    {
+      "characterId": "skar",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "skar",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "drehy",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+    },
+    {
+      "characterId": "drehy",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "peet",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "peet",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "hobber",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "hobber",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "bisig",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "bisig",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "leyten",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "leyten",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "natam",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+    },
+    {
+      "characterId": "natam",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "torfin",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+    },
+    {
+      "characterId": "torfin",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "yake",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+    },
+    {
+      "characterId": "yake",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "koen",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "koen",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "Windrunner",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "eth",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    },
+    {
+      "characterId": "punio",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "punio",
+      "role": "Windrunner",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    },
+    {
+      "characterId": "colot",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "characterId": "kara",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+    },
+    {
+      "characterId": "laran",
+      "role": "Windrunner",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+    },
+    {
+      "characterId": "laran",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+    },
+    {
+      "characterId": "rial",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "breteh",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+    },
+    {
+      "characterId": "breteh",
+      "role": "Windrunner",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+    },
+    {
+      "characterId": "isasik",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+    },
+    {
+      "characterId": "garith",
+      "role": "Windrunner",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+    },
+    {
+      "characterId": "shiosak",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "5" }]
+    },
+    {
+      "characterId": "kelen",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }]
+    },
+    {
+      "characterId": "deti",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+    },
+    {
+      "characterId": "fent",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+    },
+    {
+      "characterId": "rowalan",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+    },
+    {
+      "characterId": "atakin",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    },
+    {
+      "characterId": "fishev",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    },
+    {
+      "characterId": "weiss",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    },
+    {
+      "characterId": "kalleb",
+      "role": "Windrunner squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "Fifth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+    },
+    {
+      "characterId": "nale",
+      "role": "Skybreaker",
+      "level": "Fifth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "characterId": "ki",
+      "role": "Skybreaker",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "warren",
+      "role": "Skybreaker",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "cali",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "fari",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "joret",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "ty",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "zedzil",
+      "role": "Skybreaker squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "fari",
+      "role": "Skybreaker",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "ty",
+      "role": "Skybreaker",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "dreder",
+      "role": "Skybreaker",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+    },
+    {
+      "characterId": "nomad",
+      "role": "Skybreaker",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

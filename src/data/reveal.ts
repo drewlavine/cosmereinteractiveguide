@@ -700,6 +700,7 @@ export function revealJourney(
   }
   const see: CanSee = (reveal) => viewAnyway || canSee(trim(reveal))
   const maps: AtlasMap[] = []
+  const sources = new Set<string>()
   const stops = events
     .filter((e) => e.characters.some((c) => ids.includes(c)))
     .toSorted((a, b) => a.order - b.order)
@@ -717,6 +718,7 @@ export function revealJourney(
         m = up && canSee(up.revealedIn) ? up : undefined
       }
       for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
+      if (e.source) sources.add(e.source)
       const located = !e.placeRevealedIn || see(e.placeRevealedIn)
       const place = e.placeId && located ? atlas.place(e.placeId) : undefined
       return [
@@ -758,7 +760,10 @@ export function revealJourney(
   return {
     stops,
     maps,
-    credits: stops.length ? [...credits] : [],
+    // Only the sources it shows (a credit without one goes with any).
+    credits: credits.filter((c) =>
+      c.source ? sources.has(c.source) : stops.length,
+    ),
     spoilers,
   }
 }

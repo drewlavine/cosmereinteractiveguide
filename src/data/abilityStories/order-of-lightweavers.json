@@ -170,6 +170,93 @@
       "characterId": "hoid",
       "role": "Lightweaver",
       "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+    },
+    {
+      "characterId": "shalash",
+      "role": "Patron Herald",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "30" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+    },
+    {
+      "characterId": "vathah",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "ishnah",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "red-roshar",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "stargyle",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "darcira",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "Lightweaver",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "16" }]
+    },
+    {
+      "characterId": "jayn",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+    },
+    {
+      "characterId": "jeneh",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "Unfinished bond",
+      "revealedIn": ["oathbringer"]
+    },
+    {
+      "characterId": "mraize",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "138" }]
+    },
+    {
+      "characterId": "moss-son-farrier",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "71" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

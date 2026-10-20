@@ -668,8 +668,12 @@ Personal arcs and battles belong on character and journey pages.
     - [x] **Users** section (all named users, alphabetical, each dated by
           the first block showing the use; personas by the name the reader
           knows). Abilities with ranks group users by the highest rank seen:
-          Misting/Mistborn, Ferring/Feruchemist; Ideals and Heightenings to
-          use the same `levels` field
+          Misting/Mistborn, Ferring/Feruchemist, and Radiants by Ideal
+          (Squire to Fifth Ideal) on the ten order pages, Knights Radiant,
+          Surgebinding and the Nahel bond; users with no stated level show
+          under **Other users**; Heightenings still to do
+    - [x] Art for each Radiant order: Isaac Stewart's glyph, then Steve
+          Argyle's painting once it's safe
     - [x] Fuller system pages: a **How it works** section (titled
           subsections, no cap) and spoiler-dated **tables** (rows can cite
           another page's lines, e.g. a metal's; later row versions replace
@@ -816,10 +820,14 @@ can become a template for other series. Data from importers in
       of War: 39 events, each hand-written and dated)
 - [x] The other Roshar characters: 13 more (Shallan to Rysn), 221 events
       including Wind and Truth for 9
+- [x] Shallan hand-written across all five books (60 events) on Roshar's
+      city maps: Kharbranth, the warcamps, Shattered Plains, Frostlands,
+      Kholinar, Thaylen City, Narak, and Shadesmar's Sea of Lost Lights and
+      Sea of Souls; each map gated where nothing printed on it spoils.
+      Moving between two cities zooms out and back in
+- [ ] The same city-map treatment for the other Stormlight characters
 - [ ] Routes between stops rather than straight lines (e.g. cosmere-maps'
-      Stormlight paths), and stops at a finer scale on child maps
-      (Shattered Plains, Kharbranth...)
-- [ ] A Shadesmar map, so Cognitive Realm stops can show
+      Stormlight paths)
 - [ ] Merge Travels into Journey: world hops as events on the star map,
       drilling down into each planet's map
 - [ ] Book and series pages: everyone's journeys in reading order

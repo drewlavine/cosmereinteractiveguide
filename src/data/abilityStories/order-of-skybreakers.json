@@ -340,6 +340,136 @@
       "characterId": "nomad",
       "role": "Skybreaker",
       "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "First Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Squire",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "Third Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "level": "Fifth Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+    },
+    {
+      "characterId": "nale",
+      "role": "Skybreaker",
+      "level": "Fifth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "characterId": "ki",
+      "role": "Skybreaker master",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "warren",
+      "role": "Skybreaker master",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "cali",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "fari",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "joret",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "ty",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "zedzil",
+      "role": "Squire",
+      "level": "Squire",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "fari",
+      "role": "Squire",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "ty",
+      "role": "Squire",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    },
+    {
+      "characterId": "dreder",
+      "role": "Skybreaker",
+      "level": "Second Ideal",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+    },
+    {
+      "characterId": "nomad",
+      "role": "Skybreaker",
+      "level": "Fourth Ideal",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "42" }]
+    },
+    {
+      "characterId": "winnow",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "characterId": "121",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+    },
+    {
+      "characterId": "12124",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+    },
+    {
+      "characterId": "auxiliary",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }

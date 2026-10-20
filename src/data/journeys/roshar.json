@@ -2,11 +2,46 @@
   "id": "roshar",
   "credits": [
     {
+      "text": "Stormlight journey events written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings",
+      "source": "roshar-hand"
+    },
+    {
       "text": "Journey data adapted from the 17th Shard's Roshar map (MIT)",
-      "url": "https://github.com/17thshard/roshar-map"
+      "url": "https://github.com/17thshard/roshar-map",
+      "source": "roshar-map"
     }
   ],
   "events": [
+    {
+      "id": "rh-1ec62310",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "Davar estate",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "88"
+        }
+      ],
+      "approximate": true,
+      "title": "The truth about her mother",
+      "summary": [
+        {
+          "text": "A buried memory surfaces: as a child, Shallan killed her mother when her mother tried to kill her, and her father took the blame.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "88"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 1
+    },
     {
       "id": "rm-2a111c03",
       "characters": ["dalinar-kholin"],
@@ -60,6 +95,35 @@
       "placeName": "Alethkar"
     },
     {
+      "id": "rh-cd86bfd0",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "Davar estate",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "93"
+        }
+      ],
+      "approximate": true,
+      "title": "Her first spren",
+      "summary": [
+        {
+          "text": "Shallan finally faces the memory that the spren she bonded as a child was not Pattern but another Cryptic, Testament, and that she killed her.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "93"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 2
+    },
+    {
       "id": "rm-97a65af7",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -87,6 +151,35 @@
       "source": "roshar-map",
       "order": 2,
       "placeName": "Alethkar"
+    },
+    {
+      "id": "rh-0297382c",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "Davar estate",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "19"
+        }
+      ],
+      "approximate": true,
+      "title": "Helaran leaves home",
+      "summary": [
+        {
+          "text": "Her eldest brother Helaran, carrying a Shardblade, calls their father a murderer and leaves the estate on business of his own.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "19"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 3
     },
     {
       "id": "rm-98965771",
@@ -125,6 +218,35 @@
       "placeName": "Rathalas"
     },
     {
+      "id": "rh-2122aff4",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "Davar estate",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "70"
+        }
+      ],
+      "approximate": true,
+      "title": "Her father's death",
+      "summary": [
+        {
+          "text": "Shallan's father died at the family estate in Jah Keved. She killed him, and she confesses it to bond a spren.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "70"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 4
+    },
+    {
       "id": "rm-1663c7a6",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -151,6 +273,37 @@
       ],
       "source": "roshar-map",
       "order": 4
+    },
+    {
+      "id": "rh-f680de0e",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [
+        [300, 600],
+        [560, 420],
+        [550, 190]
+      ],
+      "placeName": "Port to the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "3"
+        }
+      ],
+      "title": "Arrival in Kharbranth",
+      "summary": [
+        {
+          "text": "After months chasing Jasnah Kholin from city to city, Shallan lands at Kharbranth's port, and the sailor Yalb walks her up to the Conclave.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "3"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 5
     },
     {
       "id": "rm-8312fac7",
@@ -190,6 +343,34 @@
       "placeName": "Kholinar"
     },
     {
+      "id": "rh-f366b255",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[560, 225]],
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "5"
+        }
+      ],
+      "approximate": true,
+      "title": "Meeting Jasnah",
+      "summary": [
+        {
+          "text": "Shallan finally meets Jasnah, who clears a cave-in with her Soulcaster and turns down Shallan's plea to be her ward. Shallan's secret aim is to steal that Soulcaster.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "5"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 6
+    },
+    {
       "id": "rm-eb43c583",
       "characters": ["adolin-kholin"],
       "mapId": "roshar",
@@ -225,6 +406,33 @@
       "source": "roshar-map",
       "order": 6,
       "placeName": "Kholinar"
+    },
+    {
+      "id": "rh-1c5fb05f",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[550, 215]],
+      "placeName": "Palanaeum",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "8"
+        }
+      ],
+      "title": "Jasnah's ward",
+      "summary": [
+        {
+          "text": "A letter left in Jasnah's alcove at the Palanaeum, where she also meets the ardent Kabsal, wins Shallan a place as Jasnah's ward, on condition she studies hard.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 7
     },
     {
       "id": "rm-88d82cfa",
@@ -294,6 +502,34 @@
       "placeName": "Hearthstone"
     },
     {
+      "id": "rh-c47a6261",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[820, 520]],
+      "placeName": "lower city",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "36"
+        }
+      ],
+      "approximate": true,
+      "title": "A lesson in the dark",
+      "summary": [
+        {
+          "text": "Jasnah walks Shallan through a dangerous part of the city at night and kills the thugs who attack them. Shaken, Shallan swaps Jasnah's Soulcaster for her family's broken one that night.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 8
+    },
+    {
       "id": "rm-6e2723a3",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -329,6 +565,34 @@
       "source": "roshar-map",
       "order": 8,
       "placeName": "Hearthstone"
+    },
+    {
+      "id": "rh-227a4136",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[560, 200]],
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "45"
+        }
+      ],
+      "approximate": true,
+      "title": "A place of glass beads",
+      "summary": [
+        {
+          "text": "Chased by strange symbol-headed figures, Shallan is pulled into a dark place of glass beads and turns a goblet to blood. She cuts herself to hide what happened.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "45"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 9
     },
     {
       "id": "rm-514e251d",
@@ -367,6 +631,34 @@
       "placeName": "Rathalas"
     },
     {
+      "id": "rh-98590762",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[420, 380]],
+      "placeName": "hospital",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "48"
+        }
+      ],
+      "approximate": true,
+      "title": "Poisoned in hospital",
+      "summary": [
+        {
+          "text": "While Shallan recovers in hospital, Kabsal shares bread and jam with her and collapses; Shallan, poisoned too, hands Jasnah the stolen Soulcaster.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "48"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 10
+    },
+    {
       "id": "rm-3a07c257",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -393,6 +685,38 @@
       "source": "roshar-map",
       "order": 10,
       "placeName": "Hearthstone"
+    },
+    {
+      "id": "rh-9714bd2e",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [
+        [420, 380],
+        [560, 420],
+        [550, 190]
+      ],
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "70"
+        }
+      ],
+      "approximate": true,
+      "title": "Truth at the Conclave",
+      "summary": [
+        {
+          "text": "Shallan walks to the Conclave in her hospital robe, works out that Jasnah's Soulcaster was a fake, and bonds a spren by confessing her darkest truth. Jasnah takes her back.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "70"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 11
     },
     {
       "id": "rm-c9020cb6",
@@ -423,6 +747,33 @@
       "order": 11
     },
     {
+      "id": "rh-5d609065",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[550, 215]],
+      "placeName": "Palanaeum",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "74"
+        }
+      ],
+      "title": "The Voidbringers' secret",
+      "summary": [
+        {
+          "text": "Shallan reaches Jasnah's conclusion that the parshmen are the Voidbringers, learns of the Ghostbloods, and the two plan to sail for the Shattered Plains.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "74"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 12
+    },
+    {
       "id": "rm-42b63ee4",
       "characters": ["venli"],
       "mapId": "roshar",
@@ -449,6 +800,37 @@
       ],
       "source": "roshar-map",
       "order": 12
+    },
+    {
+      "id": "rh-0d3410ea",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [
+        [1441, 1176],
+        [1620, 1330]
+      ],
+      "placeName": "south of Roshar",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "1"
+        }
+      ],
+      "approximate": true,
+      "title": "Aboard the Wind's Pleasure",
+      "summary": [
+        {
+          "text": "Sailing south of Roshar with Jasnah, Shallan sketches a living santhid, and a strange pattern starts appearing on her pages.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "1"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 13
     },
     {
       "id": "rm-e526b0c5",
@@ -479,6 +861,34 @@
       "order": 13
     },
     {
+      "id": "rh-82a55efe",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1936, 1370]],
+      "placeName": "off the Frostlands",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "7"
+        }
+      ],
+      "approximate": true,
+      "title": "Night attack on the ship",
+      "summary": [
+        {
+          "text": "Killers board the Wind's Pleasure. Shallan sees Jasnah stabbed, hides behind her first illusions, and the ship goes down.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 14
+    },
+    {
       "id": "rm-39548244",
       "characters": ["venli"],
       "mapId": "roshar",
@@ -505,6 +915,33 @@
       "source": "roshar-map",
       "order": 14,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-005a4e74",
+      "characters": ["shallan-davar"],
+      "mapId": "frostlands",
+      "path": [[710, 1290]],
+      "placeName": "landfall",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "11"
+        }
+      ],
+      "title": "Ashore in the Frostlands",
+      "summary": [
+        {
+          "text": "Shallan reaches shore, finds Jasnah's trunk of notes, and falls in with the slaver Tvlakv's wagons heading for the Shattered Plains.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 15
     },
     {
       "id": "rm-a9c9545f",
@@ -535,33 +972,60 @@
       "placeName": "Hearthstone"
     },
     {
-      "id": "rm-889d2a72",
+      "id": "rh-4af01def",
       "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1593, 809]],
-      "placeId": "jah-keved",
-      "placeName": "Davar estate, Jah Keved",
+      "mapId": "frostlands",
+      "path": [[700, 1120]],
+      "placeName": "the road north",
       "revealedIn": [
         {
           "book": "words-of-radiance",
-          "chapter": "88"
+          "chapter": "21"
         }
       ],
       "approximate": true,
-      "title": "Her mother's death",
+      "title": "Deserters and a caravan",
       "summary": [
         {
-          "text": "On the Davar estate in Jah Keved, young Shallan kills her mother in self-defence when her mother tries to kill her, and her father takes the blame.",
+          "text": "Disguised by Stormlight as a highborn lady, Shallan persuades Vathah's deserters to fight bandits for her. Afterwards her group joins Macob's caravan, guarded by the con woman Tyn.",
           "revealedIn": [
             {
               "book": "words-of-radiance",
-              "chapter": "88"
+              "chapter": "21"
             }
           ]
         }
       ],
-      "source": "roshar-map",
+      "source": "roshar-hand",
       "order": 16
+    },
+    {
+      "id": "rh-510c2521",
+      "characters": ["shallan-davar"],
+      "mapId": "frostlands",
+      "path": [[560, 620]],
+      "placeName": "near the warcamps",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "28"
+        }
+      ],
+      "approximate": true,
+      "title": "Kaladin's boots",
+      "summary": [
+        {
+          "text": "Posing as a Horneater princess, Shallan meets a patrol led by Kaladin and talks him out of his boots.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 17
     },
     {
       "id": "rm-b83c6349",
@@ -592,6 +1056,34 @@
       "placeName": "Kholinar"
     },
     {
+      "id": "rh-e5191d76",
+      "characters": ["shallan-davar"],
+      "mapId": "frostlands",
+      "path": [[530, 560]],
+      "placeName": "outskirts of the warcamps",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "34"
+        }
+      ],
+      "approximate": true,
+      "title": "The end of Tyn",
+      "summary": [
+        {
+          "text": "News comes that Jasnah's ship was lost, and Tyn admits that was her job. Learning who Shallan is, Tyn attacks her, and Shallan kills her with a Shardblade.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 18
+    },
+    {
       "id": "rm-51d3f545",
       "characters": ["navani-kholin"],
       "mapId": "roshar",
@@ -620,6 +1112,34 @@
       "placeName": "Kholinar"
     },
     {
+      "id": "rh-2ac102fa",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[930, 190]],
+      "placeName": "king's palace",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "38"
+        }
+      ],
+      "approximate": true,
+      "title": "Arrival at the palace",
+      "summary": [
+        {
+          "text": "Shallan reaches the warcamps and talks her way past Kaladin to Dalinar and Navani, telling them of Jasnah's death and meeting her betrothed, Adolin.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "38"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 19
+    },
+    {
       "id": "rm-a926ccc9",
       "characters": ["venli"],
       "mapId": "roshar",
@@ -646,6 +1166,34 @@
       "source": "roshar-map",
       "order": 19,
       "placeName": "Kholinar"
+    },
+    {
+      "id": "rh-668d0d63",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[110, 185]],
+      "placeName": "Sebarial's warcamp",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "40"
+        }
+      ],
+      "approximate": true,
+      "title": "Sebarial's camp",
+      "summary": [
+        {
+          "text": "Highprince Sebarial takes Shallan in, and she settles at his manor with his mistress Palona.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "40"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 20
     },
     {
       "id": "rm-7df53afc",
@@ -685,6 +1233,34 @@
       "placeName": "Kholinar"
     },
     {
+      "id": "rh-dff304c0",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[640, 240]],
+      "placeName": "tenement",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "43"
+        }
+      ],
+      "approximate": true,
+      "title": "Among the Ghostbloods",
+      "summary": [
+        {
+          "text": "Disguised as Tyn's apprentice, Shallan finds the Ghostbloods in a tenement basement. A man named Mraize sets her a new target: Amaram.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "43"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 21
+    },
+    {
       "id": "rm-edf452b6",
       "characters": ["szeth"],
       "mapId": "roshar",
@@ -722,6 +1298,34 @@
       "placeName": "Kholinar"
     },
     {
+      "id": "rh-c217e033",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[990, 470]],
+      "placeName": "Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "52"
+        }
+      ],
+      "approximate": true,
+      "title": "Inside Amaram's manor",
+      "summary": [
+        {
+          "text": "Shallan slips into Sadeas' warcamp in disguise and infiltrates Amaram's manor.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "52"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 22
+    },
+    {
       "id": "rm-73f576b5",
       "characters": ["jasnah-kholin"],
       "mapId": "roshar",
@@ -748,6 +1352,34 @@
       "source": "roshar-map",
       "order": 22,
       "placeName": "Kholinar"
+    },
+    {
+      "id": "rh-6409123d",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[450, 100]],
+      "placeName": "Unclaimed Hills",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "54"
+        }
+      ],
+      "approximate": true,
+      "title": "Veil in the hills",
+      "summary": [
+        {
+          "text": "As Veil, Shallan meets Mraize in the Unclaimed Hills, gives him what she found, and is offered a place among the Ghostbloods.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "54"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 23
     },
     {
       "id": "rm-489f36f4",
@@ -787,6 +1419,34 @@
       "placeName": "Valley"
     },
     {
+      "id": "rh-bccb37dc",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[945, 235]],
+      "placeName": "dueling arena",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "57"
+        }
+      ],
+      "approximate": true,
+      "title": "The four-on-one duel",
+      "summary": [
+        {
+          "text": "Shallan watches from the stands as Adolin faces four Shardbearers, sending Pattern to help, until Kaladin joins the fight.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "57"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 24
+    },
+    {
       "id": "rm-eec42826",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -822,6 +1482,34 @@
       "source": "roshar-map",
       "order": 24,
       "placeName": "Hearthstone"
+    },
+    {
+      "id": "rh-bafbd965",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "madman's cell",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "64"
+        }
+      ],
+      "approximate": true,
+      "title": "The madman's cell",
+      "summary": [
+        {
+          "text": "Sent to learn about a madman prisoner, Shallan hides in his cell and overhears Amaram, the man who killed her brother Helaran.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "64"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 25
     },
     {
       "id": "rm-fcef4d20",
@@ -861,6 +1549,34 @@
       "placeName": "Alethkar"
     },
     {
+      "id": "rh-27df79c9",
+      "characters": ["shallan-davar"],
+      "mapId": "shattered-plains",
+      "path": [[560, 360]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "69"
+        }
+      ],
+      "approximate": true,
+      "title": "Down in the chasms",
+      "summary": [
+        {
+          "text": "Shallan joins Dalinar's scouting expedition, and she and Kaladin fall into the chasms and must walk back together.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "69"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 26
+    },
+    {
       "id": "rm-b7aecd0e",
       "characters": ["rysn-ftori"],
       "mapId": "roshar",
@@ -887,6 +1603,34 @@
       "source": "roshar-map",
       "order": 26,
       "placeName": "Shinovar"
+    },
+    {
+      "id": "rh-71a495cd",
+      "characters": ["shallan-davar"],
+      "mapId": "shattered-plains",
+      "path": [[420, 380]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "72"
+        }
+      ],
+      "approximate": true,
+      "title": "Facing a chasmfiend",
+      "summary": [
+        {
+          "text": "When a chasmfiend attacks, Shallan reveals she has a Shardblade, and she and Kaladin drive the beast off.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "72"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 27
     },
     {
       "id": "rm-2b5c487c",
@@ -917,33 +1661,60 @@
       "placeName": "Alethkar"
     },
     {
-      "id": "rm-999067c2",
+      "id": "rh-b25f2a00",
       "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1595, 809]],
-      "placeId": "jah-keved",
-      "placeName": "Davar estate, Jah Keved",
+      "mapId": "shattered-plains",
+      "path": [[320, 400]],
+      "placeName": "the chasms",
       "revealedIn": [
         {
           "book": "words-of-radiance",
-          "chapter": "73"
+          "chapter": "74"
         }
       ],
       "approximate": true,
-      "title": "Her father's death",
+      "title": "Sheltering from the storm",
       "summary": [
         {
-          "text": "When her father kills his wife, Malise, Shallan poisons him and strangles him with a necklace, singing his lullaby.",
+          "text": "Huddled in a carved alcove while a highstorm floods the chasm, Shallan and Kaladin trade their stories, and she tells him she killed her father.",
           "revealedIn": [
             {
               "book": "words-of-radiance",
-              "chapter": "73"
+              "chapter": "74"
             }
           ]
         }
       ],
-      "source": "roshar-map",
+      "source": "roshar-hand",
       "order": 28
+    },
+    {
+      "id": "rh-7a4f27f8",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[2068.7191275393193, 1149.305366036215]],
+      "placeId": "shattered-plains",
+      "placeName": "Narak",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "86"
+        }
+      ],
+      "title": "Opening the Oathgate",
+      "summary": [
+        {
+          "text": "In the ruined city at the Plains' centre, Shallan works out that the Oathgate's lock is a fabrial, as the armies flee two converging storms.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "86"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 29
     },
     {
       "id": "rm-dab9ddd2",
@@ -974,32 +1745,62 @@
       "placeName": "Reshi Isles"
     },
     {
-      "id": "rm-b206f076",
+      "id": "rh-83bcd000",
       "characters": ["shallan-davar"],
       "mapId": "roshar",
-      "path": [[1441, 1177]],
-      "placeId": "kharbranth",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
       "revealedIn": [
         {
-          "book": "way-of-kings",
-          "chapter": "8"
+          "book": "words-of-radiance",
+          "chapter": "87"
         }
       ],
-      "title": "Jasnah's ward",
+      "approximate": true,
+      "title": "Reaching Urithiru",
       "summary": [
         {
-          "text": "Shallan sails to Kharbranth to beg Jasnah Kholin to take her as a ward, and Jasnah reluctantly agrees on trial.",
+          "text": "The Oathgate carries the armies to the lost tower city of Urithiru.",
           "revealedIn": [
             {
-              "book": "way-of-kings",
-              "chapter": "8"
+              "book": "words-of-radiance",
+              "chapter": "87"
             }
           ]
         }
       ],
-      "source": "roshar-map",
+      "source": "roshar-hand",
       "order": 30,
-      "placeName": "Kharbranth"
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rh-12de37c6",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "88"
+        }
+      ],
+      "approximate": true,
+      "title": "Mraize in the tower",
+      "summary": [
+        {
+          "text": "Exploring Urithiru, Shallan finds a Ghostblood note with her real name; Mraize is waiting and knows she is Veil.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "88"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 31,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-4a71816c",
@@ -1028,6 +1829,35 @@
       "source": "roshar-map",
       "order": 31,
       "placeName": "Kharbranth"
+    },
+    {
+      "id": "rh-b8267b12",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "8"
+        }
+      ],
+      "approximate": true,
+      "title": "A Radiant in the tower",
+      "summary": [
+        {
+          "text": "At Urithiru Shallan struggles to sketch the tower and passes herself off as an Elsecaller rather than reveal her true Order.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 32,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-92cff05a",
@@ -1067,6 +1897,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-a1671509",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "30"
+        }
+      ],
+      "approximate": true,
+      "title": "The thing in the depths",
+      "summary": [
+        {
+          "text": "Hunting a copycat killer, Shallan finds Re-Shephir, one of the Unmade, beneath the tower and drives it off.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 33,
+      "placeName": "Urithiru"
+    },
+    {
       "id": "rm-5cfdd7ef",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -1102,6 +1961,35 @@
       "source": "roshar-map",
       "order": 33,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-d71f957c",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "33"
+        }
+      ],
+      "approximate": true,
+      "title": "Jasnah returns",
+      "summary": [
+        {
+          "text": "Jasnah is alive and back at Urithiru, and Shallan resumes studying under her.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "33"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 34,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-cb40a04b",
@@ -1140,6 +2028,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-0644a529",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1501, 1312]],
+      "placeId": "thaylen-city",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "58"
+        }
+      ],
+      "approximate": true,
+      "title": "The Thaylen Oathgate",
+      "summary": [
+        {
+          "text": "Shallan and Kaladin use the Oathgate to reach Thaylen City and back, moving only the control building rather than the whole platform.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 35,
+      "placeName": "Thaylen City"
+    },
+    {
       "id": "rm-4bed1c63",
       "characters": ["adolin-kholin"],
       "mapId": "roshar",
@@ -1176,6 +2093,38 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-6a228e5d",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [
+        [2068.7191275393193, 1149.305366036215],
+        [1955, 815]
+      ],
+      "placeId": "kholinar",
+      "placeName": "outside Kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "60"
+        }
+      ],
+      "approximate": true,
+      "title": "Riding the highstorm",
+      "summary": [
+        {
+          "text": "Kaladin flies Shallan, Adolin, Elhokar and a few others ahead of a highstorm toward occupied Kholinar.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "60"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 36
+    },
+    {
       "id": "rm-1e6f09c2",
       "characters": ["navani-kholin"],
       "mapId": "roshar",
@@ -1202,6 +2151,34 @@
       "source": "roshar-map",
       "order": 36,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-27825438",
+      "characters": ["shallan-davar"],
+      "mapId": "kholinar",
+      "path": [[393, 1312]],
+      "placeName": "city gate",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "61"
+        }
+      ],
+      "approximate": true,
+      "title": "Into Kholinar",
+      "summary": [
+        {
+          "text": "Disguising the team with illusions, Shallan leads them into the city through a side gate.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "61"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 37
     },
     {
       "id": "rm-f8deda35",
@@ -1241,6 +2218,34 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-07e94d15",
+      "characters": ["shallan-davar"],
+      "mapId": "kholinar",
+      "path": [[600, 1240]],
+      "placeName": "Yokska's shop",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "62"
+        }
+      ],
+      "approximate": true,
+      "title": "Yokska's tailor shop",
+      "summary": [
+        {
+          "text": "The team takes shelter with the tailor Yokska, using her shop as a base.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "62"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 38
+    },
+    {
       "id": "rm-3fe7d351",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -1269,8 +2274,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-ff0ac7dc",
+      "characters": ["shallan-davar"],
+      "mapId": "kholinar",
+      "path": [[673, 1413]],
+      "placeName": "Monastery Dais",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "78"
+        }
+      ],
+      "title": "Joining the cult",
+      "summary": [
+        {
+          "text": "Shallan joins the cult that gathers on the steps of the Oathgate platform to watch who controls it.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "78"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 39
+    },
+    {
       "id": "rm-8c48137b",
-      "characters": ["shallan-davar", "jasnah-kholin", "taravangian"],
+      "characters": ["jasnah-kholin", "taravangian"],
       "mapId": "roshar",
       "path": [[1441, 1177]],
       "placeId": "kharbranth",
@@ -1295,6 +2327,33 @@
       "source": "roshar-map",
       "order": 39,
       "placeName": "Kharbranth"
+    },
+    {
+      "id": "rh-eb0f2a90",
+      "characters": ["shallan-davar"],
+      "mapId": "kholinar",
+      "path": [[817, 1444]],
+      "placeName": "palace",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "84"
+        }
+      ],
+      "title": "Assault on the palace",
+      "summary": [
+        {
+          "text": "The team storms the palace, where Shallan touches the Unmade lurking there.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "84"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 40
     },
     {
       "id": "rm-144f1166",
@@ -1334,6 +2393,33 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-e760ae0a",
+      "characters": ["shallan-davar"],
+      "mapId": "kholinar",
+      "path": [[673, 1413]],
+      "placeName": "Monastery Dais",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "85"
+        }
+      ],
+      "title": "Activating the Oathgate",
+      "summary": [
+        {
+          "text": "With enemies closing in, Shallan activates Kholinar's Oathgate to get the team out.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "85"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 41
+    },
+    {
       "id": "rm-3e8cd050",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -1371,6 +2457,34 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-fd56b11e",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-lost-lights",
+      "path": [[1010, 290]],
+      "placeName": "near Kholinar",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "89"
+        }
+      ],
+      "approximate": true,
+      "title": "Stranded in Shadesmar",
+      "summary": [
+        {
+          "text": "Thrown into Shadesmar, Shallan shapes the beads to carry the group to land.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "89"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 42
+    },
+    {
       "id": "rm-669c8802",
       "characters": ["szeth"],
       "mapId": "roshar",
@@ -1399,8 +2513,35 @@
       "order": 42
     },
     {
+      "id": "rh-c95f04c5",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-lost-lights",
+      "path": [[985, 900]],
+      "placeName": "Celebrant",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "102"
+        }
+      ],
+      "title": "Celebrant",
+      "summary": [
+        {
+          "text": "Their ship reaches Celebrant, a busy spren port.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "102"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 43
+    },
+    {
       "id": "rm-59aaa7f8",
-      "characters": ["shallan-davar", "jasnah-kholin"],
+      "characters": ["jasnah-kholin"],
       "mapId": "roshar",
       "path": [[1441, 1177]],
       "placeId": "kharbranth",
@@ -1425,6 +2566,34 @@
       "source": "roshar-map",
       "order": 43,
       "placeName": "Kharbranth"
+    },
+    {
+      "id": "rh-91538323",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-lost-lights",
+      "path": [[600, 1880]],
+      "placeName": "Thaylen Sea",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "110"
+        }
+      ],
+      "approximate": true,
+      "title": "Over the side",
+      "summary": [
+        {
+          "text": "Shallan and the others jump overboard and make for Thaylen City.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "110"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 44
     },
     {
       "id": "rm-65f3ae5a",
@@ -1455,6 +2624,33 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-e8d8ef97",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-lost-lights",
+      "path": [[420, 2070]],
+      "placeName": "Thaylen City",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "115"
+        }
+      ],
+      "title": "The guarded Oathgate",
+      "summary": [
+        {
+          "text": "Reaching Thaylen City's Oathgate in Shadesmar, Shallan finds it guarded by Fused and a red mass of light.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "115"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 45
+    },
+    {
       "id": "rm-572eefb0",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -1481,6 +2677,34 @@
       "source": "roshar-map",
       "order": 45,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-3f74aa0c",
+      "characters": ["shallan-davar"],
+      "mapId": "thaylen-city",
+      "path": [[1110, 800]],
+      "placeName": "Thaylen Field",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "120"
+        }
+      ],
+      "approximate": true,
+      "title": "An army of light",
+      "summary": [
+        {
+          "text": "At Dalinar's order Shallan Lightweaves an army on Thaylen Field to hold the enemy off, until her Stormlight runs low.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "120"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 46
     },
     {
       "id": "rm-0d15af47",
@@ -1511,8 +2735,37 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-e24205c2",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "oathbringer",
+          "chapter": "122"
+        }
+      ],
+      "approximate": true,
+      "title": "Map and wedding",
+      "summary": [
+        {
+          "text": "At Urithiru Shallan paints a Lightwoven map of Roshar for Dalinar's war planning, then her brothers arrive for her wedding to Adolin.",
+          "revealedIn": [
+            {
+              "book": "oathbringer",
+              "chapter": "122"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 47,
+      "placeName": "Urithiru"
+    },
+    {
       "id": "rm-51dbd6d6",
-      "characters": ["shallan-davar", "jasnah-kholin"],
+      "characters": ["jasnah-kholin"],
       "mapId": "roshar",
       "path": [[1441, 1177]],
       "placeId": "kharbranth",
@@ -1537,6 +2790,34 @@
       "source": "roshar-map",
       "order": 47,
       "placeName": "Kharbranth"
+    },
+    {
+      "id": "rh-fef9d54a",
+      "characters": ["shallan-davar"],
+      "mapId": "warcamps",
+      "path": [[985, 480]],
+      "placeName": "Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "7"
+        }
+      ],
+      "approximate": true,
+      "title": "Meeting Ialai Sadeas",
+      "summary": [
+        {
+          "text": "Posing as the merchant Chanasha, Veil gets the Sons of Honor to take her through the chasms to Ialai Sadeas, who is poisoned soon after they talk.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 48
     },
     {
       "id": "rm-cd952d4c",
@@ -1565,6 +2846,35 @@
       "source": "roshar-map",
       "order": 48,
       "placeName": "Kharbranth"
+    },
+    {
+      "id": "rh-91db221c",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "22"
+        }
+      ],
+      "approximate": true,
+      "title": "Through the Oathgate",
+      "summary": [
+        {
+          "text": "Shallan and Adolin lead a mission through Urithiru's Oathgate into Shadesmar, bound for the honorspren.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "22"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 49,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-41f8bcc9",
@@ -1604,6 +2914,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-1cd9a978",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "36"
+        }
+      ],
+      "approximate": true,
+      "title": "Lasting Integrity in sight",
+      "summary": [
+        {
+          "text": "After rescuing an honorspren from an ambush, the group reaches Lasting Integrity, and Shallan catches Pattern lying to her.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 50,
+      "placeName": "Lasting Integrity"
+    },
+    {
       "id": "rm-fedba970",
       "characters": ["adolin-kholin"],
       "mapId": "roshar",
@@ -1641,6 +2980,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-cc43d795",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "82"
+        }
+      ],
+      "approximate": true,
+      "title": "Mraize's dagger",
+      "summary": [
+        {
+          "text": "Through the cube, Mraize gives Veil a dagger to trap the Herald Kelek's soul, offering full Ghostblood membership in return.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "82"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 51,
+      "placeName": "Lasting Integrity"
+    },
+    {
       "id": "rm-bbcd36e3",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -1669,59 +3037,90 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-3ad89938",
+      "id": "rh-5a85cd51",
       "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1713, 1338]],
-      "placeName": "Aboard the Wind's Pleasure",
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
       "revealedIn": [
         {
-          "book": "words-of-radiance",
-          "chapter": "1"
-        }
-      ],
-      "title": "A strange pattern",
-      "summary": [
-        {
-          "text": "Sailing with Jasnah aboard the Wind's Pleasure, Shallan notices a strange pattern following her.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "1"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 52
-    },
-    {
-      "id": "rm-00ca6fb4",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1936, 1359]],
-      "placeName": "Off the coast of the Frostlands",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "7"
+          "book": "rhythm-of-war",
+          "chapter": "93"
         }
       ],
       "approximate": true,
-      "title": "Attack on the ship",
+      "title": "At Kelek's door",
       "summary": [
         {
-          "text": "Assassins attack the Wind's Pleasure at night. Shallan sees them stab Jasnah through the heart, and the ship goes down.",
+          "text": "Shallan, as Formless, goes to Kelek's house with the dagger but turns back, faces her memories, and Veil merges with her.",
           "revealedIn": [
             {
-              "book": "words-of-radiance",
-              "chapter": "7"
+              "book": "rhythm-of-war",
+              "chapter": "93"
             }
           ]
         }
       ],
-      "source": "roshar-map",
-      "order": 53
+      "source": "roshar-hand",
+      "order": 52,
+      "placeName": "Lasting Integrity"
+    },
+    {
+      "id": "rh-5fd1beb2",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
+      "revealedIn": [
+        {
+          "book": "rhythm-of-war",
+          "chapter": "115"
+        }
+      ],
+      "approximate": true,
+      "title": "Defying Mraize",
+      "summary": [
+        {
+          "text": "Shallan tells Mraize she won't kill Kelek and will reach Ba-Ado-Mishram before the Ghostbloods do.",
+          "revealedIn": [
+            {
+              "book": "rhythm-of-war",
+              "chapter": "115"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 53,
+      "placeName": "Lasting Integrity"
+    },
+    {
+      "id": "rh-d9743804",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-souls",
+      "path": [[300, 900]],
+      "placeName": "Shadesmar",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "11"
+        }
+      ],
+      "approximate": true,
+      "title": "Ambush over the beads",
+      "summary": [
+        {
+          "text": "Heavenly Ones attack the group on its way out; Shallan shapes the beads into rooms to rescue Adolin from the depths.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 54
     },
     {
       "id": "rm-f2100c50",
@@ -1750,6 +3149,34 @@
       ],
       "source": "roshar-map",
       "order": 54
+    },
+    {
+      "id": "rh-288e1f02",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [[937, 1042]],
+      "placeId": "azimir",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "13"
+        }
+      ],
+      "title": "Shardplate at Azimir",
+      "summary": [
+        {
+          "text": "Passing through the Oathgate to Azimir, Shallan finds beads that clung to her becoming Shardplate: she has sworn her Fourth Ideal.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "13"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 55,
+      "placeName": "Azimir"
     },
     {
       "id": "rm-b31aa395",
@@ -1789,32 +3216,63 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-0b235085",
+      "id": "rh-5c170cb9",
       "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1936, 1349]],
-      "placeId": "frostlands",
+      "mapId": "narak-defenses",
+      "path": [
+        [1040, 1020],
+        [880, 760]
+      ],
+      "placeName": "Narak Four",
       "revealedIn": [
         {
-          "book": "words-of-radiance",
-          "chapter": "13"
+          "book": "wind-and-truth",
+          "chapter": "21"
         }
       ],
-      "title": "Shipwrecked",
+      "approximate": true,
+      "title": "A strike team at Narak",
       "summary": [
         {
-          "text": "Washed up in the Frostlands, believing Jasnah dead, Shallan joins a slaver's caravan headed for the Shattered Plains.",
+          "text": "Disguised as soldiers, Shallan's team takes the Oathgate to Narak and watches the Ghostblood hideout.",
           "revealedIn": [
             {
-              "book": "words-of-radiance",
-              "chapter": "13"
+              "book": "wind-and-truth",
+              "chapter": "21"
             }
           ]
         }
       ],
-      "source": "roshar-map",
-      "order": 56,
-      "placeName": "Frostlands"
+      "source": "roshar-hand",
+      "order": 56
+    },
+    {
+      "id": "rh-7a00b91c",
+      "characters": ["shallan-davar"],
+      "mapId": "narak-defenses",
+      "path": [[930, 830]],
+      "placeName": "Ghostblood hideout",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "29"
+        }
+      ],
+      "approximate": true,
+      "title": "An anti-Stormlight bolt",
+      "summary": [
+        {
+          "text": "Shallan confronts them in her Plate but is shot with an anti-Stormlight bolt, and Mraize, Iyatil and Lieke escape into Shadesmar.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "29"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 57
     },
     {
       "id": "rm-296ba95d",
@@ -1845,32 +3303,60 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-ff1aaae5",
+      "id": "rh-da15eba5",
       "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1958, 1269]],
-      "placeId": "frostlands",
+      "mapId": "sea-of-souls",
+      "path": [[905, 300]],
+      "placeName": "Urithiru",
       "revealedIn": [
         {
-          "book": "words-of-radiance",
-          "chapter": "21"
+          "book": "wind-and-truth",
+          "chapter": "32"
         }
       ],
-      "title": "Deserters",
+      "approximate": true,
+      "title": "Ambush at the perpendicularity",
       "summary": [
         {
-          "text": "When bandits threaten the caravan, Shallan talks a band of deserters into protecting it.",
+          "text": "In Shadesmar at Urithiru, Mraize, Iyatil and Lieke attack Shallan's team as Dalinar's way into the Spiritual Realm opens. Lieke dies, and Mraize's dagger collapses the perpendicularity in a blast.",
           "revealedIn": [
             {
-              "book": "words-of-radiance",
-              "chapter": "21"
+              "book": "wind-and-truth",
+              "chapter": "32"
             }
           ]
         }
       ],
-      "source": "roshar-map",
-      "order": 58,
-      "placeName": "Frostlands"
+      "source": "roshar-hand",
+      "order": 58
+    },
+    {
+      "id": "rh-23c143d4",
+      "characters": ["shallan-davar"],
+      "mapId": "sea-of-souls",
+      "path": [[905, 300]],
+      "placeName": "Urithiru",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "145"
+        }
+      ],
+      "approximate": true,
+      "title": "No way home",
+      "summary": [
+        {
+          "text": "Shallan wakes in Shadesmar and races to the Oathgate, too late to go with Renarin and Rlain. The Oathgate spren say there is no Stormfather or Stormlight to send her home.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "145"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 59
     },
     {
       "id": "rm-bb6edd25",
@@ -1901,32 +3387,33 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-b371d0ed",
+      "id": "rh-7408dcdb",
       "characters": ["shallan-davar"],
       "mapId": "roshar",
-      "path": [[1986, 1171]],
-      "placeId": "shattered-plains",
+      "path": [[1640, 880]],
+      "placeId": "cultivations-perpendicularity",
+      "placeName": "Cultivation's Perpendicularity (Shadesmar)",
       "revealedIn": [
         {
-          "book": "words-of-radiance",
-          "chapter": "28"
+          "book": "wind-and-truth",
+          "chapter": "147"
         }
       ],
-      "title": "Meeting Kaladin",
+      "approximate": true,
+      "title": "Cultivation's empty pool",
       "summary": [
         {
-          "text": "Shallan meets a bridgeman, Kaladin, and tricks him out of his new boots.",
+          "text": "In Shadesmar Shallan reaches Cultivation's Perpendicularity and finds it empty. She settles in to wait for a way home and asks Felt to put her in touch with Thaidakar.",
           "revealedIn": [
             {
-              "book": "words-of-radiance",
-              "chapter": "28"
+              "book": "wind-and-truth",
+              "chapter": "147"
             }
           ]
         }
       ],
-      "source": "roshar-map",
-      "order": 60,
-      "placeName": "Shattered Plains"
+      "source": "roshar-hand",
+      "order": 60
     },
     {
       "id": "rm-7a234f6a",
@@ -2168,62 +3655,6 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-e7093924",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1990, 1153]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "34"
-        }
-      ],
-      "title": "Tyn",
-      "summary": [
-        {
-          "text": "When Tyn learns who Shallan is and tries to kill her, Shallan uses an illusion and her Shardblade to kill her first.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "34"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 68,
-      "placeName": "Shattered Plains"
-    },
-    {
-      "id": "rm-409b738a",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1996, 1132]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "43"
-        }
-      ],
-      "title": "The Ghostbloods",
-      "summary": [
-        {
-          "text": "Disguised as Veil, Shallan meets the Ghostbloods' leader in the warcamps.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "43"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 69,
-      "placeName": "Shattered Plains"
-    },
-    {
       "id": "rm-82e039be",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -2281,7 +3712,7 @@
     },
     {
       "id": "rm-888637e9",
-      "characters": ["shallan-davar", "adolin-kholin"],
+      "characters": ["adolin-kholin"],
       "mapId": "roshar",
       "path": [[1999, 1124]],
       "placeId": "shattered-plains",
@@ -2485,34 +3916,6 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-c17fc57c",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1999, 1124]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "58"
-        }
-      ],
-      "title": "Four Shardbearers",
-      "summary": [
-        {
-          "text": "Shallan watches from the stands as Adolin fights four Shardbearers, until Renarin and the bridgeman Kaladin join him in the arena.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "58"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 78,
-      "placeName": "Shattered Plains"
-    },
-    {
       "id": "rm-03d083dd",
       "characters": ["eshonai"],
       "mapId": "roshar",
@@ -2566,34 +3969,6 @@
       "source": "roshar-map",
       "order": 80,
       "placeName": "Azimir"
-    },
-    {
-      "id": "rm-5e370913",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1999, 1122]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "64"
-        }
-      ],
-      "title": "In the cells",
-      "summary": [
-        {
-          "text": "Shallan sneaks into the prison, hiding in Kaladin's cell to meet a mysterious prisoner.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "64"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 81,
-      "placeName": "Shattered Plains"
     },
     {
       "id": "rm-bbe55e18",
@@ -2689,43 +4064,6 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rm-b38d4627",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[2010, 1132]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "75"
-        }
-      ],
-      "title": "Stranded in the chasms",
-      "art": {
-        "src": "/journey-art/rm-b38d4627.webp",
-        "alt": "A huge, spiny chasmfiend crawls through a dark chasm.",
-        "credit": {
-          "text": "Ellie L.",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Ellie_L."
-        },
-        "position": "50% 50%"
-      },
-      "summary": [
-        {
-          "text": "A sabotaged bridge drops Shallan and Kaladin into the chasms. They share painful pasts and survive a chasmfiend and a highstorm before making it back to camp.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "75"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 85,
-      "placeName": "Shattered Plains"
-    },
-    {
       "id": "rm-0e14bed7",
       "characters": ["adolin-kholin"],
       "mapId": "roshar",
@@ -2779,34 +4117,6 @@
       ],
       "source": "roshar-map",
       "order": 87,
-      "placeName": "Shattered Plains"
-    },
-    {
-      "id": "rm-4fe02cd0",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[2026, 1143]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "84"
-        }
-      ],
-      "title": "The Battle of Narak",
-      "summary": [
-        {
-          "text": "At Narak, with two storms converging, Shallan and Renarin search the battlefield for the ancient Oathgate that might get the armies out.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "84"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 88,
       "placeName": "Shattered Plains"
     },
     {
@@ -3086,43 +4396,6 @@
       ],
       "source": "roshar-map",
       "order": 97,
-      "placeName": "Urithiru"
-    },
-    {
-      "id": "rm-a172bd80",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1158, 1003]],
-      "placeId": "urithiru",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "88"
-        }
-      ],
-      "title": "Through the Oathgate",
-      "art": {
-        "src": "/journey-art/rm-a172bd80.webp",
-        "alt": "A vast tiered tower rises among snowy mountains, ringed by round platforms.",
-        "credit": {
-          "text": "Jacobo Montoya",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jacobo_Montoya"
-        },
-        "position": "50% 40%"
-      },
-      "summary": [
-        {
-          "text": "Shallan opens the Oathgate, and the armies escape the storms to Urithiru, the lost city of the Knights Radiant.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "88"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 98,
       "placeName": "Urithiru"
     },
     {
@@ -3425,7 +4698,7 @@
     },
     {
       "id": "rm-06434019",
-      "characters": ["adolin-kholin", "shallan-davar"],
+      "characters": ["adolin-kholin"],
       "mapId": "roshar",
       "path": [[1159, 1003]],
       "placeId": "urithiru",
@@ -3489,34 +4762,6 @@
       "placeName": "Alethkar"
     },
     {
-      "id": "rm-10b4084e",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1159, 1004]],
-      "placeId": "urithiru",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "18"
-        }
-      ],
-      "title": "Veil in the Breakaway",
-      "summary": [
-        {
-          "text": "Disguised as Veil, Shallan goes looking for information in the Breakaway, the tower's market.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "18"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 110,
-      "placeName": "Urithiru"
-    },
-    {
       "id": "rm-9d6dcd70",
       "characters": ["taravangian"],
       "mapId": "roshar",
@@ -3545,36 +4790,8 @@
       "placeName": "Urithiru"
     },
     {
-      "id": "rm-07b2621c",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1158, 1003]],
-      "placeId": "urithiru",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "25"
-        }
-      ],
-      "title": "Something in the tower",
-      "summary": [
-        {
-          "text": "Exploring Urithiru's dark lower levels, Shallan finds signs of something lurking in the tower.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "25"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 112,
-      "placeName": "Urithiru"
-    },
-    {
       "id": "rm-0aa69e7b",
-      "characters": ["shallan-davar", "adolin-kholin", "renarin-kholin"],
+      "characters": ["adolin-kholin", "renarin-kholin"],
       "mapId": "roshar",
       "path": [[1159, 1003]],
       "placeId": "urithiru",
@@ -3639,7 +4856,7 @@
     },
     {
       "id": "rm-30a6f81f",
-      "characters": ["shallan-davar", "jasnah-kholin", "navani-kholin"],
+      "characters": ["jasnah-kholin", "navani-kholin"],
       "mapId": "roshar",
       "path": [[1157, 1002]],
       "placeId": "urithiru",
@@ -3863,34 +5080,6 @@
       "placeName": "Thaylen City"
     },
     {
-      "id": "rm-f85518b0",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1501, 1312]],
-      "placeId": "thaylen-city",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "59"
-        }
-      ],
-      "title": "Opening Thaylen City's Oathgate",
-      "summary": [
-        {
-          "text": "Kaladin flies Shallan to Thaylen City, where she unlocks its Oathgate.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "59"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 123,
-      "placeName": "Thaylen City"
-    },
-    {
       "id": "rm-a5aeff94",
       "characters": ["renarin-kholin"],
       "mapId": "roshar",
@@ -4021,43 +5210,6 @@
       "placeName": "Kholinar"
     },
     {
-      "id": "rm-936b7d11",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1936, 796]],
-      "placeId": "kholinar",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "62"
-        }
-      ],
-      "title": "Into Kholinar",
-      "art": {
-        "src": "/journey-art/rm-936b7d11.webp",
-        "alt": "Kaladin, Elhokar, Adolin and Shallan plan around a table in a sunlit room.",
-        "credit": {
-          "text": "Marie Seeberger",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
-        },
-        "position": "50% 40%"
-      },
-      "summary": [
-        {
-          "text": "Kaladin flies Shallan, Elhokar, Adolin and others above a highstorm to Kholinar. She disguises the team, and they slip into the city and shelter at Adolin's tailor's house.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "62"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 128,
-      "placeName": "Kholinar"
-    },
-    {
       "id": "rm-672ce2d0",
       "characters": ["dalinar-kholin"],
       "mapId": "roshar",
@@ -4178,34 +5330,6 @@
       "placeName": "Kholinar"
     },
     {
-      "id": "rm-d7508f16",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1936, 796]],
-      "placeId": "kholinar",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "78"
-        }
-      ],
-      "title": "The cult of the Moments",
-      "summary": [
-        {
-          "text": "As Veil, Shallan brings food to a cult gathering near Kholinar's Oathgate platform, hoping to get close to the Oathgate.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "78"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 133,
-      "placeName": "Kholinar"
-    },
-    {
       "id": "rm-a1ccdbcf",
       "characters": ["moash"],
       "mapId": "roshar",
@@ -4305,43 +5429,6 @@
       ],
       "source": "roshar-map",
       "order": 136,
-      "placeName": "Kholinar"
-    },
-    {
-      "id": "rm-6d7313a0",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1936, 796]],
-      "placeId": "kholinar",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "85"
-        }
-      ],
-      "title": "The fall of Kholinar",
-      "art": {
-        "src": "/journey-art/rm-6d7313a0.webp",
-        "alt": "Moash in a dark coat holds a bloodied spear.",
-        "credit": {
-          "text": "Nick Vidic",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Nick_Vidic"
-        },
-        "position": "50% 30%"
-      },
-      "summary": [
-        {
-          "text": "In the assault on the palace, Shallan tries to get past the Unmade blocking the Oathgate. When she activates it, the group finds itself in Shadesmar.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "85"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 137,
       "placeName": "Kholinar"
     },
     {
@@ -4781,34 +5868,6 @@
       "placeName": "Thaylen City"
     },
     {
-      "id": "rm-66eeb3c1",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[1501, 1312]],
-      "placeId": "thaylen-city",
-      "revealedIn": [
-        {
-          "book": "oathbringer",
-          "chapter": "120"
-        }
-      ],
-      "title": "Thaylen Field",
-      "summary": [
-        {
-          "text": "Shallan cloaks Adolin and the spren in illusions to reach the Oathgate, then draws her Shardblade and Lightweaves an army.",
-          "revealedIn": [
-            {
-              "book": "oathbringer",
-              "chapter": "120"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 153,
-      "placeName": "Thaylen City"
-    },
-    {
       "id": "rm-d75a193e",
       "characters": ["lift"],
       "mapId": "roshar",
@@ -4950,7 +6009,7 @@
     },
     {
       "id": "rm-4dba3b76",
-      "characters": ["shallan-davar", "adolin-kholin"],
+      "characters": ["adolin-kholin"],
       "mapId": "roshar",
       "path": [[1158, 1003]],
       "placeId": "urithiru",
@@ -5173,7 +6232,7 @@
     },
     {
       "id": "rm-984b3657",
-      "characters": ["shallan-davar", "adolin-kholin"],
+      "characters": ["adolin-kholin"],
       "mapId": "roshar",
       "path": [[1999, 1124]],
       "placeId": "shattered-plains",
@@ -5303,12 +6362,7 @@
     },
     {
       "id": "rm-a3235d6e",
-      "characters": [
-        "navani-kholin",
-        "adolin-kholin",
-        "shallan-davar",
-        "jasnah-kholin"
-      ],
+      "characters": ["navani-kholin", "adolin-kholin", "jasnah-kholin"],
       "mapId": "roshar",
       "path": [[1158, 1003]],
       "placeId": "urithiru",
@@ -6199,7 +7253,7 @@
     },
     {
       "id": "rm-94b08a44",
-      "characters": ["adolin-kholin", "shallan-davar"],
+      "characters": ["adolin-kholin"],
       "mapId": "roshar",
       "path": [[938, 1043]],
       "placeId": "azimir",
@@ -6336,34 +7390,6 @@
       "source": "roshar-map",
       "order": 205,
       "placeName": "Urithiru"
-    },
-    {
-      "id": "rm-85c3e98f",
-      "characters": ["shallan-davar"],
-      "mapId": "roshar",
-      "path": [[2026, 1146]],
-      "placeId": "shattered-plains",
-      "placeName": "Narak",
-      "revealedIn": [
-        {
-          "book": "wind-and-truth",
-          "chapter": "21"
-        }
-      ],
-      "title": "Narak",
-      "summary": [
-        {
-          "text": "Shallan takes a strike team through the Oathgate to Narak on the Shattered Plains to hunt the Ghostbloods.",
-          "revealedIn": [
-            {
-              "book": "wind-and-truth",
-              "chapter": "21"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 206
     },
     {
       "id": "rm-425b0230",

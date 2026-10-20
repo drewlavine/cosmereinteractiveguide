@@ -599,3 +599,35 @@ describe('persona journeys', () => {
     expect(journeyShown('rashek', index, journeyAtlas, tfe('38'))).toBe(true)
   })
 })
+
+describe("Shallan's journey on Roshar's city maps", () => {
+  const reading = (book: string, chapter: string) =>
+    readerCanSee({ read: new Set(), reading: new Map([[book, chapter]]) })
+  const shallan = async (canSee: ReturnType<typeof at>) => {
+    const pack = (await loadPack('roshar'))!
+    return revealCharacterJourney(
+      'shallan-davar',
+      pack.events,
+      journeyAtlas,
+      canSee,
+      { credits: pack.credits },
+    )
+  }
+
+  it('puts her Kharbranth stays on the city map, inside Roshar', async () => {
+    const j = await shallan(finished)
+    const there = j.stops.filter((s) => s.mapId === 'kharbranth')
+    expect(there.length).toBeGreaterThan(1)
+    expect(j.maps.map((m) => m.id)).toEqual(['roshar', 'kharbranth'])
+    // Only the hand source is hers now; the imported one isn't credited.
+    expect(j.credits.map((c) => c.source)).toEqual(['roshar-hand'])
+  })
+
+  it('keeps each city map closed until its own gate', async () => {
+    const early = await shallan(reading('words-of-radiance', '10'))
+    expect(early.maps.some((m) => m.id === 'frostlands')).toBe(false)
+    const later = await shallan(reading('words-of-radiance', '11'))
+    expect(later.maps.some((m) => m.id === 'frostlands')).toBe(true)
+    for (const s of later.stops) expect(journeyAtlas.map(s.mapId)).toBeDefined()
+  })
+})

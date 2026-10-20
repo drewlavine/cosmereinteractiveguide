@@ -134,6 +134,24 @@
       "characterId": "jasnah-kholin",
       "role": "Elsecaller",
       "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "characterId": "battar",
+      "role": "Patron Herald",
+      "revealedIn": ["wind-and-truth"]
+    },
+    {
+      "characterId": "pozen-son-nash",
+      "role": "Honorblade",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
     }
+  ],
+  "levels": [
+    "Squire",
+    "First Ideal",
+    "Second Ideal",
+    "Third Ideal",
+    "Fourth Ideal",
+    "Fifth Ideal"
   ]
 }
