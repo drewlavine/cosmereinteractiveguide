@@ -50,6 +50,7 @@ export const groupMembers: Record<
       characterId: 'nale',
       revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
     },
+    { characterId: 'pailiah', revealedIn: ['words-of-radiance'] },
     { characterId: 'pralla', revealedIn: ['words-of-radiance'] },
     {
       characterId: 'shalash',
@@ -250,6 +251,7 @@ export const groupMembers: Record<
       characterId: 'arshqqam',
       revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
     },
+    { characterId: 'pailiah', revealedIn: ['oathbringer'] },
     { characterId: 'pralla', revealedIn: ['oathbringer'] },
     {
       characterId: 'rahel',
@@ -512,6 +514,10 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
     },
     {
+      characterId: 'shen',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    {
       characterId: 'sigzil',
       revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
     },
@@ -771,6 +777,7 @@ export const groupMembers: Record<
     {
       characterId: 'kelsier',
       revealedIn: [
+        { book: 'rhythm-of-war', chapter: '64' },
         { book: 'lost-metal', chapter: '40' },
         { book: 'wind-and-truth', chapter: '147' },
       ],
@@ -801,6 +808,13 @@ export const groupMembers: Record<
     {
       characterId: 'shallan-davar',
       revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+    {
+      characterId: 'thaidakar',
+      revealedIn: [
+        { book: 'rhythm-of-war', chapter: '64' },
+        { book: 'wind-and-truth', chapter: '147' },
+      ],
     },
     {
       characterId: 'zora',
@@ -1001,6 +1015,10 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'final-empire', chapter: '6' }],
     },
     {
+      characterId: 'clubs',
+      revealedIn: [{ book: 'final-empire', chapter: '6' }],
+    },
+    {
       characterId: 'dockson',
       revealedIn: [{ book: 'final-empire', chapter: '2' }],
     },
@@ -1030,6 +1048,10 @@ export const groupMembers: Record<
     {
       characterId: 'alaward',
       revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    {
+      characterId: 'azure',
+      revealedIn: [{ book: 'oathbringer', chapter: '70' }],
     },
     {
       characterId: 'beard',
@@ -1154,6 +1176,7 @@ export const groupMembers: Record<
     { characterId: 'marsh', revealedIn: ['wind-and-truth'] },
     { characterId: 'spook', revealedIn: ['lost-metal'] },
     { characterId: 'tensoon', revealedIn: ['lost-metal'] },
+    { characterId: 'thaidakar', revealedIn: ['wind-and-truth'] },
     {
       characterId: 'tindwyl',
       revealedIn: [{ book: 'bands-of-mourning', chapter: '13' }],

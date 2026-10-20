@@ -2,10 +2,12 @@ import { describe, expect, it } from 'vitest'
 import { books } from './books'
 import { chapters } from './chapters'
 import { characterPortraits } from './characterPortraits'
+import { groupMembers } from './groupMembers'
 import {
   metIn,
   readerCanSee,
   revealCharacter,
+  revealEntry,
   revealPortrait,
   revealStory,
   revealSystem,
@@ -155,13 +157,46 @@ describe('personas', () => {
     expect(books(['final-empire', 'elantris'])).toContain('final-empire')
   })
 
-  it('keeps Thaidakar apart from Kelsier until Wind and Truth', () => {
+  it('meets Thaidakar in Rhythm of War and sees through him at its end', () => {
+    const at = (read: string[], reading: Record<string, string> = {}) =>
+      readerCanSee({
+        read: new Set(read),
+        reading: new Map(Object.entries(reading)),
+      })
+    const met = (c: ReturnType<typeof at>) => c(metIn('thaidakar', c)!)
+    const members = (c: ReturnType<typeof at>) =>
+      revealEntry(
+        undefined,
+        c,
+        () => true,
+        false,
+        groupMembers['culture:ghostbloods'],
+      ).people.map((p) => p.characterId)
+
+    // First named in chapter 9.
+    expect(met(at(['final-empire'], { 'rhythm-of-war': '8' }))).toBe(false)
+    expect(met(at(['final-empire'], { 'rhythm-of-war': '9' }))).toBe(true)
+    // Wit ties him to the Ghostbloods in chapter 64; Kelsier stays hidden.
+    const ch64 = at(['final-empire'], { 'rhythm-of-war': '64' })
+    expect(revealCharacter('thaidakar', ch64).groups).toContain('Ghostbloods')
+    expect(members(ch64)).toContain('thaidakar')
+    expect(members(ch64)).not.toContain('kelsier')
+    const ch114 = at(['final-empire'], { 'rhythm-of-war': '114' })
+    expect(revealCharacter('kelsier', ch114).personas).toEqual([])
+    expect(revealCharacter('kelsier', ch114).groups).not.toContain(
+      'Ghostbloods',
+    )
+    // "Lord of Scars" in chapter 115 gives him away to Final Empire readers.
+    const ch115 = at(['final-empire'], { 'rhythm-of-war': '115' })
+    expect(met(ch115)).toBe(false)
     expect(
-      names('kelsier', ['final-empire', 'rhythm-of-war']).aliases,
-    ).not.toContain('Thaidakar')
-    expect(
-      names('kelsier', ['final-empire', 'wind-and-truth']).personas,
+      names('kelsier', ['final-empire', 'rhythm-of-war']).personas,
     ).toEqual(['Thaidakar'])
+    expect(revealCharacter('kelsier', ch115).groups).toContain('Ghostbloods')
+    expect(members(ch115)).toContain('kelsier')
+    expect(members(ch115)).not.toContain('thaidakar')
+    // Without The Final Empire there's no one to see through him to.
+    expect(met(at(['rhythm-of-war']))).toBe(true)
   })
 })
 

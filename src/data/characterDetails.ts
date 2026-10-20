@@ -1773,6 +1773,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'secret-history', chapter: '1-1' }],
       },
       {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+      {
         bookId: 'lost-metal',
         revealedIn: [{ book: 'lost-metal', chapter: '40' }],
       },
@@ -1807,14 +1811,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Thaidakar',
-        revealedIn: [
-          {
-            all: [
-              'final-empire',
-              { book: 'wind-and-truth', chapter: 'prologue' },
-            ],
-          },
-        ],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
       },
       {
         name: 'Survivor',
@@ -1826,8 +1823,8 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Human',
         revealedIn: [
           { book: 'final-empire', chapter: 'prologue' },
+          { book: 'rhythm-of-war', chapter: '9' },
           { book: 'lost-metal', chapter: '40' },
-          { book: 'wind-and-truth', chapter: 'prologue' },
         ],
       },
       {
@@ -1858,6 +1855,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       {
         name: 'Ghostbloods',
         revealedIn: [
+          { book: 'rhythm-of-war', chapter: '64' },
           { book: 'lost-metal', chapter: '40' },
           { book: 'wind-and-truth', chapter: '147' },
         ],
@@ -1883,8 +1881,9 @@ export const characterDetails: Record<string, CharacterDetails> = {
         id: 'thaidakar',
         name: 'Thaidakar',
         coppermindPage: 'Thaidakar',
-        books: ['wind-and-truth'],
+        books: ['rhythm-of-war', 'wind-and-truth'],
         identityRevealedIn: [
+          { all: ['final-empire', { book: 'rhythm-of-war', chapter: '115' }] },
           {
             all: [
               'final-empire',
