@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A young woman working in Lirin's clinic in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lirin's clinic",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hawin worked in the clinic and sometimes assisted Kaladin, reading medical texts to him and fetching patients from the waiting room.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

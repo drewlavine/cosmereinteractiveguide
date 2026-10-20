@@ -1,0 +1,131 @@
+{
+  "intro": [
+    {
+      "text": "The main religion of eastern Roshar: belief in one god, the Almighty, and the Ten Heralds he anointed to protect mankind in their endless fight against the Voidbringers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ardents are slaves to high-ranking lighteyes and believe the Almighty set these limits so they never rise above their station. Lighteyes are thought to hold more innate Glory.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "The Almighty is held to be the force of good and creator of mankind, the Dawnsingers, animals, plants and Roshar itself. Ten is his number: ten holy names, ten Heralds and a ten-faced crystal that stands for him.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "text": "Each Vorin chooses a Calling and a Glory, an attribute of the Almighty to emulate. Those best at their Calling join the Heralds after death in the fight to retake the Tranquiline Halls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "text": "Vorins pray with glyphwards, written prayers that are burned to send their souls to the Almighty.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "Traditional temples are circular and domed, usually exactly ten feet high, and filled with statues and pictures of the Heralds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "i-2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vorinism's origins are lost, but the name Almighty was used even by the Heralds. Nohadon's The Way of Kings was one of its early holy texts.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "53" }]
+        },
+        {
+          "text": "In Old Vorinism the Knights Radiant were part of the faith, and how one lived mattered more than what one achieved. Ardents could own land and property.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Hierocracy",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "73" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "18" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Recreance the Knights Radiant came to be seen as traitors. Focus moved to texts such as Arts and Majesty, bringing the Vorin divide between men and women.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "Under the Hierocracy the ardents controlled what people could know, claiming sole authority to interpret scripture and the Almighty's will, while claiming to foresee the future themselves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Hierocracy's size became its weakness. The warlord Sadees, the Sunmaker, made war on it, splitting the ardentia into devotaries; ardents lost their land and their freedom and became slaves to lighteyes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sadees claimed the ardents' visions were fabrications. Seeking the future became heresy, ardents became advisors rather than authorities, and each person was to find the faith's meaning for themselves.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "Sadees's conquest reached as far west as Azir, but Vorinism never took hold there. The lands once under the Hierocracy remain the Vorin kingdoms.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "oathbringer", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

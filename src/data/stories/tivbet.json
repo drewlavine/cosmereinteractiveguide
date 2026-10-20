@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A historical figure from Kholinar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Terxim sought Tivbet's counsel before travelling to Vedenar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

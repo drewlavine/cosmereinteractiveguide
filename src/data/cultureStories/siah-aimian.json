@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A rare, nearly human people, said by many to bring bad luck. Their shadows fall towards the light.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Siah Aimians and humans may once have had children together, which might explain the blue skin of the Natan people.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "A Siah Aimian casts a shadow the wrong way, towards the light, which Rysn calls a \"Voidbringer shadow\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They seem to treat pain and injury as minor inconveniences, without fear of permanent harm or death. Likely thanks to their long lives, they speak many of Roshar's languages, if with an odd accent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most Rosharans know them only from legends, reacting with curiosity, unease or disgust: Aimians are said to bring bad luck and curses, or to be evil in human form.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "Siah Aimians look nearly human, usually with pale, almost blue skin, deep blue nails and crystalline blue eyes. They can sculpt their bodies at will, suppressing a sense or healing bruises, and can pass as human.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "edgedancer", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Aimia",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Siah Aimians and the Sleepless both lived in Aimia before its scouring, which Hessi described as total destruction. Both kinds of Aimian are functionally immortal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Jasnah reports to Vstim that a few Aimians of the kind Rysn met move among the people of Roshar.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "axies",
+      "role": "Siah Aimian",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "edgedancer", "chapter": "18" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "met Axies",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

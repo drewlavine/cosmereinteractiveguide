@@ -1,0 +1,94 @@
+{
+  "intro": [
+    {
+      "text": "A Fused with no title who cannot hear the Rhythms, feared even by other Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    },
+    {
+      "text": "An ancient Fused, once one of the greatest singers, stripped of his title and Rhythms for urging that humans be ruled rather than killed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "116" },
+            { "book": "wind-and-truth", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient past",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Oathpact, El was one of the most powerful and gifted singers. Jezrien stabbed him to death, and his return as a Fused warned the future Heralds of the Fused's power to come back. Later, he argued that humans should not be killed but united under Fused rule, and was punished by losing his Rhythms and his title, Vyre.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "endnote" },
+            { "book": "wind-and-truth", "chapter": "i-3" },
+            { "book": "wind-and-truth", "chapter": "137" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Back on Roshar, El resumed studying human art, wrote a ketek celebrating the Sibling's return, and rose in favour under the new Odium. Odium sped up Lezian's return so El could test anti-Voidlight on him, and El destroyed Lezian for good.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "endnote" }]
+        },
+        {
+          "text": "El killed Jezrien at last by destroying the gemstone that held him, out of respect for their old friendship. He recognised the new Odium as Taravangian, and was chosen to lead a second force to the Shattered Plains to open an Elsegate there.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+        },
+        {
+          "text": "At the Shattered Plains, El's army agreed a truce with Venli and the listeners, who held the Plains when the contest's deadline came. When another Fused raged at this, El killed him with his Shardblade, then honoured the truce and left.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has horns, and at each rebirth replaces his carapace with metal that heals into his body.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever and rarely dishonest, El is esteemed by the Heralds and feared by other Fused. He enjoys being feared, and will kill his own kind to test a weapon.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    },
+    {
+      "text": "He admires humans as strong, brilliant and intense, studies their art and writes ketek, and looks forward to ruling them.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "endnote" }]
+    }
+  ]
+}

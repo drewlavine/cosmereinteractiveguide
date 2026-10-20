@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A philosopher on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Shallan applied to become Jasnah's ward, Jasnah asked whether she had read Manaline's work. She hadn't.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

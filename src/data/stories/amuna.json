@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren of Lasting Integrity who cares for the deadeyes in the fortress.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amuna was born after the Recreance and was given charge of the deadeyes at Lasting Integrity. When the coalition's emissaries arrived in 1175, she took Maya from Adolin and was present for some of his daily visits to her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin's trial",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "87" },
+            { "book": "rhythm-of-war", "chapter": "94" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the opening day of Adolin's trial, Amuna testified against him, describing the catastrophe the Recreance had been for the honorspren and the danger if current bonds were broken. Beside her sat two silent deadeyes as she pleaded that no more spren be sent to suffer their fate.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "On the second day, Amuna brought Testament into the forum as proof that humans still endangered their spren. On the last day she led Maya to the podium and held her in place as Sekeir pressed his case, but when Maya spoke for herself, Amuna was too stunned to stop Adolin reaching her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Thin, limber and willowy, she walks gracefully and manifests her clothes as a stiff shirt and a pleated warrior's skirt.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Loyal to the deadeyes as a group rather than to each one, she puts defeating the threat she sees in humans ahead of Maya's comfort. Still, she sincerely cares for the deadeyes in her charge and wishes they could look after more.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+    }
+  ]
+}

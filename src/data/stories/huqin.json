@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "An Azish thief who leads a crew planning to rob the Bronze Palace in Azimir.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Heist at the Bronze Palace",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Huqin leads a crew including his nephew Gawx, Maxin, Tigzikk and two brothers. Tigzikk proposed robbing the Bronze Palace while the viziers were busy choosing a new Prime Aqasix, a haul that could keep them in luxury for a year or two, and recruited Lift for her talent at sneaking in. Huqin was sceptical but let her come.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "They broke in during the darkest part of the night, Lift climbing the wall and dropping a rope. Huqin's crew stole clothing and accessories, which he explained were valuable and easier to take than secured art or jewellery. He told Lift and Gawx to stay put while he moved on.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Lift and Gawx went off on their own and were caught by Nale and his men in the emperor's rooms. As Lift had expected, Huqin and the rest of the crew left without them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has the dark skin and dark hair typical of the Azish, and a long nose. He wears black for a night-time burglary.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A seasoned thief, he has strategies for getting in and out of a job quickly, even if that means abandoning his accomplices.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ]
+}

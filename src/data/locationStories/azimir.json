@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "The capital of Azir, in the south of the country near Tashikk and Emul, one of the largest cities on Roshar, home of the Bronze Palace.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Azimir lies in the south of Azir near the borders with Tashikk and Emul, in a spot well protected from highstorms. Its population is larger than Kholinar's and far more densely packed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The Bronze Palace, seat of the Azish government and home of the Prime Aqasix, takes its name from being Soulcast almost entirely into bronze, down to its trees and decorations.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The city's indoor market sits under an enormous bronze dome on top of its Oathgate platform. Learning this, the Azish emptied it and turned it into a fort against a possible Alethi invasion.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Azimir is one of the oldest cities on Roshar. Having its own Oathgate suggests it may have been the capital of Makabakam, the Silver Kingdom in whose lands it lay.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        },
+        {
+          "text": "In 1173, Prime after Prime was assassinated as soon as they were chosen, until candidates were too afraid to stand. During this crisis, a young thief named Gawx was made the new Prime Aqasix.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "After the Everstorm, the former parshmen left the city and tried to sue the government for back pay. The Azish meant to destroy their Oathgate, but Dalinar persuaded them to join his alliance, and Lift unlocked the gate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

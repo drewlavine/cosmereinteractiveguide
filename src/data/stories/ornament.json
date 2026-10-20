@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Ornament is a Cryptic bonded to Beryl, one of Shallan's Lightweavers.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bonded to Beryl",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "26" },
+            { "book": "rhythm-of-war", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ornament bonded Beryl, usually riding inside her shirt in the Physical Realm because she did not like to be seen. With other Cryptics, she liked to watch Shallan draw.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        },
+        {
+          "text": "Ornament went with Beryl on the journey to Lasting Integrity. When Shallan suspected Beryl of spying for the Ghostbloods, she questioned Ornament, but got nothing useful from her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ornament has a delicate, lacelike head pattern and a squeaky voice. She glides smoothly like most Cryptics, unlike Pattern's bouncy movement.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ornament is shy of being seen, but makes excited noises and bounces while watching Shallan draw. Like other Cryptics, she takes human speech literally and has a limited Alethi vocabulary.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ]
+}

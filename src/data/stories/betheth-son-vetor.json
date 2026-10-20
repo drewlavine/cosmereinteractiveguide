@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Captain of recruitment and discipline at the soldiers' camp near the Shin Stoneward monastery.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stoneward camp",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Betheth-son-Vetor oversaw recruitment and discipline at the camp near the Stoneward monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

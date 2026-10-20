@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi noblewoman, wife of Highprince Bethab.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    },
+    {
+      "text": "A lighteyed Alethi noblewoman, wife of Highprince Bethab, who serves with him as an ambassador in Thaylen City.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Bethab",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bethab married Mishinah for her political skill, and she often attended meetings in his place. When Dalinar planned his final assault on the Parshendi, it was she, not Bethab, who told him their house would not join it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Urithiru, at a meeting of the Alethi nobility, Mishinah and several highprinces raised concerns about providing food, water and plumbing for the tower's many new residents, until Navani Kholin calmed their fears.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "Mishinah and her husband came to support Dalinar and the coalition of monarchs, and were sent to Thaylen City as ambassadors, where her political skills proved useful.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A mousy woman with a pinched face and orange eyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She is skilled at navigating Alethi politics.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ]
+}

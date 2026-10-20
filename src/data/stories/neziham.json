@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "An Azish Shardbearer of the Imperial Guard, held back to defend Azimir during the True Desolation.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Neziham joined the Azish military young and won imperial rights to a set of Shards. Kingdoms and houses across Makabak often hired him, mostly for civic work such as cutting trenches with his Blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While most Azish Shardbearers went south, Neziham stayed with the Imperial Guard in Azimir. When enemies poured into the city's dome he fought beside Adolin Kholin, and they tried but failed to destroy the fort the singers had built inside it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+        },
+        {
+          "text": "Holding the north of the dome against direforms with aluminium shields, Neziham was nearly killed before Adolin came to his rescue. Afterwards the two turned back an attack that almost broke the defenders.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "Sent with Adolin to stop a thunderclast attacking the dome from outside, Neziham distracted it while Adolin tried to trip it with a chain. Glancing at Adolin at the wrong moment, he was crushed by the creature's fist and killed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A Makabaki man with a shaved head, an iron gaze and several bronze teeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tough and not easily impressed, he was still amazed by Adolin's skill in Shardplate, and he is fond of his commandant, Zarb Kushkam.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+    }
+  ]
+}

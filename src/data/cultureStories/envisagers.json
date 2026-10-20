@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "A secret sect that kept the memory of the Knights Radiant alive and awaited their return.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Envisagers believed in the Knights Radiant and their Ideals, which they knew, as well as in the Almighty and old Vorinism.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "text": "Like the Sons of Honor, they hoped that bringing back the Voidbringers would bring back the Radiants.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    },
+    {
+      "text": "They believed Radiant powers would show in someone whose life was in danger, so they put themselves in mortal danger, often dying: Teft spoke of people pushed off cliffs or crushed by rocks.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "71" },
+            { "book": "rhythm-of-war", "chapter": "91" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They were probably a splinter group of the Sons of Honor.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Teft",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "71" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teft's parents were Envisagers, but he thought it nonsense and left. When he reported the group to their citylord, the citylord had them all executed. Teft didn't believe until he saw Kaladin take in Stormlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "71" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sigzil speaks of a group in Yulay with similar goals.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "teft",
+      "role": "son of Envisagers",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "71" }
+          ]
+        }
+      ]
+    }
+  ]
+}

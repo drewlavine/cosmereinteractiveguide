@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A long-dead master artist with pencils, whose writing on drawing advises aspiring artists to paint self-portraits.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "27" },
+            { "book": "oathbringer", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dandos the Oilsworn, a master artist with pencils who also knew mathematics and founded the study of ratios in art.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Master artist",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three hundred years after Dandos died, Shallan Davar taught herself to draw from one of his books.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

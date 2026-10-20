@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A surgeon from Shorsebroon, trained at the Great Concourse in Kharbranth, who took Lirin on as his apprentice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lirin's teacher",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Lirin's apprenticeship, Vathe taught him breathing exercises to keep him calm during surgery.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A spren bonded to Arshqqam, travelling with the expedition to the honorspren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    },
+    {
+      "text": "A mistspren bonded to Arshqqam, travelling with the expedition to the honorspren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The expedition",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "24" },
+            { "book": "rhythm-of-war", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Arshqqam left Tashikk for Urithiru, she and Dreaming-though-Awake were chosen for the expedition to the honorspren. In Shadesmar the spren began studying the humans at once, quizzing Adolin and translating for Arshqqam.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "On the journey, Dreaming-though-Awake was disappointed to find Shallan sketching her rather than the Unmade, and had no answers to Shallan's questions about Ba-Ado-Mishram.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "After Adolin, Shallan, Maya and Pattern entered Lasting Integrity, Arshqqam and Dreaming-though-Awake left with the others to carry word to Dalinar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In Shadesmar she looks like a woman made of mist, with a porcelain mask for a face and a vest, trousers and gloves. She seems to drift rather than walk.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "20" },
+            { "book": "rhythm-of-war", "chapter": "24" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dreaming-though-Awake is fascinated by humans, finding their questions revealing, in a way that people find somewhat off-putting.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+    }
+  ]
+}

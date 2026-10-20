@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A master Skybreaker who oversees the training of squires.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Skybreaker master",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "98" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Warren and Ki took Szeth and twenty other squires to the Purelake for a test: a fight with bags of coloured powder, won by whoever had the cleanest uniform at sunset. Szeth won by washing his uniform before the end, and Warren told him he should soon have a spren.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "Warren flew with Nin, Szeth and most of the Skybreakers to Marat, then went with the others to a nearby town, leaving Szeth and Nin behind.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

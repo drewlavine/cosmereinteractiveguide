@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman in Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "way-of-kings", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Kaladin's first run as bridgeleader, Kaladin gave Narm his own shirt as tinder and told him to light a fire while he tried to save the wounded. Narm struggled, but got a small flame going, and they used it to treat other bridgemen.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "On chasm duty, Narm was stunned along with the others when Kaladin performed a kata, but he was among the loudest complainers who didn't join Kaladin's morning training.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "Narm was wounded on a bridge run, and on another Kaladin sent him and Leyten to watch for Parshendi movement. He was one of the crew's three casualties in the Battle of the Tower, dying as he held the bridge while the Kholin army retreated.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is skinnier than most of the other bridgemen.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ],
+  "personality": []
+}

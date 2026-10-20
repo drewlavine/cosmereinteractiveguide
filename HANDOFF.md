@@ -14,9 +14,9 @@ rules) before doing anything. Delete or rewrite this file once it's stale.
 - Private, non-public site for now; licences/permissions only matter if it's
   ever released (keep art credits and the CC BY-NC-ND footer anyway).
 - Drew likes seeing screenshots of UI changes (desktop and phone).
-- **Current focus: Mistborn Era 1** (from 2026-10-19; Sunlit Man is paused).
-  Drew has read Era 1; he's mid-read in Sunlit Man and Stormlight, so never
-  put their plot in chat.
+- **Current focus: The Stormlight Archive** (mass population done the night
+  before Drew starts Wind and Truth; he'll review and fix by hand). Drew has
+  read Era 1; never put Stormlight, Wind and Truth or Sunlit Man plot in chat.
 
 ## Where things are
 
@@ -65,6 +65,47 @@ read is fine; Key facts collapse on phones; multi-book items appearing late is
 OK.
 
 ## Done this session (uncommitted until Drew says)
+
+- **Stormlight Archive mass population (uncommitted, awaiting Drew's review).**
+  Done by parallel agents with the brief `~/cig-char-data/SA_BATCH_BRIEF.md`;
+  each wrote only its own `overrides.d/sa-*.json` and `story/<id>.json`.
+  - Characters: 1,236 emitted (was 219), 1,219 with stories. Tiers by
+    chapter appearances: `batch-sa-{major,minor,small,single,mentioned}.txt`
+    (62 / 102 / 177 / 356 / 299; split a–f). `pilot.txt` now lists them all
+    (old list backed up in the session folder only). Mentioned-only people
+    are dated by hand to the chapter that first names them.
+  - Stub pages (no footnoted text, so no History): winn, aleen, makana,
+    abry, gamma, zen-daughter-vath, monosha, edgli, masly, sur-kamar,
+    abrial.
+  - New personas from overrides: stump → arshqqam, nikli → nikliasorm,
+    pailiah → pralla, captain-khal → halam-khal.
+  - Art: portraits for 50/62 majors and 50/102 minors
+    (`art/sa-major.json`, `art/sa-minor.json`); nothing new for the 17 older
+    Stormlight characters.
+  - Time Machine (`npm run spoiler:snapshot`) run over 59 of the 62 majors:
+    7 slips fixed (lunamor, taravangian, eshonai, talenel, hobber) in
+    `overrides.d/sa-timemachine.json` and their stories, re-checked after
+    emit. wind, zarb-kushkam and neturo-son-vallano are met only in Wind and
+    Truth, which has no snapshot yet. Smaller tiers weren't
+    snapshot-checked (only `story_check`/`date.py`).
+  - Places: 70 Roshar places (`~/cig-loc-data/roshar.txt`); `loc_emit.py`
+    now needs `@era1_sunlit.txt @roshar.txt`. Urithiru residents are held
+    to the end of Words of Radiance (some to Oathbringer) by
+    `review/roshar-urithiru.json`. `facts_review.txt` is per run: the Roshar
+    one is saved as `facts_review.roshar.txt`.
+  - Culture: 59 Roshar pages (species, peoples, groups...). Magic: 23 pages
+    (Surgebinding, the Knights Radiant and the ten orders, Stormlight,
+    Voidlight, Old Magic, Shardblades, Shardplate, fabrials, Soulcasting,
+    the Nahel bond...), Ars Arcanum dated to chapter 1.
+  - Journeys: 14 Roshar characters (221 events), incl. Wind and Truth for 9;
+    Edgedancer and Dawnshard added to the journey books.
+  - Maps: Shattered Plains (Words of Radiance version) and Four Cities
+    (Isaac Stewart, credited). Four Cities is optional.
+  - App: `src/data/stormlight.test.ts` pins a few gates (first meeting,
+    a persona, Urithiru residents); `locations.test.tsx`'s Era 1 list test
+    now filters to Scadrial.
+  - Main JS chunk is ~2.3 MB (was 1.17 MB): lazy-loading
+    `characterDetails` is worth doing next.
 
 - **Journey map proof of concept (2026-10-17): Kaladin, The Way of Kings.**
   Uncommitted. See ROADMAP 16, ARCHITECTURE 5.9 and
@@ -230,6 +271,25 @@ OK.
 
 ## Known doubts to mention
 
+- Stormlight (my defaults while Drew was away; check these first):
+  - Ghostbloods' Culture entry is Scadrial, revealed at The Lost Metal, so
+    Stormlight-only readers don't see it.
+  - Oathpact, Desolations, Recreance and Heraldic Epochs aren't pages (the
+    Coppermind files them as events/history).
+  - The ten Surges, Regrowth, spren and polestones have no Magic page of
+    their own (covered as sections and aliases).
+  - Kaladin's "Bridge Four" fact is dated very late; Jasnah's Elsecaller
+    reveal differs between details and summaries; verify both.
+  - Names using later knowledge: starfalls-stoneward/-windrunner (order
+    names), one minor whose surname comes later, gerehs-aviar's title.
+  - koravellium-avast covers only the Vessel; `shade` may clash with another
+    series' Shade.
+  - Possible duplicates/identity: jam-caravaneer vs Jam of Hearthstone;
+    sivi (earlier highlady vs a later Sivi); vedekar-perel; the "Taravangian's
+    granddaughter" page vs Gvori; Karavangia/Karavaniga.
+  - Mentioned batches pulled in some non-Stormlight people (Shashara,
+    Yesteel, Shishi, jone); they're dated to their own books.
+
 - Dalinar "Taking Oathbringer": the verifier called "Gavilar tells him it
   is Oathbringer" unsupported, but our History says so at OB 11; dropped
   for now, easy to restore.
@@ -256,7 +316,8 @@ OK.
   guesses (myths include creatures the Coppermind files as myths); 34 pages
   cited only by world guides or Words of Brandon are left out; a handful of
   late dates from the review were marked unsure (see
-  `~/cig-cult-data/review/*.json`).
+  `~/cig-cult-data/review/*.json`). The list groups by Type by default
+  (Name (A–Z) is `?group=name`).
 
 - Abilities: scope, groupings and dating were my defaults while Drew was away.
   Least sure of first-naming books for Hemalurgy, Malatium, Lerasium,

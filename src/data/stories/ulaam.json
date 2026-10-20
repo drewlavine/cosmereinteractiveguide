@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Crow's Song's crew who helps Tress learn the basics of being the ship's Sprouter.",
+      "revealedIn": [{ "book": "tress", "chapter": "28" }]
+    },
+    {
+      "text": "The ship's surgeon on the Crow's Song and an old friend of Hoid.",
+      "revealedIn": [{ "book": "tress", "chapter": "60" }]
+    },
+    {
+      "text": "A kandra from Scadrial, serving as a ship's surgeon on Lumar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "lost-metal", "chapter": "12" },
+            { "book": "tress", "chapter": "60" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hoid",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ulaam met Hoid before the Night of Sorrows. At Hoid's request he took and kept alive a culture of Hoid's cells, so that Hoid could rebuild his body if it were ever destroyed. When Hoid's body was destroyed on the Night of Sorrows, the plan worked, and Hoid met Ulaam afterwards to discuss what had happened on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aboard the Crow's Song",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "12" },
+                { "book": "tress", "chapter": "57" }
+              ]
+            },
+            { "book": "tress", "chapter": "28" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid wrote asking Ulaam to come to Lumar. Finding his friend cursed, Ulaam joined the Crow's Song and had been with Hoid for a year before Tress arrived. Crow shot him several times before the crew left him alone as the ship's surgeon.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "12" },
+                { "book": "tress", "chapter": "57" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ulaam met Tress after a mishap with the spores. He failed to trade her for her eyes and other body parts, but struck deals with Fort for gull bones. He taught her the basics of being Sprouter, warned her off midnight spores, and helped her work out that Hoid was hinting Huck might know how to break his curse.",
+          "revealedIn": [{ "book": "tress", "chapter": "28" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He can reshape his body; aboard the Crow's Song he wears sharp features, ashen grey skin, black hair and red eyes, and a pressed black buttonless suit that once belonged to Hoid.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "emperors-soul", "chapter": "day-3" },
+            { "book": "tress", "chapter": "34" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Friendly, with a sarcastic, morbid sense of humour and little empathy. He is well liked by the crew, always keen to give medical help, assist with experiments or bargain, and knows a great deal about the aethers.",
+      "revealedIn": [{ "book": "tress", "chapter": "57" }]
+    }
+  ]
+}

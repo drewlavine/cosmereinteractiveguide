@@ -1,0 +1,120 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten princedoms of Alethkar, ruled by Highprince Turinad Sebarial.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its colors are deep gold and black, and Sebarial's banner shows the glyphs sebes and laial in the shape of a skyeel.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+    },
+    {
+      "text": "Sebarial and his Herdazian mistress Palona lived in an elaborate manor in the camp, with classical columns, gardens of ornamental shalebark, and interiors of white stone, marble, crystal and gold-trimmed statues, set behind taller buildings to shelter it from the wind.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+    },
+    {
+      "text": "Little Herdaz lay inside the warcamp, home to many Herdazians from outside the princedom.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "text": "On the Shattered Plains, Sebarial cared more for commerce than battle, and his warcamp was the most advanced: running water, shops, taverns, well-built housing, farms, twelve factories and a station of scribes and spanreeds. Its gates stayed open all night, and Kaladin thought it looked more like a city than a camp.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The princedom was founded by one of the ten sons of Sadees the Sunmaker, who divided Alethkar after his death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan invited herself into Sebarial's entourage when she reached the Plains and moved into guest rooms in his manor, surprised by his wealth.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+        },
+        {
+          "text": "Lopen and other Herdazians disguised Elhokar and hid him in Little Herdaz to recover after Moash tried to kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Sebarial was one of the few highprinces to send his army to join Dalinar's assault on the Parshendi, which earned him Dalinar's respect.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar named Sebarial Highprince of Commerce and gave him a section of Urithiru, and most of the camp's people moved there. Some work stayed at the warcamp for farming and lumber, though Sebarial doubted it could last and worried Thanadal would take over the camps.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "104" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Most of Sebarial's soldiers joined the Kholin army. Shallan chose to live in his section of the tower, which stayed busier than the rest of the city, much as his warcamp had.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

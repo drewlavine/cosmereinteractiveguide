@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman in Bridge Four, one of Highprince Sadeas's bridge crews on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "A member of Bridge Four who has become a squire to a Knight Radiant.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "40" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On chasm duty, Kaladin drew Torfin, Drehy and the others into conversation to ease the tension. Torfin trained with the crew in the warcamps, and once yelled at Moash for stopping mid-carry, not realising Moash was stunned at how quickly Kaladin had recovered from the highstorm.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        },
+        {
+          "text": "Torfin was at Narak when the Alethi moved in. He became one of Kaladin's squires, able to draw in Stormlight when Kaladin was near to heal and fly, though he is afraid of heights.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "27" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A Parshendi elder and the foremost member of the First-Rhythm Family's ruling council.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Five",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As one of the Five, Gangnah heard Eshonai's plea for the listeners to unite and Venli's request to try warform. She praised Eshonai's expedition and wished the listeners were more united, but the Five dismissed Eshonai and questioned Venli more closely.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The treaty feast",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "70" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gangnah attended the feast celebrating the treaty with the Alethi, having named someone to take her place on the Five if she did not return. After Szeth killed King Gavilar, she stayed behind with Varnali and Klade and confessed their responsibility to Jasnah Kholin, saying only that they sought to stop their gods returning. The three were hanged.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "70" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

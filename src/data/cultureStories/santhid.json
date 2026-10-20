@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A huge, rare and reclusive sea creature, so seldom seen that some scholars think it extinct. Thaylen sailors consider it the best of luck.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A santhid carries a dome-shaped brown-green shell the size of three rowboats, sometimes overgrown with seaweed and crystals, so it looks like a small moving island.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    },
+    {
+      "text": "Beneath the shell is a knotted grey-blue body, gnarled like an ancient tree, with long thick blue tendrils, a head-sized eye on each side and three huge fins on each flank.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    },
+    {
+      "text": "Thaylen sailors treat santhidyn as sacred, alive or washed ashore. Killing one is thought monstrous and terribly unlucky.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    },
+    {
+      "text": "Santhidyn swim fast enough to keep up with ships and sometimes follow one for days. Schools of fish feed on the underside of their shells, which may be why they follow ships, and they seem to have some degree of intelligence.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's santhid",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "words-of-radiance", "chapter": "6" },
+            { "book": "words-of-radiance", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The naturalist Naladan spent her whole career chasing santhidyn without getting a good look at one, and the few corpses that wash up are too decayed to study.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        },
+        {
+          "text": "On the Wind's Pleasure in 1173, Shallan had the crew lower her over the side on ropes to see a santhid underwater, and made the first reliable drawings of a live one.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+        },
+        {
+          "text": "After a shipwreck Shallan saw a santhid leaving, and believed it was the same one, and that it had saved her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Wandersail",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the way to Akinah the Wandersail's crew found what they took for a dead santhid. Rysn convinced them it was a good omen and that they should give it a proper burial.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "drew one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "met one",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+    }
+  ]
+}

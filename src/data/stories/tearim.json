@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "The lighteyed captain of King Gavilar Kholin's guard, known as one of the world's greatest duelists.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's guard captain",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tearim already led Gavilar's guard during the great battle against Kalanor's army, where he wore Dalinar's spare set of Shardplate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the feast with the Parshendi on the night of Gavilar's assassination, Tearim wore Gavilar's Shardplate, as the king had taken to wearing robes. He kept close to Gavilar and was there when the king stepped out to speak privately with Meridas Amaram.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Often lent Shardplate and Shardblades, Tearim has trained extensively with both.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ]
+}

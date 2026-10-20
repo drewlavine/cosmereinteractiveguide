@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "Essu is a Fused who accompanies Raboniel during the singer invasion of Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+    },
+    {
+      "text": "Essu is a Fused whose mind has been broken by the endless cycle of death and rebirth. She is Raboniel's daughter.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The invasion of Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "65" },
+            { "book": "rhythm-of-war", "chapter": "113" }
+          ]
+        },
+        {
+          "text": "Raboniel's daughter",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Essu went insane during the Heraldic Epochs, when the Fused were repeatedly killed and reborn; her mother Raboniel had hoped that serving together would keep them both sane. After millennia trapped on Braize, she returned to Roshar in the True Desolation, taking a body donated by a singer family.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Essu joined Raboniel when she led the singer invasion of Urithiru. She was often in the room while Navani was made to research Lights, posing no danger but mostly confusing her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+        },
+        {
+          "text": "When an experiment with Voidlight and Anti-Voidlight caused an explosion, Essu was lightly hurt and seemed not to notice. Raboniel then used Anti-Voidlight to end her life permanently, freeing her from the cycle of rebirth, and wept over her. Essu's body was burned and the ashes returned to the singer family.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Essu is tall, with a long face and red-orange hair worn in a top knot. During the invasion of Urithiru she wears a femalen body, its marbled white and red skin patterned like her mother's.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Essu's head flops from side to side, and she stares glassy-eyed, giggles to herself and drools, with an attendant to dab it away. She follows and mimics her mother and sometimes asks for her, yet does not recognize her. She can hum a tavern tune usually sung by humans.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ]
+}

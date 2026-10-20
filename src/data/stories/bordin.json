@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed footman of Dalinar Kholin who brings a strange madman from Kholinar to the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }]
+    },
+    {
+      "text": "One of Dalinar Kholin's most trusted darkeyed footmen, used for tasks needing great discretion.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kholinar",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar kept Bordin in Kholinar for several years during the war on the Shattered Plains. The Ghostbloods believed he was there to spy on Queen Aesudan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Journey to the Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "words-of-radiance", "chapter": "i-7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bordin escorted the madman from Kholinar in secret, posing as an ordinary guard under Sergeant Ellar. Bandits attacked the caravan twice. Afterwards, he helped some companions burn a fallen friend, and brushed off their worry that the madman's Blade had been swapped, reasoning that no one would steal a Shardblade only to leave another.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "For the first few days of the journey, Wit travelled with Bordin before insulting him and running off into the hills; Bordin said the madman was better company. At the Plains, Bordin told Elhokar and Dalinar about Wit's odd behavior and that the madman had simply dropped the Shardblade he carried. He also helped some new companions settle in the warcamps, paying for a room at the Ornery Chull.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Deceiving Amaram",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Suspicious of Amaram, Dalinar used Bordin to test him. Bordin drank with Amaram's guards and spread rumours of treasure the madman had hidden, then hid the madman's Blade in a nearby cavern and watched Amaram. He took Amaram to the madman's cell, played up the story of hidden Shardblades and was pressed into helping search for them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "Amaram's men found the Blade, and when Amaram lied about it, Dalinar knew he had betrayed him. Dalinar confronted Amaram, revealed Bordin's part in the plan and stripped Amaram of his command of the new Knights Radiant.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young darkeyed Alethi with short dark hair and prominent eyebrows, usually in Kholin colors.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Skilled at misdirection, impatient with idleness and respectful of strong-willed, principled people. He doesn't much like Ellar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+    }
+  ]
+}

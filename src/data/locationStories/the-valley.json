@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A hot, overgrown valley in the mountains near Urithiru, between Emul and Hexi, where people come seeking a boon from the Nightwatcher.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "oathbringer", "chapter": "114" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Around the Valley the land is bare and few people live. The ground is creased into wrinkles a few inches deep, lichen on the stormward side and flattened grass on the leeward, with hunched, thistle-leaved trees and small black birds.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+    },
+    {
+      "text": "Foothills shelter the Valley from highstorms, so plant life grows so densely it seems impassable apart from a few trails. The air is muggy and damp, vines and moss hang everywhere, the ground is rotten wood, and it is dark enough inside to barely see.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Even Alethi nobles journey to the Valley to ask the Nightwatcher for a boon. When Dalinar went there, he could not feel the Thrill, and he saw a vision of himself killing Elhokar, taking the throne and conquering the world.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

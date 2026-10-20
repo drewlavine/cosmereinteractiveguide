@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "A being named in Hessi's Mythica, which asks whether it could be the ninth Unmade and whether it caused the destruction of Aimia.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+    },
+    {
+      "text": "One of the Unmade, an ancient and terrible spren of Odium, also called the Black Fisher.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "62" },
+            { "book": "wind-and-truth", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mythica",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Mythica, Hessi suggests that Dai-Gonarthis may have been behind the scouring of Aimia, though her sources are thin and she isn't sure Dai-Gonarthis is one of the Unmade at all.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elsegate to the Shattered Plains",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium asked the Fused El how to get more forces to the Shattered Plains in time. Lacking an allied Elsecaller or a suitable Honorblade, El said an Elsegate from Dai-Gonarthis was the only way, at a steep price. El went to the Horneater Peaks, where she linked Cultivation's Perpendicularity to the Well of Control, and led hundreds of Regals through to attack Narak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "She wants to break and burn the world. Even Odium considers her too dangerous to unleash, and the spren believed he would never do so again.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+    }
+  ]
+}

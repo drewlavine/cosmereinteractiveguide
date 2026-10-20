@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "Dunny is a member of Bridge Four in Sadeas's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "14" }]
+    },
+    {
+      "text": "Dunny is a shy, spindly young member of Bridge Four, who gains confidence after singing with Rock.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "way-of-kings", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dunny had been an apprentice before Bridge Four; his master beat him for forgetting to use proper titles.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "On Kaladin's first run as bridgeleader, Dunny helped him tend the wounded, heating the knife Kaladin used to treat Leyten.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "On stone-gathering duty, Dunny and Earless Jaks towed a large stone on a sled and helped Kaladin load it into the wagon.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        },
+        {
+          "text": "On chasm duty, Rock told Dunny that on the Peaks every name is a poem. Dunny spoke one of his own, then sang it in a pure tenor with Rock harmonizing, and his shyness began to fade.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "From then on, Dunny helped Rock with the stew, spoke up for Kaladin's plan to fight and escape, and even told the others about the first girl he kissed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "49" }]
+        },
+        {
+          "text": "During a bridge run soon after, one of Sadeas's archers accidentally shot Dunny in the shoulder, and a Parshendi arrow then killed him before Kaladin could reach him. The loss hit Kaladin hard, and he remembered Dunny among those he had lost before swearing his Second Ideal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dunny is a dark-eyed, spindly, baby-faced youth who hardly needs to shave, skinnier than most of Bridge Four. Sigzil notes that his eyes are dark violet, hinting that he may be Veden.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "At first Dunny is very shy, but after singing with Rock on chasm duty he walks with more confidence and talks more with the others.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ]
+}

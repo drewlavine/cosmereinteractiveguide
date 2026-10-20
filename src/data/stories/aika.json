@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A Ghostblood operative working from a hideout near an Alethi warcamp.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
+    },
+    {
+      "text": "A Thaylen Ghostblood operative known as Stolen Purse, who works under cover as a trader.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ghostbloods",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "23" },
+            { "book": "wind-and-truth", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aika and her fellow operative Jezinor were due at a Ghostblood hideout near an Alethi warcamp, and the operatives guarding it wanted bystanders cleared away before they arrived.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
+        },
+        {
+          "text": "She attended a Ghostblood meeting with Mraize, Iyatil and others of her cell, where Mraize showed off new weapons, including a hand ballista, and discussed intelligence about Highprince Dalinar Kholin.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Within her organisation she goes by the nickname Stolen Purse, one of several used in her cell. She talks casually with her superiors, calling Mraize 'love'.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }]
+    }
+  ]
+}

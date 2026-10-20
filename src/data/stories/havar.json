@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed officer in Highprince Dalinar Kholin's army on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Serving Dalinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "49" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Havar was with Dalinar at a firemoss den on the night Adolin was born, buying a round of drinks and sitting next to Bashin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "A good friend to both Dalinar and Adolin, Havar commanded the Kholin rearguard. At the Battle of the Tower, when Sadeas betrayed the Kholin army, he took a serious gut wound. He was rescued by Bridge Four but died soon after, and his loss fed Adolin's hatred for Sadeas.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A bearded, good soldier who does his job well.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ]
+}

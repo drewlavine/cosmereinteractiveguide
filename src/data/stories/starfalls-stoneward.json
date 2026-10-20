@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Knight Radiant from long ago whom Dalinar meets in one of his visions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "A Stoneward Knight Radiant from long ago whom Dalinar meets in one of his visions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's vision",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With a Radiant companion, she came to the aid of a family attacked by the Midnight Essence, healing the father, whose place Dalinar had taken, and his wife with a fabrial before joining the fight. Surprised at Dalinar's skill with a fireplace poker, she fought beside him until the creatures were destroyed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "Left to guard the family, she told a puzzled Dalinar they were in Natanatan in the Eighth Epoch, and that the creatures were not Voidbringers but the Midnight Essence, one of the Ten Deaths.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "She explained that the Radiants trained for war to stand ready for the Desolations, invited Dalinar to train with them, and mentioned that Harkaylain had foretold a Desolation soon, before hurrying off toward screams.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Light tan skin and glowing light tan eyes, with her hair in a bun. She wears delicate Shardplate glowing with amber light, and can summon and dismiss its helm.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm and focused in danger; she sees her duty as protecting the world by training in war.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ]
+}

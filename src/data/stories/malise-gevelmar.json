@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed woman from a minor rural Veden house who marries Shallan's father, Lin Davar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life with the Davars",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "65" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Malise was married to Lin Davar in a match arranged by her father, less than a month after they met. She tried to oversee Shallan's studies despite her own limited schooling, and struggled to keep tutors as Lin grew violent and she came to regret the marriage.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Lin ordered the death of his own son Helaran, Malise protested furiously. Lin beat her, broke her arm and locked her in her room. Shallan planned for Malise and Balat to escape, but Malise gave the plan away, and Lin killed her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and plump, with small, buttonlike features and black hair streaked with blonde.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Usually non-threatening but capable of great anger, she holds some disdain for those of lower rank.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+    }
+  ]
+}

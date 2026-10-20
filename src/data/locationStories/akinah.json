@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "The ancient capital of the Silver Kingdom of Aimia, long ruined, known as the Rock of Secrets and the Void's Playground.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The island is ringed by a wall of enormous Soulcast stone spikes about forty feet tall, with more spikes underwater to pierce ships' hulls.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    },
+    {
+      "text": "Akinah stands on a small island in northern Aimia. The city was once grand, with ornate buildings in tenfold symmetry around a round central hub, so from above it looks like a flower.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-4" },
+            { "book": "dawnshard", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Tall dark rock formations rise at its centre like city walls. The ruins are covered in crem, and the beach is littered with the corpses of dead greatshells.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-4" },
+            { "book": "dawnshard", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-4" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Akinah passed into myth and gained a sinister reputation. Soulcasting savants whispered that the secret to reversing a Soulcaster's slow toll lay there. Its layout was still known, and in Kharbranth Kabsal showed it to Shallan as evidence of the Almighty.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1174, the Thaylen captain Vazrmeb sailed the First Dreams to Akinah after the gemhearts of dead greatshells, with the Soulcaster Kaza aboard. As Kaza turned some of the spikes to smoke, the crew, poisoned, collapsed and died; Kaza alone reached the shore.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        },
+        {
+          "text": "Months later the First Dreams was found drifting, and Navani offered a reward for a ship to investigate. Rysn took the mission.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

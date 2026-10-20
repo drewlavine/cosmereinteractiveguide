@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "A Makabaki nation on Roshar, a member of the Azish Empire, whose formal, bureaucratic people trade in information as well as spheres.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A princedom of the Azish Empire on Roshar, the world's greatest spanreed hub and a famous market for information.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tashikk looks flat, with wide grassy fields. Its wildlife includes herds of axehinds and drop-deads, tall spindly trees that lie flat when a highstorm comes.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    },
+    {
+      "text": "Many people immigrate to Tashikk, handled by rotating \"deputy scribes of immigration\", so besides the Tashikki it is home to Alm, Desh, Azish, Tukari, Emuli and Reshi people.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    },
+    {
+      "text": "The Tashikki are Makabaki, polite and reserved even by their neighbours' standards, formal and bureaucratic like the Azish. Men and women wear shiquas, one-sheet wraps covering the whole body and face, to protect them from the eyes of Nun Raylisi, an evil entity in their religion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Tashikk is Roshar's greatest spanreed hub, used as far east as Alethkar. It sells spanreed connections and information to the whole world, and rumours often start there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yeddaw was cut out of the ground with the Imperial Shardblades around 1074 and became a prominent Tashikki city.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+        },
+        {
+          "text": "Tashikk is ruled by a prince who defers to the Prime Aqasix, and Azish-style bureaucracy thrives there.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Dalinar used Tashikk's relay stations to warn the world about the Everstorm. The prince would not join the coalition until Azir did, and then sent his ambassador in Azimir to Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    }
+  ]
+}

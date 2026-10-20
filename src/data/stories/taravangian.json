@@ -1,0 +1,393 @@
+{
+  "intro": [
+    {
+      "text": "The elderly king of Kharbranth, the city-state that is home to the great library of the Palanaeum.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "The king of Kharbranth and Jah Keved, and leader of the secret society called the Diagram, which follows instructions he wrote on a day of genius.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Former king of Kharbranth and Jah Keved and leader of the Diagram, who has Ascended as the new Vessel of Odium.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Former king of Kharbranth and Jah Keved who became Vessel of Odium, and then of Retribution.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "rhythm-of-war", "chapter": "114" },
+            { "book": "wind-and-truth", "chapter": "143" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Background",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "wind-and-truth", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Taravangian's birth a surgeon announced that he might have diminished capacity and suggested keeping him out of sight on outer estates. There was nothing wrong with him, but the reputation followed him all his life.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "He was childhood friends with Adrotagia, who called him Vargo.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Around 1158 his mother died of tumors. At her deathbed he heard her speak a Death Rattle about the True Desolation and the Night of Sorrows.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Secret work",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "66" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "way-of-kings", "chapter": "71" }
+          ]
+        },
+        {
+          "text": "A gift and a curse",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "66" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some time after 1168 Taravangian asked the Nightwatcher for the capacity to save humankind. He was given great intelligence and great compassion, but never both at once, and wakes each morning with a different measure of each. The boon came from Cultivation herself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "66" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On his day of greatest genius he covered his bedroom in invented glyphs laying out a brutal path for humanity's survival. Adrotagia and other scribes transcribed it into a book, the Diagram, and he founded a secret society of the same name to interpret and fulfil it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "In a secret hospital in his palace, the terminally ill, poor and forgotten were slowly bled to death so that the Silent Gatherers could record their dying words. Taravangian hoped these Death Rattles would tell him more.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kharbranth",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "way-of-kings", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When his granddaughter was trapped behind a fallen boulder in the Conclave, Taravangian offered Jasnah Kholin access to the Palanaeum in exchange for using her Soulcaster to free the girl, a deal that risked angering the ardentia.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        },
+        {
+          "text": "Some weeks on, he lunched with Jasnah and Shallan, asked Shallan for a portrait for his granddaughter, and debated religion and morality with Jasnah. She admired him, comparing him to her uncle Dalinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "When the city watch ignored killings in the theater district despite his urging, Jasnah dealt with the criminals herself as a service to the king.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "Taravangian visited his city's hospitals weekly. After Shallan's supposed suicide attempt he visited her, refused to release her but allowed her visitors.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+        },
+        {
+          "text": "When the Assassin in White came to kill him, Taravangian revealed that he was Szeth's hidden master and held his Oathstone, having put his own name on the list to avoid suspicion. He showed Szeth his hidden hospital, then ordered him to kill Dalinar Kholin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of Jah Keved",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Diagram said he must unite Roshar under his rule. He had Szeth kill the king and highprinces of Jah Keved, and the succession war that followed wiped out the rest. The dying last highprince, Valam, named Taravangian king, and no one suspected him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dalinar's coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Szeth failed to kill Dalinar, Taravangian became the first monarch to join his coalition and moved to Urithiru. In secret he worked to gain advantage, with his Radiant Malata working the Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "On a brilliant day he decided to take Dalinar's place in the coalition. With his scholars and his Radiant's spren spying on Dalinar, he leaked damaging secrets at a meeting of the monarchs. Most of the coalition collapsed, and only the Thaylen queen stayed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian made sure his forces were gone before Odium's attack on Thaylen City and opened the way for the singers to strike Urithiru. When Dalinar won anyway, Taravangian confessed much of his plotting, though not the Diagram.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Eight days after the battle, Odium appeared to him in a vision. Taravangian struck a deal: the Diagram's knowledge and the Honorblade in exchange for sparing the people of Kharbranth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Betrayal and imprisonment",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "i-12" },
+            { "book": "rhythm-of-war", "chapter": "113" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A year on, Odium ordered him to have his forces betray Dalinar's in Emul. The betrayal was swiftly crushed, and Dalinar had him imprisoned.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }]
+        },
+        {
+          "text": "Held in a comfortable house, Taravangian declined and spent more days slow and compassionate. Dalinar sentenced him to lifelong imprisonment rather than death.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-12" }]
+        },
+        {
+          "text": "Realising he might kill Odium himself, he arranged for Szeth to come to kill him at the moment Odium manifested, using gemstones from Sja-anat to draw the god.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        },
+        {
+          "text": "When Szeth came and Odium pulled Taravangian into a vision, Taravangian used Nightblood's manifestation to strike the god. Szeth killed him, but Nightblood consumed Odium's Vessel first.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Vessel of Odium",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On his least intelligent day, his emotions gave him an Intent so like the Shard's that he Ascended as the new Vessel of Odium. He spoke with Cultivation about his power and meant to spread Odium's influence across the cosmere.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Ten Days",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-4" },
+            { "book": "wind-and-truth", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "147" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Tu Bayla he held a dead child and wept, and debated with Cultivation about the greatest good. He persuaded El to release Dai-Gonarthis and lead his troops against the Shattered Plains, and decided to let his logical and emotional sides take turns ruling him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-4" }]
+        },
+        {
+          "text": "He offered the Herald Battar a planet for her help, and had her crystal spikes given to Moash so he could see again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "After days of letting his emotion rule, then his halves rule together, he found assassins Cultivation had placed among his family. He destroyed Kharbranth with a great wave, having first moved its people into a copy of the city in the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "He set out to break Dalinar psychologically, considered destroying the power he believed was hiding Dalinar, and tortured Gavinor in visions for what felt like twenty years, grooming him to be his champion against Dalinar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        },
+        {
+          "text": "At the contest of champions Dalinar took up Honor and gave it up. Taravangian took it himself and became Vessel of the combined Shard of Retribution. Dalinar died and escaped him, so he made a servant of a version of Dalinar from a vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Night of Sorrows",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "147" },
+            { "book": "wind-and-truth", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Retribution offered the listeners his Light as an interested party, not their god, and after about six weeks withdrew the Everstorm from Azir under his agreement with Dalinar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "When the Night of Sorrows began, he went into hiding from the other Shards, furious that his plans had been upset, and resolved to set up a regent to rule Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An aged man with a wispy white beard, pale grey eyes, an open, kindly face and a liver-spotted head, who lives with the aches of old age.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "59" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He can be judgmental of cultures he considers less civilised, such as the Marati.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    },
+    {
+      "text": "Quiet and humble all his life, he is popular for Kharbranth's free hospitals, which he visits weekly. Long treated as slow, he has a strong ego and wants to prove himself.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "oathbringer", "chapter": "i-5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Very manipulative, always playing a role in public, including a lifelong pretence of reduced capacity.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "oathbringer", "chapter": "i-5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A pragmatist who will do whatever it takes to make a better world, accepting the suffering of some to reduce the suffering of many, though he still calls such acts wrong.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "79" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "On his most emotional days he can barely think, despises his own stupidity, and weeps for others.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "113" }
+          ]
+        }
+      ]
+    }
+  ]
+}

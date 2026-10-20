@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A young Tashikki city on Roshar, built in hundreds of trenches cut into the ground by Shardblades.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Yeddaw's people trade in information as a form of currency.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
+    },
+    {
+      "text": "Its best-known sector is the immigrant quarter, a slum where many homes are wooden and raised on stilts against the storm runoff.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "4" }]
+    },
+    {
+      "text": "The city is a spiral of hundreds of trenches of different widths, cut by the Imperial Shardblades of Azir and leading to a great mound-like building at the centre. Everyone lives down in the trenches, and farms the ground above between them.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yeddaw is a young city, founded only a hundred years before the Everstorm.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+        },
+        {
+          "text": "The city is ruled by a prince, who can empower special operatives and the local Skybreakers to respond to crimes as they see fit, and declare a state of emergency. He turned the city's parshmen out into the coming Everstorm.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Pancakes",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "20" },
+            { "book": "edgedancer", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Weeping, all of Yeddaw eats pancakes, from alley shanties to the Grand Indicium. They are said to come in ten varieties, one of which is only thought about, in dedication to Tashi.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        },
+        {
+          "text": "Among them are the tuk-cake, eaten for prosperity in the year to come; a salty pancake with chopped vegetables; an airy one served with dipping sauce; a dense one with sticky paste in the centre; one covered in crunchy seeds; and Lift's favourite, with sugar in the middle.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "17" }]
+        }
+      ]
+    }
+  ]
+}

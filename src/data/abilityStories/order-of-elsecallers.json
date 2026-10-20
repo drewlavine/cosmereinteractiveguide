@@ -1,0 +1,139 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant, the prime liaisons with the great ones among the spren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+    },
+    {
+      "text": "An order of the Knights Radiant, bonded to inkspren, who can Soulcast and can travel in and out of Shadesmar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Elsecallers use the Surges of Transformation and Transportation.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "They bond inkspren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "53" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "53" },
+                { "book": "oathbringer", "chapter": "83" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The book Words of Radiance calls the Elsecallers prodigiously benevolent, and names them the prime liaisons with the great ones of the spren.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "They were appointed keepers of the perfect gems, and took on the protection of the ruby called Honor's Drop.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "53" },
+                { "book": "oathbringer", "chapter": "83" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "33" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah tells Shallan she survived by Elsecalling into Shadesmar, but getting back took a long time.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        },
+        {
+          "text": "Jasnah is the only Elsecaller of her time: no new inkspren other than her own will risk a bond.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "39" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "To Soulcast, an Elsecaller shifts their perception into the Cognitive Realm and speaks with the Cognitive aspect of the object they want to change. Elsecallers view Soulcasting differently from Lightweavers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "39" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elsecalling, a use of Transportation, lets them travel bodily into Shadesmar, though getting back out is harder.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Transformation and Transportation",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Spren",
+      "name": "Inkspren",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "47" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Elsecaller",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A small winged larkin belonging to the Thaylen merchant Rysn Ftori, which feeds on Stormlight.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First meeting with Rysn",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chiri-Chiri was given to Rysn by the people of the island Relu-na after Rysn fell from it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Thaylen gem vault",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chiri-Chiri sneaked into the queen's vault when Rysn and Vstim came to audit it. When a Fused attacked them to rob the vault, she saved Rysn by draining all of its Voidlight. After feasting on that and on the Stormlight of the King's Drop, she grew enough for Rysn to notice.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Expedition to Aimia",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some months on, Chiri-Chiri fell ill, so Rysn took her on an expedition to Akinah by way of Urithiru, where Navani marvelled at her. Off Aimia she revived and dove into the sea, returning with mandras bonded and her colour restored. The Sleepless saw her as an Ancient Guardian, the first larkin they knew of to grow large enough to need mandras.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the expedition",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the expedition, sensing an ancient rhythm that warned of danger, Chiri-Chiri tried to warn Rysn and managed to speak a few human words, including Rysn's name, to Rysn's shock.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like a large cremling with membranous wings, a sleek head like an axehound's and solid silver eyes. Palm-sized when Rysn received her, she has grown to over two feet long. Her brown-violet shell turns chalky white when she needs a mandra to keep growing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Chiri-Chiri sneakily eats Light from Rysn's spheres and fabrials, though she is slowly learning to wait until it's offered. She naps in a pot of grass or on the lintel above the door, talks in clicks of her jaw, senses Rysn's tone and will protect her when needed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-13" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

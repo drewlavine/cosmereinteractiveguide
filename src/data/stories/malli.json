@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A scribe who travels with Felt and Dalinar Kholin on his journey to the Valley.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+    },
+    {
+      "text": "A scribe in Urithiru who serves as scribe for the envoy to Lasting Integrity.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Journey to the Valley",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Malli was the scribe of the small group that went with Dalinar from their ship to the Valley. When he came out, she sent word to the ship by spanreed, and he asked her to have the sailors find him a copy of The Way of Kings.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Malli and Felt moved to Urithiru after the Battle of Narak. Working in the quartermaster's office, she again served as scribe for the mission to Lasting Integrity, sometimes minding Mayalaran for Adolin, and stayed in camp during his trial.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        },
+        {
+          "text": "Late in the war, Felt remarked that he and Malli would need to find someone else to serve, if age didn't catch up with them first.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

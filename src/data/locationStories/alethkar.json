@@ -1,0 +1,203 @@
+{
+  "intro": [
+    {
+      "text": "A Vorin kingdom of eastern Roshar, ruled by a king and ten highprinces, where reading is left to women and ardents.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "The largest country on Roshar and the most prominent Vorin nation, in the east of the continent, famed for its militarism. Its royal colours are blue and gold.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Alethkar is a feudal kingdom: the king is served by ten highprinces, each with lighteyed subjects down to the citylords of single towns. Shardbearers stand slightly apart from this order.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Alethi life is split into masculine and feminine roles, from art to food. Reading and writing belong to women and ardents, so most men cannot read.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "text": "Far in the east, Alethkar is battered by heavy highstorms, so towns are built in the lee of laits, where plants also grow thickest.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "Most Alethi worship the Almighty through the ardents, who are owned by lighteyes. Ardents are open to anyone, regarded as genderless, and alone may use Soulcasters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "60" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Early on, Kholinar became the capital; it still stands, one of the oldest cities on Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Early in its history, before the Sixth Epoch, Alethkar was ruled by King Nohadon. In one Desolation in his lifetime, nine in ten of its people died.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Under the Hierocracy, the Vorin church censored and rewrote history.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the Hierocracy fell, the church split into devotaries, and ardents lost the right to own property or hold office.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Unification",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "3" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1140, Brightlord Yezriar was defeated and his lands folded into a growing, united Alethkar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "3" }]
+        },
+        {
+          "text": "In 1155, Dalinar Kholin conquered the Reshi island of Akak and claimed it for Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Gavilar's crowning, Reshi raiders tried to exploit the instability with raids in the northern princedoms.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1167, Szeth assassinated King Gavilar on the Parshendi's orders. Elhokar became king, and the highprinces swore the Vengeance Pact and marched on the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "During the war, Dalinar began to have visions of the past that made others doubt his sanity.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-10" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Everstorm freed the parshmen, who fled their owners across Alethkar, and damaged or destroyed many buildings.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Led by the Fused, the singers slowly took control of Alethkar, pushing the few Alethi armies left in the country into Herdaz.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }]
+        },
+        {
+          "text": "After the battle at Thaylen City, the Alethi crowned Jasnah Kholin, and a week later Adolin married Shallan Davar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

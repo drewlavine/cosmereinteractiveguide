@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "An old Alethi code of conduct for war, revived by Gavilar and followed strictly by Dalinar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Gavilar said the Codes came from \"the old days\" when \"Alethkar meant something\". Since the ancient kingdom of Alethela is sometimes called Alethkar, their origin is unclear, and they had not been followed for centuries.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Late in his reign Gavilar rediscovered the Codes and brought them back, but his highprinces, Sadeas and Dalinar among them, thought them foolish, and some saw his interest as a sign of decline.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dalinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "56" },
+            { "book": "way-of-kings", "chapter": "58" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar was drunk when Gavilar was killed, and realised he might have helped had he followed the Codes, which forbid alcohol. After hearing Jasnah read The Way of Kings, he and his sons began following them strictly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dalinar's strict following of the Codes on the Shattered Plains causes friction with the other highprinces. Sadeas warns that his honour will get him killed, and Elhokar and Adolin question his sanity.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "56" }]
+        },
+        {
+          "text": "Adolin is sometimes frustrated by the Codes, like wearing Plate when there's little risk, but comes to see that they remind everyone they are at war and inspire confidence.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+        },
+        {
+          "text": "Made Highprince of War after the Battle of the Tower, Dalinar orders the Codes enforced in all the warcamps, planning to back his authority with Adolin's duels.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "revived them",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "follower",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "56" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "follower",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ]
+}

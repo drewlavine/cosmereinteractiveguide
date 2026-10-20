@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A ward of May Aladar who serves as Adolin Kholin's scribe during the Battle of Azimir.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Challa served as Adolin's scribe during the fighting at Azimir.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed criminal in Bavland who took possession of Szeth's Oathstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Master of Szeth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Makkek's gang of footpads killed Took in Ironsway. Searching Took's things, Makkek found Szeth's Oathstone, learned how it worked and kept it, then had Szeth kill the rest of the gang to keep it secret.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "He used Szeth to kill rivals and guard him, building a reputation as a criminal mastermind. He moved to Bornwater, took over most of its businesses and crime, and flaunted his wealth, hoping to move up to Kneespike. Szeth never told him about his Shardblade, though rumours of burned-out eyes made him start to suspect.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        },
+        {
+          "text": "When a tavern keeper named Gavashaw defied him, Makkek sent Szeth to kill him. While Szeth was away, an assassin murdered Makkek, took the Oathstone and brought it to Szeth along with Makkek's head.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and lean, though he grew plumper with wealth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ambitious, self-confident to the point of recklessness, showy and paranoid, and quite willing to have anyone in his way killed.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ]
+}

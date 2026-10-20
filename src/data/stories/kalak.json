@@ -1,0 +1,245 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten Heralds of the Almighty, who abandoned his duty with the others at Aharietiam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "A Herald, known in Vorinism as Kelek, who lives among the honorspren of Lasting Integrity as their High Judge.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+    },
+    {
+      "text": "A Herald, known in Vorinism as Kelek, who serves as High Judge of the honorspren at Lasting Integrity and secretly led the Sons of Honor under the name Restares.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "prelude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When war broke out between humans and the singers and the Fused appeared, Kalak volunteered to become one of the ten Heralds made by Honor. In each Desolation his special task was to teach people crafts, above all how to cast bronze.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kalak arrived late at Aharietiam and found only Jezrien waiting. He admitted his terror of returning to Braize, and Jezrien told him of Ishar's plan to leave Taln alone to hold the Oathpact. Kalak agreed, left his Honorblade with the others and went his own way.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Era of Solitude",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "97" },
+                { "book": "wind-and-truth", "chapter": "85" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "78" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kalak kept some distant ties to the Knights Radiant. Shortly before the Recreance, he and Nale were present at Ba-Ado-Mishram's imprisonment, and he knew the truth behind the Recreance. He came to regret what had happened with the Unmade, but never freed her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "97" },
+                { "book": "wind-and-truth", "chapter": "85" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Many centuries on, as Restares, Kalak led the Sons of Honor. Through them he and Nale encouraged Gavilar's experiments in moving spheres across great distances, hoping for a way off Roshar. Both were at the palace the night Gavilar was killed, where Kalak voiced fears for the Heralds' sanity before fleeing from Jasnah.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Five years after Gavilar's death, when Kaladin saved Amaram from a Shardbearer, it was Restares who persuaded Amaram to take the Shards and brand Kaladin a slave.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At some point after the assassination, Kalak moved to the honorspren city of Lasting Integrity and became their High Judge.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "82" },
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "87" },
+            { "book": "rhythm-of-war", "chapter": "90" },
+            { "book": "rhythm-of-war", "chapter": "93" },
+            { "book": "rhythm-of-war", "chapter": "94" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kalak left Lasting Integrity on a long patrol, ordering the honorspren to keep his identity secret; they told outsiders the High Judge was a rare spren. Meanwhile Shallan, on a secret errand for Mraize, arrived with Adolin's diplomatic mission.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        },
+        {
+          "text": "When Kalak returned, Adolin asked him to preside over a trial by witness. Though unnerved by a human, and a Bondsmith's son at that, Kalak agreed, rebuking Sekeir for objecting. He told Adolin openly that he had no chance and should simply leave Roshar, since Odium could not be beaten.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+        },
+        {
+          "text": "Mraize urged Shallan to capture Kalak's soul in a gemstone. Expecting an assassin, Kalak left a message in his journal mocking anyone who thought they could capture a Herald and begging them to free Ba-Ado-Mishram.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Kalak was eager to start the trial and surprised that Adolin wouldn't be executed. Through the testimony he kept pointing out what counted against Adolin, and when Notum broke from his prepared statement to side with Adolin, the honorspren's uproar sent Kalak into a panic, curled up with his ears covered.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "Recovering quickly, Kalak told Adolin he had stepped into an old argument among spren: some believed they should side with Odium, and Adolin's arrival could tip the balance.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "On the second day Kalak, in formal robes, ran the trial more firmly, having one agitated honorspren dragged out. The day still went against Adolin when Testament was brought forward.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
+        },
+        {
+          "text": "That night Shallan sneaked into Kalak's house to capture him, but changed her mind. Kalak walked in, asked if she had come to kill him, and said he had always known Thaidakar wanted him. He explained the split between the older and younger honorspren, but would not commit to helping Adolin.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "When Sekeir and other honorspren burst in accusing Shallan of tampering with the trial, Kalak covered for her. Sekeir declared him unstable and had them both locked away, so Kalak missed the trial's last day.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        },
+        {
+          "text": "After Adolin won, Kalak helped him and Shallan open the box holding the seon Ala without harming her, told them that spren had not become deadeyes before Ba-Ado-Mishram's capture, and shared what he had learned about other worlds.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Contest of Champions",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "postlude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Kholin delegation left, Kalak tried to flee Lasting Integrity, but Felt and Ala, both secretly working for the Ghostbloods, caught him and kept watch over him while the Contest of Champions played out.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-1" }]
+        },
+        {
+          "text": "Kalak was present for the reforging of the Oathpact, though he seemed less solid than the other Heralds. Believing he had failed the original Oathpact, he was encouraged to help Roshar once more, and felt warmth on learning Taln had forgiven him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kalak looks Alethi, though he isn't: a short man with thinning, wispy hair, a round face and a small nose, more like a city administrator than the young man of Vorin art. He wears violet robes when he wants to look serious, and dresses casually otherwise.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Once decisive and sought out for counsel, Kalak was worn down by the Desolations into a terror of dying and returning to Braize. Vivid memories of torture sometimes make him lose his grip on reality.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    },
+    {
+      "text": "Easily distracted and careless of other people's time, he finds humans unsettling, Bondsmiths most of all. Sudden commotion can leave him curled on the floor in panic, though he recovers quickly and without sign of it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "By now he is paranoid and erratic, struggling to make even simple decisions and often following the crowd instead of his conscience.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    },
+    {
+      "text": "Openly aware that the Heralds are unwell, Kalak believes Roshar's cause is lost and feels guilty for leading spren to bond humans. He is obsessed with leaving the Rosharan system and has researched other worlds extensively.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He can be dryly mocking of people he thinks stupid, yet stays calm in the face of death, can still act with authority when needed, and sympathises with humans enough to hear them out.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    }
+  ]
+}

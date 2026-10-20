@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A place where Helaran Davar left a contact so his family could reach him.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+    },
+    {
+      "text": "The home of the Holy Enclave, a major spanreed hub, possibly in the Valam princedom.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "oathbringer", "chapter": "100" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Holy Enclave's store of tomes and scrolls nearly rivals the Palanaeum's. Its curates wear blue robes and carry ornate staves set with gemstones.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "oathbringer", "chapter": "100" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Messages and the Holy Enclave",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "100" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan urged Balat to take Malise and Eylita and go to Helaran through his contact in Valath. Later, from the Shattered Plains, she paid to send a message and a spanreed to her brothers by way of Valath.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+        },
+        {
+          "text": "Curates from the Holy Enclave travelled to Vedenar to excommunicate Dalinar while he toured the city on behalf of the coalition of monarchs.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "intro": [
+    {
+      "text": "The title of the rulers of Alethkar's ten princedoms. Under the king, each highprince is almost a king in his own lands.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In ancient united Alethkar the ten highprinces each governed one aspect of the whole kingdom, which Gavilar believed forced them to work together. Only a few of the old titles are known.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "The Highprince of War commanded the kingdom's combined forces, apparently only in time of war.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    },
+    {
+      "text": "The Highprince of Commerce had authority over merchants, his troops patrolling the roads of every princedom. The Highprince of Information oversaw policing and criminal investigations and appointed judges.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Highprince of Works managed the kingdom's infrastructure, such as sewage and civil services, and perhaps Stormlight.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's kingdom",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "way-of-kings", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1140 Highprince Gavilar Kholin went to war against the other princedoms and by about 1145 had united them, making himself king. The highprinces kept much authority and independence.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "After Gavilar's death his son Elhokar became king and his brother Dalinar Highprince of Kholin. In 1173, at Dalinar's demand, Elhokar revived two of the ancient titles, the Highprinces of Information and War, to truly unite the kingdom.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sadees's sons",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The modern highprinces date back to Sadees the Sunmaker, the last king before Gavilar to unite Alethkar. He never chose an heir, and his ten sons fought over his empire until it collapsed. They founded the ten princedoms and made themselves highprinces, each a king in his own land.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        },
+        {
+          "text": "The next year Dalinar revived the titles of Highprince of Commerce and Highprince of Works.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "united the princedoms",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Highprince of Kholin",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "sadees",
+      "role": "Sunmaker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    },
+    {
+      "characterId": "aladar",
+      "role": "Highprince of Information",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "turinad-sebarial",
+      "role": "Highprince of Commerce",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "hatham",
+      "role": "Highprince of Works",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "highprince",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "A vast, shallow inland lake in north central Roshar, warm and crystal-clear, home to the Purelakers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "98" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Purelaker buildings look like rockbuds with domed roofs, built on blocks or stilts but set a few inches below the surface, so the floors are always wet.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    },
+    {
+      "text": "Purelakers have long limbs, leathery bronze skin and dark hair. They are easygoing, rarely fazed by misfortune, and never in a hurry. Many are fishermen who travel between small, remote villages, and most own a raft they sleep on.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Purelakers revere Nu Ralik but must hide it from his jealous younger brother, Vun Makak, so they praise only Vun Makak aloud and keep their true god's name hidden.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The lake is hundreds of miles wide but on average only calf-deep, with spots up to six feet deep; its bottom has ridges and sharp ledges that Purelakers test before stepping. The climate is warm and humid, and highstorms are weaker here, though still tempests.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "98" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "4" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "22" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "26" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "rhythm-of-war", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the time of the Silver Kingdoms, the Purelake was ruled by Sela Tales. When that kingdom fell apart, the lake became its own land of autonomous villages.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        },
+        {
+          "text": "Purelakers still speak of great structures on the lake, which outsiders dismiss as myth; an obsidian fortress once stood somewhere on it before the Recreance.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+        },
+        {
+          "text": "In his youth, Dalinar visited the edge of the Purelake but never saw its centre.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "22" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1173, three foreigners hired a Purelaker, Ishikk, to search the villages for a man called Hoid. After five months, they had found no sign of him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Later that year a strange illness spread around the Purelake, and Kharbranth studied it before declaring it not deadly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "rhythm-of-war", "chapter": "23" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "98" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1174, criminals broke out of a jail on the lake's northern edge, and the Skybreakers, who train acolytes at a compound in Marabethia there, were called in to catch them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "After the battle at Thaylen City, Iri and Odium's forces took most of the western kingdoms, including the Purelake. The Selay blamed the Everstorm for stealing the luck of their fish.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

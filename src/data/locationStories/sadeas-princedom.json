@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "One of the princedoms of Alethkar, the domain of House Sadeas, which includes the town of Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "One known region of the princedom, Akanny, is valued for its farmland.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+    },
+    {
+      "text": "Its house colors are deep green and white. Under Torol Sadeas its symbol was a tower and hammer; under Meridas Amaram it became a tower and axe.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like all the princedoms, it was carved out of Sunmaker-era Alethkar by one of the sons of Sadees. When Gavilar Kholin began his conquest in the 1130s, Torol Sadeas was the only highprince to ally with him at first.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "Around 1145, soon after Gavilar became king, Reshi raiders tried to take advantage of the unrest and attacked the north of the princedom. Soldiers were gathered from across it to fight them, including darkeyes from Hearthstone. The Reshi had no Shardblades.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Sadeas left for the Shattered Plains, he left Meridas Amaram to defend the north of the princedom against Veden and Reshi incursions and other princedoms' land grabs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "In late 1172, during a border skirmish with a neighbouring princedom, a Veden Shardbearer came to the battlefield and was killed by Kaladin. Amaram took the Shards for himself, killed Kaladin's squad and had him branded a slave.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "10" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "27" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Everstorm, the princedom was overrun by awakened parshmen like the others, though it came through relatively unharmed compared with princedoms such as Vamah or Kholin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        },
+        {
+          "text": "After Torol Sadeas was murdered, Ialai Sadeas gave the princedom to Amaram, since the heir, her nephew, was too young. Later Ialai led it in practice while the Fused controlled it, and after her death in early 1175, Queen Jasnah named a distant scion of Torol's line highprince.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "27" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

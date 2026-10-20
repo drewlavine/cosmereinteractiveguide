@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "A region of Jah Keved whose indigenous people, the Siln, are a distinct ethnic group from other Vedens.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Siln speak their own language, usually have tan skin and medium to dark hair, and live by hunting and gathering, so other Vedens see them as less modern. Because hunting skill is too valuable to risk, their disputes end in posturing rather than fighting, and they are not known for assassinations.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    },
+    {
+      "text": "At least some Siln follow Vorinism, such as the ardent Urv at the Jokasha Monastery, and they face some prejudice from other Vedens.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient history",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "According to Natata Ved, King NanKhet took the throne of ancient Silnasen after his brother NanHar died campaigning in what is now Triax. After surviving six assassination attempts by his own family in three months, he executed hundreds at a feast, then choked with no one left to help him. The Siln dynasty was founded after his death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        }
+      ]
+    }
+  ]
+}

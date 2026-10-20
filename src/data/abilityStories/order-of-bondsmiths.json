@@ -1,0 +1,521 @@
+{
+  "intro": [
+    {
+      "text": "The smallest order of the Knights Radiant, which commonly had no more than three full members.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    },
+    {
+      "text": "An order of the Knights Radiant devoted to unity, whose members bond one of three unique spren. Dalinar Kholin refounded the order after the Recreance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "1" },
+            { "book": "rhythm-of-war", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Bondsmiths use Tension, the Surge of Soft Axial Interconnection, and Adhesion, the Surge of Pressure and Vacuum.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "They seek unity at every scale, from uniting highprinces in one purpose to uniting the world's kingdoms against the True Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "oathbringer", "chapter": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Though among the most powerful Radiants, Bondsmiths are generally not effective in combat.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+    },
+    {
+      "text": "A Bondsmith bonds one of three unique spren: the Stormfather, the Nightwatcher or the Sibling.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Historical Bondsmiths",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "79" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Herald Ishar founded the order and served as its patron.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "79" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Because a Bondsmith must convince one of only three spren, the order commonly had no more than three full members, and at times only one.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "79" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Instead of fighting, Bondsmiths resolved disputes between nations, set up governments where none existed, and kept the peace between the Radiant orders.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "79" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Recreance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By the time of the False Desolation, Melishi, sworn to the Sibling, was the only true Bondsmith. He used his powers to imprison the Unmade Ba-Ado-Mishram in a perfect gemstone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "This damaged the Sibling, leaving them unable to create their own Light. The order disbanded at the Recreance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Refounding",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No Bondsmiths were sworn for centuries, but in Honor's final days the Stormfather was given the task of choosing a new one.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gavilar Kholin saw visions before his death; his brother Dalinar was then chosen, and began receiving visions by 1173.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the start of 1174, Dalinar swears the first two Ideals and becomes a Bondsmith.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar acts much as the old Bondsmiths did, uniting a coalition of monarchs against the Voidbringers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At Thaylen City, Dalinar swears the Third Ideal and opens a perpendicularity.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "In 1175 the Sibling chooses to bond Navani Kholin, who summons Towerlight to restore Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The Ideals",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Second Ideal reflects the order's focus: following the path of Honor by bringing together disparate groups as a peacemaker.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "59" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "27" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "109" },
+                { "book": "rhythm-of-war", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bondsmiths use their powers differently from the orders that share their Surges. Their ability to manipulate Connection gives them great influence over oaths, bonds and power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Full Lashing sticks objects together so strongly that most materials would break before the bond. Bondsmiths rarely use it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Using their Surges and their affinity for Connection, a Bondsmith can repair inanimate objects, sensing and hearing the Cognitive aspects of damaged things nearby.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "A Bondsmith can work with another Radiant to create effects neither could manage alone. Both feel a tug towards each other when a joint power is possible.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "27" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With a Lightweaver, the Stormfather's Bondsmith can make a three-dimensional map of Roshar as the Stormfather last saw it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Bondsmith can pull Light through on demand, and can overcharge another Radiant with it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They can force their spren's essence into the Physical Realm to activate Oathgates, an uncomfortable and dangerous act.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "109" },
+                { "book": "rhythm-of-war", "chapter": "90" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Bondsmiths cannot manifest Shardplate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "109" },
+                { "book": "rhythm-of-war", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Visions",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "oathbringer", "chapter": "56" },
+                { "book": "rhythm-of-war", "chapter": "107" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "rhythm-of-war", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stormfather's Bondsmith is pulled into visions during highstorms, at first without consent, acting out their part in the real world.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "oathbringer", "chapter": "56" },
+                { "book": "rhythm-of-war", "chapter": "107" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "These first visions were crafted by Honor before his death, to instruct a future Bondsmith in the fight against Odium.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "rhythm-of-war", "chapter": "110" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Bondsmith can bring others into a vision if they are in a highstorm or touching them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "oathbringer", "chapter": "56" },
+                { "book": "rhythm-of-war", "chapter": "107" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In time, a Bondsmith can create visions for others, Connecting a person to something significant to them, even letting them speak for a moment with the dead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "75" },
+                { "book": "rhythm-of-war", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Tension and Adhesion",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Spren",
+      "name": "Stormfather, Nightwatcher, Sibling",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "ishar",
+      "role": "Founder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "79" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "melishi",
+      "role": "Bondsmith",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "80" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "Saw visions",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "28" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    },
+    {
+      "characterId": "stormfather",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "sibling",
+      "role": "Bonded spren",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    }
+  ]
+}

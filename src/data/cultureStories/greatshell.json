@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "The family of huge crustaceans of Roshar, the largest creatures on land and sea, including chasmfiends.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Greatshells carry gemhearts, huge gemstones in their bodies, which are very valuable; some species, like the lanceryn and chasmfiends, have been hunted to extinction or near it for them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "text": "Greatshells vary widely but are all vastly larger than a human, with chitinous exoskeletons and carapace that is extremely hard to pierce. They have no tongue, complex jaws, and violet blood that smells musty and mouldy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They breed slowly and their numbers are small. An adult pupates into a chrysalis that releases several young. They live from the Shattered Plains to Aimia and the Reshi Isles, and are mostly too big to tame, though there are stories of greatshell riders.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "words-of-radiance", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their gemhearts let spren called mandras bond them, making the animal lighter so it can move its enormous bulk.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": []
+}

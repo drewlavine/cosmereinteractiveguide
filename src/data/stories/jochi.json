@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "The pen name of a scholar from Thaylen City, a friend of Jasnah Kholin and Ethid.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jasnah's colleague",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "rhythm-of-war", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jochi, Jasnah and Ethid studied under the same master and are close. They keep in regular touch by spanreed, using passcodes to identify themselves.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        },
+        {
+          "text": "Once Jasnah was in Urithiru, she reached Jochi and Ethid through a spanreed hub in Tashikk; it was the first they had heard from her since the sinking of the Wind's Pleasure. Jochi was glad, wanted to visit without revealing who he was, doubted Ethid's claim that Nale was active, reported a sighting of Axies the Collector and the singers' theft of most of Thaylenah's fleet, and described the Truthwatchers' spren to her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "After meeting some of the Heralds in person, Jasnah reflected that her many historical debates with Jochi no longer mattered, since the Heralds had lived through all of that history.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Known to the world as a female philosopher, Jochi is in fact a potbellied baker in his sixties who runs a pastry shop in Thaylen City. His real name is unknown.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Jocular but capable of solemnity, Jochi is extremely intelligent; Jasnah counts him among the few historians who are her equal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "rhythm-of-war", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ]
+}

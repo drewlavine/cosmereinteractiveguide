@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "A being made of a swarm of cremling-like hordelings, which takes the form of an elderly man and lives in Yeddaw.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    },
+    {
+      "text": "Also known as Arclo, an Aimian thousands of years old, made of a swarm of hordelings that takes the form of an elderly man in Tashikk.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Cut off",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arclo stopped protecting the Dawnshard on Akinah and left the island. Because of this and its meetings with Radiants, the other swarms, who follow Yelamaiszin the First, cut it off from their communications, though they don't hate it as they do those they consider true traitors.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Before the Recreance",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Arclo was a friend and ally of the Knights Radiant before the Last Desolation and the Recreance, and fondly remembers those days as wonderful.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Yeddaw",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In early Jes 1174 Arclo often sat on the porch of the orphanage in Yeddaw, where it met Lift several times and asked her which body part she felt she was. Told it was the Radiant Nale was hunting, Lift found it in an alley with the bodies of two of Nale's trainees; it showed her its true form and pointed her towards the person she was really looking for.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Its true form is many cremling-like hordelings fitting together into a body. It usually imitates an elderly man with dark skin and a grey moustache, keeping most of its body wrapped in a tight shiqua since it doubts it can fool humans.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "It loves philosophical debate and goes off on philosophical tangents even at awkward moments.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    }
+  ]
+}

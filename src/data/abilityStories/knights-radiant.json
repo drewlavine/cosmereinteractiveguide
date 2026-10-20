@@ -1,0 +1,371 @@
+{
+  "intro": [
+    {
+      "text": "The Lost Radiants, ancient knights who, Vorin teaching says, turned against humanity on the Day of Recreance.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "An ancient organization of Surgebinders, centred on Urithiru, who stood watch for the Desolations. Vorinism teaches that they betrayed humanity and calls them the Lost Radiants.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    },
+    {
+      "text": "Ten ancient orders of Surgebinders, bonded to spren, who stood watch for the Desolations. They abandoned their oaths in the Recreance, and were refounded in 1174 as the spren returned.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "89" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorin legends say the souls of Radiants ride the highstorms to steal spheres left out to be infused.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    },
+    {
+      "text": "The Herald Ishi'Elin formed Surgebinders into the ten orders of the Knights Radiant, to watch for the Desolations and help people fight and then rebuild.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Each order could use two of the ten Surges, sharing each Surge with a neighbouring order.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Radiants live by Ideals, also called the Immortal Words. The First Ideal is worded the same for every order.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "4" },
+            { "book": "way-of-kings", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spren began forming bonds with humans to give them Surgebinding, to Honor's surprise, since he had not taught it to his Heralds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+        },
+        {
+          "text": "The Herald Ishi'Elin organized these Surgebinders into the ten orders of the Knights Radiant.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Recreance",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vorinism teaches that the Radiants turned against humanity on the Day of Recreance, and calls them the Lost Radiants.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        },
+        {
+          "text": "In one of his visions, Dalinar watches Stonewards and Windrunners arrive at a battlefield, drive their Shardblades into the ground, drop their Shardplate and walk away.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "When the Radiants abandoned their oaths, many spren died, and spren stopped granting Surgebinding to humanity.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return of the Radiants",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1167, sensing danger, spren began bonding humans again. In early 1174 Urithiru was reclaimed and the Knights Radiant refounded with four members: Kaladin, Shallan, Dalinar and Renarin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The Ideals",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "oathbringer", "chapter": "90" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "rhythm-of-war", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Radiants swear more Ideals they gain a Shardblade and use Stormlight more efficiently.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+        },
+        {
+          "text": "Some orders cannot use one of their Surges until they swear a higher Ideal. The Fifth Ideal makes the bond so strong that only death can break it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "The Fifth Ideal isn't needed to be a full Radiant, and is so hard to swear that no Skybreaker has done it for centuries.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "The First Ideal need not be said in one go: Navani spreads its three sentences through a conversation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "rhythm-of-war", "chapter": "110" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Squires",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "120" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Radiant's squires can draw in Stormlight and use their Radiant's Surges only while their Radiant is near: their powers weaken past about thirty miles and fail beyond fifty, lasting an hour or two after a sudden parting.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "The Windrunners, Skybreakers, Dustbringers, Lightweavers, Willshapers, Stonewards and Bondsmiths are known to have squires.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "90" },
+                { "book": "rhythm-of-war", "chapter": "69" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "The ten orders",
+      "columns": ["Order", "Surges"],
+      "rows": [
+        {
+          "key": "order-of-windrunners",
+          "entry": "order-of-windrunners",
+          "cells": ["Windrunners", "Adhesion, Gravitation"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "order-of-skybreakers",
+          "entry": "order-of-skybreakers",
+          "cells": ["Skybreakers", "Gravitation, Division"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "order-of-dustbringers",
+          "entry": "order-of-dustbringers",
+          "cells": ["Dustbringers", "Division, Abrasion"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "order-of-edgedancers",
+          "entry": "order-of-edgedancers",
+          "cells": ["Edgedancers", "Abrasion, Progression"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "order-of-truthwatchers",
+          "entry": "order-of-truthwatchers",
+          "cells": ["Truthwatchers", "Progression, Illumination"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "order-of-lightweavers",
+          "entry": "order-of-lightweavers",
+          "cells": ["Lightweavers", "Illumination, Transformation"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "order-of-elsecallers",
+          "entry": "order-of-elsecallers",
+          "cells": ["Elsecallers", "Transformation, Transportation"],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "order-of-willshapers",
+          "entry": "order-of-willshapers",
+          "cells": ["Willshapers", "Transportation, Cohesion"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "order-of-stonewards",
+          "entry": "order-of-stonewards",
+          "cells": ["Stonewards", "Cohesion, Tension"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "order-of-bondsmiths",
+          "entry": "order-of-bondsmiths",
+          "cells": ["Bondsmiths", "Tension, Adhesion"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Centred at",
+      "name": "Urithiru",
+      "placeId": "urithiru",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    },
+    {
+      "label": "Orders",
+      "name": "Ten",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "Windrunner",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    },
+    {
+      "characterId": "malata",
+      "role": "Dustbringer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "Windrunner",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Elsecaller",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "characterId": "lyn",
+      "role": "Windrunner",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "Willshaper",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    },
+    {
+      "characterId": "rlain",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ]
+}

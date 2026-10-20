@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor in the crew of the Wandersail.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Voyage to Akinah",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the Wandersail broke through the storm surrounding Akinah, an unexpected wave swept Turlm overboard. Lopen and Rua quickly saved him, to his amazement and gratitude, and Fimkn sent him below for the rest of the passage.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Genial and always ready to share his booze, he counts Lopen as a friend, though he eats with his mouth open.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ]
+}

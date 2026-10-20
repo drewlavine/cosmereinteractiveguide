@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A young singer in Kholinar who joins Venli's secret group of those wanting to escape both humans and the Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Venli's group",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "11" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Venli arranged for Shumin to try out as an assistant stormsetter for the Fused Leshwi. Coached by Dul and Mazish, she had to stand at the unrailed edge of a chamber a hundred feet up. Leshwi judged her timid, but Venli persuaded her to give Shumin a chance.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        },
+        {
+          "text": "Afterwards Shumin was eager to attack the Fused, but Venli explained that they only wanted to escape. Shumin doubted they could slip away unnoticed until Venli showed she could still use her powers after imprisoning her Voidspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        },
+        {
+          "text": "Shumin was there when Venli decided to take her group to Kholinar and then the Shattered Plains, and was especially keen on asking Kaladin for help. After the tower was freed she presumably went to the Shattered Plains with the others to join the listeners.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young femalen singer with mostly black skin marbled bright red, who usually wears workform.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Timid around the Fused but casual in private, Shumin rarely hums to the rhythms and instead uses human gestures and speech, even swearing by the Stormfather and calling Venli \"Brightness\".",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    },
+    {
+      "text": "She fears Odium and his followers and longs for a revolt against the Fused, an eagerness that makes her unreliable.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "102" }]
+    }
+  ]
+}

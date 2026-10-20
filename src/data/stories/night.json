@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "An ancient spren of Roshar. The Nightwatcher was created from her.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "21" }]
+    },
+    {
+      "text": "An ancient spren made by Adonalsium together with Roshar, the Wind and the Stone, whose role was to shroud, or perhaps nurture, the singers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "100" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "43" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "85" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Cultivation came to Roshar, she found the Night's song especially beautiful. It helped persuade her to stay, even though she and Honor had meant to settle on a world without people.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        },
+        {
+          "text": "From the earliest days, few people loved the Night or even spoke of her; the singers took the Wind, the Stone and the spren as their gods instead. In time the Night left Roshar, and Cultivation made the Nightwatcher from some of the same essence to take her place.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "43" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In a vision of the Recreance, Dalinar seemed to sense her presence, though she had left Roshar long before then.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

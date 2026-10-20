@@ -1,0 +1,117 @@
+{
+  "intro": [
+    {
+      "text": "A powerful ancient being who Connected with the singers across Roshar and was imprisoned during the False Desolation.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+    },
+    {
+      "text": "One of the Unmade, who Connected with the singers across Roshar and was imprisoned during the False Desolation.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "text": "One of the Unmade, imprisoned for some two thousand years after the False Desolation until her release during the True Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The False Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "80" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "97" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ba-Ado-Mishram Connected with almost every singer on Roshar at once, a feat spanning the whole continent. Her actions began a new war without the Fused, which scholars later called the False Desolation, though many deny it ever happened.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "The singers fought with great zeal, and the Radiants could not work out how she Connected with them. The fighting was fierce, and the singers pressed hard toward Feverstone Keep for reasons the Radiants never understood.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A strike team that included the Heralds Nale and Kalak finally captured and imprisoned her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "97" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Effects of the Binding",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her binding tore Connection and Identity from the singers, leaving them and their descendants unable to act on their own. Humans used these singers as slaves for two thousand years, until the Everstorm healed them, and the singers' fury at this fuelled the True Desolation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The search for her prison",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In his journal, Kalak urged that Ba-Ado-Mishram be found and freed. Shallan learned the Ghostbloods were hunting for the gemstone that held her, and vowed to find it before them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        },
+        {
+          "text": "Ba-Ado-Mishram was finally freed by Renarin and Rlain in 1175. Her release ended a discordant note that had sounded through Roshar since her binding, and spren began to recover from being deadeyes.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "The Unmade Sja-anat considers her crafty and conniving, while Ulim dismisses her as a foolish oversized spren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    }
+  ]
+}

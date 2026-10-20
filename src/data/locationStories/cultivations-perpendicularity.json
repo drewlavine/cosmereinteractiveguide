@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A pool in the Horneater Peaks of Roshar that the Unkalaki revere, connected to the place of the gods.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "The only known stable perpendicularity on Roshar, a pool in the Horneater Peaks linking the Physical Realm with Shadesmar, and the main way worldhoppers arrive.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "93" },
+            { "book": "dawnshard", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "It lies within one of the warm Horneater Oceans, which the Unkalaki call the Pool. The top is ordinary water, but beneath it lies something else.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "dawnshard", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "108" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "102" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Unkalaki swimming in the Oceans sometimes visited the \"place of the gods\".",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Wit arrived on Roshar through the perpendicularity while Rock still lived on the peaks.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During the True Desolation, the Voidbringers seized and blockaded the perpendicularity from Shadesmar, hoping to control travel.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "With the Fused in control, travellers became rare, ships vanished on the way, and Fused warships demanded tribute from anyone they met.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "102" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "An eccentric, talkative soldier of the Kholinar Wall Guard, serving in Noro's squad.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar Wall Guard",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kaladin joined Noro's squad, Beard took him for a fellow low-ranking lighteyes, befriended him and showed him how the Wall Guard worked. He was loyal to his post and to Highmarshal Azure, and kept her secrets.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "Beard saw Kaladin kill a Fused on the walls, and simply grinned when Kaladin revealed himself as a Surgebinder with a Shardblade. At Kaladin's request, he and the squad were present when Azure revealed how the Wall Guard was being fed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar Palace",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beard was among the soldiers who went with Kaladin into Kholinar Palace to confront the queen and find Elhokar. In the fighting that followed he was run through with a spear by Sah, and Noro avenged him before falling himself.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, stocky and lighteyed, with hairy hands, but despite his nickname no beard at all.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A lighteye of the tenth dahn, Beard scorns 'middlers', mocking a disguised Adolin's colourful clothes, and blames the city's decline on the queen's execution of Pai.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    },
+    {
+      "text": "Beard at first seems to have no faith, refusing to wear a glyphward, but seeing Kaladin kill a Fused seems to restore it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+    },
+    {
+      "text": "Beard talks constantly, telling outrageous stories of his own heroics and meetings with royalty. His squadmates mostly tell him to be quiet but like him well enough; he knows he annoys people and doesn't mind, and he reminds Kaladin of Lopen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ]
+}

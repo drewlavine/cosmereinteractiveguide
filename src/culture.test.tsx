@@ -71,8 +71,8 @@ describe('culture list', () => {
     expect(names()).toContain(entry.name)
   })
 
-  it('groups by type with no heading for a type that is all hidden', () => {
-    renderAt('/culture?group=type', ['final-empire'])
+  it('groups by type by default, with no heading for a type that is all hidden', () => {
+    renderAt('/culture', ['final-empire'])
     const kinds = new Set(shownAfter(['final-empire']).map((c) => c.kind))
     expect(headings()).toEqual(
       Object.entries(cultureKindLabels)
@@ -84,6 +84,18 @@ describe('culture list', () => {
       name: cultureKindLabels.class,
     })
     expect(within(classes).getByText('Skaa')).toBeInTheDocument()
+  })
+
+  it('lists A–Z when Name is picked', () => {
+    renderAt('/culture?group=name', ['final-empire'])
+    expect(headings()).not.toContain(cultureKindLabels.class)
+    expect(screen.getByRole('combobox')).toHaveValue('name')
+    const shown = names()
+    expect(shown).toEqual(
+      [...shown].sort((a, b) =>
+        (a ?? '').localeCompare(b ?? '', undefined, { sensitivity: 'base' }),
+      ),
+    )
   })
 
   it('groups by book, world and series using only finished books', () => {

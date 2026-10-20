@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A place on Roshar sheltered from highstorms by cliffs or outcroppings of rock.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "True laits do not erode quickly and last for years. The rock above must lie at the right angle to shelter well, and they drain well. Plants and animals tend to thrive in them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Many settlements are built in large laits, which are desirable places to live. Legend says Kharbranth's bells were first hung to warn of highstorms because its lait shelters it so well. Szeth notes that easterners build their houses to deflect storms out of habit even in a lait.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During its endurance tests over the Steamwater Ocean, the Fourth Bridge sheltered in large laits.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ]
+    }
+  ]
+}

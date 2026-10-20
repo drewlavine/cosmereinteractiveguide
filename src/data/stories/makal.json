@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed woman on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lighteyes",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Makal is a lighteyed woman.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and plump.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "personality": []
+}

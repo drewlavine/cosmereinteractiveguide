@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed commander whose army fights Brightlord Amaram's; his officers are battalionlords.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    },
+    {
+      "text": "A high-ranking Alethi lighteyes, military commander and landowner.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battles with Amaram",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "67" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1169 Hallaw's army fought Amaram's in a border skirmish. In his third battle, Kaladin faced Hallaw's men; after losing the rest of his squad he searched out Tien, only to see him killed by one of Hallaw's lighteyes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        },
+        {
+          "text": "Kaladin came to know Hallaw's tactics, such as his fondness for long arrow volleys. In 1172, in his last battle with Amaram's army, Kaladin set out to kill one of Hallaw's battalionlords, but a Shardbearer appeared and cut down many of Amaram's men. Kaladin killed the Shardbearer, and Amaram took the Shards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

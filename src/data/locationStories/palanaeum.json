@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "The largest known library on Roshar, in Kharbranth, holding over seven hundred thousand texts in two great rooms: the Veil and the Palanaeum proper.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Veil lies behind steel doors carved with geometric patterns and glyphs. It is a tall, dark room whose smooth walls are pocketed with small turret-shaped alcoves, reached by parshman-worked lifts and lit only by readers' spheres.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+    },
+    {
+      "text": "The library doubles as the royal treasury: the city's emeralds light its walkways. An index of the collection, ordered by date of arrival, fills cabinets on the top level.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "text": "The Palanaeum proper is a huge cavern shaped like an upside-down pyramid, with a walkway spiralling down fifty-seven levels to a great infused diamond at the bottom. Books are kept in rooms cut into its walls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Its pyramid-shaped caverns are older than Kharbranth itself, and some believe the Dawnsingers made them; access to the library is carefully controlled.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "53" },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At some point a fire broke out in the original Palanaeum.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "Jasnah Kholin came to Kharbranth in 1173 to research the Voidbringers and Urithiru. Taravangian let her into the library after she helped rescue his granddaughter, and she had her new ward Shallan study there.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "A team of researchers began translating the Dawnchant using Dalinar's visions, reporting to his ardent Kadash; teams at the Holy Enclave and the Jokasha Monastery worked on it too.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        },
+        {
+          "text": "After the Everstorm, the Palanaeum was flooded with requests about the Voidbringers, and Navani had to call in favours to get information on the Nightwatcher.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "When the translation of the Eila Stele was presented to the coalition, Taravangian claimed the Veden and Kharbranthian teams had reached it independently.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        }
+      ]
+    }
+  ]
+}

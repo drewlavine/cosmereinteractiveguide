@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "Pailiah, a Vorin figure of learning: people speak of having \"Pali's mind\", and she has temples in major cities such as Kholinar and Thaylen City.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Pailiah, one of the ten Heralds of the Almighty and patron of the Truthwatchers, also known as Pali.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "wind-and-truth", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "107" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pailiah was born on Ashyn and worked there as a scholar. Odium granted her Surges that slowed her ageing greatly. After the planet was scoured by the Surges, she travelled to Roshar with a large group of survivors.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "When the Desolations began, she was one of the ten made Heralds by Honor and given an Honorblade. With her Truthwatchers she worked to preserve human knowledge between Desolations. At the end of Aharietiam she, like every Herald but Taln, abandoned the Oathpact.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has tan skin, looks rather like a Veden woman, and has wavy black hair and jewel-like green eyes. She sometimes wears green cloth accented with gold.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A good person, but flawed by her love of secrets.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "103" }]
+    }
+  ]
+}

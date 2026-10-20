@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten Heralds of the Almighty, worshipped in Vorinism and associated with the attributes Wise and Careful.",
+      "revealedIn": ["way-of-kings"]
+    },
+    {
+      "text": "One of the ten Heralds of the Almighty, known to Aesudan Kholin's young son as 'Aunt Dova'.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leaving the Oathpact",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Worn down by the endless cycle of war and torment, Battar and the other Heralds took up Ishar's idea that one of them might be enough to hold the Oathpact. They left Taln to his fate, abandoned their Honorblades and hid among ordinary people.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Diagram",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "i-3" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the ardent Dova, Battar warned Taravangian that a Desolation was coming and went on to help his Diagram. She reported that Death Rattles were growing rarer and wrote an anonymous essay revealing the plan to make Dalinar highking. She also visited Aesudan Kholin, whose son Gavinor knew her as 'Aunt Dova'. Once the Diagram was fulfilled, Taravangian told his followers to stop trusting her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "i-3" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruling Kharbranth",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once Taravangian had taken up his new power, he placed Battar to rule Kharbranth from the shadows, surrounded by treasures. She agreed to serve him in exchange for the art of crystal spikes, and used it to spike the eyes of the blinded Moash so that he could see Investiture and spren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Battar keeps her head shaved, since looking like an ardent makes most people overlook her.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-6" }]
+    }
+  ],
+  "personality": []
+}

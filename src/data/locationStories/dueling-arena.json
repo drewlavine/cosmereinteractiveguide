@@ -1,0 +1,94 @@
+{
+  "intro": [
+    {
+      "text": "An arena in a small crater behind the Alethi warcamps on the Shattered Plains, where lighteyes duel and joust.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its ten-foot crater walls have shelves that form a natural amphitheatre, and the floor is filled with sand. Highstorms wash the sand clean of sweat and grime.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "text": "Permanent preparation rooms replaced the old tents. A narrow hallway carved with the ten basic sword stances leads to staging rooms, whose benches are reinforced to hold the weight of Shardplate.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+    },
+    {
+      "text": "Duels follow a point system with a championship, and draw many onlookers. Duels for Shards are rare. During a duel the highjudge's word is the only law, by the king's authority.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "53" },
+            { "book": "words-of-radiance", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a youth, Adolin Kholin won his Shardblade here from Tinalar, who had challenged him hoping to embarrass Dalinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Adolin dueled Brightlord Resi, Thanadal's Shardbearer, after Thanadal's provocations, and won by shattering Resi's cracked thigh plate. Elhokar, Sadeas and Dalinar watched.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+        },
+        {
+          "text": "To unite the highprinces by winning their Shards, Adolin wagered his own Shards against Salinor Eved and broke Salinor's helm and breastplate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "Adolin then beat Eranniv, who welcomed the challenge despite Sadeas bribing Shardbearers not to duel Adolin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+        },
+        {
+          "text": "Elit Ruthar accepted Adolin's challenge and lost, with Shallan watching her first duel from the stands.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "Relis Ruthar, the dueling champion, brought three others to face Adolin at once. Renarin and then Kaladin joined in, and together they won.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        },
+        {
+          "text": "Pleased, Elhokar offered a boon. Adolin challenged Sadeas, but Kaladin unexpectedly accused Amaram of murder and theft, and Elhokar had him arrested.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ]
+    }
+  ]
+}

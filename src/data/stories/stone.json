@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "The Stone, an ancient spren of Roshar created by Adonalsium along with the planet itself, the Wind and the Night.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    },
+    {
+      "text": "The Stone, an ancient spren that embodies Roshar's stone, created by Adonalsium along with the planet, the Wind and the Night. It watches and remembers nearly all that happens in the world.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "100" },
+            { "book": "wind-and-truth", "chapter": "60" },
+            { "book": "wind-and-truth", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stone was made by Adonalsium as an echo of the planet, possessing its voice, and charged with protecting, shrouding and nurturing Roshar and its people.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        },
+        {
+          "text": "Before Odium came, the singers worshipped the Stone along with the Wind, and could shape it with ease without being Radiants.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+        },
+        {
+          "text": "The Stone was once one of three spren who could bond Bondsmiths, until part of its essence went into creating the Sibling.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        },
+        {
+          "text": "Though it could always speak to the people of Roshar, the Stone chose to stay silent for a long time.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "The Stone has no mortal sense of time, calling long-past events recent. It sings joyfully of the past and leaves the future to the Wind.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+    }
+  ]
+}

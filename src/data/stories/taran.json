@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A lanky serving boy in Tvlakv's slave caravan who tends the chulls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tvlakv's caravan",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "17" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taran was with the caravan when Tvlakv carried Kaladin and other slaves to the Shattered Plains. Like Bluth and Tag, he worked for Tvlakv rather than travelling in a cage.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+        },
+        {
+          "text": "When Shallan travels with Tvlakv's caravan, Taran is not with it, and Bluth looks after the chulls instead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

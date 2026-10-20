@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An Aimian wanderer who studies the many kinds of spren on Roshar, keeping his notes as markings on his own skin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hunting spren",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "wind-and-truth", "chapter": "i-5" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Searching for alespren by getting drunk in Kasitor, Axies was beaten, robbed and left in an alley. He talked a beggar into giving him a blanket, but while watching Cusicesh he lost it to an urchin and was arrested for public indecency.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+        },
+        {
+          "text": "Rysn found him hanging upside down in the Reshi Isles as punishment for offending the locals' religion; he had gone there hoping to see the spren of a Tai-na.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "In Azimir, seven days before the contest of champions, Axies met Baxil at a tea shop and traded him specially prepared red bandages for a gemstone holding an unknown spren. He stayed on in Azimir to hunt a spren drawn by strong emotion in war.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lanky man with pale, almost blue skin, deep blue eyes and blue fingernails, his body covered in tattoo-like markings ranging from intricate designs to notes on spren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "personality": []
+}

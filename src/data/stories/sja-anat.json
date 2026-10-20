@@ -1,0 +1,130 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, an ancient spren of Odium, who is corrupting spren in and around Kholinar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "79" },
+            { "book": "oathbringer", "chapter": "77" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the Unmade, an ancient spren of Odium also called the Taker of Secrets. Fully self-aware, she can corrupt other spren, and seems to want to break free of Odium.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient history",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "97" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "rhythm-of-war", "chapter": "75" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sja-anat took part in past Desolations, and the spren she corrupted spied on mankind; villages fled when they were seen. She was the Unmade the Radiants feared most.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "97" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Aharietiam she mostly slumbered, finding it hard to think without her bond to Odium, though at some point she corrupted the true spren Glys. When the Everstorm appeared in Shadesmar, centuries before the True Desolation, she was revitalized.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "rhythm-of-war", "chapter": "75" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "79" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the True Desolation began, Sja-anat became active around Kholinar, corrupting spren in the city. During the siege she was forced to corrupt the spren of its Oathgate as a trap, and she tried to tell Shallan, who had infiltrated the palace, that she was not her enemy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "79" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sja-anat told Shallan that the Oathgate was corrupted and that she was meant to kill them if they used it. When they activated it anyway, she promised to try not to, and they were only sent into Shadesmar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "87" }]
+        },
+        {
+          "text": "She then lied to Odium about where they had gone, and sent a corrupted gloryspren to tell Shallan of the lie and warn her of pursuers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A woman with waist-length black hair in a sleeveless, flowing tunic, or the shadow of one with white holes for eyes. She is seen only in mirrors, and only by those she chooses.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "85" },
+            { "book": "rhythm-of-war", "chapter": "i-12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Deceptive enough to trick Odium, Sja-anat wants to become a god in her own right rather than serve him. She cares for the spren she has corrupted, calling them her children, and wants to find them a home.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "i-2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

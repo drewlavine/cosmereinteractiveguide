@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "Rysn Ftori's servant, who carries her chair when she visits Urithiru.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
+    },
+    {
+      "text": "One of the Sleepless, a swarm of hordelings unusually skilled at posing as a human, serving as Rysn Ftori's porter.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    },
+    {
+      "text": "One of the Sleepless, a swarm of hordelings unusually skilled at posing as a human, who becomes Rysn Ftori's bodyguard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "dawnshard", "chapter": "6" },
+            { "book": "wind-and-truth", "chapter": "i-15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rysn's servant",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nikli had been sent by the Sleepless who guarded Akinah to become Rysn's personal servant, to make sure the Ancient Guardian was cared for and, since they suspected she might soon travel to Aimia, to stop her reaching the island. At first it tried far too eagerly to help with everything, until it realised she preferred her independence.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "When Rysn arrived at Urithiru, Nikli told the master-servant who greeted them that she preferred her own chair, but Rysn corrected it: the city's porters knew the place better than she did. She had Nikli bring the chair along in case she wanted it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sabotaging the voyage",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "dawnshard", "chapter": "6" },
+            { "book": "dawnshard", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nikli hired an assistant, Plamry, and the two carried Rysn around the Wandersail. Before they sailed, Nikli poisoned Screech, the ship's skyeel mascot, to frighten the crew into abandoning the voyage, and suggested to Rysn that they delay for a more trustworthy crew. Rysn instead let any sailor stay behind without penalty, which settled the crew and foiled the plan.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "Playing on the sailors' superstition, Nikli staged a run of misfortunes. It put worms in the grain, but Rysn traded the spoiled stores to Hexi nomads. After pleading with the other Sleepless for one last chance before it would have to kill everyone, it had its hordelings pose as a santhid's corpse, but Rysn had the sailors give the santhid a proper send-off instead.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        },
+        {
+          "text": "Nikli then tried to frame Cord for the omens, but Rysn had already searched Cord's room, and the evidence was exposed as fake. It dropped its accent, told Kstled nothing he did could hurt it and was put off the ship, only to re-form on deck and announce it would kill them all. By the time it reached Rysn, she had become a Dawnshard, and she opened negotiations.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bodyguard",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the expedition, Nikli and Alalhawithador became Rysn's bodyguards. When Hoid met Rysn in Urithiru, Nikli was shocked to learn that he had taken up again a power it believed he had given up centuries before. As his power and Rysn's reacted, its hordelings fell apart until Hoid stopped it. Nikli agreed to Rysn's plan to go into hiding.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In human form, Nikli looks like a Makabaki man, with white tattoos on its face and arms covering the gaps between its hordelings. Unlike most Sleepless, it has working eyes, so its gaze lines up convincingly.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though young for its kind, Nikli is valued by the other Sleepless, especially Yelamaiszin, for its understanding of humans, and it is known among all the swarms as the most skilled at impersonating them.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ]
+}

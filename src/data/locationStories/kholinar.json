@@ -1,0 +1,161 @@
+{
+  "intro": [
+    {
+      "text": "The capital of Alethkar and of the Kholin princedom, a roughly symmetrical city built around huge rock formations called windblades.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "The capital of Alethkar, built around the windblades, which was overrun by the singer armies early in the True Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kholinar lies in northern Alethkar near the Windrunner River. The windblades shelter it from highstorms, and with its many gardens it is thought a beautiful city.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "60" }]
+    },
+    {
+      "text": "The windblades are huge fin-like formations of red, white and orange strata, much like the walls of Urithiru. Tunnels have been cut through them over the centuries, and some are wide enough for people to live on top.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "61" }]
+    },
+    {
+      "text": "A city wall surrounds Kholinar, using the windblades for much of its length with built sections between them. It is up to sixty feet tall and ten feet wide, with a guard post big enough for a platoon every three hundred feet.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "70" }]
+    },
+    {
+      "text": "The Impossible Falls, in a small park in the southwest of the city, seem from the right angle to flow down their tiers and then back up to the top.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient times",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kholinar is one of the most ancient sites on Roshar. King Nohadon lived there during one of the Desolations, and the city was rebuilt several times over the ages.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "After the Sunmaker died, the city passed to one of his sons, the founder of House Kholin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Unification",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar and Dalinar Kholin conquered the city during their war to unite Alethkar, and it became the kingdom's capital.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "During the war on the Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A dark-skinned man staggered into the city and announced, as Talenel, Herald of the Almighty, that the Desolation had come.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Queen Aesudan's neglect and the ardent Pai's public accusations set off riots after Pai's execution. The City Guard was recalled to the palace and most never returned, but the Wall Guard restored order and drove all parshmen out of the city before the Everstorm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "83" },
+            { "book": "oathbringer", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Everstorm, the Fused gathered the transformed parshmen and besieged the city. Refugees poured in, the palace fell silent, services collapsed and gangs roamed the streets. The main forces inside were the Wall Guard and the Cult of Moments.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        },
+        {
+          "text": "With most high lighteyes gone into the palace, a woman calling herself Highmarshal Azure took command of the Wall Guard, recruited fighters with food, and held the wall against raids. Ithi and her sister kept the guard and many commoners fed with the last Soulcaster, in a room lined with metal from Wit.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "Spren in the city reacted to any use of Stormlight, including spanreeds and Soulcasters, so the city was cut off from outside contact.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "The Cult of Moments appeared at the start of the siege. Some members roamed the streets imitating spren while others feasted on the Monastery Dais, and anyone who brought food could join; Shallan got in by stealing food and handing it out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+        },
+        {
+          "text": "Kaladin persuaded Azure to lead six hundred of the Wall Guard against the palace, and Elhokar and Adolin recruited a few highlords, who added about a hundred of their own guards.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        },
+        {
+          "text": "When the besiegers realized a strike team was trying to take the Oathgate, they launched a massive assault. A thunderclast breached the walls, the team could not make the Oathgate work properly, and Kholinar was overrun.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Occupation",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under the Fused occupation, the District of Colors lay near where quarried rock was being taken to build houses for the Makay-im.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-4" }]
+        }
+      ]
+    }
+  ]
+}

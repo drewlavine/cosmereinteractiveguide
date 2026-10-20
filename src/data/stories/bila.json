@@ -1,0 +1,114 @@
+{
+  "intro": [
+    {
+      "text": "A listener soldier who fights alongside Thude in Eshonai's division, and who has come to hate humans after years of war.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    },
+    {
+      "text": "A listener soldier who, with Thude and other friends, fled Narak rather than take the new form Eshonai demanded.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "text": "A listener who sits, with Thude, on the first Council of Five of the new listener nation on the Shattered Plains.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born into the First-Rhythm family, Bila knew Eshonai and Thude from an early age. In 1166 she agreed to take mateform with Thude; their two weeks together produced no children, but left a strong and lasting bond.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "79" },
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "wind-and-truth", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the War of Reckoning began, Bila signed up to fight and was placed in Eshonai's personal division, where she and Thude made an excellent warpair. When Eshonai refused to let Thude spy on the warcamps, Bila volunteered instead, but Thude wouldn't hear of it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "79" }]
+        },
+        {
+          "text": "After six years of war, Bila hated humans. When Eshonai showed her and Thude a stormspren that might grant a new form, Bila was sceptical, yet happy to take a form of power if it helped in battle. She argued with Eshonai until Thude stepped in by offering food.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "When Eshonai ordered her soldiers to take stormform, Bila and Thude agreed, but soon organised an escape with their division, climbing down into the chasms and fleeing Narak. Helped out of the chasms by chasmfiends, they roamed the Plains, avoiding both humans and Fused, and Bila became one of the Five who led them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "wind-and-truth", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Journey to Narak",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "101" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Venli joined them, a voice told several listeners to seek the centre of the Shattered Plains, and the Five set out. Beneath the central plateau they found a pool of golden light, and Bila stopped Thude from touching it. Discovered by Odium's forces, they were offered a choice by the Fused commander El: fight for him, or be destroyed once the war was over.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Instead, Venli secretly agreed a treaty with the Alethi giving the Shattered Plains to the listeners. The listeners staged a sham attack on Narak, and once the contest of champions froze the borders, the Five showed El the treaty, forcing him to withdraw. Bila became a member of the first Council of Five of the new listener nation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Years of war have left Bila hating humans. She cares little where her people's forms and powers come from, thinking only of winning the war, which frightens Eshonai.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "text": "Bila often mocks Thude's coat, and hates Odium for all the death he has caused.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+    }
+  ]
+}

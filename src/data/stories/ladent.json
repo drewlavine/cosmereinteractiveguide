@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "An ardent who serves Dalinar Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Serving Dalinar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar had Ladent send a messenger from the bridge yards to warn Havrom of an upcoming inspection.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Ladent refused to marry Dalinar and Navani.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald but bearded, in thick robes with long sleeves.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "personality": []
+}

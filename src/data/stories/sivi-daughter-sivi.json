@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "Sivi-daughter-Sivi is one of the Shin Honorbearers, the only one who refused to follow Ishar's plans.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+    },
+    {
+      "text": "Sivi-daughter-Sivi is the Willshaper Honorbearer of Shinovar, able to use the Surges of Cohesion and Transportation, and the only Honorbearer who refused to follow Ishar's plans.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "11" },
+            { "book": "wind-and-truth", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Honorbearer of Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "143" },
+            { "book": "wind-and-truth", "chapter": "117" },
+            { "book": "wind-and-truth", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sivi became the Willshaper Honorbearer before 1152. That year she visited the Stoneward monastery with Pozen, and when the young Szeth asked about the morality of hurting others, they agreed he should grow used to death and sent him to work in the slaughterhouses.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "Sivi grew close to Neturo, visiting the Stoneward monastery often and secretly training him to become an Honorbearer. In 1159 she gave Szeth the answers to Pozen's riddles, invited him for a drink and talked with him about nuance and his future. That year Szeth went to her monastery to train in the Willshaper Surges.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+        },
+        {
+          "text": "Sivi was present in 1165 when Szeth completed his pilgrimage. When he came to kill Pozen after learning the truth about the Voice, she was there, and Szeth could not bring himself to harm her. Six months on she fought him outside the Stoneward monastery until he disarmed her. Once he surrendered, she helped the other Honorbearers decide his fate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        },
+        {
+          "text": "When Ishar made the Honorbearers into human Fused, Sivi refused and turned away from him, protecting the people near her monastery from his corruption. She died there before 1175, carving the words \"I will not bow to him\" into the stone. Szeth and Kaladin found her body and took Kalak's Blade from it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Sivi is a tall Shin woman with deep violet eyes and short dark hair spiked up in a style Szeth calls flagrant. She wears the colorful robes of a Stone Shaman.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sivi is wise and insightful but quick to smile and laugh, and does not take herself or her position too seriously. Even so, she cares about Szeth and the Shin people, guiding him toward his pilgrimage, encouraging him to accept nuance and warning him about Pozen.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed officer in the Sadeas warcamp on the Shattered Plains who captains the bridge crews, though his wife Hashal seems to hold more authority than he does.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Captain of the bridge crews",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Avarak travelled to the Shattered Plains with his wife and their favourite niece. He was made captain of the Sadeas bridge crews after Lamaril was executed following a disastrous battle. Hashal claimed he had asked for the post to make sure the crews ran efficiently, but Kaladin assumed this was a lie, as the position carried no prestige.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Success on the battlefield",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "62" },
+            { "book": "way-of-kings", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kaladin dressed in Parshendi remains to draw enemy fire away from the bridge crews, Matal screamed at him, but the gamble worked and the crews suffered almost no casualties. Matal took responsibility for it before Sadeas, who assumed he had approved the plan and hinted at a promotion. Furious at Kaladin for risking his life, Matal didn't punish him, knowing he couldn't afford to lose him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+        },
+        {
+          "text": "After seeing how Bridge Four were treating the Parshendi corpses, Matal let them leave Shen behind on bridge runs because of his foul temper and behaviour.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of the Tower",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "66" },
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "way-of-kings", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Matal shouted orders when the horns sounded for the Battle of the Tower, then stayed back from the fighting. Seeing him speak with the rear guard across the chasm, Kaladin realised that Sadeas meant to betray Dalinar and abandon the Kholin army.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "66" }]
+        },
+        {
+          "text": "As Sadeas's army retreated, Matal directed the bridge crews back toward the warcamp. Kaladin persuaded him to let the tired Bridge Four follow at their own pace, and Matal agreed, expecting the Parshendi to hunt them down and rid him of Kaladin. Instead, Bridge Four rescued Dalinar and many of his men.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "While the highprinces debriefed after the battle, Kaladin saw Matal glaring furiously at Bridge Four, and assumed Sadeas would have Matal executed, as Lamaril had been.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Nearly as tall as Kaladin, but spindly, with delicate hands. He wears a sword at his side, though Kaladin thinks it mostly for fashion.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Matal rarely addresses the bridge crews himself, letting Hashal deal with them using his authority, and seldom speaks when she is present. He takes personal command only on the battlefield, where women aren't allowed. He and Hashal consider themselves close associates of Sadeas.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    }
+  ]
+}

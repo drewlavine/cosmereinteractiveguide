@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A king of the west in the time of the Desolations, who fought the Voidbringers alongside the Heralds and the Knights Radiant, and whose voyage on the Wandersail is the subject of a famous story.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wandersail",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a Desolation, Derethil had the ship Wandersail built and sailed west into a highstorm to find where the Voidbringers came from. His crew were wrecked on an island of the Uvara, who nursed them back to health but executed one another for any failure, on their emperor's orders. When Derethil found the emperor was long dead, the Uvara fell into rioting, and he escaped on the Wandersail with Nafti, the crew's guide. Wit told this story to Kaladin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ishar's account",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar said he met Derethil as an old man and wrote down his story, though he thought Derethil had simply embellished getting lost in a storm on a fishing boat. Ishar looked for the islands without finding them, though he admitted he had not searched very hard.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

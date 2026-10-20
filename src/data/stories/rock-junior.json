@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "Rock's second son, named after a smaller kind of rock than his father.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "To the Shattered Plains",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rock came to the Shattered Plains with his family after months of travel. When Voidbringers attacked their caravan the family held out behind a pile of furniture until Bridge Four found them and took them to Urithiru, where he helped his father serve food to the crew.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return to the Peaks",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Hearthstone was evacuated, Rock went back to the Peaks with most of his family; only Cord and Gift stayed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "By his people's traditions he has the honour of gathering food.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ]
+}

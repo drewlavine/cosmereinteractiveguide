@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mederia's arguments claimed far more than their facts supported, leading Shallan to coin the word 'errorgant'. Jasnah explained that this was part of the Assuredness Movement, in which scholars overstate their case to provoke debate.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scholarship",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gashash-son-Navammis is a Shin scholar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

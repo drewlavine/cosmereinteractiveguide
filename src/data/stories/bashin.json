@@ -1,0 +1,150 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed Alethi huntmaster and longtime associate of Dalinar Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "text": "A darkeyed Alethi and longtime friend of Dalinar Kholin who has been his huntmaster and now leads his scouts.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "78" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Friend of Dalinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "49" },
+            { "book": "words-of-radiance", "chapter": "78" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the night Adolin was born, Bashin went with Dalinar and Havar to a wrestling hall in Kholinar. Dalinar liked that they treated him as a friend rather than a highprince, and drank heavily and used firemoss in their company. Bashin nervously bet his hat on a match, and won.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "When Dalinar tried to stand in for a sick wrestler, his opponent was plainly terrified, and Bashin and Havar had to tell Dalinar he had maimed three men in a tavern brawl weeks earlier. When Toh came with news that Evi had gone into labor, Bashin tried to hide Dalinar's firemoss.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        },
+        {
+          "text": "Bashin was at a meeting with the Parshendi during King Gavilar's reign.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Chasmfiend hunt",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "way-of-kings", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Shattered Plains, Bashin was huntmaster for a chasmfiend hunt with Dalinar, Adolin, Renarin and Sadeas. His team tracked the beast, prepared a plateau with a hog carcass as bait and set up a pavilion for spectators on a separate plateau. He advised the nobles to aim grandbows at its legs, and was hopeful, as the beast was huge.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "The chasmfiend came early and struck the viewing plateau instead, eating a chull and injuring several people before the Shardbearers responded and Elhokar killed it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Scouting the Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bashin joined Dalinar's push into the Shattered Plains, coordinating scouts and reporting Parshendi sightings. His scouts killed a Parshendi in a form never seen before, and he showed Dalinar and Shallan the body, puzzled by burn marks on dead scouts.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Urithiru, Bashin looked after the Kholin axehound kennels, though the hounds were no longer used for hunting. In time he retired and gave his beloved floppy hat to Felt.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and portly, with a large belly. He wears rugged clothes like soldier's trousers and a leather overcoat, and a wide-brimmed, floppy brown hat from near the Purelake that he wears for decades despite the teasing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "49" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cheerful and self-deprecating, Bashin gives plain, no-nonsense information. He doesn't fit the usual idea of a darkeyes: he has travelled widely and wants to see more, skips the uniform and sometimes calls Dalinar by his first name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Well travelled and knowledgeable about chasmfiends, he is trusted with important tasks and respected among Dalinar's soldiers despite having no obvious rank.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "49" }
+          ]
+        }
+      ]
+    }
+  ]
+}

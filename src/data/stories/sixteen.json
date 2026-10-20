@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An odd, reclusive man who lives in a small box-like house in Lasting Integrity, the honorspren fortress in Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "75" },
+            { "book": "rhythm-of-war", "chapter": "78" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The local spren find Sixteen strange but don't mind him; he has little contact with anyone.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        },
+        {
+          "text": "Searching Lasting Integrity for Restares, Shallan suspected Sixteen and waited for him to come out on his day. When she confronted him his hood fell, and she saw he did not match the description she had. He shouted at her in a language she didn't know and fled back inside. Mraize thought it very unlikely he was Restares in disguise.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, completely bald man with pallid skin and eyes that look Shin to Rosharans. He walks hunched and wears a hooded cloak to hide his looks.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He leaves his home every sixteen days, a habit the honorspren find amusing. He takes no food or waste in or out, and the spren don't think he ever bathes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ]
+}

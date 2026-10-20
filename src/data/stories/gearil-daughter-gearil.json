@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A Shin Honorbearer who once held the Dustbringer Honorblade.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dustbringer Honorbearer",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Entrusted with a Dustbringer Honorblade, Gearil wielded it in defence of the Dustbringer monastery. Rather than lean on the Blade, she made inventive use of the Surge of Division, and liked to draw gas from the air and set it alight.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "She died early in Szeth's banishment, before the True Desolation began.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

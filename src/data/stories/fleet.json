@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The hero of a tale Wit tells Kaladin: a man who could run faster than a highstorm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The legend",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "131" },
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "words-of-radiance", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar claimed to have been the first to write down the tale of Fleet. In his telling, Fleet was trying to retrace the travels of Nohadon and died somewhere in Makabakam.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+        },
+        {
+          "text": "In Wit's version, Fleet raced the Herald Chanarach and won, then raced the Stormfather himself to outrun a highstorm. He died to win, and his spirit kept running toward the western shores of Shinovar. Wit claimed everyone knew the story, though Kaladin had never heard it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+        },
+        {
+          "text": "During the attempt on Elhokar's life, Kaladin remembered Fleet, who never stopped running. It pushed him on: everyone dies in the end, and what matters is how they fight to survive.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A simple, barefoot man, tall, with hair down to his waist; he resembles Kaladin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+    }
+  ],
+  "personality": []
+}

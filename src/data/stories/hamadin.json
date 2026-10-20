@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A legendary Alethi warrior.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hamadin is said to have led fifty soldiers against ten thousand Veden troops. Even Thaylen soldiers know the story.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

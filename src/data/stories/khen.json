@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "A former parshwoman from Sadeas's princedom, freed by the Everstorm, whose group takes Kaladin captive when he surrenders to them.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    },
+    {
+      "text": "A singer who fights alongside Moash in the battle for Kholinar, then stays to help rebuild the city.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "text": "A singer who fought alongside Moash in the battle for Kholinar, and who later leaves the city to live by her own mind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the road",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the first Everstorm, Khen escaped slavery in Sadeas's princedom and joined a group of former parshmen, including Sah, heading for Revolar. They took Kaladin captive when he gave himself up; he soon freed himself but stayed to teach them how to survive, and Khen promised to speak for him when they arrived.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Revolar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "54" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Revolar, Khen spoke for Kaladin, but he left on seeing the Fused, revealing himself as a spy. Her group was punished with hauling lumber, where she met Moash. Told they would fight on the front line against Kholinar, Khen felt that their own gods were treating them unfairly, and Moash began training them to fight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the battle for Kholinar, Khen saw Noromin kill Sah and killed him in turn, and watched Moash kill Elhokar. Granted her freedom after the victory, she stayed to help rebuild the city alongside Moash.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Ten months later, Khen told Moash she was leaving Kholinar to truly live with her own mind and Passions. She saw that Moash was still chained by his feelings about Kaladin, and he invited her to come back and fight beside him if she ever became unchained.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large, muscular singer with red and white marbled skin and a deep voice with a clear Alethi accent. Her only carapace runs along her forearms and juts out at her temples. In workform she wears a slave smock, belt and sandals; warform suits her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "31" },
+            { "book": "rhythm-of-war", "chapter": "i-4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Khen is passionate about her freedom, and at first willing to kill to defend it. She is outspoken and grows frustrated with taking orders and being oppressed by humans and Fused alike.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "54" },
+            { "book": "rhythm-of-war", "chapter": "i-4" }
+          ]
+        }
+      ]
+    }
+  ]
+}

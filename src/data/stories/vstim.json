@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A veteran Thaylen merchant, travelling to Shinovar with his apprentice Rysn to trade.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "text": "A wealthy Thaylen merchant, once Rysn's master, who becomes Queen Fen's Minister of Trade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trading with Rysn",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vstim took his apprentice Rysn to Shinovar to trade Soulcast metal for chickens. Seven years earlier he had been given Szeth there, the best servant he ever had, and each visit he asked in vain for another Shin soldier.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+        },
+        {
+          "text": "A year later, in the Reshi Isles, Vstim pretended to be ill so Rysn could lead the trade herself. She fell from the top of the Tai-na and shattered her legs. Rysn worked out that Vstim had once been Talik's master.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vstim told Rysn that Queen Fen had made him Minister of Trade, and gave her the deed to a ship, the Wandersail, so she could still trade. While they inventoried the gemstone reserve, a disguised Fused slashed him and locked him in a vault. Dalinar later found them in the ruins and saw him tended.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rysn's voyage",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "4" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "i-8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Rysn's voyage, Vstim told her what he knew of a secret Alethi fabrial project. He stayed the Wandersail's main investor and, by keeping his gift of the ship quiet, left the crew expecting the captain to own it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        },
+        {
+          "text": "By spanreed, Vstim told Rysn that Queen Navani secretly hoped to find an Oathgate at their destination, and spoke with Queen Jasnah for her.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "When Rysn returned, Vstim heard her full account in private and promised to keep her secrets, even from Queen Fen.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A spry man in his seventies who wears stiffly starched Thaylen merchant's robes and a conical hat.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

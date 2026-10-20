@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The elite soldiers who fought beside Dalinar Kholin during his conquests.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The elites mixed lighteyes and darkeyes without regard for rank, promoted by competence, and recruits could come even from the enemy. Marked by an armband, they backed up the Blackthorn where one man wasn't enough.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    },
+    {
+      "text": "Dalinar wrestled every one of them, even the cook, and several stayed his friends in peacetime. Survivors had a good chance of rising in rank.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    },
+    {
+      "text": "They included spearmen, swordsmen, riders and archers as well as cooks, with several captains answering to Dalinar. Usually over a hundred strong, they suffered heavy losses, both from the enemy and from Dalinar in the Thrill.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Service",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The elites served Dalinar from his early conquest of Alethkar, were recalled for the war against Herdaz, and had been disbanded by Gavilar's death, though several former members remained close to Dalinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "commander",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "3" }]
+    }
+  ]
+}

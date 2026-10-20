@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A port city that sailors who know it consider very dangerous, joined to the Shattered Plains and the Alethi warcamps by a well-used caravan corridor through the Frostlands.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The city looks unremarkable and has several similar sister cities nearby. Its people sell slaves to merchant caravans, which take them to the Shattered Plains, and it also trades by sea under a harbormaster. Even along the corridor, running a caravan to the Plains is costly without enough wares.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Visitors",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Wind's Pleasure was bound for the Shallow Crypts when it sank. Tvlakv's caravan, having left the city, came upon Shallan after the wreck, and she had him turn back to the Shattered Plains with little to trade but his slaves.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+        }
+      ]
+    }
+  ]
+}

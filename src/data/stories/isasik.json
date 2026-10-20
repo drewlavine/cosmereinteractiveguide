@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner and member of Bridge Thirteen.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Thirteen",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "4" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Isasik ran bridges in Sadeas's army as a member of Bridge Thirteen. Freed by Dalinar Kholin along with his crew, he joined the Kholin army, trained as a soldier and bodyguard, and guarded the Kholin family at Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Isasik became one of Teft's squires with the rest of Bridge Thirteen and, in the year that followed, bonded his own spren and became a full Windrunner.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "31" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting the Ghostbloods",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Isasik joined the raid on a Ghostblood safehouse in Narak, then went with Breteh into Shadesmar to look for escapees. Three Ghostbloods disguised as guards turned on them, and Iyatil cut his throat; Renarin healed him, and Isasik and Breteh then flew down to free the real guards.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,168 @@
+{
+  "intro": [
+    {
+      "text": "Enormous greatshells that roam the chasms of the Shattered Plains, hunted for the huge gemhearts they carry. The Alethi call them Roshar's deadliest predators.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ancient pictures of Voidbringers were often based on chasmfiends, but Jasnah thinks the artists, living long after the Desolations, simply drew the most terrifying creature they knew.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "Alethi sayings include \"Even a chasmfiend stops fighting when it's been decapitated\" and \"trying to choose which claw of the chasmfiend would crush you\".",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    },
+    {
+      "text": "On the Shattered Plains a chasmfiend nests in the chasms, hunting and scavenging, until one night it climbs onto a plateau and forms a rock-coloured chrysalis that awaits a highstorm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A chasmfiend is armoured in dark violet carapace that can shrug off a hail of arrows; its blood is purple. It has eighteen legs: four huge clawed foreclaws on broad shoulders for smashing and slicing, and fourteen smaller limbs that can move it very fast.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "71" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Like every greatshell, a chasmfiend grows a gemheart, always an emerald and especially large. When it dies, the mandras that help bear its weight leave its body like tongues of smoke.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "way-of-kings", "chapter": "13" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the war chasmfiends were almost legendary, and killing one was extremely rare; even Gavilar never managed it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "During the war listeners and humans hunted chasmfiends for their gemhearts, usually by finding a chrysalis, when the beast is most vulnerable, and breaking it open with mallets and Shardblades. The biggest danger was other armies after the same chrysalis.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "Adult chasmfiends that strayed into a highprince's territory were sometimes lured up onto a plateau with hog carcasses and blood and fought there.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        },
+        {
+          "text": "The Alethi commonly believed the listeners worshipped chasmfiends as gods, a misunderstanding by early explorers that Shallan came to doubt.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Over fifteen were killed each month, and by the war's last years their numbers were dwindling. Some proposed fewer hunts or even breeding them in captivity.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gemhearts",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "50" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "oathbringer", "chapter": "35" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Urithiru's rediscovery its early population depended on gemhearts from plateau runs, but as chasmfiends dwindled the armies relied more on farming and lumber from the warcamps.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "Gemhearts drove Alethkar's wartime economy: one could fund a highprince's war for months, and large ones were vital for Soulcasting. Much of the royal emerald reserve likely came from them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "oathbringer", "chapter": "35" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The listeners used gemhearts not as money but as an energy source to grow food on the barren plains.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "hunted them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "studied them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ]
+}

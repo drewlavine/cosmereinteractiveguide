@@ -7,6 +7,106 @@ import type { JourneyIndex } from './journey'
  * part of the journey once they've reached any of these and the map).
  */
 export const journeyIndex: JourneyIndex = {
+  'adolin-kholin': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '9',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '30',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '49',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '62',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '85',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '122',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '7',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '19',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '13',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '68',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '13',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '34',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '85',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '123',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '14',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '32',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '49',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '51',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '58',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '84',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '88',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '89',
+        },
+      ],
+    },
+  ],
   'allrianne-cett': [
     {
       pack: 'scadrial',
@@ -363,6 +463,14 @@ export const journeyIndex: JourneyIndex = {
           chapter: '69',
         },
         {
+          book: 'wind-and-truth',
+          chapter: '15',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '130',
+        },
+        {
           book: 'words-of-radiance',
           chapter: '32',
         },
@@ -589,6 +697,38 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  eshonai: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: 'prologue',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '45',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-8',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '51',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-13',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '84',
+        },
+      ],
+    },
+  ],
   'ferson-penrod': [
     {
       pack: 'scadrial',
@@ -745,6 +885,90 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  'jasnah-kholin': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '32',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '53',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '96',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '122',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '19',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '50',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '64',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '99',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '8',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '29',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '36',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '74',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '21',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '61',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '108',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'prologue',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '7',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'epilogue',
+        },
+      ],
+    },
+  ],
   kaladin: [
     {
       pack: 'roshar',
@@ -875,6 +1099,38 @@ export const journeyIndex: JourneyIndex = {
           chapter: '68',
         },
         {
+          book: 'wind-and-truth',
+          chapter: '12',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '13',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '19',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '35',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '41',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '69',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '109',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '130',
+        },
+        {
           book: 'words-of-radiance',
           chapter: '12',
         },
@@ -983,6 +1239,42 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  lift: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'edgedancer',
+          chapter: '20',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '65',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '9',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '49',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '103',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-9',
+        },
+      ],
+    },
+  ],
   'lord-ruler': [
     {
       pack: 'scadrial',
@@ -1079,6 +1371,126 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  moash: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '43',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '48',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '51',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '84',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '121',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '9',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '104',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '46',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '84',
+        },
+      ],
+    },
+  ],
+  'navani-kholin': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '4',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '32',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '53',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '96',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '119',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: 'prologue',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '19',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '43',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '76',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '89',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '97',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '111',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '22',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '60',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '14',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '86',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '88',
+        },
+      ],
+    },
+  ],
   oreseur: [
     {
       pack: 'scadrial',
@@ -1169,6 +1581,86 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '58',
+        },
+      ],
+    },
+  ],
+  'renarin-kholin': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '30',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '53',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '59',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '9',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '50',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '30',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '32',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '58',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '84',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '88',
+        },
+      ],
+    },
+  ],
+  'rysn-ftori': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'dawnshard',
+          chapter: '4',
+        },
+        {
+          book: 'dawnshard',
+          chapter: '11',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '116',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: 'i-4',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-3',
         },
       ],
     },
@@ -1275,6 +1767,146 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '58',
+        },
+      ],
+    },
+  ],
+  'shallan-davar': [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '9',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '18',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '25',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '30',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '32',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '59',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '62',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '78',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '85',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '122',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '7',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '19',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '8',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '29',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '36',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '74',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '13',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '21',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '1',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '7',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '13',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '21',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '28',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '34',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '43',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '49',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '58',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '64',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '73',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '75',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '84',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '88',
         },
       ],
     },
@@ -1411,6 +2043,134 @@ export const journeyIndex: JourneyIndex = {
       ],
     },
   ],
+  szeth: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '92',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '120',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '98',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '111',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: 'prologue',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: 'i-9',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '71',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '12',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '13',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '19',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '35',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '41',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '69',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '109',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '130',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '32',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-14',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: '86',
+        },
+      ],
+    },
+  ],
+  taravangian: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: '24',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '96',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '100',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '121',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: 'i-3',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: 'i-6',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '66',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '29',
+        },
+        {
+          book: 'way-of-kings',
+          chapter: '71',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-14',
+        },
+      ],
+    },
+  ],
   'telden-hasting': [
     {
       pack: 'scadrial',
@@ -1527,6 +2287,78 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '54',
+        },
+      ],
+    },
+  ],
+  venli: [
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'oathbringer',
+          chapter: 'i-3',
+        },
+        {
+          book: 'oathbringer',
+          chapter: 'i-6',
+        },
+        {
+          book: 'oathbringer',
+          chapter: 'i-9',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '109',
+        },
+        {
+          book: 'oathbringer',
+          chapter: '121',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '14',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '43',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '45',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '57',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '60',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '77',
+        },
+        {
+          book: 'rhythm-of-war',
+          chapter: '115',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '70',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '89',
+        },
+        {
+          book: 'wind-and-truth',
+          chapter: '112',
+        },
+        {
+          book: 'words-of-radiance',
+          chapter: 'i-8',
         },
       ],
     },

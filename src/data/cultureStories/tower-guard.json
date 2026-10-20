@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The security force of Urithiru, presumably set up by the coalition of monarchs.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The invasion",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When singers invaded Urithiru, Navani asked after the Guard's commander, Lyon, and learned he was one of the Radiants who had fallen unconscious.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lyon",
+      "role": "commander",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "queen",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+    }
+  ]
+}

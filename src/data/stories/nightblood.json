@@ -1,0 +1,219 @@
+{
+  "intro": [
+    {
+      "text": "Nightblood is a sentient black sword made by Vasher and Shashara, which Vasher named after he used it to kill her.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    },
+    {
+      "text": "A strange, talking black sword that Nale gives to Szeth after the Battle of Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    },
+    {
+      "text": "A talking black sword, called sword-nimi by Szeth, who carries it while training with the Skybreakers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Nalthis",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "51" },
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "warbreaker", "chapter": "29" },
+            { "book": "warbreaker", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Envious of Yesteel's ichor-alcohol, Shashara found a way to Awaken steel with sentience. Using a thousand Breaths, she Awakened a sword with the Command \"Destroy evil\". Having no idea what evil was, the sword came to see it as anyone who would take it to use for evil ends.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "Shashara wielded the sword to devastating effect at the Battle of Twilight Falls during the Manywar. Deciding the knowledge of how to make it was too dangerous, Vasher fell out with her and used the sword to kill her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        },
+        {
+          "text": "The sword had another name at first, but Vasher renamed it Nightblood after Shashara's death. Nightblood knows she made it, but doesn't remember killing her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        },
+        {
+          "text": "During the Pahn Kahl rebellion Denth threw Nightblood into a bay. Chapps fished it out and then killed four people and himself, and the soldiers Vivenna gave it to all died too. Vasher recovered it and cut through a large number of Lifeless chasing Denth.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "90" },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "118" },
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "113" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "140" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "140" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Somehow the Nightwatcher came to have the sword, and offered it to Dalinar when he visited the Valley in 1168. At some point afterwards Nale came to own it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the Battle of Narak, Nale gave the sword to Szeth once he had restored him to life.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Szeth, who called the sword 'sword-nimi', carried it through his training with Nale and the Skybreakers. He was warned to draw it only in an extreme emergency and with plenty of Stormlight, lest it feed on his soul.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "Lift saw Szeth carrying the sword in Yeddaw in 1174. The sword says it likes her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth first drew the sword during his Skybreaker test at the Purelake and managed to sheathe it again. At the Battle of Thaylen Field he drew it and killed hundreds, including the thunderclast Yushah, nearly killing himself and Lift as it drained their Stormlight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Vivenna came to Roshar as Azure, searching for Vasher and Nightblood. The honorspren Borea remembered the sword passing through Shadesmar years before.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "108" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth kept Nightblood at a distance when talking to his highspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-7" }]
+        },
+        {
+          "text": "In Emul, Nightblood went with Szeth and Dalinar to parley with Ishar. When Ishar tried to steal Dalinar's bond, Szeth used Nightblood to sever the Connection, and in the duel that followed it chipped Ishar's Honorblade, sending him fleeing.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Nightblood was with Szeth when he killed Taravangian in his prison. Odium arrived, and Taravangian seized Nightblood's Cognitive form and struck the Shard. Nightblood killed Odium's Vessel, Rayse, but was sated, leaving the Shard for Taravangian to take up.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        },
+        {
+          "text": "Szeth took Nightblood to Shinovar to complete his Fourth Ideal. Along the way it spoke with the Honorblades, which in time taught it to use Surges.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "140" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth used Nightblood against all the remaining Honorbearers, feeding it on Kaladin's Stormlight. Having slain them, it kept draining until it remembered Kaladin's words about making one's own choices, and chose not to destroy its friends.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        },
+        {
+          "text": "After Kaladin became a Herald, Nightblood stayed with Szeth on his travels.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Nightblood is black from blade to hilt, with a long, thin, straight double-edged blade and a hooked crossguard. It is large and surprisingly heavy when sheathed, and on Roshar it is often taken for a Shardblade. Its aluminum scabbard has a clasp to stop it being drawn easily.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "53" },
+            { "book": "edgedancer", "chapter": "9" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Cognitive Realm, Nightblood sees itself and its sheath as shining light, and its voice is more distorted.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Nightblood has no gender of its own and is fascinated by the idea, still trying to work it out.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+    },
+    {
+      "text": "Nightblood speaks into the minds of people nearby and reads its wielder's surface thoughts, often misunderstanding them. Usually cheerful, eager to help and craving approval, it is also self-centred and hates being ignored.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "90" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "It lives to destroy evil, though its idea of what that means is muddled. It constantly urges its wielders to draw it and is bored when sheathed; its mind has been compared to a child's.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "warbreaker", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Time means nothing to it, and it struggles to grasp how people change, yet it can learn and grow, even coming to make its own moral choices.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "143" }]
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "The cavalrylord of Highprince Dalinar Kholin's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early service",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1145, in Gavilar Kholin's decisive battle against Highprince Kalanor, Ilamar and fifty cavalrymen fought with hooks and ropes meant for bringing down enemy Shardbearers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "26" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "words-of-radiance", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Ilamar still led Dalinar's cavalry. He reported them ready to ride out after a gemheart, but Sadeas held up the sortie to investigate an attempt on the king's life. At the plateau, Ilamar waited for Dalinar and Adolin to clear away the Parshendi before leading the cavalry across on bridges.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "About a month on, Dalinar conferred with Ilamar and Teleb on the battlefield before the assault on the Tower. Ilamar died in the Battle of the Tower along with Havar, Perethom and some six thousand Kholin soldiers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "words-of-radiance", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A squat, compact lighteyed Alethi whose dark hair has red patches, with a long red moustache that hints at Veden or Unkalaki blood.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dalinar considers him both a good soldier and a good friend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A listener elder on the Five, the listeners' ruling council.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Five",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "62" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Venli first sought new forms, Varnali sat on the Five that heard Eshonai's case for uniting the listeners and Venli's request to try warform. Varnali felt it was dangerous, but the council also thought it useful.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "62" }]
+        },
+        {
+          "text": "After Gavilar Kholin's death, Varnali, Gangnah and Klade stayed behind while their people fled. They went to Jasnah Kholin and took full responsibility, explaining only that they sought to stop their gods returning. They were hanged, and the War of Reckoning began.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

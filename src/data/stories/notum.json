@@ -1,0 +1,199 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren in Shadesmar and the captain of the ship Honor's Path.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "An honorspren and former captain of Honor's Path, exiled to patrol the lands around Lasting Integrity as punishment for helping Syl escape the Fused.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "30" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An exiled honorspren and former ship's captain who abandoned his prepared speech to defend Adolin Kholin at his trial in Lasting Integrity.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Notum was born after the Recreance, four generations after the Stormfather began creating more honorspren. He swore an oath to Honor and the honorspren's truths, and spent time in their capital, Lasting Integrity, doing the Stormfather's bidding, where he came to know Sylphrena.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Captain of Honor's Path",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "108" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In early 1174, Notum's ship Honor's Path was in port at Celebrant. As it prepared to flee a disturbance in the city, Syl called out to it, and Notum took her and her companions aboard. After a week he freed the Radiants from their cabins, saying it was dishonourable to hold people who were not prisoners, but kept Syl confined to deliver her to the honorspren capital.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "Once Syl was allowed on deck, Notum let Shallan practise with the Cognitive aspect beads there and briefly explained how they worked in Shadesmar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "When Kaladin kept pressing him to free Syl, Notum threatened to lock him up or throw him overboard. He explained that Syl was one of the Stormfather's first children and the only honorspren to survive the Recreance, and that he thought the Nahel bond dangerous. Shocked to learn that Dalinar had bonded the Stormfather, he agreed to consider helping, just as eight Fused were spotted in pursuit.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "After hours trying to outrun the Fused, Notum freed Syl and had his crew open a section of the hull so the Radiants and their spren could escape, cutting bales of cloth into shapes at Azure's request. He expected his crew to be captured and tortured for it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Exile",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "30" },
+            { "book": "rhythm-of-war", "chapter": "34" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Notum spent five months in prison before being demoted to the lowest rank, exiled from Lasting Integrity and sentenced to two centuries patrolling the empty lands around it. He wandered with a small group that included a few armed Reachers, able to see the fortress but never to visit.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "110" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1175, Notum's caravan reached Nameless just as the coalition's emissaries arrived. He treated Adolin with disdain and insisted their mission was hopeless while the honorspren felt as they did about the Recreance. Told of his punishment, Adolin had to admit that Dalinar had saved them, not the other way around, and Notum left meaning to dissuade him again.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        },
+        {
+          "text": "On the road, Notum saw nothing wrong with a Tukari caravan trailing the travellers. When he could go no closer to Lasting Integrity, he rode over on a glowing white horse-like spren to warn Adolin and Shallan off the capital once more, sent his best to Syl, and turned south.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        },
+        {
+          "text": "The Tukari followed, bound Notum and three Reachers, and stabbed him faster than he could heal. Adolin saw through their plan and drove them off with Maya and Gallant. Notum was stunned that humans would attack a spren so. The delegation took him toward Lasting Integrity for help, but the honorspren who met them said his presence only further degraded his standing.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Return to Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "87" },
+            { "book": "rhythm-of-war", "chapter": "90" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once healed, Notum was offered an end to his exile and a higher rank if he testified against Adolin at his trial. Called as the third witness and given back his uniform, he began to read a prepared speech, then trailed off. When Adolin quietly urged him to be honest, Notum met his eyes and declared that Honor was not dead so long as he lived in the hearts of men.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "Notum kept repeating the words as officials dragged him from the forum, and many in the crowd took up the chant. He and his sympathisers were barred from the forum the next day, though several watched from the top of the wall.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall honorspren who looks much like an Alethi, dressed to suit his rank. His chin is shaved, but his beard and thin moustache join prominent sideburns, almost in the Horneater style. He has the imperious bearing and soft blue-white glow of all honorspren.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Notum is the very model of an honorspren: sworn to Honor, he holds oaths and promises crucial and serves the Stormfather loyally, though arguments about other people's oaths can sway him. Cautious, he admires humans' changeable natures yet thinks the Nahel bond risks disaster. He speaks formally but with compassion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "30" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As captain he cares deeply for his crew, and struggled with putting them in danger by letting Syl escape.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He tends to hold an opinion once formed. He regards Syl highly for the Stormfather's sake and once considered killing Kaladin to free her from the bond, but knew it would not be honourable, and was glad of her freedom despite what it cost him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ]
+}

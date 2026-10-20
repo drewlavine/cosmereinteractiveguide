@@ -1,0 +1,157 @@
+{
+  "intro": [
+    {
+      "text": "An ardent and scholar who works for House Kholin and often assists Navani Kholin with her research.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+    },
+    {
+      "text": "An ardent, scholar and artifabrian working for House Kholin, whose research into Shardblades was a breakthrough for fabrial science.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+    },
+    {
+      "text": "An ardent, scholar and artifabrian working for House Kholin, who joined Rysn Ftori's expedition to Aimia.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "67" },
+            { "book": "dawnshard", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rushu joined the ardentia to escape the unwanted attention of men. As one of the Kholin scholars, Rushu worked closely with Navani Kholin, who grew fond of the ardent and thought highly of Rushu's intelligence.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the mysterious glyphs counting down to the Everstorm were first found, Rushu was summoned to study them and noted that they were crudely drawn, uneven and vague. Navani had the ardent copy them, swore Rushu to secrecy and sent Rushu away so she could speak with Dalinar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+        },
+        {
+          "text": "Rushu attended Navani's test of a floating parapet built with conjoined fabrials. At first absorbed in reports of flamespren experiments, Rushu soon became excited that the device worked and wished to ride on it to watch the gemstones for cracks. Navani sent Rushu off to inspect the gems so she could talk privately with Adolin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        },
+        {
+          "text": "Puzzled that Shardblades could be summoned even when their gemstones were dun, Rushu spent weeks corresponding with ardents in Kharbranth's Palanaeum. Old accounts showed Blades could not be summoned until gems were added, and that hilts changed shape to hold them. This proved the gem only helped bond a Blade, a breakthrough for artifabrians.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after the Alethi reached Urithiru, Rushu helped Adolin direct workers to unload the wagons according to Navani's layout of the tower.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+        },
+        {
+          "text": "When Navani asked several ardents to marry her to Dalinar, Rushu refused like the rest, since Vorinism considered the couple siblings. Rushu squeaked and fled.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+        },
+        {
+          "text": "Rushu travelled with Elhokar, Dalinar and Navani to the old warcamps, flown the last stretch by Kaladin and his team, which the ardent found thrilling. Still excited, Rushu went over Navani's sketches for a flying ship and pointed out that the maths was wrong.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Expedition to Aimia",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "5" },
+            { "book": "dawnshard", "chapter": "10" },
+            { "book": "dawnshard", "chapter": "13" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani chose Rushu for Rysn Ftori's secret voyage to Akinah. On the way the ardent experimented with fabrials, scolded Lopen for crude jokes and explained conjoined fabrials to Rysn, proposing to make her seat hover. Rushu also carried sheets of aluminium, which can block spanreeds, for Navani's experiments.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "5" }]
+        },
+        {
+          "text": "Building on a discovery Huio made with aluminium and spanreeds, Rushu found that a conjoined fabrial could be limited to movement along one plane. The ardent demonstrated it by making Rysn's chair hover and then pushing it around, something thought impossible. Rysn had Rushu report it to Urithiru at once, and Rushu and Huio then fitted her chair with a hovering, rotating mechanism.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        },
+        {
+          "text": "At Aimia, Rushu went ashore with Lopen and Huio onto a beach covered in gemstones and sketched the skeletons lying there before heading inland.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "13" }]
+        },
+        {
+          "text": "In the ruined city Rushu sketched buildings, then discovered that both the gemstones and the visible Oathgate were fakes. Finding a hidden stair, the ardent used a Soulcaster from Navani to open a sealed cavern where the real Oathgate was hidden, proud to have cracked the secret.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "After the fighting on the island was over, Rushu made more rounds through the city to sketch it before returning to the ship, agreeing with Lopen that something about the whole situation had been strange.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Rushu is young and strikingly attractive, with delicate features, long lush eyelashes and small, button-like lips. Like many ardents, Rushu keeps a shaved head.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "wind-and-truth", "chapter": "23" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rushu is also brave about research, eager to ride on an untested floating fabrial to check its gemstones.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+    },
+    {
+      "text": "A brilliant scholar but often oblivious, Rushu misses hints and needs direct, repeated instructions. The ardent is easily distracted, drifts into tangents and thought experiments, and gets very excited about research, especially spren and handwriting.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ]
+}

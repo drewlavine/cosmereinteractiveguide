@@ -1,0 +1,236 @@
+{
+  "intro": [
+    {
+      "text": "The glowing light that highstorms leave in gemstones. Infused spheres are Roshar's money, and fabrials need it to work.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    },
+    {
+      "text": "The glowing light that highstorms leave in gemstones, used as money, to power fabrials, and as the fuel Surgebinders breathe in.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Fabrials will not work unless their gems are infused with Stormlight.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Gemstones left out in a highstorm absorb Stormlight and glow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    },
+    {
+      "text": "A person can hold Stormlight for a few minutes at most; a gemstone holds it for days, and the spheres used as money glow for about a week.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+    },
+    {
+      "text": "Free Stormlight behaves like smoke, dissipating in puffs and leaving trails.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "11" },
+            { "book": "words-of-radiance", "chapter": "85" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "When Stormlight leaks from gems, it takes on their colour. Perfect gemstones, like the King's Drop, can hold it for centuries, if not forever.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Origin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "74" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spheres exposed to a highstorm are infused with Stormlight near its end.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "74" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Stormlight comes from the Spiritual Realm, leaking into the Physical and Cognitive Realms as the three draw close. In Shadesmar, spren absorb it directly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "74" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Bondsmith of the Third Ideal or higher can infuse spheres and people with Stormlight, with great effort.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Fuel for Surgebinding",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "38" },
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth breathes in Stormlight from gemstones and uses it to power his Lashings.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Held Stormlight heals wounds, as when Kaladin first breathes it in; it is used up quickly.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        },
+        {
+          "text": "Inhaled Stormlight gives a feeling of energy, restlessness and a desire to move, like a storm raging inside.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        },
+        {
+          "text": "Nightblood can be fuelled by Stormlight. When unsheathed, it draws Stormlight from its surroundings before going for living beings.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Life on Roshar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "i-5" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Plants grow faster with Stormlight-infused gems nearby.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "Chasmfiends pupate where highstorms hit hardest, and singers need highstorm levels of Stormlight to change form. In Shadesmar, spren draw sustenance from Stormlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "i-5" },
+                { "book": "oathbringer", "chapter": "101" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Singers farm by beating drums in rhythm beside infused emeralds; humans knew nothing of this until Rlain shared it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Currency",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "11" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Merchants often find dun spheres suspicious, and moneychangers swap dun spheres for infused ones, or infuse them in secure nets, for a fee.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+        },
+        {
+          "text": "With Surgebinding's return, infused spheres become even more valuable.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "11" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Shadesmar, Stormlight itself is money: moneychangers in Celebrant store it in perfect gemstones and give credit in exchange.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Voidlight",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stormlight and Voidlight are both stored in gemstones, but not in the same gemstone, and Stormlight leaks much faster.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "Surgebinder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Surgebinder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "characterId": "rlain",
+      "role": "Farming method",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+    }
+  ]
+}

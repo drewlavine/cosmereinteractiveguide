@@ -1,0 +1,175 @@
+{
+  "intro": [
+    {
+      "text": "One of the five Vorin kingdoms on Roshar, in the east of the continent, with its capital at Vedenar. Its people are called Veden.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Following Vorin precepts against predicting the future, Vedens avoid games of chance and favour games of skill, such as Breakneck; in Bavland, people watch and bet on shallowcrab fights.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "text": "Veden sons have two-part names: the first part gives their order of birth (Nan, Tet, Asha, Van), the second is their given name. If an elder brother dies or is disinherited, the younger ones move up.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Jah Keved is verdant but has few major rivers. Its most notable feature is the Horneater Peaks in the east, a strategic barrier against Alethkar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    },
+    {
+      "text": "Vedens are far more religious than most Vorins, strict about the safehand and the division between masculine and feminine arts, and deeply respectful of ardents. The Holy Enclave, centre of the Vorin church, is in Valath.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "oathbringer", "chapter": "100" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Old history",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "42" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Hierocracy was a wide Vorin coalition that also covered lands that became Alethkar, Kharbranth and Thaylenah. As it grew it became harder to hold together, laying the ground for its fall.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Hierocracy lasted until Sunmaker, an Alethi warlord, led a successful revolt against it in the War of Loss, around 673. Many cities were sacked.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "12" }]
+        },
+        {
+          "text": "Sadees then conquered Herdaz and carved his way through Jah Keved all the way to Azir.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        },
+        {
+          "text": "After his death, Sunmaker's sons divided his kingdom into ten princedoms, and the lands he had conquered regained their independence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Rivals and kin",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "66" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "73" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jah Keved owns about twenty Shardblades and an unknown number of sets of Plate, the most of any kingdom alongside Alethkar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Vedens and Alethi have fought many small wars over the same lands, mostly between individual highprinces, though around 1155 King Hanavanar ordered a small invasion to test the Alethi defences.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "66" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The monarch holds power over the highprinces mainly through owning all the Soulcasters, and spends much effort setting them against one another.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "73" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Civil war",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173, Szeth assassinated King Hanavanar and several highprinces, plunging Jah Keved into a chaotic civil war, with at least seven factions trying to take Vedenar and crown their leader. The Thrill drove the soldiers to fight with unprecedented brutality.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The war lasted a few months and ended with the battle at Vedenar. Highprince Valam won and became king, but quickly passed the crown to King Taravangian of Kharbranth before ordering his illegitimate son Redin to kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under Taravangian, Jah Keved and Kharbranth were the first to ally with Urithiru, and Jah Keved asked for and received aid against the Voidbringers. After the revelations of the Eila Stele, it broke from the alliance.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    }
+  ]
+}

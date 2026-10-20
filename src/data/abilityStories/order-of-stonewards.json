@@ -1,0 +1,101 @@
+{
+  "intro": [
+    {
+      "text": "An order of the Knights Radiant who strive to show resolve, strength and dependability.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    },
+    {
+      "text": "An order of the Knights Radiant who use Cohesion and Tension, and who strive to show resolve, strength and dependability.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Stonewards use the Surges of Cohesion and Tension.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "The Stonewards followed Talenelat'Elin, Stonesinew, Herald of War, and no order matched its patron more closely.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In a vision of the past, an army of Radiants from the Stonewards and Windrunners approaches.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Their dependability, strength and resolve were said to reflect their patron Herald.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Stoneward opens a way into a hidden room in Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "rhythm-of-war", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tension lets them change how stiff an object is.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Cohesion lets them make stone malleable; in a vision, a Stoneward shapes handholds down a cliff.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "Like most Radiants, Stonewards have squires.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Cohesion and Tension",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "talenel",
+      "role": "Patron Herald",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+    }
+  ]
+}

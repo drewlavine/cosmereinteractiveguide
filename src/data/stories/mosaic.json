@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A Cryptic bonded to Vathah.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Expedition to Lasting Integrity",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1175, Shallan Davar chose Vathah and Mosaic to join the coalition's diplomatic mission to Lasting Integrity. On the journey, Mosaic and the other Cryptics loved watching Shallan sketch, though their unwavering attention and delight in her mistakes unsettled her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        },
+        {
+          "text": "The group entered Shadesmar at Urithiru and travelled to Lasting Integrity, where the honorspren refused most of them entry. It is unclear whether Vathah and Mosaic then stayed camped outside the fortress or returned to Urithiru with news of Adolin Kholin's coming trial.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In Shadesmar, Mosaic's head pattern has sharp lines in it and often includes rapid sections that look like women's script.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "personality": []
+}

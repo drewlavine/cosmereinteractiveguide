@@ -1,0 +1,108 @@
+{
+  "intro": [
+    {
+      "text": "Hatham is an Alethi highprince who very politely declines Dalinar Kholin's offer of alliance during the War of Reckoning.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    },
+    {
+      "text": "Hatham is a highprince of Alethkar whose princedom lies on its western border. His colors are red and gold.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "54" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the War of Reckoning, Hatham fell behind on his payments to King Elhokar and politely declined to ally with Dalinar. At one of Elhokar's feasts, he staged a conversation about the Emuli-Tukari war so that a Natan merchant, Au-nak, would overlook how quickly Hatham then agreed to his demands.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Hatham was the only highprince to publicly denounce Dalinar's appointment as Highprince of War. He tried to mediate between Dalinar's and Sadeas's factions, argued against marching on the Parshendi, and did not join the expedition to Stormseat. After the Battle of Narak he moved his warcamp to Urithiru with most of the others.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "122" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Stormlight scarce, Hatham held an economic edge in Urithiru. He was named Highprince of Works, overseeing the kingdom's infrastructure, and tried to grow lavis around the tower. Having given his allegiance to Dalinar, he met with Navani to voice the highprinces' worries about Dalinar's behaviour, and survived the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Dalinar came to rely on Hatham, sending him to oversee the supply chain from Azimir. Hatham also paid handsomely for groups to chart the unknown parts of Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "104" },
+                { "book": "rhythm-of-war", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Hatham is a long-necked, slender man with rounded features and orange eyes, who dresses to stand out.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Hatham speaks in a smooth, overly polite manner, and his politeness is more than a front. He is a careful, manipulative political planner who involves ardents in his schemes despite law and custom, and he runs a tight army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "67" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "A Shin outcast bound to obey whoever holds their Oathstone, in everything except taking their own life.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The idea of the Truthless probably comes from Stone Shamanism: Szeth avoids questioning its tenets for fear of questioning his own status.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+    },
+    {
+      "text": "Outsiders value Truthless for their obedience, but the Shin consider them worthless. Being named Truthless is a terrible Shin punishment: they must bear the guilt of every deed they are ordered to do, and may not end their own lives, prolonging their suffering.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Whoever holds a Truthless's Oathstone is their master. The stone has no magic; only a sense of honour holds the Truthless to their orders. If a Truthless knows their Oathstone is unheld, they must retrieve it and wait quietly until someone interacts with them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "92" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Szeth's Oathstone is a plain, sphere-sized chunk of rock with quartz crystals and an iron vein.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth was named Truthless for claiming that the Voidbringers and Knights Radiant would return, which the Shin leaders called a dangerous lie. The Stone Shamans mean to reclaim his Blade when he dies.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Szeth learns his claim was true, he decides he was never truly Truthless and stops following its rules.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "Truthless",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ]
+}

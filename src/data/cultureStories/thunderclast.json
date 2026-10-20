@@ -1,0 +1,169 @@
+{
+  "intro": [
+    {
+      "text": "Huge stone monsters from the ancient Desolations, made by Odium long ago. Only the Knights Radiant could fight them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "51" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Giant stone monsters that serve Odium in the Desolations.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Thunderclasts are about thirty feet tall, skeletal and humanoid, with long limbs ending in spiky claws, rib-like ridges on their chests and backs, and narrow, arrow-like heads with glowing red eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Despite their size they stay upright easily and swing with enough force to topple fortifications, yet can throw boulders accurately or carry Fused in their hands.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "text": "They do not crack and seem impossible to destroy by ordinary means, though hammers help, and Shardbearers can cut them apart until they can no longer move.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Though twisted, they keep enough personality to answer to names and have a sense of gender. They obey commands and roar and trumpet, but don't seem able to speak.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Desolations",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium created the thunderclasts thousands of years before the True Desolation; they date back at least to Nohadon's time. People sent hunting parties after them, though only Radiants could fight them, and they threatened even the Heralds.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Aharietiam they passed into myth, likely surviving as stories of Voidbringers with bodies of stone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In his visions Dalinar saw thunderclast corpses littering Nohadon's battlefield, and watched one rip itself out of the ground.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thunderclasts returned at the Siege of Kholinar. At the Battle of Thaylen Field Odium summoned two, Kai-garnis and Yushah. Szeth destroyed Yushah for good with Nightblood, and Renarin immobilised Kai-garnis, who fled her stone body.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "destroyed one",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "fought one",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ]
+}

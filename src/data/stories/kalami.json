@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed historian of note and a senior scribe of House Kholin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scribe to Dalinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After losing her husband, Teleb, in the Battle of Narak, Kalami threw herself into her work as a historian and scribe.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Having done scholarly work on Vorin theory, Kalami could give Dalinar some information about the Desolations. She was also there to scribe his exchanges with the other monarchs during his first attempt to unite them against the Voidbringers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kalami has long dark hair.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

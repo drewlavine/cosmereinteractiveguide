@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed Alethi soldier in Bridge Four.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A former member of the Cobalt Guard, Koen joined Bridge Four and was among the first squires from outside the bridge crews.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "16" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

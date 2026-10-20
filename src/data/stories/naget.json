@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed youth from a farming family in Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "way-of-kings", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Naget often pulled diggerworms from the lavis fields near town. He was among the youths who watched Kaladin pick up a weapon for the first time, to fight Jost.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        },
+        {
+          "text": "A few years on, no longer friendly with Kaladin, Naget was there when Amaram came to Hearthstone to recruit. He did not volunteer and avoided being conscripted.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Naget is darkeyed with light hair, spindly and the tallest of the town's youths.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Naget is curious about whether a darkeyes can really become lighteyed by winning a Shardblade.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ]
+}

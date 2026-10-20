@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A Lightweaver and a member of the Unseen Court.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Watching Adolin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "50" },
+                { "book": "wind-and-truth", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eight days before the contest of champions, Shallan had Isom tail Adolin. He reported that Adolin had gone to check on Gallant before the monarchs' meeting, and when the Azish party filled Adolin's lift, Isom signalled that he would follow in the next one.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "50" },
+                { "book": "wind-and-truth", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

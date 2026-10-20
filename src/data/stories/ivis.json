@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "An ardent and swordmaster serving House Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ivis was one of the ardents under Zahel on the lighteyed training grounds in Dalinar's warcamp. Zahel had her spar with Bridge Four using one of King Elhokar's Shardblades, so they would know the stances a Shardbearer might use.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "She had the bridgemen practise the stances with wooden swords, called Yake and Teft back from their break but left Kaladin alone, and laughed when she corrected his grip and saw he expected to learn quickly.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ivis moved to Urithiru, where she kept training soldiers, now reporting to Kelerand. Dalinar had Kelerand put her in charge of expanding the training grounds.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Shaven-headed in flowing robes, with a glove on her safehand.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "One of Alethkar's best ardent swordsmen, trusted to train troops unsupervised and familiar with all ten stances.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ]
+    }
+  ]
+}

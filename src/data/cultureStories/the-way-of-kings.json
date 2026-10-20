@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "An ancient book of parables written by King Nohadon, which deeply influenced Gavilar and Dalinar Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Nohadon wrote it after he had come to power, following one of the Desolations; it is meant as an allegory rather than a guide.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Unlike most writing of its era, preserved only in the unreadable Dawnchant, it was continually translated, largely thanks to the Vanrial, an order of artists preserving ancient texts and songs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "i-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Alethi glyphs its title is written with the symbols for \"pathway\" and \"king\".",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Kholins",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "103" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After having it read to them many times, Gavilar and then Dalinar became more and more honourable, unlike most Alethi.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "In a vision, Nohadon says he really made the journey behind the stories, though whether the individual parables are true is uncertain.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        },
+        {
+          "text": "The ancient Knights Radiant were heavily influenced by the book; their Ideals may be based on it, and its first lines suggest the Bondsmiths' Third Ideal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "nohadon",
+      "role": "author",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "reader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ]
+}

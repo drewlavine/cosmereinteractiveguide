@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A young lighteyed soldier in Dalinar Kholin's army, given command of the rear guard by Kaladin during the Battle of the Tower.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholin officer",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "68" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With most of his superiors dead in the Battle of the Tower, Gaval was given a field commission by Kaladin to lead the rear guard and oversee the retreat of Dalinar's army. Under him the army crossed the bridge quickly and in good order, and Dalinar let him keep the promotion, feeling he had earned it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "Gaval joined Dalinar's expedition to the centre of the Shattered Plains and fought in the Battle of Narak, leading the soldiers who went with Renarin and Shallan to investigate the Oathgate. He became Adolin's Plate standby, wearing Adolin's Shardplate when Adolin couldn't, though they never met during the Battle of Thaylen Field.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

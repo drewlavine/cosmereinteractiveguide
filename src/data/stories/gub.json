@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A journeyman potter in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Liganor's shop",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gub works alongside Alalan in Master Liganor's pottery shop, and now does the glaze work that Liganor once handled himself.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

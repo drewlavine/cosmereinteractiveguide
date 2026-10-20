@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor, the helmsman of the Wandersail.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wandersail",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "11" },
+            { "book": "dawnshard", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Wandersail's crew trained to sail through highstorms, and Vlxim claimed to have done it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        },
+        {
+          "text": "Vlxim spent months in the crew under Captain Drlwan; the ship passed from Vstim to his apprentice Rysn Ftori, who took command.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        },
+        {
+          "text": "On Rysn's voyage to Akinah, Vlxim steered the ship through the storm around the island, with three sailors ready to help at the wheel, and brought it safely through. He and Drlwan were the first to gaze at the island in awe.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald, with long white Thaylen eyebrows; he plays the mouth harp.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ],
+  "personality": []
+}

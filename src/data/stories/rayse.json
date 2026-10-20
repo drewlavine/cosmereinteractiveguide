@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "The holder of the Shard Odium, whose own nature, aligned with hatred and strong emotion, drew him to it.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    },
+    {
+      "text": "A man from the planet Yolen who took up the Shard Odium, until Taravangian killed him and took it in turn.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "113" },
+            { "book": "wind-and-truth", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Shattering",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rayse was once a human from the planet Yolen. He and Tanavast were rivals even before either took up a Shard.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The death of Honor",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "wind-and-truth", "chapter": "124" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Honor, weakened and abandoned by his own Shard, could no longer defend himself, Odium killed Tanavast in revenge for his long imprisonment. Even so, the death did not free Odium from his binding, and he had to wait for the True Desolation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "wind-and-truth", "chapter": "124" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Thaylen City, Odium finally agreed to Dalinar's contest of champions, then named Dalinar himself as his champion and urged him to give up his guilt. Dalinar refused and opened Honor's Perpendicularity, and the horrified Odium fled the field, leaving his armies to lose.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Afterwards, Odium visited Taravangian on a slow-witted day to deny him any advantage. They bargained, and Odium agreed to spare the people of Kharbranth and their spouses.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The contest and death",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "112" },
+            { "book": "rhythm-of-war", "chapter": "113" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A year later, Odium and Dalinar set the terms of their contest. Dalinar would not lift the binding that kept Odium on Roshar, and Odium nearly lost control of his temper.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        },
+        {
+          "text": "Taravangian lured Rayse into a vision and stabbed him with Nightblood's Cognitive aspect, killing him. As Taravangian died, he took up Odium himself.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "113" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "To humans he usually appears as an old man with a wide, furrowed face, bone-white hair, a short white beard and thick mustaches, wearing a golden crown.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "text": "His true self is an enormous white-and-red flame radiating emotion, chiefly hatred and anger.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "57" }]
+    },
+    {
+      "text": "To singers he appears as an ancient singer with gold and white marbled skin, carrying a golden sceptre.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He chose his Shard deliberately; his own nature already leaned toward hatred and strong emotion.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+    }
+  ]
+}

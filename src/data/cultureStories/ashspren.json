@@ -1,0 +1,39 @@
+{
+  "intro": [
+    {
+      "text": "A kind of spren able to form a Nahel bond, which grants a person the powers of the Order of Dustbringers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the Cognitive Realm they are humanlike, with ashen-white skin that blows away where it stretches, showing white bone beneath, before quickly growing back.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "They sail Shadesmar a great deal and are numerous in Celebrant, where they speak a language of their own. Like many spren they dislike honorspren, but they have no quarrel with Cryptics.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "In the Physical Realm they can stay unseen and unheard when they wish, which makes them excellent spies. They like to break things to see what is inside.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "text": "Many remain hostile to humans, blaming organised worship of Honor for the deaths of their kin, and seem uninterested in refounding the Knights Radiant. Some, like Spark, will bond people or work with Odium's forces; others avoid the Voidbringers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "text": "When they move in the Physical Realm they seem to burn through the inside of objects in branching, treelike patterns.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "spark",
+      "role": "ashspren",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}

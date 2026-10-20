@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In a border skirmish, Kaladin told Korater and Cyn to take the wounded Cenn to a medic, but Helaran Davar attacked them with his Shardblade. Korater joined the squad's attack on Helaran and was killed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

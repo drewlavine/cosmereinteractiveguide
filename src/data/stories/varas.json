@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The assistant chief of collections at the Palanaeum.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Palanaeum",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Varas works in the Palanaeum, helping to manage its collections.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

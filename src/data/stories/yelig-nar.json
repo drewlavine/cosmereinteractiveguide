@@ -1,0 +1,93 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, an ancient spren that fought in past Desolations.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "93" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the Unmade, an ancient and terrible spren with no physical form, who bonds with those who swallow a gemstone, granting them terrible powers before consuming them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early history",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yelig-nar's origin is unknown. In past Desolations he once broke into Nohadon's chancery and killed all of his scribes, and in another battle bonded twelve singers in rapid succession. Traxil wrote about him in an often-cited work, though some, including Jasnah Kholin, doubt its authenticity.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the coming of the Everstorm, Yelig-nar became active again. Queen Aesudan Kholin, investigating the Unmade, bonded him and began to transform during the siege of Kholinar, but she was not strong enough to control him, and he consumed her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field, Meridas Amaram swallowed an amethyst and bonded Yelig-nar, growing amethyst crystals as he fought Kaladin. Kaladin cracked the gem that had replaced Amaram's heart, and when Amaram was about to kill an exhausted Kaladin, Rock shot him with a grandbow, shattering the amethyst, killing Amaram and separating Yelig-nar from his host.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Yelig-nar fought at the Second Battle of Narak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "88" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In Shadesmar, Yelig-nar takes the form of a swirling figure of black smoke the size of a person.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "text": "Dark smoke swirls around those who bond Yelig-nar, and their eyes turn shades of red. They grow carapace and glowing violet amethyst crystals all over their bodies, until an enormous amethyst replaces the organs in their chest; if it is damaged enough, it explodes, and dark smoke escapes from the body.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ],
+  "personality": []
+}

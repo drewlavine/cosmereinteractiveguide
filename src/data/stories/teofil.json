@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed battalionlord of the Ninth Kholin Division, one of the first darkeyes promoted to high rank under Dalinar's merit policy.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+    },
+    {
+      "text": "A darkeyed Kholin battalionlord who led the last push to retake Urithiru's crystal pillar from the Fused, and fell in the attempt.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Defending Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "40" },
+            { "book": "rhythm-of-war", "chapter": "42" },
+            { "book": "rhythm-of-war", "chapter": "92" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teofil was promoted to battalionlord by Dalinar under a new merit-based policy, one of the first darkeyes to reach such a rank.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        },
+        {
+          "text": "Newly arrived at Urithiru from the front lines in southern Alethkar, Teofil tried to rally the troops when the singers attacked, but the coalition was overrun. He learned the enemy was using the Oathgates, that Radiant powers and fabrials had failed and that Tshadr had been killed, and tried to hold the stairwells of the lower floors.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        },
+        {
+          "text": "When Navani reached the map room, Teofil was the ranking officer there. He judged surrender distasteful but wiser than fighting the Regals and Fused, until she told him the crystal pillar in the basement might let them retake the tower. He agreed the risk was worth it and quickly planned a distraction and a final push through the first floor to the basement.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        },
+        {
+          "text": "Teofil's push used a fake retreat and lightning rods to kill several Regals, and his men fought their way down a narrow stair against Fused, impressing even Raboniel. Then Lezian scattered their formation, Regals blew a hole in the stairs, and Teofil and others fell to their deaths trying to reach the pillar. The rest were quickly killed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        },
+        {
+          "text": "When the Sibling told Navani of Teofil's death, she knew the chance to retake the tower was gone.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "92" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A grizzled older soldier, lean with a thick neck, darkeyed, with close-cropped, balding hair and an intense stare.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Level-headed, pragmatic and quick to decide, Teofil happily takes orders from Navani, recognizing her knowledge of strategy. A brave leader, he trusts his soldiers but is realistic about their chances.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+    },
+    {
+      "text": "He has fought Regals and Fused and knows both their powers and their weaknesses.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

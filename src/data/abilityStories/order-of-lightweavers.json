@@ -1,0 +1,175 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant who drew artists, writers, musicians and performers, and who kept up the other Radiants' morale.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+    },
+    {
+      "text": "An order of the Knights Radiant, bonded to Cryptics, who weave illusions from light and grow by speaking truths about themselves.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "17" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lightweavers use the Surges of Illumination and Transformation.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "Beyond the First Ideal, their Ideals are truths they speak about themselves.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    },
+    {
+      "text": "The order attracts people interested in art, intrigue, secrets and espionage.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Most Lightweavers were interested in the arts, and the order included many writers, artists, musicians and performers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "The Lightweavers seem to have taken some responsibility for keeping up the morale of the Knights Radiant.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The refounded order",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "77" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "2" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan is a Lightweaver, bonded to the Cryptic Pattern.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+        },
+        {
+          "text": "Vathah, one of Shallan's men, unconsciously disguises himself with Stormlight and becomes a Lightweaver.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "During the True Desolation, about twenty Lightweavers, Beryl among them, surface and join the coalition, led by Shallan.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "2" },
+                { "book": "rhythm-of-war", "chapter": "20" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "39" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "oathbringer", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Illumination crafts illusions by weaving light and sound.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Transformation, or Soulcasting, can change an object into one of the Ten Essences. To Soulcast, a Lightweaver looks into the Cognitive Realm and speaks with the object's Cognitive aspect.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "39" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Before the Recreance, Lightweavers were known for mnemonic abilities described as \"strange and varied\".",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "Shallan can fix a scene in her memory, a Memory, and then draw it with remarkable accuracy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+        },
+        {
+          "text": "Like most Radiants, Lightweavers have squires.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Illumination and Transformation",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Spren",
+      "name": "Cryptics",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    },
+    {
+      "characterId": "vathah",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "beryl",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    },
+    {
+      "characterId": "hoid",
+      "role": "Lightweaver",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+    }
+  ]
+}

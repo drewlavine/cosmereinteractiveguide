@@ -1,0 +1,205 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman in Bridge Four, one of the bridge crews of Highprince Sadeas's army on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    },
+    {
+      "text": "A member of Bridge Four, now serving in Dalinar Kholin's army as a guard and armourer.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    },
+    {
+      "text": "A member of Bridge Four and a squire to Kaladin, who also handles the crew's supplies.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "text": "A Windrunner of Bridge Four and quartermaster of the Windrunners, keeping them supplied with uniforms and gear.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "way-of-kings", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Leyten was once an apprentice armourer. When a lighteyes' armour failed and the man was hit by an arrow, Leyten was blamed and sent to the bridge crews.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "On Kaladin's first run as bridgeleader, Leyten was struck by two arrows, grazed by a third and trampled by a horse. Teft and Rock carried him to Kaladin, who pulled out the arrows, cauterised the wounds and splinted his leg with arrow shafts. The crew tied him to their bridge to carry him back to camp.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "When his wounds became infected, Kaladin had Rock and Teft help gather knobweed sap as an antiseptic. It worked, and Leyten was soon up again, though his crushed leg made walking hard at first.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Recovered, Leyten joined the crew's spear practice in the chasms. When Parshendi carapace proved useful as armour, he crafted sets for every member of Bridge Four, fitted to their jerkins and caps and decorated with ridges and toothlike cuts.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholin army",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "68" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of the Tower, Leyten joined Dalinar's army with the other bridgemen. He kept fixing armour, helped guard House Kholin, trained in the mornings and helped teach Shen the spear and Renarin how to carry a bridge.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "Leyten was among the guards with Dalinar when Rlain surrendered to the Alethi, and he survived the battle and the Everstorm that followed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Urithiru, Leyten was among the Bridge Four men who went with Shallan to confront Re-Shephir. The encounter shook him, and he had nightmares about it for some time.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Leyten became one of Kaladin's squires. In Sigzil's running test of Stormlight he came in among the slowest, having stopped for food. He also kept handling supplies, though the disorganised bridge crews left him buried in requisitions.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Windrunners",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "11" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "23" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Leyten bonded a spren of his own, Ethenia. On a mission to Akinah with other Windrunners, he saw strange weather and swarms of small shadows in the clouds. One drained his Stormlight from behind, and he fell into the ocean until Lyn and Sigzil rescued him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "11" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Leyten defended the Fourth Bridge against the Fused on its expedition to Hearthstone. When Kaladin stepped down, Leyten gathered around fifty Windrunners to honour him, and he went on to join Dalinar's forces in Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+        },
+        {
+          "text": "Leyten went with Dalinar to find Ishar. Ishar easily overpowered him and four other Windrunners, binding them to the stone with a glowing rope that drained their Stormlight. Afterwards they searched the Herald's camp and found strange spren corpses in the Physical Realm. Leyten rejoined Bridge Four for Teft's funeral.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Defending Narak",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Leyten was sent with Sigzil and other members of Bridge Four to hold the Narak plateaus against the Fused. He served as Sigzil's right-hand man, though he wished he could be doing dull work instead of killing.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "Learning that Moash was among the enemy, Leyten vowed a reckoning. In battle he went after Moash alone, against Sigzil's warnings. Moash killed Ethenia with an anti-Light knife and, while Leyten reeled from her death, killed him with the same blade.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, stout, thick-bodied man with an oval face and short, light, curly hair.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Affable and neat, Leyten talks easily with people of any rank. His tidiness makes him a natural quartermaster, and he would rather sort and pack supplies than fight.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ]
+}

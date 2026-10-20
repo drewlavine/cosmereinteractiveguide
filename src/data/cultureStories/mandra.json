@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "Spren that pull ships through Shadesmar. In the Physical Realm they appear as luckspren around greatshells and other creatures lighter than they look.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "70" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A type of spren, called luckspren in the Physical Realm, that bond greatshells to stop them being crushed under their own weight. In Shadesmar they pull ships.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "45" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Shadesmar mandras have triangular heads and long, sinuous bodies with many legs and rows of undulating wings. Those pulling ships are far larger than luckspren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    },
+    {
+      "text": "Luckspren look like tiny blue arrowhead-shaped fish darting around a creature in its direction of travel. They gather near greatshells, chasmfiends, skyeels and anything lighter than it appears.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "70" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ship crews harness mandras with pulleys on each side, always using at least two because they tend to vanish, called \"dropping\", when pulled into the Physical Realm. Kept away from human cities for long, they waste away.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "Mandras bond greatshells, chasmfiends and larkin, keeping them from being crushed by their own weight. A greatshell may need to bond more mandras as it grows.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mandras dislike fire. Legends tell of luckspren leading people to treasure.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "bavamar",
+      "role": "discovered their purpose",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "intro": [
+    {
+      "text": "An ancient king of Alethkar who was the first to unite the kingdom, about five hundred years ago.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Uniting Alethkar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "75" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At seventeen, Sadees set out to bring Alethkar's highprinces together into one nation, helped by a famed company of cavalry and by the Thrill. Having succeeded, he claimed a mandate from the Almighty and crowned himself king. He then brought down the Hierocracy, declaring that the ardents had lied about their prophecies, and the Vorin church was split into devotaries.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "75" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Conquests",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He next set out to conquer all of Roshar, taking Herdaz and then pushing west to Azir. Claiming the Azish had to be civilised because they ignored eye colour, he sacked Azimir and began killing its people on a huge scale, issuing arbitrary death decrees, until he suddenly fell ill and died during the campaign.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "He never chose an heir, and his ten sons fought among themselves until his empire fell apart within a generation; they became the highprinces of a divided Alethkar. His campaigns still left lasting trade routes and brought new science and culture into the kingdom, and breaking the Hierocracy kept the ardents from regaining their old power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In modern Alethkar he is honoured as a hero, and a mountain range bears his name. Gavilar Kholin modelled his own unification on him, but Dalinar sees him as a tyrant, and memories of his conquests make other nations wary of the Alethi.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Little is recorded of his looks, except that he refused to wear a crown. He wielded a hooked Shardblade named Oathbringer.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ambitious and driven to achieve what others thought impossible, he loved battle and treated it as a great game. His conquests had a cruel streak, and he killed thousands, ordinary people included, in pursuit of a unified Roshar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He had little patience for other cultures, calling the Azish uncivilised because they did not rank people by eye colour.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
+    }
+  ]
+}

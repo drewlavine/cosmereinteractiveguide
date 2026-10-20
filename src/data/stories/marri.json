@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A lady's maid serving Shallan Davar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's maid",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "77" },
+                { "book": "oathbringer", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marri went with Shallan on the expedition onto the Shattered Plains, though Shallan kept her out of her coach to avoid explaining Pattern. In Urithiru, Shallan often sent her away to keep Veil a secret.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "77" },
+                { "book": "oathbringer", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

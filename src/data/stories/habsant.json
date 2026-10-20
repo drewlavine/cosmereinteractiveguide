@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Brother Habsant, an ardent in Kharbranth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Trying to recruit Shallan to the Devotary of Insight, Kabsal joked that ardents aren't stuffy, though Habsant, who tends to stare at people without moving, might actually be stuffed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1661,4 +1661,1193 @@ export const characterPortraits: Record<string, Portrait[]> = {
       revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
     },
   ],
+  rlain: [
+    {
+      // Shown once he gives his own name in WoR 52.
+      src: '/portraits/rlain-dullform.webp',
+      alt: 'A listener with marbled skin in a ragged leather vest and trousers, standing barefoot',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+    },
+    {
+      // Warform and Bridge Four uniform, from his Oathbringer scenes with the crew.
+      src: '/portraits/rlain-warform.webp',
+      alt: 'Rlain in warform, with orange carapace, in a blue Bridge Four uniform, holding a spear',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [
+        { all: ['words-of-radiance', { book: 'oathbringer', chapter: '37' }] },
+      ],
+    },
+  ],
+  stormfather: [
+    {
+      // The face in the storm, as Kaladin sees it in WoR 74.
+      src: '/portraits/stormfather.webp',
+      alt: 'A vast face formed from storm clouds, looking out of the dark',
+      artist: 'Exmakina',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Exmakina',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '74' }],
+    },
+  ],
+  lopen: [
+    {
+      // One arm and a bridgeman's vest: Bridge Four in WoK.
+      src: '/portraits/lopen-vest.webp',
+      alt: "The Lopen, a grinning one-armed Herdazian in a bridgeman's vest",
+      artist: 'Nat Rodgers',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nat_Rodgers',
+      revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+    },
+    {
+      // Blue uniform, from Bridge Four's first WoR chapter.
+      src: '/portraits/lopen-bridge-four.webp',
+      alt: 'The Lopen laughing, in a blue Bridge Four uniform coat',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  lunamor: [
+    {
+      // As a bridgeman in WoK.
+      src: '/portraits/lunamor-vest.webp',
+      alt: 'Rock, a big red-bearded Horneater, smiling, in a brown vest',
+      artist: 'Ashley Coad',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ashley_Coad',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    {
+      // Official Stormlight playing card (Brotherwise); blue uniform from WoR 2.
+      src: '/portraits/lunamor-card.webp',
+      alt: 'Playing card: Rock in a blue uniform stirring a big pot of stew',
+      artist: 'Rebecca Sorge Jensen',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Rebecca_Sorge_Jensen',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  skar: [
+    {
+      // Bridge Four tattoo and uniform, from WoR 2.
+      src: '/portraits/skar.webp',
+      alt: 'Skar, with a shash-glyph tattoo on his forehead, in a blue Bridge Four uniform',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  drehy: [
+    {
+      // Bridge Four tattoo and uniform; he is first in the WoR summaries at chapter 12.
+      src: '/portraits/drehy.webp',
+      alt: 'Drehy, fair-haired with a forehead tattoo, in a blue Bridge Four uniform',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '12' }] },
+      ],
+    },
+  ],
+  leyten: [
+    {
+      // Blue Bridge Four uniform, from WoR 2.
+      src: '/portraits/leyten.webp',
+      alt: 'Leyten, curly-haired and frowning, in a blue uniform coat',
+      artist: 'Jamie Knierim',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jamie_Knierim',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  peet: [
+    {
+      // Bridge Four tattoo and uniform, from WoR 2.
+      src: '/portraits/peet.webp',
+      alt: 'Peet, with a forehead tattoo, in a blue uniform, holding a mug',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  hobber: [
+    {
+      // Bridge Four tattoo and uniform, from WoR 2.
+      src: '/portraits/hobber.webp',
+      alt: 'Hobber, smiling gap-toothed, with a forehead tattoo and blue uniform',
+      artist: 'LittleGreyDragon',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/LittleGreyDragon',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '2' }] },
+      ],
+    },
+  ],
+  dabbid: [
+    {
+      // Plain portrait; dated to his Bridge Four scenes in WoK.
+      src: '/portraits/dabbid.webp',
+      alt: 'Dabbid, a young man with tousled brown hair, smiling faintly',
+      artist: 'ShiroXIX',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/ShiroXIX',
+      revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+    },
+  ],
+  gaz: [
+    {
+      // Eyepatch and Sadeas green, as Kaladin meets him in WoK 6.
+      src: '/portraits/gaz.webp',
+      alt: 'Gaz, a scruffy one-eyed bridge sergeant with an eyepatch, in a green coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+    },
+  ],
+  lirin: [
+    {
+      // The surgeon of Hearthstone from Kaladin's flashbacks in WoK.
+      src: '/portraits/lirin.webp',
+      alt: 'Lirin, a bald surgeon with spectacles in an apron, in a town street',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+  ],
+  hesina: [
+    {
+      // From Kaladin's flashbacks in WoK.
+      src: '/portraits/hesina.webp',
+      alt: 'Hesina, smiling, with her hair tied up under a headscarf',
+      artist: 'Jamie Knierim',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jamie_Knierim',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+  ],
+  gallant: [
+    {
+      // Dalinar's Ryshadium, as in WoK.
+      src: '/portraits/gallant.webp',
+      alt: 'A black Ryshadium horse trotting in the rain on a stony plain',
+      artist: 'Bonnie Johnson',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Bonnie_Johnson',
+      revealedIn: [{ book: 'way-of-kings', chapter: '56' }],
+    },
+  ],
+  'torol-sadeas': [
+    {
+      // Portrait in his house green; he is first seen in WoK.
+      src: '/portraits/torol-sadeas.webp',
+      alt: 'Sadeas, a long-haired lighteyes in a green and gold coat with a white cravat',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+    },
+    {
+      // Official Call to Adventure game art; his red Plate is from WoK.
+      src: '/portraits/torol-sadeas-plate.webp',
+      alt: 'Sadeas in red Shardplate, on horseback before an army',
+      artist: 'Artur Felipe Mósca',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Artur_Felipe_M%C3%B3sca',
+      revealedIn: ['way-of-kings'],
+    },
+  ],
+  'elhokar-kholin': [
+    {
+      // The king, as first seen at the hunt in WoK 12.
+      src: '/portraits/elhokar-kholin.webp',
+      alt: 'Elhokar, wearing a golden crown and a blue cloak',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    {
+      // Official WoR interior art; his Plate and Blade are already known from WoK.
+      src: '/portraits/elhokar-kholin-plate.webp',
+      alt: 'Sketch of Elhokar in full Shardplate, leaning on his Shardblade',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'words-of-radiance', chapter: '1' }] },
+      ],
+    },
+  ],
+  aladar: [
+    {
+      // Plain portrait from his WoK scenes.
+      src: '/portraits/aladar.webp',
+      alt: 'Aladar, a bald highprince with a goatee, arms crossed, in a green uniform and cloak',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+  ],
+  'ialai-sadeas': [
+    {
+      // Plain portrait; she first appears in person in WoR.
+      src: '/portraits/ialai-sadeas.webp',
+      alt: 'Ialai, in a green havah, holding a fan',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+    },
+  ],
+  'meridas-amaram': [
+    {
+      // Plain portrait, as the brightlord of WoK's first chapter.
+      src: '/portraits/meridas-amaram.webp',
+      alt: 'Amaram, a stern dark-haired officer in a green coat with gold epaulettes',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    {
+      // Holding the Shardblade he takes in WoK 51.
+      src: '/portraits/meridas-amaram-blade.webp',
+      alt: 'Amaram, in a green and red coat, holding a Shardblade',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+    },
+  ],
+  taravangian: [
+    {
+      // Plain portrait of the old king.
+      src: '/portraits/taravangian.webp',
+      alt: 'Taravangian, an old man with white hair and beard in orange robes, holding a book',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+  ],
+  'gavilar-kholin': [
+    {
+      // Official art of Gavilar in Plate, as in the WoK prologue.
+      src: '/portraits/gavilar-kholin.webp',
+      alt: 'Sketch of a Shardbearer in full Plate beside a great Shardblade',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+    },
+  ],
+  'rysn-ftori': [
+    {
+      // As the trader's apprentice of WoK i-4.
+      src: '/portraits/rysn-ftori.webp',
+      alt: 'Rysn, a young Thaylen woman in a green skirt and orange vest, holding a small plant',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+    {
+      // Official Dawnshard interior art; dated to when the Wandersail sets out.
+      src: '/portraits/rysn-ftori-wandersail.webp',
+      alt: 'Sketch of Rysn in her chair on the deck of a ship, a small winged creature by her',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'dawnshard', chapter: '5' }],
+    },
+  ],
+  vathah: [
+    {
+      // From his WoR deserters scenes.
+      src: '/portraits/vathah.webp',
+      alt: 'Vathah, a scarred, bearded man in a long brown coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+    },
+  ],
+  mraize: [
+    {
+      // Official art of Mraize; he first meets Shallan in WoR.
+      src: '/portraits/mraize.webp',
+      alt: 'A man in white lounging in a chair by a fire, a bird perched above him',
+      artist: 'Soph Peralta',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Soph_Peralta',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+    },
+  ],
+  'turinad-sebarial': [
+    {
+      // Plain portrait from his WoR scenes.
+      src: '/portraits/turinad-sebarial.webp',
+      alt: 'Sebarial, a stout bearded man in yellow and gold, arms spread',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+    },
+  ],
+  yanagawn: [
+    {
+      // In the Prime's robes he gains in WoR i-9.
+      src: '/portraits/yanagawn.webp',
+      alt: 'Gawx, a young Azish boy in patterned robes and tall hat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+  ],
+  eshonai: [
+    {
+      // Official playing card; her Plate and Blade are shown from her first interlude.
+      src: '/portraits/eshonai.webp',
+      alt: 'Playing card: a listener Shardbearer in Plate holding a Shardblade',
+      artist: 'Rebecca Sorge Jensen',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Rebecca_Sorge_Jensen',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+    },
+  ],
+  talenel: [
+    {
+      // The madman with a Shardblade, who names himself in WoR i-7.
+      src: '/portraits/talenel.webp',
+      alt: 'A ragged, bearded man with dark skin holding a Shardblade',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+    },
+  ],
+  nale: [
+    {
+      // Shown once Szeth learns who he is in WoR 88.
+      src: '/portraits/nale.webp',
+      alt: 'Nale, a dark-skinned man in a dark uniform with silver embroidery',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+    },
+  ],
+  nightblood: [
+    {
+      // Official playing card; the plain black sword, shown once the reader can know it.
+      src: '/portraits/nightblood.webp',
+      alt: 'Playing card: a black sword in its sheath, with dark smoke curling around it',
+      artist: 'Rebecca Sorge Jensen',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Rebecca_Sorge_Jensen',
+      revealedIn: [
+        { book: 'warbreaker', chapter: 'prologue' },
+        { book: 'edgedancer', chapter: '9' },
+        { book: 'oathbringer', chapter: '90' },
+      ],
+    },
+  ],
+  wyndle: [
+    {
+      // As in Edgedancer.
+      src: '/portraits/wyndle.webp',
+      alt: 'Wyndle, a vine spren with a face of leaves and crystals',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'edgedancer', chapter: '1' }],
+    },
+  ],
+  lyn: [
+    {
+      // A scout in Kholin blue, from her first appearance.
+      src: '/portraits/lyn.webp',
+      alt: 'Lyn, a woman with a dark ponytail in a blue Kholin uniform',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    {
+      // Training with Bridge Four from OB 35; dated to OB 46.
+      src: '/portraits/lyn-bridge-four.webp',
+      alt: 'Lyn in a blue Bridge Four uniform, holding a staff, on a rocky slope',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [
+        { all: ['words-of-radiance', { book: 'oathbringer', chapter: '46' }] },
+      ],
+    },
+  ],
+  ishnah: [
+    {
+      // From Shallan's Oathbringer scenes.
+      src: '/portraits/ishnah.webp',
+      alt: 'Ishnah, with a high black bun, in a green havah',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'oathbringer', chapter: '25' }],
+    },
+  ],
+  'fen-rnamdi': [
+    {
+      // The Thaylen queen, as in Oathbringer.
+      src: '/portraits/fen-rnamdi.webp',
+      alt: 'Queen Fen, grey-haired, in a blue dress with jewelry',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'oathbringer', chapter: '28' }],
+    },
+  ],
+  cord: [
+    {
+      // Plain portrait from her Oathbringer scenes.
+      src: '/portraits/cord.webp',
+      alt: 'Cord, a tall Horneater woman with a long braid, flexing an arm',
+      artist: 'FelCandy',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/FelCandy',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+  ],
+  rushu: [
+    {
+      // Plain portrait; she first appears in WoR.
+      src: '/portraits/rushu.webp',
+      alt: 'Rushu, a young bald ardent in grey robes, taking notes',
+      artist: 'Treefin',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Treefin',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+    },
+  ],
+  'gavinor-kholin': [
+    {
+      // Plain portrait from Oathbringer.
+      src: '/portraits/gavinor-kholin.webp',
+      alt: 'Gavinor, a small boy in a blue uniform jacket',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+    },
+  ],
+  ivory: [
+    {
+      // Plain portrait of the spren, as in Oathbringer.
+      src: '/portraits/ivory.webp',
+      alt: 'Ivory, a spren of ink-black skin, standing in a dark coat',
+      artist: 'Jove',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jove',
+      revealedIn: [{ book: 'oathbringer', chapter: '47' }],
+    },
+  ],
+  timbre: [
+    {
+      // Timbre as she is named in OB i-11.
+      src: '/portraits/timbre.webp',
+      alt: 'Venli in a pale form, holding a glowing spren in her cupped hands',
+      artist: 'Stivya',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Stivya',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-11' }],
+    },
+  ],
+  leshwi: [
+    {
+      // A Heavenly One, as in Oathbringer.
+      src: '/portraits/leshwi.webp',
+      alt: 'Leshwi, a Fused in flowing robes, holding a spear in the sky',
+      artist: 'Connor Chamberlain',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Connor_Chamberlain',
+      revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+    },
+  ],
+  mayalaran: [
+    {
+      // Deadeye Maya, as in Oathbringer.
+      src: '/portraits/mayalaran.webp',
+      alt: 'A spren with a green, dimly lit face and scratched-out eyes, in a coat',
+      artist: 'Nozomi',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nozomi',
+      revealedIn: [{ book: 'oathbringer', chapter: '93' }],
+    },
+  ],
+  glys: [
+    {
+      // Red marks the spren as Odium's, shown at OB 116.
+      src: '/portraits/glys.webp',
+      alt: 'A cluster of red crystals glowing on a dark ground',
+      artist: 'Bonnie Johnson',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Bonnie_Johnson',
+      revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+    },
+  ],
+  notum: [
+    {
+      // Official sketch of Notum as in RoW.
+      src: '/portraits/notum.webp',
+      alt: 'Sketch of Notum, an honorspren of white light with a beard and a high collar',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '30' }],
+    },
+  ],
+  raboniel: [
+    {
+      // Official Stormlight: War for Roshar game art.
+      src: '/portraits/raboniel.webp',
+      alt: 'Raboniel, a Fused with red carapace and long auburn hair, in white wraps',
+      artist: 'Guilherme Castro',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Guilherme_Castro',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+  ],
+  jaxlim: [
+    {
+      // Shown from when she is named in RoW 45.
+      src: '/portraits/jaxlim.webp',
+      alt: 'Jaxlim, an old listener, seated on a stone by a hut, weaving',
+      artist: 'rspixart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/rspixart',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+    },
+  ],
+  kalak: [
+    {
+      // Official Herald endpaper art; the prelude names him.
+      src: '/portraits/kalak.webp',
+      alt: 'Kalak, a Herald in dark ornate armour, crystals and purple light around him',
+      artist: 'Magali Villeneuve',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Magali_Villeneuve',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+    },
+  ],
+  jezrien: [
+    {
+      // Official Herald endpaper art; the prelude names him.
+      src: '/portraits/jezrien.webp',
+      alt: 'Jezrien, a crowned Herald in gold under a stormy sky, a sword in his hand',
+      artist: 'Howard Lyon',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Howard_Lyon',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+    },
+  ],
+  shalash: [
+    {
+      // Official Herald endpaper art; shows nothing of her later life.
+      src: '/portraits/shalash.webp',
+      alt: 'Shalash, a Herald in a white gown, holding up a glowing stone',
+      artist: 'Dan dos Santos',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Dan_dos_Santos',
+      revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+    },
+  ],
+  ishar: [
+    {
+      // Official Herald endpaper art; the worshippers suggest his later role, so shown from his page reveal in RoW 111.
+      src: '/portraits/ishar.webp',
+      alt: 'Ishar, a robed Herald with arms raised beneath a great blue moon, hooded figures before him',
+      artist: 'Dan dos Santos',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Dan_dos_Santos',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+    },
+  ],
+  'may-aladar': [
+    {
+      // Archer and scribe in Azimir: Adolin gives her the archers in WaT 39.
+      src: '/portraits/may-aladar.webp',
+      alt: 'May Aladar, with a bow and quiver, writing in a ledger before city soldiers',
+      artist: 'cosmere play',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/cosmere_play',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+  ],
+  lezian: [
+    {
+      // Shown once he is named, RoW 14.
+      src: '/portraits/lezian-pursuer.webp',
+      alt: 'A Fused warrior in a long, billowing dark cloak',
+      artist: 'Gerard Segura',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Gerard_Segura',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+  ],
+  iyatil: [
+    {
+      // Masked as she is described when she gives her name, WoR 63.
+      src: '/portraits/iyatil-masked.webp',
+      alt: 'A small woman wearing a carved mask',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+    },
+  ],
+  palona: [
+    {
+      // Plain portrait from her first appearance, WoR 40.
+      src: '/portraits/palona-portrait.webp',
+      alt: 'A Herdazian woman with a confident smile',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+    },
+  ],
+  rua: [
+    {
+      // His look (including the extra arms) is shown in OB 121.
+      src: '/portraits/rua-glowing.webp',
+      alt: 'A glowing, boyish spren with extra arms',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+    },
+  ],
+  dieno: [
+    {
+      // Plain portrait from his first appearance, RoW 1.
+      src: '/portraits/dieno-portrait.webp',
+      alt: 'A small, sharp-eyed Herdazian man',
+      artist: 'triflingshadows',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/triflingshadows',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+  ],
+  'chiri-chiri': [
+    {
+      // Small and sleeping, as she is when named in OB i-13.
+      src: '/portraits/chiri-chiri-sleeping.webp',
+      alt: 'A small winged creature curled up asleep beside spheres',
+      artist: 'Casta',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Casta',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+    },
+    {
+      // Larger than in Oathbringer; dated to her Dawnshard growth (end of Dawnshard).
+      src: '/portraits/chiri-chiri-grown.webp',
+      alt: 'A larger, flying Chiri-Chiri',
+      artist: 'Jennifer Mellen',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Jennifer_Mellen',
+      revealedIn: ['dawnshard'],
+    },
+  ],
+  'evi-kholin': [
+    {
+      // Plain portrait; she is first seen in the OB 16 flashback.
+      src: '/portraits/evi-kholin-portrait.webp',
+      alt: 'A pale-haired woman in a golden dress',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+  ],
+  'ba-ado-mishram': [
+    {
+      // Her look is shown in Rhythm of War; dated to the end of that book.
+      src: '/portraits/ba-ado-mishram-spren.webp',
+      alt: 'A vast, shadowy spren',
+      artist: 'Anya',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Anya',
+      revealedIn: ['rhythm-of-war'],
+    },
+    {
+      // Official interior art from Wind and Truth; dated to the end of that book.
+      src: '/portraits/ba-ado-mishram-mythica.webp',
+      alt: 'An illustrated page about Ba-Ado-Mishram',
+      artist: 'Miranda Meeks',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Miranda_Meeks',
+      revealedIn: ['wind-and-truth'],
+    },
+  ],
+  'balat-davar': [
+    {
+      // Plain portrait from his first appearance, WoK i-2.
+      src: '/portraits/balat-davar-portrait.webp',
+      alt: 'A young Veden man with red-flecked hair',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+  ],
+  'wikim-davar': [
+    {
+      // Plain portrait from his first appearance, WoK i-2.
+      src: '/portraits/wikim-davar-portrait.webp',
+      alt: 'A thin young Veden man with red-flecked hair',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+  ],
+  'jushu-davar': [
+    {
+      // Plain portrait from his first appearance, WoK 29.
+      src: '/portraits/jushu-davar-portrait.webp',
+      alt: 'A plump young Veden man with red-flecked hair',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+  ],
+  'lin-davar': [
+    {
+      // Plain portrait; he is first seen in the WoR 10 flashback.
+      src: '/portraits/lin-davar-portrait.webp',
+      alt: 'A stern, red-bearded Veden lighteyes',
+      artist: 'Exmakina',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Exmakina',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+    },
+  ],
+  'toralin-roshone': [
+    {
+      // Plain portrait from his WoK 25 introduction.
+      src: '/portraits/toralin-roshone-portrait.webp',
+      alt: 'A heavyset lighteyed man in fine clothes',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+  ],
+  'laral-roshone': [
+    {
+      // Child sketch from her first appearance, WoK 16.
+      src: '/portraits/laral-roshone-child.webp',
+      alt: 'Laral as a girl',
+      artist: 'Sheep',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Sheep',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    {
+      // Adult look, from her Oathbringer reappearance (OB 7).
+      src: '/portraits/laral-roshone-adult.webp',
+      alt: 'Laral as a grown woman',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [
+        { all: ['way-of-kings', { book: 'oathbringer', chapter: '7' }] },
+      ],
+    },
+  ],
+  'sja-anat': [
+    {
+      // Her mirror appearance, OB 84.
+      src: '/portraits/sja-anat-mirror.webp',
+      alt: 'A woman’s face in a mirror',
+      artist: 'Anya',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Anya',
+      revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+    },
+    {
+      // Official Oathbringer interior page; its text goes further, so dated to the end of the book.
+      src: '/portraits/sja-anat-taker-of-secrets.webp',
+      alt: 'An illustrated page about Sja-anat',
+      artist: 'Miranda Meeks',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Miranda_Meeks',
+      revealedIn: ['oathbringer'],
+    },
+  ],
+  chanarach: [
+    {
+      // Plain portrait from where she is first named, WoR 59.
+      src: '/portraits/chanarach-portrait.webp',
+      alt: 'A dark-haired woman',
+      artist: 'Caio Santos',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Caio_Santos',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+    },
+    {
+      // Official Rhythm of War endsheet; nothing past the start of that book is shown.
+      src: '/portraits/chanarach-endsheet.webp',
+      alt: 'Official Herald portrait of Chanarach',
+      artist: 'Karla Ortiz',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Karla_Ortiz',
+      revealedIn: [
+        {
+          all: ['oathbringer', { book: 'rhythm-of-war', chapter: 'prologue' }],
+        },
+      ],
+    },
+  ],
+  tien: [
+    {
+      // His childhood, shown in the WoK 9 flashback.
+      src: '/portraits/tien-rocks.webp',
+      alt: 'A smiling boy collecting rocks',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+    },
+  ],
+  tumi: [
+    {
+      // His fuller look is not described before Wind and Truth; dated to its end.
+      src: '/portraits/tumi-portrait.webp',
+      alt: 'A humanoid spren',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: ['wind-and-truth'],
+    },
+  ],
+  oroden: [
+    {
+      // Tagged to OB 7, where Kaladin first meets him.
+      src: '/portraits/oroden-child-of-peace.webp',
+      alt: 'A toddler with Kaladin',
+      artist: 'Vladora',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Vladora',
+      revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+    },
+  ],
+  malata: [
+    {
+      // Plain portrait from her first appearance, OB 24.
+      src: '/portraits/malata-portrait.webp',
+      alt: 'A confident Alethi woman',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+    },
+  ],
+  khen: [
+    {
+      // Crop of a group portrait, as she appears in OB 14.
+      src: '/portraits/khen-portrait.webp',
+      alt: 'A parshwoman holding a club',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+    },
+  ],
+  sah: [
+    {
+      // Crop of a group portrait with his daughter, as in OB 14.
+      src: '/portraits/sah-with-daughter.webp',
+      alt: 'A bearded parshman beside a small girl',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+    },
+  ],
+  tyn: [
+    {
+      // Plain portrait from her first appearance, WoR 20.
+      src: '/portraits/tyn-portrait.webp',
+      alt: 'A confident woman in a coat',
+      artist: 'Sheep',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Sheep',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+    },
+  ],
+  uapam: [
+    {
+      // Tagged Rhythm of War; first met RoW 22.
+      src: '/portraits/uapam-portrait.webp',
+      alt: 'A peakspren',
+      artist: 'FelCandy',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/FelCandy',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+  ],
+  'zu-roshar': [
+    {
+      // Both are met together, RoW 22.
+      src: '/portraits/zu-roshar-with-uapam.webp',
+      alt: 'Zu with a peakspren companion',
+      artist: 'Jessica Liu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jessica_Liu',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+  ],
+  nohadon: [
+    {
+      // He is seen in the WoK 60 vision.
+      src: '/portraits/nohadon-concept.webp',
+      alt: 'Concept sketches of a king in long golden robes',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+    },
+  ],
+  nergaoul: [
+    {
+      // Dalinar confronting it, OB 120.
+      src: '/portraits/nergaoul-thrill.webp',
+      alt: 'A vast red mist with Dalinar facing it',
+      artist: 'Ashley Coad',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ashley_Coad',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+  ],
+  phendorana: [
+    {
+      // Honorspren look; plain clothing as described after her bond (dated with her RoW sightings).
+      src: '/portraits/phendorana-portrait.webp',
+      alt: 'A glowing honorspren woman with flowing hair',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+    },
+  ],
+  teleb: [
+    {
+      // His braid and archery are described in OB 3.
+      src: '/portraits/teleb-archer.webp',
+      alt: 'A long-haired man with a braid, holding a bow',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+    },
+  ],
+  kadash: [
+    {
+      // Plain portrait from his first appearance, WoK 18.
+      src: '/portraits/kadash-ardent.webp',
+      alt: 'A tall, shaven-headed ardent in grey robes',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+  ],
+  nikliasorm: [
+    {
+      // Shows its true nature; dated to the end of Dawnshard.
+      src: '/portraits/nikliasorm-portrait.webp',
+      alt: 'Nikli, looking almost human',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: ['dawnshard'],
+    },
+  ],
+  bisig: [
+    {
+      // Blue Kholin uniform, as in WoR 22.
+      src: '/portraits/bisig-portrait.webp',
+      alt: 'A bridgeman in a blue uniform',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+  ],
+  adrotagia: [
+    {
+      // Plain portrait from her first appearance, WoR i-14.
+      src: '/portraits/adrotagia-portrait.webp',
+      alt: 'An elderly woman in orange robes',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+  ],
+  roion: [
+    {
+      // Plain portrait from his first appearance, WoK 22.
+      src: '/portraits/roion-portrait.webp',
+      alt: 'A bearded Alethi highprince in a red coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+  ],
+  beryl: [
+    {
+      // Plain portrait from her first appearance, RoW 20.
+      src: '/portraits/beryl-portrait.webp',
+      alt: 'A smiling woman in a green dress',
+      artist: 'Jove',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jove',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+  ],
+  'general-khal': [
+    {
+      // He gains his own Plate and Blade in WoR 66.
+      src: '/portraits/general-khal-shardplate.webp',
+      alt: 'A bald man in green Shardplate, holding a Shardblade',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '66' }],
+    },
+  ],
+  'avarak-matal': [
+    {
+      // Crop of the WoK 43 palanquin scene.
+      src: '/portraits/avarak-matal-matal.webp',
+      alt: 'An officer in a green uniform',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+    },
+  ],
+  tag: [
+    {
+      // Plain portrait from his first appearance, WoK 4.
+      src: '/portraits/tag-portrait.webp',
+      alt: 'A young man in work clothes',
+      artist: 'Graeme Brandham',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Graeme_Brandham',
+      revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+    },
+  ],
+  vstim: [
+    {
+      // In Shinovar, his WoK i-4 scene.
+      src: '/portraits/vstim-shinovar.webp',
+      alt: 'An old Thaylen merchant with long eyebrows and a conical hat',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+  ],
+  stargyle: [
+    {
+      // Plain portrait crop from his first appearance, RoW 20.
+      src: '/portraits/stargyle-portrait.webp',
+      alt: 'A young man with a topknot',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+  ],
+  el: [
+    {
+      // His full look is not set out before Wind and Truth; dated to its end.
+      src: '/portraits/el-sketch.webp',
+      alt: 'A sketch of a Fused with spiky armour',
+      artist: 'Irithyllians',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Irithyllians',
+      revealedIn: ['wind-and-truth'],
+    },
+  ],
+  dul: [
+    {
+      // Their forms are described in RoW 51.
+      src: '/portraits/dul-with-mazish.webp',
+      alt: 'Two singers with marbled carapace',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+    },
+  ],
+  mazish: [
+    {
+      // Their forms are described in RoW 51.
+      src: '/portraits/mazish-with-dul.webp',
+      alt: 'Two singers with marbled carapace',
+      artist: 'Dragontrill',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Dragontrill',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+    },
+  ],
+  kabsal: [
+    {
+      // Plain portrait from his first appearance, WoK 7.
+      src: '/portraits/kabsal-portrait.webp',
+      alt: 'A shaven-headed young ardent with a square beard',
+      artist: 'Exmakina',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Exmakina',
+      revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+    },
+  ],
+  'yelig-nar': [
+    {
+      // Official Call to Adventure card; the bond it shows is revealed in OB 120.
+      src: '/portraits/yelig-nar-servant-of-odium.webp',
+      alt: 'A figure in dark armour wreathed in dark power, fighting Kaladin',
+      artist: 'Petar Penev',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Petar_Penev',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+  ],
+  yalb: [
+    {
+      // Plain portrait from his first appearance, WoK 3.
+      src: '/portraits/yalb-bowing.webp',
+      alt: 'A young sailor in a headband, bowing',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+    },
+  ],
+  sureblood: [
+    {
+      // Official Stormlight World Guide art; nothing beyond his WoK 13 introduction.
+      src: '/portraits/sureblood-with-adolin.webp',
+      alt: 'Adolin riding a great white-and-grey horse',
+      artist: 'Christina Kraus',
+      artistUrl:
+        'https://coppermind.net/wiki/File:SLWG_Ryshadium_by_Christina_Kraus.png',
+      revealedIn: [{ book: 'way-of-kings', chapter: '13' }],
+    },
+  ],
+  talik: [
+    {
+      // As described when he meets Rysn, WoR i-3.
+      src: '/portraits/talik-portrait.webp',
+      alt: 'A bare-shouldered man with two braids and a fringed wrap',
+      artist: 'Laurys L',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Laurys_L',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+    },
+  ],
+  rayse: [
+    {
+      // Official Call to Adventure card; his human form is first seen in OB 56.
+      src: '/portraits/rayse-human-form.webp',
+      alt: 'An old king in gold robes and crown, holding a sceptre',
+      artist: 'AnnDR',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/AnnDR',
+      revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+    },
+  ],
+  tanavast: [
+    {
+      // Shown from his first appearance, WaT 63.
+      src: '/portraits/tanavast-portrait.webp',
+      alt: 'A white-haired man in a fur-trimmed golden robe',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    {
+      // Official Wind and Truth endsheet; dated to the end of the book to be safe.
+      src: '/portraits/tanavast-endsheet.webp',
+      alt: 'Official portrait of Tanavast amid swirling light',
+      artist: 'Donato Giancola',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Donato_Giancola',
+      revealedIn: ['wind-and-truth'],
+    },
+  ],
 }

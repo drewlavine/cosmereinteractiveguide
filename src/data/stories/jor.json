@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi bouncer at a low-end bar in Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    },
+    {
+      "text": "An Alethi bouncer at Jez's Duty, a winehouse in Urithiru, who is married to Kryst.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jor watched and laughed as Veil struggled with strong drink, then sat and flirted with her. Seeing her getting drunk, he warned her the area was dangerous and offered her a palanquin home. She drew out rumours of a murder's location from him, then sobered at once and walked out, leaving him baffled.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "Working at Jez's Duty, Jor held his wedding party there when he married Kryst, with Syl riding on his shoulder. He introduced Kryst to Adolin, Shallan and Kaladin, and Adolin gave the couple a wedding gift.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young, typical-looking Alethi with very short black hair, dark skin and some chin stubble.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Jor laughs constantly and loves telling stories. Veil finds him arrogant and a little dismissive of women, but he is good-natured and honourable.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

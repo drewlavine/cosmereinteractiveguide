@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "The leader of a resistance against Odium's empire on Ashyn, and uncle of the Herald Nale.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War against Odium's empire",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "104" },
+            { "book": "wind-and-truth", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Makibak was born on Ashyn, then known as Alaswha, more than eight thousand years before the Night of Sorrows, and became leader of his city-state. Invited to a conference in a major city of Odium's growing empire, he saw that refusing to join would make his people a target, but refused anyway. He was among the first on Ashyn to doubt the god Passion.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "Honor came to Makibak's people and offered them his Surges to stand against the empire, which they accepted, gaining power and, for Makibak, a slower ageing. They fought the empire for around nine hundred years, until the scouring of Ashyn. The losses left Makibak feeling he no longer had a people, only ghosts.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "To Roshar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amid the scouring, Jezrien offered to take Makibak with him off the burning planet. Hostile to Jezrien for his high place in the empire, Makibak at first refused, but in the end passed through the portal to Roshar. His people and Nale's became the Makabaki, named after him, and he founded his own nation on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is dark-skinned, resembling the Makabaki people of Roshar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Intelligent and honourable, he saw the true nature of Odium's empire before anyone else. He is quick to distrust his foes, even at the risk of his people's lives, though not entirely closed to hearing them out. After the scouring of Ashyn he became aloof and despondent.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+    }
+  ]
+}

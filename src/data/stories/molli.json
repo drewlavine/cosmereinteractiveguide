@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "An ewe on the Shinovar homestead of Neturo-son-Vallano and Zeenid-daughter-Beth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "24" }]
+    },
+    {
+      "text": "An old, mostly blind ewe on a Shinovar homestead, loved by the family's young son Szeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "36" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The homestead",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "27" },
+            { "book": "wind-and-truth", "chapter": "36" },
+            { "book": "wind-and-truth", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Szeth danced for the family's sacred stone, Molli grazed nearby and tried to eat a new stone that had just emerged from the ground. Szeth, afraid he had stepped on it, ran to tell his father, and hugged Molli while his mother moved the stone.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+        },
+        {
+          "text": "When raiders approached, the family moved the flock inland, but Molli wandered back to the homestead. Elid noticed she was missing, and Szeth went back to find her.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "36" }]
+        },
+        {
+          "text": "Szeth returned to find soldiers had slaughtered and eaten Molli, one of them to make a point about how Shin society relied on men like him. Enraged, Szeth killed the soldier with the stone Molli had found, and sat holding her pelt until morning.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Molli is an old, mostly blind ewe with scratchy wool.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "36" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Molli has a good sense of smell, dislikes other sheep and keeps close to the shepherds, often wandering home on her own. She is not very clever and often tries to eat dirt and stones.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "36" }]
+    }
+  ]
+}

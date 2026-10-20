@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "Symbols used across Roshar for simple written messages, signs, heraldry and prayers. Vorin men, barred from true writing, may use them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Glyphs are usually symmetrical and often drawn as pictures of what they mean, so even those who can't read recognise them. Lines are often added or contorted, which can make them hard to identify.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "In Vorinism, glyphs sewn into cloth or painted in flammable ink are burned as prayers, called glyphwards. Soldiers wear them into battle for luck, and young women may wear a bride's prayer.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+    },
+    {
+      "text": "Glyphs are used for simple communication and for religious and artistic expression. Vorin custom forbids men to learn women's script, but lets them use glyphs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Shops display glyphs for their goods, and noble houses have their own glyphpairs, like the Kholins' tower and crown, found on armour, banners and maps. Slaves are branded with glyphs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "31" },
+            { "book": "words-of-radiance", "chapter": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Stormwardens, being men, write their research and highstorm calculations with glyphs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "way-of-kings", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Glyphs may be older than the Heraldic Epochs, as they are inscribed on the Honorblades. They came into common use in the Era of Solitude and are said to have been given by the Dawnsingers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "The ten fundamental glyphs relate to the Heralds and the orders of Knights Radiant, and appear on some Shardblades.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

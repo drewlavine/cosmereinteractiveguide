@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen artifabrian and member of the Vriztl Guild.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "41" },
+            { "book": "rhythm-of-war", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vrandl and Ulvlk came to Urithiru to hear Navani's lectures on fabrials, and were there when Raboniel invaded the tower. Navani kept the two close, knowing they might hold guild secrets that could help defend it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "41" }]
+        },
+        {
+          "text": "Navani needed a way to move Stormlight quickly between gems. Vrandl suspected a trick to get their trade secrets and stayed silent, but Ulvlk revealed the guild's method of using tuning forks. Furious, Vrandl told her she would be expelled. Soon after, the Thaylens supplied two tuning forks.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short woman, older than Ulvlk, who wears tightly curled eyebrows and prefers havahs to Thaylen dress.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Fiercely loyal to her guild, she distrusts Navani Kholin's motives.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

@@ -1,0 +1,242 @@
+{
+  "intro": [
+    {
+      "text": "A listener Shardbearer living in Narak on the Shattered Plains during the War of Reckoning, and one of the first of her people to meet Gavilar Kholin's soldiers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A listener Shardbearer and the general of her people's army on the Shattered Plains. Once an explorer, she was the first listener to make contact with humans.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "i-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A listener Shardbearer and general who was the first of her people to take on the newly rediscovered stormform.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Explorer",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "i-4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eshonai was an explorer who roamed the wilds of Natanatan, alone at first, making maps and widening her people's knowledge of the world. As a teenager she began leading expeditions. In 1165 her travels led to the listeners' first contact with humans, when she met Gavilar's expedition south of the Shattered Plains.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "i-4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gavilar's assassination",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the day he died, Gavilar spoke privately with Eshonai, revealing that he wanted to bring back the listeners' old gods, and gave her a dark gemstone for the Five. She took his plans to the Five, who gave her a vote for her role as interpreter. She voted to kill the Alethi king, to keep her people free of their gods as their ancestors had chosen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "way-of-kings", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the assassination, Eshonai joined the Five and became general of the listener army. The listeners withdrew to Narak, hoping a war of attrition would wear the Alethi down, but chasmfiend gemhearts kept the war going for years, and Eshonai sometimes joined the skirmishes over them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "At the Battle of the Tower, Eshonai duelled and defeated Dalinar Kholin as his army retreated, recognising him as the Shardbearer she had been seeking. Before she could speak to him, Kaladin stabbed her in the leg and escaped with Dalinar. She saluted Dalinar as the Alethi withdrew and let them leave without further attack.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stormform",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "words-of-radiance", "chapter": "i-8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eshonai was the first to take on stormform after her sister Venli rediscovered it, though she did so reluctantly. The form made her warlike and destructive: where she had sought peace with the Alethi, she now wanted them destroyed, and she rounded up listeners who would not obey her, meaning to have them killed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "When her mother refused stormform and was rounded up with the other dissenters, Eshonai set her old squad to guard them, seemingly aware they would help, and did not give chase when they escaped.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Narak",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "117" },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Battle of Narak, Eshonai led the listener army, all in stormform, to destroy the Alethi. Adolin pushed her into a chasm, and she drove her Shardblade into the rock to keep from being swept away by the floodwaters. She did not drown, but soon died of the wounds she took struggling to survive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Reacher spren, Timbre, had begun bonding Eshonai, but the bond could not progress while she was in stormform, and she found the spren annoying. She became a Surgebinder only moments before her death.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As she died, the Rider of Storms held her soul back from the Beyond for a while so she could ride his winds across all of Roshar with the highstorm.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "117" }]
+        },
+        {
+          "text": "Ulim led Venli and Demid to Eshonai's body to retrieve her Shards.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall singer whose partly carapaced skin is marbled red and black, standing seven feet tall in her silver Shardplate with its red cape. During the war she wears warform; out of Plate, her uniform is a cap and a red cloth stretched over her warform armour.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "i-4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She accepts her duties as general but feels trapped by them and by life on the Shattered Plains, numbed by military routine and even blaming her uniform. She never speaks of it. Shardplate gives her a sense of strength and something reliable in the world.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    },
+    {
+      "text": "She blames herself for the war, having been the first to contact the Alethi, and does not blame them for seeking vengeance. She fights them out of necessity but would rather make peace, and tries to.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    },
+    {
+      "text": "Eshonai prefers workform, which is flexible and rugged and whose aversion to violence makes her think differently. She has little patience for listeners who linger in mateform, and was once baffled that humans have a single form so easily distracted by such urges.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Her true passion is exploration; even as a child she would wander off mid-task, and she longs to be free of her generalship to explore again. But she holds that protecting the living matters more than her own wishes, or even remembering the fallen, and joins her strike forces even when wounded as her people's only Shardbearer.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A skilled commander who has kept her outmatched people alive through more than five years of war, she speaks Alethi better than any other listener, if with a thick accent. With the Blade she can match and even beat Adolin, though her style has no recognisable stances.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

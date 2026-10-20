@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A king of an unknown land on Roshar who came to the throne very young.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reign",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gregorh became king as a boy and started a pointless war against kingdoms that had been allies of his father. His foolishness was infamous in the Era of Solitude.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Shallan Davar cited Gregorh to Jasnah Kholin to show that youthful immaturity does not always bring about good change.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

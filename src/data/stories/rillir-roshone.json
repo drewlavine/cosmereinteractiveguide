@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The lighteyed son of Brightlord Roshone, Hearthstone's new citylord, who is courting Laral Wistiow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "62" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "way-of-kings", "chapter": "41" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rillir followed his father to Hearthstone after Roshone's exile from Kholinar, and was soon courting Laral, a match that would bind their families together.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "37" },
+                { "book": "words-of-radiance", "chapter": "62" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Lirin and Kaladin dined at the manor, Rillir treated Kaladin like a servant, explaining that darkeyes existed to serve lighteyes, and kept humiliating him until Laral turned his attention elsewhere.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        },
+        {
+          "text": "Rillir was terribly wounded on a whitespine hunt. Lirin judged him beyond saving and let him die on the surgery table despite Roshone's demands, and Kaladin eased his death with dazewater.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young and handsome, with blue eyes and a smooth city accent.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "41" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Arrogant and condescending, Rillir looks down on darkeyes and ignores them unless he wants something. He finds Hearthstone dull and provincial, but enjoys dangerous hunts with his father.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    }
+  ]
+}

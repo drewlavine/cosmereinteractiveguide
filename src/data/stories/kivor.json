@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A listener on the new Council of Five formed after the first Battle of Narak. He held warform and was among the listeners who refused stormform and fled into the chasms.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "89" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Return to the Shattered Plains",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "89" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As one of the Five, Kivor joined the listeners' expedition to the centre of the Shattered Plains, where fighting was raging at Narak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "89" }]
+        },
+        {
+          "text": "Nearing the Plains, Kivor proposed a vote on whether to go on, warning that Odium was crafty and might be playing them, though he voted to continue. Captured by Odium's forces and told to help take Narak or be destroyed, he admitted he was relieved to face the question at last; Venli found another way. He went on to serve on the first Council of Five of the new listener nation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

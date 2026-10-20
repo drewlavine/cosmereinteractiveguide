@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Barlesha Lhan wrote Topics on Roshar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

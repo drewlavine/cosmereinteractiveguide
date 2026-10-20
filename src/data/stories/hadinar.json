@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A battalionlord in the Kholinar Wall Guard and one of Highmarshal Azure's most trusted officers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar Wall Guard",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hadinar was the only one of Azure's officers at Azure's meeting with Kaladin, where Kaladin revealed his mission for Elhokar and the existence of the Oathgates. He also talked with Beard about the secret passages in the city walls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A stocky, jowly lighteyed man.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He commands one of the Wall Guard's four battalions and knows Kholinar very well. Of all Azure's officers, he seems the most trusted, and he knows several of Azure's secrets.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+    }
+  ]
+}

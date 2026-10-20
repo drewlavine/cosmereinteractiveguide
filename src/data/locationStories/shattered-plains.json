@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "The land where the Alethi highprinces keep their warcamps, from Sadeas's, one of the least orderly, to Dalinar Kholin's, one of the best kept.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "text": "A vast region of plateaus divided by deep chasms, where the Alethi armies fight the Parshendi from warcamps in ten craters on its western edge.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "words-of-radiance", "chapter": "49" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Each warcamp has its own character. Sadeas's is one of the least orderly, and its poor and desperate often seek help in the other nine; Sadeas also controls the forests north of the camps. The Kholin camp is well kept.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+    },
+    {
+      "text": "At the western edge the plateaus are small and the chasms fifty to a hundred and fifty feet deep, easily bridged, and many permanent bridges join them. Further east the plateaus vary more and the chasms widen, and the storm-worn eastern edge is mostly spindly pillars of rock, impassable.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "Some accounts say the Plains look as if something enormous struck the centre, the plateaus radiating out in a fourfold, symmetrical pattern now worn imperfect by erosion. People have reported lights on the central plateau where the Parshendi live.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "The chasms are damp and humid, with stagnant pools where cremling larvae grow. Haspers, moss, fungi and frillblooms cover the walls, and translucent cremlings and light-shy carrion eaters live there, along with a crimson and yellow creature whose bite is venomous.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient times",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ruins of the city of Stormseat lie at the centre of the Plains, with satellite towns and outbuildings around it. Its Oathgate stood on a circular plateau there, hidden under centuries of crem.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "words-of-radiance", "chapter": "63" },
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "wind-and-truth", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the war, the only known permanent inhabitants were the Parshendi, who lived in the ten craters at the western edge. During the war, the Alethi armies took over the craters to fight them under the Vengeance Pact.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "Shallan stayed in Highprince Sebarial's warcamp, and was impressed to find it far better off than Jasnah's reports had suggested.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        },
+        {
+          "text": "Shallan believed that the Alethi had hunted chasmfiends nearly to extinction for their gemhearts.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "The chasmfiends at first took the hunts as a challenge for dominance and accepted it, and were heartbroken when hunters began attacking their defenceless chrysalises. With their numbers badly reduced, about fifty of them joined the listeners who had escaped stormform, trading strength and food for peace.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "wind-and-truth", "chapter": "137" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The warcamps weathered the Everstorm well, but after the battle at Narak eight of the ten were abandoned, their people moving to Urithiru or vanishing into the Unclaimed Hills.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "Urithiru could not yet feed itself and relied on supplies from the warcamps, so holding the Plains and the Oathgate became vital. The Fused harried caravans travelling to the Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "The Natans wanted the Plains and the Oathgate for themselves. Elhokar proposed that Dalinar be made High King of Urithiru and the Shattered Plains.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "In 1175, Jasnah Kholin granted the Shattered Plains to the surviving listeners as part of a peace treaty.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        }
+      ]
+    }
+  ]
+}

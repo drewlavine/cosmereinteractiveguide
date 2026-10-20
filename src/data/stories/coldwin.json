@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scholarship",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin's research on the Voidbringers notes that Coldwin and Hasavah both corroborated facts recorded in Masly's work.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

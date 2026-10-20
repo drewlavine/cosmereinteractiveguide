@@ -1,0 +1,106 @@
+{
+  "intro": [
+    {
+      "text": "A kind of sapient spren able to form a Nahel bond, granting a person the Surges of Abrasion and Progression, the powers of the Edgedancers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "No spren is better at drawing objects out of the beads of Shadesmar, so many work as gardeners for other spren, building elaborate arrangements out of things like chairs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They have no nation or cities of their own, living instead in mixed spren cities such as Celebrant, but they are governed by a council called the Ring, which now decides who among them bonds whom.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "102" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They revere Cultivation more than Honor, swearing by her and calling her Mother. They tend to be skittish and fearful, but can be relied on when it matters.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "118" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Cognitive Realm they are humanlike figures made mostly of vines, with faces like green string and crystal hands, eyes and teeth. They wear clothing, which isn't necessarily part of them.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "text": "In the Physical Realm a cultivationspren takes the form of vines. It can stay unseen and unheard by anyone but its Surgebinder, though the crumbling remains of its vines can still be seen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bonding again",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seeing honorspren and Cryptics begin bonding humans again shortly before the True Desolation, the cultivationspren decided they had to keep up. The Ring sent Wyndle to bond Lift.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+        },
+        {
+          "text": "In Celebrant, a cultivationspren dock registrar helped Kaladin and Shallan's group, explaining the Voidbringer presence in the city, then stalling the Fused so they could escape.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "In the year after the Battle of Thaylen Field, more cultivationspren bonded humans, and as a group they looked kindly on the refounded Edgedancers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "wyndle",
+      "role": "cultivationspren",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "bonded",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "2" }]
+    }
+  ]
+}

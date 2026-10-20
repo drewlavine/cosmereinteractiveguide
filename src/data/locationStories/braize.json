@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Known in Vorin teaching as Damnation, the place where those who commit grave sins are said to go after death; older songs call it Braize.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A cold, dark, barren world farther from the sun than Roshar, where the only life is Odium's spren and the Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Shin know of Damnation, but the Iriali Long Trail does not include it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Braize has no living things on its surface. Only spren aligned with Odium are welcome there; for anyone else, visiting is hard and dangerous, and Raboniel warned Navani of a storm that surrounds it in Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "89" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "A prison",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Leaving Braize is difficult. Small voidspren such as Ulim can slip away at any time, the Fused and thunderclasts can come out only once the Heralds have left, and Odium's most powerful servants take a long time to cross over even after a Desolation has begun.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+        }
+      ]
+    }
+  ]
+}

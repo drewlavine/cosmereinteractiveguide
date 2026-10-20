@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "The man who holds the Shard Ruin, bitterly hostile to Leras.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "4-4" }]
+    },
+    {
+      "text": "A man Tanavast thought kind and strong, who took up the Shard Ruin and long fought against its pull toward destruction.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "wind-and-truth", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tanavast's plea",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "115" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tanavast saw Ati as kind, strong, smarter than himself and a hero, and asked for his help against the threat of Rayse, but Ati refused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ati and Leras",
+          "revealedIn": [{ "book": "secret-history", "chapter": "4-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "By the time Ruin was freed, Ati and Leras were deeply hostile. Ati mocked Leras's weakness, while Leras hated how Ati had bent their religion to worship him alone and mourned how the Shard had changed him.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "4-4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

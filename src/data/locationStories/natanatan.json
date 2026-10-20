@@ -1,0 +1,93 @@
+{
+  "intro": [
+    {
+      "text": "The land of eastern Roshar once ruled by the Silver Kingdom of Natanatan, now largely unexplored wilderness.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "As a Silver Kingdom, Natanatan covered the southeast corner of the continent, bordering Alethela to the north and Thalath to the west. Its capital, Stormseat, held an Oathgate.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+    },
+    {
+      "text": "Highstorms are especially strong in the east; the Natans adapted by farming low-profile crops.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Natans have pale blue skin, wide noses and wool-like white hair, and revere the moons, especially the blue moon Nomon. Natanatan was nicknamed the Granite Kingdom.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its old lands now include the Unclaimed Hills, the Shattered Plains, Alethkar's Eastern Crownlands and the eastern Frostlands. People think of the region as an empty wasteland of forests and jungles.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stormseat is thought to have been destroyed in the Last Desolation. Natanatan survived, and after the Recreance joined Thaylenah, Alethkar, Jah Keved and Kharbranth as the five Vorin kingdoms, but it fell several hundred years ago for reasons unknown.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Only the city-state of New Natanan remains of the old government. Its people want to reclaim their homeland and its Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

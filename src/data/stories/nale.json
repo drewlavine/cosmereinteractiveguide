@@ -1,0 +1,480 @@
+{
+  "intro": [
+    {
+      "text": "A cold, relentless man who hunts down budding Surgebinders under cover of the law. Lift, who confronted him in Yeddaw, calls him Darkness.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+    },
+    {
+      "text": "Nalan'Elin, one of the ten Heralds: the Herald of Justice and leader of the Skybreakers, who hunts down Surgebinders outside his order.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "edgedancer", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nalan'Elin, one of the ten Heralds: the Herald of Justice and leader of the Skybreakers, who has taken his order over to the singers' side.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A cold, merciless man with a crescent mark on his cheek who calls himself Nalan'Elin, the Herald of Justice.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "47" },
+            { "book": "wind-and-truth", "chapter": "108" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nalan'Elin, one of the ten Heralds and leader of the Skybreakers, whose devotion to the law was finally broken through by Kaladin in Shinovar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "76" },
+            { "book": "wind-and-truth", "chapter": "110" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "107" },
+            { "book": "wind-and-truth", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nale was born on Alaswha, far from its great empire, and was close to his uncle Makibak; he also had a sister. As a young man he and Makibak served as envoys to the Rayse-backed empire, and on their way home Honor offered them the Surges to resist it. After nine hundred years of conflict, Alaswha's world was ruined and his sister died.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "Jezrien offered Makibak's people passage to Roshar, and Nale went with them. Within fifty years they found the singers' lands too confining and struck out across the mountains, making Jezrien an enemy again, though Nale still felt in his debt. In this time he also came to know Taln.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "In the long war between singers and humans, Nale scouted for Jezrien's side. Invited to join the Oathpact, he agreed despite misgivings, and when a tenth member was needed, he proposed Taln and argued for him until the others agreed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Desolations",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "rhythm-of-war", "chapter": "47" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a Herald, Nale returned with each Desolation to protect people. He was reluctant to take the early Skybreakers under his patronage and was the last Herald to accept his Radiants, but in time he bonded a highspren, 121, and joined his own order, the only Herald to do so.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "90" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After bonding his spren, Nale established the Right of Travel, which is still part of Rosharan law.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "rhythm-of-war", "chapter": "47" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Worn out like the other Heralds besides Taln, Nale left his Honorblade behind and abandoned the Oathpact at Aharietiam, about four and a half thousand years before the True Desolation. He has since recovered the Blade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "80" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "96" },
+                { "book": "wind-and-truth", "chapter": "85" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "110" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-2" },
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "wind-and-truth", "chapter": "109" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "99" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly before the False Desolation, Nale came out of hiding to lead the Skybreakers again and told them the truth of humanity's origins and how the Surges had destroyed Alaswha. The knowledge spread and deepened the rifts between the orders.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "At the end of the False Desolation, Nale and Kalak watched the negotiations between humans and the Regals, and Nale saw the damage that followed to the singers' minds.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "96" },
+                { "book": "wind-and-truth", "chapter": "85" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "About a thousand years before the True Desolation, Nale realised he had hurt someone out of irritation. Frightened that he could no longer trust his own choices, he dedicated himself entirely to upholding the law, however senseless.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "On Ishar's advice, Nale set out to prevent another Desolation by killing any new Surgebinder outside the Skybreakers. He tracked down those who had committed some crime, however minor, and executed them as punishment.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-2" },
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "wind-and-truth", "chapter": "109" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Over the centuries Nale turned the Skybreakers into a secret society hunting Surgebinders across Roshar. He kept in touch with Kalak and Chana, warning Chana against marrying Lin Davar and then insisting that her daughter, a budding Lightweaver, must be killed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "99" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The night of the feast",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "77" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Through Kalak and the Sons of Honor, Nale was drawn into Gavilar Kholin's secret project, though he had little patience for it, and he visited the king on the night of his assassination.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "Hours before the feast, Nale caught Venli and Ulim in the palace. Venli tricked him into believing his own actions had brought back the Voidspren; furious, and blaming Gavilar's project, he told her of a loophole in the treaty that would let the listeners strike, pointed her towards Szeth, and left.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+        },
+        {
+          "text": "During the feast Nale and Kalak met Gavilar, but Nale left as soon as Navani came in, dragging Kalak with him. They spoke briefly with Elhokar and then ran into Jasnah, whom Nale treated coldly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting Surgebinders",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nale hunted Lift all the way to the palace in Azimir. He caught her and had the paperwork to execute her, but Gawx was killed and Lift healed him; the boy was proclaimed Prime and pardoned her, and Nale, with no legal excuse left, let her go.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the Battle of Narak, Nale caught and revived the newly killed Szeth, recruited him and gave him a living black sword he had acquired long before.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Nale took Szeth west to Yeddaw and found the Truthwatcher Arshqqam, but Lift confronted him as the Everstorm approached. Her words and the storm made him realise his plan had failed and that he had killed for nothing; she even hugged him before he left.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "98" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Everstorm Nale vanished for weeks, then returned to leave Szeth at the Skybreakers' training grounds and went to seek Ishar's guidance, which restored his confidence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "Nale led the Skybreakers south to Marat and told them the truth of Aharietiam and the Desolations. At Thaylen City he and Szeth watched the battle without fighting, and Nale explained that the Skybreakers would follow the singers as Roshar's original owners.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "When Szeth chose to follow Dalinar instead, Nale bore him no ill will and promised to return to teach him the Surge of Division before leaving.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Emul",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A year into the True Desolation, Nale and his Skybreakers fought for the singers in Emul. Approaching Dalinar's floating platform to demand his submission, he was shot in the face by Cord, barely reacted, pulled out the arrow and healed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        },
+        {
+          "text": "When Nale attacked Dalinar, Dalinar used his powers on him and saw visions of Nale's past, back to the day he joined the Oathpact with Jezrien. Shaken, Nale tore apart the line of light now linking them and fled.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "69" },
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "110" },
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "140" },
+            { "book": "wind-and-truth", "chapter": "145" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Learning that Szeth was straying under Kaladin's influence, Nale joined them on Szeth's journey through Shinovar. He debated Kaladin over whether the law must always be obeyed, and believed he had won.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
+        },
+        {
+          "text": "Nale oversaw Szeth's trials at the monasteries. Kaladin tried to help him and got him talking about his early days as a Herald, beginning to reach him, and Nale admitted that though the law made him fight for the singers, he didn't want them to win.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "At the Skybreaker monastery Nale demanded Szeth's obedience and attacked when Szeth refused. He fought Kaladin, Szeth's champion, and broke his bones, but when the Wind replayed Kaladin's flute and Kaladin told the tale of the Wandersail, Nale finally broke down and admitted he needed help.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "110" }]
+        },
+        {
+          "text": "Nale then revealed that it was Ishar who held Shinovar, not an Unmade, and guided Kaladin, Szeth and Syl towards him, explaining Ishar's link to Odium's power.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "Ishar threatened to replace Nale. Nale refused to join in Szeth's final trial and tried to help Kaladin reach Ishar, but collapsed when Ishar returned the pain he had been holding back, until Kaladin cut the connection between them.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        },
+        {
+          "text": "Freed, Nale was ready for the end, but when the Wind asked him to reforge the Oathpact without torture, he agreed. He helped set up the Honorblades, joined in swearing Kaladin in as the tenth Herald, and vanished with the others when the new Oathpact took effect.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Nale is dark-skinned and looks Makabaki, specifically Azish, with a crescent-shaped mark on his right cheek. He keeps his hair shaved close, has glassy, cold eyes, and usually wears the black coat, silver buttons, stiff silver collar and long gloves of an Azish constable.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "His deep voice is flat and passionless, and his face rarely shows emotion; he can glare without frowning.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "109" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Nale is obsessed with law and order and goes to great lengths never to break the laws of the land he is in, though he bends them to his advantage, such as by making himself a lawman so he can kill. He punishes even his own followers for breaking rules.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "edgedancer", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As a young man he was blunt, antisocial and willing to take responsibility, standing by his decisions even against the other Heralds. He valued oaths and debts above all, was slow to trust, but would give the righteous a second chance.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+    },
+    {
+      "text": "He is merciless, always seeking the harshest penalty. He admires blind obedience and recruits those who show it, yet accepts a well-founded legal argument against him without holding a grudge.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "edgedancer", "chapter": "8" },
+            { "book": "wind-and-truth", "chapter": "108" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Torture and madness have worn away much of his empathy. No longer trusting his own judgement, he clings to an idealised 'law', though he quietly changes what it means when it becomes inconvenient.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "wind-and-truth", "chapter": "110" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He has trouble grasping how much time has passed, surprised that food left decades earlier has spoiled.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "wind-and-truth", "chapter": "129" }
+          ]
+        }
+      ]
+    }
+  ]
+}

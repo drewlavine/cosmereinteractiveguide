@@ -1,0 +1,108 @@
+{
+  "intro": [
+    {
+      "text": "An ancient spren of Roshar, created along with the planet itself. With the Stone and the Night, she made up the Old Magic.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    },
+    {
+      "text": "An ancient spren who embodies Roshar's wind. Some see her as a demigod and an echo of Adonalsium, and she feels a particular attraction to Honor.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+    },
+    {
+      "text": "An ancient spren who embodies Roshar's wind. She guided Kaladin through Shinovar and proposed refounding the Oathpact.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Desolations",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "52" },
+            { "book": "wind-and-truth", "chapter": "100" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Wind was created by Adonalsium along with Roshar. With the Stone and the Night, she made up the Old Magic, and her influence on the world has waxed and waned over time.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        },
+        {
+          "text": "The Wind and Honor felt a notable attraction to each other.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Heraldic Epochs",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honor created the Stormfather from the Wind's essence; before then, Bondsmiths could bond the Wind herself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        },
+        {
+          "text": "Over the Heraldic Epochs, singers turned from the old gods to worship the Shards, and the few, like Elodi, who still believed in the Wind and the Stone moved east. As people came to fear her, the Wind stopped speaking to them and was confined mostly to Shinovar, though she still cared for the Heralds and spren.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        },
+        {
+          "text": "At the end of the Heraldic Epochs, the Wind spoke with Honor himself, which led him to approve the Heralds' abandonment of the Oathpact.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "132" },
+            { "book": "wind-and-truth", "chapter": "49" },
+            { "book": "wind-and-truth", "chapter": "144" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Taravangian replaced Rayse as Odium's vessel, the Wind could speak again, though she was weaker than she had once been.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        },
+        {
+          "text": "As the contest of champions approached, the Wind guided Dalinar and Navani Kholin through visions in the Spiritual Realm. She suggested they take Shalash's ribbon, which helped them learn to use Connection to travel there.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+        },
+        {
+          "text": "The Wind thought Kaladin's journey through Shinovar as important as the contest of champions, or more so. She guided him there with Szeth, playing the Wandersail's music with him on the way, and asked him to help heal the Heralds Nale and Ishar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "When Kaladin swore the Fifth Ideal, the Wind accepted his words. She then proposed refounding the Oathpact with Kaladin in Jezrien's place, admitting that this was why she had asked him to make the journey, as it would save the spren. He accepted, and the new Oathpact was forged.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        },
+        {
+          "text": "The Wind had long watched Masha-daughter-Shaliv and began speaking to her after Taravangian's ascension. Since the Oathpact was refounded, the Wind has not been heard from, though she still lives.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "The Wind is invisible and immaterial. Her voice varies but is usually soft and whispering, sometimes like many voices overlapping, and she shows emotion through changes in the breeze.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Protective, especially of spren, the Wind has a long memory and cares deeply, though she doesn't think like a human. Usually somewhat whimsical, she is determined in times of conflict and worries about the future.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+    }
+  ]
+}

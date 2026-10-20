@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A villager of Natanatan in an ancient era, married to Taffa and father of Seeli, whose part Dalinar lives through in a vision.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "A villager of Natanatan in an ancient era, married to Taffa and father of Seeli, whose place both Dalinar and Fen take in the same vision.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The vision",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Heb lived with his family in a quiet village in Natanatan, between Desolations. When creatures of Midnight Essence attacked, he and Taffa were separated from their daughter, and Taffa sent him to find her. He found Seeli in the barn, but the creatures surrounded them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "In Dalinar's version of the vision, Heb fought off the creatures and led his family toward a river. When they were ambushed, two Knights Radiant saved them and offered to take Heb to Urithiru to be trained in war.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "In Fen's version, Heb left his wife and daughter and ran into town, where he organised a resistance that held out until the Radiants came.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

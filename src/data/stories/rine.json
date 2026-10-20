@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "One of the Fused, a shanay-im who travels with Venli and oversees her preaching to the newly awakened parshmen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Venli",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-11" },
+            { "book": "oathbringer", "chapter": "i-12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rine guided Venli as she preached to the awakened Alethi parshmen, first in small villages and then in Kholinar, flying her there himself. When Venli likened the new singers to babes, Rine likened her to a toddler.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-11" }]
+        },
+        {
+          "text": "Rine and Venli joined the fleet gathering for battle at Thaylen City. When Venli asked why such a fleet was needed when they had the Fused, he said the most skilled Fused had not yet woken, and that once humanity was defeated the Fused would hand Roshar to the singers and finally rest.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He wears the body of a tall singer and a long cloak, and floats a few feet above the ground rather than walking.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rine remembers the ancient Desolations and the Fused's shock at the strength of the bond between spren and humans. He thinks human slaves must be watched closely, fearing Surgebinders could arise among them.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-7" }]
+    },
+    {
+      "text": "One of the few Fused still sane, he is baffled by some listener customs and can be dismissive of Venli, though he listens more readily when she speaks respectfully in the old tongue. He often uses the calmer Rhythm of Withdrawal.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+    }
+  ]
+}

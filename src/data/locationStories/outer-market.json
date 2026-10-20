@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "A collection of shops on a hill among the Alethi warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "It is largely unregulated and counts as neutral ground, so people from many warcamps mix there; many merchants are Thaylen. It competes with the markets inside each camp.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The market's ramshackle buildings are made of locally quarried stone, with no plan and no wall. It has wine shops, restaurants, stables and a menagerie, and some shops have terraces looking out over the warcamps.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "50" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The market grew up quickly during the war, without the planning of the warcamps, and its ornamental shalebark was still only a few inches high.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Alongside its seedier parts, the market had luxurious establishments where lighteyes from different princedoms met. As crime grew, Dalinar assigned several battalions to patrol it and the land between the camps, which cut banditry but left him fewer troops for plateau runs.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "55" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

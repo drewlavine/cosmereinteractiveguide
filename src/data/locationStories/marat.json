@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A small kingdom in southern Roshar, in the Makabak region.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Marat lies between the Southern Depths, Tukar, Emul and Greater Hexi, with a river marking the Tukari border. Its settlements include Rossen Dar, Jabom and Ja Dran along the coast; its south is especially thinly populated.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "text": "Marat is a tribal nation: each city is run by an elder brother, much like an eastern highprince. Its main role in world politics is as a waystop between the Vorin and Makabaki kingdoms.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "text": "The Marati are a proud people, brown-skinned and black-haired like the Tukari, with many customs, some belonging only to particular tribes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "30" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Over the Era of Solitude, Marat became famous for its furniture, rugs and bazaars, trading its goods across Roshar; Dalinar even decorated his barracks with Marati rugs.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth passed through Marat during his exile, and later Nale brought Szeth and the other Skybreakers there to tell them the truth of the First Desolation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        },
+        {
+          "text": "One of the Fused's first moves was to gather a great force of singers in southern Marat. They pressed survivors into labour at the docks and built a fleet of over a hundred ships in Marat's ports to attack Thaylen City.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Knight Radiant of the Stonewards who lived long ago.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Quoted by Jasnah",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin copied a quote attributed to Talatin into her notebook. It describes fighting Voidbringers that changed shape even as they fought, and warns never to judge them by first appearances.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

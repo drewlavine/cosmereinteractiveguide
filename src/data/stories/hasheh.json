@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed scholar and tutor.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tutor in Jah Keved",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1170 Hasheh tutored Shallan Davar at the Davar estates in Jah Keved. An expert in languages, she taught Shallan some Azish and etiquette, and scolded her for poor posture.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "She left suddenly after one of Lin Davar's violent outbursts against Malise; she was one of several tutors who quit because of Lin, and Shallan remembers them as stern matrons.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

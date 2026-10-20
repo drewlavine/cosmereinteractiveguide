@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A quiet bridgeman of Bridge Four, a bridge crew in Sadeas's army on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    },
+    {
+      "text": "A bridgeman of Bridge Four, now serving as an honor guard for the Kholin family.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "25" },
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Natam was once a farmer, and speaks with a rural Alethi accent.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+        },
+        {
+          "text": "Natam was in Bridge Four in the early days of Kaladin's time there. When Kaladin tried to talk to him, he wanted nothing to do with him and seemed indifferent to the changes in the crew, but after training with Kaladin for a while, he came to value his leadership.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Natam trained with the spear and joined the Kholin honor guard. He and Mart were guarding Navani on the night King Elhokar nearly fell from his balcony; Natam helped save him, and later remembered seeing Moash on the balcony, a clue that led Kaladin to confront Moash.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The warcamps",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Natam joined Adolin's reinforcements in the raid on the hideout of Ialai Sadeas and the Sons of Honor in the Alethi warcamps, and saw Ialai's death.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Somber and withdrawn as a bridgeman, Natam grew far more outgoing and jocular once Bridge Four was freed. He is loyal to Kaladin and his comrades.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ]
+}

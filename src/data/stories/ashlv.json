@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor on the Wind's Pleasure, the ship captained by her husband, Tozbek.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wind's Pleasure",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ashlv worked aboard with Tozbek and a handful of other sailors, sharing the largest cabin with him and registering the ship in port. Knowing the ship's ledgers were a mess, she shrewdly had Shallan do scribing work in exchange for passage.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During an attack on the Wind's Pleasure, Tozbek was heard begging the attackers to spare Ashlv's life. What became of her is unknown.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small woman with long white Thaylen eyebrows curled down to her cheeks, seen aboard in a headscarf and a bright yellow blouse and skirt.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A quiet presence on the ship; Shallan suspects she scolded the sailors who teased her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

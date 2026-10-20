@@ -1,0 +1,117 @@
+{
+  "intro": [
+    {
+      "text": "An order of travelling storytellers who journey the world learning about other places and peoples and sharing what they know.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An order of travelling storytellers and teachers on Roshar, founded by Hoid.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Worldsingers travel to learn about other lands and share news of those they have visited. They ask many precise questions, and their knowledge covers history, religion, geography, architecture, trade and local customs. They see themselves as above ordinary storytellers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Worldsingers on Roshar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan expected a Worldsinger might come to the Middlefest Fair her family sponsored in Jah Keved, suggesting they had long been active there.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "After failing the Azish exams to become a public servant, Sigzil fell into trouble and was rescued by Hoid, who took him as an apprentice. They travelled together, including to Babatharnam, and Hoid had to rescue him more than once.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sigzil kept his membership secret on the Shattered Plains, but Lunamor recognised him as a Worldsinger. Once the secret was out, Sigzil told the other bridgemen about distant places like Sesemalex Dar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "Hoid had reason to think Sigzil dead during his time in the bridge crews. Learning he was alive, Hoid promoted him to full Worldsinger, and Sigzil kept serving as one after becoming a Radiant.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sigzil",
+      "role": "Worldsinger",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "hoid",
+      "role": "founder",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lunamor",
+      "role": "recognised Sigzil",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    }
+  ]
+}

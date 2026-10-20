@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "The elite guard of the king of Alethkar, part of the Kholin princedom's Cobalt Guard, wearing deep blue and gold.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Tower",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The King's Guard was made up of lighteyes loyal to the Kholins. Dalinar ran it, was directly responsible for the king's safety, and made sure its men were very loyal to him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sadeas's betrayal cost Dalinar many officers, so the guard's two hundred and fifty soldiers were needed elsewhere in his army. As Bridge Four proved loyal and capable they were merged into the King's Guard, and Dalinar handed the guard over to them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new ruler",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Jasnah on the throne of Alethkar, the King's Guard is presumed dissolved, perhaps reformed as a Queen's Guard.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "commander",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "betrayed Dalinar",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+    }
+  ]
+}

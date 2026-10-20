@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "One of the princedoms of Alethkar, the home of House Kholin's people.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A quarter of all the Shards in Alethkar are held by people from the Kholin princedom.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After losing a duel to Adolin, Resi plotted with a noblewoman named Ralanat, who led a Kholin caravan into a ravine just inside the Thanadal princedom. Resi's men ambushed it and killed most of its guards and merchants, though Ralanat herself was unharmed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        }
+      ]
+    }
+  ]
+}

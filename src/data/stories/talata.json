@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scribe in the Kholin warcamp on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholin scribe",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar asked for Talata by name to review Highprince Bethab's chull contracts with Elhokar, since Bethab had once tried to slip succession terms into a contract.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

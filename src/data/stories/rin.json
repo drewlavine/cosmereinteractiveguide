@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A captain of House Davar's guards in Jah Keved.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Davar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "65" },
+            { "book": "words-of-radiance", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Lin Davar grew more unhinged, he hired new guards, led by Rin, who were violent, intimidating and fiercely loyal to him. Balat preferred the friendlier old guards, and Rin especially frightened him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+        },
+        {
+          "text": "When Balat said he had recently seen Helaran, Lin took Rin aside and sent him to Valath to kill Helaran and bring back his head, promising him Helaran's Shardblade as payment. Malise overheard and confronted Lin, who whispered something more to Rin before he left.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

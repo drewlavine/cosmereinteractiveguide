@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The author of Tales by Hearthlight.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Innia recorded children's folktales, including some about the Voidbringers, and Jasnah draws on them in her research.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

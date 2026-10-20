@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A woman in King Gavilar's retinue, said to be a surgeon's assistant, who asked the listener Eshonai curious questions about spren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "48" }]
+    },
+    {
+      "text": "A woman in King Gavilar's retinue who speaks the listener tongue and gave Venli a glowing gemstone, promising her forms of power.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+    },
+    {
+      "text": "A Feruchemist from another world, caught in Urithiru torturing the captive Zahel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "77" },
+            { "book": "wind-and-truth", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the listeners",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "52" },
+            { "book": "rhythm-of-war", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Visiting the listeners again with Gavilar's retinue, Axindweth found Venli alone outside her family's new city and spoke to her in her own language. She questioned the listeners' faith in their ancestors, hinted at forms of power that could heal, and gave Venli a blood-red gemstone to break in a storm.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "52" }]
+        },
+        {
+          "text": "At Gavilar's feast, Venli found only a coded note from Axindweth in their meeting place. In it she wrote that another of her kind, working for a different master, had discovered her and turned Gavilar against her, and that she had left the planet.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Axindweth held Zahel captive in an aluminum-lined room in Urithiru, hidden from the Sibling, and tortured him. When Lift broke in, Axindweth tried to catch her with Feruchemical speed, but a patch of floor Lift had made slick held her fast and broke her ankles.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Axindweth wears a traditional Alethi havah and a great many rings on her right hand.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ambitious and hungry for knowledge, Axindweth asks probing questions but knows when to withdraw before getting into trouble.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+    }
+  ]
+}

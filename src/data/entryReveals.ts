@@ -9,6 +9,38 @@ export const entryReveals: Record<
   Record<string, Reveal>
 > = {
   culture: {
+    'alethi-codes-of-war': [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '56',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '19',
+          },
+        ],
+      },
+    ],
+    ashspren: [
+      {
+        book: 'oathbringer',
+        chapter: '107',
+      },
+    ],
+    axehound: [
+      {
+        book: 'way-of-kings',
+        chapter: '69',
+      },
+    ],
+    'bridge-crew': [
+      {
+        book: 'way-of-kings',
+        chapter: '30',
+      },
+    ],
     'bridge-four': [
       {
         book: 'way-of-kings',
@@ -35,10 +67,162 @@ export const entryReveals: Record<
         ],
       },
     ],
+    calling: [
+      {
+        book: 'way-of-kings',
+        chapter: '3',
+      },
+    ],
+    chasmfiend: [
+      {
+        book: 'way-of-kings',
+        chapter: '28',
+      },
+    ],
     chorus: [
       {
         book: 'sunlit-man',
         chapter: '22',
+      },
+    ],
+    chull: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '56',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '28',
+          },
+        ],
+      },
+    ],
+    'coalition-of-monarchs': [
+      {
+        book: 'oathbringer',
+        chapter: '8',
+      },
+    ],
+    'cobalt-guard': [
+      {
+        book: 'way-of-kings',
+        chapter: '73',
+      },
+    ],
+    cryptic: [
+      {
+        book: 'words-of-radiance',
+        chapter: '3',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '3',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '97',
+          },
+        ],
+      },
+    ],
+    'cult-of-moments': [
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-12',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '62',
+          },
+        ],
+      },
+    ],
+    cultivationspren: [
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-9',
+          },
+          {
+            book: 'edgedancer',
+            chapter: '2',
+          },
+        ],
+      },
+    ],
+    'dalinars-elites': [
+      {
+        book: 'oathbringer',
+        chapter: '3',
+      },
+    ],
+    damnation: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '49',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '41',
+          },
+        ],
+      },
+    ],
+    darkeyes: [
+      {
+        book: 'way-of-kings',
+        chapter: '8',
+      },
+    ],
+    dawnchant: [
+      {
+        book: 'way-of-kings',
+        chapter: '60',
+      },
+      {
+        book: 'oathbringer',
+        chapter: 'i-2',
+      },
+    ],
+    deadeye: [
+      {
+        book: 'oathbringer',
+        chapter: '101',
+      },
+    ],
+    diagram: [
+      {
+        book: 'words-of-radiance',
+        chapter: 'i-14',
+      },
+    ],
+    envisagers: [
+      {
+        book: 'way-of-kings',
+        chapter: '57',
+      },
+    ],
+    glyphs: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '12',
+          },
+        ],
       },
     ],
     'god-beyond': [
@@ -79,6 +263,126 @@ export const entryReveals: Record<
         chapter: '19',
       },
     ],
+    greatshell: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '36',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-3',
+          },
+        ],
+      },
+    ],
+    'heraldic-forces': [
+      {
+        book: 'way-of-kings',
+        chapter: '59',
+      },
+    ],
+    hierocracy: [
+      {
+        book: 'way-of-kings',
+        chapter: '36',
+      },
+    ],
+    highprince: [
+      {
+        book: 'way-of-kings',
+        chapter: '18',
+      },
+    ],
+    honorspren: [
+      {
+        book: 'way-of-kings',
+        chapter: '67',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '57',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '108',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'oathbringer',
+            chapter: '108',
+          },
+          {
+            book: 'wind-and-truth',
+            chapter: '104',
+          },
+        ],
+      },
+    ],
+    'house-kholin': [
+      {
+        book: 'way-of-kings',
+        chapter: '12',
+      },
+    ],
+    inkspren: [
+      {
+        book: 'oathbringer',
+        chapter: '37',
+      },
+    ],
+    'kaladins-squad': [
+      {
+        book: 'way-of-kings',
+        chapter: '47',
+      },
+    ],
+    'kholinar-wall-guard': [
+      {
+        book: 'oathbringer',
+        chapter: '77',
+      },
+    ],
+    'kings-guard': [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prologue',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
+    larkin: [
+      {
+        book: 'words-of-radiance',
+        chapter: 'i-9',
+      },
+      {
+        book: 'dawnshard',
+        chapter: '16',
+      },
+    ],
+    lighteyes: [
+      {
+        book: 'way-of-kings',
+        chapter: '5',
+      },
+    ],
     lodestar: [
       {
         book: 'sunlit-man',
@@ -87,6 +391,42 @@ export const entryReveals: Record<
       {
         book: 'sunlit-man',
         chapter: '20',
+      },
+    ],
+    mandra: [
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '70',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '99',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'oathbringer',
+            chapter: '110',
+          },
+          {
+            book: 'dawnshard',
+            chapter: '19',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '45',
+          },
+        ],
+      },
+    ],
+    mistspren: [
+      {
+        book: 'rhythm-of-war',
+        chapter: '22',
       },
     ],
     'night-brigade': [
@@ -103,10 +443,114 @@ export const entryReveals: Record<
         chapter: '28',
       },
     ],
+    passions: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '8',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '3',
+          },
+        ],
+      },
+    ],
+    peakspren: [
+      {
+        book: 'oathbringer',
+        chapter: '102',
+      },
+      {
+        book: 'rhythm-of-war',
+        chapter: '22',
+      },
+    ],
+    reacher: [
+      {
+        book: 'oathbringer',
+        chapter: '93',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '121',
+          },
+        ],
+      },
+    ],
     'refuge-of-stone': [
       {
         book: 'sunlit-man',
         chapter: '11',
+      },
+    ],
+    regal: [
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-5',
+          },
+          {
+            book: 'oathbringer',
+            chapter: 'i-6',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'oathbringer',
+            chapter: 'i-7',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '102',
+          },
+        ],
+      },
+    ],
+    ryshadium: [
+      {
+        book: 'way-of-kings',
+        chapter: '68',
+      },
+      {
+        book: 'oathbringer',
+        chapter: '113',
+      },
+    ],
+    safehand: [
+      {
+        book: 'way-of-kings',
+        chapter: '3',
+      },
+    ],
+    santhid: [
+      {
+        book: 'words-of-radiance',
+        chapter: '1',
+      },
+    ],
+    'siah-aimian': [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-5',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-3',
+          },
+        ],
       },
     ],
     'silverlight-codes-of-interplanetary-conduct': [
@@ -115,16 +559,246 @@ export const entryReveals: Record<
         chapter: '43',
       },
     ],
+    singer: [
+      {
+        book: 'oathbringer',
+        chapter: '17',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '72',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '111',
+          },
+        ],
+      },
+    ],
+    sleepless: [
+      {
+        all: [
+          {
+            book: 'edgedancer',
+            chapter: '18',
+          },
+          {
+            book: 'dawnshard',
+            chapter: '6',
+          },
+        ],
+      },
+    ],
+    'sons-of-honor': [
+      {
+        book: 'words-of-radiance',
+        chapter: '54',
+      },
+    ],
+    spheres: [
+      {
+        book: 'way-of-kings',
+        chapter: '17',
+      },
+    ],
+    'storm-division': [
+      {
+        book: 'words-of-radiance',
+        chapter: 'i-11',
+      },
+    ],
+    stormwarden: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '4',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+    ],
     'sunlit-ones': [
       {
         book: 'sunlit-man',
         chapter: '11',
       },
     ],
+    'the-way-of-kings': [
+      {
+        book: 'way-of-kings',
+        chapter: '60',
+      },
+    ],
+    thunderclast: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '60',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '51',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prelude',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '115',
+          },
+        ],
+      },
+    ],
     timetellers: [
       {
         book: 'sunlit-man',
         chapter: '44',
+      },
+    ],
+    'tower-guard': [
+      {
+        book: 'rhythm-of-war',
+        chapter: '40',
+      },
+    ],
+    'tranquiline-halls': [
+      {
+        book: 'way-of-kings',
+        chapter: '59',
+      },
+    ],
+    truthless: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-4',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+    ],
+    unmade: [
+      {
+        book: 'words-of-radiance',
+        chapter: '81',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '25',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '45',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '91',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '112',
+          },
+        ],
+      },
+    ],
+    voidbringer: [
+      {
+        book: 'way-of-kings',
+        chapter: '72',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '72',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '115',
+          },
+        ],
+      },
+    ],
+    voidspren: [
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'epilogue',
+          },
+          {
+            book: 'oathbringer',
+            chapter: 'i-3',
+          },
+        ],
+      },
+    ],
+    vorinism: [
+      {
+        book: 'way-of-kings',
+        chapter: '18',
+      },
+    ],
+    'womens-script': [
+      {
+        book: 'way-of-kings',
+        chapter: '28',
+      },
+    ],
+    worldsingers: [
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '57',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '41',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '35',
+          },
+        ],
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '45',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '35',
+          },
+        ],
       },
     ],
   },
@@ -389,6 +1063,24 @@ export const entryReveals: Record<
         ],
       },
     ],
+    fabrial: [
+      {
+        book: 'way-of-kings',
+        chapter: '28',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '28',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '33',
+          },
+        ],
+      },
+    ],
     feruchemy: [
       {
         book: 'final-empire',
@@ -441,6 +1133,16 @@ export const entryReveals: Record<
       {
         book: 'hero-of-ages',
         chapter: '41',
+      },
+    ],
+    honorblade: [
+      {
+        book: 'way-of-kings',
+        chapter: 'i-3',
+      },
+      {
+        book: 'words-of-radiance',
+        chapter: '87',
       },
     ],
     'invested-art': [
@@ -501,6 +1203,38 @@ export const entryReveals: Record<
             chapter: '7',
           },
         ],
+      },
+    ],
+    'knights-radiant': [
+      {
+        book: 'way-of-kings',
+        chapter: '43',
+      },
+      {
+        book: 'way-of-kings',
+        chapter: '68',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '68',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '89',
+          },
+        ],
+      },
+    ],
+    lights: [
+      {
+        book: 'way-of-kings',
+        chapter: 'prologue',
+      },
+      {
+        book: 'rhythm-of-war',
+        chapter: '65',
       },
     ],
     malatium: [
@@ -565,6 +1299,170 @@ export const entryReveals: Record<
         ],
       },
     ],
+    'nahel-bond': [
+      {
+        book: 'words-of-radiance',
+        chapter: '3',
+      },
+      {
+        book: 'words-of-radiance',
+        chapter: '87',
+      },
+    ],
+    'old-magic': [
+      {
+        book: 'way-of-kings',
+        chapter: 'i-7',
+      },
+    ],
+    'order-of-bondsmiths': [
+      {
+        book: 'words-of-radiance',
+        chapter: '44',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '69',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '89',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '1',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '69',
+          },
+        ],
+      },
+    ],
+    'order-of-dustbringers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '36',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '107',
+          },
+        ],
+      },
+    ],
+    'order-of-edgedancers': [
+      {
+        book: 'words-of-radiance',
+        chapter: 'i-9',
+      },
+    ],
+    'order-of-elsecallers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '53',
+      },
+      {
+        book: 'oathbringer',
+        chapter: '119',
+      },
+    ],
+    'order-of-lightweavers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '49',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '17',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '2',
+          },
+        ],
+      },
+    ],
+    'order-of-skybreakers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '55',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: '59',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '40',
+          },
+        ],
+      },
+    ],
+    'order-of-stonewards': [
+      {
+        book: 'words-of-radiance',
+        chapter: '37',
+      },
+    ],
+    'order-of-truthwatchers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '52',
+      },
+    ],
+    'order-of-willshapers': [
+      {
+        book: 'words-of-radiance',
+        chapter: '50',
+      },
+      {
+        all: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '60',
+          },
+        ],
+      },
+    ],
+    'order-of-windrunners': [
+      {
+        book: 'way-of-kings',
+        chapter: '52',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '67',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '86',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '121',
+          },
+        ],
+      },
+    ],
     pewter: [
       {
         book: 'final-empire',
@@ -597,6 +1495,60 @@ export const entryReveals: Record<
           {
             book: 'rhythm-of-war',
             chapter: 'i-2',
+          },
+        ],
+      },
+    ],
+    shardblade: [
+      {
+        book: 'way-of-kings',
+        chapter: '13',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '13',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+    ],
+    shardplate: [
+      {
+        book: 'way-of-kings',
+        chapter: '69',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '69',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '110',
+          },
+        ],
+      },
+    ],
+    soulcasting: [
+      {
+        book: 'way-of-kings',
+        chapter: '5',
+      },
+      {
+        all: [
+          {
+            book: 'way-of-kings',
+            chapter: '70',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
           },
         ],
       },
@@ -645,6 +1597,12 @@ export const entryReveals: Record<
         ],
       },
     ],
+    stormlight: [
+      {
+        book: 'way-of-kings',
+        chapter: '11',
+      },
+    ],
     sunheart: [
       {
         book: 'sunlit-man',
@@ -653,6 +1611,16 @@ export const entryReveals: Record<
       {
         book: 'sunlit-man',
         chapter: '45',
+      },
+    ],
+    surgebinding: [
+      {
+        book: 'way-of-kings',
+        chapter: 'prologue',
+      },
+      {
+        book: 'words-of-radiance',
+        chapter: '17',
       },
     ],
     tin: [
@@ -673,6 +1641,30 @@ export const entryReveals: Record<
           {
             book: 'alloy-of-law',
             chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    voidbinding: [
+      {
+        book: 'way-of-kings',
+        chapter: '18',
+      },
+    ],
+    voidlight: [
+      {
+        book: 'oathbringer',
+        chapter: '79',
+      },
+      {
+        all: [
+          {
+            book: 'oathbringer',
+            chapter: '80',
+          },
+          {
+            book: 'rhythm-of-war',
+            chapter: '69',
           },
         ],
       },

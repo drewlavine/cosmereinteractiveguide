@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A bookseller in Kharbranth and Artmyrn's biggest competitor.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "While Shallan was buying books, Yalb told Artmyrn that Barmest had offered her a better price, to push Artmyrn into lowering his.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed soldier and trained groom chosen by Adolin Kholin for the coalition's mission to Lasting Integrity.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mission to Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "21" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "8" },
+                { "book": "rhythm-of-war", "chapter": "36" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin picked Merit as one of six trustworthy, level-headed darkeyed soldiers for the mission to the honorspren, knowing his groom's training would be useful. Merit was in Urithiru when the team left and led the pack animals onto the Oathgate.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+        },
+        {
+          "text": "In Shadesmar, Merit took the supplies off Gallant to give him a rest. He went back to Urithiru within a few weeks after Adolin surrendered himself to the honorspren.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "8" },
+                { "book": "rhythm-of-war", "chapter": "36" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

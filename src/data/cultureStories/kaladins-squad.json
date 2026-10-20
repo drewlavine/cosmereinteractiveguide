@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Kaladin's spear squad in Amaram's army, which fought in border skirmishes hoping to earn a transfer to the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The squad hoped to show enough promise to be sent to the Shattered Plains, said to be much safer. Most of them were killed when a Shardbearer attacked Amaram during a border skirmish.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "squadleader",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    },
+    {
+      "characterId": "meridas-amaram",
+      "role": "commander",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ]
+}

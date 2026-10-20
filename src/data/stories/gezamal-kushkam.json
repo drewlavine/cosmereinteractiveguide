@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A young Azish soldier of the Azimir Imperial Guard, who helps guard the Prime, Yanagawn.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    },
+    {
+      "text": "A young Azish soldier of the Azimir Imperial Guard who leads the Prime's honour guard and becomes one of the ten Unoathed.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "76" },
+            { "book": "wind-and-truth", "chapter": "85" },
+            { "book": "wind-and-truth", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Azimir, Gezamal led Yanagawn's honour guard while Adolin Kholin let the young Prime practise in his Shardplate and taught him strategy through the card game Towers. Gezamal befriended Adolin and often offered his own advice, though he dutifully avoided addressing the Prime directly.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        },
+        {
+          "text": "When Odium's forces overran the Oathgate dome, Yanagawn insisted on joining the fight himself, and Gezamal went with him and the rest of the honour guard. They arrived just after the Heralds Taln and Shalash had driven the enemy back, and helped search for the wounded.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "For failing to refuse the Prime's order and letting him into danger, Gezamal was demoted to the infantry. An outraged Adolin found him cleaning latrines and offered him a place in his own retinue, but Gezamal refused, accepting his punishment with pride as any respectable soldier would.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Unoathed",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the defence finally broke, Gezamal brought his injured father to the saferoom where the coalition's surviving leaders had gathered, and both joined the last-ditch effort to retake the throne room of the bronze palace. In the fight he received one of the deadeye sets of Shards that Mayalaran brought, becoming one of the ten Unoathed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "After the contest of champions, Yanagawn ranked the Unoathed high enough to deal with him more directly, and in the weeks that followed Gezamal and the Prime regularly played Towers together.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young Azish man with short black hair and a wide, bushy mustache. On guard duty he wears the patterned uniform of the Azimir Imperial Guard and carries a ceremonial polearm.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Easygoing and friendly, Gezamal is happy to chat and joke with Adolin from their first meeting, yet he takes his post seriously and is embarrassed when the Prime addresses him against protocol. He is patriotic and loyal, but not blind to his nation's flaws.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "96" }]
+    }
+  ]
+}

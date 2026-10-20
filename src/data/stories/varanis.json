@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A listener lieutenant serving under Eshonai.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Eshonai's lieutenant",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Varanis was among the soldiers painting in the Hall of Art in an attempt to attract creationspren, and Eshonai chuckled at his game efforts to paint flowers in warform.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "After Eshonai took stormform, Varanis was among those chosen to transform in the next storm. When Thude and a group of dissenters fled into the chasms, he reported it to her, angering her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "Rlain knew Varanis, and mourned him among the listeners he had lost.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Varanis is a disciplined, loyal soldier and one of Eshonai's most trusted lieutenants.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ]
+}

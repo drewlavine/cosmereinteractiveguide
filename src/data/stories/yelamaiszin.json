@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "An ancient swarm of Sleepless, the first of its kind to come to Roshar.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Sleepless",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "6" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Twenty-three more swarms have Separated since it came to Roshar. Nineteen stay loyal to it; four, including Arclomedarian, defy it.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        },
+        {
+          "text": "Yelamaiszin insisted the Wandersail's crew be driven away from Akinah. When Nikli's attempts failed, it proposed sinking the ship but was narrowly outvoted. After Rysn struck a bargain, it took part in the talks over the treaty, which was ratified.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Calm, rational and very sure of itself, speaking with a smooth, calming buzz. It leads twenty allied swarms but leaves important decisions to a vote.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    },
+    {
+      "text": "It sees humans as dangerous and in need of control, culling them if necessary, though it keeps some compassion for them, and believes Dalinar will destroy Roshar.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ]
+}

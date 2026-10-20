@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "Dalinar's father, an Alethi brightlord who died before the War of Reckoning.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Brightlord Kholin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "His branch of House Kholin was one of the poorer ones, unable to afford monasteries or practice guards, and he did not live in Kholinar. He fought in a war in his youth, and when Dalinar was old enough to learn the sword, he hired Harth, a swordsman from two towns over, to teach him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He fought many duels over honour and gave them more time than he gave his sons. One duel left him with a severe head injury, and in old age he suffered delusions that he was back in the battles of his youth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

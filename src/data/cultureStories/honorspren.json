@@ -1,0 +1,163 @@
+{
+  "intro": [
+    {
+      "text": "A kind of spren that can think and speak. Syl is one: a spirit of oaths, promises and nobility.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+    },
+    {
+      "text": "A kind of sapient spren that can form a Nahel bond with a human, making them a Surgebinder with the Surges of Adhesion and Gravitation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "25" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A kind of sapient spren, Splinters almost wholly of Honor with a little of Cultivation. Bonding one makes a person a Knight Radiant of the Order of Windrunners.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "wind-and-truth", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Other sapient spren tend to dislike honorspren, who keep apart in their own cities, a nation with its capital at Lasting Integrity and strongholds such as Unyielding Fidelity.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "Honorspren are warlike and oath-bound, with a strong military tradition. They see themselves as bound to follow Honor's path, and many look on the Stormfather as their parent. Other spren may live among them but seem unable to rise high in their society.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "They can sense a coming highstorm days before it arrives, and they keep time well.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "20" },
+            { "book": "rhythm-of-war", "chapter": "63" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They follow their own sense of morality rather than a code of laws and are hard to argue out of it. Obedience, hierarchy and order matter greatly to them, and they will post bounties on their own rebels.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "rhythm-of-war", "chapter": "90" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Physical Realm an honorspren usually looks like a tiny glowing figure, about a handspan tall and typically white-blue, though it can take other shapes such as fire or cloud, or grow to human size, at the cost of effort.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "38" },
+            { "book": "wind-and-truth", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "wind-and-truth", "chapter": "104" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "108" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honorspren were made by Honor, with Cultivation's help, in the time of the Heralds. Inspired by the Heralds and their Honorblades, they and other sapient spren began bonding humans, giving rise to the Order of Windrunners, and they were known for choosing carefully whom to bond.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "wind-and-truth", "chapter": "104" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Near the end, Honor gave the task of making honorspren to the Stormfather, who made a few, including Sylphrena. Then came the Recreance, and nearly all honorspren became deadeyes. Syl alone of the Stormfather's children survived, as she was asleep at the time.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "For centuries the Stormfather made no more honorspren. In the end he made ten, and their descendants grew into a great nation again.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Recent times",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "99" },
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not long ago the honorspren tried and failed to conquer all of Shadesmar. Their reputation among other spren never recovered, and they now keep to themselves; travelling Shadesmar alone is dangerous for them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+        },
+        {
+          "text": "Syl was found and brought back to the honorspren, but when she realised a new Desolation was coming she fled into the Physical Realm to find someone to bond. The honorspren posted a large reward for her return.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        },
+        {
+          "text": "Once the True Desolation had begun, other honorspren also started bonding humans.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Capital",
+      "name": "Lasting Integrity",
+      "placeId": "lasting-integrity",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "sylphrena",
+      "role": "honorspren",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+    },
+    {
+      "characterId": "stormfather",
+      "role": "progenitor",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    }
+  ]
+}

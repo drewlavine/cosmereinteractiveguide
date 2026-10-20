@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "Mountains on the eastern side of Jah Keved, home of the Unkalaki, called Horneaters by outsiders.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The air on the peaks is noticeably thin; Rock calls other Rosharans \"airsick lowlanders\". The peaks block clouds, so the land to their west gets little rain except from highstorms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "oathbringer", "chapter": "i-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each peak's summit has collapsed into a crater filled with a lake of warm water, which the Unkalaki call an Ocean. The heat creates a pocket of livable land, often warmer than the lowlands, where grass and fruit trees grow.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Unkalaki villages sit on the peaks, and the Jokasha Monastery on the western slopes. The single spanreed station may be more than a week's travel from a village.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Chulls breed on the southern slopes. The Horneaters eat every part of chulls and other animals, horns and shells included, which gave them their name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "5" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "14" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "dawnshard", "chapter": "16" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "rhythm-of-war", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Unkalaki legend says they became outcasts for their fighting prowess and asked the gods to make them a new home.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "Over time the Unkalaki rejoined Rosharan society, and by the end of the Era of Solitude Horneaters were common in the great cities of Jah Keved and Alethkar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        },
+        {
+          "text": "Though the Unkalaki live within Jah Keved's borders, they are treated much like a sovereign nation; different peaks occasionally fight one another.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "14" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "dawnshard", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the Battle of Narak, Rock's family came to find him with news that something was very wrong in their homeland.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "rhythm-of-war", "chapter": "114" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

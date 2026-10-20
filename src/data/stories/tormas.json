@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A logicmaster or philosopher on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Works",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan Davar has read the complete works of Tormas.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

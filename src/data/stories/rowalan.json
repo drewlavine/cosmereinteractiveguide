@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner squire to Sigzil.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Squire",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rowalan serves Sigzil as a Windrunner squire.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "56" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

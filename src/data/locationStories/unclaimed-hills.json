@@ -1,0 +1,146 @@
+{
+  "intro": [
+    {
+      "text": "A vast region of rocky, uneven hills, from low mounds to tall rises, covered in tough grass that pulls into the ground.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    },
+    {
+      "text": "A sparsely inhabited region claimed by no nation, bordering the Shattered Plains.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its few cities lie mostly on the coast. They are small, independent and nominally Vorin, but far looser than the western nations about the slave trade. The largest are the city-state of New Natanan and a settlement called Dawn's Shadow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    },
+    {
+      "text": "The Parshendi once lived across the wider Hills but have since gathered deep within the Shattered Plains. A small population of Natan people lives in the Hills.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "words-of-radiance", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Spiny plants such as wild blackbane break up the grass here and there, but there are no trees. Highstorms sweep the whole region, so plants retract at any movement and animals hide until a storm has passed. The land could be farmed, but only with difficulty and small yields.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient times",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "38" },
+            { "book": "way-of-kings", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Heraldic Epochs, the land was divided between the Silver Kingdoms of Alethela and Natanatan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "After Alethela splintered and Natanatan was destroyed, the region slowly lost importance. By the late Era of Solitude it was nearly empty, crossed only by travellers, hunters, bandits and the occasional Parshendi, and beasts such as chasmfiends thrived.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "89" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Expeditions crossed the Hills looking for a river route to New Natanan. After Alethkar was united, Gavilar and Dalinar Kholin hunted there, met the Parshendi and found the Shattered Plains. After the Parshendi killed Gavilar, the Alethi moved onto the Plains to wage war.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With people back in the Hills, trade grew, and so did banditry: slavers and criminals flourished, and the highprinces either would not or could not stop them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "89" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dalinar proposed settling the Hills and adding them to Alethkar, but events cut the plan short. Later, Navani suggested founding a new kingdom there, but the idea was dropped because the land is so hard to farm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the Everstorm began circling the world, the Alethi concentrated on holding the Shattered Plains, and the Hills remained simply a land people crossed, fleeing or travelling to and from the Plains.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

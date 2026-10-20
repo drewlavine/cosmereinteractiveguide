@@ -1,0 +1,86 @@
+{
+  "intro": [
+    {
+      "text": "The head of the Cobalt Guard during the War of Reckoning.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Cobalt Guard",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "words-of-radiance", "chapter": "18" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Niter helped intercept a messenger from Highprince Thanadal turning down a meeting with Dalinar, and had the Guard clear space so Dalinar and Adolin could talk. Sent for Dalinar's Shardhammer, he seemed to expect something impressive; Dalinar only meant to dig a latrine ditch.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Before the Battle of the Tower, Niter and the Guard helped Adolin prepare, bringing him his Ryshadium, Sureblood. Most of the Guard died in the battle after Sadeas's betrayal, and Niter presumably with them; Zahel said he had died keeping the Kholin men alive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "64" },
+                { "book": "words-of-radiance", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dalinar counted Niter among the few people he would have trusted to investigate the killings in Urithiru, had he still been alive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tan-skinned lighteyes with a short black beard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Naturally suspicious, a useful trait in a bodyguard, and excited at the chance to watch a Shardbearer in action.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ]
+}

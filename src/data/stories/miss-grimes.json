@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "The steward of House Ladrian in Elendel.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Steward of House Ladrian",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "20" },
+                { "book": "wind-and-truth", "chapter": "epilogue" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miss Grimes became steward of House Ladrian around the time Waxillium left Elendel for the Roughs. She knew his parents, especially his mother, who spent much of her time worrying about him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "When Wax returned to lead the house, she stayed on as steward. Before his meeting with Lord Harms and Lady Steris about a possible betrothal, she tried to keep him positive and, at his prodding, told him the Vanishers had stolen a second steel shipment from the house.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }]
+        },
+        {
+          "text": "Around then, she interviewed Hoid when he applied to be the house's new coachman. He found her staid but was impressed that she ignored most of his jokes, and she hired him, finding him competent if odd. He stayed in the post for several years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "20" },
+                { "book": "wind-and-truth", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Tillaume tried to kill Wax with an explosion, he drugged Miss Grimes and hid her in a closet with Limmi to keep them safe. Wax carried them both out to the garden behind the manor.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A plump, middle-aged, matronly woman who wears glasses. On duty she wears the household staff's black dress and white apron; otherwise, drab formal clothes brightened with a splash of colour.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "wind-and-truth", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Motherly toward Wax, she fusses over his marriage prospects, claims a \"Soother's sense\" for romance and treats any unmarried man as a child, though she is unmarried herself. She disapproves when he slips back into his Roughs habits.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+    },
+    {
+      "text": "Unflappable and serious about her duties, she hires the staff, runs the mansion day to day and keeps the house lord informed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "2" },
+            { "book": "wind-and-truth", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

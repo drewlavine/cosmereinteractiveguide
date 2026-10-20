@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A large Shin youth training as a soldier at the Stoneward monastery, where he spars with Szeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stoneward monastery",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1152 Jormo sparred with Szeth, relying on his reach and weight, but Szeth twice put him on the ground. Jormo then grabbed Szeth's legs and slammed his head against the ground until bystanders pulled him off. Sergeant Szrand rebuked him and he was disciplined.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "When Szeth was chosen as an acolyte of the Shamans in 1157, he wondered how Jormo felt about it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Light-skinned, very large and solidly built.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Brash and overconfident; he likes to look tough and hates being shown up by anyone smaller or younger.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ]
+}

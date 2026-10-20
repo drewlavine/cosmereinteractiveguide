@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "The son of Highprince Roion, who became highprince after his father died at the Battle of Narak.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Highprince",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "2" },
+            { "book": "rhythm-of-war", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The youngest of the highprinces, he took his father's place after the Battle of Narak. Highprince Aladar thought him unready for the role.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "2" }]
+        },
+        {
+          "text": "When Urithiru was invaded, he was the only highprince in the tower. He gathered many Alethi officers in the map room.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar who collected Dawnchant transcriptions.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bendthel's collected Dawnchant transcriptions fill at least three codices. Ellista works from them at the Jokasha Monastery, and Ardent Urv comes to collect the copy and ask about her progress.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

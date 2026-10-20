@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A high-ranking stormwarden for House Kholin in its warcamp on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elthebar predicts highstorms for Dalinar Kholin. Dalinar disliked relying on an inexact science full of glyphs, but came to accept that the stormwardens were right more often than not. In Kak 1173 a highstorm Elthebar hadn't forecast forced Dalinar and Renarin to shelter in a barrack on their way back from the Pinnacle.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "109" },
+                { "book": "rhythm-of-war", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elthebar moved to Urithiru with most of the Alethi and became head of the stormwardens there. At the first meeting of the scholars in the tower, he interrupted Kalami's report and insulted Teshav's intelligence, earning Shallan's ire.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "109" },
+                { "book": "rhythm-of-war", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is tall, with a long, pointed beard, and wears the esoteric robes common among stormwardens.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "44" },
+            { "book": "rhythm-of-war", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He is pompous and somewhat prejudiced against female scholars. Shallan thinks he is a mean man who hides his true nature from Dalinar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "44" },
+            { "book": "rhythm-of-war", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed commander in Meridas Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In a battle against Hallaw's forces, Sheler ordered his outnumbered soldiers to hold a hilltop despite heavy losses. One of his squadleaders, Varth, sacrificed several messenger boys, Tien among them, as a distraction.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herdaz",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Herdazian border, Sheler used the singer invasion as an excuse to rob and murder civilians and abuse women. Captured by the Mink, he was refused ransom and given a choice of punishments. He chose to wrestle 'the hog', which turned out to be a huge clawed sea creature, and did not survive.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Sheler is a lighteyes of the fifth dahn.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Sheler is arrogant and self-righteous, even as a prisoner.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-10" }]
+    }
+  ]
+}

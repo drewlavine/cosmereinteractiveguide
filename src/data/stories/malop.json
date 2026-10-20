@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman in Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    },
+    {
+      "text": "A bridgeman in Bridge Four who was killed in the Battle of the Tower.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "way-of-kings", "chapter": "73" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Kaladin's first bridge run as leader of Bridge Four, Malop was one of the last men to get into position.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "In the Battle of the Tower, Malop took a bad axe wound to the arm from the Parshendi and bled to death. Kaladin regretted that he couldn't save him, Jaks or Narm.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "Malop was among those Kaladin remembered failing to protect when he tried to speak the Fourth Ideal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Thick black hair and a bushy beard, with a glyphward tattooed on each hand.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Not thought very clever, and knows little of the world beyond Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    }
+  ]
+}

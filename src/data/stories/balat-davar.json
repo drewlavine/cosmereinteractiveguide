@@ -1,0 +1,118 @@
+{
+  "intro": [
+    {
+      "text": "One of Shallan Davar's older brothers, who runs the affairs of their Veden house while she is away.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "One of Shallan Davar's older brothers, who now lives in Urithiru and works as a guardsman for Highprince Sebarial.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born the second son of Lin Davar, Tet Balat grew up bitter towards his father, believing he had killed Balat's mother. He took out his anger by torturing animals.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+        },
+        {
+          "text": "Balat met Eylita Tavinar at one of his father's feasts and, with Shallan's help, began courting her. Lin later disinherited Helaran and made Balat his heir, Nan Balat. When Lin forbade the match because of Eylita's lower rank, Balat confronted him, and Lin had Balat's beloved axehound pups killed as punishment.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "Shaken, Balat planned with Shallan to run away with Eylita and testify against their father. On the day he meant to go, Lin learned of the plan, killed their stepmother Malise and summoned Eylita. Balat confronted him again and Lin smashed his leg, but Shallan stopped Lin before he could do worse.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Head of House Davar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "29" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With their father gone, Balat ran House Davar while Shallan sought a wardship with Jasnah Kholin, and they kept in touch by spanreed. The family barely scraped by, and men their father had dealt with came demanding the return of his Soulcaster.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Jasnah tried to help the family, but everything was lost in the upheaval in Jah Keved. Mraize had Balat and his brothers brought to Urithiru as a gift to Shallan.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Encouraged by Eylita, Balat began working as a guardsman for Highprince Sebarial, though Shallan worried because of his cruelty to animals.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A round-faced man with dark hair and a haunted look, the tallest of his surviving siblings. He walks with a cane because of an old injury to his leg.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Balat is fond of his axehound, Scrak. He sees House Davar as a 'family of cripples', broken by their mother's death, and thinks himself the only one unscathed.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    },
+    {
+      "text": "As a boy Balat liked starting fires, and he has always been cruel to animals, though never to people; the pain of whatever he kills seems to lessen his own.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ]
+}

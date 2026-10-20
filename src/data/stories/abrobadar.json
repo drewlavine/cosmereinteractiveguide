@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed soldier on the Shattered Plains, among those guarding the highprinces in case of an attack by the Assassin in White.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    },
+    {
+      "text": "A Shardbearer from Highprince Aladar's warcamp and one of the more skilled duelists on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "66" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Abrobadar was at the meeting of the highprinces when Shallan arrived on the Plains, standing guard against the Assassin in White with General Khal, Jakamav, Resi and Relis.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        },
+        {
+          "text": "Abrobadar was one of four Shardbearers facing Adolin in a duel. He went after Renarin and was distracted for a time by Pattern, then rejoined the main fight once Kaladin began to turn it, and was beaten by Adolin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        },
+        {
+          "text": "His orange Shardplate was given by Adolin to Moash, at Kaladin's request.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

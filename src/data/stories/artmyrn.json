@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen book merchant in Kharbranth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's visit",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Jasnah Kholin first turned her away, Shallan looked for a late-opening bookshop to buy books that might impress Jasnah, and Yalb pointed her to Artmyrn's elegant shop. Already frustrated, she was put off by Artmyrn and his wife's patronizing manner and snapped at him for questioning her taste.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Taken aback, Artmyrn grew more candid and brought her historical and philosophical works. When he quoted a steep price, Yalb burst in claiming to work for a rival merchant, Barmest, and called Artmyrn a swindler. Shallan played along, and Artmyrn, cursing Barmest, sold her the books far cheaper.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Overweight and greying, Artmyrn combs his long Thaylen eyebrows back over his ears. He and his wife dress finely, though his vest barely holds in his paunch.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Friendly to customers mostly as a sales tactic, he can be condescending. He is a slick salesman but truly knows his books, and Shallan suspects he can read, though he hides it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ]
+}

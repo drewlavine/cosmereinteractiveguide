@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed officer in Dalinar Kholin's warcamp on the Shattered Plains, valued for his sound advice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    },
+    {
+      "text": "A lighteyed Shardbearer and one of Dalinar Kholin's most trusted officers on the Shattered Plains.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "78" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Joining Dalinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1140, when Dalinar attacked his home, Teleb was ordered by his brightlord, Yezriar, to kill him, and hit Dalinar with an arrow from nearly four hundred yards. Impressed, Dalinar offered him a place in his army. Teleb reluctantly agreed, in exchange for his town being spared.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "3" }]
+        },
+        {
+          "text": "At the Rift, Teleb shot the soldiers trying to cut a bridge from under Dalinar, and Dalinar afterwards let him use Adolin's Plate until Adolin was old enough. Years later, left in command while Dalinar was ambushed, he believed him dead and planned a siege. When Dalinar returned, Teleb argued only weakly against burning the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "78" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the warcamps, Teleb was the officer on duty when a chasmfiend was spotted, and sent for Adolin. He suggested using man-carried bridges to reach contested plateaus faster, and Dalinar let him train one bridge crew to test the idea, though his first new design couldn't bear the chulls' weight.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "When Dalinar returned from the Battle of the Tower, he had Teleb put the whole camp on alert. Adolin also gave Teleb the Plate he had won in a duel with Eranniv, which Teleb painted it silver and wore it with a Shardhammer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "78" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Teleb served as a highlord on the expedition to find Urithiru and warned Dalinar of Rlain's approach. Given command of Sebarial's army in the Battle of Narak, he died while supporting Roion's troops. Captain Khal recovered his Blade, but his Plate was lost.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and straight-backed, with light green eyes, muscular arms and shoulders, and long hair worn in a braid. A blue tattoo on his cheek marks him as an Oldblood.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dalinar sees in Teleb the marks of a great officer: he obeys orders he disagrees with, yet still offers new ideas. He likes to show off by having the army drawn up in perfect order when Dalinar arrives.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "71" }
+          ]
+        }
+      ]
+    }
+  ]
+}

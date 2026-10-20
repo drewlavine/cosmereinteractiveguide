@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A Reacher spren in Shadesmar who captains a merchant ship crewed by other Reachers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Captain in Shadesmar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ico, who was born before the Recreance, picked up Kaladin, Shallan, Adolin, Syl, Pattern, Azure and Maya at Riino's lighthouse and carried them to Celebrant. He used their Stormlight to run a device that made drinking water from a bead of ice, sold them clothing, and refused to sail farther east because of tales of vanishing ships, advising them to stay in Shadesmar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "During an inspection of his ship at Celebrant, Ico was questioned by a Fused, who accidentally set the ship on fire while trying to frighten him, then dropped him onto the docks as his crew fled.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ico looks human but has metallic bronze skin, and eyes like bronze with holes for pupils. Shorter than an Alethi and sturdily built, he wears tan human clothes with many buttoned pockets.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Brusque and sparing with words, but kind, practical and helpful, explaining Shadesmar's ways to his passengers. He thinks humans can't be trusted with oaths, though he is embarrassed when he realizes it was rude to say so.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    },
+    {
+      "text": "He keeps his deadeye father locked in the hold so he won't wander overboard, and says his daughter ran off chasing foolish dreams.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ]
+}

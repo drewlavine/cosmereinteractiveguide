@@ -1,0 +1,348 @@
+{
+  "intro": [
+    {
+      "text": "A ragged man who stumbled into Kholinar carrying a Shardblade and a warning of the coming Desolation. Most take him for a madman, though some believe he is the Herald Talenel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the ten Heralds, the Herald of War. Left alone in Damnation by the other Heralds at Aharietiam, he returned to Roshar with his mind broken by torture to warn of the True Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "59" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the ten Heralds, the Herald of War, who endured millennia of torture alone, returned to Roshar to warn of the True Desolation, and made a last stand in Azimir.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "wind-and-truth", "chapter": "85" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talenel was born on Roshar more than seven thousand years before the True Desolation and became a soldier and bodyguard. His grandmother came from Ashyn, and he blamed Honor for its destruction. He once tried and failed to kill Cultivation, which warped his soul, and he was then barred from the front lines and from carrying weapons, becoming a horse keeper.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Nale proposed Taln as the tenth Herald after Hoid refused, arguing that he had dealt with the gods and would speak for the common people. When the future Heralds, Hoid and Honor came to him, Taln at first refused, but accepted once he learned of the suffering involved and that someone else would bear it otherwise. He swore to protect the people, not to Honor.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a Herald, Taln fought in Desolation after Desolation against the Voidbringers, training soldiers for each one. Between Desolations, and whenever he died in battle, he returned to Braize to be tortured, yet he never broke. When the Knights Radiant were founded, he became patron of the Stonewards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aharietiam",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Aharietiam, Taln held a passage by a northern waterway against impossible odds and was killed, the only Herald to die in that Desolation. Told by Honor that one Herald bound to the Oathpact might be enough, the others abandoned their Honorblades and left Taln to bear the Oathpact and the torture of Damnation alone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Arrival in Kholinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taln came back to Roshar and rushed to Kholinar, wild and ragged, with twigs and leaves in his beard. He cut through the city gate with his Blade to warn the Alethi that the Desolation was upon them, then collapsed. Wit had known when and where he would arrive and was waiting for him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "42" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bordin, one of Dalinar's trusted servants, brought the unresponsive Taln to the Shattered Plains, with Wit travelling part of the way. Dalinar and Elhokar questioned him but dismissed his claims to be a Herald. Dalinar sent him to his ardents' monastery and bonded his Shardblade himself as part of his investigation of Amaram.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Blade Taln carried into Kholinar was long, narrow and spike-like, but the one that reached the Shattered Plains was a wide, cleaver-like dead Blade that screams at a Radiant's touch. The Stormfather confirmed it was not an Honorblade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In his cell, Taln stayed unresponsive. Shallan visited on a secret errand and recorded his mantra; when she drew in Stormlight he shoved her into a wall and named her a Radiant before lapsing back. Amaram, drawn by Dalinar's rumour of hidden Shardblades, came to see him and became convinced he was a Herald.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Held by Amaram",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Narak, Amaram cut his way into Taln's cell to take him. When a masked assassin tried to kill Amaram with a blowgun, Taln caught both darts in his hands and examined one with interest before sinking back into his stupor. Amaram loaded him into a carriage bound for Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Amaram smuggled Taln through the Oathgate to Urithiru and then to Thaylen City, where he was kept in a tent against the city wall guarded by Sadeas soldiers. The Ghostbloods found out where he was, and Mraize passed this on to the Herald Shalash.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "99" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the battle, Ash slipped into Taln's unguarded tent but couldn't rouse him until Dalinar summoned a great pillar of light. Lucid, Taln felt only joy that the Heralds' betrayal had given mankind time to recover. The Stormfather and Dalinar recognised the two Heralds on the battlefield, but Taln's clarity soon faded. Afterwards, Jasnah identified them from Wit's drawings, and they went with Dalinar to the campaign in Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "99" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taln and Ash were kept in a hospital in Azimir. When Abidi the Monarch ordered his Fused to kill them, Taln fell silent, stood and drove Abidi to flee, then tore through dozens of Fused with his bare hands as Ash fought beside him. Both were killed, but together they destroyed almost every Fused in the city.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Taln is a tall, stoutly built, dark-skinned man with dark hair, dark brown eyes, a beard and calloused hands. On his return he was ragged, with broken nails, matted hair, leaves in his beard and only a cloth around his waist. Aware, he stands straight with wild eyes; in his stupor he sits slumped and dull-eyed. He speaks Alethi with a northern accent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "84" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Taln embodies what the Stonewards value: resolve, strength and dependability. Stubborn and self-sacrificing, he often died to win impossible battles and resisted torture for millennia to hold back the Desolations. On learning the other Heralds had betrayed him, he felt only joy at the time it had given mankind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Torture has badly damaged his mind. He spends most of his time repeating a mantra about the coming Desolation, rarely aware of his surroundings, though his battle reflexes remain and Surgebinding nearby can jolt him into brief lucidity.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Before the Oathpact, Taln was soft-spoken and caring, the least regal of the Heralds, and he took on the role of Herald so that no one else would have to suffer in his place.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+    }
+  ]
+}

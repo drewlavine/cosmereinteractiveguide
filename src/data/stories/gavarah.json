@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Three realms",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At twenty, Gavarah proposed the theory of the three realms. Jasnah Kholin pointed to this to show Shallan Davar that young people can change the world.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

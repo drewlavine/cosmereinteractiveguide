@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor on the Wandersail.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wandersail",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Klisn sailed on the expedition to Akinah. When the ship came through the strange storm around the island, he was so excited he drew an awespren, and Lopen sent him to tell Cord it was safe to come on deck.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He is good at cards and gets on well with Lopen, who thinks he has a good sense of humour.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ]
+}

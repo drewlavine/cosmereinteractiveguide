@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "The royal palace of Alethkar in Kholinar, where King Gavilar was assassinated.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Beside the palace stands the Monastery Dais, an almost perfectly circular platform housing the Kholinar ardentia, with the King's Chapel and the Circle of Memories, a room of eleven lanterns that ardents believe stand for the Silver Kingdoms and the Tranquiline Halls. The open-air People's Hall, with the Common Throne, is where the monarch addresses the city.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    },
+    {
+      "text": "The lower floors have broad corridors, while the upper floors, which hold the royal quarters, are narrow and cavernous. Unloading docks in the basement carry cargo up to the palace plateau.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    },
+    {
+      "text": "The Circle of Memories is really the chamber of Kholinar's Oathgate, and the whole dais is its platform.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+    },
+    {
+      "text": "Catacombs lie deep beneath the palace, long corridors around a central chamber lit by real fire. House Kholin's lighteyes are buried there, their bodies Soulcast to stone and stood upright along the walls.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before Gavilar's war of unification, the palace belonged to another branch of his family. After he and Dalinar took it, it became their seat, and once Gavilar was crowned, the seat of government of all Alethkar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "King Gavilar was assassinated in the palace by Szeth during a celebration of a treaty with the Parshendi.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "In the years between Evi's death and Gavilar's, Dalinar often went to the Beggars' Porch, a small patio at the back of the gardens where the homeless sought charity, to get drink from the beggars, since his family hid it from him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "88" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The siege of Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Navani left for the Shattered Plains, the Unmade Ashertmarn's influence fell over the palace. The queen threw food away to rot, held lavish parties and lost interest in ruling, until the ardent Pai was executed for denouncing her and riots broke out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-12" }]
+        },
+        {
+          "text": "After the riots, the queen recalled her guard into the palace, and anyone who went in never came out. A group of the Palace Guard who resisted were locked in a room, and when freed felt only days had passed rather than weeks.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        },
+        {
+          "text": "Elhokar's strike team failed to retake the palace. After the city fell, the Fused made it the centre of their operations and dug through its rubble for the Cryptic who was meant to bond Elhokar, but Wit found her first.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ]
+}

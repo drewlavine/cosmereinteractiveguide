@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "Inadara is an elderly scholar and scribe serving House Kholin, who relays Adolin's parley with Eshonai to Dalinar and Navani by spanreed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Inadara is a respected scholar and scribe serving House Kholin through the War of Reckoning and the beginning of the True Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Inadara went with Adolin when he posed as Dalinar to parley with Eshonai for a truce. She relayed the whole conversation to Navani and Dalinar by spanreed and whispered their advice to Adolin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
+        },
+        {
+          "text": "During the Battle of Narak, Inadara was assigned to help Shallan find the Oathgate and took command of the scouts. She suspected Pattern of being a Voidbringer, and he insulted her in return. She was dismissive when Shallan led the team to the platform she believed was the Oathgate, assuming somewhere so important could not be so visible.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+        },
+        {
+          "text": "Inadara was among the first into the Oathgate control chamber once it was opened, and was awed by it, admitting she no longer knew what was right or wrong. She noticed Renarin's distress during his vision, but Shallan's revelation as a Surgebinder and the journey to Urithiru left her utterly overwhelmed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Inadara regrouped and resumed her duties for Navani and the coalition. She led a team studying the tower's architecture and reported on its defences, air filtration, wells, oddly shaped rooms and murals of unusual creatures.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Inadara is an elderly, exceptionally thin lighteyed woman with short gray hair. Shallan thinks her wizened, like her father's ardents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She meets things she does not understand, like sapient spren and Radiants, with both suspicion and curiosity, and the upheaval of the True Desolation makes her question herself more often.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    },
+    {
+      "text": "Inadara is severe, set in her ways and used to being in charge, often pushing her own ideas. Terse but professional, she knows the customs of the Alethi nobility well, and Adolin counts her among House Kholin's most intelligent and loyal scribes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ]
+}

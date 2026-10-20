@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A noblewoman on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lady Meirav lived among the nobility of the Alethi warcamps.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

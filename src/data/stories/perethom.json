@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Dalinar Kholin's infantrylord on the Shattered Plains, in command of his foot soldiers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rathalas",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As one of Dalinar's highmarshals, Perethom had his men prepare oil and torches for a night assault on Rathalas, then led a bloody fight to take a section of the city wall before Sadeas and Teleb arrived to rout the last defenders. Dalinar then ordered the city burned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Shattered Plains he commanded Dalinar's infantry on the Shattered Plains. When a chasmfiend was spotted and the army prepared for a plateau run, he reported that his second and third battalions were on duty.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Perethom died with Havar, Ilamar and thousands of other Kholin soldiers at the Tower, after Sadeas betrayed Dalinar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,355 @@
+{
+  "intro": [
+    {
+      "text": "A device of Roshar powered by Stormlight held in gemstones, such as the spanreeds that let people write to each other across great distances.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "A device of Roshar that works by trapping a spren in a gemstone and stimulating it with metal, such as the spanreeds that let people write to each other across great distances.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "33" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Artifabrians, the makers of fabrials, are said to be only a few years from recreating Shardblades and Shardplate, but this has never come true. Their biggest step so far is Jah Keved's half-shards, shields that can withstand a Shardblade, perfected only in 1173.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "text": "Spanreeds, the most widespread fabrial, link two pens so that what one writes the other copies, letting people write to each other over long distances.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "Most fabrials can be used by anyone who knows how, unlike Surgebinding; some, like heating fabrials, even work without anyone using them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fabrials through history",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "way-of-kings", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The ancient Radiants knew less about modern kinds of fabrial than scholars today, though the stories exaggerate their fabrials.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "Fabrials have been known for centuries, but invention has sped up only recently: heating fabrials and spanreeds are just a few decades old. Most research happens in Alethkar and Jah Keved, with Navani Kholin as an important patron.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "How fabrials work",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "33" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "33" },
+                { "book": "rhythm-of-war", "chapter": "2" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "42" },
+            { "book": "dawnshard", "chapter": "5" },
+            { "book": "oathbringer", "chapter": "81" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A modern fabrial is made by trapping the right kind of spren in a specially cut gemstone. The metal frame around the gem stimulates the spren: pressing metal against a flamespren in a ruby raises or lowers heat.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        },
+        {
+          "text": "To trap a spren, artifabrians lure it to a gem with something it loves; the gem must hold some Stormlight, but not be full, and about seventy percent works best.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "33" },
+                { "book": "rhythm-of-war", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Once the spren is examining the gem, its Light is drained quickly using larger gems around it, and the spren is sucked inside. Which spren a gem can hold depends on its type and colour.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        },
+        {
+          "text": "Fabrials seem to work from their user's frame of reference: a spanreed used on a ship at sea passes on the ship's motion too, unless the user thinks of both spanreeds as sharing the same frame.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "5" }]
+        },
+        {
+          "text": "A fabrial used in a room lined with aluminium can't be sensed from outside, and a spanreed inside such a room loses its link with its partner.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "Raysium conducts Investiture, letting Light flow from one gem to another.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kinds of fabrial",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Khriss's Ars Arcanum sorts modern fabrials into three kinds. Altering fabrials change an attribute: augmenters increase it and diminishers decrease it; they work best on forces, emotions and sensations.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "Pairing fabrials are made in pairs that move together across great distances: conjoiners move in parallel, while reversers move opposite, so lifting one lowers the other. Pairing fabrials were discovered only recently.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "Warning fabrials, called alerters, detect things nearby and warn their user; some can sense approaching people while ignoring chosen ones. Their range depends on how much Stormlight is in the gem.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "Ancient fabrials, including Surge fabrials, don't fit these kinds and are grouped separately.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Metals",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "33" },
+                { "book": "rhythm-of-war", "chapter": "7" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "7" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Spren react to different metals in different ways, mostly in line with each metal's Allomantic power, and several fabrial gems can share one frame to do more complex things.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "33" },
+                { "book": "rhythm-of-war", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Zinc makes a captured spren manifest more strongly.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        },
+        {
+          "text": "Brass makes the spren withdraw and its power dim.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        },
+        {
+          "text": "Bronze makes the gem brighten to alert someone to something nearby.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pewter makes the gem express its attribute forcefully; it's used for augmenters.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        },
+        {
+          "text": "Tin diminishes nearby attributes; it's used for diminishers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+        },
+        {
+          "text": "Iron makes the gem attract nearby substances.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        },
+        {
+          "text": "Steel makes it push substances away, though artifabrians haven't yet worked out how to build repellers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Everyday fabrials",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "way-of-kings", "chapter": "10" },
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "82" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "10" },
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "16" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "27" },
+            { "book": "oathbringer", "chapter": "i-13" },
+            { "book": "oathbringer", "chapter": "99" },
+            { "book": "oathbringer", "chapter": "117" },
+            { "book": "dawnshard", "chapter": "8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some fabrials make heat, and painrials can dull pain: Navani shows an early painrial easing an ache in Adolin's hand.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Rosharan clocks are fabrials, in standing and hanging kinds, and many have bells that ring the hour.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        },
+        {
+          "text": "Some fabrials partly drain the Stormlight from gems to dim their glow, just for looks.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "Attractor fabrials draw in particular substances. Shallan sees one gathering smoke from a fire, and at the Battle of Narak Navani unveils one that draws water from the air into a globe around its garnet.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+        },
+        {
+          "text": "Clocks are expensive but becoming common, and Navani has managed to make one small enough to wear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "10" },
+                { "book": "words-of-radiance", "chapter": "49" },
+                { "book": "oathbringer", "chapter": "16" },
+                { "book": "rhythm-of-war", "chapter": "15" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The lifts of Urithiru run on conjoined fabrials and gears, drawing Stormlight from gems set in their railings; a lever sets the direction.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
+        },
+        {
+          "text": "Thaylen ships, including Rysn's Wandersail, carry fabrials that help steady them in a highstorm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        },
+        {
+          "text": "Moneychangers in Celebrant use devices that move Stormlight between gems.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+        },
+        {
+          "text": "Navani's vambrace for Dalinar holds a clock and a painrial; her own can switch the painrial to cause pain, for self-defence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "Rushu builds Rysn a chair that hovers, by pairing it with a heavy weight that's allowed to fall a little.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Surge fabrials",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "rhythm-of-war", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soulcasters are fabrials of two rings and a bracelet, joined by chains holding three gems across the back of the hand. They're used by touching a gem with the hand pressed against what is to be changed. Most can make only one small change, but about one in ten can make any change.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "In one of Dalinar's visions, the ancient Radiants use a fabrial of topaz and heliodor to heal injuries.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "The Oathgates are fabrials that use the Surge of Transportation to move everything on their platform to a paired Oathgate in an instant.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Ancient Surge fabrials were made by persuading Radiant spren to manifest in the Physical Realm, and work differently: a Soulcaster needs to be asked for help.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "117" },
+                { "book": "rhythm-of-war", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "Artifabrian",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "Freechair",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+    }
+  ]
+}

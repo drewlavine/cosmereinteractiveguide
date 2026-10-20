@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "The guard of House Kholin. Nearly wiped out at the Battle of the Tower, its survivors were folded in with the men of Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "After the Tower",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the betrayal at the Battle of the Tower nearly destroyed the Cobalt Guard, Dalinar used its remaining men to strengthen the King's Guard and took the men of Bridge Four as his new bodyguards, giving his cloak to Kaladin as their head.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "The surviving Cobalt Guardsmen accepted Kaladin as their captain without complaint. A few of the darkeyed originals began eating with Bridge Four and asked for its patches, but were told to keep their old patch on at least one shoulder as a mark of pride.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "16" }]
+        },
+        {
+          "text": "Even with the old Guard's survivors, Kaladin felt he lacked enough men to properly protect the Kholin family.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Emul",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the battle in Emul the Cobalt Guard defended Dalinar, fending off an attack by Nale and the Skybreakers with Cord's help, and afterwards formed a perimeter around Dalinar's tent.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "protected by them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "captain",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "16" }]
+    },
+    {
+      "characterId": "cord",
+      "role": "fought beside them",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+    }
+  ]
+}

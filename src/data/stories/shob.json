@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A former deserter in Vathah's band who serves as one of Shallan Davar's guards.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "42" },
+            { "book": "oathbringer", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Deserter and guard",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "oathbringer", "chapter": "77" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "27" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shob fought for an Alethi army on the Shattered Plains but deserted, joining Vathah's band of deserters in the Frostlands. When they planned to attack Tvlakv's caravan, Shallan Davar persuaded them to defend it against other bandits instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "oathbringer", "chapter": "77" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shob went with Shallan to the Shattered Plains, where his crimes were pardoned. In Urithiru he was one of twelve of the original deserters still alive and loyal to her, and stayed on as one of her guards, though she rarely gave them anything to do.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "27" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Shob is talkative and a hypochondriac who often claims to be dying, or to be turning into a Voidbringer because of a rash no one else can see. He is uncouth, loves cards and games and is good at pieces.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    }
+  ]
+}

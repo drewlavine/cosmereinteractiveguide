@@ -315,6 +315,9 @@ tab here once its section's first version ships.
       - [x] Mistborn Era 1 (183 characters: details and stories; art for
             the 32 with suitable Coppermind art, 54 pieces, persona-safe for
             Breeze, Clubs and the Lord Ruler)
+      - [x] The Stormlight Archive (1,017 more characters: details for all,
+            stories for all but 11 stub pages; portraits for 100; Time
+            Machine checked for the 62 majors only)
 - [ ] Spoiler filter: leave out characters the reader hasn't met yet
   - [x] Tag each character with where the reader first meets them (book
         and chapter; pilot characters only so far, the rest count as met)
@@ -638,6 +641,7 @@ Personal arcs and battles belong on character and journey pages.
         `loc_facts.py` (+ reviewed overrides) → `loc_emit.py`)
   - [x] Mistborn Era 1 content: 63 places with stories, 58 with Key facts
         or People (5 Era 1 places have no dated Coppermind text yet)
+  - [x] The Stormlight Archive: 70 Roshar places
   - [ ] The other series' places
   - [ ] Visitors (from Travels) alongside residents in People
 
@@ -673,7 +677,8 @@ Personal arcs and battles belong on character and journey pages.
     - [x] Ars Arcanum facts show from a book's first chapter (the appendix
           spoils nothing); the entry pipeline dates its citations that way
     - [ ] Written so far: The Sunlit Man's abilities (15) and every ability
-          first revealed in Mistborn Era 1 (23); the rest to do
+          first revealed in Mistborn Era 1 (23), and The Stormlight
+          Archive's (23); the rest to do
   - [ ] Gated like everything else: an ability (and who has it) only
         shows once the reader has reached where it's revealed
     - [ ] Stopgap to replace: list entries are dated by book and carry no
@@ -807,7 +812,8 @@ can become a template for other series. Data from importers in
       (altonchaney/cosmere-maps, MIT), which also has per-chapter routes
 - [x] The later Stormlight books for Kaladin (Words of Radiance to Rhythm
       of War: 39 events, each hand-written and dated)
-- [ ] The other Roshar characters the source tags
+- [x] The other Roshar characters: 13 more (Shallan to Rysn), 221 events
+      including Wind and Truth for 9
 - [ ] Routes between stops rather than straight lines (e.g. cosmere-maps'
       Stormlight paths), and stops at a finer scale on child maps
       (Shattered Plains, Kharbranth...)

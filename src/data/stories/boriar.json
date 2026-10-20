@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A highprince of Jah Keved.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Veden succession war",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After King Hanavanar was assassinated by the Assassin in White, Boriar was one of the highprinces who fought over Jah Keved, and a rival of Highprince Valam. He was defeated and killed. The newly crowned Valam, not knowing this, wondered what Boriar would think of him naming King Taravangian his heir, until Taravangian told him the other highprinces were dead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

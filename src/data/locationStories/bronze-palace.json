@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The seat of Azir's government in Azimir and home of the Azish emperor, the Prime Aqasix, where everything has been Soulcast into bronze.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Everything within the palace, from plants and rocks to the buildings themselves, has been Soulcast into bronze, including purely decorative trees.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "Inside the main building, lamps and chandeliers filled with gemstones light rooms covered in patterned Azish rugs and tall, wide corridors hung with paintings.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "A tall wall encircles a complex of rounded, rockbud-like buildings coated in metal leaf and topped with spires. Wide roads run between them, along with gardens of Soulcast plants and a sculpture garden where officials meet; they travel between buildings by chull-pulled rickshaw.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "65" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The palace stands a short way from the Grand Market in the centre of Azimir. Petitioners who may not see the Prime wait in a small outbuilding near the entrance, furnished with a long table and couches patterned in orange and red.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No one knows when the palace was built, or when it was Soulcast into bronze as proof of Azir's wealth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "In 1173, Prime after Prime was assassinated on the palace grounds by the Assassin in White. During that time, Lift, Gawx and the rest of Huqin's crew tried to rob the palace, and Gawx ended up as the new Prime Aqasix.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "After the Everstorm, Dalinar Kholin came to the palace to persuade Azir to join his alliance. He was not allowed to meet the Prime, but the essays he brought convinced the viziers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        }
+      ]
+    }
+  ]
+}

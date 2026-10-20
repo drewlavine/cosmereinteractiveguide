@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "Kaladin's sergeant and second-in-command while he is a squadleader in Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's squad",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "62" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before a battle, Dallet helped Kaladin scan the field and found the new recruit Cenn, giving him veteran advice and steering him back into formation. During the fighting he stayed with the wounded while Kaladin attacked a lighteyed officer, and Kaladin looked back to see Dallet cut through the head by an enemy Shardbearer's Blade.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "The Shardbearer who killed Dallet was Helaran Davar, who had been given his Blade and Plate by the Skybreakers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "62" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A weathered, mountainous darkeyed man with a gruff voice, he has a short full black beard speckled with grey.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Confident in himself and in Kaladin's leadership, he seems to know Kaladin well, and holds that part of a sergeant's job is keeping his squadleader alive.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+    }
+  ]
+}

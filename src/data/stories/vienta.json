@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren bonded to the Windrunner Sigzil.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bond with Sigzil",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the True Desolation, Vienta was bonded by Sigzil, who swore at least the Third Ideal.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Siege of Narak",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "67" },
+            { "book": "wind-and-truth", "chapter": "74" },
+            { "book": "wind-and-truth", "chapter": "90" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sent with Sigzil to defend the Shattered Plains, Vienta helped him fight a new kind of Fused whose thick skin turned weapons aside. After studying one, she told him to use four Lashings in quick succession, giving him the speed to pierce and kill it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "67" }]
+        },
+        {
+          "text": "When Sigzil's squire Deti died in battle, Vienta warned Sigzil to regroup and retreat, reminding him he couldn't bring Deti back, and Narak Four fell to the enemy.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "74" }]
+        },
+        {
+          "text": "Defending Narak Three, Vienta thought it unlikely they would hold out for the remaining days. When Moash appeared, she realised his new crystal eyes could see spren, and he killed Leyten's spren, Ethenia, which hit Vienta hard.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        },
+        {
+          "text": "Moash then ambushed Sigzil with an anti-Stormlight device. When Moash moved to strike Vienta, Sigzil renounced his oaths to save her, leaving her a deadeye.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Night of Sorrows",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Healed by what happened at the End of All Things, Vienta understood why Sigzil had broken their bond, but when he sought her out in Shadesmar she refused to see him, sending a message instead.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small woman shrouded in flowing robes that drift around her, so that only her eyes show. When pleased, she blurs, or 'fuzzes'.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "47" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Shy and analytical, Vienta can judge distance and momentum at a glance and solve problems almost instantly, feeding Sigzil data in the heat of battle. Other honorspren have teased her for it, but Sigzil thinks it amazing, though she'd rather people didn't know it was her.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    }
+  ]
+}

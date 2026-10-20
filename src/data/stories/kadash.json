@@ -1,0 +1,134 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi ardent who serves at the main temple in Dalinar Kholin's warcamp on the Shattered Plains, and whom Adolin turns to for advice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "An Alethi ardent who oversees Dalinar Kholin's Soulcasters. He was a soldier before changing his Calling, and tutored Adolin as a boy.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An Alethi ardent who was once one of Dalinar Kholin's elite soldiers, before changing his Calling and joining the ardentia after the burning of Rathalas.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Service on the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "35" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After years as a soldier, Kadash changed his Calling and joined the ardentia, rising to oversee the Soulcasters owned by Dalinar Kholin's family. He tutored Adolin as a child, and after King Gavilar's assassination he dismissed the guards' talk of the assassin's powers as shock.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "35" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On the Shattered Plains, Adolin asked Kadash whether Dalinar's visions could come from the Almighty. Out of loyalty to Dalinar, Kadash would not answer directly, but he recalled the false visions of the Hierocracy and suggested the visions were unlikely to be divine.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "That year, Kadash oversaw the Soulcasting of stone windbreaks so Dalinar's camp could expand. When Adolin told him about Szeth's attempt on Dalinar and his Radiant-like powers, Kadash was shocked and agreed to research the Radiants' abilities.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Service in Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After moving to Urithiru, Kadash clashed with Dalinar over his claim that the Almighty was dead. He refused to marry Dalinar and Navani, though he attended when they were married anyway. When Dalinar challenged him to a sparring match, Kadash demanded that he recant, and lost the bout.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "Kadash went with Dalinar to the abandoned warcamps, where he admitted he had held back from answering the Vorin leaders until he had read new translations of the Dawnchant, showing Dalinar that he did not think him mad.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "During the Battle of Thaylen Field, Kadash was in Thaylen City, relaying news by spanreed from Urithiru that its forces could not break through to reinforce the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kadash is a tall man with light violet eyes and a twisting scar around the top of his shaved head. He wears the square beard and gray robes of an ardent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kadash is a man of deep faith who rose quickly through the ardentia. He is ashamed of Vorinism's past failures and distrusts prophecy. Calm and observant, he becomes uneasy when talk turns to Surgebinding or the return of the Radiants, and he is still haunted by his years of fighting.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He is humble and defers to lighteyes, believing they must keep the ardents from overreaching. He is loyal to Dalinar and his family and cares about the spiritual well-being of his congregation, especially Adolin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

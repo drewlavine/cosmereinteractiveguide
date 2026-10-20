@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Shin Stone Shaman who heads Taln's monastery in Shinovar and carries Taln's Honorblade.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "68" },
+            { "book": "wind-and-truth", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "141" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Szeth attacked raiders from Steen, the General sought the advice of Rit, three Honorbearers and the Farmer on what to do with him. When the Voice spoke to the Honorbearers on Szeth's behalf, Pozen sent Rit, the General and the Farmer away.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        },
+        {
+          "text": "As head of Taln's monastery, Rit received Taln's Honorblade and became an Honorbearer, ruling the monastery and its surrounding land. In Palahanah 1175, Szeth and Kaladin made her monastery their first stop in Shinovar, and Szeth killed her.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "Over the following days Rit was reborn in another Shin person's body. With Ishar and the other Honorbearers she attacked Szeth at the Bondsmith monastery and nearly killed him, but he swore his Fifth Ideal and killed the Honorbearers with Nightblood, ending them permanently.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A middle-aged Shin woman with grey hair that may once have had some blond in it, she wears the plain grey robes of a Stone Shaman without any splash of colour.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+    }
+  ],
+  "personality": []
+}

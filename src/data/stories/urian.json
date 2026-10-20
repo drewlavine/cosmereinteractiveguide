@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Veden highprince, one of many appointed by King Taravangian after the old nobility was wiped out in the civil war.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War council",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a war council in Urithiru's Gallery of Maps, Urian argued for defending a fertile, storm-sheltered strip of Veden land east of the Horneater Peaks, saying it could be a base for recruiting Horneaters and would expose Jah Keved if lost. Dalinar, who had fought there, agreed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, with short black hair, he is prim and wears an Alethi-style military uniform.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He uses the honorific Nan as a firstborn and speaks more than his younger brother; he knows some military strategy and speaks Alethi.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}

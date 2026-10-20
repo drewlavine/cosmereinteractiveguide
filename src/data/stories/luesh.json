@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "A member of the Davar household in Jah Keved who knew how to work the family's secret Soulcaster, and who died in his sleep soon after Shallan left home.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "A steward of House Davar in Jah Keved, and a member of the Ghostbloods.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Davar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "29" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "74" },
+                { "book": "words-of-radiance", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Luesh joined the Davar household and quickly became Lin Davar's confidant. He was trained to use an illicit Soulcaster, which he probably supplied, and with Lin and a surveyor he created false marble deposits on Davar land, restoring the family's fortunes and Lin's standing in Valam's princedom.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Lin died, his children found the Soulcaster broken, and Luesh could not make it work. Once Shallan had set out to steal Jasnah's Soulcaster, Balat wrote that Luesh had died in his sleep with a pendant bearing a strange symbol, and that men with the same symbol tattooed on them had come demanding the fabrial. Balat concluded Luesh had been a plant all along.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Shallan found the same symbol tattooed on Kabsal's arm, and Jasnah believed it belonged to the Ghostbloods. Shallan feared her father had been one of them, and she confirmed the group existed once she met Mraize.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "74" },
+                { "book": "words-of-radiance", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has a wrinkled, leathery face with deep frown lines.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "74" },
+            { "book": "words-of-radiance", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He won the trust of the Davar children even while deceiving them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "74" },
+            { "book": "words-of-radiance", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ]
+}

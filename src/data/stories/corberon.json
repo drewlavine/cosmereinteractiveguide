@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Someone who lived on Roshar before the Recreance.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Recreance",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Corberon lived in the time before the Recreance.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

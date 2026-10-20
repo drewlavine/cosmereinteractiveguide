@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed man from Hearthstone who grew up with Kaladin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood in Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "way-of-kings", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jest was born to a farming family of the fourth or fifth nahn; his father had served as a soldier. Kaladin thinks of Jest's name as a solid Alethi darkeyes name, unlike his own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "As a child Jest worked in the lavis fields with the other darkeyed children, keeping diggerworms off the polyps, and played with his brother Jost and their friends. They resented Kaladin for staying indoors, not realizing he studied all day. In 1166 Jest watched Kaladin fight Jost.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

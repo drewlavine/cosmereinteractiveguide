@@ -1,0 +1,110 @@
+{
+  "intro": [
+    {
+      "text": "A mysterious being who lives in the Valley, in the west of Roshar, and gives those who seek her out a boon along with a curse.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    },
+    {
+      "text": "A powerful spren bound to the Valley, who grants each person who seeks her out a single blessing and a single curse.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A powerful spren bound to the Valley who grants blessings and curses through the Old Magic, and one of the three great spren able to bond a Bondsmith.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Known visitors",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "i-12" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "i-7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar went to the Valley after the death of his wife, Evi, and asked to be forgiven, which confused the Nightwatcher. Cultivation stepped in and took away his memories of Evi so that he could heal, letting them return over time; until then he heard only a hiss whenever her name was spoken.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "61" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Taravangian asked her for the capacity to save humankind. Since then his intelligence has changed from day to day, and his compassion moves the opposite way: on his cleverest days he feels almost nothing, and on his dullest he is easily moved to tears.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "i-12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During a lurnip famine, Av's father went to the Nightwatcher and received a heap of good cloth, which he sold to keep his family fed. His curse was to see the world upside down, though he grew used to it. One of Av's brothers, too embarrassed to say what he had asked for, lost all feeling in his hands.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In the Physical Realm she appears as a dark green mist in a rough human shape, pulling herself along the ground with overlong arms and leaving a trail of twisting vapour behind her. Only her face is detailed: smooth and feminine, with silken black eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "i-5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She can grant almost any physical request, from wealth and skill to Shardblades, but gives the boon she feels a person deserves rather than what they ask for, however carefully they phrase it. She struggles with vague requests about human feelings.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "oathbringer", "chapter": "114" }
+          ]
+        }
+      ]
+    }
+  ]
+}

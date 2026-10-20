@@ -1,0 +1,61 @@
+{
+  "intro": [
+    {
+      "text": "Zabra is a young Azish girl who tries to enlist to defend Azimir, and whom Adolin makes a messenger instead.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+    },
+    {
+      "text": "Zabra is a young Azish Shardbearer and a member of the Unoathed.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Battle of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "60" },
+            { "book": "wind-and-truth", "chapter": "80" },
+            { "book": "wind-and-truth", "chapter": "134" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Zabra tried to enlist for the Battle of Azimir dressed as a boy, but was turned away for being too light. She argued with Adolin, citing the Azish tale of Aqqil, until a demonstration convinced her not to stand in a shield wall. Adolin gave her his knife and a post as a messenger under May Aladar, with the chance to train with a bow.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "60" }]
+        },
+        {
+          "text": "Two days on, Adolin found her struggling to draw a bow and explained that the heavy draw was needed to pierce carapace. Comparing herself with May and with Yanagawn, she joked about killing a Shardbearer, perhaps Adolin, for his Plate, before being sent off with a message.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "When the dome in Azimir fell, Zabra joined Adolin's group crossing the city to retake the palace throne room, and was trapped outside while he dueled Abidi. Once Adolin won and allied with the forgotten deadeyes, Zabra took up Shards as one of the Unoathed and helped hold the throne room.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        },
+        {
+          "text": "A month and a half on, Zabra had settled in as an Unoathed Shardbearer, on familiar terms with Emperor Yanagawn, to the distress of the vizier Noura.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Zabra is obviously young, light and willowy, though not much shorter than a typical Azish soldier.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+    },
+    {
+      "text": "As one of the Unoathed she wears hokra marking her rank as a Shardbearer, and keeps her hair in braids.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Zabra is determined and outspoken, arguing with Adolin to be allowed to fight and joking about winning Shards of her own.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+    }
+  ]
+}

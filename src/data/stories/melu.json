@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A listener who held some command in the listener army at Narak.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "oathbringer", "chapter": "i-6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the listeners",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "68" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "oathbringer", "chapter": "i-6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Melu was one of the first volunteers to take warform when the Five allowed it. When another family threatened her city she wanted to seize the family's Shards, but Eshonai stopped her and ended the conflict with a show of strength. Melu was annoyed not to prove herself, but agreed Eshonai's way was better.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "68" }]
+        },
+        {
+          "text": "At Narak Melu helped Venli and Eshonai count the listeners as all of them took stormform. She survived the battle that followed and was with Venli's group when she asked Ulim whether they should shelter from the Everstorm; then the Fused Aharat took her body.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-11" },
+                { "book": "oathbringer", "chapter": "i-6" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

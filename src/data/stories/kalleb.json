@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner squire to Sigzil.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Second Battle of Narak",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "81" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kalleb fought in the Windrunners' clash with enemy Skybreakers at Narak Prime. He and Fent checked on Sigzil during the battle, and he saw that the ploy to draw the enemy toward Narak Three was working.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        },
+        {
+          "text": "He and other squires went with Sigzil to a platform where Moash had laid a trap. Moash's fabrial stopped their Surgebinding, and all the squires had to retreat.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has a short dark beard and a squire's usual abilities, including healing and Lashings.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+    }
+  ],
+  "personality": []
+}

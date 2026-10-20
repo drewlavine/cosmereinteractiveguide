@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A woman in Dalinar Kholin's warcamp whose maps Shallan has borrowed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "69" }]
+    },
+    {
+      "text": "A lighteyed cartographer among Dalinar Kholin's scholars.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "text": "A lighteyed Alethi cartographer in Urithiru who charts courses for the Fourth Bridge.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan had been using maps borrowed from Velat, so she had none with her when she and Kaladin were stranded in a chasm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "69" }]
+        },
+        {
+          "text": "As Dalinar's expedition approached Narak, Velat worked with Inadara and Isasik to interpret a map of the inner Shattered Plains drawn by Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Velat moved to Urithiru and kept working as a cartographer for the coalition. Though uneasy about flying, she joined early missions of the Fourth Bridge as the best mapmaker available, charting its courses with the engineers and tethering herself to the deck. She also supplied maps to others, including Dieno enne Calah.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A middle-aged woman who wears her hair in tight braids.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Navani thinks she tries to mother everyone around her.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A young granddaughter of King Taravangian of Kharbranth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trapped in the Conclave",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "way-of-kings", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a highstorm, a rockslide trapped her, her nursemaids and several servants in a room of the Conclave. Taravangian asked Jasnah Kholin to Soulcast the stone blocking the door, and Jasnah freed them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        },
+        {
+          "text": "She recovered well, though afterwards she avoided the Conclave's narrower passages. That same year her grandfather gave her a portrait of himself drawn by Shallan Davar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Still young enough not to need a modesty sleeve; she is looked after by several nursemaids.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "personality": []
+}

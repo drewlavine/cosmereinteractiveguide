@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed boy living in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+    },
+    {
+      "text": "A darkeyed boy in Urithiru who works for his father, the potter Alalan, and dreams of becoming a Windrunner.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adin worked for his father, a potter, though his bowls often came out lopsided. Before the tower was invaded he fell down the stairs pretending to be a Windrunner, and Kaladin bandaged his ankle.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Hoping to earn a spren, Adin followed his father to a battle in the tower. He hid at first and joined the fight only after his father was wounded; both survived, saved by Dabbid and Kaladin.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Adin is a thirteen-year-old darkeyed boy.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Adin is brave and hopes his courage will attract an honorspren. He glares at passing Regals when they aren't looking, and worries that any sign of weakness might scare off a spren.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+    }
+  ]
+}

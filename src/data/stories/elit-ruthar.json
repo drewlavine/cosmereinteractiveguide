@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi lighteyed duellist on the Shattered Plains, always overshadowed by his cousin Relis.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    },
+    {
+      "text": "An Alethi lighteyed duellist and Shardbearer, cousin of Relis Ruthar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "50" },
+            { "book": "words-of-radiance", "chapter": "53" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elit came to the Shattered Plains for the War of Reckoning and duelled there, never rising high in the rankings and always in Relis's shadow. Relis gave him a set of Shardplate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        },
+        {
+          "text": "When Relis turned down Adolin's offer of several Shards against one, Elit accepted it himself, revealing his ambition and warning Adolin that Relis meant to kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "50" }]
+        },
+        {
+          "text": "In the duel, Elit expected Adolin's usual recklessness, but Adolin fought with precise form, cracking Elit's Plate until it ran out of Stormlight, and simply pushed him over to win.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "Days later Elit joined Relis and two others against Adolin in a disadvantaged duel, beating on him even as he tried to yield. Once Renarin and Kaladin joined in, Adolin broke Elit's breastplate and Kaladin forced him to yield, bringing shame to House Ruthar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Balding and shorter than most Alethi men, with thin lips that whiten when he smiles.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ambitious, reckless in his hunger for a Shardblade, and confident in his skill, he secretly resents Relis and can be spiteful when humiliated.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+    }
+  ]
+}

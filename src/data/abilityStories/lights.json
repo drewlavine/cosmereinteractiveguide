@@ -1,0 +1,250 @@
+{
+  "intro": [
+    {
+      "text": "The glowing light held in gemstones on Roshar. Stormlight is the best known.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "text": "The glowing Investiture of Roshar's Shards, held in gemstones: Stormlight, Voidlight and Lifelight, and blends of them.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Stormlight glows inside gemstones, and Szeth draws it in to fuel his powers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "text": "Roshar has three pure Lights, one from each of its Shards: Stormlight from Honor, Voidlight from Odium and Lifelight from Cultivation.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Pure Lights",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "76" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stormlight glows white with a faint blue tint, and through a prism gives a rainbow with a wide blue band. Its rhythm is stately.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        },
+        {
+          "text": "Voidlight came to Roshar only in Desolations, given by Odium to servants who sang the Song of Prayer. It leaks from gems far more slowly than Stormlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rushu calls Voidlight's purple-on-black glow \"hyperviolet\". Its rhythm is chaotic, but with a certain logic to it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        },
+        {
+          "text": "Lifelight, Cultivation's Light, may be the rarest. Lift alone can make it, from food. It glows white with a faint green tint and helps plants grow even better than Stormlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Blended Lights",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "69" },
+            { "book": "rhythm-of-war", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "84" },
+            { "book": "rhythm-of-war", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Towerlight is the light of the Sibling, a blend of Honor's and Cultivation's Light. It glows a soft blue-green.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        },
+        {
+          "text": "Towerlight's rhythm, the Rhythm of the Tower, joins Cultivation's growing energy with Honor's calm order. Through a prism it splits into two rainbows, one with a wider blue band and one with a wider green.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        },
+        {
+          "text": "Only the Sibling and their Bondsmith can make Towerlight; it needs the Sibling to hear both Cultivation's song and Honor's, which Navani gives them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        },
+        {
+          "text": "Navani and Raboniel make Warlight, a blend of Stormlight and Voidlight, in a gem vibrating to the Rhythm of War, made from the harmony of their two songs. It seems to need both a human and a singer to make.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+        },
+        {
+          "text": "Warlight glows a vivid black-blue. In a gem it swings between swirling like a storm and falling calm, and its rhythm is a burst of chaotic notes held in by a steady pulse.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+        },
+        {
+          "text": "No Light blending Odium and Cultivation is known, but Venli tunes to a rhythm of those two Shards, so one probably exists.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Anti-Light",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "104" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Light and its anti-Light destroy each other on contact, perhaps more violently under pressure, as inside a gemstone.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Anti-Light behaves much like ordinary Light, but must be made with Intent: the Light is cut off from its Shard's tone, in a vacuum, and drawn to a gem vibrating to the opposite tone.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "To a human the song of anti-Voidlight sounds the same as Voidlight's, but to a Fused it is unbearable.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Gavilar Kholin obtained a sphere of anti-Voidlight before his death, and it leads Navani to work out how to make anti-Light.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Anti-Voidlight glows faintly violet-black and warps the air. Touched to the soul of a Fused or other being of Odium, it destroys the Voidlight there and kills them for good.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Raboniel then makes anti-Stormlight. It harms beings Invested by Honor as anti-Voidlight harms those of Odium, and with Raysium weapons it can kill Radiant spren, breaking their bonds.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Properties",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "65" },
+            { "book": "rhythm-of-war", "chapter": "32" },
+            { "book": "rhythm-of-war", "chapter": "3" },
+            { "book": "rhythm-of-war", "chapter": "42" },
+            { "book": "rhythm-of-war", "chapter": "69" },
+            { "book": "rhythm-of-war", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lights behave a little like light and a little like liquids and gases, but are none of these.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+        },
+        {
+          "text": "Through a prism, a Light makes an impossible rainbow, with one colour band far wider than the rest.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+        },
+        {
+          "text": "Light moved between gems by sound follows the sound, much as liquid flows through a siphon.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "65" }]
+        },
+        {
+          "text": "How long a gem holds Light depends on the Light and the gem. Gems dim slowly at first and then fast, and perfect gems are said to hold Light for ever.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "32" }]
+        },
+        {
+          "text": "Before the True Desolation, ways of moving Stormlight from gem to gem were closely kept secrets of artifabrians.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        },
+        {
+          "text": "The Arnist Method drains Light from a small gem into several larger empty ones of the same kind.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        },
+        {
+          "text": "The Vriztl Guild of Thaylenah moves Light with tuning forks: a gem made to vibrate to a Light's pure tone leads a line of Light from a full gem into an empty one.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        },
+        {
+          "text": "Like the Shards it comes from, Light has Intent.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tones and rhythms",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "76" },
+            { "book": "rhythm-of-war", "chapter": "97" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Each Light vibrates to the pure tone of its Shard and to that Shard's rhythm; together they are called the Shard's song.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        },
+        {
+          "text": "Singing or playing a Light's tone and rhythm can draw it in. Raboniel thinks Light answers to sound because it recalls its Shard's voice.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        },
+        {
+          "text": "Each pure tone has an opposite, made with Intent, which pushes its Light away instead of drawing it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Odium's tone and its opposite sound the same to a human, but to a Fused the opposite is deeply unpleasant.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lift",
+      "role": "Makes Lifelight",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Light researcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "characterId": "raboniel",
+      "role": "Light researcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "84" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "Named hyperviolet",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "Anti-Voidlight sphere",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ]
+}

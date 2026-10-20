@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A villager of Hearthstone in Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Marf made his home in the town of Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

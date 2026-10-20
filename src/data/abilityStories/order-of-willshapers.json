@@ -1,0 +1,120 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant, varied but sharing a love of adventure, novelty and oddity, and thought by some capricious and unreliable.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "50" }]
+    },
+    {
+      "text": "An order of the Knights Radiant who use Transportation and Cohesion and focus on freedom, self-expression and freeing captives.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "60" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorin theology associates them with the number eight, the amethyst polestone, the Essence of Foil and the Divine Attributes Resolute and Builder.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Willshapers use the Surges of Transportation and Cohesion.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "They focus on personal fulfilment, radical self-expression, and freeing those who are captive.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "50" },
+            { "book": "words-of-radiance", "chapter": "i-7" },
+            { "book": "words-of-radiance", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Willshapers varied in personality, but generally enjoyed discovering new and strange things; some found them capricious and unreliable.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "50" }]
+        },
+        {
+          "text": "In peace, they used their powers to construct buildings and infrastructure and train the people living there; in war, they fortified towns.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }]
+        },
+        {
+          "text": "Like the Elsecallers, they were thought to have an affinity for Shadesmar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Venli practises her powers as a Willshaper by shaping stone; three other spren like hers want to bond her squires.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        },
+        {
+          "text": "Venli brings a Reacher to the listeners, hoping the spren will bond her mother.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cohesion lets a Willshaper make stone malleable, like clay or even liquid, and connects them deeply to the spren of the stone.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        },
+        {
+          "text": "Like most Radiants, Willshapers have squires.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        },
+        {
+          "text": "Willshapers who are also Regals are highly resistant to fabrials that stop Radiants from Surgebinding.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Transportation and Cohesion",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "venli",
+      "role": "Willshaper",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "The capital of the honorspren in Shadesmar, the city where Syl grew up.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "The honorspren capital in Shadesmar, a tall hollow fortress of blue stone on a cliff above the bay that mirrors Tukar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The fortress is several hundred feet tall, a roofless rectangle of blue stone standing on end, with sheer windowless outer walls and battlements on top.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+    },
+    {
+      "text": "Inside, every wall has its own gravity, so buildings stand on all four inner walls, joined by stone walkways. Gardens on the southern wall keep Physical Realm trees alive with Stormlight.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+    },
+    {
+      "text": "Lasting Integrity cares for deadeyes found nearby, feeding them Stormlight, though it has to turn some away for lack of space.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+    },
+    {
+      "text": "It is governed by honorspren including six of the ten oldest, made by the Stormfather after the Recreance. Older honorspren want isolation; many younger ones want to join the war.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "36" },
+            { "book": "rhythm-of-war", "chapter": "90" },
+            { "book": "rhythm-of-war", "chapter": "94" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Syl grew up in Lasting Integrity and disliked it; after she slipped away to bond Kaladin, the honorspren offered a large reward for her return.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "In 1174 the fortress closed its gates to nearly all outsiders, though the Herald Kalak came and went as he pleased.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        },
+        {
+          "text": "In 1175, a delegation from Urithiru led by Adolin and Shallan came to ask the honorspren to bond humans again. Rebuffed, Adolin gave himself up to be tried for the Recreance.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        },
+        {
+          "text": "The trial was held in the fortress's forum, with Kalak as High Judge.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
+        },
+        {
+          "text": "On the last day, Maya spoke herself, declaring that the deadeyes had chosen to give up their bonds. Shocked, the honorspren left the forum.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        },
+        {
+          "text": "After the trial, the isolation policy was dismantled, and the leaders' credibility was badly damaged.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    }
+  ]
+}

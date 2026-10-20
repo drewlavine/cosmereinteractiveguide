@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Shardbearer who lost his dueling title to Relis Ruthar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dueling",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Epinar dueled Relis Ruthar and lost, giving up his title.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

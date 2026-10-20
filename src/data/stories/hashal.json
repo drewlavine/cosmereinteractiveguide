@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "Brightness Hashal, a lighteyed woman in Highprince Sadeas's warcamp who speaks for her husband, Brightlord Matal, as overseer of the bridge crews.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Buying slaves",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Shattered Plains, Hashal met the slaver Tvlakv and quickly bargained down his price. Inspecting the slaves, she was intrigued by Kaladin's build and shash brand. When Tvlakv revealed Kaladin was a deserter and Kaladin lashed out, she sent him and nine others to the bridge crews, ordering special treatment for him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Running the bridge crews",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "59" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "way-of-kings", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the officer Lamaril was executed, Hashal's husband Matal took over the bridge crews, though she gave the orders. She took over scheduling to punish Bridge Four, putting it on permanent chasm duty, sending no new men except a parshman, and making it scavenge on bridge-run days. When Gaz vanished, she handed out the schedules herself and ignored all questions about him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "59" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kaladin saw that Hashal simply wanted Bridge Four dead; his men suspected Sadeas had ordered it. But Bridge Four kept surviving and winning the couple praise from Sadeas, so she couldn't remove Kaladin. She took credit for the crew's carapace armor, and Kaladin tricked her about its rarity to lower their scavenging quota.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "After Bridge Four saved Dalinar Kholin at the Battle of the Tower, Kaladin thought Matal might be executed as Lamaril had been. What became of Hashal and her husband is not known.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Pale blue eyes and dark hair in a complex weave set with glowing gemstones. She wears ruby-red nail polish and richly embroidered silk havahs, and has an air of importance.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Speaks with a smooth Kholinar accent; she and her husband are of high dahn and close to Highprince Sadeas.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "text": "Imperious, vindictive and ruthless, she flaunts her wealth, travels by palanquin and treats darkeyes and lesser lighteyes as barely human. Bridgemen's lives mean nothing to her.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    }
+  ]
+}

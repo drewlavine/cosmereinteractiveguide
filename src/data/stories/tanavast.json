@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "The god of humanity on Roshar, who loved mankind and died defending them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "75" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "11" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The original Vessel of the Shard Honor, who was a tanner on Yolen before his Ascension.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Shattering",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "104" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tanavast was born on Yolen more than ten thousand years before the Night of Sorrows, and lived as a tanner. At some point he made a belt for Rayse, who became his rival.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+        },
+        {
+          "text": "Tanavast met Hoid, who thought well of him, and came to believe that Adonalsium had to be Shattered for its own good, eventually joining the conspiracy to kill it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Shattering",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "3-2" },
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "3-2" },
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tanavast was one of the seventeen people who Shattered Adonalsium, and Ascended as the Shard of Honor. He and his lover, Koravellium Avast, moved to Roshar, and both Invested the planet equally.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
+        },
+        {
+          "text": "As the god of humanity on Roshar, Tanavast comforted mankind whenever they learned the truth of the Desolations. Late in his life he began to go mad, raving that humans would destroy Roshar as they had Ashyn, and caring more for oaths than their meaning. Even so, he died defending humanity.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "3-2" },
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Those who met Tanavast think well of him; he seems to be the only original Vessel Hoid likes, and Hoid calls him a decent person.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Tanavast was fond of dogs, and stayed so after his Ascension.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+    },
+    {
+      "text": "He came to love the mathematics in nature, finding Honor in them, and believed that oaths too could be written as equations.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "104" }]
+    }
+  ]
+}

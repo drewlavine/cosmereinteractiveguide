@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A spindly man in Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Murk served as a bridgeman in Bridge Four.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

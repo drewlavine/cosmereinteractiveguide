@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "Lanacin the Surefooted, a figure from Rosharan history.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+    },
+    {
+      "text": "Lanacin the Surefooted, a figure from Rosharan history who is said to have killed a Shardbearer and won a Shardblade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin knew Lanacin's story. To him, the tales of men like Lanacin and Evod Markmaker showed that darkeyes in Alethkar had fewer chances to rise than they once did.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

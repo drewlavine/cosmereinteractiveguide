@@ -1,0 +1,88 @@
+{
+  "intro": [
+    {
+      "text": "Yalb is a young Thaylen sailor, a crew member of the Wind's Pleasure.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wind's Pleasure",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "8" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "oathbringer", "chapter": "82" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yalb travelled on the Wind's Pleasure with Shallan, and the captain sent him to escort her to the Kharbranth Conclave to meet Jasnah. Shallan came to trust him, paying him a ruby mark to wait. When Jasnah turned her away, he persuaded her to try again, found her a book merchant and got her a much better price.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Jasnah then hired Yalb's crew to take her and Shallan to the Shattered Plains, and Yalb helped Shallan go underwater to see a santhid. When assassins attacked the ship and it sank, Yalb was presumed dead, though Shallan sketched him and other crewmen climbing out of the water onto a rocky shore.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "oathbringer", "chapter": "82" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Yalb survived the sinking with two other sailors. Rumours that the Wind's Pleasure was a ghost ship kept the survivors from finding work together, so he joined Captain Smta's crew, where he hazed the new Alethi sailor Dok. When they came upon the crewless First Dreams, Yalb was sent aboard because of his experience with ghost ships.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Yalb is a young sailor with a lazy, contented smirk, usually wearing an open-fronted vest and loose trousers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "dawnshard", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Yalb speaks with an affable voice in a thick rural Thaylen dialect, flirts gently in a sailor's way that makes Shallan blush, and half believes in the Passions. He looks after new sailors, while happily winning their spheres.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "dawnshard", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He cheats skillfully at kabers, using it to beat Kharbranth's city guards, and can spot ships on the horizon at unusual distances.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "dawnshard", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

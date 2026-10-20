@@ -1,0 +1,159 @@
+{
+  "intro": [
+    {
+      "text": "An alliance of Roshar's nations that Dalinar Kholin sets out to build from Urithiru, to stand together against the enemy's coming forces.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "At the first meeting of monarchs, Navani asked each ruler to carry their own chair, as a sign of equality and of bringing wisdom to the meeting.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    },
+    {
+      "text": "Its headquarters, Urithiru, shelters people driven from lands the enemy has taken, and its Oathgates let the coalition move armies and supplies across the continent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each member brings its strengths: Veden surgeons, the Thaylen navy controlling the southern seas, and the Alethi army, which also trains the Azish. Allied Radiants heal, Soulcast food and fight.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Dalinar and Shallan together make a three-dimensional map of Roshar from Stormlight, refreshed with each highstorm, which the coalition uses for military planning.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Founding",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a vision of the enemy's champion, Dalinar feels he must unite Roshar's nations, and decides to start with the kingdoms and cities that have Oathgates.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        },
+        {
+          "text": "His team reaches out by spanreed. Azir and Thaylenah rebuff him, Yezier and Tashikk turn him down, and Iri sides with the Voidbringers. Only Taravangian accepts.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "In Thaylen City Dalinar lets Fen's son stab him in a duel to prove his peaceful intent, but it is his work rebuilding a temple and Renarin's healing that persuade Fen to join.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "At Fen's suggestion Dalinar goes to Azimir alone with essays by Fen, Navani and Jasnah. Impressed, Yanagawn and the viziers agree to visit Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        },
+        {
+          "text": "The first meeting of monarchs gathers rulers and envoys from Alethkar, Azir, Emul, Yezier, Tashikk, Thaylenah, Jah Keved and Natanatan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "A meeting of the coalition falls into chaos, with trust in Dalinar and the coalition's purpose broken.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "Azir and Taravangian abandon the coalition; Fen reluctantly stays. When the enemy attacks Thaylen City under the Everstorm, the Alethi and Thaylens defend it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At war",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "21" },
+            { "book": "rhythm-of-war", "chapter": "50" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The coalition recognises Dalinar as king of Urithiru in return for his renouncing any claim over other monarchs, and holds meetings to plan and share knowledge.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "The monarchs agree to an offensive into Emul, and send a diplomatic group to Lasting Integrity to renew relations with the honorspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+        },
+        {
+          "text": "Kharbranth declares itself neutral, and Jah Keved sides with the singers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        },
+        {
+          "text": "After several more battles the coalition wins Emul, and the monarchs turn to recovering Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "founder",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "founder",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Alethi queen",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    },
+    {
+      "characterId": "fen-rnamdi",
+      "role": "Thaylen queen",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+    },
+    {
+      "characterId": "yanagawn",
+      "role": "Azish emperor",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    },
+    {
+      "characterId": "taravangian",
+      "role": "king",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    }
+  ]
+}

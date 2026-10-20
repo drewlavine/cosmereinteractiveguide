@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi sergeant who leads a squad of soldiers that Kaladin served in.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "text": "An Alethi sergeant in Meridas Amaram's army who leads the Takers, the squad that Kaladin joined as a young soldier.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Amaram's army",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "oathbringer", "chapter": "91" },
+            { "book": "way-of-kings", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tukks trained Kaladin with the spear. Kaladin looks back on that time fondly: a stance Tukks taught him still gives him a sense of strength, and the need to feel emotion in battle became the first lesson he taught Bridge Four.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        },
+        {
+          "text": "Tukks tracked down Kaladin's brother Tien for him, finding that he was serving in the Seventh Battalion, and offered to try to get him moved to the Takers, though it never happened. When Kaladin froze while sparring, Tukks told him fear and passion in a fight were normal, that he wouldn't want to fight beside men who felt nothing, and that he fought to keep his squadmates alive.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "91" }]
+        },
+        {
+          "text": "Tukks died while serving in Amaram's army. He is one of the people Kaladin regrets having been unable to protect.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young for a sergeant, Tukks is a short man with sunken cheeks who sometimes chews fathom bark.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "91" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tukks often scolds his men, and Kaladin finds him loud, intolerant and deeply acerbic, but also wise. He is far more empathetic and thoughtful than most soldiers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "91" }
+          ]
+        }
+      ]
+    }
+  ]
+}

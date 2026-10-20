@@ -1,0 +1,121 @@
+{
+  "intro": [
+    {
+      "text": "A woman who lives with Turinad Sebarial in his opulent manor in the Alethi warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "text": "The mistress of Highprince Sebarial, who runs his household and attends the gatherings of the Alethi elite.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    },
+    {
+      "text": "A Herdazian woman, the wife of Highprince Turinad Sebarial and a member of the Alethi nobility.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "129" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Palona lived with Sebarial in a lavish manor in his warcamp, full of marble, silk and servants.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "When Sebarial brought Shallan Davar home, Palona made her welcome, seeing that she got her promised stipend, a room, servants, lodging for her people and a carriage. She helped Shallan polish a Herdazian accent and read her reports on the house's finances and local news.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "Palona watched Kaladin, Adolin and Renarin's duel against several Shardbearers, and insisted on joining Sebarial when he took part in Dalinar's assault on the Parshendi. The pair lounged and ate fruit as the battle raged, though Sebarial proved more helpful than he seemed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Palona moved to Urithiru with the rest of the warcamps. She was among the first to see Torol Sadeas's body after his murder and dismissed it as a problem solved. She attended Dalinar and Navani's wedding and his meetings to build a coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Living in the tower with Sebarial, Palona seemed to have improved his dress. Navani planned to send him back to the warcamps to restore order there.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, middle-aged woman with dark eyes, dark curly hair and the hard, crystalline fingernails typical of Herdazians. She speaks with a Herdazian accent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though not married to Sebarial, she runs his household and knows Alethi noble customs, but lacks Vorin modesty, letting her back show during massages and being careless with her safehand.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "47" },
+            { "book": "oathbringer", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Kind but sometimes blunt, and thoughtful toward those she cares about.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "33" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "She loves luxury, spending and fashion without being pretentious, and can seem detached, reading a novel during a battle or gossip reports while royalty argue.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ]
+}

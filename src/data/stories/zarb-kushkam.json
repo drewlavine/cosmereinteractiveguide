@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "The Commandant Supreme of the Azimir Imperial Guard.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+    },
+    {
+      "text": "The Commandant Supreme of the Azimir Imperial Guard, who leads the Azish forces defending Azimir's Oathgate alongside Adolin Kholin.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+    },
+    {
+      "text": "The Commandant Supreme of the Azimir Imperial Guard, who led Azimir's defence alongside Adolin Kholin and became one of the Unoathed.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early career",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a young man, Kushkam distinguished himself in the fighting at Yulay. He was a field commander until, within two years before the contest of champions, he was promoted to the Imperial Guard, though he would have preferred to stay in the field.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "80" },
+            { "book": "wind-and-truth", "chapter": "95" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As head of the Imperial Guard, Kushkam led the Azish forces defending Azimir. He planned to have water poured into the Oathgate control building and Soulcast into bronze, and to use flammable oil as a front-line defence, though Adolin persuaded him to keep the oil as a last resort.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "At first Kushkam distrusted Adolin's assessment, taking it as an insult to his troops. When the fighting began, he quickly saw that Adolin was right to form lines further back from the control room against the Regals, apologised profusely, and invited him to dinner. From then on, the two often made tactical decisions together.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "Stationed on the balcony of the Oathgate dome, Kushkam predicted the enemy's attacks by likening them to manoeuvres in towers, warning Adolin when the enemy aimed to bring down one of the coalition's Shardbearers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "Kushkam suggested plugging some of the dome's exits with Soulcast bronze, and told Adolin the adage \"As long as the emperor is on his throne, Azir stands.\" He personally led the charge against Deepest Ones emerging in the plaza, and was hurt by boulders dropped from above but healed by Rahel.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "95" }]
+        },
+        {
+          "text": "When Focused Ones breached the dome, Kushkam ordered firebombs dropped inside. After the fighting, Adolin found him unconscious but alive, and Rahel healed him again. He resumed command of the defences the next day.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "95" }]
+        },
+        {
+          "text": "On the ninth day, Azimir's defences were overrun. With his face wounded, Kushkam retreated with Adolin and Emperor Yanagawn to the saferoom beneath the hospital.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        },
+        {
+          "text": "On the final day, Kushkam joined Adolin, his own son and others in the mission to claim the Azish throne room. He became one of the Unoathed and helped hold the throne room against the singers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "\"A shorter man, but thick of neck and limb.\" He is missing an eye and, rather than an eyepatch, wears tattoos around the wound spelling something in Azish. In formal processions he rides an extravagantly adorned horse.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kushkam is an expert towers player, an excellent tactician and a capable soldier.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+    }
+  ]
+}

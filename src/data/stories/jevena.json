@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Gavilar Kholin's head ardent.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Head ardent",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though deeply devoted to the Almighty, Jevena readily accepted Evi when she was betrothed to Dalinar Kholin, despite her pagan beliefs, seeing a chance to convert her to Vorinism.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "Jevena led King Gavilar's funeral in the Royal Catacombs in Kholinar, giving the eulogy and reading the ritual sayings. Like many there, she found the Soulcaster unnerving and kept her distance while it turned the king's body to stone.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An older, bony woman who is short-sighted and wears glasses.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She relates everyone's choices, including her own, to the Vorin faith, and takes every chance to preach about the Almighty.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "105" }]
+    }
+  ]
+}

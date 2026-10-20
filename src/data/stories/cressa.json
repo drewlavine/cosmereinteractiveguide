@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A refugee in Urithiru, looking for her uncle Noril.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Looking for Noril",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "23" },
+            { "book": "rhythm-of-war", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cressa caught a mild sickness going through Urithiru. While Kaladin treated her cough she asked if he had seen her uncle Noril, who may have reached Hearthstone just before it was evacuated. Her plight stayed with Kaladin, and Teft agreed to help him search.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+        },
+        {
+          "text": "Lirin remembered Noril, and Kaladin and Teft found him in a ward where ardents kept people with mental ailments. Noril, badly treated there, wanted Cressa to think him dead, but once Kaladin took him out he felt better and asked after her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

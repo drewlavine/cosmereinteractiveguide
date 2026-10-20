@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi highprince on the Shattered Plains, whose army has had the least success of any in the war for gemhearts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "words-of-radiance", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Dalinar proposed joint plateau assaults to Roion, hoping to pair his own heavy infantry with Roion's fine archers. Roion needled Dalinar about his fits during highstorms and came to fear that Dalinar meant to seize his lands, and he soon declined the offer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        },
+        {
+          "text": "Once Dalinar was coordinating the plateau runs, Roion obeyed his orders. After an attempt on Dalinar's life, Roion invited the newly arrived Shallan Davar to stay in his palace in exchange for news from Jah Keved, and, though frightened by the idea, agreed to join Dalinar's expedition to the centre of the Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Expedition to Narak",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "80" },
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "words-of-radiance", "chapter": "85" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At first Roion was the only highprince to bring his army on Dalinar's expedition. He traded insults with Sebarial when Sebarial joined them, witnessed Amaram's treachery being revealed, and argued for striking the listeners first.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
+        },
+        {
+          "text": "Surrounded by listeners before the Battle of Narak, Roion panicked, but Dalinar told him to show his men confidence. Inspired, he and Captain Khal led the attack on the northern plateau. His poorly trained troops broke and he was nearly overwhelmed, until Khal recovered Teleb's Blade and Navani's fabrials let his archers fire in the rain, allowing him to retreat.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+        },
+        {
+          "text": "When Szeth attacked Dalinar after the battle, Roion ran at first, then gathered his courage and came back with soldiers, striking at Szeth just as he was about to kill Dalinar. Szeth lashed him into the sky, and Roion died when the Stormlight ran out and he fell, but he had saved Dalinar's life.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Roion hates being called a coward, and fields exemplary archers to show his strength and quiet such talk.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "82" }]
+    }
+  ]
+}

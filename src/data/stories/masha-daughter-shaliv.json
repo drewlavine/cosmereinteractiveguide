@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A scholar of the Recreance. Jasnah's observations in one of Dalinar's visions suggest it happened more recently than Masha's history claims.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    },
+    {
+      "text": "A scholar of the Recreance from Shinovar, married to Szeth-son-Neturo.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "56" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the True Desolation, Masha lived with her parents near the Bondsmith monastery in Shinovar. Kaladin and Szeth bought a wagon from her family while she slept, and she spent part of that day picking fruit in the family orchard.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Six years after Shinovar was cleansed, Masha wrote Knights of Wind and Truth, an account of Szeth and Kaladin's journey there, based on what Szeth and Nightblood told her and written with the help and approval of Jasnah Kholin, whom she greatly admires.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

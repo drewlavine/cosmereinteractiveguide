@@ -1,0 +1,152 @@
+{
+  "intro": [
+    {
+      "text": "A secretive group on Roshar that wants to restore the Vorin church's dominance, apparently led by a man named Restares.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Ghostbloods dismiss them as Restares's cronies.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    },
+    {
+      "text": "Many members believe that bringing back the Voidbringers will bring back the Heralds and a new era of Vorin dominance, though some leaders have other motives.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar Kholin had been a leading member, rising quickly and bringing in many recruits, including Amaram. He and Restares developed their own plans unrelated to the group's stated aim, meeting in secret.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "rhythm-of-war", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Amaram",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amaram kept up the group's power and came to the Shattered Plains, where he tried to restart the Desolations, researched the link between the Parshendi and Voidbringers, and searched for Urithiru. After the Everstorm he told Restares they had succeeded, though they had no part in it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Highprinces Thanadal and Vamah, both members, stayed at the warcamps and set up a virtual kingdom of their own. Ialai named Amaram acting highprince of House Sadeas, and Odium won Amaram over before the battle at Thaylen City, where he was killed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Decline",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ialai led the weakened Sons of Honor from the Shattered Plains, trying to contact Restares. The Ghostbloods hunted down the leadership, killing Thanadal, Vamah and finally Ialai, and Mraize considered the group destroyed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "meridas-amaram",
+      "role": "leader",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    },
+    {
+      "characterId": "ialai-sadeas",
+      "role": "leader",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "thanadal",
+      "role": "member",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "characterId": "loradar-vamah",
+      "role": "member",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "characterId": "gavilar-kholin",
+      "role": "leader",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "88" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ]
+}

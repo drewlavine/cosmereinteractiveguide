@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "Brightlady Jayla Ruthar, an Alethi noblewoman and wife of Highprince Ruthar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jayla lived on the Shattered Plains during the war there. She attended a meeting at the Pinnacle with other Alethi nobles to discuss the threat of the Assassin in White.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Jasnah Kholin thinks Jayla and her husband thieving and dangerous. They are usually political allies of Torol and Ialai Sadeas, who use them for their ambition.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

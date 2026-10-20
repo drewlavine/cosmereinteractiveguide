@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "The captain of the ship First Dreams.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Voyage of the First Dreams",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "18" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Obsessed with tales of riches on the island of Akinah, Vazrmeb and his helmsman Droz set out to reach it. He hired a mercenary crew in Steen and, at great expense, the Soulcaster Kaza in Liafor to turn the island's stone spikes to smoke.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The ship sailed north through a deadly storm that ended suddenly near Akinah, and Kaza Soulcast the spikes. But the ship's cook, a Sleepless posing as a human, had poisoned Vazrmeb and the rest of the crew.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the First Dreams reappeared as a ghost ship, Navani Kholin learned of Vazrmeb's ambition from the prince of Liafor, without learning his fate.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A Thaylen with long white eyebrows and long curly hair, as tall as an Alethi, with large arms and hands.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Boisterous and far from the stereotypical thrifty Thaylen merchant; a capable captain who kept his crew in order through a deadly storm.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+    }
+  ]
+}

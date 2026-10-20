@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A potter in Urithiru and the father of Adin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "i-11" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alalan came to Urithiru with his wife and son and worked as a journeyman at Master Liganor's pottery shop, teaching Adin the basics of the craft.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+        },
+        {
+          "text": "During the occupation of Urithiru, Alalan worked as usual and told Adin to keep his eyes down around the singers. In secret he helped care for the fallen Knights Radiant and wore the shash glyph in their support.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-11" }]
+        },
+        {
+          "text": "Alalan took up arms against Lezian's soldiers to protect the wounded rebels in the atrium, and survived despite serious injuries.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Alalan is a short darkeyed man with curly hair.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Quiet, with a hidden air of determination and authority, Alalan is protective of his son and brave enough to stand openly with the Radiants.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "An Edgedancer and former ardent who helps evacuate Hearthstone during the True Desolation.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+    },
+    {
+      "text": "An Edgedancer and former ardent who joins Adolin and Shallan's mission to the honorspren in Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Becoming an Edgedancer",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Godeke was an ardent before forming a Nahel bond with a Cultivationspren named Archinal and joining the Radiants in Urithiru. He said he had been deformed all his life, and the bond healed him into the man he had always seen himself as.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The evacuation of Hearthstone",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "5" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Godeke was one of the Edgedancers sent with Bridge Four to evacuate Hearthstone. While guiding refugees to the airship, he nearly struck the Fused Leshwi with his Shardblade.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "5" }]
+        },
+        {
+          "text": "He then went with Roshone to free people trapped in the burning manor, where a Fused took him hostage and slashed his stomach. A new fabrial kept him from healing until Kaladin disabled it and sent Lift to carry him out.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mission to Shadesmar",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the coalition decided to send envoys to the honorspren, Godeke offered his experience in diplomacy and joined Adolin and Shallan's expedition. On the way he marvelled at the works of the Almighty and told Adolin he believed the Almighty could not die.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "After weeks at sea, Godeke helped Adolin scout a Tukari caravan, then bound Adolin's wounds after he rescued the honorspren Notum. At Lasting Integrity he objected to Adolin's plan to stand trial, and once Adolin was held there, camped outside the city, writing to him and being let in only to heal him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Godeke is a thin, rather short man with a gaunt face, cropped hair and a square beard still kept in an ardent's style.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Godeke is scholarly and curious, packing books for Shadesmar and delighting in the Cognitive Realm as a beauty made by the Almighty. He is generally positive, though inclined to solemnity.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+    }
+  ]
+}

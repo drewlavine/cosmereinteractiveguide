@@ -1,0 +1,131 @@
+{
+  "intro": [
+    {
+      "text": "A trustworthy young woman close to the Davar family, who knows many of their secrets.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "Balat Davar's betrothed, a trustworthy young woman who acts as scribe for the Davar brothers and knows many of the family's secrets.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+    },
+    {
+      "text": "A lighteyed Veden woman married to Balat Davar, who lives with the Davar brothers in Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Meeting Balat",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eylita first met Balat in 1169, as a teenager attending a feast at the Davar estate with her parents. The two were soon exchanging glances and smiles, surprising Shallan, who had never seen Balat pay attention to a girl. The Tavinars left abruptly when Redin interrupted the feast.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+        },
+        {
+          "text": "At the Middlefest Fair of 1170, Shallan helped arrange a meeting between Eylita and Balat, and the two began a relationship. Over the following months she wrote Balat many letters, which he had his stepmother, Malise, read to him to keep them private from Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Confrontation with Lin",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "By 1172, Lin Davar had decided Eylita was beneath Balat's station and demanded he break off with her and marry the much older Sudi Valam. When Balat argued, Lin had his axehound pups killed as a threat. Balat told Shallan he loved Eylita and was thinking of eloping with her to Vedenar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "Balat and Eylita planned to escape with Malise, but Lin beat Malise into revealing the plan, summoned Eylita to the estate and killed Malise. He attacked Balat in a duel and would likely have killed both him and Eylita had Shallan's poison not incapacitated him. Eylita tended Balat's wounds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Betrothal and Urithiru",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "39" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Lin gone, Eylita and Balat became betrothed. After Shallan left with the family's Soulcaster, Eylita acted as scribe for Balat, Wikim and Jushu, receiving Shallan's spanreed messages from Kharbranth and using code phrases when needed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        },
+        {
+          "text": "Eylita went with Balat and his brothers to Urithiru, where she attended Shallan's wedding to Adolin Kholin. In 1175, Shallan saw her joking with Balat, Jushu and a disguised Mraize in the Davar quarters.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "13" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Eylita has long, pure black hair and is a few years older than Shallan.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Eylita and Balat are smitten with each other from their first meeting, and she seems willing to do whatever it takes to be with him, never abandoning him despite the disturbing things she witnesses at his home.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Kind, genuine and loyal, Eylita isn't especially clever and often looks vacant; Wikim thinks of her as \"proper\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A Veden brightlord, vassal of House Davar and father of Eylita.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vassal of House Davar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "way-of-kings", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tavinar and his family visited Lin Davar when he announced his betrothal to Malise Gevelmar; they were plainly uneasy and left as soon as they could. Afterwards Tavinar came to dislike the Davars, so Eylita had to visit them in secret.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "While he and his wife spent a month in Alethkar, Eylita planned to elope with Balat, though it never happened. Tavinar seems to have relented afterwards, since Eylita and Balat became formally betrothed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "After the Veden civil war, Eylita reached Urithiru without either of her parents.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, lean and lighteyed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Close to his daughter, giving her plenty of freedom as long as she keeps a handmaid with her.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    },
+    {
+      "text": "Wary of Lin Davar but a careful, loyal vassal.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+    }
+  ]
+}

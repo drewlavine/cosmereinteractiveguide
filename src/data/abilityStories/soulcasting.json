@@ -1,0 +1,442 @@
+{
+  "intro": [
+    {
+      "text": "Soulcasting turns one material into another. A Soulcaster is the fabrial that does it, or the person who uses one.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "Soulcasting turns one material into another, using the Surge of Transformation. Most of it is done with fabrials called Soulcasters; Surgebinders can do it without one.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Soulcasting turns one material into another, such as stone into smoke or rock into grain. A Soulcaster can mean the fabrial that does it or the person who uses one.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "Soulcasting uses Stormlight so fast that it can crack the gemstones holding it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "Khriss's Ars Arcanum names Transformation as the Surge of Soulcasting: it changes an object into one of the Ten Essences.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Uses",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "2" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "way-of-kings", "chapter": "17" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "17" },
+                { "book": "oathbringer", "chapter": "16" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "way-of-kings", "chapter": "i-4" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "dawnshard", "chapter": "7" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "70" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Vorin lands only ardents use Soulcasters, in great secrecy, at night or behind curtains. Their power is closely tied to Vorin beliefs about how the Almighty made Roshar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+        },
+        {
+          "text": "High-ranking lighteyes are often Soulcast into stone when they die, to be preserved for ever.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        },
+        {
+          "text": "Those funerals are the only times Soulcasting is done in public.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soulcasting is used to make food, and gems for it are vital: hunting and farming for emerald gemhearts, used to make grain, is a key part of the economy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Bridgemen gather stones on the Shattered Plains to be Soulcast into food.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        },
+        {
+          "text": "Buildings and objects are often made from easy materials such as wood or wax and then Soulcast into stronger ones, and luxuries can be made by Soulcasting something common.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "Soulcasting also does away with the need for proper plumbing, since waste can be Soulcast into something useful.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "17" },
+                { "book": "oathbringer", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In medicine, Soulcasting can cure poisoning by turning a person's blood into pure blood.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "Shinovar buys only Soulcast iron, because the Shin hold stone sacred and won't mine it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+        },
+        {
+          "text": "Aluminium may be obtainable on Roshar only through Soulcasting.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "dawnshard", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In a fight, Soulcasting can kill by turning a body into something else: Jasnah turns one attacker to fire and another to crystal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "Shallan works out that Jasnah's Soulcaster is a fake and that Jasnah Soulcasts without one; Shallan asks to be trained in Soulcasting.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Known Soulcasters",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "i-4" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "House Kholin holds all of Alethkar's Soulcasters and charges fees for their use.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "The Azish have a few, among them one famous for making bronze.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "Liafor's royal Soulcaster is used by Kaza, who ran away from the royal family.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        },
+        {
+          "text": "Navani gives Rushu a Soulcaster that makes smoke for an expedition to Aimia.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "Eight Soulcasters are recovered from Aimia: five go to Thaylenah and three to Alethkar.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "How it works",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "way-of-kings", "chapter": "36" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soulcasting can turn any material into any other, possibly except gemstones and Shards.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "The Ten Essences are much easier to make than other materials: fruit juice is harder than blood.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "A person is harder to Soulcast than an object, because of the Investiture they hold.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "Gemstones can't be made by Soulcasting, though other crystals such as quartz can.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "To Soulcast, the user sends their mind into Shadesmar to reach the object and must convince it to change.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soulcasting works by changing an object's spiritual nature. A gem's colour matters most, since each colour matches one of the Ten Essences.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Different Essences answer to different approaches: stone is stubborn and is won over with freedom and movement, while air takes orders well.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Soulcasters",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "words-of-radiance", "chapter": "35" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "109" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "46" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soulcaster fabrials are two rings and a bracelet, joined by chains holding three gems across the back of the hand, usually worn on the right hand. Most can make only one kind of change; ones that can make any change are rare.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "Using a Soulcaster is supposedly simple: press a hand against the item and tap the right gem.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "Soulcasters with the same Essence can work together on larger objects, and they often hum or chant while they work.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        },
+        {
+          "text": "The Essences a Soulcaster can make are called its modes. Its user is helped by some other presence, perhaps the fabrial itself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Soulcaster for the Essence of Blood can make any liquid that dissolves in water.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "109" }]
+        },
+        {
+          "text": "Soulcasters were made before the modern age, and how is unknown; Vorin teaching says they came from the Almighty through the Knights Radiant.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "In the West Soulcasters are thought to have come from the island of Akinah, in Aimia.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soulcasters are spread unevenly: Alethkar has many, Azir few, and Liafor only one.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "i-4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soulcasters are spren appearing in the Physical Realm as devices, much like Shardblades.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Savants",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "i-4" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some ardent Soulcasters on the Shattered Plains have crystalline eyes and stony, cracked skin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        },
+        {
+          "text": "Long use of Soulcasting can slowly turn a user into the Essence they make most, and can change their personality too.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-4" }]
+        },
+        {
+          "text": "An ardent in Kholinar looks as if vines grow under her skin, and Kaza is slowly turning to smoke.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surge",
+      "name": "Transformation",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Fabrial",
+      "name": "Soulcaster",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Soulcaster",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Would-be thief",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "characterId": "rushu",
+      "role": "Smoke Soulcaster",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Studied Soulcasters",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "46" }]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed captain in Highprince Sadeas's army who oversees the bridge crews.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sadeas's bridge crews",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "21" },
+            { "book": "way-of-kings", "chapter": "34" },
+            { "book": "way-of-kings", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lamaril paid the bridge crews little attention, which let Kaladin's crew rescue their wounded. When he found out, he asked Sadeas to execute Kaladin, but Sadeas chose to let the wounded stay with no pay or food.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "21" }]
+        },
+        {
+          "text": "Seeing Kaladin as a threat, Lamaril told Gaz, who owed him money, that Kaladin must die in battle rather than be made a martyr. Kaladin's crew was put at the front of the assault on the Tower, where their new side carry backfired; Lamaril had Kaladin beaten instead of executed and took his spheres.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "34" }]
+        },
+        {
+          "text": "Sadeas rejected Lamaril's attempt to blame Kaladin and Gaz for the failed assault, held him responsible as the ranking lighteyes, and executed him himself. Brightlord Matal replaced him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, slim lighteyes with an angular build and a square-cut beard, wearing a forest-green cloak in Sadeas's colours.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cruel and threatening to those beneath him, he cares nothing for darkeyed lives and mostly wants to get rich and stay in Sadeas's favour.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    }
+  ]
+}

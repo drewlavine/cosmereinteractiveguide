@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A silversmith from Kholinar and Moash's grandfather, who raised Moash with his wife, Ana, and gave him his name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "54" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "54" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ana and Da took in their grandson after his parents died, and Da named him Moash. Moash grew up confident and restless, uninterested in silversmithing, and left the city to work caravans; his grandparents encouraged him to find his own way.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "54" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While Moash was away, the lighteyes Roshone, annoyed that their shop competed with one of his, got Elhokar to have the couple jailed on false charges. To hide his mistake, Elhokar left their case untouched, and Ana and Da, both around seventy-five, died in the palace dungeons waiting for a trial.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

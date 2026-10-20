@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A brightlord with a wizened face who attends King Elhokar's feasts on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "text": "An elderly Alethi brightlord on the Shattered Plains, associated with Highprince Vamah.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "oathbringer", "chapter": "23" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elhokar's feast",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At one of Elhokar's feasts, Wit mocked Cadilar by comparing his wizened face to that of his horse.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "His lands",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "23" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The keeper of a waystop on Cadilar's lands let Kaladin and the parshmen he was travelling with shelter there from a highstorm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "23" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

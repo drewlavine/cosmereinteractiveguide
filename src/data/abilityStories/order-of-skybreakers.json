@@ -1,0 +1,345 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant who policed the other Radiants, famed for their skill at telling the innocent from the guilty.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    },
+    {
+      "text": "An order of the Knights Radiant, bonded to highspren and devoted to the law. Alone among the orders, they never abandoned their oaths, and have continued in secret to the present day.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Skybreakers use the Surges of Gravitation and Division, and bond highspren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+    },
+    {
+      "text": "Highspren, and through them the Skybreakers, judge by the letter of the law and by logic, where Windrunners will set the law aside to protect people.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "70" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Today's Skybreakers follow the law to the letter, but will get laws changed or seek the harshest punishments to suit their needs, and are encouraged to exploit loopholes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "98" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Skybreakers usually wear the uniform of local law enforcement wherever they go.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Skybreakers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The order began when highspren, imitating the Honorblades, granted Surges to men. Ishar, seeing what that meant, forced them to accept laws and organization.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+        },
+        {
+          "text": "The Skybreakers sought their Herald as patron. He refused at first, finding it vain, and was the last Herald to accept an order.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+        },
+        {
+          "text": "They worried that other Radiants would put themselves above the law, so they policed them, separating innocent from guilty, a skill even their critics admired.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "They debated with the Windrunners over the fate of the guilty, and such conflicts grew worse as the Recreance approached.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "70" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Nale is the only Herald known to have joined their order.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In hiding",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "98" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alone among the orders, the Skybreakers kept their oaths through the Recreance and stayed active for the next two thousand years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They keep a small fortress in Marabethia overlooking the Purelake, where hopefuls are tested and squires and masters train.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        },
+        {
+          "text": "Around 1153, Nale began a crusade to stop the other orders returning, as Ishar had told him it would hasten the Voidbringers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "98" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the True Desolation begins, Nale recruits Szeth. Nale denies for weeks that his mission has failed, until a confrontation with Lift shows him the truth; meanwhile the order trains as if the Desolation has come.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "98" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Szeth so impresses the highspren in his tests that they let him swear the oaths quickly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "edgedancer", "chapter": "19" },
+                { "book": "oathbringer", "chapter": "98" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Nale returns, he tells his order the truth of the Recreance and gives them a choice. He and most of the order follow Odium and the singers, but Szeth swears to follow Dalinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The Ideals",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "90" },
+            { "book": "oathbringer", "chapter": "117" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Recruits are told all five Ideals when they swear the first. Swearing it, the Ideal of Radiance, pardons their past misdeeds, done properly with the local authorities and paperwork.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "The Second Ideal, the Ideal of Justice, is sworn once a master accepts someone as a squire. It lets the squire breathe in Stormlight and use Gravitation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "The Third Ideal, the Ideal of Dedication, dedicates a Skybreaker to a code or, sometimes, a person. Nale warns that people change easily, but some choose to follow him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "Most Skybreakers can't use Division until the Third Ideal, which makes them a full Skybreaker and is as far as most ever go.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "The Fourth Ideal, the Ideal of Crusade, needs a personal quest completed to the highspren's satisfaction; most Skybreakers never reach it, and some spend decades trying.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "Only Skybreakers of the Fourth Ideal or above can take squires.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "55" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the centuries before 1173, only Nale swore the Fifth Ideal, the Ideal of Law.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "90" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gravitation lets a Skybreaker change the direction and strength of an object's gravitational pull, binding people or objects to new surfaces or directions with a Basic Lashing.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Division lets them destroy or degrade things around them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Their famed skill at dividing the innocent from the guilty had no magical cause.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Spren",
+      "name": "Highspren",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+    },
+    {
+      "label": "Surges",
+      "name": "Gravitation and Division",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Based in",
+      "name": "Marabethia",
+      "placeId": "marabethia",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "nale",
+      "role": "Herald",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+    },
+    {
+      "characterId": "szeth",
+      "role": "Skybreaker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "ki",
+      "role": "Master",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "nomad",
+      "role": "Skybreaker",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "28" }]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "An Unkalaki relative of Lunamor.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sinaku'a was part of the family group that came to the Shattered Plains on Kef'ha's quest to win Shardplate from Sadeas. Sadeas killed Kef'ha without a proper duel, and Lunamor says Sinaku'a and Tifi were killed after raising weapons in vengeance.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Tuaka was reunited with Lunamor, she asked after Sinaku'a and Tifi. Her reaction suggested they were his older siblings, and that their deaths had raised his standing, but Lunamor would not talk about it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

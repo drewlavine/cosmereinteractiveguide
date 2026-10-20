@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyes of the past, known for a famous duel of honour against Gulastis.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The famous duel",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Velinar lived during the reign of Sadees and fought his duel with Gulastis using an ulius.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin's ulius",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At fourteen, Adolin Kholin bought an antique ulius from the Velinar–Gulastis duel as a gift for Idani, but kept it for himself, nick and all.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

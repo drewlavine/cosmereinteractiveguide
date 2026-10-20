@@ -1,0 +1,157 @@
+{
+  "intro": [
+    {
+      "text": "A spren once tied to Urithiru, the tower city of the Knights Radiant. When they withdrew from the tower long ago, it became uninhabitable.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "72" },
+            { "book": "rhythm-of-war", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A great spren who is essentially the tower of Urithiru, with its crystal pillar as their heart. They are bonded to Navani Kholin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    },
+    {
+      "text": "The spren of the tower of Urithiru, created long ago as, in a sense, a child of Honor and Cultivation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The age of the Radiants",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "72" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "69" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sibling was made from a portion of the essence of stone mixed with the Investiture of Honor and Cultivation, making them in a sense a child of the two.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Sibling was the key to much of Urithiru's magic, keeping the high tower unnaturally warm so the Radiants could grow crops there. In time they withdrew from the tower, and as some of its systems failed it became uninhabitable and the Radiants abandoned it. Why the spren disengaged was unclear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "72" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the millennia that followed, the Sibling was not hiding but slumbering. The Stormfather was reluctant to speak of them, because they had somehow been harmed by mankind.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "When Ba-Ado-Mishram was imprisoned, the Sibling lost the rhythm of Towerlight, leaving most of Urithiru unable to function and the Sibling able to see only patches of the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sibling first reached Navani Kholin through a spanreed ruby they had placed for her. At first the two were at odds over the morality of fabrial technology.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "During the occupation of Urithiru, the Sibling told Navani of the nodes protecting them, which their last Bondsmith had installed. They gave up the nodes' locations reluctantly, and their fears proved justified when Raboniel revealed she had been listening all along. The Sibling then refused to speak to anyone until their last node was in danger and they called on Kaladin for help.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "While Kaladin fought the Fused, Navani urged the Sibling to bond Rlain, but there was no time to find him, so she offered herself. After some hesitation, the Sibling accepted. Together they drove out the Voidlight corrupting the Sibling and restored Urithiru to full power, and the Sibling could make Towerlight again for the first time since Honor's death.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The crystal",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Working with Navani, the Sibling raised a defensive crystal around Urithiru. Doing so left both of them in a coma, with Navani trapped in crystal, though the tower's fabrials and Towerlight kept working.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In the Cognitive Realm the tower is solid, glowing glass that mirrors its physical form, shining with bright multicoloured light.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "31" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Sibling is essentially the tower of Urithiru and its fabrials, and can manifest physically as metal and as polestones. Within the tower they can appear as a column of light from a glass disc in the ceiling, and they speak through it or through the air vents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "The Sibling doesn't identify with any gender and doesn't understand why some spren take on human ones. Despite their thousands of years, they remain somewhat naive.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "72" }]
+    },
+    {
+      "text": "Feeling betrayed by humanity at the Recreance, the Sibling distrusts humans and doesn't want to bond one. They despise modern fabrials for imprisoning spren, though will compromise if the spren are treated well.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "69" }]
+    }
+  ]
+}

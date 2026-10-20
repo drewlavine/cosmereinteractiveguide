@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A timid, quiet slave travelling with Tvlakv's group.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Journey to the Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Suna joined Shallan on her journey towards the warcamps of the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a tunic and trousers that Shallan got from merchants she had rescued. Like the rest of Tvlakv's group he is tattooed rather than branded, marking a slave's child or someone who entered servitude by choice.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+    }
+  ],
+  "personality": []
+}

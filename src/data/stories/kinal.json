@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "General Kinal, the commanding officer of the Stoneward monastery's training camp in southern Shinovar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stoneward monastery",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "59" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kinal led the Stoneward camp when Szeth trained there, and Szeth trusted him. Kinal reported the improvements made by his aide Neturo to the Honorbearers, prompting a visit from Pozen and Sivi, and spoke warmly of Neturo and Szeth. The Honorbearers had him put Szeth in the rear guard against the next raid, to see violence and death.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "By 1157, Szeth was a seasoned warrior. Defending against stonewalker raiders, he had their ships burned and stabbed two captives. Kinal and Neturo rebuked him for going too far, and Kinal meant to ask his superiors how to punish him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "59" }]
+        },
+        {
+          "text": "On a tribunal with Neturo, the Farmer and Honorbearers, Kinal regretfully sentenced Szeth to hard labor in the mines. The Farmer overruled him, and then Pozen declared Szeth a hero to be trained as an acolyte, leaving Kinal stunned.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large, darker-skinned man with a graying beard, probably middle-aged.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Impassive and quiet, which gives him a dangerous air.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+    }
+  ]
+}

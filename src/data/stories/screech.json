@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A pet skyeel kept by the crew of the Wandersail, well liked for hunting the ship's rats.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Voyage to Akinah",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Screech was found dead during the voyage to Akinah. The superstitious crew took it as a bad omen, but sailed on because their orders came from Queen Fen.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+        },
+        {
+          "text": "Nikli had killed Screech with blackbane to frighten the crew into turning back, then tried to blame Cord, but Rysn worked out that he was the culprit.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

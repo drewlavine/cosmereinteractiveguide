@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman in Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "A bridgeman in Bridge Four, nicknamed for a birthmark on his chest that he swears is an exact map of Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "way-of-kings", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maps was slow to accept Kaladin's leadership, but he was drawn to the crew's growing friendship. After Kaladin survived the highstorm, Maps spoke up for him in front of the bridgemen and gave Rock his razor, though he doubted Kaladin's talk of escape.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        },
+        {
+          "text": "Maps grew more relaxed and friendly, encouraging the others to talk. On chasm duty he was among those who worked out that Sigzil was a Worldsinger, and asked him for a story.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "Maps died in a battle where Dalinar and Sadeas fought together, struck by a Parshendi arrow. Kaladin tried to save him with surgery but could not, and remembered him before swearing the Second Ideal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Maps is flat-faced and balding, with thick eyebrows and a bushy beard.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    }
+  ],
+  "personality": []
+}

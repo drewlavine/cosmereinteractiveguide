@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "Someone Nightblood mentions to Vivenna as being very good at sneaking around.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+    },
+    {
+      "text": "One of the Five Scholars, Arsteel's brother and a master of Lifeless Commands, best known for discovering ichor-alcohol.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scholar",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yesteel joined the Five Scholars during years of great discoveries about Awakening Commands, and became known as a master of Lifeless Commands.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Manywar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Manywar, Yesteel created ichor-alcohol, which keeps a Lifeless working longer without more Breath and makes Awakening them cheaper. It spurred Shashara to research Awakened swords, which led to Nightblood. When Yesteel learned how Shashara and Vasher had made Nightblood, he was \"so upset\".",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the war",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yesteel went into hiding and Vasher lost track of him. About three hundred years after the war he resurfaced, having made a stronger form of ichor-alcohol, and Vasher set out to deal with him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "The homeland of the Shin in the far west of Roshar, where the highstorms are weak, the ground is covered in soil and grass, and stone is held sacred.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Farmers, \"he who adds\", are holy and high in society; outsiders may not visit farmland. Warriors, who only destroy, rank lowest: anyone who picks up a weapon must take a stone and obey whoever holds it for life.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "text": "When trading, both sides run down their own goods until they agree, and honesty is rewarded, which baffles most merchants. The Shin are famed for their horses and trade chickens, cloth and dried meat.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "48" }]
+    },
+    {
+      "text": "Because stone is sacred, the Shin build in clay and earth, consider walking on stone or mining it heresy, and call those who do Stonewalkers. Metal is precious, and Soulcast metal is preferred to mined.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "words-of-radiance", "chapter": "i-10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Plants and animals in Shinovar need not survive highstorms and cannot live elsewhere. The ground is springy with soil and covered in grass that does not move, straight-trunked trees keep their leaves out, and the Shin farm wheat, strawberries and grapes and keep chickens, goats and horses.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "oathbringer", "chapter": "113" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "75" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "i-7" }
+              ]
+            },
+            { "book": "edgedancer", "chapter": "14" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Last Desolation, the Shin took the Honorblades back to Shinovar, and they see themselves as the only ones who remember the truth of Roshar's history.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Early in the Era of Solitude, the Shin tried several times to invade the rest of Roshar with Honorblades, Surges and cavalry, which was very rare elsewhere.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
+        },
+        {
+          "text": "About eight years before the True Desolation, Szeth announced that the Voidbringers were returning. The Shin leaders called it false, made him Truthless and exiled him, trading him to the Thaylen merchant Vstim.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "i-7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the first Everstorm, the Shin sent warnings to other countries, including Tashikk.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+        },
+        {
+          "text": "Dalinar asked them by way of a Thaylen merchant to join his coalition. The Shin declined, sending back only congratulations, and stayed uncommitted.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

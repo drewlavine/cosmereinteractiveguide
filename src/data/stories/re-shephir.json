@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, known as the Midnight Mother, who creates monsters of Midnight Essence.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "73" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Recreance, Re-Shephir infiltrated Urithiru and was imprisoned there by a Lightweaver. After the tower was abandoned she broke free, but stayed, coiling around a column of gemstones in a chamber near the gem archive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "73" },
+                { "book": "rhythm-of-war", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the Alethi arrived in the tower, Re-Shephir became active almost at once. She killed Vedekar Perel in a way that mimicked the murder of Torol Sadeas, and wounded Lunamor as Shallan had once wounded Ur. She gave herself away when she came out of the shadows to watch one of Shallan's illusory plays.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "Shallan, Adolin and Bridge Four tracked her to her nest, where she summoned Midnight Essence in the forms of her attackers. She tried to replace Shallan's bond with Pattern with herself, but failing that, she was attacked by Shallan and fled the tower through an underground passage.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An oily black entity, she can shift into almost any shape and size, human, beastly or otherwise, and squeeze through tiny gaps, but always keeps her black colour. The only sounds she makes are alien screeches when threatened.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Driven more by instinct than thought, she is fascinated by humanity, especially by people's violence and pain, and recreates acts of murder and assault in detail. She fears Lightweavers, and flees a fight she can't win.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+    }
+  ]
+}

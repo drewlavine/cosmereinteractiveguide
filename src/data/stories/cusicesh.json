@@ -1,0 +1,53 @@
+{
+  "intro": [
+    {
+      "text": "A huge spren-like being that rises from the bay of Kasitor in Iri every morning.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "A huge being in the bay of Kasitor in Iri, called the Protector, who guides the Iriali on their Fifth Journey.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kasitor",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cusicesh has been in the bay for a very long time, and Kasitor keeps time by his daily rising. The city built a viewing platform to watch him; most see him simply as part of the city, though some worship him as a god.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Fifth Journey",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly before Stormfall, Cusicesh rose at an unusual time, faced the city and spoke for what seemed the first time, saying he would guide the Fifth Journey of the Long Trail.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        },
+        {
+          "text": "He opened a perpendicularity, a column of light, and the Iriali quickly prepared to leave Roshar forever, watched by Baon, Galladon and Demoux of the Seventeenth Shard.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "At exactly 7:46 each morning he rises as a hundred-foot column of sea-blue water with four long arms resting on golden pedestals, and a face that flickers through human faces while looking east. After ten minutes he sinks back, often leaving watchers feeling drained.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "personality": []
+}

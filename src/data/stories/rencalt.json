@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The author of Times and Passages, a book on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Times and Passages",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Artmyrn offered Rencalt's Times and Passages to Shallan.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

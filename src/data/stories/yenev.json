@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A former highprince of Alethkar who resisted Gavilar Kholin's unification of the kingdom and was killed in a duel by Highprince Sadeas.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Unification of Alethkar",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1155 Yenev was one of the most powerful highprinces. He refused to accept Gavilar and Dalinar's unification of Alethkar, and kept challenging Gavilar's authority even after he was crowned.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Duel with Sadeas",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Gavilar's approval, Sadeas won a spectacular tournament duel to earn the King's Boon, then used it to challenge Yenev to a duel to the death. Yenev was forced into the arena and was killed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "His death let Gavilar give the princedom to his ally Aladar, and the memory of it still unsettles the other highprinces, who grow more willing to obey the king when it is raised.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "In 1173 Shallan Davar proposed a plan modelled on Sadeas's duel with Yenev: Adolin would win duels and use the King's Boon to challenge Sadeas.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Powerful and stubborn, Yenev would not accept Gavilar's rule, but lacked the political skill to see Sadeas's trap.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+    }
+  ]
+}

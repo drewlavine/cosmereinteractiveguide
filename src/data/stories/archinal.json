@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A cultivationspren bonded to the Edgedancer Godeke.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bond with Godeke",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "It isn't known when Archinal bonded Godeke, but by the time of the mission to Hearthstone he could summon her as a Blade. Cultivationspren had grown keen to bond the new Radiants, which earned them standing among their kind.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "2" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She had told Godeke a great deal about Shadesmar and had once visited Lasting Integrity.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "2" },
+                { "book": "rhythm-of-war", "chapter": "30" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mission to Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Archinal joined the envoy to the honorspren with Godeke. Her experience of Shadesmar and knowledge of the way to Lasting Integrity made her valuable, and she and Godeke often scouted ahead.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        },
+        {
+          "text": "Near Nameless she and Godeke first spotted the Tukari caravan. Nervous about them, she warned Adolin that not everything in Shadesmar is what it seems, and noted that trade through Shadesmar was growing.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like other cultivationspren she looks in Shadesmar like a short figure of tightly wound green vines, with crystal eyes and delicate crystal hands, dressed in robes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Adolin finds her somewhat aloof, and she seems uneasy in unfamiliar situations.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+    }
+  ]
+}

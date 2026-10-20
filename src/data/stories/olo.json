@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A seon who has worked with Wit.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "78" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Olo spent time in Urithiru working for Wit, until his master suggested he leave the tower, and he set off toward the Shattered Plains. Some months afterwards, Shallan asked Ala whether Olo could go to Azimir, hoping to reach Adolin, and Ala thought he would help.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "78" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

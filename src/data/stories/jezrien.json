@@ -1,0 +1,355 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten Heralds of the Almighty: a tall, regal man with a deep, calm voice.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Jezerezeh'Elin, the Herald of Kings and patron of the Windrunners, who abandoned the Oathpact with most of the other Heralds and slowly lost his mind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "i-7" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life on Ashyn",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "107" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jezrien was born on Ashyn, then called Alaswha, over eight thousand years before the True Desolation. He ruled one of its many city-states and had at least one child, Shalash.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "76" },
+                { "book": "wind-and-truth", "chapter": "107" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He accepted the offer of a growing empire, and his city-state joined it. He gained the power of Surges, which slowed his ageing, and helped the empire expand across Alaswha.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "Nale and his people refused the empire, and he and Jezrien were on opposite sides, but Jezrien came to accept he had been wrong.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        },
+        {
+          "text": "When Alaswha was devastated by Surges, Jezrien became king of the empire, made peace with Makibak and his people, and went with them to Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Early days on Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "107" },
+            { "book": "wind-and-truth", "chapter": "55" },
+            { "book": "wind-and-truth", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Ishar's help Jezrien led his people to Roshar, where humanity was granted the land now called Shinovar. He refused the singers' offer to live among them as servants.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "107" }]
+        },
+        {
+          "text": "As tensions grew and a human murdered a singer, the singers killed thirty humans. Elodi tried to negotiate peace, but Jezrien turned down every offer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "55" }]
+        },
+        {
+          "text": "About fifty years after his arrival, the First Desolation began, and he fought in the war for decades.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "rhythm-of-war", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "77" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Forty-three years in, with humanity losing to the immortal Fused, Jezrien and Ishar devised a plan and invited Nale to join them. Honor made Jezrien and nine companions Heralds, founding the Oathpact and giving them Honorblades to seal the Fused on Braize.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "rhythm-of-war", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Between Desolations he was tortured on Braize with the others. Each time he returned, he taught leaders how to guide their peoples, and he became patron of the Windrunners.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He never saw the end of a Desolation, always returning to Braize once humanity could fight on alone.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+        },
+        {
+          "text": "About fifty years before the Last Desolation, Honor loosened the limits on his Surgebinding, greatly increasing his destructive power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aharietiam",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around three thousand years after the First Desolation, the Heralds, except Talenel, who had died, decided they could no longer bear the torture. Honor accepted, warning that the Oathpact would hold while one kept their oath, but cracked.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sick and distraught, Jezrien abandoned his oaths and left Talenel alone. Ishar tried to take part of the Heralds' pain on himself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Era of Solitude",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "46" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jezrien told the survivors of the Last Desolation that they had won. Over millennia he went mad, ending up as Ahu, a drunken beggar on the Beggars' Porch of the Kholinar palace and an occasional drinking companion of Dalinar Kholin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "46" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On the night King Gavilar was assassinated, Jezrien attended the Beggars' Feast, spoke incoherently to Szeth and collapsed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "i-3" },
+            { "book": "wind-and-truth", "chapter": "144" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Six years on, after the Voidbringers took Kholinar, Moash stabbed Jezrien with a raysium knife, trapping his soul in the gem. The other Heralds felt his Connection tear. Within weeks his mind had faded, breaking most of the Oathpact.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Fused El destroyed what remained of his spirit in the gem with Anti-Light in the days before the Night of Sorrows.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-3" }]
+        },
+        {
+          "text": "Kaladin took up his place when the Oathpact was reforged.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "144" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, dark-eyed and black-haired, almost Alethi but slightly darker and off in feature. As a Herald he looked about thirty, with a neat black beard and fine white and blue clothes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As a beggar his beard grew long and grey-streaked, his hair matted and his clothes in rags.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Thought one of the best men who ever lived, he was a great leader and teacher of leaders, willing to admit mistakes and befriend former enemies. Centuries of torture filled him with anguish and shame.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "words-of-radiance", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Era of Solitude his mind dulled and he spoke what seemed like gibberish, though he sometimes referred to the Unmade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "46" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "As Ahu he was a kindly drunk. He liked Dalinar for the pain in his eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "88" }
+          ]
+        }
+      ]
+    }
+  ]
+}

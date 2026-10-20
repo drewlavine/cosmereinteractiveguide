@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A scholar who wrote about the Unmade and Yelig-nar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "93" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Disputed source",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin doubted the authenticity of Traxil's writing, but Hessi disagreed and endorsed the quote.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

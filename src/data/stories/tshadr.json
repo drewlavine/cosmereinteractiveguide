@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A wealthy Thaylen Shardbearer who holds Shardplate and serves in the highguard protecting the Thaylen throne.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tshadr probably received his Plate from his father, as is the Thaylen custom. During the battle at Thaylen City he led soldiers holding Court Square against Odium's forces and Amaram's soldiers; Queen Fen, not seeing him, assumed he was at his manor or mustering troops.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "He moved to Urithiru, and was the only Shardbearer in the tower who wasn't a Radiant when the Fused conquered it. Someone told the invaders where his rooms were, and the shanay-im killed him and took his Plate without anyone noticing.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

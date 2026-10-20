@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A boy with a head wound, left at an orphanage in Yeddaw.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The orphanage",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "6" },
+            { "book": "edgedancer", "chapter": "17" },
+            { "book": "edgedancer", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mik's tearful mother left him outside the orphanage in Yeddaw, unresponsive and drooling. Lift tried to talk to him, but he showed no sign of understanding, and the Stump believed he was faking his injury.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+        },
+        {
+          "text": "The next day Mik could tell Lift his name, and by that evening he spoke normally and remembered his mother. Lift, puzzled, thought she might somehow be healing him without meaning to.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "17" }]
+        },
+        {
+          "text": "Mik's mother came back for him the next day, guilty at having left him, and he went home with her. His case helped Lift realise that it was the Stump who had healed him, and many other children, without knowing it.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Mik is about ten or eleven and bigger than Lift. His head is shaved, and hair has not grown back around a prominent, not fully healed scar.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "10" }]
+    }
+  ],
+  "personality": []
+}

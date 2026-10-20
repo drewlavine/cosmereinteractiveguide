@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "The main currency of Roshar: gemstones set in glass beads, which hold Stormlight and glow.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Spheres come in chips, marks and broams: a broam is worth four marks and a mark five chips. Gem types are valued by their use in Soulcasting, so emeralds, which make grain, are worth most and diamonds least.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    },
+    {
+      "text": "Dun spheres are worth the same, but their glow is the easiest proof they aren't fake, so people may distrust them. Moneychangers check gems and swap dun spheres for infused.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    },
+    {
+      "text": "Each sphere is a tiny gem in a glass bead a little bigger than a thumbnail, usually flattened on one side so it won't roll. Spheres leak their Stormlight over about a week and are left out in highstorms to recharge; those holding light are infused, the rest dun.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "Infused spheres give steadier light than candles, more from bigger denominations. The poor still use candles, since spheres get stolen, while the wealthy light whole rooms with spheres to show off.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "22" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the west spheres matter less: the Tashikki string them on cords, and those farther west use gem chips, sometimes encased in glass.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "New uses",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "101" },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sigzil tried to measure how long a Lashing powered by one diamond chip lasts, getting 87 to 91 seconds, though without a clock his figures were rough.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "46" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Glass spheres without a gem, called ends, are used as fake money for wagering games.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        },
+        {
+          "text": "Stormlight fades faster in Shadesmar, so Celebrant's moneychangers move it into perfect gems and give notes of exchange, spendable in the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+        },
+        {
+          "text": "In Shadesmar Stormlight is even more valuable: it buys anything, helps spren change appearance, and aids in manifesting souls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sigzil",
+      "role": "measured Stormlight",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ]
+}

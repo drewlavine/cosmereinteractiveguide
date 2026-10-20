@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A dignitary from the city-state of New Natanan, visiting the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Au-nak grew up in a devoutly Vorin family with strong trade links to the Alethi. In 1173 he visited the Shattered Plains as Brightlord Hatham's guest to negotiate a contract. At one of King Elhokar's parties, Hatham had an ardent insult Au-nak and question his faith, so that Au-nak left in anger; Hatham hoped to follow him and agree to his terms without seeming suspicious.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Coalition",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1174 Au-nak attended the coalition meeting at Urithiru. He thanked the Alethi for securing the Oathgate at Stormseat but objected to their using it without the Natan people's permission. He was excited by Navani's suggestion that the Azish draw up laws for the coalition forces, and agreed with Taravangian that the Voidbringers might attack Jah Keved.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like all Natans he has white hair and bluish skin, but he dyes two locks of his hair red and wears them braided by his cheeks. He wears red gloves and speaks Alethi with an airy Natan accent.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Devoutly Vorin, outspoken and talkative, he has strong opinions, such as that Dalinar's devotary is for lesser people. He is cynical about religious wars, believing every conflict is really about money.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    }
+  ]
+}

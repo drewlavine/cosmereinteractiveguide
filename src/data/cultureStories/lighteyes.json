@@ -1,0 +1,110 @@
+{
+  "intro": [
+    {
+      "text": "People with light, bright eyes, who form the nobility of the Vorin kingdoms and rule over the darkeyes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lighteyed men of rank are addressed as Brightlord, and lighteyed women as Brightness.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+    },
+    {
+      "text": "What matters is not the colour itself but that it is light and distinct: light grey counts, while dark, muddled green does not. Lighteyes can be darkened for a while with eyedrops, but dark eyes can't be lightened.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "28" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Lighteyes are ranked in ten dahns. The king is first dahn, highprinces second, their other children and highlords third. Even the tenth dahn outranks any darkeyes, though tenners must work for a living and are looked down on.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "63" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Vorin legend says that a man who wins a Shardblade becomes a lighteyes; whatever his eyes, a Shardbearer rises to the fourth dahn. An ardent who leaves the ardentia drops to the tenth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "68" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Important lighteyes are sometimes Soulcast into statues when they die, while darkeyes are usually burned.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid feels he should be amused at the importance given to eye colour, but isn't: he has seen other arbitrary systems, and remembers there is a good reason the belief in lighteyed superiority arose.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "first dahn",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "aesudan-kholin",
+      "role": "second dahn",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    },
+    {
+      "characterId": "jakamav",
+      "role": "third dahn",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "moash",
+      "role": "fourth dahn",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    },
+    {
+      "characterId": "lin-davar",
+      "role": "fourth dahn",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ]
+}

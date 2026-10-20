@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A writer whose works Jasnah Kholin recommends to Shallan.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Kharbranth",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Shallan went looking for Yustara's works, the Kharbranthian bookseller Artmyrn had no copies.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

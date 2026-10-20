@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A poet of Roshar who lived about three hundred years before the Vorin calendar began.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Epic",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dovcanti wrote an epic of the False Desolation, telling of battles between humans and Voidbringers after Aharietiam. The Vorin church called it pseudohistory, since it held that no Voidbringers survived. Recent events have made his work more believable.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

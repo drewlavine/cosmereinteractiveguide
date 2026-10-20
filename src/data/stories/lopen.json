@@ -1,0 +1,272 @@
+{
+  "intro": [
+    {
+      "text": "A cheerful newcomer to Bridge Four, the bridge crew led by Kaladin, who insists on calling himself \"the Lopen\".",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    },
+    {
+      "text": "A member of Bridge Four, freed from bridge duty along with the other bridgemen when Dalinar Kholin took them into his service.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "A Herdazian member of Bridge Four who has learned to draw in Stormlight as one of Kaladin's squires, regrowing his missing arm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "text": "A Herdazian member of Bridge Four and a Windrunner in his own right, bonded to the honorspren Rua.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "32" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lopen's family left Herdaz when he was a baby, and he grew up in Alethkar. At some point he lost his left arm and was enslaved; when Kaladin met him, his slave brand already looked old.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "32" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "77" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lopen was sent to the bridge crews not for a crime but for being a nuisance, and seemed to think he was joining the army as a soldier. Alone among the new arrivals he looked eager and volunteered to be picked, so Kaladin chose him for Bridge Four, guessing he wouldn't survive a single run in any other crew.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Kaladin made Lopen the crew's water carrier during bridge runs, working with Dabbid and anyone else unable to carry the bridge. This kept them safe yet useful, where other crews would have put such men at the front to draw Parshendi arrows.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "His small team began carrying Kaladin's medical supplies and other gear such as rope and Parshendi carapace. Lopen picked up first aid from Kaladin and took on medic duties too.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "During the Battle of the Tower, unable to fight, Lopen gathered spears from fallen Alethi soldiers and tossed them to Kaladin so he was never without one. After Bridge Four rescued the Kholin army, Dalinar Kholin freed all of Sadeas's bridgemen, Lopen among them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Lopen joined Kaladin's experiments with his strange powers, letting himself be stuck to walls and sparring alongside Rock and Sigzil against a Stormlight-filled Kaladin. During the Battle of Narak he stayed behind in the warcamp to mind the barracks and watch over the injured Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "King of Alethkar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "words-of-radiance", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Kaladin stopped an attempt on King Elhokar's life, the wounded king was hidden in Lopen's family home in Little Herdaz. Lopen's relatives, unwilling to lie, talked Elhokar into briefly abdicating in Lopen's favour so they could honestly say the king wasn't there, making Lopen king of Alethkar for a few minutes.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Afterwards Lopen tried, without success, to get the Alethi to add him to their list of kings.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Chasing Stormlight",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        },
+        {
+          "text": "Windrunner",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fascinated by Kaladin's abilities, especially the way he drew in Stormlight, Lopen badly wanted to glow too, and was the only member of Bridge Four at the time who actively tried to become a Knight Radiant.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "41" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Soon after Kaladin spoke the Third Ideal, Lopen finally managed to draw in Stormlight as one of Kaladin's squires, and its healing let him regrow his missing arm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Kaladin had Lopen help the bridgemen of the enlarged Bridge Four become squires. Trying to impress them by flying, he instead stuck himself to the ground with a Full Lashing, insisting all the while that he had meant to.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        },
+        {
+          "text": "As a squire Lopen loved using Lashings to hang upside down from ceilings, to others' annoyance, though his powers faded whenever Kaladin went far away. Even without them, he joined Shallan and others in fighting the Unmade Re-Shephir inside Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Lopen fought the Fused in the Battle of Thaylen Field and bonded an honorspren of his own, Rua. Afterwards, while comforting a Thaylen soldier who had lost an arm and explaining the Ideals to him, he spoke the Second Ideal by accident; the Stormfather accepted it, to Lopen's irritation, since he had been saving it for a dramatic moment.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Expedition to Aimia",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "3" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "dawnshard", "chapter": "10" },
+            { "book": "dawnshard", "chapter": "11" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "dawnshard", "chapter": "17" },
+            { "book": "dawnshard", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin chose Lopen and his cousin Huio to accompany Rysn's expedition to Akinah, counting on the quieter Huio to temper Lopen.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+        },
+        {
+          "text": "On the voyage Lopen and Rysn bonded over their experience of disability, and he discussed fabrials with the ardent Rushu, helping lead to the discovery that aluminum could modify them.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+        },
+        {
+          "text": "When the porter Nikli's plot to sabotage the expedition came to light, Lopen and Huio flew him and his assistant Plamry to shore to be held.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        },
+        {
+          "text": "As the ship broke through the storm around Akinah, Lopen stayed on deck, using Stormlight to fix the captain's foot to the planks, and dived in to rescue the sailor Turlm. With Rua's help he spotted a huge shadow following them in the water.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        },
+        {
+          "text": "On Akinah, Lopen flew over the ruins to confirm Rushu's map of the ancient city. Finding no crem, they realised the real city and its Oathgate had been hidden underground. Once they found the Oathgate chamber, Lopen saw they had walked into a trap.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "Racing back to the shore, Lopen saved Huio from the jaws of a huge creature, and the two fought it to give the crew time to escape, though Lopen fretted that Rua couldn't yet become a Blade.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "17" }]
+        },
+        {
+          "text": "Creatures able to drain Stormlight stripped Lopen of his Lashings and he fell, breaking his leg. Huio, fed up with his cousin's teasing, swore the Third Ideal to protect him anyway.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+        },
+        {
+          "text": "Back on the ship, Lopen congratulated Huio, though it was hard for him. Taking their talk to heart, he vowed to protect others even from himself, and the Stormfather accepted it as his Third Ideal.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hearthstone and Emul",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "23" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lopen helped the Windrunners evacuate Hearthstone, fighting the Fused and worrying aloud about Kaladin. After Kaladin stepped back from fighting, Lopen and most of the Bridge Four Windrunners joined Dalinar's forces in Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "23" }]
+        },
+        {
+          "text": "When Dalinar and Renarin sat at a Bridge Four cookfire, Lopen asked Renarin to look into the future and tell him whether he would beat Huio at cards the next day. Later he gathered with the rest of Bridge Four for Teft's funeral.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, spindly, brown-haired Herdazian in his early twenties, with the slate-coloured crystalline fingernails of his people and skin a little too dark to pass for Alethi. A Bridge Four tattoo covers his old slave brand. He was missing his left arm when he joined Bridge Four, until Stormlight let him regrow it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "32" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He calls himself \"the Lopen\", a name his cousins first used because they didn't know anyone else called Lopen; he has asked a hundred or more people since, and none of them have either.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    },
+    {
+      "text": "He talks fast, with an accent, and likes calling people by Herdazian words such as gon, gancho and mancha.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    },
+    {
+      "text": "Relentlessly upbeat, Lopen refuses to let misfortune define him and jokes about his own disability. He can be nonchalant and boastful in the Herdazian way, quick with a rude gesture, and his humour strikes others as odd, yet he is compassionate and dependable.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    }
+  ]
+}

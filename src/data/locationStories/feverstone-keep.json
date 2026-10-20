@@ -1,0 +1,115 @@
+{
+  "intro": [
+    {
+      "text": "A fortress of red stone in a rift, seen in one of Dalinar's visions of the past.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+    },
+    {
+      "text": "An ancient fortress somewhere near Rall Elorim, the capital of Iri, seen in one of Dalinar's visions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A single-walled fortress in a rift on the leeward side of a rock formation. Its sheer battlement faces an open plain of stone, with switchback stairs inside, archer slits and platforms along the base, a sally port into a courtyard, and main and side gates.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+    },
+    {
+      "text": "Its plain, practical buildings stand side by side along the rift walls, decorated only with raincatchers on their roofs. The archways in the wall are in a late classical style.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient times",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The keep was a fallback position near one of the front lines during the False Desolation. Stonewards and Windrunners fought on those lines, and the enemy singers took an interest in the area.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During a battle, hundreds of Knights Radiant in Shardplate came to the keep, joined by Windrunners from the sky. A man in a blue cape drove his Blade into the ground, took off his Plate and walked away, and the others followed his lead as their weapons stopped glowing.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "The soldiers inside were stunned, then rushed out to claim the abandoned Blades despite officers' orders. The scramble turned into a fight, with men killing each other using the weapons they had just taken.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dalinar's visions",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "57" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "56" },
+                { "book": "rhythm-of-war", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One of Dalinar's visions showed him these events at Feverstone Keep, which he believed was the Day of Recreance. His questions in the vision met only cryptic answers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Dalinar first met a representation of Odium during the vision of Feverstone Keep; Odium remarked on the passion and emotion there.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "57" }]
+        },
+        {
+          "text": "Dalinar could find no record of the keep; its name seemed lost to history. He brought Jasnah, Navani and Yanagawn into the vision, and Jasnah dated it to about two thousand years ago, though it could not be located. Shallan later thought of it when Ialai's notes named obscure places.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "oathbringer", "chapter": "56" },
+                { "book": "rhythm-of-war", "chapter": "9" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A brightlady in the Alethi warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Inkima went with Jakamav to a wine tasting in the Outer Market with Adolin Kholin and other lighteyes. When Adolin afterwards invited the pair to another wine house, they turned him down, as House Kholin had fallen out of favour after the Tower.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A plump woman with yellow eyes and hair dyed black. Adolin thinks red does not suit her.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She seems quite taken with Jakamav and laughs at everything he says, with a tinkling laugh Adolin finds grating.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ]
+}

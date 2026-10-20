@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A handyman on King Elhokar's staff on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "King's staff",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nakal does maintenance work for the king's household in the warcamps.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

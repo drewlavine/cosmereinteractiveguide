@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "A Voidspren who worked with Venli to bring about the Everstorm, known to the Fused as the Envoy.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "77" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "57" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ulim had a past with the Herald Nale, though they were not friends, and fell silent when Nale told him to be quiet.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+        },
+        {
+          "text": "Having escaped Braize, Ulim came to Venli in a gemstone. He persuaded her to work with him to bring back her people's gods, and the pair secretly captured stormspren to discover stormform; Venli took the credit, but Ulim did most of the work.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "57" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Once the Everstorm came, Ulim showed himself to the surviving listeners and took a leading role. He sent them to find Eshonai's body for her Shards and taught Venli and others how to prepare to be taken by Fused souls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small red figure in human form, with odd eyes and long hair that ripples as if in wind. He moves as rolling lightning and can make himself invisible.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-3" },
+            { "book": "rhythm-of-war", "chapter": "86" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Arrogant and spiteful, with human mannerisms, he mocks the listeners and Venli's grief, but is deferential and fearful before the Fused.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "A con artist who heads the guards of Macob's caravan and takes Shallan Davar on as her apprentice.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+    },
+    {
+      "text": "A con artist and Ghostbloods associate who took Shallan Davar on as her apprentice, until Shallan killed her.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Macob's caravan",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "24" },
+            { "book": "words-of-radiance", "chapter": "34" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "28" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tyn was raised in Tu Bayla by parents who worked as interpreters.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        },
+        {
+          "text": "Tyn's team was sent to kill Jasnah Kholin aboard a ship bound for the Shattered Plains, but when the ship was Soulcast, the attackers died and Tyn was left stranded without spheres. She joined Macob's caravan as a safe way to reach the Shattered Plains, exaggerating her experience to become head of its guards.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        },
+        {
+          "text": "When bandits attacked the caravan, Shallan's \"soldiers\" helped fend them off, and Shallan asked to travel with the caravan. Using a spanreed to Tashikk, Tyn looked into Shallan's background, decided she was a fellow con woman and took her on as an apprentice.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+        },
+        {
+          "text": "On the way to the Shattered Plains, Tyn taught Shallan accents, how to pass as lower class or foreign, sleight of hand and interrogation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "28" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Death",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "34" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Near the warcamps, Tyn read spanreed messages with Shallan, admitting she meant to sell Shallan's deserters for the bounty. The messages confirmed she had been hired to kill Jasnah and described Jasnah's ward: Shallan herself. Realising she had been fooled, Tyn attacked, but Shallan summoned her Shardblade and killed her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        },
+        {
+          "text": "Shallan took over Tyn's spanreed conversations with the Ghostbloods, who in time worked out what had happened and offered Shallan membership. She based a new persona on Tyn, at first wearing Tyn's clothes and eyedrops.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A wiry, lighteyed woman of medium height with black hair at least shoulder-length. She wears trousers and a long, good leather coat buckled at the waist, almost like a dress, covers her safehand with a tan glove and speaks Alethi without an accent.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tyn likes having an acolyte to nurture, though Shallan suspects that's partly because she likes having someone to impress.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "32" }]
+    },
+    {
+      "text": "Confident, relaxed and free in how she talks, Tyn eats whatever food she likes, whether it is meant for men or women. Smart and curious, she always wants the upper hand, investigating the background of anyone she deals with, and enjoys acting superior to Shallan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "34" },
+            { "book": "oathbringer", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ]
+}

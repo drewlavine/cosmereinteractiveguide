@@ -1,0 +1,119 @@
+{
+  "intro": [
+    {
+      "text": "A Makabaki kingdom on Roshar, long at odds with Emul over Sesemalex Dar, which lies on its border.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Makabaki kingdom on Roshar, ruled by the god-priest Tezim and at war with Emul over Sesemalex Dar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "53" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Tukar's settlements include Torriqqam and Khathazan, with the towns of Riqu Mar and Linder Mar on the Southern Depths. Sesemalex Dar lies on its western border, and the Tukari have claimed it for generations.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "53" }]
+    },
+    {
+      "text": "The Tukari use their own calendar: the Vorin year 1168 falls somewhere in the eighties by their count.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "Tukar is a theocracy. Its god-priest Tezim is revered as an aspect of the Almighty, and the Tukari, unlike other Makabaki, worship the Almighty as the eastern nations do. The people also live in clans.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Tukari are highly militaristic. Tezim's soldiers wear no proper uniforms but hogshide leathers with dark blue cuirasses, and the country has many Soulcasters, used in the war.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tukar and Emul have been in on-and-off conflict for centuries over Sesemalex Dar, valued by both for its religious meaning and its port.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Around 1167, Tezim rose to power as god-priest and began the Eighty's War against Emul. Shortly before the Everstorm, the fighting grew fiercer, and tensions with Marat rose too.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the True Desolation began, Dalinar wrote to both Emul and Tukar. Tukar refused outright: the god-priest demanded that he, as an aspect of the Almighty, should command Urithiru and the Knights Radiant.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "Voidspren began appearing in the part of Shadesmar matching Tukar, but by the battle at Thaylen City the country was still considered neutral.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

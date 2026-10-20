@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "Lunamor and Tuaka's third son, who by Horneater tradition has the honour of being a craftsman.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lunamor's family",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "55" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Star reached the Shattered Plains with his family after months of travel. Voidbringers attacked their caravan, and the family held out behind a pile of furniture until Bridge Four found them and took them to Urithiru. There Star helped his father serve food and drink to Bridge Four.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        },
+        {
+          "text": "Soon after the people of Hearthstone were evacuated, Star went back to the Peaks with most of his family; only Cord and Gift stayed behind.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

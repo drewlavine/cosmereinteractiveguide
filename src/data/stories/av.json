@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "An Emuli thief hired, with his cousin Baxil, by a mysterious woman who destroys artwork.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hired thief",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Av and Baxil were hired by a woman they knew only as 'mistress' to help her break into homes and palaces and destroy art. Av guessed she was of mixed heritage. Baxil was smitten with her; Av saw her as a well-paying but dangerous employer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        },
+        {
+          "text": "She forbade them to steal anything. Av mostly kept watch and stood guard while Baxil helped her, including during a break-in at the palace of Ashno of Sages in Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Av knew a good deal about the Nightwatcher: his parents and several brothers had gone to her Valley. He said she didn't twist your words but gave the boon she thought you deserved with an unpredictable curse. His father's boon saved the family in a famine, but left him seeing the world upside down. Av meant never to go.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned and dark-haired, taller than Baxil, and carries a large sword slung over his shoulder.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Confident, somewhat surly and unflappable, and mildly annoyed by his jumpy cousin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    }
+  ]
+}

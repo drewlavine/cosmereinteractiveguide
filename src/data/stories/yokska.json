@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen tailor in Kholinar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Siege of Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "69" },
+            { "book": "oathbringer", "chapter": "62" },
+            { "book": "oathbringer", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yokska and her husband ran a tailor's shop in Kholinar for wealthy men, with a showroom, a workroom and living quarters, and Adolin Kholin was a dedicated customer.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "69" }]
+        },
+        {
+          "text": "During the siege of Kholinar, Adolin brought Elhokar's rescue party to Yokska's shop, trusting her and thinking it an inconspicuous hiding place. Though a little scattered, she told them much about the city: Aesudan's strange behaviour, the execution of Pai, the Everstorm, the screamers and the vanished Palace Guard, and that some lighteyes and the Wall Guard had resisted the queen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+        },
+        {
+          "text": "Her shop, in a relatively unscathed part of the city, became the rescue party's base. Yokska kept them informed about Brightlord Velalant, the food shortage and the Cult of Moments while they planned to open the Oathgate, and she made Adolin a flamboyant suit as part of his disguise.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        },
+        {
+          "text": "Before the assault on the palace, Adolin thanked Yokska and told her to flee toward the Shattered Plains if the city fell; already unsettled, she was shocked that she and her husband would have to travel so far.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the singers",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Once the singers took Kholinar, Yokska could no longer work as a tailor, but kept her reputation. When Lady Leshwi wanted new robes, Venli brought Yokska to her, but the Fused refused to have a human work for her and had Yokska teach an artform singer to do the job instead.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, plump and fashionable, with traditional long white Thaylen eyebrows worn in ringlets.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+    },
+    {
+      "text": "Under the singers' occupation, Yokska grows thin and scrawny and wears lowly workers' clothes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Yokska is polite, respects the Alethi monarchy and follows the Thaylen Passions.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+    }
+  ]
+}

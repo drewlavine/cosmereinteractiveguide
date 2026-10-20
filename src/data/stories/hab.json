@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed soldier in Kaladin's squad in Brightlord Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's squad",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "way-of-kings", "chapter": "51" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When a Shardbearer attacked Amaram's army, Hab joined Kaladin's charge against him. As the Shardbearer cut down Kaladin's men, Hab tried to retreat but tripped over Toorim's body and lost his spear. He was one of four men of the squad to survive, and saw Kaladin kill the Shardbearer and turn down the Shards in favour of Coreb.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "That same day, Hab was summoned with Kaladin and the other survivors to Amaram's command tent. When Kaladin again asked that the Shards go to Coreb, Amaram had the four survivors killed. Hab drew his knife to defend himself, but one of Amaram's soldiers gutted him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        },
+        {
+          "text": "Facing Amaram years afterwards, Kaladin accused him of feeling guilty over killing Coreb, Hab and the rest of the squad.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

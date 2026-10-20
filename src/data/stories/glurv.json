@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A deserter from the Alethi army who joins Shallan Davar's band.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Deserter",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Glurv once fought the Parshendi on the Shattered Plains before deserting and joining Vathah's band in the Frostlands. Shallan persuaded them to defend Macob's caravan, and her flattering drawing of Glurv prompted Gaz to ask for one too.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "30" }]
+        },
+        {
+          "text": "In Urithiru, Veil had Glurv and Vathah watch for a repeat of a killing. They saw a copycat hang a victim above the Breakaway market; Glurv chased the killer to the eastern tunnels. He received a medal from Dalinar for helping, and loved to gloat about it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short and overweight, with a swollen face that looks as if it is trying to burst through his skin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

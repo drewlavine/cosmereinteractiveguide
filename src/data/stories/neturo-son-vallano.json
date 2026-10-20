@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "A Shin man and the father of Szeth, who thinks of him as gentle and wise.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Shin man and the father of Szeth and Elid, who left his life behind again and again to follow his son.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+    },
+    {
+      "text": "A Shin man, the father of Szeth and Elid, who rose to become the Bondsmith Honorbearer, bearing Ishar's Honorblade, before Ishar killed him and made him one of his Fused.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "117" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Neturo met Zeenid, he persuaded her to question the orthodoxy of Stone Shamanism, and she moved with him to the outskirts of Shinovar. They had a son, Szeth, and a daughter, Elid.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        },
+        {
+          "text": "Neturo worked as a shepherd on the coast of Shinovar during Szeth's youth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Following Szeth",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "68" },
+            { "book": "wind-and-truth", "chapter": "75" },
+            { "book": "wind-and-truth", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When young Szeth killed a patrolling soldier in self-defence, he was marked as one who subtracts and sent to the Stoneward monastery to train as a soldier. To keep the family together, Neturo joined him in training, and Zeenid and Elid came too.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+        },
+        {
+          "text": "Zeenid hated the soldiers' camp and blamed Neturo for bringing her there. She grew distant and began to avoid him, and he did all he could to make the camp a place she could be happy.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        },
+        {
+          "text": "When the Honorbearers learned that a Voice spoke to Szeth, he was pardoned and sent to the Elsecaller monastery as an acolyte. Neturo followed again, becoming administrator of Mokdown, the town outside it. Only Elid came with him; Zeenid went back to live with her sisters, which broke Neturo's heart.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        },
+        {
+          "text": "Neturo excelled as Mokdown's administrator, and while there he began a relationship with Sivi, the Willshaper Honorbearer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+        },
+        {
+          "text": "When Szeth was chosen to go on pilgrimage to succeed Tuko-son-Tuko as bearer of Jezrien's Honorblade, he tried to slip away alone, but found Neturo waiting at the edge of town, ready to follow him once more.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Honorbearer",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Szeth, believing the Voice to be one of the Unmade, left Neturo behind and began a rebellion, Neturo completed his training and became the Bondsmith Honorbearer. He confronted his son and persuaded him to stand down.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        },
+        {
+          "text": "After Szeth was declared Truthless and exiled, Neturo went on working with the other Honorbearers at Ishar's orders. Around Vev 1175, Ishar killed him and made him one of his Fused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A calm Shin man with a long beard tied at the bottom with a green ribbon, matching two more he ties on his arms. He wears a reed hat for shade.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "27" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Szeth deeply respects his father. When he became Truthless, he stopped calling himself Szeth-son-Neturo to avoid shaming his father's name, and tried not to think of him at all.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A follower of Stone Shamanism who does not follow it blindly, Neturo believes the greatest thing a man can do is create. He is unhappy being made to kill, but will do it if it means he can follow Szeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ]
+}

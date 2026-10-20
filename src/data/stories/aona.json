@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "One of the Shards. She and Skai settled in the same place, against the Shards' agreement, and both are dead, their power Splintered.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "oathbringer", "chapter": "39" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aona came from Yolen, where she was a healer. Tanavast remembered her as always being kind to him, and as one of the best of the people who took part in the Shattering.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "124" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Death",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Odium set Aona and Skai against each other, then killed them both while the struggle had left them weak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

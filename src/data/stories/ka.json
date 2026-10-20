@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "Ka is a barmaid at the Ornery Chull, a tavern in the Kholin warcamp, who is friendly with the men of Bridge Four.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "Ka is a scribe for a squad of Windrunners, who first met Bridge Four while working as a barmaid in the Kholin warcamp.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ka is a Windrunner and a scribe for a squad of Windrunners. She first met Bridge Four as a barmaid in the Kholin warcamp, and is married to Peet.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "3" },
+            { "book": "wind-and-truth", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ka worked at the Ornery Chull, a tavern in the Kholin warcamp, during the War of Reckoning. She began a relationship with Peet of Bridge Four, and when Kaladin and Moash met Graves there, she brought them to a private table and served drinks to them and their friends.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        },
+        {
+          "text": "On meeting Ka, Kaladin considered recruiting her as a scribe and clerk for Bridge Four, and soon planned to have her read him the newly published transcriptions of Dalinar's visions.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "By the time Kaladin returned from Hearthstone, Ka and Peet were engaged, and Sigzil reminded him to ask about family housing in Urithiru. Shallan thought Ka looked embarrassed when she opened Bridge Four's wedding gift, a pair of boots.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Ka stayed on as scribe for Peet's Windrunner squad. On the Fourth Bridge's journey to Hearthstone, she handled the spanreed for Navani, linking the ship with the team in Urithiru that moved it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Ka is good-natured and enjoys teasing and bantering with Bridge Four, especially Lunamor, rolling her eyes at his flattery. She gives the bridgemen special attention, serving them at their table when others must order at the bar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "She is educated, able to read and write the women's script and operate a spanreed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    }
+  ]
+}

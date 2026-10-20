@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "A hedonistic cult that rose to power in Kholinar during the siege, believing a new world ruled by spren was coming.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Members believe a new world is coming, ruled by spren, especially those transformed by Sja-anat. They are told to abandon every worry and give themselves wholly to indulgence.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+    },
+    {
+      "text": "Its invitation-only feast is held at the Monastery Dais in the palace, and newcomers must bring food. The tables hold fresh and rotten food eaten by hand, and guests are urged to abandon all restraint.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The cult appeared in Kholinar around the time of the riots, perhaps growing out of Queen Aesudan's lavish parties and Ashertmarn's influence. After the Everstorm it became the chief power in the besieged city, parading daily.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "62" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shallan drew the cult's attention by stealing food and handing it out to the poor, earning an invitation to its feast in the palace.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "aesudan-kholin",
+      "role": "queen",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "62" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ashertmarn",
+      "role": "influence",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            { "book": "oathbringer", "chapter": "62" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "sja-anat",
+      "role": "revered",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "infiltrated it",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+    }
+  ]
+}

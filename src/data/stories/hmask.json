@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen soldier in Adolin Kholin's support squad during the Battle for Azimir.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Thaylen soldier of Adolin's Cobalt Guard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Thaylen member of Adolin's Cobalt Guard who becomes one of the Unoathed.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle for Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "41" },
+            { "book": "wind-and-truth", "chapter": "42" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hmask was in Adolin's support squad when Adolin first fought the Fused Abidi the Monarch at Azimir. When Adolin was tripped, Hmask threw himself between them and gave Adolin time to recover.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "41" }]
+        },
+        {
+          "text": "Learning that his rescuer was an eager foreign soldier especially loyal to him, Adolin made Hmask a full member of the Cobalt Guard and gave him a uniform.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "With Yanagawn translating, Hmask explained that Adolin had saved his son from a falling building while fighting a thunderclast at the Battle of Thaylen Field. On the second day of the battle he volunteered to guard Adolin off-shift, and followed him right across the enemy lines.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A bearded man with long white Thaylen eyebrows and a white mustache.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Usually cheerful and smiling, he meets hard situations with eager readiness.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ]
+}

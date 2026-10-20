@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "Szeth's sister, who grew up on her family's farm in Shinovar and played the flute while he danced around their sacred stone.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "24" }]
+    },
+    {
+      "text": "Szeth's sister, a Shin Honorbearer.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood in Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "24" },
+            { "book": "wind-and-truth", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a girl, Elid played the flute for Szeth to dance to, though by fourteen she had tired of practising.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "24" }]
+        },
+        {
+          "text": "When Szeth found a new stone emerging on their land in 1149, Elid protested that the family might be forced to move, and was relieved when he agreed to their parents' plan to shift it. When raiders' horns sounded soon after, she helped move the flock inland and found three sheep missing.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The monasteries",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After that night, the family moved to the monastery with Szeth. Elid blamed him for taking her old life, but put on a brave face and was the first to step into the training yard. She worked as a scullery maid and kept watch over her family's struggles.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "57" }]
+        },
+        {
+          "text": "When Szeth moved to another monastery, Elid followed with their father rather than stay with their mother, travelling often and training with the sword. Later she confronted Szeth over their father following him, and told him she hated him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Honorbearer",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar turned Elid into a Fused, and Szeth killed her with Nightblood.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A little taller than Szeth but shorter than average, with dark hair, she grows into a wiry adult with keen eyes and an air of authority, wearing a polished stone necklace and carrying a side sword.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Direct and personable, she swears casually and doubts that stones are holy. She cares deeply for her family but holds grudges against her father and Szeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ]
+}

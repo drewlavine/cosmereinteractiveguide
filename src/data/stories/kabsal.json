@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "Kabsal is a young ardent at the Palanaeum in Kharbranth who befriends Shallan Davar while seeking an audience with Jasnah Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+    },
+    {
+      "text": "Kabsal is a member of the Ghostbloods who went undercover as an ardent of the Devotary of Insight in the Palanaeum in Kharbranth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Palanaeum",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "7" },
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "way-of-kings", "chapter": "50" },
+            { "book": "way-of-kings", "chapter": "74" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kabsal had repeatedly asked for an audience with Jasnah Kholin without success. Waiting at her reading alcove, he met Shallan Davar, admired her art and urged her to be less formal with him, then asked her to mention him to Jasnah.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "7" }]
+        },
+        {
+          "text": "Kabsal showed Shallan what he called proof of the Almighty, using notes played beside a salted metal plate to form the shapes of cities of the Silver Kingdoms. Jasnah was unimpressed and unwelcoming, and warned Shallan that he was only interested in her to get to Jasnah and her Soulcaster.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Kabsal visited Shallan often, bringing bread and jars of jam and joking about a book that linked personality to favourite jams. He tried to recruit her to his devotary, hid from Taravangian on one outing, and told her that a Soulcaster was used simply by tapping a gem. All the while the bread was poisoned for Jasnah, and the jam held the antidote.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
+        },
+        {
+          "text": "While visiting Shallan in the hospital, Kabsal finally got Jasnah to eat the poisoned bread, but she had Soulcast both bread and jam as a precaution, so he and Shallan fell ill without the antidote. Kabsal died, while Jasnah saved Shallan. Investigating him, Jasnah found that he was no ardent but a member of the Ghostbloods.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kabsal is in his early to mid-twenties, tall, lean and rather handsome, with a narrow face, shaven head, short square beard and keen blue eyes. He wears simple gray ardent's robes and speaks in a cultured tone with a faint Herdazian accent.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kabsal has a dry, witty sense of humor and enjoys light verbal sparring with Shallan, often being improperly casual or swearing. He seems to genuinely enjoy her company.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "41" },
+            { "book": "rhythm-of-war", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ]
+}

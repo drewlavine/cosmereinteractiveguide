@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A bouncer at a tea shop in Azimir.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Azimir",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ulak works as a bouncer at a tea shop in Azimir.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

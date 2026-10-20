@@ -1,0 +1,99 @@
+{
+  "intro": [
+    {
+      "text": "In Vorinism, the profession or field of study a person dedicates their life to in order to please the Almighty.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorinism teaches that those who best fulfil their Callings are summoned after death to practise them in the War for Heaven, their abilities greatly enhanced. Those not chosen simply sleep until the war ends.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    },
+    {
+      "text": "Soldiering is held the highest Calling, at least among the warlike Alethi. Ardents teach that every Calling is noble, but those of other Callings often feel less valued in practice.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "41" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The aim is for people to improve themselves and make the most of their talents, which Vorinism sees as worship, since the Almighty gave those talents.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "People choose a Calling young, within the bounds of rank and the masculine and feminine arts, along with a Glory, an aspect of the Almighty to emulate. With ardents of a devotary they set goals, and reaching them lets them Elevate and gain Points.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "59" },
+            { "book": "words-of-radiance", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Calling: leadership",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "23" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Calling: natural history",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "23" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Calling: dueling",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "23" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ashir",
+      "role": "Calling: cooking",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "23" }
+          ]
+        }
+      ]
+    }
+  ]
+}

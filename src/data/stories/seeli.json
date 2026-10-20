@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A young girl in a village in Natanatan, in a time between Desolations, whose home is attacked by the Midnight Essence.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "A young girl in Dalinar's Starfalls vision, the daughter of Taffa and Heb, the man whose place Dalinar takes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The attack on her village",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Seeli was about seven or eight, the Midnight Essence attacked her village in Natanatan, and she hid in her family's barn until her father found her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "In Dalinar's experience of that night, her father got her out of the barn and into the house, and the family fled to hide from the creatures. Terrified throughout, Seeli survived when two Knights Radiant arrived to save them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "When Queen Fen lived the same scene, Seeli's father abandoned her, and she saw her mother die. She survived the battle deeply shaken, huddling by the fire with other children, and when Fen approached her, the Almighty spoke through her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A chain of islands in the Reshi Sea of Roshar, some of whose people are known for painting the shells of their chulls.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Reshi travel the sea in catamarans. Their furniture is flat and long, and they sit on cushions instead of chairs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-8" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most Reshi have little concept of real war: when two tai-na fight, their people row out and trade insults, weakest first, before a few arrows fly. The eastern Reshi, though, raid Alethkar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    },
+    {
+      "text": "The Reshi Isles lie near the equator, so the weather is warm and overwhelmingly humid, and rain on the Reshi Sea forms a misty haze.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "text": "Some Reshi islands are tai-na, huge greatshells the size of islands that the Reshi live on and worship. Each island has its own king, with its own customs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "24" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "dawnshard", "chapter": "3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1155 the Akak Reshi fought the Alethi and were destroyed; Dalinar, a general on the Alethi side, claimed their land for Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The losses dealt a heavy blow to the nearby Reshi, but they kept raiding the Alethi borders.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "The Reshi trade only with individuals they trust, mostly in the trading season. Rysn and her babsk Vstim came to one island to trade with its king.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "During the True Desolation, the coalition invited the Reshi king Ral-na and his son to Urithiru.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+        }
+      ]
+    }
+  ]
+}

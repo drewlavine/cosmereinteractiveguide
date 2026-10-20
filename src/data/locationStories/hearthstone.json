@@ -1,0 +1,131 @@
+{
+  "intro": [
+    {
+      "text": "A farming town in Alethkar and the home of Kaladin's family, governed first by Brightlord Wistiow and then by Brightlord Roshone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    },
+    {
+      "text": "A large but remote town near the eastern border of the Sadeas princedom, the hub of the farming communities around it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "10" },
+            { "book": "oathbringer", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Life in Hearthstone is simple. Most darkeyes there are of the fourth or fifth nahn; Kaladin's family, of the second nahn, is the exception, and his mother Hesina is the only darkeyed woman in town who can read.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    },
+    {
+      "text": "The town sits against a steep hill called the breakwall, which shelters it from highstorms, around a central breakwater cut to catch rain. Its hundred or so wedge-shaped buildings slope on the eastern side and have windows to the west. It has a bakery, several taverns and a town hall; Kaladin's family home, with Lirin's surgery, is on the outskirts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "Lavis polyps cover the surrounding hills, though the land is less fertile than it was, and farmers check their fields for worms for weeks each worming season. Whitespines roam the area, and while theft is rare in town, banditry is sometimes a problem.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "The citylord's two-storey manor stands northwest of town, built of thick white stone with pillars on the leeward side and a garden of exotic plants in front.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Under Wistiow and Roshone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "31" },
+            { "book": "way-of-kings", "chapter": "44" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Brightlord Wistiow governed lightly, mostly letting the townsfolk do as they pleased. Months after his death, Brightlord Roshone arrived from Kholinar, resentful at the move. He treated the town with contempt, clashed with Lirin and fed rumours about how Lirin had come by Wistiow's wealth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        },
+        {
+          "text": "Armies sometimes pass through, especially during the Weeping, seeking recruits and supplies, more often since the War of Reckoning began. Townsfolk need the citylord's permission to leave with an army and must be at least fifteen, but the citylord can also allow passing armies to press people into service.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "Roshone's son Rillir was to marry Wistiow's daughter Laral, but he was killed by a whitespine on a hunt in which Roshone lost part of his leg. Roshone later married Laral himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Amaram's army came through recruiting, Roshone asked for volunteers and then conscripted others, including Lirin's son Tien. Kaladin enlisted too, hoping to protect his brother.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "7" },
+            { "book": "rhythm-of-war", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "43" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Everstorm destroyed most of the town and four of its silos, and the townsfolk and refugees from nearby villages sheltered in the battered manor. Kaladin came home and found his family there, stirring the town with his slave brands and Shardblade. He left again to follow the town's missing parshmen, leaving Hearthstone in Roshone and Laral's care.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+        },
+        {
+          "text": "Within a year, the Fused occupied the town, with Abiajan as its citylady, and it became a refugee camp for people fleeing the war in Herdaz. Laral and Lirin hid the Herdazian general known as the Mink among the refugees until Lezian arrived.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+        },
+        {
+          "text": "Kaladin fought Lezian, and the Fourth Bridge came to evacuate the townsfolk and refugees, setting off a battle with the Fused. Lezian burned the manor and took captives to draw Kaladin out, and Kaladin killed him. Roshone was killed in the manor.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+        },
+        {
+          "text": "All but fifteen townsfolk were taken to Urithiru by the Fourth Bridge and settled together on the tower's sixth floor. Under Jasnah's new inheritance laws, Laral became citylady.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+        }
+      ]
+    }
+  ]
+}

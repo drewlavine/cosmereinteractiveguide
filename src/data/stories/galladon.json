@@ -1,0 +1,125 @@
+{
+  "intro": [
+    {
+      "text": "A Dula farmer taken by the Shaod, who guides Raoden through Elantris and helps him build New Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+    },
+    {
+      "text": "A worldhopper, seen on Roshar with Baon and Demoux.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "25" },
+            { "book": "elantris", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Galladon's father became an Elantrian when Galladon was very young, and the family lived in Elantris for several years until his mother died. His father grew more and more withdrawn and, rather than live on without his wife, let a treatable heart condition end his life.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "With his father's blessing, Galladon returned to Duladel to become a farmer.",
+          "revealedIn": [{ "book": "elantris", "chapter": "25" }]
+        },
+        {
+          "text": "Determined to adapt to normal life, he farmed grain, building his house with his own hands, and after some years switched to orchards. He kept reading in the off-season, but never really fitted in with his neighbours, so he left that life with few regrets when the Shaod took him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Elantrian",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "7" },
+            { "book": "elantris", "chapter": "13" },
+            { "book": "elantris", "chapter": "16" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A few months after the Shaod took him, Galladon met Raoden on his first day in Elantris. He told Raoden the hard truths of the city: their bodies no longer healed, and the pain drove every Elantrian mad. For some of Raoden's food, he agreed to guide him for thirty days, showing him the gangs, the market, the university and the palace, and taking him to his father's workroom, where he drew Aon Deo in the air.",
+          "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+        },
+        {
+          "text": "Despite Galladon's protests, Raoden rescued Mareshe from the gangs at the gate, and with him they began the foundation of New Elantris, which made the gangs think Raoden was starting a gang of his own.",
+          "revealedIn": [{ "book": "elantris", "chapter": "7" }]
+        },
+        {
+          "text": "As more Elantrians joined, they set up in a Korathi church, and Raoden spent an hour persuading Galladon to move his father's books there. When Karata came with her gang to end the new faction, Raoden talked her into leaving them alone.",
+          "revealedIn": [{ "book": "elantris", "chapter": "13" }]
+        },
+        {
+          "text": "Galladon was deeply shaken to learn that the republic in his homeland had collapsed and Shu-Dereth had become its state religion. When Raoden showed him bags of seed corn, Galladon judged them good and soon had corn growing in one of the gardens.",
+          "revealedIn": [{ "book": "elantris", "chapter": "16" }]
+        },
+        {
+          "text": "Galladon was central to Raoden's efforts to bring order to New Elantris. He explained the Dor to Raoden, taught the other Elantrians to draw Aons, and organized and led the Elantrians who came to Teod's rescue.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Baon and Demoux, Galladon hired the Purelake fisherman Ishikk to look for Hoid. Ishikk thought he had given a false name and called him Grump. Off his world Galladon looked much like an ordinary Dula man, dark-skinned and bald, and he still called people \"friend\" and ended his statements with \"Understand?\".",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The three gave up the search and left Roshar, then returned and travelled to Iri, where they collected a letter from Hoid before deciding to leave the planet again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        },
+        {
+          "text": "Galladon described Hoid as one of the eldest beings in the cosmere, with the mental age of a thirteen-year-old.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and firm by Selish standards, with wide hands and keen eyes, and bald since his thirties. As an Elantrian he has dark grey skin covered in dark splotches and wrinkles.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "elantris", "chapter": "epilogue" },
+            { "book": "way-of-kings", "chapter": "i-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

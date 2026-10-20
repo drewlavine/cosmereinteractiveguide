@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor on the Wandersail.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Voyage to Akinah",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the Wandersail passed through the storm around Akinah, Wvlan lost his footing and was nearly swept overboard until Lopen saved him.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

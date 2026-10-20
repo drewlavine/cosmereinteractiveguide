@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen ship captain who sails the Wind's Pleasure with his wife, Ashlv.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Wind's Pleasure",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tozbek carried Shallan Davar from Jah Keved to Kharbranth at a generous discount, because House Davar had invested in his business.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+        },
+        {
+          "text": "Jasnah then chose Tozbek's ship for her and Shallan's voyage from Kharbranth to the Shattered Plains. What became of him after the Wind's Pleasure sank is unknown.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, portly, bald man with long white Thaylen eyebrows stiffened into fans above his eyes, and a scar on his jaw from loose tackle.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A calm, cautious man and an excellent sailor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "words-of-radiance", "chapter": "1" }
+          ]
+        }
+      ]
+    }
+  ]
+}

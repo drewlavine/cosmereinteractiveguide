@@ -1,0 +1,188 @@
+{
+  "intro": [
+    {
+      "text": "Creatures of Roshar's religion and folklore. Most people now think them myths, or long since destroyed or driven back to the Tranquiline Halls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+    },
+    {
+      "text": "The name humans give the forces of Odium, the enemies of mankind in the Desolations: the Fused, voidspren, Regals, the Unmade and the singers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rural folk blame Voidbringers for small misfortunes, like a blighted crop or missing laundry. In cities they are evil spren that walk the night and enter the hearts of good men. Darkeyes collect such tales in volumes like Shadows Remembered.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "63" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Darker rumours say they haunt the worst highstorms, eat human flesh and steal hearts or souls. The Unkalaki deny they ever existed, and most scholars consider them mere myths.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Vorin church now gives them less prominence, linking them with the Lost Radiants and its own failings, and holds that none survived Aharietiam. Fortune-telling is still associated with Voidbringers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "56" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vorin theology holds that Voidbringers are real: destruction given form, forged from hatred in Damnation as the Almighty's counterparts. Tales describe them as red-eyed giants of flame and stone that only Shardblades could defeat, or as faceless spirits of the dead.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "81" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vorinism says they drove humanity from the Tranquiline Halls and tried to force it into Damnation, clashing with the Heralds and Knights Radiant again and again until Aharietiam.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "oathbringer", "chapter": "105" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jasnah's theory",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While most dismissed Voidbringers as legend, Jasnah Kholin feared what was coming and set out to discover their true nature, suspecting they were the parshmen.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "43" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "120" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Guided by a voidspren, Venli discovered stormform, and the listeners used it to summon the Everstorm. Its passing restored the parshmen's minds, the Fused returned in singer bodies, and voidspren led the singers to gather in Alethkar, Marat and Iri, where humans had agreed to help them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "43" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With the Unmade's help, the Voidbringers took Kholinar and its Oathgate. Odium then sent them against Thaylen City, but Dalinar resisted him and the Radiants defended the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "The Voidbringers turned out to be a coalition of beings allied with Odium, not only singers, angry at their displacement and slavery and set on taking Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jasnah-kholin",
+      "role": "studied them",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "oathbringer", "chapter": "109" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "venli",
+      "role": "found stormform",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "One of the Fused, in a hulking singer body, who rallies singers at Thaylen City.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Turash took Venli, in envoyform, to the battlefield to translate as he addressed the local singers. They were reluctant to attack the land they saw as home, and Turash, puzzled by their lack of Passion, urged them to seek vengeance and become Regals.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        },
+        {
+          "text": "Odium greeted Turash as an old friend and told him the singers were only there to watch, as the attack would be led by humans under Meridas Amaram. Turash balked at following a human, and Odium threatened to end him permanently.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A hulking singer body with heavy carapace armour and glowing red eyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Unlike many Fused, Turash is sane and fairly reasonable. Calm but intense, he speaks often of Passion and holds to ancient traditions, and may have some doubts about Odium's orders.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+    }
+  ]
+}

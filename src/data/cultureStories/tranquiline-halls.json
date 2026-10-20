@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "In Vorinism, the original home of mankind and the heaven where the worthy go when they die. The Heralds fight to win it back from the Voidbringers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorin tradition holds that humans lived in peace in the Tranquiline Halls until the Voidbringers came from Damnation and drove them to Roshar. The Almighty sent the Dawnsingers to care for them, and after the Heralds and Knights Radiant won Aharietiam the Heralds followed the Voidbringers back to the Halls.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "61" }]
+    },
+    {
+      "text": "People practise their Callings in life to prepare to aid the Heralds. The best, and those who die with valour, rise again to join the Heraldic Forces and fight in the War for Heaven, their skills magically enhanced. Soldiers are the most glorified there.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "59" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The truth behind the story",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "113" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Heralds are not leading a war to reclaim the Tranquiline Halls. After the Last Desolation nine of them told mankind they had won and invented the story of returning to the Halls to hide that they had abandoned the Oathpact and stayed on Roshar. Only Taln did not break it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The idea comes from Ashyn, where many humans lived before they nearly destroyed it with the Surges. Honor and Cultivation told the Dawnsingers to welcome the refugees, who were given Shinovar; by the Last Desolation the history had warped into something close to Vorin doctrine.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "This past explains things such as mentions of fantastical animals like lions, and why humans seem so out of place among Roshar's other life.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "talenel",
+      "role": "kept the Oathpact",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    }
+  ]
+}

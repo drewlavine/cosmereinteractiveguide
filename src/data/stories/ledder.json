@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A soldier on Adolin and Shallan's expedition to Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shadesmar",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Adolin introduced Maya to his soldiers, Ledder complimented her on how she looked as a Blade.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A thick-shouldered darkeyed man from Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "20" },
+            { "book": "way-of-kings", "chapter": "31" },
+            { "book": "way-of-kings", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1166 Harl's daughter Miasal was badly hurt in a long fall. Kaladin, passing by, tried to treat her, but Harl in his fear tried to stop him until other men dragged him away. Miasal's wounds were fatal; when Harl realised she was dead, he shoved Kaladin aside and wept over her for a long time.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "20" }]
+        },
+        {
+          "text": "In 1167, convinced by Brightlord Roshone that Lirin had stolen the spheres left him by Brightlord Wistiow, Harl, Balsas, Luten and others tried to rob Lirin at night. Harl's black mask couldn't hide his broad shoulders. Lirin caught them outside his home and shamed them, and they left in disgrace.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        },
+        {
+          "text": "Around 1167 Harl's wife died of scarfever. In 1168, with his wife and daughter both dead, he volunteered for Amaram's army as other townspeople enlisted or were conscripted.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

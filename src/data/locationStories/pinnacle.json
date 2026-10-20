@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "King Elhokar Kholin's palace on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Elhokar's favourite place, as everyone knows, is a small balcony in his rooms facing the Origin, from which he can look out over the Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "23" }]
+    },
+    {
+      "text": "The palace is made of sculpted Soulcast stone, much of it dug into the hill, with vast halls on several floors and leeward windows whose shutters rattle and leak in bad weather.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+    },
+    {
+      "text": "The Gallery of Maps holds maps of the world and the Plains and a tally of gemhearts won by each highprince, under a stretched dome with skylights over formations of shalebark.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Pinnacle stands on a hill above the warcamps, about an hour's march from the Kholin camp, with a sheer drop of about a hundred feet around it. One road leads to the main entrance and a smaller path to the stables below; the feasting basin and the Outer Market are nearby.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The royal Soulcasters built the palace during the war, and Elhokar named it the Pinnacle.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "24" },
+                { "book": "words-of-radiance", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As the king's home and the place where he met his highprinces, the Pinnacle was effectively the centre of Alethi government. It saw several attempts on the king's life, including one by the Assassin in White and one by Moash and Graves, after which Kaladin moved Elhokar to Little Herdaz.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the battle at Narak, most Alethi moved to Urithiru, and the Pinnacle, like the other buildings on the Plains, was all but abandoned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ]
+    }
+  ]
+}

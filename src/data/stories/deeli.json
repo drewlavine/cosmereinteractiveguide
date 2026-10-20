@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed woman on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Courting Adolin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Deeli courted Adolin Kholin for a while and even met his father, Dalinar, but it didn't work out. During the relationship she once claimed 'womanly reasons' four times in a single month.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Short, with a fondness for silver hair ribbons.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "personality": []
+}

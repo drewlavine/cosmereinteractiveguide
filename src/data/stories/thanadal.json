@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "A highprince of Alethkar. His army has the Shardbearer Resi and three other men with Plate or Blade, though Thanadal has neither himself.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "text": "A highprince of Alethkar who stayed behind on the Shattered Plains when most of the others moved to Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War on the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thanadal refused even to meet Dalinar about a joint plateau assault, sending a messenger to decline. When he began speaking out against Dalinar, Adolin duelled and beat his Shardbearer Resi. In another duel, Adolin fought of Thanadal's Shardbearers, Salinor Eved, and won his Blade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Staying on the Plains",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When most of the highprinces moved their warcamps toward Urithiru, Thanadal and Vamah stayed. Thanadal took over the land and resources the others left behind and built himself what amounted to a kingdom of his own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "Sebarial worried about Thanadal seizing Alethi resources, and Aladar told Dalinar that without Thanadal's forces their armies were too weak to make Urithiru the stronghold Dalinar hoped for.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Sons of Honor",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thanadal belonged to the Sons of Honor and rose in their ranks. The Kholins believed Ialai Sadeas had ordered the killing of Thanadal and Vamah, but Ialai told Shallan that the Ghostbloods had killed him, despite his attempt to negotiate with them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Sadeas thinks Thanadal an oily man, with both the motive and the nerve to hire assassins against Elhokar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+    }
+  ]
+}

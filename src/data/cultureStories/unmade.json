@@ -1,0 +1,212 @@
+{
+  "intro": [
+    {
+      "text": "Mysterious beings of legend. Listener songs credit them with making certain forms, and scholars note that many of them are mindless.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "text": "The Unmade: the spren of Odium, nine ancient beings long feared in Rosharan legend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "25" },
+            { "book": "oathbringer", "chapter": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Nine ancient, twisted spren that are Splinters of Odium. Though counted as his minions, not all of them still do his bidding, and they range from mindless forces to cunning individuals with vast and terrible powers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "91" },
+            { "book": "rhythm-of-war", "chapter": "112" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Being near an Unmade brings a strong sense of unease and wrongness that grows the closer one gets, and Lightweavers cannot draw buildings under an Unmade's influence.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
+    },
+    {
+      "text": "By modern times the Unmade had become heavily mythologised. Vorin teaching speaks of them only vaguely, often as a single being, but ardents tell old folktales of them, and stories cast them as princes of the Voidbringers. So many names and powers are ascribed to each that truth is hard to tell from legend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "90" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some Unmade are practically mindless, more like emotion spren, while others are intelligent, crafty and conniving.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "i-2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Odium trapped them in a halfway existence, many belonging fully to neither the Physical nor the Cognitive Realm. Some take on forms in the Physical Realm if they linger in one place or are drawn through by strong emotions.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-2" }]
+    },
+    {
+      "text": "The listeners' songs name all nine, remembering them as gods the listeners swore never to follow again.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "31" },
+            { "book": "rhythm-of-war", "chapter": "73" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Old encounters",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Recreance, a Lightweaver managed to trap Re-Shephir, something thought impossible. She escaped centuries ago and hid in Urithiru, until a confrontation with Shallan, whose powers reminded her of that Lightweaver, made her flee.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "About five generations before Lunamor, his ancestor encountered one of the Unmade in the Horneater Peaks.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "85" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "112" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kholinar, Sja-anat had corrupted the spren of the Oathgate, yet she saved Shallan and her companions from death as they passed through it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "85" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field, Dalinar used his knowledge of the Thrill and of how spren are coaxed into gemstones to capture Nergaoul in the King's Drop.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Nergaoul's gemstone was afterward sealed in an aluminum box and sunk to the bottom of the ocean.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        },
+        {
+          "text": "Re-Shephir shared what she knew about the Sibling with the Fused.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        },
+        {
+          "text": "Negotiating with Dalinar, Odium claimed he could order the Unmade to retreat, though not all of them obey him now.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Number",
+      "name": "Nine",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "1" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "re-shephir",
+      "role": "Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+    },
+    {
+      "characterId": "sja-anat",
+      "role": "Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "ashertmarn",
+      "role": "Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "characterId": "moelach",
+      "role": "Unmade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "oathbringer", "chapter": "102" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "chemoarish",
+      "role": "Unmade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "108" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "nergaoul",
+      "role": "Unmade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    },
+    {
+      "characterId": "yelig-nar",
+      "role": "Unmade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "31" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ba-ado-mishram",
+      "role": "Unmade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ]
+}

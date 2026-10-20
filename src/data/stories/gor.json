@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in Amaram's army.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "108" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Barely out of his teens, Gor passed squadleader Varth an order to hold position during a battle against Brightlord Hallaw's army. Short of fighting men, Varth told the nearby messenger boys to arm themselves and had Gor place them at the front of the squad. Gor questioned the order briefly but obeyed, and so Tien died.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

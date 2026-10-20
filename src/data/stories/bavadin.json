@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A powerful figure who seems to have been allied with Rayse, and against whom Hoid holds a deep grudge.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+    },
+    {
+      "text": "A powerful figure against whom Hoid holds a deep grudge, and whom Tanavast thought capable but shrewd.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "wind-and-truth", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rayse and Hoid",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bavadin seems to have had some alliance with Rayse. Hoid bears a deep grudge against both of them, and the dislike appears to be mutual.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Even before taking up her power, she was known as shrewd and capable.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "115" }]
+    }
+  ]
+}

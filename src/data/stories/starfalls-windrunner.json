@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Knight Radiant from long ago whom Dalinar meets in one of his visions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's vision",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "This Knight Radiant appeared in one of the visions Dalinar was shown.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

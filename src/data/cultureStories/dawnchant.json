@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "An ancient, long-lost language and script of Roshar, found in old songs and texts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "The language of the Dawnsingers, Roshar's original inhabitants. Humans took up its script, and it once served as a shared written language across Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "In Dawnchant, \"elin\" means a person who forms a bond, and is often added to the Heralds' names as an honorific.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Modern lore says the Heralds spoke the Dawnchant, but it likely came from the Dawnsingers and was adopted by humans after they arrived from Ashyn. Over time, peoples across Roshar adapted its script to their own languages, creating their own writing.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rediscovery",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "47" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Vanrial, an order of artists in Jah Keved, sing songs in an ancient script. Using Dalinar's visions, Navani identifies it as the Dawnchant and deduces that one line means \"To be human is to want that which we cannot have.\"",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Shallan finds what Jasnah suspected was the Dawnchant on old maps of the Silver Kingdoms, some of which Pattern can read.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "47" }]
+        },
+        {
+          "text": "The walls around the Oathgate on the Shattered Plains bear Dawnchant inscriptions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the Jokasha Monastery Ellista works on Dawnchant codices that show the same written Dawnchant was once used all across Roshar, evolving as peoples used it to write their own languages.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "navani-kholin",
+      "role": "deciphered it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "characterId": "pattern",
+      "role": "can read it",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "47" }]
+    }
+  ]
+}

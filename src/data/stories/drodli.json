@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A head shaman of the Windrunner monastery.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Windrunner monastery",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drodli is one of the head shamans of the Windrunner monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

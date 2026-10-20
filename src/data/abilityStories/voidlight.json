@@ -1,0 +1,171 @@
+{
+  "intro": [
+    {
+      "text": "A dark, violet light used by the enemy, much as Stormlight is used by Surgebinders.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "79" }]
+    },
+    {
+      "text": "The dark, violet light of Odium's forces. It's stored in gemstones like Stormlight and powers the Surges of the Fused.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "80" },
+            { "book": "rhythm-of-war", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Voidlight is a dark light the enemy depends on to power their transformations.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+    },
+    {
+      "text": "Voidlight is a dark, violet-on-black glow. On a person it spreads over the skin instead of sinking in, and someone filled with it leaves violet trails as they move.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "79" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Getting Voidlight",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "80" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ba-Ado-Mishram is said to have once supplied Voidlight to the parsh people.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "Leaving gemstones out in the Everstorm doesn't fill them with Voidlight, and the Fused arrive already full of it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "A singer can make a sphere of Voidlight by singing the Song of Prayer, though doing so draws Odium's attention.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "80" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Properties",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "69" },
+            { "book": "rhythm-of-war", "chapter": "97" },
+            { "book": "rhythm-of-war", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Voidlight is stored in gemstones like Stormlight, but the two can't share a gem. It leaks much more slowly than Stormlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "69" }]
+        },
+        {
+          "text": "Instead of an urge to move, Voidlight brings stronger passion and more vivid emotions. In a singer it fills mainly the gemheart.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Humans can draw in Voidlight if they know its pure tone and rhythm.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "Its rhythm is chaotic, but with a certain logic to it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Anti-Voidlight",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Anti-Voidlight glows a faint violet-black and seems to warp the air around it. When it meets Voidlight, both are destroyed in an explosion.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Uses",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "79" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "79" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like Stormlight, Voidlight heals the person filled with it, and the Fused use it to power their Surges as a Surgebinder uses Stormlight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "79" }]
+        },
+        {
+          "text": "Voidlight powers some, if not all, of the special powers of the Regal forms.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "79" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Several Unmade are linked to Voidlight: bonding Yelig-nar grows violet crystals and a gemheart pulsing with it, and the sphere holding Nergaoul glows dark purple.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Larkin can feed on Voidlight with no ill effects.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Shard",
+      "name": "Odium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "80" },
+            { "book": "rhythm-of-war", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": []
+}

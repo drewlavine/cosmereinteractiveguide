@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "Adrotagia is the head of King Taravangian's scribes and scholars, and a member of the Diagram.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "Adrotagia is the head of King Taravangian's scribes and scholars and one of his oldest friends. A brilliant scholar and a leader of the Diagram, she follows him to Urithiru when he joins Dalinar's coalition.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Taravangian's scholar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adrotagia grew up as a close friend of Taravangian, presumably in Kharbranth; they called each other Adro and Vargo even as adults. She married and was widowed, and as Taravangian rose to power she became the head of his scholars and scribes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Adrotagia was present on the day Taravangian wrote the Diagram, after his visit to the Nightwatcher, and helped compile his writings. With her team she produced a portable, annotated copy of the original, which covered walls and furniture.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "With Mrall, she went with Taravangian to Jah Keved after its civil war. There she demanded to know why Szeth had failed to kill Dalinar, discussed the Surgebinder he had seen, and was with Taravangian when King Valam died and Taravangian gained Jah Keved as his second kingdom.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dalinar's coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adrotagia went with Taravangian to Urithiru when he joined Dalinar's coalition, attending meetings of both scholars and monarchs. Meanwhile the Diagram shifted its aim to replacing Dalinar as leader, and she helped leak information to undermine him while mentoring the Surgebinder Malata.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "After Dalinar's victory at Thaylen Field, Adrotagia stayed optimistic, studying the Diagram for the group's next steps. She was nearby when Odium appeared to Taravangian, though it is unclear whether she knew of it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "After Taravangian's apparent death, Adrotagia returned to Kharbranth. When the city was threatened during the final ten days before the contest of champions, Odium moved it into an isolated pocket of the Spiritual Realm and altered her memory, so that she believed peace had been made, though she could not leave.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Adrotagia is an aging Kharbranthian woman with green eyes, liver spots, heavy bags under her eyes and wispy silver hair worn in a bun. She wears a stormclock.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "An unbeliever, Adrotagia prefers evidence to faith, though she still burns glyphwards each morning for her late husband. She can be ruthless in pursuing the Diagram's goals, yet she keeps a moral compass, once calling Taravangian a monster for ordering the deaths of innocent children.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "She is an exceptionally intelligent polymath, expert at interpreting the Diagram, translating languages Taravangian invents on the spot, running several spanreeds at once and even calculating the strength of the Everstorm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ]
+}

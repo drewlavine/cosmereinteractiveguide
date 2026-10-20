@@ -1,0 +1,176 @@
+{
+  "intro": [
+    {
+      "text": "The legendary Blades of the Heralds, more powerful than ordinary Shardblades.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    },
+    {
+      "text": "The Blades of the Heralds, given to them by Honor. They aren't spren, so anyone can use one, and holding one grants Surgebinding without a Nahel bond.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Honorblades, the Blades of the Heralds, are legendary treasures, more powerful than ordinary Shardblades. While one is summoned it changes the colour of its holder's eyes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    },
+    {
+      "text": "Honorblades were given to the Heralds by Honor. They aren't made from a spren bond, so anyone can use one, and each grants the Surges of its Herald's order.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Shinovar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Seven of the Honorblades are kept by the Shin, who have guarded them for millennia.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "The nine abandoned Honorblades ended up in Shinovar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Jezrien's Honorblade",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth uses Jezrien's Honorblade to kill rulers across Roshar between 1167 and 1173, among them Gavilar Kholin, King Hanavanar of Jah Keved and two Prime Aqasixes of Azir.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "During the Battle of Narak Szeth fights Kaladin with it, and at the end he gives up his bond and it ends up in Kaladin's hands.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Kaladin passes it to Dalinar, who hides it in Urithiru and then gives it to Kaladin's men for training and for working the Oathgates; they swap it among themselves to keep its holder secret.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "Agents of the Diagram work out when Eth holds it, kill him with a Shardblade and steal it. In time it's given to Leshwi, who passes it to Moash so he can join the Fused in the skies.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Talenel's Honorblade",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talenel returns carrying his Honorblade, which doesn't vanish when he drops it. On the way to the Shattered Plains it's swapped for an ordinary Shardblade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The Blades",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "rhythm-of-war", "chapter": "i-4" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Heralds carried Blades, each unique and covered in glyphs and patterns. At Aharietiam, the Last Desolation, nine of them left their Blades behind.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "text": "Anyone can use an Honorblade, not just a Herald; like a Shardblade, it can be bonded, summoned and dismissed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Honorblades are made of Honor's own Investiture, which he splintered off himself and crystallised into metal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "Unlike Radiant Shardblades, Honorblades can't change shape.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-4" }]
+        },
+        {
+          "text": "Honorblades are nearly indestructible.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Surgebinding",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "98" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Holding an Honorblade grants the ability to Surgebind without a Nahel bond.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "Using Surges through an Honorblade takes more Stormlight, up to dangerous levels. The Shin still train some of their people to use the Blades and their Surges.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "Jezrien's Honorblade",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "characterId": "talenel",
+      "role": "Own Honorblade",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Jezrien's Honorblade",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Jezrien's Honorblade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "Jezrien's Honorblade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "The Heart of the Revel, one of the Unmade, which takes the form of a giant black heart at the centre of a revel in Kholinar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "62" },
+            { "book": "oathbringer", "chapter": "78" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ashertmarn came to Kholinar when the Everstorm first passed over the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
+        },
+        {
+          "text": "Shallan Davar won her way into the revel on the Oathgate platform by bringing food. Its outer ring feasted, the next crawled through rotting food, and at the centre the Unmade covered the control building. Shallan could not have pulled herself away if Sja-anat had not appeared and broken her focus.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+        },
+        {
+          "text": "When Shallan returned to clear the Oathgate platform as an escape route, she tried to banish Ashertmarn as she had Re-Shephir. After urging her to give in to indulgence, it withdrew.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ashertmarn looks like a giant, black, inhuman heart beating to an irregular rhythm, with thick black veins that merge into the ground. In the Cognitive Realm it is massive, with long black claws.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ashertmarn urges the people around it to abandon their lives and responsibilities for excess, a pull that grows harder to resist the closer they come. Those near it lose track of time.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+    }
+  ]
+}

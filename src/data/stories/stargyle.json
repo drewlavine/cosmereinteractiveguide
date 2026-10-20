@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Stargyle is a Lightweaver and a member of Shallan's Unseen Court.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lightweaver",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "98" },
+            { "book": "rhythm-of-war", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stargyle was born to a pigmenter and grew up seeing the world through its colors; Stargyle may not be the name he was born with. He served as a soldier, married and found his way to Urithiru.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+        },
+        {
+          "text": "Shallan recruited Stargyle into her Lightweavers, the Unseen Court. As one of the newest recruits, he was chosen for the mission to Lasting Integrity, but backed out when his wife fell ill, and Beryl went in his place.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
+        },
+        {
+          "text": "Stargyle joined the coalition force that retook Emul. When Dalinar sought Ishar, Stargyle scouted Tukar with Sigzil and some Windrunners, then made an illusion showing Dalinar what they had seen of Ishar's army.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Stargyle is tall and handsome with a ready smile and a soldier's build, though he no longer wears a uniform. Lighteyed women of the court think well of him.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stargyle is friendly and skilled at seeing into Shadesmar. When he creates illusions, he focuses by acting as if he were painting.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "98" }]
+    }
+  ]
+}

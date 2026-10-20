@@ -1,0 +1,99 @@
+{
+  "intro": [
+    {
+      "text": "The world of the Stormlight Archive, where gemstone spheres serve as money and three moons cross the night sky.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Three small moons rise and set in the same order every night, and except in the dark seventeenth hour, one is always in the sky.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "Rosharans pay in spheres: gemstones set in glass, in three sizes called chips, marks and broams. Their value is set by what each gem can Soulcast, and spheres can hold Stormlight.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "The Vorin calendar has ten months of ten five-day weeks, so a year is 500 days, measured from one Weeping to the next.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "46" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Plants and animals are built for the storms: some trees have trunks of stone, and greatshells, from domestic chulls to predatory chasmfiends, carry gemhearts.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "words-of-radiance", "chapter": "66" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "38" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "5" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Heraldic Epochs, time was counted in Epochs centuries long. Desolations came ever closer together, until only a year separated the Last Desolation from the one before it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        },
+        {
+          "text": "In the Era of Solitude, the Vorin church tried to rule the world in the Hierocracy, until Sadees the Sunmaker united Alethkar's princedoms and cast it down in the War of Loss.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1167, Gavilar Kholin was assassinated by Szeth, on the orders of the listeners, and the Alethi highprinces took their armies to the Shattered Plains to fight them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "5" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1173, at the Battle of Narak, the Everstorm was summoned, ending the Era of Solitude and beginning the True Desolation.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "One of the largest plateaus on the Shattered Plains, and the furthest east the Alethi armies have found.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Tower is oddly shaped and unusually massive, and chasmfiends often come to it to pupate.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Alethi highprinces had fought for the Tower twenty-nine times without winning a single skirmish there; Dalinar had lost twice on his own and once in a joint attack with Sadeas.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        }
+      ]
+    }
+  ]
+}

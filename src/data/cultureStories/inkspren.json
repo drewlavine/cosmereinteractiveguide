@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "A race of sapient spren that live mostly in the Cognitive Realm.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Inkspren dislike humans as irrational and changeable, and admire those who are cautious, logical and unemotional. Their society opposes refounding the Knights Radiant, believing death is the only outcome for a bonded spren; very few will try the bond again.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Unlike other sapient spren, they cannot change shape or turn invisible in the Physical Realm, but they can change their size drastically, from that of a person down to a speck of dust, and can blend into shadows.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Cognitive Realm inkspren are humanlike and never change shape. They are angular, like unfinished statues, wholly black with a marble-like sheen that shimmers in many colours, as if oiled. Their stiff, fashionable clothes and carapace-like armour are part of them, and some carry swords.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "102" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They are very common in Shadesmar cities such as Celebrant.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "They speak in a particular way, saying simply that something \"is\" rather than that it is here or exists, and keep their body language spare.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ivory",
+      "role": "inkspren",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ]
+}

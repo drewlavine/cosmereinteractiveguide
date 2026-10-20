@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed lord on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lord Yonatan was one of the lighteyes on the Shattered Plains.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

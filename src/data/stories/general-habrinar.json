@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "An old general of the coalition forces at Narak, pulled out of retirement for the war.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Narak",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Called back from retirement for the war, Habrinar served as a coalition general at Narak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A known fatalist who believes the coalition will lose the war.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ]
+}

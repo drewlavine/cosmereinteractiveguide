@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom in western Roshar, ruled in theory by its oldest man and in practice by the Monavakah dynasty.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "A kingdom in western Roshar whose capital, Panatham, holds an Oathgate. Its people are called Babath.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Babatharnam has peculiar trees that lie down completely when a highstorm approaches, trunk and all, as if on a hinge.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "It is a gerontocracy: the older someone is, the more authority they have, and the oldest man rules as the Most Ancient. In practice, the Monavakah dynasty executes or exiles anyone old enough to challenge it, and has kept power for fifty years.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "The Babath value thoughtful, precise speech, which leads careless outsiders into offence. Sigzil was imprisoned there three times. They are known to eat snails.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "The Babath have bronze skin and dark hair and speak a mix of Selay and local tribal languages. Their women have a complex pattern of veins just under the skin that many foreigners find unnerving.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "oathbringer", "chapter": "i-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Monavakah dynasty took power around 1120 and kept it by assassinating rivals, causing great unrest.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "In the first months of the True Desolation, the Most Ancient of Babatharnam refused to cooperate with Dalinar Kholin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        }
+      ]
+    }
+  ]
+}

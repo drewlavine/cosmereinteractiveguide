@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten Heralds of the Almighty and patron of the Order of Edgedancers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            "oathbringer"
+          ]
+        }
+      ]
+    },
+    {
+      "text": "One of the ten Heralds of the Almighty, called the Herald of Healing and patron of the Order of Edgedancers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            "oathbringer",
+            { "book": "wind-and-truth", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vedel was born on Alaswha and became queen of a city-state there. She was visiting Odium's empire when Ashyn was scoured; her people appear to have died, but she escaped to Roshar through an Elsegate and became a skilled healer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-7" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Roshar, Vedel trained surgeons ahead of each coming Desolation, and once the Knights Radiant were founded she became patron of the Edgedancers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }]
+        },
+        {
+          "text": "At the Last Desolation, Vedel and the other Heralds decided to give up the Oathpact and leave Taln alone on Braize.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "To modern Rosharans Vedel looks Alethi or Veden, though paler than most; some take her for a Horneater. Her hair is long and dark, with a slight curl.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "62" }]
+    }
+  ],
+  "personality": []
+}

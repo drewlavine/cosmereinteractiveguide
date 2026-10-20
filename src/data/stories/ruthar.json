@@ -1,0 +1,126 @@
+{
+  "intro": [
+    {
+      "text": "One of the highprinces of Alethkar, at war on the Shattered Plains and resentful of Dalinar's influence over the king.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A former highprince of Alethkar, stripped of his title after disgracing himself.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Unification of Alethkar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ruthar was already a highprince, married to Jayla and father of Relis, when he fought for Gavilar in 1145. He killed Gallam and won both Blade and Plate for his son.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "36" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "38" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Vengeance Pact, Ruthar followed King Elhokar to the Shattered Plains. Resenting Dalinar's influence over the king, he was drawn into Sadeas's schemes against him, and blamed Adolin for losing a gemheart on a joint plateau run.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "36" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ruthar led the opposition to Elhokar's new rules for the warcamps, voicing Sadeas's arguments to the other highprinces. He tried to lure Shallan into his household, but Sebarial embarrassed him and took her in instead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+        },
+        {
+          "text": "Adolin's duels cost Ruthar dearly: first his nephew Elit lost Ruthar's Plate, then his son Relis lost a disadvantaged duel, leaving Ruthar with only his own Blade. Shamed, he sent Relis home to Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "76" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru Ruthar stayed hostile to Dalinar and liked to provoke Aladar. His foolish argument with Jasnah at a meeting of monarchs sparked Dalinar's insight that Odium would strike Thaylen City.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "The least trusted highprince, Ruthar marched with the army on Emul. Jasnah goaded him into demanding a trial by combat, then fought him herself; he refused to fight, and she stabbed him through the neck. Renarin healed him, and he was stripped of his title, which passed to Relis.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Brawny and blue-eyed, with a short black beard, slicked dark hair and an oily look, he dresses informally for a man of his rank.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Aggressive and abusive, he openly contradicts his superiors and thinks too highly of his military sense, though he has never been a soldier.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+    }
+  ]
+}

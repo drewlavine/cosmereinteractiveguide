@@ -1,0 +1,150 @@
+{
+  "intro": [
+    {
+      "text": "A race of sapient spren that live mostly in the Cognitive Realm. They are sometimes called liespren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    },
+    {
+      "text": "A race of sapient spren, the embodiment of the mathematical truths beneath the world, mostly living in the Cognitive Realm. Their Nahel bond grants the powers of the Order of Lightweavers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "97" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "In the Physical Realm a Cryptic shows as a complex, ever-shifting fractal pattern raised slightly off a surface, or now and then as a floating knot of twisting lines. Its voice buzzes, it vibrates when it speaks, and it often hums.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "42" }]
+    },
+    {
+      "text": "A Cryptic bond grows as the bonded person speaks deep truths about themselves; the more powerful the truth, the deeper the bond. Cryptics can sense when someone is lying.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "oathbringer", "chapter": "47" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Few Cryptics live out in Shadesmar; most live in Number City. They have no wish to conquer territory, so other spren don't war with them, though many find their fondness for lies and mathematics unsettling.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "62" },
+            { "book": "edgedancer", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "97" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They are gifted translators who can learn any language, human or spren, with enough exposure, and skilled codebreakers. They can mimic voices and sounds perfectly through vibration.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "29" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Cryptics love lies and irony, gathering and humming wherever a falsehood is spoken, though they dislike the name liespren. They are themselves exceedingly honest and poor liars.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bonding again",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "17" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "60" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because of the Recreance, many Cryptics believe a bond is a death sentence, yet think what they could learn from humans is worth it. Rather than leave a bonded Cryptic alone, others follow the would-be Lightweaver from Shadesmar to watch the bond grow.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Cryptics were among the first spren to begin bonding humans again.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "A group of Cryptics followed Shallan for some time before her bond. They also watched King Elhokar, feeding his paranoia, and sent one of their number to bond him; he died before finishing the First Ideal, and that Cryptic bonded Hoid instead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Home",
+      "name": "Number City",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "97" }
+          ]
+        }
+      ]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "pattern",
+      "role": "Cryptic",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "bonded",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    }
+  ]
+}

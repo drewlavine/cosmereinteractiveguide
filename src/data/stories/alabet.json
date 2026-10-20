@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed soldier in Amaram's army and one of the four survivors of Kaladin's squad after a Shardbearer's attack.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "way-of-kings", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alabet survived with Hab, Reesh and Coreb when a Shardbearer attacked their squad. Kaladin killed the Shardbearer but refused the Shards.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "When Amaram betrayed Kaladin, Alabet and Hab drew their knives, but Amaram's guards cut Alabet down.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

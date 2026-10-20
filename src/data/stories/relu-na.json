@@ -1,0 +1,55 @@
+{
+  "intro": [
+    {
+      "text": "A Tai-na: a living island in the Reshi Isles, so vast she looks like a forested mountain rising from the sea, with people living on her shell.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "words-of-radiance", "chapter": "i-3" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "dawnshard", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rysn and Vstim visited Relu-na hoping to trade for a larkin corpse. Rysn, startled that such a creature existed, was led on a long climb up to the head to meet the king. On the way they met Axies the Collector, whom the natives had hung upside-down for prying into the island's spren.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-5" },
+                { "book": "words-of-radiance", "chapter": "i-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Frustrated by the negotiations, Rysn climbed down a rope hanging hundreds of feet over the ocean to address Relu-na directly, but the rope snapped and she fell. She survived, and Vstim told her afterwards that the island's spren had somehow saved her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        },
+        {
+          "text": "When Rysn wrote to Talik about Chiri-Chiri's failing health, the king's consort went to Relu-na, who somehow indicated that Chiri-Chiri needed to be taken home.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Her shell looks like a mountainous island with no beach, thick with moss, trees, shalebark and rockbuds, with docks on its protrusions and stairs cut into it. Only when she moves can her legs be seen. The sea around her is unusually warm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "personality": []
+}

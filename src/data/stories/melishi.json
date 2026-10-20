@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A Knight Radiant of ancient times.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "58" }]
+    },
+    {
+      "text": "An ancient Bondsmith, probably the only one of his time, who fought in the False Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "58" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An ancient Bondsmith, bonded to the Sibling, who fought in the False Desolation.",
+      "revealedIn": [
+        {
+          "all": [
+            "words-of-radiance",
+            { "book": "oathbringer", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The False Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "83" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Melishi lived thousands of years ago and was probably the only Bondsmith of his time. During the False Desolation he resolved to destroy the Voidbringers with his order's unique powers, through a plan tied to the nature of the Heralds that he could not fully explain to the other Radiants.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Records in Urithiru's gem archive tell how Melishi and other scholar Radiants planned to capture the Unmade Ba-Ado-Mishram in a perfect gemstone to cut the parsh off from Voidlight and end the war, despite Naze-daughter-Kuzodo's warnings of side effects.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Sibling",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "111" },
+                { "book": "rhythm-of-war", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Melishi built the barrier around the Sibling's pillar at the heart of Urithiru, powered by four gemstone nodes. The Sibling grew bitter toward him for taking their freedom and risking their life, ended the bond before the Recreance, and swore never to bond a human again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "111" },
+                { "book": "rhythm-of-war", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A quiet bridgeman in Bridge Four, in Highprince Sadeas's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+    },
+    {
+      "text": "A member of Bridge Four who became one of Kaladin's Windrunner squires.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "40" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bisig was the last of Bridge Four to go along with Kaladin's changes, likely more because of Rock's and Teft's threats than loyalty. When the crew gave Rock a razor, Bisig was one of the two men the Horneater hugged.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
+        },
+        {
+          "text": "Bisig was on guard during the highstorm before the king's balcony gave way, but was dismissed before the attack. He joined the expedition to find Stormseat and survived the Battle of Narak, though a Shardblade wound during Szeth's attack on Dalinar cost him the use of his right hand.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Squire at Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Bridge Four became Kaladin's squires, Bisig gained Stormlight, which healed his hand. Sigzil raised his coming marriage with Kaladin as an example of the men's changing lives. Imitating Lopen in practice, Bisig once crashed into the ceiling.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "When an intruder stole the Honorblade Bridge Four was guarding, Bisig was badly hurt by another Shardblade wound. He survived and said the attacker had worn Teft's lieutenant's coat.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Thin, with an angular face.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Reserved and quiet, though close to being betrothed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ]
+}

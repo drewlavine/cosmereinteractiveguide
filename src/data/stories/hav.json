@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "A sergeant in Amaram's army who trained new recruits, Kaladin among them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+    },
+    {
+      "text": "A soldier in Highlord Meridas Amaram's personal guard, who trained Kaladin when he first became a spearman.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training recruits",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "44" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hav joined the army under Meridas Amaram and rose to sergeant, receiving and training new recruits. In 1168, after Amaram recruited Kaladin and his brother Tien, the two were sent to Hav to begin their training.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Hav's training was hard. He taught Kaladin to throw a punch and grab an enemy's spear, to stick with his decisions, and that soldiers who march together fight better together. Above all he taught him to split the battlefield into \"us\" and \"them\", protecting his own side.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "oathbringer", "chapter": "10" },
+                { "book": "rhythm-of-war", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Late in 1173 Hav came to the Shattered Plains in Amaram's personal guard and tried to secure a perimeter around Amaram's house. He stopped Shallan, disguised as a messenger, at the boundary, but she talked her way in. Then, posing as the maid Telesh, she sent Amaram out to see Hav about a messenger, which confused Hav, since he had let the messenger through.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Remembered",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin sometimes wonders what became of his old sergeant, and believes Hav would be proud of him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A solid-looking man with a thick, wide nose and a greying beard, usually in the uniform of Amaram's army with a traditional takama.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A fine teacher of how to survive as a soldier, Hav holds guard duty to be one of the most respectable jobs a soldier can have. He is protective, sometimes overly so.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    }
+  ]
+}

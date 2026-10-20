@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "The dueling champion of the Alethi warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+    },
+    {
+      "text": "Highprince Ruthar, eldest son of the former highprince, who now works with the Kholins despite his past hostility.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dueling champion",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "53" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After beating Epinar to become dueling champion, Relis avoided serious duels for months. When Adolin lured his cousin Elit into a duel and won his Plate, Relis tried to have the fight thrown out, then agreed to face Adolin alongside whoever he chose to bring, with the Kholin Shards at stake.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "53" }]
+        },
+        {
+          "text": "Relis brought Elit, Abrobadar and Jakamav to the duel, but Renarin and then Kaladin joined Adolin. Relis dismissed the unarmoured Kaladin, who drew him away and cracked his Plate. When Kaladin caught Relis's Blade between his hands, Relis fled the arena and forfeited.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Back in Alethkar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Embarrassed by the defeat, Relis's father sent him home to Alethkar, where he fought the Voidbringers as they pushed north and tried to rally the remaining troops, but they were driven back toward Herdaz.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "66" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Relis and his brother Ivanar had told Wit about their father's abuse. When their father gave up his title and lands, Relis became Highprince Ruthar and proved willing to cooperate with the Kholins.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Relis has a wide, flat face and a squashed nose, and likes flamboyant clothes.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+    }
+  ],
+  "personality": []
+}

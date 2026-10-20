@@ -1,0 +1,94 @@
+{
+  "intro": [
+    {
+      "text": "An island kingdom in the south of Roshar, with its capital at Thaylen City. Its people and their language are called Thaylen.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Thaylens follow Vorinism mixed with local beliefs, such as the Passions: wanting something strongly enough draws it to you. Men may learn to read, and women often wear a long glove instead of a sleeve on the safehand.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "text": "Thaylens are known for long white eyebrows, which they sometimes tuck behind their ears; Thaylen men also have white beards whatever their age.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "i-4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Thaylenah's largest island, its population centre, is mountainous, with towering cliffs along its northern coast. It is cold, though Thaylens find it pleasantly chill. Its capital lies in a large lait on the northwest coast, across the Longbrow's Straits from the Frostlands.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Thaylen merchants trade across the whole continent. Merchants are ranked from apprentice to master; anyone can become one by being taken on by a master, who becomes their legal parent, or babsk.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "113" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Heraldic Epochs the islands were part of Thalath, and Thaylen City, with its Oathgate, was probably its capital. Local tradition says Thaylenah itself is about four thousand years old.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "In the Era of Solitude Thaylenah became a titan of commerce, its ships and caravans trading around the world, and it had known no war for a generation. Fen Rnamdi was elected queen in recent decades.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylenah is an elective monarchy: merchant councils and senior naval officers choose the monarch, who is seen more as the merchants' representative than an absolute ruler.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "The Everstorm devastated Thaylen City, and its parshmen stole the ships and left, crippling the famous navy. With no other choice, the Thaylens allied with Urithiru and stayed even after the alliance broke apart.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed soldier in Kaladin's squad in Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's squad",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Coreb was the highest-ranked man in Kaladin's squad and its best fighter. In 1172 he joined Kaladin's charge on a Shardbearer who tried to kill Amaram, and was one of only four of the squad to survive. Stunned when Kaladin won, he urged him to take the Shardblade, but Kaladin, disgusted, told Coreb the Blade was his.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        },
+        {
+          "text": "That day Coreb and the other survivors were summoned to Amaram's warcenter, where Kaladin again offered the Shards to Coreb. Instead Amaram ordered the four men killed. Coreb was the last to fall; he backed away in silence, but at the end fell to his knees and begged for his life before he was beheaded.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Remembered",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaladin remembered Coreb fondly, and his death fuelled Kaladin's hatred of Amaram. At the Battle of Thaylen Field, Kaladin accused Amaram of feeling guilt for killing Coreb, Hab and the rest of his squad.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

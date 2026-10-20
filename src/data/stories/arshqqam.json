@@ -1,0 +1,107 @@
+{
+  "intro": [
+    {
+      "text": "A woman known as the Stump, who runs Tashi's Light Orphanage in Yeddaw.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+    },
+    {
+      "text": "An elderly woman, known as the Stump, who runs Tashi's Light Orphanage in Yeddaw and has joined the Knights Radiant as a Truthwatcher.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Running Tashi's Light Orphanage",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "20" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stump had run the orphanage for some time and may have founded it. Outsiders called her mean, saying she only gave away food to look good for the officials, and she ran a scheme swapping donated spheres for dun ones. Without realising it, she had been using their Stormlight to heal sick children, whom she then accused of faking. Once this came to light, the charges against her were dropped.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        },
+        {
+          "text": "When Nale sent his Skybreakers to hunt down a Radiant in Yeddaw, they thought their target was Arclo, but in truth Nale was after the Stump. He stabbed her and left her alive to lure Lift out, and once he abandoned his hunt, Lift healed her.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Visit to Azimir",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some of Jasnah's colleagues persuaded the Stump to visit Azimir, and she let them sketch her spren.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Expedition to Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "34" },
+            { "book": "rhythm-of-war", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because the honorspren hold Truthwatchers in high regard, Adolin and Shallan chose Arshqqam to join the expedition to Lasting Integrity. She rejected Adolin's first ideas of persuading the honorspren through guilt or threats, backing instead the more passionate approach suggested by her spren, Dreaming-though-Awake, and advising that any plan must appeal to the honorspren's sense of honor.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        },
+        {
+          "text": "When Adolin was taken captive, Arshqqam left with Zu and other soldiers from the expedition to report to Dalinar about the trial in Lasting Integrity.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A fragile-looking elderly woman with spindly fingers and drooping skin. Lift describes her as a shrivelled weed of a woman, like the child of a broom and a particularly determined clump of moss.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "6" },
+            { "book": "rhythm-of-war", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stern and disliked by many of the children and the local urchins, Arshqqam is nonetheless fond of them, calling the nickname they gave her a glorious title, though she likes her own name too. She is fond of Lift, but thinks the girl needs a firm hand.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "6" },
+            { "book": "rhythm-of-war", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Arshqqam didn't want to leave her life in Tashikk, and doesn't understand why someone her age was chosen, but if a child like Lift could join the cause, she felt she had no excuse not to. Veil sees more in her than the surface suggests, noting her quiet care over her appearance and her ease discussing strategy with Adolin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+    }
+  ]
+}

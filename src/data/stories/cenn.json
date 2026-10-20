@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "A young recruit who joins Kaladin's squad just before his first battle.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kaladin's squad",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "way-of-kings", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cenn was a chull farmer who volunteered for the army at fifteen. After barely three months of training he was assigned to Gare's squad, but Kaladin bribed Gare to transfer him to his own squad so he could protect the boy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "Before his first battle, Dallet advised Cenn to relieve himself. The chaos of real fighting surprised him, and Dallet kept pushing him back into formation. Separated from the squad, he was stabbed in the thigh by one of six enemy soldiers, until Kaladin killed all six and bound his wound.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }]
+        },
+        {
+          "text": "Weak from blood loss, Cenn stayed with Dallet and the wounded while Kaladin attacked a lighteyed officer. When an enemy Shardbearer charged the squad, Cenn closed his eyes and was trampled by the man's horse.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Young and inexperienced, he bears a certain resemblance to Tien. He panics before his first battle, but finds Dallet's gruff voice comforting and fights bravely.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ]
+}

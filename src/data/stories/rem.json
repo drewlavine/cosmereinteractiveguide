@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A woman from Sadeas's warcamp who followed her husband, Ned, to Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after they reached Urithiru, Rem tried to get a drunken Ned to leave All's Alley, and he strangled her, scraping her face with his ring. The next day a barmaid there was killed in exactly the same way, and the thugs guarding the bar, who knew the couple, killed Ned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "While investigating murders that might be tied to Sadeas's death, Shallan learned of Rem's death from Betha.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

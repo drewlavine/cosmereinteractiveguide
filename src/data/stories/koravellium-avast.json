@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "The Vessel of the Shard Cultivation, who turned down worship as a god on Yolen and came to Roshar after Tanavast.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yolen",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Yolen she was raised to be a god, but she rejected that role and left her people when they wanted her to answer their prayers, and they named her a heretic.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "113" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Roshar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "100" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "i-5" },
+                { "book": "wind-and-truth", "chapter": "113" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "She came to Roshar some time after Tanavast, who had secretly loved her when their union was forbidden in mortal life. Being with her broke his oaths, and his power turned against him until he subdued it.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "100" }]
+        },
+        {
+          "text": "She made the Nightwatcher directly, as a being that would grow without being shaped by human thought, and lets her hold court in the Valley granting boons and curses. Cultivation watches these exchanges closely and steps in when the Nightwatcher is out of her depth.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "i-5" },
+                { "book": "wind-and-truth", "chapter": "113" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She arranged Taravangian's rise to Odium, using her boon to shape his intelligence and compassion in the hope he would hold that power more honourably than Rayse, then offered to teach him to use it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "When she meets people she usually takes the form of a dark-skinned, matronly woman with a round face, full black curls and a muscular build, wearing a sweeping moss-brown dress that seems to merge with the undergrowth. Her voice sounds like tumbling stones.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She holds that no single god can rule the cosmere, since one answer cannot suit everyone, and gives this as her reason for taking part in the Shattering of Adonalsium.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-4" }]
+    },
+    {
+      "text": "Calculating and cautious, she prefers to arrange things from behind the scenes rather than act directly. She is private and secretive, which makes some think she has given up on people when she is really planning. In person she is curt and certain, though she can be considerate.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "114" },
+            { "book": "wind-and-truth", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

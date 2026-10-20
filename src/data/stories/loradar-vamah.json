@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi highprince with a warcamp on the Shattered Plains, who joins King Elhokar's chasmfiend hunt.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    },
+    {
+      "text": "An Alethi highprince who stays neutral in the feud between Dalinar Kholin and Sadeas, and remains at the warcamps on the Shattered Plains when most of the Alethi move to Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An Alethi highprince who remained at the warcamps on the Shattered Plains when most of the Alethi moved to Urithiru, until he was assassinated.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "38" },
+            { "book": "oathbringer", "chapter": "45" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elevation to highprince",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vamah was born a minor cousin of Highprince Kalanor. When Dalinar Kholin killed Kalanor in battle during the reunification of Alethkar, ending his line, Vamah seized the princedom and soon swore fealty to Gavilar, who made him highprince of Kalanor's former lands, with his seat in Revolar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "67" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Gavilar's assassination, Vamah swore the Vengeance Pact, raised a large army and set up a warcamp on the Shattered Plains, leaving his kinsman Paladar as regent. Over six years he competed for gemhearts, building one of the strongest armies on the Plains, known for its light cavalry, while complaining ever more loudly about the cost of the king's Soulcasters.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "15" },
+                { "book": "words-of-radiance", "chapter": "67" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1173, Vamah joined King Elhokar's chasmfiend hunt, the only one of the group without Shards, and grumbled at its slow pace. Afterwards Sadeas doubled his price for lumber, and Dalinar bluntly reminded him how much he relied on the king's Soulcasters. At Adolin's duel with Resi, Dalinar and Sadeas quietly mocked Vamah's unfashionable outfit.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+        },
+        {
+          "text": "When Dalinar became Highprince of War and his feud with Sadeas divided the highprinces, Vamah stayed neutral. He listened seriously to Dalinar's case over dinner, but grew less receptive after Dalinar's visions became public, and he did not commit his army to the joint assault on the listeners.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Following the Everstorm",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "45" },
+            { "book": "rhythm-of-war", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vamah stayed at the warcamps with Thanadal while most of the Alethi moved to Urithiru. After the Everstorm he lost control of his princedom, as his regent was deposed and Revolar became a staging point for the singers' siege of Kholinar, but he extended his influence over the lands around the Plains and the trade to the Oathgate at Narak.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+        },
+        {
+          "text": "Vamah became associated with the Sons of Honor. When the Ghostbloods began assassinating its leaders, starting with Thanadal, he tried to flee, but was killed soon after Ialai Sadeas returned to the warcamps. The Kholins believed Ialai had ordered the killings, until she told Shallan the truth.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A round-faced, balding Alethi man with light grey eyes and short hair that sticks straight up, who tends to squint. He and his men often wear House Vamah's brown and grey, and his attempts at fashion, such as rent-style clothes and bright colours, are often mocked. He brings a cupbearer with exotic liquor to feasts, offering tastes to those who impress him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Generally agreeable and rarely in a foul mood, Vamah is reasonable enough to hear Dalinar out, but sensitive to peer pressure. He is ultimately self-interested rather than loyal to the throne, staying behind to consolidate his own power rather than join the expedition onto the Shattered Plains or move to Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ]
+}

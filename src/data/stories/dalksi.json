@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "An Azish vizier.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "An Azish vizier and one of Emperor Yanagawn's highest advisers, whom Lift calls Dalky.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Vizier of Azir",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lift got to know Dalksi during her time in the palace, though she never bothered to learn her name and called her Dalky.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "13" }]
+        },
+        {
+          "text": "Dalksi was with Yanagawn when the Azish fleet left Thaylen City. She asked what he meant by calling Lift 'the other kind of smart', then let Vono in to report that Lift had escaped.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dalksi has powder-white hair and an odd nose like a spigot. She is the oldest of Yanagawn's advisers, though not the most senior.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "116" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

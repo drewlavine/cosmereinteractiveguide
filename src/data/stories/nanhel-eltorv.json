@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A sailor in Captain Tozbek's crew on the Wind's Pleasure.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Wind's Pleasure",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "words-of-radiance", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the crew spotted a santhid on Jasnah and Shallan's voyage, Nanhel thought it was a sign of good luck.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        },
+        {
+          "text": "His fate after the Wind's Pleasure sank is unknown.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

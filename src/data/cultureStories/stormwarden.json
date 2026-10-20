@@ -1,0 +1,109 @@
+{
+  "intro": [
+    {
+      "text": "Scholars who predict the coming of highstorms, using complex mathematics written in a glyph-based script.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "They also study the seasons and other storm-related subjects, finding for example that plants grow better with storm water than with lake or river water.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Vorins find stormwardens strange and distasteful, since their work touches two taboos: predicting the future and men writing. Their predictions are too useful to forbid, and they write with an adapted glyph script.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Stormwardens predict highstorms from the timing of recent storms, previous years' storms, and when the last storm left western Roshar. Their predictions aren't perfect but are very useful.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Some dabble in less scientific practices, like digitology, or predicting the future from the winds or candle smoke.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Many work for rulers and nobles, who plan events and battles around their predictions; others travel, selling lists of predicted storm dates.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Opinions",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Hesina suggested young Kaladin could become a stormwarden, he reacted with disgust at predicting the future, though studying the winds held some appeal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lirin",
+      "role": "amateur",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "considered it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "The head of His Majesty's Silent Gatherers, versed in the keteks and poetry that help him interpret the words of the dying.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+    },
+    {
+      "text": "The head of King Taravangian's Silent Gatherers, a high-ranking member of his team whose research on Death Rattles supports the Diagram.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "endnote" },
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Silent Gatherers",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "endnote" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As head of the Silent Gatherers, Joshor's main work was collecting and studying the last words of the dying.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+        },
+        {
+          "text": "When Death Rattles grew rare near Kharbranth, Taravangian concluded that Moelach had moved west. After Adrotagia reported it was thought to have settled in the Horneater Peaks, Joshor was sent to investigate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

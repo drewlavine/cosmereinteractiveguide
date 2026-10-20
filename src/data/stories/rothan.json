@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A singer in stormform who leads Lady Leshwi's soldiers.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "109" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rothan came with Leshwi when she joined Raboniel in taking Urithiru, and was among those sent to make first contact with the humans in the tunnels beneath the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        },
+        {
+          "text": "When the Pursuer's soldiers attacked humans to reach the unconscious Radiants in the infirmary, Rothan's discipline kept him and Leshwi's other soldiers from joining in.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "109" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Powerfully built in stormform, he seems to crackle with energy, and sparks sometimes flash in his red eyes.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "31" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rothan doesn't care much for conversation; he says what he thinks and expects to be understood. He cares about Venli because Leshwi values her.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "31" }]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A scholar on Roshar, probably from the Era of Solitude.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    },
+    {
+      "text": "A scholar known for Fabrisan's Conundrum, a problem thought to be extremely difficult or impossible to solve.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "words-of-radiance", "chapter": "i-14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fabrisan's Conundrum",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fabrisan posed a problem, known as Fabrisan's Conundrum, considered extremely hard or impossible to solve, and whose solution might somehow help the world. Taravangian solved it on one of his most brilliant days, but seems to have kept the answer to himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

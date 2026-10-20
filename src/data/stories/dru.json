@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A man who works in the district quartermaster's office and is seeing Drehy of Bridge Four.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+    },
+    {
+      "text": "A slender Alethi man from the quartermaster's office, married to Drehy of Bridge Four.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "wind-and-truth", "chapter": "29" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Thaylen Field, Dru boiled bandages for the wounded, his eyes red with grief: Kaladin had come back from Kholinar without Drehy, and Dru believed him dead. Lopen patted his shoulder to comfort him. Dru and Drehy have since married.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "29" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

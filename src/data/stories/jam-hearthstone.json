@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A man from Hearthstone in Alethkar, two years older than Kaladin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jam's father was a soldier whose old leg wound Lirin treated several times. When Kaladin was ten, he and Tien liked to watch Jam train with the quarterstaff under his father, though Lirin doubted Jam wanted younger boys around.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jam still lived in Hearthstone when its people were evacuated to Urithiru in 1175, and moved into the tower with the other refugees. When invaders took the tower, he found a spear and tried to fight back, the only refugee to be injured.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "39" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed man of legend who killed a Shardbearer and claimed his Blade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legend",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Many stories and songs tell of Evod's deed, and darkeyes across Roshar revere him; Kaladin admired him as a boy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "44" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A writer on Roshar whose works are important to the study of the logical arts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Works",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin asked Shallan Davar whether she had read Placini's works.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

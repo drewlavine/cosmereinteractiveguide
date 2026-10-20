@@ -1,0 +1,150 @@
+{
+  "intro": [
+    {
+      "text": "A philosophy or religion from Thaylenah, followed by many Thaylens alongside Vorinism.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Followers of the Passions associate Aimians with Voidbringers.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    },
+    {
+      "text": "Thaylens may speak of \"Dark Soulcasting\" and of the most Passionate reopening a \"portal of worlds\", but the Passions have no real magic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "dawnshard", "chapter": "5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Followers see unusual events as omens, which can greatly affect Thaylen sailors' morale. Meeting a santhid at sea is the best omen; a ship's pet dying is a bad one. Omens are thought to arise from the emotions of those who see them.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+    },
+    {
+      "text": "The central idea of the Passions is that wanting something changes fate to bring it to you: passionate people make their own luck.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "43" },
+            { "book": "dawnshard", "chapter": "8" },
+            { "book": "wind-and-truth", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Thaylenah",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "74" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "4" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thaylens are nominally Vorin, but many, like Yalb and Vstim, also follow the Passions. Even Queen Fen refers to them, and Rysn believes in them despite some doubts.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-4" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "118" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Elhokar calls the Passions heretical, Shallan and Navani think them superstition, and Jasnah considers them as unverifiable as any religion.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "8" },
+                { "book": "words-of-radiance", "chapter": "74" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Fen tells Dalinar that some Thaylens want to abandon Vorinism for the Passions because of his heresy, but the return of the Voidbringers, whose ways resemble the Passions, has hurt their standing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The crew of the Wandersail believed strongly in omens, which Nikli used to try to turn them back from Akinah.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "vstim",
+      "role": "follower",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "62" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "follower",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "118" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -8,7 +8,212 @@ export const entryAliases: Record<
   'culture' | 'ability',
   Record<string, EntryAlias[]>
 > = {
-  culture: {},
+  culture: {
+    cryptic: [
+      {
+        name: 'Liespren',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '3',
+          },
+        ],
+      },
+    ],
+    darkeyes: [
+      {
+        name: 'Darkborn',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '43',
+          },
+        ],
+      },
+    ],
+    larkin: [
+      {
+        name: 'Ancient Guardians',
+        role: 'Title',
+        revealedIn: [
+          {
+            book: 'dawnshard',
+            chapter: '16',
+          },
+        ],
+      },
+    ],
+    lighteyes: [
+      {
+        name: 'Brightlord',
+        role: 'Title',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '14',
+          },
+        ],
+      },
+      {
+        name: 'Brightness',
+        role: 'Title',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '14',
+          },
+        ],
+      },
+    ],
+    mandra: [
+      {
+        name: 'Luckspren',
+        role: 'Physical Realm',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: '70',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '99',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Chasmspren',
+        role: 'Also called',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: '99',
+              },
+              {
+                book: 'dawnshard',
+                chapter: '9',
+              },
+              {
+                book: 'rhythm-of-war',
+                chapter: '45',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    reacher: [
+      {
+        name: 'Lightspren',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '93',
+          },
+        ],
+      },
+    ],
+    regal: [
+      {
+        name: 'Chosen',
+        role: 'Also called',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'oathbringer',
+                chapter: 'i-7',
+              },
+              {
+                book: 'rhythm-of-war',
+                chapter: '102',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    safehand: [
+      {
+        name: 'Freehand',
+        role: 'Right hand',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+        ],
+      },
+    ],
+    singer: [
+      {
+        name: 'Parshmen',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '17',
+          },
+        ],
+      },
+      {
+        name: 'Parshendi',
+        role: 'Also called',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'way-of-kings',
+                chapter: 'prologue',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '17',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Listeners',
+        role: 'Group',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: 'i-4',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '17',
+              },
+            ],
+          },
+        ],
+      },
+    ],
+    spheres: [
+      {
+        name: 'Ends',
+        role: 'Gemless spheres',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '40',
+          },
+        ],
+      },
+    ],
+  },
   ability: {
     allomancy: [
       {
@@ -38,6 +243,88 @@ export const entryAliases: Record<
           {
             book: 'final-empire',
             chapter: '3',
+          },
+        ],
+      },
+    ],
+    fabrial: [
+      {
+        name: 'Artifabrian',
+        role: 'Maker',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        name: 'Spanreed',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '28',
+          },
+        ],
+      },
+      {
+        name: 'Painrial',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '60',
+          },
+        ],
+      },
+      {
+        name: 'Augmenter',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Diminisher',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Conjoiner',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Reverser',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Alerter',
+        role: 'Type',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'prologue',
           },
         ],
       },
@@ -90,6 +377,462 @@ export const entryAliases: Record<
           {
             book: 'hero-of-ages',
             chapter: '77',
+          },
+        ],
+      },
+    ],
+    'knights-radiant': [
+      {
+        name: 'Radiant',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '68',
+          },
+        ],
+      },
+      {
+        name: 'Lost Radiants',
+        role: 'Vorin name',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '43',
+          },
+        ],
+      },
+      {
+        name: 'Immortal Words',
+        role: 'Ideals',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '87',
+          },
+        ],
+      },
+    ],
+    lights: [
+      {
+        name: 'Lifelight',
+        role: "Cultivation's Light",
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        name: 'Towerlight',
+        role: "Sibling's Light",
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '69',
+          },
+        ],
+      },
+      {
+        name: 'Warlight',
+        role: 'Blended Light',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '84',
+          },
+        ],
+      },
+      {
+        name: 'Anti-Light',
+        role: 'Opposite Light',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '97',
+          },
+        ],
+      },
+      {
+        name: 'Anti-Stormlight',
+        role: 'Opposite Light',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '104',
+          },
+        ],
+      },
+    ],
+    'order-of-bondsmiths': [
+      {
+        name: 'Bondsmith',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '44',
+          },
+        ],
+      },
+    ],
+    'order-of-dustbringers': [
+      {
+        name: 'Dustbringer',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '36',
+          },
+        ],
+      },
+      {
+        name: 'Releasers',
+        role: 'Preferred name',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '36',
+          },
+        ],
+      },
+    ],
+    'order-of-edgedancers': [
+      {
+        name: 'Edgedancer',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '46',
+          },
+        ],
+      },
+    ],
+    'order-of-elsecallers': [
+      {
+        name: 'Elsecaller',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '53',
+          },
+        ],
+      },
+      {
+        name: 'Elsecalling',
+        role: 'Power',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '33',
+          },
+        ],
+      },
+    ],
+    'order-of-lightweavers': [
+      {
+        name: 'Lightweaver',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '49',
+          },
+        ],
+      },
+    ],
+    'order-of-skybreakers': [
+      {
+        name: 'Skybreaker',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '43',
+          },
+        ],
+      },
+    ],
+    'order-of-stonewards': [
+      {
+        name: 'Stoneward',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '37',
+          },
+        ],
+      },
+    ],
+    'order-of-truthwatchers': [
+      {
+        name: 'Truthwatcher',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '89',
+          },
+        ],
+      },
+    ],
+    'order-of-willshapers': [
+      {
+        name: 'Willshaper',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+    ],
+    'order-of-windrunners': [
+      {
+        name: 'Windrunner',
+        role: 'Member',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '52',
+          },
+        ],
+      },
+    ],
+    shardblade: [
+      {
+        name: 'Shardbearer',
+        role: 'Wielder',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '13',
+          },
+        ],
+      },
+      {
+        name: 'Blade-dead',
+        role: 'Wound',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '56',
+          },
+        ],
+      },
+    ],
+    soulcasting: [
+      {
+        name: 'Soulcaster',
+        role: 'Fabrial, user',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '5',
+          },
+        ],
+      },
+    ],
+    surgebinding: [
+      {
+        name: 'Surgebinder',
+        role: 'Also called',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '33',
+          },
+        ],
+      },
+      {
+        name: 'Lashing',
+        role: 'Power',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Adhesion',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Gravitation',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Division',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Abrasion',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Progression',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Regrowth',
+        role: 'Power',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Illumination',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Transformation',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Transportation',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Cohesion',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Tension',
+        role: 'Surge',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        name: 'Slicking',
+        role: 'Power',
+        revealedIn: [
+          {
+            all: [
+              {
+                book: 'words-of-radiance',
+                chapter: 'i-9',
+              },
+              {
+                book: 'edgedancer',
+                chapter: '1',
+              },
+              {
+                book: 'oathbringer',
+                chapter: '120',
+              },
+            ],
+          },
+        ],
+      },
+      {
+        name: 'Elsecalling',
+        role: 'Power',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '33',
+          },
+        ],
+      },
+      {
+        name: 'Stoneshaping',
+        role: 'Power',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '83',
+          },
+        ],
+      },
+    ],
+    voidbinding: [
+      {
+        name: 'Voidbinder',
+        role: 'User',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '116',
+          },
+        ],
+      },
+    ],
+    voidlight: [
+      {
+        name: 'Anti-Voidlight',
+        role: 'Opposite',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '97',
           },
         ],
       },

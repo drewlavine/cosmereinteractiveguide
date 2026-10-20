@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A quiet, well-liked officer, known more as an administrator than as a soldier.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
+    },
+    {
+      "text": "A quiet, well-liked lighteyed officer in Sebarial's army who moved to Urithiru, known more as an administrator than as a soldier.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "15" },
+            { "book": "oathbringer", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not long after the move to Urithiru, a scouting party that included members of Bridge Four found his body in a remote bathing chamber on the tower's second level, near where Torol Sadeas's corpse had been found days before. He had been stabbed through the eye and posed just as Sadeas had been, and many, Navani and Shallan among them, assumed one killer had murdered both.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
+        },
+        {
+          "text": "Dalinar put Adolin in charge of the investigation. Adolin had May Aladar and others interview Perel's family and friends, but they found no link between the two victims.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has bulbous features and a stout build like Sadeas's.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

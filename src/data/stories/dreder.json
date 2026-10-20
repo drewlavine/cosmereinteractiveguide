@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "A man linked to Shallan's mother, whom Shallan remembers only in brief, buried flashes from her childhood.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    },
+    {
+      "text": "A Skybreaker who follows the Herald Nale, and an associate of Shallan's mother.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "wind-and-truth", "chapter": "93" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Davar manor",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Ishak 1167 Dreder came to the Davar manor. Shallan took him for a friend of her mother's, but Nale had sent him to make sure she died. After talking with Nale through a seon, he told her mother the girl had to die. When Lin cut his arm, Dreder healed and restrained him; when her mother hesitated, Shallan summoned her Shardblade and killed her, then Dreder.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Memories and rumours",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan buried her memories of that day, recalling only flashes: blood from Dreder's wounded arm staining the carpet, and his body lying beside her mother's.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "To protect Shallan, Lin claimed that Dreder and her mother had been lovers and that Dreder killed her and then himself; other rumours said Lin had killed them both in a rage.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears a Skybreaker symbol on his sleeve; Shallan thought of him as a foreigner.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He takes no pleasure in killing children, but will do it if the law requires.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+    }
+  ]
+}

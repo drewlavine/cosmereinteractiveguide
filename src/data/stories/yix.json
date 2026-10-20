@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A scout working under Tyn in Macob's caravan as it crosses the Frostlands.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Frostlands",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the caravan fled a band of raiders, Yix and Tyn caught Shallan and Tvlakv spying on their camp.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has golden hair, wears tan clothing and carries a sword.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Highly suspicious and good at moving quietly.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+    }
+  ]
+}

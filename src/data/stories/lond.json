@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Mama Lond, someone close to Lopen and Huio.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mama Lond has told Huio that Lopen's teasing sometimes hurts her.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

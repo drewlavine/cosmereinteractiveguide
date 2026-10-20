@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "Shallan Davar's older brother, who carries a Shardblade and has broken with their father.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "text": "Shallan Davar's eldest brother, a Shardbearer disinherited by their father, who was killed in battle in Alethkar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jah Keved",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "27" },
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "61" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Having gained a Shardblade, Helaran came home bringing Shallan sketching supplies. When he said he had to leave on other business, their father confronted him; Helaran summoned his Blade and threatened him, then left, promising to come back and check on the family.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "After that he visited only now and then and briefly, bringing Shallan more drawing supplies but keeping away from their father.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "27" }]
+        },
+        {
+          "text": "He sent word through Wit that he had eyes nearby and was watching. In response their father disinherited him and began calling Balat the eldest son.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "After two more years, Helaran returned to Jah Keved and met Balat, warning him he might be gone a long time and asking him to look after the family. When their father found out, he sent the guard Rin to kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle in Alethkar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1172 Helaran appeared on an Alethi battlefield in full Shardplate, aiming to kill Highlord Meridas Amaram, but was killed by Kaladin. Kaladin had the right to his Shards, but Amaram betrayed him, enslaved him and took them himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "74" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Helaran had been recruited by the Skybreakers, who were impressed by him, but he had not yet bonded a spren, and his Blade still bore its gemstone. Going after Amaram may have been a test, or his own attempt to prove himself worthy.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, muscular and square-chinned, though not as tall as his father.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Helaran is bitterly angry with his father, whom he believes murdered his mother and her lover.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+    },
+    {
+      "text": "The most responsible of the Davar children and the only true adult among them, he and Shallan are their father's favourites.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "27" }]
+    },
+    {
+      "text": "Protective of Shallan, he encourages her drawing and keeps sending her gifts after leaving, including high-quality paper and a book by Jasnah Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+    }
+  ]
+}

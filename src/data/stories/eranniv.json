@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A duelist whom Jakamav suggests Adolin challenge, describing him as boastful but genuinely skilled.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "26" }]
+    },
+    {
+      "text": "A Shardbearer and duelist who lost his Shardplate to Adolin Kholin in a duel.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duel with Adolin",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eranniv accepted a duel with Adolin Kholin and lost his Shardplate to him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

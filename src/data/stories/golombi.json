@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Rosharan scholar who studied Stormlight.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Research",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Golombi's work suggested that infused gemstones could help food grow in dark rooms better than candlelight, though efficiency was a problem and he worried his results were compromised. Taravangian and Adrotagia discussed it while wondering how the Knights Radiant fed Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

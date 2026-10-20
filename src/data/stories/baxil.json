@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "An Emuli thief who, with his cousin Av, is hired by a mysterious woman to help her break into homes and palaces.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    },
+    {
+      "text": "An Emuli former thief who visited the Nightwatcher and was transformed into the Crimson Memory.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The mistress",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Baxil and Av were hired by a woman they simply called \"mistress\" to help her break into homes and palaces and destroy artwork, especially art that depicted her. Baxil thought her incredibly beautiful but unlike any Rosharan people, and noticed her strange behaviour and clothing and her very sharp hearing. She seemed dangerous and paid well, so he never pried. He had become infatuated with her, but lacked the confidence to approach her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        },
+        {
+          "text": "She forbade them to steal anything. Baxil carried a sack of destructive tools for her, while she did the vandalism herself. Together they broke into the palace of Ashno of Sages, said to be one of the richest and holiest men in Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Talking with Av about the Nightwatcher's boons and curses, Baxil resolved to visit the Valley, hoping for the boon of courage.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Crimson Memory",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Baxil found the Nightwatcher, who gave him an unknown boon and curse and transformed him into the Crimson Memory.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        },
+        {
+          "text": "As the siege of Azimir began, he met Axies in a tea shop and traded him a gemstone holding an elusive spren for the specially prepared red bandages he needs to survive. Axies told him that Shalash and Taln were in the city. Baxil thought about visiting his former employer, but felt he shouldn't in his current state, and left the city to continue a quest of his own.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dark-skinned and dark-haired, like other Makabaki, and shorter than his cousin Av.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "wind-and-truth", "chapter": "i-5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Always wrapped in red bandages except for his eyes. He is invisible to anyone not looking for him.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Nervous and timid, his jumpiness annoys Av. He thinks himself unlucky, and has considered asking the Nightwatcher for courage. He prays silently to Jezrien as the Prime Kadasix.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    },
+    {
+      "text": "Since his transformation he seems more confident.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-5" }]
+    }
+  ]
+}

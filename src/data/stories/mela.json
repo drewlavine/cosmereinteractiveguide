@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner with the coalition army in Emul.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Meeting Ishar",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mela was one of the Windrunners who went with Dalinar and Szeth to Tukar to meet Ishar. When Ishar drew his Honorblade, they fought him, but he Connected them to the ground and drained their Stormlight until Szeth and Nightblood broke his hold.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Searching Ishar's pavilion afterwards, Mela called Dalinar to one of the strange corpses, which the Stormfather recognised as a Cryptic; all the bodies were spren that should not have been possible in the Physical Realm.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "A Windrunner able to heal with Stormlight and to use Gravitation and Adhesion, and a competent spearfighter.",
+      "revealedIn": ["rhythm-of-war"]
+    }
+  ]
+}

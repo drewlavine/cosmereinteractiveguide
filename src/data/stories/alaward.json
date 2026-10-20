@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in the Kholinar Wall Guard who serves in the same squad as Kaladin.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar Wall Guard",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alaward got to know Kaladin as a squadmate. He and Vaceslv kept trying to get Kaladin to play cards with them, but Kaladin always declined.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+        },
+        {
+          "text": "Alaward followed Kaladin into Kholinar's palace with his squad and fought in the battle there. Most of the squad, including Noro and Beard, were killed; Alaward isn't mentioned among the few survivors.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A heavyset man with light eyes, though only of the tenth dahn, the lowest rank of lighteyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He thinks middle-ranking lighteyes are useless, and once told Adolin, disguised as one, that they were good for nothing but giving bad orders and eating twice as much as an honest man.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ]
+}

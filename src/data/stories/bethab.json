@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi highprince on the Shattered Plains who leaves most dealings to his wife and is on cool terms with House Kholin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bethab was not close to House Kholin, though he was more uncooperative than hostile. When Dalinar looked for a partner for a joint plateau assault, Bethab had his wife turn him down. He relented in the end, joining Dalinar on at least one successful plateau run, and also made a joint run with Thanadal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He attended the feast at the Pinnacle held after Dalinar's visions became public.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "104" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bethab moved to Urithiru after the battle at Narak. He came to value Dalinar's leadership and in time allied with House Kholin, though his wife still handled most of his affairs.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+        },
+        {
+          "text": "Under Queen Jasnah he fell into line with most of the other highprinces. He and his wife went to Thaylen City as ambassadors, where he proved useful, if less so than she did.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He keeps a poorly organised army, relying on mercenaries he cares little for, and often leaves the field as soon as a gemheart is taken. He owns a great many chulls.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Jasnah thinks him a dullard; marrying the politically sharp Mishinah was among his smartest moves, and he lets her handle most important matters. The pair have a sly streak and have tried to slip clauses into contracts with the king that would favour their claim to the succession, though never when Navani is around.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "28" },
+            { "book": "words-of-radiance", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ]
+}

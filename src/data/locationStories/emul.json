@@ -1,0 +1,121 @@
+{
+  "intro": [
+    {
+      "text": "A Makabaki kingdom in southwestern Roshar, with its capital at Sesemalex Dar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Makabaki kingdom in southwestern Roshar, long at war with Tukar and left weakened and dependent on others for aid.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "14" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rejecting the Almighty, the Emuli believe Jezrien, whom they call the Prime Kadasix, is the only god. They say he named their kingdom and their capital, Sesemalex Dar, whose pattern is sacred to them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    },
+    {
+      "text": "Emuli men usually wear robes and the women flowing gowns, and both wear headdresses, especially elaborate ones at weddings.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    },
+    {
+      "text": "The Emuli are kind and accommodating to foreigners, treating them as relatives visiting from afar and often hosting strangers for dinner in exchange for a gift of fruit.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "12" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Emuli think it crass to strike another warrior directly and prefer to fight from a distance: leaders favour the bow, then spears and halberds, with swords last.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "55" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Silver Kingdoms era, Emul was part of Makabakam. After Makabakam collapsed, the Emuli, a tribe of the Askarki people, formed their own kingdom with Sesemalex Dar as its capital.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        },
+        {
+          "text": "A few decades before 1173, a lurnip famine caused widespread starvation. Since 1167, Emul and Tukar have fought the Eighty's War over Sesemalex Dar, which the Emuli held while the fighting went increasingly badly for them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "3" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "112" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The war with Tukar and the Voidbringer assaults broke Emul into pieces, leaving it unable to stand on its own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "Dalinar's coalition chose to court Emul after Tukar refused it. As the singers mustered in Marat, they conquered across Emul, and the Emuli, reduced to a fraction of their land, joined the coalition too. Vexil the Wise and Ashno of Sages asked for help against the Tukari but were refused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "The next year, the coalition's war in Emul stalled, with skirmishes and attacks by the Skybreakers, until the coalition agreed to push in and defeat the singers, and succeeded.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "112" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A young honorspren bonded to Lopen of Bridge Four, making him a Windrunner.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bonding Lopen",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rua began looking into Lopen as a possible bond partner after the Battle of Narak. Lopen swore the First Ideal before the Battle of Thaylen Field and the Second soon after, while talking with a wounded soldier.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Lopen nicknamed the spren Naco and played with him in the camps where the wounded were tended. When Lopen taught him a rude gesture, Rua used it on everyone, once growing extra arms to make it four times over at the Stormfather.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Voyage to Akinah",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rua sailed with Lopen to Akinah, showing himself to Rysn and helping Lopen track a sailor washed overboard. He kept watch on a shadow following the ship, which proved to be a Sleepless hordeling.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        },
+        {
+          "text": "After Lopen was hurt fighting the hordelings guarding Akinah, Rua helped him swear his Third Ideal and became a Shardblade for the first time, engraved with a picture of Rua making his favourite rude gesture.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Appears as a ribbon of light, a boy of nine or ten, or a young man, and likes taking the form of a flying chull with broad wings.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Mischievous and playful, fond of hide-and-seek, Rua does not seem able to speak, though Lopen understands his gestures. He worries about Lopen when things turn serious.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

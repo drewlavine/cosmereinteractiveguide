@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An ardent on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Warcamps",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shoren serves as an ardent in the warcamps.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

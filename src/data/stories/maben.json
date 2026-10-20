@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A chambermaid on King Taravangian's staff.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "King Taravangian's room servant, who looks after his quarters, brings his meals and is often present at the Diagram's meetings.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Serving Taravangian",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maben travelled with Taravangian to ruined Vedenar. When she tried to serve him breakfast on his ship, Mrall stopped her so that the king's daily test could be given first, and the king sided with him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "In Urithiru, on one of his most brilliant days, Taravangian sent Maben off to measure a gardening space, then called her an idiot for interrupting his studies when she brought his food. She ignored his anger.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "At the last meeting of Taravangian's inner circle before it disbanded, Maben gave him some of his favourite jams from Shinovar, and he said they could not have succeeded without people like her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Maben is short.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Maben is trustworthy and sympathetic to Taravangian's condition and age, trying to keep him healthy. She does not take his insults personally on days when he lacks compassion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A lanky young Alethi Shardbearer who serves under Highprince Dalinar Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shardbearer",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Serugiadis received his Shardplate from Adolin Kholin, who had won it in duels against other highprinces' Shardbearers. At the Battle of Narak, he and Rust Elthal fought under Teleb's command at the head of Highprince Sebarial's army.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "In Urithiru, Dalinar saw him practising with a Shardbow alongside Rust Elthal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

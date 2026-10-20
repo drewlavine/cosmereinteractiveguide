@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "A squadleader in Brightlord Sheler's company in Meridas Amaram's army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "108" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During a battle against Hallaw's army, Varth's squad was ordered to hold a hilltop despite heavy losses. Three untrained messenger boys, Tien among them, were sent to him, and he placed them at the front, then pulled his squad back as the enemy hit. The boys were killed, but the pause let Varth's men counterattack before Amaram's cavalry swept in.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "rhythm-of-war", "chapter": "108" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Kaladin, Tien's brother, reached him and confronted him, Varth said he did whatever was needed to stay alive and advised Kaladin to learn to do the same.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Varth is about seventeen or eighteen, lean and thoughtful-looking with keen eyes and a haggard air. He wears a green uniform with squadleader knots and leather armour.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "108" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Varth is selfish but pragmatic, always looking to turn a liability into an advantage and willing to let others die so he can live, though he regrets some of the choices impossible orders force on him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "rhythm-of-war", "chapter": "108" }
+          ]
+        }
+      ]
+    }
+  ]
+}

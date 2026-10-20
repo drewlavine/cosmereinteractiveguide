@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Shin soldier who rises to become general of the camp near the Stoneward monastery in Shinovar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shinovar",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lumo-son-Tumo serves as a soldier in Shinovar and rises to become general of the camp near the Stoneward monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

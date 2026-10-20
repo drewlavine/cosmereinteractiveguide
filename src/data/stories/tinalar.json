@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi Shardbearer of the Era of Solitude who held a Shardblade but no Plate.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duel with Adolin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "14" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thinking the young Adolin Kholin a well-dressed fop, Tinalar challenged him to a duel for Shards, hoping to embarrass Dalinar and win Adolin's Plate. Adolin won and took Tinalar's Blade, the one he came to know as Mayalaran.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "14" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

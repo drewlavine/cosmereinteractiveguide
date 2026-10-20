@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "A Horneater leader, Lunamor's nuatoma, who left the Peaks to win Shards for his clan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "23" },
+            { "book": "oathbringer", "chapter": "37" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duel with Sadeas",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kef'ha left the Horneater Peaks with members of his family, Lunamor among them. Thinking a Shardbearer without a Blade would be easier to beat, he challenged Highprince Sadeas to a duel for his Plate and was killed; Lunamor says the duel wasn't fought properly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After his death Lunamor and the rest of his household became Sadeas's servants. Tifi and Sinaku'a were killed for raising weapons against Sadeas, and Lunamor's anger led him to serve Sadeas food with chull dung in it, which got him made a bridgeman.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "23" },
+                { "book": "oathbringer", "chapter": "37" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "The Alethi royal cartographer.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Royal cartographer",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "3" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Isasik Shulin was on the Shattered Plains and went with the march to Narak and on to Urithiru.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "He missed the Fourth Bridge's trip to Hearthstone because he was out mapping the eastern Shattered Plains.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "3" }]
+        },
+        {
+          "text": "He thinks Shadesmar is incredible and tried three times to explain why to Adolin Kholin, who never understood.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

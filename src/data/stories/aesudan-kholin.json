@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "The wife of King Elhokar Kholin, left to govern Alethkar from Kholinar while he wages war on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aesudan married Elhokar Kholin some time before he took the throne, and little is known of her life before that. As a princess of Alethkar she attended the feast for the treaty with the Parshendi on the night King Gavilar was assassinated. Around 1170 she gave birth to a son, Gavinor.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "22" },
+            { "book": "words-of-radiance", "chapter": "i-12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Elhokar left Kholinar to fight the War of Reckoning, Aesudan ruled as regent. Navani stayed at first to advise her, then judged her capable of ruling alone and left for the Shattered Plains.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Aesudan began to turn the people against her. She threw lavish feasts, let food meant for the soldiers rot, and cancelled the Beggars' Feasts, encouraged by flattering ardents. A young ardent named Pai inked a denunciation of the queen before the Common Throne and was executed; Kholinar erupted in riots the next day.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has a slender figure and long black Alethi hair, worn in a bun adorned with all ten gemstones so that she stands out.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Believing the Almighty is displeased with her, she surrounds herself with pampered ardents who assure her that her wasteful life is right, leaving her ever more out of touch with her people.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    }
+  ]
+}

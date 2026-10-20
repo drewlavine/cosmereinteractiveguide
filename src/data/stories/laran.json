@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A messenger in the Kholin army, thought by some to be the fastest of them all.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+    },
+    {
+      "text": "A former Kholin army messenger who becomes a Windrunner of Bridge Four.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-14" },
+            { "book": "rhythm-of-war", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Thaylen Field, after an attack on the Bridge Four barracks in Urithiru, Lyn sent Laran running to fetch Renarin to heal the wounded. Afterwards, Lopen told Laran and Lyn an exaggerated story of how he lost his arm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Windrunner",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The following year Laran bonded an honorspren and swore her first Ideals. During the evacuation of Hearthstone she fought the Heavenly Ones and swore the difficult Third Ideal, her spren becoming a Blade for the first time; afterwards Kaladin congratulated them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "A listener scholar in Narak, Venli's former mate and research partner, and one of the first to take stormform.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-1" },
+                { "book": "rhythm-of-war", "chapter": "86" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "rhythm-of-war", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Demid and Venli became friends in their youth and later took mateform together, though they had no children. Afterwards they stayed close, and Venli always felt she could rely on him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-1" },
+                { "book": "rhythm-of-war", "chapter": "86" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Demid was in Venli's inner circle when she began researching lost listener forms with Ulim, and eagerly supported her. They took nimbleform and worked as research partners for about three years. Tired of war, he helped persuade Eshonai that stormform was a weapon they had to use.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "rhythm-of-war", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stormform",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-13" },
+                { "book": "oathbringer", "chapter": "i-3" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Eshonai's transformation, Demid took stormform too, and devised a slightly safer way of transforming. He fought in the Battle of Narak, believing the power gained by calling the Everstorm worth the lives it cost.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-13" },
+                { "book": "oathbringer", "chapter": "i-3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the battle, Demid helped Ulim search the chasms for Eshonai's body. He was the first to spot it and, despite his people's taboo against touching the dead, helped strip off her Shardplate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Everstorm",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ulim chose Demid and Venli as two of the first nine listeners to give up their bodies for the return of the Fused, though neither understood what that meant. When the Everstorm came, Demid died and the Fused Hariel took his body, leaving Venli shocked and upset.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "As a scholar, Demid wears nimbleform and looks gangly; stormform later gives him strength and agility.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Intelligent, curious and thoughtful, Demid will go to great lengths to defeat the humans, but avoids needless risk to his people. He is empathetic and calming, and even in stormform slower to anger than his compatriots.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "i-6" },
+            { "book": "rhythm-of-war", "chapter": "81" }
+          ]
+        }
+      ]
+    }
+  ]
+}

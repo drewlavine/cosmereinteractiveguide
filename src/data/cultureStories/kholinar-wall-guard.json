@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The force that guards the walls and gates of Kholinar: lower-dahn lighteyes in four battalions under a Highmarshal.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Siege of Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "70" },
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "82" },
+            { "book": "oathbringer", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Early in the siege the Guard's commander died trying to quell riots and its highborn patron vanished into the palace. When the Cult of Moments tried to storm a gate, Azure took charge and became Highmarshal, her men pretending she was a man.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "70" }]
+        },
+        {
+          "text": "Azure led the Guard to seize the city's emerald reserves and a Soulcaster, hiding Ithi and her sister in an aluminium-lined chamber beneath the city to make grain.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "The Guard recruited any lighteyes who could fight with free meals. Kaladin joined to learn where the food came from, then revealed himself as a Shardbearer and rallied them to Elhokar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+        },
+        {
+          "text": "The Guard suffered terrible losses fighting the singers. When the attack failed, Azure was thrown into Shadesmar with Kaladin, Shallan and Adolin, and the surviving guardsmen were imprisoned by the Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "89" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "joined them",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+    },
+    {
+      "characterId": "ithi",
+      "role": "Soulcaster",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "king",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi Shardbearer fighting on the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shardbearer",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Talanor won his Shardblade in 1145, in a battle between House Kholin and Kalanor.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "Talanor had a Blade but no Plate. With the full Shardbearers refusing his challenges, Adolin Kholin thought to challenge Talanor, expecting him to want the fame and Adolin's Shards, but Talanor seems to have turned him down as well.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

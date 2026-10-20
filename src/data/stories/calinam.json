@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "The author of Among the Darkeyed, a collection of darkeyed folk tales.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Among the Darkeyed",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "39" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah Kholin noted that Among the Darkeyed mentions Oathgates and instant travel many times.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "39" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the loss of the Wind's Pleasure, Shallan found these references in Jasnah's notes, which helped her see that Jasnah had been looking for an Oathgate on the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

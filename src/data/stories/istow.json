@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "Brightlady Istow is a lighteyed Alethi highjudge on the Shattered Plains, who officiates duels.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Brightlady Istow is a lighteyed Alethi woman and probably the ranking highjudge on the Shattered Plains, overseeing most of the nobility's duels.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "56" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Highjudge",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "38" },
+                { "book": "words-of-radiance", "chapter": "53" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Istow presided over many of Adolin Kholin's duels, including a friendly bout against Resi and duels for Shards against Salinor and Elit. She disliked his brutal approach against Salinor and his dull tactics against Elit, but had to admit he broke no rules.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "38" },
+                { "book": "words-of-radiance", "chapter": "53" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Istow presided when Relis challenged Adolin. When Adolin brushed off her question about the terms, she did not explain that he had agreed to fight a whole team. Once the duel began she seemed to ignore Adolin's signals to end it, and angrily refused Dalinar's call to stop it, insisting her word was law. Adolin suspected she had been bribed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+        },
+        {
+          "text": "After Kaladin joined the fight and turned the tide, Istow confirmed the surrenders of Abrobadar and a reluctant Elit, declared Relis forfeit when he fled the arena, and awarded Adolin the victory.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Istow is tall, with graying hair.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Istow strictly enforces the dueling codes and can be imperious. She prefers classic, beautiful stances and can react emotionally when a duelist uses unseemly but legal tactics.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+    }
+  ]
+}

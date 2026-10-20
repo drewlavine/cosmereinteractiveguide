@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "An axehound belonging to Balat Davar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Balat's axehound",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Balat had bred axehounds since his youth and loved the pups he raised, and he seemed to have owned Scrak since she was very young.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-2" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A six-legged axehound with an angular head, antennae and a segmented hide. She is from one of the smaller, sleeker breeds, but still weighs nearly as much as a grown man.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Loyal, playful and mischievous, Scrak trumpets when she sees Balat and leans on him for rubs. She hunts songlings on the Davar manor's sitting green and ignores small commands, which Balat takes as a sign of intelligence.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+    }
+  ]
+}

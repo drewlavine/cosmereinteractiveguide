@@ -1,0 +1,123 @@
+{
+  "intro": [
+    {
+      "text": "Queen Fen's husband and the prince consort of Thaylenah.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    },
+    {
+      "text": "Queen Fen's husband, the prince consort of Thaylenah, and an admiral of the Thaylen navy who is part of the coalition's military leadership.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kmakl was present when Dalinar Kholin arrived in Thaylen City to assess the Everstorm's damage, directing his scribes to record the important parts of Fen's conversation with Dalinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "Kmakl and Fen attended a meeting of Dalinar's coalition in Urithiru, where he seemed satisfied with Navani's suggestion that the Thaylens oversee trade and supplies.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Thaylen Field, Kmakl watched from the city walls with Fen and Navani. He thought the city could hold until a thunderclast shook the wall apart. Escaping with a cut scalp, he and Fen were seized by Sadeas soldiers in the grip of the Thrill. They meant to kill Kmakl, who tried to face death with dignity, until Navani stopped them with her painrial.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Kmakl and Fen then witnessed Nergaoul's appearance, Dalinar summoning a perpendicularity of Investiture, Jasnah Soulcasting a new section of wall, and their son Kdralk trying to recover a Shardblade. Kmakl thought the new wall would hold until he saw how many singers were preparing to attack.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war at sea",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "17" },
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though Odium's forces stole some Thaylen ships, Thaylenah kept a fleet large enough to win a decisive naval victory, giving it control of most of Roshar's southern seas.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+        },
+        {
+          "text": "Navani invited Kmakl aboard the Fourth Bridge for its mission to evacuate Hearthstone. He was fascinated by the airship and thought it fast for its size, but saddened, believing it meant navies were on their way to obsolescence. Now part of the coalition's military leadership, he saw that a fleet of such ships would be a powerful weapon if protected from enemy Surgebinders.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "Kmakl joined the coalition's forces in Emul as they planned their offensive. Two days after Taravangian betrayed the coalition, he reported that the Thaylen navy had locked the Veden ships in port, a blockade he thought would hold unless the enemy sent many Fused or Skybreakers against it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An ageing man with drooping moustaches to match his long Thaylen eyebrows. He wears a vest and cap and, unusually for a man of his rank by Alethi standards, carries no sword.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "rhythm-of-war", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Like many Thaylens, he seems devoted to both Vorinism and the Passions.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+    },
+    {
+      "text": "One of the coalition's most skilled naval tacticians, Kmakl is intelligent, optimistic and courageous. He honours tradition but welcomes innovation, and though amiable, jokingly calls himself a \"grouchy old sailor\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Kmakl was smitten with Fen when they were courting. He is often at her side and sometimes advises her informally, but always leaves her the final say.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ]
+}

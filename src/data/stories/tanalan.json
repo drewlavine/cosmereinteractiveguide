@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "The young heir of Rathalas, also called the Rift, who returns to claim his place as its lord.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+    },
+    {
+      "text": "The lord of Rathalas, also called the Rift, who bears an intense hatred for Dalinar Kholin over his father's death.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Heir of Rathalas",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Tanalan was seven, Dalinar Kholin killed his father in battle at the Rift. Dalinar found the boy trying to defend his parents with his father's Shardblade, but let him and his mother escape. At sixteen, Tanalan returned to Rathalas as its lord, demanded his father's Shardblade, and secretly gathered support, including from at least one highprince.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle at the Rift",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "75" },
+            { "book": "oathbringer", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1163 Gavilar sent Dalinar and Sadeas to quell Tanalan's rebellion. At Evi's urging, Dalinar offered Tanalan a final chance to submit. Tanalan pretended to accept and named Sadeas as a traitor, but it was a trap to draw Dalinar away and kill him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "75" }]
+        },
+        {
+          "text": "Enraged, Dalinar had the city burned. Tanalan was dragged from the fire as he tried to reach his family, who died when the palace collapsed. Dying, he told Dalinar that Evi had been imprisoned in the hidden room where Tanalan had once hidden, and Dalinar realised she had died by his hand.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has violet eyes and the nasal accent typical of his region.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "71" }]
+    }
+  ],
+  "personality": []
+}

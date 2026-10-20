@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed drifter and worker in Bavland who is, for a time, Szeth's master.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's master",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Took got Szeth from a farmer for a sack of seeds, then claimed Szeth had sworn to serve him for life. He boasted in bars for free drinks and showed off Szeth's obedience, once ordering him to wound himself to impress some miners. Walking home drunk that night, Took was stabbed by Makkek and his thugs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears dirty, ragged clothes and speaks in a Bav dialect.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Thinks himself better than Szeth because Szeth is Shin, calling him a child, and, unlike most of Szeth's masters, sees nothing strange in his obedience.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ]
+}

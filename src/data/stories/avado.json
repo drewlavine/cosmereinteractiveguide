@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A foreign merchant trading in Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leaving Alethkar",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After King Gavilar's assassination, Avado expected the Alethi to turn on foreigners and set out for Jah Keved. He stopped to ask about Szeth, who stood by the road with his Oathstone; as a Truthless, Szeth had to explain himself and hand the stone over. They travelled to Jah Keved together, Avado not knowing he was sheltering the king's assassin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Clever, and a shrewd enough merchant to foresee how the king's death would shake the markets. He is also kind, and stops to ask after a stranger by the road.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ]
+}

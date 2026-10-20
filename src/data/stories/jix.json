@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A guard for House Davar in Jah Keved.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Davar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "65" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jix went with the Davar household to the Middlefest Fair in 1170. When Shallan slipped away, he followed her and grudgingly went with her into the gambling pavilion, relieved to find she only wanted to give Balat a letter. Several gamblers there greeted him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "Jix and his fellow guard Ekel stood armed when Mill tried to extort Lin over Jushu's debts, and Jix seemed baffled when Lin refused to pay and let Mill take Jushu.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        },
+        {
+          "text": "Jix and the other guards Shallan had grown up with were replaced after Luesh became Lin's steward. The new guards were far more brutal, and the Davar children missed the old ones.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A strong lighteyed man of the eighth dahn with a gut and uncombed hair, who often chews yamma root and carries a weapon on duty.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He looks down on darkeyes, but is loyal to House Davar, has served Lin for over a decade and gets on well with the Davar children.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+    }
+  ]
+}

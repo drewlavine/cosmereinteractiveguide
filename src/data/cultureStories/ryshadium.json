@@ -1,0 +1,111 @@
+{
+  "intro": [
+    {
+      "text": "A breed of warhorse fiercely loyal to its rider, ridden by Shardbearers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    },
+    {
+      "text": "A breed of horse descended from horses brought to Roshar by the first humans, often called the third Shard after Shardblade and Shardplate.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Ryshadium stand about two hands taller than other horses, with black or white coats, light or dark eyes with rectangular pupils, and hooves of stone that need no shoes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They are ideal warhorses, fast and strong enough to carry a Shardbearer in full Plate or bear one leaping into the saddle. They hold their ground where other horses would flee, and will risk their lives to find and aid their riders.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "oathbringer", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Wild Ryshadium live in herds across Roshar, rarely in the east, and only let themselves be taken from the wild after choosing a human.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    },
+    {
+      "text": "A Ryshadium cannot be broken or trained: it chooses its rider, who must somehow be worthy, and obeys only them. Only a dozen men in the warcamps on the Shattered Plains had one.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "21" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Riders talk to their Ryshadium, which seem to answer with snorts and body language. They are kept in their own pastures, not stabled with ordinary horses, and convincing one to carry anyone but its rider can take a long time.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gallant",
+      "role": "Dalinar's Ryshadium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "sureblood",
+      "role": "Adolin's Ryshadium",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "rider",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ]
+}

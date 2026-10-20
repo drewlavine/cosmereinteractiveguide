@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Luten lived in the Alethi town of Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

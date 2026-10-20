@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A Bav miner in the town of Ironsway in Bavland.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    },
+    {
+      "text": "A Bavlander in Bridge Four.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ironsway",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amark lived in Ironsway and drank with Ton and other miners in a shabby tavern, where Took told tall tales and showed off his Truthless, Szeth. When Took ordered Szeth to cut himself, Amark objected, and he grew more upset when Took told Szeth to slit his own throat.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amark became a bridgeman in Sadeas's army and was assigned to Bridge Four. Kaladin's methods greatly cut the crew's losses, but Amark was among those still killed on the bridge runs, and Kaladin counted him among the men he could not save.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Sniffly, with a strong Bav accent; in Bavland he wore a miner's grimy clothes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Empathetic: he was distressed when Took ordered Szeth to hurt himself.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+    }
+  ]
+}

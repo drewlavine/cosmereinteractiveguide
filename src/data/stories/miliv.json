@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "Citylord Wistiow's head steward in Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "way-of-kings", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miliv disliked the town surgeon, Lirin, and Lirin's son Kaladin believed Miliv started many of the rumours about their family.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "Miliv's wife was a nurse to Laral Wistiow. After Laral's father died, she kept Kaladin from visiting Laral, thinking town boys unsuitable friends for her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "Some time after Roshone arrived to replace Wistiow as citylord, Miliv died, and Natir became steward.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

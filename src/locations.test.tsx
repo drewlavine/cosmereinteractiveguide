@@ -216,7 +216,11 @@ describe('location page maps', () => {
 
 describe('place pages', () => {
   const listedOnly = listedLocations.find(
-    (l) => !mapPlaceOf(l) && hasLocationStory(l.id) && l.kind !== 'planet',
+    (l) =>
+      !mapPlaceOf(l) &&
+      hasLocationStory(l.id) &&
+      l.kind !== 'planet' &&
+      l.world === 'scadrial',
   )!
 
   it('gives places without a map page a page of their own', async () => {

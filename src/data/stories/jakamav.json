@@ -1,0 +1,129 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed landlord of the third dahn from Highprince Roion's warcamp and a Shardbearer who counts as one of Adolin Kholin's friends.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Shardbearer from Highprince Roion's warcamp who joined Relis Ruthar's team against Adolin Kholin in a duel and lost his Plate.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "117" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jakamav seems to have lived on the Shattered Plains from a fairly young age, and he trained under Zahel alongside Adolin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "Jakamav joined Adolin, Danlan, Inkima, Toral and Eshava at a wine tasting in the Outer Market. Inkima, whom he was seeing, giggled at nearly everything he said, though he had little interest in anything long-term.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On a plateau run with Roion and Ruthar that Adolin joined, Jakamav climbed a cliff with Adolin but found Eshonai instead of a gemheart and preferred to retreat. Afterwards he told Adolin that Shardbearers were being paid to refuse his duels, suggested he try Eranniv, and said it would hurt his reputation to be seen with him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "26" }]
+        },
+        {
+          "text": "With the Assassin in White a threat, Jakamav guarded Roion at a meeting of the highprinces.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Duel against Adolin",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jakamav was one of the Shardbearers who joined Relis Ruthar against Adolin in an uneven duel, wielding a borrowed Blade. He waited for an opening and helped overwhelm Adolin until Renarin's arrival distracted them, and he gave no answer when Adolin asked why he had joined.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+        },
+        {
+          "text": "Once Kaladin joined the fight, Jakamav kept pressing Adolin and also struck at Kaladin, who blocked with a helm. He was the last of Relis's team standing, until Adolin wrestled him down and Kaladin held a knife to a gap in his armor. Jakamav yielded and lost his Plate, angry at the grappling, and was not heard from again in the warcamps.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A sturdy Alethi man with pale green eyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Jakamav has an infectious laugh and makes friends easily. He questions Dalinar's choices in front of Adolin, and ultimately cares more about his reputation than about standing by his friend.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "57" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A skilled duelist who uses a Shardhammer with green-painted Plate, he enjoys battle, but is overconfident: he laughed off Zahel's offer to teach him to fight a spearman with only a knife.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,85 @@
+{
+  "intro": [
+    {
+      "text": "Syl's former knight, whom she slowly begins to remember through her bond with Kaladin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "5" },
+            { "book": "rhythm-of-war", "chapter": "i-1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Windrunner bonded to Sylphrena before the Recreance.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "55" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Syl's first knight",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "95" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "95" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "5" },
+                { "book": "rhythm-of-war", "chapter": "i-1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Relador was a kind, elderly man. Syl bonded him soon after she came into being as one of the first honorspren made by the Stormfather. He was too old to be fighting, and he died in his first battle. The broken bond left Syl in pain and stripped of memories, and she drifted until she fell asleep.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "95" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Because Syl had no knight when the others gave up their bonds, she was the only honorspren not to become a deadeye at the Recreance. She slept for about a thousand years, until the Stormfather found her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "95" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Syl tried to forget the pain of losing Relador, but her bond with Kaladin brought back fragments of him, including time spent with him in Urithiru. She came to see that her own loss could help her support Kaladin through his depression.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "5" },
+                { "book": "rhythm-of-war", "chapter": "i-1" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,38 @@
+{
+  "intro": [
+    {
+      "text": "A lighthouse keeper in Shadesmar who calls himself the Rii Oracle and tells fortunes for travellers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shadesmar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "97" },
+            { "book": "oathbringer", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kaladin, Shallan, Adolin, their spren and Azure ended up in Shadesmar, they came to Riino's lighthouse. He spotted Kaladin sneaking up on him and offered to tell his fortune in a highstorm with a large glowing globe. When Kaladin touched the globe and had a vision of his own, Riino was surprised, and guessed how Kaladin had the Investiture to do it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+        },
+        {
+          "text": "Once the others arrived, Riino bargained with them over supplies and helped them find a ship to Celebrant. He left them with the Reachers and went back to his lighthouse, apparently deciding the matter was no longer his concern.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "He has a flair for showmanship and enjoys his dramatic fortune-teller's patter, but once he sees Kaladin isn't after a fortune he turns businesslike and helpful.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+    }
+  ]
+}

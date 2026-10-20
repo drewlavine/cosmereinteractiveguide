@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A singer and former parshwoman, one of Venli's trusted group of singers who want to be free of the Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Parshwoman",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mazish served as a parshwoman in Alethkar with her mate, Dul; their harsh master refused to let them marry. Awakened by the Everstorm, they were among the first singers Venli recruited to her resistance, and married once they were free.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "One of Venli's most trusted friends, Mazish took a post serving Leshwi in Kholinar and, with Dul, advised new recruits on how to act around the Fused.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "96" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Mazish was the first to tell Venli that Rlain had been captured. She helped watch over the fallen Radiants and hoarded supplies for an escape from the Fused.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "96" }]
+        },
+        {
+          "text": "Venli trusted her with a writ from Raboniel granting passage through the Oathgates, and Mazish was the first in their group to back helping Kaladin and his family escape. Afterwards she presumably went with Venli's group to the Shattered Plains to join the other listeners.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A squat femalen singer who usually wears workform.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Mazish has Venli's full trust, cares for her and believes in her plans, yet will follow her own instincts in a crisis, even if it means changing course.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "102" }]
+    }
+  ]
+}

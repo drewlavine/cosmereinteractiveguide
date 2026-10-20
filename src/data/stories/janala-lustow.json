@@ -1,0 +1,84 @@
+{
+  "intro": [
+    {
+      "text": "A young lighteyed woman who flirted with Adolin Kholin while he was courting Rilla.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "text": "The daughter of Brightlord Lustow, one of Dalinar's cavalry officers, who is briefly courted by Adolin Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "A lighteyed woman, once courted by Adolin Kholin, who works as Teshav's assistant at Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Courting Adolin",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "24" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Janala flirted with Adolin while he was courting Rilla, ending that courtship. Adolin left her out of the chasmfiend hunt, since she thought hunts barbaric and he wanted things to cool down first.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+        },
+        {
+          "text": "While investigating the attempt on King Elhokar's life, Adolin took Janala along on what he called a walk. She complained when he took her to a leatherworker's shop, was glad to leave, and was annoyed again when he went to the temple instead of somewhere romantic, choosing to wait outside.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "After that walk she lost interest in Adolin, put off by his inattention and finding him less interesting now that he wasn't courting someone else.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Urithiru, Janala worked as Teshav's assistant. At a meeting of scholars on the tower's fabrials, she mocked Renarin, and Shallan answered with cutting jokes about her intelligence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Very beautiful, with luxurious black hair and a sly smile. She keeps her nose in the air, speaks with an enunciation Shallan finds grating, and has a rehearsed laugh.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Daring and teasing, Janala loves epic poems and talking about herself and court gossip, pays little attention to the war and thinks Dalinar should give up the Codes. She pretends to enjoy walks to be near Adolin, but soon demands a palanquin. Her Calling is music.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ]
+}

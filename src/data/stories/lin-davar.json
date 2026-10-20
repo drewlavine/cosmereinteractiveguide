@@ -1,0 +1,117 @@
+{
+  "intro": [
+    {
+      "text": "The late father of the Davar siblings, a Veden lord who was making a play for the title of highprince.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "The late father of Shallan Davar and her brothers, a controlling, violent Veden lord who was making a play for the title of highprince.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "39" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before he married his first wife, Chana, Lin had a son, Helaran, with an unknown woman. With Chana he had Balat, Wikim, Jushu and Shallan. It is unknown whether he knew that Chana was a Herald.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Death of his wife",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "words-of-radiance", "chapter": "39" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Shallan was eleven, Lin found her packing in a panic and brought her to his chambers, where his wife and her friend tried to kill the girl for being a Surgebinder. Shallan killed them both with her Shardblade. Lin locked the Blade in his strongbox, sang her a lullaby and promised to protect her, letting everyone believe he had killed his wife himself; the secret made him violent and volatile.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "In the months that followed, Lin struggled to keep control of his house. When he tried to stop Helaran leaving, his son summoned a Shardblade and threatened to kill him, sparing him only when Shallan spoke for the first time in five months. Screaming became common, and Lin's frequent feasts hid how close the family was to ruin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Decline",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "39" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About two years after his wife's death, Lin announced his engagement to Malise Gevelmar over dinner with the Tavinars, giving his sons daggers and Shallan a necklace. Redin interrupted to investigate his first wife's death, but left without evidence, as Lin's sons were too terrified of him to testify.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+        },
+        {
+          "text": "At the Middlefest Fair of 1170, Brightlord Revilar used his favour with the highprince to trap Lin into selling goods at a ruinous loss, likely one reason he joined forces with the Ghostbloods. When Hoid brought news that Helaran was watching the household, Lin disinherited Helaran and named Balat his heir.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Death",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "73" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lin beat his wife, sons and servants, but never Shallan. When Malise opposed his sending an assassin after Helaran, and planned with Balat and Eylita to flee, he killed her and battered Balat. Shallan handed him wine laced with blackbane; as the poison wore off, she strangled him with her necklace. His children found a Soulcaster and notes suggesting the Ghostbloods backed his bid to become highprince.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "73" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A large, tall man with an unfashionable beard, Lin dresses in styles that would suit his grandfather's generation, often an ulatu, a tight shirt and a robe.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Lin is controlling of his family and household, and when he feels disobeyed he lashes out in a bestial rage, usually screaming but at his worst beating people until they are crippled or dead. Those under his power are terrified of him. He was affected by Odium in some way, possibly through an Unmade.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+    }
+  ]
+}

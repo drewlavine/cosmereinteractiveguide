@@ -1,0 +1,112 @@
+{
+  "intro": [
+    {
+      "text": "A small country on Roshar beside Alethkar, long the traditional first target of Alethi conquest.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+    },
+    {
+      "text": "A country on Roshar whose tight-knit people, the Herdazians, are spread across the east, many living in Alethkar and Jah Keved.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "lost-metal", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Herdazians have large families, so one person can be related to half the country, and they stick together wherever they live. Across western Roshar they are thought extremely boastful, and their women tough and hard to impress.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Herdazian food uses many kinds of shellfood and flatbread; chull head is a delicacy. The most famous dish is chouta, fried Soulcast meat wrapped tightly in flatbread with sauce.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Herdazians have singer blood in their ancestry. Its clearest sign is their crystalline, slate-coloured fingernails, strong enough to strike a fire.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most Herdazian homes have a small ornamental chimney besides the large one, for the smoke of glyphwards burned in personal worship. Herdazian Vorinism allows men to read.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "52" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Herdaz was one of the first conquests of Sadees the Sunmaker, though it did not stay in his sons' hands. Ever since, it has been the traditional first step of Alethi aggression, leaving a bitter relationship.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "After Gavilar unified Alethkar, a Reshi house took the Herdazian throne and tested the Alethi borders. Dalinar Kholin spent about four years campaigning in the borderlands, shaping the modern border.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+        },
+        {
+          "text": "Before the True Desolation many Herdazians had left. The country weathered the Everstorm without much damage, and when Dalinar sought its support, it at first suspected a trick to invade it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "41" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Herdaz's army held off the Fused for many months before it fell. Some of the singers the Herdazians had enslaved joined it in return for promised freedom.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ]
+    }
+  ]
+}

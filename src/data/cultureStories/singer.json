@@ -1,0 +1,250 @@
+{
+  "intro": [
+    {
+      "text": "The people humans knew as parshmen. The passing of the Everstorm healed them, restoring their minds, though many remember their lives as slaves.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "17" }]
+    },
+    {
+      "text": "The original people of Roshar, descended from the ancient Dawnsingers. For millennia most of them lived as near-mindless slaves called parshmen, until the Everstorm healed them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "72" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "By bonding spren in a highstorm, singers take on forms, each suited to a purpose: warform gives armour and strength, nimbleform dexterity, mateform is for breeding, artform for art. Every form but dullform comes from a particular kind of spren, usually chosen by the singer's mindset during the storm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "79" }]
+    },
+    {
+      "text": "Before the Everstorm, parshmen were used as slaves throughout Roshar. They cost more than human slaves, being obedient and almost never trying to escape, and those who bore healthy children were bred and sold, even if it split up families.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "17" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Singers speak and sing to the rhythms, which carry their emotions and add meaning to their words. Dullform hears them only weakly and slaveform not at all, while those filled with Odium's power hear only his rhythms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Forms of power come from bonding voidspren, and in Odium's army such singers are called Regals. These forms grant supernatural abilities, such as throwing lightning or speaking any language, but can change how a singer thinks, making them more selfish and callous.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "oathbringer", "chapter": "i-7" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their skin is marbled with swirls of red, black or white; a few have three colours. The colours whitening at the edges is a sign of age.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "rhythm-of-war", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Dawnsingers",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When humans destroyed their own world, Ashyn, and arrived as refugees, the ancient singers were ordered by their gods, Honor and Cultivation, to help them. These singers were the Dawnsingers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The listeners",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Not every singer wished to fight mankind for Odium forever. One group, the Last Legion, gave up the forms of power and settled on the Shattered Plains, far from the war, and came to call themselves the listeners.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Losing their minds",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "i-4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Long after the last Desolation, the Unmade Ba-Ado-Mishram gave the singers forms of power and Voidlight and led them to war. The Knights Radiant imprisoned her, but doing so ripped away part of the singers' souls, leaving them near-mindless.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "These formless singers, slaveforms to the listeners and parshmen to humans, became cheap labour for humans for millennia. Only the listeners, who had broken with Odium, escaped that fate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "i-4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The listeners lived for millennia in tribes on the western edge of the Shattered Plains. They made contact with the Alethi and forged a treaty, but on the night it was signed Eshonai learned King Gavilar meant to bring back the listeners' old gods, and the listeners had him assassinated. Fleeing to Narak, they began the War of Reckoning.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After six years of war, the listeners, manipulated by a voidspren, recovered stormform and used it to summon the Everstorm at the Battle of Narak. Its passing over Roshar healed every parshman.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Freed",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-7" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "60" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The restored singers took on seemingly random forms and shared the attitudes of the humans they had lived among: Alethi singers were angry and warlike, Azish singers wanted to negotiate, and Thaylen singers stole ships and sailed away. Most were soon swept up by the returning Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-7" }]
+        },
+        {
+          "text": "The Fused stirred the singers' anger at their former masters and used propaganda, with Venli, supposedly the last listener, as their mouthpiece. Yet many singers were uneasy about fighting humans, and some wished for peace.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "60" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "eshonai",
+      "role": "listener",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "venli",
+      "role": "listener",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "60" }
+          ]
+        }
+      ]
+    }
+  ]
+}

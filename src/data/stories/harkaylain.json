@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Someone a Knight Radiant mentions in one of Dalinar's visions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Starfalls vision",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the Starfalls vision, set in the year 337 of the Eighth Epoch, a female Radiant told Dalinar, who appeared as Heb, that Harkaylain could predict Desolations with some accuracy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "When Dalinar returned to the vision as the female Radiant and claimed her living Shardplate had a problem, her Windrunner companion told her to talk to Harkaylain or to her spren.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "34" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,137 @@
+{
+  "intro": [
+    {
+      "text": "Chanarach, often called Chana, is a figure of Vorin lore, famed for being incredibly fast.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "59" }]
+    },
+    {
+      "text": "Chanarach, often called Chana, is one of the ten Heralds of the Almighty in Vorinism, with a temple in every modern city. She is famed for her speed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+    },
+    {
+      "text": "Chanarach, often called Chana, is one of the ten Heralds of the Almighty and patron of the Dustbringers. She once wielded an Honorblade granting the Surges of Division and Abrasion, but has since discarded it.",
+      "revealedIn": [
+        {
+          "all": [
+            "way-of-kings",
+            { "book": "words-of-radiance", "chapter": "77" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Chanarach, often called Chana, is one of the ten Heralds of the Almighty and patron of the Dustbringers. In recent times she married Lin Davar and raised a family with him on the Davar estate.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "77" },
+            "oathbringer",
+            { "book": "wind-and-truth", "chapter": "99" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "38" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chana came to Roshar from Ashyn and lived for a time in Shinovar, where she served as Jezrien's bodyguard and, with Ishar, was among his inner circle.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "77" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When humans and singers went to war, Honor made her and nine others Heralds, bound by the Oathpact. After every Desolation she returned to Braize to be tortured, and over thousands of years this wore on her sanity.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "At Aharietiam, Chanarach and the other Heralds abandoned the Oathpact, leaving their Honorblades behind and going their separate ways.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Life with the Davars",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chana married Lin Davar and had four children with him: Balat, Wikim, Jushu and Shallan. She also raised Lin's eldest son, Helaran, as her own. Servants gossiped about the frequent visits of a man named Dreder, but he was really a Skybreaker acolyte serving Nale.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On the night of King Gavilar's assassination, Nale demanded through Dreder that Chana kill Shallan, who had bonded a spren. Chana believed that killing her daughter would pass on her place in the Oathpact and free her. When she raised the knife she hesitated, and Shallan summoned her Shardblade and killed both Chana and Dreder.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        },
+        {
+          "text": "Wanting to see her daughter again, Chana came to Urithiru after hearing that Shallan had become a Radiant, and attended Shallan and Adolin's wedding without approaching her. After returning to Braize, she was drawn into a vision with Shallan in the Spiritual Realm, admitted that she was the Herald who had broken, and apologized. Shallan forgave her, and Chana promised to try not to break so easily before she vanished.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Vorin art shows Chanarach as a young woman in blue armor, holding a straight sword with a bifurcated blade and leaving her safehand uncovered.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "In her early years on Roshar, Chana had a soldier's disposition. As Shallan's mother she was erratic and badly unwell, prone to shouting matches with Lin, but she truly cared for her children, calling herself selfish for wanting a family despite warnings that she would hurt them.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+    }
+  ]
+}

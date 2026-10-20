@@ -1,0 +1,82 @@
+{
+  "intro": [
+    {
+      "text": "A kingdom in the warm northwest of Roshar, bordering Babatharnam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "A kingdom in northwestern Roshar, once part of the Silver Kingdom of Iri, whose people are tall, fair and blond, with a culture blending Iriali and Vorin ways.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rira lies in northwest Roshar, bordering Babatharnam to the south, with a large lake between it and Iri to the west. Its northeast is mountainous and surrounded by the Reshi Sea.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "Rira has its own language, related to Iriali and Reshi. The \"Re\" in Renarin's name comes from it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "52" }]
+    },
+    {
+      "text": "Rira includes the \"sunken forests\" and controls the island of the city of Kurth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "66" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Rirans are tall with light skin and blond hair, like the Iriali but without their metallic tinge. They are freer about affection than the Vorin nations, and some blend Iriali belief in the One with worship of the Heralds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "75" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "66" },
+            { "book": "oathbringer", "chapter": "24" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Iri claims Rira as a vassal, but other nations recognise it as a sovereign kingdom.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "A queen rules Rira; the Iriali monarchs call her their daughter to undermine her independence, though she is older than all of them. She refuses to marry, hoping someone will trade a Shardblade for her hand.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        },
+        {
+          "text": "By the end of the Era of Solitude Rira was no military power and had no Soulcasters, but it had at least one set of Shardplate. Evi and her brother Toh took it to Alethkar to win asylum and Evi's marriage to Dalinar Kholin, enraging other Rirans.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "66" }]
+        },
+        {
+          "text": "Rira ignored Dalinar's calls for an alliance against the Voidbringers, and Iri claimed to speak for it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+        },
+        {
+          "text": "As the war went on, the Iriali invaded Rira and took it back, and it became part of Odium's stronghold in the northwest. Kurth's Oathgate made it strategically important, but it lay too deep in enemy land for the coalition to try for it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    }
+  ]
+}

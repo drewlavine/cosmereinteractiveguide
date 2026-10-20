@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "An Azish thief in Huqin's crew, which plans to rob the Bronze Palace in Azimir.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Heist at the Bronze Palace",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the attempt on the Bronze Palace in 1173, Maxin and Tigzikk dressed as scribes to mingle with the officials gathered in the gardens for the choosing of a new Prime Aqasix. They were lookouts, ready to whistle a warning to the rest of the crew if anything went wrong. It isn't clear whether they got away with Huqin when the job fell apart.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like the rest of Huqin's crew apart from Lift, he is Azish, with dark hair and dark skin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He is hopeful that the crew can pull off the heist.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ]
+}

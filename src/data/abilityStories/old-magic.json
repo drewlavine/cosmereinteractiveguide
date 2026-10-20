@@ -1,0 +1,162 @@
+{
+  "intro": [
+    {
+      "text": "A mysterious power on Roshar: a person who seeks out the Nightwatcher receives a boon, and always a curse with it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Old Magic gives boons and curses through the Nightwatcher: whatever the boon, a curse comes with it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    },
+    {
+      "text": "A person gains a single unique ability from the Old Magic, and a unique curse along with it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Khriss's Ars Arcanum calls it a cousin to Voidbinding.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Boons",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "114" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "i-12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Anyone may seek one boon. The exact phrasing of the request makes no difference: the Nightwatcher gives the boon she feels the person deserves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She says she can grant almost anything, even spheres, gemstones, Shards, or a Blade that bleeds darkness, but she struggles with nebulous requests about human emotion.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "114" }]
+        },
+        {
+          "text": "A person's boon and curse stay with them for life, even if they leave Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In very rare cases, Cultivation gives a boon and curse herself, in a far more calculated manner.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "114" },
+                { "book": "rhythm-of-war", "chapter": "i-12" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Curses",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "No careful phrasing avoids the curse, and no one can predict which curse will come.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Many have searched for centuries for a cure for their curse, without success.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "114" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dalinar is the only person known to have been rid of a curse, and that was part of the curse itself: he would one day have to face the loss of Evi.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "nightwatcher",
+      "role": "Grants boons",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Visited",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Visited",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "epilogue" }]
+    }
+  ]
+}

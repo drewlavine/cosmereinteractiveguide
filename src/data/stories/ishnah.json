@@ -1,0 +1,131 @@
+{
+  "intro": [
+    {
+      "text": "A former spy who trains Shallan's soldiers in observation and espionage at Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+    },
+    {
+      "text": "A trained spy in Shallan's service who travelled with her to Kholinar posing as her maid.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "text": "A Lightweaver and one of the first members of Shallan's Unseen Court, bonded to the Cryptic Motif.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "51" },
+                { "book": "rhythm-of-war", "chapter": "7" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishnah once worked as an assistant in House Hamaradin's spy network. When her mistress was assassinated and the spies came under suspicion, she fled and ended up with a gang of petty thieves under Urithiru. Having seen Veil show the Ghostbloods' symbol, she sought Veil out, spied on her to prove her skills, and was offered the job of training Shallan's men.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "51" },
+                { "book": "rhythm-of-war", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ishnah began by taking Veil, Vathah, Gaz and Red to a tavern to show them how to watch without being noticed, pointing out an informant even Shallan had missed. She went on to teach observation and memory techniques and insisted they learn glyphs for taking notes.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "77" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan chose Ishnah, Vathah and Red for Elhokar's mission to Kholinar, with Ishnah posing as her maid. There Shallan confirmed Ishnah's suspicion that she and Veil were the same person. Ishnah posed as a rug merchant during their food thefts, kept training Vathah and Red, and in time was contacted with an invitation for Veil to join the Cult of Moments' revel.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        },
+        {
+          "text": "After Shallan left Kholinar suddenly through the Oathgate, Ishnah, Vathah and Red worked with Skar and Drehy to rescue Gavinor Kholin and escape the city. They headed south and reached Dalinar, who sent Kaladin to bring them out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Unseen Court",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "7" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishnah was one of the first members of the Unseen Court and helped capture Ialai and the Sons of Honor in the warcamps.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        },
+        {
+          "text": "Shallan chose Ishnah for the mission to Lasting Integrity, though she suspected her of spying for the Ghostbloods. Digging into it, Shallan found Ishnah had been sending her stipend to her old gangs, hoping they would better themselves; instead they had started a new racket.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short woman, a little older than Shallan, with straight black hair and dark brown eyes. She wears makeup, including red lipstick and pencilled eyebrows, and an Alethi havah with a gloved safehand.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "44" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Her Cryptic, Motif, rides on the ornament at the end of the hair spike that holds her braids.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "44" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tenacious, self-assured and calm under pressure, Ishnah tolerates little nonsense and stays focused on her work.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "72" }]
+    },
+    {
+      "text": "A capable spy with an excellent memory and an eye for detail to rival Shallan's, she is skilled at searching rooms, infiltration and coded messages.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "text": "Pragmatic and ambitious, she is always looking for opportunities, but because of her past she isn't sure she belongs in the light.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ]
+}

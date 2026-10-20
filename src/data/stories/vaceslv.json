@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed soldier of the Kholinar Wall Guard in Noro's squad, alongside Kaladin.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar Wall Guard",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "73" },
+            { "book": "oathbringer", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vaceslv got to know Kaladin as a fellow soldier in Noro's squad. He and Alaward kept asking Kaladin to play cards, but Kaladin always declined, thinking of Sah and the other parshmen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+        },
+        {
+          "text": "Vaceslv took a gash to the chest in a Fused raid that needed a surgeon, but he recovered.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "81" }]
+        },
+        {
+          "text": "Vaceslv followed Kaladin into the palace with his squad and fought in the battle there. Most of the squad, including Noro and Beard, were killed; Vaceslv isn't mentioned among the few survivors.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Alethi, with obvious Thaylen heritage.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A friendly man of the tenth dahn who thinks middle-ranking lighteyes useless, and mocks their love of fancy clothes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    },
+    {
+      "text": "Trained with side sword, truncheon and small shield for patrols, and with tower shield and pike in formation.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "73" }]
+    }
+  ]
+}

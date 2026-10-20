@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A nation on Roshar ruled by an elected emperor, the Prime Aqasix, and a court of viziers.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "A Makabaki nation on Roshar, the cultural and political centre of Makabak, leading the Azish Empire under its elected Prime Aqasix.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The best-known Azish produce is the truthberry, made into jam. Legend says those who eat them speak only the truth until the next sunset.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    },
+    {
+      "text": "The Azish believe they are never without a Prime: an election is a search for the person who has always been Prime. Anyone but a scion may apply, with forms and essays reviewed by the viziers, a method the Azish are proud of for avoiding succession wars.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The Prime belongs to the public: citizens can win a lottery to watch the Prime sleep and eat, and can keep relics such as nail clippings or hair.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "The Azish are stereotyped as peaceful, preferring education to war, and adoring bureaucracy and paperwork, which they take pride in. Their custom is to stay calm and polite, avoid offending guests, and never say \"no\" outright.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "65" },
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sadees the Sunmaker conquered Azir in the seventh century. The occupation was extremely violent: up to a tenth of the population died. After his death his empire split and the Azish regained their independence.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "65" }]
+        },
+        {
+          "text": "In the centuries since, Azir rose to lead Makabak, and many surrounding nations became its client states, forming the Azish Empire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "In 1173, the Assassin in White killed two Primes in a row, and candidates avoided the throne. The crisis ended when a crew of thieves including Lift and Gawx tried to rob the Bronze Palace: Gawx was seemingly killed, then revived, and the court took it as a miracle, crowning him Yanagawn the First.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Everstorm came, Azir's parshmen awoke and, following their former masters' example, sued the government for back pay. The Azish negotiated while fortifying their cities.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Remembering Sadees, the Azish were at first unwilling to open their Oathgate to Dalinar's coalition, but when talks with the singers fell through, they joined it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "They sent troops to Jah Keved and then their fleet towards Thaylen City, but after the translation of the Eila Stele they backed out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "After the battle, Dalinar explained by spanreed what had really happened, and the Azish agreed to renegotiate if he could prove he controlled his troops.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "intro": [
+    {
+      "text": "One of the Parshendi leaders who stayed behind in Kholinar after King Gavilar's assassination.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A listener elder on the Council of Five, the ruling council of his people, who stayed behind in Kholinar after King Gavilar's assassination.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "First contact",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "rhythm-of-war", "chapter": "48" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Klade already seemed to be a leader of the listeners when they first met humans. With Eshonai, he learned the Alethi language and guided Gavilar Kholin's expedition, and became friendly with Gavilar as they traded questions about their cultures, though he let slip details Eshonai would have kept quiet. The Alethi parshmen puzzled him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "rhythm-of-war", "chapter": "48" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Months after the humans left, Venli showed the Five that she could trap spren in gemstones. Klade saw that being able to take on new forms could be useful and advised Gangnah on what it meant for their people. The listeners grew closer to the Alethi, in time agreeing to a treaty.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "77" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "77" },
+                { "book": "wind-and-truth", "chapter": "70" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before travelling to Kholinar, Klade named a replacement on the Five in case he didn't return. There, he claimed a voice speaking to the rhythms led him to Szeth, a slave. Klade and Venli pushed Szeth to admit his powers, and Klade gave him flowing white clothes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "77" },
+                { "book": "wind-and-truth", "chapter": "70" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "On the night of the treaty feast, Eshonai told the Five that Gavilar meant to bring back the listeners' old gods. Seeing their new assassin as a sign, and knowing it meant war, they voted to have Szeth kill Gavilar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-4" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the assassination, Klade, Gangnah and Varnali stayed in the palace and told Jasnah they were responsible, saying only that they had to stop Gavilar from doing something dangerous. Their surrender let the other listeners escape. After more fruitless questioning, they were hanged.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-3" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Wears typical listener clothes, including a cloth wrap, sash, sleeveless shirt and vest, and usually workform.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A reserved elder who shows curiosity about human society.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "oathbringer", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ]
+}

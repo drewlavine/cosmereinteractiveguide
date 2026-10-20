@@ -1,0 +1,176 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant, many of whom disliked the name for sounding like \"Voidbringers\" and preferred to be called Releasers.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+    },
+    {
+      "text": "An order of the Knights Radiant, bonded to ashspren, whose Surges of Division and Abrasion let them burn, degrade and slicken.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Dustbringers use the Surges of Division and Abrasion.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "People often misjudged Dustbringers because of their destructive powers, and even some other Radiants felt they were \"on the edge of evil\".",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "24" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the final battle of the Last Desolation, the Dustbringers' powers left burnt plants and corpses and smouldering rock.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In one of Dalinar's visions, a Dustbringer and her squires hunt a spren corrupted by Sja-anat, then fight a thunderclast.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "27" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "3" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "3" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Malata, a Dustbringer, arrives at Urithiru with Taravangian. She says her spren Spark suggested they come.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
+        },
+        {
+          "text": "Spark is the first ashspren known to bond someone since the Recreance. Many of her friends died in the Recreance, and she says she wants only revenge and to break things.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By 1174, at least a few other ashspren have bonded people, and Dalinar's coalition begins to suspect that not all Dustbringers are loyal to their cause.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "3" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "words-of-radiance", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Abrasion lets them change the friction between surfaces, moving with ease or making objects slippery to anyone but themselves. In a vision, one Dustbringer glides across the water of the Purelake.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Division lets them make things burn, degrade or turn to dust, and it also works on living flesh.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "Like most Radiants, Dustbringers have squires; one in Dalinar's visions has about a dozen.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Spren",
+      "name": "Ashspren",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "label": "Surges",
+      "name": "Division and Abrasion",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "malata",
+      "role": "Dustbringer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "The palace of Kharbranth, carved into the mountainside above the city, where Jasnah Kholin came to study in the Palanaeum.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The white main entrance, carved into the rock face without a gate, opens into a long hall of polished pillars that slopes down into the mountain, lit by gemstone lamps.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    },
+    {
+      "text": "Important guests stay in a residential wing whose access is controlled by master-servants, who also watch guests' spanreeds. Heatrials warm the rooms, some of which keep rough stone ceilings.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    },
+    {
+      "text": "The Palanaeum lies deep in the mountain, about half an hour's walk from the entrance. The palace gardens, walled in places with low stone walls for privacy, are open to guests and ardents, and Taravangian takes his midday walk there.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "1173",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "5" },
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "way-of-kings", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Soon after Shallan arrived, Jasnah freed one of Taravangian's granddaughters, trapped in the palace by a cave-in after a highstorm.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        },
+        {
+          "text": "Shallan became friends with the ardent Kabsal, picnicking in the gardens and talking in the Palanaeum, and staff throughout the Conclave asked her for portraits.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "Shallan's drawings began to include strange figures she had not seen, first in a sketch of Taravangian at lunch and later in one of herself and Kabsal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "Shallan stayed in the Conclave's guest suites with Jasnah and, after months as her ward, swapped Jasnah's Soulcaster for a fake in their rooms. She was dismissed before she could leave.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Around the time Jasnah and Shallan left, Szeth broke into the palace to kill Taravangian. In the king's study, he learned Taravangian held his oathstone, and was shown a secret hospital behind a door, missing from the palace maps, where the dying were gathered.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "71" }]
+        }
+      ]
+    }
+  ]
+}

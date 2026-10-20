@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A former scout in Dalinar's army, one of the first women to join Bridge Four.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "text": "A former scout who joins Bridge Four and becomes a Windrunner squire.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "i-10" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Secretly trained in the spear as a child, Kara served as a scout and messenger in Dalinar's army. She and four others from her squad became the first women to try out for Bridge Four, learned to use Stormlight within days and fought with the bridgemen at the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "Kara flew scouting missions into singer-occupied Alethkar, noting the state of cities and the placement of singer troops, including at Tomat.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+        },
+        {
+          "text": "At the evacuation of Hearthstone she was one of the few squires allowed to fight the Heavenly Ones in the air, and struck one with her spear. Back in Urithiru she teased Lunamor, and joined most of Bridge Four on the campaign to Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Kara pays little heed to Vorin rules on what women may do and has the courage to break barriers. She fits in well with Bridge Four and has an affectionately teasing sense of humour.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

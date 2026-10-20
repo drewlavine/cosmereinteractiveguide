@@ -1,0 +1,81 @@
+{
+  "intro": [
+    {
+      "text": "In Vorinism, the third tier of the universe and one of the afterlives: the home of the Voidbringers, where the souls of the wicked are sent.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorin myth says the Voidbringers were forged in Damnation's fires of hatred, conquered the Tranquiline Halls and drove humans onto Roshar, returning in the Desolations to push them further down. Some scholars note this implies Damnation is now empty.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "61" },
+            { "book": "words-of-radiance", "chapter": "32" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Damnation may have as many as eleven names; the only one given, in some old songs, is Braize.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+    },
+    {
+      "text": "Rosharans curse with it everywhere: \"go to Damnation\", \"what in Damnation\", and the rarer \"what in Damnation's eleventh name\". \"Until Damnation ends\" means a very long time.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "62" },
+            { "book": "edgedancer", "chapter": "20" },
+            { "book": "oathbringer", "chapter": "14" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Almighty weighs the sins of the dead; those too wicked are sent to Damnation to be tortured by fire. It is divided into rooms for different kinds of sinner, with punishments inspired by their lives, and is home to evil spren that can leave to torment the living.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "41" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Behind the myth",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "39" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After each Desolation the Heralds had to return to Braize, where they were tortured until they broke. Stories of that torture, and of the Fused, souls of dead singers kept on Braize between Desolations, may lie behind Damnation's pain and wicked souls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "39" }]
+        },
+        {
+          "text": "Damnation is based on Braize, the third planet of Roshar's system, where Odium lives. Even when the Knights Radiant existed, it was called Damnation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

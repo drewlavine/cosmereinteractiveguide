@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "A nation in the northwest of Roshar, warm and lush, whose people, the Iriali, have metallic golden skin and hair.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A kingdom in northwestern Roshar, one of the old Silver Kingdoms, ruled by three monarchs: currently two kings and a queen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Iri's largest city is Rall Elorim, the City of Shadows, followed by Kasitor, where many worship the giant spren Cusicesh the Protector. Iri also contains the city of Eila.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "The Iriali believe they are not native to Roshar but walk the Long Trail through seven Lands, of which Roshar is the Fourth. They revere the One, which knew everything but had experienced nothing, and so became Many to experience all things.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-2" }]
+    },
+    {
+      "text": "The Iriali have metallic golden-blond skin and hair, and many Alethi consider a lock of it good luck. Most have yellow eyes. They are strict about chastity but less quarrelsome and prudish than the Vorin nations.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "20" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Iri is ruled by a triumvirate, regardless of the rulers' gender; each monarch has their own responsibilities, and the queen oversees foreign policy.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "16" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Silver Kingdom of Iri ruled the lands of Iri and Rira and was held more often by singers than humans. The Iriali settled there and slowly became dominant. When the kingdom collapsed, its east split off as Rira, which Iri still claims as a vassal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "When Dalinar invited Iri into his coalition, its monarchs refused, claiming he had stolen their Shardplate and that Alethkar no longer mattered. Iriali singers asked the monarchs for the land, and the Iriali, realising humans had never tried surrender to avoid a Desolation, felt bound to try it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "By the end of the battle at Thaylen City, Iri, with Odium's forces, had struck east and taken most of the western kingdoms around the Purelake, becoming a base for troops and a refuge for Odium's navy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

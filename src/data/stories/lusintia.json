@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren from Lasting Integrity.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "93" },
+            { "book": "wind-and-truth", "chapter": "9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Shallan's first day in Lasting Integrity, Lusintia acted as her guide and was secretly told to keep watch on her. When Shallan fell from a tree, Pattern fooled Lusintia and others into fetching Stormlight, and she had to file a report after Shallan used up a whole emerald. She also accused Shallan of trying to sway Adolin's trial.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "After the trial she wasn't among the first honorspren who came to bond Windrunners, but in Urithiru she was seen trailing Dabbid.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In Shadesmar she looks like a short woman with chin-length hair, in a stiff jacket and trousers that resemble a uniform.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She firmly believes the honorspren are right to keep apart from humans and reveres the Herald Kalak. She has a softer side, panicking when Shallan is hurt, and like other honorspren she is easily fooled by human tricks.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "intro": [
+    {
+      "text": "The sea of glass beads in Shadesmar that mirrors central and eastern Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Like all seas in Shadesmar, it is made of small beads, not water. There is no wind, yet the beads roil and clack constantly.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+    },
+    {
+      "text": "Its peninsulas match rivers in the Physical Realm, and its islands match lakes; the land is like dark glass. Channels are cut through some peninsulas, especially those of the Deathbend River.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "Non-sapient spren live in the sea, and plants such as fernlike growths and mushroom-like trees grow along some shores.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "9" },
+            { "book": "oathbringer", "chapter": "110" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "oathbringer", "chapter": "112" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The honorspren once tried to conquer all of Shadesmar, which left them a poor reputation among other spren.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "At the start of the True Desolation, the Fused took over many of the sea's cities, ruling lightly.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "Shallan, Kaladin, Adolin and their companions, trapped in Shadesmar after Kholinar, crossed the sea by ship to Celebrant, fled aboard the honorspren ship Honor's Path, and travelled on to Thaylen City.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "112" }]
+        }
+      ]
+    }
+  ]
+}

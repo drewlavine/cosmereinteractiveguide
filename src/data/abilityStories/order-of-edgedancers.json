@@ -1,0 +1,147 @@
+{
+  "intro": [
+    {
+      "text": "An order of the ancient Knights Radiant, among the most graceful fighters, who preferred to serve as medics or rescue trapped allies.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Edgedancers use the Surges of Abrasion and Progression.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "Some felt that the Edgedancers ignored important things and thought them small-minded.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "72" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "They follow a philosophy of remembering the ordinary people of the world, and tend to ignore high society.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The ancient Radiants",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "72" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though renowned for their deadliness, Edgedancers preferred to serve as medics or to rescue trapped allies. They were among the most graceful of the Radiants, in battle and out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "72" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the Radiants abandoned Urithiru, the Edgedancers were too busy relocating the city's servants and farmers to leave a message in the gem archive.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "72" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "They sometimes served as scouts, or joined special teams with Windrunners and Skybreakers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The refounded order",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wyndle is the first spren of his kind known to bond someone since the Recreance, choosing Lift.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The Ideals",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "An Edgedancer must reach the Third Ideal before their spren can become a Shardblade.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "words-of-radiance", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Abrasion lets them manipulate friction. They are said to \"ride the thinnest rope at speed, dance across rooftops, and move through a battlefield like a ribbon on the wind.\"",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Progression lets them make plants and other organic things grow much faster than normal, and heal.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Abrasion and Progression",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ]
+}

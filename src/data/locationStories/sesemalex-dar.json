@@ -1,0 +1,89 @@
+{
+  "intro": [
+    {
+      "text": "The capital of Emul on Roshar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+    },
+    {
+      "text": "The capital of Emul, an ancient trade city built in great gashes in the stone on Emul's west coast.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The city sits on a stone plain on Emul's west coast, bordering Tukar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+    },
+    {
+      "text": "It is built in enormous gashes in the ground to protect it from highstorms, each trough with a lip of rock to turn away water and a system of cracks for drainage. Its pattern is central to the Emuli religion.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "55" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Its people are known for marvellous crem pottery, and it is a major trading waypoint of the south.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "edgedancer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "54" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "It is said that Jezrien himself named Sesemalex Dar and Emul, and the Emuli believe the city is the homeland the Heralds gave them; some think it is a Dawncity.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "The Tukari wanted the city for its port, and used the status of their ruler Tezim to justify trying to take it. This began the Eighty's War, fought over the city for years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "edgedancer", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the True Desolation came, the war was swallowed up by the fight against Odium: the Fused and singers took southern Emul, including the city, until the coalition won it back.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+        }
+      ]
+    }
+  ]
+}

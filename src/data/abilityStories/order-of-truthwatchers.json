@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "An order of the Knights Radiant whose Surges are Progression and Illumination.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Truthwatchers use Progression, the Surge of growth and healing, and Illumination, which crafts illusions by weaving light and sound.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "text": "Renarin says Truthwatchers are special because \"they see\".",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "89" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "rhythm-of-war", "chapter": "54" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Renarin swears to be a Truthwatcher.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        },
+        {
+          "text": "Jasnah and her spren discover that Renarin's spren, Glys, is corrupted, yet somehow bonded to a human.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "Renarin sees visions of what may come. He tells Dalinar that he and Odium both see only possible outcomes, and that their powers interfere with each other.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "54" }]
+        },
+        {
+          "text": "Rlain bonds a corrupted mistspren, Tumi, and becomes a Truthwatcher.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Powers",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Progression heals damage to a person's body and soul instantly, without scarring.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Illumination can disguise a Truthwatcher, hide them in illusory walls and rocks, or confuse and distract.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Surges",
+      "name": "Progression and Illumination",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+    },
+    {
+      "label": "Spren",
+      "name": "Mistspren",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "renarin-kholin",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "rlain",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ]
+}

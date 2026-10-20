@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, ancient spren of Odium. Moelach is the source of the Death Rattles, the visions people on Roshar see in their final moments, and has lately settled in the Horneater Peaks.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Through the ages",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "88" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "endnote" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Moelach took part in past Desolations and stayed active on Roshar afterwards, roaming from place to place and at times slumbering, when the Death Rattles stop. They returned around 1166, when Moelach was somewhere near Kholinar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "88" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "By about 1173 Moelach was near Kharbranth, where Taravangian was collecting the Death Rattles of the dying. Late that year it began moving west, sharply cutting the number he could gather, and by early 1174 it had settled in the Horneater Peaks, pursued by Joshor, one of Taravangian's Silent Gatherers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "endnote" },
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Narak",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Moelach was present at the second battle at Narak.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Moelach is one of the mindless Unmade, more a force of instinct than a thinking being. Ominous scratching, scraping and heavy breathing are thought to mean it is close.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }]
+    }
+  ]
+}

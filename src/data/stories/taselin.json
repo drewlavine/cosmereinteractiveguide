@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi brightlord on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The king's feast",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At one of King Elhokar's feasts, Wit mocked Taselin's intelligence.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

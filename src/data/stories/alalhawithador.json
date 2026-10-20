@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A Sleepless swarm on Roshar, one of the oldest, and among those who meet with Nikli about the Wandersail's voyage.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "An ancient swarm",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "6" },
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "wind-and-truth", "chapter": "i-15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alalhawithador was the third Sleepless to Separate from Yelamaiszin, the first swarm to settle on Roshar, and is likely more than four thousand years old. Over the millennia it stayed loyal to Yelamaiszin and helped protect Akinah after the Scouring of Aimia.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the Wandersail sailed for Akinah, Alalhawithador at first went along with Nikli's plan to warn the humans off with manufactured omens. After Nikli's first two attempts failed, it lost patience and pushed for killing everyone on board. When the swarms drifted into discussing humans in general, it pulled them back on track, and pointed out that First Dreams, the ship whose recovery prompted the expedition, had likely been placed deliberately to be found.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        },
+        {
+          "text": "It proposed letting the crew try to breach the storm around Akinah and killing any who reached the beach. Other Sleepless agreed, but Nikli was given one more chance to turn the crew away.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+        },
+        {
+          "text": "As a loyal follower of Yelamaiszin, Alalhawithador presumably honoured the treaty reached with Rysn and Cord.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "In time, Alalhawithador came to respect Rysn.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Its appearance is unknown. It speaks to the other Sleepless in a low, angry buzz.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Aggressive and eager for the most violent solution; Nikli thinks it the most volatile swarm on Roshar. It approves of Nikli's fondness for humans mainly because it should help Nikli blend in. Faced with failure, it turns acerbic and accusatory.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    },
+    {
+      "text": "Confident in its fighting skill, it believes it could kill a whole crew, including two Knights Radiant, though it is poor at imitating humans compared to younger swarms.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A scribe at the Grand Indicium in Tashikk, ordered by the emperor to help Lift.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yeddaw",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "14" },
+            { "book": "edgedancer", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ghenna stopped Lift at the Grand Indicium and didn't believe she came from the palace in Azimir until Yanagawn sent a spanreed telling the scribes to listen to her. After that she mostly did as Lift asked, unless the Prince of Tashikk's orders overrode the emperor's.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+        },
+        {
+          "text": "She helped Lift trade spanreed messages with the emperor about the Everstorm, helped her look into Nale's activities in Yeddaw, and visited Tashi's Light Orphanage once Lift learned that the Stump was a Surgebinder.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She wears a shiqua covering her whole body and face, along with glasses. She is very heavy, pretty, and younger than Lift first thought.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Serious about her work, she puts up with Lift's cheek only because the emperor ordered it. Lift insults her but is fond of her, at one point giving her a long hug.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+    }
+  ]
+}

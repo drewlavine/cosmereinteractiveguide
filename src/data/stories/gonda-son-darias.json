@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A Shin swordmaster at the Elsecaller monastery in Shinovar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Elsecaller monastery",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gonda oversees the monastery's martial training and teaches its monks and students. He kept harsh discipline among the acolytes when Kaladin and Szeth passed through.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has the pale skin and large-looking eyes typical of the Shin.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Disciplined and focused, he is well suited to the martial traditions kept at the monastery.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ]
+}

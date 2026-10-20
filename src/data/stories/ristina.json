@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A scribe on duty at the Narak Oathgate, keeping a ledger of everyone who travels through it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "text": "An Alethi scribe in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "46" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "46" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Narak Oathgate, Ristina scolded a late Kaladin on behalf of waiting merchants. When he told her the Knights Radiant weren't their doormen, she smirked and wrote something down, as if to pass that on.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Skar liked her sense of humour, and the two started dating. Adolin thought she might have suited Kaladin had she not been with Skar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "46" },
+                { "book": "rhythm-of-war", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Very short.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "She has a sense of humour, unlike many scribes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ]
+    }
+  ]
+}

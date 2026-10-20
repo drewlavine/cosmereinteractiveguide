@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A young ardent and junior engineer at Urithiru, nephew of the scholar Falilar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani asked Tomor and Falilar to design new lift fabrials. Along the way they built a prototype worn on the wrist that let its wearer move in a chosen direction for a short time by engaging conjoined rubies. Navani tried it and told Tomor to keep working on the idea.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "Tomor brought Navani an improved version built into a leather glove, excitedly explained it as he tied it on and insisted she try it. She did, to the amusement of the room, and suggested improvements.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        },
+        {
+          "text": "When the Fused occupied Urithiru and Navani worked under Raboniel's watch, Tomor was set to recalculating schematics. Junior enough to come and go unescorted, he agreed to Navani's request to get his glove prototype to Kaladin, and hid it from the Fused along with a map to weights on the twentieth floor.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A bald, darkeyed youth.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Enthusiastic about his engineering projects.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+    }
+  ]
+}

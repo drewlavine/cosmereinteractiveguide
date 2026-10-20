@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren bonded to the Windrunner Huio.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bond with Huio",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Huio and Caelinora were chosen for the expedition to Akinah in late 1174, by which time Huio had sworn the first two Ideals of his order. She rarely showed herself to Lopen, but Cord, one of the Sighted, could see her.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+        },
+        {
+          "text": "Huio swore the Third Ideal during the battle against the hordelings on Akinah's shore, to Lopen's surprise; he was happy for them, if a little envious at first. Huio could wield Caelinora as a huge living Shardhammer that turned into a Shardspear at his command.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

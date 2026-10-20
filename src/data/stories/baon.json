@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "A soldier and marksman who guards Duchess Khrissalla on her expedition to Dayside.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+    },
+    {
+      "text": "Duchess Khrissalla's bodyguard on her expedition to Dayside, who is also secretly an agent of the Dynasty.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+    },
+    {
+      "text": "A member of the Seventeenth Shard who searches Roshar for Hoid with Galladon and Demoux.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "wind-and-truth", "chapter": "i-11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding Khriss",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "4" },
+            { "book": "white-sand-omnibus", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Baon warned Khriss about her unruly escort and covered the party's retreat from an angry A'kar. When the escort deserted, he and Cynder found Kenton, who agreed to guide them to Kezare, and Baon shot two attacking warrior-priests on the way.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        },
+        {
+          "text": "Khriss realised Baon's pistols had belonged to Captain Deral, and he admitted killing Deral and his lieutenant and that the Dynasty had sent him, then left. He came back to save Gevin from the assassin Acron, explained that Deral had planned to betray them, and agreed to guard Khriss again.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Search for Hoid",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Galladon and Demoux of the Seventeenth Shard, Baon hunted for Hoid at the Purelake, where the fisherman Ishikk gave him a nickname. By 1175 the three had given up and left Roshar, but they returned to Iri shortly before the Fifth Journey, collected a letter from Hoid and left again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-1" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and muscular, with short dark hair, dark skin and a goatee. He wears a long white duster with a blue vest and carries at least two holstered pistols.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "white-sand-omnibus", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Perceptive and eloquent, with a sardonic wit; pragmatic and blunt.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "white-sand-omnibus", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A man killed by Szeth, together with Mart, at the Battle of Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Narak",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Szeth killed Pedin and Mart during the Battle of Narak.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Remembered",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fighting the Fused while trying to reach Thaylen City from Shadesmar, Kaladin remembered Pedin among the men he had lost as he tried, and failed, to speak his next Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

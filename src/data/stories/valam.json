@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "An aging Veden highprince, lord of House Davar among other houses, who fights to become King of Jah Keved.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Highprince",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ten lighteyed lords led the houses of Valam's princedom, each trying to win his favour through trade, such as Revilar's textiles and Lin Davar's mining. They also feared him, for he used his son Redin as an enforcer and assassin. He spent most of his time in Vedenar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "House Davar was sworn to Valam. After Shallan's mother died the house declined, while Valam, now old and failing, no longer protected it as before. Redin suspected Lin of killing his wife, and Revilar forced Lin into a ruinous deal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "3" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In time Lin's fortunes recovered, and he grew influential enough to consider marrying his son Balat to Valam's daughter Sudi, decades older. He may have hoped to become highprince himself, but his death ended any threat to Valam.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Veden succession",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Szeth killed King Hanavanar and six highprinces, the ailing Valam joined the war of succession and besieged Vedenar along with his rivals. Months of brutal fighting all but destroyed the city, but Valam became King of Jah Keved.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "His health kept failing, and Taravangian, who had sent aid to the city, visited him on his deathbed. Valam saw that Taravangian had schemed for the crown and might have poisoned him, yet named him heir. He then ordered Redin to kill him, scolding him for hesitating, and his last words were a Death Rattle.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Seen only on his deathbed: bald, with deeply sunken cheeks.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Intelligent, but domineering and vengeful, and particularly cruel to his bastard son Redin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ]
+}

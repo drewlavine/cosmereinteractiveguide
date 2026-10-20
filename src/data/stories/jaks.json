@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "Earless Jaks, a bridgeman in Bridge Four who resents Kaladin's leadership.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "Earless Jaks, a bridgeman in Bridge Four who came to respect Kaladin and helped paint the crew's carapace armor.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    },
+    {
+      "text": "Earless Jaks, a bridgeman in Bridge Four who fell in the Battle of the Tower.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "27" },
+            { "book": "way-of-kings", "chapter": "64" },
+            { "book": "way-of-kings", "chapter": "73" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kaladin got the crew put on stone-gathering duty, Jaks and Dunny hauled a boulder over to the wagon on a sled. Jaks scowled at Kaladin and stalked off when complimented, and he joined Sigzil and Moash in mocking the bridgeleader during chasm duty.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+        },
+        {
+          "text": "After Kaladin showed his skill with a spear, Jaks questioned his plan to escape the warcamps but joined the training. When Leyten made armor from Parshendi carapaces, Jaks bought blue and white paint and decorated it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+        },
+        {
+          "text": "Jaks was killed in the Battle of the Tower, along with Malop and Narm. Kaladin grieved that he couldn't save them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "Kaladin still remembered Jaks among the men he felt he had failed, both when trying to speak an Ideal and when Moash confronted him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "oathbringer", "chapter": "118" },
+                { "book": "rhythm-of-war", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "At first openly hostile towards Kaladin, Jaks gradually came to respect him and became a willing member of the crew.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+    }
+  ]
+}

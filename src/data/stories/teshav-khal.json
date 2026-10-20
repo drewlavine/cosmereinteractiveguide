@@ -1,0 +1,159 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi lighteyed woman, wife of General Khal, who serves Dalinar Kholin as a scribe and advisor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "69" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An Alethi scribe and advisor to Dalinar Kholin and wife of General Khal, who oversees the coalition's archive vault.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "69" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The War of Reckoning",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "69" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Teshav is Alethi, though she has family in Thaylen City. She married General Khal, one of Dalinar Kholin's officers, and they had three children: Halam, Aratin and Meleran.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "69" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the Kholin warcamp on the Shattered Plains, Dalinar relied on her as a scribe. She relayed Adolin's reports on the king's saddle girth, looked into the highprinces, banditry and the king's accounts, drafted Dalinar's letters, and helped her husband plan patrol routes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "18" },
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "69" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Teshav and her husband were among the few at the Kholins' strategy meeting after Elhokar's new gemheart proclamation, and she was shocked when Dalinar announced he would refound the Knights Radiant. She helped plan Adolin's meeting with Eshonai, and took on a few girls as wards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Residence in Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "12" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru Teshav witnessed Dalinar and Navani's wedding and advised Dalinar as he reached out to other nations. She and Navani privately witnessed Elhokar swear fealty to Dalinar as highking.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        },
+        {
+          "text": "Teshav gave Taravangian a tour of the tower and served as a scribe in talks with Azir and Thaylenah. She recorded Navani's words inside one of Dalinar's visions, operated the spanreeds during the bid to retake Kholinar, and before the coalition's meeting in Thaylen City discussed a match for her son Halam with the Princess of Yezier.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "During the Battle of Thaylen Field she ran a scribe station near the Oathgate, which became the command post once reinforcements arrived. Afterwards she brewed tea and shared some with Shallan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Teshav became a senior scribe for the coalition's armies, overseeing battle reports. She went to the front in Emul, reported on the Veden betrayal, tracked the state of the occupied tower, and acted as a go-between for Dalinar and the other monarchs.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She has a pinched face, violet eyes and black Alethi hair with a blonde streak, a sign of foreign blood, usually worn up in a complex weave.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dalinar considers her one of the best political minds in Alethkar. She brews tea to stay alert through long hours of scribing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Perpetually worried, utterly loyal to Dalinar, always professional, and disapproving of people stepping out of line.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "words-of-radiance", "chapter": "5" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "The original Vessel of the Shard Ambition.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "104" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ambition",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "27" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Uli Da was mortally wounded by Rayse in a battle near Threnody, and the power of Ambition was splintered.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "27" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,116 @@
+{
+  "intro": [
+    {
+      "text": "The ancient capital of the Silver Kingdom of Natanatan, one of the ten cities with an Oathgate to Urithiru, now lost somewhere in eastern Roshar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+    },
+    {
+      "text": "The ancient capital of Natanatan, now ruins at the very centre of the Shattered Plains, where the listeners built the city they call Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The old tower has become a stalagmite-like spire. The listeners carved steps up its side, and its flattened top was the meeting place of their Council of Five.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    },
+    {
+      "text": "Rather than dig out the city, the listeners built on top of it: rock shelves became homes and barracks, and greatshell carapaces became houses.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-5" }]
+    },
+    {
+      "text": "Stormseat now lies split across many plateaus, the largest holding the old plaza and its tower. Centuries of highstorms have toppled and crusted most of it in crem, though some buildings are still hollow inside.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "83" }]
+    },
+    {
+      "text": "The Oathgate platform survived the shattering of the Plains intact. Though buried in crem, its control chamber is well preserved, with colourful mosaics and whole lanterns.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "60" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Stormseat was the capital of Natanatan in the Heraldic Epochs, surrounded by outbuildings and towns, and known as far as Azir.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "Stormseat was destroyed by the same event that shattered the Plains, a disaster humans date to Aharietiam. The city was never rebuilt.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Narak",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "78" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The listeners call the place where they broke their ties to their old gods Narak, meaning exile.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "After Gavilar's assassination, the listeners moved to Narak for defence, and over five years made it a working city.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }]
+        },
+        {
+          "text": "Jasnah, and then Shallan, searched for Stormseat as a way into Urithiru.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "78" }]
+        },
+        {
+          "text": "As the Alethi pushed toward Narak, its listeners took stormform. They were defeated, but summoned the Everstorm, and Shallan saved the Alethi armies by opening the Oathgate.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-6" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The listeners never returned. The Alethi claimed the city, marched most of their armies through it to Urithiru, and turned it into a fortress guarding the Oathgate and the road to the warcamps.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
+        },
+        {
+          "text": "The New Natanan ambassador Au-nak asked for Stormseat to be returned to his people as heirs of Natanatan, with little success.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    }
+  ]
+}

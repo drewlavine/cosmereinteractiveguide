@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi captainlord of the Cobalt Guard, assigned to protect Adolin Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of the Tower",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of the Tower, Kaladin told Malan to retreat, but he refused to leave Adolin. Instead he led the Cobalt Guard after Kaladin to rescue Dalinar from a Parshendi Shardbearer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After Narak",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Narak, Dalinar said he would have put Malan in charge of investigating a murder in Urithiru had he still been alive. When exactly he died isn't clear.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall and stately, he wears a matching steel helm and breastplate over the dark blue uniform of a ranking officer of the Kholin army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "oathbringer", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dutiful and careful to follow military procedure, he salutes crisply even in the middle of a deadly battle. Dalinar trusts him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "oathbringer", "chapter": "9" }
+          ]
+        }
+      ]
+    }
+  ]
+}

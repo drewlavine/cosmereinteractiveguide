@@ -1,0 +1,247 @@
+{
+  "intro": [
+    {
+      "text": "The Stormfather, in Vorin belief the power behind the highstorms, who seems at times to watch those caught in them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "34" }]
+    },
+    {
+      "text": "A uniquely powerful spren who commands the highstorms and sends out visions left to him by Honor.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "text": "The great spren of the highstorms, bonded to Dalinar Kholin as his Bondsmith spren, who lets Dalinar explore Honor's visions at will.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Stormfather may be among the oldest beings in the cosmere: he remembers the first humans arriving on Roshar, and he came from the Wind, one of Roshar's old gods. For millennia he was barely self-aware, simply the uncaring storm, though even then he could bond with humans.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "wind-and-truth", "chapter": "21" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shortly before the Recreance, Honor reshaped the Stormfather as he prepared for his own death, giving him the power to create honorspren and a set of visions to send out in a new Desolation. Grieving the honorspren lost in the Recreance, he refused to make more for centuries, until at last he created ten who began the race anew.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Visions and Bonds",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "110" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "34" },
+                { "book": "words-of-radiance", "chapter": "89" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "74" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly before the True Desolation, Syl was found again. The Stormfather had her taken to an honorspren city and set Notum to watch her, but she escaped to seek a bond.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "110" }]
+        },
+        {
+          "text": "Around the same time he began sending out his visions. Gavilar Kholin saw them shortly before his death but misread them, which led him to work with the Sons of Honor to bring back the Heralds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "After Gavilar's death the visions came to Dalinar, damaging his reputation but setting him to research the Desolations and try to unite Alethkar. The Stormfather also kept watch on Kaladin, appearing to him as he hung in a highstorm on Sadeas's orders.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "34" },
+                { "book": "words-of-radiance", "chapter": "89" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Stormfather spoke to Kaladin in a dream, calling him a traitor and insisting humans couldn't be trusted. When Kaladin's bond with Syl broke, he told Kaladin in a highstorm that she was dead and he would never Surgebind again.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+        },
+        {
+          "text": "During the Battle of Narak he told Dalinar through a vision that the Alethi were lost, then left to stop Syl from bonding Kaladin again. She succeeded, and he reluctantly let her restore the bond. When the highstorm met the Everstorm, he showed Eshonai's Cognitive Shadow the world before she passed on.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "rhythm-of-war", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After the battle Dalinar climbed to the top of Urithiru, and the Stormfather told him of the Everstorm and Honor's death. Hostile at first, he agreed to bond Dalinar once he spoke the Immortal Words, on condition that Dalinar wield no Shards.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bondsmith spren",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "4" },
+            { "book": "oathbringer", "chapter": "28" },
+            { "book": "oathbringer", "chapter": "50" },
+            { "book": "oathbringer", "chapter": "64" },
+            { "book": "oathbringer", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Through the bond the Stormfather could show Dalinar Honor's visions at will, and he agreed to marry Dalinar and Navani.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "4" }]
+        },
+        {
+          "text": "He became a source of knowledge for Dalinar, explaining the Honorblades and why Honor's idea of a contest of champions could work, though he would not discuss the Recreance. He also revealed he could send visions to others, letting Dalinar talk with distant rulers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "28" }]
+        },
+        {
+          "text": "Dalinar spoke this way with Fen of Thaylenah. The Stormfather then took Dalinar, Navani and Jasnah into the vision of Aharietiam and told Dalinar of the Heralds, and admitted he was starting to feel for the people who died in his storms.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
+        },
+        {
+          "text": "When Odium invaded one of the visions, the Stormfather could not stop him and was clearly frightened, and the visions were suspended. He told Dalinar he could see Ishar, who cursed his name at night.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        },
+        {
+          "text": "When Dalinar's memories of Rathalas returned, he demanded to know why the Stormfather had bonded him. The Stormfather said he had seen it as justice, but that now, with a deeper bond, he understood it was wrong.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        },
+        {
+          "text": "At Vedenar, Dalinar ignored the Stormfather's protests and used something gleaming and white to open the Oathgate, hurting him badly. Dalinar apologised, and the Stormfather acted as though he was unbothered.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Eila Stele",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "oathbringer", "chapter": "119" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        },
+        {
+          "text": "Eila Stele and Thaylen Field",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Eila Stele's revelations, the Stormfather explained the Recreance to Dalinar, Honor's part in holding it off in earlier ages, and Honor's decline before his death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "At the Battle of Thaylen Field he went with Dalinar to meet Odium and fell silent in the Shard's presence, returning when Dalinar rejected Odium. Shaken when Dalinar opened Honor's Perpendicularity, he still accepted Dalinar's words as the Bondsmith Third Ideal and pointed out Taln and Shalash.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        },
+        {
+          "text": "Afterwards he briefly visited Lopen to hear his Second Ideal, and let Dalinar and Shallan use his presence over Kholinar to see what had happened there.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Inside a highstorm the Stormfather can speak to people as an enormous face with a thunderous voice, which slows time greatly.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "57" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Usually he is just a disembodied presence in the sky or a voice in the storm. When he shows himself, it is as a vast, imperious face of cloud stretching from horizon to horizon, eyes full of stars, though he can also appear as a ripple in the air, even indoors.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "oathbringer", "chapter": "4" },
+            { "book": "rhythm-of-war", "chapter": "57" },
+            { "book": "wind-and-truth", "chapter": "137" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Through his bond he gains a better understanding of people, along with less wholesome human habits such as cursing.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+    },
+    {
+      "text": "Proud and haughty, the Stormfather cares little for humanity and serves only because Honor bid him. He is fixated on oaths and harsh to oathbreakers, to the point of seeing a massacre as just punishment.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "oathbringer", "chapter": "86" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He struggles to understand human feelings and distrusts their instability. Bonded to a human, he slowly gains empathy and a sense of morality, though he still sees the storms as his alone.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+    }
+  ]
+}

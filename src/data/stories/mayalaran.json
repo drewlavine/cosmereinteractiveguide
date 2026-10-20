@@ -1,0 +1,236 @@
+{
+  "intro": [
+    {
+      "text": "The spren of Adolin Kholin's Shardblade, left a deadeye since the Recreance. Adolin calls her Maya.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "text": "The spren of Adolin Kholin's Shardblade, a deadeye who began to reawaken during his trial at Lasting Integrity. Adolin calls her Maya.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "94" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The spren of Adolin Kholin's Shardblade, a former deadeye who has regained her voice and who gathered the Unoathed in Azimir. Adolin calls her Maya.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Recreance",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "rhythm-of-war", "chapter": "94" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mayalaran was once bonded to a Radiant, who killed her when the Knights Radiant abandoned their oaths, fearing their bonds would destroy Roshar as humanity's first home had been destroyed. At Adolin's trial she revealed that she and the other spren had chosen this sacrifice willingly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "113" },
+                { "book": "rhythm-of-war", "chapter": "94" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin's Shardblade",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "14" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "66" },
+                { "book": "words-of-radiance", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin won the Blade in a duel against a lighteyes named Tinalar, to everyone's surprise. No one living knew its name, and Adolin thought it pretentious to invent one, so he left it unnamed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+        },
+        {
+          "text": "Adolin often talked to his Blade and imagined it listening, feeling that something so like an extension of his soul must in some way be alive.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+        },
+        {
+          "text": "The Blade was staked in Adolin's dueling campaign to win the Shards of the highprinces' men, most importantly in the duel against Relis, Elit, Abrobadar and Jakamav, and fought in many battles, including the Battle of the Tower and the Battle of Narak.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "66" },
+                { "book": "words-of-radiance", "chapter": "81" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "83" },
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "oathbringer", "chapter": "101" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before storming the palace in Kholinar, Adolin spoke to his Blade, admitting it was a dead spren and that he was sorry he couldn't fix that. He thanked it for their years together and promised to use it only for good.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "83" }]
+        },
+        {
+          "text": "When Adolin crossed into Shadesmar, he met his Blade's spren for the first time. Pattern told them she was dead; she trailed after Adolin, stood still when he did, and had to be led by the hand to go anywhere else.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "On the Reacher ship, Captain Ico, who taught the group the word 'deadeye', locked Adolin's deadeye in the hold and told Adolin not to pretend she was his friend rather than a tool.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+        },
+        {
+          "text": "At the Thaylen City Oathgate in Shadesmar, the deadeye protected Adolin from a Fused without being asked and was stabbed for it. Fighting a thunderclast in Thaylen City, Adolin felt she had been made for such a battle, and she told him her name, Mayalaran. He summoned her in only seven heartbeats, then, too injured to go on, lent her to Hrdalm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Reawakening",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "94" },
+            { "book": "wind-and-truth", "chapter": "34" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Adolin's trial at Lasting Integrity, Maya regained consciousness to keep the honorspren from using her as a witness against him. She explained that she had knowingly risked death when her Radiant broke his oaths, though she hadn't known she might end up a deadeye.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        },
+        {
+          "text": "Only partly revived, Maya kept her scratched-out eyes but could speak, if slowly and a little oddly. Their connection was not a Nahel bond, yet Adolin could sense her emotions and awareness.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        },
+        {
+          "text": "Back at Urithiru, the tower's light reinvigorated Maya and she changed quickly; she and Adolin became able to speak mind to mind and see through each other's eyes.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "34" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "42" },
+            { "book": "wind-and-truth", "chapter": "127" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maya went with Adolin to defend Azimir, discussing strategy with him and scouting the enemy from Shadesmar. In battle she changed shape and came instantly when summoned. Afterwards she dulled her edge so his soldiers could safely hold a Shardblade and she could join their celebration.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
+        },
+        {
+          "text": "Worried that reinforcements would be blocked, Maya set off through Shadesmar to recruit spren, keeping in touch with Adolin through feelings and single words. As she neared Azimir again, she spoke into his mind to encourage him when he was losing hope on the front line.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }]
+        },
+        {
+          "text": "On the final morning of the battle she returned with about fifty deadeyes; with nine of them she formed the Unoathed, who held the throne room until the deadline and kept Azir safe.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Aftermath",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With the Oathgates no longer working, Maya travelled through Shadesmar to Urithiru, the only way to reach it, and returned to report what she had found to Adolin and the leaders in Azimir.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Like other deadeyes across Roshar, Maya began to heal, and her eyes returned.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "As a Shardblade, she is a long blade like an oversized longsword, resembling a Horneater greatsword, with a smooth, sinuous edge and crystal ridges along the back. The mist she forms from when summoned takes the shape of vines.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "14" }]
+    },
+    {
+      "text": "In Shadesmar she looks like a woman made of fine ashen-brown cords, like rough cloth or vines, with crystalline hands and long nails. As a deadeye her eyes were scratched out, like a painting with the features scored away.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "94" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "As a deadeye, Maya barely spoke or showed any personality. As she revived, she proved old-fashioned and soldierly, with a firm grasp of tactics; thinking about strategy helps her focus.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "39" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Having lived among soldiers, Maya enjoys crude jokes and teases Adolin with tactical innuendo. She supports him strongly, challenging his self-defeating ideas and pushing him to heal, grateful for the healing he helped her find.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+    },
+    {
+      "text": "Like many spren, she finds the honorspren stuffy and boring.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ]
+}

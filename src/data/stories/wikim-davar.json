@@ -1,0 +1,127 @@
+{
+  "intro": [
+    {
+      "text": "One of Shallan Davar's brothers, who helps Balat keep the family's creditors at bay after their father's death.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "The third son of the Veden Davar family and Jushu's older twin, a lover of mathematics who helps keep the family's creditors at bay after their father's death.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The third son of the Veden Davar family and Jushu's older twin, who comes to live in Urithiru near his sister Shallan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Depression",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wikim's mother had wanted him to become an ardent. After her death he fell into depression, a constant target of his father's anger, rarely speaking or smiling. At the Middlefest Fair he stayed in the carriage, and when Shallan visited he saw through her tricks for cheering up her brothers. She gave him maths problems she had made for him; he dismissed them, but then tried them with a smile.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+        },
+        {
+          "text": "Wikim slowly came out of his depression, almost always carrying maths problems, and when his father railed against them, the ardents declared it the Almighty's wish. He laughed again and talked of becoming an ardent. Thanking Shallan, he gave her a pouch of blackbane, which he had kept while thinking of suicide but no longer needed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Father's death",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "way-of-kings", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the day Balat planned to run away with Eylita, Wikim warned him that their father had summoned her. He and Jushu waited at the feast hall door during the confrontation and ran in when their father collapsed, paralysed by the blackbane. Wikim found that he was still alive and stepped back, leaving Shallan to finish the job.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "After their father's death, while Shallan went to steal Jasnah Kholin's Soulcaster, Wikim helped Balat run the house, keeping the creditors distracted.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Move to Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan lost contact with her brothers and grew worried as civil war broke out in Jah Keved. After the Davar lands fell, Mraize brought Wikim, Jushu, Balat and Eylita to Urithiru following the Battle of Thaylen Field, where they reunited with Shallan and attended her wedding to Adolin Kholin.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Wikim and his brothers were given quarters near Shallan's in Urithiru. She visited often, though she felt some regret at how differently she saw her family, having changed so much since leaving home.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "The older of the twins, Wikim is slender, pale and spindly, with sunken eyes and hair cut so short he almost looks like an ardent. He resembles Jushu, but no one would mistake one for the other.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "45" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Thoughtful and quiet, Wikim suffered from depression after his mother's death, until Shallan encouraged his interest in maths and he began to laugh again and take an interest in his studies, even talking of becoming an ardent. He isn't the affectionate type and always complains about hugs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "61" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "13" }
+          ]
+        }
+      ]
+    }
+  ]
+}

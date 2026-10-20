@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A resident of Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taleb lived in the town of Hearthstone.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

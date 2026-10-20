@@ -1,0 +1,109 @@
+{
+  "intro": [
+    {
+      "text": "An ancient Silver Kingdom of eastern Roshar, a militaristic land where the Knights Radiant made their homes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+    },
+    {
+      "text": "One of the Silver Kingdoms of Roshar, generally seen as the forerunner of Alethkar, with a perfectly symmetrical name.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Alethela covered parts of today's Herdaz, Jah Keved, Alethkar and the Unclaimed Hills. Heavy highstorms meant towns were built in the lee of laits.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+    },
+    {
+      "text": "Alethelan men wore long skirts tied with wide girdles, with simple overshirts or bare chests, and short pointed beards. Buildings were brightly coloured, built of sandstone with large pillars.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    },
+    {
+      "text": "Alethela was the most militaristic of the Silver Kingdoms, keeping the arts of war alive to teach them whenever a Desolation came. Many Radiants lived there, though their orders were based in Urithiru.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "103" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alethela was founded in the Silver Kingdoms epoch. Each Desolation knocked it back, sometimes to stone tools, and the Heralds helped it rebuild.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "rhythm-of-war", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Early on, Kholinar became its capital.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Before the Sixth Epoch, King Nohadon ruled Alethela. In one Desolation in his lifetime, nine in ten of its people died.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "Nohadon wanted to abdicate, but rebuilt Alethela over decades into a bustling, colourful land, and later went to war with Makabakam over trade routes.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        },
+        {
+          "text": "Around 4,500 years before Gavilar's death came the Last Desolation, only a year after the one before. Afterwards the Desolations stopped, beginning the Era of Solitude.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "119" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "intro": [
+    {
+      "text": "The new lighteyed lord of Hearthstone, Kaladin's home town, who suspects the surgeon Lirin of theft.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
+    },
+    {
+      "text": "The bitter citylord of Hearthstone, exiled there from Kholinar, whose feud with Lirin's family sent Tien and Kaladin to war.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "words-of-radiance", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kholinar, Roshone owned silversmith shops and used his closeness to Crown Prince Elhokar to have two elderly darkeyed rivals, Moash's grandparents, jailed on false charges; they died awaiting trial. Political pressure stopped Dalinar from stripping him of rank, so he was exiled instead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Citylord of Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Roshone became citylord of Hearthstone after Wistiow's death. Convinced that Lirin had stolen Wistiow's spheres, he made the town shun the surgeon's family and tried, without success, to pressure Lirin into giving them up.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        },
+        {
+          "text": "Roshone and his son Rillir were badly hurt hunting a whitespine. Lirin saved Roshone, at the cost of his leg, but could not save Rillir. Embittered, Roshone arranged to marry Laral himself, and when Amaram came recruiting he took revenge by sending Tien to the army.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "In later years Roshone married Laral and softened toward Lirin's family, leaving more of the town's affairs to his wife.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Everstorm",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "7" },
+            { "book": "rhythm-of-war", "chapter": "1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Roshone sheltered the townsfolk in his manor after the Everstorm. When Kaladin arrived he tried to bully him, but backed down after a punch and the sight of a Shardblade. Kaladin chose to forgive him in part and urged him to lead his town well.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+        },
+        {
+          "text": "Under singer rule Roshone was reduced to menial work and drink. He helped Lirin smuggle the Mink by putting on a drunken show to distract the guards.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A middle-aged, flabby man with a grey-streaked beard, light yellow eyes and an angry look. He wears an old-fashioned takama and sword, and a wooden foot on his right leg.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Vindictive toward Kaladin's family and seen by Dalinar as petty, he seems to soften with age, perhaps from guilt.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "62" },
+            { "book": "oathbringer", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ]
+}

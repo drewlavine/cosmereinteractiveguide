@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "Kaladin's younger brother, a boy who grew up in Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Kaladin's younger brother, a boy from Hearthstone pressed into Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    },
+    {
+      "text": "Kaladin's younger brother, a boy from Hearthstone who was killed in battle while serving in Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Childhood",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tien spent his childhood with Kaladin and their friend Laral, climbing rocks and hunting for wildlife around Hearthstone. On the day Brightlord Wistiow died, he gave Kaladin a weathered stone that revealed coloured strata when wet, and insisted he keep it; Tien often gave his brother rocks to lift his mood. That day they also found a lurg, which Kaladin gave Tien to carry around.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Roshone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tien was eleven when Brightlord Roshone took over Hearthstone, and saved his family places in the square to watch the new citylord arrive. Eighteen months on, while their father met Roshone, Tien showed his mother and brother a new rock that changed colour depending on the angle; Hesina said the rock's spren caused it, but Tien thought it was the light.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Weeping",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Weeping, Tien found Kaladin on the roof and sat with him, giving him an intricately carved horse. Unable to bear blood, Tien had been apprenticed to Ral, the carpenter, who found him easily distracted but admitted he had a talent for carving. When their mother joined them, Tien said he liked Hearthstone and didn't want to move, though he was excited for Kaladin's chance to study in Kharbranth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "When Amaram came recruiting and too few men volunteered, Tien was one of five pressed into the army; unlike his father and brother, his trade didn't exempt him. Amaram promised to keep him out of danger as a messenger. Tien was terrified, and when Roshone refused to let Kaladin take his place, Kaladin enlisted alongside him to keep him safe.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The army",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "91" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Despite Kaladin's expectations, the brothers were separated after being drafted. With the help of his squad leader, Tukks, Kaladin found Tien in squad seven, where he received basic spear training before being moved to a deep reserve unit. Tien hoped to travel to the Shattered Plains to join the king's army.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "91" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Less than four months after being drafted, Tien volunteered to go with two other under-trained messenger boys assigned to Varth's squad. Varth placed them at the front as a distraction, then pulled his squad back, and an enemy lighteyes killed all three. Kaladin arrived moments too late, and lay beside his brother's body for hours.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A small, slight boy with unruly brown and black hair and round, often flushed cheeks. His childlike features make people think he is younger than he is, and the other children of Hearthstone sometimes mock him for it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tien is fascinated by rocks and keeps a large catalogued collection, including stones that show hidden strata when wet or change colour under certain light. He is easily distracted, often working on his own projects instead of those Ral sets him.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    },
+    {
+      "text": "Tien can almost always lift Kaladin's mood during his bouts of depression, giving him rocks to cheer him up, and judges well when his brother needs company rather than support. Despite Kaladin's requests, Tien always calls him by his full name rather than Kal.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ]
+}

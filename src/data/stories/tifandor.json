@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "The author of a biography of King Gavilar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the Palanaeum",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan asked to fetch Tifandor's biography from the Palanaeum as an excuse to get away from Jasnah and research the Voidbringers. After running into Kabsal, she found the book on a lower level and brought it back.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

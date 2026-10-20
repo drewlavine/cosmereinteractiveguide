@@ -1,0 +1,127 @@
+{
+  "intro": [
+    {
+      "text": "A chain of islands off Roshar, across the Aimian Sea, once a Silver Kingdom, devastated long ago in what is called the scouring of Aimia.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "8" },
+            { "book": "dawnshard", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Besides humans, Aimia was home to two non-human peoples: the Dysian Aimians, or Sleepless, and the Siah Aimians. Both have a kind of immortality and can change their bodies.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "i-5" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Aimia is now desolate and barren, too cold for anything to grow. During the Heraldic Epochs, devices, probably fabrials, made it habitable.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "9" }]
+    },
+    {
+      "text": "Aimian animals are unlike others on Roshar: lancers with their large gemhearts, and larkin, which feed on Investiture such as Stormlight. Both are now exceptionally rare.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "i-13" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "3" }
+              ]
+            },
+            { "book": "dawnshard", "chapter": "10" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Aimia was one of the Silver Kingdoms, linked to Urithiru by an Oathgate. Its capital, Akinah, was a grand city of tenfold symmetry and the place to obtain Soulcasters.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Sometime after the Recreance, but at least four hundred years before the Everstorm, Aimia was scoured. Its climate devices were destroyed, native animals nearly died out, the surviving humans fled, and the Oathgate fell into disuse.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "36" },
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "107" },
+                { "book": "dawnshard", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Since then the sea around Aimia has turned dangerous, with strange winds and storms, and Akinah is walled in by forty-foot Soulcast stone spikes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Scouting parties found the main island barren, and the Thaylen navy set up outposts there.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        },
+        {
+          "text": "In late 1174, Rysn Ftori led an expedition to Akinah and brought back eight Soulcasters and a set of Shardplate.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A ranked duelist in Alethkar, apparently a lighteyed noble of Kholinar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "88" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Duel with Adolin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Around 1166, Tenathar agreed to a duel with fifteen-year-old Adolin, apparently his first ranked opponent. Adolin eagerly sent word to Dalinar and invited him to watch.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "88" },
+                { "book": "rhythm-of-war", "chapter": "87" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

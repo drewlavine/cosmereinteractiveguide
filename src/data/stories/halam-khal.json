@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "Captain Khal, an officer in Dalinar Kholin's forces and the son of General Khal, who lends him his own Shardplate and Shardblade for the battle at Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "text": "A lighteyed captain and Shardbearer in Dalinar's forces, the eldest son of General Khal and Brightness Teshav.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Captain Khal fought at Narak on Highprince Roion's front, wearing the Shardplate and wielding the Shardblade his father had lent him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "Roion's troops were routed, and Captain Khal was trapped until Navani's fabrials let archers cover his retreat. He came back on foot carrying the King's Blade that Teleb had borrowed, recovered from Teleb's body, and was sent straight to another part of the field.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru and Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Halam survived the battle and moved to Urithiru with his family, where the princess of Yezier began courting him. He and his father were at Urithiru when the Fused attacked it, and once that assault was repelled they led an Alethi relief force of two thousand soldiers and three Shardbearers to Thaylen City. He survived that battle too.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He is tall even by his family's standards, with tan Alethi skin and light eyes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "A dependable soldier whom his father trusts with his Shards and with acting on his own. He has been taught to face any challenge, even a stronger opponent, and when off duty he is usually at his father's side.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "82" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ]
+    }
+  ]
+}

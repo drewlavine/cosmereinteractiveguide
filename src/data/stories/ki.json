@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A member of the order that takes Szeth in, who leads him and the other hopefuls in swearing the First Ideal.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "text": "A master Skybreaker bonded to the highspren Winnow, who trains new recruits and takes Szeth as her squire.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Training hopefuls",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "90" },
+            { "book": "oathbringer", "chapter": "92" },
+            { "book": "oathbringer", "chapter": "106" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ki led the new hopefuls, Szeth among them, through the First Ideal and pardoned their past misdeeds. She explained the five Ideals, told Szeth he would have to start from the beginning in Nale's absence, then lashed him into the sky for the journey to their test.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+        },
+        {
+          "text": "At the test in a Marabethian town, Szeth executed the town's cruel high minister under a writ Ki confirmed. Though shaken by his sword, she praised him, won the argument with the other Skybreakers over who would train him and took him as her squire once he swore the Second Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+        },
+        {
+          "text": "Ki flew south with Nale and most of the other Skybreakers to Marat, then left for a nearby town with all of them except Nale and Szeth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "106" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Ki is a tall, imposing woman with golden hair. Like all Skybreakers she dresses as the local lawkeepers do, and in Marabethia wears a colourful wrap and the patterned shoulder cloak of a high judge.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm and orderly, Ki values skill and thoroughness and has a dry sense of humour. She reveres Nale and obeys his orders.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "98" }]
+    }
+  ]
+}

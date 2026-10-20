@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "Spren that were bonded to Knights Radiant and were killed when their Radiants abandoned their oaths.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Deadeyes cannot talk, only screech, and they scream when summoned. A Surgebinder touching a dead Blade hears it shriek.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "57" },
+            { "book": "oathbringer", "chapter": "89" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Physical Realm a deadeye's corpse is a Shardblade. Unlike living Blades, these don't glow or change shape, need a gemstone to be bonded, and take ten heartbeats to appear; when dismissed, the spren stays in Shadesmar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "101" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In Shadesmar deadeyes are placid and unresponsive. Left alone, they walk toward the place of their Blade in the Physical Realm, heedless of obstacles, even into the sea of beads, and are drawn to the people their Blades are bonded to.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "A deadeye's eyes look scratched out, like a defaced painting, which gives them their name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "101" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Deadeyes did not exist before the Recreance.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Signs of awareness",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "117" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some deadeyes show more awareness than usual: the spren of Dalinar's Blade knows who holds it and reacts differently to Dalinar, while the spren of Adolin's Blade follows him and tries to protect him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "Adolin's Blade, Mayalaran, began showing signs of consciousness, attacking to protect him and giving him her name as a thought. He treated her as a person, talking to her and practising katas with her each day.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "rhythm-of-war", "chapter": "35" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Revival",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mayalaran, Adolin's deadeye Blade, regained consciousness under extreme emotional strain during his trial by witness at Lasting Integrity, showing that a deadeye can be at least partly revived.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "94" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "mayalaran",
+      "role": "deadeye",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ico",
+      "role": "deadeye's son",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "101" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    }
+  ]
+}

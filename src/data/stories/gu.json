@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "A guide who leads boats through the Reshi Sea.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guiding Vstim's crew",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gu guided Vstim's convoy to a Reshi island, riding in Rysn's boat. He said the islands had become harder to find as they moved in unexpected ways, and was amused when Rysn realized the island was a huge greatshell and that many of its people went naked. He explained that boats can't dock on such a creature, so crews sleep on open water and find the island in the morning.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gu has leathery skin, long limbs and dark hair, and nearly always lounges.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Easygoing and unconcerned with schedules, he speaks Thaylen well and some Reshi, steers skillfully around underwater trees, and believes the great island-creatures are thinking beings.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-1" },
+            { "book": "words-of-radiance", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

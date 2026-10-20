@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "A mercenary guarding the Thaylen slaver Tvlakv's caravan.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tvlakv's caravan",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Bluth guarded Tvlakv's caravan on its way to the Shattered Plains with Kaladin among the slaves. On Tvlakv's orders he killed a sick slave Kaladin was trying to save. He was afraid of Kaladin because of his shash brand and his record of escapes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+        },
+        {
+          "text": "Months later, Shallan Davar joined the caravan and treated Bluth like her own footman, though Tvlakv had never told him to serve her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The bandit attack",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While deserters pursued the caravan, Shallan sketched Bluth, then redrew him as the heroic soldier he might once have been. Bluth secretly took the picture.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        },
+        {
+          "text": "When bandits attacked another caravan, Bluth took Shallan to the deserters, whom she persuaded to fight. He joined the defence with sudden zeal and was killed. Finding her drawing on his body, Shallan came to see him in a kinder light.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Slab-faced, with eyes like beads of dark glass.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "13" }]
+    }
+  ],
+  "personality": []
+}

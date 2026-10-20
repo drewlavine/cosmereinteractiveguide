@@ -1,0 +1,154 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi scout in Dalinar Kholin's army.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    },
+    {
+      "text": "An Alethi scout who joins Bridge Four as one of Kaladin's squires.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "An Alethi former scout who has sworn her Third Ideal and become a full Windrunner.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "dawnshard", "chapter": "3" },
+            { "book": "rhythm-of-war", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scout and messenger",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lyn was one of the scouts on Dalinar Kholin's expedition into the centre of the Shattered Plains. During the Battle of Narak she, Shim and Felt helped Shallan map the central plateaus with their drawings.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "In Urithiru Lyn became a messenger. She reported a murder to Dalinar and began spending time around Kaladin’s old bridge crew, going with them into the depths of the tower, where she first spotted the attackers and tended the wounded.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Squire of Bridge Four",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Kaladin returned and Bridge Four began taking squires, Lyn tried out. Kaladin first assumed she wanted to be a scribe, which made her furious, but he let her and four other scouts join. With Skar's help she learned to draw in Stormlight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        },
+        {
+          "text": "Lyn fit easily into Bridge Four and became fast friends with its members, even offering to \"stab\" Amaram \"a little\" for them. When an Honorblade was stolen, she sent a scout to fetch Renarin to heal Rock.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+        },
+        {
+          "text": "After Teft swore his Third Ideal, Lyn came to Thaylen City with Bridge Four, carrying Rock until Kaladin could help, and fought in the battle. She survived and was last seen listening to Lopen's tale of losing his arm.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Windrunner",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "3" },
+                { "book": "rhythm-of-war", "chapter": "10" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "38" },
+            { "book": "rhythm-of-war", "chapter": "50" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lyn was on an early scouting mission to Akinah. It failed, but she and Sigzil rescued Leyten after his Stormlight was drained. She swore her Third Ideal and became a full Windrunner.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "3" },
+                { "book": "rhythm-of-war", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She was part of the team that went back to Hearthstone to rescue its people, among them Kaladin's family.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "dawnshard", "chapter": "3" },
+                { "book": "rhythm-of-war", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Lyn dated Kaladin, encouraged by Adolin and Syl. It didn't work out, but both grew from it; they went to Skar's wedding together shortly before breaking up, and she still cared about him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "38" }]
+        },
+        {
+          "text": "In the Emul campaign Lyn led scouting to Urithiru and spoke with a soldier sent with the right passwords. Trying to approach the tower herself, she fell unconscious and was dragged back.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        },
+        {
+          "text": "Trusted to carry Dalinar to meet the Herald Ishar, she was one of the five Windrunners he easily disabled. On the scouting team sent after Ishar's army left, she found a dead cultivationspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, solid-looking darkeyed Alethi woman with long black hair in a ponytail or braid, usually in a blue Kholin uniform.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "oathbringer", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Eager and impatient, she wants to fight and hates being thought incapable because she is a woman. She makes friends easily, appreciates art, and keeps a cool head under pressure.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+    }
+  ]
+}

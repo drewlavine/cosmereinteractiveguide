@@ -1,0 +1,67 @@
+{
+  "intro": [
+    {
+      "text": "A mercenary in the slaver Tvlakv's crew, working alongside Bluth.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Tvlakv's caravan",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "17" },
+            { "book": "words-of-radiance", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173 Tag travelled through the Unclaimed Hills with Tvlakv and Bluth, taking slaves, Kaladin among them, to the Shattered Plains. He sometimes mistreated the slaves but was wary of Kaladin, and kept his distance after a fight over a destroyed map.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "4" },
+                { "book": "words-of-radiance", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Shallan Davar joined the caravan, Tag drove one of the wagons. Suspicious of her, he advised Tvlakv to be rid of her quickly, but bore no grudge when ignored.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        },
+        {
+          "text": "Caught between bandits and another caravan, Tag suggested letting the bandits take the other caravan, but went along with Shallan's refusal. He helped defend the caravan with Tvlakv and survived.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Little is known of his looks, other than his thick fingers.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm and experienced, cautious and suspicious of strangers, he obeys his superiors without question but is not afraid to voice his concerns.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "6" },
+            { "book": "words-of-radiance", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ]
+}

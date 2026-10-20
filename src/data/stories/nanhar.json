@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "An ancient king of Jah Keved.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reign",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "NanHar died of illness while on campaign in lands that are now part of Triax, and his brother NanKhet inherited the throne.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        },
+        {
+          "text": "Natata Ved wrote about him in a history two centuries after NanKhet's death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

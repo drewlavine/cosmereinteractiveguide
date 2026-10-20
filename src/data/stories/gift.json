@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "An Unkalaki boy, the eldest son of Lunamor and Tuaka and twin brother to Cord.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Coming to the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "i-5" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "12" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gift grew up in the Horneater Peaks and converted to Vorinism with his father's blessing. When Lunamor sent for his family, they travelled for months to the Shattered Plains, where Voidbringers raided their caravan; they barricaded themselves in until Bridge Four found them and took them to Urithiru.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "i-5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In Urithiru, Gift helped his father serve food and drink to Bridge Four. He liked Lift and often left food out for her to 'steal'.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "55" },
+                { "book": "rhythm-of-war", "chapter": "i-5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Gift and Cord chose to stay in Urithiru when Lunamor returned to the Peaks with the rest of the family.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Gift is very tall and pale-skinned, and wears a glyphward tied to his arm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

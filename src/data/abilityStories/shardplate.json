@@ -1,0 +1,321 @@
+{
+  "intro": [
+    {
+      "text": "Ancient, magical full-body armour of Roshar, powered by Stormlight, that makes its wearer far stronger and can stop a Shardblade.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "Ancient, magical full-body armour of Roshar that makes its wearer far stronger and can stop a Shardblade. Radiants form theirs from lesser spren.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "rhythm-of-war", "chapter": "110" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Shardplate is ancient, magical full-body armour, usually worn with a Shardblade, since a Blade is so large it's unwieldy without it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "text": "Shardplate can be won in battle or a duel, borrowed or inherited, and Shardbearers often lend their Plate to others.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shardplate today",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "66" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The listeners once owned Shards too, though they've lost most of them in battle.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "Kaladin turns down a full set of Shards, and gives it to Moash, who becomes a lighteyes.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "The armour",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "13" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "16" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "81" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A suit of Plate is made of pieces that together cover the whole body, with no gaps, only ever smaller overlapping plates. Each suit looks unique and shapes itself to its wearer, and can weigh over 100 stoneweights.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "51" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Shardplate is often painted or decorated, sometimes with gemstones. From inside, the face shield is partly see-through, like dirty glass, but the eye slit is still needed to see properly.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        },
+        {
+          "text": "Undecorated, dead Shardplate is slate-grey, like unfinished steel.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "words-of-radiance", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The face shield can adapt to protect its wearer's eyes from a lightning strike.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        },
+        {
+          "text": "Dead Plate can't be put on alone: armourers help, starting from the feet up, and each piece tightens to fit its wearer.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A wearer can mentally command each piece to release and fall away, and damaged pieces can be shed in battle.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Strength and protection",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "way-of-kings", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shardplate makes its wearer far stronger and faster, able to leap great distances, lift huge weights and run at speed; Dalinar holds back a chasmfiend's claw while wearing it. Shardbearers need long training to control this strength.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "Plate protects against blows and falls; the wearer feels impacts, but much softened, and can still feel fine detail through the gauntlets' fingers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Someone carrying an Honorblade can't Surgebind while wearing Plate, because its gemstones interfere.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stormlight",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shardplate is powered by Stormlight from ten gemstones larger than broams set inside it: five beneath the breastplate and one in each sabaton. Under great stress the gems can crack.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "54" }]
+        },
+        {
+          "text": "Shardplate doesn't dent or bend. Heavy or repeated blows crack it and make it leak Stormlight, though small leaks seal over on their own.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
+        },
+        {
+          "text": "Damaged Plate regrows using Stormlight. Pieces that are lost can be grown back, and the old piece then crumbles to dust; even ordinary spheres can recharge drained Plate. Repairing badly damaged Plate is costly, because it often cracks the gemstones.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Because the power comes from gemstones inside, many people today believe Shardplate is a kind of fabrial.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Weaknesses",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "68" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "way-of-kings", "chapter": "65" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "11" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "82" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Repeated blows to the same place crack the Plate and leak Stormlight faster; once the Stormlight runs out, the armour freezes up.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "A section cracked too far explodes into molten metal. Losing a greave can bring a Shardbearer down, and losing the breastplate stops the whole suit working properly.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "With luck or skill, a knife, arrow or spear can be driven through a helm's eye slit, where many wounds are instantly fatal.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "Massive blunt missiles work too: at the Battle of the Tower, the Parshendi hurl head-sized rocks at Dalinar from two-handed slings, cracking his Plate with a single hit.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "65" }]
+        },
+        {
+          "text": "Enemies may force a Shardbearer into a long fall, which can damage the Plate.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                { "book": "oathbringer", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Enough people with hooks or ropes can slow a Shardbearer down long enough for blows to land.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "82" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Radiant Plate",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "86" },
+            { "book": "rhythm-of-war", "chapter": "i-1" },
+            { "book": "rhythm-of-war", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Dalinar's visions, the ancient Radiants wear Shardplate that glows.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "19" }]
+        },
+        {
+          "text": "The old Knights Radiant linked gaining Shardplate with swearing the Fourth Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        },
+        {
+          "text": "Dead Plate, unlike a dead Shardblade, doesn't scream when a Radiant touches it; it gives off a feeling of contentment.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-1" }]
+        },
+        {
+          "text": "A Radiant gains Shardplate by drawing lesser spren into the Physical Realm to form it. Each order has its own kind, linked to its bonded spren: windspren for honorspren, logicspren for inkspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        },
+        {
+          "text": "A Radiant can make their Plate glow brightly with Stormlight and glyphs, or will it to look like dead Plate.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+    }
+  ]
+}

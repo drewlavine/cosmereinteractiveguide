@@ -1,0 +1,103 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner and leader of the ancient Knights Radiant, who holds the orders together as they abandon Urithiru.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+    },
+    {
+      "text": "A leader of the Knights Radiant before the Recreance, who secretly loves the singer Shmone and is present at the capture of Ba-Ado-Mishram.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "wind-and-truth", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Leader of the Radiants",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "80" },
+            { "book": "wind-and-truth", "chapter": "87" },
+            { "book": "wind-and-truth", "chapter": "85" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Years before the Radiants abandoned Urithiru, Garith condemned someone named Kazilah, opening a rift with the Skybreakers that his apology did not close.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "Garith met the singer Shmone on the battlefield; she stabbed him at their first meeting, but he took it in his stride, and they began meeting in secret, sharing a desire for peace.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "As the Radiants left Urithiru, the Skybreakers rejected Garith's attempt to reconcile, accused him and Melishi of lying, and split away. Garith partly blamed Melishi, and planned a new home for the Radiants in Cabridar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
+        },
+        {
+          "text": "In peace talks with Ba-Ado-Mishram's forces, Garith refused to fight human kings to win land for the singers, but asked for more time, and the Radiants pledged their trust in him. He told Melishi that Mishram was far more reasonable than Odium.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The capture of Ba-Ado-Mishram",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "87" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "wind-and-truth", "chapter": "135" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Garith took some Windrunners to meet Shmone and show them that peace was possible, and Ba-Ado-Mishram herself joined them. Then Melishi's hidden team captured her in a perfect gemstone at Honor's command, stripping the singers of their forms. Garith rebuked Melishi and Honor, and was shown a vision of the destruction the Radiants could cause.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+        },
+        {
+          "text": "Garith later led the Windrunners and Stonewards to Feverstone Keep, and was the first to abandon his oaths.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "wind-and-truth", "chapter": "135" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Pale and handsome, with blond hair. His Shardplate glows blue at the joints, and he often wears a blue cape with it; his Blade has a rippling look, with detailed carvings down the centre.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "wind-and-truth", "chapter": "85" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Garith insists that the Radiants stay united to protect Roshar, and has kept them together since Urithiru was abandoned. He pushes for a peaceful end to the war, partly because of his secret love for Shmone.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "87" }]
+    }
+  ]
+}

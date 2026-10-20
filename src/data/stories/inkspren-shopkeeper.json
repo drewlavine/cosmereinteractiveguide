@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "An inkspren bookseller in Nameless, in Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bookseller in Nameless",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The shopkeeper ran a business with a partner for centuries, until she left in 1165 to bond a human. In 1174 he found her alone on an island in eastern Shadesmar; she insisted on heading west, and he followed her, setting up his bookshop in Nameless.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        },
+        {
+          "text": "When Adolin and Maya asked him about his partner, he coldly told them she was a new deadeye, killed a decade earlier when her bond was broken.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like other inkspren, he has a jet-black, stonelike body with an oily sheen that shifts colour with the light. He speaks with a nasal accent.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cold toward humans, whom he blames for the Recreance and for his partner's fate, he thinks it is in their nature to kill their spren. He sets his books out neatly on shelves, speaks Alethi and knows the Vorin divide between masculine and feminine arts.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ]
+}

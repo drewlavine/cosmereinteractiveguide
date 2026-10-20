@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "General Khal is the highest-ranking general in Dalinar Kholin's army and one of his most trusted advisors.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+    },
+    {
+      "text": "General Khal is the highest-ranking general in Dalinar Kholin's army and one of his most trusted advisors, and one of the few Alethi to own both Shardplate and a Shardblade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "65" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Head of the Kholin army",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "5" },
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "67" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Khal and his wife Teshav attended Dalinar's meeting with King Elhokar to plan Sadeas's downfall. Khal warned against openly opposing the other highprinces and feared the plan was too chaotic, but Dalinar went ahead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        },
+        {
+          "text": "As Dalinar stepped back from direct command, Khal helped Adolin lead the armies. After the Assassin in White's attack, he wore Adolin's Shardplate and led a strike force guarding the highprinces' meeting.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        },
+        {
+          "text": "When Adolin won a duel against four Shardbearers at once, Khal received both Plate and a Blade, joining the ranks of the high nobility.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        },
+        {
+          "text": "Khal went with Dalinar's war party onto the Plains. At Narak he helped lead the armies from the command tent and lent his Shards to his son. He was wounded but hid it until the retreat to Urithiru was complete.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Kaladin asked Khal to send likely soldiers to his men to be screened as possible Radiant squires. Khal also waited with the others for news of the Siege of Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        },
+        {
+          "text": "Khal went to Thaylen City before the Battle of Thaylen Field. During the battle he went back to Urithiru with his son for more troops; a surprise attack delayed them, but they returned with Bridge Four and two thousand soldiers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "General Khal is bald and limber, with yellow eyes and a straight-backed stance.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Khal is cautious, doubting the strength of the Alethi throne. A seasoned commander, he understands how hardship can unite men, and Dalinar trusts him above any other general, often leaving him in charge of the armies.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }]
+    }
+  ]
+}

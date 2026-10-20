@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A company of two hundred listener soldiers, the first chosen by Eshonai to take stormform.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ],
+  "description": [],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stormform",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-11" },
+            { "book": "words-of-radiance", "chapter": "81" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After her own transformation, Eshonai pushed for stormform to end the war with the humans. The Council of Five approved transforming two hundred more soldiers, along with Venli and her scholars, in the next highstorm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "Eshonai deliberately left out officers and her own division, like Thude, who knew her well and might question her, choosing soldiers from many divisions she was sure would be loyal. After the storm she named them the Storm Division.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "When Chivi and Zuln of the Council refused to transform all the listeners, Eshonai staged a coup, using the Storm Division to secure the allegiance of most listeners.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "The Storm Division presumably fought among the transformed listeners at the Battle of Narak.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "eshonai",
+      "role": "commander",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "transformed with them",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "thude",
+      "role": "left out",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "chivi",
+      "role": "opposed Eshonai",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    },
+    {
+      "characterId": "zuln",
+      "role": "opposed Eshonai",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ]
+}

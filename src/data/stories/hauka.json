@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A guard officer, certified to serve in any guard unit in greater Makabaki, who inspects merchants entering her city.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "3" }]
+    },
+    {
+      "text": "An Azish guard captain who oversees immigration into the Tashikki city of Yeddaw.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Yeddaw",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "7" },
+            { "book": "edgedancer", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hauka found Lift hiding in the grain of a merchant she suspected of selling stolen tallew. When she tried to catch her, Lift dumped the grain into the city and escaped using her strange powers.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "7" }]
+        },
+        {
+          "text": "Lift had shown her powers on purpose, knowing Hauka would report it and draw Nale's attention. Nale questioned Hauka at home, told her nothing and ordered her to watch for Lift.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "7" }]
+        },
+        {
+          "text": "After cornering Lift at the Grand Indicium, Hauka learned that Lift was acting with the authority of Yanagawn, the Azish emperor. She helped Lift search the city's records for a Surgebinder, pointing her to unusual activity at Tashi's Light Orphanage, until the Everstorm forced everyone to shelter.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Hauka wears a typical Azish guard uniform of boots, trousers, cap and breastplate, with a cape bearing her family and study patterns.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Hauka is dedicated and pragmatic, and shares the Azish love of bureaucracy, keeping a fastidious logbook. She never shows weakness in front of her subordinates, likes to read at night and will trade information for infused spheres.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "7" }]
+    }
+  ]
+}

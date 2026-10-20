@@ -1,0 +1,95 @@
+{
+  "intro": [
+    {
+      "text": "An officer in Dalinar Kholin's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    },
+    {
+      "text": "An officer and Shardbearer in Dalinar Kholin's army.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "War of Reckoning",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "69" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rust fought close to Dalinar at the Battle of the Tower, injuring his arm, and was the most senior officer to survive it. After Bridge Four rescued the army, Dalinar sent him to take the wounded back to the warcamp and tell Teleb to put the camp on alert.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "A few months after the Battle of the Tower, Rust received a set of Shardplate when Adolin Kholin won several sets in duels with other highprinces' Shardbearers. At the Battle of Narak he and Serugiadis, under Teleb's command, fought with their Shards at the head of Highprince Sebarial's army, and during the retreat Rust helped guide Dalinar's mechanical bridges into place across the chasm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rust moved to Urithiru with most of the Alethi warcamps. On the day Dalinar first visited Azimir to discuss joining the coalition, Rust and Serugiadis practised with Shardbows on the plateau at the base of the tower.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "86" },
+                { "book": "oathbringer", "chapter": "64" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A limber man with a distinguished face and a thin moustache.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rust is a competent and loyal officer, and Dalinar trusts him with a set of Shardplate, which makes him an even greater asset to the army.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+    }
+  ]
+}

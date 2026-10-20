@@ -1,0 +1,102 @@
+{
+  "intro": [
+    {
+      "text": "The crews that carry Highprince Sadeas's bridges across the chasms of the Shattered Plains: slaves, deserters, thieves and the desperate, treated as expendable.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "On plateau runs the bridgemen carry their bridge, lay it across the next chasm, rest while the army crosses, then run ahead again. Between runs they do unwanted chores in camp, like scavenging the chasms for weapons, armour and spheres.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "27" }]
+    },
+    {
+      "text": "Sadeas's army needed bridges to cross the many chasms of the Shattered Plains, and the bridgemen who carried them doubled as fodder for Parshendi archers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+    },
+    {
+      "text": "Bridge sergeant Gaz answers to Brightlord Lamaril. Each crew picks its own bridge leader, but there is no wider command structure.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Freedom",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "way-of-kings", "chapter": "73" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Kaladin saves Dalinar's life, Dalinar buys every bridgeman's freedom from Sadeas by trading his Shardblade, Oathbringer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Dalinar offers the freed bridgemen money, freedom and a place in his army. The crews all recognise Kaladin as their leader, and Dalinar makes him their captain.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "A few hundred leave, but a full thousand-man battalion remains. Kaladin reorganises them into twenty platoons of fifty, named Bridge One to Bridge Twenty in memory of their old life.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "73" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kaladin also gives the crews a new command structure, since they have no lighteyed officers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "46" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "captain",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "bridge sergeant",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+    },
+    {
+      "characterId": "torol-sadeas",
+      "role": "owner",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "freed them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+    }
+  ]
+}

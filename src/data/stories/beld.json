@@ -1,0 +1,49 @@
+{
+  "intro": [
+    {
+      "text": "A member of Bridge Four.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+    },
+    {
+      "text": "A member of Bridge Four who serves in the King's Guard.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "32" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beld served in Bridge Four under Highprince Sadeas, though he had never been a slave, and was freed along with the other bridgemen when Dalinar Kholin traded his Shardblade for them. He still took the Bridge Four freedom tattoo on his forehead.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "69" },
+                { "book": "words-of-radiance", "chapter": "2" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Serving in the King's Guard, Beld was sent ahead with Hobber as an advance guard when Szeth attacked the king's palace. Szeth ran him through with his Honorblade and he died instantly.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

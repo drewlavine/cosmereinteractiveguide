@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A spren city and major trading port in Shadesmar, on the Sea of Lost Lights, a free city until Voidspren took partial control.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Celebrant sits on the western side of the island that mirrors the Sea of Spears. Its docks are longer than the city itself, lined with warehouses, and a cultivationspren keeps the dock register.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "Its market sells clothing, weapons, food and art, some from as far off as Nalthis; prices depend on how permanent an item is in Shadesmar. Like the rest of Shadesmar, it uses Stormlight as currency.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "Many kinds of spren live there, but humans and honorspren are rare and draw attention. Spren fashion borrows from human styles across Roshar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "102" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "102" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the first months of the True Desolation, Voidspren took partial control of the city, mostly through a few officials, while some spren quietly opposed Odium's rule.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "Wanted posters of Syl hung in the city when Kaladin, Shallan and Adolin passed through, stranded in Shadesmar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "102" },
+                { "book": "rhythm-of-war", "chapter": "22" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

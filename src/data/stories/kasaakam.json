@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Kasaakam the Magnanimous, an Azish ruler.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "17" },
+            { "book": "wind-and-truth", "chapter": "61" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "17" },
+                { "book": "wind-and-truth", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kasaakam issued an edict freeing all slaves in Azir. Jasnah studies their reign while preparing to end slavery in Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "17" },
+                { "book": "wind-and-truth", "chapter": "61" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

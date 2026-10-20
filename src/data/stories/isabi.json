@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "A young scholar at Urithiru, apprenticed to Falilar on Navani Kholin's team.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "At Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "28" },
+            { "book": "rhythm-of-war", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Isabi, the daughter of a Windrunner, came to Urithiru and was apprenticed to the scholar Falilar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
+        },
+        {
+          "text": "She helped Falilar track a mysterious spanreed someone was using to contact Navani, by weighing the board as messages came in. Isabi watched the spanreed, warned them of incoming messages and helped set up the scale again at a second spot. The test showed the messages came from inside the tower.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
+        },
+        {
+          "text": "Navani asked Isabi to send for Kalami's help, but as she wrote, Isabi got word of an explosion caused by Talnah and Nem's experiments with a strange black sphere.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        },
+        {
+          "text": "Isabi was among the scholars who went with Navani, following the Sibling's directions, to a sapphire that raised a barrier around the Sibling's pillar when infused, keeping Raboniel from corrupting it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Small and young-looking; Navani thinks of her as a girl.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Curious, and trusted by Falilar and Navani despite her youth. She can use a spanreed and has some training in engineering and the scientific method.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

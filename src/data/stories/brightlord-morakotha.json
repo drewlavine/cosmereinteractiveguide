@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi noble on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The warcamps",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Morakotha lived in the Alethi warcamps during the war. In 1173 his daughter Danlan came to visit him for a few months, courted Adolin and became one of Dalinar's scribes.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "46" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

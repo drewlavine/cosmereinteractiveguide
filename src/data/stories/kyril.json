@@ -1,0 +1,51 @@
+{
+  "intro": [
+    {
+      "text": "A Fused who carries out inspections in Celebrant, in Shadesmar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Celebrant",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "oathbringer", "chapter": "108" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kyril was one of the Fused freed at the start of the Desolation. With another Fused, he regularly visited Celebrant to inspect ships and make sure the local spren officials were still obeying.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "He had been visiting for months when he came hunting the group that had fled Kholinar through Shadesmar. He searched Captain Ico's ship, found signs of humans aboard, and tried to threaten Ico, but accidentally started a fire instead.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        },
+        {
+          "text": "Kyril stormed into the dock registrar's office, where Shallan hid her team with her Lightweaving. The registrar covered for them, and Kyril left to search the market. Afterwards he saw the group board the Honor's Path but, seemingly wary of the honorspren, flew off rather than follow, and the Fused then set off in pursuit of the ship.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has the marbled skin of a singer.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stern, overbearing and very short-tempered, and, like many Fused, possibly not entirely sane.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "His kind of Fused is unclear, but he can fly.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    }
+  ]
+}

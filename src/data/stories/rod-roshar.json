@@ -1,0 +1,68 @@
+{
+  "intro": [
+    {
+      "text": "A cousin of Lopen who joined Bridge Four after it moved to the Kholin warcamp.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    },
+    {
+      "text": "One of Lopen's Herdazian cousins, a member of Bridge Four who was killed at the Battle of Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rod and his cousin Huio joined Bridge Four after the crew moved to Dalinar's warcamp, and trained with the other new recruits.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "Rod was killed by the Parshendi during the Battle of Narak.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Remembered",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "dawnshard", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though Kaladin hardly knew Rod, he had felt responsible for protecting him, and Rod was among the people Kaladin remembered as he tried to speak the Fourth Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Following Herdazian custom toward poorer cousins, Lopen, Huio and Punio send a large share of their Radiant stipends to Rod's family.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Beefy, with thick arms.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Speaks little Alethi but comes across as jovial.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ]
+}

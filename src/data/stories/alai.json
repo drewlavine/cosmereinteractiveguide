@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar who studies spren. Shallan reads Alai's work while researching sentient spren.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Writings",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Alai held, as many scholars do, that spren are fragments of the powers of creation. Alai also studied spren that have gained sentience, and wrote that the Nightwatcher is one of them and is certainly female, whatever Alethi folktales say.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,141 @@
+{
+  "intro": [
+    {
+      "text": "A secret organisation led by King Taravangian of Kharbranth, following a plan he wrote on a single day of extraordinary intelligence to save humanity from the coming Desolation.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Its Silent Gatherers, led by Joshor, bleed hospital patients to death to record their dying words, the Death Rattles.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+    },
+    {
+      "text": "Because his intelligence and compassion vary daily, Taravangian takes a written test each day, run by his Testers under Dukar; the results restrict what he may do. Adrotagia calculates another day of brilliance like his is unlikely more than once in two thousand years.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "text": "The Diagram's senior members spend much of their time interpreting it. Written in codes, drawings, poetry and invented languages, it often has to be translated into plain speech first, and members sometimes disagree about what it requires.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Origins",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "words-of-radiance", "chapter": "80" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "One day Taravangian woke so brilliant that he could deduce the likely course of events, and devised a plan to save humanity from the True Desolation. He scrawled it across his bedroom walls and furniture, and it was copied down as the Diagram.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Following the Diagram, Taravangian had Szeth kill the King of Jah Keved and several highprinces, setting off a succession war. He arrived in Vedenar as a benevolent king with aid, and Highprince Valam unexpectedly named him heir, leaving Taravangian worried about the Diagram's accuracy.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Graves, an Alethi Shardbearer of the Diagram, read it as meaning Dalinar must become king, and conspired with Moash to kill Elhokar. The plot failed when Kaladin saved the king.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Szeth was sent again to kill Dalinar, because Taravangian felt Dalinar's efforts to unite the highprinces threatened the Diagram's goal: that Taravangian should rule Roshar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The coalition",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "107" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian was the first ruler to join Dalinar's coalition in Urithiru. On a day of high intelligence he decided Dalinar should be replaced as its leader, and the Diagram set out to find secrets to undermine him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "The Diagram predicted the Order of Dustbringers would be its likeliest ally, and Taravangian had lower members try to bond ashspren. Malata was the first to succeed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "The Diagram released three of Dalinar's secrets at once, undermining him and the coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "Taravangian had been a confidant of Gavilar and knew of his visions, and had gone to the Nightwatcher for the compassion and acumen to save Roshar. His curse was that the two vary each day, opposite to each other.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "As the Diagram foretold, Taravangian met Odium during the Everstorm, and offered him the Diagram's allegiance in return for sparing the people of Kharbranth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Disbanding",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A year on, Taravangian distanced himself from his fellow members and disbanded the Diagram, recommending that middling members who \"knew too much\" be sent on long \"secret quests\" far away.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "taravangian",
+      "role": "founder",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "characterId": "adrotagia",
+      "role": "member",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "characterId": "mrall",
+      "role": "member",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "characterId": "dukar",
+      "role": "head Tester",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "characterId": "joshor",
+      "role": "Silent Gatherer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+    },
+    {
+      "characterId": "graves",
+      "role": "member",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    },
+    {
+      "characterId": "malata",
+      "role": "member",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ]
+}

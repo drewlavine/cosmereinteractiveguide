@@ -1,0 +1,210 @@
+{
+  "intro": [
+    {
+      "text": "A sapient non-human race whose bodies are swarms of thousands of linked, insect-like creatures called hordelings, acting as one mind.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "6" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Sleepless is made of thousands of hordelings that share one consciousness. They can gather in any arrangement and, with practice, mimic the shapes of other creatures, including humans.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "18" }]
+    },
+    {
+      "text": "Each swarm can also talk to other swarms by a buzz from its scattered hordelings. Every swarm has its own buzz, and some can be left out of a conversation.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "6" }]
+    },
+    {
+      "text": "They reproduce by breeding hordelings for special purposes, trading hordelings to keep their stock varied, and by splitting off part of a swarm, which slowly becomes a new, independent one.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "19" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Twenty of the twenty-four Sleepless on Roshar accept the authority of Yelamaiszin, the First swarm, and vote on important matters. They defend life, though they will kill to preserve it. They like the Knights Radiant but fear the danger of the Radiants' insistence on honourable choices.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Few Rosharans know the Sleepless exist, though some Iriali do, and the Unkalaki call them the Gods Who Sleep Not. Only a few folk tales about them survive.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the past",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Though not native to Roshar, some Sleepless lived in Aimia before its destruction, which caused them great grief.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "113" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At least some Sleepless, including Arclo, were allies of the Heralds and Knights Radiant in ancient times.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Watching in secret",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "18" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In recent times the Sleepless mostly stayed hidden, watching events through their hordelings. They took a particular interest in Dalinar, Kaladin, Shallan, Szeth, Navani, Eshonai and Venli; Arclo thought Lift belonged on that list too.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "18" },
+                { "book": "dawnshard", "chapter": "18" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Sleepless posing as a Reshi cook joined the crew of the First Dreams, bound for Akinah, and poisoned everyone else aboard to protect the island, refusing to share its secrets even with the dying Kaza.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-4" },
+                { "book": "dawnshard", "chapter": "6" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The expedition to Akinah",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Their fierce defence of Akinah only drew more attention to it. When Rysn's ship, the Wandersail, came to investigate, the Sleepless clashed with the crew ever more aggressively, until their agent Nikliasorm was unmasked.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "Rysn struck a bargain with them: she would help keep their secret hidden and teach them to pass as human, and they would leave Radiants alone. They also gave her Soulcasters and Shardplate for Cord, and kept watch to make sure the deal was honoured.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+        },
+        {
+          "text": "Afterward the Sleepless were more willing to deal with humans, and one met Jasnah in person. Hoid believed none worked with Odium, though at least one was allied with the Ghostbloods.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "arclomedarian",
+      "role": "Sleepless",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "18" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "nikliasorm",
+      "role": "Sleepless",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+    },
+    {
+      "characterId": "yelamaiszin",
+      "role": "First swarm",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "edgedancer", "chapter": "18" },
+            { "book": "dawnshard", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ]
+}

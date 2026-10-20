@@ -148,13 +148,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Hesina',
         relation: 'parent',
         characterId: 'hesina',
-        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
       },
       {
         name: 'Tien',
         relation: 'sibling',
         characterId: 'tien',
-        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
       },
       {
         name: 'Oroden',
@@ -394,19 +394,19 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Balat',
         relation: 'sibling',
         characterId: 'balat-davar',
-        revealedIn: [{ book: 'words-of-radiance', chapter: '27' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
       },
       {
         name: 'Wikim',
         relation: 'sibling',
         characterId: 'wikim-davar',
-        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
       },
       {
         name: 'Jushu',
         relation: 'sibling',
         characterId: 'jushu-davar',
-        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
       },
       {
         name: 'Adolin Kholin',
@@ -503,13 +503,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Gavilar',
         relation: 'sibling',
         characterId: 'gavilar-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
       },
       {
         name: 'Evi',
         relation: 'spouse',
         characterId: 'evi-kholin',
-        revealedIn: [{ book: 'oathbringer', chapter: '71' }],
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
       },
       {
         name: 'Navani',
@@ -715,7 +715,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Evi',
         relation: 'parent',
         characterId: 'evi-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
       },
       {
         name: 'Renarin',
@@ -868,7 +868,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Elhokar',
         relation: 'child',
         characterId: 'elhokar-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+        revealedIn: ['way-of-kings'],
       },
       {
         name: 'Adolin',
@@ -956,7 +956,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Gavilar',
         relation: 'parent',
         characterId: 'gavilar-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
       },
       {
         name: 'Navani',
@@ -968,7 +968,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Elhokar',
         relation: 'sibling',
         characterId: 'elhokar-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+        revealedIn: ['way-of-kings'],
       },
       {
         name: 'Dalinar',
@@ -1084,7 +1084,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Evi',
         relation: 'parent',
         characterId: 'evi-kholin',
-        revealedIn: [{ book: 'way-of-kings', chapter: '61' }],
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
       },
       {
         name: 'Adolin',
@@ -1229,7 +1229,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     relatives: [
-      { name: 'Neturo', relation: 'parent', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Neturo',
+        relation: 'parent',
+        characterId: 'neturo-son-vallano',
+        revealedIn: ['wind-and-truth'],
+      },
       {
         name: 'Zeenid',
         relation: 'parent',
@@ -1246,7 +1251,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Masha-daughter-Shaliv',
         relation: 'spouse',
         characterId: 'masha-daughter-shaliv',
-        revealedIn: ['wind-and-truth'],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
       },
       {
         name: 'Vallano',
@@ -1396,13 +1401,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Eshonai',
         relation: 'sibling',
         characterId: 'eshonai',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
       },
       {
         name: 'Demid',
         relation: 'spouse',
         characterId: 'demid',
-        revealedIn: ['wind-and-truth'],
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
       },
     ],
   },
@@ -2903,7 +2908,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Shashara',
         relation: 'spouse',
         characterId: 'shashara',
-        revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
       },
     ],
     personas: [
@@ -10036,6 +10041,34835 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'sunlit-man', chapter: 'epilogue' }],
       },
     ],
+    bonds: [],
+    relatives: [],
+  },
+  rlain: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    aliases: [
+      { name: 'Shen', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+      {
+        name: 'Bridger of Minds',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '79' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '73' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      {
+        name: 'Knights Radiant (Truthwatchers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    bonds: [
+      { name: 'Tumi', revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }] },
+    ],
+    relatives: [
+      {
+        name: 'Toathan',
+        relation: 'ancestor',
+        characterId: 'toathan',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '121' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'shen',
+        name: 'Shen',
+        coppermindPage: 'Shen',
+        books: ['way-of-kings'],
+        identityRevealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+  },
+  stormfather: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '35' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '1' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '35' }],
+    },
+    aliases: [
+      {
+        name: 'Jezerezeh',
+        revealedIn: [{ book: 'way-of-kings', chapter: '34' }],
+      },
+      { name: 'Kelek', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+      {
+        name: 'Rider of Storms',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-5' }],
+      },
+      {
+        name: 'Storm Rider',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-5' }],
+      },
+      {
+        name: 'God of Storms',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-8' }],
+      },
+      {
+        name: 'Spren of Storms',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        name: 'Father of Storms',
+        revealedIn: [{ book: 'oathbringer', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '89' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        name: 'Sliver',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Dalinar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '89' }],
+      },
+    ],
+    relatives: [],
+  },
+  lopen: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '32' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Rua',
+        revealedIn: [
+          { book: 'oathbringer', chapter: '121' },
+          { book: 'dawnshard', chapter: '3' },
+        ],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Chilinko',
+        relation: 'relative',
+        characterId: 'chilinko',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+      {
+        name: 'Huio',
+        relation: 'relative',
+        characterId: 'huio',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+      {
+        name: 'Punio',
+        relation: 'relative',
+        characterId: 'punio',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Rod',
+        relation: 'relative',
+        characterId: 'rod-roshar',
+        revealedIn: [{ book: 'dawnshard', chapter: '7' }],
+      },
+    ],
+  },
+  lunamor: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '25' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    aliases: [
+      { name: 'Lunamor', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+      { name: 'Rock', revealedIn: [{ book: 'way-of-kings', chapter: '14' }] },
+      {
+        name: "Fal'ala'liki'nor",
+        revealedIn: [{ book: 'dawnshard', chapter: '18' }],
+      },
+      {
+        name: "Numuhukumakiaki'aialunamor",
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '14' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Sighted',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+      },
+    ],
+    profession: [
+      { name: 'Chef', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tuaka',
+        relation: 'spouse',
+        characterId: 'tuaka',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Gift',
+        relation: 'child',
+        characterId: 'gift',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Cord',
+        relation: 'child',
+        characterId: 'cord',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Rock',
+        relation: 'child',
+        characterId: 'rock-junior',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Star',
+        relation: 'child',
+        characterId: 'star',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'child',
+        characterId: 'kumatiki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'child',
+        characterId: 'beautiful-song',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+  },
+  skar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunners)',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nale: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '19' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '47' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '62' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+    },
+    aliases: [
+      { name: 'Nalan', revealedIn: ['way-of-kings'] },
+      {
+        name: 'Nin',
+        revealedIn: [
+          { book: 'edgedancer', chapter: '19' },
+          { book: 'oathbringer', chapter: '98' },
+        ],
+      },
+      {
+        name: 'Nin-son-God',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+      { name: 'Darkness', revealedIn: [{ book: 'edgedancer', chapter: '19' }] },
+      { name: 'Nakku', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+      {
+        name: 'Herald of Justice',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+      {
+        name: 'Patron of the Skybreakers',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '144' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'oathbringer', chapter: '106' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [
+          { book: 'edgedancer', chapter: '19' },
+          { book: 'oathbringer', chapter: '106' },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Skybreaker)',
+        revealedIn: [{ book: 'oathbringer', chapter: '106' }],
+      },
+    ],
+    bonds: [
+      { name: '121', revealedIn: [{ book: 'wind-and-truth', chapter: '86' }] },
+    ],
+    relatives: [
+      {
+        name: 'Makibak',
+        relation: 'uncle',
+        characterId: 'makibak',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+  },
+  'elhokar-kholin': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '105' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Prince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'King of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '13' }],
+      },
+      { name: 'Lightweaver', revealedIn: ['oathbringer'] },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gavilar',
+        relation: 'parent',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'parent',
+        characterId: 'navani-kholin',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'sibling',
+        characterId: 'jasnah-kholin',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        name: 'Aesudan',
+        relation: 'spouse',
+        characterId: 'aesudan-kholin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'child',
+        characterId: 'gavinor-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'relative',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  nightblood: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'words-of-radiance', chapter: '88' }] },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '88' },
+              { book: 'edgedancer', chapter: '9' },
+            ],
+          },
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: '88' },
+              { book: 'oathbringer', chapter: '90' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '9' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '90' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Sword-nimi',
+        revealedIn: [{ book: 'oathbringer', chapter: '90' }],
+      },
+      {
+        name: 'Black Sword',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '141' }],
+      },
+    ],
+    species: [],
+    abilities: [
+      {
+        name: 'Consumes Investiture',
+        revealedIn: [
+          { book: 'warbreaker', chapter: '56' },
+          { book: 'oathbringer', chapter: '119' },
+        ],
+      },
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '140' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          { all: ['warbreaker', { book: 'words-of-radiance', chapter: '88' }] },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drehy: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'oathbringer', chapter: '60' }],
+      },
+      { name: 'Shardbearer', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'oathbringer', chapter: '60' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    bonds: [{ name: 'Talla', revealedIn: ['wind-and-truth'] }],
+    relatives: [
+      {
+        name: 'Dru',
+        relation: 'spouse',
+        characterId: 'dru',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+  },
+  timbre: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-11' },
+              { book: 'oathbringer', chapter: 'i-11' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-11' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'words-of-radiance', chapter: 'i-11' },
+            { book: 'oathbringer', chapter: 'i-11' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Reacher',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '67' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Willshaper magic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '67' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Venli', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+      {
+        name: 'Eshonai',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '117' }],
+      },
+    ],
+    relatives: [],
+  },
+  'torol-sadeas': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+      {
+        name: 'Highprince of Information',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '6' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ialai',
+        relation: 'spouse',
+        characterId: 'ialai-sadeas',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Lalai',
+        relation: 'relative',
+        characterId: 'lalai',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  mayalaran: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [
+      {
+        name: 'Maya',
+        revealedIn: [
+          { book: 'oathbringer', chapter: '120' },
+          { book: 'rhythm-of-war', chapter: '22' },
+          { book: 'wind-and-truth', chapter: '3' },
+        ],
+      },
+    ],
+    species: [{ name: 'Cultivationspren', revealedIn: ['wind-and-truth'] }],
+    abilities: [
+      { name: 'Edgedancer magic', revealedIn: ['wind-and-truth'] },
+      { name: 'Splinter of Cultivation', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '136' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ishar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+    },
+    aliases: [
+      { name: 'Ishi', revealedIn: ['oathbringer'] },
+      { name: 'Tashi', revealedIn: [{ book: 'edgedancer', chapter: '13' }] },
+      { name: 'Tezim', revealedIn: [{ book: 'oathbringer', chapter: '64' }] },
+      {
+        name: 'Ishu-son-God',
+        revealedIn: [{ book: 'oathbringer', chapter: '106' }],
+      },
+      { name: 'Voice', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Herald of Luck',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Herald of Mysteries',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      {
+        name: 'Herald of Oaths',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      {
+        name: 'Patron of the Bondsmiths',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+      {
+        name: 'Creator of the Oathpact',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Tezim the Great',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+      {
+        name: 'Herald of Heralds',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'God of Gods',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      {
+        name: 'Binder of the World',
+        revealedIn: [{ book: 'edgedancer', chapter: '13' }],
+      },
+      {
+        name: 'Binder of Gods',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leyten: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '28' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '14' }] },
+    ],
+    abilities: [
+      { name: 'Windrunner', revealedIn: [{ book: 'dawnshard', chapter: '3' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '73' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Ethenia',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    relatives: [],
+  },
+  gaz: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '21' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '6' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridge Sergeant',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+      {
+        name: 'Bodyguard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '36' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '6' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'gavinor-kholin': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+    },
+    aliases: [
+      {
+        name: 'Prince of Alethkar',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: "Odium's champion",
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Elhokar',
+        relation: 'parent',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Aesudan',
+        relation: 'parent',
+        characterId: 'aesudan-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'relative',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'relative',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'relative',
+        characterId: 'navani-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        name: 'Gavilar',
+        relation: 'ancestor',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+    ],
+  },
+  vathah: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '21' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '34' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Mosaic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    relatives: [],
+  },
+  yanagawn: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-9' },
+              { book: 'oathbringer', chapter: '42' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [
+          {
+            all: [
+              { book: 'edgedancer', chapter: 'prologue' },
+              { book: 'oathbringer', chapter: '42' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+    },
+    aliases: [
+      { name: 'Gawx', revealedIn: [{ book: 'oathbringer', chapter: '42' }] },
+      { name: 'Ch.V.D. Yanagawn the First', revealedIn: ['wind-and-truth'] },
+      { name: 'Emperor of Makabak', revealedIn: ['wind-and-truth'] },
+      { name: 'King of Azir', revealedIn: ['wind-and-truth'] },
+      { name: 'Lord of the Bronze Palace', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Prime Aqasix',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+      {
+        name: 'grand minister and emissary of Yaezir',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'oathbringer', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+      {
+        name: "Huqin's crew",
+        revealedIn: [{ book: 'oathbringer', chapter: '42' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Huqin',
+        relation: 'relative',
+        characterId: 'huqin',
+        revealedIn: [{ book: 'oathbringer', chapter: '42' }],
+      },
+    ],
+  },
+  taravangian: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [
+      {
+        name: 'Vargo',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        name: 'King of Kharbranth',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+      {
+        name: 'King of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        name: 'Odium',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+      {
+        name: 'God of Passions',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-2' }],
+      },
+      {
+        name: 'Retribution',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '143' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+      {
+        name: 'Vessel of Odium',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+      {
+        name: 'Vessel of Retribution',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '143' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Old Magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Savrahalidem',
+        relation: 'child',
+        characterId: 'savrahalidem',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+  },
+  'meridas-amaram': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+      },
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Yelig-nar',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Sheler',
+        relation: 'relative',
+        characterId: 'sheler',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+    ],
+  },
+  mraize: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '21' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+    },
+    aliases: [
+      { name: 'Gobby', revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }] },
+      {
+        name: 'Betd',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '138' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '43' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Unknown Enlightened spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '26' }],
+      },
+    ],
+    relatives: [],
+  },
+  lirin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    profession: [
+      {
+        name: 'Surgeon',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Hesina',
+        relation: 'spouse',
+        characterId: 'hesina',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Kaladin',
+        relation: 'child',
+        characterId: 'kaladin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Tien',
+        relation: 'child',
+        characterId: 'tien',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Oroden',
+        relation: 'child',
+        characterId: 'oroden',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+  },
+  sibling: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '68' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }] },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith magic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '110' }],
+      },
+      {
+        name: 'Splinter of Honor and Cultivation',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Navani',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '110' }],
+      },
+      {
+        name: 'Melishi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '69' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Honor',
+        relation: 'parent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+      {
+        name: 'Cultivation',
+        relation: 'parent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+  },
+  'fen-rnamdi': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Thaylenah',
+        revealedIn: [{ book: 'oathbringer', chapter: '12' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'oathbringer', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kmakl',
+        relation: 'spouse',
+        characterId: 'kmakl',
+        revealedIn: [{ book: 'oathbringer', chapter: '58' }],
+      },
+      {
+        name: 'Kdralk',
+        relation: 'child',
+        characterId: 'kdralk',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        name: 'Tslamfn',
+        relation: 'ancestor',
+        characterId: 'tslamfn',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+  },
+  dabbid: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [{ name: 'Moolie', revealedIn: ['wind-and-truth'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  wyndle: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [{ name: 'Cultivationspren', revealedIn: ['edgedancer'] }],
+    abilities: [
+      {
+        name: 'Edgedancer magic',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Lift',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    relatives: [],
+  },
+  raboniel: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Lady of Wishes',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+      {
+        name: 'Lady of Pains',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Fannahn-im)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Essu',
+        relation: 'child',
+        characterId: 'essu',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '65' }],
+      },
+    ],
+  },
+  eshonai: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: '68' },
+              { book: 'words-of-radiance', chapter: 'i-1' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '79' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'way-of-kings', chapter: '68' },
+            { book: 'words-of-radiance', chapter: 'i-1' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+      {
+        name: 'Willshaper',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '117' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Timbre',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '117' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Jaxlim',
+        relation: 'parent',
+        characterId: 'jaxlim',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+      },
+      {
+        name: 'Venli',
+        relation: 'sibling',
+        characterId: 'venli',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+  },
+  wind: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith magic',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leshwi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '54' }] },
+    ],
+    abilities: [{ name: 'Fused (Shanay-im)', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  noura: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    profession: [
+      { name: 'Vizier', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hesina: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lirin',
+        relation: 'spouse',
+        characterId: 'lirin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Kaladin',
+        relation: 'child',
+        characterId: 'kaladin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+      {
+        name: 'Tien',
+        relation: 'child',
+        characterId: 'tien',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+      {
+        name: 'Oroden',
+        relation: 'child',
+        characterId: 'oroden',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+  },
+  'rysn-ftori': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-8' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }] },
+    ],
+    abilities: [
+      { name: 'Dawnshard', revealedIn: [{ book: 'dawnshard', chapter: '18' }] },
+    ],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Accountant',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  colot: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '9' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '9' }] },
+    ],
+    profession: [
+      {
+        name: 'Army Captain',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+      { name: 'Archer', revealedIn: [{ book: 'oathbringer', chapter: '9' }] },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '135' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gallant: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Ryshadium',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ivory: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '47' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '64' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Inkspren',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Elsecaller magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '119' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Jasnah',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    relatives: [],
+  },
+  'turinad-sebarial': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+      },
+      {
+        name: 'Highprince of Commerce',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        name: 'Turi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sebarial army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '55' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Palona',
+        relation: 'spouse',
+        characterId: 'palona',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '129' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  aladar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+      {
+        name: 'Highprince of Information',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'May',
+        relation: 'child',
+        characterId: 'may-aladar',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  testament: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cryptic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Shallan',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+      },
+    ],
+    relatives: [],
+  },
+  glys: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '54' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Mistspren',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher magic (altered)',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Renarin',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+    ],
+    relatives: [],
+  },
+  thude: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '57' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Willshaper',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Bila',
+        relation: 'spouse',
+        characterId: 'bila',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+  },
+  rushu: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '50' }] },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lyn: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '8' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '8' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ishnah: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '25' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '25' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [
+      { name: 'Motif', revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }] },
+    ],
+    relatives: [],
+  },
+  peet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '41' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '21' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ka',
+        relation: 'spouse',
+        characterId: 'ka',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+  },
+  'neturo-son-vallano': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '143' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '111' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Zeenid',
+        relation: 'spouse',
+        characterId: 'zeenid-daughter-beth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+      {
+        name: 'Szeth',
+        relation: 'child',
+        characterId: 'szeth',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Elid',
+        relation: 'child',
+        characterId: 'elid-daughter-zeenid',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+  },
+  'may-aladar': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '2' }] },
+    ],
+    profession: [
+      {
+        name: 'Scribe',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '37' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '42' }],
+      },
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '135' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Aladar',
+        relation: 'parent',
+        characterId: 'aladar',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  'red-roshar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Array',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    relatives: [],
+  },
+  cord: {
+    appearsIn: [
+      { bookId: 'oathbringer', revealedIn: ['oathbringer'] },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    world: { planetId: 'roshar', revealedIn: ['oathbringer'] },
+    aliases: [
+      { name: "Hualinam'lunanaki'akilu", revealedIn: ['rhythm-of-war'] },
+    ],
+    species: [{ name: 'Human', revealedIn: ['oathbringer'] }],
+    abilities: [
+      { name: 'Sighted', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    nationality: [{ name: 'Unkalaki', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Gift',
+        relation: 'sibling',
+        characterId: 'gift',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Rock',
+        relation: 'sibling',
+        characterId: 'rock-junior',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Star',
+        relation: 'sibling',
+        characterId: 'star',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'sibling',
+        characterId: 'kumatiki',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'sibling',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+  },
+  kalak: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'prologue' },
+              { book: 'rhythm-of-war', chapter: 'prologue' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: { planetId: 'ashyn', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      { name: 'Kelek', revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }] },
+      {
+        name: 'Restares',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+      },
+      {
+        name: "Kelek'Elin",
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+      },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      { name: 'Patron of the Willshapers', revealedIn: ['rhythm-of-war'] },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  huio: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [
+      { name: 'Windrunner', revealedIn: [{ book: 'dawnshard', chapter: '2' }] },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'dawnshard', chapter: '18' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Arcanist',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '30' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'dawnshard', chapter: '2' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    bonds: [
+      { name: 'Caelinora', revealedIn: [{ book: 'dawnshard', chapter: '18' }] },
+    ],
+    relatives: [
+      {
+        name: 'Lopen',
+        relation: 'relative',
+        characterId: 'lopen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+  },
+  notum: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '30' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+    },
+    aliases: [
+      {
+        name: 'Captain',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'oathbringer', chapter: '108' }] },
+    ],
+    groups: [
+      { name: 'Cobalt Guard', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '136' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'zarb-kushkam': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+    },
+    aliases: [
+      {
+        name: 'Commandant supreme',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '37' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Commandant',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '135' }],
+      },
+      {
+        name: 'Azimir Imperial Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gezamal Kushkam',
+        relation: 'child',
+        characterId: 'gezamal-kushkam',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  talenel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+    },
+    aliases: [
+      {
+        name: "Talenelat'Elin",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+      {
+        name: 'Taln',
+        revealedIn: [
+          { book: 'way-of-kings', chapter: 'prelude' },
+          { book: 'words-of-radiance', chapter: 'i-7' },
+          { book: 'oathbringer', chapter: '38' },
+          { book: 'rhythm-of-war', chapter: '17' },
+          { book: 'wind-and-truth', chapter: '33' },
+        ],
+      },
+      {
+        name: 'Talat',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
+      },
+      {
+        name: 'Stonesinew',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+      { name: 'Tuk', revealedIn: ['wind-and-truth'] },
+      { name: 'Talmut', revealedIn: ['wind-and-truth'] },
+      {
+        name: "Talenel'Elin",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      {
+        name: 'Herald of War',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+      {
+        name: 'Herald of Soldiers',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      {
+        name: 'Bearer of Agonies',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      {
+        name: 'Patron of the Stonewards',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+      {
+        name: 'Ancient of Stones',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+      {
+        name: 'Great Prince',
+        revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+      },
+      {
+        name: 'Talenelat',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jezrien: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '42' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+    },
+    aliases: [
+      {
+        name: 'Jezerezeh',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Yaezir',
+        revealedIn: [
+          { book: 'words-of-radiance', chapter: 'i-9' },
+          { book: 'sunlit-man', chapter: '47' },
+        ],
+      },
+      { name: 'Ahu', revealedIn: [{ book: 'wind-and-truth', chapter: '46' }] },
+      { name: 'Yaysi', revealedIn: [{ book: 'oathbringer', chapter: '42' }] },
+      {
+        name: 'Yesoran',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '46' }],
+      },
+      { name: 'Herald of the Almighty', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Herald of Kings',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+      { name: 'Father of Storms', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Kadasix of Kings',
+        revealedIn: [
+          { book: 'words-of-radiance', chapter: 'i-9' },
+          { book: 'sunlit-man', chapter: '47' },
+        ],
+      },
+      {
+        name: 'Patron of the Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+      { name: 'Bringer of water and life', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Master of the storms',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Shalash',
+        relation: 'child',
+        characterId: 'shalash',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+  },
+  shalash: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+    },
+    aliases: [
+      {
+        name: 'Shush-daughter-God',
+        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+      },
+      { name: 'Ash', revealedIn: [{ book: 'oathbringer', chapter: '117' }] },
+      { name: 'Epan', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+      { name: 'Pom', revealedIn: [{ book: 'oathbringer', chapter: '117' }] },
+      { name: 'Herald of the Almighty', revealedIn: ['way-of-kings'] },
+      {
+        name: 'Herald of Beauty',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '30' }],
+      },
+      {
+        name: 'Lady of Dreams',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+      {
+        name: 'Patron of the Lightweavers',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '30' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '117' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jezrien',
+        relation: 'parent',
+        characterId: 'jezrien',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+  },
+  'ialai-sadeas': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Torol Sadeas',
+        relation: 'spouse',
+        characterId: 'torol-sadeas',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+  },
+  jaxlim: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-4' },
+              { book: 'rhythm-of-war', chapter: '45' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'words-of-radiance', chapter: 'i-4' },
+            { book: 'rhythm-of-war', chapter: '45' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Willshaper',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-4' },
+              { book: 'rhythm-of-war', chapter: '45' },
+            ],
+          },
+        ],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Eshonai',
+        relation: 'child',
+        characterId: 'eshonai',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '45' }],
+      },
+      {
+        name: 'Venli',
+        relation: 'child',
+        characterId: 'venli',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+  },
+  kmakl: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '58' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '58' }],
+    },
+    aliases: [
+      {
+        name: 'Prince consort of Thaylenah',
+        revealedIn: [{ book: 'oathbringer', chapter: '58' }],
+      },
+      {
+        name: 'Admiral of the Thaylen navy',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Fen Rnamdi',
+        relation: 'spouse',
+        characterId: 'fen-rnamdi',
+        revealedIn: [{ book: 'oathbringer', chapter: '58' }],
+      },
+      {
+        name: 'Kdralk',
+        relation: 'child',
+        characterId: 'kdralk',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+  },
+  'gavilar-kholin': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'King of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+      {
+        name: 'Gavilar the Majestic',
+        revealedIn: [{ book: 'oathbringer', chapter: '105' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dalinar',
+        relation: 'sibling',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'prologue' }],
+      },
+      {
+        name: 'Navani',
+        relation: 'spouse',
+        characterId: 'navani-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'child',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'child',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  'teshav-khal': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '146' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+      { name: 'Advisor', revealedIn: [{ book: 'oathbringer', chapter: '12' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'General Khal',
+        relation: 'spouse',
+        characterId: 'general-khal',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Halam',
+        relation: 'child',
+        characterId: 'halam-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Aratin',
+        relation: 'child',
+        characterId: 'aratin-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Meleran',
+        relation: 'child',
+        characterId: 'meleran-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Idani',
+        relation: 'relative',
+        characterId: 'idani',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  hobber: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  lezian: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+    aliases: [
+      {
+        name: 'Pursuer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '53' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '59' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Nex-im)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  teleb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      {
+        name: 'Officer in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kalami',
+        relation: 'spouse',
+        characterId: 'kalami',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+  },
+  iyatil: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Elsecaller',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '28' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '134' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dlavil',
+        relation: 'sibling',
+        characterId: 'dlavil',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-1' }],
+      },
+    ],
+  },
+  dieno: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+    aliases: [
+      { name: 'Mink', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  palona: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '40' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '41' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Turinad Sebarial',
+        relation: 'spouse',
+        characterId: 'turinad-sebarial',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '129' }],
+      },
+    ],
+  },
+  vienta: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Sigzil',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    relatives: [],
+  },
+  kadash: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '35' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '97' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nikliasorm: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Nikli',
+        revealedIn: [
+          { book: 'dawnshard', chapter: '1' },
+          { book: 'wind-and-truth', chapter: 'i-15' },
+        ],
+      },
+      { name: 'Twenty-Fourth', revealedIn: ['wind-and-truth'] },
+    ],
+    species: [
+      { name: 'Sleepless', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Servant', revealedIn: [{ book: 'dawnshard', chapter: '1' }] },
+      { name: 'Spy', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'nikli',
+        name: 'Nikli',
+        coppermindPage: 'Nikli',
+        books: ['dawnshard'],
+        identityRevealedIn: [{ book: 'dawnshard', chapter: '6' }],
+      },
+    ],
+  },
+  rua: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+    },
+    aliases: [
+      { name: 'Naco', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Lopen', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    relatives: [],
+  },
+  'chiri-chiri': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-3' },
+              { book: 'oathbringer', chapter: 'i-13' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-8' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'words-of-radiance', chapter: 'i-3' },
+            { book: 'oathbringer', chapter: 'i-13' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Larkin',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abidi: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+    },
+    aliases: [
+      {
+        name: 'Abidi the Monarch',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Shanay-im)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '9' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'evi-kholin': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Riran', revealedIn: [{ book: 'oathbringer', chapter: '19' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Toh',
+        relation: 'sibling',
+        characterId: 'toh',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'spouse',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'child',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'child',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+  },
+  'ba-ado-mishram': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '80' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '24' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '80' }],
+    },
+    aliases: [
+      {
+        name: 'Granter of Forms',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '76' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '87' }],
+      },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '97' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'balat-davar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }] },
+    ],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lin',
+        relation: 'parent',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Chanarach',
+        relation: 'parent',
+        characterId: 'chanarach',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'sibling',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'sibling',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'sibling',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'sibling',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        name: 'Eylita',
+        relation: 'spouse',
+        characterId: 'eylita-tavinar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+  },
+  godeke: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }] },
+    ],
+    abilities: [
+      {
+        name: 'Edgedancer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Edgedancers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Archinal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+  },
+  arshqqam: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '6' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '6' }],
+    },
+    aliases: [
+      {
+        name: 'Stump',
+        revealedIn: [
+          { book: 'edgedancer', chapter: '6' },
+          { book: 'oathbringer', chapter: '104' },
+        ],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '6' }] },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Tashi's Light Orphanage",
+        revealedIn: [{ book: 'edgedancer', chapter: '6' }],
+      },
+      {
+        name: 'Knights Radiant (Truthwatchers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Dreaming-though-Awake',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+    personas: [
+      {
+        id: 'stump',
+        name: 'The Stump',
+        coppermindPage: 'Stump',
+        books: ['edgedancer', 'oathbringer'],
+        identityRevealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+  },
+  'toralin-roshone': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    profession: [
+      {
+        name: 'Citylord of Hearthstone',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Laral Roshone',
+        relation: 'spouse',
+        characterId: 'laral-roshone',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        name: 'Rillir Roshone',
+        relation: 'child',
+        characterId: 'rillir-roshone',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+  },
+  'sja-anat': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-2' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+    },
+    aliases: [
+      {
+        name: 'Taker of Secrets',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '77' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  chanarach: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+    },
+    aliases: [
+      {
+        name: 'Chana',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        name: 'Chanaranach',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        name: 'Chan-a-rach',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '77' }],
+      },
+      { name: 'Patron of the Dustbringers', revealedIn: ['oathbringer'] },
+      {
+        name: 'Herald of the Common Man',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lin',
+        relation: 'spouse',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'child',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'child',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'child',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'child',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'child',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+    ],
+  },
+  kalami: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Historian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Teleb',
+        relation: 'spouse',
+        characterId: 'teleb',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+  },
+  bisig: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '30' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['wind-and-truth'] },
+      { name: 'Kholin army', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  bila: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '115' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Thude',
+        relation: 'spouse',
+        characterId: 'thude',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+  },
+  adrotagia: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+    aliases: [
+      { name: 'Adro', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'lin-davar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [
+          { book: 'way-of-kings', chapter: '74' },
+          { book: 'words-of-radiance', chapter: '13' },
+        ],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Chanarach',
+        relation: 'spouse',
+        characterId: 'chanarach',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Malise Gevelmar',
+        relation: 'spouse',
+        characterId: 'malise-gevelmar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'child',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'child',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'child',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'child',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'child',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+    ],
+  },
+  'elid-daughter-zeenid': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Neturo',
+        relation: 'parent',
+        characterId: 'neturo-son-vallano',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      {
+        name: 'Zeenid',
+        relation: 'parent',
+        characterId: 'zeenid-daughter-beth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      {
+        name: 'Szeth',
+        relation: 'sibling',
+        characterId: 'szeth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+      {
+        name: 'Vallano',
+        relation: 'ancestor',
+        characterId: 'szeth',
+        revealedIn: ['wind-and-truth'],
+      },
+      { name: 'Beth', relation: 'ancestor', revealedIn: ['wind-and-truth'] },
+    ],
+  },
+  roion: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Roion army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  dunny: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  beryl: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Ornament',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    relatives: [],
+  },
+  tvlakv: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'way-of-kings', chapter: '2' }] },
+    ],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  khen: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kstled: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Drlwan',
+        relation: 'sibling',
+        characterId: 'drlwan',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+  },
+  tien: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '9' }] },
+    ],
+    profession: [
+      {
+        name: 'Carpenter’s apprentice',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+      {
+        name: "Soldier in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lirin',
+        relation: 'parent',
+        characterId: 'lirin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        name: 'Hesina',
+        relation: 'parent',
+        characterId: 'hesina',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+      {
+        name: 'Kaladin',
+        relation: 'sibling',
+        characterId: 'kaladin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+      },
+      {
+        name: 'Oroden',
+        relation: 'sibling',
+        characterId: 'oroden',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+  },
+  tumi: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Mistspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    abilities: [
+      { name: 'Truthwatcher magic (altered)', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Rlain',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    relatives: [],
+  },
+  'laral-roshone': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Wistiow',
+        relation: 'parent',
+        characterId: 'wistiow',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+      {
+        name: 'Roshone',
+        relation: 'spouse',
+        characterId: 'toralin-roshone',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+  },
+  'sivi-daughter-sivi': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '45' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Honorbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '45' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'pozen-son-nash': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '53' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '53' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '141' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '53' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hmask: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '41' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '41' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '41' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '76' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '42' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '42' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  eth: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mart',
+        relation: 'sibling',
+        characterId: 'mart',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+  },
+  oroden: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '7' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lirin',
+        relation: 'parent',
+        characterId: 'lirin',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        name: 'Hesina',
+        relation: 'parent',
+        characterId: 'hesina',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        name: 'Kaladin',
+        relation: 'sibling',
+        characterId: 'kaladin',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+      {
+        name: 'Tien',
+        relation: 'sibling',
+        characterId: 'tien',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+  },
+  malata: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '24' }] },
+    ],
+    abilities: [
+      {
+        name: 'Dustbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+    ],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '24' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Dustbringers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    bonds: [
+      { name: 'Spark', revealedIn: [{ book: 'oathbringer', chapter: '27' }] },
+    ],
+    relatives: [],
+  },
+  bluth: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Mercenary', revealedIn: ['words-of-radiance'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'zu-roshar': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }] },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Iriali',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Stonewards)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    bonds: [
+      {
+        name: "Ua'pam",
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+  },
+  drlwan: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kstled',
+        relation: 'sibling',
+        characterId: 'kstled',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+  },
+  tyn: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Con artist',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ruthar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jayla',
+        relation: 'spouse',
+        characterId: 'jayla-ruthar',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+      {
+        name: 'Relis',
+        relation: 'child',
+        characterId: 'relis-ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '66' }],
+      },
+      {
+        name: 'Ivanar',
+        relation: 'child',
+        characterId: 'ivanar-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Elit',
+        relation: 'relative',
+        characterId: 'elit-ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '53' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+    ],
+  },
+  'jushu-davar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '27' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lin Davar',
+        relation: 'parent',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Chanarach',
+        relation: 'parent',
+        characterId: 'chanarach',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'sibling',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'sibling',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'sibling',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'sibling',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+  },
+  'general-khal': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Military officer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Teshav',
+        relation: 'spouse',
+        characterId: 'teshav-khal',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Halam',
+        relation: 'child',
+        characterId: 'halam-khal',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+      {
+        name: 'Aratin',
+        relation: 'child',
+        characterId: 'aratin-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Meleran',
+        relation: 'child',
+        characterId: 'meleran-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Idani',
+        relation: 'relative',
+        characterId: 'idani',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  'wikim-davar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lin Davar',
+        relation: 'parent',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '10' }],
+      },
+      {
+        name: 'Chanarach',
+        relation: 'parent',
+        characterId: 'chanarach',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'sibling',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'sibling',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'sibling',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'sibling',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+    ],
+  },
+  ulim: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'braize',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Voidspren',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['rhythm-of-war'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  natam: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '55' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      { name: 'Kholin army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sah: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vai',
+        relation: 'child',
+        characterId: 'vai',
+        revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+      },
+    ],
+  },
+  'avarak-matal': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    profession: [
+      {
+        name: 'Army captain',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Hashal',
+        relation: 'spouse',
+        characterId: 'hashal',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+  },
+  tag: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Mercenary',
+        revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  uapam: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Peakspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward magic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Zu', revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }] },
+    ],
+    relatives: [
+      {
+        name: 'Unativi',
+        relation: 'cousin',
+        characterId: 'unativi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+  },
+  inadara: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nohadon: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '103' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [
+      {
+        name: 'Bajerden',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '142' }],
+      },
+      {
+        name: 'Behardan',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+      {
+        name: 'King of Alethela',
+        revealedIn: [{ book: 'oathbringer', chapter: '103' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'way-of-kings', chapter: '59' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vstim: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+      {
+        name: 'Minister of Trade',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Chanrm',
+        relation: 'relative',
+        characterId: 'chanrm',
+        revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+      },
+    ],
+  },
+  nergaoul: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+    },
+    aliases: [
+      { name: 'Thrill', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  hatham: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '29' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        name: 'Highprince of Works',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['oathbringer'] }],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rine Hatham',
+        relation: 'relative',
+        characterId: 'rine-hatham',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+    ],
+  },
+  'zeenid-daughter-beth': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Neturo',
+        relation: 'spouse',
+        characterId: 'neturo-son-vallano',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+      {
+        name: 'Szeth',
+        relation: 'child',
+        characterId: 'szeth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+      {
+        name: 'Elid',
+        relation: 'child',
+        characterId: 'elid-daughter-zeenid',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+  },
+  graves: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '68' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '84' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  phendorana: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'dawnshard', chapter: '17' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'rhythm-of-war', chapter: '25' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'oathbringer', chapter: 'i-14' },
+            { book: 'dawnshard', chapter: '17' },
+          ],
+        },
+        {
+          all: [
+            { book: 'oathbringer', chapter: 'i-14' },
+            { book: 'rhythm-of-war', chapter: '25' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'dawnshard', chapter: '17' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'rhythm-of-war', chapter: '25' },
+            ],
+          },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Teft',
+        revealedIn: [
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'dawnshard', chapter: '17' },
+            ],
+          },
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'i-14' },
+              { book: 'rhythm-of-war', chapter: '25' },
+            ],
+          },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  stargyle: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'eylita-tavinar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lord and Lady Tavinar',
+        relation: 'parent',
+        characterId: 'tavinar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+      {
+        name: 'Balat Davar',
+        relation: 'spouse',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+  },
+  el: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '59' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '59' }],
+    },
+    aliases: [
+      { name: 'Vyre', revealedIn: [{ book: 'wind-and-truth', chapter: '55' }] },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '116' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '137' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  falilar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['rhythm-of-war'] }],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tomor',
+        relation: 'nephew',
+        characterId: 'tomor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+  },
+  zabra: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+    },
+    aliases: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '134' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mrall: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Bodyguard & Servant',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  noromin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+    },
+    aliases: [
+      { name: 'Noro', revealedIn: [{ book: 'oathbringer', chapter: '69' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '69' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [
+      {
+        name: 'Lieutenant',
+        revealedIn: [{ book: 'oathbringer', chapter: '79' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  beard: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '70' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '70' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dul: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Stormsetter',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mazish',
+        relation: 'spouse',
+        characterId: 'mazish',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+  },
+  mosaic: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cryptic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Vathah',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    relatives: [],
+  },
+  rayse: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+    },
+    aliases: [
+      {
+        name: 'Odium',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
+      },
+      { name: 'Passion', revealedIn: [{ book: 'oathbringer', chapter: '57' }] },
+      {
+        name: 'King of gods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '58' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Vessel of Odium',
+        revealedIn: [{ book: 'oathbringer', chapter: '109' }],
+      },
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tanavast: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '100' }],
+    },
+    aliases: [
+      { name: 'Elithanathile', revealedIn: ['wind-and-truth'] },
+      { name: 'Tavast', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+      {
+        name: 'Tanner',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+      {
+        name: 'Honor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+      {
+        name: 'Vessel of Honor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [{ name: 'Sliver', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kabsal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Herdazian', revealedIn: ['way-of-kings'] }],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+      {
+        name: 'Assassin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '50' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'way-of-kings', chapter: '74' }],
+      },
+      { name: 'Devotary of Insight', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'loradar-vamah': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kalanor',
+        relation: 'relative',
+        characterId: 'kalanor',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+      {
+        name: 'Paladar',
+        relation: 'relative',
+        characterId: 'paladar',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  melishi: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '58' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '58' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Bondsmith)',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Sibling',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    relatives: [],
+  },
+  demid: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Venli',
+        relation: 'spouse',
+        characterId: 'venli',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+  },
+  ka: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Barmaid',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        name: 'Scribe',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '68' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Peet',
+        relation: 'spouse',
+        characterId: 'peet',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+  },
+  'yelig-nar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+    },
+    aliases: [
+      {
+        name: 'Blightwind',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    bonds: [
+      {
+        name: 'Aesudan',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+      { name: 'Amaram', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    relatives: [],
+  },
+  'moss-son-farrier': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rahel: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Truthwatchers)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yalb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'gezamal-kushkam': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '135' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '135' }],
+      },
+      {
+        name: 'Azimir Imperial Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Zarb Kushkam',
+        relation: 'parent',
+        characterId: 'zarb-kushkam',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  sureblood: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '13' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Ryshadium',
+        revealedIn: [{ book: 'way-of-kings', chapter: '13' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mazish: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dul',
+        relation: 'spouse',
+        characterId: 'dul',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+  },
+  yake: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      { name: 'Kholin army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yokska: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '61' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '61' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Tailor', revealedIn: [{ book: 'oathbringer', chapter: '62' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  noril: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  darcira: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '16' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Erinor',
+        relation: 'spouse',
+        characterId: 'erinor',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  essu: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '49' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Fannahn-im)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '97' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Raboniel',
+        relation: 'parent',
+        characterId: 'raboniel',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '65' }],
+      },
+    ],
+  },
+  lieke: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kaminah: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [
+      { name: 'Scholar', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Aide-de-camp',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [{ name: 'Kholin army', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  talik: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Reshi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ral-na',
+        relation: 'parent',
+        characterId: 'ral-na',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+    ],
+  },
+  istow: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    profession: [
+      {
+        name: 'Highjudge',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rust-elthal': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '69' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '69' }] },
+    ],
+    profession: [
+      {
+        name: 'Officer in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'elit-ruthar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['words-of-radiance'] }],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ruthar',
+        relation: 'uncle',
+        characterId: 'ruthar',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        name: 'Jayla',
+        relation: 'aunt',
+        characterId: 'jayla-ruthar',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        name: 'Relis',
+        relation: 'cousin',
+        characterId: 'relis-ruthar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+  },
+  laran: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-14' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ornament: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cryptic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Beryl', revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }] },
+    ],
+    relatives: [],
+  },
+  motif: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cryptic',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Ishnah',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+  },
+  winn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [
+      {
+        name: 'General',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  garith: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [
+          { all: [{ book: 'way-of-kings', chapter: '52' }, 'wind-and-truth'] },
+        ],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '77' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '77' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '77' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '77' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'aesudan-kholin': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Queen of Alethkar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Yelig-nar',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Elhokar',
+        relation: 'spouse',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'child',
+        characterId: 'gavinor-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+    ],
+  },
+  battar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-6' }],
+      },
+    ],
+    world: { planetId: 'ashyn', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: "Battah'Elin",
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+      { name: 'Dova', revealedIn: [{ book: 'wind-and-truth', chapter: '77' }] },
+      {
+        name: 'Batlah',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '53' }],
+      },
+      {
+        name: 'Herald of the Almighty',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+      { name: 'Patron of the Elsecallers', revealedIn: ['wind-and-truth'] },
+      { name: 'Battah', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'relis-ruthar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '54' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['words-of-radiance'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ruthar',
+        relation: 'parent',
+        characterId: 'ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '66' }],
+      },
+      {
+        name: 'Jayla',
+        relation: 'parent',
+        characterId: 'jayla-ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+      {
+        name: 'Ivanar Ruthar',
+        relation: 'sibling',
+        characterId: 'ivanar-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Elit',
+        relation: 'relative',
+        characterId: 'elit-ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  jaks: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Bridgeman', revealedIn: ['way-of-kings'] }],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mart: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '5' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Eth',
+        relation: 'sibling',
+        characterId: 'eth',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+  },
+  maps: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '27' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'koravellium-avast': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+    },
+    aliases: [
+      {
+        name: 'Cultivation',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+      {
+        name: 'Mother of the World',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+      {
+        name: 'She Who Brings the Dews at Dawn',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+      { name: 'Kor', revealedIn: [{ book: 'wind-and-truth', chapter: '113' }] },
+    ],
+    species: [
+      {
+        name: 'Vessel of Cultivation',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'malise-gevelmar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Brightlord Gevelmar',
+        relation: 'parent',
+        characterId: 'gevelmar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Lin Davar',
+        relation: 'spouse',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Helaran',
+        relation: 'child',
+        characterId: 'helaran-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'child',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'child',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'child',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'stepchildren',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+  },
+  narm: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '14' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ala: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '115' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '3' }],
+      },
+    ],
+    world: { planetId: 'sel', revealedIn: ['wind-and-truth'] },
+    aliases: [],
+    species: [
+      { name: 'Seon', revealedIn: [{ book: 'rhythm-of-war', chapter: '115' }] },
+    ],
+    abilities: [
+      { name: 'Splinter of Devotion', revealedIn: ['wind-and-truth'] },
+      { name: 'Worldhopper', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  neziham: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jakamav: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Roion army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  elthebar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: 'Stormwarden',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  axindweth: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '48' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-9' }],
+      },
+    ],
+    world: { planetId: 'scadrial', revealedIn: ['wind-and-truth'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '48' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '77' }],
+      },
+      {
+        name: 'Feruchemist',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-13' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lusintia: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '87' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  '121': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Highspren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker magic',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Nale', revealedIn: [{ book: 'wind-and-truth', chapter: '86' }] },
+    ],
+    relatives: [],
+  },
+  macob: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '21' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maben: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Kharbranthian', revealedIn: ['rhythm-of-war'] }],
+    profession: [
+      {
+        name: 'Maid',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ghenna: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Tashikki', revealedIn: ['edgedancer'] }],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'edgedancer', chapter: '13' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rial: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Thirteen',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['oathbringer'] },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  design: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [
+          {
+            all: [
+              { book: 'oathbringer', chapter: 'epilogue' },
+              { book: 'rhythm-of-war', chapter: '80' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '80' }],
+      },
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '5' }] },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'oathbringer', chapter: 'epilogue' },
+            { book: 'rhythm-of-war', chapter: '80' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cryptic',
+        revealedIn: [
+          { book: 'rhythm-of-war', chapter: '80' },
+          { book: 'yumi', chapter: '32' },
+        ],
+      },
+    ],
+    abilities: [
+      { name: 'Worldhopper', revealedIn: [{ book: 'yumi', chapter: '21' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Hoid',
+        revealedIn: [
+          { book: 'rhythm-of-war', chapter: 'epilogue' },
+          { book: 'yumi', chapter: '32' },
+        ],
+      },
+    ],
+    relatives: [],
+  },
+  'dreaming-though-awake': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Mistspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '24' }],
+      },
+    ],
+    abilities: [{ name: 'Truthwatcher magic', revealedIn: ['rhythm-of-war'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Arshqqam',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+  },
+  archinal: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Cultivationspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      { name: 'Edgedancer magic', revealedIn: ['rhythm-of-war'] },
+      { name: 'Splinter of Cultivation', revealedIn: ['rhythm-of-war'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Godeke',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    relatives: [],
+  },
+  blended: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Inkspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rit-daughter-clutio': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '40' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '40' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sarqqin: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '127' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Blacksmith',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    groups: [{ name: 'Unoathed', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  aric: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '5' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'oathbringer', chapter: '7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kdralk: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+    },
+    aliases: [
+      {
+        name: 'Captainlord',
+        revealedIn: [{ book: 'oathbringer', chapter: '59' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'oathbringer', chapter: '59' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Fen Rnamdi',
+        relation: 'parent',
+        characterId: 'fen-rnamdi',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        name: 'Kmakl',
+        relation: 'parent',
+        characterId: 'kmakl',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        name: 'Tslamfn',
+        relation: 'ancestor',
+        characterId: 'tslamfn',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+  },
+  ved: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ki: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '90' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '90' }],
+    },
+    aliases: [
+      {
+        name: 'Master Skybreaker',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '90' }] },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    nationality: [
+      { name: 'Iriali', revealedIn: [{ book: 'oathbringer', chapter: '92' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Skybreakers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    bonds: [
+      { name: 'Winnow', revealedIn: [{ book: 'oathbringer', chapter: '92' }] },
+    ],
+    relatives: [],
+  },
+  unativi: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [{ name: 'Peakspren', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Sailor', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: "Ua'pam",
+        relation: 'relative',
+        characterId: 'uapam',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+  },
+  isabi: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '28' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sekeir: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  isasik: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Thirteen',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'helaran-davar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Order of Skybreakers',
+        revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lin',
+        relation: 'parent',
+        characterId: 'lin-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Balat',
+        relation: 'sibling',
+        characterId: 'balat-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Wikim',
+        relation: 'sibling',
+        characterId: 'wikim-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+      {
+        name: 'Jushu',
+        relation: 'sibling',
+        characterId: 'jushu-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Shallan',
+        relation: 'sibling',
+        characterId: 'shallan-davar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+      },
+    ],
+  },
+  stone: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith magic',
+        revealedIn: [
+          {
+            all: [
+              { book: 'wind-and-truth', chapter: '21' },
+              { book: 'wind-and-truth', chapter: '52' },
+            ],
+          },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  're-shephir': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+    },
+    aliases: [
+      {
+        name: 'Midnight Mother',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '30' }] },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '29' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vedel: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    world: { planetId: 'ashyn', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Vedeledev',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+      { name: 'Vev', revealedIn: [{ book: 'oathbringer', chapter: '68' }] },
+      { name: 'Herald of the Almighty', revealedIn: ['wind-and-truth'] },
+      { name: 'Patron of the Edgedancers', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Herald of Healing',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+      {
+        name: 'Keeper of the Keys',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '62' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+      { name: 'Cognitive Shadow', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  farmer: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '36' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '36' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hashal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Avarak Matal',
+        relation: 'spouse',
+        characterId: 'avarak-matal',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+  },
+  tanalan: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'danlan-morakotha': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      { bookId: 'king-lopen', revealedIn: ['king-lopen'] },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    profession: [
+      {
+        name: 'Clerk & Scribe',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Brightlord Morakotha',
+        relation: 'parent',
+        characterId: 'brightlord-morakotha',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+  },
+  axies: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }] },
+      { name: 'Siah Aimian', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Aimian',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  klade: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '48' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  arclomedarian: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '18' }],
+    },
+    aliases: [
+      { name: 'Arclo', revealedIn: [{ book: 'edgedancer', chapter: '18' }] },
+    ],
+    species: [
+      { name: 'Sleepless', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Aimian', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shob: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '27' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '27' }] },
+    ],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  rine: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-12' }],
+      },
+    ],
+    abilities: [{ name: 'Fused (Shanay-im)', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tomor: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['rhythm-of-war'] }],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Falilar',
+        relation: 'uncle',
+        characterId: 'falilar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+  },
+  dami: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    aliases: [
+      {
+        name: 'Stormwall',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Riran',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Stonewards)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mararin: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  terushal: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Thunderclast',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bashin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [
+      {
+        name: 'Huntmaster',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Scoutmaster',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'ral-na': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-3' },
+              { book: 'dawnshard', chapter: '3' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'words-of-radiance', chapter: 'i-3' },
+            { book: 'dawnshard', chapter: '3' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          {
+            all: [
+              { book: 'words-of-radiance', chapter: 'i-3' },
+              { book: 'dawnshard', chapter: '3' },
+            ],
+          },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Dustbringer',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+    ],
+    nationality: [
+      { name: 'Reshi', revealedIn: [{ book: 'dawnshard', chapter: '3' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Talik',
+        relation: 'child',
+        characterId: 'talik',
+        revealedIn: [{ book: 'dawnshard', chapter: '3' }],
+      },
+    ],
+  },
+  mik: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  grund: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ico: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '99' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '99' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Reacher', revealedIn: [{ book: 'oathbringer', chapter: '99' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Ship's captain",
+        revealedIn: [{ book: 'oathbringer', chapter: '99' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  plamry: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Porter', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talla: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Drehy', revealedIn: [{ book: 'wind-and-truth', chapter: '7' }] },
+    ],
+    relatives: [],
+  },
+  torfin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '27' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['oathbringer'] },
+      { name: 'Kholin army', revealedIn: ['oathbringer'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  tearim: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: "Captain of the King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  pitt: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Seventeen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dalksi: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [{ name: 'Dalky', revealedIn: ['oathbringer'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Azish', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Vizier', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  melu: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-11' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-11' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dukar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  caelinora: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Honorspren', revealedIn: [{ book: 'dawnshard', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Huio', revealedIn: [{ book: 'dawnshard', chapter: '7' }] },
+    ],
+    relatives: [],
+  },
+  adin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Alalan',
+        relation: 'parent',
+        characterId: 'alalan',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+  },
+  rothan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '31' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  teofil: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+    },
+    aliases: [
+      {
+        name: 'Battalionlord in the Kholin army',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  amuna: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '87' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '87' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '87' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kelen: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  balivar: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [
+      {
+        name: 'Battalionlord',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kinal: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+    },
+    aliases: [{ name: 'General-nimi', revealedIn: ['wind-and-truth'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '57' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dallet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    profession: [
+      {
+        name: "Spearman in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  molli: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Sheep',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lamaril: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '30' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [{ name: 'Bridge Captain', revealedIn: ['way-of-kings'] }],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '32' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  punio: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+      { name: 'Roion army', revealedIn: ['words-of-radiance'] },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lopen',
+        relation: 'relative',
+        characterId: 'lopen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+  },
+  cenn: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    profession: [
+      {
+        name: 'Chull farmer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: "Spearman in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'isasik-shulin': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '76' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rillir-roshone': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+    },
+    aliases: [
+      { name: 'Cityheir of Hearthstone', revealedIn: ['way-of-kings'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Toralin Roshone',
+        relation: 'parent',
+        characterId: 'toralin-roshone',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+  },
+  bordin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-7' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [
+      {
+        name: 'Footman',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  huqin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Thief',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Huqin's crew",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gawx',
+        relation: 'relative',
+        characterId: 'yanagawn',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+  },
+  ashertmarn: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+    },
+    aliases: [
+      {
+        name: 'Heart of the Revel',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+    ],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '77' }] },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '77' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  tozbek: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ashlv',
+        relation: 'spouse',
+        characterId: 'ashlv',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+    ],
+  },
+  malop: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [{ name: 'Bridgeman', revealedIn: ['way-of-kings'] }],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  toh: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Riran', revealedIn: [{ book: 'oathbringer', chapter: '19' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Evi Kholin',
+        relation: 'sibling',
+        characterId: 'evi-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  gift: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Cord',
+        relation: 'sibling',
+        characterId: 'cord',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Rock',
+        relation: 'sibling',
+        characterId: 'rock-junior',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Star',
+        relation: 'sibling',
+        characterId: 'star',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'sibling',
+        characterId: 'kumatiki',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'sibling',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+  },
+  malli: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '114' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'oathbringer', chapter: '114' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Felt',
+        relation: 'spouse',
+        characterId: 'felt',
+        revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+      },
+    ],
+  },
+  'janala-lustow': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Brightlord Lustow',
+        relation: 'parent',
+        characterId: 'lustow',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  ilamar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [
+      {
+        name: 'Cavalrylord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  varth: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Squadleader in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  perel: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yixli: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '31' }],
+      },
+    ],
+    world: { planetId: 'braize', revealedIn: ['rhythm-of-war'] },
+    aliases: [],
+    species: [
+      {
+        name: 'Guidespren',
+        revealedIn: [{ book: 'oathbringer', chapter: '31' }],
+      },
+    ],
+    abilities: [{ name: 'Splinter of Odium', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  spark: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Ashspren',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Dustbringer magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    bonds: [
+      { name: 'Malata', revealedIn: [{ book: 'oathbringer', chapter: '27' }] },
+    ],
+    relatives: [],
+  },
+  kara: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      { name: 'Scout', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      { name: 'Kholin army', revealedIn: ['rhythm-of-war'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  shumin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aleen: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '26' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '26' }],
+      },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  makibak: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Nale',
+        relation: 'nephew',
+        characterId: 'nale',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+  },
+  'vambra-daughter-skies': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [{ name: 'Shin', revealedIn: ['wind-and-truth'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ashlv: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tozbek',
+        relation: 'spouse',
+        characterId: 'tozbek',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+    ],
+  },
+  hab: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  coreb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sheler: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    profession: [
+      {
+        name: 'Military commander',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Meridas Amaram',
+        relation: 'relative',
+        characterId: 'meridas-amaram',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+    ],
+  },
+  havar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    profession: [
+      {
+        name: 'Brightlord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'nacomb-gaval': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    profession: [
+      { name: 'Captain in Kholin army', revealedIn: ['words-of-radiance'] },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  malan: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '68' }] },
+    ],
+    profession: [
+      {
+        name: 'Captainlord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '68' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  varanis: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  glurv: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '30' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '30' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '30' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abrobadar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  redin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Assassin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Valam',
+        relation: 'parent',
+        characterId: 'valam',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        name: 'Sudi Valam',
+        relation: 'sibling',
+        characterId: 'sudi-valam',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+  },
+  hauka: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+    },
+    aliases: [
+      {
+        name: 'Captain in Yeddaw Guard',
+        revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'edgedancer', chapter: '7' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jor: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['rhythm-of-war'] }],
+    profession: [
+      { name: 'Bouncer', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kryst',
+        relation: 'spouse',
+        characterId: 'kryst',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+  },
+  vaceslv: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'kai-garnis': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [
+          {
+            all: [
+              { book: 'oathbringer', chapter: '115' },
+              { book: 'wind-and-truth', chapter: '63' },
+            ],
+          },
+        ],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [
+        {
+          all: [
+            { book: 'oathbringer', chapter: '115' },
+            { book: 'wind-and-truth', chapter: '63' },
+          ],
+        },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Thunderclast',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alalan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Potter',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Adin',
+        relation: 'child',
+        characterId: 'adin',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+  },
+  kuno: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '49' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shade: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    abilities: [{ name: 'Worldhopper', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'dulo-son-tudla': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+      },
+    ],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '83' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  deti: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thundercloud: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Chasmfiend',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jaskkeem: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cyn: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  korater: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['way-of-kings'] }],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      { name: "Kaladin's squad", revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  baon: {
+    appearsIn: [
+      {
+        bookId: 'white-sand-omnibus',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'taldain',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Blunt',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: 'i-1' },
+              { book: 'wind-and-truth', chapter: 'i-11' },
+            ],
+          },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'white-sand-omnibus', chapter: 'prologue' },
+          { book: 'wind-and-truth', chapter: 'i-11' },
+        ],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Sand master',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'epilogue' }],
+      },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Iiarian',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Seventeenth Shard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+      {
+        name: 'Dynasty',
+        revealedIn: [{ book: 'white-sand-omnibus', chapter: '12' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  galladon: {
+    appearsIn: [
+      { bookId: 'elantris', revealedIn: [{ book: 'elantris', chapter: '1' }] },
+      { bookId: 'hope-of-elantris', revealedIn: ['hope-of-elantris'] },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [{ book: 'elantris', chapter: '1' }],
+    },
+    aliases: [
+      { name: 'Dendo', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Grump',
+        revealedIn: [
+          {
+            all: [
+              { book: 'way-of-kings', chapter: 'i-1' },
+              { book: 'wind-and-truth', chapter: 'i-11' },
+            ],
+          },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'elantris', chapter: '1' },
+          { book: 'wind-and-truth', chapter: 'i-11' },
+        ],
+      },
+      { name: 'Elantrian', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+    ],
+    abilities: [
+      { name: 'AonDor', revealedIn: [{ book: 'elantris', chapter: '25' }] },
+      {
+        name: 'Worldhopper',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Seventeenth Shard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  jost: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jest',
+        relation: 'sibling',
+        characterId: 'jest',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+  },
+  naget: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  taffa: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Heb',
+        relation: 'spouse',
+        characterId: 'heb',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        name: 'Seeli',
+        relation: 'child',
+        characterId: 'seeli',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+    ],
+  },
+  seeli: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Heb',
+        relation: 'parent',
+        characterId: 'heb',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        name: 'Taffa',
+        relation: 'parent',
+        characterId: 'taffa',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+    ],
+  },
+  harl: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Miasal',
+        relation: 'child',
+        characterId: 'miasal',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+  },
+  kylrm: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cusicesh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  natir: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: 'Head steward',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Alaxia',
+        relation: 'spouse',
+        characterId: 'alaxia',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  waber: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: 'Gardener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reesh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      { name: "Kaladin's squad", revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  alabet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      { name: "Kaladin's squad", revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  baxil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+    },
+    aliases: [
+      {
+        name: 'Crimson Memory',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    abilities: [
+      {
+        name: 'Old Magic',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    nationality: [
+      { name: 'Emuli', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    profession: [
+      { name: 'Thief', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Av',
+        relation: 'relative',
+        characterId: 'av',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+    ],
+  },
+  'au-nak': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '54' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '54' }],
+    },
+    aliases: [
+      {
+        name: 'Nak-ali',
+        revealedIn: [{ book: 'way-of-kings', chapter: '54' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '54' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Natan', revealedIn: [{ book: 'way-of-kings', chapter: '54' }] },
+    ],
+    profession: [
+      {
+        name: 'Ambassador',
+        revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gangnah: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  varnali: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  davim: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  abronai: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  chivi: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zuln: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-11' }],
+      },
+    ],
+    profession: [],
+    groups: [{ name: 'Council of Five', revealedIn: ['words-of-radiance'] }],
+    bonds: [],
+    relatives: [],
+  },
+  idrin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    profession: [
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  maxin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Thief',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Huqin's crew",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  tigzikk: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Azish', revealedIn: ['edgedancer'] }],
+    profession: [{ name: 'Thief', revealedIn: ['edgedancer'] }],
+    groups: [
+      {
+        name: "Huqin's crew",
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  axikk: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Vizier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lhan: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+    },
+    aliases: [{ name: 'Kharat', revealedIn: ['wind-and-truth'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    groups: [{ name: 'Cult of Moments', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  serugiadis: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ethid: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Azish', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Scion & Scholar', revealedIn: ['oathbringer'] }],
+    groups: [
+      {
+        name: 'Veristitalians',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  thakka: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+    },
+    aliases: [
+      { name: "Captain of Dalinar's elites", revealedIn: ['oathbringer'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    abilities: [{ name: 'Swordfighting', revealedIn: ['oathbringer'] }],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Soldier', revealedIn: ['oathbringer'] }],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'beautiful-song': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [{ name: 'Little Song', revealedIn: ['rhythm-of-war'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Gift',
+        relation: 'sibling',
+        characterId: 'gift',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Cord',
+        relation: 'sibling',
+        characterId: 'cord',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Rock',
+        relation: 'sibling',
+        characterId: 'rock-junior',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Star',
+        relation: 'sibling',
+        characterId: 'star',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'sibling',
+        characterId: 'kumatiki',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+  },
+  alaward: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vexil: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+    },
+    aliases: [
+      {
+        name: 'Prime of Emul',
+        revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+      },
+      {
+        name: 'Vexil the Wise',
+        revealedIn: [{ book: 'oathbringer', chapter: '96' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '96' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  turash: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: '115' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alalhawithador: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '6' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '6' }],
+    },
+    aliases: [{ name: 'Third', revealedIn: ['wind-and-truth'] }],
+    species: [
+      { name: 'Sleepless', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fimkn: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+      { name: 'Medic', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gereh: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abiajan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+    aliases: [
+      {
+        name: 'Citylady',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ulina: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }] },
+    ],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  merit: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+      { name: 'Groom', revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kristir: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chananar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tusa: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '79' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '81' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shiosak: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'wind-and-truth', chapter: '5' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '5' }],
+      },
+    ],
+    nationality: [{ name: 'Veden', revealedIn: ['wind-and-truth'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jayn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [{ name: 'Lightweaver', revealedIn: ['wind-and-truth'] }],
+    nationality: [{ name: 'Riran', revealedIn: ['wind-and-truth'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: ['wind-and-truth'],
+      },
+      { name: 'Unseen Court', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  chain: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zora: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Azish', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Vizier', revealedIn: ['wind-and-truth'] }],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  aika: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+    },
+    aliases: [
+      {
+        name: 'Stolen Purse',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Trader',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  jezinor: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Thaylen', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Trader', revealedIn: ['wind-and-truth'] }],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  breteh: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Thirteen',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '31' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  geb: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Armorer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dal',
+        relation: 'child',
+        characterId: 'dal',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+  },
+  'lumo-son-tumo': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+    },
+    aliases: [
+      {
+        name: 'General',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '111' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '59' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  weiss: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shmone: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '85' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '85' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '87' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  estel: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '101' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kivor: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nightwatcher: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '4' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '24' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [
+          { book: 'wind-and-truth', chapter: '21' },
+          { book: 'wind-and-truth', chapter: 'i-5' },
+        ],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '64' }] },
+    ],
+    abilities: [
+      {
+        name: 'Bondsmith magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+      {
+        name: 'Splinter of Cultivation',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+      {
+        name: 'Old Magic',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tukks: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '91' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [
+      { name: "Sergeant in Amaram's army", revealedIn: ['oathbringer'] },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '27' }],
+      },
+      { name: 'Takers', revealedIn: [{ book: 'way-of-kings', chapter: '27' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  bethab: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Mishinah',
+        relation: 'spouse',
+        characterId: 'mishinah-bethab',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  nalma: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '97' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '55' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Slave', revealedIn: [{ book: 'way-of-kings', chapter: '55' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hav: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '57' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  hanavanar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }],
+    },
+    aliases: [
+      {
+        name: 'King of Jah Keved',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }],
+      },
+    ],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: 'i-9' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tarah: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '63' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '68' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '63' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tuko-son-tuko': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '68' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  luesh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+    ],
+    abilities: [
+      {
+        name: 'Soulcasting (fabrial)',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+    ],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'way-of-kings', chapter: '74' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'sunken-eyes': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '38' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '38' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  valam: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Jah Keved',
+        revealedIn: [{ book: 'way-of-kings', chapter: '3' }],
+      },
+      {
+        name: 'King of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: '3' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sudi Valam',
+        relation: 'child',
+        characterId: 'sudi-valam',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+      {
+        name: 'Redin',
+        relation: 'child',
+        characterId: 'redin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+  },
+  beld: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  eranniv: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '26' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['words-of-radiance'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tuaka: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [
+      { name: 'Tuaka', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+      { name: 'Song', revealedIn: ['oathbringer'] },
+      { name: "Tuaka'li'na'calmi'nor", revealedIn: ['oathbringer'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'spouse',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Gift',
+        relation: 'child',
+        characterId: 'gift',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Cord',
+        relation: 'child',
+        characterId: 'cord',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Rock',
+        relation: 'child',
+        characterId: 'rock-junior',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Star',
+        relation: 'child',
+        characterId: 'star',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'child',
+        characterId: 'kumatiki',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'child',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+    ],
+  },
+  perethom: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      {
+        name: 'Infantrylord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rod-roshar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '68' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lopen',
+        relation: 'relative',
+        characterId: 'lopen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+  },
+  muri: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    profession: [
+      {
+        name: 'Seamstress',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'mishinah-bethab': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '104' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '104' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Highprince Bethab',
+        relation: 'spouse',
+        characterId: 'bethab',
+        revealedIn: [{ book: 'oathbringer', chapter: '104' }],
+      },
+    ],
+  },
+  talnah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nem: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Artifabrian', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pralla: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '62' }],
+      },
+    ],
+    world: { planetId: 'ashyn', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Pailiah',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      {
+        name: 'Pali',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      { name: 'Pala', revealedIn: ['wind-and-truth'] },
+      { name: 'Herald of the Almighty', revealedIn: ['words-of-radiance'] },
+      { name: 'Patron of the Truthwatchers', revealedIn: ['oathbringer'] },
+      { name: 'Paliah', revealedIn: ['wind-and-truth'] },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      {
+        name: 'Cognitive Shadow',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '17' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['words-of-radiance'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+    personas: [
+      {
+        id: 'pailiah',
+        name: 'Pailiah',
+        coppermindPage: 'Pralla',
+        books: [
+          'words-of-radiance',
+          'oathbringer',
+          'rhythm-of-war',
+          'wind-and-truth',
+        ],
+        identityRevealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  amark: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Veden', revealedIn: ['way-of-kings'] }],
+    profession: [
+      { name: 'Miner', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '30' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  niter: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [
+      {
+        name: 'Head of the Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  velat: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '69' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '69' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mintez: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '107' }] },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vedekar-perel': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Military officer', revealedIn: ['oathbringer'] }],
+    groups: [{ name: 'Sebarial army', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'halam-khal': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Captain in Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'General Khal',
+        relation: 'parent',
+        characterId: 'general-khal',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '83' }],
+      },
+      {
+        name: 'Teshav',
+        relation: 'parent',
+        characterId: 'teshav-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Aratin',
+        relation: 'sibling',
+        characterId: 'aratin-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Meleran',
+        relation: 'sibling',
+        characterId: 'meleran-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Idani',
+        relation: 'cousin',
+        characterId: 'idani',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    personas: [
+      {
+        id: 'captain-khal',
+        name: 'Captain Khal',
+        coppermindPage: 'Halam Khal',
+        books: ['words-of-radiance'],
+        identityRevealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+  },
+  vai: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sah',
+        relation: 'parent',
+        characterId: 'sah',
+        revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+      },
+    ],
+  },
+  dru: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '35' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Drehy',
+        relation: 'spouse',
+        characterId: 'drehy',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+  },
+  yunfah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Vratim',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    relatives: [],
+  },
+  harvo: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '79' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '114' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'gearil-daughter-gearil': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '83' }],
+      },
+    ],
+    abilities: [{ name: 'Shardbearer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gare: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Squadleader',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'taravangians-granddaughter': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Taravangian',
+        relation: 'ancestor',
+        characterId: 'taravangian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+  },
+  took: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  miasal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Harl',
+        relation: 'parent',
+        characterId: 'harl',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+  },
+  koolf: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Bridgeman', revealedIn: ['way-of-kings'] }],
+    groups: [
+      { name: 'Bridge Four', revealedIn: ['way-of-kings'] },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  cadilar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [{ name: 'Brightlord', revealedIn: ['oathbringer'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'malasha-seveks': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '24' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Brightlord Seveks',
+        relation: 'parent',
+        characterId: 'brightlord-seveks',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+  },
+  ladent: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'thresh-son-esan': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  matain: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+    },
+    aliases: [
+      {
+        name: 'Stormwarden',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '45' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  geranid: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ashir: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  inkima: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  resi: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [
+      {
+        name: 'Brightlord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+      {
+        name: 'Royal Defender',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  makal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '69' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rind: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Head Quartermaster in Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '2' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ym: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-2' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '4' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-2' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Iriali',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Cobbler',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-2' }],
+      },
+    ],
+    groups: [],
+    bonds: [
+      {
+        name: 'Uma',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    relatives: [],
+  },
+  'salinor-eved': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yix: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '20' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ivis: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dreder: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Skybreakers)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '93' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  pai: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '62' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent of the Devotary of Denial',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  marri: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '77' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '77' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '77' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cael: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Kholin army', revealedIn: ['words-of-radiance'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Apara',
+        relation: 'spouse',
+        characterId: 'apara',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+  },
+  'tanalans-father': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tanalan',
+        relation: 'child',
+        characterId: 'tanalan',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+  },
+  ur: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    profession: [
+      { name: 'Thug', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kalanor: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Loradar Vamah',
+        relation: 'relative',
+        characterId: 'loradar-vamah',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+      {
+        name: 'Paladar',
+        relation: 'relative',
+        characterId: 'paladar',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+  },
+  jevena: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ristina: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'oathbringer', chapter: '46' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jochi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    profession: [{ name: 'Baker & Scholar', revealedIn: ['oathbringer'] }],
+    groups: [
+      {
+        name: 'Veristitalians',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kaza: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }] },
+    ],
+    abilities: [
+      {
+        name: 'Soulcaster (Savant)',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Liaforan',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vazrmeb: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    profession: [
+      {
+        name: "Ship's captain",
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  deedanor: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    aliases: [
+      { name: 'Captain', revealedIn: [{ book: 'oathbringer', chapter: '79' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '79' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '79' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sidin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    profession: [
+      {
+        name: 'Palace Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Palace Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yushah: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Thunderclast',
+        revealedIn: [{ book: 'oathbringer', chapter: '115' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rushur-kris': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      { name: 'Ardent', revealedIn: ['rhythm-of-war'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fisk: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard (Captain)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  cressa: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Noril',
+        relation: 'uncle',
+        characterId: 'noril',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+  },
+  venan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sixteen: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  erinor: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '28' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Stonewards)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Darcira',
+        relation: 'spouse',
+        characterId: 'darcira',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  'gerehs-aviar': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-5' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-13' }],
+      },
+    ],
+    aliases: [],
+    species: [{ name: 'Aviar', revealedIn: ['wind-and-truth'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Gereh',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '116' }],
+      },
+      { name: 'Lift', revealedIn: ['wind-and-truth'] },
+    ],
+    relatives: [],
+  },
+  gitora: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scribe',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [{ name: 'Kholin army', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  fent: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jormo-son-falk': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'gonda-son-darias': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '73' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '73' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '73' }] },
+    ],
+    profession: [
+      {
+        name: 'Swordmaster',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '73' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  taran: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  artmyrn: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Kharbranthian', revealedIn: ['way-of-kings'] }],
+    profession: [{ name: 'Book merchant', revealedIn: ['way-of-kings'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  laresh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'way-of-kings', chapter: '9' }] },
+    ],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sani: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ishikk: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Purelaker',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Fisherman',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thaspic: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Purelaker',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maib: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Purelaker', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  scrak: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Axehound',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-2' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tarilar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scoutlord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vartian: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lomard: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jest: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jost',
+        relation: 'sibling',
+        characterId: 'jost',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+  },
+  mord: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tift: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  khav: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  murk: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  adis: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  corl: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  koorm: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Bridgeman', revealedIn: ['way-of-kings'] }],
+    groups: [
+      { name: 'Bridge Four', revealedIn: ['way-of-kings'] },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gadol: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Bridgeman', revealedIn: ['way-of-kings'] }],
+    groups: [
+      { name: 'Bridge Four', revealedIn: ['way-of-kings'] },
+      { name: 'Sadeas army', revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yis: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Iriali', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [
+      {
+        name: 'Leatherworker',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  avaran: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [
+      {
+        name: 'Leatherworker',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tibon: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  marks: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  falksi: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Handmaiden',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  valama: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bussik: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+    },
+    aliases: [
+      {
+        name: 'Bridgeleader',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Three',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '21' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  marakal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  taselin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  habatab: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [
+      {
+        name: 'Brightlord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tumul: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yonatan: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Meirav',
+        relation: 'spouse',
+        characterId: 'meirav',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+  },
+  meirav: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Yonatan',
+        relation: 'spouse',
+        characterId: 'yonatan',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+    ],
+  },
+  terith: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  relina: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  havarah: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      {
+        name: 'Bridgelord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  moratel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Officer in Kholin army', revealedIn: ['way-of-kings'] },
+    ],
+    groups: [{ name: 'Kholin army', revealedIn: ['way-of-kings'] }],
+    bonds: [],
+    relatives: [],
+  },
+  havrom: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [{ name: 'Battalionlord', revealedIn: ['way-of-kings'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  tadet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  makkek: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Bav', revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gavashaw: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  luten: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  balsas: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  barm: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Chef', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alaxia: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Natir',
+        relation: 'spouse',
+        characterId: 'natir',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  callins: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abry: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nalem: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Sergeant in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  korabet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: "Sergeant in Amaram's army", revealedIn: ['way-of-kings'] },
+    ],
+    groups: [{ name: "Amaram's army", revealedIn: ['way-of-kings'] }],
+    bonds: [],
+    relatives: [],
+  },
+  ven: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [{ name: 'Chief Surgeon', revealedIn: ['way-of-kings'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [{ name: 'Doctor', revealedIn: ['way-of-kings'] }],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'larn-roshar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  toorim: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  lyndel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  acis: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  hamel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      { name: "Kaladin's squad", revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  raksha: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    groups: [
+      { name: "Amaram's army", revealedIn: ['way-of-kings'] },
+      { name: "Kaladin's squad", revealedIn: ['way-of-kings'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  navar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Member of Kaladin's squad in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+      {
+        name: "Kaladin's squad",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  av: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Emuli', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    profession: [
+      { name: 'Thief', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Baxil',
+        relation: 'relative',
+        characterId: 'baxil',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+    ],
+  },
+  fin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '54' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '54' }] },
+    ],
+    profession: [
+      { name: 'Groom', revealedIn: [{ book: 'way-of-kings', chapter: '54' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  toral: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eshava: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '58' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '58' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dalar: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+    },
+    aliases: [
+      { name: 'Sergeant of the reserves', revealedIn: ['way-of-kings'] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['way-of-kings'] }],
+    profession: [{ name: 'Military officer', revealedIn: ['way-of-kings'] }],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mesh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Squadleader',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  talak: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Servant',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  liss: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Weeper',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Assassin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'nanhel-eltorv': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  devi: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['words-of-radiance'] }],
+    abilities: [],
+    nationality: [{ name: 'Listener', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gu: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Purelaker',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'relu-na': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Tai-na',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nlent: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'suna-roshar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '24' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jenet: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Stablemaster',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '25' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ralinor: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '32' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [{ name: "King's Guard", revealedIn: ['words-of-radiance'] }],
+    groups: [
+      { name: 'Kholin army', revealedIn: ['words-of-radiance'] },
+      { name: "King's Guard", revealedIn: ['words-of-radiance'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  melali: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jayla-ruthar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ruthar',
+        relation: 'spouse',
+        characterId: 'ruthar',
+        revealedIn: [{ book: 'oathbringer', chapter: '27' }],
+      },
+      {
+        name: 'Relis',
+        relation: 'child',
+        characterId: 'relis-ruthar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+      {
+        name: 'Ivanar',
+        relation: 'child',
+        characterId: 'ivanar-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+  },
+  tavinar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Brightness Tavinar',
+        relation: 'unnamed',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '39' }],
+      },
+      {
+        name: 'Eylita',
+        relation: 'child',
+        characterId: 'eylita-tavinar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+  },
+  nall: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jix: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  revilar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Veden', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jeksonofnone: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Chicken',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rill: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Mercenary',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    groups: [{ name: 'Diagram', revealedIn: ['words-of-radiance'] }],
+    bonds: [],
+    relatives: [],
+  },
+  en: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '47' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  telesh: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Maid',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  rin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Veden', revealedIn: ['words-of-radiance'] }],
+    profession: [{ name: 'Guard captain', revealedIn: ['words-of-radiance'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sivi: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '67' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  taka: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+      {
+        name: "King's Guard",
+        revealedIn: [{ book: 'words-of-radiance', chapter: '80' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  shim: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Military scout',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '81' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  javih: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Captain in Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '82' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  apara: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Cael',
+        relation: 'spouse',
+        characterId: 'cael',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '85' }],
+      },
+    ],
+  },
+  'lopens-mother': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Herdazian', revealedIn: ['words-of-radiance'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lopen',
+        relation: 'child',
+        characterId: 'lopen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '12' }],
+      },
+      {
+        name: 'Chilinko',
+        relation: 'relative',
+        characterId: 'chilinko',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        name: 'Huio',
+        relation: 'relative',
+        characterId: 'huio',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        name: 'Punio',
+        relation: 'relative',
+        characterId: 'punio',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        name: 'Rod',
+        relation: 'relative',
+        characterId: 'rod-roshar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+  },
+  pama: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '88' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Sons of Honor', revealedIn: ['words-of-radiance'] }],
+    bonds: [],
+    relatives: [],
+  },
+  nissiqqan: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Tashikki', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rez: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Guard', revealedIn: [{ book: 'edgedancer', chapter: '3' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tiqqa: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Tashikki', revealedIn: [{ book: 'edgedancer', chapter: '8' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  huisi: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gitgeth: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['oathbringer'] }],
+    abilities: [],
+    nationality: [{ name: 'Listener', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brianlia: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['oathbringer'] }],
+    abilities: [],
+    nationality: [{ name: 'Listener', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yezriar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+    },
+    aliases: [
+      {
+        name: 'Crown prince',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jenin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dym: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '3' }] },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  toravi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '6' }] },
+    ],
+    profession: [
+      { name: 'Farmer', revealedIn: [{ book: 'oathbringer', chapter: '6' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zeheb: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Ardent', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'tanalans-mother': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Tanalan',
+        relation: 'child',
+        characterId: 'tanalan',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  febin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '11' }] },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kelerand: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    profession: [
+      {
+        name: 'Ardent and Swordmaster',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'aratin-khal': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'General Khal',
+        relation: 'parent',
+        characterId: 'general-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Teshav',
+        relation: 'parent',
+        characterId: 'teshav-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Halam',
+        relation: 'sibling',
+        characterId: 'halam-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Meleran',
+        relation: 'sibling',
+        characterId: 'meleran-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Idani',
+        relation: 'cousin',
+        characterId: 'idani',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  rembrinor: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ton-singer': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['oathbringer'] }],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '17' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sullik: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Bartender', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  betha: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Thug', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hesh: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rien: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  puuli: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Lighthouse keeper',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ellista: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent in the Devotary of the Mind',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bettam: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent in the Devotary of the Mind',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  urv: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    profession: [
+      {
+        name: 'Ardent in the Devotary of the Mind',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'starfalls-stoneward': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '52' }] },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward',
+        revealedIn: [{ book: 'oathbringer', chapter: '38' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Order of Stonewards)',
+        revealedIn: [{ book: 'oathbringer', chapter: '38' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'starfalls-windrunner': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '52' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Order of Windrunners)',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vevidar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '35' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '35' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '35' }] },
+      {
+        name: 'Quartermaster',
+        revealedIn: [{ book: 'oathbringer', chapter: '35' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hathan: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '36' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '36' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '36' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Master-servant', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  star: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Unkalaki', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Gift',
+        relation: 'sibling',
+        characterId: 'gift',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Cord',
+        relation: 'sibling',
+        characterId: 'cord',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Rock',
+        relation: 'sibling',
+        characterId: 'rock-junior',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'sibling',
+        characterId: 'kumatiki',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'sibling',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  kumatiki: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Unkalaki', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Gift',
+        relation: 'sibling',
+        characterId: 'gift',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Cord',
+        relation: 'sibling',
+        characterId: 'cord',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Rock',
+        relation: 'sibling',
+        characterId: 'rock-junior',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Star',
+        relation: 'sibling',
+        characterId: 'star',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'sibling',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  'rock-junior': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Unkalaki', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'parent',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tuaka',
+        relation: 'parent',
+        characterId: 'tuaka',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Gift',
+        relation: 'sibling',
+        characterId: 'gift',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Cord',
+        relation: 'sibling',
+        characterId: 'cord',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: 'Star',
+        relation: 'sibling',
+        characterId: 'star',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Kuma'tiki",
+        relation: 'sibling',
+        characterId: 'kumatiki',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Beautiful Song',
+        relation: 'sibling',
+        characterId: 'beautiful-song',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  'malad-son-zent': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '38' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zendid: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '40' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  febrth: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'oathbringer', chapter: '43' }] },
+    ],
+    profession: [],
+    groups: [
+      { name: 'Diagram', revealedIn: [{ book: 'oathbringer', chapter: '43' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  fia: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Diagram', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  guff: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Wheelwright',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  paladar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Loradar Vamah',
+        relation: 'relative',
+        characterId: 'loradar-vamah',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+  },
+  makh: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Wrestler',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ishal: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'oathbringer', chapter: '49' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jasalai: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [{ name: 'Kholin army', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  helt: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '51' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Master-servant', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  droz: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Liaforan',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }],
+      },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'oathbringer', chapter: 'i-4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aharat: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '118' }] },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: '118' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mrun: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  altoki: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hariel: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['oathbringer'] }],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: 'i-6' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  horinar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '71' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '71' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '71' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['oathbringer'] }],
+    groups: [
+      { name: 'Kholin army', revealedIn: ['oathbringer'] },
+      { name: "Dalinar's elites", revealedIn: ['oathbringer'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nananav: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    profession: [
+      {
+        name: 'Mistress of Rockfall',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hid: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '73' }] },
+    ],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '73' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vardinar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '79' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '79' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '79' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '79' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '79' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  hadinar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Battalionlord',
+        revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholinar Wall Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ithi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '81' }] },
+    ],
+    abilities: [{ name: 'Soulcaster (Savant)', revealedIn: ['oathbringer'] }],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [{ name: 'Ardent', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shaday: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+    },
+    aliases: [{ name: 'Highlord of Alethkar', revealedIn: ['oathbringer'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dod: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    profession: [
+      {
+        name: 'Palace guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jali: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '84' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '84' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mem: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jerono: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-10' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kwati: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '92' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Marabethian', revealedIn: ['oathbringer'] }],
+    profession: [
+      {
+        name: 'Minister',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tasinar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Slaver', revealedIn: [{ book: 'oathbringer', chapter: '97' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  riino: {
+    appearsIn: [
+      {
+        bookId: 'elantris',
+        revealedIn: [
+          { all: ['elantris', { book: 'oathbringer', chapter: '97' }] },
+        ],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '97' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [
+        { all: ['elantris', { book: 'oathbringer', chapter: '97' }] },
+      ],
+    },
+    aliases: [
+      {
+        name: 'Rii Oracle',
+        revealedIn: [{ book: 'oathbringer', chapter: '97' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Elantrian',
+        revealedIn: [
+          { all: ['elantris', { book: 'oathbringer', chapter: '97' }] },
+        ],
+      },
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '97' }] },
+    ],
+    abilities: [
+      {
+        name: 'AonDor',
+        revealedIn: [
+          { all: ['elantris', { book: 'oathbringer', chapter: '97' }] },
+        ],
+      },
+      { name: 'Worldhopper', revealedIn: ['oathbringer'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  warren: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [
+      {
+        name: 'Master Skybreaker',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+      { name: 'Shardbearer', revealedIn: ['oathbringer'] },
+    ],
+    nationality: [{ name: 'Azish', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Skybreakers)',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  joret: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Skybreakers',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Skybreaker squire',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  cali: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Skybreakers',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Skybreaker squire',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zedzil: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Skybreakers',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Skybreaker squire', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  fari: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Skybreakers',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Skybreaker squire', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  ty: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '98' }] },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Skybreakers',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Skybreaker squire',
+        revealedIn: [{ book: 'oathbringer', chapter: '98' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  geved: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '100' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '100' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'icos-father': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '101' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '101' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '101' }] },
+      {
+        name: 'Reacher',
+        revealedIn: [{ book: 'oathbringer', chapter: '101' }],
+      },
+    ],
+    abilities: [{ name: 'Willshaper magic', revealedIn: ['rhythm-of-war'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ico',
+        relation: 'child',
+        characterId: 'ico',
+        revealedIn: [{ book: 'oathbringer', chapter: '101' }],
+      },
+    ],
+  },
+  kyril: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '102' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '102' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '102' }] },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: '102' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  urian: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+    },
+    aliases: [{ name: 'Highprince of Jah Keved', revealedIn: ['oathbringer'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '107' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '107' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  borea: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '108' }],
+    },
+    aliases: [{ name: 'First mate', revealedIn: ['oathbringer'] }],
+    species: [{ name: 'Honorspren', revealedIn: ['oathbringer'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  creer: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '109' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '109' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '109' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [{ name: 'Bridge Twenty', revealedIn: ['oathbringer'] }],
+    bonds: [],
+    relatives: [],
+  },
+  gol: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '112' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '112' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '112' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'oathbringer', chapter: '112' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'oathbringer', chapter: '112' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  wmlak: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Porter',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tlik: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Security guard',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fladm: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    profession: [{ name: 'Security guard', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  unoqua: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+    },
+    aliases: [{ name: 'Scion', revealedIn: ['oathbringer'] }],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '116' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Azish', revealedIn: ['oathbringer'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vono: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '116' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'oathbringer', chapter: '116' }] },
+    ],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'oathbringer', chapter: '116' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abaray: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '118' }] },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: '118' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hrdalm: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hnanan: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  devmrh: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scribe', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vldgen: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '121' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: '121' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nam: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pal: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kheni: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Cob',
+        relation: 'spouse',
+        characterId: 'cob-roshar',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  'cob-roshar': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Kheni',
+        relation: 'spouse',
+        characterId: 'kheni',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  vatwha: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['oathbringer'] }],
+    abilities: [{ name: 'Fused (Shanay-im)', revealedIn: ['oathbringer'] }],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dok: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['dawnshard'] }],
+    profession: [{ name: 'Sailor', revealedIn: ['dawnshard'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brekv: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  smta: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Captain',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'dawnshard', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yelamaiszin: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '6' }],
+      },
+    ],
+    aliases: [
+      { name: 'First', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+      { name: 'Sleepless', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Aimian', revealedIn: ['dawnshard'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zyardil: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Sleepless', revealedIn: [{ book: 'dawnshard', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alstben: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Thaylen', revealedIn: ['dawnshard'] }],
+    profession: [{ name: 'Sailor', revealedIn: ['dawnshard'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chanrm: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Vstim',
+        relation: 'uncle',
+        characterId: 'vstim',
+        revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+      },
+    ],
+  },
+  turlm: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vlxim: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  wvlan: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  klisn: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '11' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '11' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pluv: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Thaylen', revealedIn: ['dawnshard'] }],
+    profession: [{ name: 'Sailor', revealedIn: ['dawnshard'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  maratham: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  durnash: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dor: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leven: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }] },
+    ],
+    profession: [
+      {
+        name: 'Cobbler',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jeber: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'rhythm-of-war', chapter: '8' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mel: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Barmaid', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dakhnah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scribe', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kryst: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jor',
+        relation: 'spouse',
+        characterId: 'jor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+  },
+  uriam: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jeshishin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Shanay-im)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lahar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  benneh: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Scholar and Ardent', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  urad: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '21' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ledder: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '22' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hawin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mil: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '23' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  anesa: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  badali: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }] },
+    ],
+    abilities: [{ name: 'Stoneward', revealedIn: ['rhythm-of-war'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Knights Radiant (Stoneward)', revealedIn: ['rhythm-of-war'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'inkspren-shopkeeper': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Inkspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '29' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lorain: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }] },
+    ],
+    abilities: [
+      {
+        name: 'Edgedancer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Edgedancers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  shuanor: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gavri: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  radathavian: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ulvlk: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    profession: [{ name: 'Artifabrian', revealedIn: ['rhythm-of-war'] }],
+    groups: [
+      {
+        name: 'Vriztl Guild',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vrandl: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    profession: [{ name: 'Artifabrian', revealedIn: ['rhythm-of-war'] }],
+    groups: [{ name: 'Vriztl Guild', revealedIn: ['rhythm-of-war'] }],
+    bonds: [],
+    relatives: [],
+  },
+  alili: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '43' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Master-servant',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '43' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  omal: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }] },
+    ],
+    profession: [
+      {
+        name: 'Military officer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  husal: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Council of Five',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '62' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dianil: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sharefel: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dolimid: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '68' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [{ name: 'Listener', revealedIn: ['rhythm-of-war'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  martra: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '71' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '71' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '71' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scribe',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '71' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jial: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '74' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '74' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '74' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vaiu: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alvettaren: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '75' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  denshil: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Farmer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mikaim: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '86' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [{ name: 'Listener', revealedIn: ['rhythm-of-war'] }],
+    profession: [
+      { name: 'Scholar', revealedIn: ['rhythm-of-war'] },
+      { name: 'Surgeon', revealedIn: ['rhythm-of-war'] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mizthla: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '89' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '89' }],
+    },
+    aliases: [
+      { name: 'Dah', revealedIn: [{ book: 'rhythm-of-war', chapter: '89' }] },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '89' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  veratorim: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '90' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '90' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '90' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  faridai: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '95' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '95' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '95' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '95' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  liganor: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Potter', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  malal: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '107' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '107' }],
+    },
+    aliases: [],
+    species: [{ name: 'Singer', revealedIn: ['rhythm-of-war'] }],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['rhythm-of-war'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gor: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '108' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  mela: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  vespan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pabolon: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hendit: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  fladrn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+    },
+    aliases: [{ name: 'Admiral', revealedIn: ['wind-and-truth'] }],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+    ],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kzal: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '20' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '20' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Vizier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '20' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  array: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [{ name: 'Cryptic', revealedIn: ['wind-and-truth'] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [{ name: 'Red', revealedIn: ['wind-and-truth'] }],
+    relatives: [],
+  },
+  bippy: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '23' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'icy-tongue': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '25' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  heshual: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+    },
+    aliases: [
+      {
+        name: 'Govi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gerenor: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  isalor: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kappak: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dal: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Armorer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Geb',
+        relation: 'parent',
+        characterId: 'geb',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+  },
+  ulak: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Bouncer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  makana: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scribe',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '50' }],
+      },
+    ],
+    groups: [{ name: 'Kholin army', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  'betheth-son-vetor': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  donalar: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '52' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      { name: 'Donalar', relation: 'parent', revealedIn: ['wind-and-truth'] },
+      { name: 'Donalar', relation: 'ancestor', revealedIn: ['wind-and-truth'] },
+    ],
+  },
+  elodi: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '55' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rowalan: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '56' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  szrand: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Sergeant',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jathen: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '59' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  challa: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Scribe', revealedIn: ['wind-and-truth'] }],
+    groups: [{ name: 'Kholin army', revealedIn: ['wind-and-truth'] }],
+    bonds: [],
+    relatives: [],
+  },
+  atakin: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fishev: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gamma: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '63' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dyel: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ym',
+        relation: 'ancestor',
+        characterId: 'ym',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+  },
+  'dyels-mother': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Truthwatcher',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+      { name: 'Shardbearer', revealedIn: ['wind-and-truth'] },
+      { name: 'Worldhopper', revealedIn: ['wind-and-truth'] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Uma',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    relatives: [
+      {
+        name: 'Ym',
+        relation: 'parent',
+        characterId: 'ym',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+      {
+        name: 'Dyel',
+        relation: 'child',
+        characterId: 'dyel',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+  },
+  uma: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [{ name: 'Mistspren', revealedIn: ['wind-and-truth'] }],
+    abilities: [
+      { name: 'Truthwatcher magic', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Splinter of Honor and Cultivation',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Ym', revealedIn: [{ book: 'wind-and-truth', chapter: 'i-11' }] },
+    ],
+    relatives: [],
+  },
+  kalleb: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '81' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '81' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Radiant squire for Order of Windrunners',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '81' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chella: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    abilities: [{ name: 'Edgedancer', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Knights Radiant (Edgedancers)', revealedIn: ['wind-and-truth'] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'general-habrinar': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '90' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'faraz-daughter-daraz': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '98' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '98' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '98' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  brakt: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Patent official',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ytredn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Thaylen', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Patent official', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'thal-son-geord': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Shin',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'visk-daughter-brador': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '106' }],
+      },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Shin', revealedIn: ['wind-and-truth'] }],
+    profession: [{ name: 'Soldier', revealedIn: ['wind-and-truth'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  drodli: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '111' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '111' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '111' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jakkik: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Doctor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ulaam: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: '12' }],
+      },
+      { bookId: 'tress', revealedIn: [{ book: 'tress', chapter: '15' }] },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [
+        { book: 'lost-metal', chapter: '12' },
+        { all: ['final-empire', { book: 'tress', chapter: '57' }] },
+        { book: 'wind-and-truth', chapter: '147' },
+      ],
+    },
+    aliases: [],
+    species: [
+      { name: 'Kandra', revealedIn: [{ book: 'tress', chapter: '57' }] },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          { book: 'tress', chapter: '22' },
+          { book: 'wind-and-truth', chapter: '147' },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'miss-grimes': {
+    appearsIn: [
+      {
+        bookId: 'alloy-of-law',
+        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+      },
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '7' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'alloy-of-law', chapter: '2' },
+          { book: 'wind-and-truth', chapter: 'epilogue' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Steward',
+        revealedIn: [
+          { book: 'alloy-of-law', chapter: '2' },
+          { book: 'wind-and-truth', chapter: 'epilogue' },
+        ],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sadees: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [
+      {
+        name: 'King of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        name: 'Sunmaker',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '11' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  thanadal: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '18' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Sons of Honor',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  wistiow: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+    aliases: [
+      {
+        name: 'Citylord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Laral',
+        relation: 'child',
+        characterId: 'laral-roshone',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+  },
+  savrahalidem: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+    },
+    aliases: [
+      { name: 'Savri', revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }] },
+      {
+        name: 'Queen of Kharbranth',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Taravangian',
+        relation: 'parent',
+        characterId: 'taravangian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Karavangia',
+        relation: 'relative',
+        characterId: 'karavangia',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Gvori',
+        relation: 'relative',
+        characterId: 'gvori',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Ruli',
+        relation: 'relative',
+        characterId: 'ruli',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  goshel: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '86' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ashno: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+    },
+    aliases: [
+      {
+        name: 'Ashno of Sages',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
+      },
+      {
+        name: 'Prime of Emul',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Emuli',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ruli: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gvori',
+        relation: 'relative',
+        characterId: 'gvori',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Karavangia',
+        relation: 'relative',
+        characterId: 'karavangia',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Taravangian',
+        relation: 'ancestor',
+        characterId: 'taravangian',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+  },
+  night: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dandos-heraldin': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '27' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+    },
+    aliases: [
+      {
+        name: 'Oilsworn',
+        revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aona: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+      { name: 'Vessel of Devotion', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  moelach: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '88' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '74' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Spren', revealedIn: [{ book: 'oathbringer', chapter: '101' }] },
+    ],
+    abilities: [
+      {
+        name: 'Splinter of Odium',
+        revealedIn: [{ book: 'oathbringer', chapter: '101' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      { name: 'Unmade', revealedIn: [{ book: 'oathbringer', chapter: '101' }] },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  screech: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Skyeel', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  relador: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knight Radiant (Windrunners)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Sylphrena',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-1' }],
+      },
+    ],
+    relatives: [],
+  },
+  durk: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '43' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  derethil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '110' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '57' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yenev: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '8' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pedin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '118' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '86' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'roions-son': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Alethkar',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '2' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Roion',
+        relation: 'parent',
+        characterId: 'roion',
+        revealedIn: [{ book: 'oathbringer', chapter: '2' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+  },
+  'dai-gonarthis': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '88' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '88' }],
+    },
+    aliases: [
+      {
+        name: 'Black Fisher',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Splinter of Odium',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Unmade',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  gvori: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Student',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Karavangia',
+        relation: 'relative',
+        characterId: 'karavangia',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Ruli',
+        relation: 'relative',
+        characterId: 'ruli',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Savrahalidem',
+        relation: 'relative',
+        characterId: 'savrahalidem',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+      {
+        name: 'Taravangian',
+        relation: 'ancestor',
+        characterId: 'taravangian',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+  },
+  karavangia: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+    },
+    aliases: [
+      {
+        name: 'Karavaniga',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '122' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gvori',
+        relation: 'relative',
+        characterId: 'gvori',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Ruli',
+        relation: 'relative',
+        characterId: 'ruli',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+      {
+        name: 'Taravangian',
+        relation: 'ancestor',
+        characterId: 'taravangian',
+        revealedIn: [{ book: 'oathbringer', chapter: '122' }],
+      },
+    ],
+  },
+  isom: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }] },
+    ],
+    abilities: [
+      {
+        name: 'Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  ethenia: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '30' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      {
+        name: 'Leyten',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '30' }],
+      },
+    ],
+    relatives: [],
+  },
+  hallaw: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    profession: [
+      {
+        name: 'Military commander',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  placini: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gabrathin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  yustara: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  manaline: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Philosopher',
+        revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'shauka-daughter-hasweth': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fabrisan: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jam-hearthstone': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  deeli: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  heb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Taffa',
+        relation: 'spouse',
+        characterId: 'taffa',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        name: 'Seeli',
+        relation: 'child',
+        characterId: 'seeli',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+    ],
+  },
+  harkaylain: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  skai: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['wind-and-truth'] },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '22' }] },
+      { name: 'Vessel of Dominion', revealedIn: ['wind-and-truth'] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bavadin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Trell',
+        revealedIn: [{ all: ['lost-metal', 'wind-and-truth'] }],
+      },
+      {
+        name: 'Autonomy',
+        revealedIn: [{ all: ['lost-metal', 'wind-and-truth'] }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '23' }] },
+      {
+        name: 'Vessel of Autonomy',
+        revealedIn: [{ all: ['lost-metal', 'wind-and-truth'] }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  miliv: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Head Steward',
+        revealedIn: [{ book: 'way-of-kings', chapter: '25' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  masly: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  coldwin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hasavah: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ral: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '31' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '31' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '31' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talatin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    abilities: [
+      {
+        name: 'Stoneward',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Stoneward)',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  guvlow: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cormshen: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '48' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lanacin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+    },
+    aliases: [
+      {
+        name: 'Lanacin the Surefooted',
+        revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '51' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'evod-markmaker': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '51' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '51' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  karm: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '109' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '60' }] },
+    ],
+    abilities: [
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alai: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talanor: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pandri: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Government Official',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-9' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mara: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '6' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '6' }] },
+    ],
+    profession: [
+      {
+        name: 'Apprentice surgeon',
+        revealedIn: [{ book: 'oathbringer', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  velalant: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'kaves-kholin': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Gavilar',
+        relation: 'relative',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Dalinar',
+        relation: 'relative',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Elhokar',
+        relation: 'relative',
+        characterId: 'elhokar-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Jasnah',
+        relation: 'relative',
+        characterId: 'jasnah-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Adolin',
+        relation: 'relative',
+        characterId: 'adolin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Renarin',
+        relation: 'relative',
+        characterId: 'renarin-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+      {
+        name: 'Gavinor',
+        relation: 'relative',
+        characterId: 'gavinor-kholin',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+  },
+  'meleran-khal': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '69' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '69' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'General Khal',
+        relation: 'parent',
+        characterId: 'general-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Teshav',
+        relation: 'parent',
+        characterId: 'teshav-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Halam',
+        relation: 'sibling',
+        characterId: 'halam-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '69' }],
+      },
+      {
+        name: 'Aratin',
+        relation: 'sibling',
+        characterId: 'aratin-khal',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        name: 'Idani',
+        relation: 'cousin',
+        characterId: 'idani',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  shashara: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '29' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'warbreaker', chapter: '29' },
+          { book: 'oathbringer', chapter: '92' },
+        ],
+      },
+      {
+        name: 'Returned',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Awakener',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Five Scholars',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Denth',
+        relation: 'sibling',
+        characterId: 'denth',
+        revealedIn: [{ book: 'warbreaker', chapter: '53' }],
+      },
+      {
+        name: 'Vasher',
+        relation: 'spouse',
+        characterId: 'vasher',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  tshadr: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Highguard',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chanasha-hasareh': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vratim: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knight Radiant (Windrunners)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    bonds: [
+      {
+        name: 'Yunfah',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '10' }],
+      },
+    ],
+    relatives: [],
+  },
+  frost: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+      },
+      {
+        bookId: 'isles-of-the-emberdark',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Dragon (cosmere)',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Illistandrista',
+        relation: 'relative',
+        characterId: 'illistandrista',
+        revealedIn: [{ book: 'isles-of-the-emberdark', chapter: 'prologue' }],
+      },
+    ],
+  },
+  fleet: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '64' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'uli-da': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Ambition',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Vessel of Ambition',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  billid: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '119' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '119' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '119' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '119' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kusiri: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  katarotam: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tormas: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Philosopher',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nashan: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  syasikk: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Philosopher',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'barlesha-lhan': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'way-of-kings', chapter: '5' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lhanin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Ardent', revealedIn: ['way-of-kings'] }],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rencalt: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  barmest: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'way-of-kings', chapter: '8' }] },
+    ],
+    profession: [
+      {
+        name: 'Bookseller',
+        revealedIn: [{ book: 'way-of-kings', chapter: '8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hammie: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vathe: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+      },
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Doctor', revealedIn: [{ book: 'way-of-kings', chapter: '17' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  avado: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Merchant',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'i-3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rilla: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talata: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'way-of-kings', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alim: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '20' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '20' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  litima: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ashelem: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '26' }] },
+    ],
+    profession: [
+      {
+        name: 'Archerlord in Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '26' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kalana: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Engineer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'brightlord-morakotha': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [
+      {
+        name: 'Brightlord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    profession: [
+      { name: 'Officer in Kholin army', revealedIn: ['way-of-kings'] },
+    ],
+    groups: [{ name: 'Kholin army', revealedIn: ['way-of-kings'] }],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Danlan',
+        relation: 'child',
+        characterId: 'danlan-morakotha',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+  },
+  lalai: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '28' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Torol Sadeas',
+        relation: 'relative',
+        characterId: 'torol-sadeas',
+        revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
+      },
+    ],
+  },
+  mederia: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gavarah: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gregorh: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [
+      { name: 'King', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  varas: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar in the Palanaeum',
+        revealedIn: [{ book: 'way-of-kings', chapter: '29' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Taravangian',
+        relation: 'relative',
+        characterId: 'taravangian',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+  },
+  myalmr: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+      {
+        name: 'Scientist',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  habsant: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'way-of-kings', chapter: '33' }] },
+    ],
+    groups: [
+      {
+        name: 'Devotary of Insight',
+        revealedIn: [{ book: 'way-of-kings', chapter: '33' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'mabrow-pigherder': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '37' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'gashash-son-navammis': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '38' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '38' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alezarv: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '39' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  calinam: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+      },
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '39' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sur-kamar': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '39' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'way-of-kings', chapter: '39' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  idolir: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  treff: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  alds: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '41' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '41' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '41' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '41' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  milp: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '41' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '41' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '41' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '41' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  innia: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '42' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '42' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  agil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: "Conscripted into Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Marf',
+        relation: 'parent',
+        characterId: 'marf',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  marf: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Agil',
+        relation: 'child',
+        characterId: 'agil',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  caull: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: "Conscripted into Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Taleb',
+        relation: 'parent',
+        characterId: 'taleb',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  taleb: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Caull',
+        relation: 'child',
+        characterId: 'caull',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  habrin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: "Conscripted into Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Arafik',
+        relation: 'parent',
+        characterId: 'arafik',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  arafik: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Habrin',
+        relation: 'child',
+        characterId: 'habrin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  jorna: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [
+      {
+        name: "Conscripted into Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Loats',
+        relation: 'parent',
+        characterId: 'loats',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  loats: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '44' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Jorna',
+        relation: 'child',
+        characterId: 'jorna',
+        revealedIn: [{ book: 'way-of-kings', chapter: '44' }],
+      },
+    ],
+  },
+  traxil: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '93' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+    },
+    aliases: [
+      { name: 'Taxil', revealedIn: [{ book: 'oathbringer', chapter: '93' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tifandor: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Biographer',
+        revealedIn: [{ book: 'way-of-kings', chapter: '45' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tivbet: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  terxim: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Author', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  delp: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'reral-makoram': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '46' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  galan: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    profession: [
+      {
+        name: "Soldier in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  norby: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+    },
+    aliases: [
+      {
+        name: 'Captainlord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '47' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Officer in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '47' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  allahn: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Poet', revealedIn: [{ book: 'way-of-kings', chapter: '49' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  extes: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '49' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '49' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  leef: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '52' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alazansi: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+    },
+    aliases: [
+      {
+        name: 'Brightking',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '55' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  arik: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '57' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Bridgeman',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  nafti: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '57' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Uvara', revealedIn: [{ book: 'way-of-kings', chapter: '57' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  longshadow: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '60' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  alakavish: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '60' }] },
+    ],
+    abilities: [
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'way-of-kings', chapter: '60' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tashlin: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+    },
+    aliases: [
+      {
+        name: 'Companylord',
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: "Officer in Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Amaram's army",
+        revealedIn: [{ book: 'way-of-kings', chapter: '67' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  beznk: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Sailor',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  naladan: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Naturalist',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '1' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  namar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'zen-daughter-vath': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '3' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  caeb: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '4' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shubalai: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '6' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tinalar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '14' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kalishor: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nakal: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '22' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  abrial: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  evinor: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jal-mala': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '31' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  epinar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '37' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  avena: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '38' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  si: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '42' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  madasa: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  raninor: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+    },
+    aliases: [
+      {
+        name: 'Raninor of the Fields',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '44' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hasheh: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ren: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '45' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  simol: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'vet-roshar': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Bridge Eighteen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '46' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  invia: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '50' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '50' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  corberon: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  stine: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '52' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  beal: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Guardsman',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  levrin: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'sudi-valam': {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Valam',
+        relation: 'parent',
+        characterId: 'valam',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+      {
+        name: 'Redin',
+        relation: 'sibling',
+        characterId: 'redin',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+  },
+  ten: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Guard',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '61' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shoren: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '63' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  oolelen: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  boriar: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+    },
+    aliases: [
+      {
+        name: 'Highprince of Jah Keved',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Veden',
+        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  eleseth: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '78' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chilinko: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+      { bookId: 'king-lopen', revealedIn: ['king-lopen'] },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Herdazian',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lopen',
+        relation: 'relative',
+        characterId: 'lopen',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '87' }],
+      },
+    ],
+  },
+  bidlel: {
+    appearsIn: [
+      {
+        bookId: 'edgedancer',
+        revealedIn: [{ book: 'edgedancer', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'edgedancer', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'edgedancer', chapter: '15' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Tashikki', revealedIn: [{ book: 'edgedancer', chapter: '15' }] },
+    ],
+    profession: [
+      { name: 'Scribe', revealedIn: [{ book: 'edgedancer', chapter: '15' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  chanada: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'oathbringer', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tallan: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '9' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  sot: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  khem: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '10' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '10' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '10' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  harth: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '16' }] },
+    ],
+    profession: [
+      {
+        name: 'Sword trainer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ned: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Rem',
+        relation: 'spouse',
+        characterId: 'rem',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+  },
+  rem: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '18' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ned',
+        relation: 'spouse',
+        characterId: 'ned',
+        revealedIn: [{ book: 'oathbringer', chapter: '18' }],
+      },
+    ],
+  },
+  'shubreth-son-mashalan': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gallam: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '26' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dilid: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  halad: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+    },
+    aliases: [
+      {
+        name: 'Highmarshal of Alethkar',
+        revealedIn: [{ book: 'oathbringer', chapter: '29' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '29' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '29' }] },
+    ],
+    profession: [
+      { name: 'Soldier', revealedIn: [{ book: 'oathbringer', chapter: '29' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sakin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'au-lam': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Natan', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'hema-dak': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Natan', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'drummer-brothers': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Natan', revealedIn: [{ book: 'oathbringer', chapter: 'i-1' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bendthel: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fiksin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-2' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  shishi: {
+    appearsIn: [
+      { bookId: 'yumi', revealedIn: [{ book: 'yumi', chapter: '16' }] },
+    ],
+    world: {
+      planetId: 'komashi',
+      revealedIn: [{ book: 'yumi', chapter: '16' }],
+    },
+    aliases: [],
+    species: [{ name: 'Human', revealedIn: [{ book: 'yumi', chapter: '16' }] }],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kefha: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [
+      {
+        name: "Rock's nuatoma",
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'relative',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+  },
+  tifi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'relative',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: "Sinaku'a",
+        relation: 'relative',
+        characterId: 'sinakua',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+  },
+  sinakua: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Unkalaki',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Lunamor',
+        relation: 'relative',
+        characterId: 'lunamor',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: "Kef'ha",
+        relation: 'relative',
+        characterId: 'kefha',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+      {
+        name: 'Tifi',
+        relation: 'relative',
+        characterId: 'tifi',
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
+      },
+    ],
+  },
+  hamaradin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '40' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '40' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  galid: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '44' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '44' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'oathbringer', chapter: '44' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  bru: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Singer', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'jam-caravaneer': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '45' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '45' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  koen: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '46' }] },
+    ],
+    abilities: [
+      {
+        name: 'Windrunner',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '46' }] },
+    ],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Windrunner)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        name: 'Bridge Four',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+      {
+        name: 'Kholin army',
+        revealedIn: [{ book: 'oathbringer', chapter: '46' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  insah: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '50' }] },
+    ],
+    profession: [
+      { name: 'Ardent', revealedIn: [{ book: 'oathbringer', chapter: '50' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nankhet: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'NanHar',
+        relation: 'sibling',
+        characterId: 'nanhar',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+  },
+  'natata-ved': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+    },
+    aliases: [
+      { name: 'Oileyes', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nanhar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '53' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'NanKhet',
+        relation: 'sibling',
+        characterId: 'nankhet',
+        revealedIn: [{ book: 'oathbringer', chapter: '53' }],
+      },
+    ],
+  },
+  da: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '54' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '54' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [{ name: 'Silversmith', revealedIn: ['oathbringer'] }],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Ana',
+        relation: 'spouse',
+        characterId: 'ana',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  },
+  'masha-daughter-shaliv': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '56' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Szeth-son-Neturo',
+        relation: 'spouse',
+        characterId: 'szeth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+  },
+  dovcanti: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '56' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '56' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Poet', revealedIn: [{ book: 'oathbringer', chapter: '56' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  golombi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-5' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aqqu: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kasimarlix: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+    },
+    aliases: [
+      { name: 'Prime', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  snoxil: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+    },
+    aliases: [
+      {
+        name: 'Prime Aqasix Snoxil',
+        revealedIn: [{ book: 'oathbringer', chapter: '65' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '65' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tsa: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '67' }],
+    },
+    aliases: [
+      { name: 'Queen', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Natan', revealedIn: [{ book: 'oathbringer', chapter: '67' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jom: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '72' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '72' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ma: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '74' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  seland: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '74' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '74' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '74' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hessi: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '77' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '77' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'oathbringer', chapter: '77' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tai: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '80' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '80' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '80' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  urimil: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '83' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  condwish: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Accountant',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-8' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tenathar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '88' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '88' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '88' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '88' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  winnow: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Highspren',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Skybreaker magic',
+        revealedIn: [{ book: 'oathbringer', chapter: '92' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [
+      { name: 'Ki', revealedIn: [{ book: 'oathbringer', chapter: '92' }] },
+    ],
+    relatives: [],
+  },
+  bavamar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '99' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '99' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '99' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'oathbringer', chapter: '99' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nalanar: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '100' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Veden', revealedIn: [{ book: 'oathbringer', chapter: '100' }] },
+    ],
+    profession: [
+      {
+        name: 'Military officer',
+        revealedIn: [{ book: 'oathbringer', chapter: '100' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nenefra: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '102' }],
+      },
+    ],
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '102' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Artist', revealedIn: [{ book: 'oathbringer', chapter: '102' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lani: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '103' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '103' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '103' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  joshor: {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'endnote' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: 'endnote' }],
+    },
+    aliases: [
+      {
+        name: 'Head of His Majesty’s Silent Gatherers',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'endnote' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'endnote' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Researcher',
+        revealedIn: [{ book: 'way-of-kings', chapter: 'endnote' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'oathbringer', chapter: '107' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  zetah: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+    },
+    aliases: [
+      {
+        name: 'Zetah the Voiced',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '111' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hmalka: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: 'i-13' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  estnatil: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hamadin: {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '120' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'oathbringer', chapter: '120' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  mura: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '1' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Azish', revealedIn: [{ book: 'dawnshard', chapter: '5' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  flend: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nlan: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '4' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '4' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  pleadix: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '9' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '9' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      { name: 'Scholar', revealedIn: [{ book: 'dawnshard', chapter: '9' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  longbrow: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: '17' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: '17' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'dawnshard', chapter: '17' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Thaylen', revealedIn: [{ book: 'dawnshard', chapter: '17' }] },
+    ],
+    profession: [
+      { name: 'Sailor', revealedIn: [{ book: 'dawnshard', chapter: '17' }] },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  fleeta: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lond: {
+    appearsIn: [
+      {
+        bookId: 'dawnshard',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'dawnshard', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talanah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'rine-hatham': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+    },
+    aliases: [
+      {
+        name: 'Highlord',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'prologue' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hem: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Barmaid',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '12' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talanan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '13' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zandiel: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '14' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dali: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  sebasinar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Scholar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '19' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  delgo: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Diagram',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-3' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yara: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '25' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  den: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '26' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  idani: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'General Khal',
+        relation: 'relative',
+        characterId: 'general-khal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+      {
+        name: 'Teshav',
+        relation: 'relative',
+        characterId: 'teshav-khal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+      {
+        name: 'Halam',
+        relation: 'relative',
+        characterId: 'halam-khal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+      {
+        name: 'Aratin',
+        relation: 'relative',
+        characterId: 'aratin-khal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+      {
+        name: 'Meleran',
+        relation: 'relative',
+        characterId: 'meleran-khal',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+  },
+  velinar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gulastis: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '34' }] },
+    ],
+    abilities: [],
+    nationality: [{ name: 'Alethi', revealedIn: ['rhythm-of-war'] }],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lakin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '37' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  lyon: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }] },
+    ],
+    abilities: [
+      {
+        name: 'Surgebinder',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Tower Guard',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+      {
+        name: 'Knights Radiant',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '40' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'caller-of-springs': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused (Makay-im)',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '42' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  neshan: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  inabar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Artifabrian',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  vevanara: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Ardent',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+      {
+        name: 'Engineer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '46' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'ivanar-ruthar': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }] },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Highprince Ruthar',
+        relation: 'parent',
+        characterId: 'ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Jayla',
+        relation: 'parent',
+        characterId: 'jayla-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Relis Ruthar',
+        relation: 'sibling',
+        characterId: 'relis-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+      {
+        name: 'Elit Ruthar',
+        relation: 'relative',
+        characterId: 'elit-ruthar',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
+      },
+    ],
+  },
+  alavah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ron: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  remala: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '60' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '60' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  urialin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  nistar: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '83' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'she-who-dreams': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '84' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '84' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '84' }],
+      },
+    ],
+    abilities: [
+      { name: 'Fused', revealedIn: [{ book: 'rhythm-of-war', chapter: '84' }] },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  dorolin: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '93' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  harel: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '96' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '96' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '96' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gavam: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gub: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Potter',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: 'i-11' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  iyalid: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '99' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '99' }],
+    },
+    aliases: [
+      { name: 'King', revealedIn: [{ book: 'rhythm-of-war', chapter: '99' }] },
+    ],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'rhythm-of-war', chapter: '99' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'word-of-deeds': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'night-known': {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Fused',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '105' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  riah: {
+    appearsIn: [
+      {
+        bookId: 'rhythm-of-war',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '109' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '109' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Honorspren',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '109' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  hakindar: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '15' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jeneh: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    abilities: [{ name: 'Lightweaver', revealedIn: ['wind-and-truth'] }],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Lightweavers)',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        name: 'Unseen Court',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '21' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  'dolk-son-dolk': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '24' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tek: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Parrot',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '27' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  baramaz: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Edgedancer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Knights Radiant (Edgedancers)',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '29' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  yesteel: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '55' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '35' }],
+      },
+    ],
+    world: {
+      planetId: 'nalthis',
+      revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'warbreaker', chapter: '55' },
+          { book: 'wind-and-truth', chapter: '35' },
+        ],
+      },
+      {
+        name: 'Returned',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Awakener',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Five Scholars',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Arsteel',
+        relation: 'sibling',
+        characterId: 'arsteel',
+        revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+      },
+    ],
+  },
+  precilia: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'beamlin-dorset': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  talig: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '39' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'dalinars-father': {
+    appearsIn: [
+      {
+        bookId: 'way-of-kings',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '16' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Alethi', revealedIn: [{ book: 'way-of-kings', chapter: '12' }] },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Dalinar',
+        relation: 'child',
+        characterId: 'dalinar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Gavilar',
+        relation: 'child',
+        characterId: 'gavilar-kholin',
+        revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+      },
+      {
+        name: 'Sadees',
+        relation: 'ancestor',
+        characterId: 'sadees',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+  },
+  'moash-singer': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '43' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '43' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '43' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  moore: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  reep: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Shardbearer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  grubs: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+    },
+    aliases: [
+      {
+        name: 'Sergeant at arms',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '47' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'yago-son-yargo': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '57' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '57' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  cade: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '59' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  athszen: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      { name: 'Shin', revealedIn: [{ book: 'wind-and-truth', chapter: '59' }] },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '59' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  aqqil: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '60' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kasaakam: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '61' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '61' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '61' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Azish',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '61' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  kunona: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '70' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  valithar: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '76' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '76' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '76' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gabaron: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    groups: [
+      {
+        name: 'Sadeas army',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '78' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  kazilah: {
+    appearsIn: [
+      {
+        bookId: 'words-of-radiance',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'words-of-radiance', chapter: '51' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zenaz: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '80' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'naze-daughter-kuzodo': {
+    appearsIn: [
+      {
+        bookId: 'oathbringer',
+        revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '85' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'oathbringer', chapter: '81' }],
+    },
+    aliases: [],
+    species: [
+      { name: 'Human', revealedIn: [{ book: 'oathbringer', chapter: '81' }] },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  rortel: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Alethi',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Soldier',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    groups: [
+      {
+        name: "Dalinar's elites",
+        revealedIn: [{ book: 'wind-and-truth', chapter: '88' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  crzmak: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '89' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  zoral: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+      },
+    ],
+    world: {
+      planetId: 'ashyn',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+    },
+    aliases: [
+      {
+        name: 'Voidbringer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '107' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tslamfn: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+    },
+    aliases: [
+      {
+        name: 'Tslamfn the Just',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Thaylen',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '112' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  falabratant: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '114' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '114' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '114' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Kharbranthian',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '114' }],
+      },
+    ],
+    profession: [
+      {
+        name: 'Philosopher',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '114' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  euridrius: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Reason',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+      {
+        name: 'Vessel of Reason',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  ati: {
+    appearsIn: [
+      {
+        bookId: 'secret-history',
+        revealedIn: [{ book: 'secret-history', chapter: '4-4' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+    },
+    aliases: [
+      {
+        name: 'Ruin',
+        revealedIn: [
+          { book: 'secret-history', chapter: '4-4' },
+          { book: 'wind-and-truth', chapter: '115' },
+        ],
+      },
+    ],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'secret-history', chapter: '4-4' },
+          { book: 'wind-and-truth', chapter: '115' },
+        ],
+      },
+      {
+        name: 'Vessel of Ruin',
+        revealedIn: [
+          { book: 'secret-history', chapter: '4-4' },
+          { book: 'wind-and-truth', chapter: '115' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  edgli: {
+    appearsIn: [
+      {
+        bookId: 'warbreaker',
+        revealedIn: [{ book: 'warbreaker', chapter: '32' }],
+      },
+    ],
+    aliases: [],
+    species: [],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  'chan-ko-sar': {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    world: { planetId: 'yolen', revealedIn: ['wind-and-truth'] },
+    aliases: [
+      {
+        name: 'Invention',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Vessel of Invention',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  medelantorius: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    aliases: [
+      {
+        name: 'Valor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    species: [
+      {
+        name: 'Vessel of Valor',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '115' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  skyblue: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '118' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '118' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Chasmfiend',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '118' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  toathan: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '121' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '121' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Singer',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '121' }],
+      },
+    ],
+    abilities: [],
+    nationality: [
+      {
+        name: 'Listener',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '121' }],
+      },
+    ],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  monosha: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '126' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '126' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '126' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Midwife',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '126' }],
+      },
+    ],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jerick: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    world: {
+      planetId: 'yolen',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '128' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  gasha: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  tepra: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Dragon',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '131' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  xorm: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    world: {
+      planetId: 'roshar',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Spren',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Unoathed',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    bonds: [],
+    relatives: [],
+  },
+  dlavil: {
+    appearsIn: [
+      {
+        bookId: 'lost-metal',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-1' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [
+          { all: [{ book: 'wind-and-truth', chapter: '147' }, 'lost-metal'] },
+        ],
+      },
+    ],
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'lost-metal', chapter: 'epilogue-1' },
+          { all: [{ book: 'wind-and-truth', chapter: '147' }, 'lost-metal'] },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [],
+    groups: [
+      {
+        name: 'Ghostbloods',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-1' }],
+      },
+    ],
+    bonds: [],
+    relatives: [
+      {
+        name: 'Iyatil',
+        relation: 'sibling',
+        characterId: 'iyatil',
+        revealedIn: [{ book: 'lost-metal', chapter: 'epilogue-1' }],
+      },
+    ],
+  },
+  olo: {
+    appearsIn: [
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    world: {
+      planetId: 'sel',
+      revealedIn: [
+        { all: [{ book: 'wind-and-truth', chapter: '147' }, 'elantris'] },
+        { all: [{ book: 'wind-and-truth', chapter: '147' }, 'emperors-soul'] },
+      ],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Seon',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
+      },
+    ],
+    abilities: [
+      {
+        name: 'Worldhopper',
+        revealedIn: [
+          { all: [{ book: 'wind-and-truth', chapter: '147' }, 'elantris'] },
+          {
+            all: [{ book: 'wind-and-truth', chapter: '147' }, 'emperors-soul'],
+          },
+        ],
+      },
+    ],
+    nationality: [],
+    profession: [],
+    groups: [],
+    bonds: [],
+    relatives: [],
+  },
+  jone: {
+    appearsIn: [
+      {
+        bookId: 'shadows-of-self',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+      {
+        bookId: 'wind-and-truth',
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'epilogue' }],
+      },
+    ],
+    world: {
+      planetId: 'scadrial',
+      revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+    },
+    aliases: [],
+    species: [
+      {
+        name: 'Human',
+        revealedIn: [
+          { book: 'shadows-of-self', chapter: '14' },
+          { book: 'wind-and-truth', chapter: 'epilogue' },
+        ],
+      },
+    ],
+    abilities: [],
+    nationality: [],
+    profession: [
+      {
+        name: 'Cab driver',
+        revealedIn: [{ book: 'shadows-of-self', chapter: '14' }],
+      },
+    ],
+    groups: [],
     bonds: [],
     relatives: [],
   },

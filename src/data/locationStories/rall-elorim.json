@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "The City of Shadows, the largest city in Iri, in the mountains of the north, lying beneath a mountainous overhang that keeps it in shadow most of the day.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "8" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Rall Elorim lies under a mountain overhang that shrouds it in shadow for most of the day. Because the Iriali like to gather together, it is impressively large for such a small kingdom, and it holds an Oathgate.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "8" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The city is in the far northwest of Roshar, at the north end of a small mountain range on a peninsula between the Reshi Sea and the Northern Depths, not far from Feverstone Keep. People elsewhere, such as Gawx and Kaladin, have heard tales of it as an exotic, mysterious land.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "84" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Rall Elorim flourished during the Era of Solitude, becoming one of the greatest cities on Roshar, and stories of it spread across the continent.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

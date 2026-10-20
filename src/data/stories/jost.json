@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A darkeyed young man from Hearthstone who grew up with Kaladin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "way-of-kings", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jost's parents are farmers, and his father was once a soldier. As a boy, Jost worked in the lavis fields outside Hearthstone and played with other children, including his brother Jest. Like them he resented that Kaladin stayed indoors, not realising how hard he studied.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "In 1166 Jost claimed his father should have won a Shardblade in the wastescum skirmishes. When Kaladin doubted it, Jost challenged him to a fight with staves. Untrained, Kaladin landed several blows and lost only because he held back. Jost admitted he'd done well, but refused to train him, saying Lirin wouldn't allow it.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }]
+        },
+        {
+          "text": "In 1168, aged sixteen or seventeen, Jost volunteered for Amaram's army with Abry and other Hearthstone youths, though his mother needed his help with the crops.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "At fourteen he already has a man's body, with a broad chest and thick, stocky legs like his father's.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He resents Kaladin, seeing his surgical training as easy work compared to labouring in the fields.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    }
+  ]
+}

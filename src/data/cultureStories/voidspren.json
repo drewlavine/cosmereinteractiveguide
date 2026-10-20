@@ -1,0 +1,90 @@
+{
+  "intro": [
+    {
+      "text": "Spren tied not to Honor or Cultivation but to Odium, fighting on his side in the Desolations. Unlike most spren, they keep their minds in the Physical Realm without a bond.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "epilogue" },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Like other spren they come in many shapes and kinds, each with its own purpose, and some can bond with beings in the Physical Realm. Many bond singers during a storm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Stormspren look like rolling red lightning moving over surfaces. They bond singers during a highstorm or the Everstorm, granting the power of stormform.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Guidespren glow yellow and look somewhat like windspren, standing on yellow pillars that rise from the ground to meet their feet. They act as Odium's guides and messengers, and choose who can see and hear them.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+    },
+    {
+      "text": "Some voidspren, like Ulim, can live in a singer's gemheart without changing their form, coming and going at will, speaking to the singer's mind and swaying their emotions.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "77" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In the war",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "84" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "69" },
+                { "book": "rhythm-of-war", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Guidespren led bands of newly made Voidbringers to settlements and cities, including Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        },
+        {
+          "text": "In the siege of Kholinar, crackling yellow secretspren were used to find fabrials in use. When one was switched on they wailed and twisted above it, drawing Fused to the spot; they could also sense Lashings, but not Lightweaving.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "69" },
+                { "book": "rhythm-of-war", "chapter": "56" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ulim",
+      "role": "voidspren",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

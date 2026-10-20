@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "An Iriali leatherworker in the warcamps on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's warcamp",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yis was one of the lead leatherworkers in Dalinar Kholin's warcamp. When Adolin investigated the king's broken saddle strap, Yis and his colleague Avaran agreed it had been cut rather than torn, but would not say it was deliberate, since they had seen similar cuts caused by loose buckles or poor storage.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has yellow eyes and short golden hair with a metallic sheen, which he covers with a cap to avoid attention. His large vocabulary suggests some education.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "personality": []
+}

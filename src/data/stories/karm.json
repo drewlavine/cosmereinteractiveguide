@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "An advisor to King Nohadon: a one-armed man of letters who had once led a group of Surgebinders.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dalinar's vision",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "109" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In one of his visions, Dalinar took Karm's place, and Nohadon talked with him casually as with a trusted friend.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "When Dalinar brought Venli into the same vision, she took Karm's place, looking like a Parshendi, and Dalinar distracted Nohadon so the two of them could talk.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "109" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "Brightlady Hamaradin, a lighteyed member of Highprince Vamah's court.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Hamaradin",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "40" },
+            { "book": "oathbringer", "chapter": "51" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishnah once overheard Brightlady Hamaradin talking about the Ghostbloods, and believes she crossed them and was killed for it. Some of the house's employees were accused of her murder and went into hiding in Urithiru.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        },
+        {
+          "text": "House Hamaradin ran a spy network in which the brightlady took part herself. Ishnah claimed to have trained as one of its spies; Mraize found she had indeed worked for it, but only as an assistant.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

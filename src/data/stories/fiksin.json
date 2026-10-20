@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A scholar of the Dawnchant.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Dawnchant studies",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Citing Fiksin's conclusion that every Dawnchant book came from one place, Urv told Ellista that recording where each text was found wasn't worth the effort. Ellista rejected the idea, insisted Fiksin was no true scholar, and showed that the Dawnchant script had been used all across Roshar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "A chasm on the Shattered Plains, a short walk from Sadeas's warcamp.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The chasm starts narrow and grows wider and deeper as it runs east. Its edge lies down a slope, and six ladders let bridgemen climb down into it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    },
+    {
+      "text": "It is the only place Sadeas's bridge crews may go unsupervised, and bridgemen go there to end their lives. Gaz prefers that they leave their sandals and vests behind first.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The war on the Shattered Plains",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "6" },
+            { "book": "way-of-kings", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The night before Kaladin was assigned to Bridge Four, the crew's bridgeleader threw himself into the chasm.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
+        },
+        {
+          "text": "Kaladin went to the chasm meaning to jump, but the return of his spren companion stopped him, and he went back to camp determined to try once more.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+        }
+      ]
+    }
+  ]
+}

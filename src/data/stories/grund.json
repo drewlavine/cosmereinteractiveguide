@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A street urchin living in Kholinar during the True Desolation.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "72" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Grund lived with Ma and Seland in a storm-damaged shop in the market and hung around the Secure Keeps, where grain was handed out. Shallan paid him in food for information, but the Grips gang noticed, took his food and beat him if he held anything back, and he grew more guarded with each of her visits.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "Shallan asked Grund for a list of needy people she could bring food to, and he found her a copy of Hessi's Mythica with the Grips' help. As the danger grew, Ma and Seland left, and Grund told Shallan they had gone because the building was unsafe.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        },
+        {
+          "text": "Shallan doubled back after a visit and saw the Grips beating Grund; as they fled, one cracked his skull with a cudgel. Before he died he told her that he and the others she had fed hated her for what it had cost them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "80" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A grimy boy with dark green eyes and a malformed hand.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Grund generally accepts his lot in life and keeps busy drawing or doing small jobs such as salvaging hogshide from old shoes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+    }
+  ]
+}

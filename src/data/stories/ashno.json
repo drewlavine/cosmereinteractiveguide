@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "Ashno of Sages, a wealthy Emuli holy man and a former Prime of Emul.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Prime and holy man",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Prime of Emul, Ashno had a successful reign and is counted among the greatest Primes in its history. After leaving the throne, succeeded in time by Vexil the Wise, he still went with Vexil to important negotiations, and by old age he was well known as a holy man.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1173 Shalash, Baxil and Av broke into his palace so that Shalash could destroy the art in his Hallowed Hall. In 1174, after the Everstorm and the singer invasion of Emul, he went with Vexil to Azimir and through the Oathgate to Urithiru to meet the coalition, which agreed that Aladar would help defend what was left of Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "96" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In old age he has a bad back and a somewhat frail bearing.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": []
+}

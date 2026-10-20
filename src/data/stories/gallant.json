@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "Dalinar Kholin's Ryshadium steed.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    },
+    {
+      "text": "Dalinar Kholin's Ryshadium steed, now often cared for and ridden by Adolin Kholin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "On the Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "71" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "68" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gallant and Dalinar rode together into almost every battle and chasmfiend hunt on the Shattered Plains. One of only twelve Ryshadium in the warcamps, he could inspire the Kholin soldiers just by being seen. Dalinar often began battles on his back, then dismounted when close fighting might endanger him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "71" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "During a chasmfiend hunt, Elhokar's saddle failed, and as Dalinar rushed to help, the beast's tail struck Gallant and threw Dalinar. Gallant's injuries were minor, but he seemed to feel he had failed Dalinar, who had to convince him he still deserved his extra feed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "Dalinar rode Gallant into the Battle of the Tower, and Gallant helped carry the wounded. Near the end, though he was supposed to be on another plateau, a riderless Gallant appeared near where Dalinar was dueling Eshonai, trying to reach him until Parshendi soldiers held him back.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "35" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gallant moved with Dalinar to Urithiru, where he was given his own large field in the Kholin section despite the cramped space. He was kind to Adolin as Adolin mourned Sureblood, though not so kind as to let Adolin ride him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "10" }]
+        },
+        {
+          "text": "With Dalinar busy with the coalition, Adolin began caring for Gallant and partly bonded with him. Gallant still missed Dalinar, but came to trust Adolin and even let him ride.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mission to Lasting Integrity",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gallant joined the delegation to Lasting Integrity, carrying much of Adolin's gear. He let Maya ride him and was extra gentle with her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        },
+        {
+          "text": "When Adolin ran to rescue Notum, Gallant galloped to him without being signalled, and helped by charging into the battle to distract the attacking soldiers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A purebred Ryshadium with a black coat and blue eyes with rectangular pupils. About two hands taller than a typical stallion, he is squatter and more robust than other Ryshadium.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Gallant is remarkably intelligent. He chose Dalinar as his rider and is very attentive to him. He understands camp routines and shows annoyance when inexperienced people try to lead him. He likes crispmelons and sugar lumps.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Fearless and loyal, he is strong enough to carry a rider in full Shardplate at speed, and Dalinar can steer him with his knees while fighting. His stone hooves need no shoes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ]
+}

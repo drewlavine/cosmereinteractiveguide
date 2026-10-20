@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A listener who took stormform before the battle at Narak.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "83" },
+            { "book": "rhythm-of-war", "chapter": "95" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Narak",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "rhythm-of-war", "chapter": "95" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the battle, Faridai stood in a line of listeners singing to summon the Everstorm. Venli urged him to leave as the Alethi approached, but he was in a trance. Soon after she left, Adolin's forces reached the line and slaughtered the singers; Faridai presumably died there.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "83" },
+                { "book": "rhythm-of-war", "chapter": "95" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

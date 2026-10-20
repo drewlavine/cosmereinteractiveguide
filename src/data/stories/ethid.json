@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "A scion in Azir.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "An Azish scion and a scholar of the Veristitalians, and a friend of Jasnah Kholin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "53" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The conclave",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Scion Ethid attended the holy conclave in Azimir's Bronze Palace to choose a new Prime, and was asked by a vizier to write a prayer to Yaezir for guidance, since the last two Primes had been assassinated.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

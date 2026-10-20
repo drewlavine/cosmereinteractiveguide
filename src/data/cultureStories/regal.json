@@ -1,0 +1,136 @@
+{
+  "intro": [
+    {
+      "text": "Singers who have taken a form of power by bonding a lesser voidspren in a storm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "i-6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Singers who bond lesser voidspren to take on a form of power. Among Odium's forces they rank above common singers and below the Fused, and singers sometimes formally call them Chosen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "102" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "A singer becomes a Regal by bonding a non-sapient voidspren, stepping into the storm with the right mindset as for any other form. Unlike a Fused, a Regal can be made in either a highstorm or the Everstorm, and Odium sometimes forces a form of power on a singer in the Everstorm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "i-6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Regals can always be recognised by their red eyes, where other singers' eyes are black.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "11" },
+            { "book": "oathbringer", "chapter": "109" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Their powers seem to need no outside Investiture, though some are fuelled by Voidlight, and Regals are generally stronger than ordinary singers or humans, even in forms not made for fighting.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-8" },
+            { "book": "oathbringer", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Regals tend to become more aggressive and find it very hard to hear the ordinary rhythms, hearing Odium's instead. Odium can speak to them directly, at least in the Everstorm.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-8" },
+            { "book": "oathbringer", "chapter": "109" },
+            { "book": "rhythm-of-war", "chapter": "92" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "tables": [
+    {
+      "title": "Forms of power",
+      "columns": ["Form", "What it does"],
+      "rows": [
+        {
+          "key": "Nightform",
+          "cells": [
+            "Nightform",
+            "Grants prophetic visions; quick to absorb information"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "23" }]
+        },
+        {
+          "key": "Smokeform",
+          "cells": [
+            "Smokeform",
+            "Known only from listener songs; may help in hiding"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+        },
+        {
+          "key": "Stormform",
+          "cells": [
+            "Stormform",
+            "Moves easily through storms; could summon a small tempest"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "81" },
+                { "book": "oathbringer", "chapter": "i-6" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Envoyform",
+          "cells": [
+            "Envoyform",
+            "Speaks and understands any language; serves Fused as Voice"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "115" },
+                { "book": "rhythm-of-war", "chapter": "74" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Relayform",
+          "cells": ["Relayform", "Sleek form for scouts and messengers"],
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "92" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

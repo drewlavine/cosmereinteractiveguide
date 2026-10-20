@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "A young ardent of the Devotary of Denial who joins the Alethi queen's retinue in Kholinar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    },
+    {
+      "text": "A young ardent of the Devotary of Denial whose condemnation of the Alethi queen led to her execution.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ardent in Kholinar",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-12" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "89" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pai chose the Devotary of Denial and lived simply, eating plain boiled tallew. She began serving in Kholinar around 1172 and pressed to join Queen Aesudan's retinue until she was accepted in late 1173. Worried by her zeal, her superiors asked the ardent Lhan to speak with her.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        },
+        {
+          "text": "Lhan showed Pai the luxuries of her new post and the piles of food rotting behind the kitchens. He told her that if she kept quiet she could quietly give this food to the poor, but that if she made trouble she would simply be sent away.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        },
+        {
+          "text": "That evening Pai asked Lhan about the spiritual cost of his choices and whether the lighteyes still believed in the Almighty. She told him she would stay in Kholinar to do good and set an example.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+        },
+        {
+          "text": "Overnight in the People's Hall, Pai wrote the glyphs of the ten foolish attributes before the throne, explaining under each how the queen embodied it, in a condemnation of the lighteyes and the government. She stayed kneeling there until the ardents found her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-12" },
+                { "book": "oathbringer", "chapter": "84" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pai was executed, and that evening Kholinar's citizens began to riot. The rioting, fed at least partly by her protest and her death, went on into the first days of 1174, when Dalinar heard of it by spanreed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young woman who often speaks softly or in a whisper.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Pai is passionate about her faith and about Alethkar's poor. She fears for the souls of the lighteyes, who she thinks only pretend to believe, and is disgusted by their waste while the poor starve.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    },
+    {
+      "text": "Disciplined and stubborn, she wants none of the luxuries of the queen's ardents and won't bend her principles even to help the hungry. She is unafraid of harm and speaks her mind whatever the cost.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-12" }]
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "Head of field command in Dalinar Kholin's army at the Battle of Narak.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "85" },
+            { "book": "oathbringer", "chapter": "2" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Narak",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cael and his wife were both at the Battle of Narak. He brought Dalinar word of Aladar's victory, was sent to order a general retreat to the Oathgate plateau, and pointed out the Everstorm to Dalinar. He died when the highstorm met the Everstorm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "2" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

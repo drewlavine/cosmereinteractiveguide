@@ -1,0 +1,69 @@
+{
+  "intro": [
+    {
+      "text": "A guard at Brightlord Roshone's manor in Hearthstone.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "6" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Roshone's guard",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the town was warned of the Everstorm, Aric helped lock Hearthstone's parshmen in their quarters at Roshone's manor. After the storm the guards found the wall torn open and the parshmen gone, and Aric had seen that their bodies had changed.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Aric found Kaladin poking around the parshmen's quarters. Not knowing him, he tried to bully him and take him to Roshone, but Kaladin slipped free easily, punched Roshone and summoned a Shardblade. Aric then told Kaladin the parshmen had hurt no one, and hoped he would ask Elhokar for help, since the storm had wrecked homes and grain stores.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Under the singers",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When singers held Hearthstone, Aric and the other former guards weren't allowed weapons. They kept the refugee line in order for Lirin and quietly watched new arrivals, and Aric brought a litter when Lirin needed to slip someone past the Fused.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, clean-shaven darkeyes with close-set brown eyes, wearing an old, rust-spotted helm.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He tries to act tough but gets nervous in danger, and despite his mace he has little skill in a fight.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    }
+  ]
+}

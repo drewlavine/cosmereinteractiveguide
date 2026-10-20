@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A philosopher from Kharbranth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Philosophy",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Falabratant was a philosopher from Kharbranth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

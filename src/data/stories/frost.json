@@ -1,0 +1,98 @@
+{
+  "intro": [
+    {
+      "text": "An old acquaintance of Wit's, who counts him among the best contract negotiators he knows and a person of good judgement.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+    },
+    {
+      "text": "A dragon, uncle to the young dragon Starling.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+      ]
+    },
+    {
+      "text": "A dragon from Yolen who raised his niece Starling, was present at the Shattering and has long written letters to Hoid.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Letters with Hoid",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "70" },
+                { "book": "isles-of-the-emberdark", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid, who had not spoken with Frost in a long time, wrote begging for his support against Odium. Frost refused, holding to his policy of not interfering: he felt their past actions had done more harm than good, saw little danger in an Odium trapped in the Rosharan system, and urged Hoid to give up his quest.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "words-of-radiance", "chapter": "70" },
+                { "book": "isles-of-the-emberdark", "chapter": "47" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wit's contract",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During Roshar's True Desolation, Wit asked Frost to help him study a contract. Frost would not, but his sister agreed to help.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Starling's uncle",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Frost raised his niece, Starling. Where he is now is unknown, and many assume he is dead, but Starling and Hoid believe he is still alive.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Caring and empathetic, Frost teaches his niece to see the best in others. Like most dragons he spends much of his time listening to his followers' prayers, and he enjoys teasing Starling.",
+      "revealedIn": [
+        { "book": "isles-of-the-emberdark", "chapter": "prologue" }
+      ]
+    },
+    {
+      "text": "He holds to a policy of not interfering in the cosmere, and is sarcastic and insulting toward Hoid, with whom he has a complicated relationship.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "74" },
+            { "book": "isles-of-the-emberdark", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ]
+}

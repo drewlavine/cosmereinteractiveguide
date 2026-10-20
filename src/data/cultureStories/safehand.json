@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A Vorin woman's left hand, kept covered for modesty. Her right hand is her freehand.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Darkeyed women, who need both hands for work, often wear a glove instead, as do Thaylen women. Gloves are thought less modest than sleeves.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-4" }]
+    },
+    {
+      "text": "Prostitutes may wear fingerless gloves or leave the safehand bare to show what they are.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Women in the Vorin nations cover the safehand from about twelve, a rite of passage. It is hidden whenever possible, touching someone with it is intimate and only for family, and showing it deliberately is usually reserved for a partner.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "oathbringer", "chapter": "36" },
+            { "book": "rhythm-of-war", "chapter": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Upper-class women cover it with the long sleeve of a havah, thin enough to grip through. The sleeve often holds a safepouch for personal objects, and opening another woman's safepouch is extremely rude.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "48" },
+            { "book": "oathbringer", "chapter": "49" },
+            { "book": "rhythm-of-war", "chapter": "69" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Changing customs",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "1" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some singers who served Vorin masters as slaves kept covering their safehands after they were freed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        },
+        {
+          "text": "During the True Desolation the custom seemed to matter less to some high-ranking women. Jasnah kept it only because it was proper, and Navani took to wearing a glove, finding the sleeve a burden.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

@@ -1,0 +1,145 @@
+{
+  "intro": [
+    {
+      "text": "A kindly deadeye Cryptic who had stayed near an inkspren's shop in Nameless, in Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    },
+    {
+      "text": "A deadeye Cryptic bonded with Shallan Davar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shallan's first spren",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "93" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "29" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "1" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of Testament's past, except that for centuries she was a friend and business partner of an inkspren shopkeeper in Shadesmar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "In 1165 Testament left Shadesmar to form a Nahel bond, choosing a child in the hope of inspiring a new generation of Radiants. She was drawn to Shallan's lies, the ones in which Shallan told herself she was happy, strong and unafraid despite the abuse in her family, and to her unusual parentage as the child of a Herald.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "29" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Within about two years the bond had grown enough for Shallan to summon Testament as a Shardblade, which she used to kill her mother in self-defence. Horrified and grieving, Shallan broke the bond that same day, blaming her, and Testament became a deadeye. Shallan then blocked out the memory. Her father locked the dead Blade in a strongbox, where it soon turned to mist, still bonded to Shallan.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "wind-and-truth", "chapter": "1" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Pattern bonded Shallan for the first time years after Testament, though Shallan believed some of her powers had somehow worked in the gap between her bonds.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        },
+        {
+          "text": "In 1173, Shallan summoned Testament as a dead Shardblade to kill Tyn in self-defence, after Tyn learned she was Jasnah Kholin's ward and attacked her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Nameless",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "93" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Testament's inkspren friend later found her, a deadeye, sitting on a distant island in the east. She seemed to want to travel towards Nameless, so the inkspren set up shop there and Testament stayed nearby.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "In 1175 Adolin found Testament in Nameless through Maya, and the honorspren later brought her to Lasting Integrity, where Shallan talked with her. Testament does not hate Shallan for making her a deadeye.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "1" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Spiritual Realm",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Testament went with Shallan into the Spiritual Realm, where their bond strengthened as Shallan remembered more of her past. Testament eventually grew strong enough to speak again, and could talk with Shallan in her mind.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Unlike a living Cryptic's, Testament's head pattern is broken, with the scratched-out eyes of a deadeye at its centre. Its lines twist in jagged shapes like broken fingers rather than turning smoothly, giving her head a wilted look. Her stiff robes look dustier than Pattern's.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "According to Shallan, Testament is kind and friendly.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+    }
+  ]
+}

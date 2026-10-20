@@ -1,0 +1,104 @@
+{
+  "intro": [
+    {
+      "text": "A Herdazian general, known as the Mink, who commands a group of soldiers and refugees on the Alethi-Herdazian border after the singers occupy Alethkar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Escape artist",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Mink is a famed escape artist who likes to test himself against the best manacles his officers can find. Once he was chained on a beach near the Alethi-Herdazian border, home to an enormous greatshell nicknamed \"the hog\". He freed himself in under a minute and got away before it could eat him, though it is unclear whether he was a condemned prisoner or simply testing his skills.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The war in Herdaz",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "16" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Mink's wife and son were killed during Dalinar Kholin's campaign against Herdaz.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "16" }]
+        },
+        {
+          "text": "When his soldiers caught Sheler, an Alethi soldier, harassing and robbing the local people, the general gave him three choices: death by the sword at the hands of the women he had harassed, having his knees smashed and being left for the highstorm, or wrestling the hog.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "i-10" },
+                { "book": "rhythm-of-war", "chapter": "17" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "General of the coalition",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "47" },
+            { "book": "rhythm-of-war", "chapter": "50" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With few allies and little to work with, the Mink held out against the singers' invasion of Herdaz for a year. After joining the coalition he took over most of the actual field command from Dalinar, and he successfully reclaimed Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        },
+        {
+          "text": "When Jasnah Kholin fought her duel with Ruthar, the Mink was the only one in the room who looked amused by it all; Dalinar half expected him to start clapping.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "50" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lean but powerfully built, middle-aged, darkeyed Herdazian man with brown skin and a thin mustache touched with grey. One enemy describes his smile as too wide, his nose as flat and notes a missing tooth. His wrists carry scars from manacles.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "The Mink speaks plainly and isn't afraid to point out uncomfortable truths, but he reads situations quickly enough that his honesty rarely offends. He is easygoing with his soldiers and officers, likes slipping away when no one expects it, and plots escape routes from every room he enters.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+    }
+  ]
+}

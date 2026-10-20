@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi Shardbearer allied with Kalanor, who fought Gavilar Kholin's army in 1145.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Death",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Highprince Ruthar killed Gallam and won both his Blade and his Plate for his son, Relis.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

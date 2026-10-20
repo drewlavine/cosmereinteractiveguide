@@ -1,0 +1,70 @@
+{
+  "intro": [
+    {
+      "text": "The Lightweaver Honorbearer of Shinovar, who rules his monastery and challenges Szeth with a riddle.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "70" }]
+    },
+    {
+      "text": "The Lightweaver Honorbearer of Shinovar and once Szeth's closest friend among the Honorbearers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Honorbearer",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Moss made his pilgrimages in the 1150s and became an Honorbearer around 1161, about four years before Szeth, groomed for the role by Pozen. He and Szeth became close friends, and Szeth treasured the year he spent at Moss's monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Szeth's return",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "70" },
+            { "book": "wind-and-truth", "chapter": "72" },
+            { "book": "wind-and-truth", "chapter": "141" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Fully corrupted by Ishar, Moss ruled his monastery and the land around it. When Szeth and Kaladin came, he set a riddle: thirty imperfect illusions of Shalash, one of which hid him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "70" }]
+        },
+        {
+          "text": "With Syl's help Szeth saw that the puzzle was built to be unwinnable, realised Moss was hiding beneath the floor, and stabbed through it, killing him. Kaladin saved Szeth from the Truthwatcher Honorbearer hiding among the illusions.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "72" }]
+        },
+        {
+          "text": "Moss was reborn in another Shin person's body and joined Ishar and the other Honorbearers in attacking Szeth at the Bondsmith monastery. After swearing his fifth Ideal, Szeth killed them with Nightblood, ending Moss for good.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A younger Shin man, like Szeth.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Boastful and fond of showing off, but friendly and caring; after Ishar's corruption he becomes more brutal and mocking.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+    },
+    {
+      "text": "Clever, as Szeth thinks all Lightweavers are, he designs riddles that he can win almost however they are tackled.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+    }
+  ]
+}

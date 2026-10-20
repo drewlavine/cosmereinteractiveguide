@@ -1,0 +1,35 @@
+{
+  "intro": [
+    {
+      "text": "A Purelaker woman and talented cook in the village of Fu Abra, whose house is the closest thing the village has to an inn.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Fu Abra",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Maib regularly feeds the fisherman Ishikk, hoping to put him in her debt so he will feel bound to marry her, and the two trade things back and forth to even the score. Ishikk is fond of her but not ready to give up his roaming life.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        },
+        {
+          "text": "Her house served as the meeting place between Ishikk and the foreigners who had hired him to look for a man named Hoid.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "She prizes the rare fish kolgril, believing it eases the arthritis in her fingers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-1" }]
+    }
+  ]
+}

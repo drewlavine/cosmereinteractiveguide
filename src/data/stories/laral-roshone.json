@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "The daughter of Hearthstone's citylord, Wistiow, and a childhood friend of Kaladin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "The wife of Hearthstone's citylord, Roshone, and an old childhood friend of Kaladin.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    },
+    {
+      "text": "The citylady of Hearthstone, daughter of the former citylord Wistiow and widow of his successor, Roshone.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "37" },
+            { "book": "rhythm-of-war", "chapter": "18" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Laral grew up in Hearthstone as Kaladin's friend and, in time, began to flirt with him. On the day her ailing father, Wistiow, died, Highprince Sadeas gave her a dowry in place of authority over the town and her father's estate.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marriage",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Brightlord Roshone took over Hearthstone, Laral began courting his son and heir, Rillir, dressing as a proper Alethi lighteyed woman and treating Kaladin like an errand boy. After Rillir died of wounds from a whitespine, she became betrothed to Roshone himself.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "Laral married Roshone some time before 1174. When Kaladin returned to Hearthstone, she scolded him for damaging her floor and for thinking she needed saving from her marriage, then helped him reach Dalinar by spanreed.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation of Hearthstone",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "18" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Laral helped Lirin hide the Herdazian general known as the Mink among the refugees. When Lezian arrived and fighting broke out, her manor was burned, and Roshone was killed inside it by Vyre.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+        },
+        {
+          "text": "Evacuated to Urithiru by the Fourth Bridge, Laral became citylady of Hearthstone under Jasnah's new inheritance laws.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "18" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lighteyed woman with pale green eyes. Her black hair has golden streaks showing she is not purebred Alethi, and for a while she dyes it all black.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    },
+    {
+      "text": "By the True Desolation her face has grown firm and lean, and she wears her undyed hair in a tail with much more practical clothes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Laral says she is satisfied with her marriage and defends Roshone when Kaladin speaks ill of him. She has used it to become politically engaged, and has the strong loyalty of their soldiers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "7" }]
+    }
+  ]
+}

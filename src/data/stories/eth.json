@@ -1,0 +1,75 @@
+{
+  "intro": [
+    {
+      "text": "A bridgeman of Bridge Four, the bridge crew freed by Dalinar Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+    },
+    {
+      "text": "A bridgeman of Bridge Four who becomes a Windrunner squire to Kaladin.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "33" },
+            { "book": "oathbringer", "chapter": "i-14" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Eth and his brother Mart were caught planning to desert, and were sent to the bridge crews as punishment.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Once Bridge Four was freed, Eth often guarded the Kholins alongside Mart. After Szeth's attack on Dalinar, he treated Adolin's and Dalinar's wounds before Kaladin returned, and he guarded the room where Adolin prepared for his duel against four Shardbearers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+        },
+        {
+          "text": "Eth survived Szeth's attack on Dalinar during the Battle of Narak, but Mart did not, and Eth mourned over his body.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Squire",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "37" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As a squire to Kaladin, Eth amused his friends in one training session by sticking a rock to his own hand with an errant Lashing.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        },
+        {
+          "text": "Before the Battle of Thaylen Field, an assassin wearing a Bridge Four coat attacked the barracks to steal Jezrien's Honorblade, which Eth was holding. Rock and Bisig were badly hurt and Eth was killed. The coat was one Teft had sold, and Teft blamed himself for Eth's death.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Good-humoured, Eth enjoys needling his friends, including Skar and Rock. Like many people, he knows little about listener culture.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+    }
+  ]
+}

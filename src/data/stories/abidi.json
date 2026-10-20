@@ -1,0 +1,71 @@
+{
+  "intro": [
+    {
+      "text": "A Fused of the Shanay-im, the flying Fused who can use the Surge of Gravitation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "2" },
+            { "book": "wind-and-truth", "chapter": "130" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Abidi the Monarch, a Fused of the Shanay-im who leads the singer assault on Azimir during the True Desolation and is one of the finest duelists among the Fused.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "2" },
+            { "book": "wind-and-truth", "chapter": "130" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The assault on Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "133" },
+            { "book": "wind-and-truth", "chapter": "125" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the final ten days before the contest of champions, Abidi ambushed Shallan, Adolin and their companions in Shadesmar as they travelled to the Azimir Oathgate. Shallan wounded him with her illusions made real, and Adolin struck between his carapace plates, cracking his gemheart so that he could no longer fly unless he returned to Braize.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "Abidi refused to go back to Braize, wanting to oversee the fall of Azimir himself. He commanded the singer forces besieging the Oathgate platform and faced Adolin several times. When his forces broke out, he ordered the slaughter of wounded in a hospital, and fled in terror when Taln suddenly awoke.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+        },
+        {
+          "text": "On the ninth day, his forces took Adolin's Shardplate, which Abidi claimed for himself, and broke through the Azish defences to take the city.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "125" }]
+        },
+        {
+          "text": "On the tenth day, Abidi laid a trap in the Bronze Palace throne room to stop Yanagawn from taking his throne. In the aluminum-lined room he nearly defeated Adolin, until Adolin's platespren returned to him, stripping Abidi of his stolen Plate. Adolin then killed him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Abidi's face looks almost like a white glyph, with only specks of black showing through.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Abidi is cruel, confident and hungry for glory, announcing that he will one day rule the world. He believes bathing in the blood of Radiants quiets a thousand years of pain in his mind and keeps him sane, and he refuses to accept that someone who beats him in combat could be anything but a Radiant.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "133" }]
+    }
+  ]
+}

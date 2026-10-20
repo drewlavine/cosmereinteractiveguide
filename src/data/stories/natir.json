@@ -1,0 +1,42 @@
+{
+  "intro": [
+    {
+      "text": "The head steward of Citylord Roshone in Hearthstone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Steward in Hearthstone",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "way-of-kings", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Natir came from Dalilak in the far north of Alethkar, and is married to a stern-looking woman named Alaxia.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        },
+        {
+          "text": "After Miliv's death, Natir was hired as head steward to Roshone, Hearthstone's new citylord.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
+        },
+        {
+          "text": "Natir was there when Amaram came to Hearthstone to recruit soldiers.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tall, with slender hands; he wears a long black coat and a purple cravat.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "personality": []
+}

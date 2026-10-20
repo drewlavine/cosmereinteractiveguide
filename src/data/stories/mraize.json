@@ -1,0 +1,286 @@
+{
+  "intro": [
+    {
+      "text": "A scarred, cultured member of the Ghostbloods, a secret society, who tests Shallan in her disguise as Veil before offering her a place among them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    },
+    {
+      "text": "A Ghostblood who has learned that Veil is really Shallan, and who holds her brothers as leverage while giving her new tasks.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    },
+    {
+      "text": "A Ghostblood who has become Shallan's enemy since she quit the society.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+    },
+    {
+      "text": "A Ghostblood and master of disguise, sometimes posing as a guard called Gobby, who has been hunting the Sons of Honor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "13" },
+            { "book": "wind-and-truth", "chapter": "49" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Ghostblood leader born Betd in Thaylenah, who died fighting Shallan in the Spiritual Realm.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "137" },
+            { "book": "oathbringer", "chapter": "22" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize was born Betd in Thaylenah, on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        },
+        {
+          "text": "At some point he joined the Ghostbloods and bonded an Aviar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "rhythm-of-war", "chapter": "9" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize reported to Iyatil, who answered to Master Thaidakar. He was behind the attempt on Jasnah Kholin's life aboard the Wind's Pleasure, having sent the hunter Tyn to carry it out. Shallan, who had killed Tyn, intercepted his next spanreed message and met him herself as Veil, keeping up the pretence that Tyn lived. He trusted her with a task: break into Amaram's manor and report his secrets.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "rhythm-of-war", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Mraize watched over the job himself and was pleased when Veil brought him maps and writings from Amaram, which he sent on to Master Thaidakar. Admiring her drawings, he deduced that she had killed Tyn. He offered her a chance to join the Ghostbloods, though not yet, and warned against killing members. On her way out, she learned her coachman had been killed in a failed attempt on her life.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+        },
+        {
+          "text": "Mraize next had Veil question a madman held in Dalinar's warcamp and learn his allegiance, knowing Gavilar had discovered something extraordinary. When she delivered, he accepted her into the Ghostbloods, remarking that the truth destroys more people than it saves.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "oathbringer", "chapter": "i-8" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Narak, Mraize discovered who Veil really was. Days later he confronted Shallan in Urithiru, telling her she was most herself as Veil. He revealed that he held her brothers and would return them as payment for her service, showed a deep knowledge of her family, and confirmed that the Davars owed him a Soulcaster.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Mraize took a place among Ialai Sadeas's guards to keep a close eye on her, and was seen wearing a Sadeas uniform.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "He kept giving Shallan tasks: first to secure Urithiru and root out the darkness in it, in exchange for news of her brother Helaran, whom he said had been a Skybreaker acolyte. On her wedding day he sent her brothers to her as a gift, reduced her family's debt, and set her next task: find the Unmade who seemed ready to break from Odium and win her over.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Mraize laid a trap for the Herald Shalash, luring her with a painting of her by Dandos Heraldin. When she came to destroy it, he told her where Talenel was.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-8" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting the Sons of Honor",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "13" },
+            { "book": "rhythm-of-war", "chapter": "30" },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "rhythm-of-war", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "60" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize and the Ghostbloods hunted down and killed members of the Sons of Honor, including Thanadal and Vamah, and Mraize infiltrated Ialai Sadeas's camp disguised as Gobby. After Shallan killed Ialai, for her own reasons, he believed the Sons of Honor were finished.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "Shallan arranged a deal with Sja-anat for Tumi, an Enlightened mistspren, to meet Mraize, who believed it meant Tumi would bond a Ghostblood. He was eager to win Sja-anat over and use her ancient knowledge.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        },
+        {
+          "text": "Meeting Shallan in Urithiru as Gobby, Mraize asked her to hunt Restares, leader of the Sons of Honor, in Lasting Integrity, offering to answer any question she asked. He also offered her a way out of the Ghostbloods, hinted he had a spy close to her, and gave her a rare communication cube holding the seon Ala.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        },
+        {
+          "text": "As Shallan tried to find his spy, she fed false information to her Unseen Court. Mraize repeated what she had told Beryl, though he had in fact picked it up by spying on Pattern's conversations with Wit.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        },
+        {
+          "text": "Mraize hunted down and killed Gereh in Urithiru. When Lift tried to interfere, he caught her in an aluminum cage, his real aim, and gave her to Raboniel as a gift, asking the Fused to negotiate with his master over use of the Oathgates. He also gave Raboniel a large pouch of sand from Taldain.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        },
+        {
+          "text": "In Lasting Integrity, Mraize helped Shallan rule out suspects one by one, but she was angry to find he had kept back that Restares was the Herald Kelek. He had hidden a raysium dagger in the cube and asked her to capture Kelek's soul, offering full membership in return and arguing that the Heralds had abandoned their duty.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+        },
+        {
+          "text": "Shallan spared Kelek and told Mraize she was quitting the Ghostbloods, freeing Ala with Kelek's help. She ordered Mraize out of Urithiru, said she would hunt the gem holding Ba-Ado-Mishram herself, and passed on an insult from Hoid for Thaidakar. Mraize warned that she had made an enemy of the most powerful organization in the cosmere.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Into the Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "29" },
+            { "book": "wind-and-truth", "chapter": "32" },
+            { "book": "wind-and-truth", "chapter": "49" },
+            { "book": "wind-and-truth", "chapter": "65" },
+            { "book": "wind-and-truth", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the Ghostbloods' hideout in Narak, Mraize said a special contact had told him of Dalinar and Navani's planned trip into the Spiritual Realm, and that he and Iyatil would follow. He put Zora in charge of the Roshar cell. He had already obtained anti-Stormlight and bonded an Enlightened spren. He didn't spot Shallan at the meeting until Iyatil unmasked her; after a brief confrontation, he escaped to Shadesmar with Iyatil and Lieke.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+        },
+        {
+          "text": "In Shadesmar, the three disguised themselves as guards travelling with Shallan, Renarin, Rlain and two Windrunners to where Dalinar and Navani were crossing into the Spiritual Realm. Shallan saw through the ruse and a fight broke out in which Lieke died. While Iyatil distracted the Windrunners, Mraize stabbed the opening perpendicularity with an anti-Stormlight dagger, collapsing it in a huge blast.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        },
+        {
+          "text": "In the Spiritual Realm, Mraize took on roles in the visions to follow Dalinar. In a vision of humans fleeing Ashyn, Shallan recognised him by the bumbling good nature of his Gobby act. Her attack failed, but she tricked the people of the vision into holding him back.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+        },
+        {
+          "text": "In a vision of the Heralds swearing their oaths, Mraize took Honor's place and then attacked Shallan once they were alone. He argued that Mishram stayed imprisoned only because Odium wished it, and that Thaidakar wanted her prison as leverage against the Shard. Shallan disagreed and nearly killed him, until Iyatil, posing as Formless, shook her out of the vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        },
+        {
+          "text": "Later Shallan entered a vision led by Mraize himself, on a Thaylen beach. He spoke of his dream of travelling the cosmere, denied him because of his failure to recruit her. She guessed that killing her would lessen his punishment and that the vision was meant to distract her while Iyatil searched for the prison. He warned that their next meeting would be the end, one way or another.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The last confrontation",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "134" },
+            { "book": "wind-and-truth", "chapter": "137" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize and Iyatil followed Shallan, Renarin and Rlain to Mishram's prison. Shallan saw through Iyatil's disguise and wounded her with an anti-Stormlight knife, and Iyatil died. Mraize quietly took an anti-Stormlight knife from her body. Shallan Lightweaved a future for him as the Unseen Court's agent on other worlds; he considered it, but chose to kill or recruit her instead.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "134" }]
+        },
+        {
+          "text": "Shallan disguised herself and Pattern as each other and made Mraize believe she had switched their knives. He dropped his own and took hers, and they stabbed each other. Filled with anti-Stormlight, he instinctively drew in Stormlight to heal, which killed him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "As Gobby, he wears the black and gold uniform of a guard of Sebarial's princedom.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+    },
+    {
+      "text": "A tall man with jet-black hair, short-cut eyebrows dyed black and light violet eyes. His face and hands are scarred, including a vertical scar across his cheek that twists his upper lip. He dresses sharply in fine suits, wearing white when Shallan first meets him, and wears a gold signet ring with the Ghostbloods' three-diamond symbol.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "60" },
+            { "book": "wind-and-truth", "chapter": "31" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He kills without qualm and lets other Ghostbloods try to kill Shallan before she is a full member. He likes to learn the weapons of cultures he studies, uses a Parshendi blowgun with poisoned darts, and speaks of torture as fun.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+    },
+    {
+      "text": "He is one of the few in the warcamps to call the Parshendi \"listeners\".",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+    },
+    {
+      "text": "Mraize is refined despite his scars, speaking quietly, calmly and boldly with an accent Shallan can't place. He can turn warm and friendly when impressed, and is never ruffled by bad news.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "78" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He treats morality as a shifting matter of perspective that holds little interest for him, making moral arguments only to manipulate. He is unforgiving of betrayal, yet thinks of himself as nice in his own way.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Mraize sees himself as a hunter, keeping trophies of great beasts and seeking out opportunities rather than waiting for them; he dreams of hunting across the cosmere.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "9" },
+            { "book": "wind-and-truth", "chapter": "119" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A young Thaylen officer who challenged Dalinar Kholin during Dalinar's first visit to Thaylen City.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+    },
+    {
+      "text": "A Thaylen captainlord, son of Queen Fen and her consort Kmakl, who fought in the Battle of Thaylen Field.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar first visited Thaylen City, Kdralk was among a group of young officers who loudly opposed the alliance with Urithiru. Dalinar goaded him into a duel. Kdralk landed a blow, but Dalinar healed himself with Stormlight, leaving Kdralk stunned; from then on he all but worshipped Dalinar, even keeping his bloodied shirt.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        },
+        {
+          "text": "Kdralk came to Urithiru with his mother and joined the strategy meetings there, pointing out that war at sea works differently from war on land. When Dalinar returned to inspect Thaylen City's defences, Kdralk helped show him around, and made a point of sitting next to Renarin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "Kdralk fought in the Battle of Thaylen Field. He found Adolin and asked for help reaching his trapped parents. Afterwards he was sent to recover the Shardblade of a fallen Thaylen Shardbearer, and told by Adolin to hold the Low Ward.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young Thaylen man, probably in his twenties, with the long eyebrows of his people, worn spiked.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He speaks Alethi fluently, but with a heavy accent that mashes the words together.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+    },
+    {
+      "text": "Enthusiastic and open about his feelings, Kdralk has a short temper and is easy to goad, but he can think critically, is cautious when it matters and changes his mind once shown enough evidence. When not hostile, he is exuberant and friendly.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+    },
+    {
+      "text": "A skilled swordsman trained in the Stances who understands naval strategy and Thaylen politics, he is well liked by his fellow officers and devoted to his parents.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    }
+  ]
+}

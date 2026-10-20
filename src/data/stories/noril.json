@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi refugee who arrives at Hearthstone on the day it is evacuated.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+    },
+    {
+      "text": "An Alethi refugee suffering from battle shock, who finds inspiration in Kaladin's struggle with his own darkness.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone and Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "33" },
+            { "book": "rhythm-of-war", "chapter": "110" },
+            { "book": "rhythm-of-war", "chapter": "116" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Noril fled the war in Alethkar for Hearthstone after seeing his family killed while he was tied to a tree. Badly shaken, he was watched over by Lirin, evacuated to Urithiru with the town, and sent on to the Devotary of Mercy for his mind.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "33" }]
+        },
+        {
+          "text": "During the occupation of Urithiru, Noril painted the shash glyph on people's foreheads in the Radiant infirmary. He told Lirin that Kaladin's fight against his own despair inspired him to keep going, and Lirin let Noril paint the glyph on him too.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+        },
+        {
+          "text": "After the tower was restored, Noril joined Kaladin, Dabbid and others rescued from the sick rooms in helping each other recover.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A bearded darkeyed man with greying hair, a cowlick and three moles on his upper left cheek, missing his entire left arm.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Suicidal and despairing at first, he slowly becomes more functional, inspired by Kaladin, and one of his staunchest supporters.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-10" }]
+    }
+  ]
+}

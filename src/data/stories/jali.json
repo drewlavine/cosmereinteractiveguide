@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A singer who fought in the battle in Kholinar's palace.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jali was killed by Noro in the fighting in Kholinar's palace.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "84" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

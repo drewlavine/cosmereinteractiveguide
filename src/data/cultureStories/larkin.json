@@ -1,0 +1,144 @@
+{
+  "intro": [
+    {
+      "text": "A small, rare flying crustacean with silver eyes and an axehound-like face, whose corpses are highly prized.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "Small, highly valued flying crustaceans from Aimia that can consume Stormlight and other Investiture. Called the Ancient Guardians, they once guarded the Dawnshard.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Larkin look somewhat like cremlings, but with small axehound-like faces, solid silver eyes, and wings that fold out of their backs, strong enough for short flights.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "text": "They can suck Stormlight out of Surgebinders, gems and dead Shardplate, the Light streaming visibly into their mouths, and can even drain Voidlight from a Fused. Chiri-Chiri grows noticeably after a big feed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "To grow large a larkin must bond a big kind of luckspren found only on Aimia. Most now stay small, and Chiri-Chiri is the only one known in a long time to do so.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "19" }]
+    },
+    {
+      "text": "Larkin can hear rhythms, like singers, understand human languages and crudely imitate them.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-8" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rare as a larkin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "dawnshard", "chapter": "19" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Elhokar keeps a larkin's corpse encased in crystal as a paperweight. Since Aimia's scouring larkin are so rare that Shallan thinks of the phrase \"rare as a larkin\".",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "dawnshard", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Vstim trades a great deal for a larkin's corpse, and Rysn is given a live one, which she names Chiri-Chiri.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-3" },
+                { "book": "oathbringer", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Guardians",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "dawnshard", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Larkin once guarded the Dawnshard on Aimia, earning the name Ancient Guardians. After they vanished from Aimia the Sleepless took over the task, still revering them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "dawnshard", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "chiri-chiri",
+      "role": "larkin",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "rysn-ftori",
+      "role": "Chiri-Chiri's keeper",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-3" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "owns a corpse",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+    }
+  ]
+}

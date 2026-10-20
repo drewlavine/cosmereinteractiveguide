@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "A spren who chooses Rlain as his bond partner during the revolt against the Fused in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+    },
+    {
+      "text": "A mistspren transformed by Sja-anat, bonded to Rlain.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Enlightenment",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tumi chose to be transformed by Sja-anat. A year into the True Desolation she sent him, reluctantly, to Urithiru to seek a bond. At Renarin's suggestion, passed on through Glys and Sja-anat, he began to look at Rlain.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bonding Rlain",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "114" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Fused took the tower and Rlain was locked up, Tumi hid in the gemheart of a cremling and followed him. Rlain noticed the creature and grew suspicious that it was spying on him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        },
+        {
+          "text": "During the revolt in the tower, Tumi watched Rlain bring humans, singers and Fused together to escape. Impressed, he chose to bond him and told Venli's spren that Rlain was already claimed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Tumi then revealed himself, showing Rlain a vision and naming him Bridger of Minds. Rlain spoke the Immortal Words and became a Truthwatcher. Tumi grew fascinated by the Rhythm of War and wanted to share it with his siblings.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Little is known of his look; he stays hidden inside a cremling's gemheart. To Sja-anat he appears as a glowing light that constantly changes shape.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Curious and unafraid of new things, he has no hostility toward singers, reveres Sja-anat as his mother and is hopeful and supportive about his bond with Rlain.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ]
+}

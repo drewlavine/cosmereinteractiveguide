@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen sailor on the Wandersail during the expedition to Akinah.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The voyage",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Flend had the day shift in the eel's nest. Rysn suggested Nikli ask him about sailorspren to fit in better with the crew.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

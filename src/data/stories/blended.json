@@ -1,0 +1,64 @@
+{
+  "intro": [
+    {
+      "text": "An inkspren, her people's emissary to the honorspren fortress of Lasting Integrity, who spends weeks training Adolin Kholin there.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+    },
+    {
+      "text": "An inkspren emissary to Lasting Integrity who prepared Adolin Kholin for his trial and then testified against him.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Blended lived through the Recreance and saw many of her friends and family die.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "82" },
+            { "book": "rhythm-of-war", "chapter": "97" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the inkspren emissary to Lasting Integrity, Blended was met with glares and distrust from the honorspren. Though thought one of the more diplomatic inkspren, she disliked the honorspren and their legal system.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+        },
+        {
+          "text": "Blended taught Adolin honorspren law for his trial, but at the trial she testified against him: she wanted it to be fair, she said, but her hatred of humans was fair too. Afterwards she admitted she had suggested the deadeye Maya as the last witness.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        },
+        {
+          "text": "After the trial revealed that Maya and the other deadeyes had chosen to abandon their Oaths, Blended left Lasting Integrity to take the news to her people.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "97" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "She tends to look away from people when she has something difficult to say.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+    },
+    {
+      "text": "An expert in honorspren law, Blended thinks the Nahel bond unnatural and humans untrustworthy and fickle, and swears she would attack any human who tried to bond her. She believes spren should never bond humans again, and that the singers, whose broken Oaths were never so damaging, are Roshar's rightful heirs.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+    }
+  ]
+}

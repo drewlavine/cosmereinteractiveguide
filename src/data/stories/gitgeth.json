@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A listener who comes to Kholinar for the feast on the night of Gavilar Kholin's assassination.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At the feast in Kholinar, Gitgeth helped unload the drums and let Eshonai go off to explore the palace on her own.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He wears rubies in his beard, and his skin shows strong red patterns.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Considerate, he worries about the parshmen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "prologue" }]
+    }
+  ]
+}

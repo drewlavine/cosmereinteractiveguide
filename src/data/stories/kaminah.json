@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "The oldest ward of May Aladar, serving as Adolin Kholin's aide-de-camp at Azimir.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "39" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Siege of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "52" },
+            { "book": "wind-and-truth", "chapter": "126" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kaminah came to Azimir with May Aladar, who was to be Adolin's head scribe. When Adolin put May in command of his archers, he made Kaminah his aide-de-camp. She relayed his orders, made sure he ate and slept, once ordering him to bed, and offered to write to Urithiru to learn what holding Azimir meant.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "52" }]
+        },
+        {
+          "text": "When the defence of the Oathgate finally broke on the seventh day of the siege, Kaminah and May's other wards reached the Emperor's hidden saferoom, where they received news by spanreed of events elsewhere.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "126" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young Alethi woman of at least seventeen, with curly light brown hair suggesting some foreign ancestry.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Nervous at first about her lack of experience, she quickly grows eager in her role, showing initiative and looking for ways to help.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+    }
+  ]
+}

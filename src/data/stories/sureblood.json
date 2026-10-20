@@ -1,0 +1,102 @@
+{
+  "intro": [
+    {
+      "text": "Adolin Kholin's Ryshadium stallion.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "81" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "69" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sureblood chose Adolin as his rider when Adolin was young. When a chasmfiend appeared on King Elhokar's hunt, Adolin rode Sureblood into the fight, slashing at the creature's legs.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "26" },
+                { "book": "words-of-radiance", "chapter": "81" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the Battle of the Tower, where Sadeas abandoned the Kholin army, Sureblood carried wounded men until Bridge Four opened a way out, then bore Adolin back to the warcamps.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "As Dalinar turned to politics, Adolin had fewer chances to ride. When he went out to help on a plateau run with Roion and Ruthar, Sureblood tried to lift his mood after a sour conversation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "26" },
+                { "book": "oathbringer", "chapter": "10" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Narak",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sureblood carried Adolin on the expedition to Narak. Unsettled by the Parshendi song, he charged into battle and was struck and killed by red lightning, throwing Adolin, who screamed in grief over his body.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "81" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, pure white stallion with dark eyes, less bulky than Gallant.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "81" },
+            { "book": "rhythm-of-war", "chapter": "22" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calm under fire and needing little handling, Sureblood is closely attuned to Adolin's moods, prancing to cheer him up.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    }
+  ]
+}

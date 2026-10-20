@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A kind of sapient spren, also called lightspren.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "93" }]
+    },
+    {
+      "text": "A kind of sapient spren, also called lightspren, known in Shadesmar as sailors, guides and traders. In ancient times their bonds gave rise to the Order of Willshapers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "They are skilled sailors and explorers who cross the sea of beads in ships drawn by mandras, guiding newcomers and trading widely. Aboard ship they go barefoot to feel copper lines in the deck that carry messages by vibration.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    },
+    {
+      "text": "The Recreance left them deeply distrustful of humans and their oaths, which they see as bound to break, yet they are helpful, trading readily with humans and offering advice for free.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "101" }]
+    },
+    {
+      "text": "In the Cognitive Realm Reachers look human but have metallic bronze skin, hair and eyes, like living statues. They wear ordinary earth-toned clothes with many buttoned pockets and often go barefoot. Men and women do the same work and dress alike.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "They are very common in Celebrant, where they sell goods, change money and crew the docks.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "In the Physical Realm a Reacher is a small ball of light that trails a glowing streak like a comet. It is warm and silky to the touch and speaks by pulsing to the rhythms, which singers understand.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Through the ages",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the time of the Heralds, Reachers began bonding people to imitate the Honorblades, giving rise to the Order of Willshapers. The Recreance killed huge numbers of them, but they rebuilt their society and became known as guides and traders.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Kaladin, Shallan, Adolin, their spren and Azure found passage to Celebrant on a Reacher ship captained by Ico, paying with trade goods and dun spheres.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "ico",
+      "role": "captain",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "99" }]
+    }
+  ]
+}

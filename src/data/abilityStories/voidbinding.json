@@ -1,0 +1,97 @@
+{
+  "intro": [
+    {
+      "text": "A little-understood power on Roshar, connected to Odium. Predicting the future is said to be of it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Khriss's Ars Arcanum says there are ten levels of Voidbinding and refers to \"Voidbindings\", but what this means is unknown.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "Voidbinding is connected to Odium, and predicting the future is said to be of it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "The Ars Arcanum also calls it a cousin to the Old Magic.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Vorin belief",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "75" },
+            { "book": "way-of-kings", "chapter": "60" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Prophecy and foresight are among the powers most associated with Voidbinding. Ardents say even the Heralds denounced it, and in Vorin nations any prediction is taboo.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "75" }]
+        },
+        {
+          "text": "That reluctance gave rise to games like breakneck that avoid guessing the future directly, and many Vorins distrust stormwardens for predicting highstorms.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "60" }]
+        },
+        {
+          "text": "The ardents worry that Dalinar's visions are connected to Voidbinding.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "75" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Future sight",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "34" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "oathbringer", "chapter": "118" },
+            { "book": "rhythm-of-war", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nightform, one of the Regal forms of power, has the Voidbinding power of future sight.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        },
+        {
+          "text": "Renarin's ability to see the future seems connected to Voidbinding, likely gained through his bond to the corrupted spren Glys.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "Renarin's future sight is imperfect: what he foresees during the Battle of Thaylen Field does not come to pass.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "118" }]
+        },
+        {
+          "text": "Renarin can't use Illumination in the usual way, so his visions may come from a Voidish form of that Surge.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "renarin-kholin",
+      "role": "Future sight",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    }
+  ]
+}

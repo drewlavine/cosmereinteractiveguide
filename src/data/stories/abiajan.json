@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A singer appointed citylady of Hearthstone by the Fused, once a parshwoman slave of Brightlord Wistiow.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "1" },
+            { "book": "rhythm-of-war", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Abiajan was enslaved to Brightlord Wistiow from a young age, under another name. As a child she hurt her arm, and Lirin set it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        },
+        {
+          "text": "When the Everstorm came she fled Hearthstone with the other singers. After some months the Fused sent her back as citylady, along with singers from the surrounding area.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+        },
+        {
+          "text": "Abiajan let Lirin check arriving Herdazian refugees for disease. When the Fused Lezian came hunting Kaladin, who was hidden among them, a fight broke out; afterwards, at Kaladin's suggestion, she persuaded the singers they had lost and led them to a stormshelter outside town.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "2" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "White skin with red marbling on her cheeks. She wears an Alethi-style havah in muted colours that show off her skin patterns.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "1" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Resentful of humans for enslaving her people, she speaks and acts like an Alethi yet tries to imitate the ancient singers the Fused describe. She has a sense of duty and leadership.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "2" }]
+    }
+  ]
+}

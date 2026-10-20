@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A Parshendi who serves on the Council of Five, the Parshendi's ruling council on Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Council of Five",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "i-11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When stormform was put before the Five, Abronai supported Eshonai's proposal to take it first. He believed that, as spren had returned to give humans Surgebinding, as Eshonai had seen in Kaladin, the Parshendi needed to reach for their own forms of power.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "When Eshonai returned praising stormform, Abronai at first agreed their people should take it en masse, but her new harshness and Zuln's objections made him uncertain. He was also put off by stormform's red eyes and doubted it could truly summon a highstorm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        },
+        {
+          "text": "After Eshonai stirred the Parshendi to rebellion, Abronai was taken into custody with the others who refused stormform. He probably escaped with Thude and the other dissenters into the chasms.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Representing the mates on the Five, he holds mateform and looks plump and lush like all mates, though he keeps better control of himself than most. Privately he dislikes the form and wants to change.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He wishes peace could have been made with the humans, but cares more for his people. Despite his fears, he at first supports converting the Parshendi to stormform, then strongly opposes it once he sees how it has changed Eshonai.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+    }
+  ]
+}

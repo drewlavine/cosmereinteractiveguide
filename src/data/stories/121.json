@@ -1,0 +1,31 @@
+{
+  "intro": [
+    {
+      "text": "A highspren, the spren bonded to Nale.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Nale's spren",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "106" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "121 and Nale had sworn all five Ideals of the Skybreakers.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "106" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "121 disapproves of close relationships between spren and their Radiants, believing they reduce a spren to a mere helper of human will.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+    }
+  ]
+}

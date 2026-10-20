@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A peakspren who runs a barge in Shadesmar, and the cousin of Ua'pam.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The envoy's barge",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "29" },
+            { "book": "rhythm-of-war", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Unativi carried the envoy from Urithiru on his barge toward Lasting Integrity, but refused to go all the way and left them at Nameless.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        },
+        {
+          "text": "He spent some of the Stormlight paid to his crew manifesting goods from the bead ocean, with his cousin's help, and scolded Ua'pam for running off to fight. At Nameless he went for supplies and spoke with the honorspren Notum.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald like other peakspren, with deep cracks in his skin, most of all on his head, that glow with molten light. He likes to wear a hat.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He distrusts humans, disapproves of Ua'pam bonding Zu, and thinks he can simply avoid the war when it reaches Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen slave trader taking a caravan of slaves, including Kaladin, toward the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trading Kaladin",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "43" },
+            { "book": "way-of-kings", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tvlakv bought Kaladin cheaply from another slaver after a failed revolt. Kaladin was a constant trouble to him, and once tore up the map that held Tvlakv's purchased highstorm dates after the caravan got lost.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "43" }]
+        },
+        {
+          "text": "At the Shattered Plains, Tvlakv sold his slaves in Sadeas's warcamp to the intimidating Hashal. At the last moment he revealed that Kaladin was a deserter who led slave revolts, so Kaladin was sent to the bridge crews.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Transporting Shallan",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "15" },
+            { "book": "words-of-radiance", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Months later, camped in the Frostlands, Tvlakv found Shallan Davar, who asked to travel with the caravan. He gave her as little comfort as he could and planned to sell her at the Plains, but she learned of it and bluffed him into escorting her by promising he would be freed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "15" }]
+        },
+        {
+          "text": "Chased by deserters, the caravan came upon another under bandit attack. Shallan sent Tvlakv to help defend it and won the deserters over. Afterwards she took his remaining slaves and bought his spare wagon, and the insulted Tvlakv headed back south.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A portly man with a faint limp, a stark white Thaylen beard and long eyebrows, brown eyes and black hair. He wears a ragged suit and vest and a dark blue knit cap that he wrings when nervous.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "4" },
+            { "book": "words-of-radiance", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Eloquent and charismatic but unscrupulous, he tells obvious lies and glosses over them when caught. He tends his slaves only to protect their value, and will have one killed rather than risk illness spreading.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "words-of-radiance", "chapter": "15" }
+          ]
+        }
+      ]
+    }
+  ]
+}

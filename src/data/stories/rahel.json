@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "A young Truthwatcher and ward of May Aladar, serving on Adolin Kholin's team of scribes.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Azimir",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "50" },
+            { "book": "wind-and-truth", "chapter": "85" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shortly before the Battle of Azimir, Rahel bonded a mistspren and was trained in healing. In Azimir as a scribe for Adolin, she was made a healer for the battle, keeping the most gravely wounded alive and reading novels when not needed. She told Adolin she felt guilty that she couldn't heal Taln's mind, and he reassured her.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+        },
+        {
+          "text": "A few days later she was brought to heal Adolin after he lost a leg beneath the fallen thunderclast Terushal.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "As Azimir fell, she healed Adolin again in the emperor's saferoom. On the day of the contest of champions she joined the group entering the palace to retake the throne; while Adolin fought the Fused Abidi, she waited outside, then helped Noura and Jaskkeem hold the throne room until the contest began.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "135" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young woman of about seventeen, probably Alethi, with long hair that fades from dark to light brown.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "50" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rahel is uncomfortable being a Truthwatcher and would rather be known as an Edgedancer. She is ashamed that she can't heal minds or lost limbs, and the horrors of war weigh on her.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "127" }]
+    }
+  ]
+}

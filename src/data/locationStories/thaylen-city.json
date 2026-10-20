@@ -1,0 +1,160 @@
+{
+  "intro": [
+    {
+      "text": "The capital of Thaylenah, a great trading and banking city on Roshar built inside a vast lait.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The capital of Thaylenah on Roshar, a great trading and banking city, and the site of the Battle of Thaylen Field.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Before the Everstorm, the wooden docks below the city wall were among its greatest prides, with warehouses, taverns and a grand bazaar famous even in Alethkar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    },
+    {
+      "text": "It is built on the mountainside in Wards. The stone Ancient Ward at the centre is the oldest, its streets in a cymatic pattern; the Loft Wards climb in terraces to the Royal Ward, with the Royal Palace and ten temples, one for each Herald.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "33" },
+            { "book": "oathbringer", "chapter": "59" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Thaylen Gemstone Reserve, a windowless, fortress-like national bank in the Low Ward, keeps gems in its vaults and lets people trade them by their writs of ownership.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-13" }]
+    },
+    {
+      "text": "The city lies on the northwest coast of Thaylenah's largest island, inside a vast natural lait and ringed by mountains, so normally it feels only the mildest stormwinds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "58" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thaylen City is one of the oldest settlements on Roshar. Local history makes it about four thousand years old, but its Oathgate and cymatic pattern suggest it is much older; in the Heraldic Epochs it lay in Thalath.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        },
+        {
+          "text": "In the Era of Solitude it stayed the capital and became a major shipping and banking hub, one of the great cities of Roshar. Late in that age, scholars of Dawncities studied the Ancient Ward's pattern, and Kabsal used it as proof of the Almighty.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "33" },
+                { "book": "oathbringer", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Thaylens remember the Oathgate, now a sculpture garden, as a \"portal of worlds\" that only the most Passionate could reopen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Everstorm",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "oathbringer", "chapter": "51" },
+            { "book": "oathbringer", "chapter": "96" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar warned the city of the Everstorm, and the Thaylens believed him after checking with New Natanan, but there was not enough time. The docks and the whole seaside district were all but wiped out and the other Wards heavily damaged.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When the parshmen awoke, they stole the remaining ships and sailed away.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        },
+        {
+          "text": "Queen Fen at first refused Dalinar, fearing Alethi armies would take her weakened capital, but in time agreed, and Kaladin and Shallan reopened the Oathgate.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
+        },
+        {
+          "text": "Dalinar visited with Navani and Taravangian, discovered he could mend broken structures, and helped rebuild the city, winning the Thaylens' respect.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Battle of Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Eila Stele was revealed, Thaylenah was one of the few nations to stay with Urithiru. Then the enemy's armies sailed from Marat to the city's shores, and Amaram's troops turned on the people they were meant to protect.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+        },
+        {
+          "text": "Radiants and Thaylen troops, later joined by House Kholin soldiers brought through the Oathgate, fought thunderclasts, Amaram's army and the Fused. Much of the city was ruined, but in the end the attackers withdrew.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "The battle left the city in shambles, with a thunderclast's corpse among the ruins. Surgeon stations were set up in the Low Ward, and the allies helped rebuild what they could.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

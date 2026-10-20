@@ -1,0 +1,37 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi stormwarden who served King Gavilar Kholin.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Service to Gavilar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "35" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Matain was one of the scholars who joined Gavilar's early expeditions to the Shattered Plains, where Gavilar trusted him as an advisor.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "He dictated an account of one of the first meetings with the Parshendi, describing their looks, weapons and clothing. Doubtful at first, he was told to study their language, society and music, and had to admit they were genuine. Jasnah says his account of Gavilar's sudden interest in them is not exaggerated.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "After Gavilar's death, Matain stayed on as a stormwarden for House Kholin, and was present when Navani tested her floating platforms in the Kholin warcamp.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

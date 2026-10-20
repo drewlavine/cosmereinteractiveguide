@@ -1,0 +1,129 @@
+{
+  "intro": [
+    {
+      "text": "An elderly ardent engineer who works on Navani Kholin's fabrial projects, and helps evacuate Hearthstone aboard the flying Fourth Bridge.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+    },
+    {
+      "text": "An ardent engineer under Queen Navani Kholin in Urithiru, whose breakthrough with fabrial cages made the Fourth Bridge possible.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ardent and artifabrian",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Navani is the patron of Falilar's studies in engineering and fabrials. On the Shattered Plains he watched her test a floating parapet and fretted over its wobble, and in Urithiru her scribes suggested he check whether her new sketches could work.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "35" },
+                { "book": "oathbringer", "chapter": "50" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Falilar went with the Fourth Bridge to evacuate Hearthstone, checking its schematics with Rushu. He told Navani the evacuation was going faster than planned, but still feared a malfunction, so she told him to triple-check his calculations.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Experiments and discoveries",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "19" },
+            { "book": "rhythm-of-war", "chapter": "27" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Tomor, Falilar built a wrist device that could pull Navani along a chosen direction, but worried about the manpower such devices needed. Navani showed him her idea for a lift driven by weights in a shaft and wound back up by highstorm windmills, and he excitedly set to work on both.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        },
+        {
+          "text": "When a sealed room was found off the atrium, Falilar measured it and realised that such rooms had once had doors that opened and closed, and had stayed sealed since the tower was abandoned.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The mysterious spanreed",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When an unknown spanreed contacted Navani, Falilar measured its signal from two places and found that the sender was inside the tower, then led a team that tracked it to a dark area on the fourth floor.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "61" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Fused occupation of Urithiru, Falilar carried on his research under watch in the library, and was among the few scholars important enough to be escorted whenever he left it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "61" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "An elderly man with a shaved head and a squared white beard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "28" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Falilar takes comfort in worrying and tugs at his beard as he frets, and gets excited when running an experiment.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "28" }
+          ]
+        }
+      ]
+    }
+  ]
+}

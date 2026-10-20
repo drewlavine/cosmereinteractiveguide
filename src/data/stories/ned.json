@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A man from Sadeas's warcamp who moved to Urithiru, followed by his wife, Rem.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ned was known as a very angry drunk. One night he strangled Rem when she tried to take him home from the bar, scraping her face with his ring. The next day a barmaid at All's Alley was killed the same way. Betha's thugs, who guarded the bar, took Ned for the killer, and Ur threw him off a high ledge though he denied it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "Shallan learned about Ned from Betha while looking into the murders in the tower.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

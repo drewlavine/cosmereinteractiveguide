@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "A Hearthstone man who serves the citylord, Brightlord Roshone.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    },
+    {
+      "text": "The gardener at the citylord's manor in Hearthstone.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Hearthstone",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1168, when Amaram came to Hearthstone to recruit, Roshone had Waber gather the townspeople for a meeting, and Waber and his helpers put up a canopy in the town square.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Evacuation of Hearthstone",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the evacuation of Hearthstone to Urithiru in 1175, Waber was among a group seized by a Fused and a few of his soldiers to draw Kaladin out. When Kaladin arrived, the singers withdrew into the manor but let Waber and the others go.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

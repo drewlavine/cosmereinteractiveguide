@@ -1,0 +1,106 @@
+{
+  "intro": [
+    {
+      "text": "A Herdazian cousin of Lopen who left Highprince Roion's army to join Bridge Four.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "35" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Herdazian member of Bridge Four, cousin of Lopen, who became a Windrunner.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "22" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "dawnshard", "chapter": "11" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "46" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Punio served in Roion's army on the Shattered Plains. Hearing from Lopen's mother that Bridge Four needed more guards, he joined them after his yearly leave in Herdaz. Kaladin was unhappy he had deserted, but Lopen and Punio argued Roion wouldn't notice, and Kaladin let him stay. His wife sometimes brought food to the camp, though at first he called her his sister to fit in with the bachelors.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "35" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Kaladin began gathering squires, Punio was one of the few men who had not been original members of Bridge Four to manage to draw in Stormlight early on.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Weeks after Lopen, shortly after the Battle of Thaylen Field, Punio bonded an honorspren and became a Windrunner. He sent most of his Radiant stipend home to help his poorer cousins, especially Rod's family.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "dawnshard", "chapter": "11" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bald and muscular, with tan skin; he looks like a fighter and is plainly Herdazian.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "22" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Speaks broken Alethi. He is married.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "35" }]
+    },
+    {
+      "text": "Laid-back like Lopen, kind and devoted to his family, Punio likes drinking and dancing. He envied Lopen for bonding a spren first.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "22" },
+            { "book": "dawnshard", "chapter": "15" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Close to his cousins Lopen and Huio, though he grumbles to Huio about Lopen's jokes at his expense, such as teasing about his hair routine. He once bet Lopen couldn't eat twelve chouta wraps in two hours.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+    }
+  ]
+}

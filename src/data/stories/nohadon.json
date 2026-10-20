@@ -1,0 +1,128 @@
+{
+  "intro": [
+    {
+      "text": "A king of ancient times, famous as the author of The Way of Kings, a philosophical treatise in the form of a collection of stories.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "An ancient king of Alethela and early Surgebinder, famous as the author of The Way of Kings, who appears in several of Dalinar Kholin's visions.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "109" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "103" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "103" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nohadon became a Surgebinder early and took the throne of Alethela young, during an eleven-year Desolation that killed nine in ten of his subjects. That, and an earlier conflict with the Surgebinder Alakavish, left his kingdom in ruins and him so jaded he considered abdicating. He tried to unite the other Surgebinders by force and failed, which forced him to find a more peaceful path.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "103" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Over the decades Nohadon rebuilt his kingdom into a bustling, colourful place. During a war over Makabak trade routes, he stayed for a long time near the border of Shin Kak Nish, in the house of a woman whose fate was tragic, and there learned to bake Shin bread, a habit he kept into old age.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        },
+        {
+          "text": "Around that time, Nohadon started a family and made his famous journey from Abamabar to Urithiru, walking alone, without guards or money, and earning his way by singing and manual labour. The trip took a very long time, and by the time he reached Urithiru's gates he was all but unrecognisable.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "oathbringer", "chapter": "28" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In visions",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "103" },
+            { "book": "wind-and-truth", "chapter": "142" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Nohadon appears in one of the visions the Stormfather sends Dalinar Kholin during highstorms, with Dalinar in the role of Karm, an advisor. The young king shares his anxieties about ruling and his frustration with other Surgebinders, and the last thing Dalinar says lets Navani begin translating the Dawnchant. Dalinar also brings Venli into the same vision to parley with her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "109" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In a stranger vision, which came to Dalinar in his sleep without the Stormfather, an older Nohadon walked the city with him, aware of who Dalinar was and of his past. He spoke of things Dalinar didn't yet know, such as the three Realms, suggesting it might truly have been Nohadon, or some preserved memory of him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+        },
+        {
+          "text": "After Dalinar became Honor's Vessel, he found himself in a vision with Nohadon once more, who remembered their last meeting. As they discussed what victory might look like, the power of Honor joined the conversation, showing Dalinar that even the power of a Shard could learn and change.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "142" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In his youth Nohadon had dark hair pulled back in a braid and a short, pointy beard. In old age his hair turned grey and his face wrinkled, though he kept the beard. As king, he wore golden threads in his hair, meeting on his forehead in the shape of the Knights Radiant symbol, and white-and-gold robes with voluminous sleeves.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "60" },
+            { "book": "oathbringer", "chapter": "103" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "In old age Nohadon is glib, whimsical and good-natured, with a wry sense of humour. He chats with common people, gives food to the poor and enjoys simple pleasures like shopping, often going out without guards and using his powers for banal things, such as jumping out of windows instead of taking the stairs. He is still sombre when recalling the past.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "103" }]
+    }
+  ]
+}

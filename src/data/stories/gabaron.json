@@ -1,0 +1,40 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi soldier with a large ego, who blamed his armorers for any trouble with his armor.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "78" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Shattered Plains",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "63" },
+                { "book": "wind-and-truth", "chapter": "78" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Leyten was an apprentice armorer in Gabaron's retinue. When Gabaron's armor failed and he took an arrow to the shoulder, he blamed Leyten and sent him to the bridge crews. His armor was poorly kept as a result, and two bridge runs afterwards his cuirass snapped off in a fight and he died.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "63" },
+                { "book": "wind-and-truth", "chapter": "78" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

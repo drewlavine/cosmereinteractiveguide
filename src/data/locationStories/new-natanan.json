@@ -1,0 +1,138 @@
+{
+  "intro": [
+    {
+      "text": "A city-state on Roshar's eastern coast, the easiest gateway to the Shattered Plains, and home of the blue-skinned Natan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Natan have pale blue skin, woolly white hair and wide noses. Some dye a few locks of hair in vivid colours, and their names have common and high forms: Au-nak's high form is Nak-ali.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Natan are mostly Vorin, but also revere the moons, especially Nomon, so some Alethi ardents consider them almost pagan.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "oathbringer", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Caravans run between the city and the Alethi warcamps on the Shattered Plains, so the Natan keep an ambassador in the warcamps to court the Alethi lighteyes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "New Natanan is the largest city on the Ocean of Origins. Ships stop there to rest and resupply, and it reports each new highstorm as it makes landfall.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "1" },
+            { "book": "oathbringer", "chapter": "i-13" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "History",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "60" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "6" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The region was once part of the Silver Kingdom of Natanatan. As that kingdom slowly fell apart, it shrank to a single settlement: New Natanan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "Before the war on the Shattered Plains, Dalinar led a small force through the city to claim the Plains. Jasnah and Shallan's ship was sunk on its way there.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "6" },
+                { "book": "oathbringer", "chapter": "105" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "New Natanan was the first major city struck by the Everstorm, despite Dalinar and Navani's warning.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "12" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When Dalinar invited them into his coalition, the Natan played for time, and joined only after Taravangian brought in Jah Keved and Kharbranth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "The Natan claim the Oathgate at Stormseat as heirs of ancient Natanatan, but lack the power to enforce it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A seon, a glowing ball of light with her Aon at its centre.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "3" }]
+    },
+    {
+      "text": "A seon who works with the Ghostbloods, and who once pretended they had mistreated her.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "i-1" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The cube",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "78" },
+                { "book": "wind-and-truth", "chapter": "134" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "25" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hidden in a metal cube, Ala was sent by Mraize with Shallan to Lasting Integrity so that Shallan could report to him across the realms. Pattern secretly used her to reach Hoid, and she also listened in on Shallan's other conversations.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "78" },
+                { "book": "wind-and-truth", "chapter": "134" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Freed from the cube by Shallan and Kalak, Ala acted as though the Ghostbloods had hurt her and was left with Kalak. When Felt came for him, she showed whose side she was on and wanted Kalak killed, but Felt persuaded her to wait so they could learn more from him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "wind-and-truth", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Months after Stormfall, Shallan tracked Ala and Felt down and demanded Ala's help as payment for what had been done to her. Thaidakar agreed, as long as Ala could report back to him, and Shallan's first request was for Ala to reach Olo.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

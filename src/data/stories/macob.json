@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An older merchant who leads a large caravan travelling to the Shattered Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Journey to the Shattered Plains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1173, bandits attacked Macob's caravan with firebrands, setting wagons alight and pulling back so the caravaneers would tire themselves out before attacking again. Shallan, travelling with Tvlakv, saw the smoke. She persuaded Vathah's band of deserters to fight for her, and together with the caravan they defeated the bandits, though some lives were lost.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        },
+        {
+          "text": "Macob agreed to travel with Shallan to the Shattered Plains under the protection of her men, supplying her with a chull and fine food and clothing in return. He became particularly respectful after learning she had a Shardblade, and parted ways with her at the warcamps.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He has blue eyes and a beard, and wears a felt cap. Shallan can't place his accent, but thinks he is neither Alethi nor Thaylen.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He stays genial even in grim situations and dislikes slavers. Though he tries to bargain with Shallan, he gives in easily when she makes demands.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
+    }
+  ]
+}

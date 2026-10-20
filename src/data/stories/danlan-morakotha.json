@@ -1,0 +1,80 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi lighteyed woman courting Adolin Kholin, who becomes one of Dalinar's clerks.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "An Alethi lighteyed woman, once courted by Adolin Kholin, who serves as one of Dalinar's scribes and joins Graves's plot to make Dalinar king.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "words-of-radiance", "chapter": "46" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Courting Adolin",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Danlan came to the Shattered Plains to spend a few months with her father and called on Adolin the day after she arrived. He made her one of his father's clerks, so she was handling the spanreed when Jasnah contacted Dalinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+        },
+        {
+          "text": "Adolin hoped to make this courtship last, but some months on he broke it off over things Danlan had told her friends. The parting was bitter; she stayed on as Dalinar's scribe and glared at Adolin whenever they met.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "58" },
+                { "book": "words-of-radiance", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Graves's conspiracy",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her own experience of Elhokar's lax lawmaking convinced Danlan that he was incompetent. She joined Graves's plot to kill Elhokar and replace him with Dalinar, and was present when Moash brought Kaladin to meet the conspirators.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Danlan is extremely pretty, with a graceful figure, a long neck and hair streaked with more auburn than black. She wears sleek dresses, a braided hairstyle with steel hair spikes, and speaks in a soft, husky voice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Danlan is highly intelligent but often acts less clever than she is, and is annoyed when Adolin points it out. She is polite, well versed in noble traditions and keen on politics, and likes avramelons and strong violet wine.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+    }
+  ]
+}

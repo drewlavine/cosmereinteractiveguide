@@ -1,0 +1,180 @@
+{
+  "intro": [
+    {
+      "text": "The bond between a spren and a person that makes the person a Surgebinder, letting them breathe in Stormlight and use two Surges.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    },
+    {
+      "text": "The bond between a spren and a person that makes the person a Surgebinder. It grows as the person swears the Ideals of their order, and can grant a living Shardblade.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The Nahel bond makes a person a Surgebinder. They can breathe in Stormlight, which sharpens their reflexes and heals them, and use it to power Surges; each kind of Radiant spren grants two Surges, and each Surge is shared by two orders.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    },
+    {
+      "text": "The bond is forged and grown by swearing Immortal Words, the Ideals. The First Ideal is the same for every order; the others differ by order, and Lightweavers speak deep truths about themselves instead.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Forming the bond",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "i-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Some spren choose their partners carefully, while others pay little heed to morals; either way, a bond takes choice.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "60" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Surgebinders can instinctively tell their own spren from others.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+        },
+        {
+          "text": "Khriss's Ars Arcanum notes that it's harder to bond a heavily Invested being, such as a Returned, because Investiture resists Investiture.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        },
+        {
+          "text": "A Bondsmith's power of Connection is what created the Nahel bonds between humans and spren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Growing the bond",
+          "revealedIn": [
+            { "book": "edgedancer", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "rhythm-of-war", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Saying the words of an Ideal, at least in one's mind, though aloud is better, is needed to move the bond forward.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        },
+        {
+          "text": "The bond may also perfect a person's existing skills without adding new ones: an expert with the spear becomes unmatched, as seen with Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        },
+        {
+          "text": "As the bond grows, many spren become able to speak straight into their Radiant's mind, and the Radiant into theirs.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "55" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shardblades",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "oathbringer", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A bonded spren can become a living Shardblade at once, without the ten heartbeats a dead Blade needs, and can still talk to its partner while it's a Blade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "Besides Blades, bonded spren can take many metal shapes, from shields and spears to forks and plain rods.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "What the spren gains",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            { "book": "rhythm-of-war", "chapter": "102" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A spren can cross into the Physical Realm without a bond, but loses much of its mind; there are precautions, but they don't help much. Bonding restores it, more fully as the bond grows, and most spren must stay near their partner to keep their minds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "If a spren is pushed back into the Cognitive Realm, its Radiant may be able to pull it back.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "102" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Breaking the bond",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "74" },
+            { "book": "words-of-radiance", "chapter": "84" },
+            { "book": "oathbringer", "chapter": "95" },
+            { "book": "rhythm-of-war", "chapter": "87" },
+            { "book": "rhythm-of-war", "chapter": "10" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Acting against one's oaths first dims the spren's mind and the Surgebinder's ability to draw in Stormlight, and can in the end kill the spren.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+        },
+        {
+          "text": "A spren killed this way can sometimes be revived, though it's hard: usually the Surgebinder must swear the broken oaths again.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+        },
+        {
+          "text": "If a Radiant dies while keeping their oaths, their spren returns to Shadesmar, badly hurt but alive, and can bond again.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "95" }]
+        },
+        {
+          "text": "A spren can safely break the bond itself, though it takes great care.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "A spren can keep its mind in the Physical Realm for a while after its Radiant dies, but must bond again to keep it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "Surgebinder",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    }
+  ]
+}

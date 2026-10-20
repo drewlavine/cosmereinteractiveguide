@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A young man from Hearthstone in Alethkar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Conscription",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Caull was the son of Taleb. When Amaram came to Hearthstone to recruit for his army, Roshone chose Caull as one of the conscripts, along with Tien and others.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

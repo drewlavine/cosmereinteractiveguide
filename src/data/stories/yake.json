@@ -1,0 +1,78 @@
+{
+  "intro": [
+    {
+      "text": "Yake is a bridgeman in Bridge Four in Sadeas's army on the Shattered Plains.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+    },
+    {
+      "text": "Yake is a member of Bridge Four and one of Kaladin's Windrunner squires.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Four",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "46" },
+            { "book": "way-of-kings", "chapter": "63" },
+            { "book": "words-of-radiance", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yake was already in Sadeas's bridge crews when Kaladin arrived on the Shattered Plains in 1173. He took part in the first bridge run Kaladin led, and on chasm duty he noticed the crew's growing camaraderie but was slow to join in. Weeks on, an enemy arrow struck his arm during a bridge run.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "When Kaladin began training Bridge Four with the spear, Yake and Hobber struggled with their thrusts, so Kaladin had Moash work with them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "Kaladin chose Yake, Moash and Teft to train with Zahel and Ivis to face Shardblades. Yake briefly wielded a Blade and was awestruck, practised dodging its blows, and was scolded by Zahel for picking up one of his coloured stones.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "As one of Kaladin's squires, Yake greeted Rlain at a training session and suggested he teach new recruits to hold a spear. He and Eth asked Rlain about the Fused attacking caravans, wrongly lumping the listeners in with other singers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Yake is stout with thick arms, and is presumably darkeyed.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Yake is reliable and quick to follow orders, and not superstitious, dismissing Maps's Death Rattle as dying delirium. At first introverted, he comes to tease his fellow bridgemen often.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "44" }
+          ]
+        }
+      ]
+    }
+  ]
+}

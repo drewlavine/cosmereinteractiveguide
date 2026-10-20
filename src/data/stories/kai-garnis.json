@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A thunderclast who fights for the singers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "63" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before the Battle of Thaylen Field, Kai-garnis rose from the stone amid the singer army and smashed part of the outer wall. Adolin and Hrdalm cut off one of her legs, but she seemed afraid of Renarin. Healing almost instantly from her blows, he and Hrdalm cut off her legs and arms, and when Renarin drew in Stormlight by her head, she fled the stone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "120" },
+                { "book": "wind-and-truth", "chapter": "63" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Second Battle of Narak",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kai-garnis took part in the singer offensive in the days before the contest of champions and was key to breaching Narak Four, fighting off Sigzil and several Stonewards and breaking through its wall. After Edgedancers attacked her, Sigzil killed her with a spear through the eye. Her corpse became a bridge for Magnified Ones into the camp.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

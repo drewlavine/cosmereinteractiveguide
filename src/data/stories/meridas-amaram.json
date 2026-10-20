@@ -1,0 +1,383 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi general, celebrated for his honour, who owns both a Shardblade and Shardplate.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+    },
+    {
+      "text": "A Shardbearing Alethi general serving Highprince Sadeas, newly arrived in the warcamps on the Shattered Plains and an old friend of Dalinar Kholin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+    },
+    {
+      "text": "A disgraced Alethi general, stripped by Dalinar of his place at the head of the Knights Radiant after his betrayal of Kaladin came to light.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+    },
+    {
+      "text": "Highprince of the Sadeas princedom, raised to the title by Ialai Sadeas despite his disgrace.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "27" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born to the third dahn and distantly related to Citylord Roshone, Amaram became a close friend of King Gavilar and his brother Dalinar. He and Gavilar came to believe that bringing back the Voidbringers would return the Heralds and the Radiants, and Gavilar drew him into the Sons of Honor. Gavilar also hoped to match him with Jasnah, who wasn't interested.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "44" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "40" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the feast celebrating the Parshendi treaty, Amaram met privately with Gavilar and others, and showed Eshonai in when she wandered into the meeting. During the evening, when Gavilar hinted that Amaram should marry Jasnah, Amaram excused himself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Highmarshal in Alethkar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "47" },
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "67" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "47" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "While the highprinces fought on the Shattered Plains, Amaram stayed in Alethkar commanding Sadeas's troops, defending the north against Veden and Reshi raids and other highprinces, and sending his best soldiers on to Sadeas.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "47" },
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "7" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Visiting his cousin Roshone in Hearthstone, Amaram drafted local men, including Kaladin's brother Tien, promising Tien would only run messages; Kaladin joined to protect him. A few months on, in a battle against Brightlord Hallaw, Tien was sent into the fighting and killed before Amaram's cavalry charge routed the enemy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        },
+        {
+          "text": "In late 1172, during another battle with Hallaw's forces, a Shardbearer, Helaran Davar, attacked Amaram, killing his horse and shattering his leg. Kaladin and his squad intervened, and Kaladin killed the Shardbearer, but to Amaram's shock refused the Shards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "47" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After conferring with his advisers, Amaram had Kaladin's surviving squadmates killed and took the Shards himself, arguing that he was trained to use them and nobody would believe Kaladin had given them up. In return for his life, he had Kaladin branded a slave and sold.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "51" },
+                { "book": "words-of-radiance", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Some months on, Amaram announced that he had won the Shards himself, backed by seventeen witnesses to a story of killing an assassin, and made plans to travel to the Shattered Plains.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "55" },
+                { "book": "words-of-radiance", "chapter": "58" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The warcamps",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "37" },
+            { "book": "words-of-radiance", "chapter": "60" },
+            { "book": "words-of-radiance", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Amaram reached the Shattered Plains weeks after the Battle of the Tower, where Dalinar greeted him as an old friend. Kaladin told Dalinar of Amaram's betrayal, but Dalinar had doubts. Amaram settled in Sadeas's warcamp, in a building that had once been an inn.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        },
+        {
+          "text": "Amaram tried to bridge the divide between Dalinar and Sadeas. He refused Dalinar's suggestion to leave Sadeas, obeyed Sadeas's orders even when he disagreed, and argued with him for cooperation with Dalinar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "37" }]
+        },
+        {
+          "text": "Amaram secretly searched for the lost city of Urithiru, which he believed lay beyond the Oathgate at Stormseat, and hoped to ask the Parshendi about the Voidbringers. He had the Plains surveyed and wrote his research in the stormwarden script, keeping it locked in a secure room.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "On the Ghostbloods' orders, Shallan sneaked into Amaram's home and copied his notes. Leaving disguised as a messenger, she saw his Shardblade and recognised it as her brother Helaran's.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Head of the Knights Radiant",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "67" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar named Amaram head of the refounded Knights Radiant. After Adolin's duel, Kaladin publicly accused Amaram of stealing his Shards and killing his squad, and only then did Amaram recognise him. Kaladin was imprisoned, and Amaram claimed he had stayed out of the duel to remain above petty conflicts.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        },
+        {
+          "text": "Hearing that a madman claiming to be the Herald Talenel had spoken of hidden Shardblades, Amaram visited him in secret, then found a Blade in a nearby cave and kept it. When Dalinar asked him to look into the rumour, he said nothing of the Blade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "At one of Elhokar's feasts, where Hoid insulted him, Amaram learned that Dalinar's visions had been made public. He believed them to come from the Almighty and called Dalinar a prophet.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The expedition",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "75" },
+            { "book": "words-of-radiance", "chapter": "76" },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the day of Dalinar's expedition, Amaram pressed him to reconcile with Sadeas first, and lied about his investigation into the madman's Blades.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "75" }]
+        },
+        {
+          "text": "Before the march, Dalinar asked Amaram directly about Kaladin's charges, and he denied them. Dalinar then revealed the Blade in the cave was a trap he had set, and held it to Amaram's throat. Amaram admitted the killings, claiming he had acted for Alethkar. Dalinar stripped him of his Radiant cloak, and Amaram left with his guard.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        },
+        {
+          "text": "After the Battle of Narak and the arrival of the Everstorm, Amaram wrote to Restares that the Voidbringers had returned, then cut the madman he believed to be Taln out of his cell. An assassin's attack briefly roused Taln's reflexes before Amaram carried him off towards Urithiru.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "22" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "27" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Crossing the Shattered Plains, Amaram's party was caught in an Everstorm. He slipped through the Oathgate to Urithiru, revealed himself only to Ialai Sadeas and recovered in hiding. Ialai made him lead investigator into Torol Sadeas's murder.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "22" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ialai raised Amaram to highprince of the Sadeas princedom, deepening the rift with the Kholins. Adolin, who once admired him, now openly called him a bastard.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Meeting Jasnah again at Urithiru, Amaram tried to make peace out of political need, but she met him with venom, and the two traded increasingly personal insults before he stormed off.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "53" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaylen City",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Under Odium's influence, Amaram attacked the people of Thaylen City. He swallowed a gem housing Yelig-nar and bonded the Unmade, transforming and gaining nine Surges. Wielding two Shardblades, he nearly defeated Kaladin, but Rock shot him in the back with a grandbow and killed him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, lean Alethi man with a square, chiselled face, dark hair, light tan eyes and an angular nose. Clean-shaven in his youth, he has since grown a beard. He has a deep voice and carries himself proudly, back straight and head high.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "56" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He usually wears a neatly pressed green uniform with a sword at his side, and goes into battle in his Shardplate. His glyphpair, honour and determination, is drawn as a whitespine, and his colours are burgundy and dark green.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "In public Amaram lives honourably: he treats his soldiers and servants with respect, feeds and pays his men well, serves his highprince faithfully and sets high standards. He keeps a collection of flutes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "When his real goals are at stake, Amaram sets his principles aside, believing that sacrificing a few is justified for the greater good. Guilt over what he has done wars with that pragmatism, though he mostly ignores it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "He guards his reputation for honour closely and is seen as a paragon by lighteyes and darkeyes alike, though some think his image is too perfect. He can become obsessed with personal glory.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Privately a religious zealot, he wants to return the Vorin church to its old power and is willing to bring back the Voidbringers to make the Heralds return. Unusually for a Vorin man, he can write, using the stormwarden script for his secret research and letters.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    }
+  ]
+}

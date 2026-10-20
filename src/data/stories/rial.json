@@ -1,0 +1,60 @@
+{
+  "intro": [
+    {
+      "text": "A sergeant in Bridge Thirteen, one of the crews guarding Dalinar Kholin at Urithiru.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    },
+    {
+      "text": "A sergeant in Bridge Thirteen and one of Dalinar Kholin's regular guards, who became one of Teft's Windrunner squires.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Guarding Dalinar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "100" },
+            { "book": "oathbringer", "chapter": "16" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Narak, Bridge Thirteen became a bodyguard for Urithiru's leaders, and Rial grew friendly with Dalinar, once spiking his canteen with alcohol. He guarded Dalinar on his first visit to Thaylen City, was there for the duel with Kdralk, and offered him a drink just before the curates of the Holy Enclave branded Dalinar a heretic.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        },
+        {
+          "text": "On one of his shifts at Dalinar's rooms, Rial already knew that Navani had sent Dalinar a timekeeping vambrace before Dalinar opened the package.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        },
+        {
+          "text": "Rial was not on hand to guard Dalinar at the Battle of Thaylen Field, as Bridge Thirteen became squires to Teft.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He speaks with a slow Koron drawl from central Alethkar, near the Sunmaker Mountains.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+    },
+    {
+      "text": "Clean-shaven with dark brown hair. Dalinar thinks him rather pale for an Alethi, though elsewhere he is described as having dark, leathery skin.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Navani finds him greasy, but Dalinar likes him, as he reminds Dalinar of friends from his days as a warlord.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "58" }]
+    },
+    {
+      "text": "He rolls a sphere across his knuckles, salutes Dalinar constantly and usually carries a flask.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+    }
+  ]
+}

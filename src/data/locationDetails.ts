@@ -5,6 +5,78 @@
 import type { LocationDetails } from './types'
 
 export const locationDetails: Record<string, LocationDetails> = {
+  aimia: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Aimian',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-5',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '54',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  akinah: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Aimia',
+        placeId: 'aimia',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'aladar-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  alethkar: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Alethi',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '60',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'The Nine',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
   arguois: {
     facts: [
       {
@@ -40,6 +112,161 @@ export const locationDetails: Record<string, LocationDetails> = {
           {
             book: 'final-empire',
             chapter: '6',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  azimir: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'axikk',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        characterId: 'gezamal-kushkam',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '52',
+          },
+        ],
+      },
+      {
+        characterId: 'lift',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        characterId: 'neziham',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '47',
+          },
+        ],
+      },
+      {
+        characterId: 'noura',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        characterId: 'sarqqin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '60',
+          },
+        ],
+      },
+      {
+        characterId: 'zabra',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '60',
+          },
+        ],
+      },
+      {
+        characterId: 'zarb-kushkam',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '37',
+          },
+        ],
+      },
+    ],
+  },
+  azir: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Makabaki',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '53',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Azimir',
+        placeId: 'azimir',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Prime Aqasix Yanagawn the First',
+        characterId: 'yanagawn',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-9',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  babatharnam: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Babath',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '23',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Panatham',
+        placeId: 'panatham',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '8',
           },
         ],
       },
@@ -103,6 +330,11 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
       {
         characterId: 'deborah-james',
+        relation: 'resident',
+        revealedIn: ['sunlit-man'],
+      },
+      {
+        characterId: 'dirge',
         relation: 'resident',
         revealedIn: ['sunlit-man'],
       },
@@ -230,6 +462,38 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'bronze-palace': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-9',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Azimir',
+        placeId: 'azimir',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Azir',
+        placeId: 'azir',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
   burnlands: {
     facts: [
       {
@@ -296,6 +560,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  celebrant: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Sea of Lost Lights',
+        placeId: 'sea-of-lost-lights',
+        revealedIn: ['oathbringer'],
       },
     ],
     people: [],
@@ -373,6 +648,31 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  conclave: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kharbranth',
+        placeId: 'kharbranth',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   'conventical-of-seran': {
     facts: [
       {
@@ -420,6 +720,54 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'cultivations-perpendicularity': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Travel between Roshar and Shadesmar',
+        placeId: 'roshar',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '46',
+          },
+          {
+            book: 'dawnshard',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Horneater Peaks',
+        placeId: 'horneater-peaks',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  dalilak: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'natir',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '37',
+          },
+        ],
+      },
+    ],
+  },
   derytatith: {
     facts: [
       {
@@ -448,6 +796,65 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'dueling-arena': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  emul: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Emuli',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '54',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Sesemalex Dar',
+        placeId: 'sesemalex-dar',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-7',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Prime Vexil the Wise',
+        characterId: 'vexil',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'endless-ocean': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Sea',
+        revealedIn: ['oathbringer'],
       },
     ],
     people: [],
@@ -599,6 +1006,22 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'grand-indicium': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Record Keeping',
+        revealedIn: ['edgedancer'],
+      },
+      {
+        label: 'City',
+        name: 'Yeddaw',
+        placeId: 'yeddaw',
+        revealedIn: ['edgedancer'],
+      },
+    ],
+    people: [],
+  },
   haverfrex: {
     facts: [
       {
@@ -615,6 +1038,194 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  hearthstone: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'abiajan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        characterId: 'aric',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'harl',
+        relation: 'resident',
+        revealedIn: ['way-of-kings'],
+      },
+      {
+        characterId: 'hesina',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '31',
+          },
+        ],
+      },
+      {
+        characterId: 'jost',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        characterId: 'kaladin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'kaladin',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'lirin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'naget',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '44',
+          },
+        ],
+      },
+      {
+        characterId: 'natir',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '37',
+          },
+        ],
+      },
+      {
+        characterId: 'oroden',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'oroden',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'rillir-roshone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '62',
+          },
+        ],
+      },
+      {
+        characterId: 'tien',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'toralin-roshone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'waber',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '7',
+          },
+        ],
+      },
+    ],
+  },
+  herdaz: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Herdazian',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'King of Herdaz',
+        characterId: 'king-of-herdaz',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [],
+  },
   holstep: {
     facts: [
       {
@@ -627,6 +1238,170 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'honor-chasm': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Chasm',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '6',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'honors-perpendicularity': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Travel between Shadesmar and Roshar',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '119',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '120',
+          },
+        ],
+      },
+      {
+        label: 'Used for',
+        name: 'source of Stormlight',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '119',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '120',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'horneater-peaks': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Mountains',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '46',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'beautiful-song',
+        relation: 'resident',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        characterId: 'lunamor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '37',
+          },
+        ],
+      },
+    ],
+  },
+  iri: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Iriali',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '18',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'jah-keved': {
+    facts: [
+      {
+        label: 'People',
+        name: 'Veden',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '1',
+          },
+        ],
+      },
+      {
+        label: 'People',
+        name: 'Unkalaki',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        label: 'People',
+        name: 'Bav',
+        placeId: 'bavland',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-3',
+          },
+        ],
+      },
+      {
+        label: 'People',
+        name: 'Siln',
+        placeId: 'silnasen',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '53',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Vedenar',
+        placeId: 'vedenar',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '33',
+          },
+        ],
       },
     ],
     people: [],
@@ -690,6 +1465,103 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  kharbranth: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Kharbranthian',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '5',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '7',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-14',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Queen Savrahalidem',
+        characterId: 'savrahalidem',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '5',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '7',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-14',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adrotagia',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-14',
+          },
+        ],
+      },
+      {
+        characterId: 'dukar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'i-3',
+          },
+        ],
+      },
+      {
+        characterId: 'kabsal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '70',
+          },
+        ],
+      },
+      {
+        characterId: 'taravangian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '12',
+          },
+        ],
+      },
+    ],
+  },
   khlennium: {
     facts: [
       {
@@ -716,6 +1588,242 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '30',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'kholin-princedom': {
+    facts: [
+      {
+        label: 'Capital',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  kholinar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adolin-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '66',
+          },
+        ],
+      },
+      {
+        characterId: 'aesudan-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'alaward',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '84',
+          },
+        ],
+      },
+      {
+        characterId: 'beard',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '73',
+          },
+        ],
+      },
+      {
+        characterId: 'dalinar-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        characterId: 'elhokar-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-7',
+          },
+        ],
+      },
+      {
+        characterId: 'gavinor-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '84',
+          },
+        ],
+      },
+      {
+        characterId: 'grund',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '72',
+          },
+        ],
+      },
+      {
+        characterId: 'ialai-sadeas',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '96',
+          },
+        ],
+      },
+      {
+        characterId: 'jasnah-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        characterId: 'lhan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-12',
+          },
+        ],
+      },
+      {
+        characterId: 'navani-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'noromin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '69',
+          },
+        ],
+      },
+      {
+        characterId: 'renarin-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '52',
+          },
+        ],
+      },
+      {
+        characterId: 'sah',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '51',
+          },
+        ],
+      },
+      {
+        characterId: 'vaceslv',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '84',
+          },
+        ],
+      },
+      {
+        characterId: 'ved',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'yokska',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '62',
+          },
+        ],
+      },
+    ],
+  },
+  'kholinar-palace': {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prologue',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kholinar',
+        placeId: 'kholinar',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-12',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -796,6 +1904,41 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  'lasting-integrity': {
+    facts: [],
+    people: [
+      {
+        characterId: 'amuna',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '87',
+          },
+        ],
+      },
+      {
+        characterId: 'kalak',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '78',
+          },
+        ],
+      },
+      {
+        characterId: 'sekeir',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '82',
+          },
+        ],
+      },
+    ],
   },
   'lekal-city': {
     facts: [
@@ -1233,6 +2376,17 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  marat: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   marketpit: {
     facts: [
       {
@@ -1240,6 +2394,36 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Urteau',
         placeId: 'urteau',
         revealedIn: ['hero-of-ages'],
+      },
+    ],
+    people: [],
+  },
+  natanatan: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Natan',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '36',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Stormseat',
+        placeId: 'stormseat',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '60',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '83',
+          },
+        ],
       },
     ],
     people: [],
@@ -1260,6 +2444,27 @@ export const locationDetails: Record<string, LocationDetails> = {
           {
             book: 'well-of-ascension',
             chapter: '55',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'new-natanan': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Nation',
+        name: 'New Natanan',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '42',
           },
         ],
       },
@@ -1373,6 +2578,83 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  'outer-market': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  palanaeum: {
+    facts: [
+      {
+        label: 'Used for',
+        name: 'Library',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '5',
+          },
+          {
+            book: 'way-of-kings',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Kharbranth',
+        placeId: 'kharbranth',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  pinnacle: {
+    facts: [
+      {
+        label: 'Owner',
+        name: 'Elhokar Kholin',
+        characterId: 'elhokar-kholin',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        label: 'Used for',
+        name: 'Palace',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        label: 'City',
+        name: 'Alethi warcamps',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '24',
+          },
+          {
+            book: 'words-of-radiance',
+            chapter: '36',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   'pits-of-hathsin': {
     facts: [
       {
@@ -1389,6 +2671,97 @@ export const locationDetails: Record<string, LocationDetails> = {
         label: 'Region',
         name: 'Central Dominance',
         revealedIn: ['lost-metal'],
+      },
+    ],
+    people: [],
+  },
+  purelake: {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Lake',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-1',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Sela Tales',
+        placeId: 'sela-tales',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'rall-elorim': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Iri',
+        placeId: 'iri',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'lift',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '33',
+          },
+        ],
+      },
+    ],
+  },
+  rathalas: {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Eastern Crownlands',
+        placeId: 'eastern-crownlands',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '36',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['oathbringer'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'tanalan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '36',
+          },
+        ],
+      },
+    ],
+  },
+  'reshi-isles': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Islands',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '28',
+          },
+        ],
       },
     ],
     people: [],
@@ -1452,6 +2825,183 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'sadeas-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'sebarial-princedom': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Alethkar',
+        placeId: 'alethkar',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'sesemalex-dar': {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Emul',
+        placeId: 'emul',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
+  'shallow-crypts': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
+  'shattered-plains': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Unclaimed Hills',
+        placeId: 'unclaimed-hills',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adolin-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '26',
+          },
+        ],
+      },
+      {
+        characterId: 'dalinar-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '69',
+          },
+        ],
+      },
+      {
+        characterId: 'elhokar-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'ialai-sadeas',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: '38',
+          },
+        ],
+      },
+      {
+        characterId: 'kaladin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '47',
+          },
+        ],
+      },
+      {
+        characterId: 'navani-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '22',
+          },
+        ],
+      },
+      {
+        characterId: 'renarin-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '114',
+          },
+        ],
+      },
+      {
+        characterId: 'rlain',
+        relation: 'born',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '42',
+          },
+        ],
+      },
+    ],
+  },
+  shinovar: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Shin',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'prologue',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '106',
+          },
+        ],
+      },
+    ],
+    people: [
+      {
+        characterId: 'szeth',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-3',
+          },
+        ],
+      },
+    ],
+  },
+  silnasen: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
   'south-seran': {
     facts: [
       {
@@ -1509,6 +3059,38 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  stormseat: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'Council of Five',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-4',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: [
+          {
+            book: 'words-of-radiance',
+            chapter: 'i-1',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Natanatan',
+        placeId: 'natanatan',
+        revealedIn: ['words-of-radiance'],
+      },
+    ],
+    people: [],
+  },
   suisna: {
     facts: [
       {
@@ -1541,6 +3123,37 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  tashikk: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Tashikki',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Prince of Tashikk',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Makabak',
+        placeId: 'makabak',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   tathingdwen: {
     facts: [
       {
@@ -1557,6 +3170,117 @@ export const locationDetails: Record<string, LocationDetails> = {
     ],
     people: [],
   },
+  'thaylen-city': {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'Queen Fen Rnamdi',
+        characterId: 'fen-rnamdi',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '28',
+          },
+        ],
+      },
+      {
+        label: 'Nation',
+        name: 'Thaylenah',
+        placeId: 'thaylenah',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'fen-rnamdi',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '50',
+          },
+        ],
+      },
+      {
+        characterId: 'kdralk',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '59',
+          },
+        ],
+      },
+      {
+        characterId: 'kmakl',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '59',
+          },
+        ],
+      },
+    ],
+  },
+  thaylenah: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Thaylen',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        label: 'Capital',
+        name: 'Thaylen City',
+        placeId: 'thaylen-city',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Fen Rnamdi',
+        characterId: 'fen-rnamdi',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '12',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
+  'the-valley': {
+    facts: [
+      {
+        label: 'Type',
+        name: 'Valley',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: 'i-7',
+          },
+        ],
+      },
+      {
+        label: 'Region',
+        name: 'Emul/Greater Hexi',
+        placeId: 'emul',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   tougier: {
     facts: [
       {
@@ -1564,6 +3288,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  'tower-roshar': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'The Shattered Plains',
+        placeId: 'shattered-plains',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -1657,6 +3392,39 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  tukar: {
+    facts: [
+      {
+        label: 'People',
+        name: 'Tukari',
+        revealedIn: [
+          {
+            book: 'way-of-kings',
+            chapter: '53',
+          },
+        ],
+      },
+      {
+        label: 'Ruled by',
+        name: 'Tezim',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '3',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '64',
+          },
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+    ],
+    people: [],
+  },
   tyrian: {
     facts: [
       {
@@ -1689,6 +3457,17 @@ export const locationDetails: Record<string, LocationDetails> = {
             chapter: '26',
           },
         ],
+      },
+    ],
+    people: [],
+  },
+  'unclaimed-hills': {
+    facts: [
+      {
+        label: 'Region',
+        name: 'Frostlands',
+        placeId: 'frostlands',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -1790,6 +3569,663 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  urithiru: {
+    facts: [
+      {
+        label: 'Ruled by',
+        name: 'King Dalinar Kholin',
+        characterId: 'dalinar-kholin',
+        revealedIn: ['wind-and-truth'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'adin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '23',
+          },
+        ],
+      },
+      {
+        characterId: 'adolin-kholin',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'aladar',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'alalan',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'i-11',
+          },
+        ],
+      },
+      {
+        characterId: 'balat-davar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '122',
+          },
+        ],
+      },
+      {
+        characterId: 'bashin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        characterId: 'chananar',
+        relation: 'resident',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        characterId: 'cord',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'dabbid',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '37',
+          },
+        ],
+      },
+      {
+        characterId: 'dalinar-kholin',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'darcira',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '20',
+          },
+        ],
+      },
+      {
+        characterId: 'drehy',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '29',
+          },
+        ],
+      },
+      {
+        characterId: 'elhokar-kholin',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'elthebar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '44',
+          },
+        ],
+      },
+      {
+        characterId: 'eylita-tavinar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '122',
+          },
+        ],
+      },
+      {
+        characterId: 'falilar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '50',
+          },
+        ],
+      },
+      {
+        characterId: 'garith',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '80',
+          },
+        ],
+      },
+      {
+        characterId: 'gavinor-kholin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '29',
+          },
+        ],
+      },
+      {
+        characterId: 'gaz',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '21',
+          },
+        ],
+      },
+      {
+        characterId: 'general-khal',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'gift',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '37',
+          },
+        ],
+      },
+      {
+        characterId: 'glurv',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'hatham',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'hesina',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        characterId: 'hobber',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '37',
+          },
+        ],
+      },
+      {
+        characterId: 'ialai-sadeas',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'inadara',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'isabi',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '28',
+          },
+        ],
+      },
+      {
+        characterId: 'ishnah',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        characterId: 'jasnah-kholin',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'jayn',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        characterId: 'jor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        characterId: 'jushu-davar',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'ka',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '35',
+          },
+        ],
+      },
+      {
+        characterId: 'kadash',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'kaladin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '10',
+          },
+        ],
+      },
+      {
+        characterId: 'kara',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '12',
+          },
+        ],
+      },
+      {
+        characterId: 'kelen',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        characterId: 'kristir',
+        relation: 'resident',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        characterId: 'kuno',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '49',
+          },
+        ],
+      },
+      {
+        characterId: 'laral-roshone',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'leyten',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '29',
+          },
+        ],
+      },
+      {
+        characterId: 'lift',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: 'i-6',
+          },
+        ],
+      },
+      {
+        characterId: 'lirin',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '7',
+          },
+        ],
+      },
+      {
+        characterId: 'lopen',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '29',
+          },
+        ],
+      },
+      {
+        characterId: 'lusintia',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '8',
+          },
+        ],
+      },
+      {
+        characterId: 'maben',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '107',
+          },
+        ],
+      },
+      {
+        characterId: 'malata',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '24',
+          },
+        ],
+      },
+      {
+        characterId: 'mararin',
+        relation: 'resident',
+        revealedIn: ['wind-and-truth'],
+      },
+      {
+        characterId: 'merit',
+        relation: 'resident',
+        revealedIn: ['rhythm-of-war'],
+      },
+      {
+        characterId: 'mrall',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '107',
+          },
+        ],
+      },
+      {
+        characterId: 'navani-kholin',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'noril',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '25',
+          },
+        ],
+      },
+      {
+        characterId: 'noura',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '65',
+          },
+        ],
+      },
+      {
+        characterId: 'oroden',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        characterId: 'palona',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '2',
+          },
+        ],
+      },
+      {
+        characterId: 'peet',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'red-roshar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '27',
+          },
+        ],
+      },
+      {
+        characterId: 'renarin-kholin',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'rial',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '16',
+          },
+        ],
+      },
+      {
+        characterId: 'rlain',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '104',
+          },
+        ],
+      },
+      {
+        characterId: 'rust-elthal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '64',
+          },
+        ],
+      },
+      {
+        characterId: 'ruthar',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'shalash',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '17',
+          },
+        ],
+      },
+      {
+        characterId: 'shallan-davar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '15',
+          },
+        ],
+      },
+      {
+        characterId: 'shob',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'skar',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '46',
+          },
+        ],
+      },
+      {
+        characterId: 'stargyle',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '21',
+          },
+        ],
+      },
+      {
+        characterId: 'talla',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'wind-and-truth',
+            chapter: '5',
+          },
+        ],
+      },
+      {
+        characterId: 'taravangian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '58',
+          },
+        ],
+      },
+      {
+        characterId: 'teft',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'teofil',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '40',
+          },
+        ],
+      },
+      {
+        characterId: 'teshav-khal',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'oathbringer',
+            chapter: '4',
+          },
+        ],
+      },
+      {
+        characterId: 'tomor',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'rhythm-of-war',
+            chapter: '19',
+          },
+        ],
+      },
+      {
+        characterId: 'torfin',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'turinad-sebarial',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'vathah',
+        relation: 'resident',
+        revealedIn: ['words-of-radiance'],
+      },
+      {
+        characterId: 'wikim-davar',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+      {
+        characterId: 'yake',
+        relation: 'resident',
+        revealedIn: ['oathbringer'],
+      },
+    ],
   },
   urteau: {
     facts: [
@@ -1898,6 +4334,17 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
   },
+  valath: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
+      },
+    ],
+    people: [],
+  },
   valtroux: {
     facts: [
       {
@@ -1915,6 +4362,17 @@ export const locationDetails: Record<string, LocationDetails> = {
         name: 'Final Empire',
         placeId: 'final-empire',
         revealedIn: ['final-empire'],
+      },
+    ],
+    people: [],
+  },
+  vedenar: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Jah Keved',
+        placeId: 'jah-keved',
+        revealedIn: ['way-of-kings'],
       },
     ],
     people: [],
@@ -1972,6 +4430,53 @@ export const locationDetails: Record<string, LocationDetails> = {
       },
     ],
     people: [],
+  },
+  yeddaw: {
+    facts: [
+      {
+        label: 'Nation',
+        name: 'Tashikk',
+        placeId: 'tashikk',
+        revealedIn: ['edgedancer'],
+      },
+    ],
+    people: [
+      {
+        characterId: 'arclomedarian',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '18',
+          },
+        ],
+      },
+      {
+        characterId: 'ghenna',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '14',
+          },
+        ],
+      },
+      {
+        characterId: 'hauka',
+        relation: 'resident',
+        revealedIn: [
+          {
+            book: 'edgedancer',
+            chapter: '3',
+          },
+        ],
+      },
+      {
+        characterId: 'mik',
+        relation: 'resident',
+        revealedIn: ['edgedancer'],
+      },
+    ],
   },
   'yelva-city': {
     facts: [

@@ -1,0 +1,140 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren of some standing among her kind, who bonds the Windrunner Teft.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Watching the Windrunners",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "dawnshard", "chapter": "17" },
+                { "book": "rhythm-of-war", "chapter": "103" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1174 Lunamor, who can see hidden spren, noticed Phendorana watching Bridge Four train on the Shattered Plains, surrounded by dozens of smaller honorspren. He called her ali'i'kamura, the most important god present, and Syl agreed she was a kind of leader among them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "49" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "oathbringer", "chapter": "37" },
+                { "book": "dawnshard", "chapter": "17" },
+                { "book": "rhythm-of-war", "chapter": "103" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Bond with Teft",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "119" },
+                { "book": "rhythm-of-war", "chapter": "25" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "23" },
+                { "book": "dawnshard", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Phendorana chose to bond Teft after watching the Windrunners train. Ashamed of his firemoss addiction, Teft resisted her support and hid their bond, but when he panicked over his part in Eth's death she refused to leave him, and he swore the Third Ideal, letting her become a Shardspear.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "119" },
+                { "book": "rhythm-of-war", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Teft then revealed her to the other Radiants, though she preferred to stay hidden. Lopen wondered whether she was behind his own failure to swear the Third Ideal, but he managed it after growing as a person.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "23" },
+                { "book": "dawnshard", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The occupation of Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "91" },
+            { "book": "rhythm-of-war", "chapter": "104" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Raboniel partly blocked the Radiants' powers, Teft fell unconscious and Phendorana vanished from the Physical Realm. After Teft was revived he struggled to summon her, and she remembered nothing of what had happened.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "91" }]
+        },
+        {
+          "text": "When Moash ambushed Teft and Lift, Teft and Phendorana briefly overcame the tower's suppression to form a Shardspear and block his Honorblade. Drained afterwards, they were helpless when Moash found her with white sand and stabbed her with an anti-Stormlight dagger, destroying her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "104" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A human-sized older woman, much larger than most honorspren, with long hair that moves in a phantom wind and curls away into mist. She first wears an elegant gown, later a practical Thaylen-style skirt and blouse.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "2" },
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "dawnshard", "chapter": "9" },
+            { "book": "rhythm-of-war", "chapter": "91" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Tenacious, a bit cantankerous, with a warm side. Phendorana understands Teft's self-loathing like no one else; she doesn't suffer excuses and pushes him when he needs it, but also offers encouragement and reminds him of his worth.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "71" },
+            { "book": "oathbringer", "chapter": "115" },
+            { "book": "dawnshard", "chapter": "17" },
+            { "book": "rhythm-of-war", "chapter": "103" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "intro": [
+    {
+      "text": "In Vorin society, people with dark eyes, usually brown or black: the commoners, ranked below the lighteyes.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Darkeyes of the first and second nahn are full citizens with the right of travel and can even marry into lighteyed families. A wealthy, high-ranking darkeyes is addressed as Citizen, while lighteyes rarely call a darkeyes \"darkborn\", a term implying contempt.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "25" },
+            { "book": "words-of-radiance", "chapter": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Darkeyes are ranked by nahn, the counterpart of the lighteyes' dahn. Any nahn is socially below the lowest dahn, though circumstances can blur this: as a captain, darkeyed Kaladin held authority over lighteyed soldiers who outranked him socially.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "63" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Darkeyes of high enough nahn who serve an essential role in a town can be exempt from conscription, and may get a commission to work unused land and keep part of the crop.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "44" },
+            { "book": "oathbringer", "chapter": "10" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A Vorin legend says that a man who wins a Shardblade in battle becomes a lighteyes, regardless of his station, and is raised to the fourth dahn.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "16" },
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "rhythm-of-war", "chapter": "8" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Becoming lighteyed",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "66" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "5" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "47" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid feels he should be amused at the importance given to eye colour, but isn't: he has seen other arbitrary systems, and remembers there is a good reason the belief in lighteyed superiority arose.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "epilogue" }]
+        },
+        {
+          "text": "For the first time in generations a darkeyes became a Shardbearer, and so rose to the fourth dahn, when Moash received a full set of Shards from Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        },
+        {
+          "text": "Swearing Ideals can also lighten the eyes: when Kaladin swore the Third Ideal at the Battle of Narak, his eyes turned pale blue, lighter than any king's.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "5" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The right of travel was suggested by Nale, who helped scribes write the laws on eye colour.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "47" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "darkeyed captain",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "became a Shardbearer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+    },
+    {
+      "characterId": "gaz",
+      "role": "sixth nahn",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "24" }]
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "Sister Talanah, an ardent at the monastery in Kholinar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's feast",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the kitchens ran out of wine during Gavilar's feast, Navani realised Dalinar had been taking it and sent the cook to ask Talanah for her secret reserves.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

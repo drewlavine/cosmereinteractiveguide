@@ -1,0 +1,79 @@
+{
+  "intro": [
+    {
+      "text": "The king of Jah Keved, who lays a trap for the assassin Szeth at one of his feasts.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Reign",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "i-9" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hanavanar spent years of his reign setting his highprinces against one another, and secretly bonded a Shardblade, though rumours of it leaked out. When his highprinces began dying at Szeth's hands, he guessed he might be next and planned a trap at a feast.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At the feast he hid two Shardbearers beneath his table and gave dozens of soldiers half-shards. Szeth fought the soldiers without his Blade at first, then cut down the Shardbearers. Hanavanar fled, but Szeth caught him, broke through his half-shard shield and killed him.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+        },
+        {
+          "text": "After his death, the lighteyes of Jah Keved fought a war over the succession until Valam took the throne.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "rhythm-of-war", "chapter": "19" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A thick man with wide shoulders and waist, a square brown beard and a prominent nose.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Clever enough to know he might be targeted and to keep his Shardblade secret, he is also somewhat paranoid. He badly underestimates Szeth, and is willing to risk his guests' lives by setting his trap at a dinner party.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-9" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ]
+}

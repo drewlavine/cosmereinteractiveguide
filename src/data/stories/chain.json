@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi member of the Ghostbloods who goes by a standard code name.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "116" },
+            { "book": "wind-and-truth", "chapter": "25" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ghostbloods",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chain runs local spies for the Ghostbloods, giving them one-word titles to hide who they are, and takes orders from the group's leaders. His cell is trying to smuggle Stormlight off Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "25" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

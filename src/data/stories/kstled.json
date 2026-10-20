@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "Kstled is a Thaylen soldier, the man-at-arms of the Wandersail, who leads the soldiers aboard the ship. He is the brother of its captain, Drlwan.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The voyage to Akinah",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "4" },
+            { "book": "dawnshard", "chapter": "8" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "dawnshard", "chapter": "13" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kstled was the Wandersail's man-at-arms for its expedition to Akinah in 1174. When the ship's pet skyeel was found dead before departure, he took it as a bad omen, but Rysn persuaded him that having a Windrunner aboard was a counter-omen, and he declined her offer to stay ashore. He also agreed to Cord replacing the ship's cook.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+        },
+        {
+          "text": "When worms infested the ship's grain, Kstled feared it had been cursed by the Passions, and he took a floating santhid corpse as another bad omen, arguing with Rysn over whether touching it was wise.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+        },
+        {
+          "text": "Rysn trusted Kstled with her plan to find the traitor aboard, having him search Cord's room. When Nikli claimed to have found poison there, Rysn knew it was lying, and Kstled and two of his men took Nikli into custody.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "On reaching Akinah, Kstled led soldiers ashore to secure the beach. He worried that gemhearts found there might be cursed, but Rushu told him to gather them anyway.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "13" }]
+        },
+        {
+          "text": "When a huge hordeling attacked the crew, Kstled led the retreat toward the ancient city rather than endanger the ship, then returned to the Wandersail with Rushu and the other survivors.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Kstled keeps his long Thaylen eyebrows sleekly tucked behind his ears and usually wears a shortsword at his waist.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "13" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though Vorin, Kstled follows Thaylen traditions and superstitions, seeing omens good and bad and citing the Passions, which puts him at odds with Rysn and his sister.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+    },
+    {
+      "text": "He is courageous and good at his job, trained in several weapons, and trusted by his soldiers and the crew. In time he comes to trust Rysn as well, calling her by the proper title of rebsk.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "18" }]
+    }
+  ]
+}

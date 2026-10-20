@@ -1,0 +1,36 @@
+{
+  "intro": [
+    {
+      "text": "A thief who plans to rob the Bronze Palace, known to Lift as 'Tig'.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Bronze Palace",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tigzikk was the only one in Huqin's crew who knew Lift well, and vouched for her. Learning that the election of a new ruler made the Bronze Palace easier to enter, he proposed robbing it, and during the theft he and Maxin mingled with the bureaucrats in the palace garden, ready to warn the others of any alarm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Tigzikk is an aging Makabaki man with dark hair and skin. For the heist he dresses in fine clothes imitating those of Azish civil servants.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Counted as the crew's scholar for being able to curse in three languages, Tigzikk is cautious and acts as the group's voice of reason.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "intro": [
+    {
+      "text": "A stormwarden employed by Taravangian as head of the King's Testers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The King's Tester",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dukar likely moved to Urithiru with Taravangian to give him his daily intelligence tests. On one of the king's brilliant days, Dukar pressed him to finish the test properly despite his impatience, and seemed to see through Taravangian's claim that he couldn't solve the last problem. After warning that the king was near the danger line, he and Mrall agreed not to restrict him that day.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "Eight days after the Battle of Thaylen Field, Dukar tested Taravangian and had to pronounce him weak of mind. Waiting out the Everstorm, he debated parts of the Diagram with Adrotagia and Mrall, and voiced his fear of the danger the Diagram now faced.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "When the Diagram was disbanded, Dukar wanted to stay and keep testing Taravangian, but the king ordered him to leave, and he returned to Kharbranth with the king's other former attendants.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Nervous and fidgety, usually in a typical stormwarden's robe.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Meticulous in giving the king's tests, even when that annoys Taravangian on his clever days; on duller days Taravangian thinks of him as a dear friend. Deeply loyal to Taravangian.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
+        }
+      ]
+    }
+  ]
+}

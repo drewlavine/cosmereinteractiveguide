@@ -1,0 +1,50 @@
+{
+  "intro": [
+    {
+      "text": "An ancient singer warrior of the Last Legion, who turned from Ba-Ado-Mishram's war; one of Rlain's ancestors, his name kept in song.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Last Legion",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "121" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "48" },
+                { "book": "wind-and-truth", "chapter": "58" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "85" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ba-Ado-Mishram let Toathan and the Last Legion leave, calling them the best of the singers, and their going convinced her she had to meet the humans and seek a new way to peace.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+        },
+        {
+          "text": "The Last Legion then took dullform, beginning what modern listeners call the long sleep, and made songs to remember their forms and history, including the Song of Listing, the Song of Secrets and the Song of Histories.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "48" },
+                { "book": "wind-and-truth", "chapter": "58" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Humans kept tracking them after they took dullform. Cut off from Ba-Ado-Mishram, they were untouched when her binding trapped the other singers in slaveform.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

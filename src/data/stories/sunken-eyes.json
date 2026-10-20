@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Shin soldier who killed Szeth's sheep, Molli, when Szeth was a child.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "38" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Molli",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "38" },
+            { "book": "wind-and-truth", "chapter": "48" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The soldier told the young Szeth that he had slaughtered Molli to remind the shepherds what soldiers were for, and thought it worth the whipping he would get. Szeth attacked him in a rage but was easily thrown aside. When Szeth came at him again with a stone, the soldier began choking him, and Szeth struck him dead with the stone.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "38" }]
+        },
+        {
+          "text": "His death was used as grounds for marking Szeth as one who subtracts.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "48" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "His eyes are noticeably sunken.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "48" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Rowdy, in keeping with the lax camp near the Stoneward monastery, and resentful of those who do not subtract.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "48" }]
+    }
+  ]
+}

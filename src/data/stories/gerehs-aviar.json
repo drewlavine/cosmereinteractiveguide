@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "A red and blue bird, about a foot tall, that is loyal to its owner and readily accepts Lift's help.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+    },
+    {
+      "text": "A bird once owned by Gereh, rescued by Lift after his death; it now lives with her.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "116" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "With Lift",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Urithiru, Gereh was murdered by Mraize, whose own bird then attacked Gereh's and badly wounded it. Lift defended it and healed it, and it led her to Gereh's body, where it mourned until Mraize arrived and Lift fled with it. She lost it while she was imprisoned and searched for it once freed. With the Sibling's help, she found it and Zahel held captive by Axindweth, and freed them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "116" },
+                { "book": "wind-and-truth", "chapter": "i-13" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Bright red on its head and body, with bright blue wings that fade to red at the tips. It stands about a foot tall.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Fiercely loyal to its owner, it keeps trying to return to him. It quickly sees that Lift means well and calmly accepts her help.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-5" }]
+    }
+  ]
+}

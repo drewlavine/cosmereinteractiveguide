@@ -1,0 +1,576 @@
+{
+  "intro": [
+    {
+      "text": "A huge, magical sword of Roshar, summoned out of mist, that cuts through stone and steel and kills by severing the soul.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "text": "A huge, magical sword of Roshar that cuts through stone and steel and kills by severing the soul. Shardblades are spren: a Radiant's spren can become a living Blade, and the Blades carried today are dead spren.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Shardblades are usually used with Shardplate, because they're so large they're unwieldy without it. Someone who carries a Blade is a Shardbearer; someone with both Blade and Plate is a full Shardbearer.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "text": "Vorin doctrine holds that the Shardblades were gifts from the Almighty, given to fight the Voidbringers; the Honorblades are legendary treasures.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+    },
+    {
+      "text": "Shardblades are spren. A Radiant's spren can become a Blade, and the Blades carried today are dead spren, killed when the ancient Radiants broke their oaths.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Heralds and the Radiants",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "way-of-kings", "chapter": "prelude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The first Shardblades were the Honorblades, given to the Heralds by Honor. Seeing this, spren formed Nahel bonds with humans and did the same, creating the first Radiant Blades.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "At Aharietiam, the Last Desolation, the Heralds abandoned their Blades.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "After the Recreance",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "67" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "words-of-radiance", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Radiants abandoned their Shards at the Recreance, their Blades stayed sharp but could no longer be bonded or summoned.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        },
+        {
+          "text": "A few decades after the Recreance, a way was found to set a gemstone into a Blade's pommel, and the Blades could be summoned again, though they weren't the same.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In the centuries after the Recreance, Shardblades were prized both as weapons of war and as symbols of power.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Soon after the Recreance, a book called Arts and Majesty divided the arts into masculine and feminine: an attempt by men to keep Shardblades for themselves that almost entirely worked.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "New Radiant Blades",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan Davar is the first Radiant outside the Skybreakers known to gain a Shardblade since the Recreance. She forgets for years how she got it, so how Blades are made stays hidden.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Szeth uses Jezrien's Honorblade to assassinate rulers across Roshar. Kaladin's spren, Syl, becomes a Shardblade when he swears the third Ideal, and he uses it to fight Szeth and take back the Honorblade.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "71" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Around the same time Jasnah's spren, Ivory, can become a Blade, and Lift's spren, Wyndle, becomes one when she swears her third Ideal.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "57" },
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "19" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Malata, Dami and Renarin also gain Blades, and living Blades become vital for working the Oathgates. Jezrien's Honorblade passes from Kaladin to Dalinar, who lends it to Kaladin's men, until it's stolen before the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Summoning and bonding",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "way-of-kings", "chapter": "51" },
+            { "book": "words-of-radiance", "chapter": "5" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Shardblade is summoned out of mist into its bearer's hand, and dismissed back into mist at will.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "A Shardblade takes ten heartbeats to summon.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "26" }]
+        },
+        {
+          "text": "When a Shardbearer is killed, their Blade appears on the ground beside them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "When a new owner first touches a Shardblade, the gem in its pommel flashes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
+        },
+        {
+          "text": "To bond a dead Blade, a new owner keeps it close for five days; after that they can summon and dismiss it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+        },
+        {
+          "text": "A dead Blade's spren isn't completely dead: it gains a little life when summoned and syncs to its bearer's heartbeat, which is why summoning takes ten heartbeats.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "A bearer can also give up a Blade willingly by concentrating on breaking the bond while touching the pommel gem. The gem flashes, and the former bearer feels an icy cold.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "89" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cutting",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "18" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "13" },
+            { "book": "words-of-radiance", "chapter": "56" },
+            { "book": "way-of-kings", "chapter": "68" },
+            { "book": "way-of-kings", "chapter": "i-9" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shardblades are larger than ordinary swords, often near six feet long, yet much lighter than they look; water condenses along a Blade when it appears.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+        },
+        {
+          "text": "A Shardblade cuts through non-living things such as wood, stone and steel as if passing through water.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Against a living person the Blade doesn't cut the flesh; the wielder feels only a small tug. A struck organ may die, and a strike to the spine or head burns out the victim's eyes, with dark smoke rising from them. Hair and nails can still be cut.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        },
+        {
+          "text": "A limb whose core is cut by a Blade flares with pain, then goes grey, limp and numb; such a limb is called Blade-dead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "56" }]
+        },
+        {
+          "text": "Shardplate can stop a Shardblade, though a couple of blows will shatter a section of it, and one Blade can block another, throwing sparks.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "68" }]
+        },
+        {
+          "text": "Jah Keved's half-shards are shields fitted with a fabrial that can take two blows from a Shardblade before breaking.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+        },
+        {
+          "text": "Aluminium can also stop a Shardblade, but it's rare on Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "68" },
+                { "book": "words-of-radiance", "chapter": "48" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Healing Blade wounds",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "33" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Radiant full of Stormlight can heal a Shardblade wound, though it takes a lot of Stormlight and leaves the limb weak and aching for a while.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "33" }]
+        },
+        {
+          "text": "The Surge of Progression can heal Shardblade wounds through Regrowth, if used almost at once and with a great deal of power.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "epilogue" },
+                { "book": "edgedancer", "chapter": "8" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Honorblades",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "i-3" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "16" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Honorblades, the Blades of the Heralds, are more powerful than ordinary Shardblades. While one is summoned it changes the colour of its holder's eyes.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-3" }]
+        },
+        {
+          "text": "Honorblades were given to the Heralds by Honor. They aren't made from a spren bond, so anyone can use one, and each grants the Surges of its Herald's order.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Seven of the Honorblades are kept by the Shin, who have guarded them for millennia.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Living Radiant Blades and Honorblades can operate the Oathgates; dead Blades can't.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "16" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Radiant Blades",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "86" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Radiant's spren becomes a Blade at once, forming out of mist, and can take other shapes such as a spear. It can still talk to its Radiant while it is a weapon.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "Each Radiant Blade is unique, often marked with glyphs and patterns, and glows faintly along its lines in the colour of its Radiant's order.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "If a Radiant keeps breaking their oaths, the bond weakens and breaks, killing the spren and leaving a dead Blade. If the same Radiant recommits to their oaths, the spren can be revived.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Dead Blades",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "28" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Blades carried by today's Shardbearers lack the faint glow of the Blades of the ancient Radiants.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Each dead Blade has a gemstone set in its pommel, which lets it be bonded and summoned again.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "When a Radiant touches a dead Shardblade, they hear the screams of the spren trapped inside.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "28" }]
+        },
+        {
+          "text": "When a dead Blade isn't summoned, its spren appears in Shadesmar as a deadeye, with eyes that look scratched out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "52" },
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "89" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In society",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "66" },
+            { "book": "way-of-kings", "chapter": "58" },
+            { "book": "way-of-kings", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shardblades are among the most tangible signs of power between nations. Jah Keved and Alethkar have perhaps twenty each, the Thaylens five, and smaller kingdoms such as Kharbranth none at all.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Anyone who kills a Shardbearer is entitled to their Shards, whatever their rank, and a bond usually lasts until death or until the Blade is lost in a duel.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Anyone who gains a Shardblade is raised to at least the fourth dahn: a highlord, with lands and income.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "66" }]
+        },
+        {
+          "text": "Shardbearers duel for sport and for Shards. A duel between Shardbearers is an art form, and Blades are swung at full strength against another Blade; duels are usually fought over a single Plate.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }]
+        },
+        {
+          "text": "Shardblades are also used in greatshell hunts; against the chasmfiends of the Shattered Plains they're aimed at the beasts' legs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In battle",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "52" },
+            { "book": "way-of-kings", "chapter": "i-9" },
+            { "book": "way-of-kings", "chapter": "24" },
+            { "book": "way-of-kings", "chapter": "67" },
+            { "book": "way-of-kings", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shardbearers usually fight only in the most important battles. Sending them is a deterrent, but it can also leave a homeland exposed or provoke an enemy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "52" }]
+        },
+        {
+          "text": "Shardbearers often lead a charge themselves, cutting a hole in the enemy line, or move along their own line to shore up weak points. A surprising trick is to dismiss the Blade mid-fight.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+        },
+        {
+          "text": "When going up against a full Shardbearer, a Blade alone is often not enough to win; the most effective counter to a Shardbearer is another Shardbearer.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+        },
+        {
+          "text": "Swords and arrows are nearly useless against a Shardbearer, so soldiers use hammers and axes to try to break the Plate, attack from every side, and try to cut the Shardbearer off from their honour guard. A Shardbearer cutting through ranks often ends up standing among corpses on unsteady footing.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "67" }]
+        },
+        {
+          "text": "Many Shardbearers let their skill dull, used to being almost invincible.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-9" }]
+        },
+        {
+          "text": "On the Shattered Plains, full Shardbearers often leap a chasm to seize a foothold on an enemy-held plateau, and a Blade can be used to cut open a chrysalis to reach its gemheart.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "55" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Shardbearer",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "13" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Radiant Blade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Radiant Blade",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Radiant Blade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "epilogue" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "lift",
+      "role": "Radiant Blade",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "57" },
+            { "book": "words-of-radiance", "chapter": "epilogue" },
+            { "book": "edgedancer", "chapter": "19" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "malata",
+      "role": "Radiant Blade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "dami",
+      "role": "Radiant Blade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "Radiant Blade",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+    }
+  ]
+}

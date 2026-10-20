@@ -1,0 +1,299 @@
+{
+  "intro": [
+    {
+      "text": "Ishar, the Herald of Luck, is one of the ten Heralds of the Almighty. In the present day he rules Tukar as the god-priest Tezim.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Ishar, the Herald of Luck and creator of the Oathpact, rules Tukar as the god-priest Tezim and has long influenced the Shin Honorbearers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "edgedancer", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "68" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Life on Ashyn",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "115" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "sunlit-man", "chapter": "2" },
+                { "book": "wind-and-truth", "chapter": "129" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like most of the Heralds, Ishar was born on Ashyn, over seven thousand years before the True Desolation. He was a king, a scholar or a general.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "38" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "He was the first to experiment with the Surges that left Ashyn almost uninhabitable, and he opened the way for humanity to flee to Roshar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "115" },
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "sunlit-man", "chapter": "2" },
+                { "book": "wind-and-truth", "chapter": "129" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Herald of the Almighty",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "64" },
+                { "book": "wind-and-truth", "chapter": "64" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "115" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When humans and singers came into conflict and the Fused appeared, Ishar and nine others were raised as Heralds by Honor. Ishar helped design the Oathpact and used his powers over Connection to bind each Herald to Honor.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "64" },
+                { "book": "wind-and-truth", "chapter": "64" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After each Desolation the Heralds went to Braize and were tortured until one broke. Ishar shaped the scattered Surgebinders into the Knights Radiant and sought a way to preserve knowledge between Desolations.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "oathbringer", "chapter": "47" },
+                { "book": "wind-and-truth", "chapter": "115" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After some two and a half thousand years, Ishar feared the Heralds would break before the enemy did. He suggested one Herald might be enough to hold the Oathpact, and nine abandoned it at Aharietiam, leaving Taln alone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "111" },
+                { "book": "wind-and-truth", "chapter": "122" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Era of Solitude",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "131" },
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "64" },
+                "wind-and-truth"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "About three thousand years before the True Desolation, Ishar recorded the story of the Wandersail. Around a thousand years before it, he took up the power of the Well of Control and used it to Connect himself to Shinovar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
+        },
+        {
+          "text": "Ishar convinced Nale to hunt down budding Surgebinders to prevent a new Desolation. He also became the leader of Tukar as the god-priest Tezim and waged Eighty's War against Emul.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "edgedancer", "chapter": "9" },
+                { "book": "oathbringer", "chapter": "64" },
+                "wind-and-truth"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Dalinar invited Tukar to join his coalition, Ishar refused and demanded Urithiru and the fealty of the Knights Radiant. Nale visited him again soon after.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Campaign in Emul",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar had Windrunners fly him, Szeth and Nightblood to Ishar's camp. Ishar accused Dalinar of being Odium's champion and refused to help him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Ishar summoned his Honorblade, easily defeated five Windrunners and tried to take Dalinar's bond with the Stormfather, until Szeth used Nightblood to sever the Connection and chip his Blade. Ishar fled into Shadesmar, briefly lucid, and asked Dalinar to meet him in Shinovar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Dalinar discovered that Ishar had been pulling Radiant spren into the Physical Realm and dissecting them, which horrified the Stormfather.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "33" },
+            { "book": "wind-and-truth", "chapter": "132" },
+            { "book": "wind-and-truth", "chapter": "140" },
+            { "book": "wind-and-truth", "chapter": "146" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ishar appeared to Szeth and Kaladin on their first night in Shinovar and sent them on a pilgrimage to the monasteries.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        },
+        {
+          "text": "At the Bondsmith monastery he made Szeth fight his Fused Honorbearers all at once, ignoring Kaladin's attempts to reach him. Szeth's Fifth Ideal failed to restore his sanity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "132" }]
+        },
+        {
+          "text": "Ishar made Kaladin feel the darkness he bore for the other Heralds. Kaladin convinced him he would feel better in time and swore the Fifth Ideal, forcing Odium's power out of him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "140" }]
+        },
+        {
+          "text": "At the Wind's request, Ishar remade the Oathpact to protect the spren, with Kaladin as a new Herald, and sent the Heralds, himself included, to Braize. Their minds were kept in a vision while their souls were tortured.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "146" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A strong-looking man with a warrior's build, in robes, with an ardent's beard and a bald head. Art usually shows him older than the other Heralds, with grey hair and a full beard.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "33" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Incredibly charismatic and scholarly, deeply interested in the workings of the Oathpact, and an excellent duellist.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prelude" },
+            { "book": "oathbringer", "chapter": "106" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The other Heralds still hold him in high esteem; Nale thinks him the wisest of them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Like the other Heralds he is insane. He swings between thinking himself above all other men and hating himself, and demands utter respect as the god-priest of Tukar.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "64" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "135" }
+          ]
+        }
+      ]
+    }
+  ]
+}

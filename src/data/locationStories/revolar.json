@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "One of the larger cities of the Vamah princedom in Alethkar, near a tributary of the Windrunner River and a few weeks' walk from Hearthstone.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Revolar sits in a hollow among hills and has long since spilled past its old walls, which now mark the inner city, to sprawl up the slopes. Unlike the warcamps, its layout is disorganized.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    },
+    {
+      "text": "Army barracks and parshmen's quarters lie outside the city to the east. Caravans run regularly to Kholinar, and caravaneers and couriers stay on the outskirts.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+    },
+    {
+      "text": "It is the seat of Highprince Vamah, and Highlord Paladar ruled it as regent in his absence, to the city's cost.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Occupation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "31" },
+            { "book": "oathbringer", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Everstorm, singer forces took the city and tens of thousands of singers came to occupy it; parshmen from across the region were led there by spren, many going on to Kholinar. Kaladin travelled to Revolar with a group of parshmen, and escaped in a highstorm after trying to help human captives outside the city reach shelter.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+        },
+        {
+          "text": "Human captives were held in the city's storm bunkers and signed up for hard, basic or skilled labour; the singers especially wanted smiths, fletchers and armorers. High-ranking lighteyes such as Paladar used their status to avoid the work. Moash was brought there and volunteered to haul carts to Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Siln ardent at Jokasha Monastery in Jah Keved.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Jokasha Monastery",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-2" },
+            { "book": "oathbringer", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Navani Kholin released the Dawnchant key, Urv was one of the ardents translating Bendthel's collection, though he made less progress than Ellista. Reviewing her work got him unstuck on the Covad Fragment, when he realised some texts in Dawnchant script had not been written in that language at all.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+        },
+        {
+          "text": "He offered to lend Ellista the sequel to An Accountability of Virtue in exchange for help translating a section of Dawnchant for a very demanding patron.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Young, tall and gangly.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Ellista finds him obnoxiously loud, though he can keep quiet when he wants to. He loves Alethi epics and has a mischievous streak, teasing Ellista about the book.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-2" }]
+    }
+  ]
+}

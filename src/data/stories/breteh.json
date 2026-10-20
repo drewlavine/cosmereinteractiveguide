@@ -1,0 +1,66 @@
+{
+  "intro": [
+    {
+      "text": "A Windrunner and member of Bridge Thirteen.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "69" },
+            { "book": "wind-and-truth", "chapter": "31" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Bridge Thirteen",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Breteh served on Bridge Thirteen under Rial for its last weeks in Sadeas's army. When Dalinar traded his Shardblade for the bridge crews, Breteh accepted his offer to join the Kholin army.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Knights Radiant",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "31" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Battle of Thaylen Field, Breteh and his crew became Teft's squires, and within a year he was among those who became full Radiants.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "122" },
+                { "book": "wind-and-truth", "chapter": "31" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Breteh helped hunt Ghostbloods in Shadesmar. When disguised Ghostbloods attacked, he fought Lieke alongside his spren and Rlain, then lashed another attacker to the ceiling, before flying with Isasik to free the captured guards.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

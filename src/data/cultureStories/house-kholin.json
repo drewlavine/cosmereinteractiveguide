@@ -1,0 +1,168 @@
+{
+  "intro": [
+    {
+      "text": "The ruling house of Alethkar, whose colours are white and a deep \"Kholin blue\".",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The King's Guard, soldiers sworn to protect Alethkar's king, are administered directly by Dalinar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
+    },
+    {
+      "text": "Like all Alethi princes, the Kholins descend from the Sunmaker Sadees. His ten sons were denied the throne, and their infighting created the princedoms; the Kholins come from one of those sons.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "24" }]
+    },
+    {
+      "text": "Dalinar's crest shapes the glyphs khokh and linil into a tower and a crown, worn on his army's armour, clothing and banners. Elhokar's uses the same glyphs as a sword and crown.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "28" }]
+    },
+    {
+      "text": "The Kholins hold a very large number of Shardblades between the family and its army, over thirty after the ten armies were united.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Unification",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Kholin family began expanding around 1139, when Gavilar and Dalinar led a conquest of the other highprinces, uniting Alethkar into one kingdom by 1148.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "A year into their war, the Kholins found allies in Toh and his sister Evi, who was betrothed into the family to seal the alliance.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kings of Alethkar",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "22" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar took the Alethi crown and married Navani; their children are Jasnah and Elhokar. Dalinar and his wife Evi had Adolin and Renarin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+        },
+        {
+          "text": "Around 1155 Dalinar attacked Akak and claimed the island for Alethkar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "56" },
+                { "book": "oathbringer", "chapter": "52" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After Gavilar's assassination Elhokar became king. The highprinces swore the Vengeance Pact, and Elhokar, Dalinar, Adolin and Renarin went to the Shattered Plains, moving the seat of power with them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "12" },
+                { "book": "words-of-radiance", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Dalinar proposes a joint assault deep into the Shattered Plains to unite the highprinces; Aladar, Roion and Sebarial join him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The True Desolation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Urithiru and the Oathgates in reach, Dalinar founds the Coalition of Monarchs to resist the enemy, led with Navani and Jasnah.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "12" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "gavilar-kholin",
+      "role": "king",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "highprince",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "elhokar-kholin",
+      "role": "king",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "12" },
+            { "book": "words-of-radiance", "chapter": "67" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Gavilar's wife",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "princess",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "adolin-kholin",
+      "role": "Dalinar's son",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "Dalinar's son",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    },
+    {
+      "characterId": "evi-kholin",
+      "role": "Dalinar's wife",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }]
+    }
+  ]
+}

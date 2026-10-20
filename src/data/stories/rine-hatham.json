@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "An Alethi highlord.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's feast",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "King Gavilar promised Rine an audience during his feast to settle a border dispute over some misdrawn maps, but was too busy and never made time for him.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "A Stoneward of the Fourth Ideal, famous among soldiers and Radiants alike for his prowess in battle.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Stoneward",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dami swore up to the Third Ideal of the Stonewards in the lead-up to the True Desolation. He fought in the Emuli offensive and swore his Fourth Ideal right afterwards, in a feat that impressed onlookers and made him famous. Dalinar named him in the line of succession for the throne of Urithiru.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Second Battle of Narak",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "103" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dami was flown to the Shattered Plains at a pivotal moment and helped push the enemy back and joined the coalition's leadership there. He defended the bridge during the retreat from Narak Four and helped Sigzil fight the Fused.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "103" }]
+        },
+        {
+          "text": "When a second Fused army arrived and Sigzil ordered a retreat, Dami resisted at first, disliking giving ground, but accepted it because Dalinar had made Sigzil his commanding officer.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Unusually tall in his golden Shardplate outlined in glowing orange, he stands a head taller than other Shardbearers. He prefers his Shardblade in the form of a tower shield.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "63" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Fiercely loyal and resolute, he reveres Dalinar as a military genius and is unwilling to retreat, though he follows orders. He lives by the Stoneward creed, 'I will be there where I am needed', and is well liked.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "90" }]
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "intro": [
+    {
+      "text": "A kind of spren seen in the Shadesmar city of Celebrant, some of them sailing its ships.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+    },
+    {
+      "text": "A kind of spren able to form a Nahel bond, which makes a person a Stoneward with the Surges of Cohesion and Tension.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Peakspren hold differing views rather than thinking as one; some want to side with humans against Odium, while others hope to sit out the conflict.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+    },
+    {
+      "text": "They are split into tribes or nations, such as the Kasiden peakspren of the east, with rivalries much like those between human peoples.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "In the Cognitive Realm peakspren are humanlike figures of stone that move heavily and speak in grinding voices. Cracks glowing with molten light run across their skin, which is only warm to the touch. They tend to be bald and wear human clothes.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "24" },
+            { "book": "isles-of-the-emberdark", "chapter": "32" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "In Celebrant",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Celebrant, a group including Adolin, Shallan and Kaladin asked a friendly peakspren heading east to Freelight for passage on his ship. He told them to come back after an inspection, but they boarded the Honor's Path instead to escape pursuing Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Stonewards and the barge",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "43" },
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the year that followed, several Stonewards, including Badali and Zu, came to Urithiru with their peakspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+        },
+        {
+          "text": "For a mission to the honorspren, Ua'pam recruited his cousin Unativi to carry the party on his barge, crewed by peakspren. Unativi would not go to Lasting Integrity itself, and took them to Nameless instead.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "On the journey the crew admired how Adolin had trained Maya, made goods from the beads with Stormlight, and argued over whether Ua'pam needed to fight in the war.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "29" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "uapam",
+      "role": "peakspren",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    },
+    {
+      "characterId": "unativi",
+      "role": "peakspren",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    },
+    {
+      "characterId": "badali",
+      "role": "Stoneward",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+    }
+  ]
+}

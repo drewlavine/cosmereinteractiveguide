@@ -1,0 +1,73 @@
+{
+  "intro": [
+    {
+      "text": "A woman from Vasher's distant past whom Nightblood remembers as if she were still alive. Vasher killed her long ago.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Scholar of Awakening",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "51" },
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "92" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shashara became one of the most gifted researchers of Awakening. Among her discoveries were the Command that makes a Lifeless with a single Breath and a way to Awaken steel into a thinking object, which led to the making of Nightblood.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "51" }]
+        },
+        {
+          "text": "She and Vasher fell in love and married, and worked on their research together. Between them they wrote Nightblood's Command, \"Destroy evil.\" Once he was made, she argued with Vasher that the sword could become a poet or a scholar, like a man.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "warbreaker", "chapter": "51" },
+                { "book": "oathbringer", "chapter": "92" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Twilight Falls and her death",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Manywar, Shashara and Vasher sided with Hanald and gave it their knowledge of Awakening. She drew Nightblood at the Battle of Twilight Falls and killed many soldiers, which horrified Vasher. Soon afterwards she told him she meant to reveal how to Awaken metal, which could lead to more swords like Nightblood. The argument ended when Vasher killed her with Nightblood to prevent more deaths.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Legacy",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Her death left her brother, the man known as Denth, with a lasting hatred of Vasher.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

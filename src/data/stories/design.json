@@ -1,0 +1,105 @@
+{
+  "intro": [
+    {
+      "text": "A Cryptic with a lacy, intricate pattern for a head.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "80" }]
+    },
+    {
+      "text": "A Cryptic bonded to Hoid.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
+    },
+    {
+      "text": "A Cryptic bonded to Hoid, travelling the cosmere with him.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "epilogue" },
+            { "book": "yumi", "chapter": "21" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Roshar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "98" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hoid found Design in Kholinar near where Elhokar Kholin had died, rescued her from the Fused and bonded her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "98" },
+                { "book": "rhythm-of-war", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Design was with Hoid when he told Kaladin the story of 'The Dog and the Dragon'. She played Hoid's flute despite having no lips, argued with him throughout, and spoiled the story's ending for Kaladin, to Hoid's horror.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Worldhopping",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Design and Hoid left Roshar together and travelled the cosmere, using a complex Lightweaving that let her appear and act as a human. After visiting Threnody they came to the planet Komashi, where Hoid became frozen in stasis. Design used the 'vacation' to open a successful noodle shop, the Noodle Pupil, using Hoid's motionless body as a coat rack.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "epilogue" },
+                { "book": "yumi", "chapter": "21" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Like other Cryptics she wears stiff robes and has a shifting pattern for a head; hers is lacy, intricate and more graceful than Pattern's. She has a musical, feminine voice, and bows by flaring out her pattern.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "80" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Cheerful and energetic, she gets annoyed easily and finds that endearing. She doesn't mind spoiling the end of a story and thinks surprises are dumb, unless they're part of a prank.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "rhythm-of-war", "chapter": "80" },
+            { "book": "yumi", "chapter": "5" }
+          ]
+        }
+      ]
+    }
+  ]
+}

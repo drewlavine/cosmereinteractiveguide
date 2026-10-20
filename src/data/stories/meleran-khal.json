@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "Captainlord Meleran Khal, the youngest son of General Khal and Teshav.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "69" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "69" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Meleran was born around 1144, after his brothers Halam and Aratin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "69" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Kholinar",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Because he and Adolin Kholin are about the same height, Shallan Davar used Lightweaving to disguise Adolin as Meleran several times during Elhokar's mission into Kholinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A powerfully built man about Adolin's height, balding by his thirties.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    }
+  ],
+  "personality": []
+}

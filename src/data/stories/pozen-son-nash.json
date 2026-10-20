@@ -1,0 +1,87 @@
+{
+  "intro": [
+    {
+      "text": "A Shin Honorbearer who ambushes Szeth during his quest to cleanse Shinovar.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+    },
+    {
+      "text": "A Shin Honorbearer who wields the Elsecaller Honorblade, lives at the monastery outside Mokdown and was the first to train Szeth as a shaman acolyte.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "73" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Szeth's training",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1152, Pozen visited the soldiers' camp where Szeth's family lived, praised Neturo's administration and suggested Szeth gain experience defending against a raid. In 1157, after the Voice revealed it had commanded Szeth's attacks on raiders' ships, Pozen rewarded him and took over his training. In 1165 he watched Szeth kill Tuko to become the Windrunner Honorbearer, explaining that the remaining monastery visits were a mere formality.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "83" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Szeth's rebellion",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "102" },
+            { "book": "wind-and-truth", "chapter": "111" },
+            { "book": "wind-and-truth", "chapter": "117" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Szeth began plotting against the other Honorbearers, Pozen reassured a worried Sivi that the Voice had a plan. He briefly sparred with Szeth after finding him in his monastery.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "102" }]
+        },
+        {
+          "text": "Pozen went to the Stoneward monastery to warn Lumo against trusting Szeth, directed Moss and Sivi to fight Szeth directly, and offered the Bondsmith Honorblade to Neturo in the hope that he would end the rebellion.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+        },
+        {
+          "text": "Pozen declared Szeth Truthless and sent him east, letting him keep his Honorblade as the Voice directed.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "117" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cleansing of Shinovar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "53" },
+            { "book": "wind-and-truth", "chapter": "141" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When Szeth returned to cleanse Shinovar, Pozen and the Edgedancer Honorbearer ambushed him by pulling him into Shadesmar. Szeth regained Nightblood and killed the Edgedancer Honorbearer, and Pozen, sensing defeat, fell on his own blade, hoping to trap Szeth in Shadesmar, since his former acolyte had never managed to make an Elsegate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "53" }]
+        },
+        {
+          "text": "Brought back by Ishar as a human Fused, Pozen faced Szeth again at the site of Aharietiam and tried to send him to Shadesmar once more, but Szeth stabbed him with Nightblood, freeing him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A short, bald man with a white beard and mustaches, who once wears light blue robes.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "68" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Pozen is firm in his beliefs and doesn't care about others. Though the position isn't official, both Tuko and Szeth see him as the leader of the Honorbearers.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "111" }]
+    }
+  ]
+}

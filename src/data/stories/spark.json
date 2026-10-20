@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "The spren bonded to Malata, a Dustbringer.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
+    },
+    {
+      "text": "An ashspren bonded to Malata; both are part of the Diagram.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Diagram",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "i-5" },
+            { "book": "oathbringer", "chapter": "111" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian's organisation considered Dustbringers the Radiants most likely to accept its cause, and Taravangian felt lucky to find Malata. Once she bonded Spark, Malata was raised from a lower rank to the organisation's upper echelon.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+        },
+        {
+          "text": "Malata claimed that she and Spark weren't beholden to Taravangian, and that Spark suggested working with him to see Urithiru. In the tower Spark was used more and more to open the Oathgates, but secretly spied on Dalinar, learning of visions he hadn't shared. What Spark found helped Taravangian accuse Dalinar of treason and break up his coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+        },
+        {
+          "text": "Spark and Malata were conspicuously absent during the Battle of Thaylen Field. Since Malata operated the Oathgates, more Alethi forces couldn't reach the city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Like other ashspren, she likes to break things to see what's inside. She dislikes the name 'Dustbringer'. She blames the Knights Radiant and their devotion to Honor for the deaths of hundreds of ashspren, and seeks vengeance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "107" }
+          ]
+        }
+      ]
+    }
+  ]
+}

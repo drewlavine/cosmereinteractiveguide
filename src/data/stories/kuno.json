@@ -1,0 +1,47 @@
+{
+  "intro": [
+    {
+      "text": "A young ardent who works at a sanitarium in Urithiru.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The sanitarium",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "25" },
+            { "book": "rhythm-of-war", "chapter": "49" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kuno let Kaladin and Teft in when they came looking for Noril, but refused to share patient details until Teft summoned his spren. He defended the ardents' methods of locking patients in the dark while leading them to Noril's room.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+        },
+        {
+          "text": "When Kaladin took Noril out to the balcony to talk, Kuno protested but followed, and was embarrassed to see Noril open up. He admitted every patient got the same treatment and that change would take time, and Kaladin warned he would come back for the others.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+        },
+        {
+          "text": "After the Fused took Urithiru, Kaladin came for supplies. Sweating at the thought of the Fused finding out, Kuno let him into a storeroom and agreed to keep quiet; Kaladin let him watch him draw in Stormlight to boost his confidence.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young man with a shaved head, like all ardents, and poor eyesight; he often polishes his spectacles.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "25" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Somewhat inattentive and unexcitable, Kuno follows Alethi custom on hierarchy. He defends the ardents' treatment of the mentally ill at first but admits Kaladin sees something they don't, and grows nervous about the Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "49" }]
+    }
+  ]
+}

@@ -1,0 +1,219 @@
+{
+  "intro": [
+    {
+      "text": "One of the ten Heralds of the Almighty, known in Vorinism as the Herald of Beauty, who abandoned the Oathpact with the others at Aharietiam.",
+      "revealedIn": [
+        {
+          "all": [
+            "way-of-kings",
+            { "book": "words-of-radiance", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "117" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Shalash, or Ash, is the Herald of Beauty and patron of the Lightweavers, who travels the world destroying depictions of herself.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Heraldic Epochs",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "prelude" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "When the Desolations began, Shalash was chosen by Honor as one of his Heralds and given an Honorblade. Stories tell of a Proving Day on which the would-be Heralds faced near-impossible tasks.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "5" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "For thousands of years Shalash and the other Heralds helped Roshar fight the Voidbringers, returning before each Desolation to prepare people and, at its end, going back to Braize to be tortured until one of them gave in.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At Aharietiam, Shalash and every Herald but Taln forsook the Oathpact and abandoned their Honorblades, telling the people they had won before going their separate ways.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Era of Solitude",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "17" },
+            { "book": "rhythm-of-war", "chapter": "99" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For a time Shalash lived in Shinovar, where the Shin tried to kill her, which she didn't much mind. She left only once they began to worship her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+        },
+        {
+          "text": "She was present at the Challenge of Stormhold, and could tell Jasnah that King Iyalid had been drunk during it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "99" }]
+        },
+        {
+          "text": "Shalash took to traveling the world destroying depictions of herself. Before Gavilar's assassination she slipped into the palace in Kholinar and destroyed her own statue, and her fellow Heralds noted she was getting worse.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In 1173, with the hired help of Baxil and Av, she broke into the palace of the Prime of Emul and destroyed artwork depicting herself. She had also defaced her own image in the Bronze Palace mural in Azimir and wrecked statues in her temple in Thaylenah.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "True Desolation",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "117" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "71" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After the Jah Keved civil war, Ash worked as a washerwoman called Pom to track down a painting of herself. It was a trap set by Mraize, who wanted to tell her where Taln was, and it led her to Thaylen City in time for the battle, where she found him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+        },
+        {
+          "text": "During the battle Ash had to lead the near-catatonic Taln, and the two spoke briefly once Dalinar opened a Perpendicularity. Afterwards, as she meant to take Taln to Ishar, Vyre killed Jezrien and the shock overwhelmed her. Jasnah, who had been watching for the two Heralds, confronted them, but Ash fell unconscious.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Ash and Taln moved to Urithiru, where Jasnah often interviewed them. Ash told Dalinar something of Bondsmiths and the Oathpact, insisting Ishar was the real expert, and went with the Heralds on the offensive in Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "71" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "On Palahanah 1175, Shalash and the other living Heralds reforged the Oathpact with Kaladin taking Jezrien's place. The new Oathpact sends their minds into a peaceful vision instead of the torture of Braize.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "postlude" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Shalash is tall, lean and strikingly beautiful, with dark skin, long black hair and faint violet eyes so pale they look almost white. Rosharans take her for Makabaki with some Shin blood. She prefers practical clothes and carries a thin-bladed sword that is not a Shardblade.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "rhythm-of-war", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Very private, she resents prying questions. She regrets abandoning the Oathpact and is deeply apologetic to Taln, yet no longer cares about Roshar's fate, and admits to losing decades or more of memory.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "She has little interest in scholarship, but as patron of the Lightweavers she understands the symbolic power of images.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "17" }]
+    },
+    {
+      "text": "Shalash dislikes theft but happily breaks into rich homes to destroy art of herself, unable to resist whenever she sees her own face. She hates being worshipped and thinks people should stop worshipping, discussing and painting the Heralds altogether.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-7" },
+            { "book": "oathbringer", "chapter": "117" },
+            { "book": "rhythm-of-war", "chapter": "71" }
+          ]
+        }
+      ]
+    }
+  ]
+}

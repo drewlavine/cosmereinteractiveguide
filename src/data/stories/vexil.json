@@ -1,0 +1,57 @@
+{
+  "intro": [
+    {
+      "text": "Vexil the Wise, Prime of the Makabaki kingdom of Emul, often called simply Emul.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Prime of Emul",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "96" },
+            { "book": "oathbringer", "chapter": "122" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Vexil spent much of his rule fighting the long war with Tukar and its god-priest Tezim. By late 1173 his kingdom had been invaded and his power was waning.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "54" },
+                { "book": "edgedancer", "chapter": "3" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Further weakened by the Everstorm and the singers' march through Emul, Vexil came to Urithiru with the Makabaki leaders. He asked the coalition to retake his lost lands and conquer Tukar, but was turned down; he gratefully accepted Highprince Aladar's offer of fortification experts instead.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+        },
+        {
+          "text": "Vexil attended the coalition meeting in Thaylen City before the battle there and talked tactics with Aladar. Afterwards he was seen talking with the princess of Yezier, a former romantic partner, sparking rumours that they were together again.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Vexil passionately hates the Tukari and Tezim. He is grateful for help and promotes his kingdom whenever he can, but is realistic enough to accept that others do not share his priorities.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "96" }]
+    }
+  ]
+}

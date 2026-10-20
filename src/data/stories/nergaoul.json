@@ -1,0 +1,135 @@
+{
+  "intro": [
+    {
+      "text": "One of the Unmade, an ancient spren of Odium that appears as a red mist and can drive whole armies into a hunger for battle.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+    },
+    {
+      "text": "One of the nine Unmade, known on Roshar as the Thrill: an ancient, nearly mindless spren of Odium, now trapped inside a perfect gemstone.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Ancient history",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "According to Hessi's Mythica, the signs of Nergaoul's presence, a battle rage and a red mist, have been known since ancient times, and she believed he was still active on Roshar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "100" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Alethkar",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Most Alethi soldiers feel the Thrill in battle, a hunger for victory that dulls pain and doubt. Dalinar Kholin used it heavily in the wars to unify Alethkar, and it helped earn him the name Blackthorn, but at a cost: it once nearly drove him to attack Gavilar, and stoked the rage in which he ordered the slaughter of Rathalas.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "28" },
+                { "book": "oathbringer", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In Jah Keved",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Taravangian, who had been studying the Unmade, noticed Nergaoul's influence in Jah Keved's civil war, but chose to focus on Moelach instead.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "During the Battle of Thaylen Field, Odium used Nergaoul to drive the Sadeas soldiers against Thaylen City, and the Thrill to try to make Dalinar his champion. Dalinar instead embraced the Thrill one last time while raising the King's Drop, coaxing Nergaoul into the gemstone and ending the battle.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Imprisonment",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "98" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar gave the gemstone to Navani for study. Within the following year it was locked in an aluminium box and sunk deep in the ocean, out of the enemy's reach.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "98" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "In the Physical Realm, a red mist that often forms images of soldiers fighting and dying; in Shadesmar, a large dark mass of living red light. His influence can be felt across whole nations.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "115" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Though one of the least self-aware Unmade, Nergaoul seems to have some sentience: he wanted to please Dalinar and exulted in his praise.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+    },
+    {
+      "text": "Sja-anat calls Nergaoul practically mindless, more like an emotion spren than a thinking being.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-2" }]
+    }
+  ]
+}

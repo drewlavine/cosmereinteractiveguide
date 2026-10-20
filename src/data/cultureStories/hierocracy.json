@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "The rule of the Vorin church, which once tried to govern Roshar and conquer the world, claiming visions from the Almighty, until the Sunmaker defeated it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The church drew its power from controlling knowledge, promoting beliefs it knew to be false and revising ancient texts and histories to fit its dogma. It tried to erase the Knights Radiant, Shadesmar and the Recreance from the records.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "words-of-radiance", "chapter": "6" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The ardents seized power claiming a divine mandate, and at their height ruled nearly all of eastern Roshar. They controlled what people learned and believed, insisting common people couldn't understand doctrine for themselves.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "26" },
+            { "book": "words-of-radiance", "chapter": "3" },
+            { "book": "oathbringer", "chapter": "59" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The fall",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "36" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            },
+            { "book": "way-of-kings", "chapter": "42" },
+            { "book": "words-of-radiance", "chapter": "6" },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Sunmaker interrogated the surviving priests and went through their letters, declaring he found no proof of their visions and that it had all been a fraud. The church's central leadership was destroyed, and Vorinism continued as a decentralised religion of separate devotaries.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "The Hierocracy and the Recreance remain an embarrassment to modern ardents, who prefer not to speak of them.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "100" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Since then every believer is encouraged to understand the religion and find their own relationship with the Almighty, with ardents guiding them in their Glory and Calling.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "The church's revisions of history still frustrate scholars like Jasnah Kholin, who hoped to find unaltered records in Urithiru.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+        },
+        {
+          "text": "Some still wish for a powerful church again, such as the Sons of Honor, who hope to bring back the Voidbringers and so the Heralds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sadees",
+      "role": "defeated it",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "studies its revisions",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "6" }]
+    }
+  ]
+}

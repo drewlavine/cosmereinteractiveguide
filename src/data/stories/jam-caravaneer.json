@@ -1,0 +1,26 @@
+{
+  "intro": [
+    {
+      "text": "A caravaneer in Alethkar.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Caravan",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "According to Guff, Moash came to the Shattered Plains with Jam's caravan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "45" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

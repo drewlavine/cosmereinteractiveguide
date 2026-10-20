@@ -1,0 +1,802 @@
+{
+  "intro": [
+    {
+      "text": "A Stormlight-fuelled power on Roshar. Szeth breathes in Stormlight and Lashes himself and objects to fall in new directions, or binds them together.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "text": "The power of the ten Surges, the forces of Roshar, fuelled by breathed-in Stormlight. Most Surgebinders gain two Surges through a Nahel bond with a spren, as the Knights Radiant did.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "A Surgebinder breathes in Stormlight, which glows as it leaks from their skin, and spends it to work their Surges.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "text": "Most Surgebinders gain their powers through a Nahel bond with a spren. Each of the ten kinds of spren that bond people grants two of the ten Surges, with overlap between them.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    },
+    {
+      "text": "Stormlight also makes a Surgebinder stronger, faster and tougher, and heals almost any injury, even severed limbs or wounds from a Shardblade.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "33" }]
+    },
+    {
+      "text": "Honorblades, the Blades given to the Heralds, grant their two Surges to whoever holds one, without a bond, but burn through far more Stormlight.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "The Fused are given Surges by Odium and fuelled by Voidlight. Each of their nine brands has a single Surge; none has Adhesion, which is of Honor.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "31" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Before the Knights Radiant",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "113" },
+            { "book": "rhythm-of-war", "chapter": "111" },
+            { "book": "rhythm-of-war", "chapter": "prologue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Humans could manipulate the Surges on Ashyn before coming to Roshar. Afterwards the Almighty granted them only to the Heralds, through the Honorblades, until spren copied the Blades and began forming Nahel bonds.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "113" }]
+        },
+        {
+          "text": "The Surges and their names are far older than the Knights Radiant. After unrestricted Surgebinding destroyed Ashyn, Honor placed limits on it, some of which are loosening now that Honor is Splintered.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        },
+        {
+          "text": "Some Surges, such as Cohesion and Illumination, are variations on Invested Arts from Yolen.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "mechanics": [
+    {
+      "title": [
+        {
+          "text": "Light",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "25" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "66" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "67" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Surgebinders breathe Light in, usually from infused gemstones. It leaks out faster the more they hold, but replaces the need to breathe; holding only a little, they can hide the glow and talk without puffing it out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "59" },
+                { "book": "oathbringer", "chapter": "25" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Stormlight urges a Surgebinder to act and move; when it runs out they are left exhausted. Voidlight instead makes their emotions feel more vibrant.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "66" },
+                { "book": "rhythm-of-war", "chapter": "67" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Most Surgebinders use Stormlight and the Fused use Voidlight, though Venli can use both. Radiants can also use Towerlight, but it leaks from them much faster.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ways to gain the Surges",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "38" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "84" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Which Surges someone can use depends on their Honorblade, their Nahel bond, or their brand of Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "A newly bonded spren has little mind. The bond grows as the Surgebinder lives by the ideals that drew the spren and swears oaths, until the spren can become a Shardblade and their eyes change colour.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "67" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Acting against their oaths weakens the bond until the spren breaks. A broken spren can be revived if its bondmate takes up their oaths again.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adhesion",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "111" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adhesion is the Surge of pressure and vacuum, which binds things together.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "With a Full Lashing, a Surgebinder sprays Stormlight onto a surface, and whatever touches it sticks there.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+        },
+        {
+          "text": "Most objects would break before a Full Lashing fails; it lasts until its Stormlight runs out and attracts bindspren. Shardplate and spren are immune, and a Radiant can't stick their own body to something.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-9" },
+                { "book": "words-of-radiance", "chapter": "12" },
+                { "book": "rhythm-of-war", "chapter": "55" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Adhesion can forge other Connections too, such as tying a Radiant to the ground so that their Stormlight drains into it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gravitation",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "prelude" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "106" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "120" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gravitation changes the direction and strength of an object's gravitational pull.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "A Basic Lashing changes which way someone or something falls. Partial Lashings can make a Surgebinder weightless or halve their weight.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "text": "Basic Lashings let a Surgebinder run up walls or fly. Lashing something else needs skin contact, the Lashing lasts while its Stormlight holds, several can be combined, and sharp turns can make a flier black out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "oathbringer", "chapter": "116" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A Reverse Lashing, using Gravitation with Adhesion, makes an object pull others towards it, most easily things in flight. The object darkens rather than glows, and the pull can bend the path of bullets.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "106" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Heavenly Ones, the Fused with Gravitation, make only one Lashing at a time, so they accelerate more slowly than Radiants but travel far more efficiently.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Division",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Division is the Surge of destruction and decay.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Abrasion",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "31" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Abrasion alters the friction between two surfaces.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Slicking makes chosen parts of a Surgebinder's body frictionless, so they glide as if skating, slip out of any grasp, or make an object only they can grip; it doesn't soften direct collisions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-9" },
+                { "book": "edgedancer", "chapter": "1" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Flowing Ones, the Fused with Abrasion, change their own friction freely without spending Voidlight; using it on other things does spend it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "31" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Progression",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "i-9" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Progression alters the growth and healing of living things, and is also called Regrowth.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Growth makes a seed infused with Stormlight grow into a full plant in seconds.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+        },
+        {
+          "text": "Regrowth heals body and soul without scars, even someone who has bled out or been cut by a Shardblade, but not once the soul has left. Old injuries may resist it, and it can add to a Radiant's own healing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "120" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Ancient Radiants had fabrials of topaz and heliodor that could regrow injuries. These are now lost, though one Herald still has one.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "19" },
+                { "book": "words-of-radiance", "chapter": "88" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Illumination",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "words-of-radiance", "chapter": "60" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "63" },
+                { "book": "oathbringer", "chapter": "82" },
+                { "book": "rhythm-of-war", "chapter": "4" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Illumination is the Surge of light and sound, used to create illusions.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Lightweaving forms an illusion from breathed-out Stormlight, shaped by what the Surgebinder pictures and wants. It feeds on their Stormlight, so they stop glowing, and has no substance: anything passing through makes it fuzz.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        },
+        {
+          "text": "An illusion lasts as long as its Stormlight and the Surgebinder stay near, even while they are unconscious. Tied to the Surgebinder or their spren, it follows them, letting a disguise copy their expressions.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "63" },
+                { "book": "oathbringer", "chapter": "82" },
+                { "book": "rhythm-of-war", "chapter": "4" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Rosharan Lightweaving is more restricted than the older Yolish art, needing a spren and Stormlight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "82" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Transformation",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "way-of-kings", "chapter": "72" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "7" },
+                { "book": "oathbringer", "chapter": "119" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Transformation is the Surge of Soulcasting, which changes an object into one of the Ten Essences.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Soulcaster fabrials copy this power. Most can make only one small change, such as stone into water, but about one in ten can make any change.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "In principle anything can be Soulcast into anything else, but changing something into the pure form of an Essence is easiest, and people are harder to change than objects.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "72" }]
+        },
+        {
+          "text": "To Soulcast, a Surgebinder looks into the Cognitive Realm and persuades the object to change, sometimes negotiating with it, then infuses it with Stormlight. It is easier done in the Cognitive Realm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "7" },
+                { "book": "oathbringer", "chapter": "119" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Transportation",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "33" },
+            { "book": "words-of-radiance", "chapter": "87" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "11" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Transportation is the Surge of motion and of moving between Realms.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Elsecalling moves a Surgebinder between the Physical and Cognitive Realms, bringing others along if they wish. A ring of Stormlight briefly marks where they will arrive. Leaving the Cognitive Realm is much harder than entering.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        },
+        {
+          "text": "The Oathgates copy this power, moving everything on their platform to a paired gate in an instant. They work only with an Honorblade or a living Shardblade.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "A glimpse into the Cognitive Realm with Transportation can show what someone really is, such as whether a singer is a Regal or Fused.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "11" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The Husked Ones, the Fused with Transportation, dissolve into red light and re-form elsewhere, up to four times before they need more Voidlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "59" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cohesion",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "83" },
+            { "book": "rhythm-of-war", "chapter": "i-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Cohesion, the Surge of strong axial interconnection, alters objects at a molecular level.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Stoneshaping lets a Surgebinder mould stone like clay, without heat. Stone senses their Intent and can show events from its past.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "83" }]
+        },
+        {
+          "text": "The Deepest Ones, the Fused with Cohesion, use it to pass through stone and other solid materials.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tension",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tension, the Surge of soft axial interconnection, alters an object's stiffness, making something flexible rigid.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "text": "Bondsmiths pair Tension with Adhesion and their affinity for Connection to repair broken objects.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "title": "The ten Surges",
+      "columns": ["Surge", "Effect", "Radiant orders"],
+      "rows": [
+        {
+          "key": "Adhesion",
+          "cells": [
+            "Adhesion",
+            "Binds things together: pressure and vacuum",
+            "Windrunners, Bondsmiths"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Gravitation",
+          "cells": [
+            "Gravitation",
+            "Changes the direction and strength of gravity",
+            "Windrunners, Skybreakers"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "Division",
+          "cells": [
+            "Division",
+            "Destruction and decay",
+            "Skybreakers, Dustbringers"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Abrasion",
+          "cells": ["Abrasion", "Friction", "Dustbringers, Edgedancers"],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "Progression",
+          "cells": [
+            "Progression",
+            "Growth and healing, or Regrowth",
+            "Edgedancers, Truthwatchers"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "Illumination",
+          "cells": [
+            "Illumination",
+            "Light and sound: illusions",
+            "Truthwatchers, Lightweavers"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "Transformation",
+          "cells": [
+            "Transformation",
+            "Soulcasting into the Ten Essences",
+            "Lightweavers, Elsecallers"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Transportation",
+          "cells": [
+            "Transportation",
+            "Motion and moving between Realms",
+            "Elsecallers, Willshapers"
+          ],
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "72" },
+                { "book": "words-of-radiance", "chapter": "prologue" }
+              ]
+            }
+          ]
+        },
+        {
+          "key": "Cohesion",
+          "cells": [
+            "Cohesion",
+            "Strong axial interconnection: reshapes matter",
+            "Willshapers, Stonewards"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        },
+        {
+          "key": "Tension",
+          "cells": [
+            "Tension",
+            "Soft axial interconnection: stiffness",
+            "Stonewards, Bondsmiths"
+          ],
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "prologue" }]
+        }
+      ]
+    }
+  ],
+  "facts": [
+    {
+      "label": "Fuel",
+      "name": "Stormlight",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "label": "Surges",
+      "name": "Ten",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+    }
+  ],
+  "people": [
+    {
+      "characterId": "szeth",
+      "role": "Lashings",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "Surgebinder",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "characterId": "jasnah-kholin",
+      "role": "Soulcasting",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "Lightweaving",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+    },
+    {
+      "characterId": "lift",
+      "role": "Edgedancer",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-9" }]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+    },
+    {
+      "characterId": "malata",
+      "role": "Dustbringer",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "24" }]
+    },
+    {
+      "characterId": "teft",
+      "role": "Windrunner",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "41" }]
+    },
+    {
+      "characterId": "skar",
+      "role": "Flier",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "60" }]
+    },
+    {
+      "characterId": "drehy",
+      "role": "Flier",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "60" }]
+    },
+    {
+      "characterId": "ki",
+      "role": "Skybreaker",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "90" }]
+    },
+    {
+      "characterId": "lyn",
+      "role": "Windrunner",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "3" }]
+    },
+    {
+      "characterId": "venli",
+      "role": "Willshaper",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "67" }]
+    },
+    {
+      "characterId": "navani-kholin",
+      "role": "Bondsmith",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    },
+    {
+      "characterId": "rlain",
+      "role": "Truthwatcher",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+    }
+  ]
+}

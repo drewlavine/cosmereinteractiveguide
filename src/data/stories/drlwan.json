@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Drlwan is a Thaylen sailor chosen by Vstim to captain the Wandersail. Her brother Kstled serves under her as the ship's man-at-arms.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Rysn's journey to Akinah",
+          "revealedIn": [
+            { "book": "dawnshard", "chapter": "8" },
+            { "book": "dawnshard", "chapter": "15" },
+            { "book": "dawnshard", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Drlwan and her crew sailed the Wandersail on test runs, believing Vstim would give the ship to her. When he gave it to Rysn instead, Drlwan treated her curtly and refused to let her steer. She dismissed the crew's belief in omens, but considered turning back after they sighted a dead santhid, lest the crew mutiny, and was the first to back Rysn's attempt to cast it as a good sign.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+        },
+        {
+          "text": "As the ship breached the storm around Akinah, Drlwan stayed on the quarterdeck tied in place, with Lopen Lashing her foot to the deck. She remained aboard when the others went ashore, and gathered the remaining soldiers when the Sleepless boarded, though they could do little.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "15" }]
+        },
+        {
+          "text": "Afterwards, Drlwan told Rysn she had learned that Rysn's deal with the Sleepless required the crew to be unharmed. She told Rysn she had done what any good rebsk would do, then offered her the chance to steer the ship.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Drlwan is a short woman with a sharp nose and unusually blonde hair. Her official dress uniform is stark white and glistening with medals, worn with a tricorn hat and curled eyebrows.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Drlwan has a commanding air, and Rysn thinks her showy. She has no patience for superstition, but will not risk her ship on a whim.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "8" }]
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "intro": [
+    {
+      "text": "A porter hired to assist Nikli on the Wandersail's expedition to Akinah.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Expedition to Akinah",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Plamry doesn't seem to have been with Nikli when Nikli first came to Urithiru; he was probably hired as Nikli's assistant porter shortly before the Wandersail set out in 1174.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        },
+        {
+          "text": "When Rysn found out that Nikli had been working against the voyage, Plamry fell under suspicion too and was taken captive by Kstled. Although Nikli insisted Plamry knew nothing, Lopen and Huio flew them both to the main island of Aimia and left them chained there with food and water, so the Wandersail could carry on.",
+          "revealedIn": [{ "book": "dawnshard", "chapter": "10" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}

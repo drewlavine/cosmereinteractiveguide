@@ -1,0 +1,83 @@
+{
+  "intro": [
+    {
+      "text": "A Lightweaver who developed her powers on her own and was recruited by Shallan Davar into the Unseen Court.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Little is known of Beryl's early life, which was far from stable; she has lived so many lives that she can't recall her real name. She worked as a prostitute in the Alethi warcamps on the Shattered Plains, a hard life, though she avoided the addiction and violence many others faced, and she was never ashamed of it, always feeling in control of her work.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Joining the Knights Radiant",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "26" },
+            { "book": "rhythm-of-war", "chapter": "32" },
+            { "book": "rhythm-of-war", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beryl stayed in the warcamps when most of the Alethi moved to Urithiru. She bonded the Cryptic Ornament and taught herself to Surgebind, wearing illusory faces at her clients' request. Rumours of her reached Shallan, who sought her out and recruited her into the Unseen Court about three months before the expedition to Lasting Integrity.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        },
+        {
+          "text": "Apprenticed at the Unseen Court's base in Urithiru, Beryl trained in her powers and in fighting as a last resort. Her control over her own appearance improved, though she still couldn't create illusions of other things. She showed a knack for Soulcasting and developed a trick of her own, which she showed Vathah, and Shallan asked her to teach it to Ishnah.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "32" }]
+        },
+        {
+          "text": "Beryl was one of the five Lightweavers taken on the mission to capture Ialai Sadeas in the warcamps.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shadesmar expedition",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "24" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Beryl was eager to join the coalition's mission to Lasting Integrity, but Shallan, worried that a Ghostblood spy was hidden in her team, left behind her newest recruits. When Stargyle withdrew because his wife fell ill, Beryl took his place, and on the journey she recorded observations about Shadesmar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "Shallan envied Beryl's optimism and confidence but grew suspicious of her, especially after Mraize repeated something she had told Beryl. She kept working with Beryl as if nothing were wrong, and Beryl's obvious discomfort at a meeting with the expedition's leaders eased Shallan's suspicions, though Beryl was only fully cleared once the real spy was found.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, long-legged, darkeyed Alethi woman in her early twenties, with delicate fingers, luxurious dark hair, tan skin and a stately bearing that make her resemble Jasnah Kholin. Veil suspects she instinctively uses Lightweaving to enhance her looks. She tends to wear dresses and skirts rather than the traditional havah.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Relaxed, introverted and sunny, Beryl is generally optimistic and practises her powers diligently, confident she can overcome any obstacle, though she has some self-doubt around important people. She seems at peace with herself and her past, and like many Lightweavers her personality shifts to match whatever face she wears.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+    }
+  ]
+}

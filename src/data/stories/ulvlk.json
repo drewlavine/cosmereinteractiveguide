@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A Thaylen artifabrian and member of the Vriztl Guild, serving in Queen Fen's court.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "41" },
+            { "book": "rhythm-of-war", "chapter": "42" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In 1175 Ulvlk and her colleague Vrandl came to Urithiru to hear Navani's lectures on fabrials. When Raboniel invaded the tower, Navani kept the two Thaylen scholars close, sure they knew things that could help defend it.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "41" }]
+        },
+        {
+          "text": "Navani needed a way to move Stormlight quickly between gemstones. Vrandl suspected a ruse to learn guild secrets, but after Navani rebuked them, Ulvlk revealed the Vriztl method: tuning forks at a particular tone. Vrandl warned she would be expelled from the guild, but the Thaylens provided two tuning forks to the coalition scholars.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A young Thaylen woman.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Loyal to her guild, but concerned about the greater good.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "42" }]
+    }
+  ]
+}

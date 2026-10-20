@@ -1,0 +1,59 @@
+{
+  "intro": [
+    {
+      "text": "An aging Alethi highprince ruling part of western Alethkar, and one of Gavilar Kholin's chief rivals.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Gavilar's war",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "26" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gavilar wanted Kalanor's line ended and most of his land given to his cousin Loradar Vamah. The Kholins attacked smaller cities to draw him out, and the two armies met on an open plain. When Dalinar cut through his troops, Kalanor had to face him himself.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "Kalanor held his own in the duel, then climbed a rock formation hoping to knock Dalinar off. Gripped by the Thrill, Dalinar broke his Plate and helm; Kalanor slipped over the edge, and Dalinar stabbed him in the face with his Shardblade.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+        },
+        {
+          "text": "Dalinar gave Kalanor's Shards to Gavilar; the Blade went to Gavilar's son Elhokar.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "13" },
+                { "book": "oathbringer", "chapter": "26" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Old, mostly bald and clean-shaven, with light grey eyes. His colours are silver and red, and his Shardplate has a silver overlay.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Snide towards Dalinar. He calls himself a king, though other Alethi don't regard him as one.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "26" }]
+    }
+  ]
+}

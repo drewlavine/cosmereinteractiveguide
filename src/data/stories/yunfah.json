@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "An honorspren whose Windrunner, Vratim, was killed in battle.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "True Desolation",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "10" },
+            { "book": "rhythm-of-war", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Yunfah was one of the honorspren who left Shadesmar, against the wishes of senior honorspren, to bond humans. He bonded Vratim and made them a Windrunner, but Vratim died in battle.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+        },
+        {
+          "text": "Some months on, Kaladin ordered Yunfah to try to bond Rlain within ten days, and he reluctantly agreed.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He can change his shape and size like other honorspren. Kaladin sees him as a tiny old man with a long beard, riding a small cloud.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He seems little affected by his Radiant's death. He respects hierarchy, treats Kaladin as his superior, and hates the idea of bonding a singer. Syl says he loves the Physical Realm and doesn't want to go back to Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "10" }]
+    }
+  ]
+}

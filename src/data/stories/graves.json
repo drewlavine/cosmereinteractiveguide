@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed Alethi man in the warcamps whom Moash introduces to Kaladin.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "An Alethi Shardbearer plotting to kill King Elhokar, who tries to recruit Kaladin to his cause.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    },
+    {
+      "text": "An Alethi Shardbearer and member of the Diagram who plotted to assassinate King Elhokar.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Plotting against the king",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            },
+            { "book": "words-of-radiance", "chapter": "41" },
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "On the Shattered Plains, Graves worked with Danlan, Febrth, Fia and Rill to plan the king's death, and recruited Moash to help.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Their first plot weakened the railing of the king's balcony so he would fall, presumably cut by Graves's Shardblade while Moash let him through. Elhokar clung on and was saved.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "41" }]
+        },
+        {
+          "text": "Moash brought Kaladin to meet Graves at a tavern. Appealing to Kaladin's surgeon's training, Graves won his reluctant help with a new plan: Kaladin would lead the king to a spot where Graves could shoot him with an arrow.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "When Dalinar marched to the centre of the Plains, Graves and Moash went to kill Elhokar with their Shardblades. Kaladin stood in their way, and when he spoke his Third Ideal, Graves laughed wildly, saying the Diagram had predicted this but they had misread it. After the battle, he and Moash fled in disguise.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Flight",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "43" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Lost in the Frostlands with Moash, Febrth and Fia, Graves's party was ambushed by four Fused. Graves was stabbed in the chest and killed, his Shardblade appearing beside him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "43" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lighteyed man in his mid-to-late twenties with crisply styled jet-black hair, usually impeccably dressed.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    },
+    {
+      "text": "He owns a full set of Shards and is said to be an excellent archer.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Calls himself an Alethi patriot. Married to a darkeyed woman with several children, he treats all men alike regardless of eye colour and cares nothing for others' opinions.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "46" }]
+    }
+  ]
+}

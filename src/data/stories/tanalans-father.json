@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Brightlord Tanalan, citylord of Rathalas, the Rift, in southern Alethkar, who refuses to accept Gavilar Kholin's claim to the throne.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Rift",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "11" },
+            { "book": "oathbringer", "chapter": "36" },
+            { "book": "oathbringer", "chapter": "76" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tanalan knew Dalinar before Gavilar's war. After losing a game of pawns to him, he cheekily paid the bet with bits of ruby dropped into a hundred bottles of wine, which amused Dalinar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+        },
+        {
+          "text": "When Gavilar, Dalinar and Sadeas attacked the Rift, Tanalan refused to submit and dueled Dalinar with the Sunmaker's Shardblade. Dalinar brought him down and then collapsed the platform they fought on, mortally wounding him. Dalinar followed him to a hidden refuge, where Tanalan's young son picked up the Blade to defend his dying father; Dalinar took the Blade, Oathbringer, but spared the boy.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "36" }]
+        },
+        {
+          "text": "After Tanalan's death his son took his title and carried on the rebellion, which ended with Rathalas burned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "76" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He spoke with the nasal accent common to Rifters and went into battle in simple steel armour with a huge Shardblade.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Stubborn and fearless, with the Rifters' independent streak; Dalinar thought him a decent enough fellow. He was close to his son, who shared his name.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "11" }]
+    }
+  ]
+}

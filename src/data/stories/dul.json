@@ -1,0 +1,52 @@
+{
+  "intro": [
+    {
+      "text": "Dul is a singer and former parshman, a member of Venli's group of singers who wish to be free of the Fused.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Venli's resistance",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "51" },
+            { "book": "rhythm-of-war", "chapter": "96" },
+            { "book": "rhythm-of-war", "chapter": "114" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dul served as a parshman in Alethkar with his mate, Mazish; his request that they marry in the human tradition was angrily refused. When the Everstorm awakened them, they joined Odium's forces but soon became some of the first singers Venli recruited into her resistance, and married once they were free.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+        },
+        {
+          "text": "Dul became one of Venli's most trusted friends and won the post of stormsetter for Leshwi's High Chamber in Kholinar. He helped Venli's subterfuge, advised new recruits on how to act around the Fused, and lightly admonished Shumin for not being ready for Leshwi's tests.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+        },
+        {
+          "text": "In Urithiru, Dul kept working with Venli on a way to escape the Fused, sometimes nearly demoralized but always doing what she needed. She put him in charge of watching the fallen Radiants, and he hoarded supplies in readiness to flee.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "96" }]
+        },
+        {
+          "text": "Dul was among the fifteen singers Venli planned to evacuate before fleeing to the Shattered Plains. After the tower was liberated, he presumably went there with the rest of Venli's group to join the other listeners.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Dul is a tall malen singer with red skin flecked with black. In mediationform he has an open face and smooth carapace.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "51" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Dul is pragmatic, loyal and trustworthy, with a sense of humor. He kept some human habits from his time as a parshman but still speaks and hums to the old rhythms, and longs to escape the Fused so much it can bring him to tears.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "102" }]
+    }
+  ]
+}

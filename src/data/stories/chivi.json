@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "A member of the listeners' Council of Five in Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Five",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "i-4" },
+            { "book": "words-of-radiance", "chapter": "i-11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Chivi was at the council meeting when Venli proposed taking stormform. Unhappy with the listeners' decline and hoping to turn the war, she agreed that Eshonai should test the new form, since Venli was too important to risk.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+        },
+        {
+          "text": "Once Eshonai had taken stormform and transformed two hundred soldiers, Chivi thought that would be enough. She worried about how far things had gone, and with Zuln she refused to let Eshonai transform all the listeners.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-11" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Chivi wears nimbleform, which lengthens her features, and ties her long hair strands into a ponytail.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Chivi is frustrated by the listeners' complacency.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-4" }]
+    }
+  ]
+}

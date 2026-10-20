@@ -35,7 +35,13 @@ export function CultureList() {
   const [params, setParams] = useSearchParams()
   const query = fold(params.get('q') ?? '').trim()
   const groupParam = params.get('group')
-  const grouping = isGrouping(groupParam) ? groupParam : undefined
+  // Grouped by type unless the reader picks Name (A–Z).
+  const grouping =
+    groupParam === null
+      ? 'type'
+      : isGrouping(groupParam)
+        ? groupParam
+        : undefined
 
   const shown = useMemo(
     () => cultureList.filter((c) => canSee(entryRevealedIn('culture', c))),
@@ -147,10 +153,15 @@ export function CultureList() {
         <label className="character-group-by">
           Group by
           <select
-            value={grouping ?? ''}
-            onChange={(event) => setParam('group', event.target.value)}
+            value={grouping ?? 'name'}
+            onChange={(event) =>
+              setParam(
+                'group',
+                event.target.value === 'type' ? '' : event.target.value,
+              )
+            }
           >
-            <option value="">Name (A–Z)</option>
+            <option value="name">Name (A–Z)</option>
             {groupings.map((g) => (
               <option key={g.id} value={g.id}>
                 {g.label}

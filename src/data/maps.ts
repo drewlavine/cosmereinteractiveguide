@@ -376,6 +376,14 @@ export const planetMaps: Record<string, PlanetMap[]> = {
           caption: 'The plateaus and chasms of the Shattered Plains.',
           artist: STEWART,
         },
+        {
+          bookId: 'words-of-radiance',
+          file: 'Shattered_Plains_WoR_map.jpeg',
+          width: 1346,
+          height: 2048,
+          caption: 'The symmetry of the Shattered Plains, annotated by Nazh.',
+          artist: STEWART,
+        },
       ],
     },
     {
@@ -417,6 +425,21 @@ export const planetMaps: Record<string, PlanetMap[]> = {
           width: 795,
           height: 1200,
           caption: 'The Battle of the Tower, drawn by Navani Kholin.',
+          artist: STEWART,
+        },
+      ],
+    },
+    {
+      id: 'four-cities',
+      title: 'Four Cities',
+      versions: [
+        {
+          bookId: 'way-of-kings',
+          file: 'Four_Cities.jpg',
+          width: 795,
+          height: 1200,
+          caption:
+            "Kabsal's study of the plans of Akinah, Thaylen City, Vedenar and Kholinar.",
           artist: STEWART,
         },
       ],

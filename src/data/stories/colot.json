@@ -1,0 +1,113 @@
+{
+  "intro": [
+    {
+      "text": "A lighteyed captain of the Fifth Battalion of the Kholin army, commanding archers, scouts, scribes and bridgemen.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+    },
+    {
+      "text": "A lighteyed former captain of the Kholin army who has joined Bridge Four as a squire of the Windrunners.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+    },
+    {
+      "text": "A lighteyed member of Bridge Four and one of the first ten Unoathed, who fought to retake Azimir.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "wind-and-truth", "chapter": "136" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Kholin army",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Colot was an archer and a captain in the Kholin army's Fifth Battalion, which also included scouts, scribes and bridgemen. He was good friends with Captain Tallan of the Eighth Company, which policed the battalion during the Battle of Narak.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        },
+        {
+          "text": "After the battle, Colot volunteered his battalion to help Kaladin's bridgemen scout Urithiru. He arrived with reinforcements just after Vedekar Perel was found dead, and Dalinar had him secure the perimeter and send word to Elhokar and Sebarial.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Radiant squire",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "oathbringer", "chapter": "63" },
+            { "book": "wind-and-truth", "chapter": "37" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "General Khal sent Colot to Kaladin with a group of hopeful squires. Kaladin was wary of lighteyes, but Skar vouched for Colot, pointing out that Renarin was lighteyed too. Colot and the other lighteyed recruits followed every order in the tryout without complaint.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Rlain saw Colot training with Peet and nine other new recruits to Bridge Four after they learned to breathe in Stormlight. He was the only lighteyes in the group, and one of very few in Bridge Four.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        },
+        {
+          "text": "Shallan knew of Colot as a squire. Disguised as a messenger from the Shattered Plains, she dropped his name to seem more convincing while trying to deliver Elhokar's letter to Aesudan.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
+        },
+        {
+          "text": "When a group of honorspren left to find Radiants to bond, they rejected Colot. He wondered whether it was because he was lighteyed and they wanted someone more like Kaladin, though he admitted he did not know.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Azimir",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the fight to retake Azimir, Colot became one of the first ten Unoathed, summoning Shardplate and a Shardblade from deadeyes brought by Maya, and helped take back the Azimir throne room from the singer army.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "136" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A lanky lighteyed man with streaks of red in his hair.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "9" },
+            { "book": "wind-and-truth", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Skar calls him a good man. Colot feels that being lighteyed can be a hindrance.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "46" },
+            { "book": "wind-and-truth", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "intro": [
+    {
+      "text": "A soldier in Kaladin's squad in Amaram's army.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Amaram's army",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "47" },
+            { "book": "words-of-radiance", "chapter": "52" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Toorim searched a brightlord Kaladin had killed for spheres but found none. Looting the dead was forbidden, but Kaladin let it go.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "47" }]
+        },
+        {
+          "text": "Toorim warned Kaladin of an unknown Veden Shardbearer, who then killed him and many others of the squad. From the Blade, Shallan identified the Shardbearer as her brother Helaran.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": []
+}
