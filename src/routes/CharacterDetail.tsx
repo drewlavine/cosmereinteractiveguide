@@ -1,4 +1,5 @@
 import { Fragment, useEffect, useState, type ReactNode } from 'react'
+import { PortraitArt } from '../components/ArtViewer'
 import { SourceMark } from '../components/SourceMark'
 import { Link, Navigate, useLocation, useParams } from 'react-router'
 import {
@@ -540,23 +541,12 @@ export function CharacterDetail() {
           {header}
           <div className="character-side">
             {art.portrait && (
-              <figure className="character-portrait">
-                <img src={art.portrait.src} alt={art.portrait.alt} />
-                <figcaption>
-                  Art by{' '}
-                  {art.portrait.artistUrl ? (
-                    <a
-                      href={art.portrait.artistUrl}
-                      target="_blank"
-                      rel="noreferrer"
-                    >
-                      {art.portrait.artist}
-                    </a>
-                  ) : (
-                    art.portrait.artist
-                  )}
-                </figcaption>
-              </figure>
+              <PortraitArt
+                src={art.portrait.src}
+                alt={art.portrait.alt}
+                artist={art.portrait.artist}
+                artistUrl={art.portrait.artistUrl}
+              />
             )}
             {infobox}
           </div>

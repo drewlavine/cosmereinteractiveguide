@@ -9,6 +9,7 @@ import {
   type KeyboardEvent,
   type ReactNode,
 } from 'react'
+import { ArtViewer } from '../ArtViewer'
 import { useLinkText, type LinkTextFn } from '../LinkedText'
 import { showOnPage } from '../pageOpen'
 import { SourceMark } from '../SourceMark'
@@ -583,7 +584,12 @@ export default function JourneyMap({
       </div>
 
       {viewing && stop.art && (
-        <ArtViewer art={stop.art} onClose={() => setViewing(false)} />
+        <ArtViewer
+          src={stop.art.src}
+          alt={stop.art.alt}
+          credit={<ArtCredit credit={stop.art.credit} />}
+          onClose={() => setViewing(false)}
+        />
       )}
 
       <p className="journey-credits">
@@ -646,53 +652,6 @@ function ArtCredit({ credit }: { credit: JourneyArt['credit'] }) {
     </a>
   ) : (
     credit.text
-  )
-}
-
-/** The whole picture, uncropped, over everything; Escape or a click closes. */
-function ArtViewer({ art, onClose }: { art: JourneyArt; onClose: () => void }) {
-  const dialog = useRef<HTMLDialogElement>(null)
-  useEffect(() => {
-    const el = dialog.current
-    if (!el || el.open) return
-    if (el.showModal) el.showModal()
-    else el.setAttribute('open', '')
-  }, [])
-  return (
-    <dialog
-      ref={dialog}
-      className="journey-art-viewer"
-      aria-label="Picture"
-      onClose={onClose}
-      onCancel={onClose}
-      // Keep keys (Escape, arrows) from also driving the map or full screen.
-      onKeyDown={(e) => {
-        e.stopPropagation()
-        if (e.key === 'Escape') {
-          e.preventDefault()
-          onClose()
-        }
-      }}
-      onClick={(e) => {
-        if (e.target === e.currentTarget) onClose()
-      }}
-    >
-      <figure>
-        <img src={art.src} alt={art.alt} />
-        <figcaption>
-          Art by <ArtCredit credit={art.credit} />
-        </figcaption>
-      </figure>
-      <button
-        type="button"
-        className="journey-card-close journey-art-viewer-close"
-        onClick={onClose}
-        aria-label="Close picture"
-        autoFocus
-      >
-        ×
-      </button>
-    </dialog>
   )
 }
 

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState, type ReactNode } from 'react'
-import { useLocation } from 'react-router'
+import { Link, useLocation } from 'react-router'
 import { OPEN } from './pageOpen'
 
 interface SectionProps {
@@ -51,8 +51,15 @@ export function PageSubsection({
   id,
   title,
   className,
+  lead,
+  href,
   children,
-}: SectionProps) {
+}: SectionProps & {
+  /** Shown before the title, e.g. a picture the title sits beside. */
+  lead?: ReactNode
+  /** Where the title leads, e.g. the thing's own page. */
+  href?: string
+}) {
   return (
     <section
       id={id}
@@ -60,7 +67,10 @@ export function PageSubsection({
       aria-labelledby={`${id}-title`}
       data-toc-sub={title}
     >
-      <h3 id={`${id}-title`}>{title}</h3>
+      {lead}
+      <h3 id={`${id}-title`}>
+        {href ? <Link to={href}>{title}</Link> : title}
+      </h3>
       {children}
     </section>
   )
@@ -88,7 +98,7 @@ export function PageContents() {
   // Only phones fold the Contents away (see the stylesheet).
   const [open, setOpen] = useState(false)
   const { hash } = useLocation()
-  const jumped = useRef(false)
+  const jumped = useRef<string>(undefined)
   // A part the reader jumped to stays marked until they scroll themselves,
   // even if the page can't scroll far enough to bring it to the top.
   const pinned = useRef<string[]>(undefined)
@@ -191,9 +201,10 @@ export function PageContents() {
   const follow = useRef<ReturnType<typeof setTimeout>[]>([])
   useEffect(() => {
     const id = decodeURIComponent(hash.slice(1))
-    if (jumped.current || !id) return
+    if (jumped.current === id || !id) return
     if (entries.some((e) => e.id === id || e.subs.some((s) => s.id === id))) {
-      jumped.current = true
+      jumped.current = id
+      follow.current.forEach(clearTimeout)
       jump(id)
       const pin = pinned.current
       follow.current = [150, 500, 1000, 2000].map((ms) =>

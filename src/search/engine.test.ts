@@ -116,4 +116,16 @@ describe('search', () => {
     expect(reader().get('planet:sel')).toBeUndefined()
     expect(reader('elantris').get('planet:sel')?.title).toBe('Sel')
   })
+
+  it('finds each lesser spren on the shared Lesser spren page', () => {
+    const search = reader('way-of-kings')
+    expect(search.get('lifeform:painspren')?.href).toBe(
+      '/lifeforms/lesser-spren#painspren',
+    )
+    expect(keys(search, 'painspren')[0]).toBe('lifeform:painspren')
+    expect(search.get('lifeform:lesser-spren')?.href).toBe(
+      '/lifeforms/lesser-spren',
+    )
+    expect(reader().get('lifeform:lesser-spren')).toBeUndefined()
+  })
 })

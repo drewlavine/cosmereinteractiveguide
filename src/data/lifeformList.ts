@@ -1936,7 +1936,7 @@ export const lifeformList: ListedLifeform[] = [
   {
     id: 'unmade',
     name: 'Unmade',
-    kind: 'true-spren',
+    kind: 'unique-spren',
     world: 'roshar',
     revealedIn: ['words-of-radiance'],
     books: [

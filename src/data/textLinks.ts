@@ -4,7 +4,7 @@ import { characterDetails } from './characterDetails'
 import { cultureList } from './culture'
 import { entryAliases } from './entryAliases'
 import { eventList } from './events'
-import { lifeformList } from './lifeforms'
+import { lifeformHref, lifeformList, sprenGroupEntries } from './lifeforms'
 import { entryRevealedIn, shownAliases, type EntryKind } from './entryStories'
 import { listedLocations, placeHref, placeRevealedIn } from './listedLocations'
 import { people } from './people'
@@ -26,6 +26,8 @@ interface Target {
   names: string[]
   /** Short names, aliases, plurals. */
   aliases: string[]
+  /** Its names may be linked in lower case too ("true spren"). */
+  anyCase?: boolean
 }
 
 /** One name to look for in prose, and where it leads. */
@@ -275,12 +277,13 @@ function targets(canSee: CanSee): Target[] {
       | typeof eventList
       | typeof lifeformList,
     path: string,
+    href = (e: (typeof list)[number]) => `/${path}/${e.id}`,
   ) => {
     for (const e of list)
       if (canSee(entryRevealedIn(kind, e)))
         out.push({
           key: `${kind}:${e.id}`,
-          href: `/${path}/${e.id}`,
+          href: href(e),
           names: [e.name, plural(e.name)],
           aliases: shownAliases(kind, e, canSee).flatMap((a) => [
             a.name,
@@ -290,8 +293,20 @@ function targets(canSee: CanSee): Target[] {
   }
   entries('ability', abilityList, 'magic')
   entries('culture', cultureList, 'culture')
-  entries('lifeform', lifeformList, 'lifeforms')
+  entries('lifeform', lifeformList, 'lifeforms', (e) =>
+    lifeformHref(e as (typeof lifeformList)[number]),
+  )
   entries('event', eventList, 'events')
+  // Prose names the groups of spren in lower case.
+  for (const e of sprenGroupEntries)
+    if (canSee(entryRevealedIn('lifeform', e)))
+      out.push({
+        key: `lifeform:${e.id}`,
+        href: `/lifeforms/${e.id}`,
+        names: [e.name, e.name.toLowerCase()],
+        aliases: [],
+        anyCase: true,
+      })
   return out
 }
 
@@ -334,7 +349,7 @@ export function textLinks(canSee: CanSee): TextLink[] {
         name.length < 3 ||
         owner(name) !== t.key ||
         commonWords.has(name) ||
-        !/^\p{Lu}/u.test(name)
+        (!t.anyCase && !/^\p{Lu}/u.test(name))
       )
         continue
       seen.add(name)

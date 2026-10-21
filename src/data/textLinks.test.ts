@@ -87,4 +87,13 @@ describe('links in prose', () => {
   it('never links everyday words', () => {
     expect(hrefs('First, Wind and Truth.', at(['way-of-kings']))).toEqual([])
   })
+
+  it('links the groups of spren written in lower case', () => {
+    const text = 'Honorspren are true spren, unlike lesser spren.'
+    expect(hrefs(text, at(['way-of-kings']))).toEqual([
+      '/lifeforms/honorspren',
+      '/lifeforms/true-spren',
+      '/lifeforms/lesser-spren',
+    ])
+  })
 })

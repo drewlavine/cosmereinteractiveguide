@@ -229,7 +229,13 @@ export interface ListedCulture {
 }
 
 export type ListedLifeformKind =
-  'spren' | 'true-spren' | 'lesser-spren' | 'species' | 'creature' | 'plant'
+  | 'spren'
+  | 'true-spren'
+  | 'unique-spren'
+  | 'lesser-spren'
+  | 'species'
+  | 'creature'
+  | 'plant'
 
 /** A spren, sapient species, creature or plant (see lifeformList.ts). */
 export interface ListedLifeform {

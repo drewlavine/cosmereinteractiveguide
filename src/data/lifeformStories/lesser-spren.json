@@ -1,0 +1,145 @@
+{
+  "intro": [
+    {
+      "text": "The many spren that are not sapient, also called subspren. They gather around feelings, forces of nature and other things, and each kind is named for what draws it.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "oathbringer", "chapter": "4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lesser spren are said to be always present, though often unseen, and appear around the thing they are named for. Some are easier to find than others, and even common kinds sometimes fail to show.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "All spren are very rare in Shinovar. Emotion spren are rare in packed crowds, even when feelings run high.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "45" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Most spren are lesser spren. Some can speak, but talking with them rarely gets anywhere, so people mostly ignore them. Spren of the same kind are essentially the same as one another.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "17" },
+            { "book": "oathbringer", "chapter": "4" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Each kind of Radiant spren has lesser spren cousins, which form a Radiant's Shardplate once the Radiant reaches a high enough Ideal.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "rhythm-of-war", "chapter": "110" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "sections": [
+    {
+      "title": "Enlightened lesser spren",
+      "items": [
+        {
+          "text": "The Unmade Sja-anat can corrupt lesser spren, which she calls Enlightening. They look misshapen, with parts painfully exaggerated, and can spy and carry messages for her, speaking in her voice.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "4" },
+                { "book": "oathbringer", "chapter": "97" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "How they look",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "97" },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "97" },
+                    { "book": "rhythm-of-war", "chapter": "epilogue" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Enlightened painspren are sickly green rather than orange, and twisted so they no longer look like hands.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened shamespren look like shards of broken glass instead of petals.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened angerspren look like bubbling pools of tar instead of blood, and the bubbles burn red like embers when they pop.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened anticipationspren have long, thin tendrils like whips instead of flat streamers.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened awespren look like puffs of black soot.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened exhaustionspren are bright red instead of brown, and look more like small red whirlwinds.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened flamespren burn a vivid blue instead of red and orange, and look more jagged.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            },
+            {
+              "text": "Enlightened windspren are hard to see, being see-through, and trail red light.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "97" },
+                    { "book": "rhythm-of-war", "chapter": "epilogue" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Enlightened gloryspren are cubes instead of globes. In Shadesmar they are bone-white and brown, with wings, long tresses for a tail and golden cubes for heads.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": []
+}

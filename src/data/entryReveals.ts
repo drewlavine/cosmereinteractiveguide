@@ -2111,6 +2111,12 @@ export const entryReveals: Record<
         ],
       },
     ],
+    'unique-spren': [
+      {
+        book: 'oathbringer',
+        chapter: '104',
+      },
+    ],
     unmade: [
       {
         book: 'words-of-radiance',

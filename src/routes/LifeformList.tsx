@@ -1,11 +1,11 @@
-import { lifeformKindLabels, lifeformList } from '../data/lifeforms'
+import { lifeformKindLabels, listedLifeforms } from '../data/lifeforms'
 import { EntryList } from './EntryList'
 
 export function LifeformList() {
   return (
     <EntryList
       kind="lifeform"
-      list={lifeformList}
+      list={listedLifeforms}
       kindLabels={lifeformKindLabels}
       title="Lifeforms"
       path="lifeforms"

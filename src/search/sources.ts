@@ -2,7 +2,12 @@ import { abilityKindNames, abilityList } from '../data/abilities'
 import { bookMeta, books, seriesOf } from '../data/books'
 import { cultureKindNames, cultureList } from '../data/culture'
 import { eventKindNames, eventList } from '../data/events'
-import { lifeformKindNames, lifeformList } from '../data/lifeforms'
+import {
+  lifeformHref,
+  lifeformKindNames,
+  lifeformList,
+  sprenGroupEntries,
+} from '../data/lifeforms'
 import { entryRevealedIn, shownAliases } from '../data/entryStories'
 import { people as characters } from '../data/people'
 import { findLocation, kindLabels, locations } from '../data/locations'
@@ -189,21 +194,21 @@ const lifeforms: SearchSource = {
   label: 'Lifeforms',
   icon: 'lifeform',
   entries: (canSee) =>
-    lifeformList.flatMap((e) => [
+    [...lifeformList, ...sprenGroupEntries].flatMap((e) => [
       {
         key: `lifeform:${e.id}`,
         title: e.name,
         subtitle: [lifeformKindNames[e.kind], worldName(canSee, e.world)]
           .filter(Boolean)
           .join(' · '),
-        href: `/lifeforms/${e.id}`,
+        href: lifeformHref(e),
         revealedIn: entryRevealedIn('lifeform', e),
       },
       ...shownAliases('lifeform', e, canSee).map((alias) => ({
         key: `lifeform:${e.id}:${alias.name}`,
         title: alias.name,
         subtitle: `${alias.role} · ${e.name}`,
-        href: `/lifeforms/${e.id}`,
+        href: lifeformHref(e),
         revealedIn: alias.revealedIn,
       })),
     ]),

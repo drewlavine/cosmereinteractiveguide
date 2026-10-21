@@ -911,6 +911,17 @@ entry pipeline (`~/cig-entry-data`, kind `lifeform`).
 ## Ideas
 
 Not planned yet; come back to these if wanted.
+- [x] Lesser spren share one Lesser spren page (`/lifeforms/lesser-spren`):
+      a card per kind with its art (or a "No art yet" placeholder) beside its
+      name, text and characters; search and in-text links go to its card, and
+      old `/lifeforms/<id>` links redirect there; cards are grouped into
+      emotion, nature and other spren under an About section
+- [x] The Coppermind's Spren article split across pages: the Spren page
+      keeps Characteristics, Classification, Bonds, Enlightened spren and
+      Myths; True spren (`/lifeforms/true-spren`) and Unique spren
+      (`/lifeforms/unique-spren`) get an About section and a summary card per
+      kind linking to its page; the Unmade move to Unique spren
+- [x] Clicking any portrait or entry art opens it in a centred viewer
 
 - **Travels map**
   - Passport stamps: a stamp per world visited, collected as the reader

@@ -21,6 +21,7 @@ import {
 import { abilityList } from '../data/abilities'
 import { entryAliases } from '../data/entryAliases'
 import { entryArt } from '../data/entryArt'
+import { PortraitArt } from './ArtViewer'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { findPerson } from '../data/people'
 import { groupMembers } from '../data/groupMembers'
@@ -68,6 +69,12 @@ export interface EntryPageProps {
   typeLabel: string
   /** More Key facts rows (dt/dd pairs). */
   extraFacts?: ReactNode
+  /** An intro for a page with no story of its own. */
+  intro?: string
+  /** More of the page, after its About. */
+  children?: ReactNode
+  /** Whether `children` hide anything. */
+  extraSpoilers?: boolean
 }
 
 /**
@@ -81,6 +88,9 @@ export function EntryPage({
   list,
   typeLabel,
   extraFacts,
+  intro,
+  children,
+  extraSpoilers = false,
 }: EntryPageProps) {
   const canSee = useCanSee()
   const systems = useShownSystems()
@@ -193,33 +203,28 @@ export function EntryPage({
       <SpoilerNotice
         scope={scope}
         spoilers={
-          shown.spoilers || art.spoilers || books.length < entry.books.length
+          shown.spoilers ||
+          art.spoilers ||
+          extraSpoilers ||
+          books.length < entry.books.length
         }
       />
       <div className="character-body">
         <header className="character-header">
           <h1 id="entry-title">{entry.name}</h1>
-          {shown.intro && (
-            <p className="character-intro">{link(shown.intro)}</p>
+          {(shown.intro ?? intro) && (
+            <p className="character-intro">{link(shown.intro ?? intro!)}</p>
           )}
         </header>
         <div className="character-side">
           {shownArt && (
-            <figure
+            <PortraitArt
+              src={shownArt.src}
+              alt={shownArt.alt}
+              artist={shownArt.artist}
+              artistUrl={shownArt.artistUrl}
               className={`character-portrait${shownArt.glyph ? ' entry-glyph' : ''}`}
-            >
-              <img src={shownArt.src} alt={shownArt.alt} />
-              <figcaption>
-                Art by{' '}
-                {shownArt.artistUrl ? (
-                  <a href={shownArt.artistUrl} target="_blank" rel="noreferrer">
-                    {shownArt.artist}
-                  </a>
-                ) : (
-                  shownArt.artist
-                )}
-              </figcaption>
-            </figure>
+            />
           )}
           <aside
             className={`character-infobox${factsOpen ? '' : ' collapsed'}`}
@@ -296,6 +301,7 @@ export function EntryPage({
               })()}
             </PageSection>
           )}
+          {children}
           {shown.sections.map((s, i) => (
             <PageSection key={sectionIds[i]} id={sectionIds[i]} title={s.title}>
               {(() => {
