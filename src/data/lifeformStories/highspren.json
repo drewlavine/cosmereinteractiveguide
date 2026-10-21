@@ -1,0 +1,41 @@
+{
+  "intro": [
+    {
+      "text": "Sapient spren that form Nahel bonds. A person who bonds one becomes a Skybreaker.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "59" },
+            { "book": "oathbringer", "chapter": "40" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "They respect Nale and bond only people he presents. Several go on training trips to judge the hopefuls, each waiting for one who impresses them. Once bonded, they decide whether their partner has met the Ideal of Crusade.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    },
+    {
+      "text": "In the Physical Realm they can choose who sees and hears them, even hiding from their own Skybreaker.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "rhythm-of-war", "chapter": "i-7" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "nale",
+      "role": "presents candidates",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "92" }]
+    }
+  ]
+}

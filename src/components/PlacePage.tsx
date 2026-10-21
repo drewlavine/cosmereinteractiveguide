@@ -285,7 +285,7 @@ export function PlacePage(props: PlacePageProps) {
             </PageSection>
           )}
           {people.length > 0 && (
-            <PageSection id="people" title="People">
+            <PageSection id="people" title="Characters">
               <PeopleGrid
                 people={people.map((p) => ({
                   characterId: p.characterId,

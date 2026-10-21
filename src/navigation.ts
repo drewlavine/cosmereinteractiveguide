@@ -76,6 +76,18 @@ export const mainTabs: MainTab[] = [
     isActive: underPath('/culture'),
   },
   {
+    id: 'lifeforms',
+    label: 'Lifeforms',
+    path: '/lifeforms',
+    isActive: underPath('/lifeforms'),
+  },
+  {
+    id: 'events',
+    label: 'Events',
+    path: '/events',
+    isActive: underPath('/events'),
+  },
+  {
     id: 'timeline',
     label: 'Timeline',
     path: '/timeline',

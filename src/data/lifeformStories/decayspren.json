@@ -1,0 +1,22 @@
+{
+  "intro": [
+    {
+      "text": "Spren that Syl mentions.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    },
+    {
+      "text": "Spren drawn to abandoned, neglected or decayed things, and to rotting food. They look like barnacles and usually huddle together in large numbers.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "78" }]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sylphrena",
+      "role": "mentioned them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+    }
+  ]
+}

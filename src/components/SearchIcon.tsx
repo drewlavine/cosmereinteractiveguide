@@ -41,6 +41,13 @@ const paths: Record<SearchIconName | 'search', ReactNode> = {
       <path d="M5.5 4.5h12l-2.5 4 2.5 4h-12" />
     </>
   ),
+  event: <path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6Z" />,
+  lifeform: (
+    <>
+      <path d="M6 18.5c0-7.5 4.5-12.5 13-13-.5 8.5-5.5 13-13 13Z" />
+      <path d="M6 18.5 13 11.5" />
+    </>
+  ),
   character: (
     <>
       <circle cx="12" cy="8" r="3.8" />

@@ -1,0 +1,43 @@
+{
+  "intro": [
+    {
+      "text": "Spren that Axies the Collector thinks may appear around people in captivity.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "Spren that appear around people in captivity. They look like taut wires.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "i-5" },
+            { "book": "words-of-radiance", "chapter": "62" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Axies has been imprisoned many times but never seen one, so he doubts they exist.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "text": "While imprisoned, Kaladin sees strange spren like taut wires crossing in front of him.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "axies",
+      "role": "theorised them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "saw them",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "62" }]
+    }
+  ]
+}

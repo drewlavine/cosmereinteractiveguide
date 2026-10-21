@@ -1,0 +1,432 @@
+{
+  "intro": [
+    {
+      "text": "A secret organization on Roshar seeking answers about the Voidbringers.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+    },
+    {
+      "text": "A secret organization on Roshar, led by Thaidakar, seeking answers about the Voidbringers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "74" },
+            { "book": "rhythm-of-war", "chapter": "64" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "A secret organization on Roshar and Scadrial, led by Kelsier, that works to protect Scadrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "74" },
+            { "book": "lost-metal", "chapter": "47" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "sections": [
+    {
+      "title": "Goals",
+      "items": [
+        {
+          "text": "Find Urithiru.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        },
+        {
+          "text": "Carry Stormlight off Roshar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "Find Ba-Ado-Mishram.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "Take control of the Oathgates.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        },
+        {
+          "text": "Protect Scadrial.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Tenets",
+      "items": [
+        {
+          "text": "Members get a tattoo of the group's symbol, anywhere on the body.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        },
+        {
+          "text": "On Scadrial: protect Scadrial, keep secrets, and work together in trust.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "47" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "History",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "House Davar",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "29" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The group owns the Soulcaster House Davar uses. Luesh, the Davar steward, wears their symbol.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+            },
+            {
+              "text": "Mraize tells Shallan her debt for the broken Soulcaster is paid.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Attempts on Jasnah",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "74" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "34" },
+                    { "book": "oathbringer", "chapter": "33" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Kabsal tries to poison Jasnah in Kharbranth and dies of the poison himself.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+            },
+            {
+              "text": "Ghostblood agents attack Jasnah aboard the Wind's Pleasure and think they have killed her.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "34" },
+                    { "book": "oathbringer", "chapter": "33" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Recruiting Shallan",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "34" },
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "words-of-radiance", "chapter": "54" },
+                { "book": "words-of-radiance", "chapter": "64" },
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Shallan kills Tyn, a Ghostblood agent, and takes her place to meet the group.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+            },
+            {
+              "text": "In disguise, Shallan meets Mraize, who asks for Amaram's secrets.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+            },
+            {
+              "text": "Mraize learns Veil killed Tyn and offers her a job.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+            },
+            {
+              "text": "Mraize accepts Shallan as a member.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+            },
+            {
+              "text": "Mraize finds out Veil is Shallan and says the Ghostbloods hold her brothers.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+            },
+            {
+              "text": "Mraize sends Shallan's brothers to her and asks her to win Sja-anat over.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Urithiru",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Mraize poses as a guard of Ialai Sadeas and asks Shallan to root out the darkness in the tower.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Hunting the Sons of Honor",
+              "revealedIn": [
+                { "book": "rhythm-of-war", "chapter": "7" },
+                { "book": "rhythm-of-war", "chapter": "13" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Ghostbloods kill Thanadal and Vamah of the Sons of Honor.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "7" }]
+            },
+            {
+              "text": "Mraize spies on Ialai as Gobby.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+            },
+            {
+              "text": "Mraize sends Shallan to find Restares in Lasting Integrity.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Occupation of Urithiru",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Mraize cages Lift and gives her to Raboniel, asking the Fused to deal with his master over the Oathgates.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Shallan quits",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Shallan spares Kelek, quits the Ghostbloods and orders them out of Urithiru.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Resistance against Trell",
+              "revealedIn": [
+                { "book": "lost-metal", "chapter": "29" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "lost-metal", "chapter": "70" },
+                { "book": "lost-metal", "chapter": "epilogue-1" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Moonlight tries to recruit Marasi.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "29" }]
+            },
+            {
+              "text": "Kelsier leads the group against Trell from a safehouse in Bilming.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+            },
+            {
+              "text": "Moonlight, TwinSoul and Marasi go after the Set's bomb, while Ghostbloods help Steris evacuate Elendel.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "70" }]
+            },
+            {
+              "text": "Marasi turns down membership because of the group's secrecy.",
+              "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "peopleTitle": "Notable members",
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Thaidakar",
+      "characterId": "thaidakar",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+    },
+    {
+      "label": "Leader",
+      "name": "Kelsier",
+      "characterId": "kelsier",
+      "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+    }
+  ],
+  "people": [],
+  "members": [
+    {
+      "characterId": "thaidakar",
+      "items": [
+        {
+          "text": "Wants control of the Oathgates to move Stormlight.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        },
+        {
+          "text": "Leader of the Ghostbloods.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "characterId": "kelsier",
+      "items": [
+        {
+          "text": "Leader of the Ghostbloods, known on Roshar as Thaidakar.",
+          "revealedIn": [
+            {
+              "all": [
+                "final-empire",
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Leads the Ghostbloods on Scadrial against Trell.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "Sends Moonlight, TwinSoul and Marasi to stop the Set's bomb.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "70" }]
+        }
+      ]
+    },
+    {
+      "characterId": "iyatil",
+      "items": [
+        {
+          "text": "Mraize's teacher. Spies on Shallan for the group.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "characterId": "mraize",
+      "items": [
+        {
+          "text": "Leads the Ghostbloods Shallan meets on the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+        },
+        {
+          "text": "Recruits Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        },
+        {
+          "text": "Learns Veil is Shallan and holds her brothers.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Poses as a guard of Ialai Sadeas.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+        },
+        {
+          "text": "Hunts the Sons of Honor.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "Cages Lift and gives her to Raboniel.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "characterId": "shallan-davar",
+      "items": [
+        {
+          "text": "Joins as Veil.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        },
+        {
+          "text": "Spies for the group while leading the Unseen Court.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        },
+        {
+          "text": "Quits the group.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        }
+      ]
+    },
+    {
+      "characterId": "kabsal",
+      "items": [
+        {
+          "text": "Poses as an ardent in Kharbranth.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        },
+        {
+          "text": "Dies trying to poison Jasnah.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "characterId": "lin-davar",
+      "items": [
+        {
+          "text": "Shallan's father. Likely a member.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "characterId": "luesh",
+      "items": [
+        {
+          "text": "Davar steward who works the family's Soulcaster.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
+        }
+      ]
+    },
+    {
+      "characterId": "jin",
+      "items": [
+        {
+          "text": "At Veil's meeting with Mraize.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "characterId": "dlavil",
+      "items": [
+        {
+          "text": "Iyatil's brother, in Elendel. Argues Marasi should be silenced.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,14 @@
-import { cleanup, render, screen, within } from '@testing-library/react'
+import {
+  cleanup,
+  fireEvent,
+  render,
+  screen,
+  within,
+} from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it } from 'vitest'
 import { chapters } from './data/chapters'
+import { NOTABLE } from './data/notable'
 import nightBrigade from './data/cultureStories/night-brigade.json'
 import { routes } from './routes'
 import { createSearch } from './search/engine'
@@ -90,7 +97,7 @@ describe('group members', () => {
     render(
       <RouterProvider
         router={createMemoryRouter(routes, {
-          initialEntries: ['/culture/unmade'],
+          initialEntries: ['/lifeforms/unmade'],
         })}
       />,
     )
@@ -110,6 +117,92 @@ describe('group members', () => {
     expect(
       within(sja).getByRole('link', { name: 'Sja-anat’s page' }),
     ).toHaveAttribute('href', '/characters/sja-anat')
+  })
+
+  it('hides that Kalak leads the Sons of Honor until the reader learns it', async () => {
+    const kalakAt = async (chapter: string) => {
+      cleanup()
+      localStorage.setItem(
+        BOOKS_READ_KEY,
+        JSON.stringify({
+          version: 2,
+          read: ['way-of-kings', 'words-of-radiance', 'oathbringer'],
+          reading: { 'rhythm-of-war': chapter },
+        }),
+      )
+      render(
+        <RouterProvider
+          router={createMemoryRouter(routes, {
+            initialEntries: ['/magic/herald'],
+          })}
+        />,
+      )
+      const heralds = await screen.findByRole('region', { name: 'Heralds' })
+      return within(heralds).getByRole('region', { name: 'Kalak' })
+    }
+    expect((await kalakAt('81')).textContent).not.toContain('Restares')
+    expect(await kalakAt('82')).toHaveTextContent('Sons of Honor as Restares')
+  })
+
+  it('keeps Thaidakar apart from Kelsier until the reader sees through him', async () => {
+    const membersAt = async (chapter: string) => {
+      cleanup()
+      localStorage.setItem(
+        BOOKS_READ_KEY,
+        JSON.stringify({
+          version: 2,
+          read: ['final-empire', 'way-of-kings', 'words-of-radiance'],
+          reading: { 'rhythm-of-war': chapter },
+        }),
+      )
+      render(
+        <RouterProvider
+          router={createMemoryRouter(routes, {
+            initialEntries: ['/culture/ghostbloods'],
+          })}
+        />,
+      )
+      return screen.findByRole('region', { name: 'Notable members' })
+    }
+    let members = await membersAt('64')
+    expect(
+      within(members).getByRole('region', { name: 'Thaidakar' }),
+    ).toBeInTheDocument()
+    expect(within(members).queryByRole('region', { name: 'Kelsier' })).toBe(
+      null,
+    )
+    expect(members.textContent).not.toContain('Kelsier')
+    members = await membersAt('115')
+    const kelsier = within(members).getByRole('region', { name: 'Kelsier' })
+    expect(kelsier).toHaveTextContent('known on Roshar as Thaidakar')
+    expect(within(members).queryByRole('region', { name: 'Thaidakar' })).toBe(
+      null,
+    )
+  })
+
+  it('shows a long list’s notable people until See all', async () => {
+    localStorage.setItem(
+      BOOKS_READ_KEY,
+      JSON.stringify({ version: 2, read: ['way-of-kings'], reading: {} }),
+    )
+    render(
+      <RouterProvider
+        router={createMemoryRouter(routes, {
+          initialEntries: ['/culture/bridge-four'],
+        })}
+      />,
+    )
+    const button = await screen.findByRole('button', { name: /^See all \d+/ })
+    const section = button.closest('section')!
+    const count = () => within(section).getAllByRole('region').length
+    expect(count()).toBe(NOTABLE)
+    expect(
+      within(section).getByRole('region', { name: 'Teft' }),
+    ).toBeInTheDocument()
+    const all = Number(button.textContent!.match(/\d+/)![0])
+    fireEvent.click(button)
+    expect(count()).toBe(all)
+    expect(button).toHaveTextContent('Show fewer')
   })
 })
 

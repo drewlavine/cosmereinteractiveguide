@@ -216,7 +216,7 @@ OK.
   or highlights it on each unlocked map it's marked on ("Where it is").
 - **Place pages** (`PlacePage.tsx`, shared by map places and the new
   `/locations/:id` route in `ListedLocationDetail.tsx`): Key facts, intro,
-  About, History, People, Map. Data: `src/data/locationStories/<id>.json`
+  About, History, Characters, Map. Data: `src/data/locationStories/<id>.json`
   (lazy, like character stories) and `src/data/locationDetails.ts`;
   `revealLocationStory` / `revealLocationDetails` in `reveal.ts`. Pipeline
   in `~/cig-loc-data`: `loc_parse.py` → `loc_story_src.py` → agent-written

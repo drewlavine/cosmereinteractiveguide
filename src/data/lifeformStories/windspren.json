@@ -1,0 +1,58 @@
+{
+  "intro": [
+    {
+      "text": "Common spren that appear with the wind. They can change shape at will but often look like ribbons of light.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They can stick things together, a simple form of the Surge of Adhesion.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "2" }]
+    },
+    {
+      "text": "Thousands ride the leading edge of a highstorm, and many follow its tail.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "34" }]
+    },
+    {
+      "text": "They are drawn to Radiants moving fast, such as Windrunners and Edgedancers.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "edgedancer", "chapter": "1" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "Kaladin often draws them and has at least once controlled them, and with them the wind.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    },
+    {
+      "text": "They use their sticking to play pranks, like fixing shoes to the floor or tying laces together.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "77" }]
+    },
+    {
+      "text": "They are rarely seen in Shadesmar, where one looks like a pinprick of light with a long trail.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
+    },
+    {
+      "text": "Singers bond them to take nimbleform.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "73" }]
+    },
+    {
+      "text": "Windspren form Windrunner Plate.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "110" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "draws them",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "31" }]
+    }
+  ]
+}

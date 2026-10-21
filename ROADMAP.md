@@ -637,15 +637,15 @@ Personal arcs and battles belong on character and journey pages.
   - [x] A page for every listed place (`/locations/:id`); places with a map
         page (and planets) go there instead. Every list entry links
   - [x] Place pages share one layout with the character pages: Key facts
-        box, intro, About, History, People and Map, each item spoiler-tagged
+        box, intro, About, History, Characters and Map, each item spoiler-tagged
         (pipeline: `~/cig-loc-data/loc_parse.py` → `loc_story_src.py` →
         stories by agents (`LOC_STORY_GUIDE.md`, `loc_story_check.py`) →
         `loc_facts.py` (+ reviewed overrides) → `loc_emit.py`)
   - [x] Mistborn Era 1 content: 63 places with stories, 58 with Key facts
-        or People (5 Era 1 places have no dated Coppermind text yet)
+        or Characters (5 Era 1 places have no dated Coppermind text yet)
   - [x] The Stormlight Archive: 70 Roshar places
   - [ ] The other series' places
-  - [ ] Visitors (from Travels) alongside residents in People
+  - [ ] Visitors (from Travels) alongside residents in Characters
 
 ### 13. Abilities
 
@@ -674,6 +674,19 @@ Personal arcs and battles belong on character and journey pages.
           under **Other users**; Heightenings still to do
     - [x] Art for each Radiant order: Isaac Stewart's glyph, then Steve
           Argyle's painting once it's safe
+    - [x] Radiant order pages follow their Coppermind page's layout:
+          Philosophy, **Ideals of the <Order>** (a subsection per Ideal,
+          its words in a quote box dated to where the reader first reads
+          them, "as spoken by" each speaker from the chapter they say
+          them), Abilities (a subsection per Surge, Resonance...), History,
+          then the order's members by Ideal. Pages can now carry such
+          `sections` and rename About and Users (`aboutTitle`,
+          `peopleTitle`)
+    - [x] Members from character pages: anyone whose dated group or title
+          facts link to an entry (Bridge Four, Highprince, Herald, the
+          orders...) is listed on it once the reader sees they belong,
+          even on entries with no written page
+          (`~/cig-char-data/members.py`, run by `emit.py`)
     - [x] Fuller system pages: a **How it works** section (titled
           subsections, no cap) and spoiler-dated **tables** (rows can cite
           another page's lines, e.g. a metal's; later row versions replace
@@ -863,6 +876,37 @@ can become a template for other series. Data from importers in
 - [ ] An all-characters map (like cosmeremaps.com)
 - [ ] Extract the journey model, engine and importers as a template for
       other series
+
+### 17. Events
+
+An Events tab beside Timeline: battles, wars, Desolations, eras and
+gatherings, one entry per Coppermind event page, each dated by the book
+that reveals it. Pipeline: `~/cig-event-data/event_build.py` (crawl,
+fetch, hand kinds and dates in `kinds.json` and `overrides.json`); pages
+are written with the entry pipeline (`~/cig-entry-data`, kind `event`).
+
+- [x] An Events tab and list (58 events), filterable and grouped like
+      Culture, and searchable
+- [x] A page for Aharietiam (the Last Desolation), with its other names
+- [ ] Pages for the other events
+- [ ] Link events from the Timeline once it lists them
+
+### 18. Lifeforms
+
+A Lifeforms tab beside Culture: spren, species, creatures and plants, moved
+out of Culture. Built by `~/cig-cult-data/cult_build.py` (kinds in
+`kinds.json`); spren types the Coppermind covers only as sections of its
+Spren article get pages from `spren_sections.py`. Pages are written with the
+entry pipeline (`~/cig-entry-data`, kind `lifeform`).
+
+- [x] A Lifeforms tab and list, grouped like Culture and searchable; old
+      `/culture/<id>` links to moved entries redirect
+- [x] Spren split into true spren (sapient, able to bond) and lesser spren
+- [x] A page for each spren type with enough to say, and the general Spren
+      page
+- [x] Spren art from the Coppermind, credited and dated by what it shows
+      (`src/data/entryArt.ts`)
+- [ ] Pages for species, creatures and plants
 
 ## Ideas
 

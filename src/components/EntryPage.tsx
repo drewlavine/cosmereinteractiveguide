@@ -4,6 +4,7 @@ import { BookList } from './BookList'
 import { MemberList } from './MemberList'
 import { PeopleGrid, type GridPerson } from './PeopleGrid'
 import { PageContents, PageSection, PageSubsection } from './PageSections'
+import { SeeAll } from './SeeAll'
 import { slugs } from './pageSlugs'
 import { SourceMark } from './SourceMark'
 import { SpoilerNotice } from './SpoilerNotice'
@@ -23,7 +24,12 @@ import { entryArt } from '../data/entryArt'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { findPerson } from '../data/people'
 import { groupMembers } from '../data/groupMembers'
-import { revealEntry, revealPortrait, type ShownEntry } from '../data/reveal'
+import {
+  revealEntry,
+  revealPortrait,
+  type CanSee,
+  type ShownEntry,
+} from '../data/reveal'
 import type { Reveal } from '../data/types'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
@@ -162,6 +168,9 @@ export function EntryPage({
     .map((p) => ({ ...p, name: findPerson(p.characterId)?.name }))
     .filter((p): p is typeof p & { name: string } => !!p.name)
     .sort((a, b) => a.name.localeCompare(b.name))
+  // Who counts as notable in a long list: everyone's books if showing anyway.
+  const rank: CanSee = showAll ? () => true : canSee
+  const noun = kind === 'ability' ? 'users' : 'characters'
   // Written-up members in the page's order, then the rest by name.
   const members = shown.members
     .map((m) => ({ ...m, name: findPerson(m.characterId)?.name }))
@@ -358,29 +367,37 @@ export function EntryPage({
           )}
           {members.length > 0 && (
             <PageSection id="people" title={shown.peopleTitle ?? 'Members'}>
-              <MemberList
-                members={members}
-                canSee={canSee}
-                viewAnyway={showAll}
-                link={link}
-              />
+              <SeeAll list={members} canSee={rank} noun="members">
+                {(list) => (
+                  <MemberList
+                    members={[...list]}
+                    canSee={canSee}
+                    viewAnyway={showAll}
+                    link={link}
+                  />
+                )}
+              </SeeAll>
             </PageSection>
           )}
           {members.length === 0 && people.length > 0 && (
             <PageSection
               id="people"
               title={
-                shown.peopleTitle ?? (kind === 'ability' ? 'Users' : 'People')
+                shown.peopleTitle ??
+                (kind === 'ability' ? 'Users' : 'Characters')
               }
             >
               {shown.levels.length > 0 ? (
                 <>
                   {shown.levels.map((level, i) => (
                     <PageSubsection key={level} id={levelIds[i]} title={level}>
-                      <PeopleList
-                        people={people.filter((p) => p.level === level)}
-                        level={level}
-                      />
+                      <SeeAll
+                        list={people.filter((p) => p.level === level)}
+                        canSee={rank}
+                        noun={noun}
+                      >
+                        {(list) => <PeopleList people={list} level={level} />}
+                      </SeeAll>
                     </PageSubsection>
                   ))}
                   {people.some((p) => !p.level) && (
@@ -388,12 +405,20 @@ export function EntryPage({
                       id="people-other"
                       title={shown.peopleTitle ? 'Others' : 'Other users'}
                     >
-                      <PeopleList people={people.filter((p) => !p.level)} />
+                      <SeeAll
+                        list={people.filter((p) => !p.level)}
+                        canSee={rank}
+                        noun={noun}
+                      >
+                        {(list) => <PeopleList people={list} />}
+                      </SeeAll>
                     </PageSubsection>
                   )}
                 </>
               ) : (
-                <PeopleList people={people} />
+                <SeeAll list={people} canSee={rank} noun={noun}>
+                  {(list) => <PeopleList people={list} />}
+                </SeeAll>
               )}
             </PageSection>
           )}
@@ -481,7 +506,7 @@ function PeopleList({
   people,
   level,
 }: {
-  people: GridPerson[]
+  people: readonly GridPerson[]
   level?: string
 }) {
   return (

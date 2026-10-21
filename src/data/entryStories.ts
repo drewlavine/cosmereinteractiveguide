@@ -4,12 +4,13 @@ import { entryAliases } from './entryAliases'
 import { entryReveals } from './entryReveals'
 
 /**
- * Pages for Culture and Abilities entries, adapted from the Coppermind.
- * Generated into cultureStories/ and abilityStories/ by
+ * Pages for Culture, Lifeforms, Abilities and Events entries, adapted from
+ * the Coppermind. Generated into cultureStories/, lifeformStories/,
+ * abilityStories/ and eventStories/ by
  * ~/cig-entry-data/entry_emit.py; each file is its own chunk, loaded when its
  * page opens.
  */
-export type EntryKind = 'culture' | 'ability'
+export type EntryKind = 'culture' | 'ability' | 'event' | 'lifeform'
 
 const files: Record<EntryKind, Record<string, () => Promise<EntryStory>>> = {
   culture: import.meta.glob<EntryStory>('./cultureStories/*.json', {
@@ -18,10 +19,18 @@ const files: Record<EntryKind, Record<string, () => Promise<EntryStory>>> = {
   ability: import.meta.glob<EntryStory>('./abilityStories/*.json', {
     import: 'default',
   }),
+  event: import.meta.glob<EntryStory>('./eventStories/*.json', {
+    import: 'default',
+  }),
+  lifeform: import.meta.glob<EntryStory>('./lifeformStories/*.json', {
+    import: 'default',
+  }),
 }
 const dirs: Record<EntryKind, string> = {
   culture: './cultureStories',
   ability: './abilityStories',
+  event: './eventStories',
+  lifeform: './lifeformStories',
 }
 const path = (kind: EntryKind, id: string) => `${dirs[kind]}/${id}.json`
 const loaded = new Map<string, EntryStory>()

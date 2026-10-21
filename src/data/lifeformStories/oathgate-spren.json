@@ -1,0 +1,44 @@
+{
+  "intro": [
+    {
+      "text": "The spren that make the Oathgates work. They carry anything on a gate's platform and in its control room to a matching gate in Urithiru or one other city.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "1" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "They can be Enlightened, which does not stop them sending travellers to unEnlightened ones.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-14" }]
+    },
+    {
+      "text": "They look like enormous armoured statues holding spears, many times a person's height. They come in pairs, one shimmering white and one shimmering black, and act and speak together.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "text": "They once let people without the Surge of Transportation travel to and from Shadesmar, but the Sibling forbade it before withdrawing. They regret this but cannot disobey.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "text": "An Oathgate can be rebuilt as long as its spren are unharmed. They seem bound to the eleven gemstones used to work it.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "117" }]
+    },
+    {
+      "text": "Some gatekeepers have since agreed to the Stormfather's request to allow travel to Shadesmar again.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "sibling",
+      "role": "forbade them",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+    },
+    {
+      "characterId": "stormfather",
+      "role": "asked them",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+    }
+  ]
+}

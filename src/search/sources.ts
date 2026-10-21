@@ -1,6 +1,8 @@
 import { abilityKindNames, abilityList } from '../data/abilities'
 import { bookMeta, books, seriesOf } from '../data/books'
 import { cultureKindNames, cultureList } from '../data/culture'
+import { eventKindNames, eventList } from '../data/events'
+import { lifeformKindNames, lifeformList } from '../data/lifeforms'
 import { entryRevealedIn, shownAliases } from '../data/entryStories'
 import { people as characters } from '../data/people'
 import { findLocation, kindLabels, locations } from '../data/locations'
@@ -182,6 +184,57 @@ const culture: SearchSource = {
     })),
 }
 
+const lifeforms: SearchSource = {
+  id: 'lifeforms',
+  label: 'Lifeforms',
+  icon: 'lifeform',
+  entries: (canSee) =>
+    lifeformList.flatMap((e) => [
+      {
+        key: `lifeform:${e.id}`,
+        title: e.name,
+        subtitle: [lifeformKindNames[e.kind], worldName(canSee, e.world)]
+          .filter(Boolean)
+          .join(' · '),
+        href: `/lifeforms/${e.id}`,
+        revealedIn: entryRevealedIn('lifeform', e),
+      },
+      ...shownAliases('lifeform', e, canSee).map((alias) => ({
+        key: `lifeform:${e.id}:${alias.name}`,
+        title: alias.name,
+        subtitle: `${alias.role} · ${e.name}`,
+        href: `/lifeforms/${e.id}`,
+        revealedIn: alias.revealedIn,
+      })),
+    ]),
+}
+
+const events: SearchSource = {
+  id: 'events',
+  label: 'Events',
+  icon: 'event',
+  entries: (canSee) =>
+    eventList.flatMap((e) => [
+      {
+        key: `event:${e.id}`,
+        title: e.name,
+        subtitle: [eventKindNames[e.kind], worldName(canSee, e.world)]
+          .filter(Boolean)
+          .join(' · '),
+        href: `/events/${e.id}`,
+        revealedIn: entryRevealedIn('event', e),
+      },
+      // Last Desolation for Aharietiam...
+      ...shownAliases('event', e, canSee).map((alias) => ({
+        key: `event:${e.id}:${alias.name}`,
+        title: alias.name,
+        subtitle: `${alias.role} · ${e.name}`,
+        href: `/events/${e.id}`,
+        revealedIn: alias.revealedIn,
+      })),
+    ]),
+}
+
 // Book titles aren't spoilers, so every book is listed.
 const bookPages: SearchSource = {
   id: 'books',
@@ -214,5 +267,7 @@ export const searchSources: SearchSource[] = [
   people,
   abilities,
   culture,
+  lifeforms,
+  events,
   bookPages,
 ]

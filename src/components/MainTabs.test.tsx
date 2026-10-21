@@ -31,6 +31,8 @@ describe('main tabs', () => {
       'Locations',
       'Magic',
       'Culture',
+      'Lifeforms',
+      'Events',
       'Timeline',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
@@ -40,6 +42,8 @@ describe('main tabs', () => {
       '/locations',
       '/magic',
       '/culture',
+      '/lifeforms',
+      '/events',
       '/timeline',
     ])
     expect(new Set(mainTabs.map((t) => t.id)).size).toBe(mainTabs.length)
@@ -56,6 +60,10 @@ describe('main tabs', () => {
     ['/locations/kredik-shaw', 'Locations'],
     ['/systems/scadrian/planets/scadrial/locations/luthadel', 'Locations'],
     ['/magic', 'Magic'],
+    ['/lifeforms', 'Lifeforms'],
+    ['/lifeforms/honorspren', 'Lifeforms'],
+    ['/events', 'Events'],
+    ['/events/last-desolation', 'Events'],
   ])('marks the right tab active on %s', (path, tab) => {
     renderAt(path)
     expect(activeTab()).toEqual([tab])

@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Rare spren seen only in Iri, by people who are drunk. They look like small brown bubbles clinging to nearby objects.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Axies the Collector named them, after considering \"intoxicationspren\". He saw them only once and doubts they are real. Locals call them sudspren.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "axies",
+      "role": "named them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-5" }]
+    }
+  ]
+}

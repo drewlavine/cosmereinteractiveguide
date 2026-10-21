@@ -1,0 +1,28 @@
+{
+  "intro": [
+    {
+      "text": "Spren that appear around objects bound with a Full Lashing, as small splashes of dark blue ink.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kaladin thinks they hold the objects together. Syl disagrees and says they may just be drawn to the Lashing.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "saw them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    },
+    {
+      "characterId": "sylphrena",
+      "role": "explained them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "57" }]
+    }
+  ]
+}

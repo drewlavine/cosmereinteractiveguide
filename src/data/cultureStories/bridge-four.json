@@ -203,5 +203,240 @@
       "role": "member",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
     }
+  ],
+  "members": [
+    {
+      "characterId": "kaladin",
+      "items": [
+        {
+          "text": "Becomes bridgeleader.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "11" }]
+        },
+        {
+          "text": "Leads the crew back to save Dalinar's army at the Tower.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Captain of Dalinar's guard, made up of the freed bridgemen.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "73" }]
+        },
+        {
+          "text": "Swears the Third Ideal; the crew become his squires.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "teft",
+      "items": [
+        {
+          "text": "Works out that Kaladin can draw in Stormlight.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "59" }]
+        },
+        {
+          "text": "Runs the crew's training in the chasms.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "63" }]
+        },
+        {
+          "text": "Swears the Third Ideal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "characterId": "lunamor",
+      "items": [
+        {
+          "text": "A Horneater cook sent to the bridge crews.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }]
+        }
+      ]
+    },
+    {
+      "characterId": "moash",
+      "items": [
+        {
+          "text": "Subsquad commander.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }]
+        },
+        {
+          "text": "Lieutenant on Dalinar's guard, with Skar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        },
+        {
+          "text": "Leaves after a failed plot to kill Elhokar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Kills Elhokar and joins the Fused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ]
+    },
+    {
+      "characterId": "skar",
+      "items": [
+        {
+          "text": "Subsquad commander.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+        },
+        {
+          "text": "Lieutenant on Dalinar's guard, with Moash.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        },
+        {
+          "text": "Becomes a Windrunner squire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "46" }]
+        }
+      ]
+    },
+    {
+      "characterId": "sigzil",
+      "items": [
+        {
+          "text": "A Worldsinger.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }]
+        },
+        {
+          "text": "Lieutenant and clerk; the only one who can read glyphs.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "characterId": "lopen",
+      "items": [
+        {
+          "text": "Carries water on bridge runs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Throws spears to Kaladin at the Tower.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "69" }]
+        },
+        {
+          "text": "Regrows his missing arm with Stormlight.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "characterId": "rlain",
+      "items": [
+        {
+          "text": "A parshman the crew calls Shen.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "49" }]
+        },
+        {
+          "text": "Revealed as Rlain, a listener spying on the warcamps.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "79" }]
+        },
+        {
+          "text": "Bonds the mistspren Tumi.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "114" }]
+        }
+      ]
+    },
+    {
+      "characterId": "renarin-kholin",
+      "items": [
+        {
+          "text": "Asks to join Bridge Four.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "44" }]
+        },
+        {
+          "text": "Learns to carry the bridge.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "Says he is a Truthwatcher.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "89" }]
+        }
+      ]
+    },
+    {
+      "characterId": "drehy",
+      "items": [
+        {
+          "text": "Among the first to defend Kaladin.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "62" }]
+        },
+        {
+          "text": "Helps fight Re-Shephir.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        },
+        {
+          "text": "Flies as a Windrunner squire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "characterId": "hobber",
+      "items": [
+        {
+          "text": "Kaladin saves him after an arrow wound.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "17" }]
+        },
+        {
+          "text": "First to get the Bridge Four tattoo.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "2" }]
+        },
+        {
+          "text": "Szeth cuts his legs, leaving him unable to walk.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "33" }]
+        },
+        {
+          "text": "Draws in Stormlight.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "37" }]
+        }
+      ]
+    },
+    {
+      "characterId": "leyten",
+      "items": [
+        {
+          "text": "Makes carapace armour for the crew.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "64" }]
+        },
+        {
+          "text": "Quartermaster of the Windrunners.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+        }
+      ]
+    },
+    {
+      "characterId": "dabbid",
+      "items": [
+        {
+          "text": "Stops speaking after being trampled on a bridge run.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        },
+        {
+          "text": "Carries water on bridge runs.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "characterId": "lyn",
+      "items": [
+        {
+          "text": "A scout who joins as a squire.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "55" }]
+        },
+        {
+          "text": "Fights at Thaylen City.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    }
   ]
 }

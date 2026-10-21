@@ -1,0 +1,445 @@
+{
+  "intro": [
+    {
+      "text": "Ten servants of the Almighty who fought the Desolations, then abandoned their oath at Aharietiam.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+    },
+    {
+      "text": "The ten Heralds of the Almighty, worshipped across Roshar. Each is tied to one of the Ten Essences and one order of the Knights Radiant.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "epilogue" },
+            { "book": "words-of-radiance", "chapter": "i-9" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [],
+  "history": [],
+  "sections": [
+    {
+      "title": "Abilities",
+      "items": [
+        {
+          "text": "Their Surgebinding doesn't depend on their Honorblades.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "87" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Each Herald holds an Honorblade, which grants two Surges.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "16" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "A raysium dagger can trap a Herald's soul in a gemstone.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "92" }
+              ]
+            }
+          ]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "History",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "The Desolations",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "38" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "47" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "After each Desolation the Heralds return to Braize, where they are tortured until one breaks and the Desolation begins again.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+            },
+            {
+              "text": "Spren copy the Heralds' powers, making the first Surgebinders. Ishar organises them into the Knights Radiant, and each Herald becomes patron of an order.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "47" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The Last Desolation",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "At Aharietiam, every Herald but Taln abandons the Oathpact and leaves their Honorblade.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+            },
+            {
+              "text": "They tell people the Desolations are over.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Era of Solitude",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "119" },
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prologue" },
+                    { "book": "oathbringer", "chapter": "121" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Taln is tortured alone on Braize for four and a half thousand years. The other nine hide among the people of Roshar.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+            },
+            {
+              "text": "They go mad: Nale grows compassionless, Kalak paranoid, Jezrien drinks, and Shalash destroys her own art.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "prologue" },
+                    { "book": "oathbringer", "chapter": "121" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "The True Desolation",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "epilogue" },
+                    { "book": "words-of-radiance", "chapter": "76" }
+                  ]
+                },
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "121" },
+                    { "book": "rhythm-of-war", "chapter": "93" }
+                  ]
+                },
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "82" },
+                { "book": "rhythm-of-war", "chapter": "111" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Taln returns to Kholinar and warns that the Desolation has come.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "epilogue" },
+                    { "book": "words-of-radiance", "chapter": "76" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Moash kills Jezrien with a raysium knife, trapping his soul.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "oathbringer", "chapter": "121" },
+                    { "book": "rhythm-of-war", "chapter": "93" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Shalash finds Taln at Thaylen Field.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+            },
+            {
+              "text": "Ishar, ruling Tukar, refuses to join Dalinar's coalition.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+            },
+            {
+              "text": "Shallan finds that Restares, leader of the Sons of Honor, is Kalak.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+            },
+            {
+              "text": "Ishar fights Dalinar's Windrunners and flees.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "peopleTitle": "Heralds",
+  "facts": [],
+  "people": [],
+  "members": [
+    {
+      "characterId": "jezrien",
+      "items": [
+        {
+          "text": "Herald of Kings; patron of the Windrunners.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "i-9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Drinks heavily after Aharietiam.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "oathbringer", "chapter": "121" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Killed by Moash; his soul is trapped in a gem.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "121" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "nale",
+      "items": [
+        {
+          "text": "Hunts budding Surgebinders; Lift calls him Darkness.",
+          "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
+        },
+        {
+          "text": "Herald of Justice; patron of the Skybreakers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "88" },
+                { "book": "oathbringer", "chapter": "106" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Takes the Skybreakers over to the singers' side.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prelude" },
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "106" },
+                { "book": "rhythm-of-war", "chapter": "76" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "chanarach",
+      "items": [
+        {
+          "text": "Patron of the Dustbringers; famed for her speed.",
+          "revealedIn": [
+            {
+              "all": [
+                "way-of-kings",
+                { "book": "words-of-radiance", "chapter": "77" },
+                { "book": "oathbringer", "chapter": "38" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "vedel",
+      "items": [
+        {
+          "text": "Patron of the Edgedancers; trains surgeons before each Desolation.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }]
+        }
+      ]
+    },
+    {
+      "characterId": "pailiah",
+      "items": [
+        {
+          "text": "Patron of the Truthwatchers.",
+          "revealedIn": ["oathbringer"]
+        }
+      ]
+    },
+    {
+      "characterId": "shalash",
+      "items": [
+        {
+          "text": "Herald of Beauty; patron of the Lightweavers.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "30" },
+                { "book": "oathbringer", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Destroys depictions of herself.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-7" },
+                { "book": "words-of-radiance", "chapter": "30" },
+                { "book": "oathbringer", "chapter": "117" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Finds Taln at Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "characterId": "battar",
+      "items": [
+        {
+          "text": "Associated with the attributes Wise and Careful.",
+          "revealedIn": ["way-of-kings"]
+        }
+      ]
+    },
+    {
+      "characterId": "kalak",
+      "items": [
+        {
+          "text": "Arrives late at Aharietiam and agrees to leave Taln behind.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }]
+        },
+        {
+          "text": "High Judge of the honorspren at Lasting Integrity.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
+        },
+        {
+          "text": "Leads the Sons of Honor as Restares.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+        }
+      ]
+    },
+    {
+      "characterId": "talenel",
+      "items": [
+        {
+          "text": "Returns to Kholinar to warn of the Desolation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "76" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Herald of War; patron of the Stonewards.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-7" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "The only Herald who never broke; left alone on Braize.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "epilogue" },
+                { "book": "words-of-radiance", "chapter": "37" },
+                { "book": "oathbringer", "chapter": "59" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "ishar",
+      "items": [
+        {
+          "text": "Herald of Luck; patron of the Bondsmiths.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "64" }]
+        },
+        {
+          "text": "Rules Tukar and refuses to join Dalinar's coalition.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Fights Dalinar's Windrunners and flees.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "111" }]
+        }
+      ]
+    }
+  ]
+}

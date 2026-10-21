@@ -1,0 +1,45 @@
+{
+  "intro": [
+    {
+      "text": "Spren seen only by people near death. They look like black, many-legged, fist-sized creatures with glowing red eyes, and whisper like tearing paper.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Lirin says water repels them.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "text": "When Kaladin is close to death, Syl fights to protect him from them. To him she then looks like a solid figure of glowing light.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "text": "So few people survive seeing them that some think they are not real.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "\"Deathspren\" is sometimes used as a way of talking about dying.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "43" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "lirin",
+      "role": "described them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "10" }]
+    },
+    {
+      "characterId": "kaladin",
+      "role": "saw them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    },
+    {
+      "characterId": "sylphrena",
+      "role": "fought them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "38" }]
+    }
+  ]
+}

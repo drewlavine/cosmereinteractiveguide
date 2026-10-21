@@ -13,7 +13,7 @@ import {
   revealSystem,
 } from './reveal'
 import spookStory from './stories/spook.json'
-import unmadeStory from './cultureStories/unmade.json'
+import unmadeStory from './lifeformStories/unmade.json'
 import wayneStory from './stories/wayne.json'
 import yumiStory from './stories/yumi.json'
 import { systems } from './systems'

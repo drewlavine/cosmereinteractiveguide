@@ -1,0 +1,34 @@
+{
+  "intro": [
+    {
+      "text": "Common spren found in and around fire. They dance about, changing size, shape and brightness like the flames.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "The ardent Geranid found that measuring a flamespren seems to fix it to that measurement.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+    },
+    {
+      "text": "They look like tiny human figures made of light.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "oathbringer", "chapter": "36" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "geranid",
+      "role": "studied them",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-8" }]
+    }
+  ]
+}

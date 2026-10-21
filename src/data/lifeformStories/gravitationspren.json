@@ -1,0 +1,23 @@
+{
+  "intro": [
+    {
+      "text": "Spren of the force that makes things fall. Zen-daughter-Vath sometimes found them around heavy objects.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    }
+  ],
+  "description": [
+    {
+      "text": "Singers bond them to take workform.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "11" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "zen-daughter-vath",
+      "role": "found them",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "3" }]
+    }
+  ]
+}

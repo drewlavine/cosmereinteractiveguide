@@ -3,104 +3,350 @@
     {
       "text": "A secret organisation led by King Taravangian of Kharbranth, following a plan he wrote on a single day of extraordinary intelligence to save humanity from the coming Desolation.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
-    }
-  ],
-  "description": [
-    {
-      "text": "Its Silent Gatherers, led by Joshor, bleed hospital patients to death to record their dying words, the Death Rattles.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
     },
     {
-      "text": "Because his intelligence and compassion vary daily, Taravangian takes a written test each day, run by his Testers under Dukar; the results restrict what he may do. Adrotagia calculates another day of brilliance like his is unlikely more than once in two thousand years.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
-    },
-    {
-      "text": "The Diagram's senior members spend much of their time interpreting it. Written in codes, drawings, poetry and invented languages, it often has to be translated into plain speech first, and members sometimes disagree about what it requires.",
-      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
-    }
-  ],
-  "history": [
-    {
-      "title": [
+      "text": "A secret organisation led by King Taravangian of Kharbranth, following a plan he wrote on a single day of extraordinary intelligence. Taravangian has allied it with Odium.",
+      "revealedIn": [
         {
-          "text": "Origins",
-          "revealedIn": [
+          "all": [
             { "book": "words-of-radiance", "chapter": "i-14" },
-            { "book": "words-of-radiance", "chapter": "87" },
-            { "book": "words-of-radiance", "chapter": "80" }
-          ]
-        }
-      ],
-      "items": [
-        {
-          "text": "One day Taravangian woke so brilliant that he could deduce the likely course of events, and devised a plan to save humanity from the True Desolation. He scrawled it across his bedroom walls and furniture, and it was copied down as the Diagram.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
-        },
-        {
-          "text": "Following the Diagram, Taravangian had Szeth kill the King of Jah Keved and several highprinces, setting off a succession war. He arrived in Vedenar as a benevolent king with aid, and Highprince Valam unexpectedly named him heir, leaving Taravangian worried about the Diagram's accuracy.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
-        },
-        {
-          "text": "Graves, an Alethi Shardbearer of the Diagram, read it as meaning Dalinar must become king, and conspired with Moash to kill Elhokar. The plot failed when Kaladin saved the king.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
-        },
-        {
-          "text": "Szeth was sent again to kill Dalinar, because Taravangian felt Dalinar's efforts to unite the highprinces threatened the Diagram's goal: that Taravangian should rule Roshar.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
-        }
-      ]
-    },
-    {
-      "title": [
-        {
-          "text": "The coalition",
-          "revealedIn": [
-            { "book": "oathbringer", "chapter": "i-5" },
-            { "book": "oathbringer", "chapter": "107" },
-            { "book": "oathbringer", "chapter": "111" },
             { "book": "oathbringer", "chapter": "122" }
           ]
         }
-      ],
-      "items": [
-        {
-          "text": "Taravangian was the first ruler to join Dalinar's coalition in Urithiru. On a day of high intelligence he decided Dalinar should be replaced as its leader, and the Diagram set out to find secrets to undermine him.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
-        },
-        {
-          "text": "The Diagram predicted the Order of Dustbringers would be its likeliest ally, and Taravangian had lower members try to bond ashspren. Malata was the first to succeed.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
-        },
-        {
-          "text": "The Diagram released three of Dalinar's secrets at once, undermining him and the coalition.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
-        },
-        {
-          "text": "Taravangian had been a confidant of Gavilar and knew of his visions, and had gone to the Nightwatcher for the compassion and acumen to save Roshar. His curse was that the two vary each day, opposite to each other.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
-        },
-        {
-          "text": "As the Diagram foretold, Taravangian met Odium during the Everstorm, and offered him the Diagram's allegiance in return for sparing the people of Kharbranth.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
-        }
       ]
     },
     {
-      "title": [
+      "text": "A secret organisation that King Taravangian of Kharbranth led, following a plan he wrote on a single day of extraordinary intelligence. He allied it with Odium, then disbanded it.",
+      "revealedIn": [
         {
-          "text": "Disbanding",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
-        }
-      ],
-      "items": [
-        {
-          "text": "A year on, Taravangian distanced himself from his fellow members and disbanded the Diagram, recommending that middling members who \"knew too much\" be sent on long \"secret quests\" far away.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+          "all": [
+            { "book": "words-of-radiance", "chapter": "i-14" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "i-3" }
+          ]
         }
       ]
     }
   ],
-  "facts": [],
+  "description": [],
+  "history": [],
+  "sections": [
+    {
+      "title": "Origin",
+      "items": [
+        {
+          "text": "On one day of extraordinary intelligence, Taravangian worked out the likely course of events and a plan to save humanity from the Desolation. He wrote it over the walls and furniture of his bedroom; the copied writings are the Diagram.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Taravangian knew of Gavilar's visions of the coming storm and asked the Nightwatcher for the capacity to save Roshar. Since then his intelligence and compassion change daily, one high when the other is low.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "parts": []
+    },
+    {
+      "title": "Activities",
+      "items": [],
+      "parts": [
+        {
+          "title": [
+            {
+              "text": "Interpreting the Diagram",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "i-5" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Senior members spend much of their time interpreting it. Written in codes, drawings, poetry and invented languages, it often has to be put into plain speech first, and members disagree over what it calls for.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+            },
+            {
+              "text": "On a brilliant day, Taravangian cuts a copy of the Diagram to pieces to rework it.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+            },
+            {
+              "text": "Mrall, Adrotagia and Dukar debate whether the Diagram is still accurate.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Testing the King",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "122" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Taravangian takes a written test each day. Its result, judged by the King's Testers under Dukar, decides what he may do that day: comment on the Diagram, see people unsupervised, change policy or pass judgement.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+            },
+            {
+              "text": "Adrotagia's figures show another day of brilliance like his is unlikely more than once in two thousand years.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+            },
+            {
+              "text": "Taravangian has cheated on the test, pretending he couldn't solve a problem so he wouldn't be restricted for scoring too well.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Silent Gatherers",
+              "revealedIn": [
+                { "book": "way-of-kings", "chapter": "endnote" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "107" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Taravangian has dying hospital patients bled slowly so their last words, the Death Rattles, can be recorded. Those who do it are the Silent Gatherers, led by Joshor.",
+              "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+            },
+            {
+              "text": "The Death Rattles fall to two or fewer a day. Moelach settles in the Horneater Peaks, and Joshor heads there hoping to restore them.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "i-14" },
+                    { "book": "oathbringer", "chapter": "107" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Search for Dustbringers",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "The Diagram predicts the Dustbringers are the order most likely to ally with it, so lower members try to bond ashspren. Malata is the first to succeed.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Assassinations",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-6" },
+                    { "book": "words-of-radiance", "chapter": "78" }
+                  ]
+                },
+                { "book": "words-of-radiance", "chapter": "80" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "One of Taravangian's men holds Szeth's Oathstone and orders him to kill rulers across Roshar.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "way-of-kings", "chapter": "i-6" },
+                    { "book": "words-of-radiance", "chapter": "78" }
+                  ]
+                }
+              ]
+            },
+            {
+              "text": "Szeth's last target is Dalinar, whose uniting of the highprinces Taravangian sees as a threat to the Diagram's aim that Taravangian rule Roshar.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Takeover of Jah Keved",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "Szeth kills the Veden king and several highprinces, and the rest die in the civil war that follows. As the Diagram instructs, Taravangian arrives in Vedenar as a foreign king bringing aid, with a forged claim to the throne.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+            },
+            {
+              "text": "Highprince Valam names Taravangian his heir outright. That, seven factions where the Diagram predicted six, and Szeth's news of his fight with Kaladin make Taravangian doubt the Diagram.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Graves's conspiracy",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "words-of-radiance", "chapter": "84" },
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "43" }
+                  ]
+                }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Graves, an Alethi Shardbearer, reads the Diagram as saying they must ally with Dalinar by making him king, so Elhokar must die. He, Moash, Rill and others try to make Elhokar fall from a balcony; Elhokar holds on and is saved.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+            },
+            {
+              "text": "Graves tries to recruit Kaladin, who refuses. When the plotters attack Elhokar directly, Kaladin saves him.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+            },
+            {
+              "text": "Graves says the Diagram spoke of the Radiants returning, but they didn't understand it in time.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+            },
+            {
+              "text": "Fleeing across the Frostlands with Moash, Graves is killed by Fused; Moash survives.",
+              "revealedIn": [
+                {
+                  "all": [
+                    { "book": "words-of-radiance", "chapter": "87" },
+                    { "book": "oathbringer", "chapter": "43" }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Second attempt on Dalinar",
+              "revealedIn": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "words-of-radiance", "chapter": "85" },
+                { "book": "words-of-radiance", "chapter": "86" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "On the Diagram's orders, Graves keeps Kaladin away from Dalinar so Szeth won't learn the Radiants have returned.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+            },
+            {
+              "text": "Szeth attacks Dalinar at Narak; Roion and others die defending him, and Szeth Lashes Dalinar into the sky.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }]
+            },
+            {
+              "text": "Kaladin catches Dalinar and defeats Szeth.",
+              "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Undermining Dalinar",
+              "revealedIn": [
+                { "book": "oathbringer", "chapter": "i-5" },
+                { "book": "oathbringer", "chapter": "111" }
+              ]
+            }
+          ],
+          "items": [
+            {
+              "text": "Taravangian, first ruler to join Dalinar's coalition, decides on a brilliant day that Dalinar should be replaced as its leader.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "i-5" }]
+            },
+            {
+              "text": "They release secrets together to turn people against Dalinar, among them that Elhokar swore to him as highking and that he hid visions in which he spoke with Odium.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "111" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Thaylen Field",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "During the battle, Malata opens the Veden Oathgate for singers to attack Urithiru, and a Diagram agent steals Jezrien's Honorblade.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Alliance with Odium",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "On a day of low intelligence, Odium confronts Taravangian, as the Diagram predicted. Taravangian allies the Diagram with Odium in exchange for the safety of everyone born in Kharbranth and their spouses, and gives Odium's forces the Honorblade.",
+              "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+            }
+          ]
+        },
+        {
+          "title": [
+            {
+              "text": "Disbanding",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+            }
+          ],
+          "items": [
+            {
+              "text": "A year after Thaylen Field, Taravangian disbands the Diagram before his armies betray the coalition in Emul. Members who know too much are to be sent on long secret quests rather than released.",
+              "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "peopleTitle": "Notable members",
+  "facts": [
+    {
+      "label": "Leader",
+      "name": "Taravangian",
+      "characterId": "taravangian",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    },
+    {
+      "label": "Based in",
+      "name": "Kharbranth",
+      "placeId": "kharbranth",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+    }
+  ],
   "people": [
     {
       "characterId": "taravangian",
@@ -136,6 +382,175 @@
       "characterId": "malata",
       "role": "member",
       "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+    },
+    {
+      "characterId": "moash",
+      "role": "member",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+    }
+  ],
+  "members": [
+    {
+      "characterId": "taravangian",
+      "items": [
+        {
+          "text": "King of Kharbranth; wrote the Diagram on a day of extraordinary intelligence.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Takes over Jah Keved after the civil war he caused; Highprince Valam names him heir.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        },
+        {
+          "text": "Allies the Diagram with Odium to save the people of Kharbranth.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "Disbands the Diagram before betraying the coalition in Emul.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-3" }]
+        },
+        {
+          "text": "Wonders why the Diagram cannot see Renarin Kholin.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "i-6" }]
+        }
+      ]
+    },
+    {
+      "characterId": "dukar",
+      "items": [
+        {
+          "text": "Heads the King's Testers, whose daily test decides what Taravangian may do.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-14" }]
+        }
+      ]
+    },
+    {
+      "characterId": "adrotagia",
+      "items": [
+        {
+          "text": "A Kharbranthian scholar and Taravangian's childhood friend; her figures show another day of brilliance is unlikely within two thousand years.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Reports to Taravangian on the falling number of Death Rattles.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "mrall",
+      "items": [
+        {
+          "text": "Taravangian's bodyguard; watches his daily testing.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "i-6" },
+                { "book": "words-of-radiance", "chapter": "i-14" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "malata",
+      "items": [
+        {
+          "text": "The first Diagram member to bond an ashspren.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "107" }]
+        },
+        {
+          "text": "Opens the Veden Oathgate for singers to attack Urithiru during the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        }
+      ]
+    },
+    {
+      "characterId": "moash",
+      "items": [
+        {
+          "text": "Joins Graves's plot to kill Elhokar.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Graves promises to bring him into the Diagram.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Survives the Fused attack that kills Graves.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "joshor",
+      "items": [
+        {
+          "text": "Leads the Silent Gatherers, who collect Death Rattles.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "endnote" }]
+        },
+        {
+          "text": "Heads to the Horneater Peaks after Moelach, hoping to restore the Death Rattles.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "i-14" },
+                { "book": "oathbringer", "chapter": "107" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "graves",
+      "items": [
+        {
+          "text": "Tries to recruit Kaladin, who refuses.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "84" }]
+        },
+        {
+          "text": "An Alethi Shardbearer who reads the Diagram as saying Dalinar must be king, so Elhokar must die.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Keeps Kaladin away from Dalinar on the Diagram's orders.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }]
+        },
+        {
+          "text": "Killed by Fused while fleeing across the Frostlands.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "87" },
+                { "book": "oathbringer", "chapter": "43" }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ]
 }

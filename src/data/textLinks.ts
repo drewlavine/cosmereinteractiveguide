@@ -3,6 +3,8 @@ import { books } from './books'
 import { characterDetails } from './characterDetails'
 import { cultureList } from './culture'
 import { entryAliases } from './entryAliases'
+import { eventList } from './events'
+import { lifeformList } from './lifeforms'
 import { entryRevealedIn, shownAliases, type EntryKind } from './entryStories'
 import { listedLocations, placeHref, placeRevealedIn } from './listedLocations'
 import { people } from './people'
@@ -267,7 +269,11 @@ function targets(canSee: CanSee): Target[] {
         })
   const entries = (
     kind: EntryKind,
-    list: typeof abilityList | typeof cultureList,
+    list:
+      | typeof abilityList
+      | typeof cultureList
+      | typeof eventList
+      | typeof lifeformList,
     path: string,
   ) => {
     for (const e of list)
@@ -284,6 +290,8 @@ function targets(canSee: CanSee): Target[] {
   }
   entries('ability', abilityList, 'magic')
   entries('culture', cultureList, 'culture')
+  entries('lifeform', lifeformList, 'lifeforms')
+  entries('event', eventList, 'events')
   return out
 }
 
@@ -303,7 +311,7 @@ const owner = (() => {
     for (const n of t.aliases) add(alias, n, t.key)
   }
   // Aliases revealed in any book count too.
-  for (const kind of ['ability', 'culture'] as const)
+  for (const kind of ['ability', 'culture', 'event', 'lifeform'] as const)
     for (const [id, aliases] of Object.entries(entryAliases[kind]))
       for (const a of aliases) add(alias, a.name, `${kind}:${id}`)
   const only = (keys?: Set<string>) =>

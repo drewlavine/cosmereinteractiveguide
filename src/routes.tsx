@@ -10,6 +10,10 @@ import { CharacterList } from './routes/CharacterList'
 import { ComingSoon } from './routes/ComingSoon'
 import { CultureDetail } from './routes/CultureDetail'
 import { CultureList } from './routes/CultureList'
+import { EventDetail } from './routes/EventDetail'
+import { EventList } from './routes/EventList'
+import { LifeformDetail } from './routes/LifeformDetail'
+import { LifeformList } from './routes/LifeformList'
 import { ListedLocationDetail } from './routes/ListedLocationDetail'
 import { LocationDetail } from './routes/LocationDetail'
 import { LocationList } from './routes/LocationList'
@@ -52,6 +56,10 @@ export const routes: RouteObject[] = [
       { path: 'abilities', element: <ToMagic /> },
       { path: 'culture', element: <CultureList /> },
       { path: 'culture/:cultureId', element: <CultureDetail /> },
+      { path: 'lifeforms', element: <LifeformList /> },
+      { path: 'lifeforms/:lifeformId', element: <LifeformDetail /> },
+      { path: 'events', element: <EventList /> },
+      { path: 'events/:eventId', element: <EventDetail /> },
       { path: 'locations', element: <LocationList /> },
       { path: 'locations/:locationId', element: <ListedLocationDetail /> },
       { path: 'search', element: <SearchPage /> },

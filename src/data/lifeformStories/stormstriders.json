@@ -1,0 +1,48 @@
+{
+  "intro": [
+    {
+      "text": "Spren that the people of Hearthstone think may have destroyed a nearby hillside when Kaladin was young.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
+    },
+    {
+      "text": "Spren seen out in highstorms.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "words-of-radiance", "chapter": "74" },
+            { "book": "oathbringer", "chapter": "19" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Kaladin and Shallan see one from a chasm during a highstorm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+    },
+    {
+      "text": "Dalinar sees one while travelling between stormshelters in a highstorm.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ],
+  "history": [],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "kaladin",
+      "role": "saw one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+    },
+    {
+      "characterId": "shallan-davar",
+      "role": "saw one",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "saw one",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "19" }]
+    }
+  ]
+}

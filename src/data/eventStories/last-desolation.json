@@ -1,0 +1,122 @@
+{
+  "intro": [
+    {
+      "text": "Aharietiam is the Vorin name for the last Desolation, when mankind is said to have defeated the Voidbringers for good.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+    },
+    {
+      "text": "Aharietiam, the Last Desolation, ended the Desolations about 4,500 years ago. People were told mankind had won; in truth, nine of the ten Heralds abandoned the Oathpact.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    }
+  ],
+  "description": [
+    {
+      "text": "Vorin tradition says mankind, led by the Heralds, fought off the Voidbringers ninety-nine times before Aharietiam cast them back into the Tranquiline Halls, ending the Heraldic Epochs.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "38" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The end of the Desolations",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "It came less than a year after the Desolation before it.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "38" }]
+        },
+        {
+          "text": "Every Herald but Taln left their Honorblade and abandoned the Oathpact, and they agreed to tell people they had won. Taln was left alone to hold the Oathpact. The lie held until he returned to warn of the True Desolation.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "45" },
+                { "book": "oathbringer", "chapter": "42" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "In the visions",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dalinar brought Emperor Yanagawn into a vision of Aharietiam, where Jezrien proclaimed the final victory over the Voidbringers.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+        }
+      ]
+    }
+  ],
+  "facts": [],
+  "people": [
+    {
+      "characterId": "jezrien",
+      "role": "Herald",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "kalak",
+      "role": "Herald",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "talenel",
+      "role": "Herald",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "45" },
+            { "book": "oathbringer", "chapter": "42" }
+          ]
+        }
+      ]
+    },
+    {
+      "characterId": "dalinar-kholin",
+      "role": "saw vision",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+    },
+    {
+      "characterId": "yanagawn",
+      "role": "saw vision",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "42" }]
+    }
+  ]
+}

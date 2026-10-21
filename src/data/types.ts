@@ -202,9 +202,6 @@ export type ListedCultureKind =
   | 'title'
   | 'class'
   | 'people'
-  | 'species'
-  | 'creature'
-  | 'plant'
   | 'religion'
   | 'organization'
   | 'language'
@@ -223,6 +220,40 @@ export interface ListedCulture {
   name: string
   kind: ListedCultureKind
   /** Planet id of the world it belongs to. */
+  world?: string
+  /** The earliest book its Coppermind page cites, or later if set by hand. */
+  revealedIn: Reveal
+  /** Every book its page cites (from its reveal on), in publication order. */
+  books: string[]
+  coppermindPage: string
+}
+
+export type ListedLifeformKind =
+  'spren' | 'true-spren' | 'lesser-spren' | 'species' | 'creature' | 'plant'
+
+/** A spren, sapient species, creature or plant (see lifeformList.ts). */
+export interface ListedLifeform {
+  id: string
+  name: string
+  kind: ListedLifeformKind
+  /** Planet id of the world it lives on. */
+  world?: string
+  /** The earliest book its Coppermind page cites, or later if set by hand. */
+  revealedIn: Reveal
+  /** Every book its page cites (from its reveal on), in publication order. */
+  books: string[]
+  coppermindPage: string
+}
+
+export type ListedEventKind =
+  'cataclysm' | 'battle' | 'war' | 'era' | 'gathering' | 'other'
+
+/** A battle, war, Desolation, era or other event (see eventList.ts). */
+export interface ListedEvent {
+  id: string
+  name: string
+  kind: ListedEventKind
+  /** Planet id of the world it happens on. */
   world?: string
   /** The earliest book its Coppermind page cites, or later if set by hand. */
   revealedIn: Reveal
