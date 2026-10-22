@@ -1,10 +1,12 @@
 import { findPersona } from './data/reveal'
+import type { IconName } from './search/types'
 
 /**
- * Main navigation tabs shown in the header, in display order.
+ * Main navigation sections shown in the side nav, in display order.
  *
  * To add a tab (e.g. "Locations"):
- * 1. Add an entry below with a unique `id`, its `label`, the root `path` the
+ * 1. Add an entry below with a unique `id`, its `label`, a side-nav `icon`
+ *    (drawn in `SearchIcon.tsx`), the root `path` the
  *    tab links to, and `isActive`, which says whether the tab is highlighted
  *    for a given pathname (usually `underPath('/locations')`).
  * 2. Add the tab's routes as children of the layout route in `routes.tsx`.
@@ -15,6 +17,10 @@ import { findPersona } from './data/reveal'
 export interface MainTab {
   id: string
   label: string
+  /** Starts a new group in the side nav, under this heading. */
+  group?: string
+  /** Its icon in the side nav. */
+  icon: IconName
   /** The tab's root URL, where its link goes. */
   path: string
   /** Whether the tab is the current section for this pathname. */
@@ -37,6 +43,8 @@ export const mainTabs: MainTab[] = [
   {
     id: 'star-map',
     label: 'Star Map',
+    group: 'Explore the Cosmere',
+    icon: 'star-map',
     path: '/',
     // Systems and planets live under the star map; their places belong to
     // the Locations tab.
@@ -47,52 +55,62 @@ export const mainTabs: MainTab[] = [
   {
     id: 'books',
     label: 'Books',
+    icon: 'book',
     path: '/books',
     isActive: underPath('/books'),
   },
   {
+    id: 'timeline',
+    label: 'Timeline',
+    icon: 'timeline',
+    path: '/timeline',
+    isActive: underPath('/timeline'),
+  },
+  {
     id: 'characters',
     label: 'Characters',
+    group: 'People & powers',
+    icon: 'character',
     path: '/characters',
     isActive: underPath('/characters'),
   },
   {
-    id: 'locations',
-    label: 'Locations',
-    path: '/locations',
-    isActive: (pathname) =>
-      underPath('/locations')(pathname) || isStarMapPlace(pathname),
-  },
-  {
     id: 'abilities',
     label: 'Magic',
+    icon: 'ability',
     path: '/magic',
     isActive: underPath('/magic'),
   },
   {
     id: 'culture',
     label: 'Culture',
+    icon: 'culture',
     path: '/culture',
     isActive: underPath('/culture'),
   },
   {
+    id: 'locations',
+    label: 'Locations',
+    group: 'World',
+    icon: 'place',
+    path: '/locations',
+    isActive: (pathname) =>
+      underPath('/locations')(pathname) || isStarMapPlace(pathname),
+  },
+  {
     id: 'lifeforms',
     label: 'Lifeforms',
+    icon: 'lifeform',
     path: '/lifeforms',
     isActive: underPath('/lifeforms'),
   },
   {
     id: 'events',
     label: 'Events',
+    group: 'History',
+    icon: 'event',
     path: '/events',
     isActive: underPath('/events'),
-  },
-  {
-    id: 'timeline',
-    label: 'Timeline',
-    path: '/timeline',
-    isActive: underPath('/timeline'),
-    comingSoon: 'Key events across the Cosmere, in in-world order.',
   },
 ]
 

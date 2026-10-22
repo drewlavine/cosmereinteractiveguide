@@ -198,11 +198,16 @@ Category:Cosmere; check anything unclear by hand.
 
 ### 5. Main navigation tabs
 
-The header's tabs, in order. Each tab's work lives in its own section; tick a
-tab here once its section's first version ships.
+The main sections, in the side nav's order. Each tab's work lives in its own
+section; tick a tab here once its section's first version ships.
 
 - [x] Add tabs to the header banner for moving between the main sections of the
       guide. More tabs may be added later.
+- [x] Move them into a side nav: an icon rail on the left that slides out to
+      show labels on hover, grouped under headings (Explore the Cosmere,
+      People & powers, World, History), with a gold marker on the current
+      section. The header's menu button pins it open (remembered); on phones
+      it opens it as a drawer.
   - [ ] **My Cosmere**: the new starting tab, before Star Map (see 10)
   - [x] **Star Map**: the Cosmere star map, systems and planets (see 0–3)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
@@ -214,8 +219,8 @@ tab here once its section's first version ships.
         ability pages to come; see 13)
   - [ ] **Culture**: the peoples and societies of the Cosmere (list page
         live; entry pages to come; see 15)
-  - [ ] **Timeline**: the Cosmere's history in in-world order (placeholder
-        page at `/timeline`; see 14)
+  - [ ] **Timeline**: the Cosmere's history in in-world order (two static
+        mockups at `/timeline` to choose a design; see 14)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
         see 1)
   - [x] Give each tab its own URL and show which tab is active
@@ -365,7 +370,7 @@ tab here once its section's first version ships.
       ancestors) and key relationships, linking to other characters' pages
       (linked once the reader has met them)
     - [x] Names of visible characters, places, planets, Magic and Culture
-      entries in page prose link to their pages automatically
+          entries in page prose link to their pages automatically
     - **Appearance & Personality**
     - **Travels**: the world-hopper timeline (below); only for world
       hoppers
@@ -724,8 +729,16 @@ Personal arcs and battles belong on character and journey pages.
 ### 14. Timeline
 
 The Cosmere's history across every world, in in-world order, trimmed to
-what the reader may see. Tab live at `/timeline` with a placeholder page
-(replaced the hidden Events tab, October 2026).
+what the reader may see. Tab live at `/timeline` (replaced the hidden Events
+tab, October 2026). It shows two static mockups, toggled at the top
+(`?view=spine` for the second): **Cards** (era sections and an "at a glance"
+strip) and **Spine** (a gold horizontal spine with dated badges, pictures and
+a details modal). Their sample data in `src/data/timelineMock.ts` is not
+spoiler-gated; replace both with the chosen design and pipeline data.
+
+The fan spreadsheet has rows for Dragonsteel and Yolen. Check each row on its
+merits instead of dropping whole worlds: row 6 is the Shattering (year 0),
+which Secret History reveals.
 
 Sources, for ordering only (verify each entry against the Coppermind, date
 it by the book that reveals it, skip unpublished works, credit them):
@@ -744,6 +757,7 @@ Cosmere-level facts (the Shattering, Shards) surface piecemeal across books
 and Ars Arcanums, so their dating needs extra care.
 
 - [x] A Timeline tab in the header (placeholder page)
+- [x] Two static design mockups on the tab, with a toggle
 - [ ] Events in in-world order, each with a scope (Cosmere or a world), an
       in-world time, plain text and `revealedIn`
 - [ ] Books placed on the timeline where their stories happen
@@ -911,6 +925,7 @@ entry pipeline (`~/cig-entry-data`, kind `lifeform`).
 ## Ideas
 
 Not planned yet; come back to these if wanted.
+
 - [x] Lesser spren share one Lesser spren page (`/lifeforms/lesser-spren`):
       a card per kind with its art (or a "No art yet" placeholder) beside its
       name, text and characters; search and in-text links go to its card, and

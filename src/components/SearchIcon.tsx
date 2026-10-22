@@ -1,7 +1,7 @@
 import type { ReactNode } from 'react'
-import type { SearchIconName } from '../search/types'
+import type { IconName } from '../search/types'
 
-const paths: Record<SearchIconName | 'search', ReactNode> = {
+const paths: Record<IconName, ReactNode> = {
   search: (
     <>
       <circle cx="10.5" cy="10.5" r="6.5" />
@@ -41,6 +41,22 @@ const paths: Record<SearchIconName | 'search', ReactNode> = {
       <path d="M5.5 4.5h12l-2.5 4 2.5 4h-12" />
     </>
   ),
+  menu: <path d="M4 6.5h16M4 12h16M4 17.5h16" />,
+  'star-map': (
+    <>
+      <path d="m5 18 5-10.5 6 4.5 3.5-6.5" />
+      <circle cx="5" cy="18" r="1.6" />
+      <circle cx="10" cy="7.5" r="1.6" />
+      <circle cx="16" cy="12" r="1.6" />
+      <circle cx="19.5" cy="5.5" r="1.6" />
+    </>
+  ),
+  timeline: (
+    <>
+      <path d="M6.5 3.5h11M6.5 20.5h11" />
+      <path d="M8 3.5v2.8l4 5.7 4-5.7V3.5M8 20.5v-2.8l4-5.7 4 5.7v2.8" />
+    </>
+  ),
   event: <path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6Z" />,
   lifeform: (
     <>
@@ -56,7 +72,7 @@ const paths: Record<SearchIconName | 'search', ReactNode> = {
   ),
 }
 
-export function SearchIcon({ name }: { name: SearchIconName | 'search' }) {
+export function SearchIcon({ name }: { name: IconName }) {
   return (
     <svg
       className="search-icon"

@@ -32,6 +32,10 @@ export type SearchIconName =
   | 'event'
   | 'lifeform'
 
+/** Every icon SearchIcon can draw: search results' plus the side nav's and its menu button. */
+export type IconName =
+  SearchIconName | 'search' | 'menu' | 'star-map' | 'timeline'
+
 /** A kind of data search covers, shown as one group of results. */
 export interface SearchSource {
   id: string

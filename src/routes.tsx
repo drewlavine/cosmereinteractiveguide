@@ -23,6 +23,7 @@ import { RouteError } from './routes/RouteError'
 import { SearchPage } from './routes/SearchPage'
 import { StarMap } from './routes/StarMap'
 import { ToMagic } from './routes/ToMagic'
+import { Timeline } from './routes/Timeline'
 import { SystemView } from './routes/SystemView'
 
 export const routes: RouteObject[] = [
@@ -63,6 +64,7 @@ export const routes: RouteObject[] = [
       { path: 'locations', element: <LocationList /> },
       { path: 'locations/:locationId', element: <ListedLocationDetail /> },
       { path: 'search', element: <SearchPage /> },
+      { path: 'timeline', element: <Timeline /> },
       ...comingSoonTabs.map((tab) => ({
         path: tab.path.slice(1),
         element: <ComingSoon tab={tab} />,

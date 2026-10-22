@@ -152,8 +152,9 @@ describe('a place only named so far', () => {
         'A place first mentioned in Chapter 7 of The Sunlit Man.',
       ),
     ).toBeInTheDocument()
-    expect(screen.queryByText('Type')).toBeNull()
-    expect(screen.queryByText('World')).toBeNull()
+    const page = within(screen.getByRole('article'))
+    expect(page.queryByText('Type')).toBeNull()
+    expect(page.queryByText('World')).toBeNull()
     cleanup()
     renderAt('/locations/beacon', [], { 'sunlit-man': '13' })
     expect(await screen.findByText('Type')).toBeInTheDocument()
