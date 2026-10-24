@@ -457,6 +457,13 @@ section; tick a tab here once its section's first version ships.
         headings (styled like History's); items that mixed both were split.
         The tab is now called **Description** (`/description`)
   - [x] Key facts collapse behind a "Key facts" toggle on phones
+  - [x] Character page overhaul, piloted on Shallan: Journey (or Travels)
+        first, then Description, Abilities, History, Relationships and
+        Appearances; optional titled Description/Abilities/Relationships
+        sections from the story pipeline; captioned, dated art set into the
+        sections like the Coppermind's (`src/data/characterFigures.ts`)
+  - [ ] Roll the overhaul (more sections, in-section art) out to the other
+        characters
   - [ ] Story/History and Personality for the other characters
   - [ ] Check for personas and cameos when scaling to every character
         (e.g. Khriss)

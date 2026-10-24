@@ -12,8 +12,9 @@ import { afterEach, beforeAll, describe, expect, it } from 'vitest'
 import { books } from './data/books'
 import { characters } from './data/characters'
 import { characterDetails } from './data/characterDetails'
+import { characterFigures } from './data/characterFigures'
 import { characterPortraits } from './data/characterPortraits'
-import { loadStory, storyIds } from './data/characterStories'
+import { cachedStory, loadStory, storyIds } from './data/characterStories'
 import { loadPack } from './data/journeyPacks'
 import { personas } from './data/reveal'
 import { routes } from './routes'
@@ -119,7 +120,7 @@ describe('characters pages', () => {
       within(main)
         .getAllByRole('heading', { level: 2 })
         .map((h) => h.textContent),
-    ).toEqual(['Journey', 'History', 'Description', 'Appearances'])
+    ).toEqual(['Journey', 'Description', 'History', 'Appearances'])
     // Key facts sit beside the sections.
     const facts = screen.getByRole('complementary', { name: 'Key facts' })
     expect(within(facts).getByText(/Human/)).toBeInTheDocument()
@@ -148,12 +149,15 @@ describe('characters pages', () => {
     const links = within(contents)
       .getAllByRole('link')
       .map((l) => [l.textContent, l.getAttribute('href')])
-    expect(links.slice(0, 4)).toEqual([
+    expect(links.slice(0, 3)).toEqual([
       ['(Top)', '#top'],
       ['Journey', '#journey'],
-      ['History', '#history'],
-      ['Early life', '#history-early-life'],
+      ['Description', '#description'],
     ])
+    expect(
+      links.findIndex(([t]) => t === 'Early life') -
+        links.findIndex(([t]) => t === 'History'),
+    ).toBe(1)
     expect(links).toContainEqual(['Appearances', '#appearances'])
     expect(links).toContainEqual(['Personality', '#description-personality'])
 
@@ -586,6 +590,78 @@ describe('characters pages', () => {
   it('shows not found for unknown characters', () => {
     renderAt('/characters/nobody-at-all')
     expect(screen.getByText(/Lost in the Cognitive Realm/)).toBeInTheDocument()
+  })
+})
+
+describe('character page sections and figures', () => {
+  beforeAll(() => Promise.all([loadStory('shallan-davar'), loadPack('roshar')]))
+  const beforeWaT = [
+    'way-of-kings',
+    'words-of-radiance',
+    'oathbringer',
+    'rhythm-of-war',
+  ]
+
+  it('puts every figure in a section its story has', () => {
+    for (const [id, parts] of Object.entries(characterFigures)) {
+      const story = cachedStory(id)!
+      const keys = new Set([
+        'description/Appearance',
+        'description/Personality',
+        ...(
+          ['description', 'abilities', 'history', 'relationships'] as const
+        ).flatMap((part) =>
+          (story[part] ?? []).map((s) => `${part}/${s.title[0].text}`),
+        ),
+      ])
+      for (const key of Object.keys(parts)) expect(keys).toContain(key)
+    }
+  })
+
+  it('leads with the Journey, then Description and Abilities', () => {
+    renderAt('/characters/shallan-davar', beforeWaT, {
+      'wind-and-truth': '13',
+    })
+    const titles = screen
+      .getAllByRole('heading', { level: 2 })
+      .map((h) => h.textContent)
+    expect(titles.slice(0, 3)).toEqual(['Journey', 'Description', 'Abilities'])
+    expect(titles.indexOf('History')).toBeLessThan(
+      titles.indexOf('Relationships'),
+    )
+  })
+
+  it('sets art into a section only once the reader reaches it', () => {
+    renderAt('/characters/shallan-davar', [], { 'way-of-kings': '41' })
+    expect(
+      screen.getByRole('region', { name: 'Heart of a thief' }),
+    ).toBeTruthy()
+    expect(screen.queryByRole('img', { name: /Kabsal/ })).toBeNull()
+    cleanup()
+    renderAt('/characters/shallan-davar', [], { 'way-of-kings': '42' })
+    const section = screen.getByRole('region', { name: 'Heart of a thief' })
+    expect(within(section).getByRole('img', { name: /Kabsal/ })).toBeTruthy()
+    expect(section).toHaveTextContent("Shallan and Kabsal's picnic")
+  })
+
+  it("shows Shallan's Shardplate from her fourth Truth (WaT 13)", () => {
+    renderAt('/characters/shallan-davar', beforeWaT, {
+      'wind-and-truth': '12',
+    })
+    expect(screen.queryByRole('region', { name: 'Shardplate' })).toBeNull()
+    expect(screen.queryByRole('img', { name: /Shardplate/ })).toBeNull()
+    cleanup()
+    renderAt('/characters/shallan-davar', beforeWaT, {
+      'wind-and-truth': '13',
+    })
+    const plate = screen.getByRole('region', { name: 'Shardplate' })
+    expect(within(plate).getByRole('img', { name: /sketchbook/ })).toBeTruthy()
+    expect(
+      screen.getByRole('img', { name: /in full Shardplate/ }),
+    ).toHaveAttribute('src', '/portraits/shallan-davar-shardplate.webp')
+    expect(screen.getByRole('region', { name: 'Truths' })).toHaveTextContent(
+      /fourth Truth/,
+    )
   })
 })
 

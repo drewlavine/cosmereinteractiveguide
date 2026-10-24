@@ -5,11 +5,13 @@ export function ArtViewer({
   src,
   alt,
   credit,
+  caption,
   onClose,
 }: {
   src: string
   alt: string
   credit: ReactNode
+  caption?: ReactNode
   onClose: () => void
 }) {
   const dialog = useRef<HTMLDialogElement>(null)
@@ -42,7 +44,10 @@ export function ArtViewer({
     >
       <figure>
         <img src={src} alt={alt} />
-        <figcaption>Art by {credit}</figcaption>
+        <figcaption>
+          {caption && <span className="art-caption">{caption}</span>}
+          Art by {credit}
+        </figcaption>
       </figure>
       <button
         type="button"
@@ -62,12 +67,15 @@ export function PortraitArt({
   alt,
   artist,
   artistUrl,
+  caption,
   className = 'character-portrait',
 }: {
   src: string
   alt: string
   artist: string
   artistUrl?: string
+  /** What it shows, above the credit. */
+  caption?: ReactNode
   className?: string
 }) {
   const [viewing, setViewing] = useState(false)
@@ -91,12 +99,16 @@ export function PortraitArt({
           ⤢
         </span>
       </button>
-      <figcaption>Art by {credit}</figcaption>
+      <figcaption>
+        {caption && <span className="art-caption">{caption}</span>}
+        Art by {credit}
+      </figcaption>
       {viewing && (
         <ArtViewer
           src={src}
           alt={alt}
           credit={credit}
+          caption={caption}
           onClose={() => setViewing(false)}
         />
       )}

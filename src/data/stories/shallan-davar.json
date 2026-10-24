@@ -28,15 +28,134 @@
     {
       "title": [
         {
-          "text": "Early life in Jah Keved",
+          "text": "Early childhood",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "52" },
-            { "book": "words-of-radiance", "chapter": "88" },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "93" },
+            { "book": "words-of-radiance", "chapter": "88" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan was born in mid-1156, the youngest of five children of Lin Davar and his wife, after her brothers Helaran, Balat, Wikim and Jushu. The Davars were a mid-level noble house: Lin held the fourth dahn and Shallan the fifth. The family's estates lay in Highprince Valam's territory in Jah Keved, north of Valath.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
+        },
+        {
+          "text": "Shallan remembered happy times when her parents told her stories, but in truth her mother was insane and her father abusive, and the two fought bitterly. As a young child she bonded a Cryptic, Testament, and spoke the First Ideal; in the family gardens she brought her daydreams to life with Lightweaving. By 1167 her mother kept company with \"friends\" linked to the Skybreakers, among them a man named Dreder.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "60" },
+                { "book": "oathbringer", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "At eleven, on the night of King Gavilar's assassination, Shallan overheard her mother and Dreder speaking by seon with the Herald Nale, and learned that her mother was the Herald Chana. Both knew Shallan was a Surgebinder. Nale told the reluctant Chana to kill her daughter herself, or Dreder would do it. Testament urged Shallan to flee, but her father stopped them and took her to his chamber.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        },
+        {
+          "text": "Her mother and a man confronted Lin, insisting that something be done about Shallan. When the man drew a knife, Lin fought him and was pinned to the floor. Her mother took the knife and came at Shallan but hesitated, and Shallan summoned a Shardblade and killed her and the man. In shock, Shallan let the Blade fall; Lin locked it in his strongbox and held her, singing \"Sleep My Baby Dear\".",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Shallan came to believe that the strongbox held her mother's soul, and to her eyes it glowed. In the months that followed she buried her memories of that night. To protect her, Lin let people believe that he had murdered his wife and her lover.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Cutting the thorns",
+          "revealedIn": [
             { "book": "words-of-radiance", "chapter": "19" },
+            { "book": "words-of-radiance", "chapter": "39" },
             { "book": "words-of-radiance", "chapter": "48" },
-            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "55" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After her mother's death, Shallan did not speak for five months, and all the younger Davar children struggled. Before leaving home, often away on his own business, Helaran bought her fine drawing paper, charcoal pencils and a leather satchel, hoping drawing, which she had loved as a small child, would bring her back to life and lift the others' spirits.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "When Lin confronted Helaran over a carriage ordered without his leave, Helaran drew a Shardblade, held it to his father's chest and called him a murderer. Shallan's first words in months were to beg him to stop. Helaran put the Blade away, promised to explain himself one day, told her to keep drawing, and left. Lin smashed furniture in a rage that eased only when he looked at Shallan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
+        },
+        {
+          "text": "For a year and a half Helaran came home rarely; once he sent only a curt, threatening letter, with a book by Jasnah Kholin for Shallan. Lin grew violent with the servants, Balat abused animals and set fires, and Jushu took to drink and gambling. Shallan drew from a book by Dandos the Oilsworn and, helping with the accounts, found the house short of money even as her father threw lavish feasts.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }]
+        },
+        {
+          "text": "At a feast in late 1169, Lin announced his betrothal to Malise Gevelmar and gave daggers to his sons and a necklace to Shallan. Redin, Highprince Valam's bastard son, arrived to look into the rumors of murder. While they waited, Shallan's jokes had her brothers laughing together for the first time in ages. When Redin asked aloud for a witness against Lin, Wikim urged Shallan to speak, but she said she remembered nothing.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        },
+        {
+          "text": "At the Middlefest Fair of 1170, Shallan slipped away from her father to arrange a walk for Balat with Eylita Tavinar, the girl he had been eyeing. Meanwhile a messenger brought Lin news of Helaran, and Lin declared Helaran disinherited and Balat his heir. Shallan gave the sulking Wikim math problems on highstorm timing, rewritten as glyphs; he mocked the gift but was soon working them with a smile.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Helaran's messenger then sought Shallan out, said Helaran was well and watching their father, and asked pointed questions about her family. After a story of two blind men pondering beauty, he asked her to describe beauty. As she pictured her whole family happy in the gardens, she unknowingly wove the scene in light from spheres he held out. She stopped herself; he told her Helaran was in Alethkar and left.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "Toward the end of 1170, when Shallan was fourteen, Wikim gave her a pouch of blackbane leaves. Creditors then came for Jushu over his gambling debts, and Lin refused to pay. Defying her father, Shallan traded Balat's and Wikim's daggers for Jushu's freedom. Lin then showed her the bloodied body of a maid and told her that others would be punished in her place whenever she disobeyed.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The perfect daughter",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "61" },
             { "book": "words-of-radiance", "chapter": "65" },
-            { "book": "words-of-radiance", "chapter": "73" },
+            { "book": "words-of-radiance", "chapter": "73" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan grew quiet and submissive, avoiding her father and joking about his guests only among her brothers. The family's fortunes recovered, but Lin did not soften. In mid-1172 he quarreled with Balat over Eylita; when Balat called him a murderer, Lin had Balat's axehound pups killed. Balat told Shallan that Helaran had come back for what might be a last visit, and proposed that they flee.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "Shallan persuaded Balat to take Wikim and Jushu with him, though she said she could not go herself. Back in the manor, she overheard her father order Helaran's assassination. Malise protested that he had gone too far, and as Shallan fled to her room, Lin attacked his wife.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "61" }]
+        },
+        {
+          "text": "A couple of hours afterward, heartened by a book of Jasnah Kholin's, Shallan asked Balat to take Malise too, and news of the assassination order spurred him to act. She then entered her father's sitting room for the first time since her mother's death to clean and bind Malise's wounds. Malise asked bitterly why Lin hated everyone except his daughter, and Shallan told her of the escape plan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
+        },
+        {
+          "text": "The siblings acted in the last weeks of 1172, just before Shallan's seventeenth Weeping. With Helaran gone silent, Balat meant to seek refuge with Highprince Valam and Redin. Then Eylita arrived unannounced. In the feast hall, Lin revealed that he knew of Balat's plans and that Helaran had died on a battlefield in Alethkar. Passing the kitchens, Shallan found Malise's body.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        },
+        {
+          "text": "Seeing her father was beyond saving, Shallan poisoned a cup of wine with Wikim's blackbane. Lin beat Balat in a duel, drank the wine, then battered Balat's leg with a fire poker and turned on Eylita before collapsing. As Jushu pulled a Soulcaster from his father's pocket, Lin began to stir: the poison had only paralyzed him. Shallan wound her necklace around his neck and strangled him, whispering \"Sleep My Baby Dear\".",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The plan to steal a Soulcaster",
+          "revealedIn": [
             {
               "all": [
                 { "book": "way-of-kings", "chapter": "29" },
@@ -48,39 +167,7 @@
       ],
       "items": [
         {
-          "text": "Shallan was born in 1156, the youngest of five children of Lin Davar, whose mid-level noble house held estates in Highprince Valam's lands in Jah Keved. Her older brothers were Helaran, Balat, Wikim and Jushu.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
-        },
-        {
-          "text": "One night Shallan's mother and a man came at her with a knife, and she summoned a Shardblade and killed her mother. Her father hid the Blade, let people believe he was the killer, and Shallan buried the memory.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
-        },
-        {
-          "text": "After her mother's death, Shallan did not speak for months. Her eldest brother Helaran gave her drawing supplies, then held a Shardblade to their father's chest and called him a murderer. Shallan's first words were to beg Helaran to stop. He left, and their father smashed furniture in a rage.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "19" }]
-        },
-        {
-          "text": "In the years after Helaran left, Shallan's father grew more violent while the family's finances failed and he threw lavish feasts. When Highprince Valam's son Redin came seeking a witness against her father for murder, Shallan claimed she remembered nothing, and no one spoke up.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
-        },
-        {
-          "text": "At Middlefest when Shallan was fourteen, she arranged for Balat to meet Eylita and gave Wikim math puzzles. A messenger with news of Helaran questioned her about beauty, and as she described her family happy together she unknowingly wove the scene in light.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
-        },
-        {
-          "text": "At fourteen, Shallan bargained away her brothers' daggers to free Jushu from his creditors. In response, her father showed her a maid's bloodied body, warning that others would be punished for her disobedience.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
-        },
-        {
-          "text": "Shallan overheard her father order Helaran's assassination and beat his new wife Malise. Encouraged by one of Jasnah's books, she planned with Balat to flee with Malise and their brothers, and tended to her stepmother's wounds.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
-        },
-        {
-          "text": "Shallan found Malise dead and her father dueling Balat. She poisoned his wine with blackbane, and when he only fell paralyzed, she strangled him with her necklace while whispering a lullaby.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "73" }]
-        },
-        {
-          "text": "With their father dead and his secret Soulcaster damaged, the Davars faced ruin, so Shallan had devised the plan to become Jasnah's ward and swap Soulcasters, chasing Jasnah for months aboard Tozbek's ship.",
+          "text": "Lin's wealth had rested on aggressive deals and a secret Soulcaster that made marble for \"discovered\" quarries. Balat had damaged it in the fight, and their father's adviser Luesh said it still would not work. Facing ruin, Shallan devised a plan to become the ward of Jasnah Kholin, a heretic with a Soulcaster, and swap the devices. Jasnah answered her letter, and Shallan chased her for nearly six months aboard Captain Tozbek's Wind's Pleasure.",
           "revealedIn": [
             {
               "all": [
@@ -95,50 +182,132 @@
     {
       "title": [
         {
-          "text": "Kharbranth",
+          "text": "Petitioning Jasnah Kholin",
           "revealedIn": [
             { "book": "way-of-kings", "chapter": "5" },
-            { "book": "way-of-kings", "chapter": "i-2" },
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "way-of-kings", "chapter": "i-2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Reaching Kharbranth in Shash 1173, Shallan, now seventeen, was escorted to the Conclave by Yalb, one of Captain Tozbek's sailors. She caught up with Jasnah Kholin as the princess accompanied King Taravangian to a cave-in that had trapped his granddaughter. Jasnah found Shallan's education lacking in several subjects, Soulcast the fallen boulder into smoke, and turned down her request for wardship.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        },
+        {
+          "text": "Unable to afford the Palanaeum's entry fee, Shallan waited in Jasnah's alcove, sketching and drafting a letter. A young ardent, Kabsal, admired her drawings and said he hoped to bring Jasnah back to Vorinism. Jasnah dismissed Shallan angrily, then called her back, apologized and read the letter. Impressed that Shallan was self-taught, she invited her to apply again once she had improved her history and philosophy.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "8" }]
+        },
+        {
+          "text": "Ready to give up, Shallan was talked into one last try by Yalb, who helped her haggle for books by the authors Jasnah had named. She gave him her sketch of him and rented the alcove next to Jasnah's. Jasnah, who had paid servants to report her return, studied Shallan's sketchbook and accepted her as a ward. Shallan wrote her brothers that the first step of their plan to steal Jasnah's Soulcaster had succeeded.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A scholar's mantle",
+          "revealedIn": [
             { "book": "way-of-kings", "chapter": "33" },
-            { "book": "way-of-kings", "chapter": "36" },
+            { "book": "way-of-kings", "chapter": "29" },
+            { "book": "way-of-kings", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan took a small room in Jasnah's quarters at the Conclave and learned the Palanaeum's filing system. Dividing her time between her own education, Jasnah's research and her own interests, she found the work far more absorbing than the dull memorization she had expected. Jasnah encouraged her, and with her new freedom Shallan's confidence grew.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "Freed from her father's limits on what she could draw, Shallan sketched anyone who would sit, and her talent became the talk of the Conclave. Drawing King Taravangian, she added two strange symbol-headed figures standing behind him, called it a mistake and started over, to Jasnah's surprise. Jasnah also had her copy a supposed image of a Voidbringer for Dalinar.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
+        },
+        {
+          "text": "Kabsal kept visiting, supposedly to convert Jasnah but often when she was away, and he and Shallan shared bread and jams, including her favorite, simberry. He worried for her soul as the ward of a famous atheist, while Jasnah suspected he was using Shallan to get at her Soulcaster. Jasnah did not forbid the friendship, and Shallan enjoyed his attention.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "Jasnah proved demanding but nothing like the harsh apostate Shallan had expected. After two months, Balat wrote that creditors were pressing, that Luesh had been found dead and that his associates wanted the Soulcaster back. Shallan would have to learn to use it as well as steal it, but Jasnah rarely Soulcast in front of her and kept her own research secret, though she set Shallan to study King Gavilar's death.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
+        },
+        {
+          "text": "Serving as Jasnah's bath attendant, Shallan had a chance to swap the Soulcasters but froze. That evening Jasnah took her on a practical philosophy lesson down a dark street in Kharbranth where murders had gone unpunished. When four men with knives attacked, Jasnah Soulcast one into fire, one into quartz and the last two into smoke.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        },
+        {
+          "text": "Back at the Conclave, the horrified Shallan argued with Jasnah over the ethics of the killings, and Jasnah set her to research the question and build her own case. Then, as Shallan helped Jasnah undress, she saw another chance and, spurred by disgust at what Jasnah had done with the device, swapped the Soulcasters unnoticed.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Heart of a thief",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "39" },
             { "book": "way-of-kings", "chapter": "42" },
+            { "book": "way-of-kings", "chapter": "45" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "For days afterward Shallan was still shaken; the killings stirred memories of her father's recent death and of her own theft. Balat wrote again about debts and the men asking for the Soulcaster, but she could not leave until she could deflect suspicion, and Jasnah showed no sign of noticing. Studying sketches of the lesson from memory, Shallan practiced in private but could not make the Soulcaster work.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "39" }]
+        },
+        {
+          "text": "Shallan concluded that Jasnah's actions had been lawful and justified, yet immoral. Given a day off, she tried the Soulcaster again and, while sketching, heard a voice whisper, \"What are you?\" Looking for its source, she found a maid in Jasnah's room, sent her away and searched Jasnah's notes. Instead of Soulcasting instructions she found notebooks on the Voidbringers and the Knights Radiant, before a knock interrupted her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "It was Kabsal, and over bread and jam in the Conclave gardens he hinted that he might leave the ardentia for her. Uncomfortable, Shallan steered the talk to Soulcasters, but he knew nothing useful. Saddened that her time as a ward was nearly over, she received a letter from Captain Tozbek: his ship would arrive in a week, setting a deadline for her departure.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
+        },
+        {
+          "text": "On her last full day, Shallan's insight into King Gavilar's interest in the Parshendi tied her studies to Jasnah's research. Desperate to learn more before leaving, she pressed Jasnah about Urithiru, the Voidbringers and the Parshendi, and when Jasnah refused to say more, spent two fruitless hours searching the Palanaeum. Kabsal found her there, but he knew little either.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "Shallan told Kabsal she was leaving the next day and refused his offer to come with her. He asked for a portrait, and as she drew the two of them from a Memory, she again sketched a symbol-headed figure behind him. Fleeing, she found the creatures in each new sketch, following her and finally surrounding her in her locked room, one reaching out to touch her.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        },
+        {
+          "text": "In terror she began to summon a Shardblade she had sworn never to use. A voice asked, \"What are you?\" When she answered, \"I'm terrified,\" her room dissolved into a sea of glass beads. Back in an instant, she found she had turned a crystal goblet into blood. Fearing Jasnah would realize she had the Soulcaster, she cut her wrist on the broken glass and fainted as Jasnah came in.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Questions and answers",
+          "revealedIn": [
             { "book": "way-of-kings", "chapter": "45" },
             { "book": "way-of-kings", "chapter": "50" },
+            { "book": "way-of-kings", "chapter": "70" },
             { "book": "way-of-kings", "chapter": "74" }
           ]
         }
       ],
       "items": [
         {
-          "text": "Arriving in Kharbranth, Shallan was escorted by the sailor Yalb to the Conclave, where she caught up with Jasnah Kholin as the princess accompanied King Taravangian to a cave-in. Jasnah tested Shallan's education, found it lacking, Soulcast the fallen boulder into smoke, and turned down her request for wardship.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
-        },
-        {
-          "text": "Shallan left Jasnah a persuasive letter and met the young ardent Kabsal. Jasnah offered to reconsider once Shallan improved her history and philosophy, so Shallan bought books and rented the alcove next to Jasnah's. Impressed by her sketchbook, Jasnah accepted her as a ward, and Shallan told her brothers the first step of their plan to steal Jasnah's Soulcaster had succeeded.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }]
-        },
-        {
-          "text": "Shallan flourished as a ward, studying in the Palanaeum and drawing anyone who would sit for her. While sketching King Taravangian she drew two strange symbol-headed figures behind him that were not there. Kabsal visited often with bread and jam, plainly interested in her, while Jasnah suspected he wanted her Soulcaster.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "33" }]
-        },
-        {
-          "text": "Her brothers wrote that creditors were pressing and that her father's steward Luesh was dead. Shallan lost her nerve during one chance at the theft, but after Jasnah lured four thugs in an alley and Soulcast them to death as a philosophy lesson, Shallan, appalled, swapped Jasnah's Soulcaster for their family's broken one that night.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "36" }]
-        },
-        {
-          "text": "Shallan struggled with guilt and could not make the stolen Soulcaster work. She concluded Jasnah's killings were legal but immoral, heard a voice whisper \"What are you?\", and glimpsed Jasnah's notes on the Voidbringers and Knights Radiant. Kabsal hinted he would leave the ardentia for her, and a letter from Captain Tozbek set a deadline for her departure.",
-          "revealedIn": [{ "book": "way-of-kings", "chapter": "42" }]
-        },
-        {
-          "text": "On her last day, Shallan sketched Kabsal and again drew symbol-headed figures, then saw them following her everywhere. Terrified, she began to summon something she had sworn never to use again, answered the voice, and was dropped into a strange realm of glass beads. She returned having turned a goblet into blood, and cut her wrist on the glass to hide it before Jasnah arrived.",
+          "text": "Shallan spent two days in the hospital, where the nurses suspected a suicide attempt. Jasnah apologized for overworking her and gave her the Book of Endless Pages. Kabsal brought bread and jam and urged her to try it, but it smelled vile; he ate some himself and collapsed. Growing dizzy, and believing Jasnah could not heal her with the broken fabrial, Shallan handed over the stolen Soulcaster before passing out.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }]
         },
         {
-          "text": "In the hospital, Kabsal brought jam that smelled wrong; he ate it and collapsed, and Shallan grew faint. Thinking Jasnah could not save her with the fake, she handed over the stolen Soulcaster. Jasnah healed her, explained that Kabsal had been an assassin trying to poison her, and arranged for Shallan to be sent home.",
+          "text": "Shallan woke under guard. Jasnah told her that Kabsal had poisoned the bread to kill Jasnah and was dead, and that she had Soulcast the poison from Shallan's blood. Now aware of the theft, Jasnah questioned Shallan, accepted her account, rebuked her, and arranged passage home for her the next day.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "50" }]
         },
         {
-          "text": "Shallan realized Jasnah could Soulcast without a fabrial and confronted her, then spoke a truth, that she had killed her father, and fell into the realm of beads until Jasnah pulled her out. Jasnah took her back as a ward, shared her research suggesting the parshmen were the ancient enemy, and the two prepared to sail for the Shattered Plains.",
+          "text": "Reviewing her memories, Shallan saw holes in Jasnah's story and realized that Jasnah could Soulcast without a fabrial, as she herself apparently had. She left the hospital at night in her gown to confront Jasnah, showing her a sketch of the place of beads. As proof, she spoke a deep truth to the symbol-headed spren, that she had killed her father, and sank into the sea of beads until Jasnah pulled her out.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Despite the betrayal, Jasnah would not pass up the chance to train someone who shared her abilities, and took Shallan back as her ward under strict conditions. She shared the truth of her Soulcasting and her research, and Shallan agreed that the parshmen were the ancient Voidbringers. Learning of the Ghostbloods, a group her father had dealt with, Shallan chose to help Jasnah over her family, and they prepared to leave for the Shattered Plains.",
           "revealedIn": [{ "book": "way-of-kings", "chapter": "74" }]
         }
       ]
@@ -146,12 +315,72 @@
     {
       "title": [
         {
-          "text": "Journey to the Shattered Plains",
+          "text": "The Wind's Pleasure",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "1" },
-            { "book": "words-of-radiance", "chapter": "7" },
+            { "book": "words-of-radiance", "chapter": "7" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Sailing toward the Shattered Plains with Jasnah aboard the Wind's Pleasure, Shallan noticed a new spren, a raised pattern on her sketch. Jasnah explained the Cognitive Realm and spren, and said she had arranged with her mother, Navani Kholin, to repair the Davars' broken Soulcaster and propose a causal betrothal between Shallan and Adolin Kholin. Emboldened by Jasnah, Shallan had Captain Tozbek lower her into the sea to see a santhid.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+        },
+        {
+          "text": "Shallan spent days studying Pattern, who grew more intelligent as they talked, while Jasnah explained nahel bonds and the spren of the Knights Radiant. Finding Jasnah exhausted one night, Shallan offered to share her burden. Jasnah told her more of the Voidbringers and the Desolations, explained Stormlight and what she knew of Lightweaving, and gave her a copy of Words of Radiance.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+        },
+        {
+          "text": "Shallan woke to smoke and shouting: the ship was under attack. She saw men throw Jasnah to the floor and stab her in the chest. Trapped in her cabin, Shallan drew the attackers away with an illusion of someone fleeing, then, with no other way out, entered Shadesmar and Soulcast the ship into water, sinking unconscious into the icy sea.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tradesman Tvlakv",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "13" },
             { "book": "words-of-radiance", "chapter": "17" },
-            { "book": "words-of-radiance", "chapter": "21" },
+            { "book": "words-of-radiance", "chapter": "21" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan woke on a rock off the shore of the Frostlands. Pattern found Jasnah's trunk, holding her research and infused spheres, but Shallan failed to Soulcast a stick into fire. Walking on after dark, she lay down by a campfire and woke in the camp of the slaver Tvlakv, whom she persuaded, by her rank and promises of payment, to take her to the Shattered Plains.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "13" }]
+        },
+        {
+          "text": "She rode beside his mercenary Bluth, a poor conversationalist, as the loss of Jasnah and everything she owned sank in. Taking the key to a cage wagon to use as a private carriage, she went through Jasnah's trunk and talked with Pattern about why he had come and the need to continue Jasnah's research.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "13" }]
+        },
+        {
+          "text": "Through Pattern, Shallan overheard Tvlakv and his mercenary Tag planning to hold her for ransom, and warned Tvlakv off with a hint and a subtle illusion. Bandits forced the group to travel through the night. Shallan began a new sketchbook with the santhid, local plants and Bluth, and when smoke appeared ahead, she pushed Tvlakv toward another caravan.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        },
+        {
+          "text": "Finding her feet far more healed than they should be, Shallan learned from Pattern that she had been Lightweaving without meaning to. She learned to breathe in Stormlight and realized it was healing her. They talked about her oaths, and Pattern said he believed that she would one day kill him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
+        },
+        {
+          "text": "The caravan ahead, whose guards were led by Tyn, was under attack. Shallan turned to the bandits trailing her own group, deserters from the Shattered Plains, and with an appeal to their honor, promises of pardons and a touch of Lightweaving, persuaded them to join the fight. They won, but Bluth died among many slain bandits, clutching the sketch she had drawn of him.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        },
+        {
+          "text": "Shallan agreed with the caravan's owner, Macob, to travel on together to the warcamps. She claimed Tvlakv's slaves as payment for saving his life and bought his wagons over his protests, backed by her new band of mercenaries.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tyn's apprentice",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "28" },
             { "book": "words-of-radiance", "chapter": "30" },
             { "book": "words-of-radiance", "chapter": "34" }
           ]
@@ -159,27 +388,23 @@
       ],
       "items": [
         {
-          "text": "Sailing on the Wind's Pleasure, Shallan noticed a strange patterned spren. Jasnah explained the Cognitive Realm and revealed she had arranged a causal betrothal between Shallan and Adolin Kholin, plus a repair of the broken Soulcaster, to help the Davars. Emboldened, Shallan had herself lowered into the sea to see a santhid.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "1" }]
+          "text": "Shallan won over most of her new mercenaries, including Gaz and Red, but their leader, Vathah, doubted her promises. Tyn decided Shallan was a con artist posing as Shallan Davar; unable to convince her otherwise, Shallan played along and invented a scheme to blackmail Dalinar Kholin. Tyn took her under her wing and taught her acting and forgery.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
         },
         {
-          "text": "Shallan studied the Cryptic, Pattern, while Jasnah taught her about the Knights Radiant and Lightweaving. One night attackers boarded the ship and Shallan saw Jasnah stabbed. She distracted the killers with an illusion, then Soulcast the entire ship into water and sank into the sea.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+          "text": "When four riders approached, among them Kaladin and men of Bridge Four, Tyn had Shallan practice on them. Playing a Horneater princess, Shallan teased Kaladin and demanded his boots in payment for a feigned offense.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "28" }]
         },
         {
-          "text": "Shallan woke on the Frostlands coast with Jasnah's trunk of notes and spheres. She talked the slaver Tvlakv into escorting her to the Shattered Plains, overheard him plotting to ransom her, and learned from Pattern how to breathe in Stormlight, which was healing her feet.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "17" }]
-        },
-        {
-          "text": "Shallan persuaded a band of deserters pursuing them to fight bandits attacking another caravan. The guard Bluth died bravely, clutching her sketch of him. Afterward Shallan agreed to travel with the caravan owner Macob and its guard captain Tyn, and claimed Tvlakv's slaves and wagons for herself.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "21" }]
-        },
-        {
-          "text": "Tyn decided Shallan was a con artist impersonating Shallan Davar, and Shallan played along, learning acting, accents and forgery from her. Prodded by Tyn, she posed as a Horneater princess when Kaladin and some bridgemen rode up, mocking Kaladin and demanding his boots.",
+          "text": "Near the warcamps, Shallan sketched beside a lait and found she had drawn two strange scenes: a woman kneeling over a broken statue, and the crew of the Wind's Pleasure on a rocky beach. She told Tyn her supposed scheme was to pose as Adolin Kholin's betrothed, and felt both anxious and excited about juggling her real betrothal, Tyn's plans and Jasnah's research.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "30" }]
         },
         {
-          "text": "Near the warcamps, Shallan joined Tyn for a spanreed meeting with an informant and learned Tyn worked with the Ghostbloods. When word of Jasnah's ward arrived, Tyn realized who Shallan was and attacked. Shallan summoned a Shardblade and killed her, swore her men to secrecy, and agreed to a Ghostblood meeting.",
+          "text": "On their last night outside the warcamps, Tyn told Shallan that the Assassin in White had killed the Veden king Hanavanar and six highprinces, sparking a succession war. Through a spanreed informant, Shallan learned that her highprince, Valam, was preparing to attack Vedenar, but nothing of her brothers. Tyn meant to hand over Shallan's deserters for a reward, and lectured her when she objected.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
+        },
+        {
+          "text": "Word then came of Jasnah's presumed death and of her ward, and Tyn, whom Shallan now realized was tied to the Ghostbloods, saw the truth and attacked. Pattern distracted her with Jasnah's voice; when Tyn came at her with a sword, Shallan summoned her Shardblade and stabbed her through the chest. She swore her men to silence and accepted a Ghostblood request for a meeting.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "34" }]
         }
       ]
@@ -187,84 +412,191 @@
     {
       "title": [
         {
-          "text": "The Shattered Plains",
+          "text": "A new woman",
           "revealedIn": [
-            { "book": "words-of-radiance", "chapter": "40" },
-            { "book": "words-of-radiance", "chapter": "43" },
-            { "book": "words-of-radiance", "chapter": "52" },
-            { "book": "words-of-radiance", "chapter": "54" },
-            { "book": "words-of-radiance", "chapter": "64" },
-            { "book": "words-of-radiance", "chapter": "49" },
-            { "book": "words-of-radiance", "chapter": "55" },
-            { "book": "words-of-radiance", "chapter": "63" },
-            { "book": "words-of-radiance", "chapter": "60" },
-            { "book": "words-of-radiance", "chapter": "70" },
-            { "book": "words-of-radiance", "chapter": "72" },
-            { "book": "words-of-radiance", "chapter": "75" },
-            { "book": "words-of-radiance", "chapter": "80" },
-            { "book": "words-of-radiance", "chapter": "86" }
+            { "book": "words-of-radiance", "chapter": "38" },
+            { "book": "words-of-radiance", "chapter": "40" }
           ]
-        },
-        {
-          "text": "The Shattered Plains and Narak",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
         }
       ],
       "items": [
         {
-          "text": "Shallan arrived at King Elhokar's palace, traded insults with Kaladin, and told Dalinar and Navani of Jasnah's death. She met Adolin, and the two found each other attractive, so the causal stood. Highprince Sebarial agreed to house and employ her, and his mistress Palona made her welcome.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+          "text": "Using Tyn's things, Shallan entered the warcamps and went to King Elhokar's palace, where the highprinces were meeting after a new attack by the Assassin in White. Kaladin, recognizing the \"Horneater princess\", scoffed at her claim to be Adolin's betrothed, and they traded insults in front of the highprinces' guards.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
         },
         {
-          "text": "Imitating Tyn over spanreed, Shallan arranged to meet the Ghostbloods as Tyn's apprentice, using an illusion to disguise herself. Their leader, Mraize, spared her for her boldness, called her \"little knife,\" and asked for Brightlord Amaram's secrets. She escaped a masked woman who followed her.",
+          "text": "During a break, Shallan told Dalinar and Navani of Jasnah's death and tried to explain her research, then won pardons for her guards. Adolin introduced himself; the two found each other attractive, and he and Dalinar agreed to keep the causal betrothal for the time being.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
+        },
+        {
+          "text": "Watching the meeting, Shallan pieced together Alethi politics, including the strain between Dalinar and Sadeas. When Ialai Sadeas questioned her, her tie to Dalinar became known, and seeing others eye her as a political tool, she secured lodging and work with Highprince Sebarial. At his manor, his mistress Palona gave her rooms and answered her questions before Shallan fell into a heavy sleep.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Ghostbloods",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "43" },
+            { "book": "words-of-radiance", "chapter": "52" },
+            { "book": "words-of-radiance", "chapter": "54" },
+            { "book": "words-of-radiance", "chapter": "63" },
+            { "book": "words-of-radiance", "chapter": "64" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Imitating Tyn on her spanreed, Shallan learned that the Ghostbloods wanted to meet within the hour, and replied that Tyn was wounded and would send her apprentice. While the meeting was arranged, she practiced her Lightweaving and invented a false identity for that apprentice.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
         },
         {
-          "text": "Using illusions, Shallan sneaked into Amaram's manor and memorized maps of the Shattered Plains and notes showing he sought to bring back the Voidbringers. When she asked to sketch his Shardblade, she recognized it as Helaran's and suspected Amaram had killed her brother.",
+          "text": "Disguised by an illusion, she slipped out to a hidden room beneath a building in Sebarial's camp and met Mraize before silent onlookers, including a masked woman. Disappointed not to see Tyn but intrigued by her boldness, Mraize let her live and asked that Tyn search Brightlord Amaram's manor for its secrets. Shallan escaped the masked woman's pursuit with an illusion.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }]
+        },
+        {
+          "text": "Six days on, disguised by Lightweaving as a messenger boy and then as a maid, Telesh, Shallan searched Amaram's manor. She took Memories of maps of the Shattered Plains in stormwarden script, and of notes showing that Amaram studied what Jasnah had and was working to bring back the Voidbringers. Leaving as the messenger, she told Amaram that Shallan Davar wished to sketch his Shardblade; he summoned it, and seeing it was Helaran's, she concluded Amaram had killed her brother.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "52" }]
         },
         {
-          "text": "As Veil, Shallan delivered her sketches to Mraize, proved she drew from memory by sketching one of his men, and admitted killing Tyn, which did not trouble him. Hiding afterward inside an illusory boulder, she found her carriage burned and its driver dead.",
+          "text": "As Veil, Shallan met Mraize and other Ghostbloods at a pavilion in the Unclaimed Hills and handed over sketches of Amaram's room, secretly leaving some details out. When Mraize doubted she had drawn them from memory, she proved it by sketching his associate Jin on the spot. Probing her motives, he deduced that she had killed Tyn, but said it did not matter, since Tyn had not been a member.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
         },
         {
-          "text": "Sent by the Ghostbloods with a masked woman to investigate a madman held in Dalinar's warcamp, Shallan slipped into his room. Her Surgebinding briefly shocked him into lucidity, as if he recognized one of the Knights Radiant. She hid in an illusion while Amaram questioned him, and Mraize welcomed her into the Ghostbloods.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+          "text": "Fearing she would be followed, Shallan hid inside an illusory boulder while Pattern sent the carriage back using her voice. Walking back after her Stormlight ran out, she passed the burning carriage and the body of its driver, and feared she was in more danger than she had realized.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
         },
         {
-          "text": "Shallan began courting Adolin, sharing a winehouse date full of odd conversation, asking him to get her a chance to see a chasmfiend chrysalis, and telling him of Jasnah's research into the Voidbringers.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
-        },
-        {
-          "text": "Shallan recognized the coachman as Wit, the stranger from Middlefest, and hugged him. Riding with Adolin to a menagerie, she laid out a plan for him to trap Sadeas into a duel, as Sadeas had once done to another lord.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
-        },
-        {
-          "text": "Watching Adolin's lopsided duel, Shallan sent Pattern to distract one of his opponents until Kaladin joined the fight and turned the tide. Apart from Adolin afterward, she worried about how committed he was to her.",
+          "text": "About two weeks after that, a note from Mraize sent her to a set place and time. Suspecting she was being watched, Shallan had Pattern search nearby windows and caught the masked woman, Iyatil, spying on her. Iyatil explained the task: investigate a madman brought to the warcamps in the custody of one of Dalinar's most trusted men. Eager to impress, Shallan invited her along.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
         },
         {
-          "text": "Continuing Jasnah's work, Shallan concluded that Jasnah had sought an Oathgate to Urithiru in the ruins of Stormseat on the Shattered Plains. Pattern urged her to face her past to grow as a Radiant, but she resisted while practicing new Lightweaving skills.",
+          "text": "At the temple complex, Shallan convinced the ardents that Iyatil was possessed by a Voidbringer and slipped away to the madman, who kept repeating a speech naming himself the Herald Talenel. When she tried to Surgebind near him, he grew briefly lucid and seemed to recognize her as a Knight Radiant.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        },
+        {
+          "text": "Dazed after drawing her Shardblade in fear, Shallan was still there when Amaram arrived with Bordin to question the man; hidden behind an illusion, she learned that Amaram believed his words. She reported to Iyatil and then to Mraize by spanreed, and Mraize welcomed her as a full member of the Ghostbloods.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "64" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin Kholin's betrothed",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "words-of-radiance", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Visiting the Kholin practice grounds, Shallan arranged a walk with Adolin, which led to a date at a winehouse. The pair got on well despite her unusual topics. She persuaded him that the chasmfiends might be hunted to extinction and asked him to get Dalinar to let her see a chrysalis. Adolin told her of Sadeas's betrayal; she told him of Jasnah's research and asked for help with Navani.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "After Adolin's duel with Elit, Shallan devised a plan to trap Sadeas into a duel with the Right of Challenge and the King's Boon, as Sadeas had once done to Brightlord Yenev. When Adolin collected her for a date, she recognized the coachman, Wit, as the messenger who had comforted her at Middlefest three years before, and hugged him. At a menagerie, she sketched animals while Adolin joked.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "At Adolin's lopsided duel, Shallan berated herself for missing the trap. She sent Pattern to distract the Shardbearer fighting Renarin, buying time for Kaladin to join in and turn the fight. While Adolin confined himself afterward, they talked by spanreed, and she pursued her research and tried to reach her brothers, though she began to doubt his commitment.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "63" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Scholar and Radiant",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Settled in Sebarial's warcamp, Shallan worked on Jasnah's research. She realized Jasnah had hoped to find an Oathgate to Urithiru on the Shattered Plains, and by comparing Amaram's map with an ancient map of Natanatan, concluded that the ruins of Stormseat lay on the Plains, with an Oathgate that could lead to the lost city.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
         },
         {
-          "text": "Shallan joined a scouting expedition onto the Plains and found traces of ancient structures. During an assassination attempt on Dalinar, a bridge collapsed and she fell into the chasms with Kaladin. Stranded, the two bickered, fled a chasmfiend, and set off on foot ahead of a highstorm.",
+          "text": "Pattern kept telling Shallan that to become the Radiant she needed to be, she must face her past and the memories she had buried, but she kept stifling them. Instead, they practiced and relearned her Lightweaving, including attaching illusions to objects and hiding her glow while holding Stormlight.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lost in the chasms",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "68" },
+            { "book": "words-of-radiance", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "71" },
+            { "book": "words-of-radiance", "chapter": "72" },
+            { "book": "words-of-radiance", "chapter": "74" },
+            { "book": "words-of-radiance", "chapter": "75" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Adolin persuaded Dalinar to let Shallan join a scouting mission onto the Shattered Plains in Ishakach 1173. She often ran ahead of her porters to sketch, found evidence of the ancient structures she expected, and traded barbs with Kaladin. While she crossed a chasm with Adolin, an assassination attempt on Dalinar unfolded: the bridge was sabotaged, and Shallan fell with it into the chasm.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "68" }]
+        },
+        {
+          "text": "Shallan woke at sunset with Kaladin the only other survivor, the army having apparently fled. Kaladin convinced her no rescue would come, and with a highstorm a day away they set off through the chasms. Their quarrel drew a chasmfiend; running on Stormlight, Shallan led them back past the fallen bridge to escape, and gleefully took a Memory of the beast.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "70" }]
         },
         {
-          "text": "Mapping the chasms, Shallan saw that the Plains were symmetrical, and she and Kaladin began to open up. When the chasmfiend trapped them, she lent Kaladin Pattern as a Shardblade and used illusions to distract the beast until he killed it.",
+          "text": "Slowly the two opened up. Shallan told Kaladin Jasnah's theories and swore she meant the Kholins no harm. Mapping their path through sketches, she realized the Plains were symmetrical, as Kaladin had once seen in a dream. When he blamed her optimism on an easy upbringing, she let him glimpse her brokenness, and he began joking with her, until the chasmfiend returned.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
+        },
+        {
+          "text": "Hidden in a crack in the chasm wall, they waited until Kaladin chose to run as a distraction so Shallan could escape with her knowledge. She offered him Pattern as a Shardblade. Shallan distracted the beast with illusions of herself and Kaladin, and Kaladin drove Pattern into its head, killing it. She helped free him from its jaws.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "72" }]
         },
         {
-          "text": "Shallan carved a cleft into the chasm wall where she and Kaladin rode out the highstorm, sharing their pasts, and she saw a vast figure in the storm. Back in camp, Navani mothered her, Adolin swore to protect her and was scolded for it, and Shallan persuaded Dalinar to march for Stormseat.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "75" }]
+          "text": "With Kaladin badly hurt and the highstorm near, Shallan used Pattern to cut handholds and a small cleft above the waterline, pulling Kaladin in as the stormwall hit. Clinging together, they shared their stories: Kaladin told his, and Shallan told of her childhood, her time with Jasnah and killing her father. The Stormfather appeared to her before she fell asleep against Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "74" }]
         },
         {
-          "text": "On the march, Navani apologized and helped with the research. Shallan showed Dalinar an illusion to reveal her powers, and with the help of a captured Parshendi, Rlain, she worked out a map to the city of Narak.",
+          "text": "The pair returned with the chasmfiend's gemheart. Navani took fierce, motherly charge of Shallan's care, and the relieved Adolin swore to protect her better, earning a scolding. When Dalinar asked her to join his expedition, Shallan explained her theory that Stormseat at the center of the Plains held answers, and persuaded him to leave the parshmen behind.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "75" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The march to Narak",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "77" },
+            { "book": "words-of-radiance", "chapter": "80" },
+            { "book": "words-of-radiance", "chapter": "86" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Gaz joined the expedition at the last moment with a copy of Words of Radiance for Shallan, and Adolin gave her a placid horse. Riding out with him, she felt a lingering yearning for the intensity she had seen in Kaladin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "77" }]
+        },
+        {
+          "text": "On the march, Shallan searched Words of Radiance for clues to Urithiru. Navani apologized for how she had treated her and joined the research under Shallan's lead, and Shallan revealed that Jasnah had been one of the Knights Radiant. When Dalinar sought her out, she showed him an illusion and confided that she could Lightweave, swearing him to secrecy for now.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
         },
         {
-          "text": "During the battle at Narak, Shallan spotted a plateau that broke the Plains' symmetry and found the Oathgate there. Revealing herself as a Surgebinder, she charged it with Stormlight and, using Pattern as a Shardblade, carried the Alethi armies to Urithiru.",
+          "text": "Bridge Four identified a surrendering Parshendi as Rlain, who looked to Shallan like a Voidbringer from Jasnah's notes. With his help she worked out a map to Narak. As they reached the city with retreat no longer possible, Dalinar charged her with finding the Oathgate at all costs.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "80" }]
+        },
+        {
+          "text": "During the Battle of Narak, a scout pointed out a plateau that broke the Plains' symmetry, and Shallan knew it held the Oathgate. With Renarin, Inadara, bridgemen and soldiers she reached it and dug into the crem-buried control building, but Renarin's Shardblade would not work the ancient device. She ordered the Alethi armies to gather on the plateau.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
+        },
+        {
+          "text": "Realizing it was a fabrial, Shallan gave up hiding her powers and moved Stormlight from gemstones into its lamps. As the Everstorm and a highstorm collided overhead, Adolin's Blade failed too, and she understood it needed a living Radiant's Blade. She drew Pattern and carried the remaining Alethi forces to Urithiru.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "86" }]
         }
       ]
@@ -272,16 +604,151 @@
     {
       "title": [
         {
-          "text": "Urithiru",
+          "text": "Arriving at Urithiru",
           "revealedIn": [
             { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "oathbringer", "chapter": "8" },
             { "book": "oathbringer", "chapter": "9" },
-            { "book": "oathbringer", "chapter": "15" },
-            { "book": "oathbringer", "chapter": "18" },
+            { "book": "oathbringer", "chapter": "13" },
+            { "book": "oathbringer", "chapter": "15" }
+          ]
+        },
+        {
+          "text": "Brightness Radiant",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Exploring Urithiru, Shallan found a note bearing the Ghostblood symbol and met Mraize, who knew who she was and insisted Veil was her true self. He reminded her of her debt for her father's broken Soulcaster. She condemned the Ghostbloods for Jasnah's murder, but he promised to bring her brothers, teased secrets about Helaran, and said only they could answer her questions.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Exhausted, she let Adolin take her to a room Pattern had chosen for her to rest. It reminded her of her father's study, and Pattern told her she must face her past to become the Radiant the world needed. Through Lightweaving, she relived the night of her mother's death and faced the truth that she had killed her mother. The returning memories crushed her, but deepened her bond with Pattern.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Dalinar asked Shallan and Renarin to learn what they could of their new powers, but her mind kept returning to killing her parents, and her drawings of Urithiru came out surreal. Pattern said she could hate him for it; she said she blamed not him but how her life had spun out of control. In public she posed as an Elsecaller to hide that she was a Lightweaver.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        },
+        {
+          "text": "At Dalinar's meeting Shallan could offer little of the political news he wanted, but with his help she made a three-dimensional map of Roshar from Stormlight. Then Lyn reported a murder: Vedekar Perel, killed exactly as Highprince Sadeas had been. When Adolin was set to find the killer, Shallan noticed he was acting strangely.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
+        },
+        {
+          "text": "Practicing her Illumination, Shallan learned to make her illusions move without Pattern's help. Adolin visited, and they flirted and kissed until Pattern interrupted.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "13" }]
+        },
+        {
+          "text": "Adolin urged Shallan to learn the Shardblade, but she could not bear to wield it, so she created a new persona, Brightness Radiant, to train with it. Pattern suggested she break their bond and kill him so she could bond a new spren, but she refused. Training with Adolin, she found they shared a passion for what they loved and felt she could be herself with him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Veil's investigation",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Veil, Shallan set out for the Breakaway market to look into the murders for Adolin. On the way, Pattern said he had come to like Adolin, and again offered to let her break their bond and kill him. Shallan begged him not to leave, admitting that she hated herself, not him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "In the Breakaway, Veil listened for gossip about the murders and learned about the tower's darkeyed society. Inexperienced, she drank too much hard wine in a tavern; a bouncer, Jor, offered to see her home, and when she asked about dangerous places, he told her of a stabbing at All's Alley. Unthinkingly drawing in Stormlight, she found herself sober, drank another cup and headed there.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        },
+        {
+          "text": "At All's Alley, Veil downed Horneater white and, claiming to hunt her little sister's killer, was pointed to a group of thugs. She stabbed one, Ur, through the hand and invoked the Ghostbloods. They spoke of a man, Ned, who had strangled his wife, then of a barmaid killed the same way; Ned denied that killing and Ur killed him. Veil left convinced it was a double murder.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new job",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "21" },
             { "book": "oathbringer", "chapter": "22" },
-            { "book": "oathbringer", "chapter": "25" },
+            { "book": "oathbringer", "chapter": "25" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hungover, Shallan cleared her head with Stormlight from Adolin's sphere. He asked her to come with him to question Ialai Sadeas about her husband's murder, and to bring her own soldiers. Shallan doubted the former deserters were of any use, but promised to find them more work when Adolin said they would feel honored.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "21" }]
+        },
+        {
+          "text": "At Ialai's quarters Shallan found Mraize posing as one of her soldiers. Sent for tea, she spoke with him; he told her to remove a \"darkness\" from the tower and offered news of Helaran in return. Ialai revealed she had set Amaram to investigate Sadeas's murder, and as Shallan and Adolin left, word came that the highstorms had returned.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
+        },
+        {
+          "text": "In an abandoned theater, Shallan staged the folk tale The Girl Who Looked Up for Pattern with illusions from her sketchbook, until family memories and too much Stormlight broke the scene. She glimpsed a dark figure leaving, chased it as Radiant and found a dark form squeezing through a slot toward the market.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+        },
+        {
+          "text": "Following as Veil, she found that Rock had been stabbed in the hand; like Ur, he was a Horneater, and Veil concluded that whatever was copying the murders was copying all the violence in the tower. Ishnah, one of the thugs she had met, asked to join the Ghostbloods, but Veil refused.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hunting the tower's killer",
+          "revealedIn": [
             { "book": "oathbringer", "chapter": "27" },
+            { "book": "oathbringer", "chapter": "29" },
             { "book": "oathbringer", "chapter": "30" },
+            { "book": "oathbringer", "chapter": "32" }
+          ]
+        },
+        {
+          "text": "Encounter with Re-Shephir",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Dalinar's meeting, Shallan drew the spren from the theater, and Pattern said it was a spren of Odium. Sketching Sadeas, she saw that Perel's body matched his, confirming the killer copied violence. Ialai arrived with Amaram and named him heir to House Sadeas. Outside, Shallan told Adolin she thought Amaram had killed Helaran, but Adolin said Amaram got the Blade after Kaladin killed a Shardbearer.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
+        },
+        {
+          "text": "Back in her room, Shallan found strange drawings in her sketchbook that she could not remember making. Disturbed, she went to the barracks and told her soldiers she had a new job for them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
+        },
+        {
+          "text": "After four days of searching as Veil, with Gaz and Red watching for a copy of a recent killing, a scream rang out: the new murder copied a hanging. Chasing the spren as Radiant, Shallan sent Pattern for Adolin, and while changing she unthinkingly put on an illusion of herself, which frightened her.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        },
+        {
+          "text": "With Adolin and Bridge Four, Shallan went down a pit beneath the tower to a room of murals of the Heralds and the Almighty; she and Renarin felt something wrong there that Dalinar could not. Adolin found a decaying library, and then Lyn and Renarin spotted a great black mass. They realized the murders were the work of an Unmade, Re-Shephir.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "29" }]
+        },
+        {
+          "text": "Re-Shephir sent distorted copies of Bridge Four and others against them. Shallan felt she somehow knew the Unmade, and drove its creations back with a glowing force of people from her sketchbook. Told by Adolin to fight on as if there were no other choice, she sent copies of herself to draw its attacks and pressed herself into its central mass.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "Inside, she learned it was an ancient spren born of the splintering of a greater being, drawn to human violence and afraid of being trapped again as a Lightweaver had once trapped it. Sensing it learning about her in turn, she pulled away in fear and sympathy and collapsed. Re-Shephir fled; Shallan told the others not to follow, and they found a hoard of cut gemstones where it had lain.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
+        },
+        {
+          "text": "Recovering in Sebarial's rooms, Shallan told Palona she sympathized with Re-Shephir, which killed only to imitate people, and doubted the other Unmade had been imprisoned as it was. Then Adolin burst in with good news, and Jasnah walked into the room, alive, to Shallan's surprise.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Jasnah's return",
+          "revealedIn": [
             { "book": "oathbringer", "chapter": "33" },
             { "book": "oathbringer", "chapter": "40" },
             { "book": "oathbringer", "chapter": "51" }
@@ -290,47 +757,19 @@
       ],
       "items": [
         {
-          "text": "In Urithiru, Mraize confronted Shallan, knowing who she was and insisting Veil was her true self, and dangled news of her brothers and Helaran. That night Pattern helped her relive her mother's death, deepening their bond.",
-          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
-        },
-        {
-          "text": "Studying her new powers, Shallan pretended to be an Elsecaller in public. At one of Dalinar's meetings she built a glowing map of Roshar with him, before a murder was found copying Sadeas's killing exactly.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "9" }]
-        },
-        {
-          "text": "Shallan learned to make illusions move on their own and grew closer to Adolin. Unable to face her Shardblade, she invented a new persona, Brightness Radiant, to train with it under Adolin, and rejected Pattern's offer to let her break their bond.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
-        },
-        {
-          "text": "As Veil, Shallan investigated the murders in the Breakaway market. She drank too much, stabbed a thug who shoved her, invoked the Ghostbloods, and learned of a second, matching murder.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "18" }]
-        },
-        {
-          "text": "Shallan joined Adolin to question Ialai Sadeas and found Mraize posing as one of Ialai's guards. He asked her to root out a darkness in the tower in exchange for information about Helaran.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "22" }]
-        },
-        {
-          "text": "Performing an illusory play for Pattern in an abandoned theater, Shallan saw a dark figure and chased it as Radiant and then Veil. She concluded something was copying acts of violence in the tower.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "25" }]
-        },
-        {
-          "text": "Shallan drew the strange spren and learned from Adolin that Kaladin had won Amaram's Shardblade by killing a Shardbearer, which shocked her. Finding drawings she didn't remember making, she gave her soldiers a new job.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "27" }]
-        },
-        {
-          "text": "As Veil, Shallan tracked a new copycat murder and led Adolin, Renarin and Bridge Four into the tower's depths, where they found the Unmade Re-Shephir. She pressed herself into it, sensed its mind, and drove it to flee, leaving behind a trove of gemstones.",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "30" }]
-        },
-        {
-          "text": "To Shallan's shock, Jasnah arrived in Urithiru alive, having escaped her attackers by Elsecalling. Jasnah expected Shallan to resume her duties as a ward.",
+          "text": "Remembering she was a scholar as well as a Radiant, Shallan sought out Jasnah at Re-Shephir's pit. Jasnah suspected the crystal pillar there was a vast fabrial, set her to sketch it as her ward, and told her she had escaped the Ghostbloods using her Elsecaller powers. She confided her worry over how little they understood of the Desolation.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
         },
         {
-          "text": "A Ghostblood letter claimed Helaran had been a Skybreaker acolyte sent to kill Amaram. Shaken, Shallan went to her men as Veil and recruited Ishnah to train them as spies.",
+          "text": "Serving as Jasnah's scribe in Dalinar's meetings, Shallan chafed at being a ward again. Jasnah, proud of her confidence but worried by her secrets, told her to balance wardship and Radiant duties; Shallan kept her Ghostblood work to herself. A Ghostblood letter then claimed that Helaran had been a Skybreaker acolyte, sent by the Herald Nale to prove himself by killing Amaram. Pattern said it held lies.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
         },
         {
-          "text": "Chafing as Jasnah's scribe, Shallan defended Renarin from mockery and talked Elhokar into taking her and her spies on his mission to retake Kholinar.",
+          "text": "To take her mind off the letter, she visited her men as Veil and found them proud to be useful. Suspecting the Ghostbloods were using her as a mole, she resolved to turn that around. She caught Ishnah, once a spy, watching them, and had her train the men in espionage in return for a chance at the Ghostbloods.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "40" }]
+        },
+        {
+          "text": "Bored as a scribe, Shallan stood up for Renarin when Janala taunted him, and they discussed the tower's network of fabrials. Encouraged by Renarin to stand up to Jasnah, she persuaded Elhokar to take her and her spies on his mission to retake Kholinar, insisting to herself that she was not running away from Jasnah.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "51" }]
         }
       ]
@@ -338,58 +777,120 @@
     {
       "title": [
         {
-          "text": "Kholinar",
+          "text": "Siege of Kholinar",
           "revealedIn": [
             { "book": "oathbringer", "chapter": "63" },
+            { "book": "oathbringer", "chapter": "74" },
             { "book": "oathbringer", "chapter": "82" },
-            { "book": "oathbringer", "chapter": "87" },
-            { "book": "oathbringer", "chapter": "102" },
-            { "book": "oathbringer", "chapter": "108" },
-            { "book": "oathbringer", "chapter": "119" },
-            { "book": "oathbringer", "chapter": "120" },
-            { "book": "oathbringer", "chapter": "122" }
+            { "book": "oathbringer", "chapter": "87" }
           ]
-        },
-        {
-          "text": "Kholinar and Shadesmar",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "87" }]
-        },
-        {
-          "text": "Kholinar, Shadesmar and Thaylen City",
-          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
         }
       ],
       "items": [
         {
-          "text": "In Kholinar, Shallan revealed Veil to her retinue. Trying to deliver Elhokar's letter to the queen, Veil was stabbed by palace guards, played dead while healing, and saw a strange figure in a mirror before escaping.",
+          "text": "Shallan reached Kholinar with Kaladin, Elhokar, Adolin and her retinue to open the Oathgate. At the tailor Yokska's shop they learned the queen was acting erratically under a dark spren's influence, and that the Cult of Moments held sway. Sent with Kaladin to deliver Elhokar's letter to the queen, Shallan first revealed her Veil persona to her men.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
         },
         {
-          "text": "As Veil, Shallan fed the city's poor, including an urchin named Grund, and gained entry to the Cult of Moments. When Grund was killed, she spiraled through personas until Wit urged her to accept herself and take control of them.",
+          "text": "In the palace, guards behaving strangely stabbed Veil when she insisted on delivering the letter herself. Playing dead while Stormlight healed her, she saw in a mirror a black figure with glowing circles for eyes where her reflection should be. Dumped among corpses, she escaped in disguise and sent Pattern for Kaladin.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "63" }]
+        },
+        {
+          "text": "Seeking a way into the Cult of Moments, Veil traded food for information, including with a disfigured urchin, Grund. Doubting herself, she met Wit, who praised her Illumination, talked with her about power, and left her with his bill.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+        },
+        {
+          "text": "She learned the Cult, under the thrall of an Unmade, guarded the Oathgate and admitted only those invited to bring food to its feasts. Posing as the Swiftspren, she drew attention with displays of Illumination and charity until a heist at a mansion won her an invitation.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "74" }]
+        },
+        {
+          "text": "Grund was killed by the Grips, a gang that had been stealing the food she gave him. Shattered, Shallan cycled through new personas in search of one that could undo the harm she seemed to cause. Huddled at Muri's, she met Wit, who told The Girl Who Looked Up and urged her to accept herself and take control of her personas. Kaladin then arrived with Azure and her army.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "82" }]
         },
         {
-          "text": "At the Oathgate, Shallan touched an Unmade and nearly lost herself before Wit's advice steadied her. The Unmade Sja-anat warned her not to use the gate, but with Elhokar dead and enemies closing in she activated it, landing herself, Adolin, Kaladin and Azure in Shadesmar.",
+          "text": "As Voidbringers and enthralled soldiers attacked, Shallan and Adolin went to the Oathgate, where a black mass blocked the way. Her Shardblade useless, she touched it as she had Re-Shephir; Ashertmarn urged indulgence while her personas overwhelmed her, until she remembered Wit's advice to take control. The mass dissolved, and Adolin declared she had beaten the Unmade, though she felt she had failed.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "87" }]
         },
         {
-          "text": "In Shadesmar, Shallan shaped beads into structures to get the group to land. They sailed with Reachers to Celebrant, where she disguised them from the Fused while honorspren captured Syl.",
+          "text": "Inside, the black figure from the palace named itself Sja-anat, said it was not her enemy and warned her not to use the Oathgate, whose spren it had to corrupt. After Moash struck down Elhokar and enemies overran them, Shallan, unsure whether to trust Sja-anat, activated the Oathgate, carrying herself, Adolin, Kaladin, Azure and their spren into Shadesmar.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "87" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Journey through Shadesmar",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "97" },
+            { "book": "oathbringer", "chapter": "102" },
+            { "book": "oathbringer", "chapter": "108" },
+            { "book": "oathbringer", "chapter": "119" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Shadesmar, joined by Syl, Pattern and Maya, the dead spren of Adolin's Blade, the group was stranded among hostile spren. Shallan found she could read the souls of the beads and shape them into copies of the Oathgate's control building, carrying the group across the sea to land. Azure suggested finding Reachers to guide them to a spren city.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+        },
+        {
+          "text": "A corrupted spren spoke for Sja-anat, warning that Odium's minions were hunting them and that he wrongly believed Shallan an Elsecaller. At a lighthouse kept by Riino, Shallan felt useless: Veil was still broken by Grund's death, though Shallan's drawings had begun to look like Veil's. Then a ship without a sail arrived.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "97" }]
+        },
+        {
+          "text": "Sailing with Reachers to Celebrant, Shallan told Kaladin that her skill at ignoring her past was nothing to admire. In the city, she, Pattern and Azure sought passage, disguising themselves as Reachers on learning that the Fused hunted Radiants bonded to honorspren and inkspren. As they boarded a ship for Freelight, honorspren captured Syl.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "102" }]
         },
         {
-          "text": "Aboard the honorspren ship, Shallan explained her personas to Adolin, who confessed to killing Sadeas. She supported him, and he said he loved the real Shallan.",
+          "text": "Aboard the honorspren's ship, Shallan and Kaladin planned an escape, and Azure struck a deal with the honorspren. Struggling as Veil bled into her mind, Shallan told Adolin about her personas; in turn he confessed to killing Sadeas, and she said she agreed with his choice. He told her he was happy with the real Shallan. Then eight Fused were spotted near the ship.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "108" }]
         },
         {
-          "text": "At Thaylen City, the Oathgate spren refused to send them back. Shallan manifested a wall from a bead to block a Fused, and their escape came only when Dalinar opened a way through to the Physical Realm.",
+          "text": "Jumping into the beads, Shallan made an air pocket for the group until the ship passed. They found Syl, then flew and hiked to Thaylen City, whose Oathgate was ringed by Voidspren and Fused. While Kaladin and Adolin drew off enemies with her illusions, Shallan asked the Oathgate's spren to let them through, but they refused, bound by Honor's last command.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
         },
         {
-          "text": "At the Battle of Thaylen Field, Shallan wove an army of everyone she had ever sketched to draw off the enemy, aided by Veil and Radiant. She turned a rock into a ruby for Lift, and Jasnah shielded her with fire when her Stormlight ran low.",
+          "text": "Charged by a Fused, Shallan made a bead holding the soul of a wall manifest physically. Wounded and out of Stormlight, the group fell back into the sea of beads and lost hope, until Dalinar, in the Physical Realm, summoned Honor's perpendicularity and gave them a way out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "119" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle of Thaylen Field",
+          "revealedIn": [
+            { "book": "oathbringer", "chapter": "120" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Joining Dalinar, Shallan was told to draw off the enemy with an illusory army. With the realms briefly drawn together, she summoned everyone she had ever sketched, and created Veil and Radiant to help as she weakened. She gave her illusions realistic deaths to satisfy the enemy's Thrill, though each felt like losing part of herself. At Lift's request, she made a rock look like a ruby.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
         },
         {
-          "text": "Adolin offered to step aside for Kaladin, but Shallan told him she loved him. She helped make Jasnah queen and married Adolin with Veil and Radiant beside her. Her brothers arrived with a note from Mraize asking her to win over Sja-anat.",
+          "text": "As the Fused tore through her illusions and her Stormlight ran out, Jasnah Soulcast a wall of flame to protect her and gave her advice on Soulcasting. Recovering at Navani's camp, Shallan told Pattern she thought she might be better than before. The Thrill faded and the enemy retreated, Lift and Szeth having trapped the Unmade Nergaoul in the ruby.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "120" }]
+        },
+        {
+          "text": "After the battle, Adolin noticed Shallan glancing at Kaladin and offered to step aside. She told him she loved him, admitted that Veil was interested in Kaladin, and promised that none of her personas would pursue him.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "A new queen and a wedding",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "At a meeting with Dalinar, Adolin, urged by Shallan, confessed to killing Sadeas and refused the throne, and Shallan persuaded them to make Jasnah queen. A week afterward Shallan married Adolin, with Veil and Radiant beside her. Her brothers reached Urithiru bearing a note from Mraize: defeating Re-Shephir had paid part of her debt, and the Ghostbloods wanted her to win over Sja-anat.",
           "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
         }
       ]
@@ -398,33 +899,12 @@
       "title": [
         {
           "text": "The year after Thaylen City",
-          "revealedIn": [
-            { "book": "rhythm-of-war", "chapter": "20" },
-            { "book": "rhythm-of-war", "chapter": "8" },
-            { "book": "rhythm-of-war", "chapter": "12" },
-            { "book": "rhythm-of-war", "chapter": "13" }
-          ]
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
         }
       ],
       "items": [
         {
-          "text": "In the year after Thaylen City, Shallan finished her wardship with Jasnah, built up the Lightweavers, whom she led as the Unseen Court, and spied for the Ghostbloods. She, Veil and Radiant, known as the Three, put all major decisions to a vote under what they called the Compact.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
-        },
-        {
-          "text": "Posing as Veil, Shallan infiltrated the Sons of Honor and reached Ialai Sadeas, who died of poison before her personas could decide her fate. Shallan suspected a Ghostblood spy among her team and found Ialai's hidden notebook.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
-        },
-        {
-          "text": "Shallan felt something called Formless stirring inside her. She told Adolin about the Ghostbloods without admitting her membership, and Radiant warned Kaladin about half-formed personas in Shallan's mind.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
-        },
-        {
-          "text": "Sja-anat warned Shallan of more corrupted spren. Mraize told her the Ghostbloods wanted to carry Stormlight off Roshar and asked her to find a man named Restares in Lasting Integrity.",
-          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
-        },
-        {
-          "text": "Shallan volunteered to lead a mission to the honorspren of Lasting Integrity. Veil broke the Compact by taking control and choosing the members most suspected of being Ghostblood spies to come along.",
+          "text": "In the year after the battle, Shallan finished her wardship with Jasnah, built up the Lightweavers and spied for the Ghostbloods. Shallan, Veil and Radiant, known together as the Three, kept a balance called the Compact, putting major decisions to a vote. She led a band of Lightweavers called the Unseen Court.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
         }
       ]
@@ -432,68 +912,262 @@
     {
       "title": [
         {
-          "text": "Mission to Lasting Integrity",
+          "text": "Infiltrating the Sons of Honor",
           "revealedIn": [
-            { "book": "rhythm-of-war", "chapter": "24" },
-            { "book": "rhythm-of-war", "chapter": "26" },
-            { "book": "rhythm-of-war", "chapter": "32" },
-            { "book": "rhythm-of-war", "chapter": "36" },
-            { "book": "rhythm-of-war", "chapter": "78" },
-            { "book": "rhythm-of-war", "chapter": "90" },
-            { "book": "rhythm-of-war", "chapter": "93" },
-            { "book": "rhythm-of-war", "chapter": "115" },
-            { "book": "wind-and-truth", "chapter": "7" },
-            { "book": "wind-and-truth", "chapter": "13" }
+            { "book": "rhythm-of-war", "chapter": "6" },
+            { "book": "rhythm-of-war", "chapter": "8" },
+            { "book": "rhythm-of-war", "chapter": "9" }
           ]
-        },
-        {
-          "text": "Lasting Integrity and leaving Shadesmar",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
         }
       ],
       "items": [
         {
-          "text": "In Shadesmar, Shallan discovered her seon cube had been handled, proof of a spy, and withdrew, leaving Radiant in charge. Ialai's notebook named the Unmade Ba-Ado-Mishram as the Ghostbloods' target.",
+          "text": "After a month posing as a woman named Chanasha yielded nothing, Veil loudly denounced Dalinar in the warcamps' market, was drugged in a winehouse and kidnapped by the Sons of Honor. Swearing a false oath, she learned they had a spy close to Dalinar. When a rescue party under Adolin approached, the fleeing Sons reluctantly took her to Ialai.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "6" }]
+        },
+        {
+          "text": "Veil tried to make Ialai admit her crimes, but Ialai said she had access to the Kholins' inner circle and was sure she would be killed. As the personas debated killing her and chose not to, Ialai died of blackbane. Ishnah found the poison had been given by a pinprick. Fearing a Ghostblood spy on her strike force, Shallan found Ialai's hidden notebook.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "8" }]
+        },
+        {
+          "text": "Riding toward the Narak Oathgate, Shallan felt something stir that she called Formless, a possibility she feared becoming. Urged by Veil and Radiant, she told Adolin about the Ghostbloods without admitting she was a member, and showed him Ialai's notebook. Fearing the Ghostbloods fed Formless, she resolved to get out of the organization.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Back in Urithiru",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "12" },
+            { "book": "rhythm-of-war", "chapter": "13" },
+            { "book": "rhythm-of-war", "chapter": "19" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At Jez's Duty with Kaladin and Adolin, Radiant told Kaladin about half-formed personas lurking in Shallan's mind while the Three tested their balance, and Veil got drunk and gambled. Adolin told Kaladin he worried for Shallan, and Kaladin said the best he could do was show he cared and be there for her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "12" }]
+        },
+        {
+          "text": "Shallan woke hungover from Veil's drinking. A spanreed message from Sja-anat warned of more corrupted spren coming to the tower. Sketching with Jushu stirred unsettling memories, so she turned to Ialai's notebook. On the balcony, Veil spotted Mraize signaling for a talk, and Shallan grew uneasy at Balat's story of a friend called \"Gobby\".",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "Disguised as a guard, Shallan met Mraize, who praised her for stopping the Sons of Honor and revealed the Ghostbloods' goal of taking Stormlight off Roshar. She declined another job but passed on Sja-anat's warning. Hinting at Gavilar's secrets, Mraize offered more knowledge if she found a man called Restares at Lasting Integrity, and Shallan knew she could not resist.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "13" }]
+        },
+        {
+          "text": "At a meeting of the coalition of monarchs, Shallan helped Dalinar summon the map of Roshar. Some weeks on, when a mission to Lasting Integrity was proposed to win more honorspren for Radiants, she volunteered to lead it, choosing Adolin, Godeke, a Truthwatcher and a Stoneward to go.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "19" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Unseen Court",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Choosing who else to take, Radiant wanted to leave suspected spies behind, while Veil wanted them along to be watched. Shallan sided with Radiant, but Veil seized control, violating the Compact, and chose Ishnah, Vathah and Stargyle, the likeliest spies. That night Veil found a letter from Mraize and a box holding a seon for speaking with him in Shadesmar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "By barge across Shadesmar",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "22" },
+            { "book": "rhythm-of-war", "chapter": "24" },
+            { "book": "rhythm-of-war", "chapter": "26" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Three days after that, the envoy entered Shadesmar with Adolin, his guards including Felt, the Radiants Godeke, Zu and Arshqqam, and his horse Gallant; Beryl replaced the ailing Stargyle. Comparing her seon cube with a Memory, Shallan saw it had been moved, and panicked: the Ghostblood spy was with them.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
+        },
+        {
+          "text": "Shallan withdrew, leaving Radiant reluctantly in charge. Ialai's notebook named Ba-Ado-Mishram, an Unmade bound in a gemstone whom the Ghostbloods sought; they had hoped to find her at Urithiru but found the Midnight Mother instead. Shallan wondered whether this tied into the plan to take Stormlight off Roshar, and asked that Veil be freed to hunt the spy.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
         },
         {
-          "text": "Coached by Veil, Shallan fed each suspected spy a different false rumor, learning Ishnah's secret and Beryl's hopes along the way.",
+          "text": "Veil apologized for breaking the Compact and asked why Shallan stayed with the Ghostbloods; Shallan would not answer, and Formless stirred. Veil vowed never to let it take shape, and when she drew ugly pictures of Adolin, Shallan surfaced in fury and tore them up.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "Shallan laughed with Adolin as she told him she had first become Jasnah's ward to steal her Soulcaster. She asked the mistspren Dreaming-though-Awake about Ba-Ado-Mishram; the spren knew nothing, but suggested asking a Herald, since some had been present at her binding.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "24" }]
+        },
+        {
+          "text": "On the fourth day, Shallan resolved to find the spy, but Veil refused to take over and coached her instead: catch suspects in small lies and push them, and feed each a different false rumor to see which one reached Mraize.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
         },
         {
-          "text": "Mraize repeated one of the false rumors, pointing to Beryl. Veil explained to Adolin that Shallan feared people would leave her once they knew her past, and he promised never to leave.",
+          "text": "Questioning Ishnah, Shallan learned she had been funding her old gang, which spent the money on crime, and promised to sort it out back home. She told Ishnah she had seen corrupted windspren around the boat.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        },
+        {
+          "text": "Beryl, the newest member of the Unseen Court, told Shallan that humanity's greatest blessing was the power to change, as Shallan had shown her. Unsettled by the idea, Shallan gave way to Radiant, who told Beryl she had seen corrupted gloryspren.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        },
+        {
+          "text": "Radiant nearly asked Vathah outright whether he was the spy before Shallan took back over, told him he belonged to the Court whatever his past, and fed him a tale of corrupted fearspren in the beads. When Radiant said the same was true of Shallan's past, Shallan refused to believe it and pushed Radiant back to the fore.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "26" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trek to Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "30" },
+            { "book": "rhythm-of-war", "chapter": "32" },
+            { "book": "rhythm-of-war", "chapter": "34" },
+            { "book": "rhythm-of-war", "chapter": "35" },
+            { "book": "rhythm-of-war", "chapter": "36" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After two weeks, at a small outpost, Veil and Pattern stayed aboard to contact Mraize. The cube had moved again on a night Veil had been drunk, and holding it, Shallan recalled seeing one like it in her childhood. She told Mraize that Sja-anat's spren were watching them; he told her to look out for corrupted gloryspren, the rumor given to Beryl.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "30" }]
+        },
+        {
+          "text": "On the march, Veil shadowed Beryl. Adolin said Shallan had seemed strange, and when Radiant could not draw her out, Veil explained that Shallan feared the person everyone knew was a lie, and that once her loved ones learned the truth of her past they would see a monster and leave. Adolin promised he would never leave her.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "32" }]
         },
         {
-          "text": "Adolin coaxed Shallan out to sketch a starspren. A powder trap then implicated Pattern, who lied to her. Turned away from Lasting Integrity, Adolin demanded a trial.",
+          "text": "Veil came to doubt that Beryl was the spy. Walking with Adolin, she met Notum, who thought Adolin's mission futile but wished him luck. Adolin led her over a hill to see a starspren, and Shallan surfaced at once to sketch it as the two swapped stories of past failed romances.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        },
+        {
+          "text": "Veil dusted the cube with fine powder. Then Adolin rode past on Gallant: humans who had been trailing the group had attacked Notum. The Radiants left Pattern to watch the camp and hurried after him, but Adolin and Maya had already driven off the attackers.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "35" }]
+        },
+        {
+          "text": "The powder had been disturbed, though only Pattern had stayed behind. Veil tested him with an invented memory of Balat meeting a Ghostblood, and Pattern nervously claimed to remember it. Shallan retreated inside, and Veil resolved to protect her.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
         },
         {
-          "text": "Pattern showed Shallan a deadeye Cryptic and admitted he had used the cube to contact Wit, so there was no spy. The honorspren High Judge turned out to be the Herald Kelek, the Restares Mraize sought.",
+          "text": "At Lasting Integrity the honorspren refused to hear Adolin, so he demanded a trial to defend his honor against blame for the ancient Radiants. They agreed, and admitted Veil, Pattern and Maya into the fortress.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "36" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Lasting Integrity",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "75" },
+            { "book": "rhythm-of-war", "chapter": "78" },
+            { "book": "rhythm-of-war", "chapter": "82" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "With Shallan withdrawn and Formless surfacing whenever she did, Veil and Radiant agreed to find Restares but act only with Shallan's vote. Waiting for a man called Sixteen, Radiant got Pattern to admit he had lied. He showed her a deadeye Cryptic, and Shallan erupted, declared Pattern a traitor and seized Sixteen at knifepoint, but he did not match Restares's description.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "75" }]
+        },
+        {
+          "text": "Pattern admitted he had used the cube, but to contact Wit; the Ghostbloods had simply overheard, so none of her friends was a traitor. Shallan freed Veil and Radiant but wondered who, then, had killed Ialai. The High Judge then appeared and proved to be the Herald Kelek, who matched Restares's description: her target was a Herald.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "78" }]
         },
         {
-          "text": "Mraize sent a gem-pommeled knife to trap Kelek, suggesting she impersonate him to free Adolin. Shallan stole Stormlight while the deadeye Cryptic testified against Adolin. When Veil and Radiant voted against the plan, Formless spoke to Adolin.",
+          "text": "Mraize had her open the cube, which held a knife with a gemstone in its pommel, meant to trap Kelek alive inside it rather than kill him. He suggested she impersonate Kelek at the trial to clear Adolin and order the honorspren back into the war, and reminded the hesitant Shallan that full membership awaited her.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "82" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin's trial",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "87" },
+            { "book": "rhythm-of-war", "chapter": "90" },
+            { "book": "rhythm-of-war", "chapter": "93" },
+            { "book": "rhythm-of-war", "chapter": "115" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan planned to act on the last day of Adolin's trial, and faked an injury to sneak Stormlight from Lasting Integrity's gemstone vault.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        },
+        {
+          "text": "The trial went badly: the honorspren produced the deadeye Cryptic, who had died not in the Recreance but a decade before. Shallan offered to break Adolin out with her stolen Stormlight; he chose to stay and win over honorspren. Inside, Shallan and Veil outvoted Radiant to follow Mraize's plan, until Veil changed her mind. Formless then spoke to Adolin, hinting that Kelek might surprise them.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "90" }]
         },
         {
-          "text": "Formless dressed as Veil and went to confront Kelek, brushing off Adolin and Pattern. Radiant confessed that she, not a spy, had killed Ialai to keep Shallan from becoming Formless.",
+          "text": "On the trial's final day, Formless dressed as Veil. Adolin sensed something wrong; Formless called Shallan weak and traitorous, and Adolin answered that those who struggle most are strong because they persist. Formless stormed off.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
         },
         {
-          "text": "Veil reappeared, offered Shallan her hidden memories, and reintegrated with her. Shallan recalled her first Cryptic, whom she had killed as a child, and spared Kelek before being arrested by the honorspren.",
+          "text": "Disguised as the honorspren Lusintia, Formless set out for Kelek's home, ordering Pattern to stay behind. Radiant then confessed that, having seen blackbane in Shallan's satchel and Shallan about to kill Ialai, she had killed Ialai herself to keep Shallan from becoming Formless.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
         },
         {
-          "text": "The deadeye Maya spoke at the trial, revealing the Radiants and spren chose the Recreance together, and Adolin was acquitted. Shallan rejoined with her first spren and quit the Ghostbloods.",
+          "text": "Formless Soulcast Kelek's door handle to get in. In his study, Stormlight left her and took Veil's shape. Veil told Shallan there was no fourth persona yet, but killing Kelek would make Formless real, and that Veil had kept her in the Ghostbloods as a way to leave her friends before they could leave her. Their weakness, Veil said, made them strong.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "Veil offered Shallan her memories. Shallan remembered a Cryptic from her childhood who was not Pattern: the spren she had summoned as a Blade to kill her mother. In her trauma she had declared her hatred and broken her oaths, killing that Cryptic. Veil assured her she had all of Veil's strength, and the two reintegrated, Veil's experiences and skills becoming Shallan's.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "Shallan realized the deadeye at the trial was the Cryptic she had killed. Putting down the knife, she told Kelek she would not hurt him and offered to help him in exchange for information. Lusintia burst in and arrested her, and the honorspren removed Kelek as High Judge \"for his own good\".",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "Sekeir took over as judge and called Maya to testify against Adolin, but she spoke, revealing that the spren of the Recreance had chosen with their Radiants to break their oaths. The honorspren declared Adolin innocent and freed him and Shallan. Shallan reunited with her first spren and named her Testament, then told Mraize she would no longer work with the Ghostbloods.",
           "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
-        },
+        }
+      ]
+    },
+    {
+      "title": [
         {
-          "text": "Shallan told Wit she had declared war on the Ghostbloods, and he hid her brothers. Kelek told her Ba-Ado-Mishram was imprisoned in the Spiritual Realm and that Shallan had an unusual attachment to it.",
+          "text": "Leaving Shadesmar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "7" },
+            { "book": "wind-and-truth", "chapter": "11" },
+            { "book": "wind-and-truth", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Waiting for a Windrunner escort, Shallan told Wit through her seon that she had declared war on the Ghostbloods, and he hid her brothers. She told him of Formless; he said true heroism required that capacity, and that she had chosen heroism by turning away.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "7" }]
         },
         {
-          "text": "When Heavenly Ones attacked, Shallan absorbed a Lashing and made a solid illusion of Radiant with a Shardblade to wound a Fused. Passing through the Azimir Oathgate, she spoke her fourth Truth and gained Shardplate.",
+          "text": "Kelek told her that Ba-Ado-Mishram was held in a gemstone in the Spiritual Realm, and declined to join her. He noticed her strange tie to that realm, which let her glimpse possible futures and sense Unmade like Mishram, whose likeness was creeping into her drawings, and warned it might show her unhealthy things. She hugged him and left with Adolin, Testament, Pattern, Maya, Gallant and their escort.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "7" }]
+        },
+        {
+          "text": "Heavenly Ones attacked as the Windrunners flew them across Shadesmar, and Adolin fell into the bead ocean. Lashed in place by Drehy, Shallan told herself \"Be. Drehy.\", absorbed the Stormlight of his Lashing and dropped into the beads. Attacked there by Abidi the Monarch, she spoke a Truth and made a solid illusion of Radiant with a Shardblade, which wounded him and drove him off.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        },
+        {
+          "text": "Regrouping, Shallan shaped a room in the bead ocean to carry the group away, and they escaped the Heavenly Ones, only to see an army of singers, Regals and Fused heading for the Azimir Oathgate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        },
+        {
+          "text": "At the Azimir Oathgate, corrupted by Sja-anat, the spren let Shallan's group through but would let the Fused through too. Back in the Physical Realm, Shallan was suddenly encased in garnet Shardplate and realized she had spoken her fourth Truth. Kaladin warned they might not meet again; she made him promise drinks for the four of them after the war, then used Testament to open the Oathgate to Urithiru.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
         }
       ]
@@ -503,72 +1177,205 @@
         {
           "text": "Striking at the Ghostbloods",
           "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "15" },
             { "book": "wind-and-truth", "chapter": "23" },
+            { "book": "wind-and-truth", "chapter": "26" },
             { "book": "wind-and-truth", "chapter": "29" },
-            { "book": "wind-and-truth", "chapter": "33" },
-            { "book": "wind-and-truth", "chapter": "54" },
-            { "book": "wind-and-truth", "chapter": "65" },
-            { "book": "wind-and-truth", "chapter": "76" },
-            { "book": "wind-and-truth", "chapter": "86" },
-            { "book": "wind-and-truth", "chapter": "93" },
-            { "book": "wind-and-truth", "chapter": "99" },
-            { "book": "wind-and-truth", "chapter": "121" },
-            { "book": "wind-and-truth", "chapter": "131" },
-            { "book": "wind-and-truth", "chapter": "141" }
+            { "book": "wind-and-truth", "chapter": "33" }
           ]
         },
         {
-          "text": "The Ghostbloods and the Spiritual Realm",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "44" }]
+          "text": "Infiltrating the Ghostbloods",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
         }
       ],
       "items": [
         {
-          "text": "Shallan warned the coalition of an invasion and planned her strike against the Ghostbloods, then infiltrated their hideout in Narak disguised as a guard.",
+          "text": "Shallan warned the coalition of monarchs of a Fused invasion of Azimir through Shadesmar, then asked Adolin to tell Dalinar of her plan to bring down the Ghostbloods and to get her Windrunners for a strike force. The two shared a quiet, intimate moment in Urithiru.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }]
+        },
+        {
+          "text": "With the Unseen Court, Shallan learned the Ghostbloods would meet in Narak, and disguised as crem scrappers they approached the compound. Shallan trapped a guard inside her Shardplate, took his clothes and mask, and went in without an illusion, since the Ghostbloods had a sand that could detect Surgebinding.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "23" }]
         },
         {
-          "text": "Inside, Shallan learned of anti-Stormlight weapons and the Ghostbloods' plan to reach Mishram. Iyatil saw through her disguise and shot her with an anti-Stormlight bolt before escaping.",
+          "text": "Inside, Veil talked her through her panic. Shallan learned the Ghostbloods had anti-Stormlight weapons, knew Ba-Ado-Mishram was in the Spiritual Realm, and had spied through the seon they gave her and Adolin's guard Felt. Mraize and Iyatil had bonded spren corrupted by Sja-anat that could find Mishram's prison, and planned to reach the Spiritual Realm through the perpendicularity Dalinar meant to open.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "26" }]
+        },
+        {
+          "text": "Iyatil told the disguised Shallan that Mishram could be used to control the Shards, then realized who she was and raised the alarm. Shallan's strike force poured in, but Iyatil shot her with an anti-Stormlight bolt before she and Mraize escaped into Shadesmar. Shallan held off healing, knowing that Stormlight meeting anti-Stormlight would explode.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
         },
         {
-          "text": "With Renarin and Rlain, Shallan caught Mraize and Iyatil at Dalinar's perpendicularity, but Mraize threw an anti-Stormlight knife into it, pulling them all into the Spiritual Realm.",
+          "text": "Shallan recruited Renarin and Rlain, Truthwatchers bonded to spren changed by Sja-anat, and went to where the perpendicularity would open, realizing the Ghostbloods were disguised as guards. In the fight they subdued Mraize and Iyatil, but Mraize threw an anti-Stormlight knife into the opening perpendicularity. It collapsed, pulling Shallan, Renarin, Rlain, the Ghostbloods and their spren into the Spiritual Realm, and trapping Dalinar and Navani.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Trapped in the Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "44" },
+            { "book": "wind-and-truth", "chapter": "49" },
+            { "book": "wind-and-truth", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After a day alone, Shallan was found by Renarin and Rlain, and they decided to enter the visions Dalinar and Navani were seeing, where Mraize and Iyatil were hunting clues to Mishram's location. Fearing she could not kill Mraize, Shallan told Radiant she might have to do it. Pattern warned that her soul could shape things there without her meaning to.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "44" }]
         },
         {
-          "text": "In the Spiritual Realm, Shallan, Renarin and Rlain entered the visions Dalinar and Navani were seeing. Shallan couldn't bring herself to attack Mraize, forcing Radiant to fight him, and Formless reappeared to urge her to kill.",
+          "text": "In a vision of the first humans coming to Roshar after Ashyn's destruction, the three found their bodies changed into singers. Shallan spotted Mraize near Dalinar but could not attack and forced Radiant forward; they fought to a standstill and parted before Odium noticed. Then Formless appeared, whispering that she should kill Mraize, and Shallan panicked and was thrown from the vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "49" }]
+        },
+        {
+          "text": "Shaken by Formless's return, Shallan wondered whether her mind could always backslide. Pattern comforted her, and she promised him she would never become Formless, whatever the Spiritual Realm showed her, before rejoining Renarin and Rlain to wait for the next vision.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "54" }]
-        },
+        }
+      ]
+    },
+    {
+      "title": [
         {
-          "text": "In a vision of the Oathpact, Shallan became Shalash and stabbed Mraize, who was disguised as Honor. Formless urged her to kill Dalinar and Navani, but with Veil's encouragement she faced the vision.",
+          "text": "The founding of the Oathpact",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "In a vision of the founding of the Oathpact, Shallan became Shalash and Renarin became Vedel. When the other Heralds left, Honor attacked them: it was Mraize in disguise. He drove out Renarin and Rlain, but Shallan stabbed him, and while the anti-Stormlight kept him from healing, they talked. His question of why Odium would keep Mishram imprisoned intrigued her so much that she had Radiant take over.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
         },
         {
-          "text": "Shallan watched a vision of Ba-Ado-Mishram healing singers. The real Mishram appeared, and Odium noticed them, scattering the group.",
+          "text": "Radiant warned that they needed to talk about Shallan pushing her forward when they had seen one of the Heralds. Then Formless reappeared and told Shallan to kill Dalinar and Navani, and she panicked and was thrown out of the vision again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        },
+        {
+          "text": "Pattern and Testament comforted her. Watching the Heralds approach in the vision, Shallan panicked at the sight of one in particular and tried to make Radiant take over, but Veil told her she had grown enough to face it, and she found she could. She rejoined Renarin and Rlain to make a better plan.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "65" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Meeting Ba-Ado-Mishram",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Watching Dalinar and Navani pass through Desolation after Desolation, Shallan spotted a re-creation of Ba-Ado-Mishram and had Renarin send her in. Inside a dying singer's body, she heard Pattern in her mind, their bond now strong enough for thought. Mishram healed her, saying that since Odium did not love them they must love themselves, and went on healing singers and singing dying humans to peace.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
         },
         {
-          "text": "Shallan relived meeting Testament, then saw the Recreance: Honor had betrayed Mishram, having her imprisoned in a gem.",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+          "text": "Then the real Mishram appeared. Glys pulled Shallan out, but she left an illusion behind to talk with Mishram, and realized that Odium kept her imprisoned because she could replace him. When Odium noticed them, Glys scattered the three so they could escape, leaving Shallan alone in the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "76" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Visions of the past",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "85" },
+            { "book": "wind-and-truth", "chapter": "86" }
+          ]
         },
         {
-          "text": "Reliving the night her mother died, Shallan confirmed her mother was the Herald Chana. She realized killing her had sent Chana back to Braize, where her breaking led to the current Desolation.",
+          "text": "The truth of the Recreance",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Pulled toward a vision of her mother's death, Shallan felt unready and instead relived the day she first met Testament. Each of the three faced a painful memory before regrouping; arriving last, Shallan squealed with delight to find Renarin and Rlain holding hands.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+        },
+        {
+          "text": "Suspecting their visions held clues to Mishram's prison, the group was brought by Glys into a vision of the Day of Recreance. They saw Honor betray Mishram as the Radiants were making peace with her singers, having the Bondsmith Melishi trap her in a gemstone and send them both to the Spiritual Realm. Her singers became parshmen, and the Radiants, losing faith in Honor, abandoned their oaths. Odium found them and destroyed the vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "86" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Daughter of a Herald",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "93" },
+            { "book": "wind-and-truth", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan woke as an unseen ghost in a vision of the night her mother died, and learned what she had feared: her mother was the Herald Chana. By killing her in self-defense, she had sent Chana back to Braize to be tortured until she broke, bringing the current Desolation. Supported by Pattern, Testament, Radiant and Veil, she came to terms with it, and told Pattern she had last seen her mother at her wedding.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
         },
         {
-          "text": "In a vision of her wedding, Shallan found Chana in the audience, distraught. She forgave her mother before Chana was pulled away.",
+          "text": "Reliving her wedding to Adolin, Shallan enjoyed it without nerves, and Testament, watching, looked less like a deadeye. After the vows, she faced the memory she had given Veil: her mother's haunted face in the crowd. Confronted, Chana said she had come because the Radiants had returned and her daughter was one, then huddled in a corner, weeping and clawing at her face. Shallan saw that she was the healthy one.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
         },
         {
-          "text": "Shallan spoke with Mraize on a vision beach, then was shown visions of her family's cycle of violence and herself killing everyone she loved, with Formless watching.",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+          "text": "Shallan knelt beside her mother and forgave her. Chana said she had only wanted a family, despite Ishar's warning, and blamed herself for the Desolation. Then she panicked: having died again months before, she was back on Braize, and the Fused had found her. She hugged Shallan and vanished; Pattern confirmed it had truly been Chana. Odium then destroyed the vision.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The cycle of violence",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "119" },
+            { "book": "wind-and-truth", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Hounded by a fragment of Odium, Shallan escaped with dozens of illusions of herself. Alone, she was drawn into a vision of a beach where Mraize sat atop a huge shelled carcass. He told her of his childhood and his wish to travel the cosmere, and that he was being punished for recruiting a poor Radiant. She asked whether they could avoid killing each other; he doubted it. She then let Odium show her what he wished.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "119" }]
         },
         {
-          "text": "Rejecting the fear that she would kill those she loved, Shallan reached Mishram's prison. She realized Formless was Iyatil in disguise and killed her with an anti-Stormlight knife.",
+          "text": "A flood of visions showed her the cycle of abuse in her family, then everyone she had killed: her father, her mother, Testament and Tyn. Reliving Tyn's death, she kept hacking at the body with Formless behind her, then saw herself killing Mraize, Wit, Jasnah, Sebarial, Palona, Dalinar, Navani and more, over and over. Formless told her she would kill everyone she grew close to.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "At Ba-Ado-Mishram's prison",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "129" },
+            { "book": "wind-and-truth", "chapter": "131" },
+            { "book": "wind-and-truth", "chapter": "137" },
+            { "book": "wind-and-truth", "chapter": "141" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Remembering Pattern's words, Shallan saw the fear that she would kill her mentors as a distortion: she had killed only in self-defense and would not hurt those she loved. Feeling Pattern again, she was pulled to Renarin and Rlain, and realized Mishram had shown her such visions out of her own fear. They were carried to Mishram's prison, and Shallan left the others with Mishram to confront Mraize.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "129" }]
+        },
+        {
+          "text": "Wondering where Iyatil was, Shallan saw Formless appear behind her and understood. She drove her anti-Stormlight dagger into Formless's face, and the illusion fell away to reveal Iyatil, who had been disguised as Formless throughout. When Iyatil panicked and drew in Stormlight, it met the anti-Stormlight and exploded in her head, killing her.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "131" }]
         },
         {
-          "text": "Shallan offered Mraize a future together; he refused, and she tricked him into a fatal stab. Radiant reintegrated with her, and Renarin and Rlain freed Mishram.",
+          "text": "Shallan used her gift of Fortune to show Mraize a future in which he joined her side and traveled to other worlds, but he refused. In the fight she tricked him with an illusion into dropping the real anti-Stormlight dagger and grabbing hers. They stabbed each other at once; hers pierced his heart, and when he drew in Stormlight in fear, his chest exploded.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "137" }]
+        },
+        {
+          "text": "Having killed Mraize without Radiant's help, Shallan reintegrated with her. She told Pattern she would never be \"healed\" and would always have to fight her mind, but felt much better. In the prison she watched Renarin and Rlain smash Ba-Ado-Mishram's gemstone and free her, and the group was returned to Shadesmar at the Oathgate they had used in Urithiru.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "141" }]
         }
       ]
@@ -577,16 +1384,27 @@
       "title": [
         {
           "text": "Stranded in Shadesmar",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "145" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
         }
       ],
       "items": [
         {
-          "text": "Shallan returned the corrupted spren to Sja-anat as Stormlight vanished, stranding her in Shadesmar. After months of travel, Thaidakar told her Roshar was in a time bubble.",
+          "text": "Shallan returned to Sja-anat the corrupted spren Mraize and Iyatil had bonded, and Sja-anat thanked her for caring for her children. Then the Oathgate spren shrank, light flared through every Oathgate, and the spren said the Stormlight and the Stormfather were gone, pulled back as Honor and Odium combined into Retribution. Asked how long it would last, it answered, \"Forever,\" leaving her unable to return to the Physical Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "145" }]
+        },
+        {
+          "text": "Shallan crossed Shadesmar for months to Cultivation's perpendicularity, only to find it had vanished when Cultivation left Roshar. At a camp of tents she confronted Felt and spoke by seon with Thaidakar, who told her Roshar sat in a bubble of slowed time; realigning would take a decade on Roshar and eighty years elsewhere in the cosmere, so seeking help offworld would cost decades.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         },
         {
-          "text": "Shallan got the seon Ala from Thaidakar, recruited Felt, and tried to reach Adolin through Wit. Her bond with Testament grew strong enough to restore the deadeye spren to life.",
+          "text": "Thaidakar declined to work with her. He would not be her enemy, but thought killing Iyatil had gone too far, and warned that Iyatil's brother might seek revenge, though he was busy plotting an uprising against Thaidakar. Shallan said the Ghostbloods owed her and asked for the seon Ala, which he gave on condition that Ala report to him on events on Roshar.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        },
+        {
+          "text": "Shallan asked Felt to join her, and he shrugged and agreed. She then asked Ala to contact Wit's seon, Olo, and send him to Azimir in the hope of reaching Adolin.",
           "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
@@ -607,16 +1425,24 @@
   ],
   "personality": [
     {
-      "text": "Shallan loves learning and is rarely without her sketchbook, recording plants, animals and people with great skill. She can take a Memory of a scene and afterward draw it with near-perfect accuracy.",
-      "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
-    },
-    {
       "text": "Raised in seclusion, Shallan was considered shy and delicate, though she always had a quick tongue. She began naive about the world and money, but quickly grew in confidence once away from home.",
       "revealedIn": [
         {
           "all": [
             { "book": "way-of-kings", "chapter": "i-2" },
             { "book": "words-of-radiance", "chapter": "43" }
+          ]
+        }
+      ]
+    },
+    {
+      "text": "She craves knowledge, enough to work with the Ghostbloods for the secrets of the cosmere, yet shies away from the secrets of her own past, often needing Pattern, Veil or Radiant to push her to face them.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "way-of-kings", "chapter": "8" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "rhythm-of-war", "chapter": "93" }
           ]
         }
       ]
@@ -631,6 +1457,563 @@
             { "book": "rhythm-of-war", "chapter": "26" },
             { "book": "wind-and-truth", "chapter": "31" }
           ]
+        }
+      ]
+    },
+    {
+      "text": "Shallan is attracted to women as well as men, though her upbringing keeps her from admitting it; Veil is more open about it.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "85" }]
+    }
+  ],
+  "description": [
+    {
+      "title": [
+        {
+          "text": "Mental health",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "20" },
+            { "book": "wind-and-truth", "chapter": "16" },
+            { "book": "wind-and-truth", "chapter": "138" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan, Veil and Radiant reached a working balance they call the Compact, and with the other two behind her Shallan feels she can face anything.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        },
+        {
+          "text": "In time Shallan reintegrated her personas. She still hears their voices, and sees the change not as rejecting Veil or Radiant but as accepting that different parts of her have different needs and ideas.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "16" }]
+        },
+        {
+          "text": "For all her progress, she knows she will always have to fight her mind's old habits, and that she may slip back.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "138" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Veil",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "42" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "74" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "16" },
+            { "book": "wind-and-truth", "chapter": "93" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As Veil, Shallan appears as a slightly older darkeyed woman of the same height and build, with long dark hair, an angular face and a scar across her chin.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "42" }]
+        },
+        {
+          "text": "Veil is bold: a con artist and spy whose great strength is pushing pain aside to see the truth. She drinks hard, favours rugged men like Kaladin, and came to like Adolin as a drinking partner after the wedding. She pressed Shallan to face her past, and finally admitted helping her hide her memories; when Shallan faced them, Veil merged back into her.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "74" },
+                { "book": "rhythm-of-war", "chapter": "93" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "After reintegrating, Veil no longer takes over Shallan's body, but her voice still coaches Shallan from the back of her mind. Shallan is glad: Veil is a part of herself she loves.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "16" }]
+        },
+        {
+          "text": "Veil is the part of Shallan that looks away, guarding her from painful memories, among them the truth about her first spren, Testament, and who her mother really was.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Radiant",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "20" },
+                { "book": "wind-and-truth", "chapter": "9" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "93" },
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "15" },
+                { "book": "wind-and-truth", "chapter": "138" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "138" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Radiant first looked much like Shallan. In time she came to see herself as taller, more muscular and blonde, and, like Veil, older than Shallan.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "20" },
+                { "book": "wind-and-truth", "chapter": "9" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Radiant is determined and gets things done, part scholar and part soldier; Veil likens her to an honorspren. She learned the Shardblade from Adolin, dismisses others' opinions, and leaves the sneaking to Veil and Shallan. She thought a match between two Radiants, Shallan and Kaladin, made sense, but backed Shallan's choice of Adolin.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "Radiant is the part of Shallan that bore the weight of fighting, including the killing of her parents. She first surfaced after Tyn's death, and in Urithiru Shallan built her into a full persona to fit her role as a Knight Radiant.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "oathbringer", "chapter": "15" },
+                { "book": "wind-and-truth", "chapter": "138" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Radiant reintegrated once Shallan killed Mraize without her help, though, like Veil, she remains a presence at the back of Shallan's mind.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "138" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Formless",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "93" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "93" },
+                { "book": "wind-and-truth", "chapter": "3" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Formless was a persona Shallan began to build as an escape from her life with Adolin and the Radiants, which she felt she didn't deserve. Sure that the people she loved would leave once they learned what she was, she made Formless to leave them first.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "93" }]
+        },
+        {
+          "text": "She pictured Formless as a faceless version of herself, capable of terrible things: for a time, the monster she thought she deserved to be. She turned away from becoming Formless after reintegrating with Veil and regaining her memories.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "93" },
+                { "book": "wind-and-truth", "chapter": "3" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Unlike Veil and Radiant, Formless is not a separate persona but Shallan herself, as she would be if she gave up and became what Mraize wants.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "54" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Child",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "The Child is a persona Shallan never acknowledged until she began to face the truth about her mother: a child's voice crying in her mind. Veil had known of her all along and kept her safe.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "121" }]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Art and Memory",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "5" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "54" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            },
+            { "book": "oathbringer", "chapter": "33" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan is rarely without her sketchbook and charcoal, drawing and annotating plants, animals and people for her study of natural history. Her skill is widely admired, and many ask her to draw them.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
+        },
+        {
+          "text": "She can fix a scene in her mind by taking a Memory, then draw it, or copy out text, with remarkable accuracy.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "7" },
+                { "book": "words-of-radiance", "chapter": "54" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She has an uncanny sense of direction, finding her way through Urithiru's maze-like halls with ease and mapping routes in her head even when blindfolded.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "43" },
+                { "book": "oathbringer", "chapter": "6" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "While the Unmade Re-Shephir lurked beneath Urithiru, Shallan's drawings turned abstract and surreal without her noticing; they returned to normal once it was driven out.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "33" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Surgebinding",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "7" },
+            { "book": "oathbringer", "chapter": "8" },
+            { "book": "oathbringer", "chapter": "116" },
+            { "book": "oathbringer", "chapter": "121" },
+            { "book": "wind-and-truth", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Like Jasnah, Shallan can Soulcast without a fabrial. After a glimpse of Shadesmar she changed a goblet into blood, and she later turned the Wind's Pleasure into water to escape the men who attacked Jasnah aboard it.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "7" }]
+        },
+        {
+          "text": "Working with Dalinar, she wove a map of all Roshar out of Stormlight, even the lands she had never seen.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "8" }]
+        },
+        {
+          "text": "Her bond with Pattern gives her the Surges of Illumination and Transformation, and, like other Surgebinders, Stormlight makes her stronger, tougher and quick to heal.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "Stranded in Shadesmar, she shaped its beads into structures such as bridges and walls.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "116" }]
+        },
+        {
+          "text": "With practice her illusions grew: they move and make sounds without Pattern's help, and she can conjure them without drawing first, even a whole army. At Kholinar they seemed almost solid, and their light could drive back the Unmade Re-Shephir's creations.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        },
+        {
+          "text": "Substantiation, which the old Lightweavers banned, gives her illusions mass, so they can act in the world. She uses it to give Radiant a body, and to make weapons and armour strong enough to pierce Fused carapace.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Truths",
+          "revealedIn": [
+            { "book": "way-of-kings", "chapter": "70" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "11" },
+            { "book": "wind-and-truth", "chapter": "13" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "To prove to Jasnah that she had been to Shadesmar, Shallan spoke aloud the deepest truth she held, that she had killed her father, and it took her back there.",
+          "revealedIn": [{ "book": "way-of-kings", "chapter": "70" }]
+        },
+        {
+          "text": "Her bond with Pattern grows as she speaks Truths about herself. Arriving at Urithiru, Pattern led Shallan to relive the night her mother died; admitting at last that she had killed her mother deepened their bond.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Fighting the Fused Abidi in Shadesmar's sea of beads, Shallan spoke a Truth and gave an illusion of Radiant real substance, armed with a Shardblade that wounded him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "11" }]
+        },
+        {
+          "text": "Back through the Azimir Oathgate, she found she had spoken her fourth Truth.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Shardplate",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "With her fourth Truth, creationspren formed around Shallan as garnet-coloured Shardplate.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "13" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Twin bond",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "29" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan is bonded to two Cryptics, Pattern and Testament, and can summon each as a Shardblade; she uses Testament as a shield and Pattern as a sword. The double bond pulls her further toward Shadesmar, so she can enter it fully without the Surge of Transportation.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "29" }]
+        },
+        {
+          "text": "Because Shallan broke her bond with Testament as a child without full Intent, it never fully severed, and she was able to heal Testament from a deadeye.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Tie to the Spiritual Realm",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "5" },
+            { "book": "wind-and-truth", "chapter": "8" },
+            { "book": "wind-and-truth", "chapter": "118" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan glimpses the Spiritual Realm, which lets her sense the Unmade, see something of who a person could become, and work more deeply with Connection and Identity.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "5" }]
+        },
+        {
+          "text": "She may be able to mimic a person's Spiritual Identity: falling from Drehy's Lashing, she drew its Stormlight into herself.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "8" }]
+        },
+        {
+          "text": "Kelek thinks her unusual tie comes from being bonded to two spren; Shallan wonders whether being the daughter of a Herald plays a part too.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "118" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Espionage",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "49" }
+              ]
+            },
+            { "book": "rhythm-of-war", "chapter": "87" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan is a gifted mimic of handwriting and speech, once posing as Tyn over a spanreed, and copied a listener rhythm perfectly after hearing it once.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "42" },
+                { "book": "wind-and-truth", "chapter": "49" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "She is also good at sleight of hand, though Veil was better at it until they reintegrated.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "87" }]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Family",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "48" },
+            { "book": "words-of-radiance", "chapter": "88" },
+            { "book": "wind-and-truth", "chapter": "93" },
+            { "book": "wind-and-truth", "chapter": "99" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan is close to her four brothers. She adored the eldest, Helaran, who brought her gifts on his visits, and grieved deeply at his death. She keeps writing to Balat despite his cruelty to animals, helped settle Jushu's gambling debts by selling her necklace, and cheered the depressed Wikim with sheets of mathematics.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "48" }]
+        },
+        {
+          "text": "When Shallan's powers first showed, her mother and another man tried to kill her, and she killed her mother in self-defence. Her father took the blame but grew abusive, beating his sons and servants and blaming Shallan, until she and her brothers plotted his death.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Their parents' violent quarrels drove the children to hide under the stairs, where Shallan told her brothers stories until things calmed down.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "93" }]
+        },
+        {
+          "text": "Shallan feels love, anger and dread toward her mother, the Herald Chana, whose identity she had buried along with many memories of her. Remembering her mother's hesitation to kill her, Shallan came to want to forgive her, and the two reconciled in the Spiritual Realm.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "99" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Adolin Kholin",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "49" },
+            { "book": "oathbringer", "chapter": "122" },
+            { "book": "rhythm-of-war", "chapter": "34" },
+            { "book": "wind-and-truth", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Jasnah arranged Shallan's causal betrothal to her cousin Adolin. Meeting on the Shattered Plains, they found each other attractive, and on walks and a winehouse date they hit it off, helped by her unusual choice of topics.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "49" }]
+        },
+        {
+          "text": "Shallan grew comfortable enough with Adolin to share her true self. He taught her to fight with a Shardblade; she told him of her struggles with her identities, and he told her he had killed Sadeas. They married after the Battle of Thaylen Field.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "122" }]
+        },
+        {
+          "text": "A year into their marriage, Shallan still hid her Ghostblood ties, and felt she didn't deserve Adolin's love. As she withdrew behind her personas, he stayed patient, once coaxing her out by showing her a starspren in Shadesmar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "34" }]
+        },
+        {
+          "text": "Once at peace with her past, she told Adolin about the Ghostbloods, Testament and Formless. He never resented her secrets, he said, and treasured them because she chose to share them.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Testament",
+          "revealedIn": [
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Testament is the Cryptic Shallan knew as a child, and whose Blade she used to kill her mother; abandoning the bond left Testament a deadeye. On her second journey through Shadesmar Shallan realized Pattern was not that spren, found her again and named her Testament.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        },
+        {
+          "text": "Testament bears Shallan no hatred, and their bond grew strong enough to make her a living spren again.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Wit",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "55" },
+            { "book": "oathbringer", "chapter": "121" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wit comforted Shallan as a child at the Middlefest Fair, when she was upset about her family. She thinks highly of him, one of the few who can stand him, and hugged him when they met again on the Shattered Plains, to Adolin's and Kaladin's surprise.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
+        },
+        {
+          "text": "In Kholinar, Wit comforted her when she doubted herself, though he insisted he is not as kind as she thinks. She opened up about her personas, and he advised her to make them serve her instead of fearing them.",
+          "revealedIn": [{ "book": "oathbringer", "chapter": "121" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mraize",
+          "revealedIn": [
+            { "book": "words-of-radiance", "chapter": "88" },
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "13" },
+                { "book": "wind-and-truth", "chapter": "137" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Mraize of the Ghostbloods tracked Shallan down as the Alethi reached Urithiru, pressed her father's debt to them, and promised answers if she joined them.",
+          "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }]
+        },
+        {
+          "text": "Mraize vouched for Shallan and mentored her in the Ghostbloods. She knew he was dangerous and selfish, yet came to see him as a father figure. When she turned on the Ghostbloods she begged him to find another way, but he chose them over her, and she killed him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "rhythm-of-war", "chapter": "13" },
+                { "book": "wind-and-truth", "chapter": "137" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Unseen Court",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shallan has gathered followers on her travels, many of whom have become Lightweavers themselves; together they call themselves the Unseen Court.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }]
         }
       ]
     }

@@ -167,6 +167,14 @@ export const characterPortraits: Record<string, Portrait[]> = {
         { all: ['oathbringer', { book: 'rhythm-of-war', chapter: '2' }] },
       ],
     },
+    {
+      // Her Plate, with Pattern as a Blade, from the official WaT sketchbook page; she gains Plate in WaT 13, where Testament is first a Blade too.
+      src: '/portraits/shallan-davar-shardplate.webp',
+      alt: 'A pencil sketch of Shallan in full Shardplate with a satchel at her hip, a long Shardblade beside her',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '13' }],
+    },
   ],
   'dalinar-kholin': [
     {

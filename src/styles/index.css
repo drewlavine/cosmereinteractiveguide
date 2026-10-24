@@ -1345,6 +1345,56 @@ dd {
   line-height: 1.6;
 }
 
+/* Art set into a section, as on the Coppermind: beside the text, captioned.
+   Each section holds its own art so pictures don't pile into the next. */
+.character-story .page-subsection {
+  display: flow-root;
+}
+
+.character-figure {
+  float: right;
+  width: min(15rem, 42%);
+  margin: 0.25rem 0 0.75rem 1.25rem;
+}
+
+.character-figure img {
+  max-height: 22rem;
+  object-fit: contain;
+  object-position: center;
+}
+
+.art-caption {
+  display: block;
+  margin-bottom: 0.15rem;
+  color: var(--text);
+  font-size: 0.8rem;
+}
+
+.art-viewer .art-caption {
+  font-size: 0.95rem;
+}
+
+@media (max-width: 760px) {
+  .character-figure {
+    float: none;
+    width: auto;
+    margin: 0 auto 1rem;
+  }
+
+  .character-figure img {
+    width: auto;
+    max-width: 100%;
+    max-height: 20rem;
+    margin: 0 auto;
+  }
+
+  .character-figure .art-open {
+    width: fit-content;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+
 .fact-note {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.85em;

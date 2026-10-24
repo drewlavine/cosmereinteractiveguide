@@ -18,6 +18,7 @@ import { findBook, seriesOf } from '../data/books'
 import { findPerson } from '../data/people'
 import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { characterDetails } from '../data/characterDetails'
+import { characterFigures } from '../data/characterFigures'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { journeyAtlas, journeyMapPlanet } from '../data/journeyAtlas'
@@ -32,9 +33,11 @@ import {
   journeyIds,
   revealCharacterJourney,
   revealCharacterTravels,
+  revealFigures,
   revealPortrait,
   revealStory,
   type ShownJourneyStop,
+  type ShownSection,
 } from '../data/reveal'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystems } from '../state/reveal'
@@ -47,6 +50,11 @@ interface Part {
   className?: string
   show: boolean
   body: ReactNode
+}
+
+/** A section as a character page shows it (Appearance and Personality cite no books). */
+type Shown = Omit<ShownSection, 'items'> & {
+  items: { text: string; books?: ShownSection['items'][number]['books'] }[]
 }
 
 /**
@@ -207,21 +215,75 @@ export function CharacterDetail() {
         : undefined,
     }
   })()
-  const historyIds = slugs(
-    'history',
-    story.history.map((h) => h.title ?? ''),
-  )
   const paragraphs = story.history.flatMap(({ items }, i) =>
     items.map(({ books }, j) => ({ id: `history-${i}-${j}`, books })),
   )
   const more = (where: ShownJourneyStop['where']) =>
     historyParagraphFor(where, paragraphs)
-  const description = (
-    [
-      ['Appearance', story.appearance],
-      ['Personality', story.personality],
-    ] as const
-  ).filter(([, items]) => items.length > 0)
+  const figuresOf = characterFigures[character.id] ?? {}
+  const figureSpoilers = Object.values(figuresOf).some(
+    (list) => revealFigures(list, canSee).spoilers,
+  )
+  const description: Shown[] = [
+    ...(
+      [
+        ['Appearance', story.appearance],
+        ['Personality', story.personality],
+      ] as const
+    ).map(([title, items]) => ({
+      key: title,
+      title,
+      items: items.map((text) => ({ text })),
+    })),
+    ...story.description,
+  ].filter((s) => s.items.length > 0)
+
+  /**
+   * A part's titled sections, each with its art; paragraphs get ids
+   * (`<part>-<section>-<item>`) for links into the History.
+   */
+  const sections = (part: string, list: Shown[]) => {
+    const ids = slugs(
+      part,
+      list.map((s) => s.title ?? ''),
+    )
+    return list.map(({ key, title, items }, i) => {
+      const linked = new Set<string>()
+      const { figures } = revealFigures(
+        figuresOf[`${part}/${key}`],
+        canSee,
+        viewAnyway.has(scope),
+      )
+      const body = (
+        <>
+          {figures.map((f) => (
+            <PortraitArt
+              key={f.src}
+              className="character-portrait character-figure"
+              src={f.src}
+              alt={f.alt}
+              artist={f.artist}
+              artistUrl={f.artistUrl}
+              caption={f.caption}
+            />
+          ))}
+          {items.map(({ text, books }, j) => (
+            <p key={text} id={`${part}-${i}-${j}`}>
+              {link(text, linked)}
+              {books && <SourceMark books={books} />}
+            </p>
+          ))}
+        </>
+      )
+      return title ? (
+        <PageSubsection key={ids[i]} id={ids[i]} title={title}>
+          {body}
+        </PageSubsection>
+      ) : (
+        <Fragment key={`untitled-${i}`}>{body}</Fragment>
+      )
+    })
+  }
 
   const parts: Part[] = [
     {
@@ -258,58 +320,32 @@ export function CharacterDetail() {
       ),
     },
     {
-      id: 'history',
-      title: 'History',
-      className: 'character-story',
-      show: story.history.length > 0,
-      body: (
-        <>
-          {story.history.map(({ title, items }, i) => {
-            const linked = new Set<string>()
-            const paragraphs = items.map(({ text, books }, j) => (
-              <p key={text} id={`history-${i}-${j}`}>
-                {link(text, linked)}
-                <SourceMark books={books} />
-              </p>
-            ))
-            return title ? (
-              <PageSubsection
-                key={historyIds[i]}
-                id={historyIds[i]}
-                title={title}
-              >
-                {paragraphs}
-              </PageSubsection>
-            ) : (
-              <Fragment key={`untitled-${i}`}>{paragraphs}</Fragment>
-            )
-          })}
-        </>
-      ),
-    },
-    {
       id: 'description',
       title: 'Description',
       className: 'character-story',
       show: description.length > 0,
-      body: (
-        <>
-          {description.map(([heading, items]) => {
-            const linked = new Set<string>()
-            return (
-              <PageSubsection
-                key={heading}
-                id={`description-${heading.toLowerCase()}`}
-                title={heading}
-              >
-                {items.map((text) => (
-                  <p key={text}>{link(text, linked)}</p>
-                ))}
-              </PageSubsection>
-            )
-          })}
-        </>
-      ),
+      body: sections('description', description),
+    },
+    {
+      id: 'abilities',
+      title: 'Abilities',
+      className: 'character-story',
+      show: story.abilities.length > 0,
+      body: sections('abilities', story.abilities),
+    },
+    {
+      id: 'history',
+      title: 'History',
+      className: 'character-story',
+      show: story.history.length > 0,
+      body: sections('history', story.history),
+    },
+    {
+      id: 'relationships',
+      title: 'Relationships',
+      className: 'character-story',
+      show: story.relationships.length > 0,
+      body: sections('relationships', story.relationships),
     },
     {
       id: 'appearances',
@@ -515,6 +551,7 @@ export function CharacterDetail() {
           shown.spoilers ||
           story.spoilers ||
           art.spoilers ||
+          figureSpoilers ||
           travels.spoilers ||
           journey.spoilers
         }

@@ -30,6 +30,7 @@ import type {
   Story,
   CharacterStory,
   StoryItem,
+  StorySection,
   FactSource,
 } from './types'
 
@@ -482,6 +483,18 @@ export function revealCharacter(
   }
 }
 
+/** A section of a character's prose the reader may see. */
+export interface ShownSection {
+  /**
+   * The section's first title, which stays put as later titles replace it;
+   * only for finding its art (see characterFigures), never shown, as it may
+   * name something the reader hasn't reached.
+   */
+  key: string
+  title?: string
+  items: { text: string; books: BookSource[] }[]
+}
+
 /** A character's prose trimmed to what the reader may see. */
 export interface ShownStory {
   /** The latest "who they are" line the reader may see. */
@@ -491,9 +504,12 @@ export interface ShownStory {
    * does, under its latest title the reader may see; each item notes the
    * books it's from.
    */
-  history: { title?: string; items: { text: string; books: BookSource[] }[] }[]
+  history: ShownSection[]
   appearance: string[]
   personality: string[]
+  description: ShownSection[]
+  abilities: ShownSection[]
+  relationships: ShownSection[]
   /** Whether unread books hide any of it. */
   spoilers: boolean
 }
@@ -512,7 +528,15 @@ export function revealStory(
 ): ShownStory {
   const v = view(characterId, canSee)
   if (!v || !prose)
-    return { history: [], appearance: [], personality: [], spoilers: false }
+    return {
+      history: [],
+      appearance: [],
+      personality: [],
+      description: [],
+      abilities: [],
+      relationships: [],
+      spoilers: false,
+    }
   const { details, persona, trim } = v
 
   let spoilers = false
@@ -527,24 +551,29 @@ export function revealStory(
   const aboutPersona = ({ revealedIn }: StoryItem) =>
     revealedIn.flatMap(pointBooks).every((b) => personaBooks.has(b))
 
-  const history = prose.history
-    .map(({ title, items }) => ({
-      title: title.filter(show).at(-1)?.text,
-      items: items.filter(show).map(({ text, revealedIn }) => ({
-        text,
-        books: pointSources(trim(revealedIn)),
-      })),
-    }))
-    .filter((s) => s.items.length > 0)
+  const sections = (list: StorySection[] = []): ShownSection[] =>
+    list
+      .map(({ title, items }) => ({
+        key: title[0]?.text ?? '',
+        title: title.filter(show).at(-1)?.text,
+        items: items.filter(show).map(({ text, revealedIn }) => ({
+          text,
+          books: pointSources(trim(revealedIn)),
+        })),
+      }))
+      .filter((s) => s.items.length > 0)
 
   return {
     intro: prose.intro
       .filter((i) => persona || !aboutPersona(i))
       .filter(show)
       .at(-1)?.text,
-    history,
+    history: sections(prose.history),
     appearance: prose.appearance.filter(show).map((i) => i.text),
     personality: prose.personality.filter(show).map((i) => i.text),
+    description: sections(prose.description),
+    abilities: sections(prose.abilities),
+    relationships: sections(prose.relationships),
     spoilers,
   }
 }
@@ -563,6 +592,22 @@ export function revealPortrait(
   return {
     portrait: (viewAnyway ? portraits : visible).at(-1),
     spoilers,
+  }
+}
+
+/**
+ * Every piece of art for a part of a page the reader may see (or, with
+ * `viewAnyway`, all of it), and whether unread books hide any.
+ */
+export function revealFigures<T extends Portrait>(
+  figures: readonly T[] = [],
+  canSee: CanSee,
+  viewAnyway = false,
+): { figures: T[]; spoilers: boolean } {
+  const visible = figures.filter((f) => canSee(f.revealedIn))
+  return {
+    figures: viewAnyway ? [...figures] : visible,
+    spoilers: visible.length < figures.length,
   }
 }
 

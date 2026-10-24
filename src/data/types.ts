@@ -560,11 +560,23 @@ export interface CharacterStory {
    * Their life in in-world order, like the Coppermind's History: sections
    * (each with title versions, earliest first) of items, in the order shown.
    */
-  history: { title: StoryItem[]; items: StoryItem[] }[]
+  history: StorySection[]
   /** How they look. */
   appearance: StoryItem[]
   /** Who they are: character, habits, outlook. */
   personality: StoryItem[]
+  /** More of the Description after Appearance and Personality, e.g. a persona. */
+  description?: StorySection[]
+  /** Powers and skills, e.g. Surgebinding, Ideals, Shardplate. */
+  abilities?: StorySection[]
+  /** One section per person or group. */
+  relationships?: StorySection[]
+}
+
+/** A titled part of a character's prose: title versions, earliest first, and items. */
+export interface StorySection {
+  title: StoryItem[]
+  items: StoryItem[]
 }
 
 /** A family tie, revealed where the books make it clear. */
