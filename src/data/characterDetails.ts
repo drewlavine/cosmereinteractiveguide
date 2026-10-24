@@ -56,10 +56,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Highmarshal',
-        revealedIn: [{ book: 'wind-and-truth', chapter: '144' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '3' }],
       },
       { name: 'Captain of the Bridgemen', revealedIn: ['wind-and-truth'] },
-      { name: 'Son of Tanavast', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Son of Tanavast',
+        revealedIn: [{ book: 'oathbringer', chapter: '31' }],
+      },
       { name: 'Knight of Wind', revealedIn: ['wind-and-truth'] },
       { name: 'Head of the Cobalt Guard', revealedIn: ['wind-and-truth'] },
       {
@@ -161,12 +164,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         relation: 'sibling',
         characterId: 'oroden',
         revealedIn: [{ book: 'oathbringer', chapter: '7' }],
-      },
-      {
-        name: 'Aesudan',
-        relation: 'relative',
-        characterId: 'aesudan-kholin',
-        revealedIn: ['wind-and-truth'],
       },
     ],
     born: [
@@ -297,32 +294,32 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Radiant', revealedIn: ['oathbringer'] },
       {
         name: 'Swiftspren',
-        revealedIn: [{ book: 'oathbringer', chapter: '72' }],
-      },
-      {
-        name: 'little knife',
         revealedIn: [{ book: 'oathbringer', chapter: '74' }],
       },
       {
-        name: 'Kishi',
+        name: 'little knife',
         revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
       },
+      { name: 'Kishi', revealedIn: [{ book: 'oathbringer', chapter: '78' }] },
       {
         name: 'Formless',
         revealedIn: [{ book: 'rhythm-of-war', chapter: '9' }],
       },
       {
         name: "Unulukuak'kina'autu'atai",
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '90' }],
+        revealedIn: [{ book: 'words-of-radiance', chapter: '28' }],
       },
       {
         name: 'Chanasha Hasareh',
-        revealedIn: [{ book: 'words-of-radiance', chapter: '28' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '4' }],
       },
-      { name: 'Master Lightweaver', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Master Lightweaver',
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      },
       {
         name: 'Shallan Kholin',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '147' }],
       },
     ],
     species: [
@@ -358,7 +355,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Ghostbloods',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+        revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
       },
     ],
     bonds: [
@@ -453,7 +450,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Highprince of War',
         revealedIn: [{ book: 'way-of-kings', chapter: '69' }],
       },
-      { name: 'King of Urithiru', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'King of Urithiru',
+        revealedIn: [{ book: 'dawnshard', chapter: '1' }],
+      },
       {
         name: 'Honor',
         revealedIn: [{ book: 'wind-and-truth', chapter: '139' }],
@@ -2262,8 +2262,11 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'alloy-of-law', chapter: '1' }],
       },
       { name: 'Skimmer', revealedIn: [{ book: 'alloy-of-law', chapter: '1' }] },
-      { name: 'Hemalurgist', revealedIn: ['lost-metal'] },
-      { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+      },
+      { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '72' }] },
     ],
     nationality: [],
     profession: [
@@ -2366,10 +2369,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
     },
     aliases: [
-      { name: 'Maxil', revealedIn: ['lost-metal'] },
+      { name: 'Maxil', revealedIn: [{ book: 'alloy-of-law', chapter: '2' }] },
       {
         name: 'Abrigain',
-        revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
+        revealedIn: [{ book: 'alloy-of-law', chapter: '16' }],
       },
       { name: 'Charetel', revealedIn: ['lost-metal'] },
       { name: 'Farnsward Dubs', revealedIn: ['lost-metal'] },
@@ -2389,8 +2392,11 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Bloodmaker',
         revealedIn: [{ book: 'alloy-of-law', chapter: '2' }],
       },
-      { name: 'Hemalurgist', revealedIn: ['lost-metal'] },
-      { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '69' }] },
+      {
+        name: 'Hemalurgist',
+        revealedIn: [{ book: 'lost-metal', chapter: '69' }],
+      },
+      { name: 'Mistborn', revealedIn: [{ book: 'lost-metal', chapter: '71' }] },
     ],
     nationality: [],
     profession: [
@@ -2774,12 +2780,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         revealedIn: [{ book: 'warbreaker', chapter: '33' }],
       },
       {
-        name: 'Denth',
-        relation: 'relative',
-        characterId: 'denth',
-        revealedIn: ['warbreaker'],
-      },
-      {
         name: 'Vo',
         relation: 'ancestor',
         characterId: 'vo',
@@ -2948,11 +2948,11 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       { name: 'Lightsong the Bold', revealedIn: ['warbreaker'] },
       { name: 'Lord of Heroes', revealedIn: ['warbreaker'] },
-      { name: 'Lightsong the Brave', revealedIn: ['warbreaker'] },
       {
-        name: 'God of Bravery',
+        name: 'Lightsong the Brave',
         revealedIn: [{ book: 'warbreaker', chapter: '16' }],
       },
+      { name: 'God of Bravery', revealedIn: ['warbreaker'] },
     ],
     species: [
       { name: 'Human', revealedIn: [{ book: 'warbreaker', chapter: '3' }] },
@@ -4029,7 +4029,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         ],
       },
       { name: 'Zellion', revealedIn: [{ book: 'sunlit-man', chapter: '39' }] },
-      { name: 'Sunlit', revealedIn: [{ book: 'sunlit-man', chapter: '39' }] },
+      { name: 'Sunlit', revealedIn: [{ book: 'sunlit-man', chapter: '11' }] },
       { name: 'Sig', revealedIn: ['wind-and-truth'] },
       {
         name: 'Sunlit Man',
@@ -4185,10 +4185,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
       revealedIn: [{ book: 'well-of-ascension', chapter: '12' }],
     },
     aliases: [
-      { name: 'Alendi the Conqueror', revealedIn: ['well-of-ascension'] },
+      {
+        name: 'Alendi the Conqueror',
+        revealedIn: [{ book: 'well-of-ascension', chapter: '41' }],
+      },
       {
         name: 'Hero of Ages',
-        revealedIn: [{ book: 'well-of-ascension', chapter: '41' }],
+        revealedIn: [{ book: 'final-empire', chapter: '27' }],
       },
       {
         name: 'King of Khlennium',
@@ -7421,10 +7424,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'First Emperor',
-        revealedIn: [
-          { book: 'well-of-ascension', chapter: '37' },
-          { book: 'bands-of-mourning', chapter: '3' },
-        ],
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '3' }],
       },
     ],
     species: [
@@ -7804,11 +7804,6 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Idren Seeris',
         relation: 'relative',
         characterId: 'idren-seeris',
-        revealedIn: ['final-empire'],
-      },
-      {
-        name: 'Anastas Elariel',
-        relation: 'relative',
         revealedIn: [{ book: 'final-empire', chapter: '30' }],
       },
     ],
@@ -9358,13 +9353,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
     aliases: [
       { name: 'Mist Spirit', revealedIn: ['secret-history'] },
       { name: 'Fuzz', revealedIn: ['secret-history'] },
-      { name: 'Terr', revealedIn: ['secret-history'] },
+      { name: 'Terr', revealedIn: [{ book: 'hero-of-ages', chapter: '75' }] },
       {
         name: 'Frue',
-        revealedIn: [
-          { book: 'hero-of-ages', chapter: '75' },
-          { book: 'bands-of-mourning', chapter: '22' },
-        ],
+        revealedIn: [{ book: 'bands-of-mourning', chapter: '22' }],
       },
       { name: 'Preservation', revealedIn: ['secret-history'] },
     ],
@@ -10184,15 +10176,15 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'God of Storms',
-        revealedIn: [{ book: 'words-of-radiance', chapter: 'i-8' }],
-      },
-      {
-        name: 'Spren of Storms',
         revealedIn: [{ book: 'words-of-radiance', chapter: '59' }],
       },
       {
-        name: 'Father of Storms',
+        name: 'Spren of Storms',
         revealedIn: [{ book: 'oathbringer', chapter: '31' }],
+      },
+      {
+        name: 'Father of Storms',
+        revealedIn: [{ book: 'oathbringer', chapter: '64' }],
       },
     ],
     species: [
@@ -10212,7 +10204,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Sliver',
-        revealedIn: [{ book: 'wind-and-truth', chapter: '113' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '124' }],
       },
     ],
     nationality: [],
@@ -11084,7 +11076,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Herald of Luck',
-        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
       },
       {
         name: 'Herald of Mysteries',
@@ -11092,7 +11084,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Herald of Oaths',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '129' }],
       },
       {
         name: 'Patron of the Bondsmiths',
@@ -11108,11 +11100,11 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Herald of Heralds',
-        revealedIn: [{ book: 'way-of-kings', chapter: '23' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
       },
       {
         name: 'God of Gods',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '111' }],
+        revealedIn: [{ book: 'edgedancer', chapter: '13' }],
       },
       {
         name: 'Binder of the World',
@@ -11414,7 +11406,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Unseen Court',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
       },
       {
         name: 'Sadeas army',
@@ -11559,7 +11551,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'God of Passions',
-        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-2' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: 'i-12' }],
       },
       {
         name: 'Retribution',
@@ -13300,7 +13292,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Kelek', revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }] },
       {
         name: 'Restares',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '82' }],
+        revealedIn: [{ book: 'rhythm-of-war', chapter: '78' }],
       },
       {
         name: "Kelek'Elin",
@@ -13451,7 +13443,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       { name: 'Sailor', revealedIn: [{ book: 'oathbringer', chapter: '108' }] },
     ],
     groups: [
-      { name: 'Cobalt Guard', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Cobalt Guard',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '67' }],
+      },
       {
         name: 'Unoathed',
         revealedIn: [{ book: 'wind-and-truth', chapter: '136' }],
@@ -13586,7 +13581,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Bearer of Agonies',
-        revealedIn: [{ book: 'oathbringer', chapter: '117' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '84' }],
       },
       {
         name: 'Patron of the Stonewards',
@@ -13672,7 +13667,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Patron of the Windrunners',
         revealedIn: [{ book: 'oathbringer', chapter: '64' }],
       },
-      { name: 'Bringer of water and life', revealedIn: ['wind-and-truth'] },
+      {
+        name: 'Bringer of water and life',
+        revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
+      },
       {
         name: 'Master of the storms',
         revealedIn: [{ book: 'way-of-kings', chapter: '55' }],
@@ -14304,12 +14302,9 @@ export const characterDetails: Record<string, CharacterDetails> = {
     abilities: [
       {
         name: 'Elsecaller',
-        revealedIn: [{ book: 'wind-and-truth', chapter: '28' }],
-      },
-      {
-        name: 'Worldhopper',
         revealedIn: [{ book: 'wind-and-truth', chapter: '134' }],
       },
+      { name: 'Worldhopper', revealedIn: ['wind-and-truth'] },
     ],
     nationality: [],
     profession: [],
@@ -17584,10 +17579,13 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Odium',
         revealedIn: [{ book: 'words-of-radiance', chapter: '71' }],
       },
-      { name: 'Passion', revealedIn: [{ book: 'oathbringer', chapter: '57' }] },
+      {
+        name: 'Passion',
+        revealedIn: [{ book: 'wind-and-truth', chapter: '58' }],
+      },
       {
         name: 'King of gods',
-        revealedIn: [{ book: 'wind-and-truth', chapter: '58' }],
+        revealedIn: [{ book: 'oathbringer', chapter: '37' }],
       },
     ],
     species: [
@@ -17619,8 +17617,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       revealedIn: [{ book: 'wind-and-truth', chapter: '100' }],
     },
     aliases: [
-      { name: 'Elithanathile', revealedIn: ['wind-and-truth'] },
-      { name: 'Tavast', revealedIn: [{ book: 'way-of-kings', chapter: '7' }] },
+      {
+        name: 'Elithanathile',
+        revealedIn: [{ book: 'way-of-kings', chapter: '7' }],
+      },
       {
         name: 'Tanner',
         revealedIn: [{ book: 'wind-and-truth', chapter: '104' }],
@@ -17728,7 +17728,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Paladar',
         relation: 'relative',
         characterId: 'paladar',
-        revealedIn: [{ book: 'oathbringer', chapter: '26' }],
+        revealedIn: [{ book: 'oathbringer', chapter: '45' }],
       },
       {
         name: 'Sadees',
@@ -25105,10 +25105,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Bondsmith magic',
         revealedIn: [{ book: 'oathbringer', chapter: '111' }],
       },
-      {
-        name: 'Splinter of Cultivation',
-        revealedIn: [{ book: 'oathbringer', chapter: '111' }],
-      },
+      { name: 'Splinter of Cultivation', revealedIn: ['wind-and-truth'] },
       {
         name: 'Old Magic',
         revealedIn: [{ book: 'way-of-kings', chapter: 'i-7' }],
@@ -36619,10 +36616,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Unseen Court',
         revealedIn: [{ book: 'rhythm-of-war', chapter: '50' }],
       },
-      {
-        name: 'Sadeas army',
-        revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
-      },
+      { name: 'Sadeas army', revealedIn: ['wind-and-truth'] },
     ],
     bonds: [],
     relatives: [],

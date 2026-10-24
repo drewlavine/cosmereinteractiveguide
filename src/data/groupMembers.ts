@@ -27,6 +27,7 @@ export const groupMembers: Record<
       revealedIn: [
         { book: 'way-of-kings', chapter: '23' },
         { book: 'rhythm-of-war', chapter: '111' },
+        { book: 'wind-and-truth', chapter: '129' },
       ],
     },
     {
@@ -603,7 +604,10 @@ export const groupMembers: Record<
       characterId: 'niter',
       revealedIn: [{ book: 'way-of-kings', chapter: '28' }],
     },
-    { characterId: 'notum', revealedIn: ['wind-and-truth'] },
+    {
+      characterId: 'notum',
+      revealedIn: [{ book: 'wind-and-truth', chapter: '67' }],
+    },
     {
       characterId: 'tibon',
       revealedIn: [{ book: 'way-of-kings', chapter: '18' }],
@@ -808,7 +812,7 @@ export const groupMembers: Record<
     },
     {
       characterId: 'shallan-davar',
-      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+      revealedIn: [{ book: 'words-of-radiance', chapter: '54' }],
     },
     {
       characterId: 'thaidakar',
@@ -1367,7 +1371,7 @@ export const groupMembers: Record<
     },
     {
       characterId: 'vathah',
-      revealedIn: [{ book: 'rhythm-of-war', chapter: '7' }],
+      revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
     },
   ],
   'culture:veristitalian': [
