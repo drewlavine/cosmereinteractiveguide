@@ -1,7 +1,7 @@
 import { EntryPage } from '../components/EntryPage'
 import { PageSection } from '../components/PageSections'
 import { useLinkText } from '../components/LinkedText'
-import { CardPeople, SprenCard } from '../components/SprenCards'
+import { CardPeople, EntryCard } from '../components/EntryCards'
 import { entryArt } from '../data/entryArt'
 import {
   cachedEntryStory,
@@ -101,7 +101,7 @@ export function LesserSprenPage() {
     >
       {groups.map((g) => (
         <PageSection key={g.id} id={g.id} title={g.title}>
-          <div className="spren-cards">
+          <div className="entry-cards">
             {g.kinds.map((k) => {
               const linked = new Set([`lifeform:${k.id}`])
               const text = [
@@ -109,12 +109,12 @@ export function LesserSprenPage() {
                 ...k.shown.description,
               ]
               return (
-                <SprenCard key={k.id} id={k.id} title={k.name} art={k.art}>
+                <EntryCard key={k.id} id={k.id} title={k.name} art={k.art}>
                   {text.map((t) => (
                     <p key={t}>{link(t, linked)}</p>
                   ))}
                   <CardPeople people={k.people} />
-                </SprenCard>
+                </EntryCard>
               )
             })}
           </div>

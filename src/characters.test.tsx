@@ -71,7 +71,9 @@ describe('characters pages', () => {
       within(kGroup).getByRole('link', { name: 'Kaladin' }),
     ).toBeInTheDocument()
     expect(characterLinks()).toHaveLength(characters.length)
-    expect(screen.queryByText(/hidden based on books/)).toBeNull()
+    expect(
+      screen.queryByText(/hidden based on what you've read so far/),
+    ).toBeNull()
   })
 
   it('hides characters the reader has not met', () => {
@@ -82,7 +84,9 @@ describe('characters pages', () => {
     )
     expect(screen.queryByRole('link', { name: 'Kaladin' })).toBeNull()
     expect(
-      screen.getByText(new RegExp(`· ${hidden} hidden based on books`)),
+      screen.getByText(
+        new RegExp(`· ${hidden} hidden based on what you've read so far`),
+      ),
     ).toBeInTheDocument()
     // Characters without details yet are still listed.
     expect(screen.getByRole('link', { name: 'Blackthorn' })).toBeInTheDocument()

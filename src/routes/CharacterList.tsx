@@ -186,7 +186,7 @@ export function CharacterList() {
         {matches.length < met.length
           ? `${matches.length} of ${met.length} characters`
           : `${met.length} characters`}
-        {hidden > 0 && ` · ${hidden} hidden based on books you've read`}
+        {hidden > 0 && ` · ${hidden} hidden based on what you've read so far`}
       </p>
 
       <div className="character-filters">

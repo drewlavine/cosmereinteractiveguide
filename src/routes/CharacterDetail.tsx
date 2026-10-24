@@ -127,7 +127,7 @@ export function CharacterDetail() {
     return (
       <section className="message-page" aria-labelledby="hidden-title">
         <h1 id="hidden-title">{character.name}</h1>
-        <p>Not met yet in the books you’ve read.</p>
+        <p>Not met yet based on what you’ve read so far.</p>
         <SpoilerNotice scope={scope} spoilers />
         <Link to="/characters">Back to all characters</Link>
       </section>
@@ -552,7 +552,7 @@ export function CharacterDetail() {
           </div>
           <div className="character-main">
             {!anySection ? (
-              <p>Nothing to show yet for the books you’ve read.</p>
+              <p>Nothing to show yet based on what you’ve read so far.</p>
             ) : (
               parts.map((p) => (
                 <PageSection

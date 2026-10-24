@@ -1,7 +1,7 @@
 import { EntryPage } from '../components/EntryPage'
 import { PageSection } from '../components/PageSections'
 import { useLinkText } from '../components/LinkedText'
-import { SprenCard } from '../components/SprenCards'
+import { EntryCard } from '../components/EntryCards'
 import { entryArt } from '../data/entryArt'
 import {
   cachedEntryStory,
@@ -77,9 +77,9 @@ export function TrueSprenPage() {
     >
       {kinds.length > 0 && (
         <PageSection id="kinds" title="Kinds">
-          <div className="spren-cards">
+          <div className="entry-cards">
             {kinds.map((k) => (
-              <SprenCard
+              <EntryCard
                 key={k.id}
                 id={k.id}
                 title={k.name}
@@ -89,7 +89,7 @@ export function TrueSprenPage() {
                 {k.intro && (
                   <p>{link(k.intro, new Set([`lifeform:${k.id}`]))}</p>
                 )}
-              </SprenCard>
+              </EntryCard>
             ))}
           </div>
         </PageSection>

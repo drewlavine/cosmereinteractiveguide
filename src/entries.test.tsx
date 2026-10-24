@@ -114,9 +114,12 @@ describe('group members', () => {
     ).toBeInTheDocument()
     // Rhythm of War's lines wait for it.
     expect(members.textContent).not.toContain('Glys and Tumi')
-    expect(
-      within(sja).getByRole('link', { name: 'Sja-anat’s page' }),
-    ).toHaveAttribute('href', '/characters/sja-anat')
+    // A card, its name linked to their page
+    expect(sja).toHaveClass('entry-card')
+    expect(within(sja).getByRole('link', { name: 'Sja-anat' })).toHaveAttribute(
+      'href',
+      '/characters/sja-anat',
+    )
   })
 
   it('hides that Kalak leads the Sons of Honor until the reader learns it', async () => {

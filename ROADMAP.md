@@ -187,7 +187,7 @@ Category:Cosmere; check anything unclear by hand.
         and the modal can link to "See all results"
   - [x] Leave out results, and text in result snippets, from books the reader
         hasn't marked as read, and say how many were left out, e.g.
-        "3 results hidden based on books you've read"
+        "3 results hidden based on what you've read so far"
   - [ ] Add new data types to the index as they're added to the guide
         (one `SearchSource` each in `src/search/sources.ts`): systems,
         planets, places and characters are in; magic systems, Shards and
@@ -328,7 +328,7 @@ section; tick a tab here once its section's first version ships.
         and chapter; pilot characters only so far, the rest count as met)
   - [ ] Hide unmet characters from the list, the groupings, character pages,
         and search, and say how many were hidden, e.g. "12 characters hidden
-        based on books you've read"
+        based on what you've read so far"
     - [x] List, character pages ("Not met yet") and search. Searching a
           character's exact name (or unique first name) still finds them,
           marked "not met yet", since the reader is looking for them; their
@@ -650,6 +650,11 @@ Personal arcs and battles belong on character and journey pages.
         or Characters (5 Era 1 places have no dated Coppermind text yet)
   - [x] The Stormlight Archive: 70 Roshar places
   - [ ] The other series' places
+  - [x] Place art beside Key facts, credited and dated like character art
+        (`entryArt.ts`, `place:<id>`); first: Urithiru
+  - [ ] Art for more places
+  - [x] Places with more than 10 characters show "Notable characters" (the 8
+        most prominent) with a See all button
   - [ ] Visitors (from Travels) alongside residents in Characters
 
 ### 13. Abilities
@@ -920,12 +925,6 @@ entry pipeline (`~/cig-entry-data`, kind `lifeform`).
       page
 - [x] Spren art from the Coppermind, credited and dated by what it shows
       (`src/data/entryArt.ts`)
-- [ ] Pages for species, creatures and plants
-
-## Ideas
-
-Not planned yet; come back to these if wanted.
-
 - [x] Lesser spren share one Lesser spren page (`/lifeforms/lesser-spren`):
       a card per kind with its art (or a "No art yet" placeholder) beside its
       name, text and characters; search and in-text links go to its card, and
@@ -937,6 +936,11 @@ Not planned yet; come back to these if wanted.
       (`/lifeforms/unique-spren`) get an About section and a summary card per
       kind linking to its page; the Unmade move to Unique spren
 - [x] Clicking any portrait or entry art opens it in a centred viewer
+- [ ] Pages for species, creatures and plants
+
+## Ideas
+
+Not planned yet; come back to these if wanted.
 
 - **Travels map**
   - Passport stamps: a stamp per world visited, collected as the reader

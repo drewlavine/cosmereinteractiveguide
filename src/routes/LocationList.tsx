@@ -188,7 +188,7 @@ export function LocationList() {
         {matches.length < shown.length
           ? `${matches.length} of ${shown.length} places`
           : `${shown.length} places`}
-        {hidden > 0 && ` · ${hidden} hidden based on books you've read`}
+        {hidden > 0 && ` · ${hidden} hidden based on what you've read so far`}
       </p>
 
       <div className="character-filters">

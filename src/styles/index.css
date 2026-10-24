@@ -926,14 +926,14 @@ dd {
   color: inherit;
 }
 
-.spren-cards {
+.entry-cards {
   display: grid;
   gap: 1rem;
 }
 
-/* A card per kind of spren: art in a fixed left column, name and text
-   beside it. */
-.spren-card {
+/* A card per entry (a kind of spren, a group's member): art in a fixed left
+   column, name and text beside it. */
+.entry-card {
   display: grid;
   grid-template-columns: 13rem minmax(0, 1fr);
   grid-template-rows: auto 1fr;
@@ -947,33 +947,33 @@ dd {
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
-.page-subsection.spren-card > h3 {
+.page-subsection.entry-card > h3 {
   grid-column: 2;
   grid-row: 1;
   margin: 0 0 0.5rem;
 }
 
-.spren-card > h3 a {
+.entry-card > h3 a {
   color: inherit;
 }
 
-.spren-card-text {
+.entry-card-text {
   grid-column: 2;
   grid-row: 2;
 }
 
-.spren-card-text > p:last-child {
+.entry-card-text > p:last-child {
   margin-bottom: 0;
 }
 
-.character-portrait.spren-card-art {
+.character-portrait.entry-card-art {
   grid-column: 1;
   grid-row: 1 / span 2;
   width: 13rem;
   margin: 0;
 }
 
-.character-portrait.spren-card-art img {
+.character-portrait.entry-card-art img {
   width: 100%;
   max-height: 15rem;
   margin: 0;
@@ -983,17 +983,17 @@ dd {
   object-position: center;
 }
 
-.character-portrait.spren-card-art .art-open {
+.character-portrait.entry-card-art .art-open {
   width: 100%;
   margin: 0;
 }
 
 /* No art: a placeholder the whole height of its card. */
-.character-portrait.spren-card-no-art {
+.character-portrait.entry-card-no-art {
   align-self: stretch;
 }
 
-.spren-card-no-art span {
+.entry-card-no-art span {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1008,24 +1008,24 @@ dd {
   opacity: 0.75;
 }
 
-.spren-card-no-art .search-icon {
+.entry-card-no-art .search-icon {
   width: 2rem;
   height: 2rem;
 }
 
-.spren-card-people {
+.entry-card-people {
   color: var(--text-muted, #9fb0bc);
   font-size: 0.9rem;
 }
 
 @media (max-width: 760px) {
-  .spren-card {
+  .entry-card {
     grid-template-columns: 7.5rem minmax(0, 1fr);
     column-gap: 0.9rem;
     padding: 0.85rem;
   }
 
-  .character-portrait.spren-card-art {
+  .character-portrait.entry-card-art {
     width: 100%;
   }
 }
@@ -3635,31 +3635,6 @@ a.search-option:focus-visible {
 
 .entry-table tbody tr:nth-child(even) {
   background: rgba(28, 42, 53, 0.45);
-}
-
-/* A group's members, each with what its page says about them. */
-.member-entry {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 0.9rem;
-}
-
-.member-entry > h3 {
-  grid-column: 1 / -1;
-}
-
-.member-entry-face {
-  align-self: start;
-  margin-top: 0.2rem;
-}
-
-.member-entry-face .people-card-face {
-  width: 3.5rem;
-  height: 3.5rem;
-}
-
-.member-entry-text > p:first-child {
-  margin-top: 0;
 }
 
 .see-all {

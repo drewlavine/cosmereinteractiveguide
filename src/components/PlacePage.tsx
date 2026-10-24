@@ -15,9 +15,14 @@ import {
 } from '../data/listedLocations'
 import { findPerson } from '../data/people'
 import { PeopleGrid } from './PeopleGrid'
+import { PortraitArt } from './ArtViewer'
+import { SeeAll } from './SeeAll'
+import { entryArt } from '../data/entryArt'
+import { LIST_CAP } from '../data/notable'
 import {
   revealLocationDetails,
   revealLocationStory,
+  revealPortrait,
   type ShownLocationDetails,
 } from '../data/reveal'
 import type { ListedLocation, LocationPerson } from '../data/types'
@@ -141,6 +146,7 @@ export function PlacePage(props: PlacePageProps) {
     showAll,
   )
   const intro = story.intro ?? props.summary
+  const art = revealPortrait(entryArt[`place:${id}`], canSee, showAll)
 
   const value = (
     v: ShownLocationDetails['facts'][number]['values'][number],
@@ -173,7 +179,9 @@ export function PlacePage(props: PlacePageProps) {
       {props.breadcrumb}
       <SpoilerNotice
         scope={scope}
-        spoilers={props.spoilers || story.spoilers || details.spoilers}
+        spoilers={
+          props.spoilers || story.spoilers || details.spoilers || art.spoilers
+        }
       />
       <div className="character-body">
         <header className="character-header">
@@ -184,6 +192,14 @@ export function PlacePage(props: PlacePageProps) {
           {intro && <p className="character-intro">{link(intro)}</p>}
         </header>
         <div className="character-side">
+          {art.portrait && (
+            <PortraitArt
+              src={art.portrait.src}
+              alt={art.portrait.alt}
+              artist={art.portrait.artist}
+              artistUrl={art.portrait.artistUrl}
+            />
+          )}
           <aside
             className={`character-infobox${factsOpen ? '' : ' collapsed'}`}
             aria-label="Key facts"
@@ -285,14 +301,27 @@ export function PlacePage(props: PlacePageProps) {
             </PageSection>
           )}
           {people.length > 0 && (
-            <PageSection id="people" title="Characters">
-              <PeopleGrid
-                people={people.map((p) => ({
-                  characterId: p.characterId,
-                  name: p.name,
-                  roles: p.relations.map((r) => relationLabels[r]),
-                }))}
-              />
+            <PageSection
+              id="people"
+              title={
+                people.length > LIST_CAP ? 'Notable characters' : 'Characters'
+              }
+            >
+              <SeeAll
+                list={people}
+                canSee={showAll ? () => true : canSee}
+                noun="characters"
+              >
+                {(list) => (
+                  <PeopleGrid
+                    people={list.map((p) => ({
+                      characterId: p.characterId,
+                      name: p.name,
+                      roles: p.relations.map((r) => relationLabels[r]),
+                    }))}
+                  />
+                )}
+              </SeeAll>
             </PageSection>
           )}
           {props.planetId && (

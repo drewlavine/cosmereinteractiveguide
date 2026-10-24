@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
-import { Link } from 'react-router'
-import { PageSubsection } from './PageSections'
+import { EntryCard } from './EntryCards'
 import { slugs } from './pageSlugs'
 import { SourceMark } from './SourceMark'
 import type { LinkTextFn } from './LinkedText'
@@ -13,15 +12,6 @@ import {
   type CanSee,
   type ShownEntry,
 } from '../data/reveal'
-
-const initials = (name: string) =>
-  name
-    .split(/\s+/)
-    .filter((w) => /^\p{L}/u.test(w))
-    .slice(0, 2)
-    .map((w) => w[0])
-    .join('')
-    .toUpperCase()
 
 /** The character behind a persona, whose story holds the persona's intro. */
 const storyId = (id: string) => findPersona(id)?.characterId ?? id
@@ -44,9 +34,9 @@ function useIntros(ids: string[]) {
 export type ShownMember = ShownEntry['members'][number] & { name: string }
 
 /**
- * A group's members in the page's order, each with what the page says about
- * them (or, if nothing, their own page's intro), each a titled section like
- * the Coppermind's.
+ * A group's members in the page's order, each a card with their portrait (or
+ * a placeholder), name linked to their page, and what the group's page says
+ * about them (or, if nothing, their own page's intro).
  */
 export function MemberList({
   members,
@@ -65,25 +55,6 @@ export function MemberList({
     members.map((m) => m.name),
   )
 
-  const face = (m: ShownMember) => {
-    const art = revealPortrait(
-      characterPortraits[m.characterId],
-      canSee,
-    ).portrait
-    return art ? (
-      <img
-        className="people-card-face"
-        src={art.src}
-        alt=""
-        loading="lazy"
-        decoding="async"
-      />
-    ) : (
-      <span className="people-card-face" aria-hidden="true">
-        {initials(m.name)}
-      </span>
-    )
-  }
   const body = (m: ShownMember) => {
     const linked = new Set<string>([`character:${storyId(m.characterId)}`])
     if (m.items.length)
@@ -102,21 +73,26 @@ export function MemberList({
     return intro ? <p>{link(intro, linked)}</p> : null
   }
 
-  return members.map((m, i) => (
-    <PageSubsection
-      key={m.characterId}
-      id={ids[i]}
-      title={m.name}
-      className="member-entry"
-    >
-      <Link
-        to={`/characters/${m.characterId}`}
-        className="member-entry-face"
-        aria-label={`${m.name}’s page`}
-      >
-        {face(m)}
-      </Link>
-      <div className="member-entry-text">{body(m)}</div>
-    </PageSubsection>
-  ))
+  return (
+    <div className="entry-cards">
+      {members.map((m, i) => (
+        <EntryCard
+          key={m.characterId}
+          id={ids[i]}
+          title={m.name}
+          href={`/characters/${m.characterId}`}
+          art={
+            revealPortrait(
+              characterPortraits[m.characterId],
+              canSee,
+              viewAnyway,
+            ).portrait
+          }
+          icon="character"
+        >
+          {body(m)}
+        </EntryCard>
+      ))}
+    </div>
+  )
 }

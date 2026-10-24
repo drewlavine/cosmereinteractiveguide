@@ -156,7 +156,7 @@ export function AbilityList() {
         {matches.length < shown.length
           ? `${matches.length} of ${shown.length} entries`
           : `${shown.length} entries`}
-        {hidden > 0 && ` · ${hidden} hidden based on books you've read`}
+        {hidden > 0 && ` · ${hidden} hidden based on what you've read so far`}
       </p>
 
       <div className="character-filters">

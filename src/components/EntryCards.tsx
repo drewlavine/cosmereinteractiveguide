@@ -4,16 +4,19 @@ import { PortraitArt } from './ArtViewer'
 import { PageSubsection } from './PageSections'
 import { SearchIcon } from './SearchIcon'
 import type { Portrait } from '../data/characterPortraits'
+import type { SearchIconName } from '../search/types'
 
 /**
- * A card for one kind of spren: its art (or a placeholder the same whether
- * there's no art or it's not reached yet) beside its name and text.
+ * A card for one entry, e.g. a kind of spren or a group's member: its art (or
+ * a placeholder the same whether there's no art or it's not reached yet)
+ * beside its name and text.
  */
-export function SprenCard({
+export function EntryCard({
   id,
   title,
   href,
   art,
+  icon = 'lifeform',
   children,
 }: {
   id: string
@@ -21,6 +24,8 @@ export function SprenCard({
   /** Its own page, if it has one. */
   href?: string
   art?: Portrait
+  /** Shown on the placeholder. */
+  icon?: SearchIconName
   children: ReactNode
 }) {
   const lead = art ? (
@@ -29,12 +34,12 @@ export function SprenCard({
       alt={art.alt}
       artist={art.artist}
       artistUrl={art.artistUrl}
-      className="character-portrait spren-card-art"
+      className="character-portrait entry-card-art"
     />
   ) : (
-    <div className="character-portrait spren-card-art spren-card-no-art">
+    <div className="character-portrait entry-card-art entry-card-no-art">
       <span>
-        <SearchIcon name="lifeform" />
+        <SearchIcon name={icon} />
         No art yet
       </span>
     </div>
@@ -44,10 +49,10 @@ export function SprenCard({
       id={id}
       title={title}
       href={href}
-      className="spren-card"
+      className="entry-card"
       lead={lead}
     >
-      <div className="spren-card-text">{children}</div>
+      <div className="entry-card-text">{children}</div>
     </PageSubsection>
   )
 }
@@ -60,7 +65,7 @@ export function CardPeople({
 }) {
   if (!people.length) return null
   return (
-    <p className="spren-card-people">
+    <p className="entry-card-people">
       Characters:{' '}
       {people.map((p, i) => (
         <Fragment key={p.id}>

@@ -1,7 +1,8 @@
 import type { Portrait } from './characterPortraits'
 
 /**
- * Art for Magic and Culture entries, by `<kind>:<id>`, earliest first; the
+ * Art for Magic, Culture and Lifeforms entries and for places (`place:<id>`),
+ * by `<kind>:<id>`, earliest first; the
  * page shows the latest piece the reader may see. Same rules as
  * `characterPortraits`: credited, dated by the latest thing it shows.
  * `glyph` art is a symbol, shown whole on a plain panel.
@@ -444,6 +445,21 @@ const order = (
 ]
 
 export const entryArt: Record<string, EntryArt[]> = Object.fromEntries([
+  // Shallan's sketchbook pages of the tower, Oathbringer interior art. The
+  // Coppermind doesn't say which chapter; it names Oathgates, so it waits for
+  // the book's end.
+  [
+    'place:urithiru',
+    [
+      {
+        src: '/entries/place-urithiru.webp',
+        alt: "Shallan's sketches of Urithiru: the tower from the west and east, from above with its ring of Oathgates, and in cutaway",
+        artist: BEN,
+        artistUrl: artists(BEN),
+        revealedIn: ['oathbringer'],
+      },
+    ],
+  ],
   // Paintings from The Way of Kings leatherbound edition. Those of unnamed
   // Radiants show from the order's first mention; those showing modern
   // Radiants wait until the books have shown them in that order (and in

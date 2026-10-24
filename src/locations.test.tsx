@@ -1,4 +1,5 @@
 import { cleanup, render, screen, within } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it } from 'vitest'
 import { books } from './data/books'
@@ -56,7 +57,7 @@ describe('locations list', () => {
     renderAt('/locations')
     expect(names()).toEqual([])
     expect(
-      screen.getByText(/hidden based on books you've read/),
+      screen.getByText(/hidden based on what you've read so far/),
     ).toBeInTheDocument()
   })
 
@@ -239,6 +240,39 @@ describe('place pages', () => {
     expect(
       within(list()).getByRole('link', { name: listedOnly.name }),
     ).toHaveAttribute('href', `/locations/${listedOnly.id}`)
+  })
+
+  it("shows a place's art once its book is finished", async () => {
+    const sketches = /Shallan's sketches of Urithiru/
+    renderAt('/locations/urithiru', ['way-of-kings', 'words-of-radiance'])
+    await screen.findByRole('heading', { level: 1, name: 'Urithiru' })
+    expect(screen.queryByRole('img', { name: sketches })).toBeNull()
+    cleanup()
+    renderAt('/locations/urithiru', [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+    ])
+    expect(
+      await screen.findByRole('img', { name: sketches }),
+    ).toBeInTheDocument()
+  })
+
+  it('trims a long list of characters to the notable ones until asked', async () => {
+    const user = userEvent.setup()
+    renderAt('/locations/urithiru', [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+    ])
+    const section = await screen.findByRole('region', {
+      name: 'Notable characters',
+    })
+    const shown = within(section).getAllByRole('link').length
+    await user.click(
+      within(section).getByRole('button', { name: /^See all \d+ characters$/ }),
+    )
+    expect(within(section).getAllByRole('link').length).toBeGreaterThan(shown)
   })
 
   it('hides a place page before its book is read', () => {

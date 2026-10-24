@@ -49,7 +49,7 @@ describe('culture list', () => {
     expect(names()).toEqual([])
     expect(headings()).toEqual([])
     expect(
-      screen.getByText(/hidden based on books you've read/),
+      screen.getByText(/hidden based on what you've read so far/),
     ).toBeInTheDocument()
   })
 

@@ -27,9 +27,9 @@ export const SUGGESTED = [
   'character:hoid',
 ]
 
-/** "3 results hidden based on books you've read" */
+/** "3 results hidden based on what you've read so far" */
 export const hiddenNote = (count: number) =>
-  `${count} ${count === 1 ? 'result' : 'results'} hidden based on books you've read`
+  `${count} ${count === 1 ? 'result' : 'results'} hidden based on what you've read so far`
 
 export const searchPageHref = (query: string) =>
   `/search?q=${encodeURIComponent(query.trim())}`

@@ -71,7 +71,7 @@ describe('search box', () => {
     await userEvent.keyboard('/')
     await userEvent.type(screen.getByRole('combobox'), 'sycla')
     expect(dialog()).toHaveTextContent(
-      /\d+ results? hidden based on books you've read/,
+      /\d+ results? hidden based on what you've read so far/,
     )
     expect(screen.queryByRole('option', { name: /Sycla/ })).toBeNull()
   })
@@ -81,7 +81,9 @@ describe('search box', () => {
     await userEvent.keyboard('/')
     await userEvent.type(screen.getByRole('combobox'), 'kalad')
     expect(screen.queryByRole('option', { name: /Kaladin/ })).toBeNull()
-    expect(dialog()).toHaveTextContent(/results? hidden based on books/)
+    expect(dialog()).toHaveTextContent(
+      /results? hidden based on what you've read so far/,
+    )
     await userEvent.type(screen.getByRole('combobox'), 'in')
     expect(
       screen.getByRole('option', { name: /Kaladin.*not met yet/ }),
