@@ -111,6 +111,11 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Only show regions, and information about them, from books the reader
         has marked as read
   - [x] Dev-only tracing tool ("Trace (dev)" under the interactive map)
+  - [ ] Printed names light up on hover and are clickable (like the 17th
+        Shard map): bands around each name plus an ink mask, from
+        `~/cig-journey-data/labels/map_labels.py`
+    - [x] Prototype on Roshar (all 55 places)
+    - [ ] The other interactive maps
   - [ ] Polished regions from hand-painted masks (later, after the MVP)
     - [ ] Drew paints one mask layer per region over each map in a photo
           editor and exports them as PNGs at the map's full size

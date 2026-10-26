@@ -2,6 +2,8 @@ import { render, screen, within } from '@testing-library/react'
 import userEvent from '@testing-library/user-event'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { describe, expect, it } from 'vitest'
+import { mapLabels } from '../data/mapLabels'
+import { planetMaps } from '../data/maps'
 import { routes } from '../routes'
 import { BOOKS_READ_KEY } from '../state/booksRead'
 
@@ -60,6 +62,43 @@ describe('interactive map', () => {
     expect(
       await screen.findByRole('heading', { name: 'Kae' }),
     ).toBeInTheDocument()
+  })
+
+  it('lights a place’s printed name when it is hovered', async () => {
+    renderAt('/systems/rosharan/planets/roshar', ['way-of-kings'])
+    const alethkar = within(mapRegion()).getByRole('link', { name: 'Alethkar' })
+    const name = alethkar.querySelector('.map-label-hit')
+    expect(name).not.toBeNull()
+    // Only the name is pointed at: its region isn't drawn as a target.
+    expect(alethkar.querySelector('polygon, circle')).toBeNull()
+    expect(mapRegion().querySelector('.map-label-ink')).toBeNull()
+
+    await userEvent.hover(name!)
+    const ink = mapRegion().querySelector('.map-label-ink')
+    expect(ink?.querySelectorAll('path')).toHaveLength(
+      mapLabels['Roshar.jpg'].bands.alethkar.length,
+    )
+    // The printed name stands in for the floating label.
+    expect(
+      mapRegion().querySelector('.map-hotspot-label'),
+    ).not.toBeInTheDocument()
+  })
+})
+
+describe('map labels', () => {
+  it('only name places marked on their map', () => {
+    for (const [file, labels] of Object.entries(mapLabels)) {
+      const version = Object.values(planetMaps)
+        .flat()
+        .flatMap((m) => m.versions)
+        .find((v) => v.file === file)
+      expect(version, file).toBeDefined()
+      const marked = new Set(version!.hotspots?.map((h) => h.locationId))
+      expect(
+        Object.keys(labels.bands).filter((id) => !marked.has(id)),
+        file,
+      ).toEqual([])
+    }
   })
 })
 

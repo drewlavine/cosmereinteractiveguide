@@ -3245,6 +3245,7 @@ a.search-option:focus-visible {
 }
 
 .map-hotspots,
+.map-label-ink,
 .map-tracer {
   position: absolute;
   inset: 0;
@@ -3295,6 +3296,37 @@ a.search-option:focus-visible {
 .map-hotspot:focus-visible circle {
   stroke: #fff;
   stroke-width: 3;
+}
+
+/* A place's name as printed on the map: an invisible hit area around it, and
+   a highlighter-pen glow behind the printed letters while it is active. */
+.map-hotspot .map-label-hit {
+  fill: transparent;
+  stroke: none;
+}
+
+.map-hotspot:focus-visible .map-label-hit {
+  stroke: #fff;
+  stroke-width: 3;
+  vector-effect: non-scaling-stroke;
+}
+
+.map-label-ink {
+  mix-blend-mode: multiply;
+  fill: #000;
+  animation: map-label-in 150ms ease-out;
+}
+
+@keyframes map-label-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .map-label-ink {
+    animation: none;
+  }
 }
 
 /* A place marked on a map on its own page. */

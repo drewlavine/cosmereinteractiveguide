@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { Link } from 'react-router'
 import { books } from '../data/books'
 import { kindLabels } from '../data/locations'
+import { mapLabels } from '../data/mapLabels'
 import { interactiveMaps, mapImageUrl, mapSourceUrl } from '../data/maps'
 import type { Location, LocationKind } from '../data/types'
 import { useBooksRead } from '../state/booksRead'
@@ -111,11 +112,18 @@ export function InteractiveMap({
     .map(([, location]) => location)
     .sort((a, b) => a.name.localeCompare(b.name))
   const active = ordered.find((s) => s.location.id === activeId)
-  const labelAt = active
-    ? active.shape === 'area'
-      ? areaCenter(active.areas)
-      : { x: active.x, y: active.y - pinRadius * 1.8 }
-    : undefined
+  // Names printed on the map light up instead of getting a floating label.
+  const labels = mapLabels[version.file]
+  const bandsOf = (id: string) => labels?.bands[id] ?? []
+  const activeBands = active ? bandsOf(active.location.id) : []
+  const inkId = `map-ink-${map.id}`
+  const labelAt = activeBands.length
+    ? undefined
+    : active
+      ? active.shape === 'area'
+        ? areaCenter(active.areas)
+        : { x: active.x, y: active.y - pinRadius * 1.8 }
+      : undefined
 
   const highlight = (id: string) => ({
     onMouseEnter: () => setActiveId(id),
@@ -169,27 +177,99 @@ export function InteractiveMap({
                 height={version.height}
                 draggable={false}
               />
+              {labels && activeBands.length > 0 && (
+                // A highlighter pen over the printed name: a yellow glow
+                // shaped like the letters, multiplied onto the map so the
+                // printed ink stays dark and crisp on top of it.
+                <svg
+                  className="map-label-ink"
+                  viewBox={`0 0 ${version.width} ${version.height}`}
+                  aria-hidden
+                >
+                  <defs>
+                    <mask
+                      id={inkId}
+                      maskUnits="userSpaceOnUse"
+                      x={0}
+                      y={0}
+                      width={version.width}
+                      height={version.height}
+                    >
+                      <image
+                        href={labels.mask}
+                        width={version.width}
+                        height={version.height}
+                      />
+                    </mask>
+                    <filter
+                      id={`${inkId}-glow`}
+                      x="-20%"
+                      y="-50%"
+                      width="140%"
+                      height="200%"
+                    >
+                      <feMorphology
+                        in="SourceAlpha"
+                        operator="dilate"
+                        radius={5}
+                        result="thick"
+                      />
+                      <feGaussianBlur
+                        in="thick"
+                        stdDeviation={8}
+                        result="soft"
+                      />
+                      <feFlood floodColor="#ffd84d" />
+                      <feComposite in2="soft" operator="in" result="halo" />
+                      <feMerge>
+                        <feMergeNode in="halo" />
+                        <feMergeNode in="halo" />
+                      </feMerge>
+                    </filter>
+                  </defs>
+                  <g filter={`url(#${inkId}-glow)`}>
+                    <g mask={`url(#${inkId})`}>
+                      {activeBands.map((points) => (
+                        <path key={points} d={`M${points}Z`} />
+                      ))}
+                    </g>
+                  </g>
+                </svg>
+              )}
               <svg
                 className={`map-hotspots${tracing ? ' is-tracing' : ''}`}
                 viewBox={`0 0 ${version.width} ${version.height}`}
               >
-                {ordered.map((spot) => (
-                  <Link
-                    key={`${spot.shape}-${spot.location.id}`}
-                    to={href(spot.location.id)}
-                    aria-label={spot.location.name}
-                    className={`map-hotspot is-${spot.shape}${spot.location.id === activeId ? ' is-active' : ''}`}
-                    {...highlight(spot.location.id)}
-                  >
-                    {spot.shape === 'area' ? (
-                      spot.areas.map((points) => (
-                        <polygon key={points} points={points} />
-                      ))
-                    ) : (
-                      <circle cx={spot.x} cy={spot.y} r={pinRadius} />
-                    )}
-                  </Link>
-                ))}
+                {ordered.map((spot) => {
+                  // A place whose name is printed on the map is pointed at
+                  // by its name alone, not its region or pin.
+                  const bands = bandsOf(spot.location.id)
+                  return (
+                    <Link
+                      key={`${spot.shape}-${spot.location.id}`}
+                      to={href(spot.location.id)}
+                      aria-label={spot.location.name}
+                      className={`map-hotspot is-${bands.length ? 'label' : spot.shape}${spot.location.id === activeId ? ' is-active' : ''}`}
+                      {...highlight(spot.location.id)}
+                    >
+                      {bands.length ? (
+                        bands.map((points) => (
+                          <path
+                            key={points}
+                            className="map-label-hit"
+                            d={`M${points}Z`}
+                          />
+                        ))
+                      ) : spot.shape === 'area' ? (
+                        spot.areas.map((points) => (
+                          <polygon key={points} points={points} />
+                        ))
+                      ) : (
+                        <circle cx={spot.x} cy={spot.y} r={pinRadius} />
+                      )}
+                    </Link>
+                  )
+                })}
                 {active && labelAt && (
                   <text
                     className="map-hotspot-label"
