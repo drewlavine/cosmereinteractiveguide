@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A kandra whose contract Kelsier passed to Vin, and who meets her in Luthadel's streets on the eve of the city's siege.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "A kandra of the Third Generation, more than seven hundred years old, who took a contract with Kelsier.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }]
     },

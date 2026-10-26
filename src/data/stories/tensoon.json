@@ -1,6 +1,16 @@
 {
   "intro": [
     {
+      "text": "A kandra, the spy Vin has known as OreSeur, who truly served Zane; with Zane dead, he asks Vin's forgiveness and leaves for the kandra Homeland.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "47" }],
+      "fallback": true
+    },
+    {
+      "text": "A kandra who betrayed his people's secret to Vin and now lies imprisoned in the kandra Homeland, insisting on a public judgment.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "2" }],
+      "fallback": true
+    },
+    {
       "text": "A kandra of the Third Generation, born in the Final Empire's third century, who was present when the first kandra Contracts were drawn up.",
       "revealedIn": [
         {

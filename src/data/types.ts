@@ -547,13 +547,18 @@ export interface Persona {
 export interface StoryItem {
   text: string
   revealedIn: Reveal
+  /**
+   * Written from a chapter summary for a character the Coppermind says
+   * nothing about yet; shown only when no other version is visible.
+   */
+  fallback?: boolean
 }
 
 /** What a character's page says about them in prose. */
 export interface CharacterStory {
   /**
    * "Who they are" in a sentence or two, earliest first; a page shows the
-   * latest one the reader may see.
+   * latest one the reader may see, preferring any that isn't a fallback.
    */
   intro: StoryItem[]
   /**

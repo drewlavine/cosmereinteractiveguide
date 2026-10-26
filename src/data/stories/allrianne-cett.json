@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Lord Cett's daughter, a young noblewoman who turns up at the palace in Luthadel and greets Breeze with a hug.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "21" }],
+      "fallback": true
+    },
+    {
       "text": "A young noblewoman from the Western Dominance who came with Cett's army and slipped into besieged Luthadel alone, seeking asylum and Breeze.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "36" }]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Eshonai's sister, who tells her she has discovered stormform and wants to put its use before the Five.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }],
+      "fallback": true
+    },
+    {
       "text": "A gifted listener and the sister of Eshonai, who helped unlock the stormform and resented that Eshonai was chosen to test it.",
       "revealedIn": [
         {

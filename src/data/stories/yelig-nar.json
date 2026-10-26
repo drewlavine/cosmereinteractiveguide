@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A being called Blightwind, who could speak like a man, though the wails of those he had consumed often accompanied his voice.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "45" }],
+      "fallback": true
+    },
+    {
       "text": "One of the Unmade, an ancient spren that fought in past Desolations.",
       "revealedIn": [
         {

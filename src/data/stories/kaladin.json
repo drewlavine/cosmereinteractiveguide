@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A spearman squadleader in Brightlord Amaram's army, called Stormblessed, who fights to keep every man in his squad alive.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "A branded slave and former spearman, assigned as a bridgeman to Bridge Four in Highprince Sadeas's army on the Shattered Plains.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }]
     },

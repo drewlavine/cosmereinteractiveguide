@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A mysterious presence at the tower which some believed had withdrawn from men on purpose, a theory one researcher of the tower's spren disputes.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "68" }],
+      "fallback": true
+    },
+    {
       "text": "A spren once tied to Urithiru, the tower city of the Knights Radiant. When they withdrew from the tower long ago, it became uninhabitable.",
       "revealedIn": [
         {

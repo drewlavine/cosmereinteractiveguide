@@ -12,9 +12,11 @@ import {
   revealStory,
   revealSystem,
 } from './reveal'
+import kaladinStory from './stories/kaladin.json'
 import spookStory from './stories/spook.json'
 import unmadeStory from './lifeformStories/unmade.json'
 import wayneStory from './stories/wayne.json'
+import yesteelStory from './stories/yesteel.json'
 import yumiStory from './stories/yumi.json'
 import { systems } from './systems'
 import type { EntryStory, Reveal, RevealPoint } from './types'
@@ -355,6 +357,21 @@ describe('art and appearance gaps', () => {
         at(['way-of-kings'], { 'words-of-radiance': 'prologue' }),
       ),
     ).toBe('/portraits/dalinar-kholin-coat.webp')
+  })
+
+  it('shows a summary-only intro only when no other is visible', () => {
+    const intro = (id: string, story: unknown, c: ReturnType<typeof at>) =>
+      revealStory(id, story as Parameters<typeof revealStory>[1], c).intro
+    expect(
+      intro('kaladin', kaladinStory, at([], { 'way-of-kings': '1' })),
+    ).toMatch(/^A spearman squadleader/)
+    expect(
+      intro('kaladin', kaladinStory, at([], { 'way-of-kings': '6' })),
+    ).toMatch(/^A branded slave/)
+    const both = at(['warbreaker'], { 'wind-and-truth': '36' })
+    expect(intro('yesteel', yesteelStory, both)).toMatch(
+      /^One of the Five Scholars/,
+    )
   })
 
   it('dates the new appearance text by its footnotes', () => {

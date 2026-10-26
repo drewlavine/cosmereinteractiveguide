@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "An officer in Dalinar Kholin's army who brings Dalinar reports from the fighting at Narak.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "85" }],
+      "fallback": true
+    },
+    {
       "text": "Head of field command in Dalinar Kholin's army at the Battle of Narak.",
       "revealedIn": [
         {

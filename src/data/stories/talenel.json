@@ -1,6 +1,16 @@
 {
   "intro": [
     {
+      "text": "One of the ten Heralds, the only one to die in the last battle of a Desolation, whom the others leave to hold the Oathpact alone when they abandon it.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }],
+      "fallback": true
+    },
+    {
+      "text": "A dark-eyed madman with a Shardblade, brought to the Shattered Plains by Bordin and Wit, who calls himself Talenel'Elin, Herald of War, and warns of the coming Desolation.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-7" }],
+      "fallback": true
+    },
+    {
       "text": "A ragged man who stumbled into Kholinar carrying a Shardblade and a warning of the coming Desolation. Most take him for a madman, though some believe he is the Herald Talenel.",
       "revealedIn": [
         {

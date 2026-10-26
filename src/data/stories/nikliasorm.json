@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A new porter in Rysn Ftori's service, part of the arrangements made to help her get around.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "Rysn Ftori's servant, who carries her chair when she visits Urithiru.",
       "revealedIn": [{ "book": "dawnshard", "chapter": "2" }]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A voidspren whom Venli and other Parshendi in stormform follow in search of Eshonai, and who orders Venli to take off her dead sister's Shardplate.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "i-3" }],
+      "fallback": true
+    },
+    {
       "text": "A Voidspren who worked with Venli to bring about the Everstorm, known to the Fused as the Envoy.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "i-6" }]
     }

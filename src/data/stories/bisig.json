@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A bridgeman in Bridge Four, the last of the crew to hold out before joining Kaladin's morning training.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "30" }],
+      "fallback": true
+    },
+    {
       "text": "A quiet bridgeman in Bridge Four, in Highprince Sadeas's army.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "40" }]
     },

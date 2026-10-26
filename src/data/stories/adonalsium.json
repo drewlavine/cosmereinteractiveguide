@@ -10,6 +10,11 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A subject of the lecture Khriss gives Kelsier on the sixteen Shards, at a campfire by Lake Luthadel.",
+      "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }],
+      "fallback": true
     }
   ],
   "history": [

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The leader of a band of deserters chasing Shallan's caravan, who scoffs at her offer of amnesty until she talks him into helping fight off bandits.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "20" }],
+      "fallback": true
+    },
+    {
       "text": "The leader of a band of army deserters preying on caravans near the Shattered Plains, who reluctantly joins Shallan Davar's caravan.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "36" }]
     },

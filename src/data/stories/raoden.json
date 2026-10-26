@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The crown prince of Arelon, taken by the Shaod and sent into Elantris by his father, King Iadon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "A young man taken by the Shaod and thrown into the decaying city of Elantris, while his father claimed that he had died of illness.",
       "revealedIn": [{ "book": "elantris", "chapter": "5" }]
     },

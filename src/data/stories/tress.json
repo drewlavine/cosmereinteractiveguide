@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A girl named Glorf, called Tress by everyone, who lives happily on Diggen's Point, a dismal island showered by spores from the Verdant Lunagree.",
+      "revealedIn": [{ "book": "tress", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "A young woman of Diggen's Point, nicknamed Tress for her wild hair, who washes windows for a living and collects cups.",
       "revealedIn": [{ "book": "tress", "chapter": "4" }]
     },

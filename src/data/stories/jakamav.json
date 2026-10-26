@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A lighteyed companion of Adolin Kholin who drinks with him at a wineshop in the outer market, debating Sadeas and Dalinar.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "58" }],
+      "fallback": true
+    },
+    {
       "text": "A lighteyed landlord of the third dahn from Highprince Roion's warcamp and a Shardbearer who counts as one of Adolin Kholin's friends.",
       "revealedIn": [
         {

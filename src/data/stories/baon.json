@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A member of Duchess Khrissalla's voyage to Dayside, who scolds the soldiers for not hiding their pistols and shares her hope of winning the Sand Mages' aid against Emperor Skathan.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
       "text": "A soldier and marksman who guards Duchess Khrissalla on her expedition to Dayside.",
       "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
     },

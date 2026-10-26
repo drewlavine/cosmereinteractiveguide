@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Vasher's sword, which keeps the guards of the God King's dungeons busy while Vasher escapes his cell.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
       "text": "Nightblood is a sentient black sword made by Vasher and Shashara, which Vasher named after he used it to kill her.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
     },

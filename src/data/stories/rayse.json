@@ -1,6 +1,16 @@
 {
   "intro": [
     {
+      "text": "Someone a letter-writer calls among the most loathsome, crafty and dangerous individuals they have ever met.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }],
+      "fallback": true
+    },
+    {
+      "text": "Someone the writers of a set of letters agree is loathsome, crafty and a severe danger; one of them holds a grudge against him.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "67" }],
+      "fallback": true
+    },
+    {
       "text": "The holder of the Shard Odium, whose own nature, aligned with hatred and strong emotion, drew him to it.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "71" }]
     },

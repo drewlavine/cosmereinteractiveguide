@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Known as the Citizen, the leader of Urteau, whose council meetings Spook secretly spies on as they discuss Elend's conquests and laws against the nobility.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }],
+      "fallback": true
+    },
+    {
       "text": "Known as the Citizen, the ruler of Urteau, who took power at the head of a coalition of skaa workers.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "26" }]
     }

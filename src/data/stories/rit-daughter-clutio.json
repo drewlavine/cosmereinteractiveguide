@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The holder of Taln's Honorblade at Talmut's monastery in Shinovar, who comes forward to fight Szeth when he and Kaladin arrive.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "40" }],
+      "fallback": true
+    },
+    {
       "text": "A Shin Stone Shaman who heads Taln's monastery in Shinovar and carries Taln's Honorblade.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "42" }]
     }

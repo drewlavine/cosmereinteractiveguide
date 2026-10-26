@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The sister of Quellion, the Citizen who rules Urteau, whom Spook secretly watches.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "14" }],
+      "fallback": true
+    },
+    {
       "text": "Quellion's sister, whom Spook describes as wearing a skaa dress with striking elegance.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "16" }]
     },

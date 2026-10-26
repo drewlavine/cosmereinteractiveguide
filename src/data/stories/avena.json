@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A source cited in an old account of the Knights Radiant, who would not guess whether a wicked thing found in their time came from the Radiants' own followers or from outside.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }],
+      "fallback": true
+    },
+    {
       "text": "A scholar of long ago.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
     }

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A highprince with a warcamp on the Shattered Plains, where Kaladin is made a slave in the bridge crews.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "6" }],
+      "fallback": true
+    },
+    {
       "text": "An Alethi highprince fighting in the war on the Shattered Plains, and a political rival of Dalinar Kholin despite their old friendship.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "15" }]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A man from Duladel taken by the Shaod, who agrees to guide the newly exiled Raoden through Elantris for thirty days in exchange for food.",
+      "revealedIn": [{ "book": "elantris", "chapter": "1" }],
+      "fallback": true
+    },
+    {
       "text": "A Dula farmer taken by the Shaod, who guides Raoden through Elantris and helps him build New Elantris.",
       "revealedIn": [{ "book": "elantris", "chapter": "7" }]
     },

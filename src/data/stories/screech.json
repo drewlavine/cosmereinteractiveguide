@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The Wandersail's pet skyeel, which the crew finds dead just as Rysn prepares to take the ship on an expedition.",
+      "revealedIn": [{ "book": "dawnshard", "chapter": "4" }],
+      "fallback": true
+    },
+    {
       "text": "A pet skyeel kept by the crew of the Wandersail, well liked for hunting the ship's rats.",
       "revealedIn": [{ "book": "dawnshard", "chapter": "16" }]
     }

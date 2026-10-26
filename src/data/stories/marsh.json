@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A man who comes to Clubs' shop as Kelsier and his crew plan to bring down the Final Empire, and with whom Kelsier talks alone while Vin eavesdrops.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "6" }],
+      "fallback": true
+    },
+    {
       "text": "Kelsier's brother, a Seeker who agreed to infiltrate the Steel Ministry to help Kelsier's plan against the Lord Ruler.",
       "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A young woman who comes with Lord Harms and his daughter Steris to Wax's house, where they discuss a marriage between Steris and Wax.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "2" }],
+      "fallback": true
+    },
+    {
       "text": "A university student of law and criminal behavior in Elendel who joins Lord Harms and Steris as they discuss a marriage between Steris and Wax.",
       "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }]
     },

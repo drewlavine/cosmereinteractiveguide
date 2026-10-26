@@ -1,8 +1,18 @@
 {
   "intro": [
     {
+      "text": "A thief among the crew Kelsier gathers for his plan to back a skaa rebellion, and the only one who walks out rather than agree to it.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "4" }],
+      "fallback": true
+    },
+    {
       "text": "Clubs, a skaa Smoker in Kelsier's crew, whose carpentry shop serves as the crew's hideout under the cover of his coppercloud.",
       "revealedIn": [{ "book": "final-empire", "chapter": "7" }]
+    },
+    {
+      "text": "A Smoker from Kelsier's old crew who watches Vin spar with Ham during the siege of Luthadel, betting on her while coaxing Elend into betting against her.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "6" }],
+      "fallback": true
     },
     {
       "text": "A Smoker from Kelsier's old crew who serves as general of Elend Venture's armies.",
@@ -14,6 +24,11 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A Smoker from Kelsier's old crew, remembered by Spook in a fever-dream as the man who took him in as a boy.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "23" }],
+      "fallback": true
     }
   ],
   "history": [

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Someone a letter-writer admits to holding a long grudge against, along with Rayse.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "23" }],
+      "fallback": true
+    },
+    {
       "text": "A powerful figure who seems to have been allied with Rayse, and against whom Hoid holds a deep grudge.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "50" }]
     },

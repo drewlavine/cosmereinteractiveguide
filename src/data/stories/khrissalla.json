@@ -9,6 +9,11 @@
       "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
     },
     {
+      "text": "A duchess from Darkside, sailing to Dayside with Baon after Prince Gevalden's death to find the Sand Mages he sought and win their aid against Emperor Skathan.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
       "text": "A noblewoman of Elis, on Darkside, who travels to Dayside to discover what her fiancé, Prince Gevalden, was searching for.",
       "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
     },

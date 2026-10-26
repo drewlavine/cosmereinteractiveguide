@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A woman who saw Shallan use the Ghostbloods' symbol the night before and asks to join her, but is turned away.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "25" }],
+      "fallback": true
+    },
+    {
       "text": "A former spy who trains Shallan's soldiers in observation and espionage at Urithiru.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "44" }]
     },

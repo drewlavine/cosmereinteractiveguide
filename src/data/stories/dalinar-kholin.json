@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "King Gavilar's brother, to whom the dying king sends a last charge through his assassin: he must find the most important words a man can say.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
       "text": "A Kholin lord and uncle of King Elhokar, fighting in the Alethi war on the Shattered Plains, who suffers strange visions during every highstorm.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
     },

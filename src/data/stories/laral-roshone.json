@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Kaladin's childhood friend in Hearthstone and the daughter of its citylord, Brightlord Wistiow, who urges Kaladin to become a soldier.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }],
+      "fallback": true
+    },
+    {
       "text": "The daughter of Hearthstone's citylord, Wistiow, and a childhood friend of Kaladin.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "37" }]
     },

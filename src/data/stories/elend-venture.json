@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A young nobleman who strikes up a conversation with Vin, in her guise as \"Valette Renoux\", on a balcony above the hall at the Keep Venture ball.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "12" }],
+      "fallback": true
+    },
+    {
       "text": "A bookish young Venture nobleman who reads at balls and strikes up a friendship with \"Valette Renoux\".",
       "revealedIn": [{ "book": "final-empire", "chapter": "31" }]
     },

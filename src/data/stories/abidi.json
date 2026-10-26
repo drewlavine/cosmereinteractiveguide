@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A Fused, one of the Heavenly Ones, who calls himself the Monarch and ambushes Shallan in Shadesmar's sea of beads, boasting that he keeps sane by bathing in the blood of Radiants.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "9" }],
+      "fallback": true
+    },
+    {
       "text": "A Fused of the Shanay-im, the flying Fused who can use the Surge of Gravitation.",
       "revealedIn": [
         {

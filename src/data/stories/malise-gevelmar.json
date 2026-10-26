@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A woman whom Shallan's father, Lin Davar, announces at a feast as his new wife, soon to come to the Davar estate.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "39" }],
+      "fallback": true
+    },
+    {
       "text": "A lighteyed woman from a minor rural Veden house who marries Shallan's father, Lin Davar.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "65" }]
     }

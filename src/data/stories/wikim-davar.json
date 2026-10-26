@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Another of Shallan's brothers, at home on the family estate, who comes to tell Balat that they have a big problem.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-2" }],
+      "fallback": true
+    },
+    {
       "text": "One of Shallan Davar's brothers, who helps Balat keep the family's creditors at bay after their father's death.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "29" }]
     },

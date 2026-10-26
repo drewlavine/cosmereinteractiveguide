@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A man famed, like Lanacin the Surefooted, for having killed a Shardbearer.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }],
+      "fallback": true
+    },
+    {
       "text": "A darkeyed man of legend who killed a Shardbearer and claimed his Blade.",
       "revealedIn": [
         {

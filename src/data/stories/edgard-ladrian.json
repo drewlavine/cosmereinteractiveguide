@@ -5,8 +5,18 @@
       "revealedIn": [{ "book": "final-empire", "chapter": "4" }]
     },
     {
+      "text": "One of Lord Cett's advisors, who steered Cett into marching on Luthadel to strengthen Elend's hand, then flees to the city under fire until Vin rescues him.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "11" }],
+      "fallback": true
+    },
+    {
       "text": "Breeze, a Soother from Kelsier's old crew who advises Elend Venture and calms the crowds at his public appearances.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "32" }]
+    },
+    {
+      "text": "Sazed's companion as they wait for King Audil Lekal to sign a treaty submitting to Elend's rule; he asks Sazed to preach one of the religions in his copperminds.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "4" }],
+      "fallback": true
     },
     {
       "text": "Breeze, a Soother from Kelsier's old crew who travels to Urteau with Sazed and Allrianne to help take the city from the Citizen.",

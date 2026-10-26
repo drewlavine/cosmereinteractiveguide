@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The new lighteyed citylord of Hearthstone, Kaladin's home town, who resents being sent to a backwater and blames the surgeon Lirin for letting Wistiow die.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "25" }],
+      "fallback": true
+    },
+    {
       "text": "The new lighteyed lord of Hearthstone, Kaladin's home town, who suspects the surgeon Lirin of theft.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }]
     },

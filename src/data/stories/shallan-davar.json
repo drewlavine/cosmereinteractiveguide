@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A noblewoman whose house is near ruin since her father's death, who has chased Jasnah Kholin from city to city hoping to become her ward.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "3" }],
+      "fallback": true
+    },
+    {
       "text": "A young noblewoman from a minor Veden house who traveled to Kharbranth hoping to become the ward of the scholar Princess Jasnah Kholin.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "5" }]
     },

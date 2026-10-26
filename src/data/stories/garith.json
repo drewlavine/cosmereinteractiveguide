@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A Knight Radiant of ancient Urithiru, whose appearance tells Dalinar that his vision shows a time before the Recreance.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "77" }],
+      "fallback": true
+    },
+    {
       "text": "A Windrunner and leader of the ancient Knights Radiant, who holds the orders together as they abandon Urithiru.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "80" }]
     },

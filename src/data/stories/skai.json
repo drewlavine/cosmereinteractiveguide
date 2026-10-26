@@ -1,6 +1,16 @@
 {
   "intro": [
     {
+      "text": "Someone a letter-writer reports dead along with Aona, with what the two of them held now Splintered.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "22" }],
+      "fallback": true
+    },
+    {
+      "text": "Someone who, with Aona, is dead, what they held now Splintered; a letter-writer calls the pair foolish for violating a pact from the very beginning.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "37" }],
+      "fallback": true
+    },
+    {
       "text": "One of the Shards. He and Aona settled in the same place, against the Shards' agreement, and both are dead, their power Splintered.",
       "revealedIn": [
         {

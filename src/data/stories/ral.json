@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A carpenter in Hearthstone who has been teaching Tien carpentry, since Tien can't stand the sight of blood.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "31" }],
+      "fallback": true
+    },
+    {
       "text": "The carpenter of Hearthstone, who took over the trade from his father.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }]
     }

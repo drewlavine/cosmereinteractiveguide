@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A member of Lopen's household in Sebarial's warcamp, who warns that they may need to move because something has been found out on the Plains.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "87" }],
+      "fallback": true
+    },
+    {
       "text": "One of Lopen's uncles, a talkative man with an ugly broken toe.",
       "revealedIn": [
         {

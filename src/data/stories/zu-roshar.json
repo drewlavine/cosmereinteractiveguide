@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A member of the team gathering at the Oathgate to go into Shadesmar with Adolin, who argues he should just become a Radiant to get a Shardblade.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }],
+      "fallback": true
+    },
+    {
       "text": "An Iriali Stoneward bonded to the peakspren Ua'pam, who joins the diplomatic mission to the honorspren of Lasting Integrity.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "22" }]
     }

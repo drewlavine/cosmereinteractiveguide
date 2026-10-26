@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A being through whom Shallan and Adolin speak with Mraize of the Ghostbloods from afar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }],
+      "fallback": true
+    },
+    {
       "text": "A seon, a glowing ball of light with her Aon at its centre.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "3" }]
     },

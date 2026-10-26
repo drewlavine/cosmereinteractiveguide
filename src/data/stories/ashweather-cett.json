@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A lord whose army is camped outside Luthadel, who turns up among the onlookers at an Assembly meeting and is nominated as the city's new king.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "31" }],
+      "fallback": true
+    },
+    {
       "text": "A nobleman from Fadrex City who brought his army to Luthadel during the siege and offered Elend Venture an alliance against Straff.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "44" }]
     },

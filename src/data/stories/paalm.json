@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A kandra called Bleeder, wearing the body of Bloody Tan and behind the recent murders, whom Harmony says is going mad and beyond his control.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "7" }],
+      "fallback": true
+    },
+    {
       "text": "A kandra who served the Lord Ruler directly, sent on constant missions against rebellions and kingdoms.",
       "revealedIn": [
         {

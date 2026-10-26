@@ -1,6 +1,16 @@
 {
   "intro": [
     {
+      "text": "A nobleman and friend of Elend Venture, though his House Lekal is a political rival of House Venture.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }],
+      "fallback": true
+    },
+    {
+      "text": "A nobleman and old friend of Elend who leads an army of koloss toward Luthadel, offering to ally with Elend against the other two armies besieging the city.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "19" }],
+      "fallback": true
+    },
+    {
       "text": "A nobleman and former friend of Elend Venture who brings an army of koloss to besiege Luthadel in search of the Lord Ruler's atium.",
       "revealedIn": [{ "book": "well-of-ascension", "chapter": "51" }]
     }

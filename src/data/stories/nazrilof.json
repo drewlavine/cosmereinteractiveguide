@@ -9,6 +9,11 @@
       "revealedIn": [{ "book": "secret-history", "chapter": "3-2" }]
     },
     {
+      "text": "A shade who drifts alongside Starling aboard the ship Dynamic, trading banter with her.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "22" }],
+      "fallback": true
+    },
+    {
       "text": "A shade who serves as security officer aboard the Dynamic.",
       "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "26" }]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A man who receives a disguised Shallan, posing as Tyn's go-between, in an underground trophy room and, after testing her story, sends her to learn Amaram's secrets.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "43" }],
+      "fallback": true
+    },
+    {
       "text": "A scarred, cultured member of the Ghostbloods, a secret society, who tests Shallan in her disguise as Veil before offering her a place among them.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "54" }]
     },

@@ -9,6 +9,11 @@
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "epilogue" }]
     },
     {
+      "text": "The keeper of the Noodle Pupil, a noodle shop where Painter eats, who gives him steep discounts and urges him to mix with the other painters.",
+      "revealedIn": [{ "book": "yumi", "chapter": "5" }],
+      "fallback": true
+    },
+    {
       "text": "A Cryptic bonded to Hoid, travelling the cosmere with him.",
       "revealedIn": [
         {
@@ -18,6 +23,11 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A companion who travels with Hoid, inhabiting his jacket when he meets Starling in the Spirit Shores.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "51" }],
+      "fallback": true
     }
   ],
   "history": [

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A member of Sebarial's army, found murdered in Urithiru in exactly the way Sadeas was killed.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "9" }],
+      "fallback": true
+    },
+    {
       "text": "A quiet, well-liked officer, known more as an administrator than as a soldier.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "15" }]
     },

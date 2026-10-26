@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A Parshendi and Venli's former mate, who backs her call to risk taking stormform to save their people from being wiped out.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-1" }],
+      "fallback": true
+    },
+    {
       "text": "A listener scholar in Narak, Venli's former mate and research partner, and one of the first to take stormform.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "i-13" }]
     }

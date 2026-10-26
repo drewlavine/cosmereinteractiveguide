@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A young lighteyes on King Elhokar's chasmfiend hunt, whom Wit tells Dalinar is not as fragile as Dalinar thinks.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "12" }],
+      "fallback": true
+    },
+    {
       "text": "The younger son of Highprince Dalinar Kholin and brother of Adolin, a quiet young Alethi lighteyes whose blood weakness keeps him from fighting.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }]
     },

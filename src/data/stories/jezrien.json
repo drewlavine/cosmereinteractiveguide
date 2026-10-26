@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The leader of the ten Heralds, who tells Kalak after a Desolation that the others have abandoned the Oathpact, and leaves his own Blade beside theirs.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "prelude" }],
+      "fallback": true
+    },
+    {
       "text": "One of the ten Heralds of the Almighty: a tall, regal man with a deep, calm voice.",
       "revealedIn": [
         {

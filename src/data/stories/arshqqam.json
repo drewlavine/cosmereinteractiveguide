@@ -1,8 +1,18 @@
 {
   "intro": [
     {
+      "text": "A woman known as the Stump, who takes in a child abandoned at the door of Tashi's Light Orphanage in Yeddaw but tells Lift she may have only three meals.",
+      "revealedIn": [{ "book": "edgedancer", "chapter": "6" }],
+      "fallback": true
+    },
+    {
       "text": "A woman known as the Stump, who runs Tashi's Light Orphanage in Yeddaw.",
       "revealedIn": [{ "book": "edgedancer", "chapter": "20" }]
+    },
+    {
+      "text": "A woman known as the Stump, who is expected to visit Azimir.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "104" }],
+      "fallback": true
     },
     {
       "text": "An elderly woman, known as the Stump, who runs Tashi's Light Orphanage in Yeddaw and has joined the Knights Radiant as a Truthwatcher.",

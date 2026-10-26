@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A nobleman of House Hasting, a political rival of House Venture, who is nonetheless a friend of Elend's and meets him with Jastes Lekal at a ball at Keep Elariel.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "18" }],
+      "fallback": true
+    },
+    {
       "text": "A nobleman of House Hasting in Luthadel.",
       "revealedIn": [{ "book": "final-empire", "chapter": "23" }]
     },

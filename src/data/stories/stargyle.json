@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "One of Shallan's Lightweavers, whom Radiant counts among the likeliest spies but Veil chooses to bring on the mission to Shadesmar.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "20" }],
+      "fallback": true
+    },
+    {
       "text": "Stargyle is a Lightweaver and a member of Shallan's Unseen Court.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "21" }]
     }

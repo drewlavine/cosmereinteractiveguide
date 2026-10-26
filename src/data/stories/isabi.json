@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "One of Navani's people in Urithiru, who runs up with a blinking spanreed: Navani's mysterious contact wants to talk to her again.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "27" }],
+      "fallback": true
+    },
+    {
       "text": "A young scholar at Urithiru, apprenticed to Falilar on Navani Kholin's team.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "28" }]
     }

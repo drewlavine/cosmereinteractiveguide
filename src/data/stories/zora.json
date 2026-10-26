@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A Ghostblood whom Mraize leaves in charge of the remaining Ghostbloods, reporting to Thaidakar, while he and Iyatil follow Dalinar into the Spiritual Realm.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "25" }],
+      "fallback": true
+    },
+    {
       "text": "A member of the Ghostbloods on Roshar, placed temporarily in charge of their Rosharan chapter by Mraize.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
     }

@@ -8320,12 +8320,12 @@ export const characterDetails: Record<string, CharacterDetails> = {
     appearsIn: [
       {
         bookId: 'final-empire',
-        revealedIn: [{ book: 'final-empire', chapter: '12' }],
+        revealedIn: [{ book: 'final-empire', chapter: '26' }],
       },
     ],
     world: {
       planetId: 'scadrial',
-      revealedIn: [{ book: 'final-empire', chapter: '12' }],
+      revealedIn: [{ book: 'final-empire', chapter: '26' }],
     },
     aliases: [
       {
@@ -8334,7 +8334,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
     ],
     species: [
-      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '12' }] },
+      { name: 'Human', revealedIn: [{ book: 'final-empire', chapter: '26' }] },
     ],
     abilities: [],
     nationality: [],
@@ -8352,6 +8352,15 @@ export const characterDetails: Record<string, CharacterDetails> = {
         relation: 'child',
         characterId: 'vin',
         revealedIn: [{ book: 'final-empire', chapter: '36' }],
+      },
+    ],
+    personas: [
+      {
+        id: 'lord-prelan',
+        name: 'Lord Prelan',
+        coppermindPage: 'Lord Prelan',
+        books: ['final-empire'],
+        identityRevealedIn: [{ book: 'final-empire', chapter: '36' }],
       },
     ],
   },
@@ -37791,7 +37800,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
     appearsIn: [
       {
         bookId: 'wind-and-truth',
-        revealedIn: [{ book: 'wind-and-truth', chapter: '14' }],
+        revealedIn: [{ book: 'wind-and-truth', chapter: '18' }],
       },
       {
         bookId: 'isles-of-the-emberdark',

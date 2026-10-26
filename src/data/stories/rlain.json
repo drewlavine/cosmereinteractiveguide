@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A parshman newly assigned to Kaladin's Bridge Four, whom the crew calls Shen.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "46" }],
+      "fallback": true
+    },
+    {
       "text": "A quiet parshman assigned to Kaladin's Bridge Four, whom the crew calls Shen.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "49" }]
     },

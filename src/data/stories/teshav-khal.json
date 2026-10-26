@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The wife of one of Dalinar Kholin's officers, who works with his scribes and questions how many troops he has set patrolling.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "18" }],
+      "fallback": true
+    },
+    {
       "text": "An Alethi lighteyed woman, wife of General Khal, who serves Dalinar Kholin as a scribe and advisor.",
       "revealedIn": [
         {

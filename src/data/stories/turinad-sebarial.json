@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "An Alethi highprince on the Shattered Plains who stands outside the warcamps' factions, and who plays along when Shallan claims to work for him as a distant relative.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }],
+      "fallback": true
+    },
+    {
       "text": "An Alethi highprince whose commerce-focused warcamp on the Shattered Plains supplies the other camps.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }]
     },

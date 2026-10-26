@@ -563,11 +563,12 @@ export function revealStory(
       }))
       .filter((s) => s.items.length > 0)
 
+  const intros = prose.intro
+    .filter((i) => persona || !aboutPersona(i))
+    .filter(show)
+
   return {
-    intro: prose.intro
-      .filter((i) => persona || !aboutPersona(i))
-      .filter(show)
-      .at(-1)?.text,
+    intro: (intros.filter((i) => !i.fallback).at(-1) ?? intros.at(-1))?.text,
     history: sections(prose.history),
     appearance: prose.appearance.filter(show).map((i) => i.text),
     personality: prose.personality.filter(show).map((i) => i.text),

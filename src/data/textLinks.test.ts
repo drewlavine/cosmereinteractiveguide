@@ -31,6 +31,9 @@ describe('links in prose', () => {
       '/characters/vin',
     ])
     expect(hrefs(text, at([], { 'final-empire': '26' }))).toContain(
+      '/characters/lord-prelan',
+    )
+    expect(hrefs(text, at([], { 'final-empire': '36' }))).toContain(
       '/characters/tevidian-tekiel',
     )
   })

@@ -1,8 +1,18 @@
 {
   "intro": [
     {
+      "text": "A man whom Sarene sends to deliver a box of supplies, secretly swords and bows, to Galladon and Karata in Elantris.",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }],
+      "fallback": true
+    },
+    {
       "text": "A mysterious beggar wrapped in bandages who helps Sarene smuggle weapons into Elantris.",
       "revealedIn": ["elantris"]
+    },
+    {
+      "text": "A storyteller who appears elderly, with a long white beard, whom Lightsong brings to tell Siri, in coloured dust, the history of the Manywar and the God Kings.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }],
+      "fallback": true
     },
     {
       "text": "Wit, King Elhokar Kholin's court jester: a sharp-tongued man in a stiff black coat who carries a thin sword as his badge of office.",

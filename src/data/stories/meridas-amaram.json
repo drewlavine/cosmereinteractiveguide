@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A lighteyed Alethi officer who comes to Kaladin's hometown to recruit soldiers, and who asks Roshone for another name when Tien is listed as a conscript.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "44" }],
+      "fallback": true
+    },
+    {
       "text": "A lighteyed Alethi general, celebrated for his honour, who owns both a Shardblade and Shardplate.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "51" }]
     },

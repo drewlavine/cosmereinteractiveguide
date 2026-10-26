@@ -3,6 +3,11 @@
     {
       "text": "A woman from Vasher's distant past whom Nightblood remembers as if she were still alive. Vasher killed her long ago.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+    },
+    {
+      "text": "One of those who, Nightblood tells Szeth and Kaladin, made him, along with Vasher and Yesteel.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "35" }],
+      "fallback": true
     }
   ],
   "history": [

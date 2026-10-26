@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A general in Straff Venture's army who urges Straff to attack Luthadel as the koloss break into the city, and is ignored.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "53" }],
+      "fallback": true
+    },
+    {
       "text": "A general in House Venture's army and Straff Venture's second-in-command.",
       "revealedIn": ["well-of-ascension"]
     },

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The master of a palace whose Hallowed Hall of art Baxil's mistress sets about wrecking, slashing paintings and smashing sculptures.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "i-7" }],
+      "fallback": true
+    },
+    {
       "text": "Ashno of Sages, a wealthy Emuli holy man and a former Prime of Emul.",
       "revealedIn": [
         {

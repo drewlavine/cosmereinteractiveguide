@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A member of the pirate crew Tress has joined, one of those Hoid names as the important ones to remember.",
+      "revealedIn": [{ "book": "tress", "chapter": "15" }],
+      "fallback": true
+    },
+    {
       "text": "A member of the Crow's Song's crew who helps Tress learn the basics of being the ship's Sprouter.",
       "revealedIn": [{ "book": "tress", "chapter": "28" }]
     },

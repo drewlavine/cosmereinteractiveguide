@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A stranger who visits the skaa of Lord Tresting's plantation and, when a skaa girl is taken to the manor, kills Tresting and his men and burns it down.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
       "text": "A thief hired by Yeden, leader of the skaa rebellion, to bring down the Final Empire, who returns to Luthadel to gather a crew.",
       "revealedIn": [{ "book": "final-empire", "chapter": "2" }]
     },
@@ -18,6 +23,16 @@
           ]
         }
       ]
+    },
+    {
+      "text": "A name Shallan finds at the end of a list of strange words in a notebook, which she shows to Adolin.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }],
+      "fallback": true
+    },
+    {
+      "text": "A figure who appears to Gavilar Kholin through a seon, demanding that Gavilar keep his promise to deliver Restares, who knows how to find Ba-Ado-Mishram.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }],
+      "fallback": true
     },
     {
       "text": "Thaidakar, the leader of the Ghostbloods, a secret society opposed by Shallan.",

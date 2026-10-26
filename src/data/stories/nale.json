@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A man whom Szeth recognises as Nalan, Herald of Justice, and who takes Szeth as his apprentice, giving him a strange black Shardblade.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "88" }],
+      "fallback": true
+    },
+    {
       "text": "A cold, relentless man who hunts down budding Surgebinders under cover of the law. Lift, who confronted him in Yeddaw, calls him Darkness.",
       "revealedIn": [{ "book": "edgedancer", "chapter": "19" }]
     },

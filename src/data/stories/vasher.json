@@ -13,8 +13,28 @@
       "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
     },
     {
+      "text": "An ardent and former soldier who watches Adolin and Renarin Kholin train, and who tells Kaladin he means them no harm.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "16" }],
+      "fallback": true
+    },
+    {
       "text": "Zahel, an ardent and swordmaster in the Kholin warcamp who trains Adolin and Renarin Kholin.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "35" }]
+    },
+    {
+      "text": "An ardent swordmaster, the only one who stays to talk with Dalinar when the other ardents walk out rather than spar with him.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "16" }],
+      "fallback": true
+    },
+    {
+      "text": "An ardent swordmaster whom Kaladin seeks out after being forced into retirement, and who bests him in a sparring match while hanging laundry.",
+      "revealedIn": [{ "book": "rhythm-of-war", "chapter": "15" }],
+      "fallback": true
+    },
+    {
+      "text": "A swordmaster among the ardents, held and tortured by Axindweth, who refuses the bargain she offers to make it stop.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-9" }],
+      "fallback": true
     },
     {
       "text": "A Returned of Nalthis, once called Warbreaker the Peaceful, who lives on Roshar as Zahel, a swordmaster among the ardents.",

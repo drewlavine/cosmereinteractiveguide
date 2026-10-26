@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The lord of House Venture, whom Kelsier visits while posing as a sickly, lame skaa beggar and street informant.",
+      "revealedIn": [{ "book": "final-empire", "chapter": "19" }],
+      "fallback": true
+    },
+    {
       "text": "Elend Venture's father, a Luthadel nobleman who abandoned the city after the Lord Ruler's death and returns at the head of an army to take it from his son.",
       "revealedIn": [
         {

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Adolin's tailor in Kholinar, at whose back door the team arrives seeking a safehouse after slipping into the city.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "61" }],
+      "fallback": true
+    },
+    {
       "text": "A Thaylen tailor in Kholinar.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "62" }]
     }

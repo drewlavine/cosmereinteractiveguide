@@ -7,6 +7,11 @@
     {
       "text": "One of the Five Scholars, Arsteel's brother and a master of Lifeless Commands, best known for discovering ichor-alcohol.",
       "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    },
+    {
+      "text": "One of those who, Nightblood tells Szeth and Kaladin, made him, along with Vasher and Shashara.",
+      "revealedIn": [{ "book": "wind-and-truth", "chapter": "35" }],
+      "fallback": true
     }
   ],
   "history": [

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Highprince Sebarial's mistress, who helps Shallan settle into her quarters at his manor in the warcamps.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "40" }],
+      "fallback": true
+    },
+    {
       "text": "A woman who lives with Turinad Sebarial in his opulent manor in the Alethi warcamps on the Shattered Plains.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "55" }]
     },

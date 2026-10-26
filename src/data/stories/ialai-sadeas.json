@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The wife of Highprince Torol Sadeas, who uses Dalinar's recruitment drive to plant more spies in his warcamp.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "5" }],
+      "fallback": true
+    },
+    {
       "text": "An Alethi lighteyed noblewoman and the wife of Highprince Torol Sadeas, living in his warcamp on the Shattered Plains.",
       "revealedIn": [{ "book": "words-of-radiance", "chapter": "38" }]
     },

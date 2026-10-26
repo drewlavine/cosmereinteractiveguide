@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "Kaladin's younger brother, of whom Kaladin is reminded by a young boy newly sent to the bridge crews.",
+      "revealedIn": [{ "book": "way-of-kings", "chapter": "9" }],
+      "fallback": true
+    },
+    {
       "text": "Kaladin's younger brother, a boy who grew up in Hearthstone.",
       "revealedIn": [{ "book": "way-of-kings", "chapter": "16" }]
     },

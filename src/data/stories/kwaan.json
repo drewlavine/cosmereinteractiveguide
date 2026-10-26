@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "An ancient Terrisman whose account, engraved on a steel plate Sazed finds in the Conventical of Seran, tells how he first proclaimed Alendi the Hero of Ages, then resolved to stop his quest.",
+      "revealedIn": [{ "book": "well-of-ascension", "chapter": "12" }],
+      "fallback": true
+    },
+    {
       "text": "A Worldbringer of ancient Terris whose research centred on nature, and who spent much of his time in the great library of Khlennium.",
       "revealedIn": [
         {

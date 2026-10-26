@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "The queen of Thaylenah, a blunt and sarcastic ruler whose city lies in shambles after the Everstorm, and who doubts Dalinar's call for a council of monarchs.",
+      "revealedIn": [{ "book": "oathbringer", "chapter": "12" }],
+      "fallback": true
+    },
+    {
       "text": "The queen of Thaylenah, an island kingdom on Roshar, whom Dalinar Kholin tries to win over to his coalition.",
       "revealedIn": [{ "book": "oathbringer", "chapter": "28" }]
     },

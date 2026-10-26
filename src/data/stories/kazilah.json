@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A figure of the past executed for fraternising with 'unwholesome elements'; an old account defends the Radiants who carried out the execution.",
+      "revealedIn": [{ "book": "words-of-radiance", "chapter": "51" }],
+      "fallback": true
+    },
+    {
       "text": "A figure of the past who was found guilty of fraternising with 'unwholesome elements' and executed.",
       "revealedIn": [
         {

@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A kandra of the Second Generation who questions TenSoon at his trial in the Trustwarren, a contest TenSoon sees as between their two Generations.",
+      "revealedIn": [{ "book": "hero-of-ages", "chapter": "9" }],
+      "fallback": true
+    },
+    {
       "text": "A kandra of the Second Generation, an administrator who spends nearly all his time in the kandra Homeland.",
       "revealedIn": [{ "book": "hero-of-ages", "chapter": "11" }]
     },

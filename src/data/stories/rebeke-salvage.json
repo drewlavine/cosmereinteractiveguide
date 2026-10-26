@@ -1,6 +1,11 @@
 {
   "intro": [
     {
+      "text": "A driver from Beacon, a flying settlement, who brings Nomad there along with a captured Charred and reports by radio to Zeal.",
+      "revealedIn": [{ "book": "sunlit-man", "chapter": "7" }],
+      "fallback": true
+    },
+    {
       "text": "A young woman of Beacon on Canticle who helped rescue Elegy from Union and was then assigned to look after Nomad.",
       "revealedIn": [{ "book": "sunlit-man", "chapter": "18" }]
     },
