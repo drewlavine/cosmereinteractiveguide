@@ -41,9 +41,18 @@ const isStarMapPlace = (pathname: string) =>
 
 export const mainTabs: MainTab[] = [
   {
+    id: 'catch-me-up',
+    label: 'Catch Me Up',
+    group: 'Explore the Cosmere',
+    icon: 'recap',
+    path: '/catch-me-up',
+    isActive: underPath('/catch-me-up'),
+    comingSoon:
+      'A recap of the key plot points across the Cosmere, up to where you are in your reading.',
+  },
+  {
     id: 'star-map',
     label: 'Star Map',
-    group: 'Explore the Cosmere',
     icon: 'star-map',
     path: '/',
     // Systems and planets live under the star map; their places belong to

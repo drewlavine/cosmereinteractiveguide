@@ -58,6 +58,13 @@ const paths: Record<IconName, ReactNode> = {
     </>
   ),
   event: <path d="M13.5 3 5.5 13.5h6L10.5 21l8-10.5h-6Z" />,
+  recap: (
+    <>
+      <path d="M4.5 12a7.5 7.5 0 1 0 2.2-5.3L4.5 9" />
+      <path d="M4.5 4.5V9H9" />
+      <path d="M12 8v4l2.8 1.8" />
+    </>
+  ),
   lifeform: (
     <>
       <path d="M6 18.5c0-7.5 4.5-12.5 13-13-.5 8.5-5.5 13-13 13Z" />

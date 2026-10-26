@@ -26,6 +26,7 @@ describe('main tabs', () => {
     renderAt('/')
     const links = within(mainNav()).getAllByRole('link')
     expect(links.map((l) => l.textContent)).toEqual([
+      'Catch Me Up',
       'Star Map',
       'Books',
       'Timeline',
@@ -37,6 +38,7 @@ describe('main tabs', () => {
       'Events',
     ])
     expect(links.map((l) => l.getAttribute('href'))).toEqual([
+      '/catch-me-up',
       '/',
       '/books',
       '/timeline',
@@ -65,6 +67,7 @@ describe('main tabs', () => {
     ['/lifeforms/honorspren', 'Lifeforms'],
     ['/events', 'Events'],
     ['/events/last-desolation', 'Events'],
+    ['/catch-me-up', 'Catch Me Up'],
   ])('marks the right tab active on %s', (path, tab) => {
     renderAt(path)
     expect(activeTab()).toEqual([tab])
@@ -85,7 +88,7 @@ describe('main tabs', () => {
             .map((l) => l.textContent),
       ),
     ).toEqual([
-      ['Star Map', 'Books', 'Timeline'],
+      ['Catch Me Up', 'Star Map', 'Books', 'Timeline'],
       ['Characters', 'Magic', 'Culture'],
       ['Locations', 'Lifeforms'],
       ['Events'],

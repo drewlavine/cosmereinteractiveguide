@@ -208,6 +208,9 @@ section; tick a tab here once its section's first version ships.
       People & powers, World, History), with a gold marker on the current
       section. The header's menu button pins it open (remembered); on phones
       it opens it as a drawer.
+  - [ ] **Catch Me Up**: a recap of the key plot points across the Cosmere,
+        up to where the reader is (placeholder tab at `/catch-me-up`, first
+        under Explore the Cosmere)
   - [ ] **My Cosmere**: the new starting tab, before Star Map (see 10)
   - [x] **Star Map**: the Cosmere star map, systems and planets (see 0–3)
   - [x] **Books**: every Cosmere book, grouped by series, with a page each
