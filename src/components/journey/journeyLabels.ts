@@ -16,3 +16,7 @@ export function stopSource(stop: ShownJourneyStop) {
 /** A stop's short name: what happens, else its place once revealed, else its number. */
 export const stopName = (stop: ShownJourneyStop, i: number) =>
   stop.title ?? stop.place?.name ?? `Event ${i + 1}`
+
+/** How a stop's character is there, to follow other words: "in the Cognitive Realm". */
+export const presenceLabel = (presence: string) =>
+  presence.charAt(0).toLowerCase() + presence.slice(1)

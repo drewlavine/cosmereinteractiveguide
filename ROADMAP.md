@@ -380,8 +380,8 @@ section; tick a tab here once its section's first version ships.
     - [x] Names of visible characters, places, planets, Magic and Culture
           entries in page prose link to their pages automatically
     - **Appearance & Personality**
-    - **Travels**: the world-hopper timeline (below); only for world
-      hoppers
+    - **Journey**: the character's whole timeline on maps, with the
+      star chart between worlds for world hoppers (below)
     - **Appearances**: each book they appear in, and the first chapter
     - **Quotes**: memorable lines, each tagged by book and chapter
   - [x] First pass: tab bar with the data we have (Overview: world,
@@ -503,7 +503,7 @@ section; tick a tab here once its section's first version ships.
       the site is private
   - [ ] **Before any public release:** ask 17th Shard (contact on the
         Coppermind Copyrights page) about our paraphrased summaries
-- [ ] **Travels** tab for world hoppers (e.g. Hoid, Vasher, Vivenna, Khriss,
+- [x] **Travels** tab for world hoppers (e.g. Hoid, Vasher, Vivenna, Khriss,
       Nazh, Tress, Felt): a visual timeline of the planets they've visited,
       in the Cosmere's in-world order (not publication order), each stop
       linked to its planet page
@@ -540,6 +540,7 @@ section; tick a tab here once its section's first version ships.
         (not in the books), Canticle (only an illusion), the Dynamic (no
         world, order unknown). Kelsier, Marsh, Sazed, Tress, Nikaro and Yumi
         stay on one world in the books, so they get no Travels
+  - [x] Folded into the **Journey** (see section 16): Travels is gone
   - [x] Worlds that would overlap on the map (Ashyn and Roshar) are set
         side by side
   - [x] The map opens on the first stop (in-world order), with the rest of
@@ -646,8 +647,14 @@ Personal arcs and battles belong on character and journey pages.
           as the matching legend (personas get their own colour)
     - [x] Play, trails, character filter, map switching and city zoom,
           phone layout
+    - [x] Hover tooltips on every button; markers show curated face crops
+    - [x] Map-wide zoom feel (after the 17th Shard's Roshar map): zoom out
+          only until the map fills the frame, no panning off the edges,
+          eased wheel zoom and flung pans
     - [ ] Roll out book by book (Well of Ascension, Hero of Ages, then
-          Stormlight)
+          Stormlight). Done: The Way of Kings (113 scenes over all 88
+          chapters, on Roshar, Kharbranth, the warcamps and the Shattered
+          Plains, with cosmere-maps' 8 Way of Kings routes)
   - [ ] Book details (setting, worlds and places, previous/next in series)
   - [ ] Publication order view (the Coppermind's Cosmere bibliography
         lists every book in order, including within a year)
@@ -936,6 +943,20 @@ can become a template for other series. Data from importers in
       surface map for them
 - [ ] Journey events for the other world-hoppers (Sigzil, Vasher,
       Vivenna, Felt)
+- [x] **One Journey replaces Travels** (`docs/unified-journey.md`): a
+      character's whole timeline in order, starting on the home world's
+      maps, pulling out to a star chart of the Cosmere (or the Cognitive
+      Realm) when they hop, then into the next world's maps. Itineraries
+      (`data/itineraries.ts`, once `travels.ts`) hold the stays; Hoid,
+      Vasher/Zahel, Vivenna, Felt and Sigzil migrated with their `needs`,
+      `uncertain` and `wob` notes. Stops where the character isn't bodily
+      there carry a `presence` label ("In the Cognitive Realm", "Through
+      a seon") shown on the card and in the list
+- [x] Kelsier's overhaul and full journey: The Eleventh Metal, the Final
+      Empire, Secret History in the Cognitive Realm, Era 2 through The Lost
+      Metal, and his contacts with Roshar as Thaidakar (each dated by the
+      chapter that reveals it); per-book art (the Secret History cover and
+      the Sovereign), so the page and marker show the latest he's been seen
 - [ ] Book and series pages: everyone's journeys in reading order
 - [ ] An all-characters map (like cosmeremaps.com)
 - [ ] Extract the journey model, engine and importers as a template for
@@ -987,7 +1008,7 @@ entry pipeline (`~/cig-entry-data`, kind `lifeform`).
 
 Not planned yet; come back to these if wanted.
 
-- **Travels map**
+- **Journey star chart**
   - Passport stamps: a stamp per world visited, collected as the reader
     progresses
   - Shadesmar crossings: draw Cognitive-Realm trips differently from

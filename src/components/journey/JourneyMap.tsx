@@ -2,6 +2,7 @@ import {
   Fragment,
   useCallback,
   useEffect,
+  useId,
   useLayoutEffect,
   useMemo,
   useRef,
@@ -14,9 +15,9 @@ import { useLinkText, type LinkTextFn } from '../LinkedText'
 import { showOnPage } from '../pageOpen'
 import { SourceMark } from '../SourceMark'
 import { Link } from 'react-router'
-import type { JourneyArt } from '../../data/journey'
+import type { AtlasMap, JourneyArt } from '../../data/journey'
 import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
-import { stopName, stopSource } from './journeyLabels'
+import { presenceLabel, stopName, stopSource } from './journeyLabels'
 import type { MapEngineHandle } from './MapEngine'
 import { SvgMapEngine } from './SvgMapEngine'
 import {
@@ -37,6 +38,9 @@ const MIN_VIEW = 0.12
 // the zoom takes, and how much of the outer map's width shows at the pin.
 const ZOOM_MS = 800
 const PIN_VIEW = 0.015
+/** The marker's radius on screen: with art, big enough to tell who it is. */
+const HERE_R = 8
+const FACE_R = 16
 
 const reducedMotion = () =>
   typeof window !== 'undefined' &&
@@ -55,9 +59,13 @@ export default function JourneyMap({
   closeLabel = 'Close',
   selfKey,
   more,
+  portrait,
+  background,
 }: {
   /** Whose journey, for labels. */
   name: string
+  /** Their art (a spoiler-safe one), shown in the marker for where they are. */
+  portrait?: string
   journey: ShownJourney
   onClose?: () => void
   closeLabel?: string
@@ -65,8 +73,11 @@ export default function JourneyMap({
   selfKey?: string
   /** The id of the part of the page telling more about an event, if any. */
   more?: (where: ShownJourneyStop['where']) => string | undefined
+  /** Draws a map that has no image (e.g. the star chart). */
+  background?: (map: AtlasMap) => ReactNode
 }) {
   const link = useLinkText(selfKey)
+  const uid = useId().replace(/[^a-zA-Z0-9-]/g, '')
   const { stops, maps, credits } = journey
   const [current, setCurrent] = useState(0)
   const [playing, setPlaying] = useState(false)
@@ -177,7 +188,14 @@ export default function JourneyMap({
       const outOf = motion && anchorOn(maps, target, map.id)
       // Between two cities on one map: out to that map, then in to the other.
       const up = map.parent?.mapId
-      if (motion && !into && !outOf && up && anchorOn(maps, up, target)) {
+      if (
+        motion &&
+        !into &&
+        !outOf &&
+        up &&
+        maps.some((m) => m.id === up) &&
+        anchorOn(maps, up, target)
+      ) {
         engine.current?.flyTo(whole, { inset: covered() })
         const timer = setTimeout(() => setView(up), ZOOM_MS)
         return () => clearTimeout(timer)
@@ -278,9 +296,8 @@ export default function JourneyMap({
   }
 
   // A city event can be seen where it sits on the world map, and back.
-  const world = maps.find((m) => m.id === stop.mapId)?.parent
-    ? rootOf(maps, stop.mapId)
-    : undefined
+  const root = rootOf(maps, stop.mapId)
+  const world = root !== stop.mapId ? root : undefined
 
   const source = stopSource(stop)
   const place = stopName(stop, current)
@@ -310,7 +327,7 @@ export default function JourneyMap({
                 cy={line.at(-1)![1]}
                 r={px(4.5)}
                 strokeWidth={px(1.5)}
-                className="journey-dot"
+                className={`journey-dot${stops[i].presence ? ' is-remote' : ''}`}
               />
               {/* A bigger, unseen target that goes to the event. The
                   numbered events below do the same from the keyboard. */}
@@ -344,17 +361,44 @@ export default function JourneyMap({
               key={`pulse-${current}`}
               cx={here[0]}
               cy={here[1]}
-              r={px(16)}
+              r={px(portrait ? FACE_R + 10 : 16)}
               strokeWidth={px(2)}
               className="journey-pulse"
             />
-            <circle
-              cx={here[0]}
-              cy={here[1]}
-              r={px(8)}
-              strokeWidth={px(2.5)}
-              className="journey-here"
-            />
+            {portrait ? (
+              <g
+                transform={`translate(${here[0]} ${here[1]}) scale(${1 / zoom})`}
+                className="journey-face"
+              >
+                <defs>
+                  <clipPath
+                    id={`${uid}-face`}
+                    clipPathUnits="objectBoundingBox"
+                  >
+                    <circle cx="0.5" cy="0.5" r="0.5" />
+                  </clipPath>
+                </defs>
+                <circle r={FACE_R + 2.5} className="journey-face-backing" />
+                <image
+                  href={assetUrl(portrait)}
+                  x={-FACE_R}
+                  y={-FACE_R}
+                  width={2 * FACE_R}
+                  height={2 * FACE_R}
+                  preserveAspectRatio="xMidYMin slice"
+                  clipPath={`url(#${uid}-face)`}
+                />
+                <circle r={FACE_R} strokeWidth={3} className="journey-here" />
+              </g>
+            ) : (
+              <circle
+                cx={here[0]}
+                cy={here[1]}
+                r={px(HERE_R)}
+                strokeWidth={px(2.5)}
+                className="journey-here"
+              />
+            )}
           </>
         )}
       </>
@@ -410,6 +454,7 @@ export default function JourneyMap({
           image={map.image}
           label={`Map of ${map.title}: drag to pan, pinch or scroll to zoom`}
           layers={layers}
+          background={background?.(map)}
         />
 
         {cardOpen ? (
@@ -460,6 +505,14 @@ export default function JourneyMap({
               {stop.approximate && (
                 <span className="travel-badge journey-approx">Approximate</span>
               )}
+              {stop.presence && (
+                <span
+                  className="travel-badge journey-presence"
+                  data-tooltip={`${name} isn’t there in body: ${presenceLabel(stop.presence)}`}
+                >
+                  {stop.presence}
+                </span>
+              )}
             </p>
             <h3>
               {!stop.title && stop.place?.href ? (
@@ -468,7 +521,7 @@ export default function JourneyMap({
                 place
               )}
             </h3>
-            {(source || (stop.title && stop.place)) && (
+            {!stop.world && (source || (stop.title && stop.place)) && (
               <p className="journey-source">
                 {stop.title && stop.place && (
                   <>
@@ -490,12 +543,28 @@ export default function JourneyMap({
                 )}
               </p>
             )}
-            {stop.summary.map(({ text, cite, links }) => (
-              <p key={text}>
-                {linked(text, links, link, selfKey)}
-                {cite && <SourceMark sources={[cite]} />}
+            {stop.notes?.map((n) => (
+              <p key={n.label} className="travel-uncertain">
+                <span className="travel-badge">{n.label}</span> {n.text}
               </p>
             ))}
+            {stop.world ? (
+              <ul className="journey-stay">
+                {stop.summary.map(({ text, books }) => (
+                  <li key={text}>
+                    {link(text)}
+                    {books && <SourceMark books={books} />}
+                  </li>
+                ))}
+              </ul>
+            ) : (
+              stop.summary.map(({ text, cite, links }) => (
+                <p key={text}>
+                  {linked(text, links, link, selfKey)}
+                  {cite && <SourceMark sources={[cite]} />}
+                </p>
+              ))
+            )}
             {moreId && (
               <button
                 type="button"
@@ -564,12 +633,17 @@ export default function JourneyMap({
 
           <ol className="journey-steps" aria-label="Events">
             {stops.map((s, i) => {
-              const from = stopSource(s)
-              const label = `${stopName(s, i)}${from?.chapter ? `, ${from.chapter}` : ''}`
+              const from = s.world ? undefined : stopSource(s)
+              const label = `${stopName(s, i)}${s.presence ? ` (${presenceLabel(s.presence)})` : ''}${from?.chapter ? `, ${from.chapter}` : ''}`
               return (
                 <li key={s.id}>
                   <button
                     type="button"
+                    className={
+                      [s.world && 'is-hop', s.presence && 'is-remote']
+                        .filter(Boolean)
+                        .join(' ') || undefined
+                    }
                     aria-current={i === current ? 'step' : undefined}
                     aria-label={`${i + 1}. ${label}`}
                     title={label}

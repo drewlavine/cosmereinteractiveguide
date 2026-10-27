@@ -4560,6 +4560,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-bc621f93",
+      "characters": ["thaidakar"],
+      "mapId": "kholinar",
+      "path": [[860, 1420]],
+      "placeId": "kholinar-palace",
+      "placeName": "Kholinar palace",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "prologue"
+        }
+      ],
+      "presence": "Through a seon",
+      "title": "Thaidakar presses Gavilar by seon",
+      "summary": [
+        {
+          "text": "The night Gavilar Kholin died, Thaidakar spoke to him by seon, demanding he hand over Restares.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "prologue"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 71
+    },
+    {
       "id": "rm-0ff567af",
       "characters": ["moash"],
       "mapId": "roshar",
@@ -4588,6 +4617,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-214585e4",
+      "characters": ["thaidakar"],
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "i-1"
+        }
+      ],
+      "presence": "Through his agents",
+      "title": "Thaidakar's agents trap Kalak",
+      "summary": [
+        {
+          "text": "Thaidakar's Ghostbloods Felt and the seon Ala trapped Kalak and sent Thaidakar Ba-Ado-Mishram's location.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "i-1"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 72,
+      "placeName": "Lasting Integrity"
+    },
+    {
       "id": "rm-888637e9",
       "characters": ["adolin-kholin"],
       "mapId": "roshar",
@@ -4614,6 +4672,35 @@
       "source": "roshar-map",
       "order": 72,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-dbcd9291",
+      "characters": ["thaidakar"],
+      "mapId": "roshar",
+      "path": [[1650, 780]],
+      "placeName": "Cultivation's Perpendicularity, in Shadesmar",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "147"
+        }
+      ],
+      "approximate": true,
+      "presence": "Through a seon",
+      "title": "Thaidakar makes a truce with Shallan",
+      "summary": [
+        {
+          "text": "Speaking by seon, Thaidakar agreed to a wary truce with Shallan Davar.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "147"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 73
     },
     {
       "id": "rm-ed08ba9f",

@@ -1,0 +1,3971 @@
+{
+  "id": "way-of-kings",
+  "credits": [
+    {
+      "text": "Chapter scenes written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:The_Way_of_Kings",
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "text": "Chapter routes adapted from Alton Chaney's Cosmere Maps (MIT)",
+      "url": "https://github.com/altonchaney/cosmere-maps",
+      "source": "cosmere-maps"
+    }
+  ],
+  "events": [
+    {
+      "id": "bs-c4dc8600",
+      "characters": ["kalak", "jezrien"],
+      "mapId": "roshar",
+      "path": [[1300, 880]],
+      "placeName": "the Heralds' meeting place",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prelude"
+        }
+      ],
+      "order": 1,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "prelude"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "After a Desolation, Kalak found only Jezrien at the Heralds' meeting place, and the two left their Honorblades and the Oathpact behind as the others had, leaving Talenel alone.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "prelude"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-244fb994",
+      "characters": ["szeth", "gavilar-kholin"],
+      "mapId": "roshar",
+      "path": [[1934, 797]],
+      "placeId": "kholinar",
+      "placeName": "Kholinar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prologue"
+        }
+      ],
+      "order": 2,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "prologue"
+      },
+      "leaves": ["gavilar-kholin"],
+      "summary": [
+        {
+          "text": "On the night of a treaty feast with the Parshendi, Szeth, a Shin assassin in white, killed King Gavilar, who gave him a black sphere and a message for his brother Dalinar.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "prologue"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-b41d19ad",
+      "characters": ["kaladin", "cenn", "dallet"],
+      "mapId": "roshar",
+      "path": [[1862, 641]],
+      "placeId": "alethkar",
+      "placeName": "Amaram's battlefield",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "1"
+        }
+      ],
+      "order": 3,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "1"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "In Brightlord Amaram's army, the new recruit Cenn was saved in his first battle by his squadleader, Kaladin Stormblessed, until an enemy Shardbearer came.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "1"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-761d9a9c",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [
+        [1862, 641],
+        [1915, 686],
+        [1967, 779],
+        [1928, 947],
+        [1925, 1007]
+      ],
+      "placeName": "Tvlakv's slave caravan",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "2"
+        }
+      ],
+      "order": 4,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "2"
+      },
+      "approximate": true,
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-7ee3a1ae",
+      "characters": ["kaladin", "sylphrena", "tvlakv", "bluth"],
+      "mapId": "roshar",
+      "path": [[1925, 1007]],
+      "placeName": "Tvlakv's slave caravan",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "2"
+        }
+      ],
+      "order": 5,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "2"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Eight months later, Kaladin was a branded slave in Tvlakv's caravan, where a windspren began to talk to him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "2"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-83708be0",
+      "characters": ["shallan-davar"],
+      "mapId": "roshar",
+      "path": [
+        [1328, 1214],
+        [1377, 1189],
+        [1404, 1159],
+        [1441, 1176]
+      ],
+      "placeId": "kharbranth",
+      "placeName": "Kharbranth",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "3"
+        }
+      ],
+      "order": 6,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "3"
+      },
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-3ae01a24",
+      "characters": ["shallan-davar", "yalb"],
+      "mapId": "kharbranth",
+      "path": [
+        [470, 600],
+        [550, 200]
+      ],
+      "placeId": "conclave",
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "3"
+        }
+      ],
+      "order": 7,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "3"
+      },
+      "summary": [
+        {
+          "text": "Shallan landed in Kharbranth and climbed to the Conclave with the sailor Yalb, still chasing Jasnah Kholin.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "3"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-c11fe6e3",
+      "characters": ["kaladin", "sylphrena", "tvlakv", "bluth"],
+      "mapId": "roshar",
+      "path": [
+        [1925, 1007],
+        [1930, 1042],
+        [1939, 1081],
+        [1951, 1106],
+        [1960, 1114],
+        [1965, 1112]
+      ],
+      "placeName": "near the Shattered Plains",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "4"
+        }
+      ],
+      "order": 8,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "4"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "When Tvlakv got lost, Kaladin refused to help, but the windspren spotted people ahead: the caravan was bound for the warcamps on the Shattered Plains.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "4"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-5bcc8051",
+      "characters": ["shallan-davar", "jasnah-kholin", "taravangian"],
+      "mapId": "kharbranth",
+      "path": [[550, 200]],
+      "placeId": "conclave",
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "5"
+        }
+      ],
+      "order": 9,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "5"
+      },
+      "summary": [
+        {
+          "text": "Jasnah Soulcast a fallen stone to free King Taravangian's granddaughter, then turned Shallan down as her ward; Shallan's real aim was to steal Jasnah's Soulcaster.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "5"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2ff26536",
+      "characters": ["kaladin", "sylphrena", "tvlakv", "bluth"],
+      "mapId": "roshar",
+      "path": [
+        [1965, 1112],
+        [1990, 1140]
+      ],
+      "placeId": "shattered-plains",
+      "placeName": "the Alethi warcamps",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "6"
+        }
+      ],
+      "order": 10,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "6"
+      },
+      "leaves": ["tvlakv", "bluth"],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-d1c5cf01",
+      "characters": ["kaladin", "sylphrena", "gaz"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "6"
+        }
+      ],
+      "order": 11,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "6"
+      },
+      "summary": [
+        {
+          "text": "Sold to Sadeas' army as a bridgeman, Kaladin survived his first bridge run, and the windspren told him her name: Sylphrena, or Syl.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "6"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-4f2e2978",
+      "characters": ["shallan-davar", "kabsal", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[550, 215]],
+      "placeId": "palanaeum",
+      "placeName": "Jasnah's alcove in the Palanaeum",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "7"
+        }
+      ],
+      "order": 12,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "7"
+      },
+      "summary": [
+        {
+          "text": "Waiting in Jasnah's alcove at the Palanaeum, Shallan wrote her a letter and met Kabsal, an ardent hoping to convert Jasnah.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-43bde1c5",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[550, 215]],
+      "placeId": "palanaeum",
+      "placeName": "Jasnah's alcove in the Palanaeum",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "8"
+        }
+      ],
+      "order": 13,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "8"
+      },
+      "summary": [
+        {
+          "text": "Won over by Shallan's self-taught studies and persistence, Jasnah took her as her ward.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-49987146",
+      "characters": ["kaladin", "sylphrena", "gaz"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "9"
+        }
+      ],
+      "order": 14,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "9"
+      },
+      "summary": [
+        {
+          "text": "Weeks into bridge duty, with nearly everyone from his first run dead, Kaladin sank into despair and Syl left him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "9"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-62632ba7",
+      "characters": ["kaladin", "lirin", "sani"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "10"
+        }
+      ],
+      "order": 15,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "10"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Nine years earlier in Hearthstone, young Kal helped his father, the surgeon Lirin, treat a girl's hand, and argued that soldiers could save lives too.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "10"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-cc679575",
+      "characters": ["kaladin", "sylphrena"],
+      "mapId": "warcamps",
+      "path": [[915, 515]],
+      "placeId": "honor-chasm",
+      "placeName": "a chasm by Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "11"
+        }
+      ],
+      "order": 16,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "11"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "At the edge of a chasm after a highstorm, Kaladin chose not to jump when Syl came back to him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-cafd03a3",
+      "characters": ["kaladin", "gaz", "teft"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "11"
+        }
+      ],
+      "order": 17,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "11"
+      },
+      "summary": [
+        {
+          "text": "Kaladin forced Gaz to make him bridgeleader of Bridge Four.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-8fb28757",
+      "characters": ["ishikk", "thaspic", "maib"],
+      "mapId": "roshar",
+      "path": [[1089, 794]],
+      "placeId": "purelake",
+      "placeName": "the Purelake",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-1"
+        }
+      ],
+      "order": 18,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-1"
+      },
+      "summary": [
+        {
+          "text": "In the Purelake, the fisherman Ishikk told a group of foreigners that no village had seen the man they were looking for.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-1"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ec4fe951",
+      "characters": ["balat-davar", "wikim-davar", "scrak"],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "the Davar estate",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-2"
+        }
+      ],
+      "order": 19,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-2"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "At the Davar estate, Shallan's brother Balat brooded over her mission until Wikim came to tell him of a big problem.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-2"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-0928656d",
+      "characters": ["szeth"],
+      "mapId": "roshar",
+      "path": [
+        [1934, 797],
+        [1864, 754],
+        [1801, 718],
+        [1745, 692],
+        [1686, 657],
+        [1649, 655],
+        [1556, 713],
+        [1531, 768],
+        [1509, 807],
+        [1490, 848],
+        [1485, 870],
+        [1467, 900]
+      ],
+      "placeId": "ironsway",
+      "placeName": "a mining town",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-3"
+        }
+      ],
+      "order": 20,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-3"
+      },
+      "approximate": true,
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-fdef1011",
+      "characters": ["szeth", "took", "amark"],
+      "mapId": "roshar",
+      "path": [[1467, 900]],
+      "placeId": "ironsway",
+      "placeName": "a mining town",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-3"
+        }
+      ],
+      "order": 21,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-3"
+      },
+      "leaves": ["took"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Szeth served Took, who showed off his obedience in mining towns, until thugs killed Took and took Szeth's Oathstone.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-3"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-181e8de2",
+      "characters": [
+        "adolin-kholin",
+        "dalinar-kholin",
+        "renarin-kholin",
+        "elhokar-kholin",
+        "torol-sadeas"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [420, 250]
+      ],
+      "placeName": "the hunting plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "12"
+        }
+      ],
+      "order": 22,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "12"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "On a chasmfiend hunt with King Elhokar and Sadeas, Dalinar raced the king up a rock and, remembering a voice telling him to unite them, let him win.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "12"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-7300fdc6",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "elhokar-kholin",
+        "torol-sadeas",
+        "renarin-kholin"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[420, 250]],
+      "placeName": "the hunting plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "13"
+        }
+      ],
+      "order": 23,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "13"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "When the chasmfiend came, Elhokar's saddle strap broke and Dalinar caught the beast's claw to save him, and Elhokar killed it.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "13"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-9eec5f6a",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "moash",
+        "dunny",
+        "narm",
+        "sigzil",
+        "leyten",
+        "lunamor",
+        "gaz",
+        "teft"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "14"
+        }
+      ],
+      "order": 24,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "14"
+      },
+      "summary": [
+        {
+          "text": "Kaladin dragged Bridge Four out of bed to train; they refused, so he trained alone, running a bridge plank across the lumberyard.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "14"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-8a356a80",
+      "characters": [
+        "adolin-kholin",
+        "dalinar-kholin",
+        "torol-sadeas",
+        "elhokar-kholin",
+        "renarin-kholin",
+        "wit",
+        "loradar-vamah"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[420, 250]],
+      "placeName": "the hunting plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "15"
+        }
+      ],
+      "order": 25,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "15"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "After the hunt Adolin nearly came to blows with Sadeas, and Elhokar's broken strap was found to look cut.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "15"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-0db5e932",
+      "characters": ["kaladin", "laral-roshone", "tien", "jost"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "16"
+        }
+      ],
+      "order": 26,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "16"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Seven and a half years earlier, Kal lost a quarterstaff fight to Jost, then learned that the citylord, Wistiow, had died and left him spheres to study surgery in Kharbranth.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "16"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-c4ec06f8",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "lunamor",
+        "teft",
+        "dunny",
+        "malop",
+        "yake",
+        "drehy",
+        "hobber",
+        "dabbid",
+        "narm",
+        "leyten",
+        "moash",
+        "gaz"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [520, 470]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "17"
+        }
+      ],
+      "order": 27,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "17"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "On a bridge run Kaladin ran at the front in Rock's place, then had Bridge Four carry its wounded home on the bridge.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "17"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-77aeb482",
+      "characters": ["adolin-kholin", "janala-lustow", "kadash"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "18"
+        }
+      ],
+      "order": 28,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "18"
+      },
+      "summary": [
+        {
+          "text": "Adolin heard that the king's strap had probably been cut, and asked the ardent Kadash about his father's fits in highstorms.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "18"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-96197675",
+      "characters": ["dalinar-kholin", "renarin-kholin", "elhokar-kholin"],
+      "mapId": "warcamps",
+      "path": [[930, 190]],
+      "placeId": "pinnacle",
+      "placeName": "the king's palace",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "18"
+        }
+      ],
+      "order": 29,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "18"
+      },
+      "summary": [
+        {
+          "text": "Dalinar asked Elhokar whether they should end the war, then suggested he be named Highprince of War.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "18"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-87c53059",
+      "characters": ["dalinar-kholin", "renarin-kholin"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "19"
+        }
+      ],
+      "order": 30,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "19"
+      },
+      "summary": [
+        {
+          "text": "Caught by a highstorm, Dalinar had a vision of saving a woman and her daughter from strange creatures until two Knights Radiant came to help.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "19"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-fdc272fc",
+      "characters": ["kaladin", "lirin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "20"
+        }
+      ],
+      "order": 31,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "20"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Seven years earlier, Kal could not save an injured girl, and Lirin told him he had to learn when to care and when to let go.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "20"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2888e1a2",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "lunamor",
+        "teft",
+        "hobber",
+        "gaz",
+        "moash",
+        "leyten",
+        "peet"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "21"
+        }
+      ],
+      "order": 32,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "21"
+      },
+      "summary": [
+        {
+          "text": "When Sadeas cut off food and pay for wounded bridgemen, Kaladin asked Bridge Four to share; only Rock agreed, and he could see Syl.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "21"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-0411b309",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "renarin-kholin",
+        "elhokar-kholin",
+        "wit",
+        "navani-kholin",
+        "torol-sadeas",
+        "roion"
+      ],
+      "mapId": "warcamps",
+      "path": [[935, 212]],
+      "placeId": "feasting-basin",
+      "placeName": "the king's feasting island",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "22"
+        }
+      ],
+      "order": 33,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "22"
+      },
+      "summary": [
+        {
+          "text": "At the king's feast Navani, Gavilar's widow, arrived unexpectedly, and Elhokar named Sadeas Highprince of Information to look into the cut strap.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "22"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-d3ac0e69",
+      "characters": [
+        "kaladin",
+        "lunamor",
+        "teft",
+        "sylphrena",
+        "skar",
+        "jaks",
+        "natam",
+        "dunny"
+      ],
+      "mapId": "warcamps",
+      "path": [[915, 515]],
+      "placeId": "honor-chasm",
+      "placeName": "a chasm by Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "23"
+        }
+      ],
+      "order": 34,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "23"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "On stone duty Kaladin, Rock and Teft gathered knobweed for its antiseptic sap, and Rock told how he came to be a bridgeman.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "23"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-f24e007e",
+      "characters": ["dalinar-kholin", "roion"],
+      "mapId": "warcamps",
+      "path": [[918, 200]],
+      "placeId": "gallery-of-maps",
+      "placeName": "the Gallery of Maps",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "24"
+        }
+      ],
+      "order": 35,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "24"
+      },
+      "summary": [
+        {
+          "text": "In the Gallery of Maps, Highprince Roion turned down Dalinar's offer of a joint plateau assault.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "24"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-a4410b5b",
+      "characters": ["adolin-kholin"],
+      "mapId": "warcamps",
+      "path": [[918, 200]],
+      "placeId": "gallery-of-maps",
+      "placeName": "the Gallery of Maps",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "24"
+        }
+      ],
+      "order": 36,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "24"
+      },
+      "summary": [
+        {
+          "text": "When Dalinar let Sadeas investigate in his camp because a vision told him to trust Sadeas, Adolin called the visions delusions.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "24"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-f56cefff",
+      "characters": ["kaladin", "hesina", "lirin", "toralin-roshone"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "25"
+        }
+      ],
+      "order": 37,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "25"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Seven years earlier, Hearthstone's new citylord, Brightlord Roshone, arrived and blamed Lirin for Wistiow's death.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "25"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-819b5d2a",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "teleb",
+        "torol-sadeas"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [600, 330]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "26"
+        }
+      ],
+      "order": 38,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "26"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "In a plateau battle Dalinar suddenly sickened of the killing and heard a voice say 'Life before death', then saw a Parshendi Shardbearer watching.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-6e3e6dbc",
+      "characters": [
+        "kaladin",
+        "teft",
+        "lunamor",
+        "sylphrena",
+        "dunny",
+        "skar",
+        "moash",
+        "sigzil",
+        "peet",
+        "yake",
+        "maps",
+        "narm",
+        "drehy",
+        "jaks",
+        "torfin",
+        "hobber"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[320, 400]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "27"
+        }
+      ],
+      "order": 39,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "27"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "On chasm duty, scavenging from the dead, Kaladin picked up a spear and ran a kata that left Bridge Four staring.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "27"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-5bbc3778",
+      "characters": ["adolin-kholin", "dalinar-kholin", "teleb"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "28"
+        }
+      ],
+      "order": 40,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "28"
+      },
+      "summary": [
+        {
+          "text": "Inspecting the camp, Dalinar learned that all eight other highprinces had refused to fight beside him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-4b11d963",
+      "characters": [
+        "dalinar-kholin",
+        "navani-kholin",
+        "adolin-kholin",
+        "danlan-morakotha"
+      ],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "28"
+        }
+      ],
+      "order": 41,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "28"
+      },
+      "summary": [
+        {
+          "text": "After a spanreed talk with Jasnah, Dalinar told Navani he meant to abdicate.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-64a87810",
+      "characters": ["rysn-ftori", "vstim", "kylrm", "thresh-son-esan"],
+      "mapId": "roshar",
+      "path": [[645, 928]],
+      "placeId": "shinovar",
+      "placeName": "Shinovar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-4"
+        }
+      ],
+      "order": 42,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-4"
+      },
+      "summary": [
+        {
+          "text": "In Shinovar, the young merchant Rysn watched her babsk Vstim trade with the Shin, among whom farmers outrank warriors.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-4"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-868329ef",
+      "characters": ["axies", "cusicesh"],
+      "mapId": "roshar",
+      "path": [[658, 506]],
+      "placeId": "kasitor",
+      "placeName": "Kasitor",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-5"
+        }
+      ],
+      "order": 43,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-5"
+      },
+      "summary": [
+        {
+          "text": "In Kasitor, Axies the Collector saw the great spren Cusicesh rise from the bay, then was hauled off to jail.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-5"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-a1a39490",
+      "characters": ["szeth"],
+      "mapId": "roshar",
+      "path": [
+        [1467, 900],
+        [1420, 894]
+      ],
+      "placeId": "bornwater",
+      "placeName": "a town with a gambling den",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-6"
+        }
+      ],
+      "order": 44,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-6"
+      },
+      "approximate": true,
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-470b84bd",
+      "characters": ["szeth", "makkek", "gavashaw"],
+      "mapId": "roshar",
+      "path": [[1420, 894]],
+      "placeId": "bornwater",
+      "placeName": "a town with a gambling den",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-6"
+        }
+      ],
+      "order": 45,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-6"
+      },
+      "leaves": ["makkek", "gavashaw"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Sent by his master Makkek to kill a rival, Szeth found him already dead and a new master holding Makkek's head, Szeth's Oathstone and a list of noblemen to kill.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-6"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ba678154",
+      "characters": [
+        "balat-davar",
+        "eylita-tavinar",
+        "wikim-davar",
+        "jushu-davar"
+      ],
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "the Davar estate",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "29"
+        }
+      ],
+      "order": 46,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "29"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "By spanreed, Balat warned Shallan that dangerous men claiming to be their father's friends wanted his Soulcaster back.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "29"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-251ba2c9",
+      "characters": ["shallan-davar", "jasnah-kholin", "taravangian"],
+      "mapId": "kharbranth",
+      "path": [[550, 200]],
+      "placeId": "conclave",
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "29"
+        }
+      ],
+      "order": 47,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "29"
+      },
+      "summary": [
+        {
+          "text": "Sketching King Taravangian over lunch, Shallan drew strange figures with symbols for heads that weren't there.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "29"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-3ca5053d",
+      "characters": ["gaz", "lamaril"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "30"
+        }
+      ],
+      "order": 48,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "30"
+      },
+      "summary": [
+        {
+          "text": "Gaz paid part of his debt to Lamaril, who wanted Kaladin to die on a bridge run rather than be killed outright.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-3c627f1c",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "skar",
+        "lunamor",
+        "teft",
+        "moash",
+        "bisig"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "30"
+        }
+      ],
+      "order": 49,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "30"
+      },
+      "summary": [
+        {
+          "text": "All of Bridge Four now trained with Kaladin, practising with their bridge.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-713db308",
+      "characters": ["kaladin", "lirin"],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "31"
+        }
+      ],
+      "order": 50,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "31"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Six years earlier, Lirin faced down a mob of villagers who believed he had stolen Wistiow's spheres.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "31"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-653710c4",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "lunamor",
+        "gaz",
+        "lamaril",
+        "lopen",
+        "dabbid",
+        "leyten",
+        "hobber",
+        "teft",
+        "natam",
+        "moash",
+        "torol-sadeas"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [520, 470]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "32"
+        }
+      ],
+      "order": 51,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "32"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Kaladin had Bridge Four carry their bridge on its side, saving them but drawing the fire onto the other crews, and Lamaril had him beaten.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2d9a8dde",
+      "characters": ["shallan-davar", "kabsal", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[550, 215]],
+      "placeId": "palanaeum",
+      "placeName": "Jasnah's alcove in the Palanaeum",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "33"
+        }
+      ],
+      "order": 52,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "33"
+      },
+      "summary": [
+        {
+          "text": "Kabsal brought bread and jam and showed Shallan cymatics, and Jasnah warned her that he only wanted to get to Jasnah.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "33"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-a7fe8bc5",
+      "characters": ["lamaril"],
+      "mapId": "warcamps",
+      "path": [[975, 465]],
+      "placeName": "Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "34"
+        }
+      ],
+      "order": 53,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "34"
+      },
+      "leaves": ["lamaril"],
+      "summary": [
+        {
+          "text": "Lamaril was executed for the failed assault.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-dc784f30",
+      "characters": ["kaladin", "sylphrena", "lunamor", "teft", "moash"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "34"
+        }
+      ],
+      "order": 54,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "34"
+      },
+      "summary": [
+        {
+          "text": "Kaladin was strung up outside the barrack to face a highstorm, and his men promised not to go back to how they were.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-00c147f5",
+      "characters": ["kaladin", "sylphrena", "teft", "lunamor"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "35"
+        }
+      ],
+      "order": 55,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "35"
+      },
+      "summary": [
+        {
+          "text": "Kaladin lived through the highstorm clutching a sphere, which Teft saw had gone dun.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "35"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-bfa231c3",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[820, 520]],
+      "placeName": "an alley in the lower city",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "36"
+        }
+      ],
+      "order": 56,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "36"
+      },
+      "summary": [
+        {
+          "text": "Jasnah led Shallan into a dark alley and killed the thugs who attacked them, and that night Shallan swapped Jasnah's Soulcaster for the broken one she had brought.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-baf8b315",
+      "characters": [
+        "kaladin",
+        "lirin",
+        "toralin-roshone",
+        "rillir-roshone",
+        "laral-roshone"
+      ],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "37"
+        }
+      ],
+      "order": 57,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "37"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Five and a half years earlier, Roshone demanded most of Wistiow's spheres from Lirin, and his son Rillir treated Kal like a servant.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-48a7512f",
+      "characters": ["kaladin", "sylphrena", "teft", "skar"],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "38"
+        }
+      ],
+      "order": 58,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "38"
+      },
+      "summary": [
+        {
+          "text": "As Kaladin lay in a fever, Teft, raised among the Envisagers, put spheres in his hand and watched Stormlight heal him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "38"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-cc5526b5",
+      "characters": ["shallan-davar"],
+      "mapId": "kharbranth",
+      "path": [[610, 210]],
+      "placeName": "the palace gardens",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "39"
+        }
+      ],
+      "order": 59,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "39"
+      },
+      "summary": [
+        {
+          "text": "Shallan caught herself drawing a man lying dead in a pool of blood, and Balat told her that their father's friends had come back.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "39"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-6119ecd9",
+      "characters": [
+        "kaladin",
+        "lopen",
+        "lunamor",
+        "moash",
+        "torfin",
+        "hobber",
+        "peet",
+        "teft",
+        "dabbid",
+        "natam",
+        "sigzil",
+        "sylphrena",
+        "maps",
+        "dunny",
+        "skar",
+        "bisig"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "40"
+        }
+      ],
+      "order": 60,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "40"
+      },
+      "summary": [
+        {
+          "text": "Back on his feet, Kaladin saw that bridgemen were bait for Parshendi arrows, and Bridge Four gave Rock a razor for his stew.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "40"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-04a06f25",
+      "characters": [
+        "kaladin",
+        "lirin",
+        "toralin-roshone",
+        "rillir-roshone",
+        "laral-roshone"
+      ],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "41"
+        }
+      ],
+      "order": 61,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "41"
+      },
+      "flashback": true,
+      "leaves": ["rillir-roshone"],
+      "summary": [
+        {
+          "text": "Five and a half years earlier, Lirin couldn't save Roshone's son Rillir after a whitespine attack, but saved Roshone.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "41"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-fcbe8107",
+      "characters": ["shallan-davar", "jasnah-kholin", "kabsal"],
+      "mapId": "kharbranth",
+      "path": [[562, 198]],
+      "placeId": "conclave",
+      "placeName": "Jasnah's rooms in the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "42"
+        }
+      ],
+      "order": 62,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "42"
+      },
+      "summary": [
+        {
+          "text": "The stolen Soulcaster wouldn't work for Shallan, a voice asked what she was, and she found Jasnah's notes on Urithiru and the Voidbringers.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "42"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ba7eed85",
+      "characters": [
+        "kaladin",
+        "hashal",
+        "avarak-matal",
+        "hobber",
+        "sylphrena",
+        "lunamor",
+        "gaz",
+        "dunny",
+        "moash",
+        "peet",
+        "teft",
+        "sigzil",
+        "skar",
+        "leyten",
+        "jaks"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "43"
+        }
+      ],
+      "order": 63,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "43"
+      },
+      "summary": [
+        {
+          "text": "Lamaril's replacement, Matal, and his wife Hashal put Bridge Four on chasm duty for good.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "43"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-9e8488f7",
+      "characters": [
+        "kaladin",
+        "tien",
+        "hesina",
+        "lirin",
+        "laral-roshone",
+        "toralin-roshone",
+        "meridas-amaram",
+        "jost"
+      ],
+      "mapId": "roshar",
+      "path": [[1922, 631]],
+      "placeId": "hearthstone",
+      "placeName": "Hearthstone",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "44"
+        }
+      ],
+      "order": 64,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "44"
+      },
+      "flashback": true,
+      "summary": [
+        {
+          "text": "Five years earlier, when Brightlord Amaram came recruiting, Roshone had Tien drafted, and Kaladin enlisted to protect him.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "44"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-875a424d",
+      "characters": ["shallan-davar", "kabsal", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[562, 198]],
+      "placeId": "conclave",
+      "placeName": "Jasnah's rooms in the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "45"
+        }
+      ],
+      "order": 65,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "45"
+      },
+      "summary": [
+        {
+          "text": "Chased by the symbol-headed figures, Shallan slipped into a place of glass beads and turned a goblet into blood, then cut herself to hide it from Jasnah.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "45"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-10bbd633",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "teft",
+        "lunamor",
+        "sigzil",
+        "moash",
+        "bisig",
+        "dunny",
+        "lopen",
+        "dabbid",
+        "gaz",
+        "shen",
+        "skar"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "46"
+        }
+      ],
+      "order": 66,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "46"
+      },
+      "summary": [
+        {
+          "text": "Kaladin dreamt he rode a highstorm across Roshar and heard a voice warn that Odium was coming, and a parshman the men called Shen joined Bridge Four.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "46"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-bc883284",
+      "characters": ["kaladin", "cenn", "dallet", "meridas-amaram", "coreb"],
+      "mapId": "roshar",
+      "path": [[1862, 641]],
+      "placeId": "alethkar",
+      "placeName": "Amaram's battlefield",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "47"
+        }
+      ],
+      "order": 67,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "47"
+      },
+      "flashback": true,
+      "leaves": ["cenn", "dallet"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "A year earlier, in his last battle for Amaram, Kaladin saw Cenn and most of his squad cut down by an enemy Shardbearer, then killed the Shardbearer and refused the Shards.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "47"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-0a64786a",
+      "characters": ["shallan-davar", "taravangian", "jasnah-kholin", "kabsal"],
+      "mapId": "kharbranth",
+      "path": [[420, 380]],
+      "placeName": "the hospital",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "48"
+        }
+      ],
+      "order": 68,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "48"
+      },
+      "leaves": ["kabsal"],
+      "summary": [
+        {
+          "text": "Kept in hospital after cutting herself, Shallan ate Kabsal's bread; he collapsed, she was poisoned, and she gave Jasnah the stolen Soulcaster to save her.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "48"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-16b16106",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "teft",
+        "dunny",
+        "leyten",
+        "dabbid",
+        "lunamor",
+        "shen",
+        "moash",
+        "drehy",
+        "skar",
+        "lopen"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[320, 400]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "49"
+        }
+      ],
+      "order": 69,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "49"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Down in the chasms Kaladin began training Bridge Four with spears, and Teft showed he had been a soldier.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "49"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2668db57",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[420, 380]],
+      "placeName": "the hospital",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "50"
+        }
+      ],
+      "order": 70,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "50"
+      },
+      "summary": [
+        {
+          "text": "Jasnah told Shallan that Kabsal had poisoned the bread to kill Jasnah, and that the theft had thrown away Shallan's future as a scholar.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "50"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-b390ef3a",
+      "characters": [
+        "kaladin",
+        "meridas-amaram",
+        "hab",
+        "reesh",
+        "alabet",
+        "coreb"
+      ],
+      "mapId": "roshar",
+      "path": [[1862, 641]],
+      "placeId": "alethkar",
+      "placeName": "Amaram's battlefield",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "51"
+        }
+      ],
+      "order": 71,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "51"
+      },
+      "flashback": true,
+      "leaves": ["hab", "reesh", "alabet", "coreb"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "A year earlier, Amaram had Kaladin's last four men killed, took the Shards for himself and had Kaladin branded a slave.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "51"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-02e670e1",
+      "characters": ["baxil", "av"],
+      "mapId": "roshar",
+      "path": [[1000, 1060]],
+      "placeId": "emul",
+      "placeName": "the palace of Ashno of Sages",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-7"
+        }
+      ],
+      "order": 72,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-7"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Baxil and his cousin Av watched their mistress destroy the art in the palace of Ashno of Sages.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-7"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-3bcc8751",
+      "characters": ["geranid", "ashir"],
+      "mapId": "roshar",
+      "path": [[1210, 345]],
+      "placeId": "reshi-isles",
+      "placeName": "a small Reshi island",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-8"
+        }
+      ],
+      "order": 73,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-8"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "The ardent Geranid found that a flamespren stopped changing once she measured it, as if it knew.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-8"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-dd84394f",
+      "characters": ["szeth", "hanavanar"],
+      "mapId": "roshar",
+      "path": [
+        [1420, 894],
+        [1444, 903],
+        [1472, 914],
+        [1492, 925],
+        [1511, 936],
+        [1524, 954],
+        [1535, 983],
+        [1539, 1011],
+        [1542, 1027],
+        [1540, 1052]
+      ],
+      "placeId": "vedenar",
+      "placeName": "Vedenar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-9"
+        }
+      ],
+      "order": 74,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "i-9"
+      },
+      "leaves": ["hanavanar"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Szeth stormed King Hanavanar's banquet in Vedenar and killed the king and his Shardbearers.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "i-9"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-d7a72b2f",
+      "characters": [
+        "adolin-kholin",
+        "dalinar-kholin",
+        "renarin-kholin",
+        "navani-kholin"
+      ],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "52"
+        }
+      ],
+      "order": 75,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "52"
+      },
+      "summary": [
+        {
+          "text": "In a vision Dalinar watched Knights Radiant abandon their Shards, and afterwards Renarin suggested asking Jasnah to check the visions' details.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "52"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-40181191",
+      "characters": [
+        "kaladin",
+        "moash",
+        "lunamor",
+        "dunny",
+        "shen",
+        "teft",
+        "drehy",
+        "lopen",
+        "dabbid",
+        "skar"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [520, 470]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "53"
+        }
+      ],
+      "order": 76,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "53"
+      },
+      "leaves": ["dunny"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Dunny was killed on a bridge run, and Kaladin had Bridge Four start saving the wounded from other crews.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "53"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-657dc7d1",
+      "characters": [
+        "dalinar-kholin",
+        "navani-kholin",
+        "elhokar-kholin",
+        "wit",
+        "torol-sadeas",
+        "adolin-kholin"
+      ],
+      "mapId": "warcamps",
+      "path": [[935, 212]],
+      "placeId": "feasting-basin",
+      "placeName": "the king's feasting island",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "54"
+        }
+      ],
+      "order": 77,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "54"
+      },
+      "summary": [
+        {
+          "text": "At a feast Sadeas announced that the strap had been cut inside the king's palace grounds, and agreed to Dalinar's offer to join forces.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "54"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-1460a81a",
+      "characters": ["dalinar-kholin", "adolin-kholin", "torol-sadeas"],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [600, 330]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "55"
+        }
+      ],
+      "order": 78,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "55"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Dalinar and Sadeas made their first joint plateau assault, and won it quickly.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "55"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-1c88b947",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "lunamor",
+        "moash",
+        "skar",
+        "sigzil",
+        "teft",
+        "lopen",
+        "shen",
+        "maps",
+        "leyten",
+        "malop",
+        "drehy",
+        "jaks"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[320, 400]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "55"
+        }
+      ],
+      "order": 79,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "55"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "In the chasms Bridge Four found an emerald broam on a dead officer, and Rock shot it up on an arrow to hide under a bridge.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "55"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-c46582dc",
+      "characters": [
+        "dalinar-kholin",
+        "torol-sadeas",
+        "teleb",
+        "adolin-kholin"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [600, 330]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "56"
+        }
+      ],
+      "order": 80,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "56"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "When a second Parshendi army struck, Dalinar fought his way to the fallen Sadeas and held them off until Adolin came.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "56"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-e8243fec",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "teft",
+        "lopen",
+        "lunamor",
+        "moash",
+        "skar",
+        "yake",
+        "maps"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "57"
+        }
+      ],
+      "order": 81,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "57"
+      },
+      "leaves": ["maps"],
+      "summary": [
+        {
+          "text": "After Maps died, Teft tricked Kaladin into drawing in Stormlight, and Syl admitted she wasn't a windspren.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "57"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ae1bf494",
+      "characters": ["kaladin", "wit"],
+      "mapId": "warcamps",
+      "path": [[1020, 530]],
+      "placeName": "the edge of Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "57"
+        }
+      ],
+      "order": 82,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "57"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Wit played the flute for Kaladin, told him the story of the Wandersail and gave him the flute.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "57"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-a85665f0",
+      "characters": ["adolin-kholin", "danlan-morakotha", "jakamav"],
+      "mapId": "warcamps",
+      "path": [[900, 250]],
+      "placeId": "outer-market",
+      "placeName": "the Outer Market",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "58"
+        }
+      ],
+      "order": 83,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "58"
+      },
+      "summary": [
+        {
+          "text": "Drinking in the Outer Market with friends, Adolin began to see the sense in his father's strict ways.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-47600c04",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "torol-sadeas",
+        "elhokar-kholin"
+      ],
+      "mapId": "warcamps",
+      "path": [[945, 235]],
+      "placeId": "dueling-arena",
+      "placeName": "the dueling arena",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "58"
+        }
+      ],
+      "order": 84,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "58"
+      },
+      "summary": [
+        {
+          "text": "While Adolin won a duel, Elhokar had Dalinar agree to a joint assault with Sadeas using both armies' bridge crews.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2089dd57",
+      "characters": [
+        "kaladin",
+        "teft",
+        "lopen",
+        "lunamor",
+        "sylphrena",
+        "hashal"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "59"
+        }
+      ],
+      "order": 85,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "59"
+      },
+      "summary": [
+        {
+          "text": "Hashal put Bridge Four on bridge runs by day and chasm duty by night, a death sentence.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-bb7935af",
+      "characters": ["kaladin", "sylphrena", "lopen", "teft"],
+      "mapId": "shattered-plains",
+      "path": [[320, 400]],
+      "placeName": "the chasms",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "59"
+        }
+      ],
+      "order": 86,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "59"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "In the chasms Kaladin used Stormlight to climb a wall and tie a sack of Parshendi carapace under a bridge, then dropped forty feet unhurt.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "59"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-596b429f",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "renarin-kholin",
+        "navani-kholin"
+      ],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "60"
+        }
+      ],
+      "order": 87,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "60"
+      },
+      "summary": [
+        {
+          "text": "In a vision Dalinar met Nohadon, author of The Way of Kings, and Navani realised he had been speaking the Dawnchant, proof the visions were real.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "60"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-050e18cd",
+      "characters": ["dalinar-kholin", "navani-kholin", "renarin-kholin"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "61"
+        }
+      ],
+      "order": 88,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "61"
+      },
+      "summary": [
+        {
+          "text": "Navani told Dalinar why she had come back and they kissed, and she said the King of Jah Keved had been killed by a Shin Shardbearer in white.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "61"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-258011c3",
+      "characters": [
+        "kaladin",
+        "moash",
+        "drehy",
+        "skar",
+        "sigzil",
+        "teft",
+        "torol-sadeas",
+        "lopen",
+        "dabbid",
+        "shen",
+        "lunamor",
+        "sylphrena",
+        "avarak-matal",
+        "dalinar-kholin",
+        "leyten",
+        "narm"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [520, 470]
+      ],
+      "placeName": "a plateau",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "62"
+        }
+      ],
+      "order": 89,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "62"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Wearing Parshendi carapace, Kaladin drew the archers' fire onto his shield, and later Dalinar charged a band of Parshendi archers aiming at Bridge Four.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "62"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-59445e0e",
+      "characters": [
+        "kaladin",
+        "leyten",
+        "shen",
+        "lopen",
+        "lunamor",
+        "dabbid",
+        "sylphrena",
+        "teft",
+        "hobber",
+        "skar",
+        "moash",
+        "sigzil"
+      ],
+      "mapId": "warcamps",
+      "path": [[1000, 500]],
+      "placeName": "Sadeas' lumberyard",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "63"
+        }
+      ],
+      "order": 90,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "63"
+      },
+      "summary": [
+        {
+          "text": "Kaladin had Leyten make carapace armour for every bridgeman but Shen, and Moash said he wanted vengeance.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "63"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-1ddd3b14",
+      "characters": ["dalinar-kholin", "navani-kholin"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "64"
+        }
+      ],
+      "order": 91,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "64"
+      },
+      "summary": [
+        {
+          "text": "Dalinar told Navani he had once stepped aside so Gavilar could court her.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "64"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-b7b9bf9e",
+      "characters": [
+        "kaladin",
+        "teft",
+        "lunamor",
+        "moash",
+        "skar",
+        "sigzil",
+        "lopen",
+        "drehy",
+        "leyten",
+        "hobber",
+        "peet",
+        "avarak-matal"
+      ],
+      "mapId": "warcamps",
+      "path": [[905, 540]],
+      "placeName": "Sadeas' staging ground",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "64"
+        }
+      ],
+      "order": 92,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "64"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Bridge Four lined up in carapace armour and bone shields, and the other crews cheered them.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "64"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ad4d9638",
+      "characters": ["dalinar-kholin", "adolin-kholin", "torol-sadeas"],
+      "mapId": "warcamps",
+      "path": [[905, 540]],
+      "placeName": "Sadeas' staging ground",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "64"
+        }
+      ],
+      "order": 93,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "64"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Dalinar and Sadeas set out with fifteen thousand troops to finish the Parshendi at the Tower.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "64"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-639a76e6",
+      "characters": [
+        "kaladin",
+        "teft",
+        "skar",
+        "moash",
+        "lopen",
+        "drehy",
+        "lunamor",
+        "sylphrena"
+      ],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [1030, 525]
+      ],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "65"
+        }
+      ],
+      "order": 94,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "65"
+      },
+      "summary": [
+        {
+          "text": "At the Tower, Kaladin led the decoys that drew Parshendi arrows away from the bridges.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "65"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-b11e05b7",
+      "characters": ["dalinar-kholin", "adolin-kholin", "torol-sadeas"],
+      "mapId": "shattered-plains",
+      "path": [
+        [205, 410],
+        [1030, 525]
+      ],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "65"
+        }
+      ],
+      "order": 95,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "65"
+      },
+      "summary": [
+        {
+          "text": "Dalinar's army fought its way onto the Tower, until he saw that Sadeas had pulled out and left him surrounded.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "65"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-2d36706f",
+      "characters": [
+        "kaladin",
+        "skar",
+        "teft",
+        "lopen",
+        "drehy",
+        "leyten",
+        "lunamor",
+        "peet",
+        "moash",
+        "avarak-matal"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[1030, 525]],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "66"
+        }
+      ],
+      "order": 96,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "66"
+      },
+      "summary": [
+        {
+          "text": "Kaladin saw that Sadeas was retreating on purpose, betraying Dalinar.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "66"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-60a3fc8c",
+      "characters": ["dalinar-kholin", "adolin-kholin"],
+      "mapId": "shattered-plains",
+      "path": [[1030, 525]],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "66"
+        }
+      ],
+      "order": 97,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "66"
+      },
+      "summary": [
+        {
+          "text": "Cut off, Dalinar told his men they would die with their honour intact.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "66"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-774e4c00",
+      "characters": ["torol-sadeas", "avarak-matal"],
+      "mapId": "shattered-plains",
+      "path": [
+        [1030, 525],
+        [205, 410]
+      ],
+      "placeName": "the warcamps",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "67"
+        }
+      ],
+      "order": 98,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "67"
+      },
+      "summary": [
+        {
+          "text": "Sadeas' army withdrew west, leaving Bridge Four behind.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "67"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-cac8de0a",
+      "characters": ["kaladin", "tien"],
+      "mapId": "roshar",
+      "path": [[1862, 641]],
+      "placeId": "alethkar",
+      "placeName": "Amaram's battlefield",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "67"
+        }
+      ],
+      "order": 99,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "67"
+      },
+      "flashback": true,
+      "leaves": ["tien"],
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Kaladin remembered how Tien died, sent to the front as bait in his first battle.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "67"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-7034555d",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "teft",
+        "skar",
+        "moash",
+        "drehy",
+        "lunamor",
+        "sigzil",
+        "lopen",
+        "dabbid"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[1030, 525]],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "67"
+        }
+      ],
+      "order": 100,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "67"
+      },
+      "summary": [
+        {
+          "text": "Syl remembered she was an honorspren, and Kaladin led Bridge Four back to bridge a way out for Dalinar's army.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "67"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-4392e740",
+      "characters": [
+        "kaladin",
+        "teft",
+        "adolin-kholin",
+        "dalinar-kholin",
+        "drehy",
+        "skar",
+        "sigzil",
+        "peet",
+        "lunamor",
+        "lopen",
+        "moash",
+        "sylphrena",
+        "malop",
+        "jaks",
+        "narm"
+      ],
+      "mapId": "shattered-plains",
+      "path": [[1030, 525]],
+      "placeId": "tower-roshar",
+      "placeName": "the Tower",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "68"
+        }
+      ],
+      "order": 101,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "68"
+      },
+      "leaves": ["malop", "jaks", "narm"],
+      "summary": [
+        {
+          "text": "Glowing with Stormlight, Kaladin held the bridge with Bridge Four and saved Dalinar from a Parshendi Shardbearer, then agreed to join his army.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "68"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-dff60f20",
+      "characters": ["navani-kholin", "renarin-kholin", "torol-sadeas"],
+      "mapId": "warcamps",
+      "path": [[905, 540]],
+      "placeName": "Sadeas' staging ground",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "69"
+        }
+      ],
+      "order": 102,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "69"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Told that Dalinar had fallen, Navani burned a huge glyph for justice into Sadeas' staging ground just before word came that he lived.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "69"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-c86d0375",
+      "characters": [
+        "dalinar-kholin",
+        "adolin-kholin",
+        "kaladin",
+        "teft",
+        "moash",
+        "lunamor",
+        "skar",
+        "sigzil",
+        "lopen",
+        "drehy",
+        "peet",
+        "sylphrena",
+        "avarak-matal"
+      ],
+      "mapId": "warcamps",
+      "path": [[975, 465]],
+      "placeName": "Sadeas' warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "69"
+        }
+      ],
+      "order": 103,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "69"
+      },
+      "summary": [
+        {
+          "text": "Dalinar traded his Shardblade to Sadeas for the freedom of all Sadeas' bridgemen.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "69"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-0bd718fe",
+      "characters": ["dalinar-kholin", "elhokar-kholin"],
+      "mapId": "warcamps",
+      "path": [[930, 190]],
+      "placeId": "pinnacle",
+      "placeName": "the king's palace",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "69"
+        }
+      ],
+      "order": 104,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "69"
+      },
+      "summary": [
+        {
+          "text": "Dalinar beat Elhokar in a scuffle, got him to admit he had cut his own strap, and told him to name Dalinar Highprince of War.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "69"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-c98a6f4e",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [
+        [420, 380],
+        [550, 200]
+      ],
+      "placeId": "conclave",
+      "placeName": "the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "70"
+        }
+      ],
+      "order": 105,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "70"
+      },
+      "summary": [
+        {
+          "text": "Shallan worked out that Jasnah's Soulcaster was fake, went back to the place of beads to prove it, and Jasnah agreed to teach her.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "70"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-b5db7859",
+      "characters": ["szeth"],
+      "mapId": "roshar",
+      "path": [
+        [1540, 1052],
+        [1538, 1071],
+        [1533, 1083],
+        [1523, 1091],
+        [1506, 1101],
+        [1491, 1108],
+        [1469, 1114],
+        [1444, 1117],
+        [1431, 1120],
+        [1423, 1126],
+        [1419, 1142],
+        [1421, 1160],
+        [1430, 1170],
+        [1441, 1176]
+      ],
+      "placeId": "kharbranth",
+      "placeName": "Kharbranth",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "71"
+        }
+      ],
+      "order": 106,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "71"
+      },
+      "approximate": true,
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-71f99328",
+      "characters": ["szeth", "taravangian"],
+      "mapId": "kharbranth",
+      "path": [
+        [470, 600],
+        [540, 240]
+      ],
+      "placeName": "the king's secret hospital",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "71"
+        }
+      ],
+      "order": 107,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "71"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Szeth came to kill King Taravangian, the last name on his list, and found the king was his master, who added Dalinar Kholin to the list.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "71"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-748375b2",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[562, 198]],
+      "placeId": "conclave",
+      "placeName": "Jasnah's rooms in the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "72"
+        }
+      ],
+      "order": 108,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "72"
+      },
+      "summary": [
+        {
+          "text": "Jasnah's notes led Shallan to see that the Voidbringers had not been destroyed but enslaved, as the parshmen.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "72"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-bb8d3a34",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "dalinar-kholin",
+        "lunamor",
+        "teft",
+        "shen",
+        "moash",
+        "lopen",
+        "skar",
+        "drehy",
+        "sigzil",
+        "peet"
+      ],
+      "mapId": "warcamps",
+      "path": [[690, 420]],
+      "placeName": "Dalinar's staging ground",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "73"
+        }
+      ],
+      "order": 109,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "73"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Dalinar made Kaladin a captain with Bridge Four as his guard, and the men asked Kaladin to teach them his powers.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "73"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-1401fe4f",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "mapId": "kharbranth",
+      "path": [[562, 198]],
+      "placeId": "conclave",
+      "placeName": "Jasnah's rooms in the Conclave",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "74"
+        }
+      ],
+      "order": 110,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "74"
+      },
+      "summary": [
+        {
+          "text": "Shallan and Jasnah planned to sail for the Shattered Plains, and Jasnah named Kabsal a Ghostblood, a group Shallan realised her father had likely belonged to.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "74"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ee1c8b7a",
+      "characters": ["dalinar-kholin", "navani-kholin"],
+      "mapId": "warcamps",
+      "path": [[760, 340]],
+      "placeName": "Dalinar's warcamp",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "75"
+        }
+      ],
+      "order": 111,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "75"
+      },
+      "summary": [
+        {
+          "text": "In a last vision Dalinar learned the voice had never heard him; it told him to refound the Knights Radiant and said the Almighty was dead, killed by Odium.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "75"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-ab3421fc",
+      "characters": ["hoid", "talenel"],
+      "mapId": "roshar",
+      "path": [[1934, 797]],
+      "placeId": "kholinar",
+      "placeName": "Kholinar",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "epilogue"
+        }
+      ],
+      "order": 112,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "epilogue"
+      },
+      "summary": [
+        {
+          "text": "In Kholinar, Wit was talking with the guards when Talenel staggered in with a Shardblade, warned of a coming Desolation and collapsed.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "epilogue"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "bs-6da37ce1",
+      "characters": ["joshor"],
+      "mapId": "kharbranth",
+      "path": [[540, 240]],
+      "placeName": "the king's secret hospital",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "endnote"
+        }
+      ],
+      "order": 113,
+      "happensIn": {
+        "book": "way-of-kings",
+        "chapter": "endnote"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Joshor of the king's Silent Gatherers wrote down a dying Herdazian's ketek and left its meaning for the king.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "endnote"
+            }
+          ]
+        }
+      ],
+      "source": "way-of-kings-scenes"
+    }
+  ]
+}

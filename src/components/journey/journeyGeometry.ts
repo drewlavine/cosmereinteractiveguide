@@ -44,7 +44,10 @@ export function anchorOn(
   return undefined
 }
 
-/** The outermost map holding `id` (itself when nothing does). */
+/**
+ * The outermost map holding `id` (itself when nothing does), short of an
+ * overview (the star chart): a world's map, for a city on it.
+ */
 export function rootOf(maps: readonly AtlasMap[], id: string): string {
   const seen = new Set<string>()
   let m = maps.find((x) => x.id === id)
@@ -52,7 +55,7 @@ export function rootOf(maps: readonly AtlasMap[], id: string): string {
     seen.add(m.id)
     const up: string = m.parent.mapId
     const next = maps.find((x) => x.id === up)
-    if (!next) break
+    if (!next || next.overview) break
     m = next
   }
   return m?.id ?? id

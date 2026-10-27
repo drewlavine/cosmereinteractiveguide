@@ -1,5 +1,11 @@
 import { describe, expect, it } from 'vitest'
-import { fitTransform } from './fitTransform'
+import {
+  clampTransform,
+  fitTransform,
+  homeTransform,
+  scaleRange,
+  type Bounds,
+} from './fitTransform'
 import type { AtlasMap, MapPoint } from '../data/journey'
 import {
   anchorOn,
@@ -175,5 +181,44 @@ describe('journey geometry', () => {
         [3, 4],
       ]),
     ).toBe('M1 2 L3 4')
+  })
+})
+
+describe('view limits', () => {
+  // A 2:1 picture in a 400×400 view: it fills the view at scale 2.
+  const picture: Bounds = {
+    viewport: { width: 400, height: 400 },
+    area: { x: 0, y: 0, width: 400, height: 200 },
+    fill: 'cover',
+  }
+
+  it('zooms a picture out only until it fills the view', () => {
+    expect(scaleRange(picture)[0]).toBe(2)
+    const t = clampTransform({ scale: 0.5, x: 0, y: 0 }, picture)
+    expect(t.scale).toBe(2)
+    expect(homeTransform(picture)).toEqual({ scale: 2, x: -200, y: 0 })
+  })
+
+  it('never pans a picture off its edges', () => {
+    expect(clampTransform({ scale: 2, x: 50, y: -300 }, picture)).toEqual({
+      scale: 2,
+      x: 0,
+      y: 0,
+    })
+    expect(clampTransform({ scale: 4, x: -5000, y: -5000 }, picture)).toEqual({
+      scale: 4,
+      x: -1200,
+      y: -400,
+    })
+  })
+
+  it('zooms a chart out until it all shows, and centres it', () => {
+    const chart: Bounds = { ...picture, fill: 'contain' }
+    expect(scaleRange(chart)[0]).toBe(1)
+    expect(clampTransform({ scale: 0.25, x: 0, y: 0 }, chart)).toEqual({
+      scale: 1,
+      x: 0,
+      y: 100,
+    })
   })
 })

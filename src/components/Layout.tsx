@@ -8,6 +8,7 @@ import { BooksReadSettings } from './BooksReadSettings'
 import { Search } from './Search'
 import { SearchIcon } from './SearchIcon'
 import { SideNav } from './SideNav'
+import { Tooltips } from './Tooltips'
 
 export function Layout() {
   const location = useLocation()
@@ -76,7 +77,13 @@ export function Layout() {
               className="app-main"
               inert={navOpen}
               initial={{ opacity: 0, scale: 0.85, filter: 'blur(6px)' }}
-              animate={{ opacity: 1, scale: 1, filter: 'blur(0px)' }}
+              animate={{
+                opacity: 1,
+                scale: 1,
+                filter: 'blur(0px)',
+                // A leftover filter would trap full-screen overlays inside.
+                transitionEnd: { filter: 'none' },
+              }}
               exit={{ opacity: 0, scale: 1.15, filter: 'blur(6px)' }}
               transition={{ duration: 0.45, ease: 'easeInOut' }}
             >
@@ -117,6 +124,7 @@ export function Layout() {
             Dragonsteel.
           </footer>
         </div>
+        <Tooltips />
       </BooksReadProvider>
     </MotionConfig>
   )

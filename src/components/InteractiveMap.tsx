@@ -168,7 +168,11 @@ export function InteractiveMap({
           className="map-viewer-frame"
           style={{ aspectRatio: `${version.width} / ${version.height}` }}
         >
-          <PanZoom key={version.file} label={`${map.title} interactive map`}>
+          <PanZoom
+            key={version.file}
+            label={`${map.title} interactive map`}
+            fill="cover"
+          >
             <div className="map-canvas">
               <img
                 className="map-viewer-image"

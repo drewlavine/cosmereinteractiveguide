@@ -1,50 +1,102 @@
-.root {
-  margin: 0 0 2rem;
-}
-
 .title {
   margin: 0 0 0.75rem;
 }
 
-/* Map and panel side by side on wide screens, stacked on phones. */
-.layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) 20rem;
-  gap: 1rem;
-  align-items: stretch;
+.root {
+  margin: 0 0 2rem;
 }
 
-@media (max-width: 860px) {
-  .layout {
-    grid-template-columns: minmax(0, 1fr);
-  }
+/* The map and its timeline, in one box; full screen on request. */
+.frame {
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+  background: var(--panel, #142029);
+}
+
+.view {
+  position: relative;
 }
 
 .stage {
   position: relative;
-  height: min(60vh, 620px);
-  min-height: 340px;
+  height: clamp(380px, 62vh, 700px);
   overflow: hidden;
-  border: 1px solid rgba(212, 165, 64, 0.45);
-  border-radius: 12px;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
   background: var(--slate-deep);
 }
 
-@media (max-width: 860px) {
+@media (max-width: 700px) {
   .stage {
-    height: min(50vh, 110vw);
-    min-height: 300px;
+    height: min(60vh, 120vw);
+    min-height: 320px;
   }
+}
+
+/* Full screen: the map takes everything the timeline leaves. */
+.frame.full {
+  height: 100dvh;
+  border: 0;
+  border-radius: 0;
+  background: var(--bg);
+}
+
+.frame.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+.full .view {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.full .stage {
+  flex: 1;
+  height: auto;
+  min-height: 0;
 }
 
 .stage :global(.pan-zoom-content) {
   padding: 0;
 }
 
+/* Full screen and the map picker, top left. */
+.topLeft {
+  position: absolute;
+  top: 0.6rem;
+  left: 0.6rem;
+  z-index: 2;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  max-width: calc(100% - 1.2rem);
+}
+
+.round {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 2.1rem;
+  height: 2.1rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 50%;
+  background: rgba(16, 24, 31, 0.85);
+  color: var(--gold-soft);
+  cursor: pointer;
+}
+
+.round:hover {
+  background: rgba(212, 165, 64, 0.25);
+}
+
 .maps,
 .tools {
-  position: absolute;
-  z-index: 2;
   display: flex;
   flex-wrap: wrap;
   gap: 0.25rem;
@@ -53,16 +105,36 @@
   background: rgba(16, 24, 31, 0.85);
 }
 
-.maps {
-  top: 0.6rem;
-  left: 0.6rem;
+.tools {
+  position: absolute;
+  z-index: 2;
 }
 
-/* Route and others toggles, bottom left so they never cover the map picker. */
+/* Characters, routes and others, bottom left, clear of the zoom buttons. */
 .tools {
   bottom: 0.6rem;
   left: 0.6rem;
-  max-width: calc(100% - 1.2rem);
+  max-width: calc(100% - 1.2rem - 56px);
+}
+
+/* Beside the open character list rather than under it. */
+@media (min-width: 701px) {
+  .tools.shifted {
+    left: calc(min(20rem, 85%) + 0.6rem);
+    max-width: calc(100% - min(20rem, 85%) - 1.2rem - 56px);
+  }
+}
+
+@media (max-width: 700px) {
+  .tools {
+    border-radius: 1rem;
+  }
+
+  .maps button,
+  .tools button {
+    padding: 0.2rem 0.55rem;
+    font-size: 0.8rem;
+  }
 }
 
 .tools > div {
@@ -79,7 +151,23 @@
   color: var(--gold-soft);
   font: inherit;
   font-size: 0.85rem;
+  white-space: nowrap;
   cursor: pointer;
+}
+
+.tools .castButton {
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  color: var(--gold);
+  font-weight: 600;
+}
+
+.tools .castButton[aria-expanded='true'] {
+  background: rgba(212, 165, 64, 0.25);
+}
+
+.count {
+  font-weight: 400;
+  opacity: 0.8;
 }
 
 .maps button[aria-pressed='true'],
@@ -89,19 +177,46 @@
 }
 
 /* Routes: this chapter's solid, the last few faded. */
-.route,
-.trail {
+.route path,
+.trail path {
   fill: none;
   stroke-linecap: round;
   stroke-linejoin: round;
 }
 
+/* A dark edge so routes read on the pale maps. */
+.casing {
+  stroke: #10181f;
+  opacity: 0.55;
+}
+
 .trail {
-  opacity: 0.4;
+  opacity: 0.7;
+}
+
+.trail:hover {
+  opacity: 1;
+}
+
+/* A wide invisible stroke: easy to hover, tap or click. */
+.hit {
+  stroke: transparent;
+  pointer-events: stroke;
+}
+
+.trail .hit {
+  cursor: pointer;
 }
 
 .marker {
   pointer-events: auto;
+  cursor: pointer;
+  transition: filter 0.15s;
+}
+
+.marker:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px var(--gold-soft));
 }
 
 .opens {
@@ -131,32 +246,120 @@
   font-weight: 600;
 }
 
-.panel {
+/* What happens: a card over the map's top right corner. */
+.card {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.6rem;
+  z-index: 3;
   display: flex;
   flex-direction: column;
-  gap: 1rem;
-  min-width: 0;
-  max-height: min(60vh, 620px);
+  width: min(22rem, 42%);
+  max-height: calc(100% - 1.2rem - 150px);
+  padding: 0.75rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 10px;
+  background: rgba(16, 24, 31, 0.92);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.45);
+}
+
+.card .scenes {
+  margin-top: 0.5rem;
   overflow-y: auto;
+  scrollbar-width: thin;
 }
 
-@media (max-width: 860px) {
-  .panel {
-    max-height: none;
-  }
+.cardHead,
+.drawerHead {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.5rem;
 }
 
-.chapter h3 {
-  margin: 0 0 0.5rem;
+.cardHead h3,
+.drawerHead h3 {
+  margin: 0;
+  font-size: 1.05rem;
 }
 
-.chapter h3 .part {
+.cardHead h3 .part {
   display: block;
-  font-size: 0.8rem;
+  font-size: 0.75rem;
   font-weight: 400;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   opacity: 0.75;
+}
+
+.close {
+  flex: none;
+  width: 1.75rem;
+  height: 1.75rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 50%;
+  background: none;
+  color: var(--gold);
+  font-size: 1rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: rgba(212, 165, 64, 0.2);
+}
+
+/* Phones: the card sits under the map instead of over it. */
+@media (max-width: 700px) {
+  .card {
+    position: static;
+    width: auto;
+    max-height: 35vh;
+    border-width: 0 0 1px;
+    border-radius: 0;
+    box-shadow: none;
+  }
+
+  .full .card {
+    max-height: 30dvh;
+  }
+}
+
+/* The character list: a drawer over the map's left side. */
+.drawer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 4;
+  width: min(20rem, 85%);
+  padding: 0.75rem 0.9rem;
+  overflow-y: auto;
+  border-right: 1px solid rgba(212, 165, 64, 0.45);
+  background: rgba(16, 24, 31, 0.95);
+  box-shadow: 6px 0 20px rgba(0, 0, 0, 0.45);
+  scrollbar-width: thin;
+  animation: slide-in 0.2s ease-out;
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .drawer {
+    animation: none;
+  }
+}
+
+.drawer h4 {
+  margin: 0.9rem 0 0.4rem;
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .scenes {
@@ -174,17 +377,16 @@
 }
 
 /* The legend: each chip is the marker's art, ring colour and name. */
-.cast ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.4rem;
+.drawer ul {
+  display: grid;
+  gap: 0.35rem;
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
 .hint {
-  margin: 0 0 0.5rem;
+  margin: 0.5rem 0 0;
   font-size: 0.8rem;
   opacity: 0.8;
 }
@@ -200,7 +402,7 @@
 }
 
 .chip {
-  display: inline-flex;
+  display: flex;
   align-items: center;
   border: 1px solid rgba(212, 165, 64, 0.3);
   border-radius: 999px;
@@ -208,7 +410,9 @@
 }
 
 .chip > button {
-  display: inline-flex;
+  display: flex;
+  flex: 1;
+  min-width: 0;
   align-items: center;
   gap: 0.4rem;
   padding: 0.15rem 0.4rem 0.15rem 0.15rem;
@@ -228,11 +432,23 @@
   opacity: 0.45;
 }
 
+/* The character's own journey; the same icon as on the lists. */
 .page {
-  padding: 0 0.55rem 0 0.15rem;
+  position: relative;
+  display: inline-grid;
+  place-items: center;
+  align-self: stretch;
+  padding: 0 0.5rem 0 0.4rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 0 999px 999px 0;
   color: var(--gold);
   font-size: 0.8rem;
   text-decoration: none;
+}
+
+.page:hover,
+.page:focus-visible {
+  background: rgba(212, 165, 64, 0.18);
 }
 
 .face {
@@ -272,7 +488,11 @@
   display: flex;
   align-items: center;
   gap: 0.75rem;
-  margin-top: 0.75rem;
+  padding: 0.6rem 0.75rem 0.4rem;
+}
+
+.full .scrubber {
+  padding: 0.5rem 1rem;
 }
 
 .scrubber > button {

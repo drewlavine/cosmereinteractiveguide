@@ -28,7 +28,15 @@ export function SpoilerNotice({
           ? 'Showing information hidden due to spoilers.'
           : 'Some information hidden due to spoilers.'}
       </p>
-      <button type="button" onClick={() => setViewAnyway(scope, !showing)}>
+      <button
+        type="button"
+        data-tooltip={
+          showing
+            ? 'Hide the spoilers again'
+            : 'Show the details hidden to avoid spoilers'
+        }
+        onClick={() => setViewAnyway(scope, !showing)}
+      >
         {showing ? 'Hide again' : 'Show anyway'}
       </button>
     </aside>

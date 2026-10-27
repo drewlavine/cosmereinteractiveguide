@@ -26,7 +26,9 @@ The rest of the book page stays as it is until this ships.
 
 ## 2. What we want (UX)
 
-- **Map** at the top of `BookDetail`: about 60vh on desktop, 50vh on phones, full width.
+- **Map** at the top of `BookDetail`, in a bordered box with the scrubber inside it:
+  about 62vh on desktop, 60vh on phones. A full-screen button (top left) fills the
+  window with map and scrubber; Escape leaves it.
 - **Chapter scrubber** under the map:
   - a timeline with a labelled point for every chapter the reader may see (prologue,
     numbers, interludes, epilogue), grouped under part names from `chapters.ts`; it
@@ -37,23 +39,35 @@ The rest of the book page stays as it is until this ships.
   - each character in this chapter: a **portrait marker**, never a blank dot (see
     "Markers" below)
   - this chapter's route drawn solid, earlier routes faded (trail: "this chapter / last
-    5 / whole book")
+    5 / whole book"), each with a dark edge so it reads on pale maps; hovering a route
+    says the chapter, who travelled, where to and what happened, and clicking an
+    earlier one goes to its chapter
   - characters not in this chapter: a dimmed marker at their last known spot, or hidden
-    (the "Others" toggle)
+    (the "Others" toggle); hovering says which chapter that was, and clicking goes
+    there (on the same map). Clicking someone in this chapter follows them
   - the view fits the chapter's characters and routes; on a region map, a marker
     standing for an inner map (a city) opens that map when clicked
-- **"This chapter" panel** (beside the map on desktop, below it on phones): POV
+- **"This chapter" card** (over the map's top right on desktop, collapsible; below the
+  map on phones): POV
   characters, place, and a one-line, factual reminder of what happens (journey-event
   rules in `STORY_GUIDE.md`), with links to the character pages.
-- **Character chips** to filter: picking one or more follows just them (markers,
+- **Pan and zoom** (shared `PanZoom`, as on every map): the view zooms out only until
+  the map fills the frame and never pans off its edges; the wheel eases into its zoom
+  and a flung map glides to a stop (both instant with reduced motion). Every button
+  explains itself in a hover or focus tooltip (`data-tooltip`, drawn by `Tooltips`).
+- **Character chips** to filter, in a drawer that slides over the map's left side
+  ("Characters · N"), so the list never pushes the timeline down: picking one or more follows just them (markers,
   routes and the view); "Show everyone" clears it. Each chip has a small link to the
   character's page. They are also the **legend**: each chip shows the same portrait,
   ring colour and name as the marker.
 - **Markers:**
-  - a round crop of the character's portrait, with a thick ring in their colour
-  - the portrait comes from `revealPortrait` at the shown chapter, so the art is never
-    later than the reader
-  - no portrait: initials on a fill of their colour
+  - a round crop of the character's face, with a thick ring in their colour
+  - the face comes from `revealPortrait` at the shown chapter, so the art is never
+    later than the reader, using only art whose face reads at marker size: curated
+    crops in `~/cig-char-data/art/faces.json`, cut by `faces.py` into
+    `public/portraits/faces/` and `src/data/portraitFaces.ts` (character journey
+    markers use the same faces)
+  - no portrait with a usable face: initials on a fill of their colour
   - routes are drawn in the same colour
   - dimmed (not in this chapter): greyscale portrait, faded, dashed ring
   - dimmed markers are drawn smaller and underneath, so the chapter's characters stay
@@ -61,8 +75,9 @@ The rest of the book page stays as it is until this ships.
   - several characters at one spot: a honeycomb fan around the spot, a fixed size on
     screen at every zoom, with the place's name below it
   - colour is never the only cue: each marker has a tooltip with the character's name,
-    and since the map is decorative (`aria-hidden`), the chip list is the accessible
-    equivalent, naming who is "not in this chapter" or "on another map"
+    and since the map is decorative (`aria-hidden`, markers and routes are mouse and
+    touch only), the chip list is the accessible equivalent, naming who is "not in this
+    chapter" or "on another map"
 - **Colours:**
   - a fixed categorical palette, about 12 colours, readable on the parchment maps and
     picked to stay distinct for colour-blind readers
@@ -165,6 +180,11 @@ The map is only as good as the per-chapter data. There are three sources:
    at several reader points on desktop and phone.
 5. **Roll out book by book.** Tick `ROADMAP` §11 and §16; update README and
    ARCHITECTURE 5.9.
+   - **The Way of Kings** (done): 113 scenes over 88 chapters, using Roshar and three
+     child maps (Kharbranth, the warcamps, the Shattered Plains). cosmere-maps'
+     Stormlight series is imported too (affine fit RMS 11.6 px over 12 places); its
+     8 Way of Kings paths are Kaladin 2, 4, 6, Shallan 3, Szeth I-3, I-6, I-9, 71.
+     Other travel is a straight leg between our pins.
 
 ## 7. Decisions (Drew)
 

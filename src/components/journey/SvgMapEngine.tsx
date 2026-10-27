@@ -13,7 +13,13 @@ import { assetUrl } from '../../data/assetUrl'
  * The SVG map engine: the image in a PanZoom (mouse, touch pan and pinch),
  * with the layers in an SVG laid exactly over it.
  */
-export function SvgMapEngine({ image, label, layers, ref }: MapEngineProps) {
+export function SvgMapEngine({
+  image,
+  label,
+  layers,
+  background,
+  ref,
+}: MapEngineProps) {
   const panZoom = useRef<PanZoomHandle>(null)
   const canvas = useRef<HTMLDivElement>(null)
   const [scale, setScale] = useState(1)
@@ -55,15 +61,26 @@ export function SvgMapEngine({ image, label, layers, ref }: MapEngineProps) {
   const k = width / image.width || 1
 
   return (
-    <PanZoom label={label} ref={panZoom} onTransform={onTransform}>
+    <PanZoom label={label} ref={panZoom} onTransform={onTransform} fill="cover">
       <div className="journey-canvas" ref={canvas}>
-        <img
-          src={assetUrl(image.src)}
-          alt={image.alt}
-          width={image.width}
-          height={image.height}
-          draggable={false}
-        />
+        {image.src ? (
+          <img
+            src={assetUrl(image.src)}
+            alt={image.alt}
+            width={image.width}
+            height={image.height}
+            draggable={false}
+          />
+        ) : (
+          <div
+            className="journey-drawn"
+            role="img"
+            aria-label={image.alt}
+            style={{ aspectRatio: `${image.width} / ${image.height}` }}
+          >
+            {background}
+          </div>
+        )}
         <svg
           viewBox={`0 0 ${image.width} ${image.height}`}
           className="journey-layers"

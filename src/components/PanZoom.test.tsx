@@ -1,4 +1,4 @@
-import { act, fireEvent, render, screen } from '@testing-library/react'
+import { act, fireEvent, render, screen, waitFor } from '@testing-library/react'
 import { createRef } from 'react'
 import userEvent from '@testing-library/user-event'
 import { describe, expect, it, vi } from 'vitest'
@@ -32,12 +32,12 @@ describe('PanZoom', () => {
     expect(scale()).toBe(1)
   })
 
-  it('zooms with the mouse wheel', () => {
+  it('eases into the mouse wheel’s zoom', async () => {
     const { viewport, scale } = setup()
     fireEvent.wheel(viewport, { deltaY: -200 })
-    expect(scale()).toBeGreaterThan(1)
+    await waitFor(() => expect(scale()).toBeCloseTo(Math.exp(0.4)))
     fireEvent.wheel(viewport, { deltaY: 400 })
-    expect(scale()).toBeLessThan(1)
+    await waitFor(() => expect(scale()).toBeCloseTo(Math.exp(-0.4)))
   })
 
   it('pans on drag without triggering a click', () => {

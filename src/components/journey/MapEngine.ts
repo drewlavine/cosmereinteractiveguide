@@ -35,6 +35,11 @@ export interface MapEngineProps {
   /** Accessible name of the map region. */
   label: string
   /**
+   * Drawn in place of the image when it has no `src` (a map the page draws
+   * itself, e.g. a star chart), in the image's own pixels.
+   */
+  background?: ReactNode
+  /**
    * Layers in image pixels. `zoom` is screen pixels per image pixel, so
    * markers and lines can keep a steady on-screen size.
    */

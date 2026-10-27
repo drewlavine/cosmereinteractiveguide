@@ -5,8 +5,31 @@
  */
 import type { Atlas, AtlasMap, AtlasPlace, MapPoint } from './journey'
 import { findListed, placeHref, placeRevealedIn } from './listedLocations'
+import { characterItineraries } from './itineraries'
 import { mapImageUrl, mapSourceUrl, mapThumbUrl, planetMaps } from './maps'
-import type { Reveal } from './types'
+import { systems } from './systems'
+import type { Planet, Reveal } from './types'
+
+/** The star chart's size, in its own units (as the systems' chart). */
+export const CHART = { width: 1000, height: 680 }
+const toX = (pct: number) => 70 + (pct / 100) * (CHART.width - 140)
+const toY = (pct: number) => 120 + (pct / 100) * (CHART.height - 190)
+
+/** Where a planet sits on the star chart; the uncharted cluster is fanned out. */
+function locate(planetId: string) {
+  for (const system of systems) {
+    const i = system.planets.findIndex((p) => p.id === planetId)
+    if (i < 0) continue
+    let x = toX(system.mapPosition.x)
+    let y = toY(system.mapPosition.y)
+    if (system.uncharted) {
+      const angle = (i / system.planets.length) * Math.PI * 2 - 1.2
+      x += Math.cos(angle) * 34
+      y += Math.sin(angle) * 34
+    }
+    return { x, y, planet: system.planets[i], systemId: system.id }
+  }
+}
 
 interface JourneyMapSource {
   /** Journey map id, as the importers' events use. */
@@ -198,6 +221,65 @@ const sources: JourneyMapSource[] = [
   },
 ]
 
+/**
+ * Every world a journey can reach, each at its point on the chart. Worlds of
+ * one system that are both reached (Ashyn and Roshar) are set side by side.
+ */
+const charted = (() => {
+  const ids = new Set([
+    ...sources.map((s) => s.planetId),
+    ...Object.values(characterItineraries).flatMap((stays) =>
+      stays.map((s) => s.planetId),
+    ),
+  ])
+  const placed = new Map<string, { at: MapPoint; planet: Planet }>()
+  const bySystem = new Map<string, NonNullable<ReturnType<typeof locate>>[]>()
+  for (const id of ids) {
+    const p = locate(id)
+    if (!p) continue
+    if (systems.find((s) => s.id === p.systemId)?.uncharted)
+      placed.set(id, { at: [p.x, p.y], planet: p.planet })
+    else bySystem.set(p.systemId, [...(bySystem.get(p.systemId) ?? []), p])
+  }
+  for (const worlds of bySystem.values())
+    worlds.forEach((p, i) =>
+      placed.set(p.planet.id, {
+        at: [p.x + (i - (worlds.length - 1) / 2) * 110, p.y],
+        planet: p.planet,
+      }),
+    )
+  return placed
+})()
+
+/** A world's point on the star chart, if a journey can reach it. */
+export const chartPoint = (planetId: string) => charted.get(planetId)?.at
+
+/** A world's Cognitive Realm, drawn just off the world on the chart. */
+export const realmPoint = (planetId: string): MapPoint | undefined => {
+  const at = chartPoint(planetId)
+  return at && [at[0] + 46, at[1] + 40]
+}
+
+/** Every world a journey can reach, for the chart to draw. */
+export const chartedWorlds = () =>
+  [...charted].map(([id, { at, planet }]) => ({ id, at, planet }))
+
+export const COSMERE_MAP = 'cosmere'
+
+const cosmere: AtlasMap = {
+  id: COSMERE_MAP,
+  title: 'the Cosmere',
+  image: {
+    src: '',
+    width: CHART.width,
+    height: CHART.height,
+    alt: 'Star chart of the Cosmere',
+  },
+  credit: { text: 'Star chart drawn for this guide' },
+  revealedIn: [],
+  overview: true,
+}
+
 const maps = new Map<string, AtlasMap>(
   sources.flatMap((s) => {
     const map = planetMaps[s.planetId]?.find((m) => m.id === s.mapId)
@@ -221,12 +303,17 @@ const maps = new Map<string, AtlasMap>(
             url: mapSourceUrl(version.file),
           },
           revealedIn: s.revealedIn,
-          ...(s.parent && { parent: s.parent }),
+          ...(s.parent
+            ? { parent: s.parent }
+            : chartPoint(s.planetId) && {
+                parent: { mapId: COSMERE_MAP, at: chartPoint(s.planetId) },
+              }),
         },
       ],
     ]
   }),
 )
+maps.set(COSMERE_MAP, cosmere)
 
 /** The world a journey map shows (part of), e.g. 'roshar' for Kholinar. */
 export const journeyMapPlanet = (mapId: string) =>

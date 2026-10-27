@@ -114,6 +114,49 @@ describe('book chapter map', () => {
       within(region).getByRole('region', { name: 'This chapter' }),
     ).getByRole('heading', { level: 3 })
 
+  const openCast = async (region: HTMLElement) => {
+    await userEvent.click(
+      within(region).getByRole('button', { name: /^Characters/ }),
+    )
+    return within(region).getByRole('region', { name: 'Characters' })
+  }
+
+  it('keeps the character list in a drawer, and goes full screen', async () => {
+    reading('17')
+    renderAt('/books/final-empire?ch=5')
+    const region = await mapRegion()
+    expect(
+      within(region).queryByRole('region', { name: 'Characters' }),
+    ).toBeNull()
+    const toggle = within(region).getByRole('button', { name: /^Characters/ })
+    expect(toggle).toHaveAttribute('aria-expanded', 'false')
+    const cast = await openCast(region)
+    expect(toggle).toHaveAttribute('aria-expanded', 'true')
+    await userEvent.click(within(cast).getByRole('button', { name: 'Kelsier' }))
+    expect(toggle).toHaveTextContent('Characters · following 1')
+    await userEvent.click(
+      within(cast).getByRole('button', {
+        name: 'Close the character list',
+      }),
+    )
+    expect(
+      within(region).queryByRole('region', { name: 'Characters' }),
+    ).toBeNull()
+
+    const card = within(region).getByRole('region', { name: 'This chapter' })
+    await userEvent.click(
+      within(card).getByRole('button', { name: 'Hide what happens' }),
+    )
+    expect(card).not.toHaveTextContent(/stole its atium/)
+    expect(chapterHeading(region)).toHaveTextContent('Chapter 5')
+
+    const full = within(region).getByRole('button', { name: 'Full screen' })
+    await userEvent.click(full)
+    expect(full).toHaveAttribute('aria-pressed', 'true')
+    await userEvent.keyboard('{Escape}')
+    expect(full).toHaveAttribute('aria-pressed', 'false')
+  })
+
   it('opens at the reader’s chapter and shows nothing past it', async () => {
     reading('17')
     renderAt('/books/final-empire')
@@ -184,15 +227,18 @@ describe('book chapter map', () => {
   it('lists who is in the chapter and who is elsewhere', async () => {
     reading('17')
     renderAt('/books/final-empire?ch=5')
-    const cast = within(await mapRegion()).getByRole('region', {
-      name: 'Characters',
-    })
+    const cast = await openCast(await mapRegion())
     expect(
       within(cast).getByRole('button', { name: 'Kelsier' }),
     ).toBeInTheDocument()
     expect(
-      within(cast).getByRole('link', { name: 'Kelsier’s page' }),
-    ).toHaveAttribute('href', '/characters/kelsier')
+      within(cast)
+        .getByRole('button', { name: 'Kelsier' })
+        .querySelector('img'),
+    ).toHaveAttribute('src', expect.stringContaining('/portraits/faces/'))
+    expect(
+      within(cast).getByRole('link', { name: 'Kelsier’s journey' }),
+    ).toHaveAttribute('href', '/characters/kelsier#journey')
     expect(
       within(cast).getByRole('button', { name: /^Vin\b/ }),
     ).toHaveTextContent('Vin (not in this chapter)')
@@ -204,9 +250,11 @@ describe('book chapter map', () => {
     const { container } = renderAt('/books/final-empire?ch=5')
     const region = await mapRegion()
     const markers = () =>
-      [...container.querySelectorAll('svg g > title')].map((t) => t.textContent)
+      [...container.querySelectorAll('svg g[role="button"]')].map((g) =>
+        g.getAttribute('aria-label'),
+      )
     await waitFor(() => expect(markers()).toContain('Clubs'))
-    const cast = within(region).getByRole('region', { name: 'Characters' })
+    const cast = await openCast(region)
     const kelsier = within(cast).getByRole('button', { name: 'Kelsier' })
     await userEvent.click(kelsier)
     expect(kelsier).toHaveAttribute('aria-pressed', 'true')
@@ -215,12 +263,70 @@ describe('book chapter map', () => {
       within(cast).getByRole('button', { name: 'Show everyone' }),
     )
     expect(markers()).toContain('Clubs')
-    expect(markers().some((m) => m?.startsWith('Vin (last seen'))).toBe(true)
+    expect(markers().some((m) => m?.startsWith('Vin, last seen here in'))).toBe(
+      true,
+    )
     await userEvent.click(
       within(region).getByRole('button', { name: 'Others' }),
     )
     expect(markers().some((m) => m?.startsWith('Vin'))).toBe(false)
     expect(markers()).toContain('Clubs')
+  })
+
+  it('goes to the chapter a faded marker was last seen in', async () => {
+    reading('17')
+    const { container } = renderAt('/books/final-empire?ch=5')
+    const region = await mapRegion()
+    const marker = (name: string) =>
+      container.querySelector<SVGElement>(
+        `svg g[role="button"][aria-label^="${name}"]`,
+      )
+    await waitFor(() => expect(marker('Vin, last seen')).not.toBeNull())
+    const vin = marker('Vin, last seen')!
+    const seen = vin.getAttribute('aria-label')!.replace(/.* in /, '')
+    expect(vin.dataset.tooltip).toMatch(/Click to go to that chapter/)
+    await userEvent.click(vin)
+    expect(chapterHeading(region)).toHaveTextContent(new RegExp(`${seen}$`))
+    expect(marker('Vin')).toHaveAttribute('aria-label', 'Vin')
+  })
+
+  it('tells who took an old route, and goes to its chapter', async () => {
+    reading('17')
+    const { container } = renderAt('/books/final-empire?ch=17')
+    const region = await mapRegion()
+    await userEvent.click(
+      within(region).getByRole('button', { name: 'Whole book' }),
+    )
+    const old = container.querySelector<SVGElement>(
+      'svg path[role="button"][data-tooltip]',
+    )!
+    const tip = old.dataset.tooltip!
+    expect(tip).toMatch(/^Chapter \d+: \w.*Click to go to that chapter$/)
+    await userEvent.click(old)
+    expect(chapterHeading(region)).toHaveTextContent(
+      new RegExp(`${tip.slice(0, tip.indexOf(':'))}$`),
+    )
+  })
+
+  it('explains every button in a tooltip on hover', async () => {
+    reading('17')
+    renderAt('/books/final-empire')
+    const region = await mapRegion()
+    for (const button of within(region).getAllByRole('button'))
+      expect(button.dataset.tooltip, button.textContent ?? '').toBeTruthy()
+    const others = within(region).getByRole('button', { name: 'Others' })
+    await userEvent.hover(others)
+    expect(document.querySelector('.tooltip')).toHaveTextContent(
+      'Hide the characters who aren’t in this chapter',
+    )
+    await userEvent.click(others)
+    await waitFor(() =>
+      expect(document.querySelector('.tooltip')).toHaveTextContent(
+        'Show where the characters not in this chapter were last seen',
+      ),
+    )
+    await userEvent.unhover(others)
+    expect(document.querySelector('.tooltip')).toBeNull()
   })
 
   it('draws routes for the chosen stretch of chapters', async () => {
@@ -269,5 +375,55 @@ describe('book chapter map', () => {
       within(timeline).getByRole('button', { name: /^Chapter 30,/ }),
     )
     expect(chapterHeading(region)).toHaveTextContent('Chapter 30')
+  })
+
+  describe('The Way of Kings', () => {
+    const readingWok = (chapter: string) =>
+      localStorage.setItem(
+        BOOKS_READ_KEY,
+        JSON.stringify({
+          version: 2,
+          read: [],
+          reading: { 'way-of-kings': chapter },
+        }),
+      )
+
+    it('stops at the reader’s chapter, leaving out later chapters and people', async () => {
+      readingWok('10')
+      renderAt('/books/way-of-kings')
+      const region = await mapRegion()
+      expect(chapterHeading(region)).toHaveTextContent('Chapter 10')
+      expect(
+        within(region).getByRole('region', { name: 'This chapter' }),
+      ).toHaveTextContent('Nine years earlier in Hearthstone')
+      const timeline = within(region).getByRole('list', { name: 'Chapters' })
+      expect(
+        within(timeline).queryByRole('button', { name: /^Chapter 11,/ }),
+      ).toBeNull()
+      expect(
+        within(timeline).queryByRole('button', { name: 'Interlude I-1' }),
+      ).toBeNull()
+      const cast = await openCast(region)
+      expect(
+        within(cast).getByRole('button', { name: /^Kaladin\b/ }),
+      ).toBeInTheDocument()
+      expect(
+        within(cast).getByRole('button', { name: /^Shallan\b/ }),
+      ).toBeInTheDocument()
+      expect(
+        within(region).queryByText(/Dalinar|Adolin|Navani|Teft/),
+      ).toBeNull()
+    })
+
+    it('shows Wit as Wit until the book says who he is', async () => {
+      readingWok('22')
+      renderAt('/books/way-of-kings?ch=15')
+      const region = await mapRegion()
+      const cast = await openCast(region)
+      expect(
+        within(cast).getByRole('button', { name: 'Wit' }),
+      ).toBeInTheDocument()
+      expect(within(region).queryByText(/Hoid/)).toBeNull()
+    })
   })
 })

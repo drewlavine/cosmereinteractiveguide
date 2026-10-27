@@ -12,6 +12,78 @@ export const MAX_SCALE = 8
 export const clampScale = (s: number) =>
   Math.min(MAX_SCALE, Math.max(MIN_SCALE, s))
 
+/**
+ * How far the view may zoom out: a picture map until it fills the viewport
+ * ('cover'), a chart until all of it is in view ('contain').
+ */
+export type Fill = 'cover' | 'contain'
+
+/** What bounds a view: the viewport, and the map's area in content pixels. */
+export interface Bounds {
+  viewport: { width: number; height: number }
+  area: ContentRect
+  fill: Fill
+}
+
+/** The zoom range: out until the map fills (or fits) the view, in from there. */
+export function scaleRange({ viewport, area, fill }: Bounds): [number, number] {
+  const sx = viewport.width / area.width
+  const sy = viewport.height / area.height
+  // A chart may stay at its laid-out size, with its margin, too.
+  const min = fill === 'cover' ? Math.max(sx, sy) : Math.min(1, sx, sy)
+  return [min, MAX_SCALE * Math.max(1, min)]
+}
+
+/**
+ * The transform zoomed into range, with the map covering the viewport
+ * wherever it's big enough to, and centred where it isn't.
+ */
+export function clampTransform(t: Transform, bounds: Bounds): Transform {
+  const [min, max] = scaleRange(bounds)
+  const scale = Math.min(max, Math.max(min, t.scale))
+  const { viewport, area } = bounds
+  const keep = (offset: number, view: number, start: number, size: number) => {
+    const scaled = size * scale
+    if (scaled <= view) return (view - scaled) / 2 - start * scale
+    return Math.min(
+      0 - start * scale,
+      Math.max(view - (start + size) * scale, offset),
+    )
+  }
+  return {
+    scale,
+    x: keep(t.x, viewport.width, area.x, area.width),
+    y: keep(t.y, viewport.height, area.y, area.height),
+  }
+}
+
+/** The view a map opens on: a picture all the way out and centred; a chart as laid out. */
+export function homeTransform(bounds: Bounds): Transform {
+  if (bounds.fill === 'contain')
+    return clampTransform({ scale: 1, x: 0, y: 0 }, bounds)
+  const [scale] = scaleRange(bounds)
+  const { viewport, area } = bounds
+  return clampTransform(
+    {
+      scale,
+      x: viewport.width / 2 - (area.x + area.width / 2) * scale,
+      y: viewport.height / 2 - (area.y + area.height / 2) * scale,
+    },
+    bounds,
+  )
+}
+
+/** Zooms to `scale`, keeping the viewport point (px, py) still. */
+export function zoomAround(
+  t: Transform,
+  scale: number,
+  px: number,
+  py: number,
+): Transform {
+  const k = scale / t.scale
+  return { scale, x: px - (px - t.x) * k, y: py - (py - t.y) * k }
+}
+
 /** A box in the content's own (unscaled) pixels. */
 export interface ContentRect {
   x: number

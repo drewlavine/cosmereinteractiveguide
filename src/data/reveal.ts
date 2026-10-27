@@ -3,7 +3,14 @@ import { books, bookSeries } from './books'
 import { chapters } from './chapters'
 import { characterDetails } from './characterDetails'
 import type { Portrait } from './characterPortraits'
-import { characterTravels, type TravelStop } from './travels'
+import { characterItineraries, type ItineraryStop } from './itineraries'
+import {
+  chartPoint,
+  COSMERE_MAP,
+  journeyMapPlanet,
+  realmPoint,
+} from './journeyAtlas'
+import { systems } from './systems'
 import type {
   Atlas,
   AtlasMap,
@@ -614,61 +621,6 @@ export function revealFigures<T extends Portrait>(
   }
 }
 
-export interface ShownTravelStop {
-  planetId: string
-  place?: string
-  uncertain?: string
-  wob?: string
-  events: { text: string; books: BookSource[] }[]
-}
-
-/**
- * A character's worlds, trimmed like their History. A persona's page gets
- * none, since travelling between worlds would give the persona away.
- */
-export function revealTravels(
-  characterId: string,
-  stops: readonly TravelStop[] = [],
-  canSee: CanSee,
-  viewAnyway = false,
-): { stops: ShownTravelStop[]; spoilers: boolean } {
-  const v = view(characterId, canSee)
-  if (!v || v.persona) return { stops: [], spoilers: false }
-  let spoilers = false
-  const show = ({ revealedIn }: Passage) => {
-    if (canSee(v.trim(revealedIn))) return true
-    spoilers = true
-    return viewAnyway
-  }
-  const shown = stops
-    .filter(({ needs }) => !needs || show({ text: '', revealedIn: needs }))
-    .map(({ planetId, place, uncertain, wob, events }) => ({
-      planetId,
-      place,
-      uncertain: uncertain && show(uncertain) ? uncertain.text : undefined,
-      wob: wob && show(wob) ? wob.text : undefined,
-      events: events.filter(show).map(({ text, revealedIn }) => ({
-        text,
-        books: pointSources(v.trim(revealedIn)),
-      })),
-    }))
-    .filter((s) => s.events.length > 0)
-  return { stops: shown, spoilers }
-}
-
-/** A character's Travels section: their (or a persona's) stops, trimmed. */
-export const revealCharacterTravels = (
-  id: string,
-  canSee: CanSee,
-  viewAnyway = false,
-) =>
-  revealTravels(
-    id,
-    characterTravels[findPersona(id)?.characterId ?? id],
-    canSee,
-    viewAnyway,
-  )
-
 /** A journey event trimmed to what the reader may see. */
 export interface ShownJourneyStop {
   id: string
@@ -683,10 +635,20 @@ export interface ShownJourneyStop {
   place?: { name: string; href?: string }
   /** The first point the reader has reached that reveals it. */
   where?: { bookId: string; chapter?: string }
+  /** How the character is there when not in body, e.g. "Through a seon". */
+  presence?: string
+  /** A stay on a world, shown on the star chart: the world's id. */
+  world?: string
+  /** A stay in the world's Cognitive Realm rather than on it. */
+  realm?: 'cognitive'
+  /** Notes on a stay, e.g. that its timing is uncertain. */
+  notes?: { label: string; text: string }[]
   summary: {
     text: string
     cite?: { text: string; url?: string }
     links?: { text: string; href: string }[]
+    /** Where a stay's line comes from, as in History. */
+    books?: BookSource[]
   }[]
 }
 
@@ -732,7 +694,7 @@ function addMapChain(
     if (chain.includes(m)) break
     chain.unshift(m)
     const up: AtlasMap | undefined = m.parent && atlas.map(m.parent.mapId)
-    m = up && canSee(up.revealedIn) ? up : undefined
+    m = up && !up.overview && canSee(up.revealedIn) ? up : undefined
   }
   for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
 }
@@ -776,7 +738,12 @@ export function revealJourney(
       const map = atlas.map(e.mapId)
       if (!map || !show(e.revealedIn)) return []
       // The map is the series' own, not the character's: never trimmed.
-      if (!canSee(map.revealedIn) && ((spoilers = true), !viewAnyway)) return []
+      if (
+        !map.overview &&
+        !canSee(map.revealedIn) &&
+        ((spoilers = true), !viewAnyway)
+      )
+        return []
       addMapChain(maps, map, atlas, canSee)
       if (e.source) sources.add(e.source)
       const located = !e.placeRevealedIn || see(e.placeRevealedIn)
@@ -787,6 +754,7 @@ export function revealJourney(
           mapId: e.mapId,
           path: located ? e.path : [],
           approximate: !!e.approximate,
+          ...(e.presence && { presence: e.presence }),
           ...(e.title && { title: e.title }),
           ...(e.art && { art: e.art }),
           place:
@@ -859,40 +827,134 @@ export function journeyShown(
 ) {
   const v = view(id, canSee)
   if (!v) return false
-  return journeyIds(id, canSee).some((who) =>
-    (index[who] ?? []).some(({ mapId, revealedIn }) => {
-      const map = atlas.map(mapId)
-      return !!map && canSee(v.trim(revealedIn)) && canSee(map.revealedIn)
-    }),
+  const see = (reveal: Reveal) => canSee(v.trim(reveal))
+  return (
+    journeyIds(id, canSee).some((who) =>
+      (index[who] ?? []).some(({ mapId, revealedIn }) => {
+        const map = atlas.map(mapId)
+        return !!map && see(revealedIn) && canSee(map.revealedIn)
+      }),
+    ) ||
+    (!v.persona &&
+      !!atlas.map(COSMERE_MAP) &&
+      (characterItineraries[id] ?? []).some(
+        (stay) =>
+          (!stay.needs || see(stay.needs)) &&
+          stay.events.some((e) => see(e.revealedIn)),
+      ))
   )
 }
 
+/** The book a reveal is first dated to, e.g. to tell which stay an event is in. */
+const firstBook = (reveal: Reveal) => {
+  const point = reveal[0]
+  return point === undefined ? undefined : pointBooks(point)[0]
+}
+
 /**
- * A journey cut into one per world (e.g. Hoid's on Roshar and on Scadrial),
- * each with only its own stops and the maps they use. `worldOf` names the
- * world a map shows.
+ * A character's stays on worlds as Journey stops on the star chart, each
+ * followed by its events on that world's maps (see docs/unified-journey.md).
+ * Trimmed as the rest of the page: a stay shows once any of its lines does
+ * and its `needs` is met; hidden lines and notes are gone.
  */
-export function journeyByWorld(
+function withItinerary(
   journey: ShownJourney,
-  worldOf: (mapId: string) => string | undefined,
-): Record<string, ShownJourney> {
-  const out: Record<string, ShownJourney> = {}
-  for (const stop of journey.stops) {
-    const world = worldOf(stop.mapId)
-    if (!world) continue
-    out[world] ??= { ...journey, stops: [], maps: [] }
-    out[world].stops.push(stop)
+  stays: readonly ItineraryStop[],
+  events: readonly JourneyEvent[],
+  atlas: Atlas,
+  canSee: CanSee,
+  trim: (reveal: Reveal) => Reveal,
+  viewAnyway: boolean,
+): ShownJourney {
+  const chart = atlas.map(COSMERE_MAP)
+  if (!chart || !stays.length) return journey
+  let spoilers = journey.spoilers
+  const show = (reveal: Reveal) => {
+    if (canSee(trim(reveal))) return true
+    spoilers = true
+    return viewAnyway
   }
-  for (const part of Object.values(out))
-    part.maps = journey.maps.filter(
-      (m) => worldOf(m.id) === worldOf(part.stops[0].mapId),
-    )
-  return out
+  const see: CanSee = (reveal) => viewAnyway || canSee(trim(reveal))
+
+  // Each map event goes to its world's stay: the one claiming its book, else
+  // the last stay there that claims none.
+  const raw = new Map(events.map((e) => [e.id, e]))
+  const onStay: ShownJourneyStop[][] = stays.map(() => [])
+  const loose: ShownJourneyStop[] = []
+  for (const stop of journey.stops) {
+    const world = journeyMapPlanet(stop.mapId)
+    const book = firstBook(raw.get(stop.id)?.revealedIn ?? [])
+    const here = stays.flatMap((s, i) => (s.planetId === world ? [i] : []))
+    const i =
+      here.find((i) => book && stays[i].books?.includes(book)) ??
+      here.findLast((i) => !stays[i].books) ??
+      here.at(-1)
+    if (i === undefined) loose.push(stop)
+    else onStay[i].push(stop)
+  }
+
+  const stops: ShownJourneyStop[] = []
+  let started = false
+  stays.forEach((stay, i) => {
+    const lines =
+      stay.needs && !show(stay.needs)
+        ? []
+        : stay.events.filter((e) => show(e.revealedIn))
+    const at =
+      stay.realm === 'cognitive'
+        ? realmPoint(stay.planetId)
+        : chartPoint(stay.planetId)
+    // The journey opens on the home world's maps, not on the chart.
+    const hop = lines.length > 0 && !!at && (started || !onStay[i].length)
+    if (lines.length || onStay[i].length) started = true
+    if (hop) {
+      const system = systems.find((s) =>
+        s.planets.some((p) => p.id === stay.planetId),
+      )
+      const planet = system?.planets.find((p) => p.id === stay.planetId)
+      const name = planet?.name ?? stay.planetId
+      const notes: { label: string; text: string }[] = []
+      if (stay.uncertain && show(stay.uncertain.revealedIn))
+        notes.push({ label: 'Timing uncertain', text: stay.uncertain.text })
+      if (stay.wob && show(stay.wob.revealedIn))
+        notes.push({ label: 'Word of Brandon', text: stay.wob.text })
+      stops.push({
+        id: `stay-${i}`,
+        mapId: COSMERE_MAP,
+        path: [at],
+        approximate: false,
+        world: stay.planetId,
+        ...(stay.realm && { realm: stay.realm }),
+        place: {
+          name: stay.place ? `${name} · ${stay.place}` : name,
+          ...(system &&
+            planet &&
+            see(planet.revealedIn) && {
+              href: `/systems/${system.id}/planets/${planet.id}`,
+            }),
+        },
+        where: firstPoint(trim(lines[0].revealedIn), see),
+        ...(stay.presence && { presence: stay.presence }),
+        ...(notes.length && { notes }),
+        summary: lines.map(({ text, revealedIn }) => ({
+          text,
+          books: pointSources(trim(revealedIn)),
+        })),
+      })
+    }
+    stops.push(...onStay[i])
+  })
+  stops.push(...loose)
+  const maps = [...journey.maps]
+  if (stops.some((s) => s.mapId === COSMERE_MAP)) maps.push(chart)
+  return { ...journey, stops, maps, spoilers }
 }
 
 /**
  * A character or persona page's journey: as revealJourney, for the events
- * of journeyIds, with books the page leaves out trimmed.
+ * of journeyIds, with books the page leaves out trimmed. A character's
+ * stays on other worlds (their itinerary) join it on the star chart; a
+ * persona's page gets none, since hopping worlds would give it away.
  */
 export function revealCharacterJourney(
   id: string,
@@ -903,10 +965,20 @@ export function revealCharacterJourney(
 ): ShownJourney {
   const v = view(id, canSee)
   if (!v) return { stops: [], maps: [], credits: [], spoilers: false }
-  return revealJourney(journeyIds(id, canSee), events, atlas, canSee, {
+  const journey = revealJourney(journeyIds(id, canSee), events, atlas, canSee, {
     ...options,
     trim: v.trim,
   })
+  if (v.persona) return journey
+  return withItinerary(
+    journey,
+    characterItineraries[id] ?? [],
+    events,
+    atlas,
+    canSee,
+    v.trim,
+    !!options.viewAnyway,
+  )
 }
 
 /** Someone on a book's chapter map, as the reader knows them. */
@@ -940,6 +1012,8 @@ export interface ShownBookPosition {
   point: MapPoint
   /** In this chapter (else last seen in an earlier one). */
   here: boolean
+  /** The chapter they were last seen in: this one if here. */
+  chapter: string
   /** Their latest art as of this chapter, never later. */
   portrait?: Portrait
 }
@@ -1033,7 +1107,10 @@ export function revealBookChapters(
   const sources = new Set<string>()
   const cast: ShownBookCast[] = []
   const firstIds = new Map<string, string>()
-  const last = new Map<string, { mapId: string; point: MapPoint }>()
+  const last = new Map<
+    string,
+    { mapId: string; point: MapPoint; chapter: string }
+  >()
   const shown: ShownBookChapter[] = []
   for (const ch of chapters[bookId] ?? []) {
     if (!canSee([{ book: bookId, chapter: ch.id }])) {
@@ -1067,7 +1144,11 @@ export function revealBookChapters(
         if (!e.flashback)
           for (const c of ids) {
             here.add(c)
-            last.set(c, { mapId: e.mapId, point: e.path.at(-1)! })
+            last.set(c, {
+              mapId: e.mapId,
+              point: e.path.at(-1)!,
+              chapter: ch.id,
+            })
           }
         for (const c of e.leaves ?? []) leaving.push(shownAs(c))
         const place = e.placeId ? atlas.place(e.placeId) : undefined
