@@ -358,7 +358,7 @@ describe('characters pages', () => {
       /Shadesmar/,
     ])
       expect(page()).not.toMatch(spoiler)
-    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Journey' })).toBeNull()
     expect(screen.getByRole('img', { name: /Nomad/ })).toHaveAttribute(
       'src',
       expect.not.stringMatching(/sigzil/),
@@ -383,7 +383,7 @@ describe('characters pages', () => {
     expect(screen.getAllByText(/Worldsinger/).length).toBeGreaterThan(0)
     for (const spoiler of [/Nomad/, /Zellion/, /Canticle/, /Cinder King/])
       expect(page()).not.toMatch(spoiler)
-    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
+    expect(screen.queryByRole('region', { name: 'Journey' })).toBeNull()
     cleanup()
 
     // Both: one page, Sigzil's, with Nomad as another name.
@@ -713,6 +713,44 @@ describe('character portraits', () => {
       }),
     ).toMatch(/laundry/)
   })
+
+  it("moves Kelsier's art and marker face on with the reader", async () => {
+    await loadStory('kelsier')
+    const src = async (
+      read: string[],
+      reading: Record<string, string> = {},
+    ) => {
+      cleanup()
+      renderAt('/characters/kelsier', read, reading)
+      await screen.findByRole('heading', { level: 1, name: 'Kelsier' })
+      return document
+        .querySelector('.character-portrait img')
+        ?.getAttribute('src')
+    }
+    const trilogy = ['final-empire', 'well-of-ascension', 'hero-of-ages']
+    expect(await src(['final-empire'])).toBe('/portraits/kelsier-survivor.webp')
+    expect(await src(trilogy)).toBe('/portraits/kelsier-survivor.webp')
+    expect(await src(trilogy, { 'secret-history': '1-1' })).toBe(
+      '/portraits/kelsier-cognitive-shadow.webp',
+    )
+    expect(await src(trilogy, { 'secret-history': '3-2' })).toBe(
+      '/portraits/kelsier-campfire.webp',
+    )
+    expect(await src(['final-empire'], { 'bands-of-mourning': '30' })).toBe(
+      '/portraits/kelsier-survivor.webp',
+    )
+    expect(
+      await src(['final-empire'], { 'bands-of-mourning': 'epilogue' }),
+    ).toBe('/portraits/kelsier-sovereign.webp')
+    expect(
+      await src(
+        [...trilogy, 'secret-history', 'bands-of-mourning', 'lost-metal'],
+        {
+          'wind-and-truth': '17',
+        },
+      ),
+    ).toBe('/portraits/kelsier-sovereign.webp')
+  })
   afterEach(() => {
     characterPortraits.kaladin = real
   })
@@ -855,6 +893,19 @@ describe('character journey', () => {
     )
   })
 
+  it('shows his art in the marker of where he is, once it is safe', async () => {
+    // His first art shows a spear, from chapter 49: before then, a plain dot.
+    renderAt('/characters/kaladin', [], { 'way-of-kings': '10' })
+    let map = await openMap()
+    expect(map.querySelector('.journey-face')).toBeNull()
+    cleanup()
+    renderAt('/characters/kaladin', ['way-of-kings'])
+    map = await openMap()
+    expect(
+      map.querySelector('.journey-face image')?.getAttribute('href'),
+    ).toMatch(/\/faces\/kaladin.*\.webp$/)
+  })
+
   it('shows his birth with no place before the book says where', async () => {
     renderAt('/characters/kaladin', [], { 'way-of-kings': '1' })
     // The key facts give the year, with its Word of Brandon linked.
@@ -968,63 +1019,92 @@ describe('character journey', () => {
   })
 })
 
-describe('character travels', () => {
+describe('world-hoppers’ journeys', () => {
   beforeAll(() =>
-    Promise.all(['vasher', 'felt', 'vivenna', 'hoid'].map(loadStory)),
+    Promise.all([
+      ...['vasher', 'felt', 'vivenna', 'hoid', 'sigzil', 'kelsier'].map(
+        loadStory,
+      ),
+      ...['roshar', 'scadrial', 'sel', 'nalthis', 'miral', 'taldain'].map(
+        loadPack,
+      ),
+    ]),
   )
-  const worlds = () =>
-    [...document.querySelectorAll('.travel-steps button')].map(
-      (b) => b.textContent,
+  const region = () => screen.queryByRole('region', { name: 'Journey' })
+  const open = async (name: string) => {
+    await userEvent.click(
+      within(region()!).getByRole('button', { name: /^Explore journey/ }),
     )
-  const card = () => document.querySelector('.travel-card')!
+    return screen.findByRole('group', { name: `${name}’s journey` })
+  }
+  const steps = (map: HTMLElement) =>
+    within(within(map).getByRole('list', { name: 'Events' }))
+      .getAllByRole('button')
+      .map((b) => b.getAttribute('aria-label')!.replace(/^\d+\. /, ''))
+  /** The worlds of the stays on the star chart, in order. */
+  const worlds = (map: HTMLElement) =>
+    [...map.querySelectorAll('.journey-steps button.is-hop')].map(
+      (b) => b.getAttribute('title')!.split(' · ')[0].split(' (')[0],
+    )
+  const card = (map: HTMLElement) =>
+    within(map).getByRole('region', { name: 'Event' })
+  const go = (map: HTMLElement, world: string) =>
+    fireEvent.click(
+      [...map.querySelectorAll('.journey-steps button.is-hop')].find((b) =>
+        b.getAttribute('title')!.startsWith(world),
+      )!,
+    )
 
-  it('adds worlds as the books reveal them', () => {
-    renderAt('/characters/vasher/travels', [], { warbreaker: 'prologue' })
-    expect(worlds()).toEqual(['Nalthis'])
-    expect(card()).toHaveTextContent('T’Telir')
+  it('adds worlds as the books reveal them', async () => {
+    renderAt('/characters/vasher', [], { warbreaker: 'prologue' })
+    let map = await open('Vasher')
+    expect(worlds(map)).toEqual(['Nalthis'])
+    expect(card(map)).toHaveTextContent('T’Telir')
     cleanup()
-    renderAt('/characters/vasher/travels', ['warbreaker'])
-    expect(worlds()).toEqual(['Nalthis', 'Nalthis'])
+    renderAt('/characters/vasher', ['warbreaker'])
+    map = await open('Vasher')
+    expect(worlds(map)).toEqual(['Nalthis', 'Nalthis'])
     expect(document.body).not.toHaveTextContent(/Zahel|Roshar/)
     cleanup()
-    renderAt('/characters/vasher/travels', ['warbreaker'], {
+    renderAt('/characters/vasher', ['warbreaker'], {
       'words-of-radiance': '16',
     })
-    expect(worlds()).toEqual(['Nalthis', 'Nalthis', 'Roshar'])
-    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
-    expect(card()).toHaveTextContent('Zahel')
-    expect(card()).not.toHaveTextContent(/Gavilar|Lift freed/)
+    map = await open('Vasher')
+    expect(worlds(map)).toEqual(['Nalthis', 'Nalthis', 'Roshar'])
+    go(map, 'Roshar')
+    expect(card(map)).toHaveTextContent('Zahel')
+    expect(card(map)).not.toHaveTextContent(/Gavilar|Lift freed/)
   })
 
-  it('steps through the journey and flags a stay the books leave undated', () => {
-    renderAt('/characters/vasher/travels', ['warbreaker', 'fires-of-december'])
-    expect(worlds()).toEqual(['Nalthis', 'Miral', 'Nalthis', 'Roshar'])
+  it('steps through the journey and flags a stay the books leave undated', async () => {
+    renderAt('/characters/vasher', ['warbreaker', 'fires-of-december'])
+    const map = await open('Vasher')
+    expect(worlds(map)).toEqual(['Nalthis', 'Miral', 'Nalthis', 'Roshar'])
     // The journey starts at the first stop.
-    expect(card()).toHaveTextContent('Stop 1 of 4')
-    fireEvent.click(screen.getByRole('button', { name: 'Miral' }))
-    expect(card()).toHaveTextContent('Stop 2 of 4')
-    expect(screen.getByText('Timing uncertain')).toBeInTheDocument()
-    fireEvent.click(screen.getByRole('button', { name: 'Previous stop' }))
-    expect(card()).toHaveTextContent('Born, died and Returned')
+    expect(card(map)).toHaveTextContent('Event 1 of 4')
+    go(map, 'Miral')
+    expect(card(map)).toHaveTextContent('Event 2 of 4')
+    expect(within(card(map)).getByText('Timing uncertain')).toBeInTheDocument()
+    fireEvent.click(within(map).getByRole('button', { name: 'Previous event' }))
+    expect(card(map)).toHaveTextContent('Born, died and Returned')
   })
 
-  it('shows a trip known only from Brandon once the reader has met him on both worlds', () => {
-    renderAt('/characters/felt/travels', ['final-empire', 'well-of-ascension'])
-    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
+  it('shows a trip known only from Brandon once the reader has met him on both worlds', async () => {
+    renderAt('/characters/felt', ['final-empire', 'well-of-ascension'])
+    expect(region()).toBeNull()
     cleanup()
-    renderAt('/characters/felt/travels', ['oathbringer'])
-    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
+    renderAt('/characters/felt', ['oathbringer'])
+    expect(region()).toBeNull()
     cleanup()
-    renderAt('/characters/felt/travels', ['final-empire'], {
-      oathbringer: '114',
-    })
-    expect(worlds()).toEqual(['Scadrial', 'Roshar'])
-    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
-    expect(card()).toHaveTextContent('Nightwatcher')
-    expect(screen.getByText('Word of Brandon')).toBeInTheDocument()
+    renderAt('/characters/felt', ['final-empire'], { oathbringer: '114' })
+    const map = await open('Felt')
+    expect(worlds(map)).toEqual(['Scadrial', 'Roshar'])
+    go(map, 'Roshar')
+    expect(card(map)).toHaveTextContent('Nightwatcher')
+    expect(within(card(map)).getByText('Word of Brandon')).toBeInTheDocument()
   })
 
-  it('adds Sigzil’s worlds beyond Roshar only once he’s known as Nomad', () => {
+  it('adds Sigzil’s worlds beyond Roshar only once he’s known as Nomad', async () => {
     const stormlight = [
       'way-of-kings',
       'words-of-radiance',
@@ -1032,60 +1112,220 @@ describe('character travels', () => {
       'rhythm-of-war',
       'wind-and-truth',
     ]
-    renderAt('/characters/sigzil/travels', stormlight)
-    expect(document.querySelector('.travel-map')).toBeNull()
+    renderAt('/characters/sigzil', stormlight)
+    expect(region()).toBeNull()
     cleanup()
-    renderAt('/characters/sigzil/travels', [...stormlight, 'sunlit-man'])
-    expect(worlds()).toEqual([
+    renderAt('/characters/sigzil', [...stormlight, 'sunlit-man'])
+    const map = await open('Sigzil')
+    expect(worlds(map)).toEqual([
       'Roshar',
       'Ashyn',
       'Threnody',
       'Canticle',
       'UTol',
     ])
-    fireEvent.click(screen.getByRole('button', { name: 'Ashyn' }))
-    expect(screen.getByText('Timing uncertain')).toBeInTheDocument()
+    go(map, 'Ashyn')
+    expect(within(card(map)).getByText('Timing uncertain')).toBeInTheDocument()
     cleanup()
-    renderAt('/characters/nomad/travels', ['sunlit-man'])
-    expect(document.querySelector('.travel-map')).toBeNull()
+    renderAt('/characters/nomad', ['sunlit-man'])
+    expect(region()).toBeNull()
   })
 
-  it("gives a persona's page no travels", () => {
-    renderAt('/characters/zahel/travels', ['way-of-kings'], {
+  it("gives a persona's page no stays on other worlds", () => {
+    renderAt('/characters/zahel', ['way-of-kings'], {
       'words-of-radiance': '35',
     })
-    expect(screen.queryByRole('region', { name: 'Travels' })).toBeNull()
-    expect(document.querySelector('.travel-map')).toBeNull()
-  })
-
-  it('adds Azure’s Roshar to Vivenna’s travels once she can be recognized', () => {
-    renderAt('/characters/vivenna/travels', [], { oathbringer: '108' })
-    expect(document.querySelector('.travel-map')).toBeNull()
+    expect(region()).toBeNull()
     cleanup()
-    renderAt('/characters/vivenna/travels', ['warbreaker'], {
-      oathbringer: '108',
-    })
-    expect(worlds()).toEqual(['Nalthis', 'Roshar'])
-    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
-    expect(card()).toHaveTextContent('Highmarshal')
-    expect(card()).not.toHaveTextContent('Lasting Integrity')
+    // Old Travels links open the Journey.
+    renderAt('/characters/vasher/travels', ['warbreaker'])
+    expect(region()).toBeInTheDocument()
   })
 
-  it('keeps Hoid’s cameos and Wit off his travels until the reader knows him', async () => {
-    renderAt('/characters/hoid/travels', ['elantris'], {
-      'way-of-kings': '57',
-    })
+  it('adds Azure’s Roshar to Vivenna’s journey once she can be recognized', async () => {
+    renderAt('/characters/vivenna', [], { oathbringer: '108' })
+    expect(region()).toBeNull()
+    cleanup()
+    renderAt('/characters/vivenna', ['warbreaker'], { oathbringer: '108' })
+    const map = await open('Vivenna')
+    expect(worlds(map)).toEqual(['Nalthis', 'Roshar'])
+    go(map, 'Roshar')
+    expect(card(map)).toHaveTextContent('Highmarshal')
+    expect(card(map)).not.toHaveTextContent('Lasting Integrity')
+  })
+
+  it('keeps Hoid’s cameos and Wit off his journey until the reader knows him', async () => {
+    renderAt('/characters/hoid', ['elantris'], { 'way-of-kings': '57' })
     await screen.findByRole('heading', { level: 1, name: 'Hoid' })
-    expect(worlds()).toEqual(['Sel'])
+    let map = await open('Hoid')
+    // His first stay has map events, so the journey opens on Sel's maps.
+    expect(worlds(map)).toEqual([])
+    expect(steps(map)).toEqual(['Hoid fails to become an Elantrian, Epilogue'])
     expect(document.body).not.toHaveTextContent('Elhokar')
     cleanup()
-    renderAt('/characters/hoid/travels', ['elantris'], {
-      'way-of-kings': '58',
-    })
+    renderAt('/characters/hoid', ['elantris'], { 'way-of-kings': '58' })
     await screen.findByRole('heading', { level: 1, name: 'Hoid' })
-    expect(worlds()).toEqual(['Sel', 'Roshar'])
-    fireEvent.click(screen.getByRole('button', { name: 'Roshar' }))
-    expect(card()).toHaveTextContent('Elhokar')
+    map = await open('Hoid')
+    expect(worlds(map)).toEqual(['Roshar'])
+    go(map, 'Roshar')
+    expect(card(map)).toHaveTextContent('Elhokar')
     expect(document.body).not.toHaveTextContent(/Midius|Ashyn|Middlefest/)
+  })
+
+  it('puts each world’s map events in the stay they belong to', async () => {
+    renderAt('/characters/hoid', allBooks)
+    const map = await open('Hoid')
+    const list = steps(map)
+    const at = (text: string) => list.findIndex((s) => s.startsWith(text))
+    const scadrial = list.flatMap((s, i) =>
+      s.startsWith('Scadrial') ? [i] : [],
+    )
+    expect(scadrial).toHaveLength(2)
+    // The Well in Era 1; Wax's coachman in Era 2, after his hop back.
+    expect(at('Hoid takes lerasium')).toBeGreaterThan(scadrial[0])
+    expect(at('Hoid takes lerasium')).toBeLessThan(scadrial[1])
+    expect(at("Hoid becomes Wax's coachman")).toBeGreaterThan(scadrial[1])
+    // Into a world from the star chart, the chart's stop comes first.
+    expect(at('Hoid tells Siri')).toBeGreaterThan(at('Nalthis'))
+  })
+
+  describe('Kelsier', () => {
+    const mistborn = ['eleventh-metal', 'final-empire']
+    const era2 = [
+      ...mistborn,
+      'secret-history',
+      'alloy-of-law',
+      'shadows-of-self',
+      'bands-of-mourning',
+      'lost-metal',
+    ]
+    const stormlight = [
+      'way-of-kings',
+      'words-of-radiance',
+      'oathbringer',
+      'rhythm-of-war',
+    ]
+    const has = (list: string[], text: string) =>
+      list.some((s) => s.startsWith(text))
+
+    it('keeps the journey on Scadrial’s maps while he lives', async () => {
+      renderAt('/characters/kelsier', mistborn)
+      const map = await open('Kelsier')
+      expect(worlds(map)).toEqual([])
+      const list = steps(map)
+      expect(list[0]).toMatch(/^Kelsier is sent to the Pits/)
+      expect(has(list, 'Kelsier kills Lord Shezler')).toBe(true)
+      expect(has(list, 'Kelsier clings on')).toBe(false)
+      expect(map).not.toHaveTextContent(/Cognitive|Leras|Thaidakar/)
+    })
+
+    it('follows him into the Cognitive Realm only as Secret History tells it', async () => {
+      renderAt('/characters/kelsier', ['final-empire'], {
+        'secret-history': '1-1',
+      })
+      let map = await open('Kelsier')
+      // He's dead, but the Realm isn't named yet: no stop for it.
+      expect(worlds(map)).toEqual([])
+      expect(
+        has(steps(map), 'Kelsier clings on in the Well (after his death)'),
+      ).toBe(true)
+      expect(has(steps(map), 'Kelsier stabs Elend')).toBe(false)
+      cleanup()
+      renderAt('/characters/kelsier', ['final-empire'], {
+        'secret-history': '2-3',
+      })
+      map = await open('Kelsier')
+      const list = steps(map)
+      const at = (text: string) => list.findIndex((s) => s.startsWith(text))
+      expect(at('Scadrial · Cognitive Realm (in the Cognitive Realm)')).toBe(
+        at('Kelsier dies in Fountain Square') + 2,
+      )
+      expect(
+        at('Kelsier stabs Elend at the Well (in the Cognitive Realm)'),
+      ).toBeGreaterThan(at('Scadrial · Cognitive Realm'))
+      go(map, 'Scadrial · Cognitive')
+      expect(card(map)).toHaveTextContent('Cognitive Shadow')
+      expect(
+        within(card(map)).getByText('In the Cognitive Realm'),
+      ).toHaveAttribute(
+        'data-tooltip',
+        'Kelsier isn’t there in body: in the Cognitive Realm',
+      )
+      expect(card(map)).not.toHaveTextContent(/Harmony|Spook/)
+    })
+
+    it('keeps his Pits-era face on the marker while his Secret History art has none that reads', async () => {
+      renderAt('/characters/kelsier', [
+        'final-empire',
+        'well-of-ascension',
+        'hero-of-ages',
+        'secret-history',
+      ])
+      expect(document.querySelector('.character-portrait img')).toHaveAttribute(
+        'src',
+        '/portraits/kelsier-campfire.webp',
+      )
+      const map = await open('Kelsier')
+      expect(
+        map.querySelector('.journey-face image')?.getAttribute('href'),
+      ).toMatch(/\/faces\/kelsier-survivor\.webp$/)
+    })
+
+    it('dates his Eleventh Metal lure to the chapter that reveals it', async () => {
+      renderAt('/characters/kelsier', mistborn, { 'secret-history': '6-1' })
+      let map = await open('Kelsier')
+      fireEvent.click(
+        within(map).getByRole('button', { name: /Kelsier kills Lord Shezler/ }),
+      )
+      expect(card(map)).toHaveTextContent('a lure planted by Ruin')
+      cleanup()
+      renderAt('/characters/kelsier', mistborn, { 'secret-history': '5-3' })
+      map = await open('Kelsier')
+      fireEvent.click(
+        within(map).getByRole('button', { name: /Kelsier kills Lord Shezler/ }),
+      )
+      expect(card(map)).toHaveTextContent('Gemmel')
+      expect(card(map)).not.toHaveTextContent('Ruin')
+    })
+
+    it('brings him back to Scadrial in Era 2, and to Roshar only once he’s known as Thaidakar', async () => {
+      renderAt('/characters/kelsier', era2)
+      let map = await open('Kelsier')
+      expect(worlds(map)).toEqual(['Scadrial', 'Scadrial'])
+      expect(
+        map.querySelector('.journey-face image')?.getAttribute('href'),
+      ).toMatch(/\/faces\/kelsier-sovereign\.webp$/)
+      expect(
+        has(steps(map), 'Kelsier briefs his agents by seon (through a seon)'),
+      ).toBe(true)
+      expect(map).not.toHaveTextContent(/Roshar|Thaidakar/)
+      cleanup()
+      renderAt('/characters/kelsier', [...era2, ...stormlight], {
+        'wind-and-truth': '17',
+      })
+      map = await open('Kelsier')
+      expect(worlds(map)).toEqual(['Scadrial', 'Scadrial', 'Roshar'])
+      const list = steps(map)
+      expect(
+        has(list, 'Thaidakar presses Gavilar by seon (through a seon)'),
+      ).toBe(true)
+      expect(
+        has(list, "Thaidakar's agents trap Kalak (through his agents)"),
+      ).toBe(true)
+      expect(has(list, 'Thaidakar makes a truce')).toBe(false)
+      go(map, 'Roshar')
+      expect(
+        within(card(map)).getByText('Timing uncertain'),
+      ).toBeInTheDocument()
+      expect(card(map)).toHaveTextContent('From afar, through his agents')
+    })
+
+    it('keeps Kelsier off Thaidakar’s journey', async () => {
+      renderAt('/characters/thaidakar', stormlight, { 'wind-and-truth': '17' })
+      const map = await open('Thaidakar')
+      expect(worlds(map)).toEqual([])
+      expect(has(steps(map), 'Thaidakar presses Gavilar by seon')).toBe(true)
+      expect(map).not.toHaveTextContent(/Kelsier|Scadrial/)
+    })
   })
 })

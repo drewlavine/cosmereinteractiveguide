@@ -1,4 +1,5 @@
-import { lazy, Suspense, useState } from 'react'
+import { lazy, Suspense, useState, type ReactNode } from 'react'
+import type { AtlasMap } from '../../data/journey'
 import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
 import { rootOf } from './journeyGeometry'
 import { assetUrl } from '../../data/assetUrl'
@@ -15,6 +16,8 @@ export function JourneyPreview({
   journey,
   selfKey,
   more,
+  portrait,
+  background,
 }: {
   name: string
   journey: ShownJourney
@@ -22,6 +25,10 @@ export function JourneyPreview({
   selfKey?: string
   /** The id of the part of the page telling more about an event, if any. */
   more?: (where: ShownJourneyStop['where']) => string | undefined
+  /** Their art, for the marker of where they are. */
+  portrait?: string
+  /** Draws a map that has no image (e.g. the star chart). */
+  background?: (map: AtlasMap) => ReactNode
 }) {
   const [open, setOpen] = useState(false)
   const { stops, maps } = journey
@@ -42,13 +49,19 @@ export function JourneyPreview({
           onClose={() => setOpen(false)}
           selfKey={selfKey}
           more={more}
+          portrait={portrait}
+          background={background}
         />
       </Suspense>
     )
 
   const { width: W, height: H } = map.image
 
-  const summary = `${stops.length === 1 ? '1 event' : `${stops.length} events`} on the map of ${map.title}`
+  const events = stops.length === 1 ? '1 event' : `${stops.length} events`
+  const hops = stops.filter((s) => s.world).length
+  const summary = hops
+    ? `${events} across the Cosmere, starting on the map of ${map.title}`
+    : `${events} on the map of ${map.title}`
 
   return (
     <div className="journey-preview">
@@ -63,12 +76,16 @@ export function JourneyPreview({
           preserveAspectRatio="xMidYMid slice"
           aria-hidden
         >
-          <image
-            href={assetUrl(map.image.thumb ?? map.image.src)}
-            width={W}
-            height={H}
-            preserveAspectRatio="none"
-          />
+          {map.image.src ? (
+            <image
+              href={assetUrl(map.image.thumb ?? map.image.src)}
+              width={W}
+              height={H}
+              preserveAspectRatio="none"
+            />
+          ) : (
+            background?.(map)
+          )}
         </svg>
         <span className="journey-button journey-explore" aria-hidden>
           Explore journey

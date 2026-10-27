@@ -12,7 +12,13 @@
 // shorter than ours. Fetches through headless Chrome (~/cig-characters/fetch.sh),
 // as the Coppermind's Cloudflare blocks plain requests.
 import { execFileSync } from 'node:child_process'
-import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs'
+import {
+  existsSync,
+  mkdirSync,
+  readdirSync,
+  readFileSync,
+  writeFileSync,
+} from 'node:fs'
 import { homedir, tmpdir } from 'node:os'
 import { join } from 'node:path'
 import { books } from '../src/data/books.ts'
@@ -21,10 +27,11 @@ import {
   findPersona,
   readerCanSee,
   revealCharacter,
+  revealCharacterJourney,
   revealStory,
-  revealTravels,
 } from '../src/data/reveal.ts'
-import { characterTravels } from '../src/data/travels.ts'
+import type { JourneyPack } from '../src/data/journey.ts'
+import { journeyAtlas } from '../src/data/journeyAtlas.ts'
 import type { CharacterStory } from '../src/data/types.ts'
 
 /**
@@ -64,6 +71,11 @@ if (!id || !person) {
 const characterId = findPersona(id)?.characterId ?? id
 const page = (findPerson(characterId) ?? person).coppermindPage
 const storyFile = join(ROOT, 'src/data/stories', `${characterId}.json`)
+const packDir = join(ROOT, 'src/data/journeys')
+const events = readdirSync(packDir).flatMap(
+  (f) =>
+    (JSON.parse(readFileSync(join(packDir, f), 'utf8')) as JourneyPack).events,
+)
 // Characters with Key facts but no story yet are still worth checking.
 const story: CharacterStory = existsSync(storyFile)
   ? JSON.parse(readFileSync(storyFile, 'utf8'))
@@ -130,7 +142,7 @@ function ours(read: Set<string>) {
   const shown = revealCharacter(pageId, canSee)
   if (!shown.met) return []
   const prose = revealStory(pageId, story, canSee)
-  const travels = revealTravels(pageId, characterTravels[characterId], canSee)
+  const journey = revealCharacterJourney(pageId, events, journeyAtlas, canSee)
   return [
     `page: ${pageId}`,
     `aliases: ${shown.aliases.join(', ')}`,
@@ -148,10 +160,10 @@ function ours(read: Set<string>) {
     ]),
     ...prose.appearance,
     ...prose.personality,
-    ...travels.stops.flatMap((s) => [
-      `travel: ${s.planetId} ${s.place ?? ''}`,
-      ...[s.uncertain, s.wob].filter((t) => t !== undefined),
-      ...s.events.map((e) => e.text),
+    ...journey.stops.flatMap((s) => [
+      `journey: ${[s.title, s.place?.name, s.presence].filter(Boolean).join(' · ')}`,
+      ...(s.notes ?? []).map((n) => n.text),
+      ...s.summary.map((p) => p.text),
     ]),
   ]
 }

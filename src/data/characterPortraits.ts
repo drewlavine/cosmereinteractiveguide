@@ -627,6 +627,16 @@ export const characterPortraits: Record<string, Portrait[]> = {
       revealedIn: [{ book: 'final-empire', chapter: 'prologue' }],
     },
     {
+      // Secret History cover: Kelsier walking on after death through the mists; it opens on him clinging on at the Well (part 1 ch 1), after HoA.
+      src: '/portraits/kelsier-cognitive-shadow.webp',
+      alt: 'Kelsier in a dark cloak, a glass knife in hand, walking out of a grey mist that streams from him like tendrils',
+      artist: 'Miranda Meeks',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Miranda_Meeks',
+      revealedIn: [
+        { all: ['hero-of-ages', { book: 'secret-history', chapter: '1-1' }] },
+      ],
+    },
+    {
       // Arcanum Unbounded interior art: Kelsier after death, meeting Khriss and Nazh at the campfire (Secret History part 3 ch 2); shown after HoA like the novella.
       src: '/portraits/kelsier-campfire.webp',
       alt: 'Kelsier walking up to two strangers at a campfire amid strange mist-plants, one aiming a pistol at him',
@@ -634,6 +644,22 @@ export const characterPortraits: Record<string, Portrait[]> = {
       artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
       revealedIn: [
         { all: ['hero-of-ages', { book: 'secret-history', chapter: '3-2' }] },
+      ],
+    },
+    {
+      // As the Sovereign, back in a body with a spiked right eye: first seen in the BoM epilogue's coppermind vision (scarred arms, "Survive").
+      src: '/portraits/kelsier-sovereign.webp',
+      alt: 'Kelsier, blond and stubbled, a metal spike capping his right eye, in a long coat and waistcoat',
+      artist: 'Diego López',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Diego_L%C3%B3pez',
+      revealedIn: [
+        {
+          all: [
+            'final-empire',
+            { book: 'bands-of-mourning', chapter: 'epilogue' },
+          ],
+        },
       ],
     },
     {

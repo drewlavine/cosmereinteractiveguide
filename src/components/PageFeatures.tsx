@@ -24,15 +24,6 @@ const paths: Record<PageFeatureId, ReactNode> = {
       <path d="M9 4.5v13M15 6.5v13" />
     </>
   ),
-  // A dotted route from one world to another.
-  travels: (
-    <>
-      <circle cx="5.5" cy="18.5" r="2.5" />
-      <path d="M8.3 16.6c3.6-1.6 2.4-5.6 5.6-7.4" strokeDasharray="0 3.2" />
-      <circle cx="17.5" cy="6.5" r="3.8" />
-      <path d="M13.7 6.6c2.4 1.2 5.2 1.2 7.6 0" />
-    </>
-  ),
 }
 
 export function FeatureIcon({ id }: { id: PageFeatureId }) {

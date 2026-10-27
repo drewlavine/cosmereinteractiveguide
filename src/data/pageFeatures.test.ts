@@ -12,13 +12,8 @@ import { chapters } from './chapters'
 import { journeyAtlas } from './journeyAtlas'
 import { journeyIndex } from './journeyIndex'
 import { loadPack } from './journeyPacks'
-import {
-  hasMet,
-  readerCanSee,
-  revealCharacterJourney,
-  revealCharacterTravels,
-} from './reveal'
-import { characterTravels } from './travels'
+import { hasMet, readerCanSee, revealCharacterJourney } from './reveal'
+import { characterItineraries } from './itineraries'
 
 const progress = (read: string[]) => ({
   canSee: readerCanSee({ read: new Set(read), reading: new Map() }),
@@ -40,13 +35,9 @@ describe('the Journey feature', () => {
           read: new Set(),
           reading: new Map([['way-of-kings', chapter]]),
         })
-        // Travellers (once the page is theirs) open it from Travels instead.
-        const travels = featuresOf('character', c, { canSee }).some(
-          (f) => f.feature.id === 'travels',
-        )
         const shows =
           revealCharacterJourney(id, events, journeyAtlas, canSee).stops
-            .length > 0 && !travels
+            .length > 0
         expect(
           featuresOf('character', c, { canSee })
             .filter((f) => f.feature.id === 'journey')
@@ -70,10 +61,7 @@ describe('page features registry', () => {
   })
 
   it('offers each list only the features its pages can have', () => {
-    expect(featuresFor('character').map((f) => f.id)).toEqual([
-      'journey',
-      'travels',
-    ])
+    expect(featuresFor('character').map((f) => f.id)).toEqual(['journey'])
     expect(featuresFor('location').map((f) => f.id)).toEqual(['map'])
     expect(featuresFor('ability')).toEqual([])
   })
@@ -84,9 +72,20 @@ describe('page features registry', () => {
       expect(featuresOf('location', l, none)).toEqual([])
   })
 
-  it('flags Travels exactly when the Travels section shows', () => {
-    const travellers = people.filter((c) => characterTravels[c.id])
+  it('flags world-hoppers’ Journey exactly when it shows', async () => {
+    const travellers = people.filter((c) => characterItineraries[c.id])
     expect(travellers.length).toBeGreaterThan(0)
+    const events = (
+      await Promise.all(
+        [
+          ...new Set(
+            Object.values(journeyIndex)
+              .flat()
+              .map((e) => e.pack),
+          ),
+        ].map((p) => loadPack(p)),
+      )
+    ).flatMap((p) => p!.events)
     for (const read of [
       [],
       ...books.map((b) => [b.id]),
@@ -96,17 +95,16 @@ describe('page features registry', () => {
         const ctx = progress(read)
         const shows =
           hasMet(c.id, ctx.canSee) &&
-          revealCharacterTravels(c.id, ctx.canSee).stops.length > 0
-        const found = featuresOf('character', c, ctx).map((f) => f.section)
-        expect(found.filter((s) => s !== 'journey')).toEqual(
-          shows ? ['travels'] : [],
-        )
-        // Journey only shows when Travels doesn't.
-        if (shows) expect(found).not.toContain('journey')
+          revealCharacterJourney(c.id, events, journeyAtlas, ctx.canSee).stops
+            .length > 0
+        expect(
+          featuresOf('character', c, ctx).map((f) => f.section),
+          `${c.id} after ${read.length} books`,
+        ).toEqual(shows ? ['journey'] : [])
       }
     // Every traveller's journey shows once every book is read.
     for (const c of travellers)
-      expect(featuresOf('character', c, all)[0]?.section).toBe('travels')
+      expect(featuresOf('character', c, all)[0]?.section).toBe('journey')
   })
 
   it('points maps at the section the page shows them in', () => {

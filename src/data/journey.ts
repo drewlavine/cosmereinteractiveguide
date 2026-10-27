@@ -86,6 +86,11 @@ export interface JourneyEvent {
   leaves?: readonly string[]
   /** The position or route is a best guess: drawn dashed. */
   approximate?: boolean
+  /**
+   * How the character is there when not in body, e.g. "In the Cognitive
+   * Realm" or "Through a seon"; shown as a label with the event.
+   */
+  presence?: string
   /** Short hand-written name of what happens, revealed with the event. */
   title?: string
   /** Hand-written text, if any; never copied from a source's prose. */
@@ -144,6 +149,12 @@ export interface AtlasMap {
   credit: { text: string; url?: string }
   /** When the reader may see the map itself. */
   revealedIn: Reveal
+  /**
+   * A drawn overview of the whole series (the Cosmere's star chart): always
+   * shown, its image drawn by the page rather than loaded. Never the map a
+   * journey zooms out to on its own: only stops on it go there.
+   */
+  overview?: boolean
   /**
    * Where the map sits on a bigger one (a region on its continent, a world on
    * the star map), for drilling down. Top maps have none.

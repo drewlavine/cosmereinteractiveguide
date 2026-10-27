@@ -1,5 +1,5 @@
 /**
- * Page features: special parts of a detail page (a map, a Travels journey...)
+ * Page features: special parts of a detail page (a map, a journey...)
  * that the lists flag with an icon linking straight to that part.
  *
  * To add one:
@@ -27,7 +27,6 @@ import {
   findPersona,
   hasMet,
   journeyShown,
-  revealCharacterTravels,
   seenThrough,
   type CanSee,
 } from './reveal'
@@ -104,20 +103,10 @@ function characterPage(character: Character, canSee: CanSee) {
   return id
 }
 
-/** As CharacterDetail's Travels section. */
-function travelsSection(character: Character, canSee: CanSee) {
-  const id = characterPage(character, canSee)
-  if (!id) return undefined
-  return revealCharacterTravels(id, canSee).stops.length ? 'travels' : undefined
-}
-
-/**
- * As CharacterDetail's Journey section: travellers open theirs from
- * Travels instead.
- */
+/** As CharacterDetail's Journey section (world-hoppers' included). */
 function journeySection(character: Character, canSee: CanSee) {
   const id = characterPage(character, canSee)
-  if (!id || travelsSection(character, canSee)) return undefined
+  if (!id) return undefined
   return journeyShown(id, journeyIndex, journeyAtlas, canSee)
     ? 'journey'
     : undefined
@@ -139,14 +128,6 @@ export const pageFeatures = [
     description: 'Maps from the books, showing the place or where it lies',
     section: {
       location: (place, { canSee }) => placeMapSection(place, canSee),
-    },
-  },
-  {
-    id: 'travels',
-    label: 'Travels',
-    description: 'Their journey across the Cosmere on an animated star map',
-    section: {
-      character: (character, { canSee }) => travelsSection(character, canSee),
     },
   },
 ] as const satisfies readonly PageFeature[]

@@ -1769,6 +1769,10 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       { bookId: 'eleventh-metal', revealedIn: ['eleventh-metal'] },
       {
+        bookId: 'bands-of-mourning',
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'epilogue' }],
+      },
+      {
         bookId: 'secret-history',
         revealedIn: [{ book: 'secret-history', chapter: '1-1' }],
       },
@@ -1789,7 +1793,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       planetId: 'scadrial',
       revealedIn: [
         { book: 'final-empire', chapter: 'prologue' },
-        { book: 'lost-metal', chapter: '40' },
+        { book: 'bands-of-mourning', chapter: 'epilogue' },
       ],
     },
     aliases: [
@@ -1803,7 +1807,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Sovereign',
-        revealedIn: [{ book: 'bands-of-mourning', chapter: '21' }],
+        revealedIn: [{ book: 'bands-of-mourning', chapter: 'epilogue' }],
       },
       {
         name: 'Lord of Scars',
@@ -1823,8 +1827,8 @@ export const characterDetails: Record<string, CharacterDetails> = {
         name: 'Human',
         revealedIn: [
           { book: 'final-empire', chapter: 'prologue' },
+          { book: 'bands-of-mourning', chapter: 'epilogue' },
           { book: 'rhythm-of-war', chapter: '9' },
-          { book: 'lost-metal', chapter: '40' },
         ],
       },
       {
@@ -1833,7 +1837,7 @@ export const characterDetails: Record<string, CharacterDetails> = {
       },
       {
         name: 'Vessel of Preservation',
-        revealedIn: [{ book: 'secret-history', chapter: '5-3' }],
+        revealedIn: [{ book: 'secret-history', chapter: '6-4' }],
       },
     ],
     abilities: [

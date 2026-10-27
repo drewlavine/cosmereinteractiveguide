@@ -25,9 +25,34 @@
       ]
     },
     {
+      "text": "The Survivor of Hathsin, a half-skaa Mistborn whose rebellion toppled the Final Empire, and who clung on after death as a Cognitive Shadow, briefly holding the power of Preservation.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "52" },
+            { "book": "secret-history", "chapter": "6-8" }
+          ]
+        }
+      ]
+    },
+    {
       "text": "A name Shallan finds at the end of a list of strange words in a notebook, which she shows to Adolin.",
       "revealedIn": [{ "book": "rhythm-of-war", "chapter": "9" }],
       "fallback": true
+    },
+    {
+      "text": "The Survivor of the Final Empire, who came back in a body with a spiked eye, ruled the Southern Scadrians as the Sovereign, and now runs a band of Ghostbloods on Scadrial.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "52" },
+            { "book": "bands-of-mourning", "chapter": "epilogue" },
+            { "book": "lost-metal", "chapter": "40" }
+          ]
+        }
+      ]
     },
     {
       "text": "A figure who appears to Gavilar Kholin through a seon, demanding that Gavilar keep his promise to deliver Restares, who knows how to find Ba-Ado-Mishram.",
@@ -37,6 +62,21 @@
     {
       "text": "Thaidakar, the leader of the Ghostbloods, a secret society opposed by Shallan.",
       "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+    },
+    {
+      "text": "The Survivor of the Final Empire who lived on after death and, as Thaidakar, leads the Ghostbloods, a secret society working on Scadrial, Roshar and other worlds.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "final-empire", "chapter": "35" },
+            { "book": "hero-of-ages", "chapter": "52" },
+            { "book": "way-of-kings", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "wind-and-truth", "chapter": "147" }
+          ]
+        }
+      ]
     }
   ],
   "history": [
@@ -52,12 +92,6 @@
                 { "book": "hero-of-ages", "chapter": "24" },
                 "eleventh-metal",
                 { "book": "secret-history", "chapter": "6-1" }
-              ]
-            },
-            {
-              "all": [
-                { "book": "final-empire", "chapter": "27" },
-                "eleventh-metal"
               ]
             }
           ]
@@ -77,17 +111,6 @@
                 { "book": "hero-of-ages", "chapter": "24" },
                 "eleventh-metal",
                 { "book": "secret-history", "chapter": "6-1" }
-              ]
-            }
-          ]
-        },
-        {
-          "text": "After escaping the Pits of Hathsin, Kelsier was trained in Allomancy by the Mistborn Gemmel, who often threw him into life-or-death situations to force him to learn, and who came to wonder what he had unleashed by teaching him.",
-          "revealedIn": [
-            {
-              "all": [
-                { "book": "final-empire", "chapter": "27" },
-                "eleventh-metal"
               ]
             }
           ]
@@ -141,7 +164,7 @@
           "revealedIn": [{ "book": "final-empire", "chapter": "19" }]
         },
         {
-          "text": "Kelsier's relationship with his older brother Marsh was strained: Marsh resented his success with a rebellion Marsh had quit, and disliked how casually he killed nobles. Even so, Marsh infiltrated the Steel Ministry for him, and Kelsier was grieved and furious when they found signs of Marsh's death.",
+          "text": "When the plan began to fall apart, Kelsier sent the crew to a backup lair only he and Dockson knew, then went alone to the Pits of Hathsin and shattered the crystals that grow the geodes holding the Lord Ruler's atium.",
           "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
         }
       ]
@@ -180,7 +203,6 @@
           "text": "In the Cognitive Realm",
           "revealedIn": [
             { "book": "secret-history", "chapter": "2-2" },
-            { "book": "secret-history", "chapter": "6-4" },
             { "book": "secret-history", "chapter": "5-3" },
             { "book": "secret-history", "chapter": "6-3" },
             { "book": "secret-history", "chapter": "6-8" },
@@ -192,10 +214,6 @@
         {
           "text": "After dying, Kelsier met Preservation in the Cognitive Realm and punched him for claiming to be God. Panicked by the pull of the Beyond, he persuaded the Shard to link him to the Well of Ascension, becoming a Cognitive Shadow trapped there with Ruin, whose power terrified him. When Hoid passed through the Well, Kelsier picked a fight and lost.",
           "revealedIn": [{ "book": "secret-history", "chapter": "2-2" }]
-        },
-        {
-          "text": "Kelsier slowly came to respect Preservation, whom he nicknamed Fuzz. Preservation, curious, went along with his schemes while disapproving of how he toyed with people's faith.",
-          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
         },
         {
           "text": "Freed when Vin released Ruin, Kelsier wandered Cognitive Luthadel, grieving to learn Dockson had died. Khriss and Nazh questioned him and mentioned the Ire. Seeking their base, he spoke with Ruin, then infiltrated it and, posing as Ruin, stole an orb meant to Connect its user to Preservation.",
@@ -246,20 +264,6 @@
     {
       "title": [
         {
-          "text": "Truce with Shallan",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
-        }
-      ],
-      "items": [
-        {
-          "text": "Thaidakar spoke with Shallan after she revealed she had killed Iyatil and Mraize. He agreed to a reluctant truce, warning that other Ghostbloods might be less understanding, and said he was losing interest in Roshar since harvesting Stormlight was no longer possible. Their brief talk lasted hours for him.",
-          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
-        }
-      ]
-    },
-    {
-      "title": [
-        {
           "text": "Kelsier and Wax",
           "revealedIn": [
             {
@@ -268,28 +272,15 @@
                 { "book": "shadows-of-self", "chapter": "19" }
               ]
             },
-            {
-              "all": [
-                { "book": "alloy-of-law", "chapter": "19" },
-                { "book": "secret-history", "chapter": "6-4" },
-                { "book": "rhythm-of-war", "chapter": "115" },
-                { "book": "lost-metal", "chapter": "epilogue-4" }
-              ]
-            }
+            { "book": "lost-metal", "chapter": "40" },
+            { "book": "lost-metal", "chapter": "epilogue-1" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
           ]
         },
         {
           "text": "Kelsier, Wax and the Ghostbloods",
-          "revealedIn": [
-            {
-              "all": [
-                { "book": "alloy-of-law", "chapter": "19" },
-                { "book": "secret-history", "chapter": "6-4" },
-                { "book": "rhythm-of-war", "chapter": "115" },
-                { "book": "lost-metal", "chapter": "epilogue-4" }
-              ]
-            }
-          ]
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }],
+          "fallback": true
         }
       ],
       "items": [
@@ -305,17 +296,77 @@
           ]
         },
         {
-          "text": "Kelsier had the Ghostbloods on Scadrial resist Trell from a safehouse in Bilming. Learning the Set planned to bomb Elendel, he sent Moonlight, TwinSoul and Marasi to stop it and had agents help Steris evacuate the city. Afterward he urged Harmony to lead Scadrial into a new age of technology and Metalborn.",
+          "text": "Off site, Kelsier was briefed by seon by his Ghostbloods in Bilming, among them Moonlight, TwinSoul and Codenames, on Autonomy's plans and the Set's bomb. He was gracious to Marasi, who was working with them, and let the team draw on a secret weapon.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "40" }]
+        },
+        {
+          "text": "After the bomb, Kelsier was at the Ghostbloods' Elendel hideout when Marasi turned down TwinSoul's offer to join. He accepted her answer, overruled Dlavil's wish to deal with her, forbade any move against her or anyone in the city without his permission, and resolved to talk to Harmony.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-1" }]
+        },
+        {
+          "text": "Three weeks after the blast, atop an Elendel skyscraper, Harmony told Kelsier that Marsh could now survive. Kelsier hoped for lerasium too, but Harmony said it was destroyed. Doubting Harmony could protect Scadrial, Kelsier urged him to hurry the world into a new age of technology and vowed to protect it at any cost.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Thaidakar",
+          "revealedIn": [
+            { "book": "wind-and-truth", "chapter": "prologue" },
+            { "book": "rhythm-of-war", "chapter": "115" },
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "rhythm-of-war", "chapter": "115" },
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "i-1" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thaidakar appeared to Gavilar Kholin by seon, demanding that Gavilar keep his promise to deliver Restares, who knew how to find Ba-Ado-Mishram.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "prologue" }]
+        },
+        {
+          "text": "Shallan, breaking with the Ghostbloods, gave Mraize messages from herself and Wit for Thaidakar, to be passed on when his avatar next visited Roshar.",
+          "revealedIn": [{ "book": "rhythm-of-war", "chapter": "115" }]
+        },
+        {
+          "text": "As Thaidakar, Kelsier leads the Ghostbloods, a secret society active on several worlds. Unable to leave Scadrial himself, he visits Roshar through an avatar, and keeps in touch with his agents by seon. He takes a keen interest in the Heralds, Kalak above all.",
           "revealedIn": [
             {
               "all": [
-                { "book": "alloy-of-law", "chapter": "19" },
-                { "book": "secret-history", "chapter": "6-4" },
+                { "book": "way-of-kings", "chapter": "prologue" },
                 { "book": "rhythm-of-war", "chapter": "115" },
-                { "book": "lost-metal", "chapter": "epilogue-4" }
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
               ]
             }
           ]
+        },
+        {
+          "text": "Thaidakar's agents Felt and the seon Ala, who had spied on Shallan and Adolin, trapped the Herald Kalak in Lasting Integrity, after Ala had told Thaidakar and Iyatil where Ba-Ado-Mishram was.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "i-1" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Truce with Shallan",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Thaidakar spoke with Shallan after she revealed she had killed Iyatil and Mraize. He agreed to a reluctant truce, warning that other Ghostbloods might be less understanding, and said he was losing interest in Roshar since harvesting Stormlight was no longer possible. Their brief talk lasted hours for him.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "147" }]
         }
       ]
     }
@@ -324,6 +375,10 @@
     {
       "text": "Kelsier is tall and hawk-faced, with light-blonde hair, hazel eyes and arms covered in scars from the Pits of Hathsin. He dresses as a nobleman, wears a mistcloak at night, and goes barefoot on missions.",
       "revealedIn": [{ "book": "final-empire", "chapter": "5" }]
+    },
+    {
+      "text": "In a new body, Kelsier has a Hemalurgic spike in his right eye socket. Through it he sees metal as an Inquisitor does, while his left eye sees normally.",
+      "revealedIn": [{ "book": "bands-of-mourning", "chapter": "epilogue" }]
     }
   ],
   "personality": [
@@ -342,6 +397,243 @@
           "all": [
             { "book": "final-empire", "chapter": "27" },
             { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ]
+    }
+  ],
+  "abilities": [
+    {
+      "title": [
+        {
+          "text": "Allomancy",
+          "revealedIn": [
+            { "book": "final-empire", "chapter": "34" },
+            { "book": "lost-metal", "chapter": "epilogue-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Mistborn, Kelsier is a master of iron and steel, steering dozens of pieces of metal at once, and once fought a Steel Inquisitor with metal that seemed alive. His Soothing and Rioting are forceful rather than subtle, but can sway large crowds, and he can pewter drag for hours.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "34" }]
+        },
+        {
+          "text": "He lost his Allomancy when he died, and has not regained it.",
+          "revealedIn": [{ "book": "lost-metal", "chapter": "epilogue-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Preservation",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier held Preservation's power for a short time, but could not use it well, being newly a Cognitive Shadow and at odds with the Shard's Intent.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hemalurgy",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "secret-history", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Hemalurgic spike in his right eye socket pins his soul to his bones, and gives him the steelsight of the Inquisitors alongside normal sight.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "secret-history", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "epilogue-4" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Seon",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier keeps a seon, which lets him talk to his Ghostbloods and others however far away they are.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "lost-metal", "chapter": "40" },
+                { "book": "wind-and-truth", "chapter": "147" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "title": [
+        {
+          "text": "Marsh",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier's relationship with his older brother Marsh was strained: Marsh resented his success with a rebellion Marsh had quit, and disliked how casually he killed nobles. Even so, Marsh infiltrated the Steel Ministry for him, and Kelsier was grieved and furious when they found signs of Marsh's death.",
+          "revealedIn": [{ "book": "final-empire", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gemmel",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                "eleventh-metal"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After escaping the Pits of Hathsin, Kelsier was trained in Allomancy by the Mistborn Gemmel, who often threw him into life-or-death situations to force him to learn, and who came to wonder what he had unleashed by teaching him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "final-empire", "chapter": "27" },
+                "eleventh-metal"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Preservation",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "2-3" },
+            { "book": "secret-history", "chapter": "6-4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier first hated Preservation for claiming to be God and punched him on sight, but slowly came to respect him, and nicknamed him Fuzz for his unravelled look.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "2-3" }]
+        },
+        {
+          "text": "Preservation, for his part, is fascinated by Kelsier, the first of the dead to punch him and the first to try to recruit him into a scheme, and goes along out of curiosity, while disapproving of how lightly Kelsier plays with people's faith and how much he works against Preservation's Intent.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "6-4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Ruin",
+          "revealedIn": [{ "book": "secret-history", "chapter": "2-2" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier is terrified of Ruin, whose power he can see and feel through the Well of Ascension.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "2-2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hoid",
+          "revealedIn": [
+            { "book": "secret-history", "chapter": "2-1" },
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "secret-history", "chapter": "2-1" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier and Hoid are bitter enemies. They fought when they first met, and even a brief exchange with Hoid is enough to send Kelsier into a murderous rage.",
+          "revealedIn": [{ "book": "secret-history", "chapter": "2-1" }]
+        },
+        {
+          "text": "Hoid sees Kelsier as a dangerous wild card and disapproves of his meddling on Roshar through the Ghostbloods, though he thinks little of the Ghostbloods themselves. He gave Wax a coppermind holding memories Kelsier would rather keep hidden.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "bands-of-mourning", "chapter": "epilogue" },
+                { "book": "secret-history", "chapter": "2-1" },
+                { "book": "rhythm-of-war", "chapter": "115" }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Gavilar Kholin",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kelsier and Gavilar worked against each other through their secret societies, and when Gavilar was assassinated, Kelsier was the first he suspected. Yet they also had dealings: Gavilar had promised to hand Restares over to him.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "way-of-kings", "chapter": "prologue" },
+                { "book": "wind-and-truth", "chapter": "prologue" }
+              ]
+            }
           ]
         }
       ]

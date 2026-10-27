@@ -249,8 +249,12 @@ describe('journey data', () => {
         expect(map, e.mapId).toBeDefined()
         expect(e.revealedIn.length).toBeGreaterThan(0)
         for (const point of e.revealedIn) {
-          expect(typeof point).toBe('object')
-          if (typeof point === 'string' || 'all' in point) continue
+          // A whole work only when it has no chapters (a short story).
+          if (typeof point === 'string') {
+            expect(chapters[point] ?? [], point).toHaveLength(0)
+            continue
+          }
+          if ('all' in point) continue
           expect(chapters[point.book]?.map((c) => c.id)).toContain(
             point.chapter,
           )
@@ -276,13 +280,15 @@ describe('journey data', () => {
           ...(e.placeRevealedIn ? [e.placeRevealedIn] : []),
         ])
           for (const point of reveal) {
-            expect(typeof point === 'object' && 'book' in point).toBe(true)
-            if (typeof point !== 'object' || !('book' in point)) continue
-            if (typeof own !== 'object' || !('book' in own))
-              throw new Error(`${e.id} has no book`)
-            if (own.book === point.book)
+            // A short story with no chapters is dated as a whole.
+            const book = (p: Reveal[number]) =>
+              typeof p === 'string' ? p : 'book' in p ? p.book : undefined
+            expect(book(point)).toBeDefined()
+            if (!book(own)) throw new Error(`${e.id} has no book`)
+            if (book(own) === book(point))
               expect(index(point)).toBeGreaterThanOrEqual(index(own))
-            else expect(bookAt(point.book)).toBeGreaterThan(bookAt(own.book))
+            else
+              expect(bookAt(book(point)!)).toBeGreaterThan(bookAt(book(own)!))
           }
         // Ids are neutral: they must never name what happens.
         expect(e.id).toMatch(/^[a-z]+-[0-9a-f]{8}$/)

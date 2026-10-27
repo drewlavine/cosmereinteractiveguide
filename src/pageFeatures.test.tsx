@@ -13,6 +13,7 @@ import { loadStory, storyIds } from './data/characterStories'
 import { listedLocations, placeHref } from './data/listedLocations'
 import { hasLocationStory, loadLocationStory } from './data/locationStories'
 import { loadPack } from './data/journeyPacks'
+import { characterItineraries } from './data/itineraries'
 import { featuresOf } from './data/pageFeatures'
 import { people } from './data/people'
 import { findPersona, hasMet, readerCanSee } from './data/reveal'
@@ -51,19 +52,23 @@ const featureLinks = (name: string) =>
     .map((a) => [a.getAttribute('aria-label'), a.getAttribute('href')])
 
 // Found from the data, so the tests don't name who travels where.
-const travelsOf = (c: (typeof people)[number], read: string[]) =>
+const journeyOf = (c: (typeof people)[number], read: string[]) =>
   featuresOf('character', c, ctxOf(read)).filter(
-    (f) => f.feature.id === 'travels',
+    (f) => f.feature.id === 'journey',
   )
+/** World-hoppers: their Journey crosses the star chart. */
 const travellers = people.filter(
-  (c) => !findPersona(c.id) && travelsOf(c, allBooks).length,
+  (c) =>
+    characterItineraries[c.id] &&
+    !findPersona(c.id) &&
+    journeyOf(c, allBooks).length,
 )
-/** A traveller met in a single book whose Travels that book doesn't show. */
+/** A traveller met in a single book whose Journey that book doesn't show. */
 const travelHidden = books
   .flatMap((b) => travellers.map((c) => ({ c, read: [b.id] })))
   .find(
     ({ c, read }) =>
-      hasMet(c.id, ctxOf(read).canSee) && !travelsOf(c, read).length,
+      hasMet(c.id, ctxOf(read).canSee) && !journeyOf(c, read).length,
   )
 
 afterEach(() => {
@@ -83,25 +88,26 @@ describe('page feature icons', () => {
     ]),
   )
 
-  it('links a traveller to their Travels, with a legend', () => {
+  it('links a traveller to their Journey, with a legend', () => {
     const [c] = travellers
     renderAt('/characters', allBooks)
     expect(featureLinks(c.name)).toEqual([
-      [`${c.name}: Travels`, `/characters/${c.id}#travels`],
+      [`${c.name}: Journey`, `/characters/${c.id}#journey`],
     ])
     const legend = screen.getByRole('group', { name: 'Icon legend' })
-    expect(legend).toHaveTextContent('Travels')
+    expect(legend).toHaveTextContent('Journey')
+    expect(legend).not.toHaveTextContent('Travels')
     expect(legend).not.toHaveTextContent('Map')
     // Icons add no text to the entry; the tooltip comes from CSS.
     expect(
-      screen.getByRole('link', { name: `${c.name}: Travels` }),
-    ).toHaveAttribute('data-tip', 'Travels')
+      screen.getByRole('link', { name: `${c.name}: Journey` }),
+    ).toHaveAttribute('data-tip', 'Journey')
     expect(
-      screen.getByRole('link', { name: `${c.name}: Travels` }).closest('li'),
+      screen.getByRole('link', { name: `${c.name}: Journey` }).closest('li'),
     ).toHaveTextContent(new RegExp(`^${escape(c.name)}$`))
   })
 
-  it('shows no Travels icon until the Travels section would show', () => {
+  it('shows no Journey icon until the Journey section would show', () => {
     expect(travelHidden).toBeDefined()
     const { c, read } = travelHidden!
     renderAt('/characters', read)
@@ -122,14 +128,14 @@ describe('page feature icons', () => {
     const [c] = travellers
     renderAt('/characters', allBooks)
     await userEvent.click(
-      screen.getByRole('link', { name: `${c.name}: Travels` }),
+      screen.getByRole('link', { name: `${c.name}: Journey` }),
     )
-    const section = await screen.findByRole('region', { name: 'Travels' })
-    expect(section.id).toBe('travels')
+    const section = await screen.findByRole('region', { name: 'Journey' })
+    expect(section.id).toBe('journey')
     expect(
-      within(section).getByRole('button', { name: 'Travels' }),
+      within(section).getByRole('button', { name: 'Journey' }),
     ).toHaveAttribute('aria-expanded', 'true')
-    await waitFor(() => expect(scrolled).toContain('travels'))
+    await waitFor(() => expect(scrolled).toContain('journey'))
   })
 
   it('renders the section every traveller’s icon links to', async () => {
@@ -231,8 +237,8 @@ describe('grouping by page feature', () => {
 
   it('groups characters under each feature their page shows', () => {
     renderAt('/characters?group=feature', allBooks)
-    expect(headings()).toEqual(['Journey', 'Travels', 'No special features'])
-    for (const c of travellers) expect(inGroup('Travels', c.name)).toBe(true)
+    expect(headings()).toEqual(['Journey', 'No special features'])
+    for (const c of travellers) expect(inGroup('Journey', c.name)).toBe(true)
     expect(inGroup('Journey', 'Kaladin')).toBe(true)
     expect(inGroup('No special features', 'Kaladin')).toBe(false)
     expect(screen.queryByText(/not sorted by/)).toBeNull()
@@ -244,7 +250,7 @@ describe('grouping by page feature', () => {
     cleanup()
     const { c, read } = travelHidden!
     renderAt('/characters?group=feature', read)
-    expect(inGroup('Travels', c.name)).toBe(false)
+    expect(inGroup('Journey', c.name)).toBe(false)
     expect(inGroup('No special features', c.name)).toBe(true)
   })
 

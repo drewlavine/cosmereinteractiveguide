@@ -1238,8 +1238,27 @@ export const journeyIndex: JourneyIndex = {
   kelsier: [
     {
       pack: 'scadrial',
+      mapId: 'elendel-basin',
+      revealedIn: [
+        {
+          book: 'lost-metal',
+          chapter: '40',
+        },
+        {
+          book: 'lost-metal',
+          chapter: 'epilogue-1',
+        },
+        {
+          book: 'lost-metal',
+          chapter: 'epilogue-4',
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
       mapId: 'final-empire',
       revealedIn: [
+        'eleventh-metal',
         {
           book: 'final-empire',
           chapter: 'prologue',
@@ -1250,15 +1269,7 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'final-empire',
-          chapter: '8',
-        },
-        {
-          book: 'final-empire',
           chapter: '17',
-        },
-        {
-          book: 'final-empire',
-          chapter: '21',
         },
         {
           book: 'final-empire',
@@ -1268,16 +1279,32 @@ export const journeyIndex: JourneyIndex = {
           book: 'final-empire',
           chapter: '32',
         },
+        {
+          book: 'secret-history',
+          chapter: '3-2',
+        },
+        {
+          book: 'secret-history',
+          chapter: '5-3',
+        },
+        {
+          book: 'secret-history',
+          chapter: '6-4',
+        },
+        {
+          book: 'secret-history',
+          chapter: '6-5',
+        },
+        {
+          book: 'secret-history',
+          chapter: '6-8',
+        },
       ],
     },
     {
       pack: 'scadrial',
       mapId: 'luthadel',
       revealedIn: [
-        {
-          book: 'final-empire',
-          chapter: '2',
-        },
         {
           book: 'final-empire',
           chapter: '4',
@@ -1292,10 +1319,6 @@ export const journeyIndex: JourneyIndex = {
         },
         {
           book: 'final-empire',
-          chapter: '19',
-        },
-        {
-          book: 'final-empire',
           chapter: '26',
         },
         {
@@ -1305,6 +1328,22 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'final-empire',
           chapter: '35',
+        },
+        {
+          book: 'secret-history',
+          chapter: '1-1',
+        },
+        {
+          book: 'secret-history',
+          chapter: '2-3',
+        },
+        {
+          book: 'secret-history',
+          chapter: '3-1',
+        },
+        {
+          book: 'secret-history',
+          chapter: '6-7',
         },
       ],
     },
@@ -2439,6 +2478,38 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'well-of-ascension',
           chapter: '47',
+        },
+      ],
+    },
+  ],
+  thaidakar: [
+    {
+      pack: 'roshar',
+      mapId: 'kholinar',
+      revealedIn: [
+        {
+          book: 'wind-and-truth',
+          chapter: 'prologue',
+        },
+      ],
+    },
+    {
+      pack: 'roshar',
+      mapId: 'roshar',
+      revealedIn: [
+        {
+          book: 'wind-and-truth',
+          chapter: '147',
+        },
+      ],
+    },
+    {
+      pack: 'roshar',
+      mapId: 'sea-of-souls',
+      revealedIn: [
+        {
+          book: 'wind-and-truth',
+          chapter: 'i-1',
         },
       ],
     },

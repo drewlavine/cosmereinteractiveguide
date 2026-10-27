@@ -9,8 +9,8 @@ import {
 } from '../components/PageSections'
 import { slugs } from '../components/pageSlugs'
 import { PlanetGlobe } from '../components/PlanetGlobe'
-import { TravelMap } from '../components/TravelMap'
 import { JourneyPreview } from '../components/journey/JourneyPreview'
+import { StarChart } from '../components/journey/StarChart'
 import { useJourneyPacks } from '../components/journey/useJourneyPacks'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { useLinkText } from '../components/LinkedText'
@@ -20,8 +20,9 @@ import { findListed, placeHref, placeRevealedIn } from '../data/listedLocations'
 import { characterDetails } from '../data/characterDetails'
 import { characterFigures } from '../data/characterFigures'
 import { characterPortraits } from '../data/characterPortraits'
+import { facePortraits } from '../data/faces'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
-import { journeyAtlas, journeyMapPlanet } from '../data/journeyAtlas'
+import { journeyAtlas } from '../data/journeyAtlas'
 import { historyParagraphFor } from '../data/historyMatch'
 import { journeyIndex } from '../data/journeyIndex'
 import { chapterLabel } from '../data/progress'
@@ -29,10 +30,8 @@ import {
   findPersona,
   hasMet,
   revealCharacter,
-  journeyByWorld,
   journeyIds,
   revealCharacterJourney,
-  revealCharacterTravels,
   revealFigures,
   revealPortrait,
   revealStory,
@@ -88,6 +87,8 @@ function useStory(id: string | undefined) {
 
 export function CharacterDetail() {
   const { characterId, tab } = useParams()
+  // Travels is now part of the Journey.
+  const section = tab === 'travels' ? 'journey' : tab
   const { hash } = useLocation()
   const character = findPerson(characterId)
   const persona = findPersona(characterId)
@@ -111,7 +112,7 @@ export function CharacterDetail() {
       <Navigate
         to={{
           pathname: `/characters/${persona.characterId}`,
-          hash: tab ?? hash,
+          hash: section ?? hash,
         }}
         replace
       />
@@ -121,7 +122,7 @@ export function CharacterDetail() {
   if (tab)
     return (
       <Navigate
-        to={{ pathname: `/characters/${character.id}`, hash: tab }}
+        to={{ pathname: `/characters/${character.id}`, hash: section }}
         replace
       />
     )
@@ -157,11 +158,12 @@ export function CharacterDetail() {
     canSee,
     viewAnyway.has(scope),
   )
-  const travels = revealCharacterTravels(
-    character.id,
+  // Map markers show the latest art with a face that reads at marker size.
+  const face = revealPortrait(
+    facePortraits(character.id, characterPortraits[character.id]),
     canSee,
     viewAnyway.has(scope),
-  )
+  ).portrait?.src
   const journey = revealCharacterJourney(
     character.id,
     journeyPacks.packs.flatMap((p) => p.events),
@@ -172,7 +174,6 @@ export function CharacterDetail() {
       credits: journeyPacks.packs.flatMap((p) => p.credits),
     },
   )
-  const worldJourneys = journeyByWorld(journey, journeyMapPlanet)
   const system = systems.find((s) =>
     s.planets.some((p) => p.id === shown.world),
   )
@@ -287,35 +288,22 @@ export function CharacterDetail() {
 
   const parts: Part[] = [
     {
-      id: 'travels',
-      title: 'Travels',
-      show: travels.stops.length > 0,
-      body: (
-        <>
-          <TravelMap
-            characterId={character.id}
-            name={character.name}
-            worldJourneys={worldJourneys}
-            selfKey={selfKey}
-            more={more}
-            stops={travels.stops}
-            systems={systems}
-          />
-        </>
-      ),
-    },
-    {
       id: 'journey',
       title: 'Journey',
       className: 'character-journey',
-      // A world-hopper's journeys open from their travels, world by world.
-      show: journey.stops.length > 0 && travels.stops.length === 0,
+      show: journey.stops.length > 0,
       body: (
         <JourneyPreview
           name={character.name}
           journey={journey}
           selfKey={selfKey}
           more={more}
+          portrait={face}
+          background={(m) =>
+            m.overview ? (
+              <StarChart journey={journey} systems={systems} />
+            ) : undefined
+          }
         />
       ),
     },
@@ -552,7 +540,6 @@ export function CharacterDetail() {
           story.spoilers ||
           art.spoilers ||
           figureSpoilers ||
-          travels.spoilers ||
           journey.spoilers
         }
       />

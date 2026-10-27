@@ -1,12 +1,14 @@
 import type { Passage, Reveal } from './types'
 
 /**
- * One stay on a world, in the order the character lived it. A stop is shown
- * once any of its events is, so a world the reader hasn't learned they
- * visited stays hidden. Events and notes are dated like History items, by
- * the chapter that reveals them (Coppermind footnotes first).
+ * One stay on a world, in the order the character lived it: a stop on the
+ * Journey's star chart, followed by the stay's events on that world's maps
+ * (see docs/unified-journey.md). A stop is shown once any of its events is,
+ * so a world the reader hasn't learned they visited stays hidden. Events
+ * and notes are dated like History items, by the chapter that reveals them
+ * (Coppermind footnotes first).
  */
-export interface TravelStop {
+export interface ItineraryStop {
   planetId: string
   /** Where on the world, if it narrows things down. */
   place?: string
@@ -26,6 +28,18 @@ export interface TravelStop {
    * books.
    */
   needs?: Reveal
+  /**
+   * How they're there when not in body, e.g. "In the Cognitive Realm" or
+   * "Through a seon and his agents"; shown with the stop.
+   */
+  presence?: string
+  /** In the world's Cognitive Realm: drawn beside the world on the chart. */
+  realm?: 'cognitive'
+  /**
+   * The books whose map events on this world belong to this stay. A world's
+   * map events revealed in other books go to its last stay without `books`.
+   */
+  books?: readonly string[]
   events: Passage[]
 }
 
@@ -50,6 +64,12 @@ const FELT_ROSHAR = [
   ch('wind-and-truth', '7'),
 ]
 
+/** Kelsier is Thaidakar: the persona's identityRevealedIn. */
+const KELSIER_IS_THAIDAKAR = [
+  { all: ['final-empire', ch('rhythm-of-war', '115')] },
+  { all: ['final-empire', ch('wind-and-truth', 'prologue')] },
+]
+
 /** Hoid's ancient past, dated like its History paragraph. */
 const HOID_ANCIENT = [
   {
@@ -66,7 +86,7 @@ const HOID_ANCIENT = [
  * listed; ones known only from Brandon's answers or annotations are left out,
  * as they are from History.
  */
-export const characterTravels: Record<string, TravelStop[]> = {
+export const characterItineraries: Record<string, ItineraryStop[]> = {
   vasher: [
     {
       planetId: 'nalthis',
@@ -338,6 +358,12 @@ export const characterTravels: Record<string, TravelStop[]> = {
     },
     {
       planetId: 'scadrial',
+      books: [
+        'alloy-of-law',
+        'shadows-of-self',
+        'bands-of-mourning',
+        'lost-metal',
+      ],
       events: [
         {
           text: 'Regenerated from a cell culture of his flesh kept by Ulaam.',
@@ -462,6 +488,80 @@ export const characterTravels: Record<string, TravelStop[]> = {
         {
           text: 'Captured the Herald Kalak for the Ghostbloods.',
           revealedIn: [ch('wind-and-truth', 'i-1')],
+        },
+      ],
+    },
+  ],
+  kelsier: [
+    {
+      planetId: 'scadrial',
+      events: [
+        {
+          text: 'Hunted down the noble who had sent him and Mare to the Pits of Hathsin.',
+          revealedIn: ['eleventh-metal'],
+        },
+        {
+          text: 'Survived the Pits of Hathsin, then led a skaa rebellion against the Lord Ruler.',
+          revealedIn: [ch('final-empire', '4')],
+        },
+        {
+          text: 'Died in Fountain Square, making himself the rebellion’s martyr.',
+          revealedIn: [ch('final-empire', '34')],
+        },
+      ],
+    },
+    {
+      planetId: 'scadrial',
+      place: 'Cognitive Realm',
+      realm: 'cognitive',
+      presence: 'In the Cognitive Realm',
+      books: ['secret-history'],
+      events: [
+        {
+          text: 'Lingered after his death as a Cognitive Shadow, bound for a time to the Well of Ascension.',
+          revealedIn: [ch('secret-history', '2-1')],
+        },
+        {
+          text: 'Stayed trapped there even after Harmony remade the world.',
+          revealedIn: [ch('secret-history', '6-9')],
+        },
+        {
+          text: 'Pressed Spook to try Hemalurgy, hoping to win himself a body.',
+          revealedIn: [ch('secret-history', 'epilogue')],
+        },
+      ],
+    },
+    {
+      planetId: 'scadrial',
+      books: ['bands-of-mourning', 'lost-metal'],
+      events: [
+        {
+          text: 'In a body with a spiked eye, went south and ruled the Southern Scadrians as the Sovereign.',
+          revealedIn: [ch('bands-of-mourning', 'epilogue')],
+        },
+        {
+          text: 'Led the Ghostbloods on Scadrial against Autonomy’s plans.',
+          revealedIn: [ch('lost-metal', '40')],
+        },
+      ],
+    },
+    {
+      planetId: 'roshar',
+      // Only once the reader knows Thaidakar is Kelsier.
+      needs: KELSIER_IS_THAIDAKAR,
+      presence: 'From afar, through his agents',
+      uncertain: {
+        text: 'His dealings on Roshar span years; how they line up with his time on Scadrial isn’t known.',
+        revealedIn: [ch('rhythm-of-war', '115')],
+      },
+      events: [
+        {
+          text: 'As Thaidakar, led the Ghostbloods on Roshar from afar, visiting through an avatar.',
+          revealedIn: [ch('rhythm-of-war', '115')],
+        },
+        {
+          text: 'Sought the Unmade Ba-Ado-Mishram.',
+          revealedIn: [ch('wind-and-truth', 'prologue')],
         },
       ],
     },

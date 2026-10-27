@@ -4,9 +4,11 @@ import { chapters } from './chapters'
 import { findCharacter } from './characters'
 import { characterDetails } from './characterDetails'
 import { characterPortraits } from './characterPortraits'
+import { facePortraits } from './faces'
+import { portraitFaces } from './portraitFaces'
 import { personas } from './reveal'
 import { systems } from './systems'
-import { characterTravels } from './travels'
+import { characterItineraries } from './itineraries'
 import type { CharacterStory, Reveal, StoryItem } from './types'
 
 const bookIds = new Set(books.map((b) => b.id))
@@ -190,8 +192,32 @@ describe('character details', () => {
     }
   })
 
-  it('names worlds that exist on every travel stop', () => {
-    for (const [id, stops] of Object.entries(characterTravels)) {
+  it('marks every portrait with a face that reads at marker size, or none', () => {
+    const faceFiles = Object.keys(
+      import.meta.glob('../../public/portraits/faces/*'),
+    )
+    for (const [id, list] of Object.entries(characterPortraits))
+      for (const art of list) {
+        const where = `${id} ${art.src}`
+        const face = portraitFaces[`${id} ${art.src}`] ?? portraitFaces[art.src]
+        expect(face, where).not.toBeUndefined()
+        if (face) expect(faceFiles, where).toContain(`../../public${face}`)
+      }
+    // Art where he's a distant figure isn't a marker; shared art is cropped
+    // to whichever page it's on.
+    expect(
+      facePortraits('kelsier', characterPortraits.kelsier).map((p) => p.src),
+    ).not.toContain(expect.stringContaining('campfire'))
+    const charm = characterPortraits.breeze.find((p) =>
+      p.src.includes('breeze-charm'),
+    )!
+    expect(facePortraits('allrianne-cett', [charm])[0].src).not.toBe(
+      facePortraits('breeze', [charm])[0].src,
+    )
+  })
+
+  it('names worlds that exist on every itinerary stay', () => {
+    for (const [id, stops] of Object.entries(characterItineraries)) {
       expect(characterDetails[id], id).toBeDefined()
       for (const stop of stops) {
         expect(planetIds, id).toContain(stop.planetId)
@@ -199,6 +225,7 @@ describe('character details', () => {
         for (const e of [
           ...stop.events,
           ...(stop.uncertain ? [stop.uncertain] : []),
+          ...(stop.wob ? [stop.wob] : []),
         ])
           expectValidReveal(e.revealedIn, `${id} ${stop.planetId}: ${e.text}`)
       }
