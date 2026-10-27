@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { EntryCard } from './EntryCards'
+import { EntryCard, EntryCardList } from './EntryCards'
 import { slugs } from './pageSlugs'
 import { SourceMark } from './SourceMark'
 import type { LinkTextFn } from './LinkedText'
@@ -74,7 +74,7 @@ export function MemberList({
   }
 
   return (
-    <div className="entry-cards">
+    <EntryCardList>
       {members.map((m, i) => (
         <EntryCard
           key={m.characterId}
@@ -93,6 +93,6 @@ export function MemberList({
           {body(m)}
         </EntryCard>
       ))}
-    </div>
+    </EntryCardList>
   )
 }

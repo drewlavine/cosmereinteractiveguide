@@ -81,6 +81,7 @@ src/
     journeys/*.json   Journey packs (5.9), loaded lazily
   state/              Reader progress (Context, persistence) and reveal hooks
   search/             Index construction, sources, hooks
+  styles/app.css      Loads index.css into the `base` cascade layer
   styles/index.css    Global stylesheet with design tokens
   test/setup.ts       jest-dom matchers
 scripts/              Node tooling (Coppermind fetch, spoiler time-machine check)
@@ -265,22 +266,36 @@ Communication between distant components uses DOM events where that's
 simpler (the Contents panel asks a collapsed section to open with a custom
 event) instead of lifting state through unrelated parents.
 
-### 5.8 Styling: one global stylesheet with design tokens
+### 5.8 Styling: global tokens in a layer, CSS Modules per component
 
-`src/styles/index.css` holds CSS custom properties (colours, fonts) and
-component-scoped class names (`.character-detail`, `.page-contents`, ...).
-Layout uses CSS Grid with named areas and media-query breakpoints
-(wide: text, infobox, Contents; medium: Contents under the infobox; phone:
-one column).
+`src/styles/index.css` holds CSS custom properties (colours, fonts), page
+layout and the older class names (`.character-detail`, `.page-contents`,
+...). `src/styles/app.css` imports it into `@layer base`. Components are
+moving to their own CSS Modules beside them (`EntryCards.module.css`),
+which Vite scopes by hashing class names. Layout uses CSS Grid with named
+areas and media-query breakpoints (wide: text, infobox, Contents; medium:
+Contents under the infobox; phone: one column).
 
-Why: no runtime CSS-in-JS cost, no build plugin, and the app has a single,
-consistent visual language. Responsive layout is handled by CSS, not by
-JavaScript reading the window size.
+Why: no runtime CSS-in-JS cost, no build plugin, one visual language. A
+single ~5,000-line global file relied on naming discipline, and a page rule
+(`.character-story .page-subsection`) once silently overrode the entry
+cards' grid. Modules can't leak into other components, and because module
+CSS is unlayered it always beats `base`, whatever the specificity, so a
+component never fights a global rule. Responsive layout is handled by CSS,
+not by JavaScript reading the window size.
 
-Trade-off: at ~2,400 lines a single file relies on naming discipline; there
-is no compile-time scoping. **Revisit** when it slows down changes: CSS
-Modules (supported by Vite natively) is the low-risk next step, one
-component at a time.
+Rules for new or migrated components:
+
+- One `<Component>.module.css` beside the `.tsx`; camelCase class names.
+- Only tokens (`var(--gold)`), the reset and page layout stay global.
+- A parent changes a child through a prop or `className`, not a
+  descendant selector into it.
+- Tests find elements by role, text or label, never by a module class.
+- Reach a global class from a module with `:global(.name)` only when the
+  component renders it (e.g. the shared `.art-open` button).
+
+Trade-off: migration is incremental, so for a while both styles coexist;
+tests that selected by class name need rewriting as each component moves.
 
 ### 5.9 Journey maps: one generic model, importers outside, a swappable engine
 

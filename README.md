@@ -57,7 +57,8 @@ src/
   data/chapters.ts        Chapters of each book in reading order (ids match Coppermind footnotes)
   data/progress.ts        Reader progress and spoiler checks: a tag is a book id or { book, chapter }
   search/sources.ts       What search covers; add a SearchSource to make new data searchable
-  styles/index.css        Global styles
+  styles/index.css        Global styles (loaded into the `base` layer by styles/app.css)
+  components/*.module.css Each component's own scoped styles (CSS Modules)
 scripts/
   fetch-coppermind.ts     Coppermind API fetcher → data/raw/ (git-ignored)
 ```

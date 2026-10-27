@@ -566,6 +566,14 @@ AI-generated.
       loading and error states
 - [ ] Phone pass: thumb-friendly targets, no cramped tables, tidy nav
 - [ ] Accessibility: contrast, focus rings, reduced-motion support
+- [ ] Per-component styles: move each component's rules from
+      `index.css` into its own CSS Module (globals sit in `@layer base`,
+      so modules always win; see ARCHITECTURE 5.8)
+  - [x] Entry cards (spren kinds, group members)
+  - [ ] Interactive map, travel map and journey
+  - [ ] Page sections, Contents and infobox
+  - [ ] Navigation, search and Books Read
+  - [ ] The rest, until `index.css` holds only tokens and layout
 
 ### 10. My Cosmere
 

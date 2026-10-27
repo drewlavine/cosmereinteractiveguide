@@ -120,7 +120,7 @@ describe('lifeform pages', () => {
     ).toBeInTheDocument()
     expect(windspren.querySelectorAll('p').length).toBeGreaterThan(0)
     // Who's seen with it waits for the scene
-    expect(windspren.querySelector('.entry-card-people')).toBeNull()
+    expect(within(windspren).queryByText(/^Characters:/)).toBeNull()
     // Unmet kinds aren't there at all
     const canSee = readerCanSee({
       read: new Set(['way-of-kings']),
@@ -133,8 +133,7 @@ describe('lifeform pages', () => {
     for (const e of unmet) expect(kind(e.id)).toBeNull()
     cleanup()
     await lesserPage(['way-of-kings', 'words-of-radiance', 'oathbringer'])
-    const seen =
-      kind('windspren')!.querySelector<HTMLElement>('.entry-card-people')!
+    const seen = within(kind('windspren')!).getByText(/^Characters:/)
     expect(within(seen).getByRole('link', { name: 'Kaladin' })).toHaveAttribute(
       'href',
       '/characters/kaladin',
@@ -143,9 +142,9 @@ describe('lifeform pages', () => {
 
   it('holds the place of art not shown with a placeholder', async () => {
     await lesserPage(['way-of-kings'])
-    const noArt = (id: string) => kind(id)!.querySelector('.entry-card-no-art')
+    const noArt = (id: string) => within(kind(id)!).queryByText('No art yet')
     // Flamespren art waits for Oathbringer
-    expect(noArt('flamespren')).toHaveTextContent('No art yet')
+    expect(noArt('flamespren')).toBeInTheDocument()
     expect(noArt('painspren')).toBeNull()
   })
 

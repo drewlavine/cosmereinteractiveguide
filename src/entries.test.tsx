@@ -115,7 +115,6 @@ describe('group members', () => {
     // Rhythm of War's lines wait for it.
     expect(members.textContent).not.toContain('Glys and Tumi')
     // A card, its name linked to their page
-    expect(sja).toHaveClass('entry-card')
     expect(within(sja).getByRole('link', { name: 'Sja-anat' })).toHaveAttribute(
       'href',
       '/characters/sja-anat',

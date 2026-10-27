@@ -5,6 +5,7 @@ import { PageSubsection } from './PageSections'
 import { SearchIcon } from './SearchIcon'
 import type { Portrait } from '../data/characterPortraits'
 import type { SearchIconName } from '../search/types'
+import styles from './EntryCards.module.css'
 
 /**
  * A card for one entry, e.g. a kind of spren or a group's member: its art (or
@@ -34,10 +35,10 @@ export function EntryCard({
       alt={art.alt}
       artist={art.artist}
       artistUrl={art.artistUrl}
-      className="character-portrait entry-card-art"
+      className={`character-portrait ${styles.art}`}
     />
   ) : (
-    <div className="character-portrait entry-card-art entry-card-no-art">
+    <div className={`character-portrait ${styles.art} ${styles.noArt}`}>
       <span>
         <SearchIcon name={icon} />
         No art yet
@@ -49,12 +50,17 @@ export function EntryCard({
       id={id}
       title={title}
       href={href}
-      className="entry-card"
+      className={styles.card}
       lead={lead}
     >
-      <div className="entry-card-text">{children}</div>
+      <div className={styles.text}>{children}</div>
     </PageSubsection>
   )
+}
+
+/** The cards of one section, stacked. */
+export function EntryCardList({ children }: { children: ReactNode }) {
+  return <div className={styles.list}>{children}</div>
 }
 
 /** "Characters: A, B" under a card, each linked to their page. */
@@ -65,7 +71,7 @@ export function CardPeople({
 }) {
   if (!people.length) return null
   return (
-    <p className="entry-card-people">
+    <p className={styles.people}>
       Characters:{' '}
       {people.map((p, i) => (
         <Fragment key={p.id}>

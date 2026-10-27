@@ -1,0 +1,3 @@
+/* Global styles sit in a layer, so a component's own CSS Module (unlayered)
+   always wins over them, whatever their specificity. */
+@import './index.css' layer(base);

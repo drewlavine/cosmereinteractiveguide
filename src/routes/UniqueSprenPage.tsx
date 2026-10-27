@@ -1,7 +1,7 @@
 import { EntryPage } from '../components/EntryPage'
 import { PageSection } from '../components/PageSections'
 import { useLinkText } from '../components/LinkedText'
-import { EntryCard } from '../components/EntryCards'
+import { EntryCard, EntryCardList } from '../components/EntryCards'
 import { characterPortraits } from '../data/characterPortraits'
 import { cachedStory, hasStory, loadStory } from '../data/characterStories'
 import { entryArt } from '../data/entryArt'
@@ -113,7 +113,7 @@ export function UniqueSprenPage() {
     >
       {cards.length > 0 && (
         <PageSection id="known" title="Known unique spren">
-          <div className="entry-cards">
+          <EntryCardList>
             {cards.map((c) => (
               <EntryCard
                 key={c.key}
@@ -125,7 +125,7 @@ export function UniqueSprenPage() {
                 {c.intro && <p>{link(c.intro, new Set([c.key]))}</p>}
               </EntryCard>
             ))}
-          </div>
+          </EntryCardList>
         </PageSection>
       )}
     </EntryPage>

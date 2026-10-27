@@ -4,7 +4,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router'
 import { routes } from './routes'
 import '@fontsource/im-fell-english/400.css'
 import '@fontsource/im-fell-english/400-italic.css'
-import './styles/index.css'
+import './styles/app.css'
 
 const router = createBrowserRouter(routes)
 
