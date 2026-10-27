@@ -150,7 +150,7 @@
   margin: 0 0 0.5rem;
 }
 
-.part {
+.chapter h3 .part {
   display: block;
   font-size: 0.8rem;
   font-weight: 400;
@@ -296,29 +296,97 @@
   cursor: default;
 }
 
+/* The timeline: a labelled point for every chapter, grouped by part. */
 .track {
   position: relative;
   flex: 1;
+  min-width: 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
 }
 
-.track input {
-  width: 100%;
-  accent-color: var(--gold);
+.track ol {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
 }
 
-/* Where each part starts. */
-.ticks {
+.track > ol {
+  gap: 0.75rem;
+  padding: 0 0.25rem 0.25rem;
+}
+
+.track .group {
+  flex: none;
+}
+
+.partName {
+  display: block;
+  margin: 0 0 0.15rem 0.35rem;
+  color: var(--gold);
+  font-size: 0.7rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.track .group ol {
   position: relative;
-  height: 0.5rem;
-  margin: 0 0.5rem;
 }
 
-.ticks span {
+/* The line through the points. */
+.track .group ol::before {
   position: absolute;
-  top: 0;
-  width: 2px;
-  height: 0.5rem;
-  background: rgba(212, 165, 64, 0.6);
+  top: calc(0.25rem + 5px);
+  right: 0.9rem;
+  left: 0.9rem;
+  height: 2px;
+  background: rgba(212, 165, 64, 0.35);
+  content: '';
+}
+
+.track .group button {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.2rem;
+  min-width: 1.8rem;
+  padding: 0.25rem 0.2rem;
+  border: 0;
+  background: none;
+  color: var(--text-muted, #a9b3bc);
+  font: inherit;
+  font-size: 0.75rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  background: var(--slate-deep);
+}
+
+.track .group button.past .dot {
+  background: rgba(212, 165, 64, 0.55);
+}
+
+.track .group button[aria-current] {
+  color: var(--gold);
+  font-weight: 700;
+}
+
+.track .group button[aria-current] .dot {
+  background: var(--gold);
+  box-shadow: 0 0 0 3px rgba(212, 165, 64, 0.35);
+}
+
+.track .group button:hover .dot {
+  background: var(--gold-soft);
 }
 
 .credit {

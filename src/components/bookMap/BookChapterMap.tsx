@@ -109,6 +109,20 @@ function ChapterMapView({
   const engine = useRef<MapEngineHandle>(null)
   // Play from the end restarts at the first chapter; wait for the URL to catch up.
   const restarting = useRef(false)
+  const track = useRef<HTMLDivElement>(null)
+  const scrolled = useRef(false)
+
+  // Keep the current chapter's point in view along the timeline.
+  useEffect(() => {
+    const box = track.current
+    const at = box?.querySelector<HTMLElement>('[aria-current]')
+    if (!box || !at) return
+    const [b, a] = [box.getBoundingClientRect(), at.getBoundingClientRect()]
+    const left = box.scrollLeft + a.left - b.left - b.width / 2 + a.width / 2
+    const smooth = scrolled.current && !reducedMotion()
+    box.scrollTo?.({ left, behavior: smooth ? 'smooth' : 'instant' })
+    scrolled.current = true
+  }, [current])
 
   const shows = (id: string) => !following.size || following.has(id)
   const follow = (id: string) =>
@@ -257,9 +271,13 @@ function ChapterMapView({
     e.preventDefault()
   }
 
-  const parts = chapters.flatMap((c, i) =>
-    c.part && c.part !== chapters[i - 1]?.part ? [{ i, part: c.part }] : [],
-  )
+  // Runs of chapters in the same part (or none, e.g. a prologue).
+  const parts: { part?: string; from: number; to: number }[] = []
+  chapters.forEach((c, i) => {
+    const last = parts.at(-1)
+    if (last && last.part === c.part) last.to = i + 1
+    else parts.push({ part: c.part, from: i, to: i + 1 })
+  })
   const here = chapter.positions.filter((p) => p.here)
   const away = chapter.positions.filter((p) => !p.here)
 
@@ -510,30 +528,38 @@ function ChapterMapView({
         >
           {playing ? '❚❚' : '▶'}
         </button>
-        <div className={styles.track}>
-          <input
-            type="range"
-            min={0}
-            max={chapters.length - 1}
-            value={current}
-            onChange={(e) => {
-              setPlaying(false)
-              go(Number(e.target.value))
-            }}
-            aria-label="Chapter"
-            aria-valuetext={chapter.label}
-          />
-          {chapters.length > 1 && (
-            <div className={styles.ticks} aria-hidden="true">
-              {parts.map(({ i, part }) => (
-                <span
-                  key={part}
-                  style={{ left: `${(i / (chapters.length - 1)) * 100}%` }}
-                  title={part}
-                />
-              ))}
-            </div>
-          )}
+        <div className={styles.track} ref={track}>
+          <ol aria-label="Chapters">
+            {parts.map(({ part, from, to }) => (
+              <li key={from} className={styles.group}>
+                <span className={styles.partName} aria-hidden={!part}>
+                  {part ?? '\u00a0'}
+                </span>
+                <ol>
+                  {chapters.slice(from, to).map((c, j) => {
+                    const i = from + j
+                    return (
+                      <li key={c.id}>
+                        <button
+                          type="button"
+                          aria-label={part ? `${c.label}, ${part}` : c.label}
+                          aria-current={i === current ? 'step' : undefined}
+                          className={i < current ? styles.past : undefined}
+                          onClick={() => {
+                            setPlaying(false)
+                            go(i)
+                          }}
+                        >
+                          <span className={styles.dot} />
+                          {c.label.replace(/^Chapter /, '')}
+                        </button>
+                      </li>
+                    )
+                  })}
+                </ol>
+              </li>
+            ))}
+          </ol>
         </div>
         <button
           type="button"

@@ -125,9 +125,19 @@ describe('book chapter map', () => {
     expect(
       within(region).getByRole('button', { name: 'Next chapter' }),
     ).toBeDisabled()
+    const timeline = within(region).getByRole('list', { name: 'Chapters' })
     expect(
-      within(region).getByRole('slider', { name: 'Chapter' }),
-    ).toHaveAttribute('max', '17')
+      within(timeline).getByRole('button', { name: 'Chapter 17, Part Three' }),
+    ).toHaveAttribute('aria-current', 'step')
+    expect(
+      within(timeline).getByRole('button', { name: 'Prologue' }),
+    ).toHaveTextContent('Prologue')
+    expect(
+      within(timeline).getByRole('button', { name: /^Chapter 5,/ }),
+    ).toHaveTextContent('5')
+    expect(
+      within(timeline).queryByRole('button', { name: /^Chapter 18,/ }),
+    ).toBeNull()
     expect(within(region).queryByText(/Keep Elariel/)).toBeNull()
     expect(within(region).queryByText(/Shan/)).toBeNull()
   })
@@ -251,8 +261,13 @@ describe('book chapter map', () => {
     await userEvent.click(
       within(region).getByRole('button', { name: /show anyway/i }),
     )
+    const timeline = within(region).getByRole('list', { name: 'Chapters' })
     expect(
-      within(region).getByRole('slider', { name: 'Chapter' }),
-    ).toHaveAttribute('max', '39')
+      within(timeline).getByRole('button', { name: 'Epilogue' }),
+    ).toBeInTheDocument()
+    await userEvent.click(
+      within(timeline).getByRole('button', { name: /^Chapter 30,/ }),
+    )
+    expect(chapterHeading(region)).toHaveTextContent('Chapter 30')
   })
 })

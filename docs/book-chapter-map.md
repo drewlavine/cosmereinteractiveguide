@@ -28,7 +28,9 @@ The rest of the book page stays as it is until this ships.
 
 - **Map** at the top of `BookDetail`: about 60vh on desktop, 50vh on phones, full width.
 - **Chapter scrubber** under the map:
-  - ticks for parts and interludes (labels from `chapters.ts`)
+  - a timeline with a labelled point for every chapter the reader may see (prologue,
+    numbers, interludes, epilogue), grouped under part names from `chapters.ts`; it
+    scrolls sideways and keeps the current chapter centred
   - Prev / Next / Play buttons; ← → keys
   - the chapter is kept in the URL (`?ch=12`) so a link opens at the same point
 - **On the map at chapter N:**
