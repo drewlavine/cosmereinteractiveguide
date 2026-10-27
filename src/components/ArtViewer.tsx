@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState, type ReactNode } from 'react'
+import { assetUrl } from '../data/assetUrl'
 
 /** The whole picture, uncropped, over everything; Escape or a click closes. */
 export function ArtViewer({
@@ -43,7 +44,7 @@ export function ArtViewer({
       }}
     >
       <figure>
-        <img src={src} alt={alt} />
+        <img src={assetUrl(src)} alt={alt} />
         <figcaption>
           {caption && <span className="art-caption">{caption}</span>}
           Art by {credit}
@@ -94,7 +95,7 @@ export function PortraitArt({
         onClick={() => setViewing(true)}
         aria-label="View the whole picture"
       >
-        <img src={src} alt={alt} />
+        <img src={assetUrl(src)} alt={alt} />
         <span className="art-hint" aria-hidden>
           ⤢
         </span>

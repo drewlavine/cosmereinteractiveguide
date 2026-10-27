@@ -4,6 +4,7 @@
  * here is spoiler-gated yet. The real Timeline will come from a pipeline.
  */
 import type { CSSProperties } from 'react'
+import { assetUrl } from './assetUrl'
 
 export type World =
   | 'cosmere'
@@ -30,7 +31,7 @@ export const worldColour = (w: World) =>
 
 /** A portrait id (under `/portraits/`) or a path like `entries/x`. */
 export const artSrc = (id: string) =>
-  `/${id.includes('/') ? id : `portraits/${id}`}.webp`
+  assetUrl(`/${id.includes('/') ? id : `portraits/${id}`}.webp`)
 
 /** Mockup 1: era sections of cards, with an "at a glance" strip. */
 export type CardsItem =

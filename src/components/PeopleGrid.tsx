@@ -2,6 +2,7 @@ import { Link } from 'react-router'
 import { characterPortraits } from '../data/characterPortraits'
 import { revealPortrait } from '../data/reveal'
 import { useCanSee } from '../state/reveal'
+import { assetUrl } from '../data/assetUrl'
 
 export interface GridPerson {
   characterId: string
@@ -38,7 +39,7 @@ export function PeopleGrid({ people }: { people: GridPerson[] }) {
               {art ? (
                 <img
                   className="people-card-face"
-                  src={art.src}
+                  src={assetUrl(art.src)}
                   alt=""
                   loading="lazy"
                   decoding="async"

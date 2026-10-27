@@ -1,6 +1,7 @@
 import { lazy, Suspense, useState } from 'react'
 import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
 import { rootOf } from './journeyGeometry'
+import { assetUrl } from '../../data/assetUrl'
 
 const JourneyMap = lazy(() => import('./JourneyMap'))
 
@@ -63,7 +64,7 @@ export function JourneyPreview({
           aria-hidden
         >
           <image
-            href={map.image.thumb ?? map.image.src}
+            href={assetUrl(map.image.thumb ?? map.image.src)}
             width={W}
             height={H}
             preserveAspectRatio="none"

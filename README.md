@@ -35,6 +35,23 @@ npm run dev
 | `npm run data:fetch`               | Pull raw wikitext from the Coppermind API                                    |
 | `npm run spoiler:snapshot -- <id>` | Check a character page against the Coppermind Time Machine (see `AGENTS.md`) |
 
+## Deploying
+
+Every push to `main` runs `.github/workflows/pages.yml`: lint, tests, then a
+build published to GitHub Pages at
+<https://drewlavine.github.io/cosmereinteractiveguide/> (Pages source:
+"GitHub Actions"). The site lives under `/cosmereinteractiveguide/`, so the
+workflow builds with `BASE_PATH=/cosmereinteractiveguide/`; locally the base
+stays `/`. To check a Pages build on your machine, run
+`BASE_PATH=/cosmereinteractiveguide/ npm run build` and the same for
+`npm run preview`.
+
+- Files in `public/` are referenced by root paths in data
+  (`/portraits/x.webp`); render them through `assetUrl()`
+  (`src/data/assetUrl.ts`), which adds the base.
+- The build copies `index.html` to `404.html`, so a link straight to a page
+  (e.g. `/characters/kaladin`) still opens the app.
+
 ## Project layout
 
 ```

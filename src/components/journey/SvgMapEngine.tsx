@@ -7,6 +7,7 @@ import {
 } from 'react'
 import { PanZoom, type PanZoomHandle, type Transform } from '../PanZoom'
 import type { MapEngineProps } from './MapEngine'
+import { assetUrl } from '../../data/assetUrl'
 
 /**
  * The SVG map engine: the image in a PanZoom (mouse, touch pan and pinch),
@@ -57,7 +58,7 @@ export function SvgMapEngine({ image, label, layers, ref }: MapEngineProps) {
     <PanZoom label={label} ref={panZoom} onTransform={onTransform}>
       <div className="journey-canvas" ref={canvas}>
         <img
-          src={image.src}
+          src={assetUrl(image.src)}
           alt={image.alt}
           width={image.width}
           height={image.height}

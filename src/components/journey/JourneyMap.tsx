@@ -28,6 +28,7 @@ import {
   tracks,
 } from './journeyGeometry'
 import { useFullscreen } from './useFullscreen'
+import { assetUrl } from '../../data/assetUrl'
 
 const PLAY_MS = 2600
 // The least a stop's view shows, as a share of the map's width.
@@ -437,7 +438,7 @@ export default function JourneyMap({
                   aria-label="View the whole picture"
                 >
                   <img
-                    src={stop.art.src}
+                    src={assetUrl(stop.art.src)}
                     alt={stop.art.alt}
                     style={
                       stop.art.position

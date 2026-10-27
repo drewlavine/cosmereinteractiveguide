@@ -10,6 +10,7 @@ import { useCanSee } from '../state/reveal'
 import { TracerOverlay, TracerToolbar, type Point } from './MapTracer'
 import { PanZoom } from './PanZoom'
 import { PageSection } from './PageSections'
+import { assetUrl } from '../data/assetUrl'
 
 /** One place on the map: an outline made of one or more areas, or a pin. */
 type Shape =
@@ -196,7 +197,7 @@ export function InteractiveMap({
                       height={version.height}
                     >
                       <image
-                        href={labels.mask}
+                        href={assetUrl(labels.mask)}
                         width={version.width}
                         height={version.height}
                       />
