@@ -626,6 +626,26 @@ Personal arcs and battles belong on character and journey pages.
 - [x] Every Cosmere book, grouped by series, with a page each (names,
       series, kind and year only for now). Read books are marked, and books
       are searchable.
+  - [ ] **Chapter map first** (nothing else on book pages until it ships):
+        a cosmeremaps.com-style map and chapter scrubber at the top of
+        each book page, showing where everyone is and what happens in each
+        chapter, capped at the reader's chapter. Plan:
+        `docs/book-chapter-map.md`. Decided: SVG on the existing
+        `MapEngine`; characters not in the chapter are dimmed at their
+        last known spot; cosmere-maps credited in the footer.
+    - [ ] Pilot data for The Final Empire: `happensIn` / `flashback` on
+          journey events, a cosmere-maps importer with reprojection onto
+          our maps, gaps filled from the chapter summaries (facts only),
+          generated checks, and a Time Machine spoiler pass
+    - [ ] `revealBookChapters` in `reveal.ts`, with tests pinned at chapter
+          boundaries (scrubber limit, unmet characters, personas, places,
+          flashbacks, Show anyway)
+    - [ ] `BookChapterMap` component (CSS Module): map, scrubber with
+          part/interlude ticks, "This chapter" panel, `?ch=` in the URL
+    - [ ] Play, trails, character filter, map switching and city zoom,
+          phone layout
+    - [ ] Roll out book by book (Well of Ascension, Hero of Ages, then
+          Stormlight)
   - [ ] Book details (setting, worlds and places, previous/next in series)
   - [ ] Publication order view (the Coppermind's Cosmere bibliography
         lists every book in order, including within a year)
