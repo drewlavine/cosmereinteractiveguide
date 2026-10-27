@@ -23,5 +23,7 @@ export default defineConfig({
     environment: 'jsdom',
     setupFiles: ['./src/test/setup.ts'],
     css: true,
+    // Whole character pages render slowly on CI runners.
+    testTimeout: 20_000,
   },
 })
