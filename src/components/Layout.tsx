@@ -105,6 +105,14 @@ export function Layout() {
             >
               the 17th Shard
             </a>{' '}
+            (MIT); chapter routes from{' '}
+            <a
+              href="https://github.com/altonchaney/cosmere-maps"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Alton Chaney&rsquo;s Cosmere Maps
+            </a>{' '}
             (MIT). Private, unofficial fan project, not affiliated with
             Dragonsteel.
           </footer>

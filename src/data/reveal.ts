@@ -1,4 +1,6 @@
 import { hasReached, type ReadingProgress } from './progress'
+import { books, bookSeries } from './books'
+import { chapters } from './chapters'
 import { characterDetails } from './characterDetails'
 import type { Portrait } from './characterPortraits'
 import { characterTravels, type TravelStop } from './travels'
@@ -716,6 +718,26 @@ const firstPoint = (
 }
 
 /**
+ * Adds a map to `maps` (once), after the revealed maps holding it (a city's
+ * region map), outermost first, so a view can zoom out to them.
+ */
+function addMapChain(
+  maps: AtlasMap[],
+  map: AtlasMap,
+  atlas: Atlas,
+  canSee: CanSee,
+) {
+  const chain: AtlasMap[] = []
+  for (let m: AtlasMap | undefined = map; m;) {
+    if (chain.includes(m)) break
+    chain.unshift(m)
+    const up: AtlasMap | undefined = m.parent && atlas.map(m.parent.mapId)
+    m = up && canSee(up.revealedIn) ? up : undefined
+  }
+  for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
+}
+
+/**
  * One character's journey (the events of any of `characterIds`, e.g. a
  * character and their personas), trimmed to what the reader may see: events they
  * haven't reached, on maps they can't see yet, vanish; places they haven't
@@ -755,15 +777,7 @@ export function revealJourney(
       if (!map || !show(e.revealedIn)) return []
       // The map is the series' own, not the character's: never trimmed.
       if (!canSee(map.revealedIn) && ((spoilers = true), !viewAnyway)) return []
-      // An inner map (a city) brings the maps holding it, to zoom out to.
-      const chain: AtlasMap[] = []
-      for (let m: AtlasMap | undefined = map; m;) {
-        if (chain.includes(m)) break
-        chain.unshift(m)
-        const up: AtlasMap | undefined = m.parent && atlas.map(m.parent.mapId)
-        m = up && canSee(up.revealedIn) ? up : undefined
-      }
-      for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
+      addMapChain(maps, map, atlas, canSee)
       if (e.source) sources.add(e.source)
       const located = !e.placeRevealedIn || see(e.placeRevealedIn)
       const place = e.placeId && located ? atlas.place(e.placeId) : undefined
@@ -893,6 +907,226 @@ export function revealCharacterJourney(
     ...options,
     trim: v.trim,
   })
+}
+
+/** Someone on a book's chapter map, as the reader knows them. */
+export interface ShownBookCast {
+  /** Their page: a persona's until the reader has seen through it. */
+  id: string
+  name: string
+  /** Index into the map's palette, by first appearance in shown chapters. */
+  colour: number
+}
+
+/** A chapter-map scene trimmed to what the reader may see. */
+export interface ShownBookScene {
+  id: string
+  mapId: string
+  path: readonly MapPoint[]
+  approximate: boolean
+  /** A memory: drawn apart, and doesn't move anyone. */
+  flashback: boolean
+  place?: { name: string; href?: string }
+  /** One line on what happens; none on a travel leg. */
+  text?: string
+  /** Cast ids (ShownBookCast), met only. */
+  characters: string[]
+}
+
+/** Where someone is at a chapter: here, or dimmed at their last spot. */
+export interface ShownBookPosition {
+  id: string
+  mapId: string
+  point: MapPoint
+  /** In this chapter (else last seen in an earlier one). */
+  here: boolean
+  /** Their latest art as of this chapter, never later. */
+  portrait?: Portrait
+}
+
+export interface ShownBookChapter {
+  id: string
+  label: string
+  part?: string
+  scenes: ShownBookScene[]
+  /** Everyone met so far who hasn't left the book, in cast order. */
+  positions: ShownBookPosition[]
+}
+
+export interface ShownBookChapters {
+  /** Reading order, up to the reader's chapter. Empty for an unread book. */
+  chapters: ShownBookChapter[]
+  cast: ShownBookCast[]
+  /** As ShownJourney's maps. */
+  maps: AtlasMap[]
+  credits: JourneyCredit[]
+  /** Whether chapters past the reader's hide any of it. */
+  spoilers: boolean
+}
+
+/**
+ * A book's chapter map (its scenes, see bookScenes.ts) trimmed to what the
+ * reader may see: chapters up to theirs, only characters they've met, a
+ * persona shown as the character once seen through, places named as
+ * revealJourney names them. Each chapter also says where everyone is: here,
+ * or dimmed at their last spot until they leave the book. `person` gives a
+ * name and art for an id (kept out of here, as people.ts imports this).
+ */
+export function revealBookChapters(
+  bookId: string,
+  events: readonly JourneyEvent[],
+  atlas: Atlas,
+  canSee: CanSee,
+  {
+    viewAnyway = false,
+    credits = [],
+    person,
+  }: {
+    viewAnyway?: boolean
+    credits?: readonly JourneyCredit[]
+    person: (
+      id: string,
+    ) => { name: string; portraits?: readonly Portrait[] } | undefined
+  },
+): ShownBookChapters {
+  let spoilers = false
+  const see: CanSee = (reveal) => viewAnyway || canSee(reveal)
+  // Who an id is shown as: a persona the reader has seen through is the
+  // character (with the persona's art too, for chapters before the reveal).
+  const shownAs = (id: string) => {
+    const persona = findPersona(id)
+    return persona && canSee(persona.identityRevealedIn)
+      ? persona.characterId
+      : id
+  }
+  const art = (id: string, as: string) => [
+    ...(id !== as ? (person(id)?.portraits ?? []) : []),
+    ...(person(as)?.portraits ?? []),
+  ]
+  // Art as of a chapter: the books before this one in its series, and this
+  // one up to that chapter (other series as the reader has them).
+  const series = bookSeries.find((s) => s.books.some((b) => b.id === bookId))
+  const later = new Set(
+    series?.books
+      .slice(series.books.findIndex((b) => b.id === bookId))
+      .map((b) => b.id),
+  )
+  const read = new Set(books.map((b) => b.id).filter((b) => !later.has(b)))
+  const asOf =
+    (chapter: string): CanSee =>
+    (reveal) =>
+      reveal.some(
+        (p) =>
+          see([p]) &&
+          hasReached({ read, reading: new Map([[bookId, chapter]]) }, p),
+      )
+
+  const byChapter = new Map<string, JourneyEvent[]>()
+  for (const e of events.toSorted((a, b) => a.order - b.order))
+    if (e.happensIn?.book === bookId)
+      byChapter.set(e.happensIn.chapter, [
+        ...(byChapter.get(e.happensIn.chapter) ?? []),
+        e,
+      ])
+
+  const maps: AtlasMap[] = []
+  const sources = new Set<string>()
+  const cast: ShownBookCast[] = []
+  const firstIds = new Map<string, string>()
+  const last = new Map<string, { mapId: string; point: MapPoint }>()
+  const shown: ShownBookChapter[] = []
+  for (const ch of chapters[bookId] ?? []) {
+    if (!canSee([{ book: bookId, chapter: ch.id }])) {
+      spoilers = true
+      if (!viewAnyway) break
+    }
+    const here = new Set<string>()
+    const leaving: string[] = []
+    const scenes = (byChapter.get(ch.id) ?? []).flatMap(
+      (e): ShownBookScene[] => {
+        const map = atlas.map(e.mapId)
+        if (!map || !see(e.revealedIn)) return []
+        if (!canSee(map.revealedIn) && ((spoilers = true), !viewAnyway))
+          return []
+        addMapChain(maps, map, atlas, canSee)
+        if (e.source) sources.add(e.source)
+        const ids = e.characters
+          .filter((c) => viewAnyway || hasMet(shownAs(c), canSee))
+          .map((c) => {
+            const as = shownAs(c)
+            if (!cast.some((m) => m.id === as)) {
+              cast.push({
+                id: as,
+                name: person(as)?.name ?? as,
+                colour: cast.length,
+              })
+              firstIds.set(as, c)
+            }
+            return as
+          })
+        if (!e.flashback)
+          for (const c of ids) {
+            here.add(c)
+            last.set(c, { mapId: e.mapId, point: e.path.at(-1)! })
+          }
+        for (const c of e.leaves ?? []) leaving.push(shownAs(c))
+        const place = e.placeId ? atlas.place(e.placeId) : undefined
+        const text = (e.summary ?? []).find(
+          (p) => see(p.revealedIn) && !(p.supersededIn && see(p.supersededIn)),
+        )?.text
+        return [
+          {
+            id: e.id,
+            mapId: e.mapId,
+            path: e.path,
+            approximate: !!e.approximate,
+            flashback: !!e.flashback,
+            place:
+              place && see(place.revealedIn)
+                ? { name: place.name, href: place.href }
+                : e.placeName
+                  ? { name: e.placeName }
+                  : undefined,
+            ...(text && { text }),
+            characters: [...new Set(ids)],
+          },
+        ]
+      },
+    )
+    const seeArt = asOf(ch.id)
+    shown.push({
+      id: ch.id,
+      label: ch.label,
+      ...(ch.part && { part: ch.part }),
+      scenes,
+      positions: cast.flatMap((m) => {
+        const at = last.get(m.id)
+        if (!at) return []
+        const { portrait } = revealPortrait(
+          art(firstIds.get(m.id)!, m.id),
+          seeArt,
+        )
+        return [
+          {
+            id: m.id,
+            ...at,
+            here: here.has(m.id),
+            ...(portrait && { portrait }),
+          },
+        ]
+      }),
+    })
+    for (const c of leaving) last.delete(c)
+  }
+  return {
+    chapters: shown,
+    cast,
+    maps,
+    credits: credits.filter((c) =>
+      c.source ? sources.has(c.source) : shown.length,
+    ),
+    spoilers,
+  }
 }
 
 /** What a place's page may say in prose. */

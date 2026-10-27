@@ -633,16 +633,18 @@ Personal arcs and battles belong on character and journey pages.
         `docs/book-chapter-map.md`. Decided: SVG on the existing
         `MapEngine`; characters not in the chapter are dimmed at their
         last known spot; cosmere-maps credited in the footer.
-    - [ ] Pilot data for The Final Empire: `happensIn` / `flashback` on
+    - [x] Pilot data for The Final Empire: `happensIn` / `flashback` on
           journey events, a cosmere-maps importer with reprojection onto
           our maps, gaps filled from the chapter summaries (facts only),
           generated checks, and a Time Machine spoiler pass
-    - [ ] `revealBookChapters` in `reveal.ts`, with tests pinned at chapter
+    - [x] `revealBookChapters` in `reveal.ts`, with tests pinned at chapter
           boundaries (scrubber limit, unmet characters, personas, places,
           flashbacks, Show anyway)
-    - [ ] `BookChapterMap` component (CSS Module): map, scrubber with
-          part/interlude ticks, "This chapter" panel, `?ch=` in the URL
-    - [ ] Play, trails, character filter, map switching and city zoom,
+    - [x] `BookChapterMap` component (CSS Module): map, scrubber with
+          part/interlude ticks, "This chapter" panel, `?ch=` in the URL;
+          portrait markers ringed in each character's colour, with chips
+          as the matching legend (personas get their own colour)
+    - [x] Play, trails, character filter, map switching and city zoom,
           phone layout
     - [ ] Roll out book by book (Well of Ascension, Hero of Ages, then
           Stormlight)

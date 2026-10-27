@@ -1,0 +1,2174 @@
+{
+  "id": "final-empire",
+  "credits": [
+    {
+      "text": "Chapter scenes written for this guide from the Coppermind's chapter summaries",
+      "url": "https://coppermind.net/wiki/Summary:Mistborn:_The_Final_Empire",
+      "source": "final-empire-scenes"
+    },
+    {
+      "text": "Chapter routes adapted from Alton Chaney's Cosmere Maps (MIT)",
+      "url": "https://github.com/altonchaney/cosmere-maps",
+      "source": "cosmere-maps"
+    }
+  ],
+  "events": [
+    {
+      "id": "bs-c029b9ee",
+      "characters": ["kelsier"],
+      "mapId": "final-empire",
+      "path": [[1195, 668]],
+      "placeId": "tresting",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "prologue"
+        }
+      ],
+      "order": 1,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "prologue"
+      },
+      "summary": [
+        {
+          "text": "Kelsier killed Lord Tresting and his men, then burned the manor.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "prologue"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Tresting plantation"
+    },
+    {
+      "id": "bs-d7467f8b",
+      "characters": ["vin", "camon"],
+      "mapId": "luthadel",
+      "path": [[724, 770]],
+      "placeName": "Canton of Finance",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "1"
+        }
+      ],
+      "order": 2,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "1"
+      },
+      "summary": [
+        {
+          "text": "Vin used her Luck to help Camon con an obligator.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "1"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-d44c2982",
+      "characters": ["vin", "camon", "kelsier", "dockson"],
+      "mapId": "luthadel",
+      "path": [[724, 770]],
+      "placeName": "Canton of Finance",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "2"
+        }
+      ],
+      "order": 3,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "2"
+      },
+      "summary": [
+        {
+          "text": "Vin's Luck won Camon three thousand boxings, as Kelsier and Dockson watched an Inquisitor tail Camon's party.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "2"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-5637b7c5",
+      "characters": ["vin", "kelsier", "dockson", "camon"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "3"
+        }
+      ],
+      "order": 4,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "3"
+      },
+      "leaves": ["camon"],
+      "summary": [
+        {
+          "text": "Kelsier saved Vin from Camon, took over his crew's den and tested Vin's powers.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "3"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-29d009fe",
+      "characters": ["kelsier", "vin", "dockson", "breeze", "hammond", "clubs"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "4"
+        }
+      ],
+      "order": 5,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "4"
+      },
+      "summary": [
+        {
+          "text": "Kelsier pitched his crew a plan to overthrow the Final Empire and revealed that Vin is Mistborn.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "4"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-761536ab",
+      "characters": ["clubs"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "5"
+        }
+      ],
+      "order": 6,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "5"
+      },
+      "summary": [
+        {
+          "text": "Clubs came back and agreed to join the crew.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "5"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-fc76e23f",
+      "characters": ["kelsier"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "5"
+        }
+      ],
+      "order": 7,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "5"
+      },
+      "summary": [
+        {
+          "text": "Kelsier broke into Keep Venture, stole its atium and fought his way out.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "5"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-f2f67625",
+      "characters": [
+        "vin",
+        "kelsier",
+        "dockson",
+        "breeze",
+        "hammond",
+        "clubs",
+        "spook"
+      ],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "6"
+        }
+      ],
+      "order": 8,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "6"
+      },
+      "summary": [
+        {
+          "text": "The crew moved into Clubs' shop and planned the job.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "6"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-594a93b7",
+      "characters": ["marsh"],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "6"
+        }
+      ],
+      "order": 9,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "6"
+      },
+      "summary": [
+        {
+          "text": "Marsh arrived, and Kelsier sent the others away to talk with him alone.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "6"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-91cbf90d",
+      "characters": ["marsh"],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "7"
+        }
+      ],
+      "order": 10,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "7"
+      },
+      "summary": [
+        {
+          "text": "Kelsier persuaded Marsh to come back and hear the plan.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-99a2dce5",
+      "characters": ["vin", "kelsier"],
+      "mapId": "luthadel",
+      "path": [[962, 388]],
+      "placeName": "Luthadel city wall",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "7"
+        }
+      ],
+      "order": 11,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "7"
+      },
+      "summary": [
+        {
+          "text": "Kelsier gave Vin a mistcloak and taught her to burn the basic metals.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "7"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-f0243b29",
+      "characters": ["vin", "kelsier", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1244, 809]
+      ],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "8"
+        }
+      ],
+      "order": 12,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "8"
+      },
+      "summary": [
+        {
+          "text": "Kelsier brought Vin to Lord Renoux's mansion in Fellise, to pose as a young noblewoman.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-b849228a",
+      "characters": ["oreseur"],
+      "mapId": "final-empire",
+      "path": [[1244, 809]],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "8"
+        }
+      ],
+      "order": 13,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "8"
+      },
+      "summary": [
+        {
+          "text": "Lord Renoux agreed to present Vin to the nobility as his relative.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "8"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-0f8cb6a8",
+      "characters": ["vin", "kelsier", "sazed"],
+      "mapId": "final-empire",
+      "path": [[1244, 809]],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "9"
+        }
+      ],
+      "order": 14,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "9"
+      },
+      "summary": [
+        {
+          "text": "Kelsier sparred with Vin, and Sazed drilled her in her noble cover.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "9"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-41501498",
+      "characters": ["vin", "kelsier", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "10"
+        }
+      ],
+      "order": 15,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "10"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-e8fd82a1",
+      "characters": ["vin", "kelsier", "breeze", "hammond"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "Luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "10"
+        }
+      ],
+      "order": 16,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "10"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Breeze's Soothers worked the crowd as Kelsier spoke to skaa recruits.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "10"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-856e3b60",
+      "characters": [
+        "vin",
+        "kelsier",
+        "sazed",
+        "dockson",
+        "breeze",
+        "hammond",
+        "clubs",
+        "spook"
+      ],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "10"
+        }
+      ],
+      "order": 17,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "10"
+      },
+      "summary": [
+        {
+          "text": "At a crew meeting, word came that the Ministry had found Camon's old den.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "10"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-0173dbe8",
+      "characters": ["vin", "kelsier", "sazed"],
+      "mapId": "luthadel",
+      "path": [[473, 486]],
+      "placeName": "Camon's hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "11"
+        }
+      ],
+      "order": 18,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "11"
+      },
+      "summary": [
+        {
+          "text": "The crew found Camon's old crew slaughtered in their den.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-ee2b981e",
+      "characters": ["vin", "kelsier"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "Luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "11"
+        }
+      ],
+      "order": 19,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "11"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Kelsier found Camon's tortured body among the beggars; Vin had followed him there.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "11"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-23ec760a",
+      "characters": ["vin", "sazed", "elend-venture"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "12"
+        }
+      ],
+      "order": 20,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "12"
+      },
+      "summary": [
+        {
+          "text": "At Keep Venture's ball, Vin, as Valette Renoux, talked with Elend for the first time.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "12"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-941fbcce",
+      "characters": ["vin", "kelsier"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "Luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "13"
+        }
+      ],
+      "order": 21,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "13"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Vin followed Kelsier out of Fellise; he caught her, taught her about atium and took her to Kredik Shaw.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "13"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-4748c628",
+      "characters": ["vin", "kelsier"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "14"
+        }
+      ],
+      "order": 22,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "14"
+      },
+      "summary": [
+        {
+          "text": "Kelsier and Vin raided Kredik Shaw; she killed for the first time, and an Inquisitor wounded her.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "14"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "bs-a08ccb3c",
+      "characters": ["sazed", "vin", "kelsier", "dockson", "hammond"],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "15"
+        }
+      ],
+      "order": 23,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "15"
+      },
+      "summary": [
+        {
+          "text": "Sazed brought the wounded Vin to Clubs' shop and stitched her up.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "15"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-b1bfff94",
+      "characters": ["vin", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1244, 809]
+      ],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "16"
+        }
+      ],
+      "order": 24,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "16"
+      },
+      "summary": [
+        {
+          "text": "Vin recovered and returned to Fellise, where Sazed was translating the book she took.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "16"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-509872c9",
+      "characters": ["vin", "kelsier"],
+      "mapId": "final-empire",
+      "path": [[1244, 809]],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "17"
+        }
+      ],
+      "order": 25,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "17"
+      },
+      "summary": [
+        {
+          "text": "Kelsier agreed to let Vin attend another ball, and told her about Mare.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "17"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-d00c5d19",
+      "characters": ["vin", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "18"
+        }
+      ],
+      "order": 26,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "18"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-7334b886",
+      "characters": ["vin", "sazed", "elend-venture", "shan-elariel"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "Keep Elariel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "18"
+        }
+      ],
+      "order": 27,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "18"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "At Keep Elariel's ball, Elend sat with Vin, and Vin saw that Shan Elariel could Soothe.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "18"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-d6e95007",
+      "characters": ["kelsier"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "Keep Tekiel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "19"
+        }
+      ],
+      "order": 28,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "19"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Kelsier left a murdered nobleman in House Tekiel's garden to stir up a house war.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "19"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-56e1661b",
+      "characters": ["kelsier", "vin", "sazed", "oreseur"],
+      "mapId": "final-empire",
+      "path": [[1244, 809]],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "19"
+        }
+      ],
+      "order": 29,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "19"
+      },
+      "summary": [
+        {
+          "text": "Kelsier traded news with Vin, Sazed and Lord Renoux.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "19"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-70ade32e",
+      "characters": ["vin", "marsh"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1244, 809]
+      ],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "20"
+        }
+      ],
+      "order": 30,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "20"
+      },
+      "summary": [
+        {
+          "text": "Marsh came to Fellise and taught Vin to Seek.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "20"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-ed010c17",
+      "characters": ["kelsier", "hammond"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1272, 814],
+        [1275, 799],
+        [1266, 770],
+        [1278, 737],
+        [1277, 721],
+        [1278, 713],
+        [1268, 694],
+        [1258, 681],
+        [1250, 675],
+        [1249, 670],
+        [1257, 662],
+        [1259, 643],
+        [1270, 630]
+      ],
+      "placeId": "arguois-caverns",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "21"
+        }
+      ],
+      "order": 31,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "21"
+      },
+      "summary": [
+        {
+          "text": "Kelsier visited the skaa army in its caves and secretly helped Demoux win a duel against Bilg.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "21"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps",
+      "placeName": "Arguois caverns"
+    },
+    {
+      "id": "bs-2799a379",
+      "characters": ["vin", "sazed", "dockson", "spook"],
+      "mapId": "final-empire",
+      "path": [[1244, 809]],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "22"
+        }
+      ],
+      "order": 32,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "22"
+      },
+      "summary": [
+        {
+          "text": "Sazed told Vin the secrets of Feruchemy, and Dockson told her how a nobleman killed the woman he loved.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "22"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-2505a774",
+      "characters": ["vin", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "23"
+        }
+      ],
+      "order": 33,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "23"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-545eedf3",
+      "characters": ["kelsier"],
+      "mapId": "final-empire",
+      "path": [
+        [1270, 630],
+        [1259, 643],
+        [1257, 661],
+        [1249, 668],
+        [1250, 672],
+        [1259, 677],
+        [1268, 690],
+        [1278, 708],
+        [1278, 715],
+        [1279, 730],
+        [1267, 763],
+        [1276, 791],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "23"
+        }
+      ],
+      "order": 34,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "23"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-4b4ea30d",
+      "characters": ["vin", "sazed", "elend-venture", "shan-elariel"],
+      "mapId": "luthadel",
+      "path": [[676, 651]],
+      "placeName": "Keep Hasting",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "23"
+        }
+      ],
+      "order": 35,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "23"
+      },
+      "summary": [
+        {
+          "text": "At Keep Hasting, Elend asked to court Vin, who then spied on him and his friends.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "23"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-fe77fb4b",
+      "characters": ["kelsier"],
+      "mapId": "luthadel",
+      "path": [[676, 651]],
+      "placeName": "Keep Hasting",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "23"
+        }
+      ],
+      "order": 36,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "23"
+      },
+      "summary": [
+        {
+          "text": "Kelsier came to spy on Elend's friends too.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "23"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-73fb3aa5",
+      "characters": ["kelsier", "dockson", "breeze", "clubs", "spook"],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "24"
+        }
+      ],
+      "order": 37,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "24"
+      },
+      "summary": [
+        {
+          "text": "Kelsier went over the job's progress with the crew.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "24"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-5ee2fd06",
+      "characters": ["vin", "hammond"],
+      "mapId": "luthadel",
+      "path": [[440, 363]],
+      "placeName": "Luthadel Garrison",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "24"
+        }
+      ],
+      "order": 38,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "24"
+      },
+      "summary": [
+        {
+          "text": "At the Garrison, Ham and Vin learned the skaa army had attacked Holstep.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "24"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-2e986c0f",
+      "characters": ["kelsier", "vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1272, 814],
+        [1275, 799],
+        [1266, 770],
+        [1278, 737],
+        [1277, 721],
+        [1278, 713],
+        [1268, 694],
+        [1258, 681],
+        [1250, 675],
+        [1249, 670],
+        [1257, 662],
+        [1259, 643],
+        [1270, 630]
+      ],
+      "placeId": "arguois-caverns",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "25"
+        }
+      ],
+      "order": 39,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "25"
+      },
+      "summary": [
+        {
+          "text": "Kelsier and Vin raced to warn the army, passed its crushed remains, and found 2,000 men in the caves.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "25"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps",
+      "placeName": "Arguois caverns"
+    },
+    {
+      "id": "bs-14f28fad",
+      "characters": ["kelsier", "vin"],
+      "mapId": "final-empire",
+      "path": [
+        [1270, 630],
+        [1259, 643],
+        [1257, 661],
+        [1249, 668],
+        [1250, 672],
+        [1259, 677],
+        [1268, 690],
+        [1278, 708],
+        [1278, 715],
+        [1279, 730],
+        [1267, 763],
+        [1276, 791],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "26"
+        }
+      ],
+      "order": 40,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "26"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-f0a4c9e9",
+      "characters": ["kelsier", "vin", "dockson", "breeze", "hammond", "spook"],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeId": "square-of-the-survivor",
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "26"
+        }
+      ],
+      "order": 41,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "26"
+      },
+      "summary": [
+        {
+          "text": "From a rooftop, the crew watched the Ministry execute skaa in Fountain Square.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "26"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-46582b41",
+      "characters": ["sazed"],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "27"
+        }
+      ],
+      "order": 42,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "27"
+      },
+      "summary": [
+        {
+          "text": "Sazed brought word from Marsh of where to meet him.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "27"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-f157c3a9",
+      "characters": ["kelsier", "vin", "marsh"],
+      "mapId": "luthadel",
+      "path": [[440, 458]],
+      "placeName": "The Twists",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "27"
+        }
+      ],
+      "order": 43,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "27"
+      },
+      "summary": [
+        {
+          "text": "In the Twists, Kelsier gave Vin gold to burn, and Marsh told them about the Soothing stations.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "27"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-8f6795c2",
+      "characters": ["vin", "elend-venture", "shan-elariel"],
+      "mapId": "luthadel",
+      "path": [[1106, 492]],
+      "placeName": "Keep Lekal",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "28"
+        }
+      ],
+      "order": 44,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "28"
+      },
+      "summary": [
+        {
+          "text": "At Keep Lekal, Vin spread rumours to start a house war, and Elend urged her to leave Luthadel.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-34573c69",
+      "characters": ["elend-venture", "straff-venture"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "28"
+        }
+      ],
+      "order": 45,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "28"
+      },
+      "summary": [
+        {
+          "text": "Straff planned for a house war, and Jastes warned Elend that Valette might be a spy.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-a7219683",
+      "characters": ["kelsier", "vin", "sazed", "dockson", "breeze", "hammond"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1244, 809]
+      ],
+      "placeId": "fellise",
+      "placeName": "Mansion Renoux, Fellise",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "29"
+        }
+      ],
+      "order": 46,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "29"
+      },
+      "summary": [
+        {
+          "text": "At Mansion Renoux, the crew studied Marsh's map of the Ministry.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "29"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps"
+    },
+    {
+      "id": "bs-63b958c9",
+      "characters": ["vin", "sazed"],
+      "mapId": "final-empire",
+      "path": [
+        [1244, 809],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "30"
+        }
+      ],
+      "order": 47,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "30"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-2f3a9cd5",
+      "characters": ["vin", "sazed", "elend-venture", "shan-elariel"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "30"
+        }
+      ],
+      "order": 48,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "30"
+      },
+      "leaves": ["shan-elariel"],
+      "summary": [
+        {
+          "text": "At Keep Venture's last ball, Vin saved Elend from assassins and killed Shan Elariel.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "30"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-a49918b5",
+      "characters": [
+        "vin",
+        "kelsier",
+        "sazed",
+        "dockson",
+        "breeze",
+        "hammond",
+        "clubs",
+        "spook"
+      ],
+      "mapId": "luthadel",
+      "path": [[628, 560]],
+      "placeId": "clubss-shop",
+      "placeName": "Clubs' shop",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "31"
+        }
+      ],
+      "order": 49,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "31"
+      },
+      "summary": [
+        {
+          "text": "Vin told the crew she had saved Elend, and stood up to Kelsier when he objected.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "31"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-2113a464",
+      "characters": ["elend-venture", "straff-venture"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "31"
+        }
+      ],
+      "order": 50,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "31"
+      },
+      "summary": [
+        {
+          "text": "Elend's spies reported on Clubs' shop, and Straff told Elend that Shan had tried to kill him.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "31"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-f2b7d36d",
+      "characters": ["vin", "spook"],
+      "mapId": "luthadel",
+      "path": [[700, 625]],
+      "placeName": "A rooftop near Keep Hasting",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "32"
+        }
+      ],
+      "order": 51,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "32"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Vin and Spook watched House Elariel attack Keep Hasting.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-8e08d9ae",
+      "characters": ["kelsier", "vin"],
+      "mapId": "luthadel",
+      "path": [[700, 700]],
+      "placeName": "Marsh's meeting place",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "32"
+        }
+      ],
+      "order": 52,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "32"
+      },
+      "summary": [
+        {
+          "text": "Kelsier and Vin found a mutilated body at Marsh's meeting place.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-e82e4cb4",
+      "characters": ["vin", "sazed", "dockson", "breeze", "hammond", "clubs"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "The crew's backup hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "32"
+        }
+      ],
+      "order": 53,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "32"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "On Kelsier's orders, the crew moved to a backup hideout.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-07f471a7",
+      "characters": ["kelsier"],
+      "mapId": "final-empire",
+      "path": [
+        [1273, 805],
+        [1247, 754],
+        [1222, 711],
+        [1192, 686],
+        [1161, 658],
+        [1140, 632]
+      ],
+      "placeId": "pits-of-hathsin",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "32"
+        }
+      ],
+      "order": 54,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "32"
+      },
+      "summary": [
+        {
+          "text": "Kelsier went to the Pits of Hathsin and destroyed the crystals that make atium.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "32"
+            }
+          ]
+        }
+      ],
+      "source": "cosmere-maps",
+      "placeName": "Pits of Hathsin"
+    },
+    {
+      "id": "bs-2f0cd30b",
+      "characters": ["kelsier"],
+      "mapId": "final-empire",
+      "path": [
+        [1140, 632],
+        [1161, 658],
+        [1192, 686],
+        [1222, 711],
+        [1247, 754],
+        [1273, 805]
+      ],
+      "placeId": "luthadel",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "33"
+        }
+      ],
+      "order": 55,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "33"
+      },
+      "source": "cosmere-maps",
+      "placeName": "Luthadel"
+    },
+    {
+      "id": "bs-48a81bc1",
+      "characters": ["kelsier"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "The crew's backup hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "33"
+        }
+      ],
+      "order": 56,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "33"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Kelsier came back and told the crew how he had wrecked the Pits.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "33"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-46730fa4",
+      "characters": ["kelsier", "vin", "dockson", "breeze", "hammond", "spook"],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeId": "square-of-the-survivor",
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "33"
+        }
+      ],
+      "order": 57,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "33"
+      },
+      "summary": [
+        {
+          "text": "Kelsier stormed an execution to free the prisoners, Spook among them, and fought an Inquisitor.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "33"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-ea9b2d5e",
+      "characters": ["elend-venture"],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeId": "square-of-the-survivor",
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "33"
+        }
+      ],
+      "order": 58,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "33"
+      },
+      "summary": [
+        {
+          "text": "Elend pushed into the fighting, looking for Valette.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "33"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-b8a7182b",
+      "characters": [
+        "kelsier",
+        "lord-ruler",
+        "vin",
+        "dockson",
+        "breeze",
+        "hammond",
+        "spook",
+        "oreseur",
+        "elend-venture"
+      ],
+      "mapId": "luthadel",
+      "path": [[663, 520]],
+      "placeId": "square-of-the-survivor",
+      "placeName": "Fountain Square",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "34"
+        }
+      ],
+      "order": 59,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "34"
+      },
+      "leaves": ["kelsier"],
+      "summary": [
+        {
+          "text": "Kelsier killed the Inquisitor, then the Lord Ruler struck Kelsier dead in the square.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "34"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-ab8c0ad6",
+      "characters": ["vin", "sazed"],
+      "mapId": "luthadel",
+      "path": [[780, 600]],
+      "placeName": "The crew's backup hideout",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "35"
+        }
+      ],
+      "order": 60,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "35"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Sazed told Vin the crew was splitting up, then a skaa man claimed Kelsier had appeared to him.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "35"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-7eb286a5",
+      "characters": [
+        "vin",
+        "sazed",
+        "dockson",
+        "breeze",
+        "hammond",
+        "clubs",
+        "spook",
+        "oreseur"
+      ],
+      "mapId": "luthadel",
+      "path": [[760, 620]],
+      "placeName": "Kelsier's warehouse",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "35"
+        }
+      ],
+      "order": 61,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "35"
+      },
+      "summary": [
+        {
+          "text": "In Kelsier's warehouse, OreSeur, wearing Kelsier's bones, told the crew Kelsier's real plan.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "35"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-55194dbe",
+      "characters": ["vin"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "36"
+        }
+      ],
+      "order": 62,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "36"
+      },
+      "summary": [
+        {
+          "text": "Vin broke into Kredik Shaw's inner building, but an Inquisitor captured her.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "bs-eed00d3e",
+      "characters": ["elend-venture", "straff-venture"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "36"
+        }
+      ],
+      "order": 63,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "36"
+      },
+      "leaves": ["straff-venture"],
+      "summary": [
+        {
+          "text": "Straff left Luthadel, but Elend stayed and went to surrender to the rebels.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-5c9bee51",
+      "characters": ["vin", "lord-ruler", "tevidian-tekiel"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "36"
+        }
+      ],
+      "order": 64,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "36"
+      },
+      "leaves": ["tevidian-tekiel"],
+      "summary": [
+        {
+          "text": "In the throne room, Vin admitted that Tevidian was her father, and the Lord Ruler had him killed.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "36"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "bs-6ab95c18",
+      "characters": ["dockson", "hammond", "elend-venture"],
+      "mapId": "luthadel",
+      "path": [[760, 620]],
+      "placeName": "Kelsier's warehouse",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "37"
+        }
+      ],
+      "order": 65,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "37"
+      },
+      "approximate": true,
+      "summary": [
+        {
+          "text": "Brought before Dockson, Elend learned that Valette had been captured.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    },
+    {
+      "id": "bs-22673b2c",
+      "characters": ["vin", "sazed", "elend-venture"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "37"
+        }
+      ],
+      "order": 66,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "37"
+      },
+      "summary": [
+        {
+          "text": "Sazed freed himself and Vin from their cells, and Elend came to fight them free.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "37"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "bs-5b342632",
+      "characters": ["vin", "rashek", "marsh", "sazed"],
+      "mapId": "luthadel",
+      "path": [[941, 645]],
+      "placeId": "kredik-shaw",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "38"
+        }
+      ],
+      "order": 67,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "38"
+      },
+      "leaves": ["rashek"],
+      "summary": [
+        {
+          "text": "Marsh turned on the Inquisitors, and Vin killed the Lord Ruler with a spear Sazed brought.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "38"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes",
+      "placeName": "Kredik Shaw"
+    },
+    {
+      "id": "bs-ba41ea78",
+      "characters": ["vin", "elend-venture"],
+      "mapId": "luthadel",
+      "path": [[988, 448]],
+      "placeName": "Keep Venture",
+      "revealedIn": [
+        {
+          "book": "final-empire",
+          "chapter": "epilogue"
+        }
+      ],
+      "order": 68,
+      "happensIn": {
+        "book": "final-empire",
+        "chapter": "epilogue"
+      },
+      "summary": [
+        {
+          "text": "Vin went back to Elend at Keep Venture.",
+          "revealedIn": [
+            {
+              "book": "final-empire",
+              "chapter": "epilogue"
+            }
+          ]
+        }
+      ],
+      "source": "final-empire-scenes"
+    }
+  ]
+}

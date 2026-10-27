@@ -71,6 +71,19 @@ export interface JourneyEvent {
    * character in a pack, so packs can be merged.
    */
   order: number
+  /**
+   * The chapter that shows it happening, in reading order: where a book's
+   * chapter map puts it. Set on book scenes (`bookScenes/`); `revealedIn`
+   * stays the spoiler gate.
+   */
+  happensIn?: { book: string; chapter: string }
+  /** Shown as a memory or flashback, not where the character is now. */
+  flashback?: boolean
+  /**
+   * Book scenes: characters not drawn after this (they die or leave the
+   * book's maps), so they aren't left dimmed at their last spot.
+   */
+  leaves?: readonly string[]
   /** The position or route is a best guess: drawn dashed. */
   approximate?: boolean
   /** Short hand-written name of what happens, revealed with the event. */
