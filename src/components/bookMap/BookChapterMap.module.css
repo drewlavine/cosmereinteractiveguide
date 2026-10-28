@@ -238,12 +238,66 @@
   text-anchor: middle;
 }
 
+/* A place visited earlier in the book: hover for what happened there. */
+.placeDot {
+  fill: var(--gold-soft);
+  stroke: #10181f;
+  opacity: 0.85;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.placeDot:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 3px var(--gold-soft));
+}
+
+/* A key event: a diamond with a mark for its kind. */
+.pin {
+  pointer-events: auto;
+  cursor: pointer;
+  opacity: 0.75;
+}
+
+.pin rect {
+  fill: #10181f;
+  stroke: var(--gold-soft);
+  stroke-width: 1.5;
+}
+
+.pin text {
+  fill: var(--gold-soft);
+  font-size: 13px;
+  text-anchor: middle;
+}
+
+.pinNow {
+  opacity: 1;
+  cursor: default;
+}
+
+.pinNow rect {
+  fill: var(--gold);
+  stroke: #10181f;
+}
+
+.pinNow text {
+  fill: #10181f;
+}
+
+.pin:hover {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px var(--gold-soft));
+}
+
 .placeLabel {
   fill: var(--gold-soft);
   stroke: #10181f;
   paint-order: stroke;
   text-anchor: middle;
   font-weight: 600;
+  pointer-events: auto;
+  cursor: help;
 }
 
 /* What happens: a card over the map's top right corner. */
@@ -613,4 +667,13 @@
   margin: 0.5rem 0 0;
   font-size: 0.8rem;
   opacity: 0.75;
+}
+
+.date {
+  display: block;
+  margin-top: 0.15rem;
+  color: var(--gold-soft);
+  font-family: inherit;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
 }

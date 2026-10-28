@@ -178,6 +178,14 @@ export const characterPortraits: Record<string, Portrait[]> = {
   ],
   'dalinar-kholin': [
     {
+      // Nothing past his first POV chapter (WoK 12). Listed first, so the page still shows the Plate art then, but map markers get a face (the Plate art is all helmet).
+      src: '/portraits/dalinar-kholin-coat.webp',
+      alt: 'Dalinar in profile, grey-templed, in a dark blue Kholin uniform coat with the Kholin glyph on the shoulder',
+      artist: 'HW Lee',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/HW_Lee',
+      revealedIn: [{ book: 'way-of-kings', chapter: '12' }],
+    },
+    {
       // Plate and Blade; he wears them on the chasmfiend hunt in his first POV chapter (WoK 12).
       src: '/portraits/dalinar-kholin-shardplate.webp',
       alt: 'Dalinar in Shardplate, raising a huge glowing Shardblade',
@@ -1576,6 +1584,41 @@ export const characterPortraits: Record<string, Portrait[]> = {
       artist: 'Ashley Coad',
       artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ashley_Coad',
       revealedIn: ['isles-of-the-emberdark'],
+    },
+  ],
+  ati: [
+    {
+      // Ati as a man, red-haired, with Ruin's shadows behind him. His name and his being Ruin's Vessel come with Secret History part 4 or Wind and Truth 115.
+      src: '/portraits/ati-botanicaxu.webp',
+      alt: 'A red-haired man with a pale halo behind his head, dark ink-like branches spreading around him',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/File:Ati.jpg',
+      revealedIn: [
+        { book: 'secret-history', chapter: '4-4' },
+        { book: 'wind-and-truth', chapter: '115' },
+      ],
+    },
+  ],
+  aona: [
+    {
+      // "Shards of Creation": Aona as Devotion. Her name and her being Devotion's Vessel come with Wind and Truth.
+      src: '/portraits/aona-devotion.webp',
+      alt: 'A blonde woman in a fur cloak with a round wooden shield, a glowing blue symbol above her hand',
+      artist: 'Medusa Dollmaker',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Medusa_Dollmaker',
+      revealedIn: ['wind-and-truth'],
+    },
+  ],
+  skai: [
+    {
+      // "Shards of Creation": Skai as Dominion. His name and his being Dominion's Vessel come with Wind and Truth.
+      src: '/portraits/skai-dominion.webp',
+      alt: 'A bearded man in red armour, fist raised, glowing red glyphs beside him',
+      artist: 'Medusa Dollmaker',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Medusa_Dollmaker',
+      revealedIn: ['wind-and-truth'],
     },
   ],
   leras: [

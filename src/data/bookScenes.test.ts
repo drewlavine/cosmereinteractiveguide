@@ -1,11 +1,11 @@
 import { describe, expect, it } from 'vitest'
 import { chapters } from './chapters'
-import type { JourneyPack } from './journey'
+import type { BookScenesPack } from './bookScenes'
 import { journeyAtlas } from './journeyAtlas'
 import { findPerson } from './people'
 import { findPersona, hasMet, readerCanSee } from './reveal'
 
-const packs = import.meta.glob<JourneyPack>('./bookScenes/*.json', {
+const packs = import.meta.glob<BookScenesPack>('./bookScenes/*.json', {
   import: 'default',
   eager: true,
 })
@@ -82,6 +82,61 @@ describe.each(Object.values(packs).map((p) => [p.id, p] as const))(
         expect(text.length, e.id).toBeLessThanOrEqual(1)
         if (text[0]) expect(text[0]).toMatch(/^[A-Z].*[.!?]$/)
         if (!text.length) expect(e.path.length, e.id).toBeGreaterThan(1)
+      }
+    })
+
+    it('gives roles only to people in a scene, as short fragments', () => {
+      for (const e of pack.events)
+        for (const [c, role] of Object.entries(e.roles ?? {})) {
+          expect(e.characters, e.id).toContain(c)
+          expect(e.flashback, e.id).toBeFalsy()
+          expect(role, `${c} in ${e.id}`).toMatch(/^[A-Z][^\n]{0,78}[^.\s]$/)
+        }
+    })
+
+    it('dates only its own chapters, crediting each source', () => {
+      const sources = pack.credits.map((c) => c.source)
+      for (const [chapter, date] of Object.entries(pack.dates ?? {})) {
+        expect(ids, chapter).toContain(chapter)
+        expect(date.text, chapter).toMatch(/\S/)
+        if (date.source) expect(sources, chapter).toContain(date.source)
+      }
+    })
+
+    it('pins events no earlier than they happen, safe where the reader learns of them', () => {
+      const sources = pack.credits.map((c) => c.source)
+      const pins = pack.pins ?? []
+      expect(new Set(pins.map((p) => p.id)).size).toBe(pins.length)
+      for (const pin of pins) {
+        expect(pin.revealedIn, pin.id).toHaveLength(1)
+        const learnt = pin.revealedIn[0]
+        if (typeof learnt === 'string' || !('book' in learnt))
+          throw new Error(`${pin.id}: revealed outside a chapter`)
+        expect(learnt.book, pin.id).toBe(book)
+        expect(ids.indexOf(learnt.chapter), pin.id).toBeGreaterThanOrEqual(
+          ids.indexOf(pin.chapter),
+        )
+        expect(ids, pin.id).toContain(pin.chapter)
+        expect(pin.title, pin.id).toMatch(/^\S+( \S+){0,5}$/)
+        expect(pin.text, pin.id).toMatch(/^[A-Z].*[.!?]$/)
+        expect(sources, pin.id).toContain((pin as { source?: string }).source)
+        const canSee = at(learnt.chapter)
+        const map = journeyAtlas.map(pin.mapId)
+        expect(map, pin.mapId).toBeDefined()
+        expect(canSee(map!.revealedIn), pin.id).toBe(true)
+        const [x, y] = pin.point
+        expect(x >= 0 && y >= 0, pin.id).toBe(true)
+        expect(x <= map!.image.width && y <= map!.image.height, pin.id).toBe(
+          true,
+        )
+        for (const c of pin.characters) {
+          const where = `${c} in ${pin.id}`
+          const persona = findPersona(c)
+          expect(persona ?? findPerson(c), where).toBeDefined()
+          expect(hasMet(c, canSee), where).toBe(true)
+          if (persona)
+            expect(canSee(persona.identityRevealedIn), where).toBe(false)
+        }
       }
     })
   },

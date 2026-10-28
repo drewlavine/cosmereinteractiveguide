@@ -1,4 +1,4 @@
-import { Fragment, useEffect, useState, type ReactNode } from 'react'
+import { Fragment, useState, type ReactNode } from 'react'
 import { Link } from 'react-router'
 import { BookList } from './BookList'
 import { MemberList } from './MemberList'
@@ -10,14 +10,12 @@ import { SourceMark } from './SourceMark'
 import { SpoilerNotice } from './SpoilerNotice'
 import { useLinkText, type LinkTextFn } from './LinkedText'
 import {
-  cachedEntryStory,
   entryBooks,
   entryRevealedIn,
-  hasEntryStory,
-  loadEntryStory,
   shownAliases,
   type EntryKind,
 } from '../data/entryStories'
+import { useEntryStory } from '../state/entryStory'
 import { abilityList } from '../data/abilities'
 import { entryAliases } from '../data/entryAliases'
 import { entryArt } from '../data/entryArt'
@@ -37,21 +35,6 @@ import { useCanSee, useShownSystems } from '../state/reveal'
 
 const coppermindUrl = (page: string) =>
   `https://coppermind.net/wiki/${encodeURIComponent(page.replaceAll(' ', '_'))}`
-
-/** An entry's page, loaded on demand; `loading` until it arrives. */
-function useEntryStory(kind: EntryKind, id: string) {
-  const [, setLoaded] = useState<string>()
-  const story = cachedEntryStory(kind, id)
-  useEffect(() => {
-    let live = true
-    if (!cachedEntryStory(kind, id))
-      void loadEntryStory(kind, id).then(() => live && setLoaded(id))
-    return () => {
-      live = false
-    }
-  }, [kind, id])
-  return { story, loading: hasEntryStory(kind, id) && !story }
-}
 
 export interface EntryPageProps {
   kind: EntryKind

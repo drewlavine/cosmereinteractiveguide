@@ -243,6 +243,40 @@ describe('JourneyMap', () => {
       'M800 400 L900 50',
     )
     expect(svg.querySelectorAll('.journey-dot')).toHaveLength(3)
+    // Passed events carry their number; the current one doesn't.
+    expect(
+      [...svg.querySelectorAll('.journey-dot-number')].map(
+        (n) => n.textContent,
+      ),
+    ).toEqual(['1', '2'])
+  })
+
+  it('numbers passed events at one spot together', async () => {
+    const at = (id: string, x: number) => ({
+      ...journey.stops[0],
+      id,
+      path: [[x, 100]] as [number, number][],
+    })
+    const { group } = setup({
+      journey: {
+        ...journey,
+        stops: [
+          at('a', 100),
+          at('b', 100),
+          at('c', 500),
+          at('d', 100),
+          at('e', 900),
+        ],
+      },
+    })
+    const svg = group.querySelector('.journey-layers')!
+    for (let i = 0; i < 4; i++)
+      await userEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    expect(
+      [...svg.querySelectorAll('.journey-dot-number')].map(
+        (n) => n.textContent,
+      ),
+    ).toEqual(['3', '1, 2, 4'])
   })
 
   it('goes back to an event by clicking its point on the map', async () => {
@@ -392,9 +426,13 @@ describe('JourneyMap', () => {
     )
     const heading = () => document.querySelector('.journey-heading')
     const dots = () =>
-      [...document.querySelectorAll('.journey-dot')].map((d) => [
-        d.getAttribute('cx'),
-        d.getAttribute('cy'),
+      [
+        ...document.querySelectorAll(
+          'circle.journey-dot, text.journey-dot-number',
+        ),
+      ].map((d) => [
+        d.getAttribute('cx') ?? d.getAttribute('x'),
+        d.getAttribute('cy') ?? d.getAttribute('y'),
       ])
     // Opens on the world map, flying in to the city before swapping maps.
     expect(heading()).toHaveTextContent('Testland')
@@ -421,6 +459,68 @@ describe('JourneyMap', () => {
       'd',
       'M500 250 L100 100',
     )
+  })
+
+  it('goes to another world by way of the star chart', () => {
+    vi.useFakeTimers()
+    const chart: AtlasMap = {
+      id: 'chart',
+      title: 'The stars',
+      image: { src: '', width: 1000, height: 500, alt: 'Chart' },
+      credit: { text: 'Chart' },
+      revealedIn: [],
+      overview: true,
+    }
+    const world = (id: string, title: string, at: [number, number]) => ({
+      ...map,
+      id,
+      title,
+      parent: { mapId: 'chart', at },
+    })
+    const worlds: ShownJourney = {
+      ...journey,
+      maps: [
+        world('a', 'Aland', [100, 100]),
+        world('b', 'Bland', [900, 400]),
+        chart,
+      ],
+      stops: [
+        { ...journey.stops[0], mapId: 'a', path: [[10, 10]] },
+        { ...journey.stops[0], id: 'b1', mapId: 'b', path: [[20, 20]] },
+      ],
+    }
+    render(
+      <RouterProvider
+        router={createMemoryRouter(
+          [
+            {
+              path: '/',
+              element: (
+                <BooksReadProvider>
+                  <JourneyMap name="Hero" journey={worlds} />
+                </BooksReadProvider>
+              ),
+            },
+          ],
+          { initialEntries: ['/'] },
+        )}
+      />,
+    )
+    const heading = () => document.querySelector('.journey-heading')
+    expect(heading()).toHaveTextContent('Aland')
+    fireEvent.click(screen.getByRole('button', { name: 'Next event' }))
+    // Aland zooms out, then the chart takes over, starting on Aland.
+    expect(heading()).toHaveTextContent('Aland')
+    act(() => vi.advanceTimersByTime(1000))
+    expect(heading()).toHaveTextContent('The stars')
+    // Aland's passed event is a plain dot on its pin, not a number.
+    expect(document.querySelector('.journey-dot-number')).toBeNull()
+    expect(document.querySelector('circle.journey-dot')).not.toBeNull()
+    // It pulls back to show both worlds, then goes in to Bland.
+    act(() => vi.advanceTimersByTime(1000))
+    expect(heading()).toHaveTextContent('The stars')
+    act(() => vi.advanceTimersByTime(1500))
+    expect(heading()).toHaveTextContent('Bland')
   })
 
   it('shows a city event on the world map, and goes back to the city', () => {

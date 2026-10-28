@@ -10,6 +10,11 @@
       "text": "Chapter routes adapted from Alton Chaney's Cosmere Maps (MIT)",
       "url": "https://github.com/altonchaney/cosmere-maps",
       "source": "cosmere-maps"
+    },
+    {
+      "text": "Journey data adapted from the 17th Shard's Roshar map (MIT)",
+      "url": "https://github.com/17thshard/roshar-map",
+      "source": "roshar-map"
     }
   ],
   "events": [
@@ -106,6 +111,9 @@
           ]
         }
       ],
+      "roles": {
+        "dallet": "Returned Cenn to the squad; was asked to mind him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -163,6 +171,9 @@
           ]
         }
       ],
+      "roles": {
+        "bluth": "Killed the sick slave Kaladin said could be saved"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -260,6 +271,9 @@
           ]
         }
       ],
+      "roles": {
+        "bluth": "With Tvlakv's caravan when it lost its way"
+      },
       "source": "cosmere-maps"
     },
     {
@@ -315,6 +329,10 @@
         "chapter": "6"
       },
       "leaves": ["tvlakv", "bluth"],
+      "roles": {
+        "tvlakv": "Called Kaladin a deserter while selling him to Sadeas' army",
+        "bluth": "Arrived with Tvlakv's caravan at Sadeas' warcamp"
+      },
       "source": "cosmere-maps"
     },
     {
@@ -345,6 +363,9 @@
           ]
         }
       ],
+      "roles": {
+        "gaz": "Disliked Kaladin and put him at the bridge's front"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -531,6 +552,9 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "In the barrack as Kaladin began asking the men's names"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -562,6 +586,10 @@
           ]
         }
       ],
+      "roles": {
+        "thaspic": "Talked with Ishikk as he came home from fishing",
+        "maib": "Chatted with Ishikk, whom she'd long tried to marry"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -701,6 +729,10 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Sent men to secure the plateaus and questioned the hunt",
+        "renarin-kholin": "Came along on the chasmfiend hunt"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -738,6 +770,10 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Cut at the chasmfiend's legs until it fell",
+        "torol-sadeas": "Shot at the chasmfiend from afar with his grandbow"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -779,6 +815,17 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Told Kaladin she was changing, remembering and understanding more",
+        "moash": "Was carried out of the barrack by Kaladin",
+        "dunny": "Refused Kaladin's training once Gaz said it was optional",
+        "narm": "Refused Kaladin's training once Gaz said it was optional",
+        "sigzil": "Refused Kaladin's training once Gaz said it was optional",
+        "leyten": "Refused Kaladin's training once Gaz said it was optional",
+        "lunamor": "Refused Kaladin's training once Gaz said it was optional",
+        "gaz": "Told the bridgemen they needn't train with Kaladin",
+        "teft": "Refused Kaladin's training once Gaz said it was optional"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -818,6 +865,12 @@
           ]
         }
       ],
+      "roles": {
+        "dalinar-kholin": "Had the strap checked and vouched for Sadeas to Adolin",
+        "renarin-kholin": "Was called useless by Sadeas and praised by Wit",
+        "wit": "Mocked Sadeas and praised Renarin as clever",
+        "loradar-vamah": "Was talked by Dalinar into using the king's Soulcasters more"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -899,6 +952,19 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "With Bridge Four on the bridge run",
+        "dunny": "With Bridge Four on the bridge run",
+        "malop": "With Bridge Four on the bridge run",
+        "yake": "With Bridge Four on the bridge run",
+        "drehy": "With Bridge Four on the bridge run",
+        "hobber": "With Bridge Four on the bridge run",
+        "dabbid": "With Bridge Four on the bridge run",
+        "narm": "With Bridge Four on the bridge run",
+        "leyten": "With Bridge Four on the bridge run",
+        "moash": "With Bridge Four on the bridge run",
+        "gaz": "Objected to bringing the wounded back; took an extra bribe"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -929,6 +995,9 @@
           ]
         }
       ],
+      "roles": {
+        "janala-lustow": "Walked out with Adolin, her suitor, then left him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -960,6 +1029,9 @@
           ]
         }
       ],
+      "roles": {
+        "renarin-kholin": "Was promised the next Shardplate and Blade Dalinar won"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -990,6 +1062,9 @@
           ]
         }
       ],
+      "roles": {
+        "renarin-kholin": "Left the barrack with Dalinar after his vision"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1062,6 +1137,13 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Agreed to help Kaladin and Rock gather knobweed",
+        "hobber": "Lay wounded; Rock agreed to share his food with him",
+        "gaz": "Relayed Sadeas' order, then put Bridge Four on stone duty",
+        "moash": "Watched to see whether Kaladin would keep up his training",
+        "peet": "Watched to see whether Kaladin would keep up his training"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1102,6 +1184,12 @@
           ]
         }
       ],
+      "roles": {
+        "dalinar-kholin": "Brought his sons to the feast and greeted Navani formally",
+        "adolin-kholin": "Told Dalinar the leatherworkers thought the strap was cut",
+        "renarin-kholin": "Went to the king's feast with Dalinar and Adolin",
+        "wit": "Insulted the guests; warned Dalinar his retreat idea had leaked"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1143,6 +1231,13 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Led Rock to knobweed and found bottles for the sap",
+        "skar": "Gathered stones with Bridge Four on rock duty",
+        "jaks": "Gathered stones with Bridge Four on rock duty",
+        "natam": "Gathered stones with Bridge Four on rock duty",
+        "dunny": "Gathered stones with Bridge Four on rock duty"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1276,6 +1371,11 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Fought beside Dalinar and took the gemheart",
+        "teleb": "Talked Dalinar into letting him train one bridge crew",
+        "torol-sadeas": "Followed Dalinar's army to press on with his inquiry"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1324,6 +1424,23 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Walked ahead with Kaladin and Rock, drawing Dunny in",
+        "lunamor": "Cooked an evening stew for the whole of Bridge Four",
+        "sylphrena": "Helped Kaladin see through the apothecary's trick",
+        "dunny": "Joined the talk with Kaladin and showed he could sing",
+        "skar": "Came out of the barrack to share Rock's stew",
+        "moash": "Came out of the barrack to share Rock's stew",
+        "sigzil": "Came out of the barrack to share Rock's stew",
+        "peet": "Came out of the barrack to share Rock's stew",
+        "yake": "Came out of the barrack to share Rock's stew",
+        "maps": "Came out of the barrack to share Rock's stew",
+        "narm": "Came out of the barrack to share Rock's stew",
+        "drehy": "Came out of the barrack to share Rock's stew",
+        "jaks": "Came out of the barrack to share Rock's stew",
+        "torfin": "Came out of the barrack to share Rock's stew",
+        "hobber": "Came out of the barrack to share Rock's stew"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1354,6 +1471,10 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Questioned the grooms, then introduced Danlan to Dalinar",
+        "teleb": "Tested a new portable bridge, which failed"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1389,6 +1510,9 @@
           ]
         }
       ],
+      "roles": {
+        "danlan-morakotha": "Was introduced as Adolin's new clerk and sweetheart"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1420,6 +1544,9 @@
           ]
         }
       ],
+      "roles": {
+        "thresh-son-esan": "Traded with Vstim; scorned the Truthless he'd once given him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1508,6 +1635,9 @@
           ]
         }
       ],
+      "roles": {
+        "gavashaw": "Marked for death by Makkek; found dead before Szeth struck"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1545,6 +1675,11 @@
           ]
         }
       ],
+      "roles": {
+        "eylita-tavinar": "Drew the symbol from Luesh's pendant at Balat's request",
+        "wikim-davar": "Joined the spanreed talk until Balat sent him out",
+        "jushu-davar": "Joined the spanreed talk until Balat sent him out"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1576,6 +1711,9 @@
           ]
         }
       ],
+      "roles": {
+        "jasnah-kholin": "Discussed faith with Taravangian while Shallan drew him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1644,6 +1782,14 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Warned Kaladin she'd seen Gaz talking with Lamaril",
+        "skar": "Asked Kaladin why they should try the side carry",
+        "lunamor": "Asked Kaladin why they should try the side carry",
+        "teft": "Asked Kaladin why they should try the side carry",
+        "moash": "Told Kaladin he followed out of curiosity, not trust",
+        "bisig": "Was the last of Bridge Four to join the training"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1724,6 +1870,16 @@
           ]
         }
       ],
+      "roles": {
+        "lunamor": "Carried the bridge on its side with Bridge Four",
+        "gaz": "Came with Lamaril to execute Kaladin on the spot",
+        "lopen": "Joined Bridge Four and brought a water cart with Dabbid",
+        "dabbid": "Brought the crew a water cart with Lopen",
+        "teft": "Carried the bridge on its side with Bridge Four",
+        "natam": "Carried the bridge on its side with Bridge Four",
+        "moash": "Carried the bridge on its side with Bridge Four",
+        "torol-sadeas": "Lost the plateau assault as his split forces retreated"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1816,6 +1972,12 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Brought Kaladin news of Lamaril, then Rock, Teft and Moash",
+        "lunamor": "Visited Kaladin with Teft and Moash before the storm",
+        "teft": "Gave Kaladin a sphere to hold for luck",
+        "moash": "Visited Kaladin with Rock and Teft before the storm"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1846,6 +2008,10 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Stayed by Kaladin and told him to grab the roof",
+        "lunamor": "Went out first after the storm and called for help"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -1944,6 +2110,10 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Fought off the deathspren around Kaladin",
+        "skar": "Stood guard over Kaladin until Teft relieved him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2021,6 +2191,21 @@
           ]
         }
       ],
+      "roles": {
+        "lopen": "Handled the water on the run, helped by Kaladin",
+        "moash": "Told Kaladin only ten days had passed since the storm",
+        "torfin": "Joined Bridge Four in giving Rock a razor",
+        "hobber": "Joined Bridge Four in giving Rock a razor",
+        "peet": "Joined Bridge Four in giving Rock a razor",
+        "teft": "Joined Bridge Four in giving Rock a razor",
+        "dabbid": "Handled the water with Lopen, helped by Kaladin",
+        "natam": "Joined Bridge Four in giving Rock a razor",
+        "sigzil": "Skipped the stew and told Kaladin about Marabethia",
+        "maps": "Joined Bridge Four in giving Rock a razor",
+        "dunny": "Served the stew while Rock was gone",
+        "skar": "Joined Bridge Four in giving Rock a razor",
+        "bisig": "Joined Bridge Four in giving Rock a razor"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2091,6 +2276,9 @@
           ]
         }
       ],
+      "roles": {
+        "kabsal": "Picnicked with Shallan; admitted he'd planned to steal the Soulcaster"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2137,6 +2325,20 @@
           ]
         }
       ],
+      "roles": {
+        "kaladin": "Proposed escaping and offered to train the men with spears",
+        "hobber": "Agreed to learn the spear for an escape",
+        "sylphrena": "Recalled helping men kill; told Kaladin not to give up",
+        "lunamor": "Declined to fight, saying he would cook instead",
+        "dunny": "Agreed to learn the spear for an escape",
+        "moash": "Agreed to learn the spear for an escape",
+        "peet": "Agreed to learn the spear for an escape",
+        "teft": "Urged Kaladin on, quoting 'journey before destination'",
+        "sigzil": "Agreed to learn the spear for an escape",
+        "skar": "Agreed to learn the spear for an escape",
+        "leyten": "Agreed to learn the spear for an escape",
+        "jaks": "Agreed to learn the spear for an escape"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2209,6 +2411,9 @@
           ]
         }
       ],
+      "roles": {
+        "kabsal": "Had Shallan draw him, then the two of them together"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2253,6 +2458,18 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Hissed and darted off when asked about Odium",
+        "teft": "Bathed in the riddens with Bridge Four",
+        "lunamor": "Shaved Kaladin and said Sigzil was a Worldsinger",
+        "sigzil": "Bathed with Bridge Four; Rock called him a Worldsinger",
+        "moash": "Bathed in the riddens with Bridge Four",
+        "bisig": "Bathed in the riddens with Bridge Four",
+        "dunny": "Bathed in the riddens with Bridge Four",
+        "lopen": "Bathed in the riddens with Bridge Four",
+        "dabbid": "Bathed in the riddens with Bridge Four",
+        "skar": "Bathed in the riddens with Bridge Four"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2318,6 +2535,9 @@
           ]
         }
       ],
+      "roles": {
+        "taravangian": "Visited Shallan in hospital and allowed her guests"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2362,6 +2582,18 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Showed herself to the salvage group to speed their search",
+        "dunny": "Practised in pairs under Teft in the chasms",
+        "leyten": "Practised in pairs under Teft in the chasms",
+        "dabbid": "Gathered salvage with Rock, Lopen and Shen",
+        "lunamor": "Told Kaladin why he couldn't fight, then gathered salvage",
+        "shen": "Gathered salvage with Rock, Lopen and Dabbid",
+        "moash": "Practised in pairs under Teft in the chasms",
+        "drehy": "Practised in pairs under Teft in the chasms",
+        "skar": "Couldn't push Kaladin over, even with others helping",
+        "lopen": "Gathered salvage; Kaladin promised he'd still train him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2497,6 +2729,9 @@
           ]
         }
       ],
+      "roles": {
+        "ashir": "Called out three numbers to test the flamespren"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2576,6 +2811,10 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Pressed Dalinar to dismiss the visions and keep leading",
+        "navani-kholin": "Asked by Dalinar to record his vision for Jasnah"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2622,6 +2861,16 @@
           ]
         }
       ],
+      "roles": {
+        "moash": "Hesitated, then helped save other crews' wounded",
+        "lunamor": "Hesitated, then helped save other crews' wounded",
+        "shen": "Hesitated, then helped save other crews' wounded",
+        "teft": "Pressed Kaladin to always carry his infused spheres",
+        "drehy": "Hesitated, then helped save other crews' wounded",
+        "lopen": "Hesitated, then helped save other crews' wounded",
+        "dabbid": "Hesitated, then helped save other crews' wounded",
+        "skar": "Hesitated, then helped save other crews' wounded"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2660,6 +2909,11 @@
           ]
         }
       ],
+      "roles": {
+        "elhokar-kholin": "Hosted the feast where Sadeas made his announcement",
+        "wit": "Warned Dalinar of Sadeas' coming announcement, then left",
+        "adolin-kholin": "Stood by Dalinar with the guards as Sadeas spoke"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2740,6 +2994,20 @@
           ]
         }
       ],
+      "roles": {
+        "kaladin": "Watched the joint assault; planned to smuggle the spheres",
+        "moash": "Searched the chasms with Bridge Four after the run",
+        "skar": "Searched the chasms with Bridge Four after the run",
+        "sigzil": "Searched the chasms with Bridge Four after the run",
+        "teft": "Searched the chasms with Bridge Four after the run",
+        "lopen": "Searched the chasms with Bridge Four after the run",
+        "shen": "Searched the chasms with Bridge Four after the run",
+        "maps": "Searched the chasms with Bridge Four after the run",
+        "leyten": "Searched the chasms with Bridge Four after the run",
+        "malop": "Searched the chasms with Bridge Four after the run",
+        "drehy": "Searched the chasms with Bridge Four after the run",
+        "jaks": "Searched the chasms with Bridge Four after the run"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2820,6 +3088,13 @@
           ]
         }
       ],
+      "roles": {
+        "lopen": "Spotted Kaladin's medical pack clinging to a barrel",
+        "lunamor": "With Bridge Four on the run where Maps died",
+        "moash": "With Bridge Four on the run where Maps died",
+        "skar": "With Bridge Four on the run where Maps died",
+        "yake": "With Bridge Four on the run where Maps died"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2882,6 +3157,10 @@
           ]
         }
       ],
+      "roles": {
+        "danlan-morakotha": "Joined Adolin at a wineshop as his date",
+        "jakamav": "Talked over drinks about whether Dalinar should step down"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -2955,6 +3234,12 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Explained the First Oath, then led the chasm drill",
+        "lopen": "Kept watch at the barrack door, then gathered Parshendi bones",
+        "lunamor": "Ran drills outside the Bridge Four barrack",
+        "sylphrena": "Urged Kaladin to cut his rope, promising he'd be fine"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3021,6 +3306,10 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Had Navani try her new fabrial on his aching hand",
+        "renarin-kholin": "Waited with Dalinar for the highstorm and his vision"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3051,6 +3340,9 @@
           ]
         }
       ],
+      "roles": {
+        "renarin-kholin": "Sat with Dalinar after the vision; left when asked"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3102,6 +3394,21 @@
           ]
         }
       ],
+      "roles": {
+        "moash": "Ran the bridge, then tended other crews' wounded",
+        "drehy": "Ran the bridge, then tended other crews' wounded",
+        "skar": "Ran the bridge, then tended other crews' wounded",
+        "sigzil": "Ran the bridge, then tended other crews' wounded",
+        "teft": "Ran the bridge, then tended other crews' wounded",
+        "torol-sadeas": "Rode up and promoted Matal after the decoy worked",
+        "lopen": "Spotted the returning archers and called a warning",
+        "dabbid": "Helped tend other crews' wounded after the run",
+        "shen": "Ran the bridge, then tended other crews' wounded",
+        "lunamor": "Ran the bridge, then tended other crews' wounded",
+        "avarak-matal": "Was promoted when the decoy idea was credited to him",
+        "leyten": "Ran the bridge, then tended other crews' wounded",
+        "narm": "Ran the bridge, then tended other crews' wounded"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3145,6 +3452,10 @@
           ]
         }
       ],
+      "roles": {
+        "lunamor": "Talked over the escape plan with Kaladin",
+        "teft": "Urged Kaladin to teach the bridgemen himself"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3219,6 +3530,19 @@
           ]
         }
       ],
+      "roles": {
+        "kaladin": "Lined up with his armoured crew for the Tower assault",
+        "teft": "Lined up in carapace armour for the Tower assault",
+        "lunamor": "Lined up in carapace armour for the Tower assault",
+        "moash": "Lined up in carapace armour for the Tower assault",
+        "skar": "Lined up in carapace armour for the Tower assault",
+        "sigzil": "Lined up in carapace armour for the Tower assault",
+        "lopen": "Lined up with Bridge Four for the Tower assault",
+        "drehy": "Lined up in carapace armour for the Tower assault",
+        "leyten": "Made and decorated the crew's carapace armour",
+        "hobber": "Lined up in carapace armour for the Tower assault",
+        "peet": "Lined up in carapace armour for the Tower assault"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3250,6 +3574,9 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Planned the Tower assault with Dalinar and Sadeas"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3293,6 +3620,14 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Was hit by an arrow, and Kaladin operated on him",
+        "skar": "Was hit by an arrow in the Tower assault",
+        "moash": "With Bridge Four in the assault on the Tower",
+        "lopen": "With Bridge Four in the assault on the Tower",
+        "drehy": "With Bridge Four in the assault on the Tower",
+        "lunamor": "With Bridge Four in the assault on the Tower"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3327,6 +3662,9 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Fought beside Dalinar and warned of more Parshendi"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3369,6 +3707,9 @@
           ]
         }
       ],
+      "roles": {
+        "skar": "Was patched up by Kaladin, told he'd walk normally"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3400,6 +3741,9 @@
           ]
         }
       ],
+      "roles": {
+        "adolin-kholin": "Said he'd expected Sadeas' betrayal, but didn't blame Dalinar"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3433,6 +3777,9 @@
           ]
         }
       ],
+      "roles": {
+        "avarak-matal": "Was told Bridge Four would rest, then follow"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3509,6 +3856,16 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Watched Kaladin burst with light and fight",
+        "skar": "Agreed with the crew to turn back to the Tower",
+        "moash": "Agreed with the crew to turn back to the Tower",
+        "drehy": "Agreed with the crew to turn back to the Tower",
+        "lunamor": "Agreed with the crew to turn back to the Tower",
+        "sigzil": "Agreed with the crew to turn back to the Tower",
+        "lopen": "Agreed with the crew to turn back to the Tower",
+        "dabbid": "Agreed with the crew to turn back to the Tower"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3557,6 +3914,20 @@
           ]
         }
       ],
+      "roles": {
+        "teft": "Ordered the crew into formation to back Kaladin up",
+        "adolin-kholin": "Led the Kholin troops through the Parshendi to the bridge",
+        "drehy": "Held the bridgehead in Teft's formation",
+        "skar": "With Bridge Four as they held the bridgehead",
+        "sigzil": "Held the bridgehead in Teft's formation",
+        "peet": "Held the bridgehead in Teft's formation",
+        "lunamor": "With Bridge Four as they held the bridgehead",
+        "lopen": "With Bridge Four as they held the bridgehead",
+        "moash": "Went with Kaladin to organise the retreat",
+        "malop": "Killed while Bridge Four held the bridgehead",
+        "jaks": "Killed while Bridge Four held the bridgehead",
+        "narm": "Killed while Bridge Four held the bridgehead"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3588,6 +3959,9 @@
           ]
         }
       ],
+      "roles": {
+        "renarin-kholin": "Followed Navani to Sadeas' camp, where Dalinar embraced him"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3632,6 +4006,17 @@
           ]
         }
       ],
+      "roles": {
+        "kaladin": "Asked Dalinar why he'd traded his Shardblade for them",
+        "teft": "Stayed with Dalinar to see their freedom bought",
+        "moash": "Stayed with Dalinar to see their freedom bought",
+        "lunamor": "Stayed with Dalinar to see their freedom bought",
+        "skar": "Stayed with Dalinar to see their freedom bought",
+        "sigzil": "Stayed with Dalinar to see their freedom bought",
+        "lopen": "Stayed with Dalinar to see their freedom bought",
+        "drehy": "Stayed with Dalinar to see their freedom bought",
+        "peet": "Stayed with Dalinar to see their freedom bought"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3842,6 +4227,18 @@
           ]
         }
       ],
+      "roles": {
+        "sylphrena": "Thought Dalinar honourable while Kaladin had doubts",
+        "lunamor": "Shared his nightly stew with the crew",
+        "teft": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "shen": "Ate Rock's stew with the crew at the barrack",
+        "moash": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "lopen": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "skar": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "drehy": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "sigzil": "Ate Rock's stew and planned tests of Kaladin's powers",
+        "peet": "Ate Rock's stew and planned tests of Kaladin's powers"
+      },
       "source": "way-of-kings-scenes"
     },
     {
@@ -3967,5 +4364,689 @@
       ],
       "source": "way-of-kings-scenes"
     }
+  ],
+  "dates": {
+    "prelude": {
+      "text": "-3300",
+      "circa": true,
+      "source": "roshar-map"
+    },
+    "prologue": {
+      "text": "1167.10",
+      "source": "roshar-map"
+    },
+    "1": {
+      "text": "1172.9",
+      "source": "roshar-map"
+    },
+    "2": {
+      "text": "1173.7",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "3": {
+      "text": "1173.6",
+      "source": "roshar-map"
+    },
+    "4": {
+      "text": "1173.7",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "5": {
+      "text": "1173.6",
+      "source": "roshar-map"
+    },
+    "6": {
+      "text": "1173.7.9.3",
+      "source": "roshar-map"
+    },
+    "7": {
+      "text": "1173.6",
+      "source": "roshar-map"
+    },
+    "8": {
+      "text": "1173.6",
+      "source": "roshar-map"
+    },
+    "9": {
+      "text": "1173.8",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "10": {
+      "text": "1164",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "i-1": {
+      "text": "1173.3",
+      "circa": true,
+      "source": "roshar-map"
+    },
+    "12": {
+      "text": "1173.8.7.3",
+      "source": "roshar-map"
+    },
+    "13": {
+      "text": "1173.8.7.3",
+      "source": "roshar-map"
+    },
+    "15": {
+      "text": "1173.8.7.3",
+      "source": "roshar-map"
+    },
+    "16": {
+      "text": "1166.3",
+      "source": "roshar-map"
+    },
+    "20": {
+      "text": "1166",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "25": {
+      "text": "1166.10",
+      "source": "roshar-map"
+    },
+    "28": {
+      "text": "1173.8.9.4",
+      "source": "roshar-map"
+    },
+    "i-4": {
+      "text": "1172.6",
+      "source": "roshar-map"
+    },
+    "i-6": {
+      "text": "1173.7",
+      "source": "roshar-map"
+    },
+    "29": {
+      "text": "1173.8.10.3",
+      "source": "roshar-map"
+    },
+    "31": {
+      "text": "1167",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "34": {
+      "text": "1173.8.5.3",
+      "source": "roshar-map"
+    },
+    "36": {
+      "text": "1173.9.2.4",
+      "source": "roshar-map"
+    },
+    "37": {
+      "text": "1168",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "41": {
+      "text": "1168",
+      "circa": true,
+      "source": "way-of-kings-scenes"
+    },
+    "44": {
+      "text": "1168.10",
+      "source": "roshar-map"
+    },
+    "45": {
+      "text": "1173.9.5.3",
+      "source": "roshar-map"
+    },
+    "47": {
+      "text": "1172.9",
+      "source": "roshar-map"
+    },
+    "51": {
+      "text": "1172.9",
+      "source": "roshar-map"
+    },
+    "i-9": {
+      "text": "1173.9.1.4",
+      "source": "roshar-map"
+    },
+    "55": {
+      "text": "1173.9.1.1",
+      "source": "roshar-map"
+    },
+    "57": {
+      "text": "1173.9.3.1",
+      "source": "roshar-map"
+    },
+    "60": {
+      "text": "1173.9.4.4",
+      "source": "roshar-map"
+    },
+    "65": {
+      "text": "1173.9.6.4",
+      "source": "roshar-map"
+    },
+    "66": {
+      "text": "1173.9.6.4",
+      "source": "roshar-map"
+    },
+    "67": {
+      "text": "1173.9.6.4",
+      "source": "roshar-map"
+    },
+    "68": {
+      "text": "1173.9.6.4",
+      "source": "roshar-map"
+    },
+    "70": {
+      "text": "1173.9.6.1",
+      "source": "roshar-map"
+    },
+    "epilogue": {
+      "text": "1173.9.7.5",
+      "source": "roshar-map"
+    }
+  },
+  "pins": [
+    {
+      "id": "way-of-kings-heralds-leave",
+      "title": "The Heralds leave their Blades",
+      "kind": "other",
+      "mapId": "roshar",
+      "point": [1300, 880],
+      "chapter": "prelude",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prelude"
+        }
+      ],
+      "text": "Kalak and Jezrien left their Honorblades with the others' and walked away from the Oathpact, leaving Talenel to bear it alone.",
+      "characters": ["kalak", "jezrien"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-gavilar-assassinated",
+      "title": "Gavilar assassinated",
+      "kind": "death",
+      "mapId": "roshar",
+      "point": [1934, 797],
+      "chapter": "prologue",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "prologue"
+        }
+      ],
+      "text": "On the night of the treaty feast with the Parshendi, the Shin assassin Szeth killed King Gavilar.",
+      "characters": ["szeth", "gavilar-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-bridge-four",
+      "title": "Kaladin joins Bridge Four",
+      "kind": "other",
+      "mapId": "warcamps",
+      "point": [1000, 500],
+      "chapter": "6",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "6"
+        }
+      ],
+      "text": "Sold to Sadeas' army, Kaladin was made a bridgeman in Bridge Four, and the windspren told him her name, Syl.",
+      "characters": ["kaladin", "sylphrena", "gaz"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-jasnahs-ward",
+      "title": "Shallan becomes Jasnah's ward",
+      "kind": "meeting",
+      "mapId": "kharbranth",
+      "point": [550, 215],
+      "chapter": "8",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "8"
+        }
+      ],
+      "text": "Won over by Shallan's persistence, Jasnah took her on as her ward.",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-took-killed",
+      "title": "Took killed",
+      "kind": "death",
+      "mapId": "roshar",
+      "point": [1467, 900],
+      "chapter": "i-3",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-3"
+        }
+      ],
+      "text": "Thugs killed Szeth's master Took and made off with Szeth's Oathstone.",
+      "characters": ["szeth", "took"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-chasmfiend-hunt",
+      "title": "The chasmfiend hunt",
+      "kind": "battle",
+      "mapId": "shattered-plains",
+      "point": [420, 250],
+      "chapter": "13",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "13"
+        }
+      ],
+      "text": "When Elhokar's saddle strap broke on the hunt, Dalinar held off the chasmfiend until the king killed it.",
+      "characters": [
+        "dalinar-kholin",
+        "elhokar-kholin",
+        "adolin-kholin",
+        "torol-sadeas",
+        "renarin-kholin"
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-wistiow-dies",
+      "title": "Wistiow dies",
+      "kind": "death",
+      "mapId": "roshar",
+      "point": [1908, 631],
+      "chapter": "16",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "16"
+        }
+      ],
+      "text": "Hearthstone's citylord Wistiow died, leaving Kal spheres to study surgery in Kharbranth.",
+      "characters": ["kaladin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-dalinar-abdicates",
+      "title": "Dalinar decides to step down",
+      "kind": "other",
+      "mapId": "warcamps",
+      "point": [760, 340],
+      "chapter": "28",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "28"
+        }
+      ],
+      "text": "Doubting his visions and his own mind, Dalinar told Navani he meant to abdicate as highprince.",
+      "characters": ["dalinar-kholin", "navani-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-szeths-list",
+      "title": "Szeth's list",
+      "kind": "other",
+      "mapId": "roshar",
+      "point": [1420, 894],
+      "chapter": "i-6",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-6"
+        }
+      ],
+      "text": "Szeth's new master took his Oathstone and gave him a list of noblemen to kill.",
+      "characters": ["szeth"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-symbolheads",
+      "title": "Shallan draws the symbolheads",
+      "kind": "discovery",
+      "mapId": "kharbranth",
+      "point": [536, 200],
+      "chapter": "29",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "29"
+        }
+      ],
+      "text": "Sketching King Taravangian, Shallan drew strange figures with symbols for heads that weren't there.",
+      "characters": ["shallan-davar", "taravangian"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-highstorm",
+      "title": "Kaladin survives the highstorm",
+      "kind": "other",
+      "mapId": "warcamps",
+      "point": [1000, 486],
+      "chapter": "34",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "35"
+        }
+      ],
+      "text": "Strung up outside the barrack through a highstorm, Kaladin was found alive afterwards.",
+      "characters": ["kaladin", "teft"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-soulcaster-stolen",
+      "title": "Soulcaster stolen",
+      "kind": "other",
+      "mapId": "kharbranth",
+      "point": [562, 198],
+      "chapter": "36",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "36"
+        }
+      ],
+      "text": "After Jasnah killed the thugs who followed them into an alley, Shallan swapped Jasnah's Soulcaster for her broken one.",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-tien-drafted",
+      "title": "Tien drafted",
+      "kind": "other",
+      "mapId": "roshar",
+      "point": [1936, 631],
+      "chapter": "44",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "44"
+        }
+      ],
+      "text": "Roshone had Tien drafted into Amaram's army, and Kaladin enlisted to protect him.",
+      "characters": ["kaladin", "tien", "toralin-roshone", "meridas-amaram"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-place-of-beads",
+      "title": "The place of beads",
+      "kind": "discovery",
+      "mapId": "kharbranth",
+      "point": [574, 206],
+      "chapter": "45",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "45"
+        }
+      ],
+      "text": "Fleeing the symbolheads, Shallan found herself in a sea of glass beads and turned a goblet into blood.",
+      "characters": ["shallan-davar"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-shardbearer-killed",
+      "title": "Kaladin kills a Shardbearer",
+      "kind": "battle",
+      "mapId": "roshar",
+      "point": [1848, 641],
+      "chapter": "47",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "47"
+        }
+      ],
+      "text": "After an enemy Shardbearer cut down most of his squad, Kaladin killed him and refused the Shards.",
+      "characters": ["kaladin", "cenn", "dallet", "meridas-amaram"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-kabsal-dies",
+      "title": "Kabsal dies",
+      "kind": "death",
+      "mapId": "kharbranth",
+      "point": [420, 380],
+      "chapter": "48",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "48"
+        }
+      ],
+      "text": "Kabsal died after eating his own bread, and Jasnah saved the poisoned Shallan with the stolen Soulcaster.",
+      "characters": ["shallan-davar", "kabsal", "jasnah-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-amarams-betrayal",
+      "title": "Amaram's betrayal",
+      "kind": "other",
+      "mapId": "roshar",
+      "point": [1876, 641],
+      "chapter": "51",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "51"
+        }
+      ],
+      "text": "Amaram had Kaladin's last men killed, took the Shards for himself and had Kaladin branded a slave.",
+      "characters": ["kaladin", "meridas-amaram"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-hanavanar-killed",
+      "title": "Hanavanar assassinated",
+      "kind": "death",
+      "mapId": "roshar",
+      "point": [1540, 1052],
+      "chapter": "i-9",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "i-9"
+        }
+      ],
+      "text": "Szeth killed King Hanavanar and his Shardbearers at a banquet in Vedenar.",
+      "characters": ["szeth", "hanavanar"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-stormlight",
+      "title": "Kaladin draws in Stormlight",
+      "kind": "discovery",
+      "mapId": "warcamps",
+      "point": [1000, 514],
+      "chapter": "57",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "57"
+        }
+      ],
+      "text": "Teft tricked Kaladin into drawing in Stormlight, and Syl admitted she wasn't a windspren.",
+      "characters": ["kaladin", "teft", "sylphrena"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-dawnchant",
+      "title": "The visions are real",
+      "kind": "discovery",
+      "mapId": "warcamps",
+      "point": [774, 340],
+      "chapter": "60",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "60"
+        }
+      ],
+      "text": "Navani realised that Dalinar spoke the lost Dawnchant in his visions, proof they were real.",
+      "characters": ["dalinar-kholin", "navani-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-tower",
+      "title": "Battle of the Tower",
+      "kind": "battle",
+      "mapId": "shattered-plains",
+      "point": [1030, 525],
+      "chapter": "65",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "65"
+        }
+      ],
+      "text": "Dalinar and Sadeas attacked the Tower together, until Sadeas pulled out and left Dalinar's army surrounded.",
+      "characters": ["dalinar-kholin", "adolin-kholin", "torol-sadeas"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-tien-dies",
+      "title": "Tien dies",
+      "kind": "death",
+      "mapId": "roshar",
+      "point": [1862, 655],
+      "chapter": "67",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "67"
+        }
+      ],
+      "text": "Sent to the front line as bait in his first battle, Tien was killed.",
+      "characters": ["kaladin", "tien"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-bridge-four-rescue",
+      "title": "Bridge Four's rescue",
+      "kind": "battle",
+      "mapId": "shattered-plains",
+      "point": [1010, 545],
+      "chapter": "68",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "68"
+        }
+      ],
+      "text": "Glowing with Stormlight, Kaladin led Bridge Four back to bridge a way out for Dalinar's army.",
+      "characters": [
+        "kaladin",
+        "sylphrena",
+        "teft",
+        "dalinar-kholin",
+        "adolin-kholin"
+      ],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-shardblade-traded",
+      "title": "Dalinar trades his Shardblade",
+      "kind": "other",
+      "mapId": "warcamps",
+      "point": [975, 465],
+      "chapter": "69",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "69"
+        }
+      ],
+      "text": "Dalinar gave Sadeas his Shardblade for the freedom of all of Sadeas' bridgemen.",
+      "characters": ["dalinar-kholin", "torol-sadeas", "kaladin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-szeths-master",
+      "title": "Szeth finds his master",
+      "kind": "discovery",
+      "mapId": "kharbranth",
+      "point": [540, 240],
+      "chapter": "71",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "71"
+        }
+      ],
+      "text": "Sent to kill King Taravangian, Szeth found that the king was his master.",
+      "characters": ["szeth", "taravangian"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-voidbringers",
+      "title": "The parshmen are Voidbringers",
+      "kind": "discovery",
+      "mapId": "kharbranth",
+      "point": [550, 206],
+      "chapter": "72",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "72"
+        }
+      ],
+      "text": "From Jasnah's notes, Shallan worked out that the Voidbringers had been enslaved, not destroyed, as the parshmen.",
+      "characters": ["shallan-davar", "jasnah-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-almighty-dead",
+      "title": "The Almighty is dead",
+      "kind": "discovery",
+      "mapId": "warcamps",
+      "point": [746, 340],
+      "chapter": "75",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "75"
+        }
+      ],
+      "text": "In his last vision, Dalinar learned that the Almighty was dead and was told to refound the Knights Radiant.",
+      "characters": ["dalinar-kholin"],
+      "source": "way-of-kings-scenes"
+    },
+    {
+      "id": "way-of-kings-talenel-arrives",
+      "title": "Talenel arrives",
+      "kind": "other",
+      "mapId": "roshar",
+      "point": [1934, 811],
+      "chapter": "epilogue",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "epilogue"
+        }
+      ],
+      "text": "Talenel staggered into Kholinar with a Shardblade, warned of a coming Desolation and collapsed.",
+      "characters": ["talenel", "hoid"],
+      "source": "way-of-kings-scenes"
+    }
+  ],
+  "notable": [
+    "kaladin",
+    "shallan-davar",
+    "szeth",
+    "dalinar-kholin",
+    "jasnah-kholin",
+    "adolin-kholin",
+    "moash",
+    "taravangian",
+    "navani-kholin",
+    "lopen",
+    "rysn-ftori",
+    "eshonai"
   ]
 }

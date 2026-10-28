@@ -42,9 +42,14 @@ The rest of the book page stays as it is until this ships.
     5 / whole book"), each with a dark edge so it reads on pale maps; hovering a route
     says the chapter, who travelled, where to and what happened, and clicking an
     earlier one goes to its chapter
-  - characters not in this chapter: a dimmed marker at their last known spot, or hidden
-    (the "Others" toggle); hovering says which chapter that was, and clicking goes
-    there (on the same map). Clicking someone in this chapter follows them
+  - notable characters not in this chapter: a dimmed marker at their last known spot, or
+    hidden (the "Others" toggle); hovering says which chapter that was, and clicking goes
+    there (on the same map). Notable means one of the characters Cosmere Maps tracks,
+    from the book of their first appearance there (the pack's `notable`, emitted by
+    `~/cig-journey-data`): The Final Empire has Vin, Kelsier, Elend, Sazed, Spook and
+    Marsh; The Way of Kings has 12. A persona not yet seen through never is. Side
+    characters show only in their own chapters, unless the reader follows them, which
+    always shows their last spot too. Clicking someone in this chapter follows them
   - the view fits the chapter's characters and routes; on a region map, a marker
     standing for an inner map (a city) opens that map when clicked
 - **"This chapter" card** (over the map's top right on desktop, collapsible; below the
@@ -57,7 +62,8 @@ The rest of the book page stays as it is until this ships.
   explains itself in a hover or focus tooltip (`data-tooltip`, drawn by `Tooltips`).
 - **Character chips** to filter, in a drawer that slides over the map's left side
   ("Characters · N"), so the list never pushes the timeline down: picking one or more follows just them (markers,
-  routes and the view); "Show everyone" clears it. Each chip has a small link to the
+  routes and the view); "Stop following" clears it. The list always has everyone met
+  so far, side characters included, so any of them can be followed. Each chip has a small link to the
   character's page. They are also the **legend**: each chip shows the same portrait,
   ring colour and name as the marker.
 - **Markers:**
@@ -78,6 +84,10 @@ The rest of the book page stays as it is until this ships.
     and since the map is decorative (`aria-hidden`, markers and routes are mouse and
     touch only), the chip list is the accessible equivalent, naming who is "not in this
     chapter" or "on another map"
+  - **roles:** someone the chapter's text doesn't name has a role under their name in
+    the marker's tooltip and the chip's (also its `aria-description`), saying what they
+    do in that chapter ("Brought word of executions in Fountain Square"). Hover only for
+    now: touch readers don't see it
 - **Colours:**
   - a fixed categorical palette, about 12 colours, readable on the parchment maps and
     picked to stay distinct for colour-blind readers
@@ -116,18 +126,19 @@ The rest of the book page stays as it is until this ships.
 
 The map is only as good as the per-chapter data. There are three sources:
 
-| | A. Derive from our journeys | B. Import cosmere-maps | C. New per-chapter "scenes" |
-|---|---|---|---|
-| What it is | Reuse `journeys/*.json` events | Importer in `~/cig-journey-data` | Hand-built table: chapter → POV, place, route, line |
-| Coverage | Thin: Way of Kings 46 events in 31 of about 90 chapters; Wind and Truth 28 chapters | Uneven: Way of Kings 8 paths; Wind and Truth 132; no Secret History | Complete, by construction |
-| Fits "chapter N"? | **No.** Events are dated by *when they're revealed*, so backstory sits in the chapter that reveals it (e.g. "Shallan is born", Way of Kings 45) | **Yes.** Keyed to the chapter where the movement happens | **Yes** |
-| Work | Small | Medium: reproject their map's pixels onto ours (control points + affine/TPS), map chapter ids, re-check every point | Large: about 90 chapters × 5 Stormlight books + Mistborn |
-| Risk | Misleading map | Their points have no spoiler dating; their location prose has later-book spoilers (never import prose) | Effort and accuracy |
+|                   | A. Derive from our journeys                                                                                                                     | B. Import cosmere-maps                                                                                              | C. New per-chapter "scenes"                              |
+| ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
+| What it is        | Reuse `journeys/*.json` events                                                                                                                  | Importer in `~/cig-journey-data`                                                                                    | Hand-built table: chapter → POV, place, route, line      |
+| Coverage          | Thin: Way of Kings 46 events in 31 of about 90 chapters; Wind and Truth 28 chapters                                                             | Uneven: Way of Kings 8 paths; Wind and Truth 132; no Secret History                                                 | Complete, by construction                                |
+| Fits "chapter N"? | **No.** Events are dated by _when they're revealed_, so backstory sits in the chapter that reveals it (e.g. "Shallan is born", Way of Kings 45) | **Yes.** Keyed to the chapter where the movement happens                                                            | **Yes**                                                  |
+| Work              | Small                                                                                                                                           | Medium: reproject their map's pixels onto ours (control points + affine/TPS), map chapter ids, re-check every point | Large: about 90 chapters × 5 Stormlight books + Mistborn |
+| Risk              | Misleading map                                                                                                                                  | Their points have no spoiler dating; their location prose has later-book spoilers (never import prose)              | Effort and accuracy                                      |
 
 **Recommendation: B + C together, on our existing model.**
+
 - Add two fields to `JourneyEvent`; don't create a new model, so `revealJourney`, the
   atlas and packs are all reused:
-  - `happensIn?: {book, chapter}`: where the scene is *shown*, in reading order. This is
+  - `happensIn?: {book, chapter}`: where the scene is _shown_, in reading order. This is
     what the book map steps through, while `revealedIn` stays the spoiler gate.
   - `flashback?: true`
 - **Importer** (`~/cig-journey-data/import_cosmere_maps.py`): their paths → events with
@@ -136,6 +147,11 @@ The map is only as good as the per-chapter data. There are three sources:
 - **Fill the gaps (C)** in the existing pipeline: POV and setting per chapter from the
   Coppermind chapter summaries (facts only, no prose copied), with a hand-written line
   per scene following STORY_GUIDE.
+- **Roles:** a hand scene's `roles: {id: fragment}`, from the same chapter's summary
+  under the same spoiler rules, checked by `import_scenes.py` (one per character per
+  chapter, never in a flashback). Drafted per slice in
+  `~/cig-journey-data/hand/drafts/roles/` (`BRIEF.md`, worklists, `check_roles.py`): The
+  Final Empire 67, The Way of Kings 268.
 - **Generated checks:**
   - every chapter of a covered book has at least one scene
   - no `revealedIn` later than `happensIn` without an `approximate` flag
@@ -144,19 +160,20 @@ The map is only as good as the per-chapter data. There are three sources:
 
 ## 5. Rendering: three options
 
-| | **A. SVG/DOM: extend `SvgMapEngine`** | **B. WebGL: Three.js + R3F** | **C. Leaflet (`CRS.Simple`)** |
-|---|---|---|---|
-| Reuse | Same engine, `MapEngine` interface, journey layers and geometry as the character journey map | The globe and colour-map prototype; the engine already chosen for the Explorer (D13) | What cosmeremaps uses; nothing of ours |
-| Bundle | About 0 KB extra | About 180 KB gz (three + fiber + drei), lazy-loaded | About 45 KB gz (leaflet + react-leaflet v5) |
-| Load per chapter (10–30 markers, a few routes) | Easy | Overkill | Easy |
-| Animation (play, markers moving) | CSS transforms or rAF on `<g>`, smooth at this scale | Best: shaders, glow, globe | OK (marker transitions are fiddly) |
-| Big or tiled maps, deep zoom | Single image; fine for our maps | Textures; fine | **Best**: tiles, mature pan and pinch |
-| Accessibility | Real DOM: focusable markers, names and roles | Needs a parallel DOM layer | DOM markers, decent |
-| Testing (jsdom + RTL) | Works today | Needs `@react-three/test-renderer` and screenshots | Partly; Leaflet needs layout mocks |
-| Phones | Good (already used on character pages) | Good, but the GPU costs battery | Good |
-| Consistency | Looks identical to the character journeys | Matches the future Explorer | A second look and a second engine to maintain |
+|                                                | **A. SVG/DOM: extend `SvgMapEngine`**                                                        | **B. WebGL: Three.js + R3F**                                                         | **C. Leaflet (`CRS.Simple`)**                 |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ | --------------------------------------------- |
+| Reuse                                          | Same engine, `MapEngine` interface, journey layers and geometry as the character journey map | The globe and colour-map prototype; the engine already chosen for the Explorer (D13) | What cosmeremaps uses; nothing of ours        |
+| Bundle                                         | About 0 KB extra                                                                             | About 180 KB gz (three + fiber + drei), lazy-loaded                                  | About 45 KB gz (leaflet + react-leaflet v5)   |
+| Load per chapter (10–30 markers, a few routes) | Easy                                                                                         | Overkill                                                                             | Easy                                          |
+| Animation (play, markers moving)               | CSS transforms or rAF on `<g>`, smooth at this scale                                         | Best: shaders, glow, globe                                                           | OK (marker transitions are fiddly)            |
+| Big or tiled maps, deep zoom                   | Single image; fine for our maps                                                              | Textures; fine                                                                       | **Best**: tiles, mature pan and pinch         |
+| Accessibility                                  | Real DOM: focusable markers, names and roles                                                 | Needs a parallel DOM layer                                                           | DOM markers, decent                           |
+| Testing (jsdom + RTL)                          | Works today                                                                                  | Needs `@react-three/test-renderer` and screenshots                                   | Partly; Leaflet needs layout mocks            |
+| Phones                                         | Good (already used on character pages)                                                       | Good, but the GPU costs battery                                                      | Good                                          |
+| Consistency                                    | Looks identical to the character journeys                                                    | Matches the future Explorer                                                          | A second look and a second engine to maintain |
 
 **Recommendation: A (SVG)**, behind the existing `MapEngine` interface.
+
 - It's the cheapest path, and accessible and testable today.
 - It matches the character journey maps, and the marker count per chapter is small.
 - The engine interface means a Three.js engine (B) can be swapped in later when the
@@ -169,9 +186,10 @@ The map is only as good as the per-chapter data. There are three sources:
 1. **Pilot data** for one finished, single-map book. Pick between:
    - **The Final Empire**: our densest data (86 events) plus 27 cosmere-maps paths
    - **The Way of Kings**: weakest data, most interest
-   
+
    Includes the `happensIn`/`flashback` fields, the importer, reprojection, checks, and
    a Time Machine spoiler check.
+
 2. **`revealBookChapters` + tests**, pinned at chapter boundaries: the scrubber limit,
    unmet characters, personas, places, flashbacks, Show anyway.
 3. **`BookChapterMap` component** (CSS Module): engine plus scrubber plus the "This
@@ -190,7 +208,9 @@ The map is only as good as the per-chapter data. There are three sources:
 
 - **Engine:** A, SVG on the existing `MapEngine`.
 - **Pilot:** The Final Empire.
-- **Characters not in the chapter:** dimmed at their last known spot.
+- **Characters not in the chapter:** dimmed at their last known spot; only notable
+  ones (those Cosmere Maps tracks) or followed ones, so side characters don't clutter
+  the rest of the book.
 - **cosmere-maps credit:** footer credits only.
 - **Markers:** the character's portrait in a ring of their colour, never a blank dot;
   the chips double as the legend.

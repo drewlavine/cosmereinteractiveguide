@@ -1,4 +1,6 @@
 import { hasReached, type ReadingProgress } from './progress'
+import type { BookDate, BookPin } from './bookScenes'
+import { findListed, listedKindNames } from './listedLocations'
 import { books, bookSeries } from './books'
 import { chapters } from './chapters'
 import { characterDetails } from './characterDetails'
@@ -639,7 +641,7 @@ export interface ShownJourneyStop {
   presence?: string
   /** A stay on a world, shown on the star chart: the world's id. */
   world?: string
-  /** A stay in the world's Cognitive Realm rather than on it. */
+  /** In the world's Cognitive Realm (a stay or an event) rather than on it. */
   realm?: 'cognitive'
   /** Notes on a stay, e.g. that its timing is uncertain. */
   notes?: { label: string; text: string }[]
@@ -755,6 +757,7 @@ export function revealJourney(
           path: located ? e.path : [],
           approximate: !!e.approximate,
           ...(e.presence && { presence: e.presence }),
+          ...(e.realm && { realm: e.realm }),
           ...(e.title && { title: e.title }),
           ...(e.art && { art: e.art }),
           place:
@@ -894,7 +897,6 @@ function withItinerary(
   }
 
   const stops: ShownJourneyStop[] = []
-  let started = false
   stays.forEach((stay, i) => {
     const lines =
       stay.needs && !show(stay.needs)
@@ -904,20 +906,29 @@ function withItinerary(
       stay.realm === 'cognitive'
         ? realmPoint(stay.planetId)
         : chartPoint(stay.planetId)
-    // The journey opens on the home world's maps, not on the chart.
-    const hop = lines.length > 0 && !!at && (started || !onStay[i].length)
-    if (lines.length || onStay[i].length) started = true
-    if (hop) {
+    const notes: { label: string; text: string }[] = []
+    if (lines.length && stay.uncertain && show(stay.uncertain.revealedIn))
+      notes.push({ label: 'Timing uncertain', text: stay.uncertain.text })
+    if (lines.length && stay.wob && show(stay.wob.revealedIn))
+      notes.push({ label: 'Word of Brandon', text: stay.wob.text })
+    // A stay told by its map events gets no star-chart stop: its lines would
+    // only repeat them. Its notes go on its first event instead.
+    if (onStay[i].length) {
+      const [first, ...rest] = onStay[i]
+      stops.push(
+        notes.length
+          ? { ...first, notes: [...(first.notes ?? []), ...notes] }
+          : first,
+        ...rest,
+      )
+      return
+    }
+    if (lines.length && at) {
       const system = systems.find((s) =>
         s.planets.some((p) => p.id === stay.planetId),
       )
       const planet = system?.planets.find((p) => p.id === stay.planetId)
       const name = planet?.name ?? stay.planetId
-      const notes: { label: string; text: string }[] = []
-      if (stay.uncertain && show(stay.uncertain.revealedIn))
-        notes.push({ label: 'Timing uncertain', text: stay.uncertain.text })
-      if (stay.wob && show(stay.wob.revealedIn))
-        notes.push({ label: 'Word of Brandon', text: stay.wob.text })
       stops.push({
         id: `stay-${i}`,
         mapId: COSMERE_MAP,
@@ -942,11 +953,13 @@ function withItinerary(
         })),
       })
     }
-    stops.push(...onStay[i])
   })
   stops.push(...loose)
   const maps = [...journey.maps]
-  if (stops.some((s) => s.mapId === COSMERE_MAP)) maps.push(chart)
+  // The chart is also the way between worlds when the journey changes world.
+  const worlds = new Set(stops.flatMap((s) => journeyMapPlanet(s.mapId) ?? []))
+  if (stops.some((s) => s.mapId === COSMERE_MAP) || worlds.size > 1)
+    maps.push(chart)
   return { ...journey, stops, maps, spoilers }
 }
 
@@ -988,6 +1001,8 @@ export interface ShownBookCast {
   name: string
   /** Index into the map's palette, by first appearance in shown chapters. */
   colour: number
+  /** One of the book's notable characters: kept on the map when away. */
+  notable: boolean
 }
 
 /** A chapter-map scene trimmed to what the reader may see. */
@@ -998,7 +1013,7 @@ export interface ShownBookScene {
   approximate: boolean
   /** A memory: drawn apart, and doesn't move anyone. */
   flashback: boolean
-  place?: { name: string; href?: string }
+  place?: { name: string; href?: string; id?: string; kind?: string }
   /** One line on what happens; none on a travel leg. */
   text?: string
   /** Cast ids (ShownBookCast), met only. */
@@ -1014,6 +1029,8 @@ export interface ShownBookPosition {
   here: boolean
   /** The chapter they were last seen in: this one if here. */
   chapter: string
+  /** Here, when the chapter's text doesn't name them: what they do in it. */
+  role?: string
   /** Their latest art as of this chapter, never later. */
   portrait?: Portrait
 }
@@ -1025,6 +1042,14 @@ export interface ShownBookChapter {
   scenes: ShownBookScene[]
   /** Everyone met so far who hasn't left the book, in cast order. */
   positions: ShownBookPosition[]
+  /** In the world's calendar; `carried` when it's the last dated chapter's. */
+  date?: BookDate & { carried?: boolean }
+}
+
+/** A pin for a turning point, shown from the chapter the reader learns of it. */
+export interface ShownBookPin extends Omit<BookPin, 'revealedIn'> {
+  /** Index in `chapters` from which it's drawn. */
+  from: number
 }
 
 export interface ShownBookChapters {
@@ -1033,6 +1058,7 @@ export interface ShownBookChapters {
   cast: ShownBookCast[]
   /** As ShownJourney's maps. */
   maps: AtlasMap[]
+  pins: ShownBookPin[]
   credits: JourneyCredit[]
   /** Whether chapters past the reader's hide any of it. */
   spoilers: boolean
@@ -1043,8 +1069,10 @@ export interface ShownBookChapters {
  * reader may see: chapters up to theirs, only characters they've met, a
  * persona shown as the character once seen through, places named as
  * revealJourney names them. Each chapter also says where everyone is: here,
- * or dimmed at their last spot until they leave the book. `person` gives a
- * name and art for an id (kept out of here, as people.ts imports this).
+ * or dimmed at their last spot until they leave the book; the map keeps the
+ * dimmed spot only for the `notable` (the book's main characters; a persona
+ * not yet seen through never is). `person` gives a name and art for an id
+ * (kept out of here, as people.ts imports this).
  */
 export function revealBookChapters(
   bookId: string,
@@ -1054,10 +1082,16 @@ export function revealBookChapters(
   {
     viewAnyway = false,
     credits = [],
+    dates = {},
+    pins = [],
+    notable = [],
     person,
   }: {
     viewAnyway?: boolean
     credits?: readonly JourneyCredit[]
+    dates?: Readonly<Record<string, BookDate>>
+    pins?: readonly BookPin[]
+    notable?: readonly string[]
     person: (
       id: string,
     ) => { name: string; portraits?: readonly Portrait[] } | undefined
@@ -1112,12 +1146,14 @@ export function revealBookChapters(
     { mapId: string; point: MapPoint; chapter: string }
   >()
   const shown: ShownBookChapter[] = []
+  let lastDate: BookDate | undefined
   for (const ch of chapters[bookId] ?? []) {
     if (!canSee([{ book: bookId, chapter: ch.id }])) {
       spoilers = true
       if (!viewAnyway) break
     }
     const here = new Set<string>()
+    const roles = new Map<string, string>()
     const leaving: string[] = []
     const scenes = (byChapter.get(ch.id) ?? []).flatMap(
       (e): ShownBookScene[] => {
@@ -1136,12 +1172,13 @@ export function revealBookChapters(
                 id: as,
                 name: person(as)?.name ?? as,
                 colour: cast.length,
+                notable: notable.includes(as),
               })
               firstIds.set(as, c)
             }
             return as
           })
-        if (!e.flashback)
+        if (!e.flashback) {
           for (const c of ids) {
             here.add(c)
             last.set(c, {
@@ -1150,6 +1187,9 @@ export function revealBookChapters(
               chapter: ch.id,
             })
           }
+          for (const [c, role] of Object.entries(e.roles ?? {}))
+            roles.set(shownAs(c), role)
+        }
         for (const c of e.leaves ?? []) leaving.push(shownAs(c))
         const place = e.placeId ? atlas.place(e.placeId) : undefined
         const text = (e.summary ?? []).find(
@@ -1164,7 +1204,12 @@ export function revealBookChapters(
             flashback: !!e.flashback,
             place:
               place && see(place.revealedIn)
-                ? { name: place.name, href: place.href }
+                ? {
+                    name: place.name,
+                    href: place.href,
+                    id: place.id,
+                    kind: kindOf(place.id),
+                  }
                 : e.placeName
                   ? { name: e.placeName }
                   : undefined,
@@ -1175,10 +1220,16 @@ export function revealBookChapters(
       },
     )
     const seeArt = asOf(ch.id)
+    // A flashback chapter's date is its own, never carried on.
+    const own = dates[ch.id]
+    const flashback = scenes.length > 0 && scenes.every((s) => s.flashback)
+    if (own && !flashback) lastDate = own
+    const date = own ?? (lastDate && { ...lastDate, carried: true })
     shown.push({
       id: ch.id,
       label: ch.label,
       ...(ch.part && { part: ch.part }),
+      ...(date && { date }),
       scenes,
       positions: cast.flatMap((m) => {
         const at = last.get(m.id)
@@ -1187,11 +1238,13 @@ export function revealBookChapters(
           art(firstIds.get(m.id)!, m.id),
           seeArt,
         )
+        const role = roles.get(m.id)
         return [
           {
             id: m.id,
             ...at,
             here: here.has(m.id),
+            ...(role && { role }),
             ...(portrait && { portrait }),
           },
         ]
@@ -1199,15 +1252,34 @@ export function revealBookChapters(
     })
     for (const c of leaving) last.delete(c)
   }
+  // Each pin from the first shown chapter at which the reader knows of it.
+  const shownPins = pins.flatMap((p): ShownBookPin[] => {
+    const at = shown.findIndex((c) => c.id === p.chapter)
+    if (at < 0 || !see(p.revealedIn) || !atlas.map(p.mapId)) return []
+    const from = shown.findIndex(
+      (c, i) => i >= at && (viewAnyway || asOf(c.id)(p.revealedIn)),
+    )
+    if (from < 0) return []
+    addMapChain(maps, atlas.map(p.mapId)!, atlas, canSee)
+    const { revealedIn: _, ...rest } = p
+    return [{ ...rest, characters: p.characters.map(shownAs), from }]
+  })
   return {
     chapters: shown,
     cast,
     maps,
+    pins: shownPins,
     credits: credits.filter((c) =>
       c.source ? sources.has(c.source) : shown.length,
     ),
     spoilers,
   }
+}
+
+/** "City", "Warcamp"…: what kind of place a listed one is. */
+const kindOf = (id: string) => {
+  const listed = findListed(id)
+  return listed && listedKindNames[listed.kind]
 }
 
 /** What a place's page may say in prose. */

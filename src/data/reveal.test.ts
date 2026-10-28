@@ -2,6 +2,7 @@ import { describe, expect, it } from 'vitest'
 import { books } from './books'
 import { chapters } from './chapters'
 import { characterPortraits } from './characterPortraits'
+import { facePortraits } from './faces'
 import { groupMembers } from './groupMembers'
 import {
   metIn,
@@ -357,6 +358,19 @@ describe('art and appearance gaps', () => {
         at(['way-of-kings'], { 'words-of-radiance': 'prologue' }),
       ),
     ).toBe('/portraits/dalinar-kholin-coat.webp')
+  })
+
+  it("gives Dalinar's map markers a face while his page shows the Plate art", () => {
+    const wok12 = at([], { 'way-of-kings': '12' })
+    expect(art('dalinar-kholin', wok12)).toBe(
+      '/portraits/dalinar-kholin-shardplate.webp',
+    )
+    expect(
+      revealPortrait(
+        facePortraits('dalinar-kholin', characterPortraits['dalinar-kholin']),
+        wok12,
+      ).portrait?.src,
+    ).toBe('/portraits/faces/dalinar-kholin-coat.webp')
   })
 
   it('shows a summary-only intro only when no other is visible', () => {

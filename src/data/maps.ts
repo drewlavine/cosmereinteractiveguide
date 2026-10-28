@@ -1007,6 +1007,19 @@ export const planetMaps: Record<string, PlanetMap[]> = {
           height: 2438,
           caption: 'Arelon, hand-painted for the tenth-anniversary edition.',
           artist: STEWART,
+          hotspots: [
+            pin('elantris', 1250, 622),
+            pin('kae', 1292, 642),
+            pin('kondeon', 978, 919),
+            pin('aredel-river', 1000, 840),
+            pin('lake-alonoe', 824, 1207),
+            pin('atad-mountains', 1360, 1120),
+            pin('kaltii', 972, 1888),
+            pin('the-chasm', 995, 1945),
+            pin('fellavoo', 1452, 1933),
+            pin('kalomo-river', 800, 2270),
+            pin('duladel', 1178, 2154),
+          ],
         },
       ],
     },
@@ -1263,4 +1276,33 @@ export function placeMaps(
     (v.hotspots ?? []).filter((h) => h.locationId === locationId),
   )
   return locators.length ? { section: 'where-it-is', locators } : undefined
+}
+
+/**
+ * The middle (area centroid) of a place's outline on a map, for an event
+ * known only by its country.
+ */
+export function areaCentre(
+  mapId: string,
+  placeId: string,
+): [number, number] | undefined {
+  const map = Object.values(planetMaps)
+    .flat()
+    .find((m) => m.id === mapId)
+  const spot = map?.versions
+    .flatMap((v) => v.hotspots ?? [])
+    .find((h) => h.shape === 'area' && h.locationId === placeId)
+  if (spot?.shape !== 'area') return undefined
+  const p = spot.points.split(' ').map((xy) => xy.split(',').map(Number))
+  let a = 0
+  let cx = 0
+  let cy = 0
+  p.forEach(([x0, y0], i) => {
+    const [x1, y1] = p[(i + 1) % p.length]
+    const f = x0 * y1 - x1 * y0
+    a += f
+    cx += (x0 + x1) * f
+    cy += (y0 + y1) * f
+  })
+  return [Math.round(cx / (3 * a)), Math.round(cy / (3 * a))]
 }

@@ -1160,16 +1160,69 @@ describe('world-hoppers’ journeys', () => {
     let map = await open('Hoid')
     // His first stay has map events, so the journey opens on Sel's maps.
     expect(worlds(map)).toEqual([])
-    expect(steps(map)).toEqual(['Hoid fails to become an Elantrian, Epilogue'])
+    expect(steps(map)).toEqual([
+      'Hoid appears in Elantris as a beggar, Chapter 58',
+      'Hoid fails to become an Elantrian, Epilogue',
+    ])
     expect(document.body).not.toHaveTextContent('Elhokar')
     cleanup()
     renderAt('/characters/hoid', ['elantris'], { 'way-of-kings': '58' })
     await screen.findByRole('heading', { level: 1, name: 'Hoid' })
     map = await open('Hoid')
-    expect(worlds(map)).toEqual(['Roshar'])
-    go(map, 'Roshar')
-    expect(card(map)).toHaveTextContent('Elhokar')
+    // Wit's map events tell his Roshar stay, so it gets no star-chart stop.
+    expect(worlds(map)).toEqual([])
+    expect(steps(map).some((s) => s.startsWith('Wit insults guests'))).toBe(
+      true,
+    )
     expect(document.body).not.toHaveTextContent(/Midius|Ashyn|Middlefest/)
+  })
+
+  it('gives a stay a star-chart stop only when no map tells it', async () => {
+    renderAt('/characters/hoid', allBooks)
+    const map = await open('Hoid')
+    expect(worlds(map)).toEqual([
+      'Yolen',
+      'Ashyn',
+      'Roshar',
+      'Threnody',
+      'Lumar',
+      'Komashi',
+    ])
+    expect(map).not.toHaveTextContent('master storyteller')
+    go(map, 'Lumar')
+    expect(
+      within(within(card(map)).getByRole('list')).getAllByRole('listitem'),
+    ).toHaveLength(3)
+    expect(card(map)).toHaveTextContent('Cursed by the Sorceress')
+  })
+
+  it('starts Hoid on Yolen once the books say he was born there', async () => {
+    renderAt('/characters/hoid', ['way-of-kings', 'sunlit-man'])
+    let map = await open('Hoid')
+    // Nothing yet says he's older than the Shattering.
+    expect(worlds(map)).not.toContain('Yolen')
+    cleanup()
+    renderAt('/characters/hoid', [
+      'way-of-kings',
+      'rhythm-of-war',
+      'sunlit-man',
+    ])
+    map = await open('Hoid')
+    expect(worlds(map)[0]).toBe('Yolen')
+    go(map, 'Yolen')
+    expect(card(map)).toHaveTextContent('Born on Yolen, before the Shattering')
+    // Where the Shattering happened waits for Wind and Truth.
+    expect(card(map)).not.toHaveTextContent('turned down')
+    cleanup()
+    renderAt('/characters/hoid', [
+      'way-of-kings',
+      'rhythm-of-war',
+      'sunlit-man',
+      'wind-and-truth',
+    ])
+    map = await open('Hoid')
+    go(map, 'Yolen')
+    expect(card(map)).toHaveTextContent('turned down one of the new Shards')
   })
 
   it('puts each world’s map events in the stay they belong to', async () => {
@@ -1177,16 +1230,15 @@ describe('world-hoppers’ journeys', () => {
     const map = await open('Hoid')
     const list = steps(map)
     const at = (text: string) => list.findIndex((s) => s.startsWith(text))
-    const scadrial = list.flatMap((s, i) =>
-      s.startsWith('Scadrial') ? [i] : [],
+    // The Well in Era 1; Wax's coachman in Era 2, after Roshar.
+    expect(at('Hoid takes lerasium')).toBeLessThan(
+      at("Hoid appears in T'Telir"),
     )
-    expect(scadrial).toHaveLength(2)
-    // The Well in Era 1; Wax's coachman in Era 2, after his hop back.
-    expect(at('Hoid takes lerasium')).toBeGreaterThan(scadrial[0])
-    expect(at('Hoid takes lerasium')).toBeLessThan(scadrial[1])
-    expect(at("Hoid becomes Wax's coachman")).toBeGreaterThan(scadrial[1])
-    // Into a world from the star chart, the chart's stop comes first.
-    expect(at('Hoid tells Siri')).toBeGreaterThan(at('Nalthis'))
+    expect(at('Wit passes on his Dawnshard')).toBeLessThan(
+      at("Hoid appears as Wax's coachman"),
+    )
+    // Threnody has no maps, so its stay sits on the star chart in order.
+    expect(at('Threnody')).toBe(at("Hoid appears in T'Telir") + 1)
   })
 
   describe('Kelsier', () => {
@@ -1213,7 +1265,8 @@ describe('world-hoppers’ journeys', () => {
       const map = await open('Kelsier')
       expect(worlds(map)).toEqual([])
       const list = steps(map)
-      expect(list[0]).toMatch(/^Kelsier is sent to the Pits/)
+      expect(list[0]).toMatch(/^Kelsier is born/)
+      expect(list[1]).toMatch(/^Kelsier is sent to the Pits/)
       expect(has(list, 'Kelsier kills Lord Shezler')).toBe(true)
       expect(has(list, 'Kelsier clings on')).toBe(false)
       expect(map).not.toHaveTextContent(/Cognitive|Leras|Thaidakar/)
@@ -1237,14 +1290,19 @@ describe('world-hoppers’ journeys', () => {
       map = await open('Kelsier')
       const list = steps(map)
       const at = (text: string) => list.findIndex((s) => s.startsWith(text))
-      expect(at('Scadrial · Cognitive Realm (in the Cognitive Realm)')).toBe(
-        at('Kelsier dies in Fountain Square') + 2,
-      )
+      // The stay's map events tell it: no star-chart stop.
+      expect(worlds(map)).toEqual([])
       expect(
         at('Kelsier stabs Elend at the Well (in the Cognitive Realm)'),
-      ).toBeGreaterThan(at('Scadrial · Cognitive Realm'))
-      go(map, 'Scadrial · Cognitive')
-      expect(card(map)).toHaveTextContent('Cognitive Shadow')
+      ).toBeGreaterThan(at('Kelsier dies in Fountain Square'))
+      expect(map.querySelector('.journey-stage.is-cognitive')).toBeNull()
+      fireEvent.click(
+        within(map).getByRole('button', { name: /Kelsier stabs Elend/ }),
+      )
+      // The map turns misty in the Cognitive Realm.
+      await waitFor(() =>
+        expect(map.querySelector('.journey-stage.is-cognitive')).not.toBeNull(),
+      )
       expect(
         within(card(map)).getByText('In the Cognitive Realm'),
       ).toHaveAttribute(
@@ -1266,6 +1324,9 @@ describe('world-hoppers’ journeys', () => {
         '/portraits/kelsier-campfire.webp',
       )
       const map = await open('Kelsier')
+      fireEvent.click(
+        within(map).getByRole('button', { name: /^2\. Kelsier is sent/ }),
+      )
       expect(
         map.querySelector('.journey-face image')?.getAttribute('href'),
       ).toMatch(/\/faces\/kelsier-survivor\.webp$/)
@@ -1291,7 +1352,10 @@ describe('world-hoppers’ journeys', () => {
     it('brings him back to Scadrial in Era 2, and to Roshar only once he’s known as Thaidakar', async () => {
       renderAt('/characters/kelsier', era2)
       let map = await open('Kelsier')
-      expect(worlds(map)).toEqual(['Scadrial', 'Scadrial'])
+      expect(worlds(map)).toEqual([])
+      fireEvent.click(
+        within(map).getByRole('button', { name: /^2\. Kelsier is sent/ }),
+      )
       expect(
         map.querySelector('.journey-face image')?.getAttribute('href'),
       ).toMatch(/\/faces\/kelsier-sovereign\.webp$/)
@@ -1304,8 +1368,14 @@ describe('world-hoppers’ journeys', () => {
         'wind-and-truth': '17',
       })
       map = await open('Kelsier')
-      expect(worlds(map)).toEqual(['Scadrial', 'Scadrial', 'Roshar'])
+      expect(worlds(map)).toEqual([])
       const list = steps(map)
+      expect(
+        has(
+          list,
+          'Thaidakar leads the Ghostbloods (from afar, through an avatar)',
+        ),
+      ).toBe(true)
       expect(
         has(list, 'Thaidakar presses Gavilar by seon (through a seon)'),
       ).toBe(true)
@@ -1313,11 +1383,69 @@ describe('world-hoppers’ journeys', () => {
         has(list, "Thaidakar's agents trap Kalak (through his agents)"),
       ).toBe(true)
       expect(has(list, 'Thaidakar makes a truce')).toBe(false)
-      go(map, 'Roshar')
+      // The stay's note moves to its first event.
+      fireEvent.click(
+        within(map).getByRole('button', {
+          name: /Thaidakar leads the Ghostbloods/,
+        }),
+      )
       expect(
         within(card(map)).getByText('Timing uncertain'),
       ).toBeInTheDocument()
-      expect(card(map)).toHaveTextContent('From afar, through his agents')
+      expect(card(map)).not.toHaveTextContent('Ba-Ado-Mishram')
+    })
+
+    it('opens on his birth, and on his parentage, from The Final Empire ch 8', async () => {
+      renderAt('/characters/kelsier', [], { 'final-empire': '7' })
+      let map = await open('Kelsier')
+      expect(has(steps(map), 'Kelsier is born')).toBe(false)
+      cleanup()
+      renderAt('/characters/kelsier', [], { 'final-empire': '8' })
+      map = await open('Kelsier')
+      expect(steps(map)[0]).toBe('Kelsier is born, Chapter 8')
+      expect(card(map)).toHaveTextContent('a nobleman and a skaa mother')
+      expect(card(map)).not.toHaveTextContent('984')
+      cleanup()
+      renderAt('/characters/kelsier', ['final-empire'], {
+        'well-of-ascension': '5',
+      })
+      map = await open('Kelsier')
+      expect(card(map)).toHaveTextContent('Born around 984 FE')
+    })
+
+    it('draws no marker or dot for an event with no known place', async () => {
+      renderAt('/characters/kelsier', mistborn)
+      const map = await open('Kelsier')
+      // It opens on his birth, which has no known place.
+      expect(card(map)).toHaveTextContent('Kelsier is born')
+      expect(
+        map.querySelector('.journey-face, .journey-here, .journey-pulse'),
+      ).toBeNull()
+      fireEvent.click(
+        within(map).getByRole('button', { name: /^2\. Kelsier is sent/ }),
+      )
+      expect(map.querySelector('.journey-face')).not.toBeNull()
+      expect(map.querySelector('[data-event="0"]')).toBeNull()
+      fireEvent.click(
+        within(map).getByRole('button', { name: /^3\. Kelsier Snaps/ }),
+      )
+      expect(map.querySelector('[data-event="0"]')).toBeNull()
+      expect(map.querySelector('[data-event="1"]')).not.toBeNull()
+    })
+
+    it('adds his agents at the Elendel docks only from The Lost Metal ch 70', async () => {
+      const before = era2.filter((b) => b !== 'lost-metal')
+      const docks = "Kelsier's Ghostbloods help Steris (through his agents)"
+      renderAt('/characters/kelsier', before, { 'lost-metal': '69' })
+      let map = await open('Kelsier')
+      expect(has(steps(map), docks)).toBe(false)
+      cleanup()
+      renderAt('/characters/kelsier', before, { 'lost-metal': '70' })
+      map = await open('Kelsier')
+      const list = steps(map)
+      const at = (text: string) => list.findIndex((s) => s.startsWith(text))
+      expect(at(docks)).toBeGreaterThan(at('Kelsier briefs his agents by seon'))
+      expect(has(list, 'Kelsier lets Marasi walk away')).toBe(false)
     })
 
     it('keeps Kelsier off Thaidakar’s journey', async () => {

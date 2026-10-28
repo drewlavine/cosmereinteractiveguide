@@ -227,8 +227,8 @@ section; tick a tab here once its section's first version ships.
         ability pages to come; see 13)
   - [ ] **Culture**: the peoples and societies of the Cosmere (list page
         live; entry pages to come; see 15)
-  - [ ] **Timeline**: the Cosmere's history in in-world order (two static
-        mockups at `/timeline` to choose a design; see 14)
+  - [ ] **Timeline**: the Cosmere's history in in-world order (a WebGL
+        Cosmere map proof of concept at `/timeline`; see 14)
   - [ ] **Maps**: a gallery of all available maps (shared with planet maps,
         see 1)
   - [x] Give each tab its own URL and show which tab is active
@@ -651,6 +651,10 @@ Personal arcs and battles belong on character and journey pages.
     - [x] Map-wide zoom feel (after the 17th Shard's Roshar map): zoom out
           only until the map fills the frame, no panning off the edges,
           eased wheel zoom and flung pans
+    - [x] Only cosmere-maps' notable characters stay on the map all book;
+          side characters show only in their own chapters, with a hover
+          line saying what they do there (The Final Empire, The Way of
+          Kings)
     - [ ] Roll out book by book (Well of Ascension, Hero of Ages, then
           Stormlight). Done: The Way of Kings (113 scenes over all 88
           chapters, on Roshar, Kharbranth, the warcamps and the Shattered
@@ -787,11 +791,11 @@ Personal arcs and battles belong on character and journey pages.
 
 The Cosmere's history across every world, in in-world order, trimmed to
 what the reader may see. Tab live at `/timeline` (replaced the hidden Events
-tab, October 2026). It shows two static mockups, toggled at the top
-(`?view=spine` for the second): **Cards** (era sections and an "at a glance"
-strip) and **Spine** (a gold horizontal spine with dated badges, pictures and
-a details modal). Their sample data in `src/data/timelineMock.ts` is not
-spoiler-gated; replace both with the chosen design and pipeline data.
+tab, October 2026). It shows only the Cosmere map timeline, filling the
+page: the WebGL explorer (painted sky, worlds, maps) with a 17th Shard-style
+time bar and event card. Plan, data model, dating and phases are in
+`docs/cosmere-timeline.md`. The two static mockups (Cards, Spine) that came
+before it are removed.
 
 The fan spreadsheet has rows for Dragonsteel and Yolen. Check each row on its
 merits instead of dropping whole worlds: row 6 is the Shattering (year 0),
@@ -814,7 +818,20 @@ Cosmere-level facts (the Shattering, Shards) surface piecemeal across books
 and Ars Arcanums, so their dating needs extra care.
 
 - [x] A Timeline tab in the header (placeholder page)
-- [x] Two static design mockups on the tab, with a toggle
+- [x] Two static design mockups on the tab, with a toggle (since removed)
+- [x] Cosmere map proof of concept (`docs/cosmere-timeline.md`): the engine
+      prototype ported to `src/components/explorer/` (Three.js + React
+      Three Fiber, lazy-loaded), a time bar with in-world dates, event
+      markers and a card, flights between worlds, zooming out to explore,
+      and the first 17 events (before the Shattering, the Shards settling,
+      on to Gavilar), spoiler-gated in `src/data/timeline.ts`
+- [x] The Cosmere map is the whole tab, filling the page below the header
+- [x] Visual pass: a full-screen button, each event framed clear of the card
+      and time bar, and drag, wheel, trackpad and pinch to explore
+- [x] Controls: full screen, zoom and Reset down the right; a Shards panel
+      (each Shard once the reader knows it, with art and planet; not yet
+      Harmony) and a Notable characters panel (search, not born / died with
+      jumps, their place on the map) down the left
 - [ ] Events in in-world order, each with a scope (Cosmere or a world), an
       in-world time, plain text and `revealedIn`
 - [ ] Books placed on the timeline where their stories happen

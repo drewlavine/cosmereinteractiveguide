@@ -158,28 +158,13 @@ describe('main tabs', () => {
     expect(isCharacters('/charactersheet')).toBe(false)
   })
 
-  it('switches the Timeline tab between its two mockups', async () => {
-    const user = userEvent.setup()
+  it('shows only the Cosmere map on the Timeline tab', async () => {
     renderAt('/timeline')
     expect(
       await screen.findByRole('heading', { level: 1, name: 'Timeline' }),
     ).toBeInTheDocument()
     expect(activeTab()).toEqual(['Timeline'])
-    const pick = (name: RegExp) => screen.getByRole('button', { name })
-    expect(pick(/Cards/)).toHaveAttribute('aria-pressed', 'true')
-    expect(screen.getByLabelText('At a glance')).toBeInTheDocument()
-
-    await user.click(pick(/Spine/))
-    expect(pick(/Spine/)).toHaveAttribute('aria-pressed', 'true')
-    expect(screen.queryByLabelText('At a glance')).not.toBeInTheDocument()
-    await user.click(
-      screen.getByRole('button', { name: 'The Shattering of Adonalsium' }),
-    )
-    expect(
-      screen.getByRole('heading', {
-        level: 2,
-        name: 'The Shattering of Adonalsium',
-      }),
-    ).toBeInTheDocument()
+    expect(screen.getByText(/Nothing on the timeline yet/)).toBeInTheDocument()
+    expect(screen.queryByRole('button', { name: /Mockup/ })).toBeNull()
   })
 })

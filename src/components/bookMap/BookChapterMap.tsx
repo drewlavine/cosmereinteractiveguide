@@ -19,6 +19,7 @@ import {
   revealBookChapters,
   type ShownBookCast,
   type ShownBookChapters,
+  type ShownBookPin,
   type ShownBookPosition,
 } from '../../data/reveal'
 import { useBooksRead } from '../../state/booksRead'
@@ -30,6 +31,7 @@ import { anchorOn, boundsOf, pathData } from '../journey/journeyGeometry'
 import type { MapEngineHandle } from '../journey/MapEngine'
 import { SvgMapEngine } from '../journey/SvgMapEngine'
 import { useFullscreen } from '../journey/useFullscreen'
+import { FullscreenIcon } from '../FullscreenIcon'
 import styles from './BookChapterMap.module.css'
 import { castColour, honeycomb, initials } from './markers'
 import { useBookScenes } from './useBookScenes'
@@ -84,7 +86,7 @@ const reducedMotion = () =>
   !!window.matchMedia?.('(prefers-reduced-motion: reduce)').matches
 
 /**
- * A book's chapter map: where everyone is, chapter by chapter, up to the
+ * A book's chapter map: where the characters are, chapter by chapter, up to the
  * reader's chapter, with a line on what happens. Renders nothing for a book
  * the reader hasn't started or one without scenes yet.
  */
@@ -100,6 +102,9 @@ export default function BookChapterMap({ bookId }: { bookId: string }) {
       revealBookChapters(bookId, pack.events, journeyAtlas, canSee, {
         viewAnyway: showAll,
         credits: pack.credits,
+        dates: pack.dates,
+        pins: pack.pins,
+        notable: pack.notable,
         person,
       }),
     [bookId, pack, canSee, showAll],
@@ -115,7 +120,7 @@ function ChapterMapView({
   shown: ShownBookChapters
   scope: string
 }) {
-  const { chapters, cast, maps } = shown
+  const { chapters, cast, maps, pins } = shown
   const link = useLinkText()
   const uid = useId().replace(/[^a-zA-Z0-9-]/g, '')
   const [params, setParams] = useSearchParams()
@@ -125,6 +130,7 @@ function ChapterMapView({
   const [choice, setChoice] = useState<{ chapter: string; mapId: string }>()
   const [trail, setTrail] = useState<Trail>('recent')
   const [showAway, setShowAway] = useState(true)
+  const [showEvents, setShowEvents] = useState(true)
   const [following, setFollowing] = useState<ReadonlySet<string>>(new Set())
   const [playing, setPlaying] = useState(false)
   const engine = useRef<MapEngineHandle>(null)
@@ -226,6 +232,20 @@ function ChapterMapView({
     [cast],
   )
   const colourOf = (id: string) => castColour(castById.get(id)?.colour ?? 0)
+  // Where each scene's lead set out from: their last place before it.
+  const fromOf = useMemo(() => {
+    const from = new Map<string, string>()
+    const lastAt = new Map<string, string>()
+    for (const c of chapters)
+      for (const s of c.scenes) {
+        const to = s.place?.name
+        const was = s.characters[0] && lastAt.get(s.characters[0])
+        if (was && was !== to) from.set(s.id, was)
+        if (to && !s.flashback)
+          for (const id of s.characters) lastAt.set(id, to)
+      }
+    return from
+  }, [chapters])
   const nameOf = (id: string) => castById.get(id)?.name ?? id
 
   // A point on this map: its own, or the pin of the inner map (a city) it's on.
@@ -239,7 +259,12 @@ function ChapterMapView({
   >()
   const elsewhere: ShownBookPosition[] = []
   for (const p of chapter.positions
-    .filter((p) => shows(p.id) && (p.here || showAway))
+    .filter(
+      (p) =>
+        shows(p.id) &&
+        (p.here ||
+          (showAway && (castById.get(p.id)?.notable || following.has(p.id)))),
+    )
     .toSorted((a, b) => Number(b.here) - Number(a.here))) {
     const at = on(p.mapId, p.point)
     if (!at) {
@@ -272,6 +297,64 @@ function ChapterMapView({
     if (at && !labels.has(at.join(',')))
       labels.set(at.join(','), { id: s.id, at, name: s.place!.name })
   }
+
+  // A chapter, keeping the map the reader is looking at.
+  const visit = (i: number) => {
+    setPlaying(false)
+    setChoice({ chapter: chapters[i].id, mapId: map.id })
+    go(i)
+  }
+
+  // Every place visited so far on this map, with what happened there.
+  const visited = new Map<
+    string,
+    {
+      at: MapPoint
+      name: string
+      kind?: string
+      seen: { i: number; text: string }[]
+    }
+  >()
+  chapters.slice(0, current + 1).forEach((c, i) =>
+    c.scenes.forEach((s) => {
+      const at = s.place && on(s.mapId, s.path.at(-1)!)
+      if (!at || !s.place) return
+      const key = s.place.id ?? s.place.name
+      if (!visited.has(key))
+        visited.set(key, {
+          at,
+          name: s.place.name,
+          kind: s.place.kind,
+          seen: [],
+        })
+      if (s.text) visited.get(key)!.seen.push({ i, text: s.text })
+    }),
+  )
+  const placeTip = (v: NonNullable<ReturnType<typeof visited.get>>) => {
+    const recent = v.seen.toReversed().slice(0, 3)
+    const earlier = v.seen.length - recent.length
+    const last = v.seen.at(-1)
+    return [
+      `${v.name}${v.kind ? ` (${v.kind.toLowerCase()})` : ''}`,
+      ...recent.map((e) => `${chapters[e.i].label}: ${e.text}`),
+      earlier ? `…and ${earlier} earlier` : '',
+      last && last.i !== current
+        ? `Click to go to ${chapters[last.i].label}`
+        : '',
+    ]
+      .filter(Boolean)
+      .join('\n')
+  }
+  const placeAt = (at: MapPoint) =>
+    [...visited.values()].find((v) => v.at.join(',') === at.join(','))
+
+  // Turning points the reader knows of by this chapter, on this map.
+  const shownPins = showEvents
+    ? pins.flatMap((p) => {
+        const at = p.from <= current && on(p.mapId, p.point)
+        return at ? [{ ...p, at, now: p.chapter === chapter.id }] : []
+      })
+    : []
 
   // Fly to where this chapter happens on the map shown.
   const focus = [
@@ -350,6 +433,10 @@ function ChapterMapView({
   const here = chapter.positions.filter((p) => p.here)
   const away = chapter.positions.filter((p) => !p.here)
 
+  const arrowColours = [
+    ...new Set(lines.map((l) => colourOf(l.characters.find(shows)!))),
+  ]
+
   const layers = (zoom: number) => (
     <>
       <defs>
@@ -359,6 +446,20 @@ function ChapterMapView({
         <filter id={`${uid}-grey`}>
           <feColorMatrix type="saturate" values="0" />
         </filter>
+        {arrowColours.map((c, i) => (
+          <marker
+            key={c}
+            id={`${uid}-arrow-${i}`}
+            viewBox="0 0 10 10"
+            refX="5"
+            refY="5"
+            markerWidth="3"
+            markerHeight="3"
+            orient="auto"
+          >
+            <path d="M0,0 L10,5 L0,10 z" fill={c} />
+          </marker>
+        ))}
       </defs>
       {lines.map((l) => {
         const d = pathData(l.path)
@@ -366,8 +467,10 @@ function ChapterMapView({
         const who = l.characters.filter(shows).map(nameOf)
         const when = chapters[l.at].label
         const to = l.place?.name
+        const from = fromOf.get(l.id)
+        const colour = colourOf(l.characters.find(shows)!)
         const tip = [
-          `${when}: ${listNames(who)}${to ? ` to ${to}` : ''}`,
+          `${when}: ${listNames(who)}${from ? ` from ${from}` : ''}${to ? ` to ${to}` : ''}`,
           l.text?.replace(/\.$/, ''),
           l.approximate ? 'Route approximate' : '',
           l.now ? '' : 'Click to go to that chapter',
@@ -383,7 +486,8 @@ function ChapterMapView({
             />
             <path
               d={d}
-              stroke={colourOf(l.characters.find(shows)!)}
+              stroke={colour}
+              markerEnd={`url(#${uid}-arrow-${arrowColours.indexOf(colour)})`}
               strokeWidth={width}
               strokeDasharray={
                 l.approximate ? `${8 / zoom} ${6 / zoom}` : undefined
@@ -396,19 +500,61 @@ function ChapterMapView({
               role={l.now ? 'img' : 'button'}
               aria-label={tip}
               data-tooltip={tip}
-              onClick={
-                l.now
-                  ? undefined
-                  : () => {
-                      setPlaying(false)
-                      setChoice({ chapter: chapters[l.at].id, mapId: map.id })
-                      go(l.at)
-                    }
-              }
+              onClick={l.now ? undefined : () => visit(l.at)}
             />
           </g>
         )
       })}
+      {[...visited.values()]
+        .filter((v) => !placed.has(v.at.join(',')))
+        .map((v) => {
+          const last = v.seen.at(-1)
+          return (
+            <circle
+              key={v.at.join(',')}
+              cx={v.at[0]}
+              cy={v.at[1]}
+              r={5 / zoom}
+              strokeWidth={2 / zoom}
+              className={styles.placeDot}
+              role="button"
+              aria-label={v.name}
+              data-tooltip={placeTip(v)}
+              onClick={last ? () => visit(last.i) : undefined}
+            />
+          )
+        })}
+      {shownPins.map((p) => (
+        <g
+          key={p.id}
+          transform={`translate(${p.at[0]} ${p.at[1]}) scale(${1 / zoom})`}
+          className={[styles.pin, p.now ? styles.pinNow : ''].join(' ')}
+          role="button"
+          aria-label={p.title}
+          data-tooltip={[
+            `${p.title} (${chapters.find((c) => c.id === p.chapter)?.label})`,
+            p.text,
+            p.now ? '' : 'Click to go to that chapter',
+          ]
+            .filter(Boolean)
+            .join('\n')}
+          onClick={
+            p.now
+              ? undefined
+              : () => visit(chapters.findIndex((c) => c.id === p.chapter))
+          }
+        >
+          <rect
+            x={-11}
+            y={-11}
+            width={22}
+            height={22}
+            rx={3}
+            transform="rotate(45)"
+          />
+          <text dy="0.35em">{PIN_GLYPHS[p.kind]}</text>
+        </g>
+      ))}
       {[...placed.values()]
         .flatMap(({ at, people }) => {
           const offsets = honeycomb(people.length)
@@ -428,24 +574,20 @@ function ChapterMapView({
           const action = !p.here
             ? {
                 label: `${name}, last seen here in ${seen}`,
-                tip: `${name}: last seen here in ${seen}. Click to go to that chapter`,
-                run: () => {
-                  setPlaying(false)
-                  setChoice({ chapter: p.chapter, mapId: map.id })
-                  go(chapters.findIndex((c) => c.id === p.chapter))
-                },
+                tip: `last seen here in ${seen}. Click to go to that chapter`,
+                run: () => visit(chapters.findIndex((c) => c.id === p.chapter)),
               }
             : inner
               ? {
                   label: `${name}, in ${inner.title}`,
-                  tip: `${name}: in ${inner.title}. Click to zoom in`,
+                  tip: `in ${inner.title}. Click to zoom in`,
                   run: () => setChoice({ chapter: chapter.id, mapId: p.mapId }),
                 }
               : {
                   label: name,
                   tip: following.has(p.id)
-                    ? `${name}: click to stop following`
-                    : `${name}: click to follow them on this map`,
+                    ? 'click to stop following'
+                    : 'click to follow them on this map',
                   run: () => follow(p.id),
                 }
           return (
@@ -460,7 +602,12 @@ function ChapterMapView({
               portrait={p.portrait?.src}
               uid={uid}
               label={action.label}
-              tip={action.tip}
+              description={p.role}
+              tip={
+                p.role
+                  ? `${name}\n${p.role}\n${action.tip[0].toUpperCase()}${action.tip.slice(1)}`
+                  : `${name}: ${action.tip}`
+              }
               zooms={!!inner && p.here}
               onClick={action.run}
             />
@@ -476,6 +623,10 @@ function ChapterMapView({
             x={l.at[0]}
             y={l.at[1] + below}
             className={styles.placeLabel}
+            data-tooltip={(() => {
+              const v = placeAt(l.at)
+              return v ? placeTip(v) : undefined
+            })()}
             fontSize={13 / zoom}
             strokeWidth={3 / zoom}
           >
@@ -497,12 +648,16 @@ function ChapterMapView({
           <button
             type="button"
             aria-pressed={following.has(p.id)}
+            aria-description={p.role}
             className={shows(p.id) ? undefined : styles.muted}
-            data-tooltip={
+            data-tooltip={[
+              p.role,
               following.has(p.id)
                 ? `Stop following ${nameOf(p.id)}`
-                : `Follow ${nameOf(p.id)}: highlight them and their routes on the map`
-            }
+                : `Follow ${nameOf(p.id)}: highlight them and their routes on the map`,
+            ]
+              .filter(Boolean)
+              .join('\n')}
             onClick={() => follow(p.id)}
           >
             {p.portrait ? (
@@ -631,13 +786,27 @@ function ChapterMapView({
                 aria-pressed={showAway}
                 data-tooltip={
                   showAway
-                    ? 'Hide the characters who aren’t in this chapter'
-                    : 'Show where the characters not in this chapter were last seen'
+                    ? 'Hide the main characters who aren’t in this chapter'
+                    : 'Show where the main characters not in this chapter were last seen'
                 }
                 onClick={() => setShowAway(!showAway)}
               >
                 Others
               </button>
+              {pins.length > 0 && (
+                <button
+                  type="button"
+                  aria-pressed={showEvents}
+                  data-tooltip={
+                    showEvents
+                      ? 'Hide the pins for key events'
+                      : 'Show pins for key events: battles, deaths, discoveries and meetings'
+                  }
+                  onClick={() => setShowEvents(!showEvents)}
+                >
+                  Events
+                </button>
+              )}
             </div>
             {castOpen && (
               <section
@@ -667,10 +836,10 @@ function ChapterMapView({
                   {following.size ? (
                     <button
                       type="button"
-                      data-tooltip="Stop following and show everyone on the map again"
+                      data-tooltip="Stop following and show the usual characters on the map again"
                       onClick={() => setFollowing(new Set())}
                     >
-                      Show everyone
+                      Stop following
                     </button>
                   ) : (
                     'Pick characters to follow them on this map.'
@@ -706,6 +875,21 @@ function ChapterMapView({
                   <span className={styles.part}>{chapter.part}</span>
                 )}
                 {chapter.label}
+                {chapter.date && (
+                  <span
+                    className={styles.date}
+                    data-tooltip={
+                      chapter.date.carried
+                        ? 'About when: this chapter isn’t dated, so this is the last dated chapter’s date'
+                        : chapter.date.circa
+                          ? 'An estimated date'
+                          : 'When this chapter happens'
+                    }
+                  >
+                    {chapter.date.carried || chapter.date.circa ? '≈ ' : ''}
+                    {chapter.date.text}
+                  </span>
+                )}
               </h3>
               <button
                 type="button"
@@ -833,6 +1017,15 @@ function ChapterMapView({
   )
 }
 
+/** A pin's mark for each kind of event. */
+const PIN_GLYPHS: Record<ShownBookPin['kind'], string> = {
+  battle: '\u2694\ufe0e',
+  death: '\u2020',
+  discovery: '\u2726',
+  meeting: '\u2194',
+  other: '\u2605',
+}
+
 /** "A", "A and B", "A, B and C". */
 const listNames = (names: string[]) =>
   names.length < 2
@@ -840,24 +1033,6 @@ const listNames = (names: string[]) =>
     : `${names.slice(0, -1).join(', ')} and ${names.at(-1)}`
 
 /** Four corners pointing out (enter full screen) or in (leave it). */
-function FullscreenIcon({ exit }: { exit: boolean }) {
-  const d = exit
-    ? 'M6 2v4H2M10 2v4h4M6 14v-4H2M10 14v-4h4'
-    : 'M2 6V2h4M14 6V2h-4M2 10v4h4M14 10v4h-4'
-  return (
-    <svg viewBox="0 0 16 16" width="16" height="16" aria-hidden="true">
-      <path
-        d={d}
-        fill="none"
-        stroke="currentColor"
-        strokeWidth="1.8"
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-    </svg>
-  )
-}
-
 /** Opens the character's own journey, or their page if it shows none. */
 function JourneyLink({
   id,
@@ -894,6 +1069,7 @@ function Marker({
   portrait,
   uid,
   label,
+  description,
   tip,
   zooms,
   onClick,
@@ -907,6 +1083,8 @@ function Marker({
   portrait?: string
   uid: string
   label: string
+  /** What they do in this chapter, read after the name. */
+  description?: string
   tip: string
   /** Opens the inner map (a city) this marker stands for. */
   zooms: boolean
@@ -922,6 +1100,7 @@ function Marker({
       ].join(' ')}
       role="button"
       aria-label={label}
+      aria-description={description}
       data-tooltip={tip}
       onClick={onClick}
     >

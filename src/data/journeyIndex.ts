@@ -915,12 +915,70 @@ export const journeyIndex: JourneyIndex = {
       mapId: 'elendel-basin',
       revealedIn: [
         {
+          book: 'bands-of-mourning',
+          chapter: '11',
+        },
+        {
           book: 'lost-metal',
           chapter: '72',
         },
         {
           book: 'shadows-of-self',
           chapter: '7',
+        },
+        {
+          all: [
+            {
+              book: 'wind-and-truth',
+              chapter: 'epilogue',
+            },
+            {
+              book: 'yumi',
+              chapter: '21',
+            },
+          ],
+        },
+      ],
+    },
+    {
+      pack: 'scadrial',
+      mapId: 'final-empire',
+      revealedIn: [
+        {
+          all: [
+            {
+              book: 'final-empire',
+              chapter: '19',
+            },
+            {
+              book: 'hero-of-ages',
+              chapter: '27',
+            },
+          ],
+        },
+        {
+          all: [
+            {
+              book: 'hero-of-ages',
+              chapter: '27',
+            },
+            {
+              book: 'secret-history',
+              chapter: '6-1',
+            },
+          ],
+        },
+        {
+          all: [
+            {
+              book: 'well-of-ascension',
+              chapter: '56',
+            },
+            {
+              book: 'secret-history',
+              chapter: '2-2',
+            },
+          ],
         },
       ],
     },
@@ -938,6 +996,10 @@ export const journeyIndex: JourneyIndex = {
       pack: 'sel',
       mapId: 'arelon',
       revealedIn: [
+        {
+          book: 'elantris',
+          chapter: '58',
+        },
         {
           book: 'elantris',
           chapter: 'epilogue',
@@ -1241,8 +1303,16 @@ export const journeyIndex: JourneyIndex = {
       mapId: 'elendel-basin',
       revealedIn: [
         {
+          book: 'bands-of-mourning',
+          chapter: 'epilogue',
+        },
+        {
           book: 'lost-metal',
           chapter: '40',
+        },
+        {
+          book: 'lost-metal',
+          chapter: '70',
         },
         {
           book: 'lost-metal',
@@ -1266,6 +1336,10 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'final-empire',
           chapter: '4',
+        },
+        {
+          book: 'final-empire',
+          chapter: '8',
         },
         {
           book: 'final-empire',
@@ -1298,6 +1372,10 @@ export const journeyIndex: JourneyIndex = {
         {
           book: 'secret-history',
           chapter: '6-8',
+        },
+        {
+          book: 'secret-history',
+          chapter: 'epilogue',
         },
       ],
     },
@@ -2498,6 +2576,10 @@ export const journeyIndex: JourneyIndex = {
       mapId: 'roshar',
       revealedIn: [
         {
+          book: 'rhythm-of-war',
+          chapter: '115',
+        },
+        {
           book: 'wind-and-truth',
           chapter: '147',
         },
@@ -2821,6 +2903,10 @@ export const journeyIndex: JourneyIndex = {
       pack: 'roshar',
       mapId: 'roshar',
       revealedIn: [
+        {
+          book: 'dawnshard',
+          chapter: '15',
+        },
         {
           book: 'rhythm-of-war',
           chapter: '50',

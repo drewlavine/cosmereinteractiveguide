@@ -84,6 +84,11 @@ export interface JourneyEvent {
    * book's maps), so they aren't left dimmed at their last spot.
    */
   leaves?: readonly string[]
+  /**
+   * Book scenes: what someone the chapter's text doesn't name does in it,
+   * by character id; a short fragment, revealed with the event.
+   */
+  roles?: Readonly<Record<string, string>>
   /** The position or route is a best guess: drawn dashed. */
   approximate?: boolean
   /**
@@ -91,6 +96,8 @@ export interface JourneyEvent {
    * Realm" or "Through a seon"; shown as a label with the event.
    */
   presence?: string
+  /** In the Cognitive Realm: the map is drawn misty. */
+  realm?: 'cognitive'
   /** Short hand-written name of what happens, revealed with the event. */
   title?: string
   /** Hand-written text, if any; never copied from a source's prose. */

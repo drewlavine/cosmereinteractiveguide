@@ -1,49 +1,25 @@
-import { useSearchParams } from 'react-router'
-import { TimelineCards } from '../components/timeline/TimelineCards'
-import { TimelineSpine } from '../components/timeline/TimelineSpine'
+import { CosmereTimeline } from '../components/timeline/CosmereTimeline'
 
-const views = [
-  { id: 'cards', label: 'Mockup 1: Cards' },
-  { id: 'spine', label: 'Mockup 2: Spine' },
-] as const
-
-/** The Timeline tab: two static mockups to compare, picked with a toggle. */
+/**
+ * The Timeline tab: the Cosmere's history on a map of the whole Cosmere,
+ * filling the page, with a time bar of events along the bottom (a proof of
+ * concept; see docs/cosmere-timeline.md).
+ */
 export function Timeline() {
-  const [params, setParams] = useSearchParams()
-  const view = params.get('view') === 'spine' ? 'spine' : 'cards'
-
   return (
     <article
       className="character-list timeline-page"
       aria-labelledby="timeline-title"
     >
       <h1 id="timeline-title">Timeline</h1>
-      <p className="timeline-lede">
-        The Cosmere's history in the order it happened, across every world.
+      <p className="character-count timeline-intro">
+        The Cosmere’s history, as far as you’ve read.
       </p>
-      <div className="timeline-views" role="group" aria-label="Choose a mockup">
-        {views.map((v) => (
-          <button
-            key={v.id}
-            type="button"
-            className="timeline-view"
-            aria-pressed={v.id === view}
-            onClick={() =>
-              setParams(v.id === 'cards' ? {} : { view: v.id }, {
-                replace: true,
-                preventScrollReset: true,
-              })
-            }
-          >
-            {v.label}
-          </button>
-        ))}
-      </div>
-      <p className="timeline-mock-note">
-        Mockup with sample data, picked for where you are in the books. Not
-        spoiler-checked yet.
+      <CosmereTimeline />
+      <p className="timeline-credit">
+        Timeline design after the 17th Shard's{' '}
+        <a href="https://roshar.17thshard.com/">Roshar map</a>.
       </p>
-      {view === 'spine' ? <TimelineSpine /> : <TimelineCards />}
     </article>
   )
 }

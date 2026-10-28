@@ -25,5 +25,6 @@ export default defineConfig({
     css: true,
     // Whole character pages render slowly on CI runners.
     testTimeout: 20_000,
+    hookTimeout: 30_000,
   },
 })

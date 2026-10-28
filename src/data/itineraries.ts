@@ -70,6 +70,28 @@ const KELSIER_IS_THAIDAKAR = [
   { all: ['final-empire', ch('wind-and-truth', 'prologue')] },
 ]
 
+/** That Hoid was at the Shattering (Secret History 3-2, Rhythm of War 99). */
+const AT_THE_SHATTERING = [
+  ch('secret-history', '3-2'),
+  ch('rhythm-of-war', '99'),
+]
+/**
+ * Hoid's birth: Yolen is his homeworld from The Sunlit Man ch 10, and he
+ * was born before the Shattering since he was there.
+ */
+const HOID_BORN = AT_THE_SHATTERING.map((at) => ({
+  all: [ch(SLM, '10'), at],
+}))
+/**
+ * Hoid at the Shattering, on Yolen: only once the reader knows it happened
+ * there (Wind and Truth, Isles of the Emberdark).
+ */
+const HOID_AT_THE_SHATTERING = AT_THE_SHATTERING.flatMap((at) =>
+  ['wind-and-truth', 'isles-of-the-emberdark'].map((book) => ({
+    all: [book, at],
+  })),
+)
+
 /** Hoid's ancient past, dated like its History paragraph. */
 const HOID_ANCIENT = [
   {
@@ -208,11 +230,24 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
   /**
    * Hoid's trips in the order of his Coppermind History, each event dated
    * like the History paragraph it comes from (cameos need the reader to
-   * know it's him). Left out: Yolen (not in the books), Canticle (he's only
+   * know it's him). Left out: Canticle (he's only
    * an illusion there) and his years aboard the Dynamic (no world, and
    * their place in his travels is unknown).
    */
   hoid: [
+    {
+      planetId: 'yolen',
+      events: [
+        {
+          text: 'Born on Yolen, before the Shattering of Adonalsium.',
+          revealedIn: HOID_BORN,
+        },
+        {
+          text: 'Was present at the Shattering of Adonalsium, and turned down one of the new Shards.',
+          revealedIn: HOID_AT_THE_SHATTERING,
+        },
+      ],
+    },
     {
       planetId: 'ashyn',
       events: [
@@ -249,7 +284,7 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
       events: [
         {
           text: 'Disguised as a beggar, helped Sarene smuggle weapons into Elantris.',
-          revealedIn: ['elantris'],
+          revealedIn: [ch('elantris', '58')],
         },
         {
           text: 'Betrayed the forger Wan ShaiLu to get the Moon Scepter.',
@@ -311,7 +346,7 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
       planetId: 'threnody',
       events: [
         {
-          text: 'Stopped at Silence Montane’s waystop.',
+          text: 'Appeared at Silence Montane’s waystop.',
           revealedIn: ['shadows-for-silence'],
         },
       ],
@@ -363,6 +398,8 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
         'shadows-of-self',
         'bands-of-mourning',
         'lost-metal',
+        // Where his regrowth there is revealed.
+        'wind-and-truth',
       ],
       events: [
         {
@@ -497,11 +534,15 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
       planetId: 'scadrial',
       events: [
         {
+          text: 'Survived the Pits of Hathsin.',
+          revealedIn: [ch('final-empire', '4')],
+        },
+        {
           text: 'Hunted down the noble who had sent him and Mare to the Pits of Hathsin.',
           revealedIn: ['eleventh-metal'],
         },
         {
-          text: 'Survived the Pits of Hathsin, then led a skaa rebellion against the Lord Ruler.',
+          text: 'Led a skaa rebellion against the Lord Ruler.',
           revealedIn: [ch('final-empire', '4')],
         },
         {
@@ -538,6 +579,12 @@ export const characterItineraries: Record<string, ItineraryStop[]> = {
         {
           text: 'In a body with a spiked eye, went south and ruled the Southern Scadrians as the Sovereign.',
           revealedIn: [ch('bands-of-mourning', 'epilogue')],
+        },
+        {
+          // The Mistborn World Guide puts it after the Catacendre and before
+          // Rosharan 1168, i.e. before Era 2; no book gives a year.
+          text: 'Sometime between the Catacendre and Era 2 (roughly 1–340 years after it; the exact year is unknown), founded the Ghostbloods to protect Scadrial.',
+          revealedIn: [ch('lost-metal', '40')],
         },
         {
           text: 'Led the Ghostbloods on Scadrial against Autonomy’s plans.',

@@ -4,6 +4,7 @@ import { chapters } from './chapters'
 import type { Atlas, JourneyEvent, JourneyPack } from './journey'
 import { journeyAtlas } from './journeyAtlas'
 import { journeyIndex } from './journeyIndex'
+import { characterItineraries } from './itineraries'
 import { hasPack, loadPack } from './journeyPacks'
 import {
   journeyShown,
@@ -280,6 +281,11 @@ describe('journey data', () => {
           ...(e.placeRevealedIn ? [e.placeRevealedIn] : []),
         ])
           for (const point of reveal) {
+            // An event dated by several books together dates its text the same way.
+            if (typeof point === 'object' && 'all' in point) {
+              expect(point).toEqual(own)
+              continue
+            }
             // A short story with no chapters is dated as a whole.
             const book = (p: Reveal[number]) =>
               typeof p === 'string' ? p : 'book' in p ? p.book : undefined
@@ -447,6 +453,8 @@ describe('every journey stop', () => {
     for (const [packId, books] of Object.entries(series)) {
       const events = (await loadPack(packId))!.events
       for (const e of events) {
+        // A placeless event has nowhere to name.
+        if (!e.path.length) continue
         // Where it happened can be held back (a birthplace): check from then.
         const [point] = e.placeRevealedIn ?? e.revealedIn
         if (typeof point !== 'object' || !('book' in point)) continue
@@ -466,6 +474,39 @@ describe('every journey stop', () => {
       }
     }
     expect(missing).toEqual([])
+  })
+})
+
+describe('a world-hopper’s journey', () => {
+  it('keeps every map event in in-world order across all their stays', async () => {
+    const packs = new Set(
+      Object.values(journeyIndex).flatMap((refs) => refs.map((r) => r.pack)),
+    )
+    const events: JourneyEvent[] = []
+    for (const p of packs) events.push(...(await loadPack(p))!.events)
+    const byId = new Map(events.map((e) => [e.id, e]))
+    const everything = readerCanSee({
+      read: new Set(books.map((b) => b.id)),
+      reading: new Map(),
+    })
+    const outOfOrder: string[] = []
+    for (const id of Object.keys(characterItineraries)) {
+      const last = new Map<string, number>()
+      const { stops } = revealCharacterJourney(
+        id,
+        events,
+        journeyAtlas,
+        everything,
+      )
+      for (const stop of stops) {
+        const e = byId.get(stop.id)
+        if (!e?.source) continue
+        if (e.order < (last.get(e.source) ?? -Infinity))
+          outOfOrder.push(`${id}: ${e.title}`)
+        last.set(e.source, e.order)
+      }
+    }
+    expect(outOfOrder).toEqual([])
   })
 })
 

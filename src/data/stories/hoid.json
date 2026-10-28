@@ -42,6 +42,13 @@
           "revealedIn": [
             {
               "all": [
+                { "book": "secret-history", "chapter": "2-1" },
+                { "book": "sunlit-man", "chapter": "10" }
+              ]
+            },
+            { "book": "wind-and-truth", "chapter": "128" },
+            {
+              "all": [
                 { "book": "secret-history", "chapter": "3-2" },
                 { "book": "rhythm-of-war", "chapter": "99" }
               ]
@@ -52,11 +59,33 @@
                 { "book": "rhythm-of-war", "chapter": "84" },
                 { "book": "wind-and-truth", "chapter": "65" }
               ]
+            },
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
+              ]
             }
           ]
         }
       ],
       "items": [
+        {
+          "text": "Hoid was born on Yolen, before the Shattering of Adonalsium, to married parents. From an early age he was fascinated by whether there was life on other planets, and listened to local philosophers debate it.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "secret-history", "chapter": "2-1" },
+                { "book": "sunlit-man", "chapter": "10" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid had some connection to the king of a Yolish state, and was chosen to judge the creativity of a poem by Jerick, a lumberman's son, in a contest among high society over what the lower classes could do.",
+          "revealedIn": [{ "book": "wind-and-truth", "chapter": "128" }]
+        },
         {
           "text": "Hoid was present at the Shattering but did not take up one of the newly created Shards, a choice he continued to consider wise because it left him freer.",
           "revealedIn": [
@@ -76,6 +105,18 @@
                 { "book": "oathbringer", "chapter": "121" },
                 { "book": "rhythm-of-war", "chapter": "84" },
                 { "book": "wind-and-truth", "chapter": "65" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Hoid danced with the ancient singers and grew close to one of them, Vatwha. The Unkalaki came to worship him as Lunu'anaki, the god of travel and mischief who cannot hurt man, and the Iriali knew him as the Trickster Aspect.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "words-of-radiance", "chapter": "46" },
+                { "book": "oathbringer", "chapter": "epilogue" },
+                { "book": "wind-and-truth", "chapter": "i-11" }
               ]
             }
           ]
@@ -316,7 +357,7 @@
       ],
       "items": [
         {
-          "text": "As the Everstorm approached Shinovar, Hoid lectured a Sleepless hordling on the nature of art, then met Jasnah Kholin as she returned from the Cognitive Realm and offered to travel with her.",
+          "text": "As the Everstorm approached Shinovar, Hoid lectured a creature made of hordlings on the nature of art, then met Jasnah Kholin as she returned from the Cognitive Realm and offered to travel with her.",
           "revealedIn": [{ "book": "words-of-radiance", "chapter": "epilogue" }]
         },
         {

@@ -163,6 +163,12 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Stepped out with Kelsier, then sat in on his pitch",
+        "breeze": "Came to hear Kelsier's plan and agreed to join",
+        "hammond": "Came to hear Kelsier's plan and agreed to join",
+        "clubs": "Refused to join and walked out of the meeting"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -262,6 +268,13 @@
           ]
         }
       ],
+      "roles": {
+        "vin": "Snuck back to listen in on Kelsier and Marsh",
+        "dockson": "Helped plan the job, then left Kelsier alone with Marsh",
+        "breeze": "Helped plan the job, then left Kelsier alone with Marsh",
+        "hammond": "Helped plan the job, then left Kelsier alone with Marsh",
+        "spook": "Spoke Eastern street slang; Clubs called him his nephew"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -388,6 +401,9 @@
           ]
         }
       ],
+      "roles": {
+        "sazed": "Drove Kelsier and Vin to Fellise in a carriage"
+      },
       "source": "cosmere-maps"
     },
     {
@@ -472,6 +488,10 @@
         "book": "final-empire",
         "chapter": "10"
       },
+      "roles": {
+        "vin": "Started her lessons in new metals with Breeze",
+        "sazed": "Described the Jaism religion to Kelsier"
+      },
       "source": "cosmere-maps",
       "placeName": "Luthadel"
     },
@@ -504,6 +524,9 @@
           ]
         }
       ],
+      "roles": {
+        "hammond": "Debated the job's morality; his soldier's news ended the meeting"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -544,6 +567,11 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Sat in on the crew's progress meeting",
+        "clubs": "With the crew at the progress meeting in his shop",
+        "spook": "Talked with Vin about Marsh before the meeting"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -574,6 +602,9 @@
           ]
         }
       ],
+      "roles": {
+        "sazed": "Recited a Cazzi prayer at Camon's old den"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -635,6 +666,9 @@
           ]
         }
       ],
+      "roles": {
+        "sazed": "Drove Vin to the ball at Keep Venture"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -728,6 +762,11 @@
           ]
         }
       ],
+      "roles": {
+        "kelsier": "Argued with the crew over taking Vin to Kredik Shaw",
+        "dockson": "Noticed the book Vin had taken, written in Khlenni",
+        "hammond": "Took Vin up to her room to rest"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -814,6 +853,9 @@
       "happensIn": {
         "book": "final-empire",
         "chapter": "18"
+      },
+      "roles": {
+        "sazed": "Named Elend's two friends as Jastes Lekal and a Hasting"
       },
       "source": "cosmere-maps",
       "placeName": "Luthadel"
@@ -988,6 +1030,9 @@
           ]
         }
       ],
+      "roles": {
+        "hammond": "Was building the skaa army that Kelsier inspected"
+      },
       "source": "cosmere-maps",
       "placeName": "Arguois caverns"
     },
@@ -1020,6 +1065,9 @@
           ]
         }
       ],
+      "roles": {
+        "spook": "Gave Vin a handkerchief as a sign of courtship"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1107,6 +1155,9 @@
           ]
         }
       ],
+      "roles": {
+        "shan-elariel": "Told Vin to go through Elend's books for her"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1168,6 +1219,12 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Heard Kelsier's update on the job at Clubs' shop",
+        "breeze": "Heard Kelsier's update on the job at Clubs' shop",
+        "clubs": "Heard Kelsier's update on the job at his shop",
+        "spook": "Heard Kelsier's update on the job at Clubs' shop"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1277,6 +1334,10 @@
         "book": "final-empire",
         "chapter": "26"
       },
+      "roles": {
+        "kelsier": "Persuaded the crew to carry on with the job",
+        "vin": "Talked over the failing job, then watched the executions"
+      },
       "source": "cosmere-maps",
       "placeName": "Luthadel"
     },
@@ -1309,6 +1370,12 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Talked over the failing job, then watched the executions",
+        "breeze": "Talked over the failing job, then watched the executions",
+        "hammond": "Talked over the failing job, then watched the executions",
+        "spook": "Brought word of executions in Fountain Square"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1400,6 +1467,9 @@
           ]
         }
       ],
+      "roles": {
+        "shan-elariel": "Gave nothing away when Vin asked about her plans"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1464,6 +1534,14 @@
           ]
         }
       ],
+      "roles": {
+        "kelsier": "Talked late at night with Sazed about religions",
+        "vin": "Finished the logbook and tried to burn a pewtermind",
+        "sazed": "Taught Vin more Feruchemy; told Kelsier about religions",
+        "dockson": "Studied Marsh's map; learned the Ministry struck Theron's crew",
+        "breeze": "Studied Marsh's map; learned the Ministry struck Theron's crew",
+        "hammond": "Studied Marsh's map; learned the Ministry struck Theron's crew"
+      },
       "source": "cosmere-maps"
     },
     {
@@ -1485,6 +1563,9 @@
       "happensIn": {
         "book": "final-empire",
         "chapter": "30"
+      },
+      "roles": {
+        "sazed": "Learned with Vin that the houses were sealing alliances"
       },
       "source": "cosmere-maps",
       "placeName": "Luthadel"
@@ -1558,6 +1639,13 @@
           ]
         }
       ],
+      "roles": {
+        "sazed": "Tended Vin's wounds after the ball",
+        "dockson": "With the crew in Clubs' kitchen when Vin arrived",
+        "breeze": "With the crew in Clubs' kitchen when Vin arrived",
+        "hammond": "With the crew in Clubs' kitchen when Vin arrived",
+        "spook": "With the crew in Clubs' kitchen when Vin arrived"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1680,6 +1768,13 @@
           ]
         }
       ],
+      "roles": {
+        "sazed": "Sent with the crew to the backup hideout",
+        "dockson": "Read Marsh's note; only he and Kelsier knew the hideout",
+        "breeze": "Sent with the crew to the backup hideout",
+        "hammond": "Sent with the crew to the backup hideout",
+        "clubs": "Sent with the crew to the backup hideout"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1807,6 +1902,11 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Kept Vin out of the fighting",
+        "breeze": "Swayed the soldiers' emotions with Vin's help",
+        "hammond": "Ran to bring skaa army men into the fight"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1880,6 +1980,12 @@
           ]
         }
       ],
+      "roles": {
+        "vin": "Jumped down to Kelsier before Ham got her away",
+        "hammond": "Opened Spook's cage with rebels; later got Vin away",
+        "spook": "Was freed from his cage by Ham's rebels",
+        "elend-venture": "Asked where Valette was; Kelsier saved him from the Inquisitor"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -1950,6 +2056,13 @@
           ]
         }
       ],
+      "roles": {
+        "dockson": "Led the crew to Kelsier's warehouse and handed out arms",
+        "breeze": "Followed Dockson to Kelsier's warehouse with the crew",
+        "hammond": "Followed Dockson to Kelsier's warehouse with the crew",
+        "clubs": "Went to fetch the skaa crowd to the warehouse",
+        "spook": "Followed Dockson to Kelsier's warehouse with the crew"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -2075,6 +2188,9 @@
           ]
         }
       ],
+      "roles": {
+        "hammond": "Brought news that Keep Elariel fell and Keep Lekal held"
+      },
       "source": "final-empire-scenes"
     },
     {
@@ -2137,6 +2253,9 @@
           ]
         }
       ],
+      "roles": {
+        "rashek": "As the Lord Ruler, fought Vin in his throne room"
+      },
       "source": "final-empire-scenes",
       "placeName": "Kredik Shaw"
     },
@@ -2170,5 +2289,6 @@
       ],
       "source": "final-empire-scenes"
     }
-  ]
+  ],
+  "notable": ["vin", "kelsier", "elend-venture", "sazed", "spook", "marsh"]
 }

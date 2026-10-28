@@ -1,0 +1,834 @@
+/* The Cosmere Timeline: the map, a time bar along the bottom with the
+   current date floating above its middle, a short event card above that,
+   and a details panel over the right, after the 17th Shard's Roshar map. */
+
+.stage {
+  --bar-h: 64px;
+  /* The date above the bar, and the gaps around it. */
+  --indicator-h: 3.1rem;
+  --glass: rgba(11, 18, 25, 0.8);
+  position: relative;
+  container: timeline / inline-size;
+  /* Fills the page below the header (the page is a flex column). */
+  flex: 1 1 0;
+  min-height: 30rem;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 12px;
+  background: var(--slate-deep);
+}
+
+.stage:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.full {
+  min-height: 0;
+  border: 0;
+  border-radius: 0;
+}
+
+/* Without the Fullscreen API: laid over the page. */
+.overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+}
+
+/* Shown while the 3D map loads, or instead of it without WebGL. */
+.loading {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  width: min(30rem, calc(100% - 2rem));
+  margin: 0;
+  color: var(--gold-soft);
+  text-align: center;
+  transform: translateX(-50%);
+}
+
+/* Full screen on its own without WebGL; else on top of the zoom buttons. */
+.controls {
+  position: absolute;
+  top: 0.75rem;
+  right: 0.75rem;
+  z-index: 3;
+}
+
+/* The worlds, the Shards and the characters, down the top left, each
+   button with its drawer beside it. */
+.toolbar {
+  position: absolute;
+  top: 0.75rem;
+  left: 0.75rem;
+  z-index: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.4rem;
+  /* Clear of the zoom buttons on the right. */
+  max-width: calc(100% - 4.5rem);
+  pointer-events: none;
+}
+
+.toolbar > * {
+  pointer-events: auto;
+}
+
+.row {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.4rem;
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.row > * {
+  pointer-events: auto;
+}
+
+ul.drawer li {
+  display: contents;
+}
+
+/* A drawer's buttons sit level with the button that opened it, and the
+   drawer's padding hangs over the row so the toolbar keeps its spacing. */
+.row > .drawer {
+  margin-block: calc(-0.4rem - 1px);
+}
+
+.drawer .tool {
+  min-height: 2.2rem;
+}
+
+.tool:disabled {
+  cursor: default;
+}
+
+.status {
+  display: block;
+  color: rgba(241, 230, 200, 0.7);
+  font-size: 0.75rem;
+  font-weight: normal;
+}
+
+.shardArt {
+  display: block;
+  width: 4rem;
+  margin: 0.5rem auto 0.8rem;
+}
+
+.shardArt[data-faded] {
+  filter: grayscale(1) brightness(0.7);
+  opacity: 0.6;
+}
+
+.section {
+  margin: 1.2rem 0 0.4rem;
+  padding-bottom: 0.25rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+  color: var(--gold);
+  font-size: 0.75rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.artCredit {
+  display: block;
+  margin-top: 0.3rem;
+  color: rgba(241, 230, 200, 0.55);
+  font-size: 0.7rem;
+}
+
+.whereabouts .status {
+  display: inline;
+}
+
+/* Who's being shown on the map, top middle. */
+.whereabouts {
+  position: absolute;
+  top: 0.75rem;
+  left: 50%;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  max-width: min(24rem, calc(100% - 9rem));
+  margin: 0;
+  padding: 0.3rem 0.8rem 0.3rem 0.3rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  background: var(--glass);
+  color: var(--text);
+  font-size: 0.85rem;
+  translate: -50% 0;
+}
+
+.face {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  background: #1c2a35;
+  color: var(--gold-soft);
+  font-size: 0.7rem;
+  font-weight: 700;
+  object-fit: cover;
+  object-position: top;
+}
+
+.search {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0.6rem 0;
+  padding: 0.45rem 0.75rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  background: #10181f;
+  color: var(--text);
+  font: inherit;
+}
+
+.cast {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.cast li {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.2rem 0.6rem;
+  padding: 0.35rem 0;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.15);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.2rem 0.4rem 0.2rem 0.2rem;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+}
+
+button.person {
+  cursor: pointer;
+}
+
+button.person:hover,
+button.person[aria-pressed='true'] {
+  border-color: rgba(212, 165, 64, 0.6);
+  background: rgba(212, 165, 64, 0.12);
+}
+
+.cast .more {
+  font-size: 0.8rem;
+}
+
+.tool {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.35rem 0.75rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 999px;
+  background: #1c2a35;
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.85rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+  cursor: pointer;
+}
+
+.tool:hover {
+  background: #3a3220;
+}
+
+.tool[aria-pressed='true'],
+.tool[aria-expanded='true'] {
+  border-color: var(--gold);
+  background: #4a3b17;
+  color: #fff;
+}
+
+.back {
+  border-style: dashed;
+}
+
+.round {
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  padding: 0;
+}
+
+/* The worlds, tucked behind the planet button until asked for. */
+.drawer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  min-width: 0;
+  max-width: 100%;
+  margin: 0;
+  padding: 0.4rem;
+  border: 1px solid rgba(212, 165, 64, 0.4);
+  border-radius: 12px;
+  background: rgba(16, 24, 31, 0.9);
+  animation: drawer-in 0.15s ease-out;
+}
+
+ul.drawer {
+  list-style: none;
+}
+
+@keyframes drawer-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+}
+
+.dot {
+  display: inline-block;
+  flex: none;
+  width: 0.65rem;
+  height: 0.65rem;
+  border: 1px solid rgba(241, 230, 200, 0.8);
+  border-radius: 50%;
+}
+
+/* The event card grows out of the bar: cut top corners, a gold rim, its
+   foot joined to the bar, and the date pill set in its lower edge. The
+   drop shadow is a `filter` on the card because `clip-path` (on its
+   layers) would cut a `box-shadow` off. */
+.card {
+  position: absolute;
+  bottom: var(--bar-h);
+  left: 50%;
+  z-index: 1;
+  width: min(28rem, calc(100% - 1.5rem));
+  padding: 0.95rem 1.3rem calc(var(--indicator-h) + 0.1rem);
+  color: var(--text);
+  text-align: center;
+  filter: drop-shadow(0 -0.4rem 0.9rem rgba(0, 0, 0, 0.55));
+  translate: -50% 0;
+  animation: card-in 0.45s ease-out;
+}
+
+.card::before,
+.card::after {
+  position: absolute;
+  inset: 0;
+  z-index: -1;
+  content: '';
+  clip-path: polygon(
+    0.9rem 0,
+    calc(100% - 0.9rem) 0,
+    100% 0.9rem,
+    100% 100%,
+    0 100%,
+    0 0.9rem
+  );
+}
+
+/* The rim; the face sits 1px inside it, open at the foot. */
+.card::before {
+  background: linear-gradient(
+    rgba(232, 190, 96, 0.85),
+    rgba(212, 165, 64, 0.35)
+  );
+}
+
+.card::after {
+  inset: 1px 1px 0;
+  background:
+    radial-gradient(
+      ellipse at 50% 0,
+      rgba(212, 165, 64, 0.12),
+      transparent 70%
+    ),
+    rgba(13, 19, 27, 0.96);
+}
+
+@keyframes card-in {
+  from {
+    transform: translateY(calc(100% + 1rem));
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card,
+  .details,
+  .drawer {
+    animation: none;
+  }
+}
+
+.card a,
+.details a {
+  color: var(--gold);
+}
+
+.close {
+  position: relative;
+  z-index: 1;
+  float: right;
+  width: 1.8rem;
+  height: 1.8rem;
+  margin: -0.4rem -0.55rem 0 0.5rem;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--gold-soft);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.close:hover {
+  background: rgba(212, 165, 64, 0.2);
+}
+
+.meta {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin: 0;
+  color: rgba(241, 230, 200, 0.7);
+  font-size: 0.72rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 0.2rem 0 0.1rem;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.3rem;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.when {
+  margin: 0 0 0.45rem;
+  color: var(--gold);
+  font-size: 0.85rem;
+}
+
+.blurb,
+.people,
+.note {
+  margin: 0 0 0.45rem;
+  font-size: 0.9rem;
+  line-height: 1.45;
+}
+
+.note {
+  color: rgba(214, 225, 230, 0.75);
+  font-size: 0.8rem;
+}
+
+.badge {
+  display: inline-block;
+  margin-right: 0.2rem;
+  padding: 0.05rem 0.45rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 999px;
+  background: rgba(212, 165, 64, 0.16);
+  color: var(--gold-soft);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  vertical-align: 0.1em;
+}
+
+.card .blurb {
+  margin: 0;
+}
+
+.card .tool {
+  margin-top: 0.5rem;
+}
+
+/* "More", inline at the end of the card's line. */
+.more {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+  cursor: pointer;
+}
+
+.more:hover,
+.more[aria-expanded='true'] {
+  color: #fff;
+}
+
+.reopen {
+  position: absolute;
+  bottom: calc(var(--bar-h) + var(--indicator-h));
+  left: 50%;
+  z-index: 3;
+  translate: -50% 0;
+}
+
+/* Everything about the event, over the right of the map, above the bar. */
+.details {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: var(--bar-h);
+  z-index: 4;
+  width: min(26rem, 100%);
+  overflow: auto;
+  padding: 1rem 1.2rem 1.5rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.45);
+  background: rgba(11, 18, 25, 0.94);
+  -webkit-backdrop-filter: blur(12px);
+  backdrop-filter: blur(12px);
+  color: var(--text);
+  box-shadow: -8px 0 24px rgba(0, 0, 0, 0.45);
+  scrollbar-width: thin;
+  animation: details-in 0.3s ease-out;
+}
+
+@keyframes details-in {
+  from {
+    transform: translateX(100%);
+  }
+}
+
+.details .title {
+  font-size: 1.5rem;
+}
+
+.story h3 {
+  margin: 1rem 0 0.4rem;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-weight: normal;
+}
+
+.story p,
+.page {
+  margin: 0 0 0.6rem;
+  font-size: 0.9rem;
+  line-height: 1.55;
+}
+
+.page {
+  margin-top: 1rem;
+  font-size: 0.82rem;
+}
+
+/* The current event's date, floating above the middle of the bar. */
+.indicator {
+  position: absolute;
+  bottom: calc(var(--bar-h) + 0.45rem);
+  left: 50%;
+  z-index: 3;
+  display: flex;
+  align-items: baseline;
+  gap: 0.55rem;
+  max-width: calc(100% - 1.5rem);
+  margin: 0;
+  padding: 0.3rem 0.95rem 0.35rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 999px;
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: var(--gold-soft);
+  white-space: nowrap;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+  transform: translateX(-50%);
+}
+
+.year {
+  color: #fff;
+  font-family: var(--display);
+  font-size: 1.3rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.1;
+}
+
+.calendar {
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.calendar[data-tooltip] {
+  border-bottom: 1px dotted currentColor;
+  cursor: help;
+}
+
+.on {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  font-size: 0.78rem;
+}
+
+/* The timeline bar. */
+.bar {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+  display: grid;
+  grid-template-columns: 2.5rem 1fr 2.5rem;
+  height: var(--bar-h);
+  border-top: 1px solid rgba(212, 165, 64, 0.35);
+  background: var(--glass);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+/* The notch marking the middle, where the current event sits. */
+.bar::before {
+  position: absolute;
+  top: -1px;
+  left: 50%;
+  z-index: 2;
+  border: 6px solid transparent;
+  border-top-color: var(--gold);
+  content: '';
+  transform: translateX(-50%);
+  pointer-events: none;
+}
+
+.step {
+  /* The arrows sit level with the events' line. */
+  padding: 0 0 9px;
+  border: 0;
+  background: none;
+  color: var(--gold);
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.step:hover:not(:disabled) {
+  background: rgba(212, 165, 64, 0.14);
+}
+
+.step:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.strip {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+  mask-image: linear-gradient(
+    90deg,
+    transparent,
+    #000 12%,
+    #000 88%,
+    transparent
+  );
+}
+
+.strip::-webkit-scrollbar {
+  display: none;
+}
+
+/* Half the strip either side, so any event can scroll to the middle. */
+.strip::before,
+.strip::after {
+  flex: none;
+  width: 50%;
+  content: '';
+}
+
+.track {
+  position: relative;
+  flex: none;
+  height: 100%;
+}
+
+/* The line the events sit on, with small ticks along it, running a little
+   past the first and last. */
+.track::before {
+  position: absolute;
+  top: 24px;
+  right: -3rem;
+  left: -3rem;
+  height: 7px;
+  background:
+    linear-gradient(rgba(212, 165, 64, 0.55), rgba(212, 165, 64, 0.55)) 0 3px /
+      100% 1px no-repeat,
+    repeating-linear-gradient(
+      90deg,
+      rgba(241, 230, 200, 0.22) 0 1px,
+      transparent 1px 14px
+    );
+  content: '';
+}
+
+.ticks {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+/* Events close together (the Shards settling), bracketed and named. */
+.bracket {
+  position: absolute;
+  top: 8px;
+  height: 9px;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  border-bottom: 0;
+  border-radius: 5px 5px 0 0;
+  color: var(--gold-soft);
+  font-size: 0.6rem;
+  letter-spacing: 0.06em;
+  line-height: 0;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
+.tick {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  transform: translateX(-50%);
+}
+
+.marker {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 4.5rem;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  text-align: center;
+  cursor: pointer;
+}
+
+.diamond {
+  flex: none;
+  width: 13px;
+  height: 13px;
+  margin-top: 21px;
+  border: 2px solid #f1e6c8;
+  background: var(--world);
+  transform: rotate(45deg);
+  transition: transform 0.2s;
+}
+
+.marker:hover .diamond {
+  transform: rotate(45deg) scale(1.25);
+}
+
+.marker[aria-current='true'] .diamond {
+  width: 17px;
+  height: 17px;
+  margin: 19px 0 -2px;
+  box-shadow:
+    0 0 0 3px rgba(212, 165, 64, 0.5),
+    0 0 14px var(--world);
+}
+
+.date {
+  max-width: 100%;
+  margin-top: 0.3rem;
+  overflow: hidden;
+  border-bottom: 2px solid var(--world);
+  opacity: 0.8;
+  font-size: 0.68rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1.3;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.marker[aria-current='true'] .date {
+  color: #fff;
+  opacity: 1;
+}
+
+.marker:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: -2px;
+}
+
+.empty {
+  padding: 2rem 0;
+  color: var(--gold-soft);
+}
+
+/* Phones: a smaller card, and the details cover the map. */
+@container timeline (max-width: 40rem) {
+  .card {
+    padding: 0.8rem 0.85rem calc(var(--indicator-h) + 0.05rem);
+  }
+
+  .details {
+    border-left: 0;
+  }
+
+  .title {
+    font-size: 1.15rem;
+  }
+
+  .blurb,
+  .people {
+    font-size: 0.86rem;
+  }
+
+  .year {
+    font-size: 1.1rem;
+  }
+
+  .tool {
+    flex: none;
+    padding: 0.3rem 0.6rem;
+    font-size: 0.78rem;
+  }
+
+  .round {
+    padding: 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .stage {
+    min-height: 32.5rem;
+    border-radius: 8px;
+  }
+
+  .full {
+    min-height: 0;
+    border-radius: 0;
+  }
+}

@@ -21,10 +21,11 @@ order:
   `uncertain` (Timing uncertain), `wob` (Word of Brandon), `needs` (what
   else the reader must know before the stay shows, e.g. that Zahel is
   Vasher), `presence` and `realm: 'cognitive'`.
-- A stay's `from` (a book, or `{book, chapter}`) splits a world's map
-  events between several stays on it: an event on that world's maps
-  belongs to the last stay there whose `from` it has reached (by reading
-  order). Hoid's Era 2 stay on Scadrial starts at The Alloy of Law.
+- A stay's `books` splits a world's map events between several stays on
+  it: an event on that world's maps belongs to the stay whose `books` has
+  the book it's first dated to, else to the last stay there with no
+  `books`. Hoid's Era 2 stay on Scadrial claims the Wax and Wayne books
+  (and the book that reveals how he got there).
 - **Presence.** An event or stay where the character isn't bodily there
   carries `presence`, a short label such as "In the Cognitive Realm",
   "Through a seon" or "In a vision". It's shown as a badge on the event's
@@ -32,15 +33,50 @@ order:
   Hand-written map events (`~/cig-journey-data/hand/<world>.json`) take
   `presence` too, and may leave out `chapter` for a short work with no
   chapters (e.g. The Eleventh Metal), which is then dated to the whole work.
+- **Placeless events.** A turning point with no known location (Kelsier's
+  birth, his founding of the Ghostbloods) is a hand event with
+  `"unplaced": true` and no `at`/`path`/`from`. It's emitted with an empty
+  `path`: the Journey shows the whole world map with no marker and no dot,
+  and the card names a place only if the event has one (e.g. the
+  Southern continent, where the map has no pin).
+- **Jointly dated events.** A hand event may take `all: [{book, chapter},
+  ...]` instead of `book`/`chapter` when it only shows once every listed
+  chapter is read (e.g. Hoid's informant work in Luthadel, which is only
+  known to be him from The Hero of Ages). Its first listed book decides
+  which stay it belongs to.
+
+## Order: in-world chronology, never publication order
+
+A journey is the character's life as it happened, not the order the books
+tell it.
+
+- **Stays** keep their itinerary order, which is in-world: Kelsier's Roshar
+  stay comes after Era 2 even though the Way of Kings scene it explains was
+  published first (with "Timing uncertain" when the date isn't known).
+- **Map events** inside a stay are sorted by their in-world `order`. A
+  flashback goes where it happened, not where it's told: Hoid's Middlefest
+  memory comes first on Roshar, Kelsier's Pits come before his Eleventh
+  Metal hunt. Imported events take `order` from in-world dates; hand-written
+  ones from their position in the hand list, so **hand lists are written
+  in timeline order**.
+- **Stay bullets** are listed in the same in-world order.
+- What the reader can see still follows the revealing chapter: a flashback
+  sits early on the timeline but only shows once the chapter telling it is
+  read.
+- `src/data/journey.test.ts` ("a world-hopper's journey") checks that every
+  itinerary character's map events stay in `order` across all their stays.
 
 ## Kelsier, the worked example
 
-Scadrial's maps through The Eleventh Metal and the Final Empire; a hop to
-the Cognitive Realm (Secret History, "In the Cognitive Realm"); back to
-Scadrial for Era 2 (The Lost Metal); then Roshar ("From afar, through his
-agents"), where every event is "Through a seon" or "Through his agents"
-and dated by the Wind and Truth chapter that reveals it, never by the Way
-of Kings scene it explains. The Roshar stay's `needs` keeps it off
+It opens on his birth (placeless, from The Final Empire ch 8), then
+Scadrial's maps through The Eleventh Metal and the Final Empire; the
+Cognitive Realm (Secret History, "In the Cognitive Realm", ending with
+him pressing Spook for a body); Scadrial again for Era 2 (ruling the
+south as the Sovereign from the Bands of Mourning epilogue, founding the
+Ghostbloods at an unknown date, then The Lost Metal, where his Ghostbloods
+act "Through his agents"); then Roshar, where every event is "From afar, through an avatar", "Through a
+seon" or "Through his agents" and dated by the Rhythm of War or Wind and
+Truth chapter that reveals it, never by the Way of Kings scene it explains. The Roshar stay's `needs` keeps it off
 his page until the reader knows who Thaidakar is.
 
 ## The star chart
@@ -49,13 +85,27 @@ his page until the reader knows who Thaidakar is.
   `overview`. Each world's top map hangs off it at the world's point, so
   the usual zoom in and out between a map and its parent pin works between
   the chart and a world.
-- A stay becomes a stop on the chart: titled with the world (linked to its
-  page once the reader may see it), listing the stay's events with their
-  sources and its notes.
-- The first stay's chart stop is left out when that stay has map events,
-  so a journey starts on the home world's maps. A character with no
+- **Only stays no map tells get a chart stop.** A stay with no map
+  events (e.g. Hoid on Lumar) becomes a stop on the chart: titled with the
+  world (linked to its page once the reader may see it), with its
+  presence, notes and lines with their sources.
+- A stay with map events gets no chart stop: its lines would only repeat
+  the map. Its Timing uncertain / Word of Brandon notes go on its first
+  shown map event instead. Its lines still decide when those notes show,
+  so they stay accurate and dated. A turning point that only a stay line
+  told becomes a hand map event (placeless if need be), in in-world order.
+- So a journey starts on the home world's maps. A character with no
   itinerary never sees the chart, so single-world journeys look as they
   did.
+- **Going between worlds.** A journey whose stops span more than one world
+  also gets the chart, even with no chart stops. Moving to an event on
+  another world zooms out to the old world's whole map, then up to its pin
+  on the chart, pulls back to show both worlds, flies to the new world's
+  pin and zooms into the event. Reduced motion swaps maps directly.
+- **The Cognitive Realm.** A hand map event with `"realm": "cognitive"`
+  (Kelsier's Secret History events) draws its world's map dim, blurred and
+  under a drifting mist of beads, as Shadesmar; the markers stay sharp.
+  The mist stops drifting under reduced motion.
 - "Show on world map" never goes up to the chart; it shows a city's event
   on its world's map.
 

@@ -3592,42 +3592,32 @@
       "order": 53
     },
     {
-      "id": "rh-a0b0214f",
+      "id": "rh-c9a01207",
       "characters": ["wit"],
       "mapId": "roshar",
-      "path": [[1595, 809]],
-      "placeId": "jah-keved",
-      "placeName": "Davar estate",
+      "path": [],
+      "placeId": "horneater-peaks",
       "revealedIn": [
         {
-          "book": "words-of-radiance",
-          "chapter": "55"
+          "book": "dawnshard",
+          "chapter": "15"
         }
       ],
-      "approximate": true,
-      "title": "Wit visits Shallan at Middlefest",
-      "art": {
-        "src": "/journey-art/rh-a0b0214f.webp",
-        "alt": "Under trees with flame-like orange blossoms, a dark-haired man in a dark coat sits on a rock talking to a red-haired girl.",
-        "credit": {
-          "text": "Marie Seeberger",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
-        },
-        "position": "50% 50%"
-      },
+      "title": "Wit warns the Unkalaki",
       "summary": [
         {
-          "text": "Wit brought Shallan Davar's father word from her brother Helaran, then comforted Shallan.",
+          "text": "Long before the war, Wit warned the Unkalaki about the Gods Who Sleep Not.",
           "revealedIn": [
             {
-              "book": "words-of-radiance",
-              "chapter": "55"
+              "book": "dawnshard",
+              "chapter": "15"
             }
           ]
         }
       ],
       "source": "roshar-hand",
-      "order": 54
+      "order": 54,
+      "placeName": "Horneater Peaks"
     },
     {
       "id": "rm-f2100c50",
@@ -3658,35 +3648,36 @@
       "order": 54
     },
     {
-      "id": "rh-99b240f2",
+      "id": "rh-a0b0214f",
       "characters": ["wit"],
-      "mapId": "warcamps",
-      "path": [[935, 212]],
-      "placeName": "king's feasting island",
+      "mapId": "roshar",
+      "path": [[1595, 809]],
+      "placeId": "jah-keved",
+      "placeName": "Davar estate",
       "revealedIn": [
         {
-          "book": "way-of-kings",
-          "chapter": "22"
+          "book": "words-of-radiance",
+          "chapter": "55"
         }
       ],
       "approximate": true,
-      "title": "Wit insults guests at Elhokar's feast",
+      "title": "Wit visits Shallan at Middlefest",
       "art": {
-        "src": "/journey-art/rh-99b240f2.webp",
-        "alt": "A dark-haired man in a black coat leans toward an elegantly dressed couple on a walkway between pavilions, pointing and grinning.",
+        "src": "/journey-art/rh-a0b0214f.webp",
+        "alt": "Under trees with flame-like orange blossoms, a dark-haired man in a dark coat sits on a rock talking to a red-haired girl.",
         "credit": {
-          "text": "Botanicaxu",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Botanicaxu"
+          "text": "Marie Seeberger",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger"
         },
-        "position": "40% 35%"
+        "position": "50% 50%"
       },
       "summary": [
         {
-          "text": "As King Elhokar Kholin's Wit, he insulted the arriving guests and warned Dalinar Kholin his talk of retreat had spread.",
+          "text": "Wit brought Shallan Davar's father word from her brother Helaran, then comforted Shallan.",
           "revealedIn": [
             {
-              "book": "way-of-kings",
-              "chapter": "22"
+              "book": "words-of-radiance",
+              "chapter": "55"
             }
           ]
         }
@@ -3732,6 +3723,43 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-99b240f2",
+      "characters": ["wit"],
+      "mapId": "warcamps",
+      "path": [[935, 212]],
+      "placeName": "king's feasting island",
+      "revealedIn": [
+        {
+          "book": "way-of-kings",
+          "chapter": "22"
+        }
+      ],
+      "approximate": true,
+      "title": "Wit insults guests at Elhokar's feast",
+      "art": {
+        "src": "/journey-art/rh-99b240f2.webp",
+        "alt": "A dark-haired man in a black coat leans toward an elegantly dressed couple on a walkway between pavilions, pointing and grinning.",
+        "credit": {
+          "text": "Botanicaxu",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Botanicaxu"
+        },
+        "position": "40% 35%"
+      },
+      "summary": [
+        {
+          "text": "As King Elhokar Kholin's Wit, he insulted the arriving guests and warned Dalinar Kholin his talk of retreat had spread.",
+          "revealedIn": [
+            {
+              "book": "way-of-kings",
+              "chapter": "22"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 56
+    },
+    {
       "id": "rh-71a26998",
       "characters": ["wit"],
       "mapId": "warcamps",
@@ -3766,7 +3794,35 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 56
+      "order": 57
+    },
+    {
+      "id": "rm-296ba95d",
+      "characters": ["adolin-kholin"],
+      "mapId": "roshar",
+      "path": [[2000, 1123]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "14"
+        }
+      ],
+      "title": "Adolin's first duel",
+      "summary": [
+        {
+          "text": "With Renarin and Navani helping him into his Shardplate, Adolin fights his first duel under Dalinar's plan to win the other highprinces' Shards.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "14"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 57,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rh-8e8e5ce3",
@@ -3817,36 +3873,8 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 57,
+      "order": 58,
       "placeName": "Kholinar"
-    },
-    {
-      "id": "rm-296ba95d",
-      "characters": ["adolin-kholin"],
-      "mapId": "roshar",
-      "path": [[2000, 1123]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "14"
-        }
-      ],
-      "title": "Adolin's first duel",
-      "summary": [
-        {
-          "text": "With Renarin and Navani helping him into his Shardplate, Adolin fights his first duel under Dalinar's plan to win the other highprinces' Shards.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "14"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 57,
-      "placeName": "Shattered Plains"
     },
     {
       "id": "rh-1b053407",
@@ -3874,8 +3902,36 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 58,
+      "order": 59,
       "placeName": "Unclaimed Hills"
+    },
+    {
+      "id": "rm-bb6edd25",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[1986, 1171]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "28"
+        }
+      ],
+      "title": "Meeting Shallan",
+      "summary": [
+        {
+          "text": "Kaladin meets Shallan Davar for the first time, and she tricks him out of his new boots.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "28"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 59,
+      "placeName": "Shattered Plains"
     },
     {
       "id": "rh-3c0de2da",
@@ -3912,35 +3968,7 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 59
-    },
-    {
-      "id": "rm-bb6edd25",
-      "characters": ["kaladin"],
-      "mapId": "roshar",
-      "path": [[1986, 1171]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "28"
-        }
-      ],
-      "title": "Meeting Shallan",
-      "summary": [
-        {
-          "text": "Kaladin meets Shallan Davar for the first time, and she tricks him out of his new boots.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "28"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 59,
-      "placeName": "Shattered Plains"
+      "order": 60
     },
     {
       "id": "rh-2fc92ed8",
@@ -3964,35 +3992,6 @@
             {
               "book": "oathbringer",
               "chapter": "epilogue"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-hand",
-      "order": 60
-    },
-    {
-      "id": "rh-10f7daed",
-      "characters": ["wit"],
-      "mapId": "roshar",
-      "path": [[1000, 1060]],
-      "placeId": "emul",
-      "placeName": "coalition war camp",
-      "revealedIn": [
-        {
-          "book": "rhythm-of-war",
-          "chapter": "50"
-        }
-      ],
-      "approximate": true,
-      "title": "Jasnah duels Ruthar for Wit",
-      "summary": [
-        {
-          "text": "Wit goaded Highprince Ruthar into challenging him, then named Queen Jasnah Kholin his champion.",
-          "revealedIn": [
-            {
-              "book": "rhythm-of-war",
-              "chapter": "50"
             }
           ]
         }
@@ -4028,32 +4027,33 @@
       "order": 61
     },
     {
-      "id": "rh-06030b26",
+      "id": "rh-10f7daed",
       "characters": ["wit"],
       "mapId": "roshar",
-      "path": [[1158, 1003]],
-      "placeId": "urithiru",
+      "path": [[1000, 1060]],
+      "placeId": "emul",
+      "placeName": "coalition war camp",
       "revealedIn": [
         {
           "book": "rhythm-of-war",
-          "chapter": "80"
+          "chapter": "50"
         }
       ],
-      "title": "Wit tells Kaladin the Dog and the Dragon",
+      "approximate": true,
+      "title": "Jasnah duels Ruthar for Wit",
       "summary": [
         {
-          "text": "In a nightmare sent by Odium, Wit told Kaladin the story of the Dog and the Dragon.",
+          "text": "Wit goaded Highprince Ruthar into challenging him, then named Queen Jasnah Kholin his champion.",
           "revealedIn": [
             {
               "book": "rhythm-of-war",
-              "chapter": "80"
+              "chapter": "50"
             }
           ]
         }
       ],
       "source": "roshar-hand",
-      "order": 62,
-      "placeName": "Urithiru"
+      "order": 62
     },
     {
       "id": "rm-13a343f2",
@@ -4083,33 +4083,32 @@
       "order": 62
     },
     {
-      "id": "rh-0499f0e8",
+      "id": "rh-06030b26",
       "characters": ["wit"],
       "mapId": "roshar",
-      "path": [[1000, 1060]],
-      "placeId": "emul",
-      "placeName": "Jasnah's tent",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
       "revealedIn": [
         {
           "book": "rhythm-of-war",
-          "chapter": "99"
+          "chapter": "80"
         }
       ],
-      "approximate": true,
-      "title": "Wit drafts Dalinar's contract with Odium",
+      "title": "Wit tells Kaladin the Dog and the Dragon",
       "summary": [
         {
-          "text": "After the victory in Emul, Wit showed Jasnah Kholin his draft of a contest-of-champions contract with Odium.",
+          "text": "In a nightmare sent by Odium, Wit told Kaladin the story of the Dog and the Dragon.",
           "revealedIn": [
             {
               "book": "rhythm-of-war",
-              "chapter": "99"
+              "chapter": "80"
             }
           ]
         }
       ],
       "source": "roshar-hand",
-      "order": 63
+      "order": 63,
+      "placeName": "Urithiru"
     },
     {
       "id": "rm-021759a8",
@@ -4149,32 +4148,33 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-7c9496f4",
+      "id": "rh-0499f0e8",
       "characters": ["wit"],
-      "mapId": "warcamps",
-      "path": [[930, 190]],
-      "placeId": "pinnacle",
+      "mapId": "roshar",
+      "path": [[1000, 1060]],
+      "placeId": "emul",
+      "placeName": "Jasnah's tent",
       "revealedIn": [
         {
           "book": "rhythm-of-war",
-          "chapter": "epilogue"
+          "chapter": "99"
         }
       ],
-      "title": "Wit meets Odium at the Pinnacle",
+      "approximate": true,
+      "title": "Wit drafts Dalinar's contract with Odium",
       "summary": [
         {
-          "text": "Odium confronted Wit over the contract; Wit learned his enemy was no longer Rayse, and Odium erased that memory.",
+          "text": "After the victory in Emul, Wit showed Jasnah Kholin his draft of a contest-of-champions contract with Odium.",
           "revealedIn": [
             {
               "book": "rhythm-of-war",
-              "chapter": "epilogue"
+              "chapter": "99"
             }
           ]
         }
       ],
       "source": "roshar-hand",
-      "order": 64,
-      "placeName": "Pinnacle"
+      "order": 64
     },
     {
       "id": "rm-66a3e24c",
@@ -4214,32 +4214,32 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-f186a630",
+      "id": "rh-7c9496f4",
       "characters": ["wit"],
-      "mapId": "roshar",
-      "path": [[1158, 1003]],
-      "placeId": "urithiru",
+      "mapId": "warcamps",
+      "path": [[930, 190]],
+      "placeId": "pinnacle",
       "revealedIn": [
         {
-          "book": "wind-and-truth",
-          "chapter": "4"
+          "book": "rhythm-of-war",
+          "chapter": "epilogue"
         }
       ],
-      "title": "Wit teaches Kaladin the flute",
+      "title": "Wit meets Odium at the Pinnacle",
       "summary": [
         {
-          "text": "In Urithiru, Wit taught Kaladin the flute and told him to go and live his own story.",
+          "text": "Odium confronted Wit over the contract; Wit learned his enemy was no longer Rayse, and Odium erased that memory.",
           "revealedIn": [
             {
-              "book": "wind-and-truth",
-              "chapter": "4"
+              "book": "rhythm-of-war",
+              "chapter": "epilogue"
             }
           ]
         }
       ],
       "source": "roshar-hand",
       "order": 65,
-      "placeName": "Urithiru"
+      "placeName": "Pinnacle"
     },
     {
       "id": "rm-14ba1a85",
@@ -4279,7 +4279,7 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-0c317261",
+      "id": "rh-f186a630",
       "characters": ["wit"],
       "mapId": "roshar",
       "path": [[1158, 1003]],
@@ -4287,17 +4287,17 @@
       "revealedIn": [
         {
           "book": "wind-and-truth",
-          "chapter": "18"
+          "chapter": "4"
         }
       ],
-      "title": "Wit explains a loophole",
+      "title": "Wit teaches Kaladin the flute",
       "summary": [
         {
-          "text": "At the monarchs' meeting in Urithiru, Wit explained the contract's loophole about capitals and concluded a new Vessel held Odium.",
+          "text": "In Urithiru, Wit taught Kaladin the flute and told him to go and live his own story.",
           "revealedIn": [
             {
               "book": "wind-and-truth",
-              "chapter": "18"
+              "chapter": "4"
             }
           ]
         }
@@ -4344,6 +4344,71 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-0c317261",
+      "characters": ["wit"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "18"
+        }
+      ],
+      "title": "Wit explains a loophole",
+      "summary": [
+        {
+          "text": "At the monarchs' meeting in Urithiru, Wit explained the contract's loophole about capitals and concluded a new Vessel held Odium.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "18"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 67,
+      "placeName": "Urithiru"
+    },
+    {
+      "id": "rm-1eb04109",
+      "characters": ["kaladin"],
+      "mapId": "roshar",
+      "path": [[2002, 1124]],
+      "placeId": "shattered-plains",
+      "revealedIn": [
+        {
+          "book": "words-of-radiance",
+          "chapter": "i-6"
+        }
+      ],
+      "title": "The assassin in white",
+      "art": {
+        "src": "/journey-art/rm-1eb04109.webp",
+        "alt": "In a pillared hall, two men with a Shardblade and a spear face a glowing figure in white.",
+        "credit": {
+          "text": "Jules Aguimatang",
+          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jules_Aguimatang"
+        },
+        "position": "50% 40%"
+      },
+      "summary": [
+        {
+          "text": "Warned by Syl, Kaladin helps Dalinar and the king flee when Szeth attacks. His arm is severed, but he pushes Szeth and Dalinar through a hole in the wall, survives the fall and heals himself with Stormlight.",
+          "revealedIn": [
+            {
+              "book": "words-of-radiance",
+              "chapter": "i-6"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-map",
+      "order": 67,
+      "placeName": "Shattered Plains"
+    },
+    {
       "id": "rh-349bce21",
       "characters": ["wit"],
       "mapId": "roshar",
@@ -4384,44 +4449,7 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 67
-    },
-    {
-      "id": "rm-1eb04109",
-      "characters": ["kaladin"],
-      "mapId": "roshar",
-      "path": [[2002, 1124]],
-      "placeId": "shattered-plains",
-      "revealedIn": [
-        {
-          "book": "words-of-radiance",
-          "chapter": "i-6"
-        }
-      ],
-      "title": "The assassin in white",
-      "art": {
-        "src": "/journey-art/rm-1eb04109.webp",
-        "alt": "In a pillared hall, two men with a Shardblade and a spear face a glowing figure in white.",
-        "credit": {
-          "text": "Jules Aguimatang",
-          "url": "https://coppermind.net/wiki/Coppermind:Artists/Jules_Aguimatang"
-        },
-        "position": "50% 40%"
-      },
-      "summary": [
-        {
-          "text": "Warned by Syl, Kaladin helps Dalinar and the king flee when Szeth attacks. His arm is severed, but he pushes Szeth and Dalinar through a hole in the wall, survives the fall and heals himself with Stormlight.",
-          "revealedIn": [
-            {
-              "book": "words-of-radiance",
-              "chapter": "i-6"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-map",
-      "order": 67,
-      "placeName": "Shattered Plains"
+      "order": 68
     },
     {
       "id": "rh-dddb5332",
@@ -4457,7 +4485,7 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 68,
+      "order": 69,
       "placeName": "Urithiru"
     },
     {
@@ -4500,36 +4528,8 @@
         }
       ],
       "source": "roshar-hand",
-      "order": 69,
+      "order": 70,
       "placeName": "Urithiru"
-    },
-    {
-      "id": "rh-e2d35595",
-      "characters": ["wit"],
-      "mapId": "roshar",
-      "path": [[1158, 1003]],
-      "placeId": "urithiru",
-      "placeName": "Lirin's surgery",
-      "revealedIn": [
-        {
-          "book": "wind-and-truth",
-          "chapter": "146"
-        }
-      ],
-      "title": "Wit passes on his Dawnshard",
-      "summary": [
-        {
-          "text": "In Urithiru, Wit passed his Dawnshard to Sigzil, then Retribution killed him.",
-          "revealedIn": [
-            {
-              "book": "wind-and-truth",
-              "chapter": "146"
-            }
-          ]
-        }
-      ],
-      "source": "roshar-hand",
-      "order": 70
     },
     {
       "id": "rm-82e039be",
@@ -4560,27 +4560,26 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-bc621f93",
-      "characters": ["thaidakar"],
-      "mapId": "kholinar",
-      "path": [[860, 1420]],
-      "placeId": "kholinar-palace",
-      "placeName": "Kholinar palace",
+      "id": "rh-e2d35595",
+      "characters": ["wit"],
+      "mapId": "roshar",
+      "path": [[1158, 1003]],
+      "placeId": "urithiru",
+      "placeName": "Lirin's surgery",
       "revealedIn": [
         {
           "book": "wind-and-truth",
-          "chapter": "prologue"
+          "chapter": "146"
         }
       ],
-      "presence": "Through a seon",
-      "title": "Thaidakar presses Gavilar by seon",
+      "title": "Wit passes on his Dawnshard",
       "summary": [
         {
-          "text": "The night Gavilar Kholin died, Thaidakar spoke to him by seon, demanding he hand over Restares.",
+          "text": "In Urithiru, Wit passed his Dawnshard to Sigzil, then Retribution killed him.",
           "revealedIn": [
             {
               "book": "wind-and-truth",
-              "chapter": "prologue"
+              "chapter": "146"
             }
           ]
         }
@@ -4617,33 +4616,31 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-214585e4",
+      "id": "rh-ea0fe60a",
       "characters": ["thaidakar"],
-      "mapId": "sea-of-souls",
-      "path": [[462, 1150]],
-      "placeId": "lasting-integrity",
+      "mapId": "roshar",
+      "path": [],
       "revealedIn": [
         {
-          "book": "wind-and-truth",
-          "chapter": "i-1"
+          "book": "rhythm-of-war",
+          "chapter": "115"
         }
       ],
-      "presence": "Through his agents",
-      "title": "Thaidakar's agents trap Kalak",
+      "presence": "From afar, through an avatar",
+      "title": "Thaidakar leads the Ghostbloods",
       "summary": [
         {
-          "text": "Thaidakar's Ghostbloods Felt and the seon Ala trapped Kalak and sent Thaidakar Ba-Ado-Mishram's location.",
+          "text": "Thaidakar led the Ghostbloods on Roshar from afar, visiting through an avatar.",
           "revealedIn": [
             {
-              "book": "wind-and-truth",
-              "chapter": "i-1"
+              "book": "rhythm-of-war",
+              "chapter": "115"
             }
           ]
         }
       ],
       "source": "roshar-hand",
-      "order": 72,
-      "placeName": "Lasting Integrity"
+      "order": 72
     },
     {
       "id": "rm-888637e9",
@@ -4674,27 +4671,27 @@
       "placeName": "Shattered Plains"
     },
     {
-      "id": "rh-dbcd9291",
+      "id": "rh-bc621f93",
       "characters": ["thaidakar"],
-      "mapId": "roshar",
-      "path": [[1650, 780]],
-      "placeName": "Cultivation's Perpendicularity, in Shadesmar",
+      "mapId": "kholinar",
+      "path": [[860, 1420]],
+      "placeId": "kholinar-palace",
+      "placeName": "Kholinar palace",
       "revealedIn": [
         {
           "book": "wind-and-truth",
-          "chapter": "147"
+          "chapter": "prologue"
         }
       ],
-      "approximate": true,
       "presence": "Through a seon",
-      "title": "Thaidakar makes a truce with Shallan",
+      "title": "Thaidakar presses Gavilar by seon",
       "summary": [
         {
-          "text": "Speaking by seon, Thaidakar agreed to a wary truce with Shallan Davar.",
+          "text": "The night Gavilar Kholin died, Thaidakar spoke to him by seon, demanding he hand over Restares.",
           "revealedIn": [
             {
               "book": "wind-and-truth",
-              "chapter": "147"
+              "chapter": "prologue"
             }
           ]
         }
@@ -4732,6 +4729,35 @@
       "placeName": "Shattered Plains"
     },
     {
+      "id": "rh-214585e4",
+      "characters": ["thaidakar"],
+      "mapId": "sea-of-souls",
+      "path": [[462, 1150]],
+      "placeId": "lasting-integrity",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "i-1"
+        }
+      ],
+      "presence": "Through his agents",
+      "title": "Thaidakar's agents trap Kalak",
+      "summary": [
+        {
+          "text": "Thaidakar's Ghostbloods Felt and the seon Ala trapped Kalak and sent Thaidakar Ba-Ado-Mishram's location.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "i-1"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 74,
+      "placeName": "Lasting Integrity"
+    },
+    {
       "id": "rm-fb952227",
       "characters": ["kaladin"],
       "mapId": "roshar",
@@ -4767,6 +4793,35 @@
       "source": "roshar-map",
       "order": 74,
       "placeName": "Shattered Plains"
+    },
+    {
+      "id": "rh-dbcd9291",
+      "characters": ["thaidakar"],
+      "mapId": "roshar",
+      "path": [[1650, 780]],
+      "placeName": "Cultivation's Perpendicularity, in Shadesmar",
+      "revealedIn": [
+        {
+          "book": "wind-and-truth",
+          "chapter": "147"
+        }
+      ],
+      "approximate": true,
+      "presence": "Through a seon",
+      "title": "Thaidakar makes a truce with Shallan",
+      "summary": [
+        {
+          "text": "Speaking by seon, Thaidakar agreed to a wary truce with Shallan Davar.",
+          "revealedIn": [
+            {
+              "book": "wind-and-truth",
+              "chapter": "147"
+            }
+          ]
+        }
+      ],
+      "source": "roshar-hand",
+      "order": 75
     },
     {
       "id": "rm-89558117",

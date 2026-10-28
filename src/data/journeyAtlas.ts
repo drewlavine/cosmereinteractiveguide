@@ -56,6 +56,15 @@ const sources: JourneyMapSource[] = [
     file: 'Roshar.jpg',
     revealedIn: [{ book: 'way-of-kings', chapter: 'prelude' }],
   },
+  {
+    // The kingdoms of the Heraldic Epochs, for events before the Recreance.
+    id: 'silver-kingdoms',
+    planetId: 'roshar',
+    mapId: 'silver-kingdoms',
+    file: 'Silver_Kingdoms.jpg',
+    revealedIn: ['way-of-kings'],
+    parent: { mapId: 'roshar', at: [1280, 800] },
+  },
   // Roshar's city maps sit on the continent at their pins; each opens once
   // nothing printed on it spoils (some carry later notes, e.g. battles).
   {
@@ -204,12 +213,21 @@ const sources: JourneyMapSource[] = [
     revealedIn: [{ book: 'warbreaker', chapter: 'prologue' }],
   },
   {
-    // The original front-matter map; its pins are the Locations' ones.
+    // The continent, Sycla (Opelon to the Aonic peoples): Sel's world map.
+    id: 'opelon',
+    planetId: 'sel',
+    mapId: 'opelon',
+    file: 'Sycla-Opelon_Map.jpg',
+    revealedIn: [{ book: 'elantris', chapter: 'prologue' }],
+  },
+  {
+    // The tenth-anniversary map; its pins are the Locations' ones.
     id: 'arelon',
     planetId: 'sel',
     mapId: 'arelon',
-    file: 'Arelon.jpg',
+    file: 'Arelon_Map.jpg',
     revealedIn: [{ book: 'elantris', chapter: 'prologue' }],
+    parent: { mapId: 'opelon', placeId: 'arelon', at: [230, 1540] },
   },
   {
     id: 'elantris-and-kae',
@@ -217,7 +235,7 @@ const sources: JourneyMapSource[] = [
     mapId: 'elantris-and-kae',
     file: 'Elantris-Kae_Map.jpg',
     revealedIn: [{ book: 'elantris', chapter: 'prologue' }],
-    parent: { mapId: 'arelon', placeId: 'elantris', at: [415, 404] },
+    parent: { mapId: 'arelon', placeId: 'elantris', at: [1271, 632] },
   },
 ]
 

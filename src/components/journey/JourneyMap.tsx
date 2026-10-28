@@ -15,7 +15,7 @@ import { useLinkText, type LinkTextFn } from '../LinkedText'
 import { showOnPage } from '../pageOpen'
 import { SourceMark } from '../SourceMark'
 import { Link } from 'react-router'
-import type { AtlasMap, JourneyArt } from '../../data/journey'
+import type { AtlasMap, JourneyArt, MapPoint } from '../../data/journey'
 import type { ShownJourney, ShownJourneyStop } from '../../data/reveal'
 import { presenceLabel, stopName, stopSource } from './journeyLabels'
 import type { MapEngineHandle } from './MapEngine'
@@ -173,7 +173,9 @@ export default function JourneyMap({
   // when the card opens or closes over it. A stop on another map swaps maps.
   // Into a city: fly to its pin, then the city flies in to the stop. Out of
   // one: show the whole city, then the outer map zooms out from the city's
-  // pin, then pans to the stop.
+  // pin, then pans to the stop. To another world: out to the star chart at
+  // the world left, back far enough to see both, in to the next world, and
+  // from its whole map in to the stop.
   useEffect(() => {
     if (!target || !map) return
     const motion = !reducedMotion()
@@ -186,18 +188,15 @@ export default function JourneyMap({
     if (target !== map.id) {
       const into = motion && anchorOn(maps, map.id, target)
       const outOf = motion && anchorOn(maps, target, map.id)
-      // Between two cities on one map: out to that map, then in to the other.
-      const up = map.parent?.mapId
-      if (
-        motion &&
-        !into &&
-        !outOf &&
-        up &&
-        maps.some((m) => m.id === up) &&
-        anchorOn(maps, up, target)
-      ) {
+      // Between two cities on one map, or two worlds: out to the nearest
+      // map holding both, then in to the other.
+      const up = motion && !into && !outOf && sharedParent(maps, map.id, target)
+      if (up) {
         engine.current?.flyTo(whole, { inset: covered() })
-        const timer = setTimeout(() => setView(up), ZOOM_MS)
+        const timer = setTimeout(() => {
+          left.current = map.id
+          setView(up)
+        }, ZOOM_MS)
         return () => clearTimeout(timer)
       }
       const swap = () => {
@@ -206,6 +205,42 @@ export default function JourneyMap({
         setView(target)
       }
       if (!into && !outOf) return swap()
+      // Come out to this map from inside it on the way elsewhere (the star
+      // chart, from a world): start on the pin left, pull back to show
+      // both, then go in.
+      const back = into && left.current && anchorOn(maps, map.id, left.current)
+      if (into && back) {
+        left.current = undefined
+        const pinBox = (p: MapPoint) =>
+          boundsOf([p], map.image.width * PIN_VIEW)
+        engine.current?.flyTo(pinBox(back), {
+          animate: false,
+          maxZoom: 8,
+          inset: covered(),
+        })
+        const timers: ReturnType<typeof setTimeout>[] = []
+        let frameId = requestAnimationFrame(() => {
+          frameId = requestAnimationFrame(() => {
+            engine.current?.flyTo(
+              boundsOf([back, into], map.image.width * MIN_VIEW * 2),
+              { maxZoom: 1.2, inset: covered() },
+            )
+            timers.push(
+              setTimeout(() => {
+                engine.current?.flyTo(pinBox(into), {
+                  maxZoom: 8,
+                  inset: covered(),
+                })
+                timers.push(setTimeout(swap, ZOOM_MS))
+              }, ZOOM_MS * 1.5),
+            )
+          })
+        })
+        return () => {
+          cancelAnimationFrame(frameId)
+          timers.forEach(clearTimeout)
+        }
+      }
       engine.current?.flyTo(
         into ? boundsOf([into], map.image.width * PIN_VIEW) : whole,
         { maxZoom: into ? 8 : undefined, inset: covered() },
@@ -215,6 +250,14 @@ export default function JourneyMap({
     }
     const from = left.current
     left.current = undefined
+    // In from the star chart: the new world whole, then in to the stop.
+    if (motion && from && maps.find((m) => m.id === from)?.overview) {
+      engine.current?.flyTo(whole, { animate: false, inset: covered() })
+      let frameId = requestAnimationFrame(() => {
+        frameId = requestAnimationFrame(() => fly(true))
+      })
+      return () => cancelAnimationFrame(frameId)
+    }
     const pin = from && motion && anchorOn(maps, map.id, from)
     if (!pin) {
       fly(true)
@@ -295,6 +338,10 @@ export default function JourneyMap({
     pick(to)
   }
 
+  // In the Cognitive Realm the world's map is drawn misty, as Shadesmar.
+  const cognitive =
+    !map.overview && stops[drawn]?.realm === 'cognitive' && map.id === target
+
   // A city event can be seen where it sits on the world map, and back.
   const root = rootOf(maps, stop.mapId)
   const world = root !== stop.mapId ? root : undefined
@@ -305,11 +352,28 @@ export default function JourneyMap({
   const layers = (zoom: number) => {
     const px = (n: number) => n / zoom
     const here = lines[drawn]?.at(-1)
+    // Passed events show their numbers; ones at the same spot share a
+    // label, e.g. "4–6, 9", on the latest of them.
+    const spots = new Map<string, number[]>()
+    lines.forEach((line, i) => {
+      if (i >= current || !line.length) return
+      const key = line.at(-1)!.join(',')
+      spots.set(key, [...(spots.get(key) ?? []), i + 1])
+    })
+    const labels = new Map(
+      [...spots.values()].map((ns) => [ns.at(-1)! - 1, runs(ns)]),
+    )
     return (
       <>
         {lines.map((line, i) => {
           if (i > drawn || !line.length) return null
           const dash = stops[i].approximate ? `${px(7)} ${px(6)}` : undefined
+          const [x, y] = line.at(-1)!
+          const remote = stops[i].presence ? ' is-remote' : ''
+          // The star chart gathers a world's events on one pin: a plain dot
+          // there, not a list of numbers.
+          const label = map.overview ? undefined : labels.get(i)
+          const width = label && Math.max(18, label.length * 6.5 + 8)
           return (
             <Fragment key={stops[i].id}>
               {line.length > 1 && (
@@ -322,13 +386,37 @@ export default function JourneyMap({
                   strokeDasharray={dash}
                 />
               )}
-              <circle
-                cx={line.at(-1)![0]}
-                cy={line.at(-1)![1]}
-                r={px(4.5)}
-                strokeWidth={px(1.5)}
-                className={`journey-dot${stops[i].presence ? ' is-remote' : ''}`}
-              />
+              {label && width ? (
+                <>
+                  <rect
+                    x={x - px(width / 2)}
+                    y={y - px(9)}
+                    width={px(width)}
+                    height={px(18)}
+                    rx={px(9)}
+                    strokeWidth={px(1.5)}
+                    className={`journey-dot${remote}`}
+                  />
+                  <text
+                    x={x}
+                    y={y}
+                    fontSize={px(11)}
+                    className={`journey-dot-number${remote}`}
+                  >
+                    {label}
+                  </text>
+                </>
+              ) : (
+                (i >= current || (map.overview && labels.has(i))) && (
+                  <circle
+                    cx={x}
+                    cy={y}
+                    r={px(4.5)}
+                    strokeWidth={px(1.5)}
+                    className={`journey-dot${remote}`}
+                  />
+                )
+              )}
               {/* A bigger, unseen target that goes to the event. The
                   numbered events below do the same from the keyboard. */}
               {i !== current && (
@@ -420,7 +508,7 @@ export default function JourneyMap({
         </p>
       </div>
 
-      <div className="journey-stage">
+      <div className={`journey-stage${cognitive ? ' is-cognitive' : ''}`}>
         <div className="journey-map-actions">
           <button
             type="button"
@@ -456,6 +544,7 @@ export default function JourneyMap({
           layers={layers}
           background={background?.(map)}
         />
+        <div className="journey-realm-mist" aria-hidden />
 
         {cardOpen ? (
           <section
@@ -783,4 +872,38 @@ function DotTip({
       </text>
     </g>
   )
+}
+
+/** Event numbers as runs: [4, 5, 6, 9] → "4–6, 9". */
+function runs(ns: readonly number[]) {
+  const out: string[] = []
+  for (let i = 0; i < ns.length; i++) {
+    const from = ns[i]
+    while (ns[i + 1] === ns[i] + 1) i++
+    out.push(
+      ns[i] - from > 1
+        ? `${from}–${ns[i]}`
+        : ns[i] > from
+          ? `${from}, ${ns[i]}`
+          : `${from}`,
+    )
+  }
+  return out.join(', ')
+}
+
+/** The nearest map above `id` that also holds `other` (e.g. the star chart, for two worlds). */
+function sharedParent(
+  maps: readonly AtlasMap[],
+  id: string,
+  other: string,
+): string | undefined {
+  const seen = new Set<string>()
+  for (let m = maps.find((x) => x.id === id); m?.parent && !seen.has(m.id);) {
+    seen.add(m.id)
+    const up: string = m.parent.mapId
+    if (!maps.some((x) => x.id === up)) return undefined
+    if (anchorOn(maps, up, other)) return up
+    m = maps.find((x) => x.id === up)
+  }
+  return undefined
 }

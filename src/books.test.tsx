@@ -260,7 +260,7 @@ describe('book chapter map', () => {
     expect(kelsier).toHaveAttribute('aria-pressed', 'true')
     expect(markers().join()).not.toMatch(/Clubs|Vin/)
     await userEvent.click(
-      within(cast).getByRole('button', { name: 'Show everyone' }),
+      within(cast).getByRole('button', { name: 'Stop following' }),
     )
     expect(markers()).toContain('Clubs')
     expect(markers().some((m) => m?.startsWith('Vin, last seen here in'))).toBe(
@@ -308,6 +308,32 @@ describe('book chapter map', () => {
     )
   })
 
+  it('says what happened at each place so far, and which way routes go', async () => {
+    reading('17')
+    const { container } = renderAt('/books/final-empire?ch=17')
+    const region = await mapRegion()
+    await waitFor(() =>
+      expect(container.querySelector('svg text[data-tooltip]')).not.toBeNull(),
+    )
+    const label = container.querySelector<SVGElement>('svg text[data-tooltip]')!
+    expect(label.dataset.tooltip).toMatch(/^[^\n]+\nChapter 17: /)
+    expect(label.dataset.tooltip!.startsWith(label.textContent!)).toBe(true)
+    await userEvent.click(
+      within(region).getByRole('button', { name: 'Whole book' }),
+    )
+    await waitFor(() =>
+      expect(
+        container.querySelector('svg path[marker-end^="url(#"]'),
+      ).not.toBeNull(),
+    )
+    const dot = [
+      ...container.querySelectorAll<SVGElement>('svg circle[role="button"]'),
+    ].find((d) => /Click to go to /.test(d.dataset.tooltip ?? ''))!
+    const last = dot.dataset.tooltip!.match(/Click to go to (.+)$/)![1]
+    await userEvent.click(dot)
+    expect(chapterHeading(region)).toHaveTextContent(new RegExp(`${last}$`))
+  })
+
   it('explains every button in a tooltip on hover', async () => {
     reading('17')
     renderAt('/books/final-empire')
@@ -317,12 +343,12 @@ describe('book chapter map', () => {
     const others = within(region).getByRole('button', { name: 'Others' })
     await userEvent.hover(others)
     expect(document.querySelector('.tooltip')).toHaveTextContent(
-      'Hide the characters who aren’t in this chapter',
+      'Hide the main characters who aren’t in this chapter',
     )
     await userEvent.click(others)
     await waitFor(() =>
       expect(document.querySelector('.tooltip')).toHaveTextContent(
-        'Show where the characters not in this chapter were last seen',
+        'Show where the main characters not in this chapter were last seen',
       ),
     )
     await userEvent.unhover(others)
@@ -424,6 +450,46 @@ describe('book chapter map', () => {
         within(cast).getByRole('button', { name: 'Wit' }),
       ).toBeInTheDocument()
       expect(within(region).queryByText(/Hoid/)).toBeNull()
+    })
+
+    it('says what someone the chapter text doesn’t name does there', async () => {
+      readingWok('22')
+      const { container } = renderAt('/books/way-of-kings?ch=15')
+      const region = await mapRegion()
+      const role = 'Mocked Sadeas and praised Renarin as clever'
+      const wit = () =>
+        container.querySelector<SVGElement>(
+          'svg g[role="button"][aria-label="Wit"]',
+        )
+      await waitFor(() => expect(wit()).not.toBeNull())
+      expect(wit()!.dataset.tooltip).toMatch(new RegExp(`^Wit\\n${role}\\n`))
+      expect(wit()).toHaveAttribute('aria-description', role)
+      const cast = await openCast(region)
+      expect(within(cast).getByRole('button', { name: 'Wit' })).toHaveAttribute(
+        'aria-description',
+        role,
+      )
+    })
+
+    it('keeps only notable characters on the map when away, unless followed', async () => {
+      readingWok('30')
+      const { container } = renderAt('/books/way-of-kings?ch=i-2')
+      const region = await mapRegion()
+      const markers = () =>
+        [...container.querySelectorAll('svg g[role="button"]')].map((g) =>
+          g.getAttribute('aria-label'),
+        )
+      await waitFor(() =>
+        expect(
+          markers().some((m) => m?.startsWith('Kaladin, last seen here in')),
+        ).toBe(true),
+      )
+      expect(markers().join()).not.toMatch(/Ishikk/)
+      const cast = await openCast(region)
+      await userEvent.click(
+        within(cast).getByRole('button', { name: /^Ishikk\b/ }),
+      )
+      expect(markers()).toContain('Ishikk, last seen here in Interlude I-1')
     })
   })
 })

@@ -9,10 +9,39 @@
   ],
   "events": [
     {
+      "id": "slh-c6d43dda",
+      "characters": ["hoid"],
+      "mapId": "arelon",
+      "path": [[1250, 622]],
+      "placeId": "elantris",
+      "revealedIn": [
+        {
+          "book": "elantris",
+          "chapter": "58"
+        }
+      ],
+      "approximate": true,
+      "title": "Hoid appears in Elantris as a beggar",
+      "summary": [
+        {
+          "text": "Disguised as a beggar wrapped in bandages, Hoid delivered Sarene's box of supplies, secretly swords and bows, to the people of Elantris.",
+          "revealedIn": [
+            {
+              "book": "elantris",
+              "chapter": "58"
+            }
+          ]
+        }
+      ],
+      "source": "sel-hand",
+      "order": 1,
+      "placeName": "Elantris"
+    },
+    {
       "id": "slh-8b19c7ad",
       "characters": ["hoid"],
       "mapId": "arelon",
-      "path": [[285, 380]],
+      "path": [[1225, 610]],
       "placeId": "elantris",
       "placeName": "the Pool near Elantris",
       "revealedIn": [
@@ -35,7 +64,7 @@
         }
       ],
       "source": "sel-hand",
-      "order": 1
+      "order": 2
     }
   ]
 }

@@ -4,6 +4,66 @@ For the next Copilot session (started from this repo). Read this, then
 `AGENTS.md` (engineering) and `~/cig-char-data/AGENTS.md` (content and spoiler
 rules) before doing anything. Delete or rewrite this file once it's stale.
 
+## Timeline pass three (2026-10-28, uncommitted)
+
+Drew's ask: centre everything (overlap is fine) and make the card like the
+17th Shard map's, with a More that opens details without leaving the page.
+
+- Camera: the `inset`/`shift()`/`setViewOffset` machinery is gone; the view
+  is centred. `Rig` now calls `updateProjectionMatrix()` itself.
+- Card: title plus one-line `summary` (new optional `TimelineEvent` field;
+  set for `oathpact-abandoned` and `gavilar-assassinated`) and an inline
+  More, which opens `aside#timeline-details` with the full blurb, notes,
+  characters and the event's own page (`useEntryStory`, now in
+  `src/state/entryStory.ts`). Esc closes it first.
+- Tools (done): full screen sits on top of zoom in/out with a new Reset
+  (re-sends the goal under a fresh key). Left column: worlds, Shards
+  (`src/data/shards.ts`: per-Shard dated entries, latest visible wins;
+  the drawer lists names, a click only flies the camera and labels the
+  planet with the status; Preservation and Ruin with placeholder statuses) and Notable characters
+  (`src/data/timelinePeople.ts`; panel with search, born/died jumps, face
+  pin or planet label). New events `dalinar-born` and `kaladin-born`
+  (Word of Brandon years) give births a point to jump to. Gaps: only
+  Kaladin and Dalinar have births, only Gavilar a death, only Szeth an
+  exact pin; Mistborn people have no timeline data yet.
+
+## Timeline visual pass two (2026-10-28, uncommitted; superseded in part by pass three)
+
+Drew's ask: make `/timeline` usable (pan and zoom the Cosmere, see the world
+past the card and bar), look better, and add a full-screen button. An
+earlier pass was rejected ("way worse") and reverted; this one keeps the
+painting filling the stage. Backup of the files before it:
+`~/.copilot/session-state/249c4643-…/files/timeline-before-visual-pass2-20261028-1001.tar.gz`.
+
+- **Camera** (`explorer/camera.ts`): centres in the clear part the card and
+  bar leave (`inset`, `shift()`, drawn with `setViewOffset`); the globe fits
+  that part; mouse wheel zooms about the cursor, trackpad scroll pans,
+  pinch/ctrl-wheel zooms, drag pans; the Cosmere view keeps the art under a
+  phone's card.
+- **Pins** were drawn in the wrong place on every map: the CSS `rotate` on
+  the diamond turned their `transform` offset. They now use `translate`.
+- **Look** (`timeline/CosmereTimeline.module.css`): dark-glass card docked
+  bottom right (bottom sheet under 40rem), slim glass bar, floating date
+  pill, round tool buttons, full-screen button (`useFullscreen`, overlay
+  fallback; Esc leaves full screen before it zooms out).
+- Checked with headless screenshots (desktop, phone, full screen) and
+  gestures; tests in `camera.test.ts` and `CosmereTimeline.test.tsx`;
+  `docs/cosmere-timeline.md` updated.
+
+## Chapter map: side characters and roles (2026-10-28, uncommitted)
+
+- **Notable characters** come from cosmere-maps' own list (`pack.notable`)
+  and stay on the map all book; everyone else shows only in their own
+  chapters.
+- **Roles**: a short line on what a side character does in a chapter, shown
+  in the marker and cast-chip tooltips (and `aria-description`). 335 so far
+  (The Final Empire 67, The Way of Kings 268) as `roles` in
+  `~/cig-journey-data/hand/scenes/*.json`; the brief, checker, drafts and
+  the reasons 45 were left out are in `hand/drafts/roles/`. Hover-only, so
+  phones don't see them yet.
+- **Dalinar** had no map portrait (his only The Way of Kings art had no face
+  crop); his coat portrait is now dated to The Way of Kings chapter 12.
+
 ## Working with Drew
 
 - Replies: succinct bullets, no long prose.
