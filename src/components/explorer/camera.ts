@@ -23,6 +23,10 @@ export interface CamWorld {
   star: readonly [number, number]
   /** Its map in world units, if it has one. */
   map?: readonly [number, number]
+  /** A city's map: zooming out past it hands over to the map it's on. */
+  city?: boolean
+  /** For a city: its scale and centre on the map it's on (that map's units). */
+  inset?: { k: number; at: readonly [number, number] }
 }
 
 /** Where to end up: a world (none for the sky), and a view on it. */
@@ -30,6 +34,8 @@ export interface CamTarget {
   world?: string
   c?: readonly [number, number]
   h?: number
+  /** A set duration for the last leg. */
+  ms?: number
 }
 
 /** One flight of a journey; `anchor` re-centres on that world first. */
@@ -38,6 +44,7 @@ export interface Leg {
   h: number
   level: Level
   anchor?: string
+  ms?: number
 }
 
 interface Flight {
@@ -49,6 +56,13 @@ interface Flight {
   toLevel: Level
   k: number
 }
+
+/**
+ * Where the globe should sit at its globe view instead of the screen's
+ * middle: in a box (centre and radius, in screen pixels), or just lower
+ * and smaller to leave `top` pixels clear above it.
+ */
+export type CamDock = { x: number; y: number; r: number } | { top: number }
 
 /** The farthest out you can zoom on a world. */
 export const WORLD_MAX_H = 6400
@@ -78,12 +92,33 @@ export class Cam {
   onAnchor?: (anchor: string) => void
   /** Zooming out past a world's farthest view: back to the Cosmere. */
   onZoomOutEdge?: () => void
+  /** Zooming in past a map's closest view, about a screen point. */
+  onZoomInEdge?: (sx: number, sy: number) => void
   private pointers = new Map<number, { x: number; y: number }>()
   private skyMaxFor = ''
   private skyMaxH = Infinity
   /** A wheel zoom still to play out: its log factor, about a point. */
-  private glide?: { log: number; x: number; y: number }
+  private glide?: {
+    log: number
+    x: number
+    y: number
+    edge?: boolean
+    wait?: number
+  }
   private last?: number
+  /**
+   * A framing for the globe view, set from outside (e.g. the globe beside
+   * a panel). It eases in and out, and gives way as the globe unrolls into
+   * its map, so the map and sky are never framed.
+   */
+  dock?: CamDock
+  private docking?: CamDock
+  private docked = 0
+  /**
+   * The framing in use: the view scaled by k about the screen's middle,
+   * then moved by (x, y) screen pixels. The renderer and toScreen apply it.
+   */
+  frame = { k: 1, x: 0, y: 0 }
 
   constructor(worlds: Record<string, CamWorld>, anchor: string) {
     this.worlds = worlds
@@ -144,9 +179,74 @@ export class Cam {
   }
 
   /**
+   * The zoom range for the wheel and buttons: a city's map only until all
+   * of it is in view, where the map around it takes over.
+   */
+  private zoomRange(level: Level): [number, number] {
+    const [lo, hi] = this.range(level)
+    const inset = level === 'world' && this.worlds[this.anchor]?.inset
+    // Past the whole of a city's map (fitH), the map it's on shows around
+    // it; at the closest that map zooms, it takes over.
+    return [
+      lo,
+      inset
+        ? lo / inset.k
+        : (level === 'world' && this.fitH(this.anchor)) || hi,
+    ]
+  }
+
+  /** For a city's map, the view height that shows all of it, with a margin. */
+  fitH(world: string) {
+    const w = this.worlds[world]
+    if (!w?.city || !w.map) return undefined
+    return this.fitFor(w.map)
+  }
+
+  /** The view height that shows all of a map of this size, with a margin. */
+  fitFor([mw, mh]: readonly [number, number]) {
+    return Math.max(mh, (mw * this.H) / this.W) * 1.15
+  }
+
+  /** For a city's map, the view height at which it just fills the screen. */
+  fillH(world: string) {
+    const w = this.worlds[world]
+    if (!w?.city || !w.map) return undefined
+    return this.fillFor(w.map)
+  }
+
+  /** The view height at which a map of this size just fills the screen. */
+  fillFor([mw, mh]: readonly [number, number]) {
+    const [lo] = this.range('world')
+    return Math.max(lo, Math.min(mh, (mw * this.H) / this.W))
+  }
+
+  /**
+   * Swaps between a city's map and the map it's on without moving what's
+   * on screen: both are drawn in either, one inside the other.
+   */
+  rebase(
+    into: 'city' | 'parent',
+    inset: { k: number; at: readonly [number, number] },
+  ) {
+    const { k, at } = inset
+    this.flight = undefined
+    this.legs = []
+    if (this.glide) this.glide.edge = this.glide.wait = undefined
+    if (into === 'city') {
+      this.cx = (this.cx - at[0]) / k
+      this.cy = (this.cy - at[1]) / k
+      this.h /= k
+    } else {
+      this.cx = at[0] + this.cx * k
+      this.cy = at[1] + this.cy * k
+      this.h *= k
+    }
+  }
+
+  /**
    * Keeps a view on the map it's on: on the sky the painting always fills
-   * the screen; on a world the globe stays in view, and once its map is up
-   * the map's edges hold.
+   * the screen; on a world the globe stays in view, and the screen's middle
+   * stays on the map.
    */
   limit(
     cx: number,
@@ -171,13 +271,17 @@ export class Cam {
       const e = 700
       return [Math.max(-e, Math.min(e, cx)), Math.max(-e, Math.min(e, cy)), h]
     }
-    const [w, mh] = map
-    const m = levelFades('world', h).map
-    cx = Math.max(-w / 2, Math.min(w / 2, cx))
-    cy = Math.max(-mh / 2, Math.min(mh / 2, cy))
+    // The screen's middle can reach the map's edge, so a coast can be
+    // brought to the centre.
+    // Out past a city's map, the map around it can be looked over too.
+    // Past all of it, the reach grows with the view, so the swap to that
+    // map, anywhere on screen, never needs a clamp.
+    const fit = this.worlds[anchor]?.inset && this.fitFor(map)
+    const out = fit ? Math.max(0, h - fit) * 2 : 0
+    const [w, mh] = [map[0] + (out * this.W) / this.H, map[1] + out]
     return [
-      lerp(cx, clampAxis(cx, (this.W / 2) * u, -w / 2, w / 2), m),
-      lerp(cy, clampAxis(cy, (this.H / 2) * u, -mh / 2, mh / 2), m),
+      Math.max(-w / 2, Math.min(w / 2, cx)),
+      Math.max(-mh / 2, Math.min(mh / 2, cy)),
       h,
     ]
   }
@@ -224,6 +328,41 @@ export class Cam {
     )
   }
 
+  /** Eases the framing toward the dock, if any, as the globe shows. */
+  private reframe(dt: number) {
+    if (this.dock) this.docking = this.dock
+    const want = this.dock ? 1 : 0
+    this.docked = this.reduced
+      ? want
+      : this.docked + (want - this.docked) * (1 - Math.exp(-dt / 160))
+    if (Math.abs(this.docked - want) < 1e-3) this.docked = want
+    const f = this.fades()
+    const g = this.docked * f.planetIn * (1 - f.flat)
+    const d = this.docking
+    if (!d || g < 1e-4) {
+      this.frame = { k: 1, x: 0, y: 0 }
+      return
+    }
+    // The globe as it is now, unframed: zooming out can leave it smaller.
+    const h = this.h
+    const s0 = (distFor(h) / (PLANE_Z + distFor(h))) * (this.H / h)
+    const r0 = PLANET_R * s0
+    const c0 = { x: this.W / 2 - this.cx * s0, y: this.H / 2 + this.cy * s0 }
+    let to = { ...c0, r: r0 }
+    if ('top' in d) {
+      // Keep its bottom; bring its top down to clear the room above.
+      const bottom = c0.y + r0
+      if (c0.y - r0 < d.top)
+        to = { x: c0.x, y: (d.top + bottom) / 2, r: (bottom - d.top) / 2 }
+    } else to = d
+    const k = 1 + (to.r / r0 - 1) * g
+    this.frame = {
+      k,
+      x: (to.x - this.W / 2 + this.cx * s0 * k) * g,
+      y: (to.y - this.H / 2 - this.cy * s0 * k) * g,
+    }
+  }
+
   /** The level the camera is on or heading for. */
   private get heading(): Level {
     const f = this.flight
@@ -254,6 +393,7 @@ export class Cam {
         c: target.c ?? [0, 0],
         h: target.h ?? globe,
         level: 'world',
+        ms: target.ms,
       }
       const sameWorld = to === this.anchor
       if (!(sameWorld && this.heading === 'world')) {
@@ -345,7 +485,7 @@ export class Cam {
       from: [this.cx, this.cy, this.h],
       to: [cx, cy, h],
       t0: performance.now(),
-      ms: 650 + zoom * 260 + Math.min(3, pan) * 180,
+      ms: leg.ms ?? 650 + zoom * 260 + Math.min(3, pan) * 180,
       fromLevel: this.level,
       toLevel: leg.level,
       k: 0,
@@ -363,10 +503,15 @@ export class Cam {
    */
   zoomAt(sx: number, sy: number, factor: number, smooth = !this.reduced) {
     if (this.flight) return
-    const [, hi] = this.range(this.level)
+    const [lo, hi] = this.zoomRange(this.level)
     if (factor > 1 && this.level === 'world' && this.h >= hi * 0.999) {
       this.glide = undefined
       this.onZoomOutEdge?.()
+      return
+    }
+    if (factor < 1 && this.level === 'world' && this.h <= lo * 1.001) {
+      this.glide = undefined
+      this.onZoomInEdge?.(sx, sy)
       return
     }
     if (!smooth) {
@@ -381,13 +526,27 @@ export class Cam {
     }
   }
 
+  /** Hands a glide that reached the end of the range to the next map. */
+  private glideOver(g: { log: number; x: number; y: number; edge: boolean }) {
+    if (this.level !== 'world') return
+    if (g.log > 0 && this.worlds[this.anchor]?.inset) {
+      this.glide = g
+      this.onZoomOutEdge?.()
+    } else if (g.log < 0 && this.worlds[this.anchor]?.map) {
+      this.glide = g
+      this.onZoomInEdge?.(g.x, g.y)
+    }
+  }
+
   /**
    * Zooms at once, keeping what's under (sx, sy) there: the art on the sky,
    * which grows more slowly than the view (skyScale), the map on a world.
    * True if it reached the end of the range.
    */
   private zoomNow(sx: number, sy: number, factor: number) {
-    const [lo, hi] = this.range(this.level)
+    const [lo, hi] = this.zoomRange(this.level)
+    // ponytail: the pointer is taken unframed (see frame). Only the globe
+    // view is framed, where limit() keeps the globe centred anyway.
     const dx = sx - this.W / 2
     const dy = this.H / 2 - sy
     const [u0, k0] = this.units(this.h, this.level)
@@ -413,9 +572,19 @@ export class Cam {
       h = Math.exp((a + b) / 2)
     }
     const [u1, k1] = this.units(h, this.level)
+    // Zooming out as the map rolls up into its globe (drawn at the origin)
+    // brings the globe to the middle; once it's a globe, it drags freely.
+    const was = levelFades(this.level, this.h).flat
+    const pull =
+      this.level === 'world' &&
+      !this.worlds[this.anchor]?.inset &&
+      h > this.h &&
+      was > 0
+        ? levelFades(this.level, h).flat / was
+        : 1
     this.h = h
-    this.cx = px * k1 - dx * u1
-    this.cy = py * k1 - dy * u1
+    this.cx = (px * k1 - dx * u1) * pull
+    this.cy = (py * k1 - dy * u1) * pull
     return factor < 1 ? h === lo : factor > 1 && h === hi
   }
 
@@ -425,13 +594,17 @@ export class Cam {
    */
   toScreen(x: number, y: number, z: number): [number, number] {
     const s = this.scale(z)
-    return [this.W / 2 + (x - this.cx) * s, this.H / 2 - (y - this.cy) * s]
+    const { x: fx, y: fy } = this.frame
+    return [
+      this.W / 2 + fx + (x - this.cx) * s,
+      this.H / 2 + fy - (y - this.cy) * s,
+    ]
   }
 
-  /** Screen pixels per world unit at depth z, from height h. */
+  /** Screen pixels per world unit at depth z, from height h (framed). */
   scale(z: number, h = this.h) {
     const d = distFor(h)
-    return (d / (PLANE_Z + d - z)) * (this.H / h)
+    return (d / (PLANE_Z + d - z)) * (this.H / h) * this.frame.k
   }
 
   /** Screen pixel of a star in the painted sky. */
@@ -444,9 +617,11 @@ export class Cam {
   /** Mid-flight, crossfade from the level left to the one ahead. */
   fades(): Fades {
     const f = this.flight
-    if (!f) return levelFades(this.level, this.h)
-    const a = levelFades(f.fromLevel, this.h)
-    const b = levelFades(f.toLevel, this.h)
+    // A city's map is always unrolled, however far out over its parent.
+    const h = this.worlds[this.anchor]?.inset ? Math.min(this.h, 1500) : this.h
+    if (!f) return levelFades(this.level, h)
+    const a = levelFades(f.fromLevel, h)
+    const b = levelFades(f.toLevel, h)
     return Object.fromEntries(
       Object.entries(a).map(([key, v]) => [
         key,
@@ -477,12 +652,21 @@ export class Cam {
       }
     }
     const g = this.glide
-    if (g && !this.flight) {
+    // Waiting at the end of the range for the next map to take over.
+    if (g?.edge) {
+      g.wait = (g.wait ?? 0) + dt
+      if (g.wait > 300) this.glide = undefined
+    } else if (g && !this.flight) {
       const step =
         Math.abs(g.log) < 1e-3 ? g.log : g.log * (1 - Math.exp(-dt / 70))
       g.log -= step
-      if (this.zoomNow(g.x, g.y, Math.exp(step)) || g.log === 0)
+      if (this.zoomNow(g.x, g.y, Math.exp(step)) || g.log === 0) {
         this.glide = undefined
+        // A glide into a city's map, or out of one, carries on across the
+        // swap rather than stopping dead at it.
+        if (!g.edge && Math.abs(g.log) > 0.02)
+          this.glideOver({ ...g, edge: true })
+      }
     }
     // Bounds hold once landed; mid-flight you're between two maps.
     if (!this.flight)
@@ -492,6 +676,7 @@ export class Cam {
         this.h,
         this.level,
       )
+    this.reframe(dt)
   }
 
   /**

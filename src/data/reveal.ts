@@ -693,10 +693,16 @@ function addMapChain(
 ) {
   const chain: AtlasMap[] = []
   for (let m: AtlasMap | undefined = map; m;) {
-    if (chain.includes(m)) break
-    chain.unshift(m)
+    if (chain.some((x) => x.id === m!.id)) break
     const up: AtlasMap | undefined = m.parent && atlas.map(m.parent.mapId)
-    m = up && !up.overview && canSee(up.revealedIn) ? up : undefined
+    const seen: boolean = !!(up && !up.overview && canSee(up.revealedIn))
+    // Inside a world's map the reader can't see yet: it's the world's map,
+    // where that one is on the star chart.
+    const hiddenWorld = up && !seen && up.parent && atlas.map(up.parent.mapId)
+    chain.unshift(
+      hiddenWorld && hiddenWorld.overview ? { ...m, parent: up.parent } : m,
+    )
+    m = seen ? up : undefined
   }
   for (const m of chain) if (!maps.some((x) => x.id === m.id)) maps.push(m)
 }

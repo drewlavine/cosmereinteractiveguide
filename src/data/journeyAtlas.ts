@@ -44,8 +44,11 @@ interface JourneyMapSource {
    * from the start of that book (the Maps sections still wait for the end).
    */
   revealedIn: Reveal
-  /** For a map inside another (a city): that map and the pin it zooms from. */
-  parent?: { mapId: string; placeId?: string; at: MapPoint }
+  /**
+   * For a map inside another (a city): that map and the pin it zooms from;
+   * `whole` for a map of all of its land instead (never drawn inside it).
+   */
+  parent?: { mapId: string; placeId?: string; at: MapPoint; whole?: boolean }
 }
 
 const sources: JourneyMapSource[] = [
@@ -63,7 +66,7 @@ const sources: JourneyMapSource[] = [
     mapId: 'silver-kingdoms',
     file: 'Silver_Kingdoms.jpg',
     revealedIn: ['way-of-kings'],
-    parent: { mapId: 'roshar', at: [1280, 800] },
+    parent: { mapId: 'roshar', at: [1280, 800], whole: true },
   },
   // Roshar's city maps sit on the continent at their pins; each opens once
   // nothing printed on it spoils (some carry later notes, e.g. battles).
@@ -183,11 +186,46 @@ const sources: JourneyMapSource[] = [
     parent: { mapId: 'final-empire', placeId: 'fadrex-city', at: [881, 752] },
   },
   {
+    id: 'urteau',
+    planetId: 'scadrial',
+    mapId: 'urteau',
+    file: 'Urteau.jpg',
+    revealedIn: [{ book: 'hero-of-ages', chapter: 'prologue' }],
+    parent: { mapId: 'final-empire', placeId: 'urteau', at: [1508, 640] },
+  },
+  {
+    id: 'scadrial',
+    planetId: 'scadrial',
+    mapId: 'scadrial',
+    file: 'Scadrial_map.png',
+    revealedIn: [{ book: 'lost-metal', chapter: 'prologue' }],
+  },
+  {
+    // Inside Scadrial's map, which comes later: until then it's the world's.
     id: 'elendel-basin',
     planetId: 'scadrial',
     mapId: 'elendel-basin',
     file: 'Elendel_Basin.png',
     revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    parent: { mapId: 'scadrial', placeId: 'elendel-basin', at: [372, 271] },
+  },
+  {
+    // The Alloy of Law map; The Lost Metal's adds later landmarks.
+    id: 'elendel',
+    planetId: 'scadrial',
+    mapId: 'elendel',
+    file: 'Elendel.jpg',
+    revealedIn: [{ book: 'alloy-of-law', chapter: 'prologue' }],
+    parent: { mapId: 'elendel-basin', placeId: 'elendel', at: [276, 794] },
+  },
+  {
+    // Interior art, page unknown: only once the book is finished.
+    id: 'new-seran',
+    planetId: 'scadrial',
+    mapId: 'new-seran',
+    file: 'New_seran.png',
+    revealedIn: ['bands-of-mourning'],
+    parent: { mapId: 'elendel-basin', placeId: 'new-seran', at: [600, 1128] },
   },
   {
     id: 'dayside',
@@ -332,6 +370,10 @@ const maps = new Map<string, AtlasMap>(
   }),
 )
 maps.set(COSMERE_MAP, cosmere)
+
+/** The maps set on a map, e.g. the Shattered Plains' on Roshar's. */
+export const journeyMapsOn = (mapId: string) =>
+  [...maps.values()].filter((m) => m.parent?.mapId === mapId)
 
 /** The world a journey map shows (part of), e.g. 'roshar' for Kholinar. */
 export const journeyMapPlanet = (mapId: string) =>

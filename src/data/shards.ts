@@ -15,7 +15,7 @@ export interface ShardEntry {
   status: string
   /** Who holds it, once the reader may know. */
   /** `id`: the Vessel's character page, for their art, if they have one. */
-  vessel?: { name: string; id?: string; revealedIn: Reveal }
+  vessel?: { name: string; id?: string; wob?: boolean; revealedIn: Reveal }
   /** Splintered, Shattered or its Vessel dead: its art is greyed out. */
   faded?: boolean
   revealedIn: Reveal
@@ -56,8 +56,9 @@ const RAYSE = {
   id: 'rayse',
   revealedIn: [ch('words-of-radiance', '71')],
 }
-/** As "Endowment settles on Nalthis". Edgli as its Vessel is only WoB. */
-const NALTHIS_SHARD = [{ all: ['warbreaker', ch('secret-history', '3-2')] }]
+/** As "Endowment settles on Nalthis". */
+const WB = 'warbreaker'
+const NALTHIS_SHARD = [{ all: [WB, ch('secret-history', '3-2')] }]
 /** As "Autonomy settles on Taldain". */
 const TALDAIN_SHARD = [
   { all: ['arcanum-unbounded', ch('secret-history', '3-2')] },
@@ -68,6 +69,8 @@ const BAVADIN = {
   id: 'bavadin',
   revealedIn: [{ all: ['lost-metal', 'wind-and-truth'] }],
 }
+const HARMONY = ch('hero-of-ages', '82')
+const SAZED = { name: 'Sazed', id: 'sazed', revealedIn: [HARMONY] }
 const ULI_DA = { id: 'uli-da', revealedIn: [ch('wind-and-truth', '104')] }
 /** As Harmony's letters to Hoid (Rhythm of War) leave them. */
 const UNSETTLED = 'Whole; where it settled is unknown'
@@ -85,6 +88,13 @@ export const shards: Shard[] = [
         status: 'Settled on Scadrial, with Ruin',
         vessel: { name: 'Leras', id: 'leras', revealedIn: ['secret-history'] },
         revealedIn: SCADRIAL_SHARDS,
+      },
+      {
+        from: 'catacendre',
+        world: 'scadrial',
+        status: 'Joined with Ruin as Harmony',
+        vessel: SAZED,
+        revealedIn: [HARMONY],
       },
     ],
   },
@@ -106,6 +116,13 @@ export const shards: Shard[] = [
           ],
         },
         revealedIn: SCADRIAL_SHARDS,
+      },
+      {
+        from: 'catacendre',
+        world: 'scadrial',
+        status: 'Joined with Preservation as Harmony',
+        vessel: SAZED,
+        revealedIn: [HARMONY],
       },
     ],
   },
@@ -241,6 +258,7 @@ export const shards: Shard[] = [
         from: 'endowment-settles',
         world: 'nalthis',
         status: 'Settled on Nalthis',
+        vessel: { name: 'Edgli', id: 'edgli', wob: true, revealedIn: [WB] },
         revealedIn: NALTHIS_SHARD,
       },
     ],
@@ -368,6 +386,8 @@ export interface ShownShard {
   status: string
   vessel?: string
   vesselId?: string
+  /** The Vessel is known only from Word of Brandon. */
+  vesselWob?: boolean
   faded: boolean
 }
 
@@ -401,6 +421,7 @@ export function revealShards(
         ...(vessel && {
           vessel: entry.vessel!.name,
           vesselId: entry.vessel!.id,
+          vesselWob: entry.vessel!.wob,
         }),
         faded: !!entry.faded,
       },

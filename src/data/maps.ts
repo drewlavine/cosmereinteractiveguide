@@ -801,6 +801,8 @@ export const planetMaps: Record<string, PlanetMap[]> = {
             pin('tarier', 341, 959),
             pin('elmsdel', 584, 945),
             pin('garmet', 669, 989),
+            // Unlabelled: the last rail stop before the Seran Range.
+            pin('new-seran', 600, 1128),
           ],
         },
       ],

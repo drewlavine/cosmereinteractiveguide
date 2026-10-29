@@ -1,0 +1,472 @@
+/* ponytail: temporary, to gather opinions on the way into the world card
+   (TitlePlacement.tsx); remove once a style is chosen. A state chip and an
+   orbiting node, in the explorer's title slot, placed from the globe's
+   centre (the title's foot, plus the radius in --globe-r). */
+
+/* state: the world's state on the Events/Books toggle's glass and gold
+   hairline. Beside the globe, under the toolbar, or (phones) under the
+   name. */
+.chip {
+  pointer-events: auto;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  align-items: center;
+  column-gap: 0.55rem;
+  width: max-content;
+  max-width: 17.5rem;
+  margin: 0;
+  padding: 0.5rem 0.6rem 0.55rem 0.85rem;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  border-radius: 14px;
+  background: rgba(17, 27, 35, 0.84);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow:
+    0 2px 8px rgba(0, 0, 0, 0.35),
+    0 10px 28px rgba(0, 0, 0, 0.3);
+  color: var(--gold-soft);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+  transition:
+    translate 0.2s ease,
+    border-color 0.2s,
+    background 0.2s,
+    box-shadow 0.2s;
+}
+
+.kicker {
+  grid-column: 1;
+  color: var(--gold);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.18em;
+  line-height: 1.3;
+  text-transform: uppercase;
+}
+
+.hide {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip-path: inset(50%);
+  white-space: nowrap;
+}
+
+.main {
+  grid-column: 1;
+  margin-top: 0.1rem;
+  color: #f6ecd2;
+  font-family: var(--display);
+  font-size: 1.05rem;
+  line-height: 1.2;
+  text-wrap: balance;
+}
+
+.sub {
+  grid-column: 1;
+  margin-top: 0.15rem;
+  color: rgba(241, 230, 200, 0.62);
+  font-size: 0.72rem;
+  line-height: 1.35;
+  text-wrap: balance;
+}
+
+.chev {
+  grid-row: 1 / span 3;
+  grid-column: 2;
+  width: 1.1rem;
+  height: 1.1rem;
+  fill: none;
+  stroke: var(--gold);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: translate 0.2s ease;
+}
+
+@media (hover: hover) {
+  .chip:hover {
+    translate: 0 -2px;
+    border-color: var(--gold);
+    background: rgba(28, 40, 50, 0.92);
+    box-shadow:
+      0 0 0 3px rgba(212, 165, 64, 0.12),
+      0 4px 12px rgba(0, 0, 0, 0.4),
+      0 14px 32px rgba(0, 0, 0, 0.35);
+  }
+
+  .chip:hover .chev {
+    translate: 2px 0;
+  }
+}
+
+.chip:active {
+  translate: 0 0;
+  background: #3a3220;
+}
+
+.chip:focus-visible {
+  border-color: var(--gold);
+  outline: 2px solid var(--gold);
+  outline-offset: 3px;
+}
+
+/* Left of the globe, its middle level with the globe's, a hairline
+   leading to the globe's edge. */
+.chip[data-mode='beside'] {
+  position: absolute;
+  top: calc(100% + 6px + var(--globe-r, 0px));
+  right: calc(50% + var(--globe-r, 0px) * 1.06 + 28px);
+  transform: translateY(-50%);
+}
+
+.chip[data-mode='beside']::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  width: 22px;
+  height: 1px;
+  background: linear-gradient(90deg, rgba(212, 165, 64, 0.7), transparent);
+  pointer-events: none;
+}
+
+/* Under the toolbar: as narrow as it must be to keep off the globe (the
+   since line wraps). */
+.chip[data-mode='under'] {
+  max-width: clamp(12rem, var(--room, 17.5rem), 17.5rem);
+  margin-top: 0.25rem;
+}
+
+/* Phones: a compact bar under the name, "STATE" beside the state's name,
+   the since line under them. */
+.chip[data-mode='bar'] {
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  column-gap: 0.5rem;
+  max-width: min(17rem, 72vw);
+  min-height: 2.75rem;
+  margin: 0.15rem auto 0;
+  padding: 0.35rem 0.5rem 0.4rem 0.75rem;
+  border-radius: 12px;
+}
+
+.chip[data-mode='bar'] .kicker {
+  grid-row: 1;
+  align-self: center;
+  padding: 0.1rem 0.35rem;
+  border: 1px solid rgba(212, 165, 64, 0.5);
+  border-radius: 999px;
+  font-size: 0.55rem;
+  letter-spacing: 0.14em;
+}
+
+.chip[data-mode='bar'] .main {
+  grid-row: 1;
+  grid-column: 2;
+  margin: 0;
+  overflow: hidden;
+  font-size: 0.95rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.chip[data-mode='bar'] .sub {
+  grid-row: 2;
+  grid-column: 1 / span 2;
+  margin-top: 0.1rem;
+  font-size: 0.68rem;
+}
+
+.chip[data-mode='bar'] .chev {
+  grid-row: 1 / span 2;
+  grid-column: 3;
+}
+
+/* moon: a thin gold orbit, tilted, round the globe's middle: its back half
+   hidden behind the globe, its front faint across it, fading out away from
+   the node. The node rides it at about two o'clock. */
+@property --moon-t {
+  syntax: '<angle>';
+  inherits: true;
+  initial-value: -18deg;
+}
+
+.moon {
+  --tilt: -20deg;
+  --moon-t: -18deg;
+  --edge: calc(var(--globe-r, 0px) * 1.06);
+  --rx: calc(var(--globe-r, 0px) * 1.32);
+  --ry: calc(var(--globe-r, 0px) * 0.36);
+  position: absolute;
+  top: calc(100% + 6px + var(--globe-r, 0px));
+  left: 50%;
+  width: 0;
+  height: 0;
+  rotate: var(--tilt);
+  pointer-events: none;
+}
+
+.ring {
+  position: absolute;
+  top: calc(-1 * var(--ry));
+  left: calc(-1 * var(--rx));
+  width: calc(2 * var(--rx));
+  height: calc(2 * var(--ry));
+  box-sizing: border-box;
+  border: 1.5px solid rgba(232, 190, 96, 0.85);
+  border-radius: 50%;
+  filter: drop-shadow(0 0 2px rgba(212, 165, 64, 0.6));
+  opacity: 0.8;
+  mask-image:
+    conic-gradient(
+      from 90deg,
+      #000,
+      rgba(0, 0, 0, 0.8) 60deg,
+      transparent 140deg 220deg,
+      rgba(0, 0, 0, 0.8) 300deg,
+      #000
+    ),
+    linear-gradient(transparent 50%, rgba(0, 0, 0, 0.7) 50%),
+    radial-gradient(
+      circle var(--edge) at 50% 50%,
+      transparent calc(var(--edge) - 0.5px),
+      #000 calc(var(--edge) + 0.5px)
+    );
+  mask-composite: intersect, add, add;
+  transition:
+    opacity 0.25s,
+    filter 0.25s;
+}
+
+.moonAt {
+  position: absolute;
+  top: 0;
+  left: 0;
+  translate: calc(var(--rx) * cos(var(--moon-t)))
+    calc(var(--ry) * sin(var(--moon-t)));
+  rotate: calc(-1 * var(--tilt));
+  animation: drift 14s ease-in-out infinite alternate;
+}
+
+/* Ten o'clock: the whole orbit mirrored, the node and its label turned
+   back the right way round, the label outside the node. */
+.moon[data-side='left'] {
+  rotate: calc(-1 * var(--tilt));
+  scale: -1 1;
+}
+
+.moon[data-side='left'] .moonAt {
+  scale: -1 1;
+}
+
+.moon[data-side='left'] .moonLabel {
+  right: calc(50% + var(--disc) / 2 + 0.6rem);
+  left: auto;
+  translate: 0.3rem -50%;
+}
+
+@keyframes drift {
+  from {
+    --moon-t: -32deg;
+  }
+
+  to {
+    --moon-t: -6deg;
+  }
+}
+
+/* The button is the node, its hit area padded out to 44px round the
+   disc; its label hangs beside it. */
+.node {
+  --disc: 2rem;
+  pointer-events: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: grid;
+  place-items: center;
+  width: 2.75rem;
+  height: 2.75rem;
+  padding: 0;
+  translate: -50% -50%;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  cursor: pointer;
+}
+
+.disc {
+  display: grid;
+  place-items: center;
+  width: var(--disc);
+  height: var(--disc);
+  border: 1px solid var(--gold);
+  border-radius: 50%;
+  background: radial-gradient(circle at 35% 30%, #40361f, #16212b 62%, #0d151c);
+  box-shadow:
+    0 0 0 3px rgba(212, 165, 64, 0.14),
+    0 0 14px 2px rgba(212, 165, 64, 0.42),
+    0 2px 8px rgba(0, 0, 0, 0.6);
+  transition:
+    scale 0.2s ease,
+    box-shadow 0.2s,
+    background 0.2s;
+}
+
+.disc svg {
+  width: 1.05rem;
+  height: 1.05rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2.3;
+  stroke-linecap: round;
+}
+
+.dotI {
+  stroke-width: 3.1;
+}
+
+.moonLabel {
+  position: absolute;
+  top: 50%;
+  left: calc(50% + var(--disc) / 2 + 0.6rem);
+  padding: 0.22rem 0.6rem 0.25rem;
+  translate: -0.3rem -50%;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  border-radius: 999px;
+  background: rgba(17, 27, 35, 0.86);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  color: var(--gold-soft);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition:
+    opacity 0.2s,
+    translate 0.2s ease,
+    visibility 0.2s;
+}
+
+.node:is(:hover, :focus-visible) .disc {
+  scale: 1.22;
+  background: radial-gradient(circle at 35% 30%, #5a4a22, #1e2b36 62%, #101921);
+  box-shadow:
+    0 0 0 4px rgba(212, 165, 64, 0.2),
+    0 0 22px 4px rgba(232, 190, 96, 0.55),
+    0 2px 8px rgba(0, 0, 0, 0.6);
+}
+
+.node:is(:hover, :focus-visible) .moonLabel {
+  translate: 0 -50%;
+  opacity: 1;
+  /* Inherit, so it hides with the node while the dialog is open. */
+  visibility: inherit;
+}
+
+.moon:has(.node:is(:hover, :focus-visible)) .ring {
+  opacity: 1;
+  filter: drop-shadow(0 0 4px rgba(232, 190, 96, 0.85));
+}
+
+.node:focus-visible {
+  outline: none;
+}
+
+.node:focus-visible .disc {
+  outline: 2px solid var(--gold);
+  outline-offset: 4px;
+}
+
+.node:active .disc {
+  scale: 1.1;
+}
+
+/* Touch: no hover to find the label by, so it shows. */
+@media (hover: none), (any-pointer: coarse) {
+  .moonLabel {
+    translate: 0 -50%;
+    opacity: 1;
+    visibility: inherit;
+  }
+}
+
+.moon[data-side='left'] .node:is(:hover, :focus-visible) .moonLabel {
+  translate: 0 -50%;
+}
+
+@media (hover: none), (any-pointer: coarse) {
+  .moon[data-side='left'] .moonLabel {
+    translate: 0 -50%;
+  }
+}
+
+/* Phones: the globe fills the width, so the orbit tilts up steeply and the
+   node sits at about one o'clock, clear of the zoom buttons; its label
+   to its left. */
+@media (max-width: 639px) {
+  .moon {
+    --tilt: -56deg;
+    --moon-t: -8deg;
+    --rx: calc(var(--globe-r, 0px) * 1.13);
+    --ry: calc(var(--globe-r, 0px) * 0.4);
+  }
+
+  .moonAt {
+    animation-name: drift-phone;
+  }
+
+  .node {
+    --disc: 2.25rem;
+  }
+
+  /* Left of the node, clear of the zoom buttons on the right. */
+  .moonLabel {
+    right: calc(50% + var(--disc) / 2 + 0.5rem);
+    left: auto;
+    translate: 0.3rem -50%;
+  }
+
+  .node:is(:hover, :focus-visible) .moonLabel {
+    translate: 0 -50%;
+  }
+}
+
+@media (max-width: 639px) and (hover: none),
+  (max-width: 639px) and (any-pointer: coarse) {
+  .moonLabel {
+    translate: 0 -50%;
+  }
+}
+
+@keyframes drift-phone {
+  from {
+    --moon-t: -14deg;
+  }
+
+  to {
+    --moon-t: -2deg;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .moonAt {
+    animation: none;
+  }
+
+  .chip,
+  .chev,
+  .disc,
+  .moonLabel,
+  .ring {
+    transition: none;
+  }
+}

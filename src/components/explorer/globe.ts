@@ -27,6 +27,18 @@ function warpAt(x: number, y: number): [number, number] {
   return [lerp2(0), lerp2(1)]
 }
 
+/**
+ * How far (radians) a point is from the projection's centre. Near its
+ * antipode (π) the projection folds over, so map pixels mean nothing there.
+ */
+export function fromCentre(lat: number, lon: number) {
+  const p = lat * RAD
+  const cosc =
+    Math.sin(p0) * Math.sin(p) +
+    Math.cos(p0) * Math.cos(p) * Math.cos(lon * RAD - l0)
+  return Math.acos(Math.max(-1, Math.min(1, cosc)))
+}
+
 /** Latitude/longitude (degrees) -> Roshar map pixel (2560 x 1600). */
 export function latLonToMap(lat: number, lon: number): [number, number] {
   const p = lat * RAD

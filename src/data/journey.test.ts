@@ -120,6 +120,39 @@ describe('revealJourney', () => {
     expect(before.spoilers).toBe(true)
   })
 
+  it("puts a city on the chart while its world's map is still hidden", () => {
+    const map = (id: string, chapter: string, parent?: string) => ({
+      id,
+      title: id,
+      image: { src: `${id}.jpg`, width: 10, height: 10, alt: 'Map' },
+      credit: { text: 'Map' },
+      revealedIn: ch(chapter),
+      ...(parent && { parent: { mapId: parent, at: [1, 1] as const } }),
+    })
+    const maps = {
+      chart: { ...map('chart', 'prelude'), overview: true },
+      globe: {
+        ...map('globe', '20', 'chart'),
+        parent: { mapId: 'chart', at: [7, 7] as const },
+      },
+      city: map('city', 'prelude', 'globe'),
+    }
+    const nested: Atlas = {
+      ...atlas,
+      map: (id) => maps[id as keyof typeof maps],
+    }
+    const trip = [event('x', '1', 1, { mapId: 'city' })]
+    const early = revealJourney('hero', trip, nested, at('10')).maps
+    expect(early.map((m) => [m.id, m.parent])).toEqual([
+      ['city', { mapId: 'chart', at: [7, 7] }],
+    ])
+    const late = revealJourney('hero', trip, nested, at('25')).maps
+    expect(late.map((m) => [m.id, m.parent?.mapId])).toEqual([
+      ['globe', 'chart'],
+      ['city', 'globe'],
+    ])
+  })
+
   it('names a place only once the place is revealed', () => {
     const early = revealJourney('hero', events, atlas, at('10')).stops
     expect(early.find((s) => s.id === 'b')?.place?.name).toBe('Town')

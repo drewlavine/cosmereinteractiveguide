@@ -4,12 +4,14 @@ import {
   fireEvent,
   getByText,
   render,
+  within,
 } from '@testing-library/react'
 import { createMemoryRouter, RouterProvider } from 'react-router'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 import { routes } from '../../routes'
 import { BOOKS_READ_KEY } from '../../state/booksRead'
 import type { ExplorerCanvasProps } from '../explorer/ExplorerCanvas'
+import { titleStyles } from './worldTitleStyle'
 
 const webgl = vi.hoisted(() => ({ ok: true }))
 vi.mock('../explorer/webgl', () => ({
@@ -17,53 +19,63 @@ vi.mock('../explorer/webgl', () => ({
   reducedMotion: () => true,
 }))
 // jsdom has no WebGL: a stand-in shows where the camera was sent.
-vi.mock('../explorer/ExplorerCanvas', () => ({
-  default: (p: ExplorerCanvasProps) => (
-    <div
-      data-testid="explorer"
-      data-goal={JSON.stringify(p.goal)}
-      data-worlds={p.worlds.map((w) => w.id).join()}
-      data-pins={p.pins.map((x) => x.id).join()}
-      data-effect={p.effect && JSON.stringify(p.effect)}
-      data-placed={p.people?.flatMap((o) => (o.at ? [o.id] : [])).join()}
-      data-people={p.people?.map((o) => `${o.id}@${o.world}`).join()}
-    >
-      {p.children}
-      {p.shards?.map((s) => (
-        <button
-          key={s.id}
-          type="button"
-          data-shard={s.id}
-          data-faded={s.faded || undefined}
-          onClick={() => p.onShard?.(s.id)}
-        >
-          {s.name}
+vi.mock('../explorer/ExplorerCanvas', async () => {
+  const { placeGroups } = await import('../explorer/flags')
+  return {
+    default: (p: ExplorerCanvasProps) => (
+      <div
+        data-testid="explorer"
+        data-goal={JSON.stringify(p.goal)}
+        data-worlds={p.worlds.map((w) => w.id).join()}
+        data-pins={p.pins.map((x) => x.id).join()}
+        data-effect={p.effect && JSON.stringify(p.effect)}
+        data-placed={p.people?.flatMap((o) => (o.at ? [o.id] : [])).join()}
+        data-people={p.people?.map((o) => `${o.id}@${o.world}`).join()}
+        data-flags={placeGroups(p.people ?? [])
+          .map((g) => `${g.name}:${g.members.length}`)
+          .join()}
+        data-zoom-in={p.zoomIn}
+      >
+        {p.children}
+        {p.globeTitle}
+        <button type="button" onClick={() => p.onGlobe?.(true)}>
+          down to the globe
         </button>
-      ))}
-      <button type="button" onClick={p.onBackground}>
-        click the map
-      </button>
-      <button type="button" onClick={() => p.onExplore(undefined)}>
-        zoom out past the world
-      </button>
-      <button
-        type="button"
-        onClick={() => p.onView?.({ world: 'scadrial', level: 'world' })}
-      >
-        fly to Scadrial
-      </button>
-      <button
-        type="button"
-        onClick={() => p.onView?.({ world: 'scadrial', level: 'sky' })}
-      >
-        rise to the sky
-      </button>
-      {p.onReset && (
-        <button type="button" aria-label="Reset the view" onClick={p.onReset} />
-      )}
-    </div>
-  ),
-}))
+        <button type="button" onClick={p.onBackground}>
+          click the map
+        </button>
+        <button type="button" onClick={() => p.onExplore(undefined)}>
+          zoom out past the world
+        </button>
+        <button
+          type="button"
+          onClick={() => p.onView?.({ world: 'scadrial', level: 'world' })}
+        >
+          fly to Scadrial
+        </button>
+        <button
+          type="button"
+          onClick={() => p.onView?.({ world: 'sel', level: 'world' })}
+        >
+          fly to sel
+        </button>
+        <button
+          type="button"
+          onClick={() => p.onView?.({ world: 'scadrial', level: 'sky' })}
+        >
+          rise to the sky
+        </button>
+        {p.onReset && (
+          <button
+            type="button"
+            aria-label="Reset the view"
+            onClick={p.onReset}
+          />
+        )}
+      </div>
+    ),
+  }
+})
 
 const renderAt = (
   path: string,
@@ -110,9 +122,10 @@ const openWorlds = (c: HTMLElement) => {
 }
 const worldButtons = (c: HTMLElement) => {
   openWorlds(c)
+  // Not "Back to the event" while it's faded out.
   return [
     ...c.querySelectorAll(
-      'nav[aria-label="Worlds"] button:not([aria-expanded])',
+      '#timeline-worlds button, nav[aria-label="Worlds"] > button:not([aria-hidden])',
     ),
   ].map((b) => b.textContent)
 }
@@ -200,6 +213,8 @@ describe('Cosmere Timeline page', () => {
     expect(await effect(findByTestId)).toBeUndefined()
 
     press(stage, 'End')
+    expect(cardTitle(container)).toBe('Eshonai takes control from the Five')
+    press(stage, 'ArrowLeft')
     expect(cardTitle(container)).toBe('Gavilar is assassinated')
     expect(indicator(container)).toBe('ca. 10958after the ShatteringRoshar')
     expect(await goal(findByTestId)).toEqual({
@@ -214,11 +229,13 @@ describe('Cosmere Timeline page', () => {
     click(container.querySelector('[aria-label="Previous event"]'))
     expect(cardTitle(container)).toBe('Dalinar Kholin is born')
     click(container.querySelector('[aria-label="Previous event"]'))
+    expect(cardTitle(container)).toBe('Sazed becomes Harmony')
+    click(container.querySelector('[aria-label="Previous event"]'))
     expect(cardTitle(container)).toBe('The Manywar ends')
     expect(container.textContent).toMatch(/The Shards settle/)
     // Nothing from past chapter 17 of Wind and Truth, anywhere.
     expect(stage.textContent).not.toMatch(/Yolen/)
-    expect(markers(container)).toHaveLength(18)
+    expect(markers(container)).toHaveLength(20)
     expect((await findByTestId('explorer')).dataset.worlds).not.toMatch(/yolen/)
   })
 
@@ -416,12 +433,6 @@ describe('Cosmere Timeline page', () => {
       'Autonomy',
       'Ambition',
     ])
-    // Honor is dead by now: greyed out over Roshar.
-    expect(
-      container
-        .querySelector('[data-shard="honor"]')
-        ?.hasAttribute('data-faded'),
-    ).toBe(true)
     expect(list.previousElementSibling?.textContent).toBe('Location known')
     // Each row: the Shard's art, name and planet.
     expect(list.querySelector('li')?.textContent).toBe(
@@ -455,47 +466,245 @@ describe('Cosmere Timeline page', () => {
     expect(router.state.location.search).toBe('?event=gavilar-assassinated')
     // Just the Shards: no event card over the world.
     expect(container.querySelector('section[aria-live]')).toBeNull()
-    expect(container.querySelector('[data-shard="devotion"]')).toHaveAttribute(
-      'data-faded',
-    )
-    // Clicking one opens its details on the right.
-    const open = (id: string) => {
-      click(container.querySelector(`[data-shard="${id}"]`))
-      return container.querySelector('#timeline-shard')!.textContent
-    }
-    expect(open('preservation')).toBe(
-      '×PreservationArt: Cam KutaStatusSettled on Scadrial, with Ruin' +
-        'VesselLerasArt: Nino Vecia',
-    )
-    expect(
-      container.querySelector(
-        '#timeline-shard a[href="/characters/leras"] img',
-      ),
-    ).toHaveAttribute('src', expect.stringContaining('leras-preservation'))
-    // Splintered; Aona's name and art wait for Wind and Truth.
-    expect(open('devotion')).toBe(
-      '×DevotionArt: Cam KutaStatusSplintered by Odium',
-    )
     // Any other move brings the event card back.
     click(container.querySelector('button[aria-label="Worlds"]'))
     click(container.querySelector('#timeline-worlds button'))
     expect(container.querySelector('section[aria-live]')).not.toBeNull()
   })
 
-  it('floats the notable characters alive at this point over their world', async () => {
+  it("opens the world card from the globe's title, and closes it every way", async () => {
+    const { container, findByTestId, getByText } = renderAt(
+      '/timeline?event=gavilar-assassinated',
+      BEFORE_WAT,
+      { 'wind-and-truth': '17' },
+    )
+    const explorer = await findByTestId('explorer')
+    const title = () =>
+      container.querySelector<HTMLElement>('[data-world-title]')
+    // Only once the globe is in view.
+    expect(title()).toBeNull()
+    click(getByText('down to the globe'))
+    // By default, a chip with the world's state.
+    expect(title()?.textContent).toBe('State of Roshar:The Vengeance Pact')
+    const dialog = () => container.querySelector('[role="dialog"]')
+    const open = () => {
+      title()!.focus()
+      click(title())
+      return dialog()!
+    }
+    const shut = (how: () => void) => {
+      open()
+      expect(document.activeElement).toHaveAttribute('aria-label', 'Close')
+      how()
+      expect(dialog()).toBeNull()
+      expect(document.activeElement).toBe(title())
+    }
+    shut(() => {
+      expect(dialog()).toHaveAccessibleName('Roshar')
+      press(document.activeElement!, 'Escape')
+    })
+    shut(() => click(dialog()!.querySelector('[aria-label="Close"]')))
+    shut(() => click(dialog()!.previousElementSibling))
+    // A click on the planet zooms into its map.
+    click(open().querySelector('[aria-label="Zoom into Roshar\'s map"]'))
+    expect(dialog()).toBeNull()
+    expect(explorer.dataset.zoomIn).toBe('1')
+    // A Shard opens its details; Honor is dead by now, greyed out.
+    const honor = open().querySelector('[data-tooltip="About Honor"]')!
+    expect(honor.querySelector('img')).toHaveAttribute('data-faded')
+    click(honor)
+    expect(dialog()).toBeNull()
+    expect(container.querySelector('#timeline-shard h2')?.textContent).toBe(
+      'Honor',
+    )
+    const shardAt = (world: string, id: string) => {
+      click(getByText(`fly to ${world}`))
+      click(open().querySelector(`[data-tooltip="About ${id}"]`))
+      return container.querySelector('#timeline-shard')!.textContent
+    }
+    // Gavilar dies after Mistborn's first era: Sazed holds both by then.
+    expect(shardAt('Scadrial', 'Preservation')).toBe(
+      '×PreservationArt: Cam KutaStatusJoined with Ruin as Harmony' +
+        'VesselSazedArt: Chris Rallis',
+    )
+    // Splintered; Aona's name and art wait for Wind and Truth.
+    expect(shardAt('sel', 'Devotion')).toBe(
+      '×DevotionArt: Cam KutaStatusSplintered by Odium',
+    )
+  })
+
+  it('tries each style of the way into the world card', async () => {
+    const at = async (path: string) => {
+      const r = renderAt(path, BEFORE_WAT, { 'wind-and-truth': '17' })
+      await r.findByTestId('explorer')
+      click(r.getByText('down to the globe'))
+      const way = r.container.querySelector('[data-world-title]')!
+      const switcher = () =>
+        r.queryByRole('group', { name: /^Try a style/ }) as HTMLElement
+      return { ...r, way, switcher }
+    }
+    const ways = new Set<string>()
+    for (const { id, label } of titleStyles) {
+      const { container, way, switcher } = await at(
+        `/timeline?event=gavilar-assassinated&title=${id}`,
+      )
+      ways.add(way.outerHTML)
+      click(within(switcher()).getByRole('button', { expanded: false }))
+      expect(
+        within(switcher()).getByRole('button', { pressed: true }),
+      ).toHaveTextContent(label)
+      click(way)
+      expect(container.querySelector('[role="dialog"]')).toHaveAccessibleName(
+        'Roshar',
+      )
+      // Put away under the dialog.
+      expect(switcher()).toBeNull()
+      cleanup()
+    }
+    // A different way in for each.
+    expect(ways.size).toBe(titleStyles.length)
+    // The last pick is kept; the switcher picks another, into the URL too.
+    const { way, switcher, router, container } = await at(
+      '/timeline?event=gavilar-assassinated',
+    )
+    expect(way.textContent).toBe('State of Roshar')
+    click(within(switcher()).getByRole('button', { expanded: false }))
+    click(within(switcher()).getByRole('button', { name: /Pill/ }))
+    expect(router.state.location.search).toContain('title=current')
+    expect(container.querySelector('[data-world-title]')?.textContent).toBe(
+      'RosharDetails ›',
+    )
+  })
+
+  it('makes the name the way in where the chip has no state to show', async () => {
+    const { container, findByTestId, getByText } = renderAt(
+      '/timeline?event=gavilar-assassinated&title=state',
+      ['final-empire', 'way-of-kings'],
+    )
+    await findByTestId('explorer')
+    click(getByText('down to the globe'))
+    const way = () => container.querySelector('[data-world-title]')
+    expect(way()?.textContent).toMatch(/^State of Roshar:/)
+    // Scadrial's states wait for The Hero of Ages.
+    click(getByText('fly to Scadrial'))
+    expect(way()?.textContent).toBe('Scadrial')
+    click(way())
+    const dialog = container.querySelector('[role="dialog"]')
+    expect(dialog).toHaveAccessibleName('Scadrial')
+    expect(dialog?.querySelector('[aria-label="State"]')).toBeNull()
+  })
+
+  it('lists on the world card only what the reader knows by then', async () => {
+    const card = async (
+      read: string[],
+      reading: Record<string, string>,
+      event: string,
+    ) => {
+      const { container, findByTestId, getByText } = renderAt(
+        `/timeline?event=${event}`,
+        read,
+        reading,
+      )
+      await findByTestId('explorer')
+      click(getByText('down to the globe'))
+      click(container.querySelector('[data-world-title]'))
+      const d = container.querySelector('[role="dialog"]')!
+      const out = {
+        state: d.querySelector('[aria-label="State"]')?.textContent,
+        shards: [...d.querySelectorAll('[aria-label="Shards"] strong')].map(
+          (n) => n.textContent,
+        ),
+        people: [
+          ...d.querySelectorAll('[aria-label="Notable characters"] strong'),
+        ].map((n) => n.textContent),
+      }
+      cleanup()
+      return out
+    }
+    // Drew, partway through Wind and Truth.
+    expect(
+      await card(
+        BEFORE_WAT,
+        { 'wind-and-truth': '17' },
+        'gavilar-assassinated',
+      ),
+    ).toEqual({
+      state:
+        "StateThe Vengeance PactAlethkar's highprinces fight the Parshendi" +
+        ' on the Shattered Plains to avenge Gavilar.',
+      shards: ['Honor', 'Cultivation', 'Odium'],
+      people: [
+        'Dalinar Kholin',
+        'Kaladin',
+        'Adolin Kholin',
+        'Shallan Davar',
+        'Navani Kholin',
+        'Jasnah Kholin',
+        'Torol Sadeas',
+        'Elhokar Kholin',
+        'Renarin Kholin',
+        'Meridas Amaram',
+        'Szeth',
+        'Lirin',
+        'Eshonai',
+        'Jezrien',
+        'Kalak',
+        'Hesina',
+      ],
+    })
+    // Partway through The Way of Kings: no Shards yet, nor the Vengeance
+    // Pact, nor anyone not yet met.
+    expect(
+      await card([], { 'way-of-kings': '17' }, 'gavilar-assassinated'),
+    ).toEqual({
+      state:
+        'StateAfter the HeraldsThe Heralds have ended the Oathpact, leaving' +
+        " their Honorblades in the stone.Since the Heralds' departure",
+      shards: [],
+      people: [
+        'Dalinar Kholin',
+        'Elhokar Kholin',
+        'Hesina',
+        'Jezrien',
+        'Kaladin',
+        'Kalak',
+        'Lirin',
+        'Szeth',
+        'Torol Sadeas',
+      ],
+    })
+  })
+
+  it('passes the notable characters alive at this point to the map', async () => {
     const { findByTestId } = renderAt(
       '/timeline?event=gavilar-assassinated',
       BEFORE_WAT,
       { 'wind-and-truth': '17' },
     )
     const people = (await findByTestId('explorer')).dataset.people!.split(',')
-    // Only those alive, with known whereabouts, by Gavilar's death.
+    // Only those alive, with known whereabouts, by Gavilar's death (the
+    // feast's guests from the prologues, the Hearthstone family, and Era 1's
+    // immortals as last seen); the main characters first.
     expect(people).toEqual([
       'dalinar-kholin@roshar',
-      'jezrien@roshar',
       'kaladin@roshar',
-      'kalak@roshar',
+      'adolin-kholin@roshar',
+      'shallan-davar@roshar',
+      'navani-kholin@roshar',
+      'kelsier@scadrial',
+      'jasnah-kholin@roshar',
+      'torol-sadeas@roshar',
+      'elhokar-kholin@roshar',
+      'sazed@scadrial',
+      'renarin-kholin@roshar',
+      'meridas-amaram@roshar',
       'szeth@roshar',
+      'lirin@roshar',
+      'tensoon@scadrial',
+      'eshonai@roshar',
+      'jezrien@roshar',
+      'kalak@roshar',
+      'hesina@roshar',
     ])
   })
 
@@ -519,14 +728,39 @@ describe('Cosmere Timeline page', () => {
     }
     find('kal')
     expect(rows()).toEqual([
+      'Kalak',
+      'Vasher (Zahel)',
       'KaladinNot born for about another 4486 yearsJump to their birth',
-      'KalakOn Roshar',
     ])
-    click(panel().querySelector('li button:last-child'))
+    // The living, by world and then those whose world isn't known, in
+    // groups that fold away, each with a count.
+    const heads = (sel: string) =>
+      [...panel().querySelectorAll(sel)].map((h) => h.textContent)
+    expect(heads('h3')).toEqual(['Known alive', 'Everyone else'])
+    expect(heads('h4')).toEqual(['On Roshar', 'Location unknown'])
+    expect(heads('summary')).toEqual([
+      'Known alive2',
+      'On Roshar1',
+      'Location unknown1',
+      'Everyone else1',
+    ])
+    expect(panel().querySelectorAll('details[open]')).toHaveLength(4)
+    click(panel().querySelector('summary'))
+    expect(panel().querySelectorAll('details[open]')).toHaveLength(3)
+    click(panel().querySelector('summary'))
+    click(
+      [...panel().querySelectorAll('button')].find(
+        (b) => b.textContent === 'Jump to their birth',
+      ) ?? null,
+    )
     expect(cardTitle(container)).toBe('Kaladin is born')
     expect(panel()).toBeNull()
     find('kal')
-    click(panel().querySelector('li button'))
+    click(
+      [...panel().querySelectorAll('li button')].find((b) =>
+        b.textContent?.startsWith('Kaladin'),
+      ) ?? null,
+    )
     expect(await goal(findByTestId)).toEqual({
       world: 'roshar',
       view: 'pin',
@@ -539,6 +773,7 @@ describe('Cosmere Timeline page', () => {
     expect(container.textContent).not.toMatch(/Kaladin is here/)
 
     press(stage, 'End')
+    press(stage, 'ArrowLeft')
     find('gavilar')
     expect(rows()).toEqual([
       expect.stringMatching(/Gavilar KholinDied this yearJump to their death$/),
@@ -554,6 +789,33 @@ describe('Cosmere Timeline page', () => {
     expect((await findByTestId('explorer')).dataset.placed!.split(',')).toEqual(
       expect.arrayContaining(['szeth', 'kaladin']),
     )
+  })
+
+  it('flags each place with only the people the reader has met', async () => {
+    const flags = async (read: string[], reading = {}) => {
+      const { findByTestId } = renderAt(
+        '/timeline?event=eshonai-takes-control',
+        read,
+        reading,
+      )
+      const out = (await findByTestId('explorer')).dataset.flags!.split(',')
+      cleanup()
+      return out
+    }
+    const drew = await flags(BEFORE_WAT, { 'wind-and-truth': '17' })
+    expect(drew).toEqual(
+      expect.arrayContaining([
+        'The Warcamps:23',
+        'The Shattered Plains:3',
+        'Hearthstone:2',
+      ]),
+    )
+    // Felt and Vasher aren't met yet, so the warcamps count two fewer.
+    // Lirin and Hesina are where The Way of Kings last shows them, at home
+    // in Hearthstone.
+    const early = await flags(['way-of-kings', 'words-of-radiance'])
+    expect(early).toContain('The Warcamps:21')
+    expect(early).toContain('Hearthstone:2')
   })
 
   it("never lists a character the reader hasn't met", async () => {
@@ -578,5 +840,35 @@ describe('Cosmere Timeline page', () => {
     }
     expect(await pins('dalinar-born')).toEqual(['dalinar-born'])
     expect(await pins('gavilar-assassinated')).toEqual(['gavilar-assassinated'])
+  })
+
+  it("lines up only the reader's books, and flies to each one's world", async () => {
+    const { container, findByRole, findByTestId } = renderAt(
+      '/timeline',
+      ['final-empire', 'way-of-kings'],
+      { 'words-of-radiance': null },
+    )
+    click(await findByRole('button', { name: 'Books' }))
+    const covers = container.querySelector(
+      '[aria-label="Books, earliest first"]',
+    )!
+    expect(
+      [...covers.querySelectorAll('button')].map((b) => b.ariaLabel),
+    ).toEqual([
+      'Mistborn: The Final Empire',
+      'The Way of Kings',
+      'Words of Radiance',
+    ])
+    click(await findByRole('button', { name: 'Mistborn: The Final Empire' }))
+    expect(await goal(findByTestId)).toMatchObject({ world: 'scadrial' })
+    expect(container.querySelector('[aria-label="Book"]')!.textContent).toMatch(
+      /Final Empire.*Set on Scadrial/,
+    )
+    fireEvent.keyDown(await findByRole('group', { name: 'Cosmere Timeline' }), {
+      key: 'ArrowRight',
+    })
+    expect(await goal(findByTestId)).toMatchObject({ world: 'roshar' })
+    click(await findByRole('button', { name: 'Events' }))
+    expect(container.querySelector('[aria-label="Book"]')).toBeNull()
   })
 })

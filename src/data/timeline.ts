@@ -1,6 +1,6 @@
 import { findCharacter } from './characters'
 import type { MapPoint } from './journey'
-import { COSMERE_MAP, journeyAtlas } from './journeyAtlas'
+import { COSMERE_MAP, journeyAtlas, journeyMapPlanet } from './journeyAtlas'
 import { areaCentre } from './maps'
 import { hasMet, type CanSee } from './reveal'
 import { systems } from './systems'
@@ -49,8 +49,19 @@ const AU = 'arcanum-unbounded'
 const WAT = 'wind-and-truth'
 const WB = 'warbreaker'
 const ELA = 'elantris'
+const HOA = 'hero-of-ages'
 /** Khriss's lecture on the Shards: the Shattering, and who took them up. */
 const SHARDS = ch(SH, '3-2')
+const KHOLINAR = {
+  mapId: 'roshar',
+  at: [1936, 796] as MapPoint,
+  placeId: 'kholinar',
+}
+const HEARTHSTONE = {
+  mapId: 'roshar',
+  at: [1922, 631] as MapPoint,
+  placeId: 'hearthstone',
+}
 
 export const calendars = {
   rosharan: {
@@ -142,6 +153,11 @@ export interface TimelineEvent {
   summary?: TimelineText[]
   /** Character ids, each shown once the reader has met them. */
   characters: string[]
+  /**
+   * Where notable people are at this moment, anywhere in the Cosmere: a
+   * snapshot for the characters panel and the map.
+   */
+  whereabouts?: Whereabout[]
   revealedIn: Reveal
   /** Known only from Brandon's answers, not the books: badged as such. */
   wob?: TimelineText
@@ -159,6 +175,30 @@ export interface TimelineEvent {
   more?: { href: string; revealedIn: Reveal }
   /** Where the facts and dates come from (for maintainers; not shown). */
   sources: string[]
+}
+
+/**
+ * A person's place at an event's moment, on a journey map (its world's, or
+ * a city's in it). Shown once the reader has met them and `revealedIn`.
+ */
+export interface Whereabout {
+  id: string
+  map: { mapId: string; at?: MapPoint; placeId?: string }
+  /** One line for the reader, e.g. "Training with Bridge Four." */
+  note: string
+  /**
+   * Not seen there then: where their book left them, and functionally
+   * immortal, so presumably still there.
+   */
+  assumed?: boolean
+  /** Who they are there is known only from Brandon's answers. */
+  wob?: boolean
+  /**
+   * Seen there only at this moment: a mortal whose later fate the reader
+   * can't know yet, so later events don't carry them forward as alive.
+   */
+  momentary?: boolean
+  revealedIn: Reveal
 }
 
 /** The burst of light and streaking Shards at the Shattering. */
@@ -568,6 +608,68 @@ export const timelineEvents: TimelineEvent[] = [
     ],
   },
   {
+    id: 'catacendre',
+    world: 'scadrial',
+    year: 10626,
+    date: { year: 1025, calendar: 'fe' },
+    title: [line('Sazed becomes Harmony', ch(HOA, '82'))],
+    blurb: [
+      line(
+        'Sazed takes up both Ruin and Preservation, becoming Harmony, and remakes the dying world.',
+        ch(HOA, '82'),
+      ),
+    ],
+    characters: ['sazed'],
+    whereabouts: [
+      {
+        id: 'sazed',
+        map: { mapId: 'final-empire' },
+        note: 'As Harmony, watching over Scadrial from the Spiritual Realm.',
+        revealedIn: [ch(HOA, '82')],
+      },
+      {
+        id: 'marsh',
+        map: {
+          mapId: 'final-empire',
+          at: [1140, 632],
+          placeId: 'pits-of-hathsin',
+        },
+        note: "Ruin's Inquisitor at the Battle of Hathsin, where he kills Elend.",
+        momentary: true,
+        revealedIn: [ch(HOA, '81')],
+      },
+      {
+        id: 'spook',
+        map: { mapId: 'final-empire' },
+        note: 'Lives through the end of the world, and wakes to the new one Sazed has made.',
+        momentary: true,
+        revealedIn: [ch(HOA, 'epilogue')],
+      },
+      {
+        id: 'tensoon',
+        map: {
+          mapId: 'final-empire',
+          at: [1140, 632],
+          placeId: 'pits-of-hathsin',
+        },
+        note: 'In the Kandra Homeland by the Pits of Hathsin, after giving up his Blessings to save Sazed.',
+        revealedIn: [ch(HOA, '79')],
+      },
+      {
+        id: 'kelsier',
+        map: { mapId: 'final-empire' },
+        note: 'A Cognitive Shadow, who held Preservation until Vin could take it up, and saw her and Elend off to the Beyond.',
+        revealedIn: [ch(SH, '6-8')],
+      },
+    ],
+    revealedIn: [ch(HOA, '82')],
+    sources: [
+      `${SHEET}, row 63`,
+      'The Hero of Ages, chapter 82',
+      'https://coppermind.net/wiki/Catacendre',
+    ],
+  },
+  {
     id: 'dalinar-born',
     world: 'roshar',
     // Rosharan years sit 9791 years after the Shattering here, as Gavilar's
@@ -649,6 +751,44 @@ export const timelineEvents: TimelineEvent[] = [
       ),
     ],
     characters: ['gavilar-kholin', 'szeth'],
+    whereabouts: [
+      ...['dalinar-kholin', 'elhokar-kholin', 'torol-sadeas'].map((id) => ({
+        id,
+        map: KHOLINAR,
+        note: 'At the feast.',
+        revealedIn: [ch(WOK, 'prologue')],
+      })),
+      ...['jasnah-kholin', 'meridas-amaram'].map((id) => ({
+        id,
+        map: KHOLINAR,
+        note: 'At the feast.',
+        revealedIn: [ch(WOR, 'prologue')],
+      })),
+      {
+        id: 'eshonai',
+        map: KHOLINAR,
+        note: 'Visiting Kholinar with the listeners for the treaty.',
+        revealedIn: [ch(OB, 'prologue')],
+      },
+      ...['navani-kholin', 'adolin-kholin', 'renarin-kholin'].map((id) => ({
+        id,
+        map: KHOLINAR,
+        note: 'At the feast.',
+        revealedIn: [ch('rhythm-of-war', 'prologue')],
+      })),
+      {
+        id: 'shallan-davar',
+        map: { mapId: 'roshar', placeId: 'jah-keved' },
+        note: "At her family's estate in Jah Keved.",
+        revealedIn: [ch(WOR, '10')],
+      },
+      ...['kaladin', 'lirin', 'hesina'].map((id) => ({
+        id,
+        map: HEARTHSTONE,
+        note: 'At home in Hearthstone.',
+        revealedIn: [ch(WOK, '16')],
+      })),
+    ],
     revealedIn: [ch(WOK, 'prologue')],
     more: {
       href: '/events/assassination-of-gavilar',
@@ -657,6 +797,387 @@ export const timelineEvents: TimelineEvent[] = [
     sources: [
       'The Way of Kings, Prologue',
       'Date and point: 17th Shard Roshar map events.json, gavilars-assassination (MIT)',
+    ],
+  },
+  {
+    // A snapshot of the Cosmere: who is where, on every world, at this moment.
+    id: 'eshonai-takes-control',
+    world: 'roshar',
+    year: 10964.9,
+    date: {
+      year: 1173,
+      parts: [10, 6],
+      calendar: 'rosharan',
+    },
+    map: { mapId: 'roshar', at: [2045, 1110], placeId: 'shattered-plains' },
+    title: [line('Eshonai takes control from the Five', ch(WOR, 'i-11'))],
+    blurb: [
+      line(
+        'At Narak, Eshonai seizes control of the listeners from the Five, their ruling council.',
+        ch(WOR, 'i-11'),
+      ),
+    ],
+    characters: ['eshonai', 'venli'],
+    whereabouts: [
+      {
+        id: 'kaladin',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "Locked in the Kholin warcamp prison after interfering in Adolin's duel.",
+        revealedIn: [ch('words-of-radiance', '62')],
+      },
+      {
+        id: 'sylphrena',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: 'With Kaladin in his cell in the Kholin warcamp prison.',
+        revealedIn: [ch('words-of-radiance', '62')],
+      },
+      {
+        id: 'adolin-kholin',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "Has locked himself in the cell beside Kaladin's in the Kholin warcamp prison.",
+        revealedIn: [ch('words-of-radiance', '66')],
+      },
+      {
+        id: 'dalinar-kholin',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: 'Highprince, in his warcamp.',
+        revealedIn: [ch('words-of-radiance', '62')],
+      },
+      {
+        id: 'navani-kholin',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "In Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '67')],
+      },
+      {
+        id: 'renarin-kholin',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "Training with Bridge Four in Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '68')],
+      },
+      {
+        id: 'teft',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "Running Bridge Four in Dalinar's warcamp while Kaladin is imprisoned.",
+        revealedIn: [ch('words-of-radiance', '66')],
+      },
+      {
+        id: 'lunamor',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "Cook for Bridge Four in Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '79')],
+      },
+      {
+        id: 'sigzil',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "With Bridge Four in Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '71')],
+      },
+      {
+        id: 'lopen',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "With Bridge Four in Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '76')],
+      },
+      {
+        id: 'moash',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "A Bridge Four guard in Dalinar's warcamp.",
+        revealedIn: [ch('words-of-radiance', '62')],
+      },
+      {
+        id: 'vasher',
+        map: { mapId: 'warcamps', at: [760, 340], placeId: 'alethkar' },
+        note: "Zahel, a swordmaster among the ardents of Dalinar's warcamp, who trains Adolin.",
+        revealedIn: [{ all: ['warbreaker', ch('words-of-radiance', '81')] }],
+      },
+      {
+        id: 'talenel',
+        map: { mapId: 'warcamps', at: [760, 340], placeId: 'alethkar' },
+        note: "A madman kept in the ardents' monastery in Dalinar's warcamp, who calls himself Talenel'Elin.",
+        revealedIn: [ch('words-of-radiance', '63')],
+      },
+      {
+        id: 'felt',
+        map: { mapId: 'warcamps', at: [745, 308], placeId: 'alethkar' },
+        note: "A scout in Dalinar's service in the warcamps.",
+        wob: true,
+        revealedIn: [
+          {
+            all: [
+              ch('words-of-radiance', '81'),
+              ch('oathbringer', '114'),
+              ch('final-empire', '31'),
+            ],
+          },
+          {
+            all: [
+              ch('words-of-radiance', '81'),
+              ch('oathbringer', '114'),
+              ch('well-of-ascension', '42'),
+            ],
+          },
+        ],
+      },
+      {
+        id: 'elhokar-kholin',
+        map: { mapId: 'warcamps', at: [930, 190], placeId: 'alethkar' },
+        note: 'King, at his palace on the Pinnacle in the warcamps.',
+        revealedIn: [ch('words-of-radiance', '66')],
+      },
+      {
+        id: 'hoid',
+        map: { mapId: 'warcamps', at: [935, 212], placeId: 'alethkar' },
+        note: "The king's Wit, in the warcamps; he visits Kaladin in prison.",
+        revealedIn: [ch('words-of-radiance', '59')],
+      },
+      {
+        id: 'shallan-davar',
+        map: { mapId: 'warcamps', at: [140, 200], placeId: 'alethkar' },
+        note: "In Sebarial's warcamp, studying maps of the Shattered Plains.",
+        revealedIn: [ch('words-of-radiance', '60')],
+      },
+      {
+        id: 'pattern',
+        map: { mapId: 'warcamps', at: [140, 200], placeId: 'alethkar' },
+        note: "With Shallan in Sebarial's warcamp.",
+        revealedIn: [ch('words-of-radiance', '60')],
+      },
+      {
+        id: 'turinad-sebarial',
+        map: { mapId: 'warcamps', at: [140, 200], placeId: 'alethkar' },
+        note: 'Highprince, in his own warcamp.',
+        revealedIn: [ch('words-of-radiance', '76')],
+      },
+      {
+        id: 'iyatil',
+        map: { mapId: 'warcamps', at: [140, 200], placeId: 'alethkar' },
+        note: "A masked Ghostblood, secretly watching Shallan in Sebarial's warcamp.",
+        revealedIn: [ch('words-of-radiance', '63')],
+      },
+      {
+        id: 'mraize',
+        map: { mapId: 'warcamps', placeId: 'alethkar' },
+        note: "Directing the Ghostbloods' work in the warcamps; Shallan reports to him.",
+        revealedIn: [ch('words-of-radiance', '64')],
+      },
+      {
+        id: 'torol-sadeas',
+        map: { mapId: 'warcamps', at: [975, 468], placeId: 'alethkar' },
+        note: 'Highprince, in his warcamp.',
+        revealedIn: [ch('words-of-radiance', '58')],
+      },
+      {
+        id: 'ialai-sadeas',
+        map: { mapId: 'warcamps', at: [975, 468], placeId: 'alethkar' },
+        note: "In her husband's warcamp.",
+        revealedIn: [ch('words-of-radiance', '76')],
+      },
+      {
+        id: 'meridas-amaram',
+        map: { mapId: 'warcamps', at: [975, 468], placeId: 'alethkar' },
+        note: "At his manor in Sadeas's warcamp.",
+        revealedIn: [ch('words-of-radiance', '64')],
+      },
+      {
+        id: 'eshonai',
+        map: {
+          mapId: 'shattered-plains',
+          at: [700, 380],
+          placeId: 'shattered-plains',
+        },
+        note: 'Shardbearer and general of the listeners, at Narak.',
+        revealedIn: [ch('words-of-radiance', 'i-11')],
+      },
+      {
+        id: 'venli',
+        map: {
+          mapId: 'shattered-plains',
+          at: [700, 380],
+          placeId: 'shattered-plains',
+        },
+        note: "A listener scholar, Eshonai's sister, at Narak.",
+        revealedIn: [ch('words-of-radiance', 'i-11')],
+      },
+      {
+        id: 'rlain',
+        map: {
+          mapId: 'shattered-plains',
+          at: [700, 380],
+          placeId: 'shattered-plains',
+        },
+        note: 'Has left the warcamps and is back among the listeners near Narak.',
+        revealedIn: [ch('words-of-radiance', '79')],
+      },
+      {
+        id: 'jasnah-kholin',
+        map: { mapId: 'shadesmar' },
+        note: 'In Shadesmar.',
+        revealedIn: [ch('words-of-radiance', 'epilogue')],
+      },
+      {
+        id: 'lift',
+        map: { mapId: 'roshar', at: [937, 1042], placeId: 'azimir' },
+        note: 'Living in the Bronze Palace in Azimir.',
+        revealedIn: [ch('edgedancer', '1')],
+      },
+      {
+        // Without Edgedancer: where Words of Radiance last shows her, before
+        // Yanagawn (in Azimir here, from the same interlude) is made Prime.
+        id: 'lift',
+        map: { mapId: 'roshar', at: [937, 1042], placeId: 'azimir' },
+        note: 'Last seen in Azimir, where she broke into the Bronze Palace.',
+        revealedIn: [ch(WOR, 'i-9')],
+      },
+      {
+        id: 'taravangian',
+        map: { mapId: 'roshar' },
+        note: 'King of Kharbranth.',
+        revealedIn: [ch(WOK, '3')],
+      },
+      {
+        id: 'szeth',
+        map: { mapId: 'roshar' },
+        note: "Truthless, killing on his master's orders.",
+        revealedIn: [ch(WOK, 'prologue')],
+      },
+      {
+        id: 'rysn-ftori',
+        map: { mapId: 'roshar' },
+        note: "A Thaylen merchant's apprentice, trading.",
+        revealedIn: [ch(WOK, 'i-4')],
+      },
+      {
+        id: 'marsh',
+        map: { mapId: 'elendel-basin' },
+        note: 'Ironeyes: lived through the Catacendre, and works for Harmony in the Basin, his spikes keeping him alive.',
+        assumed: true,
+        revealedIn: [ch('lost-metal', '27')],
+      },
+      {
+        id: 'yanagawn',
+        map: { mapId: 'roshar', at: [937, 1042], placeId: 'azimir' },
+        note: 'The new Prime Aqasix, in Azimir.',
+        revealedIn: [ch('words-of-radiance', 'i-9')],
+      },
+      {
+        id: 'ishar',
+        map: { mapId: 'roshar', placeId: 'tukar' },
+        note: 'Tezim, the god-priest of Tukar, at war with Emul.',
+        revealedIn: [ch('oathbringer', '64')],
+      },
+      {
+        id: 'lirin',
+        map: { mapId: 'roshar', at: [1922, 631], placeId: 'hearthstone' },
+        note: 'Surgeon in his home town of Hearthstone.',
+        revealedIn: [ch('oathbringer', '7')],
+      },
+      {
+        id: 'hesina',
+        map: { mapId: 'roshar', at: [1922, 631], placeId: 'hearthstone' },
+        note: 'With Lirin in Hearthstone.',
+        revealedIn: [ch('oathbringer', '7')],
+      },
+      {
+        id: 'galladon',
+        map: { mapId: 'roshar', placeId: 'purelake' },
+        note: 'Last seen at the Purelake, searching for someone.',
+        wob: true,
+        revealedIn: [
+          { all: [ch('way-of-kings', 'i-1'), ch('wind-and-truth', 'i-11')] },
+        ],
+      },
+      {
+        id: 'baon',
+        map: { mapId: 'roshar', placeId: 'purelake' },
+        note: 'Last seen at the Purelake, searching for someone.',
+        wob: true,
+        revealedIn: [
+          { all: [ch('way-of-kings', 'i-1'), ch('wind-and-truth', 'i-11')] },
+        ],
+      },
+      {
+        id: 'demoux',
+        map: { mapId: 'roshar', placeId: 'purelake' },
+        note: 'Last seen at the Purelake, searching for someone.',
+        wob: true,
+        revealedIn: [
+          { all: [ch('way-of-kings', 'i-1'), ch('wind-and-truth', 'i-11')] },
+        ],
+      },
+      {
+        id: 'waxillium-ladrian',
+        map: { mapId: 'elendel-basin', at: [228, 233], placeId: 'weathering' },
+        note: 'A lawman in the Roughs, based in Weathering.',
+        revealedIn: [ch('alloy-of-law', '1')],
+      },
+      {
+        id: 'wayne',
+        map: { mapId: 'elendel-basin', at: [228, 233], placeId: 'weathering' },
+        note: "Wax's partner as a lawman in the Roughs.",
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        id: 'paalm',
+        map: { mapId: 'elendel-basin', at: [228, 233], placeId: 'weathering' },
+        note: "Lessie, Wax's partner in the Roughs.",
+        revealedIn: [ch('shadows-of-self', '26')],
+      },
+      {
+        id: 'steris-harms',
+        map: { mapId: 'elendel-basin', at: [276, 794], placeId: 'elendel' },
+        note: 'Living in Elendel, daughter of Lord Harms.',
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        id: 'sazed',
+        map: { mapId: 'elendel-basin', placeId: 'elendel-basin' },
+        note: 'Sazed as Harmony, the god of Scadrial, watching over the Basin.',
+        assumed: true,
+        revealedIn: ['alloy-of-law'],
+      },
+      {
+        // Before Era 2: the world he remade at the Catacendre, no Basin yet.
+        id: 'sazed',
+        map: { mapId: 'scadrial' },
+        note: 'As Harmony, watching over Scadrial from the Spiritual Realm.',
+        assumed: true,
+        revealedIn: [HOA],
+      },
+      {
+        id: 'raoden',
+        map: { mapId: 'elantris-and-kae', at: [546, 662], placeId: 'elantris' },
+        note: 'Last seen ruling Arelon from a restored Elantris at the end of Elantris; an Elantrian, so still living.',
+        assumed: true,
+        revealedIn: ['elantris'],
+      },
+      {
+        id: 'karata',
+        map: { mapId: 'elantris-and-kae', at: [600, 700], placeId: 'elantris' },
+        note: 'Last seen in a restored Elantris at the end of Elantris; an Elantrian, so still living.',
+        assumed: true,
+        revealedIn: ['elantris'],
+      },
+      {
+        id: 'ashe',
+        map: { mapId: 'elantris-and-kae', at: [546, 662], placeId: 'elantris' },
+        note: "Sarene's seon, last seen in Elantris at the end of Elantris; seons are long-lived.",
+        assumed: true,
+        revealedIn: ['elantris'],
+      },
+      {
+        id: 'susebron',
+        map: { mapId: 't-telir', at: [690, 358], placeId: 'court-of-gods' },
+        note: 'Last seen as God King in his palace in the Court of Gods at the end of Warbreaker; a Returned fed Breath, so he does not age.',
+        assumed: true,
+        revealedIn: ['warbreaker'],
+      },
+    ],
+    revealedIn: [ch(WOR, 'i-11')],
+    sources: [
+      'https://coppermind.net/wiki/Words_of_Radiance/Timeline',
+      'https://coppermind.net/wiki/Summary:Words_of_Radiance#Interlude_I-11',
+      'Whereabouts: Coppermind summaries of each book; immortals left where their book ends',
     ],
   },
 ]
@@ -690,7 +1211,7 @@ export interface ShownTimelineEvent {
   /** Index in the shown list. */
   index: number
   world: ShownTimelineWorld
-  map?: { mapId: string; at?: MapPoint; place?: string }
+  map?: { mapId: string; at?: MapPoint; place?: string; placeId?: string }
   title: string
   /** The card's short line. */
   summary: string
@@ -708,11 +1229,24 @@ export interface ShownTimelineEvent {
   group?: { id: string; label: string }
   effect?: TimelineEffect
   characters: { id: string; name: string }[]
+  whereabouts: ShownWhereabout[]
   more?: string
   /** Where it sits along the timeline bar, in steps from the first event. */
   offset: number
   /** Years since the Shattering, for picking a world's era map. */
   year: number
+}
+
+export interface ShownWhereabout {
+  id: string
+  world: ShownTimelineWorld
+  /** The most detailed map the reader has seen, and the pin if it's that. */
+  /** `place`, `placeId`: where it is, if the reader knows it. */
+  map?: { mapId: string; at?: MapPoint; place?: string; placeId?: string }
+  note: string
+  assumed?: boolean
+  wob?: boolean
+  momentary?: boolean
 }
 
 export interface ShownTimeline {
@@ -756,15 +1290,22 @@ export function revealTimeline(
   const last = <T extends { revealedIn: Reveal }>(list: readonly T[]) =>
     list.filter((x) => canSee(x.revealedIn)).at(-1)
   const worlds = new Map<string, ShownTimelineWorld>()
-  // A world's own map, not a city's inside it.
+  // A world's own map, not a city's inside it: the outermost the reader
+  // can see.
   const worldMap = (id: string) => {
-    let map = journeyAtlas.map(id)
-    while (map?.parent && map.parent.mapId !== COSMERE_MAP)
-      map = journeyAtlas.map(map.parent.mapId)
-    return map
+    let seen
+    for (
+      let map = journeyAtlas.map(id);
+      map && map.id !== COSMERE_MAP;
+      map = map.parent && journeyAtlas.map(map.parent.mapId)
+    )
+      if (canSee(map.revealedIn)) seen = map
+    return seen
   }
 
-  const worldOf = (e: TimelineEvent): ShownTimelineWorld | undefined => {
+  const worldOf = (
+    e: Pick<TimelineEvent, 'world' | 'worldRevealedIn' | 'map'>,
+  ): ShownTimelineWorld | undefined => {
     const id =
       e.worldRevealedIn && !canSee(e.worldRevealedIn) ? COSMERE : e.world
     const known = worlds.get(id)
@@ -874,7 +1415,10 @@ export function revealTimeline(
             ...(placed && at && map === own && { at }),
             ...(place &&
               placed &&
-              canSee(place.revealedIn) && { place: place.name }),
+              canSee(place.revealedIn) && {
+                place: place.name,
+                placeId: place.id,
+              }),
           },
         }),
       title: title.text,
@@ -891,6 +1435,40 @@ export function revealTimeline(
           const c = findCharacter(id)
           return c ? [{ id, name: c.name }] : []
         }),
+      whereabouts: (e.whereabouts ?? []).flatMap((w): ShownWhereabout[] => {
+        const planet = journeyMapPlanet(w.map.mapId)
+        if (!planet || !canSee(w.revealedIn) || !hasMet(w.id, canSee)) return []
+        const world = worldOf({ world: planet, map: w.map })
+        if (!world) return []
+        const own = journeyAtlas.map(w.map.mapId)
+        const map = own && (canSee(own.revealedIn) ? own : worldMap(own.id))
+        const place = w.map.placeId && journeyAtlas.place(w.map.placeId)
+        // Known only by its country: the middle of it.
+        const at =
+          w.map.at ?? (w.map.placeId && areaCentre(w.map.mapId, w.map.placeId))
+        return [
+          {
+            id: w.id,
+            world,
+            ...(map &&
+              canSee(map.revealedIn) && {
+                map: {
+                  mapId: map.id,
+                  ...(at && map === own && { at }),
+                  ...(place &&
+                    canSee(place.revealedIn) && {
+                      place: place.name,
+                      placeId: place.id,
+                    }),
+                },
+              }),
+            note: w.note,
+            ...(w.assumed && { assumed: true }),
+            ...(w.wob && { wob: true }),
+            ...(w.momentary && { momentary: true }),
+          },
+        ]
+      }),
       ...(e.more && canSee(e.more.revealedIn) && { more: e.more.href }),
       offset,
     })

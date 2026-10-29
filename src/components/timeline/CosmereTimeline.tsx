@@ -11,11 +11,22 @@ import {
 } from 'react'
 import { Link, useSearchParams } from 'react-router'
 import {
+  calendars,
   COSMERE,
+  formatYear,
   revealTimeline,
   type ShownTimelineEvent,
 } from '../../data/timeline'
+import {
+  bookTimeline,
+  layoutBooks,
+  type BookSpan,
+} from '../../data/bookTimeline'
+import { bookSeries } from '../../data/books'
+import { useBooksRead } from '../../state/booksRead'
 import { assetUrl } from '../../data/assetUrl'
+import { journeyAtlas, journeyMapsOn } from '../../data/journeyAtlas'
+import { weight } from '../../data/notable'
 import { characterPortraits } from '../../data/characterPortraits'
 import { CharacterTiles, type CharacterTile } from '../CharacterTiles'
 import { facePortraits } from '../../data/faces'
@@ -33,21 +44,37 @@ import { SourceMark } from '../SourceMark'
 import { FullscreenIcon } from '../FullscreenIcon'
 import { useFullscreen } from '../journey/useFullscreen'
 import { initials } from '../bookMap/markers'
-import type { ExplorerEffect, ExplorerGoal } from '../explorer/ExplorerCanvas'
+import type {
+  ExplorerEffect,
+  ExplorerGoal,
+  ExplorerPlace,
+} from '../explorer/ExplorerCanvas'
 import type { Level } from '../explorer/sky'
 import { hasWebGL, reducedMotion } from '../explorer/webgl'
 import {
   explorerPins,
+  cityOn,
+  insetMap,
   explorerWorlds,
+  pointOn,
   type ExplorerWorld,
 } from '../explorer/worlds'
+import { worldStateAt } from '../../data/worldStates'
+import { TitleStyleSwitcher } from './TitleStyleSwitcher'
+import { WorldCard, WorldTitle } from './WorldCard'
 import styles from './CosmereTimeline.module.css'
 
 // Three.js is big: it loads with this view, not with the guide.
 const ExplorerCanvas = lazy(() => import('../explorer/ExplorerCanvas'))
 
+/** Close in on a city on its world's map, where its own map takes over. */
+const CITY_CUT_H = 300
+
 /** Bar pixels per step of an event's offset; markers are narrower. */
 const STEP_PX = 76
+
+const bookTitle = (id: string) =>
+  bookSeries.flatMap((s) => s.books).find((b) => b.id === id)?.title ?? id
 
 /**
  * The Cosmere Timeline: the explorer (the painted sky of the Cosmere, its
@@ -57,31 +84,94 @@ const STEP_PX = 76
  * any time and look in on other worlds. Only what the reader's books have
  * shown is ever drawn.
  */
+/**
+ * The place someone's pin is at, on the map shown: the city map their pin
+ * is on, else the place named on the pin (with its own map, if any, to
+ * open). Inside a city's own map the map is the place, so none.
+ */
+function placeOf(
+  pin: { mapId: string; place?: string; placeId?: string } | undefined,
+  shown: string | undefined,
+  canSee: CanSee,
+): ExplorerPlace | undefined {
+  if (!pin || !shown) return undefined
+  if (pin.mapId === shown) {
+    if (cityOn(shown, canSee) || !pin.place) return undefined
+    const own = journeyMapsOn(shown).find(
+      (m) => m.parent?.placeId === pin.placeId && canSee(m.revealedIn),
+    )
+    return { name: pin.place, mapId: pin.placeId && own?.id }
+  }
+  for (
+    let m = journeyAtlas.map(pin.mapId);
+    m?.parent;
+    m = journeyAtlas.map(m.parent.mapId)
+  )
+    if (m.parent.mapId === shown)
+      return canSee(m.revealedIn) ? { name: m.title, mapId: m.id } : undefined
+  return undefined
+}
+
 export function CosmereTimeline() {
   const canSee = useCanSee()
   const timeline = useMemo(() => revealTimeline(canSee), [canSee])
+  // Only books the reader has read or started: no hint of the rest.
+  const { read, reading } = useBooksRead()
+  const books = useMemo(
+    () => bookTimeline.filter((b) => read.has(b.id) || reading.has(b.id)),
+    [read, reading],
+  )
   const { events } = timeline
   const [params, setParams] = useSearchParams()
   const found = events.findIndex((e) => e.id === params.get('event'))
   const current = found >= 0 ? found : 0
   const event = events[current]
-  const worlds = useMemo(
-    () => explorerWorlds(timeline, canSee, event),
-    [timeline, canSee, event],
-  )
   // A world the reader chose to look at (or the whole Cosmere), away from
   // the current event's, and a character they asked to see there.
   const [explore, setExploreTo] = useState<string>()
   const [person, setPerson] = useState<string>()
   const [cardOpen, setCardOpen] = useState(true)
+  // A city map the reader zoomed out of: its world shows the map above it.
+  const [up, setUp] = useState<{
+    world: string
+    mapId: string
+    /** The city map zoomed out of, to start from. */
+    from?: string
+    /** Zoomed into, not picked: the view is already there. */
+    zoomed?: boolean
+  }>()
   const people = useMemo(
     () => peopleAt(timeline, canSee, current),
     [timeline, canSee, current],
   )
+  const shown = people.find((p) => p.id === person && p.where)
+  // Someone in a city with its own map: their world unrolls into it.
+  const city = shown?.where?.map?.mapId
+  const cityWorld = city && cityOn(city, canSee) && shown.where?.world
+  const worlds = useMemo(
+    () =>
+      explorerWorlds(
+        timeline,
+        canSee,
+        event,
+        city && cityWorld ? { world: cityWorld, mapId: city } : up,
+      ),
+    [timeline, canSee, event, city, cityWorld, up],
+  )
   const setExplore = useCallback((world?: string) => {
     setExploreTo(world)
     setPerson(undefined)
+    setUp(undefined)
   }, [])
+  // Zooming out of a city map steps up to the map it sits on.
+  const zoomOut = (world: string) => {
+    const at = worlds.find((w) => w.id === world)?.mapId
+    const parent = at && cityOn(at, canSee)
+    if (!parent) return false
+    setExplore(world)
+    setUp({ world, mapId: parent.mapId, from: at })
+    return true
+  }
 
   const go = useCallback(
     (i: number) => {
@@ -112,6 +202,7 @@ export function CosmereTimeline() {
     <Timeline
       events={events}
       worlds={worlds}
+      books={books}
       // Only the current event's marker.
       pins={explorerPins({ ...timeline, events: [events[current]] }, worlds)}
       current={current}
@@ -119,10 +210,17 @@ export function CosmereTimeline() {
       setExplore={setExplore}
       people={people}
       shards={revealShards(timeline, canSee, current)}
-      person={people.find((p) => p.id === person && p.where)}
+      person={shown}
       showPerson={(p) => {
         setExploreTo(p.where?.world)
         setPerson(p.id)
+        setUp(undefined)
+      }}
+      up={up}
+      zoomOut={zoomOut}
+      openMap={(world, mapId, zoomed) => {
+        setExplore(world)
+        setUp({ world, mapId, zoomed })
       }}
       canSee={canSee}
       cardOpen={cardOpen}
@@ -138,16 +236,27 @@ function goalFor(
   explore: string | undefined,
   worlds: ExplorerWorld[],
   person?: PersonAt,
+  up?: { world: string; mapId: string; from?: string; zoomed?: boolean },
 ): ExplorerGoal {
   const where = person?.where
-  if (where && worlds.some((w) => w.id === where.world)) {
+  const there = worlds.find((w) => w.id === where?.world)
+  if (where && there) {
     const key = `person:${person.id}`
-    const map = worlds.find((w) => w.id === where.world)?.map
-    return where.at && map
-      ? { world: where.world, view: 'pin', pin: where.at, key }
+    const pin = pointOn(there.mapId, where.map)
+    return pin && there.map
+      ? { world: where.world, view: 'pin', pin, key }
       : { world: where.world, view: 'globe', key }
   }
   if (explore === COSMERE) return { key: 'cosmere' }
+  if (up && explore === up.world) {
+    const key = `up:${up.world}:${up.mapId}`
+    // Handing over between a city's map and the map it's on: out of the
+    // city from close in on it; into one from the whole of it.
+    const from = up.from && journeyAtlas.map(up.from)?.parent?.at
+    return from
+      ? { world: up.world, view: 'pin', pin: from, cut: CITY_CUT_H, key }
+      : { world: up.world, view: 'map', key, ...(up.zoomed && { cut: true }) }
+  }
   if (explore) return { world: explore, view: 'globe', key: `world:${explore}` }
   const world = worlds.find((w) => w.id === event.world.id)
   const key = `event:${event.id}`
@@ -177,6 +286,7 @@ function effectFor(
 function Timeline({
   events,
   worlds,
+  books,
   pins,
   current,
   explore,
@@ -185,6 +295,9 @@ function Timeline({
   shards,
   person,
   showPerson,
+  up,
+  zoomOut,
+  openMap,
   canSee,
   cardOpen,
   setCardOpen,
@@ -192,6 +305,8 @@ function Timeline({
 }: {
   events: ShownTimelineEvent[]
   worlds: ExplorerWorld[]
+  /** The reader's books, earliest in the Cosmere first. */
+  books: BookSpan[]
   pins: ReturnType<typeof explorerPins>
   current: number
   explore?: string
@@ -200,6 +315,11 @@ function Timeline({
   shards: ShownShard[]
   /** The character being shown on the map, if any. */
   person?: PersonAt
+  /** A map the reader zoomed out to, from a city on it. */
+  up?: { world: string; mapId: string; from?: string; zoomed?: boolean }
+  /** Steps a world up from its city map; false if it isn't on one. */
+  zoomOut: (world: string) => boolean
+  openMap: (world: string, mapId: string, zoomed?: boolean) => void
   showPerson: (p: PersonAt) => void
   canSee: CanSee
   cardOpen: boolean
@@ -207,6 +327,19 @@ function Timeline({
   go: (i: number) => void
 }) {
   const event = events[current]
+  // The maps someone's on now (and the maps those sit on): only their cities
+  // get a tag to open.
+  const occupied = new Set<string>()
+  for (const id of [
+    ...people.map((p) => p.where?.map?.mapId),
+    event?.map?.mapId,
+  ])
+    for (
+      let m = id && journeyAtlas.map(id);
+      m;
+      m = m.parent && journeyAtlas.map(m.parent.mapId)
+    )
+      occupied.add(m.id)
   const stage = useRef<HTMLDivElement>(null)
   const strip = useRef<HTMLDivElement>(null)
   const [webgl] = useState(hasWebGL)
@@ -226,6 +359,12 @@ function Timeline({
   // A world flown to from the Shards list: just the Shards, no event card.
   const [quietOn, setQuietOn] = useState<string>()
   const [view, setView] = useState<{ world: string; level: Level }>()
+  // The world card's dialog, open over its globe, and the box it frames
+  // the globe into; bumping zoomIn flies into the world's map.
+  const [onGlobe, setOnGlobe] = useState(false)
+  const [worldDialog, setWorldDialog] = useState(false)
+  const [dockEl, setDockEl] = useState<HTMLDivElement | null>(null)
+  const [zoomIn, setZoomIn] = useState(0)
   // Off on another world, the event card hides: just the world's name shows.
   const quiet =
     (!!quietOn && explore === quietOn) ||
@@ -238,9 +377,38 @@ function Timeline({
     setQuietOn(viaShard ? world : undefined)
     setDrawer(undefined)
   }
+  // The books view: the bar lists the reader's books instead of events, and
+  // picking one flies to its world (if the reader knows it; else the sky).
+  const [book, setBook] = useState<number>()
+  const shownBook = book === undefined ? undefined : books[book]
+  const bookLayout = useMemo(() => layoutBooks(books), [books])
+  const showBook = (i: number) => {
+    const to = Math.max(0, Math.min(books.length - 1, i))
+    const b = books[to]
+    if (!b) return
+    setBook(to)
+    setPanel(undefined)
+    pick(worlds.some((w) => w.id === b.world) ? b.world : COSMERE)
+  }
+  // Opens on the book nearest the current event.
+  const openBooks = () =>
+    showBook(
+      books.reduce(
+        (best, b, i) =>
+          Math.abs(b.start - event.year) <
+          Math.abs(books[best].start - event.year)
+            ? i
+            : best,
+        0,
+      ),
+    )
+  const closeBooks = () => {
+    setBook(undefined)
+    go(current)
+  }
   // Reset flies to the same goal again, under a fresh key.
   const [reset, setReset] = useState({ key: '', n: 0 })
-  const aimed = goalFor(event, explore, worlds, person)
+  const aimed = goalFor(event, explore, worlds, person, up)
   const goal =
     reset.key === aimed.key
       ? { ...aimed, key: `${aimed.key}#reset${reset.n}` }
@@ -248,6 +416,26 @@ function Timeline({
   const where = person?.where
   // The whereabouts label, until the reader clicks elsewhere on the map.
   const [whereShut, setWhereShut] = useState(false)
+  // A wrapped note leaves the label as wide as it may be, its lines short
+  // of the edge; shrink it to its longest line.
+  const whereEl = useRef<HTMLParagraphElement>(null)
+  useLayoutEffect(() => {
+    const el = whereEl.current
+    // jsdom has no layout.
+    if (!el || !document.createRange().getClientRects) return
+    el.style.width = ''
+    const text = el.lastElementChild!
+    const range = document.createRange()
+    const walk = document.createTreeWalker(text, NodeFilter.SHOW_TEXT)
+    let right = 0
+    while (walk.nextNode()) {
+      range.selectNodeContents(walk.currentNode)
+      for (const r of range.getClientRects()) right = Math.max(right, r.right)
+    }
+    const lines = text.getClientRects()[0]
+    if (right < lines.right - 1)
+      el.style.width = `${el.offsetWidth - (lines.right - right)}px`
+  })
   const seePerson = (p: PersonAt) => {
     setWhereShut(false)
     showPerson(p)
@@ -262,29 +450,35 @@ function Timeline({
   // Keep the current event's marker under the notch: straight there on
   // arrival, gliding as the reader steps. The strip's half-width spacers
   // put an event at the middle when scrolled to its offset, at any width.
-  const placed = useRef(false)
+  // Switching between events and books jumps: the track changes under a
+  // glide and cuts it short.
+  const placed = useRef<boolean>(undefined)
+  const drag = useRef<{ x: number; left: number; moved?: boolean }>(undefined)
   useLayoutEffect(() => {
     const el = strip.current
     if (!el) return
-    const left = event.offset * STEP_PX
-    const smooth = placed.current && !reducedMotion()
-    placed.current = true
+    const left =
+      book === undefined ? event.offset * STEP_PX : bookLayout.rows[book].x
+    const smooth = placed.current === (book !== undefined) && !reducedMotion()
+    placed.current = book !== undefined
     if (typeof el.scrollTo === 'function')
       el.scrollTo({ left, behavior: smooth ? 'smooth' : 'auto' })
     else el.scrollLeft = left
-  }, [event.offset])
+  }, [event.offset, book, bookLayout])
 
   const onKeyDown = (e: KeyboardEvent) => {
     if ((e.target as HTMLElement).closest('a, input')) return
+    const at = book ?? current
     const to = {
-      ArrowLeft: current - 1,
-      ArrowRight: current + 1,
+      ArrowLeft: at - 1,
+      ArrowRight: at + 1,
       Home: 0,
-      End: events.length - 1,
+      End: (shownBook ? books : events).length - 1,
     }[e.key]
     if (to !== undefined) {
       e.preventDefault()
-      go(to)
+      if (shownBook) showBook(to)
+      else go(to)
       // In full screen, Escape just leaves it.
     } else if (e.key === 'Escape' && panel) {
       e.preventDefault()
@@ -306,13 +500,61 @@ function Timeline({
     : view.level === 'sky'
       ? undefined
       : (worlds.find((w) => w.id === view.world) ?? event.world)
-  const span = events.at(-1)!.offset * STEP_PX
+  // The world card: its title over the globe (not the sky, nor its map).
+  const cardWorld =
+    onGlobe && shownWorld?.id !== COSMERE ? shownWorld : undefined
+  const cardMap = worlds.find((w) => w.id === cardWorld?.id)?.map
+  const worldOpen = !!cardWorld && worldDialog
+  const cardState =
+    cardWorld && worldStateAt(events, canSee, current, cardWorld.id)
+  if (worldDialog && !cardWorld) setWorldDialog(false)
+  // The cards over the scene would show through the dialog's globe window.
+  const underDialog = worldOpen ? { visibility: 'hidden' as const } : undefined
+  const span = shownBook ? bookLayout.width : events.at(-1)!.offset * STEP_PX
   const groups = [
     ...new Set(events.flatMap((e) => (e.group ? [e.group.id] : []))),
   ]
     .map((id) => events.filter((e) => e.group?.id === id))
     .filter((g) => g.length > 1)
-  const date = event.when
+  const shattering = calendars.shattering
+  const yearsShown = canSee(shattering.revealedIn)
+  const bookYears = (b: BookSpan) => {
+    const [from, to] = [b.start, b.end].map((year) =>
+      formatYear({ year, circa: b.circa }),
+    )
+    return from === to ? from : `${from}\u2013${to.replace('ca. ', '')}`
+  }
+  const date = !shownBook
+    ? event.when
+    : yearsShown
+      ? {
+          text: bookYears(shownBook),
+          label: shattering.label,
+          note: shattering.note,
+        }
+      : undefined
+  const bookWorld = shownBook && worlds.find((w) => w.id === shownBook.world)
+  // Whole years on the books' scale, spaced out and clear of the breaks'
+  // labels (both centred on their spot).
+  const bookTicks = useMemo(() => {
+    const first = books[0]?.start ?? 0
+    const last = Math.max(...books.map((b) => b.end))
+    const out: number[] = []
+    let prev = -Infinity
+    for (let y = Math.ceil(first); y <= last; y++) {
+      const at = bookLayout.x(y)
+      if (
+        at - prev >= 64 &&
+        !bookLayout.breaks.some(
+          (g) => (y > g.from && y < g.to) || Math.abs(at - g.x) < 76,
+        )
+      ) {
+        out.push(y)
+        prev = at
+      }
+    }
+    return out
+  }, [books, bookLayout])
   const fullscreenButton = (
     <button
       type="button"
@@ -336,6 +578,7 @@ function Timeline({
         styles.stage,
         fullscreen.active && styles.full,
         fullscreen.overlay && styles.overlay,
+        shownBook && styles.booksMode,
       ]
         .filter(Boolean)
         .join(' ')}
@@ -352,40 +595,84 @@ function Timeline({
         >
           <ExplorerCanvas
             worlds={worlds}
-            pins={pins}
+            pins={shownBook ? [] : pins}
             goal={goal}
             current={explore ? undefined : event.id}
             effect={effectFor(event, explore)}
             onExplore={(w) => {
+              if (!w && view && zoomOut(view.world)) return
               setExplore(w ?? COSMERE)
               setQuietOn(undefined)
             }}
             onPin={(id) => go(events.findIndex((e) => e.id === id))}
-            onBackground={() => setWhereShut(true)}
+            onBackground={() => {
+              setWhereShut(true)
+              setPanel(undefined)
+            }}
+            globeTitle={
+              cardWorld && (
+                <WorldTitle
+                  world={cardWorld}
+                  state={cardState}
+                  hidden={worldOpen}
+                  onOpen={() => {
+                    setPanel(undefined)
+                    setWorldDialog(true)
+                  }}
+                />
+              )
+            }
+            dock={worldOpen ? dockEl : null}
+            zoomIn={zoomIn}
             onView={setView}
-            shards={shards}
-            people={people.flatMap((p) =>
-              p.where
-                ? [
-                    {
-                      id: p.id,
-                      name: p.name,
-                      world: p.where.world,
-                      at: p.where.at,
-                      face: face(p.id),
-                      initials: initials(p.name),
-                    },
-                  ]
+            onGlobe={setOnGlobe}
+            // Main characters first.
+            people={[...people]
+              .sort((a, b) => weight(b.id, canSee) - weight(a.id, canSee))
+              .flatMap((p) => {
+                if (!p.where) return []
+                const map = worlds.find((w) => w.id === p.where?.world)?.mapId
+                const at = pointOn(map, p.where.map)
+                return [
+                  {
+                    id: p.id,
+                    name: p.name,
+                    world: p.where.world,
+                    at,
+                    // Placed, but on a map not drawn (another city's).
+                    elsewhere: !at && !!p.where.map,
+                    face: face(p.id),
+                    initials: initials(p.name),
+                    place: placeOf(p.where.map, map, canSee),
+                    note: p.where.note,
+                  },
+                ]
+              })}
+            onPlace={openMap}
+            cities={worlds.flatMap((w) =>
+              w.mapId
+                ? journeyMapsOn(w.mapId).flatMap((m) =>
+                    m.parent?.at &&
+                    !m.parent.whole &&
+                    canSee(m.revealedIn) &&
+                    occupied.has(m.id)
+                      ? [
+                          {
+                            world: w.id,
+                            mapId: m.id,
+                            title: m.title,
+                            at: m.parent.at,
+                            src: m.image.src,
+                            map: insetMap(m.id),
+                          },
+                        ]
+                      : [],
+                  )
                 : [],
             )}
             onPerson={(id) => {
               const p = people.find((o) => o.id === id)
               if (p) seePerson(p)
-            }}
-            onMorePeople={() => setPanel('people')}
-            onShard={(id) => {
-              setShardId(id)
-              setPanel('shard')
             }}
             onReset={() =>
               setReset((r) => ({
@@ -408,6 +695,27 @@ function Timeline({
       )}
 
       <nav className={styles.toolbar} aria-label="Worlds">
+        <div className={styles.modes} role="group" aria-label="Timeline">
+          <button
+            type="button"
+            className={styles.tool}
+            aria-pressed={!shownBook}
+            data-tooltip="Events across the Cosmere"
+            onClick={() => shownBook && closeBooks()}
+          >
+            Events
+          </button>
+          <button
+            type="button"
+            className={styles.tool}
+            aria-pressed={!!shownBook}
+            disabled={books.length === 0}
+            data-tooltip="Where your books fall in the Cosmere's history"
+            onClick={() => !shownBook && openBooks()}
+          >
+            Books
+          </button>
+        </div>
         <div className={styles.row}>
           <button
             type="button"
@@ -516,11 +824,15 @@ function Timeline({
             </svg>
           </button>
         </div>
-        {explore && (
+        {/* Kept, and faded, rather than popping in and out. */}
+        {!shownBook && (
           <button
             type="button"
             className={`${styles.tool} ${styles.back}`}
             data-tooltip="Fly back to the event on the timeline"
+            data-shown={explore || undefined}
+            aria-hidden={!explore || undefined}
+            tabIndex={explore ? undefined : -1}
             onClick={() => go(current)}
           >
             ↩ Back to the event
@@ -528,8 +840,49 @@ function Timeline({
         )}
       </nav>
 
+      {/* ponytail: temporary, to gather opinions on the way into the
+          world card (worldTitleStyle.ts); remove once a style is chosen. */}
+      <TitleStyleSwitcher hidden={!cardWorld || worldOpen} />
+      {worldOpen && (
+        <WorldCard
+          world={cardWorld}
+          state={cardState}
+          shards={shards.filter((sh) => sh.world === cardWorld.id)}
+          people={people
+            .filter((p) => p.where?.world === cardWorld.id)
+            .sort((a, b) => weight(b.id, canSee) - weight(a.id, canSee))}
+          face={face}
+          shown={person?.id}
+          onShard={(id) => {
+            setWorldDialog(false)
+            setShardId(id)
+            setPanel('shard')
+          }}
+          onPerson={(p) => {
+            setWorldDialog(false)
+            seePerson(p)
+          }}
+          onClose={() => setWorldDialog(false)}
+          dockRef={setDockEl}
+          credit={cardMap?.credit}
+          onZoom={
+            cardMap
+              ? () => {
+                  setWorldDialog(false)
+                  setZoomIn((n) => n + 1)
+                }
+              : undefined
+          }
+        />
+      )}
+
       {person && where && !whereShut && (
-        <p className={styles.whereabouts} aria-live="polite">
+        <p
+          ref={whereEl}
+          className={styles.whereabouts}
+          style={underDialog}
+          aria-live="polite"
+        >
           {face(person.id) ? (
             <img className={styles.face} src={face(person.id)} alt="" />
           ) : (
@@ -537,21 +890,64 @@ function Timeline({
               {initials(person.name)}
             </span>
           )}
-          <span>
-            {person.name} is {where.at ? 'here' : 'somewhere'} on{' '}
-            {where.worldName}
+          <span className={styles.whereText}>
+            <strong>{person.name}</strong> is{' '}
+            {pointOn(worlds.find((w) => w.id === where.world)?.mapId, where.map)
+              ? 'here'
+              : 'somewhere'}{' '}
+            on {where.worldName}
+            {where.note && (
+              <span className={`${styles.status} ${styles.note}`}>
+                {where.note}
+                {where.assumed && ' (assumed)'}
+                {where.wob && ' (Word of Brandon)'}
+              </span>
+            )}
             {where.event.index !== current && (
-              <span className={styles.status}>
-                {' '}
-                · last seen: {where.event.title}
+              <span className={`${styles.status} ${styles.seen}`}>
+                last seen: {where.event.title}
               </span>
             )}
           </span>
         </p>
       )}
 
-      {quiet ? null : cardOpen ? (
-        <section className={styles.card} aria-live="polite" aria-label="Event">
+      {shownBook ? (
+        <section
+          className={`${styles.card} ${styles.bookCard}`}
+          style={underDialog}
+          aria-live="polite"
+          aria-label="Book"
+        >
+          <img
+            className={styles.cover}
+            src={assetUrl(shownBook.cover)}
+            alt=""
+          />
+          <div>
+            <h2 className={styles.title}>
+              <Link to={`/books/${shownBook.id}`}>
+                {bookTitle(shownBook.id)}
+              </Link>
+            </h2>
+            {bookWorld && (
+              <p className={styles.blurb}>Set on {bookWorld.name}</p>
+            )}
+            <p className={styles.credit}>
+              Cover:{' '}
+              <a href={shownBook.coverSource} target="_blank" rel="noreferrer">
+                {shownBook.coverArtist}
+              </a>
+            </p>
+          </div>
+        </section>
+      ) : quiet ? null : cardOpen ? (
+        <section
+          className={styles.card}
+          style={underDialog}
+          aria-live="polite"
+          aria-label="Event"
+        >
           <button
             type="button"
             className={styles.close}
@@ -629,6 +1025,7 @@ function Timeline({
       {panel === 'people' && (
         <PeoplePanel
           people={people}
+          worlds={worlds}
           shown={person?.id}
           face={face}
           onShow={(p) => {
@@ -673,61 +1070,154 @@ function Timeline({
         <button
           type="button"
           className={styles.step}
-          aria-label="Previous event"
-          data-tooltip="Previous event (←)"
-          disabled={current === 0}
-          onClick={() => go(current - 1)}
+          aria-label={shownBook ? 'Previous book' : 'Previous event'}
+          data-tooltip={shownBook ? 'Previous book (←)' : 'Previous event (←)'}
+          disabled={(book ?? current) === 0}
+          onClick={() => (shownBook ? showBook(book! - 1) : go(current - 1))}
         >
           ‹
         </button>
-        <div className={styles.strip} ref={strip}>
-          <div className={styles.track} style={{ width: span }}>
-            {groups.map((g) => (
-              <span
-                key={g[0].group!.id}
-                className={styles.bracket}
-                style={{
-                  left: g[0].offset * STEP_PX - 30,
-                  width: (g.at(-1)!.offset - g[0].offset) * STEP_PX + 60,
-                }}
-                aria-hidden
-              >
-                {g[0].group!.label}
-              </span>
-            ))}
-            <ol className={styles.ticks} aria-label="Events, earliest first">
-              {events.map((e) => (
-                <li
-                  key={e.id}
-                  className={styles.tick}
-                  style={{ left: e.offset * STEP_PX }}
-                >
-                  <button
-                    type="button"
-                    className={styles.marker}
-                    aria-current={e.index === current}
-                    aria-label={`${e.title}${e.when ? `, ${e.when.text}` : ''}, on ${e.world.name}`}
-                    data-tooltip={`Go to: ${e.title}`}
-                    style={{ '--world': e.world.color } as CSSProperties}
-                    onClick={() => go(e.index)}
-                  >
-                    <span className={styles.diamond} aria-hidden />
-                    <span className={styles.date} aria-hidden>
-                      {e.when?.text ?? '?'}
+        <div
+          className={styles.strip}
+          ref={strip}
+          // Mouse drag scrolls it, like touch; a drag isn't a click.
+          onPointerDown={(e) => {
+            if (e.pointerType !== 'mouse' || e.button !== 0) return
+            drag.current = { x: e.clientX, left: strip.current!.scrollLeft }
+          }}
+          onPointerMove={(e) => {
+            const d = drag.current
+            if (!d || !(e.buttons & 1)) return
+            const dx = e.clientX - d.x
+            if (!d.moved && Math.abs(dx) < 5) return
+            if (!d.moved) strip.current!.setPointerCapture(e.pointerId)
+            d.moved = true
+            strip.current!.scrollLeft = d.left - dx
+          }}
+          onPointerUp={() => {
+            // Clear after the click this release fires, which it cancels.
+            setTimeout(() => (drag.current = undefined))
+          }}
+          onClickCapture={(e) => {
+            if (drag.current?.moved) e.stopPropagation()
+          }}
+        >
+          <div
+            className={`${styles.track} ${shownBook ? styles.bookTrack : ''}`}
+            style={{ width: span }}
+          >
+            {shownBook && (
+              <div className={styles.axis} aria-hidden>
+                {yearsShown &&
+                  bookTicks.map((y) => (
+                    <span
+                      key={y}
+                      className={styles.axisYear}
+                      style={{ left: bookLayout.x(y) }}
+                    >
+                      {formatYear({ year: y })}
                     </span>
-                  </button>
-                </li>
+                  ))}
+                {bookLayout.breaks.map((g) => (
+                  <span
+                    key={g.from}
+                    className={styles.gap}
+                    style={{ left: g.x }}
+                  >
+                    {yearsShown && `\u2248 ${years(Math.round(g.years))}`}
+                  </span>
+                ))}
+              </div>
+            )}
+            {shownBook && (
+              <ol className={styles.ticks} aria-label="Books, earliest first">
+                {bookLayout.rows.map((r, i) => (
+                  <li
+                    key={r.book.id}
+                    className={[
+                      styles.span,
+                      r.side && styles.side,
+                      r.point && styles.point,
+                    ]
+                      .filter(Boolean)
+                      .join(' ')}
+                    style={
+                      {
+                        left: r.x,
+                        '--w': `${r.w}px`,
+                        '--world':
+                          worlds.find((w) => w.id === r.book.world)?.color ??
+                          'var(--gold)',
+                      } as CSSProperties
+                    }
+                  >
+                    <button
+                      type="button"
+                      className={styles.book}
+                      aria-current={i === book}
+                      aria-label={`${bookTitle(r.book.id)}${yearsShown ? `, ${bookYears(r.book)}` : ''}`}
+                      data-tooltip={bookTitle(r.book.id)}
+                      onClick={() => showBook(i)}
+                    >
+                      <img src={assetUrl(r.book.cover)} alt="" />
+                    </button>
+                  </li>
+                ))}
+              </ol>
+            )}
+            {!shownBook &&
+              groups.map((g) => (
+                <span
+                  key={g[0].group!.id}
+                  className={styles.bracket}
+                  style={{
+                    left: g[0].offset * STEP_PX - 30,
+                    width: (g.at(-1)!.offset - g[0].offset) * STEP_PX + 60,
+                  }}
+                  aria-hidden
+                >
+                  {g[0].group!.label}
+                </span>
               ))}
-            </ol>
+            {!shownBook && (
+              <ol className={styles.ticks} aria-label="Events, earliest first">
+                {events.map((e) => (
+                  <li
+                    key={e.id}
+                    className={styles.tick}
+                    style={{ left: e.offset * STEP_PX }}
+                  >
+                    <button
+                      type="button"
+                      className={styles.marker}
+                      aria-current={e.index === current}
+                      aria-label={`${e.title}${e.when ? `, ${e.when.text}` : ''}, on ${e.world.name}`}
+                      data-tooltip={`Go to: ${e.title}`}
+                      style={{ '--world': e.world.color } as CSSProperties}
+                      onClick={() => go(e.index)}
+                    >
+                      <span className={styles.diamond} aria-hidden />
+                      <span className={styles.date} aria-hidden>
+                        {e.when?.text ?? '?'}
+                      </span>
+                    </button>
+                  </li>
+                ))}
+              </ol>
+            )}
           </div>
         </div>
         <button
           type="button"
           className={styles.step}
-          aria-label="Next event"
-          data-tooltip="Next event (→)"
-          disabled={current === events.length - 1}
-          onClick={() => go(current + 1)}
+          aria-label={shownBook ? 'Next book' : 'Next event'}
+          data-tooltip={shownBook ? 'Next book (→)' : 'Next event (→)'}
+          disabled={
+            shownBook
+              ? book === books.length - 1
+              : current === events.length - 1
+          }
+          onClick={() => (shownBook ? showBook(book! + 1) : go(current + 1))}
         >
           ›
         </button>
@@ -758,6 +1248,7 @@ function diedText(y: YearsApart) {
  */
 function PeoplePanel({
   people,
+  worlds,
   shown,
   face,
   onShow,
@@ -765,6 +1256,7 @@ function PeoplePanel({
   onClose,
 }: {
   people: PersonAt[]
+  worlds: ExplorerWorld[]
   shown?: string
   face: (id: string) => string | undefined
   onShow: (p: PersonAt) => void
@@ -775,9 +1267,77 @@ function PeoplePanel({
   const q = query.trim().toLowerCase()
   const found = q
     ? people.filter((p) =>
-        [p.name, ...p.aliases].some((n) => n.toLowerCase().includes(q)),
+        [p.name, ...p.aliases, ...p.personas].some((n) =>
+          n.toLowerCase().includes(q),
+        ),
       )
     : people
+  const alive = found.filter((p) => p.where)
+  const byWorld = new Map<string, PersonAt[]>()
+  for (const p of alive)
+    byWorld.set(p.where!.worldName, [
+      ...(byWorld.get(p.where!.worldName) ?? []),
+      p,
+    ])
+  const colour = (id: string) => worlds.find((w) => w.id === id)?.color
+  const lost = found.filter((p) => !p.where && !p.unborn && !p.died)
+  const others = found.filter((p) => !p.where && (p.unborn || p.died))
+  const row = (p: PersonAt) => {
+    const src = face(p.id)
+    const who = (
+      <>
+        {src ? (
+          <img className={styles.face} src={src} alt="" />
+        ) : (
+          <span className={styles.face} aria-hidden="true">
+            {initials(p.name)}
+          </span>
+        )}
+        <span className={styles.who}>
+          {p.name}
+          {p.personas.length > 0 && (
+            <>
+              {' '}
+              <span className={styles.aka}>({p.personas.join(', ')})</span>
+            </>
+          )}
+          {p.unborn && (
+            <span className={styles.status}>{unbornText(p.unborn)}</span>
+          )}
+          {p.died && <span className={styles.status}>{diedText(p.died)}</span>}
+        </span>
+      </>
+    )
+    // A presumed death has no event of its own to jump to.
+    const jump = p.unborn ?? (p.died?.assumed ? undefined : p.died)
+    return (
+      <li key={p.id}>
+        {p.where ? (
+          <button
+            type="button"
+            className={styles.person}
+            aria-pressed={shown === p.id}
+            data-tooltip={`Show ${p.name} on the map`}
+            onClick={() => onShow(p)}
+          >
+            {who}
+          </button>
+        ) : (
+          <span className={styles.person}>{who}</span>
+        )}
+        {jump && (
+          <button
+            type="button"
+            className={styles.jump}
+            data-tooltip="Move the timeline there"
+            onClick={() => go(jump.event)}
+          >
+            {p.unborn ? 'Jump to their birth' : 'Jump to their death'}
+          </button>
+        )}
+      </li>
+    )
+  }
   return (
     <aside
       id="timeline-people"
@@ -802,62 +1362,51 @@ function PeoplePanel({
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <ul className={styles.cast}>
-        {found.map((p) => {
-          const src = face(p.id)
-          const who = (
-            <>
-              {src ? (
-                <img className={styles.face} src={src} alt="" />
-              ) : (
-                <span className={styles.face} aria-hidden="true">
-                  {initials(p.name)}
-                </span>
-              )}
-              <span>
-                {p.name}
-                {p.where && (
-                  <span className={styles.status}>On {p.where.worldName}</span>
-                )}
-                {p.unborn && (
-                  <span className={styles.status}>{unbornText(p.unborn)}</span>
-                )}
-                {p.died && (
-                  <span className={styles.status}>{diedText(p.died)}</span>
-                )}
-              </span>
-            </>
-          )
-          const jump = p.unborn ?? p.died
-          return (
-            <li key={p.id}>
-              {p.where ? (
-                <button
-                  type="button"
-                  className={styles.person}
-                  aria-pressed={shown === p.id}
-                  data-tooltip={`Show ${p.name} on the map`}
-                  onClick={() => onShow(p)}
-                >
-                  {who}
-                </button>
-              ) : (
-                <span className={styles.person}>{who}</span>
-              )}
-              {jump && (
-                <button
-                  type="button"
-                  className={styles.more}
-                  data-tooltip="Move the timeline there"
-                  onClick={() => go(jump.event)}
-                >
-                  {p.unborn ? 'Jump to their birth' : 'Jump to their death'}
-                </button>
-              )}
-            </li>
-          )
-        })}
-      </ul>
+      {alive.length + lost.length > 0 && (
+        <details className={styles.group} open>
+          <summary>
+            <h3>Known alive</h3>
+            <span className={styles.tally}>{alive.length + lost.length}</span>
+          </summary>
+          {[...byWorld].map(([world, here]) => (
+            <details key={world} className={styles.subgroup} open>
+              <summary>
+                <h4>
+                  <span
+                    className={styles.dot}
+                    style={{ background: colour(here[0].where!.world) }}
+                    aria-hidden="true"
+                  />
+                  On {world}
+                </h4>
+                <span className={styles.tally}>{here.length}</span>
+              </summary>
+              <ul className={styles.cast}>{here.map(row)}</ul>
+            </details>
+          ))}
+          {lost.length > 0 && (
+            <details className={styles.subgroup} open>
+              <summary>
+                <h4>
+                  <span className={styles.dot} aria-hidden="true" />
+                  Location unknown
+                </h4>
+                <span className={styles.tally}>{lost.length}</span>
+              </summary>
+              <ul className={styles.cast}>{lost.map(row)}</ul>
+            </details>
+          )}
+        </details>
+      )}
+      {others.length > 0 && (
+        <details className={styles.group} open>
+          <summary>
+            <h3>Everyone else</h3>
+            <span className={styles.tally}>{others.length}</span>
+          </summary>
+          <ul className={styles.cast}>{others.map(row)}</ul>
+        </details>
+      )}
       {found.length === 0 && (
         <p className={styles.blurb}>No one you've met by that name.</p>
       )}
@@ -982,6 +1531,9 @@ function ShardPanel({
         <>
           <h3 className={styles.section}>Vessel</h3>
           <CharacterTiles characters={[vessel]} />
+          {shard.vesselWob && (
+            <small className={styles.artCredit}>Word of Brandon</small>
+          )}
         </>
       )}
     </aside>

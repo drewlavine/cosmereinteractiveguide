@@ -649,7 +649,7 @@ Personal arcs and battles belong on character and journey pages.
           phone layout
     - [x] Hover tooltips on every button; markers show curated face crops
     - [x] Map-wide zoom feel (after the 17th Shard's Roshar map): zoom out
-          only until the map fills the frame, no panning off the edges,
+          only until the map fills the frame, panning until an edge reaches mid-screen,
           eased wheel zoom and flung pans
     - [x] Only cosmere-maps' notable characters stay on the map all book;
           side characters show only in their own chapters, with a hover
@@ -834,7 +834,22 @@ and Ars Arcanums, so their dating needs extra care.
       jumps, their place on the map) down the left
 - [ ] Events in in-world order, each with a scope (Cosmere or a world), an
       in-world time, plain text and `revealedIn`
-- [ ] Books placed on the timeline where their stories happen
+- [x] Books placed on the timeline where their stories happen
+- [x] Uncharted edges: past each world's map the globe dims to slate with a
+      gold grid, drifting haze (still for reduced motion) and a dashed
+      edge line, shared by the globe and flat map; The Lost Metal's map
+      coast recedes raggedly instead of ending at its frame
+- [x] City maps you can find and zoom into smoothly:
+  - each visible city is tagged on its map once zoomed in;
+  - its map is drawn in place and the zoom carries straight into it and
+    back out, with no cut;
+  - its flags wait until all of the city is in view;
+  - a city in a city (Basin to Elendel) works the same way.
+- [x] World card: the world's name above its globe opens a large dialog
+      (state of the world, its Shards, notable characters there) with the
+      globe docked at the side; replaces the Shards and characters arced
+      around the globe
+- [ ] Pick the world card's entry style (switcher live for feedback)
 - [ ] Filter by world; jump to "now" for the reader's current book
 - [ ] A page per event, linked from character, location and book pages
 

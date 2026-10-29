@@ -46,6 +46,7 @@ describe('Cosmere Timeline reveal', () => {
     expect(placed?.map).toEqual({
       mapId: 'roshar',
       at: [1868, 853],
+      placeId: 'alethkar',
       place: 'Alethkar',
     })
     expect(placed?.blurb).toMatch(/the Blackthorn/)
@@ -131,7 +132,11 @@ describe('Cosmere Timeline reveal', () => {
   it('reveals each Shard settling only once its home is named', () => {
     const lecture = at(ERA1, { 'secret-history': '3-2' })
     // Era 1 shows Scadrial's Shards; Roshar, Sel, Nalthis and Taldain wait.
-    expect(ids(lecture)).toEqual(['shattering', 'ruin-preservation-scadrial'])
+    expect(ids(lecture)).toEqual([
+      'shattering',
+      'ruin-preservation-scadrial',
+      'catacendre',
+    ])
     expect(event(lecture, 'ruin-preservation-scadrial')?.date).toMatchObject({
       text: 'ca. \u22129601',
       label: 'FE',
@@ -226,7 +231,7 @@ describe('Cosmere Timeline reveal', () => {
         (p) => p.id === 'gavilar-kholin',
       )
     }
-    expect(shown(timelineEvents)?.died).toMatchObject({ years: 0 })
+    expect(shown(timelineEvents)?.died).toMatchObject({ years: 6 })
     // The same timeline with his death not yet revealed: alive, as far as
     // the reader knows, and nothing said of it.
     const later = timelineEvents.map((e) =>
@@ -237,6 +242,170 @@ describe('Cosmere Timeline reveal', () => {
     const gavilar = shown(later)
     expect(gavilar?.name).toBe('Gavilar Kholin')
     expect(gavilar?.died).toBeUndefined()
+  })
+
+  it("places people by an event's whereabouts, once the reader may know", () => {
+    const canSee = readerCanSee({
+      read: new Set(BEFORE_WAT),
+      reading: new Map(),
+    })
+    const snapshot = timelineEvents.map((e) =>
+      e.id === 'gavilar-assassinated'
+        ? {
+            ...e,
+            whereabouts: [
+              {
+                id: 'raoden',
+                map: { mapId: 'elantris-and-kae', at: [500, 600] as const },
+                note: 'In Elantris.',
+                assumed: true,
+                revealedIn: ['elantris'],
+              },
+              {
+                id: 'kaladin',
+                map: { mapId: 'warcamps', at: [1, 2] as const },
+                note: 'Not yet known.',
+                revealedIn: ['wind-and-truth'],
+              },
+            ],
+          }
+        : e,
+    )
+    const t = revealTimeline(canSee, snapshot)
+    const now = t.events.findIndex((e) => e.id === 'gavilar-assassinated')
+    const people = peopleAt(t, canSee, now)
+    expect(people.find((p) => p.id === 'raoden')?.where).toMatchObject({
+      world: 'sel',
+      map: { mapId: 'elantris-and-kae', at: [500, 600] },
+      note: 'In Elantris.',
+      assumed: true,
+    })
+    // An unread reveal: still where the reader last saw him.
+    const kaladin = people.find((p) => p.id === 'kaladin')?.where
+    expect(kaladin?.event.id).toBe('kaladin-born')
+    expect(kaladin?.note).toBeUndefined()
+  })
+
+  describe('people off the events', () => {
+    const person = (
+      read: string[],
+      reading: Record<string, string>,
+      eventId: string,
+      id: string,
+    ) => {
+      const canSee = readerCanSee({
+        read: new Set(read),
+        reading: new Map(Object.entries(reading)),
+      })
+      const t = revealTimeline(canSee)
+      const now = t.events.findIndex((e) => e.id === eventId)
+      return peopleAt(t, canSee, now).find((p) => p.id === id)
+    }
+    const WOK = ['way-of-kings']
+    const LAST = 'eshonai-takes-control'
+
+    it("tells of Vin's and Elend's deaths only from the chapters that tell them", () => {
+      const early = ['final-empire', 'well-of-ascension', ...WOK]
+      const reading = { 'hero-of-ages': '80' }
+      const vin = person(early, reading, 'gavilar-assassinated', 'vin')
+      expect(vin?.name).toBe('Vin')
+      expect(vin?.died).toBeUndefined()
+      expect(
+        person(early, reading, 'gavilar-assassinated', 'elend-venture')?.died,
+      ).toBeUndefined()
+      expect(person(ERA1, {}, 'catacendre', 'vin')?.died).toMatchObject({
+        years: 0,
+      })
+      expect(
+        person([...ERA1, ...WOK], {}, 'gavilar-assassinated', 'elend-venture')
+          ?.died,
+      ).toMatchObject({ years: 332, circa: true })
+    })
+
+    it('has Kelsier dead, until Secret History shows him a Cognitive Shadow', () => {
+      expect(person(ERA1, {}, 'catacendre', 'kelsier')?.died).toMatchObject({
+        years: 3,
+      })
+      const shadow = person(
+        [...ERA1, 'secret-history'],
+        {},
+        'catacendre',
+        'kelsier',
+      )
+      expect(shadow?.died).toBeUndefined()
+      expect(shadow?.where?.world).toBe('scadrial')
+    })
+
+    it("doesn't carry a mortal seen at the Catacendre forward as alive", () => {
+      const read = [...ERA1, ...WOK, 'words-of-radiance']
+      expect(person(read, {}, 'catacendre', 'marsh')?.where).toMatchObject({
+        map: { placeId: 'pits-of-hathsin' },
+      })
+      const later = person(read, {}, LAST, 'marsh')
+      expect(later?.where ?? later?.died).toBeUndefined()
+      // Ironeyes, known as Marsh from The Lost Metal 27.
+      expect(
+        person(read, { 'lost-metal': '27' }, LAST, 'marsh')?.where,
+      ).toMatchObject({ world: 'scadrial', assumed: true })
+    })
+
+    it('knows a birth year only from the chapter that gives it', () => {
+      expect(
+        person([], { 'way-of-kings': '30' }, 'dalinar-born', 'jasnah-kholin')
+          ?.unborn,
+      ).toBeUndefined()
+      expect(
+        person(WOK, {}, 'dalinar-born', 'jasnah-kholin')?.unborn,
+      ).toMatchObject({ years: 19, circa: true })
+      // Nobody on Roshar is born yet at the Catacendre.
+      expect(
+        person([...ERA1, ...WOK], {}, 'catacendre', 'moash')?.unborn,
+      ).toBeDefined()
+    })
+
+    it('presumes Spook dead centuries on, but not Marsh, TenSoon or Sazed', () => {
+      const drew = [...BEFORE_WAT]
+      const reading = { 'wind-and-truth': '17' }
+      expect(person(drew, reading, 'catacendre', 'spook')?.died).toBeUndefined()
+      expect(person(drew, reading, LAST, 'spook')?.died).toMatchObject({
+        assumed: true,
+      })
+      // An Inquisitor: no presuming; still unknown before The Lost Metal.
+      const marsh = person(drew, reading, LAST, 'marsh')
+      expect(marsh?.died ?? marsh?.where).toBeUndefined()
+      // A kandra: still where he was last seen.
+      expect(person(drew, reading, LAST, 'tensoon')?.where?.event.id).toBe(
+        'catacendre',
+      )
+      expect(person(drew, reading, LAST, 'sazed')?.where).toMatchObject({
+        world: 'scadrial',
+        note: 'As Harmony, watching over Scadrial from the Spiritual Realm.',
+      })
+    })
+
+    it('lists Demoux only once Wind and Truth names him on Roshar', () => {
+      const drew = [...BEFORE_WAT]
+      const at = (ch: string) =>
+        person(drew, { 'wind-and-truth': ch }, LAST, 'demoux')
+      expect(at('17')).toBeUndefined()
+      expect(person(ERA1, {}, 'catacendre', 'demoux')).toBeUndefined()
+      expect(at('i-11')?.where?.world).toBe('roshar')
+    })
+
+    it("puts Navani at Gavilar's feast only from Rhythm of War's prologue", () => {
+      const read = [...WOK, 'words-of-radiance', 'oathbringer']
+      expect(
+        person(read, {}, 'gavilar-assassinated', 'navani-kholin')?.where,
+      ).toBeUndefined()
+      expect(
+        person(
+          read,
+          { 'rhythm-of-war': 'prologue' },
+          'gavilar-assassinated',
+          'navani-kholin',
+        )?.where,
+      ).toMatchObject({ map: { placeId: 'kholinar' } })
+    })
   })
 
   it("shows each Shard's latest entry the reader can see by now", () => {
@@ -320,5 +489,26 @@ describe('Cosmere Timeline reveal', () => {
     expect(ambition([...BEFORE_WAT, 'wind-and-truth'])?.vessel).toBe(
       'Uli Da (dead)',
     )
+  })
+
+  it('makes Sazed the Vessel of Preservation and Ruin from the Catacendre', () => {
+    const canSee = readerCanSee({
+      read: new Set([...ERA1, 'secret-history']),
+      reading: new Map(),
+    })
+    const t = revealTimeline(canSee)
+    const ruin = (event: string) =>
+      revealShards(
+        t,
+        canSee,
+        t.events.findIndex((e) => e.id === event),
+      ).find((s) => s.id === 'ruin')
+    expect(ruin('ruin-preservation-scadrial')?.status).toBe(
+      'Settled on Scadrial, with Preservation',
+    )
+    expect(ruin('catacendre')).toMatchObject({
+      status: 'Joined with Preservation as Harmony',
+      vessel: 'Sazed',
+    })
   })
 })

@@ -164,9 +164,11 @@ export interface AtlasMap {
   overview?: boolean
   /**
    * Where the map sits on a bigger one (a region on its continent, a world on
-   * the star map), for drilling down. Top maps have none.
+   * the star map), for drilling down. Top maps have none. `whole`: a map of
+   * all of that map's land (another era's), not a place on it, so it's never
+   * drawn inside it or zoomed into from it.
    */
-  parent?: { mapId: string; placeId?: string; at?: MapPoint }
+  parent?: { mapId: string; placeId?: string; at?: MapPoint; whole?: boolean }
 }
 
 /** A place an event can name. */

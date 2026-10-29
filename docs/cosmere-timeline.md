@@ -67,15 +67,8 @@ that came before it (Cards and Spine) are removed.
     Roshar"), then "Location unknown" (art and name). Clicking one opens
     its details panel and moves the camera to its world, or out to the
     whole Cosmere if it has none (the timeline point, `?event=`, stays);
-    flying to a world hides the event card until the reader moves on. Up
-    close (never in the sky), Shards and the first six notable characters there arc
-    around the top of their world's globe,
-    both turned outward: Shards to its left, characters to its right as
-    pins (a round portrait tapering to a point at the world). Each group
-    sits under a curved label over a gold line, level with the other
-    (`arc()` in `ExplorerCanvas`). They're drawn at globe size and scale
-    with the globe, so zooming in carries them off with its curve. Shards
-    are Cam Kuta's stained-glass art (`public/shards/`), greyed out when an entry is
+    flying to a world hides the event card until the reader moves on.
+    Shards are Cam Kuta's stained-glass art (`public/shards/`), greyed out when an entry is
     `faded` (Splintered, Shattered, dead). Hovering one names it; clicking
     it opens a right panel: the art, **Status**, and **Vessel** (an entry's
     `vessel: {name, id, revealedIn}`, shown only once revealed) as a
@@ -87,8 +80,54 @@ that came before it (Cards and Spine) are removed.
     Ambition's death shows with its wounding (when it died is unknown).
     Shards with no known home (Invention, Whimsy, Mercy, Valor,
     Virtuosity) enter at the Shattering with world `COSMERE`: listed in
-    the panel under "Location unknown", never floated over any globe. Harmony isn't
+    the panel under "Location unknown", never on a world card. Harmony isn't
     modelled: a Shard can't yet combine others.
+  - **World card** (`src/components/timeline/WorldCard.tsx`). At a
+    world's globe view (`onGlobe` from `ExplorerCanvas`: the planet in,
+    the map rolled up), the world's name sits centred just above the globe
+    in the gold serif, with a small "Details ›" pill (a self-contained
+    `.more` element, so another treatment can drop in). Clicking it opens
+    a large dialog over the explorer: **State** (`src/data/worldStates.ts`),
+    **Shards** (the world's Shards at this point, as in the Shards panel)
+    and **Notable characters** (those on the world now, main characters
+    first). The live globe docks smaller at the dialog's right (on phones,
+    on top): `Cam.dock` frames the camera with a view offset
+    (`setViewOffset`), weighted by the globe view, so the camera's
+    position and `limit()` are untouched and the globe still drags.
+    Clicking the planet closes the dialog and zooms into the world's map,
+    like clicking the globe; Esc, × and the backdrop close it and return
+    focus to the title. Leaving the globe view closes it. The card replaces
+    the Shards and characters that used to arc around the globe.
+  - **Entry style switcher (temporary).** While a style for the way into
+    the card is chosen, a small "Try a style" switcher sits over the globe
+    view (bottom right; top left on phones; put away while the dialog is
+    open) so visitors can compare them. `?title=<id>` picks one (for
+    sharing a link), else the last pick (localStorage
+    `cosmere-guide:world-title-style`), else `state`. In the title:
+    `current` ("Details ›" pill), `name` (the name is the button, with an
+    underline and chevron), `line` ("State of the world ›" under the
+    name), `icon` (a round ⓘ button), `chip` (planet icon + "Overview"),
+    `hover` ("See the state of …" on hover or focus, always on touch).
+    Elsewhere, the title is just the name: `state` (a glass chip with the
+    world's state and its "Since …" line, left of the globe, under the
+    toolbar when there's no room, under the name on phones) and `moon` (a
+    node on a gold orbit around the globe, mirrored to ten o'clock when
+    two o'clock would hit the zoom buttons or map credit). With no state
+    to show, `state` falls back to `name`. The code is marked `ponytail:`
+    (`worldTitleStyle.ts`, `TitleStyleSwitcher`, `TitlePlacement`); once a
+    style is picked, keep it and remove the rest.
+  - **World states** (`src/data/worldStates.ts`, hand-maintained): each is
+    `{world, from: event id, label, text, revealedIn}`, one factual
+    sentence. A state starts at an event on its own world and is dated no
+    earlier than that event (usually the same `revealedIn`, later if its
+    words need a later chapter, e.g. "Vengeance Pact" from The Way of
+    Kings ch 18). The card shows the latest one the reader can see at or
+    before the point, then "Since Gavilar's assassination · 6 years ago"
+    (the state's `since` noun phrase, then the years since its event:
+    "this year" in the same year, none when the calendars differ; no line
+    without a phrase, since bare years say nothing). Worlds with no state
+    yet get no State section. Periods with no timeline events (all of Era 2
+    so far) get states once they have events.
   - **Character tiles** (`src/components/CharacterTiles.tsx`), after the
     17th Shard's related characters: round art in a gold ring (the latest portrait
     the reader may see, top-aligned; initials otherwise), name below,
@@ -103,14 +142,55 @@ that came before it (Cards and Spine) are removed.
     years", with "Jump to their birth"), dead ("Died this year" / "Died N
     years ago", with "Jump to their death"), or on a world (the last
     visible event naming them). Years are counted only when both dates are
-    visible and in one calendar. Births and deaths are timeline event ids,
-    so an unreached one is simply unknown. On a world's map every located
-    character shows as a face pin, and those on it without a known spot
-    are listed in an "On Roshar, location unknown" box. Clicking a located
-    character flies to their pin, drawn as their face (`facePortraits` +
+    visible: exactly in one calendar, otherwise "about" N on the timeline's
+    own scale (Vin's death from a Rosharan event). Births and deaths are timeline event ids,
+    so an unreached one is simply unknown, or a `LifeDate` (a year on the
+    timeline's scale with its own `revealedIn`) for one with no event: an
+    inexact birth gives the earliest it can be (e.g. no Rosharan before
+    1050), an inexact death the latest, and the jump goes to the first
+    event at or after it. Whereabouts after a death outrank it (Kelsier as
+    a Cognitive Shadow). A `momentary` whereabout holds only at its own
+    event, for mortals whose later fate the reader can't know yet (Marsh
+    and Spook at the Catacendre). Clicking a located character
+    flies to their pin, drawn as their face (`facePortraits` +
     `revealPortrait`), or, without a map or point, to the planet, with a
     "Kaladin is somewhere on Roshar" label at the top. With no data
     (e.g. Mistborn's characters for now) a row shows only the name.
+  - **Place flags** (`flags.ts`, placed in `ExplorerCanvas`'s
+    `place()`): on a world's map, everyone located shows under **one flag
+    per place** (the city map their pin is on, else the place named on the
+    pin), not as loose faces. A flag is a ground dot where the place is, a
+    stem, and a 34px chip (30px on phones) with up to three overlapping
+    faces (the most notable first, whoever the reader asked to see first
+    of all), a gold count from 2 people, the place's name in the display
+    font and, if the place has its own map the reader may see, a separate
+    map button that opens it. Only people already trimmed to what the
+    reader may see are grouped, so a count never includes anyone hidden
+    and a place whose people are all hidden has no flag.
+    - **Placement:** greedy, the event's place first, then by count: the
+      first of 8 spots around the place (N, NE, E … NW), at a 14px, then
+      40px, then 70px gap, clear of the controls
+      over the map, the names painted on the map (`paintedNames.json`,
+      keep-out boxes only), other flags and their dots. Failing that, a
+      compact flag (one face and the count); failing that, the place
+      folds into the nearest flag ("+1 place"), its stem leading there.
+      A flag keeps last frame's spot while it still fits. Flags are DOM,
+      measured once; each frame only moves them.
+    - **Edge flags:** a place off screen gets a dashed flag at the edge,
+      with an arrow toward it (up to 4, most crowded first); clicking it
+      pans there.
+    - **Roster:** clicking a flag opens who's there (a popover beside it;
+      a bottom sheet on phones), each face going to that person as from
+      the Notable characters panel, with "Open the map of …" when there's
+      one. Esc, a second click or a click on the map closes it.
+    - **The event's place** gets a pulsing ring on the ground (still
+      under reduced motion) and a gold-bordered flag.
+    - **Location unknown:** those on the world without a known spot are a
+      small dashed chip under the controls ("4 location unknown"), opening
+      the same roster.
+    - **On a city's map** people show as faces at their spots, fanned out
+      around a spot shared by 2–5 (with leader lines back to it); 6 or
+      more at one spot get a flag.
 - **Full screen.** The top button on the right
   takes the stage full screen with the Fullscreen API, or as a fixed
   overlay where there's none (iPhone Safari). Esc leaves full screen first,
@@ -136,12 +216,50 @@ that came before it (Cards and Spine) are removed.
     two-finger scroll pans, and a pinch (or ctrl-wheel) zooms;
   - zoom out (wheel, pinch, the − button or Esc) from a world to the whole
     Cosmere;
+  - **City maps.** A city with its own map (Kholinar, the Warcamps, the
+    Elendel Basin, Elendel inside it) is marked on the map it's on, once
+    the reader may see it and only while someone is on it (a person's
+    whereabouts or the current event, counting the maps those sit on).
+    The mark is a glass tag with a map glyph and
+    the city's name, plus a dashed gold footprint.
+    - Tags show only zoomed in from a world's whole map (`TAGS_H` in
+      `drill.ts`; always on a city's own map).
+    - The tag's hit area is at least 44 px. A wheel or pinch over it still
+      zooms the map.
+    - Clicking a tag flies there.
+  - Zooming into a city's map is one continuous zoom, with no cut
+    (`drill.ts`, `Cam.rebase`).
+    - **The inset.** The city's map is drawn small on the map it's on,
+      centred on its pin: `INSET_H` = 80 units tall. Its art fades in
+      over the footprint as you near it.
+    - **The swap.** At the parent map's closest zoom, the camera swaps to
+      the city's own units without moving anything on screen.
+      `onZoomInEdge` and `onZoomOutEdge` rebase rather than jump, and the
+      wheel's glide carries on across the swap.
+    - **Around the city.** On the city's map, the map it's on is drawn
+      around it, scaled up and dimmed to 35% (and that map's own, for a
+      city in a city).
+    - **Zooming out.** The city's map zooms out past all of it in view
+      (`Cam.fitH`), over the dimmed map around it, out to where that map
+      takes over.
+    - **Flags.** Each map's flags, stems, leader lines and pins give way
+      over the swap (`drillFades`). A city's flags fade in only once all
+      of the city's map is in view, also when flying there from the
+      Notable characters panel.
+    - **Opening.** The city opens at `Cam.fillH`, just filling the
+      screen. The Handover component inside the Canvas does the rebase
+      and the goal jump, so the camera and the maps change in the same
+      frame.
+    - **Whole maps.** A map of all of its parent's land, such as the
+      Silver Kingdoms, has `parent.whole` in the atlas. It is never drawn
+      inside its parent or zoomed into.
   - click a star's label, or a world in the drawer behind the planet
     button at top left, to fly there. Picking a world closes the drawer.
 
   On another world the event card hides; the name above the timeline
   always names the world on screen (or "The Cosmere" on the sky).
-  "↩ Back to the event" returns to the current event.
+  "↩ Back to the event" returns to the current event (it fades in and out
+  over 150 ms).
   Zooming out past a world's farthest view goes straight to the Cosmere
   (17th Shard has nowhere further to go, so this is new). On the sky, the
   furthest zoom-out is where the painting just fills the screen; the
@@ -154,8 +272,9 @@ that came before it (Cards and Spine) are removed.
   - The worlds drawer wraps onto as many rows as it needs.
   - Pinch zooms and one finger pans (`touch-action: none` on the canvas).
 - **No WebGL.** The stage shows a note, and the bar and card still work.
-  With reduced motion, every flight is a cut, and the pin's pulse and the
-  bar's smooth scrolling are off.
+  With reduced motion, every flight is a cut (a city's tag opens its map
+  at once), and the pin's pulse and the bar's smooth scrolling are off.
+  Wheel and pinch zoom still pass through a city's map continuously.
 
 ## Engine
 
@@ -165,15 +284,17 @@ postprocessing, at the same versions). It is lazy-loaded: `CosmereTimeline`
 imports `ExplorerCanvas` with `React.lazy`, so Three.js is a separate chunk
 that loads only with this view.
 
-| File                  | What it does                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `sky.ts`              | The space: field of view, planet radius, the map plane, the painted sky and its star pixels, view heights, crossfades between levels, and map ↔ world units.                                                                                                                                                                                                                                                                                                                                                                                                                                                                |
-| `camera.ts`           | `Cam`: centre, height, level (sky / world) and anchor world. It holds the bounds: on the sky, it bisects for the furthest zoom where the art still covers the screen, and the painting's edges hold; on a world, the globe stays in view and the map's edges hold. It plans and flies routes leg by leg; between worlds it goes up to a framing sky view, re-centres on the new star (invisible, because no world is drawn on the sky) and dives in. It handles the canvas's gestures: drag pans, a mouse wheel zooms about the cursor, trackpad scroll pans, and pinch (touch, ctrl-wheel or Safari gesture events) zooms. |
-| `globe.ts`            | Roshar's globe ↔ map fit from the prototype (`rosharGlobe.json`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           |
-| `worlds.ts`           | `explorerWorlds(timeline, canSee, current)`: the timeline's worlds plus the other inhabited planets the reader knows, each under its system's painted star, unrolling into the current event's city map when it has one. `explorerPins`: events with a point on their world's map.                                                                                                                                                                                                                                                                                                                                          |
-| `ExplorerCanvas.tsx`  | The R3F scene: far stars; the sky (painting shader with a hover glow, plus a live star per known system); the anchor world (Roshar's textured globe unrolling into its map, Yolen's drawn globe, or a shaded noise globe in the world's colour that fades into its map); bloom. Over the canvas, HTML star labels, pins, and +/− buttons are positioned every frame.                                                                                                                                                                                                                                                        |
-| `ShatteringBurst.tsx` | The Shattering effect (below): an HTML/SVG overlay, positioned by the canvas each frame.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    |
-| `webgl.ts`            | `hasWebGL()` and `reducedMotion()`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| File                  | What it does                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `sky.ts`              | The space: field of view, planet radius, the map plane, the painted sky and its star pixels, view heights, crossfades between levels, and map ↔ world units.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        |
+| `camera.ts`           | `Cam`: centre, height, level (sky / world) and anchor world. It holds the bounds: on the sky, it bisects for the furthest zoom where the art still covers the screen, and the painting's edges hold; on a world, the globe stays in view and the screen's middle stays on the map, so an edge can be panned to the centre. It plans and flies routes leg by leg; between worlds it goes up to a framing sky view, re-centres on the new star (invisible, because no world is drawn on the sky) and dives in. It handles the canvas's gestures: drag pans, a mouse wheel zooms about the cursor, trackpad scroll pans, and pinch (touch, ctrl-wheel or Safari gesture events) zooms. |
+| `globe.ts`            | Roshar's globe ↔ map fit from the prototype (`rosharGlobe.json`).                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   |
+| `worlds.ts`           | `explorerWorlds(timeline, canSee, current)`: the timeline's worlds plus the other inhabited planets the reader knows, each under its system's painted star, unrolling into the current event's city map when it has one. `explorerPins`: events with a point on their world's map.                                                                                                                                                                                                                                                                                                                                                                                                  |
+| `flags.ts`            | Place flags: `placeGroups` (one group per place, from the people shown), `spotFor` (the free spot around a place, compact if need be, kept while it fits), `edgeSpot` (where an off-screen place's flag goes on the edge).                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| `ExplorerCanvas.tsx`  | The R3F scene: far stars; the sky (painting shader with a hover glow, plus a live star per known system); the anchor world (Roshar's textured globe unrolling into its map, Yolen's drawn globe, or a shaded noise globe in the world's colour that fades into its map); bloom. Over the canvas, HTML star labels, pins, and +/− buttons are positioned every frame.                                                                                                                                                                                                                                                                                                                |
+| `ShatteringBurst.tsx` | The Shattering effect (below): an HTML/SVG overlay, positioned by the canvas each frame.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            |
+| `drill.ts`            | City maps drawn inside the map they're on: `INSET_H`/`INSET_K` (the footprint's size), `drillFades` (the city's art, the dimmed map around it, and each map's flags, by view height), `tagsFade` (cities' tags only zoomed in).                                                                                                                                                                                                                                                                                                                                                                                                                                                     |
+| `webgl.ts`            | `hasWebGL()` and `reducedMotion()`.                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |
 
 Gotchas from the prototype, kept:
 
@@ -195,11 +316,84 @@ Maps:
 - Before the Recreance Roshar is drawn as the Silver Kingdoms:
   `Silver-Kingdoms-flat.jpg` (the map's frame) and `Silver-Kingdoms-globe.jpg`.
   Their sea is Roshar's own: Roshar's land is healed away with GIMP's
-  Resynthesizer, its mottling faded into the open ocean, and the Silver
-  Kingdoms' land and title laid on top at the fitted affine (`fromRoshar`).
+  Resynthesizer, its mottling faded into an open ocean in the map's own dark
+  water, and the Silver Kingdoms' land and title laid on top at the fitted
+  affine (`fromRoshar`).
   One-off build, not in the repo.
+- Scadrial before the Catacendre (year 10626) is the Final Empire:
+  `Scadrial-FE-flat.jpg` (2048×1555, the Coppermind `Final_Empire_Map.jpg`
+  frame, so pins hold) and `Scadrial-FE-globe.jpg` (laid on at
+  `fromRoshar [2.2526,0,0,2.2526,-1859.34,-1024.59]`). The map's ornamental frame, wings,
+  roundels and edge labels are painted out: the land is carried on under
+  them to a new ragged coast, about 100 px in, with bays. Parchment and sea
+  are patch-quilted from the map itself, and the coast gets the map's
+  stippled shore and ripple rings. The sea fades to a flat (105,110,112) at
+  the edges, so it meets the globe's ocean without a seam. After the
+  Catacendre, Scadrial is drawn by The Lost Metal's world map (atlas
+  `scadrial`, `Scadrial_map.png` 640×997, revealed from its prologue):
+  `Scadrial-flat.jpg` (2× upscale, frame and title box gone) and
+  `Scadrial-globe.jpg` (`fromRoshar [0.5374,0,0,0.5374,-358.13,-222.29]`).
+  Land the frame cut is turned to sea along a ragged coast: a
+  domain-warped distance to the frame against a noisy threshold, with bays
+  and islets, kept off the lettering (`glyph_mask` finds the map's letters
+  and keeps their hulls dry), so the coast recedes instead of ending in a
+  straight cut.
+  The Elendel Basin's map is a city on it, at `[372, 271]`, so zooming in
+  there opens it. Before The Lost Metal the Basin's map is the world's own,
+  with no globe: `cityOn` only counts a parent map the reader can see, and
+  journeys hang the Basin off the star chart until then. One-off build
+  (`scadrial.py`, modes `fe`, `world` and `check`), not in the repo.
+- Both Scadrial globes share one canon scale, so the eras line up:
+  - The Lost Metal's map is drawn on a Mercator grid every 15° (meridians
+    134 px apart; parallels at y 95, 241, 377, 512, 657 and 828 for 30°N to
+    45°S, spaced as Mercator predicts). Isaac Stewart puts the equator just
+    by Elendel and the prime meridian through it
+    (https://wob.coppermind.net/entry/15856), and called a reprojection of
+    the map onto a globe "close" (https://wob.coppermind.net/entry/16086).
+    So the map's own degrees give its size, whatever the planet's radius.
+    Scadrial is Earth-sized ("1 cosmere standard", Coppermind Scadrial;
+    https://wob.coppermind.net/entry/3073).
+  - Roshar's frame is about 1005 Roshar px per radian near the globe's
+    front. At the Final Empire's latitude (18.6°N) that gives
+    511.9 / (cos 18.6° × 1005) = 0.5374 world px per Roshar px.
+  - The Final Empire's map is registered onto the world map by ashmounts and
+    lakes (Torinost, Morag, Kalling, Tyrian, the Black Lake; a similarity,
+    scale 0.23858, residuals about 2 px). That matches Isaac's overlay of the
+    Basin on the old empire, south and southwest of Luthadel
+    (https://wob.coppermind.net/entry/13162). So the empire map gets
+    0.5374 / 0.23858 = 2.2526 FE px per Roshar px, centred on the globe's
+    front, and the world map follows the same registration, so features
+    don't jump between eras.
+  - That makes the empire about 51° by 39° of arc on the map, its land about
+    4,000 km across. That's bigger than Brandon's early "smaller than the
+    US" (https://wob.coppermind.net/entry/7877), which predates the scale
+    the leatherbound map revisited (entry 13162).
+- Past the map a textured globe is drawn by lies the uncharted (`UNCHARTED`
+  in `ExplorerCanvas`), shared by the globe and the flat map so it stays
+  put through the unroll:
+  - One edge field, the distance (in map heights) to the map's frame. Its
+    core, where a dashed gold line runs, wanders in lazy lobes from just
+    past the frame to 0.06 beyond; the fog is frayed with noise, but only
+    outwards from that line. So the fog never covers the map, its islands
+    or the line, however the noise falls (shader hash noise differs by
+    GPU). Each globe's `edge` in `worlds.ts` sets the band from the line
+    to full fog (the Final Empire's pale sea fades over a longer one). Far
+    from the map, where the projection folds, it is fog whatever the field
+    says.
+  - In the fog the sea dims and greys to slate, a faint gold grid replaces
+    the blue one, and a soft haze (3D noise on the sphere) drifts slowly.
+    With `prefers-reduced-motion` the haze holds still.
+  - The flat map uses the same field: it greys and fades out past its
+    frame, onto the identically fogged globe beneath.
+  - Spoilers: the field only knows the frame of the map the reader can
+    see, and the fog looks the same on every world, so it never hints at
+    land. City maps (Kholinar, the Elendel Basin) keep their own soft
+    `inner` fade; Yolen and the plain globes have no edge.
 - Arelon and T'Telir come from the journey atlas (Coppermind images).
 - Only the anchor world is mounted. A map that fails to load is dropped.
+- A mesh switching between the fog `material` prop and a child material
+  must remount (`key`): dropping the prop leaves r3f's default white
+  material in place.
 
 ### Yolen's globe
 
@@ -381,7 +575,7 @@ Tests:
   - flights between worlds go by way of the sky;
   - reduced motion cuts;
   - zooming out past a world fires the zoom-out to the Cosmere;
-  - map edges hold.
+  - a map pans until its edge reaches the middle of the screen.
 
 ## Dating across worlds
 
@@ -502,3 +696,5 @@ Shattering there until the later reveal.
 - The maps of Arelon and T'Telir come via the Coppermind.
 - Event order and per-world years come from Drew's timeline sheet,
   cross-checked with the Coppermind chronology.
+
+- **Book timeline data** (`src/data/bookTimeline.ts`): every published book's span on the AS scale, its world (planet id to fly to) and cover (`public/timeline/covers/`, credited). Years follow the timeline sheet; Stormlight dates are converted from Rosharan dates. Mistborn Era 2 sits just after Wind and Truth (Brandon: "not long after Stormlight 5"), not at the sheet's Hero of Ages + 341, which would run it alongside Stormlight. The **Events | Books** switch at the top left swaps the bar for the covers of the books the reader has read or started (no others, not even as gaps). `layoutBooks` lays them out as covers on a time rail: each cover is centred on its book's start, above a capped bar spanning the book on the rail in its world's colour (a diamond if under 0.15 years); main covers stand at least 66 px apart, so dense clusters open up; side stories (`SIDE`: Secret History, the Stormlight novellas, Hope of Elantris) ride a small lane above when the book they run beside is shown; gaps of 3+ years break the rail with `//` and, once the reader knows the calendar, "≈ N years". Picking one flies to its world, or to the whole Cosmere if the reader doesn't know that world yet, and shows its cover, title and world on the card.

@@ -6,22 +6,26 @@ import { Canvas, useFrame, useThree } from '@react-three/fiber'
 import { Bloom, EffectComposer } from '@react-three/postprocessing'
 import {
   Component,
+  Fragment,
   Suspense,
   useEffect,
+  useLayoutEffect,
   useMemo,
   useRef,
   useState,
   type CSSProperties,
   type ReactNode,
+  type RefObject,
 } from 'react'
 import * as THREE from 'three'
 import { Cam, type CamTarget, type CamWorld } from './camera'
 import styles from './Explorer.module.css'
-import { GLOBE_BASIS, latLonToMap } from './globe'
+import { fromCentre, GLOBE_BASIS, latLonToMap } from './globe'
 import {
   distFor,
   FOV,
   levelFades,
+  MAP_H,
   MAP_VIEW_H,
   mapPoint,
   mapSize,
@@ -36,8 +40,26 @@ import {
 } from './sky'
 import type { TimelineEffect } from '../../data/timeline'
 import { ShatteringBurst } from './ShatteringBurst'
+import {
+  edgeSpot,
+  hits,
+  nearest,
+  placeGroups,
+  spotFor,
+  type Box,
+  type FlagGroup,
+  type FlagSpot,
+} from './flags'
+import paintedNames from './paintedNames.json'
 import { reducedMotion } from './webgl'
-import type { ExplorerPin, ExplorerWorld, YolenLook } from './worlds'
+import type {
+  Around,
+  ExplorerPin,
+  ExplorerWorld,
+  InsetMap,
+  YolenLook,
+} from './worlds'
+import { drillFades, INSET_K, tagsFade } from './drill'
 
 /** Where the explorer should be: the sky, or a world and how close. */
 export interface ExplorerGoal {
@@ -45,6 +67,11 @@ export interface ExplorerGoal {
   world?: string
   view?: 'globe' | 'map' | 'pin'
   pin?: readonly [number, number]
+  /**
+   * A map handing over to another: cut there instead of flying (at this
+   * view height, if given), and the reader's zoom carries on from there.
+   */
+  cut?: true | number
   /** Changes whenever the camera should go there again. */
   key: string
 }
@@ -62,23 +89,42 @@ export interface ExplorerCanvasProps {
   onBackground?: () => void
   /** What's in view: a world, or the sky. */
   onView?: (view: { world: string; level: Level }) => void
+  /** Whether a world's globe (not its unrolled map) is in view. */
+  onGlobe?: (on: boolean) => void
   /** A special effect for the current event, e.g. the Shattering's burst. */
   effect?: ExplorerEffect
-  /** Shards, floating above the worlds they're at; hover names them. */
-  shards?: ExplorerShard[]
-  onShard?: (id: string) => void
   /**
-   * Notable characters, floating above their world beside its Shards; on
-   * its map, a face pin where they are, else in a "location unknown" list.
+   * Notable characters: on their world's map, a face pin where they are,
+   * else in a "location unknown" list.
    */
   people?: ExplorerFloatPerson[]
   onPerson?: (id: string) => void
-  /** The rest, past the first few on a world ("+N"). */
-  onMorePeople?: () => void
+  /** A place's map button (on its flag or roster) was clicked: open it. */
+  onPlace?: (world: string, mapId: string, zoomed?: boolean) => void
+  /** Cities with maps of their own, on each world's map: zoom in to open. */
+  cities?: ExplorerCity[]
   /** Back to the default view of what's being looked at. */
   onReset?: () => void
   /** More controls, above the zoom buttons. */
   children?: ReactNode
+  /**
+   * A title just above the globe in view, fading out as it unrolls. The
+   * globe view makes room for it.
+   */
+  globeTitle?: ReactNode
+  /** A box to fit the globe into at its globe view (e.g. beside a panel). */
+  dock?: HTMLElement | null
+  /** Bumped to zoom into the globe in view, as a click on it does. */
+  zoomIn?: number
+}
+
+export interface ExplorerCity {
+  world: string
+  mapId: string
+  title: string
+  at: readonly [number, number]
+  src: string
+  map?: InsetMap
 }
 
 export interface ExplorerFloatPerson {
@@ -87,17 +133,20 @@ export interface ExplorerFloatPerson {
   world: string
   /** Where on its map, if known. */
   at?: readonly [number, number]
+  /** Placed on a map not drawn (another city's): not "location unknown". */
+  elsewhere?: boolean
   face?: string
   initials: string
+  /** Where they are: one flag per place, naming it. */
+  place?: ExplorerPlace
+  /** What they're doing there. */
+  note?: string
 }
 
-export interface ExplorerShard {
-  id: string
+export interface ExplorerPlace {
   name: string
-  world: string
-  art: string
-  /** Splintered, Shattered or dead: greyed out. */
-  faded?: boolean
+  /** Its own map, to open. */
+  mapId?: string
 }
 
 export interface ExplorerEffect {
@@ -312,6 +361,10 @@ function Atmosphere({ color, o }: { color: string; o: () => number }) {
   )
 }
 
+/** Between the globe's top and the title above it, px. */
+const TITLE_GAP = 6
+/** Above the title, px. */
+const TITLE_TOP = 14
 const smooth = (m: number) => m * m * (3 - 2 * m)
 const planetOpacity = (f: Fades) => Math.max(f.planet, f.flat) * f.planetIn
 
@@ -319,9 +372,12 @@ const planetOpacity = (f: Fades) => Math.max(f.planet, f.flat) * f.planetIn
 function RosharGlobe({
   fade,
   map,
+  city,
 }: {
   fade: Ref<Fades>
   map: NonNullable<ExplorerWorld['globe']>
+  /** Unrolling into a city's map: the city's map takes over. */
+  city?: boolean
 }) {
   const tex = useTexture(map.texture)
   const gl = useThree((s) => s.gl)
@@ -331,16 +387,20 @@ function RosharGlobe({
     const g = new THREE.SphereGeometry(PLANET_R, 256, 160)
     const uv = g.getAttribute('uv')
     const flat = new Float32Array(uv.count * 3)
+    const far = new Float32Array(uv.count)
     for (let i = 0; i < uv.count; i++) {
-      const [rx, ry] = latLonToMap(
-        uv.getY(i) * 180 - 90,
-        uv.getX(i) * 360 - 180,
-      )
+      const lat = uv.getY(i) * 180 - 90
+      const lon = uv.getX(i) * 360 - 180
+      const [rx, ry] = latLonToMap(lat, lon)
       const [a, b, c, d, e, f] = map.fromRoshar ?? [1, 0, 0, 1, 0, 0]
       const [x, y] = mapPoint(map, [a * rx + b * ry + e, c * rx + d * ry + f])
       flat.set([x, y, PLANE_Z - 3], i * 3)
+      far[i] = smooth(
+        Math.min(1, Math.max(0, (fromCentre(lat, lon) - 2.3) / 0.4)),
+      )
     }
     g.setAttribute('flatPos', new THREE.BufferAttribute(flat, 3))
+    g.setAttribute('far', new THREE.BufferAttribute(far, 1))
     return g
   }, [map])
   const basis = useMemo(() => new THREE.Matrix3().set(...GLOBE_BASIS), [])
@@ -355,11 +415,14 @@ function RosharGlobe({
           morph: { value: 0 },
           orient: { value: new THREE.Matrix3() },
           lightDir: { value: new THREE.Vector3(-3, 2, 4).normalize() },
+          ...unchartedUniforms(map, map.edge),
         },
-        vertexShader: `attribute vec3 flatPos; uniform mat3 orient; uniform float morph;
+        vertexShader: `attribute vec3 flatPos; attribute float far; uniform mat3 orient; uniform float morph;
           varying vec2 vUv; varying vec3 vN; varying vec3 vView;
+          varying vec2 vFlat; varying vec3 vS; varying float vFar;
           void main(){
             vUv = uv;
+            vFlat = flatPos.xy; vS = normalize(position); vFar = far;
             vec3 p = mix(orient * position, flatPos, morph);
             vN = mix(orient * normal, vec3(0., 0., 1.), morph);
             vView = cameraPosition - p;
@@ -367,14 +430,21 @@ function RosharGlobe({
           }`,
         fragmentShader: `uniform sampler2D map; uniform float opacity, morph; uniform vec3 lightDir;
           varying vec2 vUv; varying vec3 vN; varying vec3 vView;
+          varying vec2 vFlat; varying vec3 vS; varying float vFar;
+          ${FBM}
+          ${UNCHARTED}
           void main(){
             vec3 n = normalize(vN), v = normalize(vView);
             vec3 col = texture2D(map, vUv).rgb;
+            vec2 e = edgeField(vFlat);
+            float u = edgeOn * max(smoothstep(edgeBand.x, edgeBand.y, e.x), vFar);
+            col = uncharted(col, u);
             col *= mix(0.5 + 0.7 * max(dot(n, lightDir), 0.), 1., morph);
             vec2 g = vUv * vec2(36., 18.);
             vec2 f = abs(fract(g - .5) - .5) / max(fwidth(g), 1e-4);
             float line = 1. - min(min(f.x, f.y) * 1.4, 1.);
-            col = mix(col, vec3(.8, .9, 1.), line * .13 * (1. - morph));
+            col = mix(col, vec3(.8, .9, 1.), line * .13 * (1. - morph) * (1. - u));
+            col = unchartedHaze(col, u, line, e.y, vFlat, vS, vFar);
             float rim = pow(1. - max(dot(n, v), 0.), 2.5);
             col = mix(col, vec3(.35, .62, 1.), rim * .45 * (1. - morph));
             gl_FragColor = vec4(col, opacity);
@@ -382,13 +452,14 @@ function RosharGlobe({
           }`,
         transparent: true,
       }),
-    [tex],
+    [tex, map],
   )
   const mesh = useRef<THREE.Mesh>(null)
-  useFrame((_, dt) => {
+  useFrame(({ clock }, dt) => {
     // Spins in space; turns to face you, then unrolls, as you close in.
+    mat.uniforms.time.value = drift(clock)
     const f = fade.current
-    const o = planetOpacity(f)
+    const o = planetOpacity(f) * (city ? 1 - f.map : 1)
     const k = smooth(f.flat)
     if (f.flat > 0 || o < 0.98) spin.current *= Math.exp(-dt * 4)
     else
@@ -434,6 +505,91 @@ const FBM = `
   }
   float fbm(vec3 p){ float a = .5, s = 0.; for (int i = 0; i < 5; i++){ s += a*noise(p); p *= 2.03; a *= .5; } return s; }
 `
+
+/**
+ * The uncharted, past the map a globe is drawn by: the sea dims to slate, a
+ * gold survey grid shows, a faint haze drifts over it and a dotted gold line
+ * wanders round. Its edge is one field on the map's plane (vFlat: world
+ * units, origin at the map's centre), so the globe and the flat map agree
+ * on it all through the unroll: a rounded box the size of the map's frame,
+ * domain-warped into lazy lobes and frayed with fractal noise. It knows
+ * only the frame, so it's the same on every world and hints at no land.
+ * Needs FBM.
+ */
+const UNCHARTED = `
+  uniform vec2 edgeHalf, edgeBand; uniform float edgeOn, time;
+  float eh(vec2 p){ return fract(sin(dot(p, vec2(127.1, 311.7))) * 43758.5453); }
+  float vn(vec2 p){
+    vec2 i = floor(p), f = fract(p); f = f*f*(3.-2.*f);
+    return mix(mix(eh(i), eh(i + vec2(1., 0.)), f.x), mix(eh(i + vec2(0., 1.)), eh(i + vec2(1., 1.)), f.x), f.y);
+  }
+  // Fractal noise on the plane, about mean 0 and spread 1.
+  float nf(vec2 p){
+    float a = .5, s = 0.;
+    for (int i = 0; i < 4; i++){ s += a * vn(p); p = p * 2.03 + 17.1; a *= .5; }
+    return (s - .47) * 8.;
+  }
+  float sdBox(vec2 p, vec2 b, float r){
+    vec2 q = abs(p) - b + r;
+    return length(max(q, 0.)) + min(max(q.x, q.y), 0.) - r;
+  }
+  // How far out of the map's frame, in map heights: x frayed, y its core.
+  // The core (where the dotted line runs) wanders in lazy lobes from just
+  // past the frame to .06 beyond, and the fray only reaches outward from it,
+  // so however the noise falls (it differs by GPU) the uncharted starts past
+  // the frame and the dotted line, never over the map.
+  vec2 edgeField(vec2 fp){
+    vec2 p = fp / ${MAP_H}.;
+    float box = sdBox(p, edgeHalf, 0.);
+    float low = box + edgeBand.x - .006 - .055 * smoothstep(-1.2, 1.2, nf(p * 2.2 + 41.3));
+    float rag = low + .026 * nf(p * 5.5 + 7.7) + .012 * nf(p * 14. + 1.9)
+      + .005 * nf(p * 34. + 3.1);
+    return vec2(max(min(rag, low), box - .06), low);
+  }
+  vec3 toS(vec3 c){ return pow(max(c, 0.), vec3(1. / 2.2)); }
+  vec3 toL(vec3 c){ return pow(max(c, 0.), vec3(2.2)); }
+  // Dim slate; land and sea converge, leaving a ghost of a coast at most.
+  vec3 uncharted(vec3 lin, float u){
+    if (u <= 0.) return lin;
+    vec3 c = toS(lin);
+    float grey = dot(c, vec3(.299, .587, .114));
+    float ghost = .21 + .3 * (grey - .21);
+    vec3 dim = (mix(vec3(grey), c, .25) * .25 + ghost * .75) * .45 + vec3(.10, .13, .18) * .55;
+    return toL(mix(c, dim, u));
+  }
+  const vec3 GOLD = vec3(.83, .65, .25);
+  // Over it, on the sphere: the gold grid, the haze, and the dotted line
+  // where it begins (the fog lies only outside it).
+  vec3 unchartedHaze(vec3 lin, float u, float line, float low, vec2 fp, vec3 s, float far){
+    float d = abs(low - edgeBand.x) / max(fwidth(low), 1e-7);
+    float dash = 1. - smoothstep(.12, .24, abs(fract(atan(fp.y, fp.x) / 6.2832 * 320.) - .5));
+    float dots = edgeOn * (1. - smoothstep(.4, 1.3, d)) * dash * (1. - far) * .38;
+    if (u <= 0. && dots <= 0.) return lin;
+    vec3 c = toS(lin);
+    if (u > 0.) {
+      c = mix(c, GOLD, line * u * .24);
+      vec3 q = s * 2.6 + vec3(time * .011, time * .003, -time * .008);
+      float n = fbm(q + vec3(fbm(q * 1.7 + 5.), fbm(q * 1.7 + 9.), 0.) * .9);
+      c = mix(c, vec3(.55, .62, .72), u * clamp(.02 + .6 * (n - .32), .01, .36));
+    }
+    c = mix(c, GOLD, dots);
+    return toL(c);
+  }
+`
+
+/** Uniforms for UNCHARTED, by the map a globe is drawn by. */
+const unchartedUniforms = (
+  map: { width: number; height: number },
+  edge?: readonly [number, number],
+) => ({
+  edgeHalf: { value: new THREE.Vector2(map.width / map.height / 2, 0.5) },
+  edgeBand: { value: new THREE.Vector2(...(edge ?? [0, 1])) },
+  edgeOn: { value: edge ? 1 : 0 },
+  time: { value: 0 },
+})
+
+/** The haze's clock: still for readers who'd rather nothing moved. */
+const drift = (clock: THREE.Clock) => (reducedMotion() ? 0 : clock.elapsedTime)
 
 /** A drawn globe's spin about its axis, shared by the plain and Yolen's. */
 const SPIN_VERTEX = `uniform float spin; varying vec3 vP; varying vec3 vN; varying vec3 vView;
@@ -605,33 +761,136 @@ function YolenGlobe({
 function FlatMap({
   fade,
   map,
+  uncharted,
+  place,
+  alpha,
+  dim,
 }: {
   fade: Ref<Fades>
-  map: NonNullable<ExplorerWorld['map']>
+  map: InsetMap
+  /** Drawn inside or around another map: its centre, scale and order. */
+  place?: { x: number; y: number; s: number; order: number }
+  /** Faded further, e.g. while zooming between a city and its map. */
+  alpha?: () => number
+  /** Darkened, e.g. around a city's map: 1 as drawn, 0 black. */
+  dim?: () => number
+  /**
+   * The map its globe is drawn by: it hands over to the globe's uncharted
+   * at its frame, in the same place on both.
+   */
+  uncharted?: readonly [number, number]
 }) {
   const tex = useTexture(map.src)
   const gl = useThree((s) => s.gl)
   tex.colorSpace = THREE.SRGBColorSpace
   tex.anisotropy = gl.capabilities.getMaxAnisotropy()
+  // Upload now, not on the first frame it shows, mid-zoom.
+  useEffect(() => gl.initTexture(tex), [gl, tex])
   const m = useRef<THREE.MeshBasicMaterial>(null)
   const mesh = useRef<THREE.Mesh>(null)
   const [w, h] = mapSize(map)
+  const edge = useMemo(
+    () =>
+      map.inner
+        ? edgeFade(map, map.inner)
+        : place && place.s < 1
+          ? edgeFade(map, [0, 0, map.width, map.height])
+          : undefined,
+    [map, place],
+  )
+  const fog = useMemo(
+    () =>
+      uncharted &&
+      new THREE.ShaderMaterial({
+        uniforms: {
+          map: { value: tex },
+          opacity: { value: 1 },
+          ...unchartedUniforms(map, uncharted),
+        },
+        vertexShader: `varying vec2 vUv, vFlat;
+          void main(){
+            vUv = uv; vFlat = position.xy;
+            gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.);
+          }`,
+        fragmentShader: `uniform sampler2D map; uniform float opacity; varying vec2 vUv, vFlat;
+          ${FBM}
+          ${UNCHARTED}
+          void main(){
+            vec2 e = edgeField(vFlat);
+            vec3 col = uncharted(texture2D(map, vUv).rgb, smoothstep(edgeBand.x, edgeBand.y, e.x));
+            float a = 1. - smoothstep(edgeBand.x - .015, edgeBand.x + .02, e.x);
+            gl_FragColor = vec4(col, opacity * a);
+            #include <colorspace_fragment>
+          }`,
+        transparent: true,
+        depthWrite: false,
+      }),
+    [tex, map, uncharted],
+  )
   useFrame(() => {
-    m.current!.opacity = fade.current.map
-    mesh.current!.visible = fade.current.map > 0.01
+    const o = fade.current.map * (alpha?.() ?? 1)
+    if (fog) fog.uniforms.opacity.value = o
+    else {
+      m.current!.opacity = o
+      if (dim) m.current!.color.set(map.tint ?? '#fff').multiplyScalar(dim())
+    }
+    mesh.current!.visible = o > 0.01
   })
   return (
-    <mesh ref={mesh} position={[0, 0, PLANE_Z]} renderOrder={1}>
+    <mesh
+      // Remounted between the two materials: dropping `material` would
+      // leave a default white one in place of the child.
+      key={fog ? 'fog' : 'plain'}
+      ref={mesh}
+      position={[place?.x ?? 0, place?.y ?? 0, PLANE_Z]}
+      scale={[place?.s ?? 1, place?.s ?? 1, 1]}
+      renderOrder={place?.order ?? 1}
+      {...(fog && { material: fog })}
+    >
       <planeGeometry args={[w, h]} />
-      <meshBasicMaterial
-        ref={m}
-        map={tex}
-        transparent
-        depthWrite={false}
-        toneMapped={false}
-      />
+      {!fog && (
+        <meshBasicMaterial
+          ref={m}
+          map={tex}
+          alphaMap={edge || null}
+          color={map.tint ?? '#fff'}
+          transparent
+          depthWrite={false}
+          toneMapped={false}
+        />
+      )}
     </mesh>
   )
+}
+
+/**
+ * Hides a map's frame: opaque inside `inner` (image pixels), fading out
+ * softly at its edges into space.
+ */
+function edgeFade(
+  map: { width: number; height: number },
+  [x0, y0, x1, y1]: readonly number[],
+) {
+  const N = 256
+  const data = new Uint8Array(N * N * 4)
+  const feather = 0.07 * Math.min(x1 - x0, y1 - y0)
+  for (let j = 0; j < N; j++)
+    for (let i = 0; i < N; i++) {
+      const x = ((i + 0.5) / N) * map.width
+      // Rows run bottom-up in a texture.
+      const y = (1 - (j + 0.5) / N) * map.height
+      const d = Math.min(x - x0, x1 - x, y - y0, y1 - y) / feather
+      const a = Math.max(0, Math.min(1, d))
+      data.fill(
+        Math.round(255 * smooth(a)),
+        (j * N + i) * 4,
+        (j * N + i) * 4 + 4,
+      )
+    }
+  const t = new THREE.DataTexture(data, N, N)
+  t.magFilter = t.minFilter = THREE.LinearFilter
+  t.needsUpdate = true
+  return t
 }
 
 /** Drops a part that fails to load (a map image offline, say). */
@@ -645,12 +904,77 @@ function World({
   world,
   fade,
   shatter,
+  cam,
+  insets = [],
 }: {
   world: ExplorerWorld
   fade: Ref<Fades>
   shatter?: Ref<number | undefined>
+  cam: Cam
+  /** Cities on its map, drawn in place as you zoom in to them. */
+  insets?: ExplorerCity[]
 }) {
   const map = world.map
+  const parent = map?.parent
+  // Around a city's map, the map it's on, scaled up about it, and so on
+  // out: in a city in a city, the world's map stays in place too.
+  const around = useMemo(() => {
+    if (!map || !parent) return []
+    const size = mapSize(map)
+    const dim = () =>
+      drillFades(
+        cam.h * INSET_K,
+        cam.fitFor(size) * INSET_K,
+        cam.range('world')[0],
+      ).parent
+    const out = []
+    let [x, y, s] = [0, 0, 1]
+    for (let p: Around | undefined = parent; p; p = p.parent) {
+      const [ax, ay] = mapPoint(p.map, p.at)
+      s /= INSET_K
+      x -= ax * s
+      y -= ay * s
+      out.push({ map: p.map, place: { x, y, s, order: -out.length }, dim })
+    }
+    return out
+  }, [map, parent, cam])
+  // Only the city nearest the middle of the screen: some overlap.
+  const nearest = useRef<string>(undefined)
+  const inside = useMemo(
+    () =>
+      map
+        ? insets.flatMap((c) => {
+            if (!c.map) return []
+            const [ax, ay] = mapPoint(map, c.at)
+            const size = mapSize(c.map)
+            return [
+              {
+                c,
+                ax,
+                ay,
+                place: { x: ax, y: ay, s: INSET_K, order: 2 },
+                alpha: () =>
+                  nearest.current === c.mapId
+                    ? drillFades(
+                        cam.h,
+                        cam.fitFor(size) * INSET_K,
+                        cam.range('world')[0],
+                      ).city
+                    : 0,
+              },
+            ]
+          })
+        : [],
+    [map, insets, cam],
+  )
+  useFrame(() => {
+    nearest.current = inside
+      .map((o) => ({
+        id: o.c.mapId,
+        d: Math.hypot(o.ax - cam.cx, o.ay - cam.cy),
+      }))
+      .sort((a, b) => a.d - b.d)[0]?.id
+  })
   return (
     <>
       {world.yolen ? (
@@ -663,21 +987,118 @@ function World({
       ) : world.globe ? (
         <Optional>
           <Suspense fallback={<PlainGlobe fade={fade} color={world.color} />}>
-            <RosharGlobe fade={fade} map={world.globe} />
+            <RosharGlobe fade={fade} map={world.globe} city={map?.city} />
           </Suspense>
         </Optional>
       ) : (
         <PlainGlobe fade={fade} color={world.color} />
       )}
+      {around.map((a) => (
+        <Optional key={a.map.src}>
+          <Suspense fallback={null}>
+            <FlatMap fade={fade} map={a.map} place={a.place} dim={a.dim} />
+          </Suspense>
+        </Optional>
+      ))}
+      {inside.map(({ c, place, alpha }) => (
+        <Optional key={c.mapId}>
+          <Suspense fallback={null}>
+            <FlatMap fade={fade} map={c.map!} place={place} alpha={alpha} />
+          </Suspense>
+        </Optional>
+      ))}
       {map && (
         <Optional>
           <Suspense fallback={null}>
-            <FlatMap fade={fade} map={map} />
+            <FlatMap
+              fade={fade}
+              map={map}
+              uncharted={
+                world.globe &&
+                !map.city &&
+                map.width === world.globe.width &&
+                map.height === world.globe.height
+                  ? world.globe.edge
+                  : undefined
+              }
+            />
           </Suspense>
         </Optional>
       )}
     </>
   )
+}
+
+/**
+ * Moves the camera for a new goal, and between a city's map and the map
+ * it's on. Inside the canvas, so it lands in the same commit as the meshes
+ * it matches: from outside, a frame could draw the new camera on the old map.
+ */
+function Handover({
+  cam,
+  worlds,
+  camWorlds,
+  goal,
+  host,
+}: {
+  cam: Cam
+  worlds: ExplorerWorld[]
+  camWorlds: Record<string, CamWorld>
+  goal: ExplorerGoal
+  host: RefObject<HTMLDivElement | null>
+}) {
+  // Between a city's map and the map it's on, the view stays put: the
+  // camera moves into the other's units before the frame is drawn.
+  const shownMap = useRef<{ world: string; map?: ExplorerWorld['map'] }>(
+    undefined,
+  )
+  const rebased = useRef(false)
+  useLayoutEffect(() => {
+    // Only with the camera moved to match: a frame between would clamp the
+    // old view to the new map.
+    cam.worlds = camWorlds
+    const w = worlds.find((o) => o.id === cam.anchor)
+    const was = shownMap.current
+    shownMap.current = w && { world: w.id, map: w.map }
+    if (!w?.map || !was?.map || was.world !== w.id || was.map.src === w.map.src)
+      return
+    if (cam.level !== 'world') return
+    if (w.map.parent && w.map.parent.map.src === was.map.src)
+      cam.rebase('city', camWorlds[w.id].inset!)
+    else if (was.map.parent && was.map.parent.map.src === w.map.src)
+      cam.rebase('parent', {
+        k: INSET_K,
+        at: mapPoint(w.map, was.map.parent.at),
+      })
+    else return
+    rebased.current = true
+  }, [worlds, cam, camWorlds])
+
+  // Fly whenever the goal changes; cut to the first one.
+  const first = useRef(true)
+  // Before the frame is drawn, so a flight from a rebase starts at once.
+  useLayoutEffect(() => {
+    // A zoom between a city and its map: the camera's already there.
+    if (rebased.current && goal.cut && !first.current) {
+      rebased.current = false
+      return
+    }
+    rebased.current = false
+    const h = host.current
+    if (h) {
+      cam.W = h.clientWidth || cam.W
+      cam.H = h.clientHeight || cam.H
+    }
+    const target = targetFor(goal, worlds, cam)
+    if (first.current) cam.jump(target)
+    else if (goal.cut)
+      cam.jump(goal.cut === true ? target : { ...target, h: goal.cut })
+    else cam.planTo(target)
+    first.current = false
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [cam, goal.key])
+
+  return null
 }
 
 function Rig({ cam, fade }: { cam: Cam; fade: Ref<Fades> }) {
@@ -691,6 +1112,20 @@ function Rig({ cam, fade }: { cam: Cam; fade: Ref<Fades> }) {
     pc.position.set(cam.cx, cam.cy, PLANE_Z + d)
     pc.near = d * 0.05
     pc.far = d + 400000
+    // The globe's framing (see Cam.frame): a lens shift and zoom, so the
+    // camera itself stays where its bounds keep it.
+    const { k, x, y } = cam.frame
+    const { width: W, height: H } = size
+    if (k !== 1 || x || y)
+      pc.setViewOffset(
+        W,
+        H,
+        W / 2 - (W / 2 + x) / k,
+        H / 2 - (H / 2 + y) / k,
+        W / k,
+        H / k,
+      )
+    else if (pc.view?.enabled) pc.clearViewOffset()
     pc.updateProjectionMatrix()
     fade.current = cam.fades()
   })
@@ -711,75 +1146,47 @@ function Projector({
   return null
 }
 
-/** Characters shown above a world; the rest wait behind "+N". */
-const MAX_PEOPLE = 6
+/** On a city's map, people nearer than this on screen fan out together. */
+const CLUSTER_PX = 36
+/** Space between fanned-out faces. */
+const FACE_GAP = 48
+/** On a city's map, this many at one spot get a flag instead of a fan. */
+const CITY_FLAG_MIN = 6
+/** Off-screen places flagged at the edge, the most crowded first. */
+const MAX_EDGE_FLAGS = 4
+/** How far from its place a flag may stand, nearest first. */
+const GAPS = [14, 40, 70]
+/** The arrow an edge flag gains, pointing to its place. */
+const EDGE_ARROW = 16
+/** Phones and touch screens: smaller flags, the roster as a sheet. */
+const PHONE = '(max-width: 639px), (pointer: coarse)'
 
-/**
- * Lays a world's groups (Shards, then characters) along an arc over its
- * globe of screen radius `r`: Shards to the left of the top, characters to
- * the right, each item facing out (Shards) or upright, its label above.
- */
-function arc(el: HTMLElement, r: number) {
-  const groups = [...el.querySelectorAll<HTMLElement>('[data-group]')]
-  const laid = groups.map((g) => {
-    const h = Number(g.dataset.h)
-    const R = r + 12 + h / 2
-    const items = [...g.querySelectorAll<HTMLElement>('[data-item]')]
-    const step = Number(g.dataset.w) / R
-    return { g, h, R, items, step, span: (items.length - 1) * step }
-  })
-  const gap = 28 / Math.max(r, 1)
-  const at = (x: HTMLElement, R: number, a: number, turn: boolean) => {
-    x.style.setProperty('--a', `${a}rad`)
-    x.style.transform =
-      `translate(${(R * Math.sin(a)).toFixed(1)}px, ${(-R * Math.cos(a)).toFixed(1)}px)` +
-      ` translate(-50%, -50%)${turn ? ` rotate(${a.toFixed(3)}rad)` : ''}`
-  }
-  laid.forEach(({ g, h, R, items, step, span }, k) => {
-    const mid =
-      laid.length < 2 ? 0 : (k ? 1 : -1) * (gap / 2 + span / 2 + step / 2)
-    const angles = items.map((_, i) => mid - span / 2 + i * step)
-    items.forEach((x, i) => at(x, R, angles[i], x.hasAttribute('data-turn')))
-    // Curved along the arc just outside the items, from the first one's
-    // leading edge, over a line that spans the group.
-    const letters = g.querySelectorAll<HTMLElement>('[data-label] > span')
-    if (!letters.length) return
-    const Rl = R + h / 2 + 16
-    const start = angles[0] - items[0].offsetWidth / 2 / R
-    let a = start
-    for (const l of letters) {
-      const w = l.offsetWidth
-      at(l, Rl, a + w / 2 / Rl, true)
-      a += w / Rl
-    }
-    const end = Math.max(
-      a,
-      angles[items.length - 1] + items[items.length - 1].offsetWidth / 2 / R,
-    )
-    const Rr = Rl - 9
-    const p = (t: number) =>
-      `${(Rr * Math.sin(t)).toFixed(1)} ${(-Rr * Math.cos(t)).toFixed(1)}`
-    g.querySelector('[data-line] path')?.setAttribute(
-      'd',
-      `M ${p(start)} A ${Rr} ${Rr} 0 0 1 ${p(end)}`,
-    )
-  })
+type FlagParts = {
+  flag: HTMLElement
+  stem: HTMLElement
+  dot: HTMLElement
+  ring: HTMLElement | null
+  count: HTMLElement
+  plus: HTMLElement
 }
 
-/** A label laid out letter by letter, for `arc` to bend. */
-const Curved = ({ text }: { text: string }) => (
-  <>
-    <svg className={styles.groupLine} data-line aria-hidden>
-      <path />
-    </svg>
-    <span className={styles.groupLabel} data-label aria-label={text}>
-      {[...text].map((c, i) => (
-        <span key={i} aria-hidden>
-          {c === ' ' ? '\u00a0' : c}
-        </span>
-      ))}
-    </span>
-  </>
+const MapIcon = () => (
+  <svg viewBox="0 0 24 24" width="15" height="15" aria-hidden="true">
+    <path
+      d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2Zm0 0v14m6-12v14"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth="2"
+      strokeLinejoin="round"
+    />
+  </svg>
+)
+
+/** A face, or its initials (dashed, so it never reads as a count). */
+const Face = ({ p }: { p: ExplorerFloatPerson }) => (
+  <span className={styles.f} data-letter={p.face ? undefined : ''}>
+    {p.face ? <img src={p.face} alt="" decoding="async" /> : p.initials}
+  </span>
 )
 
 const show = (el: HTMLElement, x: number, y: number, o: number) => {
@@ -790,15 +1197,57 @@ const show = (el: HTMLElement, x: number, y: number, o: number) => {
   el.style.visibility = o > 0.05 ? 'visible' : 'hidden'
 }
 
+/** Moves a flag's part; flags fade in together, with their layer. */
+const put = (el: HTMLElement, x: number, y: number, on = true) => {
+  el.style.translate = `${x.toFixed(1)}px ${y.toFixed(1)}px`
+  el.style.visibility = on ? 'visible' : 'hidden'
+}
+
+/** How much a map's flags show while it swaps with a city's map. */
+const drillFlags = (
+  cam: Cam,
+  map: NonNullable<ExplorerWorld['map']>,
+  cities: ExplorerCity[],
+) => {
+  const lo = cam.range('world')[0]
+  if (map.parent)
+    return drillFades(cam.h * INSET_K, cam.fitFor(mapSize(map)) * INSET_K, lo)
+      .inside
+  // On the map a city's on: close in by one.
+  const near = cities.some((c) => {
+    if (c.world !== cam.anchor || !c.map) return false
+    const [x, y] = cam.toScreen(...mapPoint(map, c.at), PLANE_Z)
+    return x > 0 && x < cam.W && y > 0 && y < cam.H
+  })
+  return near ? drillFades(cam.h, 1, lo).outside : 1
+}
+
+/** Sets an attribute only when it changes. */
+const attr = (el: HTMLElement, name: string, value?: string) => {
+  if (value === undefined) {
+    if (el.hasAttribute(name)) el.removeAttribute(name)
+  } else if (el.getAttribute(name) !== value) el.setAttribute(name, value)
+}
+
 /** Where a goal puts the camera. */
-function targetFor(goal: ExplorerGoal, worlds: ExplorerWorld[]): CamTarget {
+function targetFor(
+  goal: ExplorerGoal,
+  worlds: ExplorerWorld[],
+  cam: Cam,
+): CamTarget {
   const world = worlds.find((w) => w.id === goal.world)
   if (!world) return {}
   const map = world.map
   return goal.view === 'pin' && map && goal.pin
     ? { world: world.id, c: mapPoint(map, goal.pin), h: PIN_H }
     : goal.view !== 'globe' && map
-      ? { world: world.id, c: [0, 0], h: MAP_VIEW_H }
+      ? {
+          world: world.id,
+          c: [0, 0],
+          h: cam.fillH(world.id) ?? MAP_VIEW_H,
+          // Into a city: one even glide down onto it.
+          ...(map.city && { ms: 1000 }),
+        }
       : { world: world.id }
 }
 
@@ -816,21 +1265,33 @@ export function ExplorerCanvas({
   onPin,
   onBackground,
   onView,
+  onGlobe,
   effect,
-  shards = [],
-  onShard,
   people = [],
   onPerson,
-  onMorePeople,
+  onPlace,
+  cities = [],
   onReset,
   children,
+  globeTitle,
+  dock,
+  zoomIn,
 }: ExplorerCanvasProps) {
   const camWorlds = useMemo(
     () =>
       Object.fromEntries(
         worlds.map((w): [string, CamWorld] => [
           w.id,
-          { star: w.star, ...(w.map && { map: mapSize(w.map) }) },
+          {
+            star: w.star,
+            ...(w.map && { map: mapSize(w.map), city: w.map.city }),
+            ...(w.map?.parent && {
+              inset: {
+                k: INSET_K,
+                at: mapPoint(w.map.parent.map, w.map.parent.at),
+              },
+            }),
+          },
         ]),
       ),
     [worlds],
@@ -841,8 +1302,8 @@ export function ExplorerCanvas({
     // eslint-disable-next-line react-hooks/exhaustive-deps
     [],
   )
-  cam.worlds = camWorlds
   const fade = useRef<Fades>(levelFades('sky', cam.h))
+  const globeOn = useRef<boolean>(undefined)
   const hovered = useRef<readonly [number, number] | undefined>(undefined)
   const [anchor, setAnchor] = useState(cam.anchor)
   const [level, setLevel] = useState(cam.level)
@@ -853,18 +1314,65 @@ export function ExplorerCanvas({
   const shatter = useRef<number>(undefined)
   useEffect(() => () => void (shatter.current = undefined), [effect?.key])
   const faceEls = useRef(new Map<string, HTMLElement>())
-  const unknownEls = useRef(new Map<string, HTMLElement>())
-  // One group per world: its Shards and notable characters.
-  const floatEls = useRef<Map<string, HTMLElement>>(new Map())
+  // On a city's map, people close together fan out with leader lines.
+  const leadEls = useRef(new Map<string, HTMLElement>())
+  // One flag per place: its parts, its spot last frame (to keep it there)
+  // and its size, measured once.
+  const flagEls = useRef(new Map<string, FlagParts>())
+  const flagSpots = useRef(new Map<string, FlagSpot>())
+  const flagSizes = useRef(new WeakMap<HTMLElement, number[]>())
+  const flagsLayer = useRef<HTMLDivElement>(null)
+  // Places folded into another's flag, for lack of room: host -> theirs.
+  const merged = useRef(new Map<string, string[]>())
+  const chipEls = useRef(new Map<string, HTMLElement>())
+  const canvasEl = useRef<HTMLCanvasElement>(undefined)
+  const cityEls = useRef(new Map<string, HTMLElement>())
+  const rosterEl = useRef<HTMLDivElement>(null)
+  const phone = useMemo(
+    () => (typeof matchMedia === 'function' ? matchMedia(PHONE) : undefined),
+    [],
+  )
   const host = useRef<HTMLDivElement>(null)
-  const latest = useRef({ onExplore, onView, goal, worlds })
+  const titleEl = useRef<HTMLDivElement>(null)
+  const latest = useRef({
+    onExplore,
+    onView,
+    onGlobe,
+    goal,
+    worlds,
+    cities,
+    onPlace,
+  })
   useEffect(() => {
-    latest.current = { onExplore, onView, goal, worlds }
+    latest.current = {
+      onExplore,
+      onView,
+      onGlobe,
+      goal,
+      worlds,
+      cities,
+      onPlace,
+    }
   })
 
   useEffect(() => {
     cam.reduced = reducedMotion()
     cam.onZoomOutEdge = () => latest.current.onExplore(undefined)
+    // Zoomed all the way in by a city with its own map: open it.
+    cam.onZoomInEdge = (sx, sy) => {
+      const { worlds, cities, onPlace } = latest.current
+      const map = worlds.find((w) => w.id === cam.anchor)?.map
+      if (!map) return
+      const near = cities
+        .filter((c) => c.world === cam.anchor)
+        .map((c) => {
+          const [x, y] = cam.toScreen(...mapPoint(map, c.at), PLANE_Z)
+          return { c, d: Math.hypot(x - sx, y - sy) }
+        })
+        .sort((a, b) => a.d - b.d)[0]
+      if (near && near.d < Math.min(cam.W, cam.H) / 2)
+        onPlace?.(near.c.world, near.c.mapId, true)
+    }
     const report = () =>
       latest.current.onView?.({ world: cam.anchor, level: cam.level })
     cam.onLevel = (l) => {
@@ -877,20 +1385,86 @@ export function ExplorerCanvas({
     }
   }, [cam, setAnchor])
 
-  // Fly whenever the goal changes; cut to the first one.
-  const first = useRef(true)
+  // The globe's framing: in the dock's box, else clear of the title.
+  const titled = !!globeTitle
   useEffect(() => {
     const h = host.current
-    if (h) {
-      cam.W = h.clientWidth || cam.W
-      cam.H = h.clientHeight || cam.H
+    if (!h) return
+    const measure = () => {
+      const b = dock?.getBoundingClientRect()
+      // A dock not shown (no room for it) leaves the globe where it is.
+      if (b && b.width >= 1 && b.height >= 1) {
+        const a = h.getBoundingClientRect()
+        cam.dock = {
+          x: b.left - a.left + b.width / 2,
+          y: b.top - a.top + b.height / 2,
+          r: Math.min(b.width, b.height) / 2,
+        }
+      } else if (titled && !dock)
+        cam.dock = {
+          top: (titleEl.current?.offsetHeight ?? 0) + TITLE_GAP + TITLE_TOP,
+        }
+      else cam.dock = undefined
     }
-    const target = targetFor(goal, latest.current.worlds)
-    if (first.current) cam.jump(target)
-    else cam.planTo(target)
-    first.current = false
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [cam, goal.key])
+    measure()
+    if (typeof ResizeObserver !== 'function') return
+    const ro = new ResizeObserver(measure)
+    for (const el of [h, dock, titleEl.current]) if (el) ro.observe(el)
+    return () => ro.disconnect()
+  }, [cam, dock, titled])
+  useEffect(() => () => void (cam.dock = undefined), [cam])
+  const zoomedIn = useRef(zoomIn)
+  useEffect(() => {
+    if (zoomIn === zoomedIn.current) return
+    zoomedIn.current = zoomIn
+    const { worlds } = latest.current
+    if (worlds.find((w) => w.id === cam.anchor)?.map)
+      cam.planTo(targetFor({ world: cam.anchor, key: '' }, worlds, cam))
+  }, [cam, zoomIn])
+
+  // The cities' maps on the world in view, ready to zoom into.
+  useEffect(() => {
+    for (const c of cities) if (c.world === anchor) useTexture.preload(c.src)
+  }, [cities, anchor])
+
+  // The cities with maps of their own: their footprint, and a tag to open.
+  const placeCities = (cam: Cam, f: Fades) => {
+    const w = latest.current.worlds.find((o) => o.id === cam.anchor)
+    const map = w?.map
+    for (const [id, el] of cityEls.current) {
+      const c = latest.current.cities.find((o) => o.mapId === id)
+      if (!c?.map || !map || c.world !== cam.anchor || cam.level !== 'world') {
+        el.style.visibility = 'hidden'
+        continue
+      }
+      const [x, y] = cam.toScreen(...mapPoint(map, c.at), PLANE_Z)
+      const s = cam.scale(PLANE_Z)
+      const [mw, mh] = mapSize(c.map)
+      const fw = mw * INSET_K * s
+      const fh = mh * INSET_K * s
+      // The tag stays; the footprint shows once there's room for it, and
+      // both give way as the city's own map fades in over it.
+      const o =
+        f.map *
+        tagsFade(cam.h, !!cam.worlds[cam.anchor]?.inset) *
+        (1 -
+          drillFades(
+            cam.h,
+            cam.fitFor([mw, mh]) * INSET_K,
+            cam.range('world')[0],
+          ).city)
+      el.style.translate = `${x.toFixed(1)}px ${y.toFixed(1)}px`
+      el.style.setProperty('--fw', `${fw.toFixed(1)}px`)
+      el.style.setProperty('--fh', `${fh.toFixed(1)}px`)
+      el.style.setProperty(
+        '--foot',
+        Math.max(0, Math.min(1, (fh - 36) / 30)).toFixed(2),
+      )
+      attr(el, 'data-foot', fh >= 44 ? '' : undefined)
+      el.style.opacity = o.toFixed(3)
+      el.style.visibility = o > 0.05 ? 'visible' : 'hidden'
+    }
+  }
 
   const stars = useMemo(() => {
     const seen = new Map<string, readonly [number, number]>()
@@ -902,7 +1476,130 @@ export function ExplorerCanvas({
   const row = (w: ExplorerWorld) =>
     worlds.filter((o) => o.star === w.star).indexOf(w)
 
+  // The person being shown leads their place's stack.
+  const shownId = goal.key.startsWith('person:')
+    ? goal.key.slice(7).split('#')[0]
+    : undefined
+  const places = useMemo(() => placeGroups(people, shownId), [people, shownId])
+  const onCity = !!worlds.find((w) => w.id === anchor)?.map?.city
+  // On a world's map, every place is a flag; on a city's, only crowds.
+  const flagged = (g: FlagGroup) => !onCity || g.members.length >= CITY_FLAG_MIN
+  const inFlags = new Set(
+    places.filter(flagged).flatMap((g) => g.members.map((p) => p.id)),
+  )
+  // The current event's place: the flag nearest its pin, if close.
+  const eventPin = pins.find((p) => p.id === current)
+  const eventKey = onCity
+    ? undefined
+    : places
+        .filter((g) => eventPin && g.world === eventPin.world)
+        .map((g) => ({
+          g,
+          d: Math.hypot(g.at[0] - eventPin!.at[0], g.at[1] - eventPin!.at[1]),
+        }))
+        .filter((o) => o.d < 40)
+        .sort((a, b) => a.d - b.d)[0]?.g.key
+  const lostOn = (world: string) =>
+    people.filter((p) => p.world === world && !p.at && !p.elsewhere)
+  // Who's at a place (or two, folded together), or in no known place.
+  const [roster, setRoster] = useState<{
+    keys: string[]
+    goal: string
+    anchor: string
+  }>()
+  const open =
+    roster && roster.goal === goal.key && roster.anchor === anchor
+      ? roster
+      : undefined
+  const toggleRoster = (key: string) =>
+    setRoster(
+      open?.keys[0] === key
+        ? undefined
+        : {
+            keys: [key, ...(merged.current.get(key) ?? [])],
+            goal: goal.key,
+            anchor,
+          },
+    )
+  const shownRoster = (() => {
+    const [first] = open?.keys ?? []
+    if (!first) return undefined
+    const lost = worlds.find((w) => first === `unknown:${w.id}`)
+    const sections = lost
+      ? [{ key: first, name: undefined, members: lostOn(lost.id) }]
+      : open!.keys.flatMap((k) => places.filter((g) => g.key === k))
+    if (!sections[0]?.members.length) return undefined
+    const head = lost ? undefined : places.find((g) => g.key === first)
+    return {
+      title: lost
+        ? `On ${lost.name}, location unknown`
+        : (head?.name ?? "Who's here"),
+      total: sections.reduce((n, s) => n + s.members.length, 0),
+      sections,
+      world: head?.world ?? '',
+      mapId: head?.mapId,
+    }
+  })()
+  useEffect(() => {
+    if (!open) return
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key !== 'Escape') return
+      e.stopPropagation()
+      setRoster(undefined)
+    }
+    window.addEventListener('keydown', onKey, true)
+    return () => window.removeEventListener('keydown', onKey, true)
+  }, [open])
+  // Flags are measured again once fonts load and when phone sizes apply.
+  useEffect(() => {
+    const remeasure = () => void (flagSizes.current = new WeakMap())
+    void document.fonts?.ready.then(remeasure)
+    phone?.addEventListener('change', remeasure)
+    return () => phone?.removeEventListener('change', remeasure)
+  }, [phone])
+
+  /** A flag's (or chip's) width, compact width and height, measured once. */
+  const sizeOf = (el: HTMLElement) => {
+    let s = flagSizes.current.get(el)
+    if (!s) {
+      const edge = el.getAttribute('data-edge')
+      const compact = el.hasAttribute('data-compact')
+      el.removeAttribute('data-edge')
+      el.removeAttribute('data-compact')
+      const w = el.offsetWidth
+      const h = el.offsetHeight
+      el.setAttribute('data-compact', '')
+      s = [w, el.offsetWidth, h]
+      if (!compact) el.removeAttribute('data-compact')
+      if (edge) el.setAttribute('data-edge', edge)
+      flagSizes.current.set(el, s)
+    }
+    return s
+  }
+
   const place = (cam: Cam, f: Fades) => {
+    // The controls over the map, which flags keep clear of: read first,
+    // before this frame moves anything, so it costs no extra layout.
+    const ui: Box[] = []
+    let below = 176
+    const h = host.current
+    if (h && f.map > 0.5) {
+      const hr = h.getBoundingClientRect()
+      const els = [...(h.parentElement?.children ?? [])].filter((e) => e !== h)
+      els.push(...h.querySelectorAll(`.${styles.zoom}, .${styles.credit}`))
+      for (const el of els) {
+        const r = el.getBoundingClientRect()
+        if (!r.width || !r.height) continue
+        const b: Box = [
+          r.left - hr.left,
+          r.top - hr.top,
+          r.right - hr.left,
+          r.bottom - hr.top,
+        ]
+        ui.push([b[0] - 4, b[1] - 4, b[2] + 4, b[3] + 4])
+        if (el.tagName === 'NAV') below = b[3] + 8
+      }
+    }
     for (const w of worlds) {
       const el = labels.current.get(w.id)
       if (!el) continue
@@ -911,6 +1608,9 @@ export function ExplorerCanvas({
       show(el, x, y, w.id === cam.anchor ? o * (1 - f.planetIn) : o)
     }
     const world = worlds.find((w) => w.id === cam.anchor)
+    const drill = world?.map
+      ? drillFlags(cam, world.map, latest.current.cities)
+      : 1
     for (const p of pins) {
       const el = pinEls.current.get(p.id)
       if (!el) continue
@@ -920,40 +1620,277 @@ export function ExplorerCanvas({
       }
       const [x, y] = mapPoint(world.map, p.at)
       const [sx, sy] = cam.toScreen(x, y, PLANE_Z)
-      show(el, sx, sy, f.map > 0.5 ? Math.min(1, (f.map - 0.5) * 3) : 0)
+      show(el, sx, sy, f.map > 0.5 ? Math.min(1, (f.map - 0.5) * 3) * drill : 0)
     }
-    const mapO = f.map > 0.5 ? Math.min(1, (f.map - 0.5) * 3) : 0
+    const map = world?.map
+    const mapO = f.map > 0.5 ? Math.min(1, (f.map - 0.5) * 3) * drill : 0
+    const W = cam.W
+    const H = cam.H
+    const view: Box = [0, 0, W, H]
+    const inView = (b: Box) => b[0] >= 0 && b[1] >= 0 && b[2] <= W && b[3] <= H
+    const toScreen = (at: readonly [number, number]) =>
+      cam.toScreen(...mapPoint(map!, at), PLANE_Z)
+    const pad = (b: Box, d: number): Box => [
+      b[0] - d,
+      b[1] - d,
+      b[2] + d,
+      b[3] + d,
+    ]
+    const small = !!phone?.matches
+    const layer = flagsLayer.current
+    if (layer) layer.style.opacity = mapO.toFixed(3)
+    const taken = [...ui]
+    // Who's on the map, but nobody knows where: a chip under the controls.
+    let chip: Box | undefined
+    for (const [id, el] of chipEls.current) {
+      const on = id === cam.anchor && !!map && mapO > 0
+      show(el, 12, below, on ? mapO : 0)
+      if (!on) continue
+      const [w, , ch] = sizeOf(el)
+      chip = [12, below, 12 + w, below + ch]
+      taken.push(pad(chip, 4))
+    }
+    // The faces on a city's map: alone, or fanned out around their spot.
+    const groups: {
+      at: [number, number]
+      ids: string[]
+      spots: [number, number][]
+    }[] = []
     for (const p of people) {
       const el = faceEls.current.get(p.id)
       if (!el) continue
-      if (p.world !== cam.anchor || !world?.map || !p.at) {
+      const lead = leadEls.current.get(p.id)
+      if (lead) show(lead, -999, -999, 0)
+      if (inFlags.has(p.id) || p.world !== cam.anchor || !map || !p.at) {
         show(el, -999, -999, 0)
         continue
       }
-      const [x, y] = mapPoint(world.map, p.at)
-      const [sx, sy] = cam.toScreen(x, y, PLANE_Z)
-      show(el, sx, sy, mapO)
+      const spot = toScreen(p.at)
+      const g = groups.find(
+        (o) => Math.hypot(o.at[0] - spot[0], o.at[1] - spot[1]) < CLUSTER_PX,
+      )
+      if (g) {
+        g.ids.push(p.id)
+        g.spots.push(spot)
+      } else groups.push({ at: spot, ids: [p.id], spots: [spot] })
     }
-    for (const [id, el] of unknownEls.current)
-      show(el, 0, 0, id === cam.anchor && world?.map ? mapO : 0)
-    // Up close, around their world's globe; never out in the sky.
-    for (const [id, el] of floatEls.current) {
-      const w = worlds.find((o) => o.id === id)
-      if (!w) {
-        show(el, -999, -999, 0)
+    const faceBox = (x: number, y: number): Box => [
+      x - 24,
+      y - 24,
+      x + 24,
+      y + 24,
+    ]
+    for (const g of groups) {
+      if (g.ids.length === 1) {
+        show(faceEls.current.get(g.ids[0])!, g.at[0], g.at[1], mapO)
+        taken.push(faceBox(...g.at))
         continue
       }
-      if (w.id !== cam.anchor || f.planetIn <= 0.5) {
-        show(el, -999, -999, 0)
+      const cx = g.spots.reduce((a, s) => a + s[0], 0) / g.spots.length
+      const cy = g.spots.reduce((a, s) => a + s[1], 0) / g.spots.length
+      // Rings around the group, each as full as a face's width allows.
+      let r = FACE_GAP
+      let ring = 0
+      g.ids.forEach((id, k) => {
+        const cap = Math.floor((2 * Math.PI * r) / FACE_GAP)
+        if (k - ring >= cap) {
+          ring = k
+          r += FACE_GAP
+        }
+        const n = Math.min(cap, g.ids.length - ring)
+        const a =
+          -Math.PI / 2 + ((k - ring) * 2 * Math.PI) / n + (ring ? 0.3 : 0)
+        const fx = cx + r * Math.cos(a)
+        const fy = cy + r * Math.sin(a)
+        show(faceEls.current.get(id)!, fx, fy, mapO)
+        taken.push(faceBox(fx, fy))
+        const [sx, sy] = g.spots[k]
+        const lead = leadEls.current.get(id)!
+        lead.style.width = `${Math.hypot(fx - sx, fy - sy).toFixed(1)}px`
+        lead.style.rotate = `${Math.atan2(fy - sy, fx - sx).toFixed(4)}rad`
+        show(lead, sx, sy, mapO)
+      })
+    }
+    // One flag per place, around it on a stem, clear of the controls, the
+    // names painted on the map, the places themselves and other flags.
+    const live =
+      map && mapO > 0
+        ? places.filter((g) => g.world === cam.anchor && flagged(g))
+        : []
+    const anchors = new Map(live.map((g) => [g.key, toScreen(g.at)]))
+    if (live.length) {
+      const boxes = (paintedNames as Record<string, Record<string, number[]>>)[
+        world?.mapId ?? ''
+      ]
+      for (const [x0, y0, x1, y1] of Object.values(boxes ?? {}))
+        taken.push([...toScreen([x0, y0]), ...toScreen([x1, y1])])
+      for (const [x, y] of anchors.values())
+        taken.push([x - 6, y - 6, x + 6, y + 6])
+      if (eventPin?.world === cam.anchor) {
+        const [x, y] = toScreen(eventPin.at)
+        taken.push([x - 14, y - 14, x + 14, y + 14])
+      }
+    }
+    const stem = (el: HTMLElement, a: readonly [number, number], b: Box) => {
+      const [x, y] = nearest(a, b)
+      const len = Math.hypot(x - a[0], y - a[1])
+      el.style.width = `${len.toFixed(1)}px`
+      el.style.rotate = `${Math.atan2(y - a[1], x - a[0]).toFixed(4)}rad`
+      put(el, a[0], a[1], len > 2)
+    }
+    const drawFlag = (
+      parts: FlagParts,
+      b: Box,
+      compact: boolean,
+      edge?: string,
+    ) => {
+      attr(parts.flag, 'data-compact', compact ? '' : undefined)
+      attr(parts.flag, 'data-edge', edge)
+      put(parts.flag, (b[0] + b[2]) / 2, (b[1] + b[3]) / 2)
+    }
+    const hide = (parts: FlagParts) => {
+      for (const el of [parts.flag, parts.stem, parts.dot, parts.ring])
+        if (el) put(el, -999, -999, false)
+    }
+    const shown = new Set<string>()
+    const placed = new Map<string, Box>()
+    const folded = new Map<string, string[]>()
+    const off: FlagGroup[] = []
+    const order = [...live].sort(
+      (a, b) =>
+        Number(b.key === eventKey) - Number(a.key === eventKey) ||
+        b.members.length - a.members.length ||
+        (a.name ?? '').localeCompare(b.name ?? ''),
+    )
+    for (const g of order) {
+      const parts = flagEls.current.get(g.key)
+      if (!parts) continue
+      shown.add(g.key)
+      const a = anchors.get(g.key)!
+      if (!inView([...a, ...a])) {
+        off.push(g)
         continue
       }
-      // Laid out as at the world's globe view, then scaled with the globe,
-      // so they stay on its top as you zoom and go as it unrolls.
+      put(parts.dot, ...a)
+      if (parts.ring) put(parts.ring, ...a)
+      const [w, cw, fh] = sizeOf(parts.flag)
+      const spot = spotFor(
+        a,
+        w,
+        cw,
+        fh,
+        view,
+        taken,
+        GAPS,
+        flagSpots.current.get(g.key),
+      )
+      if (spot) {
+        flagSpots.current.set(g.key, spot)
+        placed.set(g.key, spot.box)
+        taken.push(pad(spot.box, 4))
+        drawFlag(parts, spot.box, spot.compact)
+        stem(parts.stem, a, spot.box)
+        continue
+      }
+      flagSpots.current.delete(g.key)
+      put(parts.flag, -999, -999, false)
+      // No room: folded into the nearest flag, its stem leading there.
+      const to = [...placed.keys()].sort(
+        (x, y) =>
+          Math.hypot(
+            ...(anchors.get(x)!.map((v, i) => v - a[i]) as [number, number]),
+          ) -
+          Math.hypot(
+            ...(anchors.get(y)!.map((v, i) => v - a[i]) as [number, number]),
+          ),
+      )[0]
+      if (!to) {
+        hide(parts)
+        continue
+      }
+      folded.set(to, [...(folded.get(to) ?? []), g.key])
+      stem(parts.stem, a, placed.get(to)!)
+    }
+    // Places off screen: a flag at the edge, toward them (a click goes
+    // there), slid along the edge clear of the controls.
+    off.sort((a, b) => b.members.length - a.members.length)
+    off.forEach((g, i) => {
+      const parts = flagEls.current.get(g.key)!
+      hide(parts)
+      if (i >= MAX_EDGE_FLAGS) return
+      const [w, , fh] = sizeOf(parts.flag)
+      const ew = w + EDGE_ARROW
+      const { x, y, arrow } = edgeSpot(anchors.get(g.key)!, ew, fh, view)
+      const along = arrow === '▲' || arrow === '▼'
+      for (let k = 0; k <= 20; k++) {
+        const d = (k % 2 ? 1 : -1) * Math.ceil(k / 2) * 20
+        const bx = along ? x + d : x
+        const by = along ? y : y + d
+        const b: Box = [bx - ew / 2, by - fh / 2, bx + ew / 2, by + fh / 2]
+        if (!inView(b) || taken.some((t) => hits(b, t))) continue
+        taken.push(pad(b, 4))
+        drawFlag(parts, b, false, arrow)
+        placed.set(g.key, b)
+        return
+      }
+    })
+    for (const [key, parts] of flagEls.current) {
+      if (!shown.has(key)) {
+        hide(parts)
+        continue
+      }
+      // A flag counts the places folded into it, too.
+      const extra = folded.get(key) ?? []
+      const n = [key, ...extra].reduce(
+        (s, k) => s + (places.find((o) => o.key === k)?.members.length ?? 0),
+        0,
+      )
+      const plus = extra.length
+        ? ` +${extra.length} place${extra.length > 1 ? 's' : ''}`
+        : ''
+      if (
+        parts.count.dataset.n !== String(n) ||
+        (parts.plus.dataset.plus ?? '') !== plus
+      ) {
+        parts.count.dataset.n = String(n)
+        parts.plus.dataset.plus = plus
+        flagSizes.current.delete(parts.flag)
+      }
+    }
+    merged.current = folded
+    // The roster beside its flag (on phones, a sheet: placed by CSS).
+    const pop = rosterEl.current
+    const at =
+      open &&
+      (open.keys[0].startsWith('unknown:') ? chip : placed.get(open.keys[0]))
+    if (pop && !small) {
+      if (!at) put(pop, -999, -999, false)
+      else {
+        const [pw, , ph] = sizeOf(pop)
+        const cx = (at[0] + at[2]) / 2
+        const above = at[1] > H - at[3] && at[1] - ph - 10 >= 8
+        const x = Math.min(Math.max(cx - pw / 2, 8), W - pw - 8)
+        const y = above
+          ? at[1] - ph - 10
+          : Math.min(at[3] + 10, Math.max(8, H - ph - 8))
+        put(pop, x, y)
+        pop.style.setProperty('--caret', `${(cx - x).toFixed(1)}px`)
+        attr(pop, 'data-side', above ? 'above' : 'below')
+      }
+    }
+    const globe = f.planetIn > 0.5 && f.flat < 0.5
+    if (globe !== globeOn.current) {
+      globeOn.current = globe
+      latest.current.onGlobe?.(globe)
+    }
+    const title = titleEl.current
+    if (title) {
+      const o = cam.level === 'world' ? f.planetIn * (1 - smooth(f.flat)) : 0
       const [cx, cy] = cam.toScreen(0, 0, 0)
-      const globe = cam.scale(0, cam.globeH())
-      el.style.scale = (cam.scale(0) / globe).toFixed(4)
-      show(el, cx, cy, f.planetIn * (1 - smooth(f.flat)))
-      arc(el, PLANET_R * globe)
+      const r = PLANET_R * cam.scale(0)
+      show(title, cx, cy - r, o)
+      // The globe's radius, for what the title places round the globe.
+      title.style.setProperty('--globe-r', `${r.toFixed(1)}px`)
     }
     const burst = burstEl.current
     if (burst && effect) {
@@ -1009,10 +1946,11 @@ export function ExplorerCanvas({
         // A click, not the end of a drag.
         if (!p || Math.hypot(e.clientX - p.x, e.clientY - p.y) > 5) return
         if (!(e.target instanceof HTMLCanvasElement)) return
+        setRoster(undefined)
         onBackground?.()
         if (overGlobe(e)) {
           host.current!.removeAttribute('data-zoom')
-          cam.planTo(targetFor({ world: world!.id, key: '' }, worlds))
+          cam.planTo(targetFor({ world: world!.id, key: '' }, worlds, cam))
         }
       }}
     >
@@ -1026,11 +1964,19 @@ export function ExplorerCanvas({
           // On the canvas itself, so the HTML buttons above keep working.
           // Not dropped on a lost WebGL context: it can come back, and the
           // view must still pan and zoom when it does.
+          canvasEl.current = gl.domElement
           detach.current?.()
           detach.current = cam.attach(gl.domElement)
         }}
       >
         <color attach="background" args={['#03060a']} />
+        <Handover
+          cam={cam}
+          worlds={worlds}
+          camWorlds={camWorlds}
+          goal={goal}
+          host={host}
+        />
         <Rig cam={cam} fade={fade} />
         <Stars />
         <Suspense fallback={null}>
@@ -1040,6 +1986,8 @@ export function ExplorerCanvas({
           <World
             key={world.id}
             world={world}
+            cam={cam}
+            insets={cities.filter((c) => c.world === world.id)}
             fade={fade}
             shatter={effect?.world === world.id ? shatter : undefined}
           />
@@ -1053,6 +2001,7 @@ export function ExplorerCanvas({
           />
         </EffectComposer>
         <Projector cam={cam} fade={fade} place={place} />
+        <Projector cam={cam} fade={fade} place={placeCities} />
       </Canvas>
       <div className={styles.overlay}>
         {effect?.kind === 'shattering' && (
@@ -1085,6 +2034,35 @@ export function ExplorerCanvas({
             {w.name}
           </button>
         ))}
+        {cities.map((c) => (
+          <div
+            key={c.mapId}
+            className={styles.city}
+            ref={(el) => {
+              if (!el) return void cityEls.current.delete(c.mapId)
+              cityEls.current.set(c.mapId, el)
+              // The tag sits on the map: a wheel or pinch over it still zooms.
+              const wheel = (e: WheelEvent) => {
+                e.preventDefault()
+                canvasEl.current?.dispatchEvent(new WheelEvent('wheel', e))
+              }
+              el.addEventListener('wheel', wheel, { passive: false })
+              return () => el.removeEventListener('wheel', wheel)
+            }}
+          >
+            <span className={styles.cityFoot} />
+            <button
+              type="button"
+              className={styles.cityTag}
+              aria-label={`Open the map of ${c.title}`}
+              data-tooltip={`Open the map of ${c.title}`}
+              onClick={() => onPlace?.(c.world, c.mapId)}
+            >
+              <MapIcon />
+              <span>{c.title}</span>
+            </button>
+          </div>
+        ))}
         {pins.map((p) => (
           <button
             key={p.id}
@@ -1101,134 +2079,97 @@ export function ExplorerCanvas({
             onClick={() => onPin?.(p.id)}
           />
         ))}
-        {[...new Set([...shards, ...people].map((o) => o.world))].map(
-          (world) => {
-            const here = shards.filter((sh) => sh.world === world)
-            const all = people.filter((p) => p.world === world)
-            const folk = all.slice(0, MAX_PEOPLE)
-            const morePeople = all.length - folk.length
-            return (
-              <div
-                key={world}
-                className={styles.float}
-                ref={(el) =>
-                  void (el
-                    ? floatEls.current.set(world, el)
-                    : floatEls.current.delete(world))
-                }
-              >
-                {here.length > 0 && (
-                  <div data-group="shards" data-h={66} data-w={32}>
-                    <Curved text="Shards" />
-                    {here.map((sh, i) => (
-                      <button
-                        key={sh.id}
-                        type="button"
-                        className={styles.shard}
-                        style={{ '--i': i } as CSSProperties}
-                        data-item
-                        data-turn
-                        data-faded={sh.faded || undefined}
-                        aria-label={sh.name}
-                        onClick={() => onShard?.(sh.id)}
-                      >
-                        <img src={sh.art} alt="" decoding="async" />
-                        <span aria-hidden className={styles.floatName}>
-                          {sh.name}
-                        </span>
-                      </button>
-                    ))}
-                  </div>
-                )}
-                {folk.length > 0 && (
-                  <div
-                    className={styles.people}
-                    data-group="people"
-                    data-h={66}
-                    data-w={36}
-                  >
-                    <Curved text="Notable Characters" />
-                    {folk.map((p, i) => (
-                      <button
-                        key={p.id}
-                        type="button"
-                        className={styles.medallion}
-                        style={{ '--i': i } as CSSProperties}
-                        data-item
-                        data-turn
-                        aria-label={p.name}
-                        onClick={() => onPerson?.(p.id)}
-                      >
-                        <svg
-                          width="30"
-                          height="53"
-                          viewBox="0 0 35 62"
-                          aria-hidden
-                        >
-                          <defs>
-                            <linearGradient id={`pg-${p.id}`} x2="0" y2="1">
-                              <stop offset="0" stopColor="#f1d9a0" />
-                              <stop offset="1" stopColor="#8a6a2c" />
-                            </linearGradient>
-                            <clipPath id={`pc-${p.id}`}>
-                              <circle cx="17.5" cy="17.5" r="14" />
-                            </clipPath>
-                          </defs>
-                          {/* A round head tapering, along its tangents, to a point. */}
-                          <path
-                            d="M2.18 23.62A16.5 16.5 0 1 1 32.82 23.62L17.5 62Z"
-                            fill={`url(#pg-${p.id})`}
-                            stroke="#f1e6c8"
-                            strokeWidth="0.75"
-                          />
-                          {/* A lit facet down the left of the point. */}
-                          <path
-                            d="M4.8 28L17.5 62V31.5Z"
-                            fill="#fff"
-                            opacity="0.22"
-                          />
-                          <circle cx="17.5" cy="17.5" r="14" fill="#1c2a35" />
-                          {p.face ? (
-                            <image
-                              href={p.face}
-                              x="3.5"
-                              y="3.5"
-                              width="28"
-                              height="28"
-                              preserveAspectRatio="xMidYMin slice"
-                              clipPath={`url(#pc-${p.id})`}
-                            />
-                          ) : (
-                            <text x="17.5" y="21" textAnchor="middle">
-                              {p.initials}
-                            </text>
-                          )}
-                        </svg>
-                        <span aria-hidden className={styles.floatName}>
-                          {p.name}
-                        </span>
-                      </button>
-                    ))}
-                    {morePeople > 0 && (
-                      <button
-                        type="button"
-                        className={styles.more}
-                        data-item
-                        data-tooltip="Everyone, in the Notable characters panel"
-                        onClick={onMorePeople}
-                      >
-                        +{morePeople}
-                      </button>
-                    )}
-                  </div>
-                )}
-              </div>
-            )
-          },
-        )}
         {people.map(
           (p) =>
             p.at && (
+              <span
+                key={`lead:${p.id}`}
+                ref={(el) =>
+                  void (el
+                    ? leadEls.current.set(p.id, el)
+                    : leadEls.current.delete(p.id))
+                }
+                className={styles.lead}
+              />
+            ),
+        )}
+        <div className={styles.flags} ref={flagsLayer}>
+          {places.filter(flagged).map((g) => {
+            const n = g.members.length
+            const who = n === 1 ? g.members[0].name : `${n} people`
+            return (
+              <div
+                key={g.key}
+                className={styles.flagSet}
+                ref={(el) =>
+                  void (el
+                    ? flagEls.current.set(g.key, {
+                        flag: el.querySelector('[data-flag]')!,
+                        stem: el.querySelector('[data-stem]')!,
+                        dot: el.querySelector('[data-dot]')!,
+                        ring: el.querySelector('[data-ring]'),
+                        count: el.querySelector('[data-count]')!,
+                        plus: el.querySelector('[data-plus]')!,
+                      })
+                    : flagEls.current.delete(g.key))
+                }
+              >
+                {g.key === eventKey && (
+                  <span className={styles.ring} data-ring />
+                )}
+                <span className={styles.stem} data-stem />
+                <span className={styles.dot} data-dot />
+                <div
+                  className={styles.flag}
+                  data-flag
+                  data-event={g.key === eventKey || undefined}
+                >
+                  <button
+                    type="button"
+                    className={styles.flagBody}
+                    aria-label={g.name ? `${who} at ${g.name}` : `${who} here`}
+                    aria-expanded={open?.keys[0] === g.key}
+                    onClick={(e) => {
+                      // At the edge: go there. Else: who's here.
+                      const map = worlds.find((w) => w.id === g.world)?.map
+                      if (e.currentTarget.parentElement?.dataset.edge && map)
+                        cam.planTo({
+                          world: g.world,
+                          c: mapPoint(map, g.at),
+                          h: cam.h,
+                        })
+                      else toggleRoster(g.key)
+                    }}
+                  >
+                    <span className={styles.stack}>
+                      {g.members.slice(0, 3).map((p) => (
+                        <Face key={p.id} p={p} />
+                      ))}
+                    </span>
+                    <span className={styles.count} data-count data-n={n} />
+                    {g.name && <span className={styles.name}>{g.name}</span>}
+                    <span className={styles.plus} data-plus />
+                  </button>
+                  {g.mapId && (
+                    <button
+                      type="button"
+                      className={styles.mapButton}
+                      aria-label={`Open the map of ${g.name}`}
+                      data-tooltip={`Open the map of ${g.name}`}
+                      onClick={() => onPlace?.(g.world, g.mapId!)}
+                    >
+                      <MapIcon />
+                    </button>
+                  )}
+                </div>
+              </div>
+            )
+          })}
+        </div>
+        {people.map(
+          (p) =>
+            p.at &&
+            !inFlags.has(p.id) && (
               <button
                 key={p.id}
                 type="button"
@@ -1251,42 +2192,102 @@ export function ExplorerCanvas({
             ),
         )}
         {worlds.map((w) => {
-          const lost = people.filter((p) => p.world === w.id && !p.at)
+          const lost = lostOn(w.id)
           return (
             w.map &&
             lost.length > 0 && (
-              <section
+              <button
                 key={w.id}
-                className={styles.unknown}
+                type="button"
+                className={styles.chip}
                 ref={(el) =>
                   void (el
-                    ? unknownEls.current.set(w.id, el)
-                    : unknownEls.current.delete(w.id))
+                    ? chipEls.current.set(w.id, el)
+                    : chipEls.current.delete(w.id))
                 }
+                aria-label={`${lost.length} on ${w.name}, location unknown`}
+                aria-expanded={open?.keys[0] === `unknown:${w.id}`}
+                onClick={() => toggleRoster(`unknown:${w.id}`)}
               >
-                <h3>On {w.name}, location unknown</h3>
-                <ul>
-                  {lost.map((p) => (
-                    <li key={p.id}>
-                      <button type="button" onClick={() => onPerson?.(p.id)}>
-                        <span className={styles.face}>
-                          {p.face ? (
-                            <img src={p.face} alt="" decoding="async" />
-                          ) : (
-                            p.initials
-                          )}
-                        </span>
-                        {p.name}
-                      </button>
-                    </li>
+                <span className={styles.stack}>
+                  {lost.slice(0, 3).map((p) => (
+                    <Face key={p.id} p={p} />
                   ))}
-                </ul>
-              </section>
+                </span>
+                <span>
+                  <b>{lost.length}</b> location unknown
+                </span>
+              </button>
             )
           )
         })}
+        {open && shownRoster && (
+          <>
+            <div
+              className={styles.scrim}
+              onClick={() => setRoster(undefined)}
+            />
+            <div
+              key={open.keys.join()}
+              ref={rosterEl}
+              className={styles.roster}
+              role="dialog"
+              aria-label={shownRoster.title}
+            >
+              <span className={styles.grab} aria-hidden="true" />
+              <h3>
+                {shownRoster.title}
+                {shownRoster.total > 1 && (
+                  <span className={styles.count} data-n={shownRoster.total} />
+                )}
+              </h3>
+              <p className={styles.sub}>Who's here at this moment</p>
+              <div className={styles.list}>
+                {shownRoster.sections.map((s) => (
+                  <Fragment key={s.key}>
+                    {shownRoster.sections.length > 1 && (
+                      <h4>
+                        {s.name ?? 'Here'} · {s.members.length}
+                      </h4>
+                    )}
+                    <ul>
+                      {s.members.map((p) => (
+                        <li key={p.id}>
+                          <button
+                            type="button"
+                            data-tooltip={p.note}
+                            onClick={() => {
+                              setRoster(undefined)
+                              onPerson?.(p.id)
+                            }}
+                          >
+                            <Face p={p} />
+                            <span>{p.name}</span>
+                          </button>
+                        </li>
+                      ))}
+                    </ul>
+                  </Fragment>
+                ))}
+              </div>
+              {shownRoster.mapId && (
+                <button
+                  type="button"
+                  className={styles.open}
+                  onClick={() => {
+                    setRoster(undefined)
+                    onPlace?.(shownRoster.world, shownRoster.mapId!)
+                  }}
+                >
+                  <MapIcon /> Open the map of {shownRoster.title}
+                </button>
+              )}
+              <span className={styles.caret} aria-hidden="true" />
+            </div>
+          </>
+        )}
       </div>
-      <div className={styles.zoom}>
+      <div className={styles.zoom} data-keep-clear>
         {children}
         <button
           type="button"
@@ -1294,7 +2295,15 @@ export function ExplorerCanvas({
           aria-label="Zoom in"
           onClick={() => cam.zoomBy(0.7)}
         >
-          +
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <path
+              d="M12 5v14M5 12h14"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
         </button>
         <button
           type="button"
@@ -1302,7 +2311,15 @@ export function ExplorerCanvas({
           aria-label="Zoom out"
           onClick={() => cam.zoomBy(1 / 0.7)}
         >
-          −
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+            <path
+              d="M5 12h14"
+              fill="none"
+              stroke="currentColor"
+              strokeWidth="2"
+              strokeLinecap="round"
+            />
+          </svg>
         </button>
         {onReset && (
           <button
@@ -1311,12 +2328,40 @@ export function ExplorerCanvas({
             aria-label="Reset the view"
             onClick={onReset}
           >
-            ⟲
+            <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true">
+              <path
+                d="M4 12a8 8 0 1 0 2.3-5.7M4 3v4h4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
           </button>
         )}
       </div>
-      {world?.map && level === 'world' && (
-        <div className={styles.credit}>{world.map.credit}</div>
+      {/* Docked, the globe's box shows the credit itself. */}
+      {world?.map && level === 'world' && !dock && (
+        <div className={styles.credit} data-keep-clear>
+          {world.map.credit}
+        </div>
+      )}
+      {globeTitle && (
+        <div
+          ref={titleEl}
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            zIndex: 2,
+            visibility: 'hidden',
+          }}
+        >
+          <div style={{ translate: `-50% calc(-100% - ${TITLE_GAP}px)` }}>
+            {globeTitle}
+          </div>
+        </div>
       )}
     </div>
   )

@@ -1,0 +1,250 @@
+/* ponytail: temporary, to gather opinions on the way into the world card
+   (TitleStyleSwitcher.tsx); remove once a style is chosen. On the glass and
+   gold hairline of the Events/Books toggle. */
+
+.switcher {
+  position: absolute;
+  right: 0.75rem;
+  bottom: calc(var(--bar-h, 64px) + 0.75rem);
+  z-index: 5;
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 0.3rem;
+  padding: 0.25rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 16px;
+  background: rgba(17, 27, 35, 0.84);
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+  font-size: 0.75rem;
+}
+
+.head,
+.option {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.head {
+  min-height: 2rem;
+  padding: 0.15rem 0.5rem 0.15rem 0.45rem;
+  color: rgba(241, 230, 200, 0.85);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.mark {
+  width: 0.85rem;
+  height: 0.85rem;
+  fill: var(--gold);
+}
+
+.now {
+  padding-left: 0.45rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.35);
+  color: var(--gold);
+  font-size: 0.78rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
+}
+
+.caret {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin-left: auto;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  transition: rotate 0.15s;
+}
+
+.head[aria-expanded='true'] .caret {
+  rotate: 180deg;
+}
+
+.groups {
+  display: flex;
+  gap: 0.3rem;
+  padding: 0.1rem 0 0.25rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.22);
+}
+
+.group + .group {
+  padding-left: 0.3rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.22);
+}
+
+.label {
+  margin: 0.15rem 0 0.2rem;
+  padding: 0 0.5rem;
+  color: rgba(212, 165, 64, 0.85);
+  font-size: 0.6rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.list {
+  display: grid;
+  gap: 0.15rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.option {
+  padding: 0.25rem 0.75rem 0.25rem 0.25rem;
+  font-size: 0.8rem;
+}
+
+.num {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 50%;
+  color: rgba(241, 230, 200, 0.75);
+  font-size: 0.65rem;
+  font-variant-numeric: tabular-nums;
+}
+
+@media (hover: hover) {
+  .head:hover,
+  .option:hover {
+    background: rgba(212, 165, 64, 0.14);
+    color: #fff;
+  }
+}
+
+.head:focus-visible,
+.option:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+.option[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: #4a3b17;
+  color: #fff;
+}
+
+.option[aria-pressed='true'] .num {
+  border-color: var(--gold);
+  background: var(--gold);
+  color: #1a1408;
+}
+
+/* Phones: at the foot of the toolbar (the event card fills the bottom),
+   a round button like the toolbar's until opened; two columns when open,
+   closing on a pick. */
+@media (max-width: 639px) {
+  .switcher {
+    position: static;
+    flex-direction: column;
+  }
+
+  /* Open, over the date pill and Show event below it. */
+  *:has(> .switcher[data-open]) {
+    z-index: 6;
+  }
+
+  .switcher:not([data-open]) {
+    padding: 0;
+    border-radius: 50%;
+  }
+
+  .switcher:not([data-open]) .head {
+    position: relative;
+    justify-content: center;
+    width: 2.2rem;
+    height: 2.2rem;
+    min-height: 0;
+    padding: 0;
+  }
+
+  /* A 44px target round the smaller button. */
+  .switcher:not([data-open]) .head::after {
+    content: '';
+    position: absolute;
+    inset: -0.35rem;
+  }
+
+  .switcher:not([data-open]) .mark {
+    width: 1.05rem;
+    height: 1.05rem;
+  }
+
+  .switcher:not([data-open]) :is(.text, .now) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip-path: inset(50%);
+    white-space: nowrap;
+  }
+
+  .switcher:not([data-open]) .caret {
+    display: none;
+  }
+
+  .head {
+    min-height: 2.25rem;
+  }
+
+  .head .caret {
+    rotate: 180deg;
+  }
+
+  .head[aria-expanded='true'] .caret {
+    rotate: 0deg;
+  }
+
+  .groups {
+    flex-direction: column;
+    padding: 0.25rem 0 0;
+    border-top: 1px solid rgba(212, 165, 64, 0.22);
+    border-bottom: 0;
+  }
+
+  .group + .group {
+    padding: 0.25rem 0 0;
+    border-top: 1px solid rgba(212, 165, 64, 0.22);
+    border-left: 0;
+  }
+
+  .list {
+    grid-template-columns: repeat(2, auto);
+  }
+
+  .option {
+    padding-block: 0.45rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .head,
+  .option,
+  .caret {
+    transition: none;
+  }
+}

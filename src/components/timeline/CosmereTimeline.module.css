@@ -134,6 +134,184 @@ ul.drawer li {
   text-transform: uppercase;
 }
 
+/* The characters, in groups that fold away: the alive by world, then
+   everyone else. Each group's bar (name, count, chevron) is its toggle and
+   sticks to the top of the panel while its people scroll under it. */
+.group,
+.subgroup {
+  --bar: rgb(11, 18, 25);
+}
+
+.group > summary,
+.subgroup > summary {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: var(--bar);
+  cursor: pointer;
+  list-style: none;
+  user-select: none;
+}
+
+.group > summary::-webkit-details-marker,
+.subgroup > summary::-webkit-details-marker {
+  display: none;
+}
+
+.group > summary h3,
+.subgroup > summary h4 {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.5rem;
+  min-width: 0;
+  margin: 0;
+}
+
+/* A chevron that points down while open. */
+.group > summary::after,
+.subgroup > summary::after {
+  flex: none;
+  width: 0.4rem;
+  height: 0.4rem;
+  margin: 0 0.3rem 0.2rem 0.1rem;
+  border-right: 1.5px solid currentColor;
+  border-bottom: 1.5px solid currentColor;
+  content: '';
+  opacity: 0.7;
+  rotate: 45deg;
+  transition: rotate 0.15s;
+}
+
+.group:not([open]) > summary::after,
+.subgroup:not([open]) > summary::after {
+  margin-bottom: 0;
+  rotate: -45deg;
+}
+
+.group > summary:focus-visible,
+.subgroup > summary:focus-visible {
+  outline: 2px solid rgba(212, 165, 64, 0.8);
+  outline-offset: -2px;
+  border-radius: 4px;
+}
+
+.group > summary {
+  /* Flush with the panel's top, over its padding. */
+  top: -1rem;
+  z-index: 2;
+  height: 2.2rem;
+  margin-top: 0.6rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+  color: var(--gold);
+}
+
+.group > summary h3 {
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.group > summary:hover {
+  color: var(--gold-soft);
+}
+
+.subgroup > summary {
+  /* Just under the group's bar. */
+  top: 1.2rem;
+  z-index: 1;
+  height: 2rem;
+  margin-top: 0.35rem;
+  color: rgba(241, 230, 200, 0.85);
+}
+
+.subgroup > summary h4 {
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.subgroup > summary:hover {
+  color: rgba(241, 230, 200, 1);
+}
+
+/* The world's colour; hollow where the world isn't known. */
+.dot {
+  flex: none;
+  width: 0.5rem;
+  height: 0.5rem;
+  box-sizing: border-box;
+  border: 1px solid rgba(241, 230, 200, 0.55);
+  border-radius: 50%;
+}
+
+.tally {
+  flex: none;
+  min-width: 1.4rem;
+  padding: 0.05rem 0.4rem;
+  box-sizing: border-box;
+  border-radius: 999px;
+  background: rgba(212, 165, 64, 0.16);
+  color: var(--gold-soft);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  font-weight: 600;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.group .cast {
+  padding-bottom: 0.3rem;
+}
+
+.group > .cast,
+.subgroup .cast {
+  margin-left: 0.2rem;
+  padding-left: 0.55rem;
+  border-left: 1px solid rgba(212, 165, 64, 0.2);
+}
+
+.group .cast li {
+  flex-wrap: nowrap;
+  padding: 0.1rem 0;
+  border-bottom: 0;
+}
+
+.group .face {
+  width: 1.85rem;
+  height: 1.85rem;
+  border-width: 1.5px;
+}
+
+.who {
+  min-width: 0;
+}
+
+.aka {
+  color: rgba(241, 230, 200, 0.55);
+}
+
+/* "Jump to their birth": a small pill at the row's end. */
+.jump {
+  flex: none;
+  padding: 0.2rem 0.6rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 999px;
+  background: none;
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.72rem;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.jump:hover {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.14);
+  color: #fff;
+}
+
 .artCredit {
   display: block;
   margin-top: 0.3rem;
@@ -141,11 +319,9 @@ ul.drawer li {
   font-size: 0.7rem;
 }
 
-.whereabouts .status {
-  display: inline;
-}
-
-/* Who's being shown on the map, top middle. */
+/* Who's being shown on the map, top middle, in the date indicator's
+   style. Kept clear of the Events | Books toggle on either side;
+   on narrow screens it drops between the two button columns. */
 .whereabouts {
   position: absolute;
   top: 0.75rem;
@@ -153,16 +329,82 @@ ul.drawer li {
   z-index: 2;
   display: flex;
   align-items: center;
-  gap: 0.5rem;
-  max-width: min(24rem, calc(100% - 9rem));
+  gap: 0.55rem;
+  box-sizing: border-box;
+  min-height: 2.125rem;
+  max-width: min(30rem, calc(100% - 20rem));
   margin: 0;
-  padding: 0.3rem 0.8rem 0.3rem 0.3rem;
-  border: 1px solid rgba(212, 165, 64, 0.6);
-  border-radius: 999px;
+  padding: 0.2rem 0.95rem 0.2rem 0.2rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 1.075rem;
   background: var(--glass);
-  color: var(--text);
-  font-size: 0.85rem;
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  color: rgba(241, 230, 200, 0.85);
+  font-size: 0.8rem;
+  line-height: 1.3;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
   translate: -50% 0;
+}
+
+.whereText {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.whereText strong {
+  color: var(--gold-soft);
+  font-weight: 600;
+}
+
+.whereabouts .status {
+  display: inline;
+  color: rgba(241, 230, 200, 0.55);
+  font-size: inherit;
+}
+
+.seen::before {
+  margin: 0 0.4em;
+  content: '·';
+}
+
+.whereabouts .note {
+  display: block;
+  white-space: normal;
+  text-wrap: balance;
+}
+
+/* Taller with a note: rounder corners need more room beside the face. */
+.whereabouts:has(.note) {
+  padding-left: 0.5rem;
+  border-radius: 1.25rem;
+}
+
+.whereabouts .face {
+  width: 1.65rem;
+  height: 1.65rem;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  font-size: 0.6rem;
+  font-weight: 600;
+}
+
+@container timeline (max-width: 40rem) {
+  .whereabouts {
+    top: 3.2rem;
+    max-width: calc(100% - 7.5rem);
+  }
+
+  .whereabouts .status {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .seen::before {
+    content: none;
+  }
 }
 
 .face {
@@ -211,25 +453,35 @@ ul.drawer li {
 
 .person {
   display: flex;
+  flex: 1;
   align-items: center;
   gap: 0.6rem;
-  padding: 0.2rem 0.4rem 0.2rem 0.2rem;
-  border: 1px solid transparent;
-  border-radius: 999px;
+  padding: 0.3rem 0.5rem 0.3rem 0.25rem;
+  border: none;
+  border-radius: 0.5rem;
   background: none;
   color: var(--text);
   font: inherit;
   text-align: left;
+  transition: background-color 0.15s;
 }
 
 button.person {
   cursor: pointer;
 }
 
-button.person:hover,
+button.person:hover {
+  background: rgba(241, 230, 200, 0.06);
+}
+
 button.person[aria-pressed='true'] {
-  border-color: rgba(212, 165, 64, 0.6);
-  background: rgba(212, 165, 64, 0.12);
+  background: rgba(212, 165, 64, 0.14);
+  box-shadow: inset 2px 0 0 var(--gold);
+}
+
+button.person:focus-visible {
+  outline: 2px solid rgba(212, 165, 64, 0.8);
+  outline-offset: -2px;
 }
 
 .cast .more {
@@ -264,6 +516,15 @@ button.person[aria-pressed='true'] {
 
 .back {
   border-style: dashed;
+  transition:
+    opacity 150ms ease-out,
+    visibility 150ms;
+}
+
+.back:not([data-shown]) {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
 }
 
 .round {
@@ -372,6 +633,10 @@ ul.drawer {
   .details,
   .drawer {
     animation: none;
+  }
+
+  .back {
+    transition: none;
   }
 }
 
@@ -643,6 +908,7 @@ ul.drawer {
   overflow-x: auto;
   overflow-y: hidden;
   scrollbar-width: none;
+  cursor: grab;
   mask-image: linear-gradient(
     90deg,
     transparent,
@@ -831,4 +1097,249 @@ ul.drawer {
     min-height: 0;
     border-radius: 0;
   }
+}
+
+/* Events | Books: one pill, split in two. */
+.modes {
+  display: flex;
+  border-radius: 999px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.35);
+}
+
+.modes .tool {
+  box-shadow: none;
+}
+
+.modes .tool:first-child {
+  border-right: 0;
+  border-radius: 999px 0 0 999px;
+}
+
+.modes .tool:last-child {
+  border-radius: 0 999px 999px 0;
+}
+
+/* The books view: a row of covers on a time rail, each book's span drawn
+   on the rail from its start to its end in its world's colour (a diamond
+   for a short one). Side stories ride a lane above, their span running
+   over the main covers beside them. Long gaps break the rail. */
+.booksMode {
+  --bar-h: 162px;
+  --cover-w: 48px;
+  --cover-h: 72px;
+  --side-w: 22px;
+  --side-h: 33px;
+}
+
+@media (max-width: 600px) {
+  .booksMode {
+    --bar-h: 134px;
+    --cover-w: 38px;
+    --cover-h: 57px;
+    --side-w: 18px;
+    --side-h: 27px;
+  }
+}
+
+.bookTrack::before {
+  display: none;
+}
+
+.axis {
+  position: absolute;
+  right: -3rem;
+  bottom: 0;
+  left: -3rem;
+  height: 26px;
+  border-top: 1px solid rgba(212, 165, 64, 0.45);
+}
+
+.axisYear {
+  position: absolute;
+  top: 6px;
+  /* Inside .axis, which starts 3rem left of the track. */
+  margin-left: 3rem;
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  line-height: 1;
+  opacity: 0.7;
+  white-space: nowrap;
+  transform: translateX(-50%);
+}
+
+/* The year's tick on the rail. */
+.axisYear::before {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  width: 1px;
+  height: 4px;
+  background: rgba(212, 165, 64, 0.7);
+  content: '';
+}
+
+/* Years left out between eras: the rail breaks, with how long below. */
+.gap {
+  position: absolute;
+  top: 6px;
+  margin-left: 3rem;
+  color: var(--gold-soft);
+  font-size: 0.78rem;
+  font-style: italic;
+  line-height: 1;
+  white-space: nowrap;
+  opacity: 0.8;
+  transform: translateX(-50%);
+}
+
+.gap::before {
+  position: absolute;
+  top: -14px;
+  left: 50%;
+  padding: 0 3px;
+  background: rgb(14, 22, 31);
+  color: var(--gold);
+  content: '//';
+  font-size: 0.9rem;
+  font-style: normal;
+  font-weight: 600;
+  letter-spacing: -1px;
+  line-height: 14px;
+  transform: translateX(-50%);
+}
+
+.span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 0;
+}
+
+/* The book's time on the rail, capped at both ends. */
+.span::before {
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  width: max(var(--w), 3px);
+  height: 8px;
+  box-sizing: border-box;
+  border-inline: 2px solid rgba(241, 230, 200, 0.85);
+  border-radius: 1px;
+  background: var(--world);
+  content: '';
+  opacity: 0.7;
+}
+
+.point::before {
+  bottom: 21px;
+  left: -5px;
+  width: 10px;
+  height: 10px;
+  border: 1px solid rgba(241, 230, 200, 0.85);
+  transform: rotate(45deg);
+}
+
+.side::before {
+  bottom: calc(var(--cover-h) + 44px);
+  height: 4px;
+}
+
+.side.point::before {
+  bottom: calc(var(--cover-h) + 42px);
+  left: -3px;
+  width: 6px;
+  height: 6px;
+}
+
+.span:has([aria-current='true'])::before {
+  box-shadow: 0 0 8px var(--world);
+  opacity: 1;
+}
+
+.book {
+  position: absolute;
+  bottom: 36px;
+  left: calc(var(--cover-w) / -2);
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: pointer;
+}
+
+.side .book {
+  bottom: calc(var(--cover-h) + 50px);
+}
+
+.book img {
+  display: block;
+  width: var(--cover-w);
+  height: var(--cover-h);
+  border: 1px solid rgba(241, 230, 200, 0.35);
+  border-bottom: 2px solid var(--world);
+  border-radius: 2px;
+  object-fit: cover;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+  opacity: 0.78;
+  transition:
+    opacity 0.2s,
+    transform 0.2s;
+}
+
+.side .book img {
+  width: var(--side-w);
+  height: var(--side-h);
+  border-bottom-width: 1px;
+}
+
+.book:hover img {
+  opacity: 1;
+}
+
+.book[aria-current='true'] img {
+  border-color: var(--gold);
+  box-shadow:
+    0 0 0 1px var(--gold),
+    0 0 14px rgba(212, 165, 64, 0.65);
+  opacity: 1;
+  transform: translateY(-3px);
+}
+
+.book:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.bookCard {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 0.8rem;
+  width: min(19rem, calc(100% - 1.5rem));
+  padding: 0.6rem 0.9rem calc(var(--indicator-h) - 0.3rem);
+  align-items: center;
+  text-align: left;
+}
+
+.cover {
+  width: 3.6rem;
+  border-radius: 3px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.6);
+}
+
+.credit {
+  margin: 0.4rem 0 0;
+  color: rgba(214, 225, 230, 0.6);
+  font-size: 0.72rem;
+}
+
+.bookCard .title {
+  font-size: 1.05rem;
+}
+
+.bookCard .blurb {
+  font-size: 0.8rem;
+}
+
+.side .book {
+  left: calc(var(--side-w) / -2);
 }

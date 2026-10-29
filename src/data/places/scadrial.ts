@@ -1000,6 +1000,21 @@ export const scadrialPlaces: Location[] = [
     coppermindUrl: wiki('Garmet'),
   },
   {
+    id: 'new-seran',
+    name: 'New Seran',
+    planetId: 'scadrial',
+    kind: 'city',
+    parentId: 'elendel-basin',
+    revealedIn: ERA2,
+    summary: [
+      p(
+        'A city on the southern edge of the Basin, on the railway into the Seran Range.',
+        ...ERA2,
+      ),
+    ],
+    coppermindUrl: wiki('New Seran'),
+  },
+  {
     id: 'rashekin',
     name: 'Rashekin',
     planetId: 'scadrial',

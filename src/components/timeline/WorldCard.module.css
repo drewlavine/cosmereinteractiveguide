@@ -1,0 +1,732 @@
+/* The world card: the world's name over its globe, opening a large dialog
+   with the live globe framed into its right-hand side. */
+
+/* The title: the page heading's gold italic, with a "Details ›" pill
+   (`.more`, self-contained so it can be swapped for another affordance). */
+.titleWrap {
+  pointer-events: none;
+}
+
+.title {
+  pointer-events: auto;
+  display: flex;
+  align-items: baseline;
+  gap: 0.7rem;
+  padding: 0.1rem 0.9rem 0.25rem;
+  border: 0;
+  border-radius: 999px;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.titleName {
+  font-family: var(--display);
+  font-size: 2.3rem;
+  font-style: italic;
+  line-height: 1.1;
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.9),
+    0 0 2px rgba(0, 0, 0, 0.8);
+  transition:
+    color 0.15s,
+    text-shadow 0.15s;
+}
+
+.more {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.18rem 0.55rem 0.18rem 0.7rem;
+  translate: 0 -0.35rem;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  border-radius: 999px;
+  background: rgba(11, 18, 25, 0.72);
+  color: var(--gold-soft);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+.chev {
+  font-size: 1rem;
+  line-height: 0.8;
+  transition: translate 0.15s;
+}
+
+.title:hover .titleName,
+.title:focus-visible .titleName {
+  color: #f0c766;
+  text-shadow:
+    0 2px 12px rgba(0, 0, 0, 0.9),
+    0 0 18px rgba(212, 165, 64, 0.45);
+}
+
+.title:hover .more,
+.title:focus-visible .more {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.22);
+  color: #fff;
+}
+
+.title:hover .chev,
+.title:focus-visible .chev {
+  translate: 0.15rem 0;
+}
+
+.title:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* ponytail: the title's other cues, being tried (worldTitleStyle.ts);
+   "current" is the pill above. Remove the unpicked ones once one is
+   chosen. */
+.cueChev {
+  flex: none;
+  width: 1em;
+  height: 1em;
+  transition: translate 0.15s;
+}
+
+/* name: the name is the button, underlined, with a chevron. */
+.title[data-style='name'] {
+  align-items: center;
+  gap: 0.15rem;
+  padding-right: 0.5rem;
+}
+
+.title[data-style='name'] .titleName {
+  padding-bottom: 0.1rem;
+  background: linear-gradient(
+      90deg,
+      transparent,
+      var(--gold) 22%,
+      var(--gold) 78%,
+      transparent
+    )
+    50% 100% / 70% 2px no-repeat;
+  transition:
+    background-size 0.3s ease,
+    color 0.15s,
+    text-shadow 0.15s;
+}
+
+.nameChev {
+  flex: none;
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-top: 0.15rem;
+  color: var(--gold);
+  filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.9));
+  transition:
+    translate 0.15s,
+    color 0.15s;
+}
+
+/* line: a small-caps line under the name, between two hairlines. */
+.title[data-style='line'],
+.title[data-style='hover'] {
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  padding-bottom: 0.35rem;
+  border-radius: 14px;
+}
+
+.cueLine {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--gold);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  text-shadow:
+    0 1px 6px rgba(0, 0, 0, 0.95),
+    0 0 2px rgba(0, 0, 0, 0.9);
+  transition: color 0.15s;
+}
+
+.cueLine::before,
+.cueLine::after {
+  width: 1.6rem;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212, 165, 64, 0.85));
+  content: '';
+  transition: width 0.25s ease;
+}
+
+.cueLine::after {
+  order: 1;
+  background: linear-gradient(90deg, rgba(212, 165, 64, 0.85), transparent);
+}
+
+.cueLine .cueChev {
+  width: 0.95rem;
+  height: 0.95rem;
+  margin-left: -0.3rem;
+}
+
+/* icon: a round button beside the name, as the map's own. */
+.title[data-style='icon'],
+.title[data-style='chip'] {
+  align-items: center;
+  gap: 0.65rem;
+  padding-right: 0.25rem;
+}
+
+.cueIcon,
+.cueChip {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  border: 1px solid rgba(212, 165, 64, 0.6);
+  border-radius: 50%;
+  background: #1c2a35;
+  color: var(--gold-soft);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+  transition:
+    background 0.15s,
+    border-color 0.15s,
+    color 0.15s;
+}
+
+/* chip: an icon and a word, as the toolbar's pills. */
+.cueChip {
+  display: inline-flex;
+  gap: 0.4rem;
+  width: auto;
+  height: 2.1rem;
+  padding: 0 0.85rem 0 0.6rem;
+  border-radius: 999px;
+  font-size: 0.85rem;
+}
+
+/* hover: the name alone, a line under it on hover or focus (always on
+   touch, which has no hover). */
+.cueHint {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.05rem;
+  font-style: italic;
+  text-shadow:
+    0 1px 8px rgba(0, 0, 0, 0.95),
+    0 0 2px rgba(0, 0, 0, 0.9);
+  opacity: 0;
+  translate: 0 -0.3rem;
+  transition:
+    opacity 0.2s,
+    translate 0.2s;
+}
+
+.cueHint .cueChev {
+  width: 0.9rem;
+  height: 0.9rem;
+  margin: 0.1rem 0 0 -0.1rem;
+}
+
+.title[data-style='hover']:focus-visible .cueHint {
+  opacity: 1;
+  translate: none;
+}
+
+/* Lit as the "current" pill is, on hover (pointers only, so a tap
+   doesn't leave it lit) and on keyboard focus. */
+.title[data-style='name']:focus-visible .titleName {
+  background-size: 100% 2px;
+}
+
+.title:focus-visible .nameChev,
+.title:focus-visible .cueChev {
+  color: #f0c766;
+  translate: 0.2rem 0;
+}
+
+.title[data-style='line']:focus-visible .cueLine {
+  color: #f0c766;
+}
+
+.title[data-style='line']:focus-visible .cueLine::before,
+.title[data-style='line']:focus-visible .cueLine::after {
+  width: 2.6rem;
+}
+
+.title:focus-visible .cueIcon,
+.title:focus-visible .cueChip {
+  border-color: var(--gold);
+  background: #3a3220;
+  color: #fff;
+}
+
+/* The button-shaped cues take the focus ring themselves. */
+.title[data-style='icon']:focus-visible,
+.title[data-style='chip']:focus-visible {
+  outline: none;
+}
+
+.title[data-style='icon']:focus-visible .cueIcon,
+.title[data-style='chip']:focus-visible .cueChip {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+@media (hover: hover) {
+  .title[data-style='name']:hover .titleName {
+    background-size: 100% 2px;
+  }
+
+  .title:hover .nameChev,
+  .title:hover .cueChev {
+    color: #f0c766;
+    translate: 0.2rem 0;
+  }
+
+  .title[data-style='line']:hover .cueLine {
+    color: #f0c766;
+  }
+
+  .title[data-style='line']:hover .cueLine::before,
+  .title[data-style='line']:hover .cueLine::after {
+    width: 2.6rem;
+  }
+
+  .title:hover .cueIcon,
+  .title:hover .cueChip {
+    border-color: var(--gold);
+    background: #3a3220;
+    color: #fff;
+  }
+
+  .title[data-style='hover']:hover .cueHint {
+    opacity: 1;
+    translate: none;
+  }
+}
+
+@media (hover: none) {
+  .cueHint {
+    opacity: 1;
+    translate: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .cueHint {
+    translate: none;
+  }
+}
+
+/* The "elsewhere" styles (TitlePlacement.tsx): just the name, not a
+   button; the wrapper places the way in round the globe. */
+.placed {
+  position: relative;
+}
+
+.title.plain {
+  justify-content: center;
+  pointer-events: none;
+  cursor: default;
+}
+
+/* Catches clicks outside the dialog; the dialog's shadow does the dimming,
+   so the globe framed inside it isn't dimmed too. */
+.backdrop {
+  position: absolute;
+  inset: 0;
+  z-index: 19;
+}
+
+.modal {
+  --edge: 1rem;
+  --ink: rgb(9, 14, 20);
+  position: absolute;
+  inset: var(--edge);
+  z-index: 20;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(15rem, 40%);
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.55);
+  border-radius: 14px;
+  color: var(--text);
+  box-shadow:
+    0 0 0 100vmax rgba(3, 6, 10, 0.6),
+    0 12px 40px rgba(0, 0, 0, 0.6);
+  animation: modal-in 0.22s ease-out;
+}
+
+@keyframes modal-in {
+  from {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .modal {
+    animation: none;
+  }
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  border-right: 1px solid rgba(212, 165, 64, 0.2);
+  background: var(--ink);
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.1rem 1rem 0.9rem 1.8rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.35);
+}
+
+.name {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  gap: 0.75rem;
+  min-width: 0;
+  margin: 0;
+  color: var(--gold);
+  font-size: 2.3rem;
+  font-style: italic;
+}
+
+.dot {
+  flex: none;
+  width: 0.8rem;
+  height: 0.8rem;
+  border: 1px solid rgba(241, 230, 200, 0.8);
+  border-radius: 50%;
+}
+
+.close {
+  display: grid;
+  flex: none;
+  place-items: center;
+  width: 2.3rem;
+  height: 2.3rem;
+  padding: 0 0 0.15rem;
+  border: 1px solid rgba(212, 165, 64, 0.45);
+  border-radius: 50%;
+  background: none;
+  color: var(--gold-soft);
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.close:hover {
+  border-color: var(--gold);
+  background: rgba(212, 165, 64, 0.2);
+  color: #fff;
+}
+
+.body {
+  min-height: 0;
+  padding: 0.4rem 1.8rem 1.6rem;
+  overflow: auto;
+  overscroll-behavior: contain;
+  scrollbar-width: thin;
+}
+
+.section {
+  margin-top: 1.1rem;
+}
+
+.label {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0 0 0.55rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(212, 165, 64, 0.22);
+  color: var(--gold);
+  font-family: inherit;
+  font-size: 0.74rem;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.era {
+  margin: 0 0 0.15rem;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.35rem;
+  line-height: 1.25;
+}
+
+.stateText {
+  max-width: 44rem;
+  margin: 0;
+  font-size: 0.98rem;
+  line-height: 1.45;
+}
+
+.since {
+  margin: 0.35rem 0 0;
+  color: rgba(241, 230, 200, 0.6);
+  font-size: 0.8rem;
+  line-height: 1.35;
+}
+
+.tally {
+  min-width: 1.4rem;
+  padding: 0.05rem 0.4rem;
+  box-sizing: border-box;
+  border-radius: 999px;
+  background: rgba(212, 165, 64, 0.16);
+  color: var(--gold-soft);
+  font-size: 0.7rem;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: normal;
+  line-height: 1.4;
+  text-align: center;
+}
+
+.shards,
+.people {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.35rem 0.8rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.people {
+  grid-template-columns: repeat(auto-fill, minmax(13rem, 1fr));
+}
+
+.tile {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  width: 100%;
+  padding: 0.4rem 0.5rem;
+  border: 1px solid transparent;
+  border-radius: 0.7rem;
+  background: none;
+  color: var(--text);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.tile:hover {
+  border-color: rgba(212, 165, 64, 0.3);
+  background: rgba(241, 230, 200, 0.06);
+}
+
+.tile:focus-visible,
+.close:focus-visible,
+.zoom:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 1px;
+}
+
+.tile[aria-pressed='true'] .face {
+  box-shadow: 0 0 0 2px var(--gold);
+}
+
+.tileText {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  font-size: 0.92rem;
+  line-height: 1.3;
+}
+
+.tileText strong {
+  color: var(--text-strong);
+  font-weight: 600;
+}
+
+.tileText span {
+  color: rgba(241, 230, 200, 0.65);
+  font-size: 0.76rem;
+}
+
+.art,
+.face {
+  display: inline-grid;
+  flex: none;
+  place-items: center;
+  width: 2.9rem;
+  height: 2.9rem;
+  box-sizing: border-box;
+  border: 1.5px solid var(--gold);
+  border-radius: 50%;
+  background: #1c2a35;
+  color: var(--gold-soft);
+  font-size: 0.85rem;
+  font-weight: 700;
+  object-fit: cover;
+  object-position: top;
+}
+
+.art {
+  border-color: rgba(212, 165, 64, 0.7);
+  object-position: 50% 22%;
+}
+
+.art[data-faded] {
+  border-color: rgba(241, 230, 200, 0.35);
+  filter: grayscale(1) brightness(0.75);
+}
+
+/* The globe's side: the live globe shows through a round window, the
+   rest of the scene behind it painted over. */
+.planet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  min-height: 0;
+  overflow: hidden;
+  isolation: isolate;
+}
+
+.slot {
+  position: relative;
+  width: min(72%, 23rem);
+  aspect-ratio: 1;
+}
+
+.slot::before {
+  position: absolute;
+  inset: -5%;
+  z-index: -1;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 100vmax var(--ink),
+    inset 0 0 2.5rem 1.2rem var(--ink);
+  content: '';
+  pointer-events: none;
+}
+
+.zoom {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  cursor: zoom-in;
+  transition: box-shadow 0.2s;
+}
+
+.zoom:hover {
+  box-shadow:
+    0 0 0 2px rgba(212, 165, 64, 0.65),
+    0 0 30px rgba(212, 165, 64, 0.25);
+}
+
+.hint {
+  margin: 0;
+  color: rgba(241, 230, 200, 0.6);
+  font-size: 0.78rem;
+  font-style: italic;
+}
+
+.caption {
+  text-align: center;
+}
+
+.credit {
+  margin: 0.3rem 0 0;
+  color: rgba(241, 230, 200, 0.5);
+  font-size: 0.65rem;
+}
+
+/* Phones: near full screen, the globe small on top, the rest scrolling
+   under it. */
+@container timeline (max-width: 40rem) {
+  /* Below the Events/Books toggle (the globe makes room for it all). */
+  .titleWrap {
+    padding-top: 2.6rem;
+  }
+
+  .titleName {
+    font-size: 1.85rem;
+  }
+
+  .modal {
+    --edge: 0.4rem;
+    grid-template-rows: auto minmax(0, 1fr);
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .planet {
+    order: -1;
+    gap: 0.4rem;
+    padding: 0.8rem 1rem 0.6rem;
+  }
+
+  /* Centred, clear of the tools down either side of the timeline. */
+  .slot {
+    width: 7rem;
+    flex: none;
+  }
+
+  /* A thin gold ring says the small globe is a button. */
+  .zoom {
+    box-shadow: 0 0 0 1.5px rgba(212, 165, 64, 0.55);
+  }
+
+  .hint {
+    font-size: 0.74rem;
+  }
+
+  .info {
+    border-top: 1px solid rgba(212, 165, 64, 0.2);
+    border-right: 0;
+  }
+
+  .head {
+    padding: 0.7rem 0.6rem 0.6rem 1rem;
+  }
+
+  .name {
+    font-size: 1.8rem;
+  }
+
+  .body {
+    padding: 0.2rem 1rem 1.2rem;
+  }
+
+  .shards,
+  .people {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Too short for the globe as well: just the details. */
+@media (max-height: 30rem) {
+  .planet {
+    display: none;
+  }
+
+  .modal {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
