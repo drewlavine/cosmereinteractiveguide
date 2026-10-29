@@ -1,0 +1,121 @@
+{
+  "intro": [
+    {
+      "text": "The God King of Hallandren, whom Princess Siri of Idris is sent to marry under the treaty between their kingdoms.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "7" }],
+      "fallback": true
+    },
+    {
+      "text": "The God King of Hallandren and Siri's husband, a silent figure whose mere presence splits white light into colours like a prism.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "text": "The God King of Hallandren, a Returned kept alive by his subjects' Breath, who has no tongue and secretly talks with his wife, Siri, in writing.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "32" }]
+    },
+    {
+      "text": "The God King of Hallandren, whose tongue Lightsong restored, letting him use his vast store of Breath to free his palace and save his wife, Siri.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Early life",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "44" },
+            { "book": "warbreaker", "chapter": "40" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Born to a poor merchant family in northern Hallandren, Susebron Returned as an infant. He was given Peacegiver's Treasure of Breaths and made God King, and his tongue was cut out so he could not use them. His mother raised him in the palace until she was taken away, leaving him her storybook.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+        },
+        {
+          "text": "He lived almost alone in the black palace in T'Telir, kept from his people and the other Returned, and appeared only briefly on special occasions so that no one would learn he was mute.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "40" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Marriage to Siri",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "7" },
+            { "book": "warbreaker", "chapter": "15" },
+            { "book": "warbreaker", "chapter": "24" },
+            { "book": "warbreaker", "chapter": "44" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "To keep the treaty with Hallandren, Idris sent Princess Siri to marry the God King in place of her sister Vivenna. On their wedding night she knelt naked before his bed, and he only watched her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+        },
+        {
+          "text": "At his first public appearance, the God King was lifted to his throne by Awakened ropes. He looked younger than Siri expected, and white light split into colours around him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+        },
+        {
+          "text": "After nights of Siri waiting and then faking noisy lovemaking to fool the listening priests, Susebron approached her. She found he had no tongue, and they began to talk in writing; he knew nothing of how an heir is made.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "24" }]
+        },
+        {
+          "text": "Siri taught him to read and write using his mother's storybook. Talking through the nights about Idris, her religion and his priests, whom he refused to believe meant him harm, they fell in love and consummated their marriage.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The attack on the Court",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "55" },
+            { "book": "warbreaker", "chapter": "57" },
+            { "book": "warbreaker", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Susebron agreed to reveal his condition to the other gods, planning to flee with Siri and Bluefingers if it failed. Before he could, the priests took Siri away, and the Pahn Kahl attacked the Court of Gods and imprisoned them both.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "55" }]
+        },
+        {
+          "text": "In the cell next to his, Lightsong gave up his divine Breath to heal him and restore his tongue. Able to speak, and with enough Breath to Awaken by instinct, Susebron freed his palace from the invaders and saved Siri.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        },
+        {
+          "text": "Vasher gave him the Command for Kalad's Phantoms, and Susebron sent them after the Lifeless army bearing down on Idris. He stayed in T'Telir with Siri, now with far more say in Hallandren's affairs.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He dresses in white for public functions, so that it breaks into colours around him, and in black in private.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "15" }]
+    },
+    {
+      "text": "He looks about twenty, though he is fifty, with dark hair, black eyes and pale skin, and he can learn to change his appearance at will.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He is very fond of sweets, reasoning that as a Returned he cannot gain weight.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "44" }]
+    },
+    {
+      "text": "Naive and trusting after a sheltered life, he lives by the morals of his mother's storybook and is honest to a fault. He is devoted to those he trusts, and keenly aware of his shortcomings as a ruler.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+    }
+  ]
+}

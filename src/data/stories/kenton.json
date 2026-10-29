@@ -1,0 +1,130 @@
+{
+  "intro": [
+    {
+      "text": "A young acolent of the Diem who can control only a single ribbon of sand, mockingly nicknamed Lonsha, or Darksider, by the other sand masters.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "prologue" }],
+      "fallback": true
+    },
+    {
+      "text": "A weak but skilled sand master, son of Praxton, the Diem's leader, who runs the Mastrell's Path to prove that rank among sand masters should rest on ability rather than raw power.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "The son of Lord Mastrell Praxton who, after the Kerztians' massacre of the Diem, becomes its acting Lord Mastrell and fights to stop the Taishin dissolving it.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "The Mastrell's Path",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "6" },
+            { "book": "white-sand-omnibus", "chapter": "1" },
+            { "book": "white-sand-omnibus", "chapter": "2" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kenton had joined the Diem at ten over his father's objection, barely passing the test, the only one of Praxton's children with any talent for sand mastery.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        },
+        {
+          "text": "Able to control only one ribbon of sand, Kenton trained himself to use it with great skill and learned the sword from the Tower's guards. He refused promotion to underfen four times, since accepting it would fix him at that rank for good.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "1" }]
+        },
+        {
+          "text": "Kenton insisted on running the Mastrell's Path, refusing his father's offer of the rank of Fen if he would withdraw. He killed the deep sandling that guarded the final sphere, which the Diem said ruined the test.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        },
+        {
+          "text": "At the advancement ceremony Praxton offered him the underfen sash; when Kenton refused it, Praxton made him a Mastrell, warning that the other sand masters would hate him for it.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "2" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Battle against the Kerztians",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "3" },
+            { "book": "white-sand-omnibus", "chapter": "4" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Kerztian warrior-priests attacked the ceremony. Kenton rallied a group of sand masters against them but was buried in sand by Praxton's final act, which ended the battle; nearly everyone else was killed, and Kenton believed himself the only survivor.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "3" }]
+        },
+        {
+          "text": "Khriss's party found him hurt and dehydrated, and he agreed to guide them to Kezare while hiding his sand mastery. At a Kerztian outpost he learned there were other survivors, but when warrior-priests attacked he found he could no longer master sand.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Acting Lord Mastrell",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "5" },
+            { "book": "white-sand-omnibus", "chapter": "6" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In Kezare Kenton regained his mastery, now able to command three ribbons, and as the only surviving Mastrell he was named acting Lord Mastrell. When the Taishin moved to dissolve the Diem, he won two weeks to change the minds of the other Professions' heads.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "5" }]
+        },
+        {
+          "text": "Kenton and the senior sand master Drile accused each other of being the Kerztian traitor, and Drile fled after a short fight. Khriss learned that Kenton led the Diem, and the Lady Judge sent the trackt Ais, ostensibly to protect him.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "6" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Securing support",
+          "revealedIn": [
+            { "book": "white-sand-omnibus", "chapter": "7" },
+            { "book": "white-sand-omnibus", "chapter": "11" },
+            { "book": "white-sand-omnibus", "chapter": "13" },
+            { "book": "white-sand-omnibus", "chapter": "14" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Knowing Ais was the Lady Judge's spy, Kenton still let her accompany him as he visited the Taishin. He won the Lord Admiral's vote if the Lord Merchant voted against him, and the Lord Artisan's if the Diem paid its debts.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "7" }]
+        },
+        {
+          "text": "After an assassination attempt and the return of his friend Elorin, Kenton won the Lord General's vote by saving his life from a karak, then challenged Drile to a duel. With Khriss, Baon and Aarik he searched the Diem for its supposed riches but found very little.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "11" }]
+        },
+        {
+          "text": "Kenton used his sand mastery to rescue workers trapped at a collapsed building site, then told the sand masters they must pay their way and help the common people. He let Khriss join the Diem and tested her, though she showed no talent, and named Elorin to run its daily affairs.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "13" }]
+        },
+        {
+          "text": "Kenton tried to bluff the Lord Merchant, Vey, into voting for the Diem, but Vey saw through him and refused. Kerztian assassins then attacked Kenton, Khriss and Aarik at a restaurant; Kenton and Ais killed most of them, and Jon Acron saved Khriss.",
+          "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "14" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Defiant: he has challenged authority for so much of his life that he sometimes does it out of habit, without any greater goal in mind.",
+      "revealedIn": [{ "book": "white-sand-omnibus", "chapter": "4" }]
+    }
+  ]
+}

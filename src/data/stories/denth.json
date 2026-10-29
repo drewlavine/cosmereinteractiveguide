@@ -1,0 +1,92 @@
+{
+  "intro": [
+    {
+      "text": "A wry mercenary who, with his partner Tonk Fah, meets Vivenna in T'Telir in place of the Idrian spy Lemex.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }],
+      "fallback": true
+    },
+    {
+      "text": "The leader of a mercenary band of Tonk Fah, Jewels and Clod, who stays on to work for Vivenna in T'Telir after Lemex dies.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+    },
+    {
+      "text": "A mercenary who pretended to work for Vivenna while using her to help drive Hallandren to war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+    },
+    {
+      "text": "A Returned and one of the Five Scholars, Shashara's brother and Vasher's sworn enemy, who worked as a mercenary in T'Telir.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Mercenary in T'Telir",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "13" },
+            { "book": "warbreaker", "chapter": "19" },
+            { "book": "warbreaker", "chapter": "25" },
+            { "book": "warbreaker", "chapter": "29" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Denth and Tonk Fah met Vivenna in place of Lemex. After Lemex died, they insisted that their band's contract had been half paid and stayed on to work for her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+        },
+        {
+          "text": "They showed Vivenna Lemex's hidden gold and papers. Denth defended working with crime lords and sabotaging food supplies, saying war was inevitable and any means must be used to save Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "19" }]
+        },
+        {
+          "text": "Denth killed two of a crime lord's guards almost inhumanly fast. When Vivenna asked about his beliefs and origins, he dodged her questions and stormed off.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        },
+        {
+          "text": "After four thieves who had worked for him were found dead, Denth planned to let Vasher draw his sword and kill him once it had weakened him.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "29" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Betrayal",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "41" },
+            { "book": "warbreaker", "chapter": "43" },
+            { "book": "warbreaker", "chapter": "54" },
+            { "book": "warbreaker", "chapter": "57" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Denth had only pretended to serve Vivenna. When she realised and fled, he caught her and stopped her Awakening Tonk Fah's cloak, but she escaped, and he put a bounty on her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "41" }]
+        },
+        {
+          "text": "Vasher told Vivenna that Denth had been hired to start a war between Idris and Hallandren.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "43" }]
+        },
+        {
+          "text": "Denth captured Vasher, had his sword thrown far away, and tortured him in revenge for killing his sister, Shashara. Denth was in fact working for Bluefingers.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        },
+        {
+          "text": "After Vivenna freed Vasher, Denth duelled him to learn how he had beaten Arsteel. Denth was the better swordsman, but Vasher stunned him by giving him his Breath and stabbed him. As Denth died, his hair flashed through colours to white: the Royal Locks.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A clean-shaven man who looks to be in his thirties, with a long face and his hair in a neat short ponytail. He wears nondescript brown leather with a red vest.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+    }
+  ],
+  "personality": []
+}

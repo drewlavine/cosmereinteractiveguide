@@ -1,0 +1,76 @@
+{
+  "intro": [
+    {
+      "text": "A mercenary and Denth's partner, who meets Vivenna in T'Telir in place of the Idrian spy Lemex.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "9" }],
+      "fallback": true
+    },
+    {
+      "text": "A mercenary in Denth's crew whose easygoing manner hides a sadist; he tortured and killed Vivenna's friend Parlin.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "39" }]
+    },
+    {
+      "text": "A Pahn Kahl mercenary in Denth's crew whose easygoing manner hides a sadist.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Denth's crew",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "13" },
+            { "book": "warbreaker", "chapter": "25" },
+            { "book": "warbreaker", "chapter": "35" },
+            { "book": "warbreaker", "chapter": "39" },
+            { "book": "warbreaker", "chapter": "56" },
+            { "book": "warbreaker", "chapter": "58" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Tonk Fah and Denth met Vivenna in place of Lemex and stayed on to work for her after his death. Tonk Fah suggested she Awaken something to hold Lemex's Breath, which disgusted her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+        },
+        {
+          "text": "With Denth he showed Vivenna Lemex's hidden gold and papers, and helped steal most of T'Telir's salt to sabotage the war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+        },
+        {
+          "text": "When Vivenna tried to flee, Tonk Fah caught her, and she tried to Awaken his cloak before Denth stopped her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "35" }]
+        },
+        {
+          "text": "Tonk Fah and Denth had secretly poisoned Lemex, and Tonk Fah had disposed of his body and killed at least three Idrian soldiers sent for Vivenna. He tortured and killed her friend Parlin, and after she fled he watched the soup kitchens for her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "39" }]
+        },
+        {
+          "text": "Guarding Vivenna during the fight with Vasher, Tonk Fah still wore the cloak that held her Breath; she used it to distract Denth and disabled Tonk Fah with an Awakened rope.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "56" }]
+        },
+        {
+          "text": "After Vasher killed Denth, Tonk Fah took his money and escaped with Jewels.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "58" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Large of girth, he carries a cudgel strapped to his back and is less careful of his looks than Denth.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "13" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He seems funny, simple and good-natured, likes to nap and eat, and can fall asleep at a moment's notice.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "25" }]
+    },
+    {
+      "text": "In truth he is a sociopath and sadist who secretly tortures and kills his exotic pets; Denth works hard to keep his urges turned on animals rather than people.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+    }
+  ]
+}

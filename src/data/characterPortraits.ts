@@ -2927,4 +2927,228 @@ export const characterPortraits: Record<string, Portrait[]> = {
       revealedIn: ['wind-and-truth'],
     },
   ],
+  baon: [
+    {
+      // A plain portrait; Baon appears in the White Sand prologue.
+      src: '/portraits/baon.webp',
+      alt: 'Baon, a bearded man in a high white collar',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+  ],
+  galladon: [
+    {
+      // Galladon as Raoden meets him in Elantris 1, already taken by the Shaod.
+      src: '/portraits/galladon.webp',
+      alt: 'Galladon, bald, his dark skin mottled grey by the Shaod',
+      artist: 'Jan Sidoryk',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jan_Sidoryk',
+      revealedIn: [{ book: 'elantris', chapter: '1' }],
+    },
+  ],
+  'helaran-davar': [
+    {
+      // A plain portrait, no Shardplate; from Shallan's flashbacks in WoR 19.
+      src: '/portraits/helaran-davar.webp',
+      alt: 'Helaran Davar, red-haired, in a long orange coat',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: [{ book: 'words-of-radiance', chapter: '19' }],
+    },
+  ],
+  'aesudan-kholin': [
+    {
+      // Her red eyes and hands hint at the Unmade's hold on her; dated to the end of Oathbringer to be safe.
+      src: '/portraits/aesudan-kholin.webp',
+      alt: 'Aesudan Kholin in a gold havah',
+      artist: 'Marie Seeberger',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Marie_Seeberger',
+      revealedIn: ['oathbringer'],
+    },
+  ],
+  nightwatcher: [
+    {
+      // Dalinar meets her in the Valley, Oathbringer 114.
+      src: '/portraits/nightwatcher.webp',
+      alt: 'The Nightwatcher, a shape of green mist',
+      artist: 'BrightWatcher',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/BrightWatcher',
+      revealedIn: [{ book: 'oathbringer', chapter: '114' }],
+    },
+  ],
+  'cinder-king': [
+    {
+      // Official interior art; the red mark on his chest may show a cinderheart, so dated late.
+      src: '/portraits/cinder-king.webp',
+      alt: 'The Cinder King in an open coat before a great machine',
+      artist: 'Nabetse Zitro',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nabetse_Zitro',
+      revealedIn: [{ book: 'sunlit-man', chapter: '44' }],
+    },
+  ],
+  'rebeke-salvage': [
+    {
+      // Official interior art of the ambush, The Sunlit Man 17.
+      src: '/portraits/rebeke-salvage-ambush.webp',
+      alt: 'Nomad and Rebeke on a ledge watching ships attack across a dark plain',
+      artist: 'Ernanda Souza',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ernanda_Souza',
+      revealedIn: [{ book: 'sunlit-man', chapter: '17' }],
+    },
+  ],
+  'elegy-salvage': [
+    {
+      // Official interior art; Elegy is named, and known to be Charred, in The Sunlit Man 7.
+      src: '/portraits/elegy-salvage.webp',
+      alt: 'Elegy, glowing, with a sword in a city street',
+      artist: 'Ernanda Souza',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ernanda_Souza',
+      revealedIn: [{ book: 'sunlit-man', chapter: '7' }],
+    },
+  ],
+  ashe: [
+    {
+      // Ashe and Sarene, from her first chapter, Elantris 2.
+      src: '/portraits/ashe-with-sarene.webp',
+      alt: 'Sarene in a long dark dress, with Ashe, a glowing seon, beside her',
+      artist: 'Séverine Dumagny',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/S%C3%A9verine_Dumagny',
+      revealedIn: [{ book: 'elantris', chapter: '2' }],
+    },
+    {
+      // Sarene fencing: she starts teaching the women in Elantris 17.
+      src: '/portraits/ashe-fencing.webp',
+      alt: 'Sarene in white fencing clothes with a sword, Ashe glowing beside her',
+      artist: 'Shayndlart',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shayndlart',
+      revealedIn: [{ book: 'elantris', chapter: '17' }],
+    },
+  ],
+  susebron: [
+    {
+      // Young and enthroned, splitting light into colours: Siri first sees him clearly in Warbreaker 15.
+      src: '/portraits/susebron-throne.webp',
+      alt: 'Susebron, the God King, on his throne, colours shimmering around him',
+      artist: 'Laurys L',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Laurys_L',
+      revealedIn: [{ book: 'warbreaker', chapter: '15' }],
+    },
+    {
+      // Their written talks start in chapter 20 and grow close by chapter 24.
+      src: '/portraits/susebron-and-siri.webp',
+      alt: 'Susebron holding Siri as she writes in a book',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [{ book: 'warbreaker', chapter: '24' }],
+    },
+  ],
+  blushweaver: [
+    {
+      // A plain bust; Blushweaver first appears in Warbreaker 7.
+      src: '/portraits/blushweaver.webp',
+      alt: 'Blushweaver in a green gown and jewelled collar',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'warbreaker', chapter: '7' }],
+    },
+  ],
+  denth: [
+    {
+      // Denth as Vivenna meets him, Warbreaker 9.
+      src: '/portraits/denth.webp',
+      alt: 'Denth, a mercenary in a red waistcoat, sitting on a chair with a sword',
+      artist: 'Imaginative Joy',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Imaginative_Joy',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+  ],
+  'tonk-fah': [
+    {
+      // Tonk Fah as Vivenna meets him, Warbreaker 9.
+      src: '/portraits/tonk-fah.webp',
+      alt: 'Tonk Fah, a big bald mercenary with a club over his shoulder and a pet on his back',
+      artist: 'Imaginative Joy',
+      artistUrl:
+        'https://coppermind.net/wiki/Coppermind:Artists/Imaginative_Joy',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+  ],
+  llarimar: [
+    {
+      // Lightsong's high priest, from Warbreaker 3.
+      src: '/portraits/llarimar.webp',
+      alt: 'Llarimar in the red robes and tall mitre of a priest',
+      artist: 'Jove',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Jove',
+      revealedIn: [{ book: 'warbreaker', chapter: '3' }],
+    },
+  ],
+  dilaf: [
+    {
+      // Shows the ridged body revealed in Elantris 57-58.
+      src: '/portraits/dilaf.webp',
+      alt: 'Dilaf, stripped to the waist, his body covered in ridged markings',
+      artist: 'Shuravf',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Shuravf',
+      revealedIn: [{ book: 'elantris', chapter: '58' }],
+    },
+  ],
+  shuden: [
+    {
+      // A plain portrait; Shuden is introduced by Elantris 11.
+      src: '/portraits/shuden.webp',
+      alt: 'Shuden, a young noble with long red-brown hair',
+      artist: 'botanicaxu',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/botanicaxu',
+      revealedIn: [{ book: 'elantris', chapter: '11' }],
+    },
+  ],
+  kenton: [
+    {
+      // White Sand omnibus cover art (title cropped off); Kenton is a sand master from the prologue.
+      src: '/portraits/kenton-cover.webp',
+      alt: 'Kenton raising a hand wreathed in glowing sand, beside a woman in dark glasses holding a red book',
+      artist: 'Nabetse Zitro & Justyna Dura',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Nabetse_Zitro',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+  ],
+  'edwarn-ladrian': [
+    {
+      // Drawn as Mister Suit; who he is is only revealed at the end of The Alloy of Law.
+      src: '/portraits/edwarn-ladrian-suit.webp',
+      alt: 'A bearded man in a dark suit and green waistcoat',
+      artist: 'Laurys L',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Laurys_L',
+      revealedIn: ['alloy-of-law'],
+    },
+  ],
+  'miles-dagouter': [
+    {
+      // Mistborn Adventure Game art; Miles leads the Vanishers from Alloy of Law 11.
+      src: '/portraits/miles-dagouter.webp',
+      alt: 'Miles Dagouter in a long coat and round dark glasses, with a pistol at his hip',
+      artist: 'Ben McSweeney',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Ben_McSweeney',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '11' }],
+    },
+  ],
+  'sixth-of-the-dusk': [
+    {
+      // Dusk with his birds: the novella, or Isles of the Emberdark 2 (five years ago, with Sak and Kokerlii).
+      src: '/portraits/sixth-of-the-dusk.webp',
+      alt: 'Dusk with his birds Sak and Kokerlii on his shoulders',
+      artist: 'Elisgardor',
+      artistUrl: 'https://coppermind.net/wiki/Coppermind:Artists/Elisgardor',
+      revealedIn: [
+        'sixth-of-the-dusk',
+        { book: 'isles-of-the-emberdark', chapter: '2' },
+      ],
+    },
+  ],
 }

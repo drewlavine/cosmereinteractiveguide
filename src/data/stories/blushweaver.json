@@ -1,0 +1,96 @@
+{
+  "intro": [
+    {
+      "text": "A goddess of Hallandren's Court of Gods who flirts with Lightsong and favours war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "7" }],
+      "fallback": true
+    },
+    {
+      "text": "A goddess of the Court of Gods who schemes to gather the Command phrases for Hallandren's Lifeless armies, readying the kingdom for war with Idris.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Return",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "7" },
+            { "book": "warbreaker", "chapter": "30" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Before her Return, Blushweaver was a well-known merchant in Hallandren. She was assassinated after exposing the dye merchants she worked with for their criminal practices.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+        },
+        {
+          "text": "Returned about fifteen years earlier, she sat on the council of social ills and took part in its weekly votes.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "30" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The push for war",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "16" },
+            { "book": "warbreaker", "chapter": "23" },
+            { "book": "warbreaker", "chapter": "42" },
+            { "book": "warbreaker", "chapter": "50" },
+            { "book": "warbreaker", "chapter": "53" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "At court her high priestess, Inhanna, argued for war. Blushweaver asked Lightsong for his Commands so she could control his part of the Lifeless army, and worried that the new queen had been sent to sway the God King towards Idris.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "16" }]
+        },
+        {
+          "text": "When Mercystar's palace was broken into, Blushweaver comforted her while trying to coax her Lifeless Commands out of her.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+        },
+        {
+          "text": "Blushweaver kept spies in Idris and seeded court crowds with supporters of war. Hopefinder gave her his security phrase in exchange for her votes, and Mercystar gave up hers, but Lightsong and Allmother refused, leaving her with half the Lifeless army.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "42" }]
+        },
+        {
+          "text": "At the arena, Blushweaver voted for war.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+        },
+        {
+          "text": "Blushweaver was kidnapped and taken to the tunnels beneath the Court, where false priests tortured her for her Command phrase, then slit her throat to show Lightsong they were willing to kill.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "53" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "She wears little clothing, usually revealing gowns in her colours of green and silver, and often strikes seductive poses.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "7" }]
+    },
+    {
+      "text": "Considered the epitome of beauty, she has glossy black hair, pale skin, dazzling eyes, red lips and a curvaceous figure.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Decadent and capricious after years of servants meeting her every whim, she still takes her role as a god seriously and works hard to protect Hallandren.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "17" }]
+    },
+    {
+      "text": "Witty and crafty, she enjoys sparring with Lightsong and urges him to fight rather than let things take their course.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+    },
+    {
+      "text": "Vain, she is disgusted by ordinary people's looks and jokes that bad fashion sense is worse than murder.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "epilogue" }]
+    }
+  ]
+}

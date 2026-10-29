@@ -1,0 +1,133 @@
+{
+  "intro": [
+    {
+      "text": "A man whose name Wax asks Marasi about after Wayne hands him a cigar box found at an abandoned criminal hideout.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "10" }],
+      "fallback": true
+    },
+    {
+      "text": "Miles Hundredlives, a former lawman of the Roughs and a nearly unkillable Twinborn, who now leads the Vanishers in a crusade against Elendel's rulers.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Lawman of the Roughs",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "18" },
+            { "book": "alloy-of-law", "chapter": "11" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "As the lawman of True Madil, Miles hunted criminals brutally, killing them when he could. He worked alongside Wax in the Roughs, saving his life several times, and became famous as Miles Hundredlives for his healing.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+        },
+        {
+          "text": "After fifteen years keeping order in the Roughs, Miles grew bitter at the crime and corruption he saw coming out of Elendel and its uncaring leaders, and resolved to change tactics.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Vanishers",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "11" },
+            { "book": "alloy-of-law", "chapter": "13" },
+            { "book": "alloy-of-law", "chapter": "15" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Masked, Miles led the Vanishers' raid on a wedding dinner, ranting about the City's injustices. He tried to take Steris and Marasi hostage and shot Lord Peterus dead for protesting. Wax shot Miles in the head, but he feigned death and escaped with Steris.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        },
+        {
+          "text": "Miles's employer, Mister Suit, rebuked him for losing his temper at the wedding, and Miles promised to kill Wax that day. He insisted he was still a lawkeeper, following his own moral law rather than society's.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "11" }]
+        },
+        {
+          "text": "Miles attacked Wax on a train, trapping Wayne and Marasi in their car. On the roof they fought; Miles threw Wax off, but Wax Pushed himself back and knocked Miles off in turn, stranding him outside Elendel.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "13" }]
+        },
+        {
+          "text": "Mister Suit told Miles that the raid on House Tekiel's Breaknaught would be his last for six months, ordered him to kill Wax that night, and left the city, leaving him two Allomancers, Push and Pull.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Capture",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "17" },
+            { "book": "alloy-of-law", "chapter": "19" },
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "60" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Miles stole the Breaknaught and, guessing Wax was hidden inside, had it taken to his foundry. Wax set off dynamite on its door, and Wayne and Marasi blew open the foundry roof.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "17" }]
+        },
+        {
+          "text": "Wax and his allies rescued Steris and killed all of Miles's men, including his loyal Tarson. Miles fought Wax hand to hand, unaware that Marasi's speed bubble was letting hours pass outside, until Wayne returned at dawn with constables and arrested him.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+        },
+        {
+          "text": "Miles was bound and executed by firing squad. His healing kept him alive through volley after volley until he died after the fifth.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "As his last hidden goldmind ran dry, Miles screamed that they were all doomed to become slaves of men of gold and red, and called on them to worship Trell.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "60" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He smokes expensive Citizen Magistrates cigars, carries a silver lighter etched with the lawkeepers' insignia of True Madil, and favours a big-bore revolver.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "text": "Athletic and powerfully built, with a narrow, hawk-like face, prominent eyebrows and short black hair greased back. He wears a white duster and tinted spectacles, and never a hat.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Consumed by a desire for vengeance on Elendel, which he believes betrayed the Roughs. Crafty and methodical, with a flair for the dramatic, he struggles to control his rage.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "15" }]
+    },
+    {
+      "text": "Grumpy and harsh, he would rather shoot a suspect than weigh his guilt, yet he kept True Madil clean.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "18" }]
+    },
+    {
+      "text": "Even as an outlaw he sees himself as a lawman, serving the spirit of the law if not its letter.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "19" }]
+    }
+  ]
+}

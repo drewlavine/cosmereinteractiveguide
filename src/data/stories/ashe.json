@@ -1,0 +1,91 @@
+{
+  "intro": [
+    {
+      "text": "Sarene's seon, a glowing ball of light who advises her on her marriage contract and Teod's alliance with Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }],
+      "fallback": true
+    },
+    {
+      "text": "A seon bonded to Sarene, who serves as her advisor, scout and messenger in Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sarene's seon",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "8" },
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "26" },
+            { "book": "elantris", "chapter": "32" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Ashe had been passed down to Sarene from her mother. He came with her to Arelon for her marriage to Prince Raoden and discussed with her the threat of Fjorden and King Iadon's weak hold on power.",
+          "revealedIn": [{ "book": "elantris", "chapter": "8" }]
+        },
+        {
+          "text": "Sarene sent Ashe to scout Elantris and the palace dungeons and to watch the gyorn Hrathen, and he reported Hrathen's frequent patrols of the city wall.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "Sent to spy on Spirit, the new leader inside Elantris, Ashe reported that Spirit now ruled the city.",
+          "revealedIn": [{ "book": "elantris", "chapter": "26" }]
+        },
+        {
+          "text": "When Sarene followed King Iadon from a party, Ashe tried to talk her out of it; he had already summoned help before they left.",
+          "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Messenger",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "44" },
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Sarene was thrown into Elantris, Ashe searched for her for two days and found that it had not affected their bond. He carried her messages to her father, King Eventeo, and spied outside the city, bringing word that Telrii had become king.",
+          "revealedIn": [{ "book": "elantris", "chapter": "44" }]
+        },
+        {
+          "text": "Ashe brought Raoden word that Teod was under attack with Sarene there, and showed him which way Teod lay. He also led many Elantrian children to safety in the secret library.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "elantris", "chapter": "62" },
+                "hope-of-elantris"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A melon-sized ball of light with the glowing Aon Ashe at its centre. He has a deep voice and always enunciates perfectly.",
+      "revealedIn": [{ "book": "elantris", "chapter": "2" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Reserved and cautious, he is often displeased when Sarene acts recklessly; her safety matters to him above all, and he cares for her deeply.",
+      "revealedIn": [{ "book": "elantris", "chapter": "32" }]
+    }
+  ]
+}

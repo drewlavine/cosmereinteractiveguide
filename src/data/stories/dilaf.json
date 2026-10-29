@@ -1,0 +1,120 @@
+{
+  "intro": [
+    {
+      "text": "A zealous arteth who says he is an Arelene convert to Shu-Dereth; the gyorn Hrathen makes him his odiv, both to reward and to control him.",
+      "revealedIn": [{ "book": "elantris", "chapter": "3" }],
+      "fallback": true
+    },
+    {
+      "text": "Hrathen's fanatical odiv, a charismatic preacher whose hatred of the Elantrians stirs crowds against them.",
+      "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+    },
+    {
+      "text": "A gragdet, the head of a Derethi monastery, who spent years posing as an Arelene convert to Shu-Dereth and leads the Derethi invasion of Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Infiltration of Arelon",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ],
+      "items": [
+        {
+          "text": "A Dakhor monk, Dilaf was altered to look like a young Arelene and sent to spy in Arelon. When a failed Elantrian healing left the woman he loved in agony, he came to hate Elantris, and settled in Naen posing as an Arelene convert to Shu-Dereth.",
+          "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Hrathen's odiv",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "3" },
+            { "book": "elantris", "chapter": "12" },
+            { "book": "elantris", "chapter": "18" },
+            { "book": "elantris", "chapter": "24" },
+            { "book": "elantris", "chapter": "42" },
+            { "book": "elantris", "chapter": "56" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dilaf told Hrathen he was an Arelene who had taken up the Derethi faith and gathered a following in Naen, and that the arteth Fjon had raised him to arteth without the authority to. Impressed but wary of his ardour, Hrathen made him arteth and odiv.",
+          "revealedIn": [{ "book": "elantris", "chapter": "3" }]
+        },
+        {
+          "text": "Against Hrathen's orders, Dilaf followed his sermon with a fiery one of his own. It won the crowd, and Hrathen both disciplined and praised him.",
+          "revealedIn": [{ "book": "elantris", "chapter": "12" }]
+        },
+        {
+          "text": "Dilaf tortured the Elantrian Diren and drove a crowd into a murderous frenzy against him, until Hrathen turned the mob aside.",
+          "revealedIn": [{ "book": "elantris", "chapter": "18" }]
+        },
+        {
+          "text": "Hrathen grew uneasy as Dilaf gained influence over the chapel, and began to suspect that his odiv was older and more seasoned than he appeared.",
+          "revealedIn": [{ "book": "elantris", "chapter": "24" }]
+        },
+        {
+          "text": "Hrathen reasserted his authority over the chapel, but Dilaf still insisted on his hatred of Elantris.",
+          "revealedIn": [{ "book": "elantris", "chapter": "42" }]
+        },
+        {
+          "text": "Dilaf used the Dor to strip away Raoden's disguise before the court, but stalked out angry when the reaction was not what he had expected.",
+          "revealedIn": [{ "book": "elantris", "chapter": "56" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Invasion",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "58" },
+            { "book": "elantris", "chapter": "59" },
+            { "book": "elantris", "chapter": "62" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "After Raoden was crowned, Dilaf revealed himself as a gragdet, the head of a monastery, outranking Hrathen, and began an invasion with warrior-monks smuggled into Arelon. Hrathen's appointments had never had any force.",
+          "revealedIn": [{ "book": "elantris", "chapter": "58" }]
+        },
+        {
+          "text": "Dilaf's aim was the slaughter of the whole Arelene nation. He besieged Kiin's house and used the captured Raoden to bargain for Sarene.",
+          "revealedIn": [{ "book": "elantris", "chapter": "59" }]
+        },
+        {
+          "text": "Dilaf took Hrathen, Sarene and his monks to Teod by teleportation fuelled by a monk's life. As he began cutting Sarene's throat in front of her father, King Eventeo, Hrathen struck him, broke his nose and fled with her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        },
+        {
+          "text": "Dilaf cornered Raoden and Sarene in Teod, but Hrathen returned and killed him with unnatural strength before dying of his own wounds.",
+          "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He looks like a short, blond Arelene of no more than twenty-five, though he is nearly seventy and was once a tall Derethi man. He usually wears the red robes of a Derethi priest.",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    },
+    {
+      "text": "Like other Dakhor monks, his body is twisted by their magic: his arms are like knotted branches, with ridges and symbols of bone beneath taut skin.",
+      "revealedIn": [{ "book": "elantris", "chapter": "62" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "His eyes burn with passion, and he rarely hides his emotions, from religious fervour to deep hatred. He cannot get along with people.",
+      "revealedIn": [{ "book": "elantris", "chapter": "60" }]
+    }
+  ]
+}

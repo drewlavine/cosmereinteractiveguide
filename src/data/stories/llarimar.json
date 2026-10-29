@@ -1,0 +1,72 @@
+{
+  "intro": [
+    {
+      "text": "Lightsong's high priest, a calm, patient man whom Lightsong teases with the nickname Scoot.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }],
+      "fallback": true
+    },
+    {
+      "text": "Lightsong's high priest, who reveals that before Lightsong's Return he was his brother.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "High priest",
+          "revealedIn": [
+            { "book": "warbreaker", "chapter": "57" },
+            { "book": "warbreaker", "chapter": "12" },
+            { "book": "warbreaker", "chapter": "23" },
+            { "book": "warbreaker", "chapter": "18" },
+            { "book": "warbreaker", "chapter": "52" },
+            { "book": "warbreaker", "chapter": "54" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Llarimar had served the Returned Kindwinds the Honest but grew disillusioned. When his brother Stennimar died saving his daughter Tatara at sea and Returned as Lightsong, Llarimar's faith was restored and he became Lightsong's high priest.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "57" }]
+        },
+        {
+          "text": "Llarimar refused Lightsong's teasing requests to learn about his past life, and calmly answered his doubts about the Iridescent Tones.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "12" }]
+        },
+        {
+          "text": "He recorded Lightsong's dreams and his comments on paintings, believing them prophetic, and urged him to believe in himself.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "23" }]
+        },
+        {
+          "text": "When Lightsong shrank from any political action, Llarimar warned that inaction was also action, and let slip that he had known Lightsong before his Return.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "18" }]
+        },
+        {
+          "text": "Llarimar went with Lightsong into Mercystar's palace and realised that the tunnels beneath it could be reached from the Lifeless barracks.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+        },
+        {
+          "text": "Captured with Lightsong, Llarimar was threatened until Lightsong gave up his Lifeless Command. He then broke the taboo and told Lightsong of his past life as a scribe, and that they had been brothers.",
+          "revealedIn": [{ "book": "warbreaker", "chapter": "54" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "A tall, portly man with spectacles and a calm demeanour.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "3" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "Kind and incredibly patient, he is devoted to Lightsong and the Iridescent Tones. He avoids politics and keeps his thoughts to himself, though he is clever enough to make an impact.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "50" }]
+    },
+    {
+      "text": "Brave: with no combat skills, he followed Lightsong's charge to protect him.",
+      "revealedIn": [{ "book": "warbreaker", "chapter": "52" }]
+    }
+  ]
+}

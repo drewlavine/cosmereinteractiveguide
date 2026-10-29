@@ -1,0 +1,116 @@
+{
+  "intro": [
+    {
+      "text": "A former trapper, now a volunteer at a park, who regrets that the ways of the trappers are fading.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "1" }],
+      "fallback": true
+    },
+    {
+      "text": "A traditional Eelakin trapper of Patji, who travels with his bonded Aviar, Kokerlii and Sak.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "2" }]
+    },
+    {
+      "text": "A former trapper of Patji who sets out into the endless dark of the Cognitive Realm, and learns to Navigate it by sensing the pulses of the Grand Knell.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Trapper of Patji",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "14" },
+            { "book": "isles-of-the-emberdark", "chapter": "4" },
+            { "book": "isles-of-the-emberdark", "chapter": "8" },
+            { "book": "isles-of-the-emberdark", "chapter": "18" },
+            { "book": "isles-of-the-emberdark", "chapter": "20" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Dusk learned woodcraft on Sori, the tamest of the Pantheon isles. When his uncle and mentor died on Patji, Dusk became a trapper of that island, as tradition demanded. He bred Aviar to sell to the homeislands, and raised Sak, who shows him visions of his own corpse to warn of danger.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+        },
+        {
+          "text": "Five years before, Dusk sailed to Patji, Kokerlii shielding his boat from a shadow beneath the waves, and stepped ashore avoiding Sak's visions of his corpse.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+        },
+        {
+          "text": "Dusk tracked a survivor through Patji's jungle, impressed that she avoided its dangers, and brought her, Vathi, to his safecamp, though he doubted her story of how she had found it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "8" }]
+        },
+        {
+          "text": "The Northern Interests Trading Company wanted his help settling the Pantheon, which he opposed. When Sak's powers glitched and the island's Aviar panicked, Dusk blamed the company's Aviar-locating machine, and set off with Vathi to stop it.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        },
+        {
+          "text": "Dusk was speared through the arm when Vathi set off a trap, and gave her the ritual speech for an apprentice's first major mistake. Near the trappers' secret pool, he had to reveal that its glowing worms give the Aviar their talents.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "18" }]
+        },
+        {
+          "text": "At the company's fort, Dusk learned the machine had never been switched on. He realised it was a trap: the Ones Above were leaving their technology for his people to speed their progress. He entered the fort anyway, to rally other trappers and save his world.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "20" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The endless dark",
+          "revealedIn": [
+            { "book": "isles-of-the-emberdark", "chapter": "7" },
+            { "book": "isles-of-the-emberdark", "chapter": "13" },
+            { "book": "isles-of-the-emberdark", "chapter": "24" },
+            { "book": "isles-of-the-emberdark", "chapter": "34" },
+            { "book": "isles-of-the-emberdark", "chapter": "41" },
+            { "book": "isles-of-the-emberdark", "chapter": "57" },
+            { "book": "isles-of-the-emberdark", "chapter": "59" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "In the present, Dusk stopped a man threatening a woman at a subway station; the police, who knew him well, called the president, Vathi.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "7" }]
+        },
+        {
+          "text": "Dusk argued that if their ancestors had travelled the endless night, so could he, and set out for Patji with Vathi to try.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "13" }]
+        },
+        {
+          "text": "Coating his boat in luminist, a glowing worm paste, Dusk set out into the endless dark. Having lost Kokerlii, he was joined by a new Aviar, Rokke.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "24" }]
+        },
+        {
+          "text": "Dusk hunted skullsnakes for water and heard a voice he believed was Patji's. After three weeks he found the island he was searching for.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "34" }]
+        },
+        {
+          "text": "Scadrian soldiers took Dusk in, believing he sought a perpendicularity on the island, and he agreed to explore its Cave of Death for their commander, Dajer.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "41" }]
+        },
+        {
+          "text": "Dusk had learned to sense the pulses of the Grand Knell after eating luminist, letting him Navigate the Cognitive Realm and find land in it. He finally revealed this to Starling.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "57" }]
+        },
+        {
+          "text": "In Cakoban the Navigator's name, Dusk formally challenged the Dakwara, the giant creature at the island's heart.",
+          "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "59" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [],
+  "personality": [
+    {
+      "text": "Calm, patient and always alert, he rarely speaks and is unused to company after a trapper's solitary life. He is practical, valuing survival over tradition.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "4" }]
+    },
+    {
+      "text": "He loves Patji and serves as its priest, but sees it as a vengeful father forever trying to kill him.",
+      "revealedIn": [{ "book": "isles-of-the-emberdark", "chapter": "14" }]
+    }
+  ]
+}

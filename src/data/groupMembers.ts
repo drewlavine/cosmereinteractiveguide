@@ -648,6 +648,16 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'oathbringer', chapter: '3' }],
     },
   ],
+  'culture:denths-crew': [
+    {
+      characterId: 'denth',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+    {
+      characterId: 'tonk-fah',
+      revealedIn: [{ book: 'warbreaker', chapter: '9' }],
+    },
+  ],
   'culture:diagram': [
     {
       characterId: 'adrotagia',
@@ -708,6 +718,12 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'words-of-radiance', chapter: 'i-14' }],
     },
   ],
+  'culture:diem': [
+    {
+      characterId: 'kenton',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: 'prologue' }],
+    },
+  ],
   'culture:envisagers': [
     {
       characterId: 'teft',
@@ -721,6 +737,10 @@ export const groupMembers: Record<
     },
   ],
   'culture:five-scholars': [
+    {
+      characterId: 'denth',
+      revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
+    },
     {
       characterId: 'shashara',
       revealedIn: [{ book: 'warbreaker', chapter: 'epilogue' }],
@@ -1193,6 +1213,16 @@ export const groupMembers: Record<
       revealedIn: [{ book: 'oathbringer', chapter: '12' }],
     },
   ],
+  'culture:set': [
+    {
+      characterId: 'edwarn-ladrian',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+    },
+    {
+      characterId: 'miles-dagouter',
+      revealedIn: [{ book: 'alloy-of-law', chapter: 'epilogue' }],
+    },
+  ],
   'culture:seventeenth-shard': [
     {
       characterId: 'baon',
@@ -1256,6 +1286,12 @@ export const groupMembers: Record<
     {
       characterId: 'tindwyl',
       revealedIn: [{ book: 'well-of-ascension', chapter: '16' }],
+    },
+  ],
+  'culture:taishin': [
+    {
+      characterId: 'kenton',
+      revealedIn: [{ book: 'white-sand-omnibus', chapter: '5' }],
     },
   ],
   'culture:takers': [
@@ -1372,6 +1408,12 @@ export const groupMembers: Record<
     {
       characterId: 'vathah',
       revealedIn: [{ book: 'rhythm-of-war', chapter: '20' }],
+    },
+  ],
+  'culture:vanishers': [
+    {
+      characterId: 'miles-dagouter',
+      revealedIn: [{ book: 'alloy-of-law', chapter: '11' }],
     },
   ],
   'culture:veristitalian': [

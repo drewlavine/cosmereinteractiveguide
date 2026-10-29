@@ -1,0 +1,205 @@
+{
+  "intro": [
+    {
+      "text": "Wax's uncle and the former High Lord of House Ladrian, who faked his death and, as Mister Suit, secretly funded the Vanishers.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Wax's uncle, who once tried to steer the twelve-year-old Wax into banking, scorning his wish to be a hero.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }],
+      "fallback": true
+    },
+    {
+      "text": "Wax's uncle, a member of the secret Set, who faked his death to work in the shadows towards a rebellion in Elendel.",
+      "revealedIn": [
+        {
+          "all": [
+            { "book": "alloy-of-law", "chapter": "epilogue" },
+            { "book": "bands-of-mourning", "chapter": "17" }
+          ]
+        }
+      ]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "House Ladrian",
+          "revealedIn": [
+            { "book": "alloy-of-law", "chapter": "3" },
+            { "book": "shadows-of-self", "chapter": "8" },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Edwarn, Wax's uncle and a descendant of Breeze and Allrianne, was the fifteenth High Lord of House Ladrian.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "3" }]
+        },
+        {
+          "text": "When Wax was twelve, Edwarn took him to the bank to steer him towards banking, scorning his wish to be a hero: the days of heroes, he said, were past.",
+          "revealedIn": [{ "book": "shadows-of-self", "chapter": "8" }]
+        },
+        {
+          "text": "Edwarn was thought to have squandered the family fortune on poor deals and horse-race bets, and was remembered as a hermit who wrote political letters to the broadsheets and offended most of the city's upper crust.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "He had prepared Hinston to take over the house, but when Hinston died of disease he had to turn to Wax. Before faking his death, he secretly moved money into the Set's accounts.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "Mister Suit",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            },
+            { "book": "alloy-of-law", "chapter": "epilogue" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Within the Set, Edwarn won approval for his own operation, the Community, meant to supply Allomancers for the Set's experiments, and formed the Vanishers to carry it out.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "lost-metal", "chapter": "57" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "As Mister Suit, Edwarn funded the Vanishers' robberies, which ruined House Tekiel, and hired Miles to kidnap women with the right Allomantic powers so that the Set could breed Allomancers. Steris was among them.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        },
+        {
+          "text": "Wax realised his uncle was alive and was Mister Suit, and tracked him to a train using Miles's notes. Edwarn revealed nothing of his plans and thanked Wax for defeating Miles; Wax had to let him go because he held Wax's sister captive.",
+          "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+        }
+      ]
+    },
+    {
+      "title": [
+        {
+          "text": "The Set",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "17" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "27" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "30" }
+              ]
+            },
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Wax found his uncle again through a safe deposit box listed in a stolen notebook. Edwarn compared the Set to Kelsier's crew and said Wax would have sided with the Lord Ruler.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "shadows-of-self", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Edwarn sought to start a rebellion in Elendel and profit from the chaos, and with the Set he developed technology kept secret from everyone else.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "17" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Edwarn went after a weapon in a temple in the south. Trapped there with Wax, he bargained for his help, then had Wax's sister Telsin, his mole, shoot him. Edwarn revealed that Telsin had recruited him into the Set, not the other way round.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "27" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "Edwarn, a Hemalurgist with spikes giving him the powers of a Coinshot, a Bloodmaker and a Leecher, armed a bomb on an airship and fought Wax. Wax beat him and left him tied to the spear of the temple's statue of the Lord Ruler.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "30" }
+              ]
+            }
+          ]
+        },
+        {
+          "text": "In prison Edwarn gave nothing away. A Faceless Immortal with glowing red eyes visited him, impressed, then killed them both in an explosion, saying he would be allowed to serve in another Realm.",
+          "revealedIn": [
+            {
+              "all": [
+                { "book": "alloy-of-law", "chapter": "epilogue" },
+                { "book": "bands-of-mourning", "chapter": "epilogue" }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "He wears an extremely stylish, expensive suit of black silk with a turquoise vest, and carries a whale-ivory cane.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    },
+    {
+      "text": "Round-faced and stocky, with a short, precisely trimmed beard and a cravat so narrow it lies flat like a loosened bowtie.",
+      "revealedIn": [{ "book": "shadows-of-self", "chapter": "17" }]
+    }
+  ],
+  "personality": [
+    {
+      "text": "He dislikes the smell of cigars and kept close track of what rival houses were shipping.",
+      "revealedIn": [{ "book": "alloy-of-law", "chapter": "epilogue" }]
+    }
+  ]
+}

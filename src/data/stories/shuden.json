@@ -1,0 +1,54 @@
+{
+  "intro": [
+    {
+      "text": "Baron Shuden, a JinDo merchant noble and one of Raoden's allies among the powerful lords of Arelon.",
+      "revealedIn": [{ "book": "elantris", "chapter": "11" }]
+    }
+  ],
+  "history": [
+    {
+      "title": [
+        {
+          "text": "Sarene's ally",
+          "revealedIn": [
+            { "book": "elantris", "chapter": "14" },
+            { "book": "elantris", "chapter": "17" },
+            { "book": "elantris", "chapter": "23" },
+            { "book": "elantris", "chapter": "35" },
+            { "book": "elantris", "chapter": "63" }
+          ]
+        }
+      ],
+      "items": [
+        {
+          "text": "Shuden escorted Sarene to a party at Duke Telrii's, telling her of Shu-Keseg, the parent religion of Shu-Korath and Shu-Dereth, and sharing his concern about Hrathen.",
+          "revealedIn": [{ "book": "elantris", "chapter": "14" }]
+        },
+        {
+          "text": "He impressed the group with a ChayShan exercise, though he claimed to be only an amateur.",
+          "revealedIn": [{ "book": "elantris", "chapter": "17" }]
+        },
+        {
+          "text": "Shuden was the only noble who agreed to go with Sarene to bring food to the Elantrians, and he went into Elantris with her.",
+          "revealedIn": [{ "book": "elantris", "chapter": "23" }]
+        },
+        {
+          "text": "He suggested that Sarene marry Duke Roial, combining their wealth to back Roial's claim to the throne over Telrii's.",
+          "revealedIn": [{ "book": "elantris", "chapter": "35" }]
+        },
+        {
+          "text": "Caught by the Derethi with Lukel, Shuden fought back with ChayShan and broke the bones of a Dakhor monk, but they were overwhelmed.",
+          "revealedIn": [{ "book": "elantris", "chapter": "63" }]
+        }
+      ]
+    }
+  ],
+  "appearance": [
+    {
+      "text": "Considered attractive.",
+      "revealedIn": [{ "book": "elantris", "chapter": "17" }],
+      "fallback": true
+    }
+  ],
+  "personality": []
+}
