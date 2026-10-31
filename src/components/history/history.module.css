@@ -1,0 +1,869 @@
+/* A planet's History section (PlanetHistory.tsx) in its four styles. Panels,
+   gold hairlines and display type as on the rest of the planet page; each
+   era's colour arrives as --tone. */
+
+/* ponytail: temporary style switcher (historyLook.ts). */
+.try {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.25rem 0 0;
+}
+
+.tryLabel {
+  margin-right: 0.3rem;
+  color: rgba(212, 165, 64, 0.85);
+  font-size: 0.62rem;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.tryOption,
+.filter,
+.controls button {
+  min-height: 2.5rem;
+  padding: 0.2rem 0.9rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 999px;
+  background: rgba(17, 27, 35, 0.9);
+  color: var(--gold-soft);
+  font: inherit;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.tryOption[aria-pressed='true'],
+.filter[aria-pressed='true'] {
+  border-color: var(--gold);
+  background: #4a3b17;
+  color: #fff;
+}
+
+.controls button:disabled {
+  opacity: 0.4;
+  cursor: default;
+}
+
+.tip {
+  margin: 0.35rem 0 1.1rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.85rem;
+}
+
+/* A moment's words. */
+.kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.25rem 0.6rem;
+  margin: 0 0 0.2rem;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.7rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.kind {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  color: var(--kind);
+  font-weight: 700;
+}
+
+.kind::before {
+  content: '';
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background: currentColor;
+}
+
+[data-kind='legend'] {
+  --kind: #b9a3f2;
+}
+
+[data-kind='magic'] {
+  --kind: #67d3c4;
+}
+
+[data-kind='war'] {
+  --kind: #ec8a78;
+}
+
+[data-kind='realm'] {
+  --kind: #e2b552;
+}
+
+.title {
+  margin: 0 0 0.35rem;
+  color: var(--text-strong);
+  font-family: var(--display);
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.text {
+  margin: 0 0 0.5rem;
+}
+
+.places {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin: 0 0 0.45rem;
+  padding: 0;
+  list-style: none;
+}
+
+.places a {
+  display: inline-block;
+  padding: 0.05rem 0.6rem;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 999px;
+  font-size: 0.8rem;
+  text-decoration: none;
+}
+
+.places a::before {
+  content: '⌖ ';
+}
+
+.source {
+  margin: 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
+.era {
+  margin: 0 0 1.5rem;
+}
+
+.eraTitle {
+  margin: 0;
+  padding-left: 0.65rem;
+  border-left: 4px solid var(--tone);
+  color: var(--text-strong);
+  font-size: 1.4rem;
+}
+
+.when {
+  margin: 0.15rem 0 0;
+  padding-left: calc(0.65rem + 4px);
+  color: var(--tone);
+  font-size: 0.8rem;
+  letter-spacing: 0.03em;
+}
+
+/* The stage: the world, a map flown to a place, or a piece of art. */
+.stage {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-radius: 12px;
+  background:
+    radial-gradient(
+      circle at 50% 50%,
+      color-mix(in srgb, var(--tone) 30%, transparent),
+      transparent 62%
+    ),
+    #0b141b;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: background-color 0.6s;
+}
+
+.world,
+.map {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  transition: opacity 0.6s;
+}
+
+.world {
+  padding: 10%;
+}
+
+.stage:not([data-mode='world']) .world {
+  opacity: 0.2;
+}
+
+.map {
+  opacity: 0;
+}
+
+.stage[data-mode='map'] .map {
+  opacity: 1;
+}
+
+.zoom {
+  transform-origin: 0 0;
+  transition: transform 0.9s cubic-bezier(0.3, 0.1, 0.2, 1);
+}
+
+.area {
+  fill: color-mix(in srgb, var(--tone) 35%, transparent);
+  stroke: var(--tone);
+  stroke-width: 2.5;
+  vector-effect: non-scaling-stroke;
+}
+
+.pin {
+  fill: var(--tone);
+  stroke: #0b141b;
+  stroke-width: 2;
+}
+
+.pulse {
+  fill: none;
+  stroke: var(--tone);
+  stroke-width: 2;
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: pulse 2s ease-out infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(0.5);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.label {
+  fill: #fff;
+  stroke: rgba(8, 14, 19, 0.85);
+  stroke-width: 0.3em;
+  stroke-linejoin: round;
+  paint-order: stroke;
+  font-family: var(--display);
+}
+
+/* Pins and names land once the map has flown there. */
+.marks {
+  animation: land 0.5s 0.6s both;
+}
+
+@keyframes land {
+  from {
+    opacity: 0;
+  }
+}
+
+.art {
+  position: absolute;
+  inset: 1rem 1rem 0.5rem;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0;
+  animation: land 0.5s both;
+}
+
+.art :global(.art-open) {
+  position: relative;
+  display: flex;
+  flex: 1 1 0;
+  justify-content: center;
+  align-items: center;
+  min-height: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.art img {
+  display: block;
+  max-width: 100%;
+  max-height: 100%;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 10px;
+  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.5);
+}
+
+.art figcaption,
+.cardArt figcaption {
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.art figcaption a,
+.cardArt figcaption a {
+  color: inherit;
+}
+
+/* Beside a map, the art shrinks to a corner clear of the marked places. */
+.stage[data-mode='map'] .art {
+  inset: auto 0.6rem 0.6rem auto;
+  width: 26%;
+  padding: 0.3rem 0.3rem 0.15rem;
+  border-radius: 10px;
+  background: rgba(8, 14, 19, 0.85);
+}
+
+.stage[data-corner='bl'] .art {
+  inset: auto auto 0.6rem 0.6rem;
+}
+
+.stage[data-corner='tr'] .art {
+  inset: 0.6rem 0.6rem auto auto;
+}
+
+.stage[data-corner='tl'] .art {
+  inset: 0.6rem auto auto 0.6rem;
+}
+
+.stage[data-mode='map'] .art :global(.art-open) {
+  flex: none;
+}
+
+.stage[data-mode='map'] .art figcaption {
+  font-size: 0.6rem;
+}
+
+/* Chronicle: steps scroll by while the stage sticks beside them. */
+.chronicle {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+  gap: 1.75rem;
+  align-items: start;
+}
+
+.chronicleStage {
+  position: sticky;
+  top: 1rem;
+  z-index: 1;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.chronicleStage .stage {
+  aspect-ratio: 4 / 5;
+  max-height: calc(100dvh - 7rem);
+}
+
+.stageCaption {
+  margin: 0.5rem 0.25rem 0;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.1rem;
+  text-align: center;
+}
+
+.stageCaption span {
+  display: block;
+  color: var(--tone);
+  font-family: system-ui, sans-serif;
+  font-size: 0.66rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.chronicleSteps {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.stepList {
+  margin: 1rem 0 0 0.4rem;
+  padding: 0 0 0 1.25rem;
+  border-left: 2px solid color-mix(in srgb, var(--tone) 45%, transparent);
+  list-style: none;
+}
+
+.step {
+  position: relative;
+  margin: 0 0 20vh;
+  padding: 0.9rem 1rem;
+  border: 1px solid rgba(212, 165, 64, 0.2);
+  border-radius: 12px;
+  background: var(--panel);
+  opacity: 0.55;
+  cursor: pointer;
+  transition:
+    opacity 0.3s,
+    border-color 0.3s,
+    box-shadow 0.3s;
+}
+
+.step::before {
+  content: '';
+  position: absolute;
+  top: 1.2rem;
+  left: calc(-1.25rem - 8px);
+  width: 14px;
+  height: 14px;
+  border: 2px solid var(--tone);
+  border-radius: 50%;
+  background: #0b141b;
+}
+
+.step[aria-current='step'] {
+  border-color: var(--tone);
+  box-shadow:
+    0 0 0 1px var(--tone),
+    0 6px 20px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+}
+
+.step[aria-current='step']::before {
+  background: var(--tone);
+  box-shadow: 0 0 10px var(--tone);
+}
+
+.era:last-child .step:last-child {
+  margin-bottom: 30vh;
+}
+
+.step:focus-visible,
+.cardToggle:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+/* Time scrubber: an era ribbon, a slider over every moment, one card. */
+.ribbon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  margin-bottom: 0.8rem;
+}
+
+.ribbonEra {
+  flex: 1 1 auto;
+  min-width: 0;
+  min-height: 2.5rem;
+  padding: 0.35rem 0.5rem;
+  overflow: hidden;
+  border: 0;
+  border-top: 4px solid var(--tone);
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--tone) 12%, var(--slate-deep));
+  color: var(--text);
+  font: inherit;
+  font-size: 0.78rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.ribbonEra[aria-pressed='true'] {
+  background: color-mix(in srgb, var(--tone) 35%, var(--slate-deep));
+  color: #fff;
+  font-weight: 600;
+}
+
+.ribbonEra:focus-visible,
+.range:focus-visible,
+.tryOption:focus-visible,
+.filter:focus-visible,
+.controls button:focus-visible,
+.linkChip:focus-visible {
+  outline: 2px solid var(--gold);
+  outline-offset: 2px;
+}
+
+.range {
+  display: block;
+  width: 100%;
+  margin: 0;
+  accent-color: var(--gold);
+  cursor: pointer;
+}
+
+.ticks {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.2rem 0 0.75rem;
+  padding: 0 5px;
+}
+
+.ticks span {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--tone) 30%, transparent);
+}
+
+.ticks span[data-past] {
+  background: var(--tone);
+}
+
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1rem;
+}
+
+.count {
+  margin-left: auto;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.8rem;
+  font-variant-numeric: tabular-nums;
+}
+
+.scrubCard {
+  display: grid;
+  grid-template-columns: minmax(0, 1.2fr) minmax(0, 1fr);
+  gap: 1.25rem;
+  align-items: center;
+  padding: 1rem;
+  border: 1px solid color-mix(in srgb, var(--tone) 55%, transparent);
+  border-radius: 14px;
+  background: var(--panel);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  transition: border-color 0.6s;
+}
+
+.fadeIn {
+  animation: rise 0.45s ease-out both;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+}
+
+/* Codex: cards by era, filtered by kind, linked by cause. */
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  margin-bottom: 1.25rem;
+}
+
+.filter span {
+  margin-left: 0.2rem;
+  opacity: 0.7;
+  font-variant-numeric: tabular-nums;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  gap: 0.9rem;
+  margin: 0.8rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card {
+  padding: 0.9rem 1rem;
+  overflow: hidden;
+  border: 1px solid rgba(212, 165, 64, 0.3);
+  border-top: 4px solid var(--tone);
+  border-radius: 12px;
+  background: var(--panel);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
+  scroll-margin: 1rem;
+}
+
+.card[data-open] {
+  grid-column: 1 / -1;
+}
+
+.card[data-flash] {
+  animation: flash 1.6s ease-out;
+}
+
+@keyframes flash {
+  0%,
+  40% {
+    box-shadow:
+      0 0 0 3px var(--gold),
+      0 0 26px rgba(212, 165, 64, 0.6);
+  }
+}
+
+.thumb {
+  display: block;
+  width: calc(100% + 2rem);
+  height: 7rem;
+  margin: -0.9rem -1rem 0.7rem;
+  object-fit: cover;
+  object-position: center 12%;
+}
+
+.cardToggle {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: inherit;
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cardToggle::after {
+  content: ' +';
+  color: var(--gold);
+}
+
+.cardToggle[aria-expanded='true']::after {
+  content: ' −';
+}
+
+.teaser {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  line-clamp: 3;
+}
+
+.cardArt {
+  float: right;
+  width: min(32%, 13rem);
+  margin: 0 0 0.6rem 1rem;
+}
+
+.cardArt :global(.art-open) {
+  display: block;
+  width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  cursor: zoom-in;
+}
+
+.cardArt img {
+  display: block;
+  width: 100%;
+  border: 1px solid rgba(212, 165, 64, 0.35);
+  border-radius: 10px;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.3rem;
+  margin: 0.55rem 0 0;
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.linkChip {
+  padding: 0.2rem 0.6rem;
+  border: 1px dashed rgba(212, 165, 64, 0.55);
+  border-radius: 999px;
+  background: none;
+  color: var(--gold);
+  font: inherit;
+  font-size: 0.8rem;
+  letter-spacing: normal;
+  text-transform: none;
+  cursor: pointer;
+}
+
+/* As you read it: what the reader knew at each point in their books. */
+.retoldHead {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem 1rem;
+  margin-bottom: 0.6rem;
+}
+
+.retoldHead .controls {
+  margin: 0;
+}
+
+.retoldNow {
+  margin: 0;
+  color: var(--gold-soft);
+  font-family: var(--display);
+  font-size: 1.2rem;
+}
+
+.retoldNow strong {
+  color: var(--gold);
+  font-weight: 400;
+}
+
+.retoldNow span {
+  display: block;
+  color: var(--text-muted, #9fb0bc);
+  font-family: system-ui, sans-serif;
+  font-size: 0.8rem;
+}
+
+.books {
+  display: flex;
+  gap: 3px;
+  margin: 0.3rem 0 1.4rem;
+}
+
+.books span {
+  flex-basis: 0;
+  min-width: 0;
+  padding-top: 0.25rem;
+  overflow: hidden;
+  border-top: 3px solid rgba(212, 165, 64, 0.45);
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.7rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.retoldList {
+  display: grid;
+  gap: 0.6rem;
+  margin: 0.7rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.retoldItem {
+  padding: 0.75rem 1rem;
+  border: 1px solid rgba(212, 165, 64, 0.2);
+  border-left: 3px solid var(--tone);
+  border-radius: 10px;
+  background: var(--panel);
+  transition: opacity 0.3s;
+}
+
+.retoldItem[data-status='known'] {
+  opacity: 0.6;
+}
+
+.retoldItem[data-status='new'] {
+  border-color: var(--gold);
+  box-shadow:
+    0 0 0 1px var(--gold),
+    0 0 18px rgba(212, 165, 64, 0.25);
+  animation: rise 0.45s ease-out both;
+}
+
+.retoldItem[data-status='retold'] {
+  border-color: #84c5e6;
+  box-shadow: 0 0 0 1px #84c5e6;
+}
+
+.badge {
+  float: right;
+  margin-left: 0.5rem;
+  padding: 0.05rem 0.5rem;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #1a1408;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+[data-status='retold'] .badge {
+  background: #84c5e6;
+}
+
+.before {
+  margin: 0;
+  padding-left: 0.6rem;
+  border-left: 2px solid rgba(255, 255, 255, 0.15);
+  color: var(--text-muted, #9fb0bc);
+  font-size: 0.85rem;
+}
+
+.before span,
+.was {
+  margin-right: 0.35rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.was {
+  display: block;
+  color: var(--text-muted, #9fb0bc);
+  font-family: system-ui, sans-serif;
+}
+
+@media (max-width: 760px) {
+  .chronicle {
+    grid-template-columns: minmax(0, 1fr);
+    gap: 0.75rem;
+  }
+
+  .chronicleStage {
+    top: 0;
+    grid-column: 1;
+    padding: 0.5rem 0;
+    background: var(--bg);
+  }
+
+  .chronicleStage .stage {
+    aspect-ratio: 16 / 10;
+    max-height: 36vh;
+  }
+
+  .stageCaption {
+    font-size: 0.95rem;
+  }
+
+  .chronicleSteps {
+    grid-row: 2;
+  }
+
+  .step {
+    margin-bottom: 12vh;
+  }
+
+  .scrubCard {
+    grid-template-columns: minmax(0, 1fr);
+  }
+
+  .cardArt {
+    width: 42%;
+    margin-left: 0.75rem;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .stage,
+  .world,
+  .map,
+  .zoom,
+  .step,
+  .scrubCard,
+  .retoldItem {
+    transition: none;
+  }
+
+  .pulse {
+    display: none;
+  }
+
+  .marks,
+  .art,
+  .fadeIn,
+  .card[data-flash],
+  .retoldItem[data-status='new'] {
+    animation: none;
+  }
+
+  .card[data-flash] {
+    box-shadow: 0 0 0 3px var(--gold);
+  }
+}

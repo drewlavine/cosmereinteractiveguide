@@ -3,12 +3,14 @@ import { useLinkText, type LinkTextFn } from '../components/LinkedText'
 import { Link, useParams } from 'react-router'
 import { BookList } from '../components/BookList'
 import { InteractiveMap } from '../components/InteractiveMap'
+import { PlanetHistory } from '../components/history/PlanetHistory'
 import { PlanetGlobe } from '../components/PlanetGlobe'
 import { PageContents } from '../components/PageSections'
 import { PlanetMaps } from '../components/PlanetMaps'
 import { SpoilerNotice } from '../components/SpoilerNotice'
 import { locations } from '../data/locations'
 import { planetMaps, versionUnlocked } from '../data/maps'
+import { revealPlanetHistory } from '../data/planetHistory'
 import { useBooksRead } from '../state/booksRead'
 import { useCanSee, useShownSystem } from '../state/reveal'
 import { HiddenPage } from './HiddenPage'
@@ -61,7 +63,9 @@ export function PlanetDetail() {
   const unseenPlaces = locations.some(
     (l) => l.planetId === planet.id && !canSee(l.revealedIn),
   )
-  const spoilers = planet.spoilers || unreadMaps || unseenPlaces
+  const history = revealPlanetHistory(planet.id, canSee, showAll)
+  const spoilers =
+    planet.spoilers || unreadMaps || unseenPlaces || history.spoilers
 
   const moonNames = planet.moons.flatMap((m) => (m.name ? [m.name] : []))
   const unnamedMoons = planet.moons.length - moonNames.length
@@ -132,6 +136,15 @@ export function PlanetDetail() {
             planetId={planet.id}
             showAll={showAll}
           />
+          {history.eras.length > 0 && (
+            <PlanetHistory
+              key={`history-${planet.id}`}
+              eras={history.eras}
+              systemId={system.id}
+              planet={planet}
+              showAll={showAll}
+            />
+          )}
           <PlanetMaps key={planet.id} planetId={planet.id} showAll={showAll} />
         </div>
         <PageContents key={`contents-${planet.id}`} />

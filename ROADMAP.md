@@ -80,6 +80,13 @@ Category:Cosmere; check anything unclear by hand.
   - [x] Group maps of the same place by era (e.g. Scadrial Era 1 vs Era 2)
   - [x] Credit the source and respect its licence
 
+### 1a. Planet history
+
+- [x] Spoiler-gated history POC on Nalthis and Scadrial (Era 1), with four
+      interactive options: Chronicle, Time scrubber, Codex and As you read it
+- [ ] Choose a history style after feedback, then remove the comparison
+      controls (`?history=chronicle|scrubber|codex|retold`)
+
 ### 1b. Clickable map regions
 
 - [ ] Make countries and cities on each map clickable, opening a page with
